@@ -66,7 +66,7 @@ def analyze(rec: BillRecord, bill_text: str, model_id: str = config.ANALYSIS_MOD
     return AnalysisFile(
         bill_id=rec.id, model=model_id, prompt_version=prompt_version(PROMPT),
         generated_at=datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        record_fetched_at=rec.fetched_at, analysis=analysis, unresolved_citations=bad,
+        record_fetched_at=rec.fetched_at, record_hash=rec.content_hash, analysis=analysis, unresolved_citations=bad,
     )
 
 
@@ -85,7 +85,7 @@ def run(slug: str, force: bool = False, model_id: str = config.ANALYSIS_MODEL) -
     rec = BillRecord.model_validate_json(rec_path.read_text())
     if out.exists() and not force:
         existing = AnalysisFile.model_validate_json(out.read_text())
-        if existing.model == model_id and existing.prompt_version == prompt_version(PROMPT) and existing.record_fetched_at == rec.fetched_at:
+        if existing.model == model_id and existing.prompt_version == prompt_version(PROMPT) and existing.record_hash == rec.content_hash:
             print(f"  = {slug} up to date ({model_id})")
             return existing
     text_path = config.RAW_DIR / slug / "text.txt"

@@ -105,6 +105,7 @@ class BillRecord(BaseModel):
     congress_ended: bool
     sources: list[Source] = Field(default_factory=list)
     fetched_at: str
+    content_hash: str = ""   # hash of everything above except fetched_at; analyses key on this
 
 
 # ---- model output -----------------------------------------------------------
@@ -189,5 +190,6 @@ class AnalysisFile(BaseModel):
     prompt_version: str
     generated_at: str
     record_fetched_at: str
+    record_hash: str = ""
     analysis: Analysis
     unresolved_citations: list[str] = Field(default_factory=list)

@@ -41,7 +41,7 @@ Two slots, set in `.env` (OpenRouter ids):
 | Slot | Env var | Default | Job |
 |---|---|---|---|
 | Triage | `TABLED_TRIAGE_MODEL` | `z-ai/glm-5.3-flash` | Score every bill title in a Congress |
-| Analysis | `TABLED_ANALYSIS_MODEL` | `anthropic/claude-opus-5` | Write the sourced entry for shortlisted bills |
+| Analysis | `TABLED_ANALYSIS_MODEL` | `z-ai/glm-5.3-flash` | Write the sourced entry for shortlisted bills |
 
 Every analysis records the model and a hash of the prompt that produced it. `tabled analyze` skips bills whose analysis already matches the current model, prompt, and fetched record; `--force` regenerates, `--model` overrides the slot for one run.
 

@@ -5,6 +5,7 @@ model never sees anything we did not store.
 """
 from __future__ import annotations
 
+import hashlib
 import html
 import json
 import re
@@ -100,6 +101,7 @@ class CongressClient:
 
         # Congress.gov lists newest first; reverse, then a stable sort keeps same-day order sane.
         actions = [self._action(a, slug, force) for a in reversed(actions_raw)]
+        actions = _dedupe_actions(actions)
         actions.sort(key=lambda a: a.date)
 
         sponsors = [_person(s) for s in bill.get("sponsors", [])]
@@ -136,6 +138,7 @@ class CongressClient:
             fetched_at=datetime.now(timezone.utc).isoformat(timespec="seconds"),
         )
         rec.sources = build_sources(rec)
+        rec.content_hash = hashlib.sha256(rec.model_dump_json(exclude={"fetched_at", "content_hash"}).encode()).hexdigest()[:16]
         (self.cache_dir / slug / "record.json").write_text(rec.model_dump_json(indent=1))
         return rec
 
@@ -181,6 +184,18 @@ class CongressClient:
         src = (a.get("sourceSystem") or {}).get("name", "")
         chamber = "Senate" if "Senate" in src else "House" if "House" in src else None
         return Action(date=a.get("actionDate", ""), text=a.get("text", ""), chamber=chamber, action_code=a.get("actionCode"), votes=votes)
+
+
+def _dedupe_actions(actions: list[Action]) -> list[Action]:
+    """Congress.gov reports floor votes twice (Senate system + Library of Congress). Keep the chamber-tagged one."""
+    out: list[Action] = []
+    for a in actions:
+        dup = next((o for o in out if o.date == a.date and o.text == a.text), None)
+        if dup is None:
+            out.append(a)
+        elif a.chamber and not dup.chamber:
+            out[out.index(dup)] = a
+    return out
 
 
 def build_sources(rec: BillRecord) -> list[Source]:

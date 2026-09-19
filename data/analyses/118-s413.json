@@ -1,38 +1,145 @@
 {
  "bill_id": "118-s413",
- "model": "fixture/hand-written-placeholder",
- "prompt_version": "fixture",
- "generated_at": "2026-09-19T00:00:00+00:00",
- "record_fetched_at": "fixture",
+ "model": "z-ai/glm-5.3-flash",
+ "prompt_version": "25c5cd7b3b",
+ "generated_at": "2026-09-19T22:14:10+00:00",
+ "record_fetched_at": "2026-09-19T22:06:24+00:00",
  "analysis": {
-  "headline": "Referred to the Senate Finance Committee on the day it was introduced; no hearing, markup, or vote followed before the 118th Congress ended.",
-  "plain_summary": "When a company buys back its own shares, it raises the price of the remaining shares, which mostly benefits large shareholders and executives paid in stock. Since 2023 there has been a 1% excise tax on buybacks. This bill would raise that tax to 4%.",
-  "who_benefits": "The public treasury, and indirectly anyone who depends on federal spending, since a higher buyback tax raises revenue and nudges companies toward investment, wages, or dividends instead of share repurchases.",
+  "headline": "Introduced in the Senate on Feb 14, 2023 and referred to the Finance Committee the same day; it received no further action and died there when the 118th Congress ended on Jan 3, 2025.",
+  "plain_summary": "This bill would raise the federal excise tax on corporate stock buybacks from 1% to 4% [S2]. A stock buyback is when a company buys back its own shares from investors, which boosts the stock price and often enriches executives whose pay is tied to the stock. The 1% tax was created in 2022 as part of the Inflation Reduction Act; this bill would make it four times larger. The bill also closes a related tax break: stock issued to executives and other covered employees would no longer offset the tax owed on buybacks, and both changes would apply to repurchases made after enactment [S3].",
+  "who_benefits": "Ordinary taxpayers in general, since the added revenue flows to the federal Treasury rather than staying with the companies and large shareholders executing buybacks [S2]. Workers and long-term savers could also benefit indirectly: a 4% tax makes buybacks more expensive, which shifts some corporate cash toward other uses.",
   "how_it_helps": [
-   {"text": "Quadruples the excise tax on corporate stock repurchases from 1% to 4%.", "sources": ["S2", "S3"]},
-   {"text": "Makes buybacks less attractive relative to reinvesting in workers and equipment, the stated aim of the sponsors.", "sources": ["S3"]}
+   {
+    "text": "Raises the buyback excise tax rate from 1% to 4%, generating additional federal revenue each year that companies repurchase stock.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Discourages the practice of buybacks themselves by making them more expensive; since buybacks push up share prices and are often paired with executive stock-based pay, a higher tax nudges companies toward other uses of cash.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Closes an offset loophole: under current law, the taxable amount of a buyback is reduced by the value of new stock the company issues, and this bill exempts stock issued to covered employees from counting toward that reduction, so buybacks paired with executive stock compensation no longer shrink the tax bill.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Both changes apply prospectively, to repurchases and stock issuances after enactment, so the new rate and the new rule take effect immediately upon signing.",
+    "sources": [
+     "S3"
+    ]
+   }
   ],
-  "who_pays": "Corporations that repurchase large volumes of their own shares, and through them the largest shareholders and stock-compensated executives who gain most from buybacks.",
+  "who_pays": "Publicly traded corporations that repurchase their own stock \u2014 typically large, profitable companies with excess cash \u2014 would pay roughly four times the current 1% excise tax on each buyback [S2] [S3]. The cost also lands on major shareholders, including executives and institutional investors, since buybacks become more expensive and companies may do fewer of them; the new exception in the bill specifically ends the practice of pairing buybacks with covered-employee stock issuance to avoid the tax [S3].",
   "drawbacks": [
-   {"text": "Buybacks return cash to shareholders including pension funds and retirement accounts, so part of the cost lands on ordinary savers.", "sources": ["S3"]},
-   {"text": "A higher tax may push companies toward dividends rather than investment, which would raise revenue without changing corporate behavior.", "sources": ["S3"]}
+   {
+    "text": "The tax is ultimately borne by shareholders, including ordinary investors whose 401(k)s, IRAs, and mutual funds hold the same large companies; a 4% tax on buybacks modestly reduces the returns to those retirement savers when companies go ahead with repurchases anyway.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "A higher excise tax may simply shift companies from buybacks to dividends or other shareholder payouts rather than to investment or wages, in which case the policy changes the form of payouts more than the underlying behavior.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The bill is narrow: it changes one tax rate and one adjustment rule and does nothing to restrict buybacks directly, and a 4% tax is generally considered too small on its own to substantially change large corporate decisions about deploying cash.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "The employee-stock exception applies only to stock issued after enactment, so companies have a window to structure compensation around the new rules, and the provision adds compliance complexity to an already technical calculation under section 4501.",
+    "sources": [
+     "S3"
+    ]
+   }
   ],
-  "benefit_vs_cost": "The revenue gain is real and falls mainly on concentrated shareholders, but the behavioral effect is uncertain; the 1% tax enacted in 2022 did not visibly slow buybacks.",
+  "benefit_vs_cost": "This is a modest, well-constructed bill rather than a transformative one. Raising the buyback tax from 1% to 4% would raise revenue for the Treasury at the expense of corporations and their wealthiest shareholders, and closing the covered-employee offset is a genuine anti-abuse fix [S2] [S3]. But the scale matters: a 4% tax is a speed bump, not a roadblock, for large companies, and some of the cost passes through to ordinary retirement investors who own the same shares. The bill is honest about its limits \u2014 it does not ban or restrict buybacks \u2014 and its main measurable benefit is federal revenue plus a modest shift in incentives. It would have been better paired with direct rules about when and how companies can repurchase stock.",
   "outcome": {
    "status": "died_in_committee",
-   "mechanism": "Died in the Senate Finance Committee at the end of the 118th Congress without a hearing or markup.",
+   "mechanism": "Referred to the Senate Finance Committee on the day of introduction, where no further action \u2014 no hearing, markup, or floor vote \u2014 was taken before the 118th Congress ended on Jan 3, 2025.",
    "narrative": [
-    {"text": "Introduced by Sen. Sherrod Brown on February 14, 2023 with 9 cosponsors and referred to the Committee on Finance the same day.", "sources": ["S1", "S4", "S5"]},
-    {"text": "No further action was recorded before the Congress ended on January 3, 2025.", "sources": ["S5"]}
+    {
+     "text": "Sen. Sherrod Brown introduced the Stock Buyback Accountability Act of 2023 in the Senate on Feb 14, 2023, with six original cosponsors: Sens. Wyden, Schatz, Van Hollen, Reed, Lujan, and Baldwin.",
+     "sources": [
+      "S1",
+      "S3"
+     ]
+    },
+    {
+     "text": "The bill was read twice and referred to the Committee on Finance the same day; under Senate practice, a bill must be reported out of its committee before it can receive a floor vote.",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "The bill ultimately accumulated 9 cosponsors, all Democrats, with no Republican support.",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "No further action was ever taken: the Finance Committee never reported the bill, and it received no vote in either chamber before the 118th Congress expired, at which point the bill died.",
+     "sources": [
+      "S5"
+     ]
+    }
    ]
   },
   "key_actors": [
-   {"name": "Senate Committee on Finance", "role": "Committee of referral", "party": null, "what_they_did": "Received the bill on referral and took no recorded action on it.", "sources": ["S5"]},
-   {"name": "Sherrod Brown", "role": "Sponsor, Senator from Ohio", "party": "D", "what_they_did": "Introduced the bill and gathered 9 cosponsors.", "sources": ["S1", "S4"]}
+   {
+    "name": "Ron Wyden",
+    "role": "Chair, Senate Committee on Finance",
+    "party": "D",
+    "what_they_did": "As Finance chair and an original cosponsor of the bill, controlled whether the committee would act; the committee never held a markup or reported the bill out.",
+    "sources": [
+     "S1",
+     "S3",
+     "S5"
+    ]
+   },
+   {
+    "name": "Sherrod Brown",
+    "role": "U.S. Senator (OH), bill sponsor",
+    "party": "D",
+    "what_they_did": "Introduced the bill on Feb 14, 2023 and recruited the initial cosponsors; the bill was referred to Finance the same day.",
+    "sources": [
+     "S1",
+     "S3",
+     "S5"
+    ]
+   },
+   {
+    "name": "Senate Finance Committee",
+    "role": "Committee of referral",
+    "party": null,
+    "what_they_did": "Received the referral on Feb 14, 2023 and took no further action on the bill for the remainder of the 118th Congress.",
+    "sources": [
+     "S5"
+    ]
+   }
   ],
-  "trajectory": null,
-  "categories": ["taxes_on_wealth_and_corporations"],
-  "scores": {"public_benefit": 5, "concentrated_cost": 7, "burial": 7, "support_mismatch": 4, "confidence": 0.7}
+  "trajectory": "null",
+  "categories": [
+   "taxes_on_wealth_and_corporations",
+   "consumer_protection_and_finance"
+  ],
+  "scores": {
+   "public_benefit": 5,
+   "concentrated_cost": 6,
+   "burial": 6,
+   "support_mismatch": 3,
+   "confidence": 0.9
+  }
  },
- "unresolved_citations": []
+ "unresolved_citations": [],
+ "record_hash": "78fa7caf7f86d92e"
 }

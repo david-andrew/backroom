@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/117/s/1/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 48,
+   "countIncludingWithdrawnCosponsors": 48,
+   "url": "https://api.congress.gov/v3/bill/117/s/1/cosponsors?format=json"
+  },
+  "introducedDate": "2021-03-17",
+  "latestAction": {
+   "actionDate": "2021-08-11",
+   "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 123."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/1",
+  "number": "1",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 46,
+   "url": "https://api.congress.gov/v3/bill/117/s/1/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001176",
+    "firstName": "Jeff",
+    "fullName": "Sen. Merkley, Jeff [D-OR]",
+    "isByRequest": "N",
+    "lastName": "Merkley",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/M001176?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 101,
+   "url": "https://api.congress.gov/v3/bill/117/s/1/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/1/text?format=json"
+  },
+  "title": "For the People Act of 2021",
+  "titles": {
+   "count": 51,
+   "url": "https://api.congress.gov/v3/bill/117/s/1/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-21T09:15:04Z",
+  "updateDateIncludingText": "2026-01-21T09:15:04Z"
+ },
+ "request": {
+  "billNumber": "1",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
