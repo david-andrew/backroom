@@ -8,7 +8,7 @@ from . import config
 from .schema import AnalysisFile, BillRecord
 
 # Deterministic ranking so the ordering can be re-tuned without re-running models.
-WEIGHTS = {"public_benefit": 0.35, "concentrated_cost": 0.35, "burial": 0.15, "support_mismatch": 0.15}
+WEIGHTS = {"public_stakes": 0.3, "concentrated_stakes": 0.3, "outcome_against_public": 0.2, "support_mismatch": 0.1, "corruption_relevance": 0.1}
 
 
 def rank_score(s) -> float:
@@ -29,7 +29,13 @@ def run() -> None:
         rec = BillRecord.model_validate_json(rec_path.read_text())
         a = af.analysis
         score = rank_score(a.scores)
-        votes = [v.model_dump() for act in rec.actions for v in act.votes]
+        seen: set[tuple[str, int]] = set()
+        votes = []
+        for act in rec.actions:
+            for v in act.votes:
+                if (v.chamber, v.roll_number) not in seen:
+                    seen.add((v.chamber, v.roll_number))
+                    votes.append(v.model_dump())
         page = {
             "id": rec.id, "display": rec.display, "congress": rec.congress, "title": rec.title,
             "introduced": rec.introduced, "origin_chamber": rec.origin_chamber,
@@ -42,7 +48,7 @@ def run() -> None:
             "congress_gov_url": rec.congress_gov_url, "text_url": rec.text_url,
             "congress_ended": rec.congress_ended,
             "sources": [s.model_dump(exclude={"excerpt"}) for s in rec.sources],
-            "analysis": a.model_dump(),
+            "analysis": a.model_dump(by_alias=True),
             "rank_score": score,
             "meta": {"model": af.model, "prompt_version": af.prompt_version, "generated_at": af.generated_at,
                      "record_fetched_at": af.record_fetched_at, "unresolved_citations": af.unresolved_citations},
@@ -53,7 +59,10 @@ def run() -> None:
             "introduced": rec.introduced, "origin_chamber": rec.origin_chamber,
             "sponsors": [f"{p.name} ({p.party}-{p.state})" for p in rec.sponsors],
             "cosponsor_count": len(rec.cosponsors), "cosponsor_party_counts": rec.cosponsor_party_counts,
-            "headline": a.headline, "status": a.outcome.status, "categories": a.categories,
+            "one_liner": a.one_liner, "headline": a.headline, "direction": a.direction,
+            "who_benefits_short": a.who_benefits_short, "who_pays_short": a.who_pays_short,
+            "who_came_out_ahead_short": a.who_came_out_ahead_short, "party_line": a.sides.party_line,
+            "status": a.outcome.status, "categories": a.categories,
             "scores": a.scores.model_dump(), "rank_score": score, "congress_ended": rec.congress_ended,
         })
     index.sort(key=lambda b: -b["rank_score"])

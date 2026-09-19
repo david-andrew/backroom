@@ -142,38 +142,62 @@ class Claim(BaseModel):
     sources: list[str] = Field(description="Source ids from the provided list that support this claim")
 
 
+Evidence = Literal["record", "widely_reported"]
+
+
 class Actor(BaseModel):
     name: str
-    role: str = Field(description="e.g. 'Senate Majority Leader', 'Chair, House Ways and Means'")
-    party: str | None = None
+    role: str = Field(description="e.g. 'Senate Majority Leader', 'Chair, House Ways and Means', 'President', '41 Senate Republicans'")
+    party: str | None = Field(default=None, description="D, R, I, or null for a group/institution")
     what_they_did: str
-    sources: list[str]
+    direct: bool = Field(description="True if they acted on the bill itself (sponsored, voted, scheduled, refused to schedule). False for outside pressure.")
+    evidence: Evidence = Field(description="'record' if supported by the provided sources; 'widely_reported' if this is well-known public reporting not in the provided sources")
+    sources: list[str] = Field(description="Source ids; may be empty only when evidence is 'widely_reported'")
+
+
+class Sides(BaseModel):
+    for_: list[Actor] = Field(alias="for", description="People and groups who pushed the bill forward, most consequential first")
+    against: list[Actor] = Field(description="People and groups who stopped, stalled, or opposed it, most consequential first")
+    party_line: Literal["party_line", "mostly_party_line", "bipartisan", "unclear"] = Field(description="Whether support and opposition split by party")
+    party_line_note: str = Field(description="One plain sentence on the partisan shape, with numbers where the record has them")
+
+    model_config = {"populate_by_name": True}
 
 
 class Outcome(BaseModel):
     status: Status
-    mechanism: str = Field(description="One sentence: the procedural way it ended or stalled")
+    mechanism: str = Field(description="One plain sentence: how it ended or where it sits, the way you would tell a friend")
     narrative: list[Claim]
+    who_came_out_ahead: str = Field(description="1-2 sentences: who benefits from this outcome. For a helpful bill that died, who is better off because it died. For a harmful bill that passed, who gained.")
+
+
+Direction = Literal["for_working_people", "for_concentrated_interests", "mixed"]
 
 
 class Scores(BaseModel):
-    public_benefit: int = Field(ge=0, le=10, description="How much, and how directly, ordinary people would gain")
-    concentrated_cost: int = Field(ge=0, le=10, description="How much a specific industry, wealthy group, or officeholders would lose")
-    burial: int = Field(ge=0, le=10, description="10 = never allowed a vote despite viability; 0 = got a fair up-or-down vote")
-    support_mismatch: int = Field(ge=0, le=10, description="Gap between apparent public/bipartisan support and what Congress did")
+    public_stakes: int = Field(ge=0, le=10, description="How much ordinary people stand to gain or lose from this bill, either direction")
+    concentrated_stakes: int = Field(ge=0, le=10, description="How much a specific industry, the wealthiest households, or officeholders stand to gain or lose")
+    outcome_against_public: int = Field(ge=0, le=10, description="How much the outcome went against ordinary people. Helpful bill buried without a vote = 10; helpful bill that got a fair vote and lost = 3; harmful bill that became law = 10; helpful bill that became law = 0")
+    support_mismatch: int = Field(ge=0, le=10, description="Gap between apparent support (cosponsors, bipartisan sponsorship, passing one chamber, polling in sources) and the result")
+    corruption_relevance: int = Field(ge=0, le=10, description="How directly the bill concerns corruption or self-dealing by officeholders, money in politics, lobbying, or ethics enforcement. A congressional stock-trading ban = 10; a minimum wage bill = 1")
     confidence: float = Field(ge=0, le=1, description="How well the provided sources support this analysis")
 
 
 class Analysis(BaseModel):
-    headline: str = Field(description="One factual sentence, no editorializing, e.g. 'Passed the House 231-199; never received a Senate vote.'")
+    one_liner: str = Field(description="One sentence, under 20 words, saying what the bill does in plain language. No bill number, no dates.")
+    headline: str = Field(description="One factual sentence about the outcome, with numbers where the record has them, no jargon")
+    direction: Direction = Field(description="Who the bill mainly serves: ordinary working people, concentrated wealth/power, or genuinely mixed")
     plain_summary: str = Field(description="2-4 sentences: what the bill would do, in plain language")
-    who_benefits: str
-    how_it_helps: list[Claim]
-    who_pays: str = Field(description="Which concentrated interests bear the cost, and how")
+    who_benefits: str = Field(description="Who gains if the bill passes, and how")
+    who_benefits_short: str = Field(description="Under 8 words, e.g. 'Hourly workers earning under $15'")
+    how_it_helps: list[Claim] = Field(description="What the bill does for the people it serves. If the bill mainly serves concentrated interests, what it does for them.")
+    who_pays: str = Field(description="Who bears the cost if the bill passes, and how")
+    who_pays_short: str = Field(description="Under 8 words, e.g. 'Large employers and franchise chains'")
     drawbacks: list[Claim]
     benefit_vs_cost: str = Field(description="Honest weighing. If the drawbacks are serious, say so.")
     outcome: Outcome
-    key_actors: list[Actor] = Field(description="People or groups whose decisions most determined the outcome, most influential first")
+    who_came_out_ahead_short: str = Field(description="Under 10 words: who is better off because of what actually happened")
+    sides: Sides
     trajectory: str | None = Field(default=None, description="Only if the Congress is still in session: likely path from here")
     categories: list[str]
     scores: Scores

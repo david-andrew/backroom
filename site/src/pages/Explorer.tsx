@@ -2,15 +2,16 @@ import { useEffect } from 'preact/hooks'
 import { signal, computed } from '@preact/signals'
 import { index, indexError, loadIndex, ordinal, congressYears } from '../data'
 import { href } from '../router'
-import { CATEGORY_LABEL, DEAD, PENDING, STATUS_LABEL } from '../types'
-import type { IndexBill, Status } from '../types'
-import { CategoryChips, PartyBar, StatusBadge } from '../components/ui'
+import { CATEGORY_LABEL, DEAD, PENDING } from '../types'
+import type { IndexBill } from '../types'
+import { CategoryChips, DirectionBadge, PartyBar, PartyLineBadge, StatusBadge } from '../components/ui'
 
 const q = signal('')
 const cat = signal<string>('')
 const fate = signal<'' | 'dead' | 'pending' | 'enacted'>('')
+const dir = signal<'' | 'for_working_people' | 'for_concentrated_interests'>('')
 const congress = signal<number | ''>('')
-const sort = signal<'rank' | 'newest' | 'oldest' | 'support'>('rank')
+const sort = signal<'rank' | 'corruption' | 'newest' | 'oldest' | 'support'>('rank')
 
 const filtered = computed<IndexBill[]>(() => {
   const all = index.value?.bills ?? []
@@ -20,14 +21,16 @@ const filtered = computed<IndexBill[]>(() => {
     if (fate.value === 'dead' && !DEAD.includes(b.status)) return false
     if (fate.value === 'pending' && !PENDING.includes(b.status)) return false
     if (fate.value === 'enacted' && b.status !== 'became_law') return false
+    if (dir.value && b.direction !== dir.value) return false
     if (congress.value !== '' && b.congress !== congress.value) return false
     if (needle) {
-      const hay = `${b.display} ${b.title} ${b.headline} ${b.sponsors.join(' ')}`.toLowerCase()
+      const hay = `${b.display} ${b.title} ${b.one_liner} ${b.headline} ${b.sponsors.join(' ')}`.toLowerCase()
       if (!hay.includes(needle)) return false
     }
     return true
   })
   switch (sort.value) {
+    case 'corruption': out = [...out].sort((a, b) => b.scores.corruption_relevance - a.scores.corruption_relevance || b.rank_score - a.rank_score); break
     case 'newest': out = [...out].sort((a, b) => (b.introduced ?? '').localeCompare(a.introduced ?? '')); break
     case 'oldest': out = [...out].sort((a, b) => (a.introduced ?? '').localeCompare(b.introduced ?? '')); break
     case 'support': out = [...out].sort((a, b) => b.cosponsor_count - a.cosponsor_count); break
@@ -44,75 +47,83 @@ export function Explorer() {
 
   const congresses = [...new Set(idx.bills.map(b => b.congress))].sort((a, b) => b - a)
   const cats = [...new Set(idx.bills.flatMap(b => b.categories))].sort()
-  const statuses = [...new Set(idx.bills.map(b => b.status))] as Status[]
   const dead = idx.bills.filter(b => DEAD.includes(b.status)).length
+  const law = idx.bills.filter(b => b.status === 'became_law').length
+  const sel = (e: Event) => (e.target as HTMLSelectElement).value
 
   return (
     <>
       <section class="intro">
-        <h1>Bills that would have helped ordinary people, and what happened to them.</h1>
+        <h1>Whose interests is Congress looking out for?</h1>
         <p>
-          Each entry shows who proposed the bill, who it would have helped, who would have paid, and the recorded decisions that determined its fate.
-          Ranked highest are the bills with the broadest public benefit and the most concentrated cost that never got a fair vote.
+          Bills that would help everyday working people mostly die quietly. Bills that serve concentrated wealth and power tend to find a way through.
+          Each entry below shows what a bill does, who gains, who pays, what Congress did with it, and who came out ahead. Every claim links to the record.
           <a href={href.about}> How the ranking works.</a>
         </p>
         <p class="stats">
-          <b>{idx.bills.length}</b> bills tracked · <b>{dead}</b> dead · <b>{idx.bills.length - dead}</b> pending or passed
+          <b>{idx.bills.length}</b> bills · <b>{dead}</b> died · <b>{law}</b> became law · <b>{idx.bills.length - dead - law}</b> pending
         </p>
       </section>
 
       <section class="filters" aria-label="Filters">
         <input type="search" placeholder="Search title, number, sponsor…" value={q.value} onInput={e => (q.value = (e.target as HTMLInputElement).value)} />
-        <select value={cat.value} onChange={e => (cat.value = (e.target as HTMLSelectElement).value)}>
+        <select value={dir.value} onChange={e => (dir.value = sel(e) as typeof dir.value)}>
+          <option value="">Serves anyone</option>
+          <option value="for_working_people">Serves working people</option>
+          <option value="for_concentrated_interests">Serves concentrated interests</option>
+        </select>
+        <select value={cat.value} onChange={e => (cat.value = sel(e))}>
           <option value="">All categories</option>
           {cats.map(c => <option value={c} key={c}>{CATEGORY_LABEL[c] ?? c}</option>)}
         </select>
-        <select value={fate.value} onChange={e => (fate.value = (e.target as HTMLSelectElement).value as typeof fate.value)}>
+        <select value={fate.value} onChange={e => (fate.value = sel(e) as typeof fate.value)}>
           <option value="">Any outcome</option>
-          <option value="dead">Dead</option>
+          <option value="dead">Died</option>
           <option value="pending">Still pending</option>
           <option value="enacted">Became law</option>
         </select>
-        <select value={String(congress.value)} onChange={e => { const v = (e.target as HTMLSelectElement).value; congress.value = v ? Number(v) : '' }}>
+        <select value={String(congress.value)} onChange={e => { const v = sel(e); congress.value = v ? Number(v) : '' }}>
           <option value="">Any Congress</option>
           {congresses.map(c => <option value={c} key={c}>{ordinal(c)} ({congressYears(c)})</option>)}
         </select>
-        <select value={sort.value} onChange={e => (sort.value = (e.target as HTMLSelectElement).value as typeof sort.value)}>
-          <option value="rank">Sort: ranked</option>
+        <select value={sort.value} onChange={e => (sort.value = sel(e) as typeof sort.value)}>
+          <option value="rank">Sort: overall</option>
+          <option value="corruption">Sort: corruption relevance</option>
           <option value="newest">Sort: newest</option>
           <option value="oldest">Sort: oldest</option>
           <option value="support">Sort: most cosponsors</option>
         </select>
       </section>
 
-      {statuses.length > 1 && (
-        <p class="legend muted">
-          {statuses.map(s => <span key={s} class="legend-item"><StatusBadge status={s} /></span>)}
-        </p>
-      )}
-
       <ol class="bill-list">
         {filtered.value.map((b, i) => (
-          <li key={b.id} class="bill-card">
+          <li key={b.id} class={`bill-card dir-${b.direction}`}>
             <a href={href.bill(b.id)} class="bill-card-link">
               <div class="bill-card-head">
                 <span class="rank">#{i + 1}</span>
                 <span class="bill-number">{b.display} · {ordinal(b.congress)} Congress</span>
-                <StatusBadge status={b.status} />
+                <DirectionBadge direction={b.direction} />
+                <span class="score" title={`Overall ${b.rank_score} / 10 · corruption relevance ${b.scores.corruption_relevance} / 10`}>{b.rank_score.toFixed(1)}</span>
               </div>
               <h2>{b.title}</h2>
-              <p class="headline">{b.headline}</p>
+              <p class="one-liner">{b.one_liner}</p>
+              <p class="headline"><StatusBadge status={b.status} /> {b.headline}</p>
+              <dl class="card-facts">
+                <div><dt>{b.direction === 'for_concentrated_interests' ? 'Serves' : 'Would help'}</dt><dd>{b.who_benefits_short}</dd></div>
+                <div><dt>Would cost</dt><dd>{b.who_pays_short}</dd></div>
+                <div><dt>Came out ahead</dt><dd>{b.who_came_out_ahead_short}</dd></div>
+              </dl>
               <div class="bill-card-foot">
+                <PartyLineBadge value={b.party_line} />
                 <CategoryChips categories={b.categories} />
                 <span class="muted">{b.sponsors[0]}{b.sponsors.length > 1 ? ` +${b.sponsors.length - 1}` : ''} · {b.cosponsor_count} cosponsors <PartyBar counts={b.cosponsor_party_counts} /></span>
-                <span class="score" title={`Rank score ${b.rank_score} / 10`}>{b.rank_score.toFixed(1)}</span>
               </div>
             </a>
           </li>
         ))}
       </ol>
       {filtered.value.length === 0 && <p class="muted">Nothing matches those filters.</p>}
-      <p class="muted small">Data generated {new Date(idx.generated_at).toLocaleString()}. Status labels: {statuses.map(s => STATUS_LABEL[s]).join(', ')}.</p>
+      <p class="muted small">Data generated {new Date(idx.generated_at).toLocaleString()}.</p>
     </>
   )
 }

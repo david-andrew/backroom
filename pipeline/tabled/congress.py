@@ -96,6 +96,7 @@ class CongressClient:
         subjects_raw = self._cached(slug, "subjects", lambda: self._get(f"{base}/subjects"), force).get("subjects", {})
         committees_raw = c("committees", "committees", "committees")["committees"]
         text_raw = c("text", "text", "textVersions")["textVersions"]
+        titles_raw = c("titles", "titles", "titles")["titles"]
 
         text_url, text = self._bill_text(slug, text_raw, force)
 
@@ -121,7 +122,7 @@ class CongressClient:
         rec = BillRecord(
             id=slug, congress=bid.congress, type=bid.type, number=bid.number,
             display=display,
-            title=bill.get("title", ""),
+            title=_best_title(bill, titles_raw),
             short_title=_short_title(bill),
             origin_chamber=bill.get("originChamber"),
             introduced=bill.get("introducedDate"),
@@ -190,8 +191,9 @@ def _dedupe_actions(actions: list[Action]) -> list[Action]:
     """Congress.gov reports floor votes twice (Senate system + Library of Congress). Keep the chamber-tagged one."""
     out: list[Action] = []
     norm = lambda t: re.sub(r"\s+", "", t)  # noqa: E731  (LOC and Senate copies differ by whitespace)
+    rolls = lambda x: {(v.chamber, v.roll_number) for v in x.votes}  # noqa: E731
     for a in actions:
-        dup = next((o for o in out if o.date == a.date and norm(o.text) == norm(a.text)), None)
+        dup = next((o for o in out if o.date == a.date and (norm(o.text) == norm(a.text) or (rolls(o) and rolls(o) & rolls(a)))), None)
         if dup is None:
             out.append(a)
         elif a.chamber and not dup.chamber:
@@ -233,11 +235,16 @@ def fetch_tally(http: httpx.Client, v: RecordedVote) -> dict:
             cast = (m.findtext("vote_cast") or "").strip().lower()
             if cast in ("yea", "nay"):
                 by_party.setdefault(party, {"yea": 0, "nay": 0})[cast] += 1
+        yea, nay = int(root.findtext("count/yeas") or 0), int(root.findtext("count/nays") or 0)
+        # The Vice President breaks ties; count/yeas and the member list exclude that vote.
+        tb = (root.findtext("tie_breaker/tie_breaker_vote") or "").strip().lower()
+        if tb in ("yea", "nay"):
+            by_party["VP"] = {"yea": int(tb == "yea"), "nay": int(tb == "nay")}
+            yea += int(tb == "yea"); nay += int(tb == "nay")
         return {
             "question": (root.findtext("question") or root.findtext("vote_question_text") or "").strip() or None,
             "result": (root.findtext("vote_result") or "").strip() or None,
-            "yea": int(root.findtext("count/yeas") or 0),
-            "nay": int(root.findtext("count/nays") or 0),
+            "yea": yea, "nay": nay,
             "by_party": by_party,
         }
     # House
@@ -276,6 +283,20 @@ def _strip_html(s: str) -> str:
     s = re.sub(r"[ \t]+", " ", s)
     s = re.sub(r"\n\s*\n+", "\n\n", s)
     return s.strip()
+
+
+def _best_title(bill: dict, titles: list[dict]) -> str:
+    """Prefer the popular short title ("One Big Beautiful Bill Act") over the official long one."""
+    official = bill.get("title", "")
+    shorts = [t for t in titles if "short title" in (t.get("titleType") or "").lower() and t.get("title")]
+    # Whole-bill short titles first (portion-specific ones carry a billTextVersionCode + chamber "portion" marker in the type).
+    whole = [t for t in shorts if "portion" not in (t.get("titleType") or "").lower()]
+    pool = whole or shorts
+    if not pool:
+        return official
+    # Newest text version tends to be listed first; among ties prefer the shortest.
+    pool.sort(key=lambda t: (t.get("titleTypeCode") or 0, len(t["title"])))
+    return pool[0]["title"]
 
 
 def _short_title(bill: dict) -> str | None:

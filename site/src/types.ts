@@ -3,12 +3,16 @@ export type Status =
   | 'voted_down' | 'weakened' | 'became_law' | 'vetoed'
 
 export interface Scores {
-  public_benefit: number
-  concentrated_cost: number
-  burial: number
+  public_stakes: number
+  concentrated_stakes: number
+  outcome_against_public: number
   support_mismatch: number
+  corruption_relevance: number
   confidence: number
 }
+
+export type Direction = 'for_working_people' | 'for_concentrated_interests' | 'mixed'
+export type PartyLine = 'party_line' | 'mostly_party_line' | 'bipartisan' | 'unclear'
 
 export interface IndexBill {
   id: string
@@ -20,7 +24,13 @@ export interface IndexBill {
   sponsors: string[]
   cosponsor_count: number
   cosponsor_party_counts: Record<string, number>
+  one_liner: string
   headline: string
+  direction: Direction
+  who_benefits_short: string
+  who_pays_short: string
+  who_came_out_ahead_short: string
+  party_line: PartyLine
   status: Status
   categories: string[]
   scores: Scores
@@ -35,7 +45,11 @@ export interface Index {
 }
 
 export interface Claim { text: string; sources: string[] }
-export interface Actor { name: string; role: string; party: string | null; what_they_did: string; sources: string[] }
+export interface Actor {
+  name: string; role: string; party: string | null; what_they_did: string
+  direct: boolean; evidence: 'record' | 'widely_reported'; sources: string[]
+}
+export interface Sides { for: Actor[]; against: Actor[]; party_line: PartyLine; party_line_note: string }
 export interface Vote {
   chamber: string; date: string; roll_number: number; url: string
   question: string | null; result: string | null; yea: number | null; nay: number | null
@@ -46,15 +60,20 @@ export interface Source { id: string; kind: string; label: string; url: string; 
 export interface Person { bioguide_id: string; name: string; party: string | null; state: string | null }
 
 export interface Analysis {
+  one_liner: string
   headline: string
+  direction: Direction
   plain_summary: string
   who_benefits: string
+  who_benefits_short: string
   how_it_helps: Claim[]
   who_pays: string
+  who_pays_short: string
   drawbacks: Claim[]
   benefit_vs_cost: string
-  outcome: { status: Status; mechanism: string; narrative: Claim[] }
-  key_actors: Actor[]
+  outcome: { status: Status; mechanism: string; narrative: Claim[]; who_came_out_ahead: string }
+  who_came_out_ahead_short: string
+  sides: Sides
   trajectory: string | null
   categories: string[]
   scores: Scores
@@ -102,3 +121,15 @@ export const CATEGORY_LABEL: Record<string, string> = {
 
 export const DEAD: Status[] = ['never_got_a_vote', 'passed_one_chamber_then_stalled', 'blocked_from_a_vote', 'voted_down', 'weakened', 'vetoed']
 export const PENDING: Status[] = ['pending']
+
+export const DIRECTION_LABEL: Record<Direction, string> = {
+  for_working_people: 'Serves working people',
+  for_concentrated_interests: 'Serves concentrated interests',
+  mixed: 'Mixed',
+}
+export const PARTY_LINE_LABEL: Record<PartyLine, string> = {
+  party_line: 'Party-line',
+  mostly_party_line: 'Mostly party-line',
+  bipartisan: 'Bipartisan',
+  unclear: 'No clear split',
+}

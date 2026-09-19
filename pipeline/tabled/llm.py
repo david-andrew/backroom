@@ -51,6 +51,22 @@ def _strictify(node):
             _strictify(v)
 
 
+def _unwrap_json_strings(node):
+    """Some models emit nested objects as JSON strings; decode them so validation sees dicts/lists."""
+    if isinstance(node, dict):
+        return {k: _unwrap_json_strings(v) for k, v in node.items()}
+    if isinstance(node, list):
+        return [_unwrap_json_strings(v) for v in node]
+    if isinstance(node, str):
+        t = node.strip()
+        if (t.startswith("{") and t.endswith("}")) or (t.startswith("[") and t.endswith("]")):
+            try:
+                return _unwrap_json_strings(json.loads(t))
+            except json.JSONDecodeError:
+                return node
+    return node
+
+
 def structured_call(model_id: str, system: str, user: str, out: type[T], *, reasoning_effort: str | None = None) -> T:
     model = OpenRouterModel(model_id, api_key=config.openrouter_api_key(), reasoning_effort=reasoning_effort)  # type: ignore[arg-type]
     tool = _submit_tool(out)
@@ -65,7 +81,7 @@ def structured_call(model_id: str, system: str, user: str, out: type[T], *, reas
             if isinstance(args, str):
                 args = json.loads(args)
             try:
-                return out.model_validate(args)
+                return out.model_validate(_unwrap_json_strings(args))
             except ValidationError as e:
                 last_err = e
         # feed the error back once

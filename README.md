@@ -49,7 +49,9 @@ Every analysis records the model and a hash of the prompt that produced it. `tab
 
 - The model only sees what the pipeline fetched, with every citable item numbered (`S1`, `S2`, ...). It must cite ids per claim; citations that do not resolve are flagged on the page.
 - Prompts live in `pipeline/prompts/`. No "greed", no motive speculation; facts and who-decided, sourced.
-- Ranking is deterministic from four model-given scores (`pipeline/tabled/build.py`), so the ordering can be re-tuned without re-running any model.
+- Ranking is deterministic from five model-given scores (`pipeline/tabled/build.py`): stakes for the public, stakes for concentrated interests, how far the outcome went against the public, support-vs-result gap, and corruption relevance. Weights can be re-tuned without re-running any model.
+- Each bill has a `direction`: serves working people, serves concentrated interests, or mixed. Harmful bills that became law rank alongside helpful bills that were buried.
+- "Sides" (who pushed it, who stopped it) may include outside pressure that never appears in the congressional record, marked `widely_reported` with no citation. The site labels these "reported". This is the one place the model is allowed off the record; everything else must cite.
 
 ## Layout
 

@@ -62,6 +62,10 @@ def analyze(rec: BillRecord, bill_text: str, model_id: str = config.ANALYSIS_MOD
     valid_ids = {s.id for s in rec.sources}
     bad = sorted({sid for c in _all_claims(analysis) for sid in c if sid not in valid_ids})
     analysis.categories = [c for c in analysis.categories if c in CATEGORIES] or ["other"]
+    # An actor without sources must be labeled as outside the record; enforce it.
+    for k in analysis.sides.for_ + analysis.sides.against:
+        if not k.sources:
+            k.evidence = "widely_reported"
 
     return AnalysisFile(
         bill_id=rec.id, model=model_id, prompt_version=prompt_version(PROMPT),
@@ -73,7 +77,7 @@ def analyze(rec: BillRecord, bill_text: str, model_id: str = config.ANALYSIS_MOD
 def _all_claims(a: Analysis):
     for c in a.how_it_helps + a.drawbacks + a.outcome.narrative:
         yield c.sources
-    for k in a.key_actors:
+    for k in a.sides.for_ + a.sides.against:
         yield k.sources
 
 
@@ -96,7 +100,7 @@ def run(slug: str, force: bool = False, model_id: str = config.ANALYSIS_MODEL) -
     print(f"  > analyzing {slug} with {model_id} ({len(text)} chars of bill text)")
     af = analyze(rec, text, model_id)
     config.ANALYSES_DIR.mkdir(parents=True, exist_ok=True)
-    out.write_text(af.model_dump_json(indent=1))
+    out.write_text(af.model_dump_json(indent=1, by_alias=True))
     if af.unresolved_citations:
         print(f"  ! {slug}: citations not in source list: {af.unresolved_citations}")
     return af

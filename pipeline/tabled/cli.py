@@ -47,8 +47,15 @@ def main() -> None:
             print(f"  {rec.display}: {rec.title[:80]} | {len(rec.actions)} actions, {len(rec.cosponsors)} cosponsors, {rec.text_chars} chars")
     if args.cmd in ("analyze", "all"):
         model = getattr(args, "model", config.ANALYSIS_MODEL)
+        failed = []
         for s in (getattr(args, "bills", None) or fetched_slugs()):
-            analyze.run(BillId.parse(s).slug, force=args.force, model_id=model)
+            try:
+                analyze.run(BillId.parse(s).slug, force=args.force, model_id=model)
+            except Exception as e:  # keep going; report at the end
+                print(f"  ! {s} failed: {str(e)[:300]}")
+                failed.append(s)
+        if failed:
+            print(f"  ! {len(failed)} bill(s) failed: {', '.join(failed)}")
     if args.cmd == "triage":
         shortlist = triage.run(args.congress, limit=args.limit, min_score=args.min_score, model_id=args.model)
         for s in shortlist[:30]:

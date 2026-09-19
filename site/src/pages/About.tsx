@@ -10,8 +10,11 @@ export function About() {
 
       <h2>What this site is</h2>
       <p>
-        A record of bills that were designed to help ordinary people, and what Congress did with them. Most were never allowed a vote.
-        The site does not argue motives. It shows who proposed each bill, who it would have helped, who would have paid, and the recorded decisions that determined the outcome, with a link to every source.
+        A record that asks one question of Congress: whose interests is it looking out for, everyday working people or the ruling class?
+        It tracks two kinds of bills. Bills that would help ordinary people at some cost to a concentrated interest, which mostly die quietly.
+        And bills that serve concentrated wealth or power, which tend to find a way through.
+        For each one it shows what the bill does, who gains, who pays, what Congress did with it, who was for and against it, and who came out ahead. Every claim links to its source.
+        The site does not argue motives.
       </p>
 
       <h2>Where the facts come from</h2>
@@ -27,6 +30,10 @@ export function About() {
         It is instructed to cite a numbered source for every claim and to leave out anything it cannot support. Each page shows which model and prompt version produced it, and flags any citation that did not resolve to a real source.
         Because the interpretation is model-written, it can be wrong. The links are there so you can check.
       </p>
+      <p>
+        One deliberate exception: outside pressure on a bill, such as a president lobbying members to switch their votes, usually never appears in the congressional record.
+        In the "who was for it, who was against it" block the model may name such an actor when it is widely and credibly reported. Those entries are marked <b>reported</b> and carry no citation, so you can weigh them accordingly.
+      </p>
 
       <h2>How bills are found</h2>
       <p>
@@ -34,12 +41,13 @@ export function About() {
       </p>
 
       <h2>How the ranking works</h2>
-      <p>Each analyzed bill receives four scores from 0 to 10:</p>
+      <p>Each analyzed bill receives five scores from 0 to 10:</p>
       <ul>
-        <li><b>Public benefit</b>: breadth and directness of benefit to ordinary people.</li>
-        <li><b>Cost to concentrated interests</b>: how much a specific industry, the wealthiest households, or incumbent officeholders would lose.</li>
-        <li><b>Buried</b>: 10 means the bill had real support and was never allowed a vote. 0 means it got a fair up-or-down vote on the merits and lost.</li>
+        <li><b>Stakes for the public</b>: how much ordinary people stand to gain or lose, in either direction.</li>
+        <li><b>Stakes for concentrated interests</b>: how much a specific industry, the wealthiest households, or incumbent officeholders stand to gain or lose.</li>
+        <li><b>Outcome went against the public</b>: 10 means a helpful bill was buried without a vote, or a harmful bill became law. 0 means a helpful bill became law.</li>
         <li><b>Support vs. result</b>: the gap between apparent support (cosponsors, bipartisan sponsorship, passing one chamber) and what happened.</li>
+        <li><b>Corruption relevance</b>: how directly the bill concerns self-dealing by officeholders, money in politics, lobbying, or ethics enforcement. This is also available as its own sort order.</li>
       </ul>
       {w && (
         <p>
