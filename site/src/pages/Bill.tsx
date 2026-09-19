@@ -2,7 +2,7 @@ import { useEffect, useState } from 'preact/hooks'
 import { loadBill, ordinal, congressYears, fmtDate } from '../data'
 import { href } from '../router'
 import type { BillPage, Vote } from '../types'
-import { Claims, PartyBar, ScoreGrid, StatusBadge, CategoryChips, DirectionBadge, SidesBlock } from '../components/ui'
+import { Claims, PartyBar, Prose, ScoreGrid, StatusBadge, CategoryChips, DirectionBadge, SidesBlock } from '../components/ui'
 
 export function Bill({ id }: { id: string }) {
   const [bill, setBill] = useState<BillPage | null>(null)
@@ -33,32 +33,32 @@ export function Bill({ id }: { id: string }) {
         <div class="bill-main">
           <section>
             <h2>What it would do</h2>
-            <p>{a.plain_summary}</p>
+            <p><Prose text={a.plain_summary} sources={S} /></p>
           </section>
 
           <section>
             <h2>{helpful ? 'Who it would help' : 'Who it serves'}</h2>
-            <p>{a.who_benefits}</p>
+            <p><Prose text={a.who_benefits} sources={S} /></p>
             <Claims claims={a.how_it_helps} sources={S} />
           </section>
 
           <section>
             <h2>Who would pay</h2>
-            <p>{a.who_pays}</p>
+            <p><Prose text={a.who_pays} sources={S} /></p>
           </section>
 
           <section>
             <h2>Drawbacks and honest objections</h2>
             <Claims claims={a.drawbacks} sources={S} />
-            <p class="weigh"><b>On balance:</b> {a.benefit_vs_cost}</p>
+            <p class="weigh"><b>On balance:</b> <Prose text={a.benefit_vs_cost} sources={S} /></p>
           </section>
 
           <section>
             <h2>What happened</h2>
-            <p class="mechanism"><b>{a.outcome.mechanism}</b></p>
+            <p class="mechanism"><b><Prose text={a.outcome.mechanism} sources={S} /></b></p>
             <Claims claims={a.outcome.narrative} sources={S} />
-            <p class="weigh"><b>Who came out ahead:</b> {a.outcome.who_came_out_ahead}</p>
-            {a.trajectory && <p class="trajectory"><b>Where it is likely headed:</b> {a.trajectory}</p>}
+            <p class="weigh"><b>Who came out ahead:</b> <Prose text={a.outcome.who_came_out_ahead} sources={S} /></p>
+            {a.trajectory && <p class="trajectory"><b>Where it is likely headed:</b> <Prose text={a.trajectory} sources={S} /></p>}
           </section>
 
           {votes.length > 0 && (

@@ -82,6 +82,21 @@ export function Cite({ ids, sources }: { ids: string[]; sources: Source[] }) {
   )
 }
 
+/** Prose that may contain inline "[S3]" markers; renders them as citation links. */
+export function Prose({ text, sources }: { text: string; sources: Source[] }) {
+  const parts = text.split(/(\[S\d+\](?:\s*\[S\d+\])*)/g)
+  return (
+    <>
+      {parts.map((part, i) => {
+        const ids = [...part.matchAll(/S\d+/g)].map(m => m[0])
+        return ids.length && /^\s*(\[S\d+\]\s*)+$/.test(part)
+          ? <Cite key={i} ids={ids} sources={sources} />
+          : <span key={i}>{part.replace(/\s+([.,;:])/g, '$1')}</span>
+      })}
+    </>
+  )
+}
+
 export function Claims({ claims, sources }: { claims: Claim[]; sources: Source[] }) {
   return (
     <ul class="claims">
@@ -99,7 +114,7 @@ export function SidesBlock({ sides, sources, votes }: { sides: Sides; sources: S
     <section class="sides">
       <div class="sides-head">
         <PartyLineBadge value={sides.party_line} />
-        <span class="sides-note">{sides.party_line_note}</span>
+        <span class="sides-note"><Prose text={sides.party_line_note} sources={sources} /></span>
       </div>
       {decisive.length > 0 && (
         <div class="sides-votes">
@@ -131,7 +146,7 @@ function SideList({ title, actors, sources, tone }: { title: string; actors: Act
               {!a.direct && <span class="tag">indirect</span>}
               {a.evidence === 'widely_reported' && <span class="tag reported-mark">reported</span>}
             </div>
-            <div class="actor-did">{a.what_they_did}<Cite ids={a.sources} sources={sources} /></div>
+            <div class="actor-did"><Prose text={a.what_they_did} sources={sources} /><Cite ids={a.sources} sources={sources} /></div>
           </li>
         ))}
       </ol>

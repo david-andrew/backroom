@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime, timezone
 
 from . import config
@@ -9,6 +10,14 @@ from .schema import AnalysisFile, BillRecord
 
 # Deterministic ranking so the ordering can be re-tuned without re-running models.
 WEIGHTS = {"public_stakes": 0.3, "concentrated_stakes": 0.3, "outcome_against_public": 0.2, "support_mismatch": 0.1, "corruption_relevance": 0.1}
+
+
+_CITE = re.compile(r"\s*\[S\d+\]")
+
+
+def clean(text: str) -> str:
+    """Card-sized fields should not carry inline citation markers."""
+    return _CITE.sub("", text).strip()
 
 
 def rank_score(s) -> float:
@@ -59,9 +68,9 @@ def run() -> None:
             "introduced": rec.introduced, "origin_chamber": rec.origin_chamber,
             "sponsors": [f"{p.name} ({p.party}-{p.state})" for p in rec.sponsors],
             "cosponsor_count": len(rec.cosponsors), "cosponsor_party_counts": rec.cosponsor_party_counts,
-            "one_liner": a.one_liner, "headline": a.headline, "direction": a.direction,
-            "who_benefits_short": a.who_benefits_short, "who_pays_short": a.who_pays_short,
-            "who_came_out_ahead_short": a.who_came_out_ahead_short, "party_line": a.sides.party_line,
+            "one_liner": clean(a.one_liner), "headline": clean(a.headline), "direction": a.direction,
+            "who_benefits_short": clean(a.who_benefits_short), "who_pays_short": clean(a.who_pays_short),
+            "who_came_out_ahead_short": clean(a.who_came_out_ahead_short), "party_line": a.sides.party_line,
             "status": a.outcome.status, "categories": a.categories,
             "scores": a.scores.model_dump(), "rank_score": score, "congress_ended": rec.congress_ended,
         })
