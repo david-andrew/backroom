@@ -189,8 +189,9 @@ class CongressClient:
 def _dedupe_actions(actions: list[Action]) -> list[Action]:
     """Congress.gov reports floor votes twice (Senate system + Library of Congress). Keep the chamber-tagged one."""
     out: list[Action] = []
+    norm = lambda t: re.sub(r"\s+", "", t)  # noqa: E731  (LOC and Senate copies differ by whitespace)
     for a in actions:
-        dup = next((o for o in out if o.date == a.date and o.text == a.text), None)
+        dup = next((o for o in out if o.date == a.date and norm(o.text) == norm(a.text)), None)
         if dup is None:
             out.append(a)
         elif a.chamber and not dup.chamber:
