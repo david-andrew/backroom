@@ -1,161 +1,180 @@
 {
  "bill_id": "116-hr2474",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "25c5cd7b3b",
- "generated_at": "2026-09-19T22:09:50+00:00",
- "record_fetched_at": "2026-09-19T22:07:06+00:00",
+ "prompt_version": "e0b9bcdfca",
+ "generated_at": "2026-09-19T22:29:35+00:00",
+ "record_fetched_at": "2026-09-19T22:17:59+00:00",
+ "record_hash": "d8cdd750fbce89a4",
  "analysis": {
-  "headline": "Passed the House 224-194 on February 6, 2020, but was referred to the Senate Health, Education, Labor, and Pensions Committee on February 10, 2020, and never received a Senate vote before the 116th Congress ended.",
-  "plain_summary": "The PRO Act would overhaul federal labor law to make it easier for workers to join unions and bargain collectively. It would expand who counts as an 'employee' under the law, ban forced anti-union meetings, impose new penalties on employers who fire or retaliate against workers for organizing, invalidate agreements that force workers out of class actions, speed up union elections, and allow union 'fair share' fee agreements to override state right-to-work laws. The House passed it, but the Senate never acted on it.",
-  "who_benefits": "Workers who want to organize or join a union, workers currently covered by union contracts, and employees misclassified as independent contractors. Roughly all private-sector workers gain stronger protections against being fired or penalized for organizing, and workers who organize would gain double-damages remedies and access to class litigation.",
+  "headline": "Passed the House 224-194 on February 6, 2020, but the Senate Health, Education, Labor, and Pensions Committee never acted on it and the bill died when the 116th Congress ended.",
+  "plain_summary": "The Protecting the Right to Organize (PRO) Act would have rewritten the National Labor Relations Act to make it easier for workers to form unions and bargain collectively. It would have redefined who counts as an employee, imposed real money penalties on employers who fire or retaliate against workers for organizing, let workers sue their employers directly, banned forced arbitration agreements that block workers from joining class actions, and overridden state 'right-to-work' laws so union contracts could require fees from all workers a union represents.",
+  "who_benefits": "Private-sector workers — especially those in industries where union organizing is difficult today, such as gig platforms, fast food, and warehouses — plus existing union members who would get stronger remedies when employers violate labor law. The CRS summary states the bill broadens who counts as an employee under federal labor law [S4], which would extend collective-bargaining protections to many workers currently classified as independent contractors [S5].",
   "how_it_helps": [
    {
-    "text": "Broadens the definitions of 'employee,' 'supervisor,' and 'employer' to prevent employers from classifying workers as exempt from labor law protections, using an ABC test for independent contractor status.",
-    "sources": [
-     "S3",
-     "S4",
-     "S5"
-    ]
-   },
-   {
-    "text": "Makes it an unfair labor practice to require or coerce employees to attend employer meetings designed to discourage union membership, and to permanently replace or discriminate against workers who participate in strikes.",
+    "text": "It would make it an unfair labor practice for an employer to permanently replace or discriminate against workers who participate in strikes, and to require or coerce employees to attend meetings designed to discourage union membership [S2][S4].",
     "sources": [
      "S2",
-     "S3",
      "S4"
     ]
    },
    {
-    "text": "Prohibits employers from entering into agreements under which employees waive the right to pursue or join collective or class-action litigation.",
+    "text": "It would impose civil penalties of up to $50,000 per violation (up to $100,000 for repeat offenders) on employers who commit unfair labor practices, plus double the actual damages (back pay and consequential damages) for fired workers, and allow punitive damages — current law has essentially no monetary penalties for these violations [S5][S4].",
+    "sources": [
+     "S5",
+     "S4"
+    ]
+   },
+   {
+    "text": "It would create a private right of action, letting workers sue employers in federal court for interfering with their right to organize, with attorney's fees available to prevailing workers [S4][S5].",
     "sources": [
      "S4",
      "S5"
     ]
    },
    {
-    "text": "Expands remedies for workers harmed by labor violations to include back pay without reduction, consequential damages, liquidated damages equal to two times actual damages, punitive damages, and civil penalties of up to $50,000 per violation (up to $100,000 for repeat violations), plus a new private right of action allowing workers to sue employers directly.",
+    "text": "It would prohibit employers from requiring employees to sign agreements waiving their right to join class or collective lawsuits over workplace disputes, voiding such agreements [S4][S5].",
+    "sources": [
+     "S4",
+     "S5"
+    ]
+   },
+   {
+    "text": "It would tighten the definitions of 'employee,' 'supervisor,' and 'employer' (including a joint-employer standard) so that workers cannot be classified out of labor-law protections, and would apply an ABC test making a worker an employee unless the employer meets three conditions showing genuine independence [S3][S2][S5].",
     "sources": [
      "S3",
-     "S4",
+     "S2",
      "S5"
     ]
    },
    {
-    "text": "Revises union election procedures: employers would be barred from participating in NLRB representation proceedings, must provide voter lists to petitioning unions, and must begin bargaining if a union wins a majority of votes; election timelines are compressed to days rather than weeks.",
+    "text": "It would speed up union representation elections — setting deadlines for hearings and requiring elections within 20 business days — prohibit employers from participating as parties in representation proceedings, require employers to hand over voter contact lists to the union, and require an employer to bargain once a union wins a majority of votes cast [S4][S5].",
     "sources": [
      "S4",
      "S5"
     ]
    },
    {
-    "text": "Allows collective-bargaining agreements to require all employees in a bargaining unit to contribute fees to the union for representation costs, notwithstanding state law to the contrary, and removes whistleblower protections and injunction limits so courts can more quickly restrain employer violations causing discharge or serious economic harm.",
+    "text": "It would allow first contracts for newly certified unions to be settled by binding arbitration if mediation fails, and permit 'fair share' fees in union contracts regardless of state right-to-work laws [S4][S5].",
+    "sources": [
+     "S4",
+     "S5"
+    ]
+   },
+   {
+    "text": "It would add whistleblower protections covering employees who report labor-law violations and add new remedies including reinstatement, back pay with interest, and compensatory damages [S4][S5].",
     "sources": [
      "S4",
      "S5"
     ]
    }
   ],
-  "who_pays": "Employers, particularly those in industries that actively contest union organizing. The bill creates civil penalties up to $50,000-$100,000 per unfair labor practice violation, double damages plus punitive damages, director and officer liability, a private right of action with attorney's fees, and bans on mandatory anti-union meetings and forced arbitration of labor claims [S4][S5]. Employers would also lose their standing to participate in NLRB representation proceedings and lose the right to sue unions over secondary strikes [S4][S5]. Companies relying on independent contractor models (for example, gig platforms) would face reclassification pressure under the new employee definition [S4][S5].",
+  "who_pays": "Employers, and most directly companies that spend heavily opposing unionization: they would face civil penalties up to $50,000 per violation, doubled liquidated and punitive damages in lawsuits, director and officer liability, mandatory arbitration of first contracts, and reporting requirements for 'persuader' arrangements with anti-union consultants [S5][S4]. Businesses using independent contractors, including gig-economy platforms, would bear reclassification costs under the new employee definition [S5]. Companies in the 27 or so right-to-work states would lose the ability to run open-shop workplaces under union contracts [S5].",
   "drawbacks": [
    {
-    "text": "The bill overrides state right-to-work laws: fair-share fee agreements would be enforceable notwithstanding any state law, meaning workers in right-to-work states could be required to pay union fees as a condition of employment even if their state forbids it.",
+    "text": "The bill would override state right-to-work laws: collective-bargaining agreements could require all employees in a bargaining unit to pay fees to the union 'notwithstanding any State or Territorial law' [S4][S5]. Workers who choose not to join a union would still have to pay under such contracts, which critics view as forcing financial support for an organization they declined to join.",
     "sources": [
      "S4",
      "S5"
     ]
    },
    {
-    "text": "It permits secondary strikes \u2014 union members pressuring workers of a different employer during a dispute \u2014 and terminates employers' right to bring claims against unions that conduct such secondary strikes, which opponents argue exposes neutral third-party businesses to labor disputes they are not party to.",
+    "text": "It would prohibit employers from participating in any NLRB representation proceedings and from communicating their position during them [S4], removing the employer's voice from the election process entirely — a significant shift from the current adversarial-but-balanced election model.",
     "sources": [
      "S4"
     ]
    },
    {
-    "text": "The ABC test for independent contractor status and broadened joint-employer definition could disrupt business models built on independent contractors and franchise structures, including gig work arrangements, by sweeping those workers into mandatory bargaining structures.",
+    "text": "It would require binding tripartite arbitration to settle first contracts if mediation fails after 90 days, with the award binding for two years [S5]. Opponents argue this substitutes government-appointed arbitrators' terms for negotiated agreements.",
+    "sources": [
+     "S5"
+    ]
+   },
+   {
+    "text": "It would permit secondary strikes — unions encouraging members to honor strikes at companies they do not have a contract with — and repeal employers' right to sue over such strikes [S4][S5], which business groups argue exposes neutral third-party businesses to labor disputes they are not party to.",
     "sources": [
      "S4",
      "S5"
     ]
    },
    {
-    "text": "Employers would have no standing as a party in NLRB representation proceedings, removing their ability to contest proposed bargaining units or election procedures before a vote occurs.",
+    "text": "The ABC-test employee definition would classify many currently independent workers as employees [S5], which could change how gig and freelance workers structure their work, a cost supporters of the bill acknowledge comes with extending bargaining protections.",
     "sources": [
      "S5"
     ]
    },
    {
-    "text": "For a first union contract, unresolved disputes after 120 days would go to binding arbitration by a tripartite panel, whose decision would bind the parties for two years \u2014 opponents argue this removes the employer's ability to negotiate or say no to terms it cannot afford.",
+    "text": "The bill also permits labor organizations to participate in strikes initiated by other unions' employees and would remove current limits on courts issuing temporary injunctions against employers [S4], changes that expand union leverage in disputes beyond individual workplaces.",
     "sources": [
-     "S5"
-    ]
-   },
-   {
-    "text": "New penalties and litigation exposure raise compliance costs for all covered employers, including small businesses, since the bill sets no small-business exemption in its penalty and civil-action provisions.",
-    "sources": [
-     "S5"
+     "S4"
     ]
    }
   ],
-  "benefit_vs_cost": "The bill would meaningfully strengthen workers' ability to organize and bargain, with remedies and penalties that give labor law real teeth for the first time in decades; workers who are fired for organizing would for the first time recover double damages and be able to sue directly. The costs fall on employers, especially those whose business practices depend on resisting organizing, misclassifying workers, or using forced arbitration. The genuinely contested trade-offs are the preemption of state right-to-work laws \u2014 which forces fees on objecting workers in those states \u2014 and the removal of employer participation in union elections and first-contract binding arbitration, which shift decision-making power heavily toward unions. The design is ambitious and one-sided toward labor, but the core protections against retaliation and misclassification address widely documented gaps in current law.",
+  "benefit_vs_cost": "For workers, the bill addressed a well-documented structural problem: federal labor law currently carries almost no monetary penalty for employers who fire or retaliate against organizers, so violations can be cheaper than compliance. The PRO Act would have changed that calculus with real penalties, a private right of action, faster elections, and arbitration of first contracts. The serious counterweights are real: overriding state right-to-work laws compels fees from non-union workers under fair-share contracts, excluding employers from representation elections and permitting secondary strikes shift leverage sharply toward unions, and the independent-contractor test would force reclassification with uncertain effects on gig workers who value flexibility. Weighing it honestly: the bill substantially strengthened worker bargaining rights at a substantial cost to employer discretion, and reasonable people disagree about where that balance should sit; the procedural history, however, is not a judgment on those merits — the Senate never voted on the bill at all.",
   "outcome": {
-   "status": "died_after_passing_one_chamber",
-   "mechanism": "Passed the House on a recorded vote of 224-194 (Roll no. 50) on February 6, 2020; received in the Senate and referred to the Committee on Health, Education, Labor, and Pensions on February 10, 2020, where no further action was taken before the Congress ended on January 3, 2021.",
+   "status": "passed_one_chamber_then_stalled",
+   "mechanism": "The House passed it 224-194, but the Senate referred it to the Health, Education, Labor, and Pensions Committee on February 10, 2020, and it never received a Senate vote before the Congress ended.",
    "narrative": [
     {
-     "text": "Introduced May 2, 2019 by Rep. Bobby Scott (D-VA) with 218 cosponsors (216 Democrats, 2 Republicans).",
+     "text": "The bill was introduced May 2, 2019, and referred to the House Committee on Education and Labor [S1][S7].",
      "sources": [
       "S1",
-      "S6",
       "S7"
      ]
     },
     {
-     "text": "The House Committee on Education and Labor ordered the bill reported on a 26-21 vote on September 25, 2019, and reported it amended on December 16, 2019 (H. Rept. 116-347).",
+     "text": "The committee ordered the bill reported as amended by a vote of 26-21 on September 25, 2019, and formally reported it on December 16, 2019 [S7].",
      "sources": [
       "S7"
      ]
     },
     {
-     "text": "The House passed the bill 224-194 on February 6, 2020 (Roll no. 50), with 219 Democrats, 5 Republicans, and 0 independents in favor, and 186 Republicans, 7 Democrats, and 1 independent opposed.",
+     "text": "A motion to recommit with instructions failed 195-223 on February 6, 2020, with 192 Republicans voting yes and no Republicans voting no [S8][S7].",
      "sources": [
       "S8",
-      "S9",
-      "S10"
+      "S7"
      ]
     },
     {
-     "text": "A motion to recommit with instructions to bar labor organizations from communicating with unauthorized workers failed 195-223 (Roll no. 49).",
+     "text": "The House passed the bill 224-194 on February 6, 2020: 219 Democrats and 5 Republicans voted yes, while 186 Republicans, 7 Democrats, and 1 Independent voted no [S9][S7].",
+     "sources": [
+      "S9",
+      "S7"
+     ]
+    },
+    {
+     "text": "The Senate received the bill on February 10, 2020, and read it twice before referring it to the Committee on Health, Education, Labor, and Pensions; no further action was taken for the remainder of the 116th Congress [S7][S5].",
      "sources": [
       "S7",
-      "S8"
-     ]
-    },
-    {
-     "text": "The bill was received in the Senate on February 10, 2020, read twice, and referred to the Committee on Health, Education, Labor, and Pensions; the Senate took no further action during the remainder of the 116th Congress.",
-     "sources": [
-      "S1",
-      "S5",
-      "S7"
+      "S5"
      ]
     }
    ]
   },
   "key_actors": [
    {
-    "name": "Bobby Scott",
+    "name": "Rep. Robert C. \"Bobby\" Scott",
     "role": "U.S. Representative (D-VA); bill sponsor and Chairman of the House Committee on Education and Labor",
     "party": "D",
-    "what_they_did": "Introduced H.R. 2474 on May 2, 2019 and guided it through his committee, which ordered it reported amended on a 26-21 vote on September 25, 2019 and reported it on December 16, 2019.",
+    "what_they_did": "Introduced the bill on May 2, 2019 and shepherded it through his committee, which ordered it reported as amended 26-21 and reported it on December 16, 2019 [S1][S7].",
     "sources": [
      "S1",
      "S7"
     ]
    },
    {
-    "name": "House Education and Labor Committee",
+    "name": "House Committee on Education and Labor",
     "role": "Committee of jurisdiction in the House",
     "party": null,
-    "what_they_did": "Held a markup on September 25, 2019, ordered the bill reported 26-21, and reported it amended (H. Rept. 116-347) on December 16, 2019.",
+    "what_they_did": "Held a markup on September 25, 2019, ordered the bill reported as amended by a 26-21 vote, and reported it with House Report 116-347 [S7].",
+    "sources": [
+     "S7"
+    ]
+   },
+   {
+    "name": "House Committee on Rules",
+    "role": "House committee that sets floor debate terms",
+    "party": null,
+    "what_they_did": "Reported H. Res. 833 on February 5, 2020, providing a structured rule for one hour of debate on H.R. 2474 [S7].",
     "sources": [
      "S7"
     ]
@@ -164,37 +183,35 @@
     "name": "House members voting on passage",
     "role": "Full House of Representatives",
     "party": null,
-    "what_they_did": "Passed the bill 224-194 on February 6, 2020 (Roll no. 50): 219 Democrats and 5 Republicans in favor; 186 Republicans, 7 Democrats, and 1 independent opposed.",
+    "what_they_did": "Passed the bill 224-194 on February 6, 2020 (Roll no. 50), with near-unanimous Democratic support, 5 Republican votes in favor, and 7 Democrats opposed [S9][S7].",
     "sources": [
      "S9",
-     "S10"
+     "S7"
     ]
    },
    {
     "name": "Senate Committee on Health, Education, Labor, and Pensions",
-    "role": "Senate committee of jurisdiction",
+    "role": "Committee of jurisdiction in the Senate",
     "party": null,
-    "what_they_did": "Received the bill on February 10, 2020 and referred to it; the committee took no further action, and the bill received no Senate floor vote before the Congress ended.",
+    "what_they_did": "Received the bill on February 10, 2020 after House passage; the committee took no recorded action, and the Senate never voted on the bill before the 116th Congress ended on January 3, 2021 [S7][S5][S1].",
     "sources": [
-     "S1",
+     "S7",
      "S5",
-     "S7"
+     "S1"
     ]
    }
   ],
   "trajectory": null,
   "categories": [
-   "wages_and_labor",
-   "consumer_protection_and_finance"
+   "wages_and_labor"
   ],
   "scores": {
-   "public_benefit": 7,
-   "concentrated_cost": 8,
-   "burial": 8,
+   "public_benefit": 8,
+   "concentrated_cost": 9,
+   "burial": 7,
    "support_mismatch": 7,
-   "confidence": 0.9
+   "confidence": 0.95
   }
  },
- "unresolved_citations": [],
- "record_hash": "d8cdd750fbce89a4"
+ "unresolved_citations": []
 }

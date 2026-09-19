@@ -1,7 +1,6 @@
 export type Status =
-  | 'introduced' | 'in_committee' | 'reported_by_committee' | 'passed_one_chamber'
-  | 'passed_both_chambers' | 'enacted' | 'died_in_committee' | 'died_after_passing_one_chamber'
-  | 'failed_floor_vote' | 'failed_cloture' | 'vetoed' | 'gutted'
+  | 'pending' | 'never_got_a_vote' | 'passed_one_chamber_then_stalled' | 'blocked_from_a_vote'
+  | 'voted_down' | 'weakened' | 'became_law' | 'vetoed'
 
 export interface Scores {
   public_benefit: number
@@ -76,18 +75,14 @@ export interface BillPage {
 }
 
 export const STATUS_LABEL: Record<Status, string> = {
-  introduced: 'Introduced',
-  in_committee: 'In committee',
-  reported_by_committee: 'Reported by committee',
-  passed_one_chamber: 'Passed one chamber',
-  passed_both_chambers: 'Passed both chambers',
-  enacted: 'Enacted',
-  died_in_committee: 'Died in committee',
-  died_after_passing_one_chamber: 'Passed one chamber, died in the other',
-  failed_floor_vote: 'Failed floor vote',
-  failed_cloture: 'Failed cloture',
+  pending: 'Still pending',
+  never_got_a_vote: 'Never got a vote',
+  passed_one_chamber_then_stalled: 'Passed one chamber, then stalled',
+  blocked_from_a_vote: 'Blocked from a vote',
+  voted_down: 'Voted down',
+  weakened: 'Weakened before passing',
+  became_law: 'Became law',
   vetoed: 'Vetoed',
-  gutted: 'Gutted',
 }
 
 export const CATEGORY_LABEL: Record<string, string> = {
@@ -105,5 +100,5 @@ export const CATEGORY_LABEL: Record<string, string> = {
   other: 'Other',
 }
 
-export const DEAD: Status[] = ['died_in_committee', 'died_after_passing_one_chamber', 'failed_floor_vote', 'failed_cloture', 'vetoed', 'gutted']
-export const PENDING: Status[] = ['introduced', 'in_committee', 'reported_by_committee', 'passed_one_chamber', 'passed_both_chambers']
+export const DEAD: Status[] = ['never_got_a_vote', 'passed_one_chamber_then_stalled', 'blocked_from_a_vote', 'voted_down', 'weakened', 'vetoed']
+export const PENDING: Status[] = ['pending']

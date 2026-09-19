@@ -84,8 +84,11 @@ def run(slug: str, force: bool = False, model_id: str = config.ANALYSIS_MODEL) -
         raise SystemExit(f"no record for {slug}; run `tabled fetch {slug}` first")
     rec = BillRecord.model_validate_json(rec_path.read_text())
     if out.exists() and not force:
-        existing = AnalysisFile.model_validate_json(out.read_text())
-        if existing.model == model_id and existing.prompt_version == prompt_version(PROMPT) and existing.record_hash == rec.content_hash:
+        try:
+            existing = AnalysisFile.model_validate_json(out.read_text())
+        except Exception:
+            existing = None  # schema changed since this was written; regenerate
+        if existing and existing.model == model_id and existing.prompt_version == prompt_version(PROMPT) and existing.record_hash == rec.content_hash:
             print(f"  = {slug} up to date ({model_id})")
             return existing
     text_path = config.RAW_DIR / slug / "text.txt"

@@ -111,18 +111,14 @@ class BillRecord(BaseModel):
 # ---- model output -----------------------------------------------------------
 
 Status = Literal[
-    "introduced",
-    "in_committee",
-    "reported_by_committee",
-    "passed_one_chamber",
-    "passed_both_chambers",
-    "enacted",
-    "died_in_committee",
-    "died_after_passing_one_chamber",
-    "failed_floor_vote",
-    "failed_cloture",
+    "pending",                          # Congress still in session, no final outcome yet
+    "never_got_a_vote",                 # sat in committee or on the calendar until the Congress ended
+    "passed_one_chamber_then_stalled",  # House or Senate passed it; the other never voted
+    "blocked_from_a_vote",              # a procedural vote (e.g. cloture) kept it off the floor
+    "voted_down",                       # lost an up-or-down vote on the merits
+    "weakened",                         # passed only after its key provisions were stripped
+    "became_law",
     "vetoed",
-    "gutted",
 ]
 
 CATEGORIES = [

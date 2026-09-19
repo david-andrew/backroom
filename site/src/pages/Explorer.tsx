@@ -19,7 +19,7 @@ const filtered = computed<IndexBill[]>(() => {
     if (cat.value && !b.categories.includes(cat.value)) return false
     if (fate.value === 'dead' && !DEAD.includes(b.status)) return false
     if (fate.value === 'pending' && !PENDING.includes(b.status)) return false
-    if (fate.value === 'enacted' && b.status !== 'enacted') return false
+    if (fate.value === 'enacted' && b.status !== 'became_law') return false
     if (congress.value !== '' && b.congress !== congress.value) return false
     if (needle) {
       const hay = `${b.display} ${b.title} ${b.headline} ${b.sponsors.join(' ')}`.toLowerCase()
@@ -71,7 +71,7 @@ export function Explorer() {
           <option value="">Any outcome</option>
           <option value="dead">Dead</option>
           <option value="pending">Still pending</option>
-          <option value="enacted">Enacted</option>
+          <option value="enacted">Became law</option>
         </select>
         <select value={String(congress.value)} onChange={e => { const v = (e.target as HTMLSelectElement).value; congress.value = v ? Number(v) : '' }}>
           <option value="">Any Congress</option>

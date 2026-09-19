@@ -2,7 +2,7 @@ import type { Claim, Scores, Source, Status } from '../types'
 import { CATEGORY_LABEL, DEAD, STATUS_LABEL } from '../types'
 
 export function StatusBadge({ status }: { status: Status }) {
-  const tone = DEAD.includes(status) ? 'dead' : status === 'enacted' ? 'enacted' : 'pending'
+  const tone = DEAD.includes(status) ? 'dead' : status === 'became_law' ? 'enacted' : 'pending'
   return <span class={`badge badge-${tone}`}>{STATUS_LABEL[status]}</span>
 }
 

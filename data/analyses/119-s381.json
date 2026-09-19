@@ -1,13 +1,14 @@
 {
  "bill_id": "119-s381",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "25c5cd7b3b",
- "generated_at": "2026-09-19T22:15:23+00:00",
- "record_fetched_at": "2026-09-19T22:06:29+00:00",
+ "prompt_version": "e0b9bcdfca",
+ "generated_at": "2026-09-19T22:43:53+00:00",
+ "record_fetched_at": "2026-09-19T22:17:59+00:00",
+ "record_hash": "1d02db14101a1004",
  "analysis": {
-  "headline": "Referred to the Senate Banking, Housing, and Urban Affairs Committee on February 4, 2025, where it received no further action; it had 1 Republican and 2 Democratic cosponsors alongside sponsor Sen. Bernie Sanders.",
-  "plain_summary": "This bill would cap credit card interest rates at 10% APR, including all finance charges, through January 1, 2031. It would stop lenders from using fees to get around the cap, and it would let borrowers sue to recover any interest, finance charges, or fees they paid above the limit within two years. A lender that knowingly overcharges would forfeit all interest on the debt, and the cap would be enforced under the Truth in Lending Act by the Consumer Financial Protection Bureau and the Federal Trade Commission. State laws offering stronger protections would not be overridden.",
-  "who_benefits": "Households that carry a balance on a credit card \u2014 tens of millions of Americans who currently pay interest rates well above 10% \u2014 would pay less interest each month, and could claw back charges above the cap for two years prior.",
+  "headline": "Introduced February 4, 2025 with bipartisan sponsorship and referred the same day to the Senate Banking Committee, which has taken no action on it since.",
+  "plain_summary": "This bill would cap the interest rate on any credit card at 10% per year, counting all finance charges toward that limit, and would stop lenders from using fees to get around the cap. If a lender knowingly charges more, it forfeits all the interest on the debt, and a cardholder could sue to get back interest, finance charges, or fees paid in the previous two years. The Consumer Financial Protection Bureau and the Federal Trade Commission could also enforce the cap under the Truth in Lending Act, and state laws protecting consumers more would still apply. The cap is temporary — it ends on January 1, 2031 unless Congress extends it.",
+  "who_benefits": "Credit cardholders who carry a balance, especially those paying interest rates well above 10% — the cap would directly lower what they owe each month. Any cardholder overcharged could also sue to recover the interest, finance charges, or fees they paid in the prior two years [S2, S3].",
   "how_it_helps": [
    {
     "text": "Caps the annual percentage rate on credit cards at 10%, inclusive of all finance charges.",
@@ -17,72 +18,91 @@
     ]
    },
    {
-    "text": "Prevents lenders from loading costs into fees to evade the cap; fees that are not finance charges cannot exceed the total finance charges assessed.",
+    "text": "Blocks evasion: fees that don't count as finance charges cannot be used to get around the cap, and their total cannot exceed the total finance charges assessed.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Gives borrowers a private right of action: they can sue within two years to recover interest, finance charges, or fees paid above the limit, and a knowing violation forfeits the entire interest on the debt.",
+    "text": "If a lender knowingly charges above the cap, it forfeits the entire interest on the debt, and the cardholder can sue within two years to recover the full amount of interest, finance charges, or fees paid.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Adds the cap to the Truth in Lending Act's civil liability provisions, enforced by the Consumer Financial Protection Bureau and the Federal Trade Commission, and leaves stronger state consumer-protection laws in place.",
+    "text": "Makes violations enforceable as civil violations under the Truth in Lending Act, which the Consumer Financial Protection Bureau and the Federal Trade Commission police.",
     "sources": [
      "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Does not override state laws that give consumers stronger protections.",
+    "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Credit card issuers \u2014 banks and finance companies that earn interest and fee revenue on card balances \u2014 would lose the income from everything charged above 10% APR, which is where most revolving card debt is priced today. Issuers could not shift costs into fees, because the bill caps non-finance-charge fees at the total of finance charges [S3].",
+  "who_pays": "Credit card issuing banks and finance companies. Interest and fee income is the core of their card business; a 10% cap would cut the rates most of them charge far below current levels, and knowing violators would forfeit all interest on the affected debt [S2, S3].",
   "drawbacks": [
    {
-    "text": "A hard price cap on credit would likely reduce access for borrowers with weaker credit: lenders who can no longer price for risk may decline those applicants or tighten credit lines rather than lend at 10%, leaving the riskiest borrowers with fewer options.",
+    "text": "The 10% cap is flat — it applies to every cardholder regardless of credit risk. Lenders that cannot charge higher rates to borrowers with weaker credit histories may respond the way they do under other rate caps: denying cards, lowering credit limits, or tightening approval, which shrinks access to credit for the riskier borrowers the cap most aims to help. (Mechanism of rate caps generally; the bill imposes the cap on all card APRs with no risk-based exception [S3].)",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The cap is temporary \u2014 it sunsets on January 1, 2031 \u2014 so relief for cardholders would end unless Congress renews it.",
+    "text": "Because fees are folded into the cap and capped relative to finance charges [S3], issuers would have limited ways to recover costs, so the adjustment would likely come through credit availability and card terms rather than price.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "The cap sunsets on January 1, 2031, so any relief is temporary unless Congress acts again.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Issuers might offset the lost interest revenue by cutting card rewards or raising other charges; the bill anticipates fee-shifting but caps, rather than eliminates, that route.",
+    "text": "The harshest penalty — forfeiting all interest on the debt — applies only to violations committed knowingly, so unintentional overcharges fall back on a two-year private right of action and ordinary Truth in Lending Act remedies.",
     "sources": [
-     "S3"
+     "S3",
+     "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "For households carrying credit card debt, the direct benefit is large and immediate: interest charges above 10% would stop, and the recovery and forfeiture provisions give borrowers real leverage. The main cost falls on a concentrated industry \u2014 card issuers' interest revenue \u2014 which is the point of the bill. The serious tradeoff is on the back end: borrowers with poor credit may find cards harder to get, since lenders can no longer charge rates that offset their risk, and the relief expires in 2031. On balance, the bill delivers substantial, targeted help to indebted households at the expense of issuer profits, with a real but secondary risk of reduced credit access for the least creditworthy borrowers.",
+  "benefit_vs_cost": "The benefit is direct and easy to understand: cardholders carrying balances at high rates would owe far less interest, and those overcharged could claw back what they paid. The cost falls on card-issuing banks. The honest tradeoff — the one economists of most stripes raise about binding rate caps — is that lenders who cannot price for risk tend to restrict who gets credit at all, so some high-risk borrowers could lose access to cards rather than gain cheaper ones. The design softens this only partially: the bill is temporary (ending in 2031), keeps stronger state protections in place, and builds in private enforcement. It is a straightforward, well-intentioned cap whose main open question is not intent but whether lenders' response would leave the riskiest borrowers worse off.",
   "outcome": {
-   "status": "in_committee",
-   "mechanism": "Read twice and referred to the Senate Committee on Banking, Housing, and Urban Affairs on February 4, 2025; no committee markup, floor action, or vote is recorded.",
+   "status": "pending",
+   "mechanism": "The bill was referred to the Senate Banking, Housing, and Urban Affairs Committee on the day it was introduced, and the committee has taken no action on it since.",
    "narrative": [
     {
-     "text": "Sen. Bernie Sanders introduced S. 381 in the Senate on February 4, 2025, joined by Sen. Josh Hawley as an original cosponsor.",
+     "text": "Senator Bernie Sanders introduced the bill on February 4, 2025, together with Senator Josh Hawley.",
      "sources": [
-      "S1",
-      "S3"
+      "S3",
+      "S1"
      ]
     },
     {
-     "text": "The same day, the bill was read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+     "text": "The same day, the Senate read the bill twice and referred it to the Committee on Banking, Housing, and Urban Affairs.",
      "sources": [
-      "S1",
-      "S5"
+      "S5",
+      "S1"
      ]
     },
     {
-     "text": "The bill attracted 3 cosponsors \u2014 1 Republican and 2 Democrats \u2014 and the action history records no further activity after the committee referral.",
+     "text": "Three senators cosponsored the bill: one Republican and two Democrats.",
      "sources": [
-      "S4",
-      "S5"
+      "S4"
+     ]
+    },
+    {
+     "text": "No further action — no hearing, markup, or floor vote — appears in the bill's action history; the Congress runs through January 3, 2027.",
+     "sources": [
+      "S5",
+      "S1"
      ]
     }
    ]
@@ -90,9 +110,9 @@
   "key_actors": [
    {
     "name": "Sen. Bernie Sanders",
-    "role": "Sponsor (introduced the bill)",
+    "role": "Sponsor",
     "party": "I",
-    "what_they_did": "Introduced S. 381 on February 4, 2025, to cap credit card APRs at 10% through 2031.",
+    "what_they_did": "Introduced the 10 Percent Credit Card Interest Rate Cap Act on February 4, 2025.",
     "sources": [
      "S1",
      "S3"
@@ -100,37 +120,35 @@
    },
    {
     "name": "Sen. Josh Hawley",
-    "role": "Original cosponsor",
+    "role": "Original cosponsor; joined Sanders in introducing the bill",
     "party": "R",
-    "what_they_did": "Joined Sanders at introduction, giving the bill bipartisan sponsorship; he is not counted among the 3 later cosponsors.",
+    "what_they_did": "Put his name on the bill at introduction, giving it bipartisan sponsorship.",
     "sources": [
-     "S3",
-     "S4"
+     "S3"
     ]
    },
    {
     "name": "Senate Committee on Banking, Housing, and Urban Affairs",
     "role": "Committee of referral",
-    "party": "N/A",
-    "what_they_did": "Received the bill by referral on February 4, 2025; the action history records no markup, report, or further consideration.",
+    "party": null,
+    "what_they_did": "Received the bill on February 4, 2025 and has taken no further action on it, leaving it without a hearing, markup, or floor vote.",
     "sources": [
-     "S5"
+     "S5",
+     "S1"
     ]
    }
   ],
-  "trajectory": "The 119th Congress runs through January 3, 2027, so the bill is technically alive. But rate-cap bills of this kind almost never advance without a committee markup, and the Banking Committee has taken no action in the months since referral; absent an unusual push, the likely path is that it sits without a hearing or vote and dies when the Congress ends.",
+  "trajectory": "With only three cosponsors and no committee activity since its February 2025 referral, the bill is very likely to remain in the Senate Banking Committee without a hearing or markup, as most credit card rate-cap bills have. Advancing would require the committee chair to schedule action and Senate leadership to bring it to the floor; neither is indicated by the record so far.",
   "categories": [
-   "consumer_protection_and_finance",
-   "wages_and_labor"
+   "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_benefit": 7,
+   "public_benefit": 8,
    "concentrated_cost": 8,
    "burial": 6,
-   "support_mismatch": 5,
+   "support_mismatch": 3,
    "confidence": 0.9
   }
  },
- "unresolved_citations": [],
- "record_hash": "1d02db14101a1004"
+ "unresolved_citations": []
 }
