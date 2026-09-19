@@ -1,0 +1,37 @@
+name: refresh
+on:
+  schedule:
+    - cron: "17 6 * * 1"   # weekly, Monday 06:17 UTC
+  workflow_dispatch:
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Refresh facts and analyses
+        working-directory: pipeline
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+        run: |
+          uv sync
+          uv run tabled fetch --force     # pending bills may have new actions
+          uv run tabled analyze           # only re-analyzes bills whose record changed
+          uv run tabled build
+      - name: Commit data
+        run: |
+          git config user.name "tabled-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "data: scheduled refresh"
+          git push
+      - name: Build site
+        working-directory: site
+        run: npm ci && npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: site/dist }

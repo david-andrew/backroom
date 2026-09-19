@@ -1,0 +1,167 @@
+:root {
+  --bg: #fbfaf7;
+  --surface: #ffffff;
+  --ink: #1c1b18;
+  --ink-2: #5c5a54;
+  --ink-3: #8a8780;
+  --line: #e6e2d9;
+  --accent: #b23a2f;
+  --accent-ink: #ffffff;
+  --dead: #b23a2f;
+  --dead-bg: #f8e4e1;
+  --pending: #8a6d1f;
+  --pending-bg: #f7efd6;
+  --enacted: #2f6b3a;
+  --enacted-bg: #dff0e2;
+  --dem: #3b6fb6;
+  --rep: #c8443a;
+  --ind: #7a7a7a;
+  --meter: #1c1b18;
+  --radius: 8px;
+  --font: ui-serif, Georgia, "Times New Roman", serif;
+  --font-ui: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15140f;
+    --surface: #1e1d17;
+    --ink: #ece9e1;
+    --ink-2: #b3afa4;
+    --ink-3: #7f7c73;
+    --line: #2f2d26;
+    --accent: #e0655a;
+    --dead: #e0655a;
+    --dead-bg: #3a201d;
+    --pending: #d9b64a;
+    --pending-bg: #3a3320;
+    --enacted: #6fbf7e;
+    --enacted-bg: #1f3524;
+    --meter: #ece9e1;
+  }
+}
+
+* { box-sizing: border-box; }
+html { font-size: 17px; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font);
+  line-height: 1.55;
+}
+a { color: inherit; text-decoration-color: var(--ink-3); text-underline-offset: 2px; }
+a:hover { text-decoration-color: var(--accent); }
+h1, h2, h3 { line-height: 1.2; font-weight: 600; letter-spacing: -0.01em; }
+h1 { font-size: 1.9rem; margin: 0.2em 0 0.4em; }
+h2 { font-size: 1.15rem; margin: 1.6em 0 0.4em; }
+h3 { font-size: 0.85rem; font-family: var(--font-ui); text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-2); margin: 1em 0 0.4em; }
+code { font-family: var(--font-mono); font-size: 0.85em; }
+.muted { color: var(--ink-2); }
+.small { font-size: 0.85rem; }
+.error { color: var(--dead); }
+.warn { color: var(--pending); }
+ul.plain { list-style: none; padding: 0; margin: 0; }
+
+.site-header {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+  padding: 1.1rem 1.5rem; border-bottom: 1px solid var(--line);
+  font-family: var(--font-ui);
+}
+.brand { text-decoration: none; display: flex; align-items: baseline; gap: 0.8rem; flex-wrap: wrap; }
+.brand-mark { font-family: var(--font); font-weight: 700; font-size: 1.5rem; letter-spacing: -0.02em; }
+.brand-tag { color: var(--ink-2); font-size: 0.9rem; }
+.site-header nav { display: flex; gap: 1.2rem; font-size: 0.95rem; }
+.site-header nav a { text-decoration: none; color: var(--ink-2); padding-bottom: 2px; border-bottom: 2px solid transparent; }
+.site-header nav a.active, .site-header nav a:hover { color: var(--ink); border-bottom-color: var(--accent); }
+
+main { max-width: 1080px; margin: 0 auto; padding: 1.5rem 1.5rem 4rem; }
+.site-footer { border-top: 1px solid var(--line); padding: 1.2rem 1.5rem 2rem; color: var(--ink-3); font-size: 0.85rem; font-family: var(--font-ui); text-align: center; }
+
+/* Explorer */
+.intro { max-width: 760px; }
+.intro h1 { font-size: 2.1rem; }
+.intro p { font-size: 1.05rem; color: var(--ink-2); }
+.stats { font-family: var(--font-ui); font-size: 0.9rem !important; }
+.stats b { color: var(--ink); }
+
+.filters { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.5rem 0 1rem; font-family: var(--font-ui); }
+.filters input, .filters select {
+  font: inherit; font-size: 0.9rem; padding: 0.45rem 0.6rem; border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--surface); color: var(--ink);
+}
+.filters input { flex: 1 1 220px; }
+.legend { font-family: var(--font-ui); font-size: 0.8rem; margin: 0 0 0.8rem; }
+.legend-item { margin-right: 0.4rem; }
+
+.bill-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.8rem; }
+.bill-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); transition: border-color 0.15s; }
+.bill-card:hover { border-color: var(--ink-3); }
+.bill-card-link { display: block; padding: 1rem 1.2rem; text-decoration: none; }
+.bill-card-head { display: flex; align-items: center; gap: 0.7rem; font-family: var(--font-ui); font-size: 0.8rem; color: var(--ink-2); }
+.rank { font-weight: 700; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.bill-card h2 { margin: 0.35rem 0 0.25rem; font-size: 1.25rem; }
+.bill-card .headline { margin: 0 0 0.6rem; color: var(--ink-2); }
+.bill-card-foot { display: flex; align-items: center; gap: 0.8rem; flex-wrap: wrap; font-family: var(--font-ui); font-size: 0.8rem; }
+.bill-card-foot .score { margin-left: auto; font-weight: 700; font-variant-numeric: tabular-nums; font-size: 1rem; }
+
+.badge { display: inline-block; font-family: var(--font-ui); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.02em; padding: 0.15em 0.55em; border-radius: 999px; white-space: nowrap; vertical-align: middle; }
+.badge-dead { color: var(--dead); background: var(--dead-bg); }
+.badge-pending { color: var(--pending); background: var(--pending-bg); }
+.badge-enacted { color: var(--enacted); background: var(--enacted-bg); }
+
+.chips { display: inline-flex; gap: 0.3rem; flex-wrap: wrap; }
+.chip { font-family: var(--font-ui); font-size: 0.72rem; padding: 0.1em 0.5em; border: 1px solid var(--line); border-radius: 999px; color: var(--ink-2); }
+
+.partybar { display: inline-flex; width: 60px; height: 7px; border-radius: 4px; overflow: hidden; vertical-align: middle; background: var(--line); }
+.party { display: block; height: 100%; }
+.party-d { background: var(--dem); } .party-r { background: var(--rep); }
+.party-i, .party-id, .party-l, .party-\? { background: var(--ind); }
+
+/* Bill page */
+.crumbs { font-family: var(--font-ui); font-size: 0.85rem; }
+.crumbs a { text-decoration: none; color: var(--ink-2); }
+.bill-header .bill-number { font-family: var(--font-ui); font-size: 0.85rem; color: var(--ink-2); margin: 0; }
+.bill-header h1 { font-size: 2rem; max-width: 860px; }
+.bill-header .headline { font-size: 1.1rem; margin: 0.4rem 0 0.6rem; }
+.bill-grid { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 2.5rem; margin-top: 1rem; }
+@media (max-width: 860px) { .bill-grid { grid-template-columns: 1fr; gap: 1.5rem; } }
+.bill-main section > p { max-width: 68ch; }
+.claims { padding-left: 1.2rem; max-width: 68ch; }
+.claims li { margin: 0.35rem 0; }
+.cite { font-family: var(--font-ui); font-size: 0.7rem; margin-left: 0.15em; }
+.cite a { text-decoration: none; color: var(--accent); }
+.cite-missing { color: var(--pending) !important; text-decoration: line-through !important; }
+.weigh, .trajectory { max-width: 68ch; padding: 0.7rem 1rem; border-left: 3px solid var(--line); background: var(--surface); }
+.mechanism { font-size: 1.05rem; }
+.actors { padding-left: 1.3rem; max-width: 68ch; }
+.actors li { margin: 0.6rem 0; }
+.actor-name { font-weight: 600; }
+
+.timeline { list-style: none; padding: 0; margin: 0; border-left: 2px solid var(--line); }
+.timeline li { display: grid; grid-template-columns: 110px 60px 1fr; gap: 0.6rem; padding: 0.3rem 0 0.3rem 1rem; font-size: 0.92rem; position: relative; }
+.timeline li::before { content: ""; position: absolute; left: -6px; top: 0.75rem; width: 10px; height: 10px; border-radius: 50%; background: var(--bg); border: 2px solid var(--ink-3); }
+.tl-date { font-family: var(--font-ui); font-size: 0.8rem; color: var(--ink-2); white-space: nowrap; }
+.tl-chamber { font-family: var(--font-ui); font-size: 0.75rem; }
+@media (max-width: 600px) { .timeline li { grid-template-columns: 1fr; gap: 0.1rem; } }
+
+.vote { border: 1px solid var(--line); border-radius: var(--radius); padding: 0.7rem 1rem; margin: 0.6rem 0; background: var(--surface); font-family: var(--font-ui); font-size: 0.9rem; }
+.vote-tally { margin-top: 0.3rem; font-size: 1.05rem; }
+.yea { color: var(--enacted); font-weight: 700; } .nay { color: var(--dead); font-weight: 700; }
+.party-table { border-collapse: collapse; margin-top: 0.5rem; font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+.party-table th, .party-table td { padding: 0.15rem 0.7rem 0.15rem 0; text-align: right; }
+.party-table td:first-child { text-align: left; color: var(--ink-2); }
+
+.bill-side .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 0.4rem 1rem 0.9rem; margin-bottom: 1rem; font-family: var(--font-ui); font-size: 0.9rem; }
+.bill-side .card h3:first-child { margin-top: 0.6rem; }
+.sources { padding-left: 1.4rem; margin: 0; font-size: 0.85rem; }
+.sources li { margin: 0.25rem 0; scroll-margin-top: 1rem; }
+
+.score-grid { display: grid; gap: 0.45rem; }
+.meter { display: grid; grid-template-columns: 1fr 90px 1.6em; align-items: center; gap: 0.5rem; font-size: 0.8rem; }
+.meter-track { height: 7px; background: var(--line); border-radius: 4px; overflow: hidden; }
+.meter-fill { display: block; height: 100%; background: var(--meter); }
+.meter-value { text-align: right; font-variant-numeric: tabular-nums; }
+
+.prose { max-width: 70ch; }
+.prose h2 { margin-top: 1.8em; }
