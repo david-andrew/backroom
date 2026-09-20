@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/4229/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/4229/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/4229/cosponsors?format=json"
+  },
+  "introducedDate": "2024-05-01",
+  "latestAction": {
+   "actionDate": "2024-05-01",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/4229",
+  "number": "4229",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000608",
+    "firstName": "Jacklyn",
+    "fullName": "Sen. Rosen, Jacky [D-NV]",
+    "isByRequest": "N",
+    "lastName": "Rosen",
+    "party": "D",
+    "state": "NV",
+    "url": "https://api.congress.gov/v3/member/R000608?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/118/s/4229/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/4229/text?format=json"
+  },
+  "title": "Reducing Drug Prices for Seniors Act.",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/4229/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2024-08-16T14:12:51Z",
+  "updateDateIncludingText": "2024-08-16T14:12:51Z"
+ },
+ "request": {
+  "billNumber": "4229",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

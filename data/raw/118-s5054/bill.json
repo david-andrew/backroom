@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/5054/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5054/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/118/s/5054/cosponsors?format=json"
+  },
+  "introducedDate": "2024-09-12",
+  "latestAction": {
+   "actionDate": "2024-09-12",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/5054",
+  "number": "5054",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000128",
+    "firstName": "Chris",
+    "fullName": "Sen. Van Hollen, Chris [D-MD]",
+    "isByRequest": "N",
+    "lastName": "Van Hollen",
+    "party": "D",
+    "state": "MD",
+    "url": "https://api.congress.gov/v3/member/V000128?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/118/s/5054/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5054/text?format=json"
+  },
+  "title": "Polluters Pay Climate Fund Act of 2024",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/5054/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-05-27T14:16:40Z",
+  "updateDateIncludingText": "2025-05-27T14:16:40Z"
+ },
+ "request": {
+  "billNumber": "5054",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

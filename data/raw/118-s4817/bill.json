@@ -1,0 +1,66 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/4817/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/4817/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/4817/cosponsors?format=json"
+  },
+  "introducedDate": "2024-07-25",
+  "latestAction": {
+   "actionDate": "2024-07-25",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/4817",
+  "number": "4817",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000133",
+    "firstName": "Edward",
+    "fullName": "Sen. Markey, Edward J. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "Markey",
+    "middleName": "J.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/M000133?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/4817/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/4817/text?format=json"
+  },
+  "title": "State-Based Universal Health Care Act of 2024",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/4817/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T18:59:41Z",
+  "updateDateIncludingText": "2025-01-14T18:59:41Z"
+ },
+ "request": {
+  "billNumber": "4817",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

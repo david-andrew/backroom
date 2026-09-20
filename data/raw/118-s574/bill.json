@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/574/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/574/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/574/cosponsors?format=json"
+  },
+  "introducedDate": "2023-03-01",
+  "latestAction": {
+   "actionDate": "2023-03-01",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/574",
+  "number": "574",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/574/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001076",
+    "firstName": "Maggie",
+    "fullName": "Sen. Hassan, Margaret Wood [D-NH]",
+    "isByRequest": "N",
+    "lastName": "Hassan",
+    "party": "D",
+    "state": "NH",
+    "url": "https://api.congress.gov/v3/member/H001076?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/118/s/574/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/574/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/574/text?format=json"
+  },
+  "title": "Increasing Prescription Drug Competition Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/574/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T09:16:15Z",
+  "updateDateIncludingText": "2025-12-05T09:16:15Z"
+ },
+ "request": {
+  "billNumber": "574",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

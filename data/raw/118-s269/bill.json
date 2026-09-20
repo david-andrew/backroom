@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/269/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/269/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/118/s/269/cosponsors?format=json"
+  },
+  "introducedDate": "2023-02-02",
+  "latestAction": {
+   "actionDate": "2023-02-02",
+   "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/269",
+  "number": "269",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/269/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001288",
+    "firstName": "Cory",
+    "fullName": "Sen. Booker, Cory A. [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "Booker",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/B001288?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 26,
+   "url": "https://api.congress.gov/v3/bill/118/s/269/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/269/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/269/text?format=json"
+  },
+  "title": "Protect America's Children from Toxic Pesticides Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/269/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-09T23:31:34Z",
+  "updateDateIncludingText": "2026-01-09T23:31:34Z"
+ },
+ "request": {
+  "billNumber": "269",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

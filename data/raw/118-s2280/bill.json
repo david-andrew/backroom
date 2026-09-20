@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/2280/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2280/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/118/s/2280/cosponsors?format=json"
+  },
+  "introducedDate": "2023-07-12",
+  "latestAction": {
+   "actionDate": "2023-07-12",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/2280",
+  "number": "2280",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Social Welfare"
+  },
+  "relatedBills": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/118/s/2280/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001277",
+    "firstName": "Richard",
+    "fullName": "Sen. Blumenthal, Richard [D-CT]",
+    "isByRequest": "N",
+    "lastName": "Blumenthal",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/B001277?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/118/s/2280/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2280/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2280/text?format=json"
+  },
+  "title": "Social Security 2100 Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/2280/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T07:57:13Z",
+  "updateDateIncludingText": "2025-12-05T07:57:13Z"
+ },
+ "request": {
+  "billNumber": "2280",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

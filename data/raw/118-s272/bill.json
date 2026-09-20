@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/272/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/272/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/272/cosponsors?format=json"
+  },
+  "introducedDate": "2023-02-02",
+  "latestAction": {
+   "actionDate": "2023-02-02",
+   "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/272",
+  "number": "272",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/272/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001288",
+    "firstName": "Cory",
+    "fullName": "Sen. Booker, Cory A. [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "Booker",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/B001288?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/272/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/272/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/272/text?format=json"
+  },
+  "title": "Industrial Agriculture Accountability Act of 2023",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/272/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T08:58:15Z",
+  "updateDateIncludingText": "2025-12-05T08:58:15Z"
+ },
+ "request": {
+  "billNumber": "272",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

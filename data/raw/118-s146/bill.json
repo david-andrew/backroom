@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/146/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/146/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/146/cosponsors?format=json"
+  },
+  "introducedDate": "2023-01-30",
+  "latestAction": {
+   "actionDate": "2024-06-12",
+   "text": "Committee on Banking, Housing, and Urban Affairs. Hearings held. Hearings printed: S.Hrg. 118-558."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/146",
+  "number": "146",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/146/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001089",
+    "firstName": "Josh",
+    "fullName": "Sen. Hawley, Josh [R-MO]",
+    "isByRequest": "N",
+    "lastName": "Hawley",
+    "party": "R",
+    "state": "MO",
+    "url": "https://api.congress.gov/v3/member/H001089?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/118/s/146/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/146/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/146/text?format=json"
+  },
+  "title": "Cap Insulin Prices Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/146/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-05-27T11:03:27Z",
+  "updateDateIncludingText": "2026-05-27T11:03:27Z"
+ },
+ "request": {
+  "billNumber": "146",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

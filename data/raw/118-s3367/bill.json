@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/3367/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/3367/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 19,
+   "countIncludingWithdrawnCosponsors": 19,
+   "url": "https://api.congress.gov/v3/bill/118/s/3367/cosponsors?format=json"
+  },
+  "introducedDate": "2023-11-30",
+  "latestAction": {
+   "actionDate": "2023-11-30",
+   "text": "Read twice and referred to the Committee on Finance. (Sponsor introductory remarks on measure: CR S5694)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/3367",
+  "number": "3367",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000779",
+    "firstName": "Ron",
+    "fullName": "Sen. Wyden, Ron [D-OR]",
+    "isByRequest": "N",
+    "lastName": "Wyden",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/W000779?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/3367/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/3367/text?format=json"
+  },
+  "title": "Billionaires Income Tax Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/3367/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-05-27T14:15:52Z",
+  "updateDateIncludingText": "2025-05-27T14:15:52Z"
+ },
+ "request": {
+  "billNumber": "3367",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

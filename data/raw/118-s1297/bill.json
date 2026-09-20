@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/1297/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1297/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/118/s/1297/cosponsors?format=json"
+  },
+  "introducedDate": "2023-04-26",
+  "latestAction": {
+   "actionDate": "2023-04-26",
+   "text": "Read twice and referred to the Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/1297",
+  "number": "1297",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/1297/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001111",
+    "firstName": "Patty",
+    "fullName": "Sen. Murray, Patty [D-WA]",
+    "isByRequest": "N",
+    "lastName": "Murray",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/M001111?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/118/s/1297/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1297/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1297/text?format=json"
+  },
+  "title": "Let Doctors Provide Reproductive Health Care Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/1297/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "1297",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/5078/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5078/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/5078/cosponsors?format=json"
+  },
+  "introducedDate": "2024-09-18",
+  "latestAction": {
+   "actionDate": "2024-09-18",
+   "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/5078",
+  "number": "5078",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Housing and Community Development"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001203",
+    "firstName": "Tina",
+    "fullName": "Sen. Smith, Tina [D-MN]",
+    "isByRequest": "N",
+    "lastName": "Smith",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/S001203?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5078/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5078/text?format=json"
+  },
+  "title": "Homes Act of 2024",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/5078/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T18:20:21Z",
+  "updateDateIncludingText": "2025-01-14T18:20:21Z"
+ },
+ "request": {
+  "billNumber": "5078",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

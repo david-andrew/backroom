@@ -1,0 +1,66 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/5087/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5087/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/118/s/5087/cosponsors?format=json"
+  },
+  "introducedDate": "2024-09-18",
+  "latestAction": {
+   "actionDate": "2024-09-18",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/5087",
+  "number": "5087",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Housing and Community Development"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000479",
+    "firstName": "John",
+    "fullName": "Sen. Fetterman, John [D-PA]",
+    "isByRequest": "N",
+    "lastName": "Fetterman",
+    "middleName": "K.",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/F000479?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5087/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5087/text?format=json"
+  },
+  "title": "Tenants\u2019 Right to Organize Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/5087/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2024-11-04T14:38:58Z",
+  "updateDateIncludingText": "2024-11-04T14:38:58Z"
+ },
+ "request": {
+  "billNumber": "5087",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

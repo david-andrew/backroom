@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/1751/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1751/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/118/s/1751/cosponsors?format=json"
+  },
+  "introducedDate": "2023-05-18",
+  "latestAction": {
+   "actionDate": "2023-05-18",
+   "text": "Read twice and referred to the Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/1751",
+  "number": "1751",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/118/s/1751/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000570",
+    "firstName": "Ben",
+    "fullName": "Sen. Luj\u00e1n, Ben Ray [D-NM]",
+    "isByRequest": "N",
+    "lastName": "Luj\u00e1n",
+    "middleName": "R.",
+    "party": "D",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/L000570?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 38,
+   "url": "https://api.congress.gov/v3/bill/118/s/1751/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1751/text?format=json"
+  },
+  "title": "Radiation Exposure Compensation Act Amendments of 2023",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/1751/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "1751",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

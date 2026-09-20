@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/5018/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5018/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/5018/cosponsors?format=json"
+  },
+  "introducedDate": "2024-09-11",
+  "latestAction": {
+   "actionDate": "2024-09-11",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/5018",
+  "number": "5018",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5018/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001075",
+    "firstName": "Bill",
+    "fullName": "Sen. Cassidy, Bill [R-LA]",
+    "isByRequest": "N",
+    "lastName": "Cassidy",
+    "party": "R",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/C001075?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5018/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5018/text?format=json"
+  },
+  "title": "Restore Protections for Dialysis Patients Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/5018/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2024-10-15T12:24:30Z",
+  "updateDateIncludingText": "2024-10-15T12:24:30Z"
+ },
+ "request": {
+  "billNumber": "5018",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

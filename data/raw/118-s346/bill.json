@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/346/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/346/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/118/s/346/cosponsors?format=json"
+  },
+  "introducedDate": "2023-02-09",
+  "latestAction": {
+   "actionDate": "2024-05-02",
+   "text": "Committee on Banking, Housing, and Urban Affairs. Hearings held. Hearings printed: S.Hrg. 118-646."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/346",
+  "number": "346",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000464",
+    "firstName": "Jon",
+    "fullName": "Sen. Tester, Jon [D-MT]",
+    "isByRequest": "N",
+    "lastName": "Tester",
+    "party": "D",
+    "state": "MT",
+    "url": "https://api.congress.gov/v3/member/T000464?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/118/s/346/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/346/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/346/text?format=json"
+  },
+  "title": "Meat and Poultry Special Investigator Act of 2023",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/346/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-05-27T11:03:27Z",
+  "updateDateIncludingText": "2026-05-27T11:03:27Z"
+ },
+ "request": {
+  "billNumber": "346",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

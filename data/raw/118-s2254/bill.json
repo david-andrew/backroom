@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/2254/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2254/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/2254/cosponsors?format=json"
+  },
+  "introducedDate": "2023-07-12",
+  "latestAction": {
+   "actionDate": "2023-07-12",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/2254",
+  "number": "2254",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/2254/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001113",
+    "firstName": "Catherine",
+    "fullName": "Sen. Cortez Masto, Catherine [D-NV]",
+    "isByRequest": "N",
+    "lastName": "Cortez Masto",
+    "party": "D",
+    "state": "NV",
+    "url": "https://api.congress.gov/v3/member/C001113?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/118/s/2254/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2254/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2254/text?format=json"
+  },
+  "title": "Medicare PBM Accountability Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/2254/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T08:17:23Z",
+  "updateDateIncludingText": "2025-12-05T08:17:23Z"
+ },
+ "request": {
+  "billNumber": "2254",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

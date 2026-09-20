@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/3398/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/3398/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/3398/cosponsors?format=json"
+  },
+  "introducedDate": "2023-12-05",
+  "latestAction": {
+   "actionDate": "2023-12-05",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/3398",
+  "number": "3398",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/3398/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000817",
+    "firstName": "Elizabeth",
+    "fullName": "Sen. Warren, Elizabeth [D-MA]",
+    "isByRequest": "N",
+    "lastName": "Warren",
+    "middleName": "A.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/W000817?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/118/s/3398/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/3398/text?format=json"
+  },
+  "title": "Affordable Drug Manufacturing Act of 2023",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/3398/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T08:55:18Z",
+  "updateDateIncludingText": "2025-12-05T08:55:18Z"
+ },
+ "request": {
+  "billNumber": "3398",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

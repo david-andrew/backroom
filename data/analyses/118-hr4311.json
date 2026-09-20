@@ -1,0 +1,237 @@
+{
+ "bill_id": "118-hr4311",
+ "model": "z-ai/glm-5.3-flash",
+ "prompt_version": "e569b6c0a8",
+ "generated_at": "2026-09-20T12:37:16+00:00",
+ "record_fetched_at": "2026-09-20T11:34:25+00:00",
+ "record_hash": "aa54d003a8490bdf",
+ "analysis": {
+  "one_liner": "Creates a one-stop FTC system letting people delete their personal data from all data brokers at once.",
+  "headline": "The bill never got a vote: it sat in the House Energy and Commerce Committee until the 118th Congress ended on January 3, 2025.",
+  "direction": "for_working_people",
+  "plain_summary": "The DELETE Act would require data brokers — companies that buy and sell personal information about people who never dealt with them directly — to register with the Federal Trade Commission each year. It would build a free government website where a person could submit one request and every registered broker would have to delete that person's data and stop collecting more, verified through encrypted registries and independent audits. The bill was referred to the House Energy and Commerce Committee and its innovation subcommittee, where it stayed without a hearing or vote.",
+  "who_benefits": "Ordinary people whose personal data — addresses, browsing history, geolocation, biometric and financial details — is traded by data brokers they have never heard of. Anyone could erase that data trail with a single free request instead of chasing dozens of companies individually, and could see which brokers hold their information through a public registry.",
+  "who_benefits_short": "Anyone whose data is traded by brokers",
+  "how_it_helps": [
+   {
+    "text": "A single free submission would trigger deletion of a person's data and stop future collection at every registered broker that holds a matching persistent identifier, with deletion due within 31 days of a registry match [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Data brokers would have to register annually with the FTC, disclose what data they collect and how people can opt out, and the FTC would publish that information in a downloadable, machine-readable format [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Submitted identifying information would be salted and hashed into encrypted registries so individuals' raw data is not stored centrally, and only registered brokers could query the registries [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Brokers would face FTC enforcement, annual completion reports, and independent third-party audits of compliance every three years, with records kept at least six years [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The FTC would pay for the system partly through annual broker subscription fees capped at 1 percent of operating cost, and would study and report on the system's effectiveness to Congress [S2].",
+    "sources": [
+     "S2"
+    ]
+   }
+  ],
+  "who_pays": "Data brokers would bear registration, deletion, audit, and system-access costs, and would lose the ability to monetize the personal profiles of people who opt out. The FTC would bear the cost of building and securing the centralized system, offset by broker fees. People would gain a privacy protection but would have to share identifying information with the government registry for it to work.",
+  "who_pays_short": "Data brokers and the FTC's budget",
+  "drawbacks": [
+   {
+    "text": "Individuals would have to submit their email, phone number, and physical address into a government-run hashed registry, which the bill tries to secure through salting and hashing but which still creates a new central target for misuse [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The bill carves out broad exclusions — consumer reporting agencies, fraud prevention, authentication services, news organizations, and data disclosed at an individual's direction — so some companies holding large amounts of personal data would be outside its reach [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The bill preempts state privacy laws only where they are less protective, but a weaker federal floor could complicate enforcement for states with stronger rules, and enforcement depends entirely on FTC capacity and rulemaking timelines [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Compliance costs for hundreds of brokers — registration, 31-day deletion cycles, and triennial audits — would ultimately reduce the value of the data-brokerage business model, with some of that cost potentially passed to business customers [S2].",
+    "sources": [
+     "S2"
+    ]
+   }
+  ],
+  "benefit_vs_cost": "The consumer benefit is large and direct: a real, enforceable right to erase your data trail from the largely invisible broker industry in one step. The main costs fall on the brokers themselves, which is the point of the bill. The design is reasonably careful — hashed registries to limit data concentration, FTC enforcement, audits, and a carve-out structure protecting fraud prevention and research — but it leans heavily on the FTC writing good rules quickly, and the mandatory submission of personal identifiers into a federal system is a genuine, if mitigated, risk.",
+  "outcome": {
+   "status": "never_got_a_vote",
+   "mechanism": "It was introduced and referred to the House Energy and Commerce Committee and its innovation subcommittee on June 22-23, 2023, and never received a hearing, markup, or floor vote before the 118th Congress ended on January 3, 2025.",
+   "narrative": [
+    {
+     "text": "Rep. Lori Trahan (D-MA) introduced the DELETE Act on June 22, 2023, with Rep. Chuck Edwards (R-NC) as an original bipartisan cosponsor, and it was referred to the House Committee on Energy and Commerce the same day [S1][S2][S4].",
+     "sources": [
+      "S1",
+      "S2",
+      "S4"
+     ]
+    },
+    {
+     "text": "On June 23, 2023, the bill was referred to the Subcommittee on Innovation, Data, and Commerce — the usual first step that carries no guarantee of a hearing [S4].",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "The bill attracted 3 cosponsors (2 Democrats and 1 Republican) and no further action; it never advanced out of committee or received a floor vote [S3][S4].",
+     "sources": [
+      "S3",
+      "S4"
+     ]
+    },
+    {
+     "text": "The 118th Congress ended on January 3, 2025, and under congressional rules a bill that does not pass by then dies and must be reintroduced from scratch in a new Congress.",
+     "sources": []
+    }
+   ],
+   "who_came_out_ahead": "Data brokers win: their business model — trading personal profiles of people with no direct relationship to them — remains untouched by federal deletion rights. The Energy and Commerce Committee's decision not to act also left the field to the patchwork of state privacy laws."
+  },
+  "who_came_out_ahead_short": "Data brokers and their industry",
+  "sides": {
+   "for": [
+    {
+     "name": "Rep. Lori Trahan",
+     "role": "Sponsor, U.S. House of Representatives (D-MA)",
+     "party": "D",
+     "what_they_did": "Introduced the bill to create a centralized FTC-run data deletion system and referred it to Energy and Commerce.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S2",
+      "S4"
+     ]
+    },
+    {
+     "name": "Rep. Chuck Edwards",
+     "role": "Original cosponsor, U.S. House of Representatives (R-NC)",
+     "party": "R",
+     "what_they_did": "Joined as an original bipartisan cosponsor at introduction.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "name": "3 cosponsors (2 D, 1 R)",
+     "role": "Cosponsors of H.R. 4311",
+     "party": null,
+     "what_they_did": "Signed on as cosponsors, giving the bill small bipartisan support.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3"
+     ]
+    }
+   ],
+   "against": [
+    {
+     "name": "House Energy and Commerce Committee",
+     "role": "Committee of referral, chaired by Rep. Cathy McMorris Rodgers (R-WA)",
+     "party": "R",
+     "what_they_did": "Never held a hearing or markup on the bill; it stayed at the referral and subcommittee-referral stage for the rest of the Congress.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "Subcommittee on Innovation, Data, and Commerce",
+     "role": "Subcommittee of referral, chaired by Rep. Gus Bilirakis (R-FL)",
+     "party": "R",
+     "what_they_did": "Received the bill on June 23, 2023, and took no further action on it.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "House Republican leadership",
+     "role": "House majority leadership in the 118th Congress",
+     "party": "R",
+     "what_they_did": "The bill never reached the House floor, which under normal scheduling practice requires leadership to schedule legislation that clears committee.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
+    }
+   ],
+   "party_line": "mostly_party_line",
+   "party_line_note": "The bill had genuine bipartisan sponsorship (a Democratic sponsor and a Republican original cosponsor among 3 total cosponsors), but it sat in a Republican-controlled committee that took no action, so the decisive resistance was structural rather than a recorded party-line vote."
+  },
+  "industries": [
+   {
+    "industry": "Data brokers",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill targets this industry directly: mandatory FTC registration, public disclosure of data practices, one-click consumer deletion, audits, and enforcement would shrink the market for trading personal profiles of people with no direct relationship to the broker. The industry's revenue depends on consumers being unable to easily remove their data, so its interest runs directly against the bill's purpose. The bill never got a vote, so the industry lost nothing.",
+    "sources": [
+     "S2",
+     "S4"
+    ]
+   },
+   {
+    "industry": "Digital advertising and marketing industry",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "Advertisers buy targeting data from brokers, so deletion requests would reduce the scale and precision of targeted advertising and could raise costs for ad-driven businesses. Consumers who opted out would get more privacy, while the ad ecosystem would lose a data source; the effect on ordinary people as consumers of ad-supported services is debated.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Consumer reporting agencies and fraud-prevention firms",
+    "effect": "entrenched",
+    "stance_toward_public": "mixed",
+    "note": "The bill explicitly excludes consumer reporting agencies (FCRA-defined), fraud prevention, and identity-authentication uses from the definition of data broker, so those firms would keep collecting and holding personal data even after the deletion system launches. This carve-out preserves their role in the credit and security infrastructure while the rest of the brokerage sector faces new constraints.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Federal Trade Commission",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "The FTC would gain new rulemaking, registration, and enforcement authority plus a dedicated fee-funded revenue stream capped at 1 percent of system operating costs, while bearing the burden of building and securing a national deletion system. Whether this expands consumer protection capacity depends on FTC execution, and the bill preempts state privacy laws only to the extent they are less protective, preserving stronger state regimes.",
+    "sources": [
+     "S2"
+    ]
+   }
+  ],
+  "trajectory": null,
+  "categories": [
+   "consumer_protection_and_finance",
+   "corruption_and_ethics"
+  ],
+  "scores": {
+   "public_stakes": 7,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 6,
+   "support_mismatch": 4,
+   "corruption_relevance": 3,
+   "confidence": 0.9
+  }
+ },
+ "unresolved_citations": []
+}

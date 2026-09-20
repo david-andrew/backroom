@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/3051/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/3051/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/3051/cosponsors?format=json"
+  },
+  "introducedDate": "2023-10-17",
+  "latestAction": {
+   "actionDate": "2023-10-17",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/3051",
+  "number": "3051",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001194",
+    "firstName": "Brian",
+    "fullName": "Sen. Schatz, Brian [D-HI]",
+    "isByRequest": "N",
+    "lastName": "Schatz",
+    "party": "D",
+    "state": "HI",
+    "url": "https://api.congress.gov/v3/member/S001194?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/3051/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/3051/text?format=json"
+  },
+  "title": "Stop Child Labor Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/3051/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-05-27T14:12:28Z",
+  "updateDateIncludingText": "2025-05-27T14:12:28Z"
+ },
+ "request": {
+  "billNumber": "3051",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/220/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/220/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/220/cosponsors?format=json"
+  },
+  "introducedDate": "2023-02-01",
+  "latestAction": {
+   "actionDate": "2023-02-01",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (Sponsor introductory remarks on measure: CR S207-208)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/220",
+  "number": "220",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/220/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001169",
+    "firstName": "Christopher",
+    "fullName": "Sen. Murphy, Christopher [D-CT]",
+    "isByRequest": "N",
+    "lastName": "Murphy",
+    "middleName": "S.",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/M001169?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/118/s/220/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/220/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/220/text?format=json"
+  },
+  "title": "Workforce Mobility Act of 2023",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/220/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-09T13:19:38Z",
+  "updateDateIncludingText": "2026-09-09T13:19:38Z"
+ },
+ "request": {
+  "billNumber": "220",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

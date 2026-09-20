@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/1269/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1269/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/118/s/1269/cosponsors?format=json"
+  },
+  "introducedDate": "2023-04-25",
+  "latestAction": {
+   "actionDate": "2023-04-25",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/1269",
+  "number": "1269",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/1269/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001181",
+    "firstName": "Jeanne",
+    "fullName": "Sen. Shaheen, Jeanne [D-NH]",
+    "isByRequest": "N",
+    "lastName": "Shaheen",
+    "party": "D",
+    "state": "NH",
+    "url": "https://api.congress.gov/v3/member/S001181?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1269/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1269/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1269/text?format=json"
+  },
+  "title": "INSULIN Act of 2023",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/118/s/1269/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-05-27T14:16:45Z",
+  "updateDateIncludingText": "2025-05-27T14:16:45Z"
+ },
+ "request": {
+  "billNumber": "1269",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
