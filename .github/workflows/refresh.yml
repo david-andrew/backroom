@@ -1,6 +1,6 @@
 name: refresh
-# Weekly: refetch every tracked bill from Congress.gov, re-analyze the ones whose record changed,
-# refresh the glossary and member roster, commit the data, then deploy.
+# Weekly: refetch every tracked bill from Congress.gov, find newly introduced bills in the current Congress,
+# re-analyze the ones whose record changed, refresh the glossary and member roster, commit the data, then deploy.
 # Needs repository secrets OPENROUTER_API_KEY and CONGRESS_API_KEY.
 on:
   schedule:
@@ -39,6 +39,10 @@ jobs:
         run: |
           uv sync
           uv run backroom fetch --force
+          # Discover new bills in the sitting Congress: score every title+summary (cached, so only new bills cost anything),
+          # then fetch and analyze whatever clears the cutoff. Two passes so timed-out batches get filled.
+          uv run backroom triage ${{ vars.BACKROOM_CONGRESS || '119' }} --top 0
+          uv run backroom triage ${{ vars.BACKROOM_CONGRESS || '119' }} --min-score ${{ vars.BACKROOM_MIN_SCORE || '13' }} --top 0 --fetch
           uv run backroom analyze ${{ inputs.force_analyze && '--force' || '' }}
           uv run backroom glossary
           uv run backroom members --force

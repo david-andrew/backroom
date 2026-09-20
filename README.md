@@ -64,7 +64,7 @@ The site is static and lives on GitHub Pages. Two workflows do everything:
 | Workflow | Trigger | What it does | Needs |
 |---|---|---|---|
 | `deploy` | every push to `master` | `backroom build` from the committed data, `vite build`, publish to Pages | nothing |
-| `refresh` | Mondays 06:17 UTC, or manually | refetch bills, re-analyze changed ones, refresh glossary and member roster, commit `data/`, then deploy | secrets `OPENROUTER_API_KEY`, `CONGRESS_API_KEY` |
+| `refresh` | Mondays 06:17 UTC, or manually | refetch bills, triage the sitting Congress for new bills, re-analyze changed ones, refresh glossary and member roster, commit `data/`, then deploy | secrets `OPENROUTER_API_KEY`, `CONGRESS_API_KEY` |
 
 One-time setup in the GitHub repo:
 
@@ -74,12 +74,11 @@ One-time setup in the GitHub repo:
 
 Custom domain DNS: an `A`/`AAAA` set pointing the apex at GitHub Pages' IPs (or a `CNAME` from `www` to `david-andrew.github.io`), then enter the domain under Settings > Pages and tick "Enforce HTTPS". Re-run `deploy` once after adding the domain; it picks the domain up from Pages settings and writes the `CNAME` file itself.
 
-`refresh` can be run by hand from the Actions tab; tick **force_analyze** after changing a prompt to regenerate every analysis. Triage (`backroom triage <congress>`) is still a manual step until the shortlist threshold has been tuned.
+`refresh` can be run by hand from the Actions tab; tick **force_analyze** after changing a prompt to regenerate every analysis. It also runs triage on the sitting Congress (variables `BACKROOM_CONGRESS`, default 119, and `BACKROOM_MIN_SCORE`, default 13) so newly introduced bills are picked up. Backfilling an earlier Congress is a manual run: `backroom triage 117 --min-score 13 --fetch`.
 
 ## Roadmap
 
 - **State and local legislatures.** The same pipeline shape (public record in, sourced plain-language analysis out) applies to state bills; the [Open States API](https://docs.openstates.org/) covers all 50 legislatures with bills, sponsors, votes, and text, and city councils increasingly publish through Legistar. The schema would gain a `jurisdiction` field and the member lookup would extend to state legislators via the same Census district layers.
-- **Automated discovery.** Promote `triage` from a manual command to a scheduled step once the scoring threshold is validated against a hand-checked sample.
 - **Lobbying disclosures.** Senate LDA filings list the bills each registrant lobbied on; joining them would let "industries affected" cite who actually paid to influence a bill.
 
 ## Layout
