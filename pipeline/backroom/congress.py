@@ -82,6 +82,26 @@ class CongressClient:
                 break
         return out[:limit] if limit else out
 
+    def list_summaries(self, congress: int, types: tuple[str, ...] = ("hr", "s")) -> dict[str, str]:
+        """slug -> first sentence or two of the latest CRS summary, for every bill in a Congress that has one.
+        The summaries endpoint only returns results with a date window; one page holds 250."""
+        start = f"{1789 + 2 * (congress - 1)}-01-03T00:00:00Z"
+        end = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        out: dict[str, str] = {}
+        for t in types:
+            items = self._paged(f"summaries/{congress}/{t}", "summaries", params={"fromDateTime": start, "toDateTime": end, "sort": "updateDate+asc"})
+            for it in items:  # ascending by update date, so later versions overwrite earlier ones
+                b = it.get("bill") or {}
+                slug = f"{congress}-{(b.get('type') or t).lower()}{b.get('number')}"
+                text = _strip_html(it.get("text", ""))
+                # Drop the bold title line CRS puts first, then keep the opening of the summary.
+                lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
+                if lines and (lines[0].endswith(("Act", "Act of " + str(congress)[:0])) or len(lines) > 1 and len(lines[0]) < 160):
+                    lines = lines[1:]
+                body = " ".join(lines)
+                out[slug] = body[:280]
+        return out
+
     # ---- one bill ----------------------------------------------------------
 
     def fetch_bill(self, bid: BillId, force: bool = False) -> BillRecord:

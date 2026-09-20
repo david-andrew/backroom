@@ -27,10 +27,24 @@ class TriageBatch(BaseModel):
     scores: list[TriageScore]
 
 
+def load_summaries(congress: int, client: CongressClient, force: bool = False) -> dict[str, str]:
+    """Cached CRS summary openers for a Congress (data/triage/summaries-<n>.json)."""
+    p = config.TRIAGE_DIR / f"summaries-{congress}.json"
+    if p.exists() and not force:
+        return json.loads(p.read_text())["summaries"]
+    print(f"  fetching CRS summaries for the {congress}th Congress")
+    summ = client.list_summaries(congress)
+    config.TRIAGE_DIR.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps({"congress": congress, "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "summaries": summ}))
+    print(f"  {len(summ)} summaries")
+    return summ
+
+
 def run(congress: int, limit: int | None = None, min_score: int = 12, model_id: str = config.TRIAGE_MODEL) -> list[dict]:
     client = CongressClient()
     bills = client.list_bills(congress, limit=limit)
-    print(f"  {len(bills)} bills in the {congress}th Congress")
+    summaries = load_summaries(congress, client)
+    print(f"  {len(bills)} bills in the {congress}th Congress, {len(summaries)} with a CRS summary")
     out_path = config.TRIAGE_DIR / f"{congress}.json"
     done: dict[str, dict] = {}
     if out_path.exists():
@@ -61,7 +75,9 @@ def run(congress: int, limit: int | None = None, min_score: int = 12, model_id: 
         group = chunks[w:w + wave]
         def make(chunk):
             user = "\n".join(
-                f"- {slug}: {b.get('title','')}  [latest: {(b.get('latestAction') or {}).get('text','')[:120]}]"
+                f"- {slug}: {b.get('title','')}"
+                + (f"  — {summaries[slug]}" if summaries.get(slug) else "")
+                + f"  [latest: {(b.get('latestAction') or {}).get('text','')[:100]}]"
                 for slug, b in chunk
             )
             return lambda: astructured_call(model_id, system, user, TriageBatch)
