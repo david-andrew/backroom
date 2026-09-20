@@ -5,6 +5,10 @@ from __future__ import annotations
 import asyncio
 import hashlib
 import json
+import socket
+
+# toki's blocking OpenRouter path posts with no timeout; a dropped connection would hang a worker forever.
+socket.setdefaulttimeout(300)
 from typing import TypeVar
 
 from pydantic import BaseModel, ValidationError
