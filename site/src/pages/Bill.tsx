@@ -100,7 +100,7 @@ export function Bill({ id }: { id: string }) {
             </ul>
             <h3>{bill.cosponsor_count} cosponsors</h3>
             <PartyBar counts={bill.cosponsor_party_counts} width={120} />
-            <p class="muted small">{Object.entries(bill.cosponsor_party_counts).map(([k, v]) => `${k}: ${v}`).join(' · ') || 'none'}</p>
+            <p class="muted small">{cosponsorLine(bill) || 'none'}</p>
             {bill.cosponsors.length > 0 && (
               <details class="expand">
                 <summary>Show all {bill.cosponsors.length}</summary>
@@ -197,4 +197,15 @@ function MemberVotes({ v }: { v: Vote }) {
       </div>
     </details>
   )
+}
+
+/** "86 of 213 House Democrats · 3 of 220 House Republicans" using the caucus sizes derived from roll calls. */
+function cosponsorLine(bill: BillPage): string {
+  const chamber = bill.origin_chamber === 'Senate' ? 'Senate' : 'House'
+  const sizes = bill.caucus?.[chamber] ?? {}
+  const name: Record<string, string> = { D: 'Democrats', R: 'Republicans', I: 'Independents', ID: 'Independent Democrats', L: 'Libertarians' }
+  return Object.entries(bill.cosponsor_party_counts)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([p, n]) => sizes[p] ? `${n} of ${sizes[p]} ${chamber} ${name[p] ?? p}` : `${p}: ${n}`)
+    .join(' · ')
 }

@@ -6,6 +6,7 @@ import re
 from datetime import datetime, timezone
 
 from . import config
+from . import caucus
 from .schema import AnalysisFile, BillRecord
 
 # Deterministic ranking so the ordering can be re-tuned without re-running models.
@@ -53,6 +54,8 @@ def publish_prompts(hashes_in_use: set[str]) -> None:
 def run() -> None:
     out_bills = config.SITE_DATA_DIR / "bills"
     out_bills.mkdir(parents=True, exist_ok=True)
+    sizes = caucus.write()
+    print(f"  caucus sizes for {len(sizes)} Congress(es)")
     index = []
     prompt_hashes: set[str] = set()
     for af_path in sorted(config.ANALYSES_DIR.glob("*.json")):
@@ -78,6 +81,7 @@ def run() -> None:
             "policy_area": rec.policy_area, "subjects": rec.subjects,
             "sponsors": [p.model_dump() for p in rec.sponsors],
             "cosponsors": [p.model_dump() for p in rec.cosponsors],
+            "caucus": sizes.get(str(rec.congress), {}),
             "cosponsor_count": len(rec.cosponsors), "cosponsor_party_counts": rec.cosponsor_party_counts,
             "committees": [c.model_dump() for c in rec.committees],
             "actions": [a_.model_dump() for a_ in rec.actions],
@@ -114,6 +118,6 @@ def run() -> None:
     index.sort(key=lambda b: -b["rank_score"])
     (config.SITE_DATA_DIR / "index.json").write_text(json.dumps({
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "weights": WEIGHTS, "bills": index,
+        "weights": WEIGHTS, "caucus": sizes, "bills": index,
     }))
     print(f"  wrote {len(index)} bills to {config.SITE_DATA_DIR}")

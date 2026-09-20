@@ -5,7 +5,7 @@ import json
 import re
 from datetime import datetime, timezone
 
-from . import config
+from . import caucus, config
 from .llm import load_prompt, prompt_version, structured_call
 from .schema import Analysis, AnalysisFile, BillRecord, CATEGORIES
 
@@ -19,7 +19,14 @@ def render_context(rec: BillRecord, bill_text: str) -> str:
     lines.append(f"Introduced {rec.introduced} in the {rec.origin_chamber}. Policy area: {rec.policy_area}.")
     lines.append(f"Congress {'has ended' if rec.congress_ended else 'is still in session'} (ends {config.congress_end_date(rec.congress)}).")
     lines.append("Sponsor(s): " + "; ".join(f"{p.name} ({p.party}-{p.state})" for p in rec.sponsors))
-    lines.append(f"Cosponsors: {len(rec.cosponsors)} " + json.dumps(rec.cosponsor_party_counts))
+    sizes = caucus.load().get(str(rec.congress), {})
+    if sizes:
+        lines.append("Party sizes in this Congress (use these as denominators when you name a bloc, e.g. '86 of 213 House Democrats'): "
+                     + "; ".join(f"{ch}: " + ", ".join(f"{p} {n}" for p, n in ps.items()) for ch, ps in sizes.items()))
+    origin = "House" if rec.type.startswith("h") else "Senate"
+    denom = sizes.get(origin, {})
+    lines.append(f"Cosponsors: {len(rec.cosponsors)} " + ", ".join(
+        f"{p}: {n}" + (f" of {denom[p]} {origin} {p}" if p in denom else "") for p, n in rec.cosponsor_party_counts.items()))
     if rec.subjects:
         lines.append("Subjects: " + ", ".join(rec.subjects[:25]))
     lines.append("")
@@ -37,8 +44,14 @@ def render_context(rec: BillRecord, bill_text: str) -> str:
         v = ""
         for rv in a.votes:
             tally = f" {rv.yea}-{rv.nay}" if rv.yea is not None else ""
-            parties = f" {json.dumps(rv.by_party)}" if rv.by_party else ""
-            v += f" [{rv.chamber} roll {rv.roll_number}{tally}{parties}]"
+            parties = ""
+            if rv.by_party:
+                from collections import Counter
+                total = Counter(m.party for m in rv.members)
+                parties = " " + "; ".join(
+                    f"{p}: {c.get('yea', 0)} yea, {c.get('nay', 0)} nay" + (f" of {total[p]}" if total.get(p) else "")
+                    for p, c in rv.by_party.items())
+            v += f" [{rv.chamber} roll {rv.roll_number}{tally}: {parties}]"
         lines.append(f"- {a.date} ({a.chamber or '?'}): {a.text}{v}")
     lines.append("")
     for s in rec.sources:

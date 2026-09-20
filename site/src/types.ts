@@ -91,7 +91,8 @@ export interface BillPage {
   id: string; display: string; congress: number; title: string
   introduced: string | null; origin_chamber: string | null
   policy_area: string | null; subjects: string[]
-  sponsors: Person[]; cosponsors: Person[]; cosponsor_count: number; cosponsor_party_counts: Record<string, number>
+  sponsors: Person[]; cosponsors: Person[]; cosponsor_count: number;
+  caucus: Record<string, Record<string, number>>; cosponsor_party_counts: Record<string, number>
   committees: { name: string; chamber: string; activities: string[] }[]
   actions: Action[]; votes: Vote[]
   congress_gov_url: string; text_url: string | null; congress_ended: boolean
