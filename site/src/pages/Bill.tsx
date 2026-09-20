@@ -3,7 +3,7 @@ import { loadBill, ordinal, congressYears, fmtDate } from '../data'
 import { loadGlossary, glossary } from '../glossary'
 import { href } from '../router'
 import type { BillPage, Vote } from '../types'
-import { Claims, PartyBar, Prose, ScoreGrid, StatusBadge, CategoryChips, DirectionBadge, SidesBlock } from '../components/ui'
+import { Claims, IndustryTable, PartyBar, Prose, ScoreGrid, StatusBadge, CategoryChips, DirectionBadge, SidesBlock } from '../components/ui'
 
 export function Bill({ id }: { id: string }) {
   const [bill, setBill] = useState<BillPage | null>(null)
@@ -48,6 +48,13 @@ export function Bill({ id }: { id: string }) {
             <h2>Who would pay</h2>
             <p><Prose text={a.who_pays} sources={S} /></p>
           </section>
+
+          {(a.industries?.length ?? 0) > 0 && (
+            <section>
+              <h2>Industries and interests affected</h2>
+              <IndustryTable items={a.industries} sources={S} />
+            </section>
+          )}
 
           <section>
             <h2>Drawbacks and honest objections</h2>

@@ -34,7 +34,7 @@ class CongressClient:
     def __init__(self, api_key: str | None = None, cache_dir: Path = config.RAW_DIR):
         self.api_key = api_key or config.congress_api_key()
         self.cache_dir = cache_dir
-        self.http = httpx.Client(timeout=60, headers={"User-Agent": "tabled/0.1 (research)"})
+        self.http = httpx.Client(timeout=60, headers={"User-Agent": "backroom/0.1 (research)"})
 
     # ---- low level ---------------------------------------------------------
 

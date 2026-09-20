@@ -4,7 +4,7 @@ import { index, indexError, loadIndex, ordinal, congressYears } from '../data'
 import { href } from '../router'
 import { CATEGORY_LABEL, DEAD, PENDING } from '../types'
 import type { IndexBill } from '../types'
-import { CategoryChips, DirectionBadge, PartyBar, PartyLineBadge, StatusBadge } from '../components/ui'
+import { CategoryChips, DirectionBadge, IndustryChips, PartyBar, PartyLineBadge, StatusBadge } from '../components/ui'
 import { GilensPageChart } from '../components/Chart'
 
 const q = signal('')
@@ -43,7 +43,7 @@ const filtered = computed<IndexBill[]>(() => {
 export function Explorer() {
   useEffect(() => { loadIndex() }, [])
   const idx = index.value
-  if (indexError.value) return <p class="error">Could not load data: {indexError.value}. Run <code>tabled build</code> first.</p>
+  if (indexError.value) return <p class="error">Could not load data: {indexError.value}. Run <code>backroom build</code> first.</p>
   if (!idx) return <p class="muted">Loading…</p>
 
   const congresses = [...new Set(idx.bills.map(b => b.congress))].sort((a, b) => b - a)
@@ -114,6 +114,7 @@ export function Explorer() {
                 <div><dt>Would cost</dt><dd>{b.who_pays_short}</dd></div>
                 <div><dt>Came out ahead</dt><dd>{b.who_came_out_ahead_short}</dd></div>
               </dl>
+              <IndustryChips items={b.industries ?? []} />
               <div class="bill-card-foot">
                 <PartyLineBadge value={b.party_line} />
                 <CategoryChips categories={b.categories} />

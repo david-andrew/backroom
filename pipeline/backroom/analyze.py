@@ -82,13 +82,15 @@ def _all_claims(a: Analysis):
         yield c.sources
     for k in a.sides.for_ + a.sides.against:
         yield k.sources
+    for ind in a.industries:
+        yield ind.sources
 
 
 def run(slug: str, force: bool = False, model_id: str = config.ANALYSIS_MODEL) -> AnalysisFile:
     out = config.ANALYSES_DIR / f"{slug}.json"
     rec_path = config.RAW_DIR / slug / "record.json"
     if not rec_path.exists():
-        raise SystemExit(f"no record for {slug}; run `tabled fetch {slug}` first")
+        raise SystemExit(f"no record for {slug}; run `backroom fetch {slug}` first")
     rec = BillRecord.model_validate_json(rec_path.read_text())
     if out.exists() and not force:
         try:

@@ -17,12 +17,12 @@ SEEDS_FILE = DATA_DIR / "seeds.json"
 PROMPTS_DIR = REPO_ROOT / "pipeline" / "prompts"
 SITE_DATA_DIR = REPO_ROOT / "site" / "public" / "data"
 
-TRIAGE_MODEL = os.environ.get("TABLED_TRIAGE_MODEL", "z-ai/glm-5.3-flash")
-ANALYSIS_MODEL = os.environ.get("TABLED_ANALYSIS_MODEL", "z-ai/glm-5.3-flash")
+TRIAGE_MODEL = os.environ.get("BACKROOM_TRIAGE_MODEL", "z-ai/glm-5.3-flash")
+ANALYSIS_MODEL = os.environ.get("BACKROOM_ANALYSIS_MODEL", "z-ai/glm-5.3-flash")
 
 # Bill text fed to the analysis model is capped so a 900-page omnibus does not
 # blow the budget. Most of the bills we care about are far shorter.
-MAX_BILL_TEXT_CHARS = int(os.environ.get("TABLED_MAX_BILL_TEXT_CHARS", "80000"))
+MAX_BILL_TEXT_CHARS = int(os.environ.get("BACKROOM_MAX_BILL_TEXT_CHARS", "80000"))
 
 
 def congress_api_key() -> str:

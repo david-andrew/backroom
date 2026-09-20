@@ -258,3 +258,22 @@ main { max-width: 1080px; margin: 0 auto; padding: 1.5rem 1.5rem 4rem; }
 .tip b { display: block; margin-bottom: 0.2rem; }
 .tip-def { display: block; }
 .tip-src { display: block; margin-top: 0.4rem; font-size: 0.75rem; color: var(--ink-2); }
+
+/* industry effects */
+.ind-chips { display: flex; flex-wrap: wrap; gap: 0.3rem 0.6rem; margin: 0 0 0.6rem; font-family: var(--font-ui); font-size: 0.78rem; color: var(--ink-2); }
+.ind-chip .ind-arrow { font-size: 0.65em; vertical-align: 1px; }
+.ind-chip.eff-gains.st-opposed .ind-arrow, .ind-chip.eff-entrenched.st-opposed .ind-arrow { color: var(--elite); }
+.ind-chip.eff-gains.st-aligned .ind-arrow { color: var(--people); }
+.ind-chip.eff-loses .ind-arrow { color: var(--ink-3); }
+.ind-list { list-style: none; padding: 0; margin: 0; max-width: 68ch; }
+.ind-list li { padding: 0.55rem 0.8rem; margin: 0.4rem 0; border-left: 3px solid var(--line); background: var(--surface); }
+.ind-list li.st-opposed { border-left-color: var(--elite); }
+.ind-list li.st-aligned { border-left-color: var(--people); }
+.ind-head { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+.ind-note { font-size: 0.95rem; color: var(--ink-2); margin-top: 0.2rem; }
+.eff-badge { background: var(--line); color: var(--ink-2); }
+.eff-badge.eff-entrenched, .eff-badge.eff-gains { color: var(--elite); background: var(--elite-bg); }
+.eff-badge.eff-loses { color: var(--ink-2); background: var(--line); }
+.st-badge.st-opposed { color: var(--dead); background: var(--dead-bg); }
+.st-badge.st-aligned { color: var(--enacted); background: var(--enacted-bg); }
+.st-badge.st-mixed { color: var(--ink-3); background: transparent; border: 1px solid var(--line); }

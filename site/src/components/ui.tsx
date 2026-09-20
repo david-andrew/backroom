@@ -1,7 +1,7 @@
-import type { Actor, Claim, Direction, PartyLine, Scores, Sides, Source, Status, Vote } from '../types'
+import type { Actor, Claim, Direction, IndustryBrief, IndustryEffect, PartyLine, Scores, Sides, Source, Status, Vote } from '../types'
 import { findTerm, termPattern } from '../glossary'
 import { Term } from './Term'
-import { CATEGORY_LABEL, DEAD, DIRECTION_LABEL, PARTY_LINE_LABEL, STATUS_LABEL } from '../types'
+import { CATEGORY_LABEL, DEAD, DIRECTION_LABEL, EFFECT_LABEL, PARTY_LINE_LABEL, STANCE_LABEL, STATUS_LABEL } from '../types'
 
 export function StatusBadge({ status }: { status: Status }) {
   const tone = DEAD.includes(status) ? 'dead' : status === 'became_law' ? 'enacted' : 'pending'
@@ -195,5 +195,38 @@ export function VoteSplit({ v }: { v: Vote }) {
         {parties.map(p => <span key={p}><PartyDot party={p} /> {v.by_party![p].yea} yea, {v.by_party![p].nay} nay&nbsp;&nbsp;</span>)}
       </div>
     </div>
+  )
+}
+
+/** Compact industry line for cards: "Health insurers gains · Drug makers loses". */
+export function IndustryChips({ items }: { items: IndustryBrief[] }) {
+  if (!items.length) return null
+  return (
+    <span class="ind-chips">
+      {items.map(i => (
+        <span key={i.industry} class={`ind-chip eff-${i.effect} st-${i.stance}`} title={`${i.industry}: ${EFFECT_LABEL[i.effect]}, ${STANCE_LABEL[i.stance]}`}>
+          <span class="ind-arrow" aria-hidden="true">{i.effect === 'gains' ? '▲' : i.effect === 'loses' ? '▼' : i.effect === 'entrenched' ? '■' : '◆'}</span> {i.industry}
+        </span>
+      ))}
+    </span>
+  )
+}
+
+/** Full industry table for the bill page. */
+export function IndustryTable({ items, sources }: { items: IndustryEffect[]; sources: Source[] }) {
+  if (!items.length) return null
+  return (
+    <ul class="ind-list">
+      {items.map(i => (
+        <li key={i.industry} class={`st-${i.stance_toward_public}`}>
+          <div class="ind-head">
+            <b>{i.industry}</b>
+            <span class={`badge eff-badge eff-${i.effect}`}>{EFFECT_LABEL[i.effect]}</span>
+            <span class={`badge st-badge st-${i.stance_toward_public}`}>{STANCE_LABEL[i.stance_toward_public]}</span>
+          </div>
+          <div class="ind-note"><Prose text={i.note} sources={sources} /><Cite ids={i.sources} sources={sources} /></div>
+        </li>
+      ))}
+    </ul>
   )
 }

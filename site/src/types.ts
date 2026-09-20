@@ -31,6 +31,7 @@ export interface IndexBill {
   who_pays_short: string
   who_came_out_ahead_short: string
   party_line: PartyLine
+  industries: IndustryBrief[]
   status: Status
   categories: string[]
   scores: Scores
@@ -49,6 +50,10 @@ export interface Actor {
   name: string; role: string; party: string | null; what_they_did: string
   direct: boolean; evidence: 'record' | 'widely_reported'; sources: string[]
 }
+export type IndustryEffectKind = 'gains' | 'loses' | 'entrenched' | 'mixed'
+export type Stance = 'aligned' | 'opposed' | 'mixed'
+export interface IndustryEffect { industry: string; effect: IndustryEffectKind; stance_toward_public: Stance; note: string; sources: string[] }
+export interface IndustryBrief { industry: string; effect: IndustryEffectKind; stance: Stance }
 export interface Sides { for: Actor[]; against: Actor[]; party_line: PartyLine; party_line_note: string }
 export interface Vote {
   chamber: string; date: string; roll_number: number; url: string
@@ -74,6 +79,7 @@ export interface Analysis {
   outcome: { status: Status; mechanism: string; narrative: Claim[]; who_came_out_ahead: string }
   who_came_out_ahead_short: string
   sides: Sides
+  industries: IndustryEffect[]
   trajectory: string | null
   categories: string[]
   scores: Scores
@@ -133,3 +139,6 @@ export const PARTY_LINE_LABEL: Record<PartyLine, string> = {
   bipartisan: 'Bipartisan',
   unclear: 'No clear split',
 }
+
+export const EFFECT_LABEL: Record<IndustryEffectKind, string> = { gains: 'gains', loses: 'loses', entrenched: 'entrenched', mixed: 'mixed' }
+export const STANCE_LABEL: Record<Stance, string> = { aligned: 'aligned with the public', opposed: 'against the public', mixed: 'mixed' }

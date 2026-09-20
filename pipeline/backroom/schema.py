@@ -183,6 +183,14 @@ class Scores(BaseModel):
     confidence: float = Field(ge=0, le=1, description="How well the provided sources support this analysis")
 
 
+class IndustryEffect(BaseModel):
+    industry: str = Field(description="A specific industry or interest, e.g. 'Health insurers', 'Brand-name drug makers', 'Farm equipment manufacturers'")
+    effect: Literal["gains", "loses", "entrenched", "mixed"] = Field(description="What the bill does to this industry. 'entrenched' = the bill locks in the industry's role or revenue even while regulating it")
+    stance_toward_public: Literal["aligned", "opposed", "mixed"] = Field(description="In this bill, does the industry's interest run alongside ordinary people's ('aligned': both win or both lose together) or against it ('opposed': the industry's gain is the public's cost, or vice versa)")
+    note: str = Field(description="One or two plain sentences: what the bill does to this industry and why it matters for ordinary people")
+    sources: list[str]
+
+
 class Analysis(BaseModel):
     one_liner: str = Field(description="One sentence, under 20 words, saying what the bill does in plain language. No bill number, no dates.")
     headline: str = Field(description="One factual sentence about the outcome, with numbers where the record has them, no jargon")
@@ -198,6 +206,7 @@ class Analysis(BaseModel):
     outcome: Outcome
     who_came_out_ahead_short: str = Field(description="Under 10 words: who is better off because of what actually happened")
     sides: Sides
+    industries: list[IndustryEffect] = Field(description="Each industry or concentrated interest materially affected, most affected first. Include industries the bill entrenches even while it helps people.")
     trajectory: str | None = Field(default=None, description="Only if the Congress is still in session: likely path from here")
     categories: list[str]
     scores: Scores

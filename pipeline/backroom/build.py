@@ -71,6 +71,7 @@ def run() -> None:
             "one_liner": clean(a.one_liner), "headline": clean(a.headline), "direction": a.direction,
             "who_benefits_short": clean(a.who_benefits_short), "who_pays_short": clean(a.who_pays_short),
             "who_came_out_ahead_short": clean(a.who_came_out_ahead_short), "party_line": a.sides.party_line,
+            "industries": [{"industry": i.industry, "effect": i.effect, "stance": i.stance_toward_public} for i in a.industries[:4]],
             "status": a.outcome.status, "categories": a.categories,
             "scores": a.scores.model_dump(), "rank_score": score, "congress_ended": rec.congress_ended,
         })

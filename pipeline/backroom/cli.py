@@ -1,11 +1,11 @@
-"""`tabled` command line.
+"""`backroom` command line.
 
-  tabled fetch [bill ...]      fetch + cache Congress.gov data (default: seeds.json)
-  tabled analyze [bill ...]    run the analysis model (default: every fetched bill)
-  tabled triage CONGRESS       score every bill in a Congress with the triage model
-  tabled glossary              list uncommon terms, define them from Wikipedia
-  tabled build                 write site/public/data
-  tabled all                   fetch + analyze + build for the seeds
+  backroom fetch [bill ...]      fetch + cache Congress.gov data (default: seeds.json)
+  backroom analyze [bill ...]    run the analysis model (default: every fetched bill)
+  backroom triage CONGRESS       score every bill in a Congress with the triage model
+  backroom glossary              list uncommon terms, define them from Wikipedia
+  backroom build                 write site/public/data
+  backroom all                   fetch + analyze + build for the seeds
 """
 from __future__ import annotations
 
@@ -26,7 +26,7 @@ def fetched_slugs() -> list[str]:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(prog="tabled", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap = argparse.ArgumentParser(prog="backroom", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     f = sub.add_parser("fetch"); f.add_argument("bills", nargs="*"); f.add_argument("--force", action="store_true")

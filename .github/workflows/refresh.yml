@@ -20,12 +20,12 @@ jobs:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
         run: |
           uv sync
-          uv run tabled fetch --force     # pending bills may have new actions
-          uv run tabled analyze           # only re-analyzes bills whose record changed
-          uv run tabled build
+          uv run backroom fetch --force     # pending bills may have new actions
+          uv run backroom analyze           # only re-analyzes bills whose record changed
+          uv run backroom build
       - name: Commit data
         run: |
-          git config user.name "tabled-bot"
+          git config user.name "backroom-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data
           git diff --cached --quiet || git commit -m "data: scheduled refresh"
