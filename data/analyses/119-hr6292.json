@@ -1,100 +1,106 @@
 {
  "bill_id": "119-hr6292",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:41:17+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:31:29+00:00",
  "record_fetched_at": "2026-09-20T14:31:34+00:00",
  "record_hash": "30255a18c6e5c23c",
  "analysis": {
-  "one_liner": "Bars data brokers from collecting, selling, or keeping personal data of children and teens.",
-  "headline": "The bill passed its first House subcommittee by voice vote in December 2025 and now awaits action by the full Energy and Commerce Committee.",
+  "one_liner": "Bans data brokers from collecting, selling, or keeping personal data on anyone under 18.",
+  "headline": "Rep. Pallone introduced the bill with no cosponsors; a House Energy and Commerce subcommittee advanced it by voice vote on December 11, 2025, and it now awaits full committee action.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would make it illegal for data brokers—companies that buy and resell people's personal information—to collect, sell, or keep the personal data of anyone under 18 that they know about. Brokers would have to delete what they already hold, honor deletion requests from teens or parents within 10 days, and face enforcement by the FTC, state attorneys general, and private lawsuits with cash penalties of at least $1,000 per violation. It takes effect 180 days after enactment.",
-  "who_benefits": "Children and teenagers under 18, whose personal information could no longer be bought, sold, or traded by data brokers without their consent, and parents, who could demand deletion of their child's data within 10 days. All internet users indirectly benefit from shrinking the market for kids' profiles that can be exploited for fraud, stalking, or targeted manipulation.",
+  "plain_summary": "The bill would make it illegal for data brokers—companies that buy and resell personal information about people they never met—to collect, use, or sell personal data on anyone they know is under 18. Brokers would have to delete the data they already hold, set up a way for teens and parents to demand deletion within 10 days, and explain the process in plain language on their websites. The Federal Trade Commission, state attorneys general, and individual families could all enforce the rules, with at least $1,000 in damages per violation and up to triple that for intentional violations.",
+  "who_benefits": "Children and teenagers under 18, and their parents, whose personal information would no longer be collected and resold by data brokers. Families would gain a direct right to sue brokers who break the rules, with minimum damages of $1,000 per violation that cannot be waived by terms of service or forced into arbitration.",
   "who_benefits_short": "Kids and teens under 18",
   "how_it_helps": [
    {
-    "text": "Prohibits data brokers from collecting, using, maintaining, or selling any personal data of an individual they know is a child (under 13) or teen (13 to 17), and requires deletion of data they already hold [S2].",
+    "text": "Prohibits data brokers from collecting, using, maintaining, or selling any personal data of an individual the broker knows is a child (under 13) or teen (13 to 17), and requires brokers to delete data they already hold [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires data brokers to honor deletion requests submitted by teens, parents, or guardians within 10 days and to notify the requester when done, with a plainly written public notice of the process [S2].",
+    "text": "Requires brokers to let a teen, a parent of a child, or their agent request deletion, act on the request within 10 days, confirm completion, and publish a plain-language notice of the process [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Gives the FTC enforcement power, allows state attorneys general to sue on behalf of residents, and lets individuals sue with damages of at least $1,000 per violation, tripled for willful violations, plus attorney fees—rights that cannot be waived by terms of service or forced into arbitration [S2].",
+    "text": "Gives families a private right of action with at least $1,000 per violation, up to triple damages for willful violations, attorney's fees, and a ban on waiving these rights through terms of service or pre-dispute arbitration agreements [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Allows the FTC to enforce violations as unfair or deceptive practices, and lets state attorneys general sue on behalf of residents for injunctions, damages, and restitution [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Data brokers and the online advertising ecosystem built on reselling personal information would lose access to a market of users under 18 and bear compliance costs for deletion systems, plus FTC, state, and private enforcement exposure. Some websites and apps that rely on broker-fed advertising revenue could earn less from younger users.",
-  "who_pays_short": "Data brokers and ad-tech firms",
+  "who_pays": "Data brokers and the advertising businesses that buy their data would lose a market: the ability to track, profile, and resell information about minors. Companies that profit from targeted ads aimed at young people would bear compliance and deletion costs.",
+  "who_pays_short": "Data brokers and ad-tech companies",
   "drawbacks": [
    {
-    "text": "The ban only applies to data of children and teens the broker 'knows' is a minor, based on actual knowledge or what circumstances fairly imply—brokers holding data without age signals could claim they did not know, a gap that limits how much protection the bill delivers in practice [S2].",
+    "text": "The ban applies only to data on minors the broker 'knows' is a child or teen, defined as actual knowledge or knowledge implied by objective circumstances—so a broker can keep and sell a minor's data as long as it avoids learning the subject's age, a significant gap in coverage [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill defines 'data broker' narrowly and exempts service providers and companies for which data is not the product, so many platforms and ad-tech intermediaries that collect children's data directly are outside its reach [S2].",
+    "text": "Broad exceptions remove much of the market from the bill: entities acting as service providers, companies whose product is not the personal data itself, and news publishers are excluded from the definition of data broker [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Minimum statutory damages of $1,000 per violation, trebled for willful violations, could generate high-volume litigation costs for companies, a cost that some critics argue gets passed to consumers [S2].",
+    "text": "A minimum of $1,000 in statutory damages per violation plus mandatory attorney's fees could generate high-volume litigation against companies, a cost that critics of such provisions argue gets passed to consumers; supporters would counter that the fee-shifting is what makes enforcement real for families without resources [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core benefit—removing minors' personal data from a market where it is bought and sold—is substantial for families and carries little direct cost to ordinary people. The bill's main weaknesses are enforcement-shaped rather than cost-shaped: the knowledge standard and narrow broker definition leave loopholes that large platforms and intermediaries may exploit. The compliance and litigation costs fall on the data-broker industry, which is the point of the bill.",
+  "benefit_vs_cost": "The core benefit is real: it would shut down a market where brokers profile and resell children's data, and the private right of action with unwaivable minimum damages gives families genuine leverage. The main weakness is the knowledge standard, which lets brokers escape the rules by not asking the subject's age, and the carve-outs that exempt large categories of companies. The bill is a meaningful but incomplete shield rather than a full ban on trading minors' data.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It cleared a House subcommittee markup by voice vote in December 2025 and is waiting for the full Energy and Commerce Committee to take it up before it can reach the House floor.",
+   "mechanism": "The bill is still alive: it cleared a subcommittee of the House Energy and Commerce Committee by voice vote in December 2025 and is waiting for the full committee to act, with no floor vote scheduled.",
    "narrative": [
     {
-     "text": "Rep. Frank Pallone (D-NJ), the top Democrat on the Energy and Commerce Committee, introduced the bill on November 25, 2025, and it was referred to the Energy and Commerce Committee and its Commerce, Manufacturing, and Trade Subcommittee [S1][S4].",
+     "text": "Rep. Frank Pallone introduced the bill in the House on November 25, 2025, and it was referred to the House Committee on Energy and Commerce [S1].",
      "sources": [
       "S1",
       "S4"
      ]
     },
     {
-     "text": "On December 11, 2025, the subcommittee held a markup session and forwarded the bill to the full committee in the nature of a substitute (amended) by voice vote [S4].",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "The bill has no cosponsors as of the record [S3].",
+     "text": "No other member had signed on as a cosponsor as of the latest record [S3].",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "The bill has not yet been considered by the full committee or received a vote in either chamber, and the 119th Congress remains in session [S4].",
+     "text": "The House Energy and Commerce Subcommittee on Commerce, Manufacturing, and Trade held a markup session on December 11, 2025, and forwarded the bill to the full committee in the nature of a substitute (amended) by voice vote [S4].",
      "sources": [
       "S4"
      ]
+    },
+    {
+     "text": "No further action has been taken by the full committee, and the bill has not received a floor vote in either chamber [S1].",
+     "sources": [
+      "S1"
+     ]
     }
    ],
-   "who_came_out_ahead": "No one has won or lost yet; the bill is still alive in committee. Data brokers continue operating under current rules in the meantime."
+   "who_came_out_ahead": "So far, data brokers, who can continue collecting and selling minors' data while the bill waits in committee."
   },
-  "who_came_out_ahead_short": "Still unresolved—bill alive in committee",
+  "who_came_out_ahead_short": "Data brokers, so far",
   "sides": {
    "for": [
     {
      "name": "Rep. Frank Pallone",
-     "role": "Ranking Member (top Democrat), House Energy and Commerce Committee; bill sponsor",
+     "role": "Sponsor; ranking member, House Energy and Commerce Committee",
      "party": "D",
-     "what_they_did": "Introduced the Don't Sell Kids' Data Act on November 25, 2025, a bill banning data brokers from collecting or selling minors' personal data.",
+     "what_they_did": "Introduced the bill and it is pending before his committee",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -103,10 +109,10 @@
      ]
     },
     {
-     "name": "Commerce, Manufacturing, and Trade Subcommittee (House Energy and Commerce)",
-     "role": "Subcommittee with jurisdiction over the bill",
+     "name": "House Energy and Commerce Subcommittee on Commerce, Manufacturing, and Trade",
+     "role": "Subcommittee with jurisdiction",
      "party": null,
-     "what_they_did": "Held a markup on December 11, 2025, and forwarded the bill to the full committee, amended, by voice vote.",
+     "what_they_did": "Held a markup on December 11, 2025 and forwarded the bill to the full committee, amended, by voice vote",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -116,40 +122,49 @@
    ],
    "against": [],
    "party_line": "unclear",
-   "party_line_note": "The bill has a single Democratic sponsor and no cosponsors, and no floor votes have occurred, so the partisan shape is not yet visible in the record [S3][S4]."
+   "party_line_note": "No roll-call votes have been taken and the bill has zero cosponsors, so its support beyond the Democratic sponsor is unknown; passage would depend on the Republican-controlled committee and House bringing it up."
   },
   "industries": [
    {
     "industry": "Data brokers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill directly targets their core business: buying, holding, and reselling personal data. They would have to delete all known minors' data, build deletion-request systems, and face FTC, state, and private suits with $1,000-per-violation minimum damages [S2].",
+    "note": "These companies buy and resell personal data on people who never dealt with them directly, including minors, and the bill would outlaw collecting, holding, or selling data on anyone under 18 they know about. Their revenue depends on continuing this trade, which runs directly against the privacy of children and their families.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Online advertising and ad-tech platforms",
-    "effect": "mixed",
+    "industry": "Digital advertising and ad-tech",
+    "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill is narrower than it first appears—companies collecting data directly from users are exempt from the 'data broker' definition, and the knowledge standard lets firms avoid liability where age is not apparent [S2]. Still, the ad ecosystem loses access to broker-sourced profiles of minors that help target ads.",
+    "note": "Advertisers and targeting firms buy broker data to aim ads at young users; losing minors' profiles shrinks the audiences they can sell to. Consumers would see fewer ads built from tracked data about their children.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Websites and apps that collect minors' data",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "Companies acting as service providers processing data at a person's direction, or whose product is not the data itself, are excluded from the definition of data broker, so many consumer-facing platforms escape the ban while the compliance burden falls on brokers. Companies that would have been exempt gain a competitive edge over brokers subject to the rules.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill's subcommittee passage by voice vote is a modest positive sign, but a single sponsor with zero cosponsors, referral to the minority party's chairman's committee, and no full-committee action yet mean the usual path for a first-term privacy bill is a hearing and possible further markup if the committee prioritizes it—floor action is unlikely unless leadership elevates kids' online privacy this Congress.",
+  "trajectory": "The bill advanced out of subcommittee by voice vote but has no cosponsors and no full committee or floor action scheduled. First-term bills on data brokers that clear subcommittee rarely reach the floor without broader backing; unless the full Energy and Commerce Committee marks it up and leadership schedules it, the bill is likely to remain stalled in committee for the rest of this Congress.",
   "categories": [
    "consumer_protection_and_finance",
-   "other"
+   "corruption_and_ethics"
   ],
   "scores": {
-   "public_stakes": 7,
-   "concentrated_stakes": 7,
-   "outcome_against_public": 2,
-   "support_mismatch": 1,
-   "corruption_relevance": 1,
-   "confidence": 0.85
+   "public_stakes": 6,
+   "concentrated_stakes": 6,
+   "outcome_against_public": 4,
+   "support_mismatch": 2,
+   "corruption_relevance": 3,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

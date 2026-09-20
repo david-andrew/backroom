@@ -1,163 +1,152 @@
 {
  "bill_id": "118-s1291",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:55:54+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:32:34+00:00",
  "record_fetched_at": "2026-09-20T11:42:49+00:00",
  "record_hash": "16dc2ec163e621a8",
  "analysis": {
-  "one_liner": "Makes social media verify users' ages, require parental consent for teens, and shut off algorithmic feeds for minors.",
-  "headline": "The bill never got a hearing or a vote: it sat in the Senate Commerce Committee from April 2023 until the Congress ended in January 2025, despite 11 senators from both parties backing it.",
+  "one_liner": "Requires social media platforms to verify users' ages, get parental consent for minors, and restrict algorithmic feeds for teens.",
+  "headline": "The bill was introduced with 10 cosponsors split evenly between the parties, but it never got a hearing, markup, or vote in the Senate Commerce Committee and died when the Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would require social media platforms to verify the age of account holders using steps beyond simply asking users to state their age. It would bar children under 13 from having accounts, require a parent or guardian's affirmative consent for users under 18, and let parents revoke that consent, which would shut the account down. It would also stop platforms from feeding teens personalized algorithmic recommendations or targeted ads. A voluntary, free digital ID program run by the Commerce Department would give people a private way to prove their age, and the FTC and state attorneys general could enforce the rules with civil penalties.",
-  "who_benefits": "Children and teenagers. Kids under 13 could be kept off social media entirely, teens under 18 would need a parent's consent and would stop receiving engagement-maximizing algorithmic feeds and targeted ads, and parents could shut down a teen's account at any time. The bill also bars platforms from using or keeping the information collected during age verification for any other purpose, which limits how the new data could be monetized.",
-  "who_benefits_short": "Children, teens, and their parents",
+  "plain_summary": "This bill would require social media platforms to verify the age of every account holder, block children under 13 from using accounts, and require a parent or guardian's consent before creating an account for a 13-to-17-year-old, which the parent could later revoke. It would also bar platforms from using a person's data in their recommendation algorithms — the systems that decide what shows up in your feed — unless the person is verified as 18 or older. To make verification easier, the Commerce Department would run a voluntary, free pilot program for a secure digital ID, and the FTC and state attorneys general would enforce the rules. The bill died in committee without ever coming to a vote.",
+  "who_benefits": "Parents of teens and children, and minors themselves. Parents would gain the power to approve or revoke their child's social media account, and teens under 18 would stop being fed content chosen by algorithms trained on their personal data. Platforms could not reuse or retain the information collected to verify ages, and users could use a free, voluntary government-issued digital ID rather than handing documents to each platform.",
+  "who_benefits_short": "Parents, children, and teen users",
   "how_it_helps": [
    {
-    "text": "Platforms must verify the age of account holders using steps beyond mere self-reported age, and cannot let anyone create or keep an account whose age is unverified after two years.",
+    "text": "Platforms must verify the age of account holders using steps beyond simply trusting a user's self-reported birthday, and children under 13 may not hold accounts at all.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Children under 13 may not use social media platforms beyond viewing content while logged out.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Platforms must get affirmative parental or guardian consent to create an account for a minor between 13 and 17, must let the parent revoke consent, and must suspend or delete the account when consent is revoked.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Platforms may not use a user's personal data in an algorithmic recommendation system, including targeted advertising, unless the user is verified as 18 or older; teens would see content ranked by context rather than by their personal data.",
+    "text": "A parent or guardian must affirmatively consent to an account for any 13-to-17-year-old, can revoke that consent, and the platform must then disable the child's account.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Information collected during age verification and parental consent cannot be used or retained for any other purpose, and the bill explicitly does not require anyone to hand over government-issued ID to a platform.",
+    "text": "Platforms may not use a user's personal data in an algorithmic recommendation system unless the user is verified as 18 or older, cutting teens off from feeds engineered around their data.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "text": "The Commerce Department would run a voluntary, no-cost pilot program for a secure digital ID that people could use to prove their age or a parental relationship without sharing underlying documents, with strict limits on record-keeping and a sunset date.",
+    "text": "Information collected for age verification and parental consent cannot be used for any other purpose, and a voluntary, no-cost federal digital ID pilot would let people verify age or parent-child relationships without sharing underlying documents with platforms.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "text": "The FTC and state attorneys general could enforce the rules, with civil penalties calculated per day of violation or per user harmed.",
+    "text": "The FTC and state attorneys general can enforce the rules, with civil penalties for platforms that knowingly or repeatedly violate them.",
     "sources": [
+     "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Social media platforms bear the direct cost: building age-verification and parental-consent systems, losing the algorithmic engagement and targeted-ad revenue they get from users under 18, and facing civil penalties for violations. Users also pay a privacy price: every account holder would have to prove their age through some identity check, which in practice means handing over documents or identity data to platforms or verification vendors.",
-  "who_pays_short": "Platforms' profits; all users' privacy",
+  "who_pays": "Social media platforms, which would bear the cost and engineering burden of age verification for all users, lose the engagement and ad-targeting they get from minors, and face FTC and state-level lawsuits with per-day and per-user penalties. Users in general would face an added step of verifying their age to keep using their accounts, though the bill prohibits requiring government-issued ID specifically.",
+  "who_pays_short": "Social media platforms and all users' convenience",
   "drawbacks": [
    {
-    "text": "Age verification 'beyond merely requiring attestation' for every account holder means tens of millions of Americans would have to prove their age with documents or third-party identity checks, creating a large store of sensitive identity data that did not exist before and would be a target for breaches.",
+    "text": "Age verification for every account holder means hundreds of millions of users would have to prove their age online, a burden that raises privacy and security risks even though the bill bars platforms from using or keeping verification data for other purposes.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill would have taken effect only one year after enactment, and existing accounts older than 90 days would not need age verification until two years after enactment, so full compliance was years away.",
+    "text": "The bill creates a new federal digital identification credential through the Commerce Department; even with its limits on retention, disclosure, and use (it could not be used for benefits eligibility or legal status), it expands the government's role in online identity, which privacy advocates worry could normalize digital ID requirements beyond social media.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Teens under 18 would lose personalized feeds entirely, including discovery of content and communities some teens rely on for support; the bill permits only context-based suggestions not based on personal data.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Compliance costs fall on platforms of every size, and smaller platforms are less able to absorb them than the largest companies.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Privacy and civil liberties groups have argued that mandatory age verification and a government digital ID program, even a voluntary one, create surveillance and free-speech risks; the bill's answer was strict data-use limits, an explicit no-government-ID mandate for platforms, and a pilot program sunset, but the underlying tradeoff remains.",
+    "text": "A good-faith objection supporters must weigh: sweeping restrictions on minors' accounts and algorithmic feeds could push determined kids onto platforms with no rules at all, and could cut off some 13-to-17-year-olds from communities and resources they rely on, especially where a parent will not consent. The bill itself contains no carve-out for those cases.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The safety benefits are real and targeted: taking young teens off platforms, giving parents control, and ending engagement-optimized feeds for minors addresses concerns about social media's effects on adolescent mental health. The costs are also real: universal age verification means everyone, not just teens, must prove their identity to use social media, and that data creates a new breach and surveillance risk the bill could limit but not eliminate. The design shows its authors took the privacy objection seriously (no government ID requirement, strict data-retention limits, a voluntary pilot with a sunset), but this is a genuine tradeoff, not a free win.",
+  "benefit_vs_cost": "The upside for families is real and targeted: parental control over teen accounts and an end to algorithmic feeds built on minors' personal data, with strict limits on what platforms can do with verification data. The costs are also real — universal age verification is a heavy lift, the effectiveness of parental consent depends on households where consent is not forthcoming, and the federal digital ID pilot, though heavily privacy-protected on paper, creates new infrastructure whose security would only be as good as its execution. This is a serious bill with genuine design tradeoffs, not a giveaway, and it died without those tradeoffs ever being debated on the floor.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced in April 2023 and referred to the Senate Commerce Committee, which never held a hearing, marked it up, or voted on it in the 20 months before the Congress ended.",
+   "mechanism": "It was introduced and referred to the Senate Commerce Committee, which took no further action on it, so it expired when the Congress ended.",
    "narrative": [
     {
-     "text": "Sen. Brian Schatz introduced the bill with Sens. Tom Cotton, Chris Murphy, and Katie Britt, an unusual four-way split of two Democrats and two Republicans.",
+     "text": "The bill was introduced in the Senate on April 26, 2023 by Senator Schatz together with Senators Cotton, Murphy, and Britt, pairing two Democrats and two Republicans as original sponsors.",
      "sources": [
-      "S3",
-      "S1"
+      "S3"
      ]
     },
     {
-     "text": "Ten more senators, five from each party, signed on as cosponsors.",
+     "text": "It attracted 10 cosponsors — 5 of 49 Senate Republicans and 5 of 48 Senate Democrats.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The bill's only action after introduction was being read twice and referred to the Committee on Commerce, Science, and Transportation; the action history shows nothing further through the end of the 118th Congress on January 3, 2025.",
+     "text": "It was read twice and referred to the Committee on Commerce, Science, and Transportation the day it was introduced.",
      "sources": [
+      "S1",
       "S5"
      ]
     },
     {
-     "text": "No committee hearing, markup, or floor vote ever occurred, and no version of the bill was taken up by the House.",
+     "text": "The committee took no further action — no hearing, no markup, no vote — and the bill died when the 118th Congress ended on January 3, 2025.",
      "sources": [
-      "S5",
-      "S1"
+      "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Social media platforms are better off, because they keep the engagement and ad revenue from teen users and face no age-verification mandate; children and teens are left without the protections the bill offered."
+   "who_came_out_ahead": "Social media platforms came out ahead: they kept the status quo, including teen engagement and data-driven algorithmic feeds, with no new verification, consent, or enforcement obligations. Families gained nothing because the bill never advanced."
   },
-  "who_came_out_ahead_short": "Social media platforms kept the status quo",
+  "who_came_out_ahead_short": "Social media platforms, which kept the status quo",
   "sides": {
    "for": [
     {
      "name": "Sen. Brian Schatz",
      "role": "Lead sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and organized bipartisan cosponsorship.",
+     "what_they_did": "Introduced the bill and recruited a bipartisan group of original cosponsors.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3",
-      "S5"
-     ]
-    },
-    {
-     "name": "Sens. Tom Cotton, Chris Murphy, and Katie Britt",
-     "role": "Original cosponsors at introduction",
-     "party": "R/D/R",
-     "what_they_did": "Joined the bill at introduction, giving it two Republicans and two Democrats from day one.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
       "S3"
      ]
     },
     {
-     "name": "Ten additional Senate cosponsors",
-     "role": "Cosponsors (5 Republicans, 5 Democrats)",
-     "party": null,
-     "what_they_did": "Cosponsored the bill, bringing total Senate backing to 11 members.",
+     "name": "Sen. Tom Cotton, Sen. Chris Murphy, and Sen. Katie Britt",
+     "role": "Original cosponsors",
+     "party": "R/D",
+     "what_they_did": "Joined as original cosponsors when the bill was introduced, two Republicans and two Democrats in total.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3",
+      "S4"
+     ]
+    },
+    {
+     "name": "5 of 49 Senate Republicans",
+     "role": "Cosponsors",
+     "party": "R",
+     "what_they_did": "Cosponsored the bill.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "5 of 48 Senate Democrats",
+     "role": "Cosponsors",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -167,62 +156,46 @@
    ],
    "against": [
     {
-     "name": "Senate Committee on Commerce, Science, and Transportation",
-     "role": "Committee of referral (chaired by Sen. Maria Cantwell, D-WA)",
+     "name": "Senate Commerce, Science, and Transportation Committee",
+     "role": "Committee of referral",
      "party": null,
-     "what_they_did": "Took no action on the bill after referral: no hearing, no markup, no vote, for the remainder of the Congress.",
+     "what_they_did": "Received the bill by referral on the day it was introduced and took no further action — no hearing, no markup, no vote — before the Congress ended.",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S1",
       "S5"
      ]
     },
     {
-     "name": "NetChoice (tech industry trade group)",
-     "role": "Trade association for major social media and tech companies",
+     "name": "Major social media platforms and their trade associations",
+     "role": "Affected industry",
      "party": null,
-     "what_they_did": "Opposed mandatory age-verification and parental-consent mandates for social media, consistent with its public campaigns against similar state laws.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
-    },
-    {
-     "name": "Privacy and civil-liberties groups (e.g., EFF, ACLU)",
-     "role": "Advocacy organizations",
-     "party": null,
-     "what_they_did": "Opposed mandatory age verification as a privacy and free-speech risk for all users.",
+     "what_they_did": "Publicly fought age-verification and minors' account restrictions in state legislatures and in Congress, arguing they burden all users and can be evaded.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "The bill's backers were evenly split by party: a lead team of two Democrats and two Republicans, and 10 cosponsors split 5 Republicans and 5 Democrats. No floor vote ever happened, so there is no roll-call to measure opposition."
+   "party_line_note": "Support was evenly split by party at introduction — the bill was carried by two Democrats and two Republicans and drew 5 cosponsors from each party — so its death in committee was not a partisan vote; it never came to one."
   },
   "industries": [
    {
     "industry": "Social media platforms",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Platforms would have to build age-verification and parental-consent systems, keep children under 13 off, let parents delete teen accounts, and face civil penalties per day or per user harmed. Their loss is the algorithmic engagement of users under 18, the audience their ad business is built to maximize.",
+    "note": "Platforms would have to verify ages for every account, obtain and honor parental consent for teen accounts, stop using personal data in recommendation algorithms for anyone under 18, and face FTC and state attorney general enforcement with civil penalties. Their core business — maximizing engagement and targeted advertising — depends on exactly the teen data flows and algorithmic feeds this bill restricts.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "industry": "Digital advertising and ad-tech",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "The bill bans using personal data to target advertising at anyone under 18, shrinking the pool of users who can be served personalized ads.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "Identity verification vendors",
-    "effect": "gains",
+    "industry": "Identity verification and digital ID providers",
+    "effect": "entrenched",
     "stance_toward_public": "mixed",
-    "note": "The Commerce Department is authorized to contract with private identity-verification providers for the digital ID pilot, creating a new compliance market. Their revenue depends on the verification mandate the bill imposes, which is also the burden on users.",
+    "note": "The bill authorizes the Commerce Secretary to contract with private identity verification technology providers and gives platforms a legal safe harbor if they verify users through the new federal pilot program. That would route age and identity checks for a nationwide user base through this verification channel, creating a steady business opportunity — though the pilot's privacy limits and voluntary design also constrain how it can be used.",
     "sources": [
      "S3"
     ]
@@ -230,15 +203,15 @@
   ],
   "trajectory": null,
   "categories": [
-   "other",
-   "consumer_protection_and_finance"
+   "consumer_protection_and_finance",
+   "other"
   ],
   "scores": {
    "public_stakes": 7,
    "concentrated_stakes": 8,
-   "outcome_against_public": 7,
-   "support_mismatch": 5,
-   "corruption_relevance": 1,
+   "outcome_against_public": 8,
+   "support_mismatch": 8,
+   "corruption_relevance": 2,
    "confidence": 0.85
   }
  },

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/1226/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1226/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1226/cosponsors?format=json"
+  },
+  "introducedDate": "2023-04-20",
+  "latestAction": {
+   "actionDate": "2023-04-20",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/1226",
+  "number": "1226",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/1226/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001098",
+    "firstName": "Ted",
+    "fullName": "Sen. Cruz, Ted [R-TX]",
+    "isByRequest": "N",
+    "lastName": "Cruz",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/C001098?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1226/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1226/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1226/text?format=json"
+  },
+  "title": "A bill to amend the Internal Revenue Code of 1986 to make permanent the individual tax provisions of the tax reform law, and for other purposes.",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/1226/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2024-11-19T15:16:24Z",
+  "updateDateIncludingText": "2025-02-04T17:27:12Z"
+ },
+ "request": {
+  "billNumber": "1226",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

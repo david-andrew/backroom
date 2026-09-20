@@ -1,123 +1,126 @@
 {
  "bill_id": "118-s4229",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:58:31+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:57:28+00:00",
  "record_fetched_at": "2026-09-20T11:47:45+00:00",
  "record_hash": "ffae7c116df1fdcb",
  "analysis": {
-  "one_liner": "Bases Medicare Part D drug coinsurance on the drug's discounted net price instead of its inflated list price.",
-  "headline": "Introduced May 1, 2024 with one bipartisan cosponsor, the bill was referred to the Senate Finance Committee and never received a hearing, markup, or vote before the 118th Congress ended.",
+  "one_liner": "Bases Medicare drug coinsurance on the discounted net price of a drug, not its inflated list price.",
+  "headline": "The bill was introduced in May 2024 and referred to the Senate Finance Committee, which never acted on it, so it died when the 118th Congress ended in January 2025 without a single vote.",
   "direction": "for_working_people",
-  "plain_summary": "When a Medicare drug plan charges patients a percentage of a drug's price, it currently uses the list price — the sticker price before the discounts manufacturers give in secret negotiations. Because those discounts are large, patients paying 25% of the list price can pay far more than the drug actually costs. This bill would require plans to calculate that coinsurance using the net price — the price after manufacturer discounts — so seniors' cost-sharing falls when the real price falls.",
-  "who_benefits": "Medicare Part D beneficiaries who pay coinsurance (a percentage of a drug's price) for brand-name drugs between their annual deductible and the out-of-pocket cap. Their out-of-pocket drug costs would drop because the percentage would be applied to the discounted net price rather than the higher list price. Low-income seniors and those on fixed incomes taking expensive brand-name drugs would benefit most.",
-  "who_benefits_short": "Seniors paying percentage-based drug coinsurance",
+  "plain_summary": "Medicare Part D plans often charge seniors a percentage of a drug's \"list price\" even though the plans actually pay a lower \"net price\" after rebates and discounts from drugmakers. This bill would require that coinsurance be calculated from the lower net price, so seniors' out-of-pocket drug costs would reflect what the drug really costs. It was sent to the Senate Finance Committee, which never took it up.",
+  "who_benefits": "Seniors with Medicare Part D who pay percentage-based coinsurance on their prescriptions. When a drug's list price is higher than the net price the plan actually pays after rebates, those seniors would pay coinsurance on the lower, real-world price, lowering their out-of-pocket drug costs.",
+  "who_benefits_short": "Seniors paying Medicare drug coinsurance",
   "how_it_helps": [
    {
-    "text": "Requires that for plan years beginning 2025 or later, coinsurance for covered Part D drugs be calculated on the drug's net price rather than its list price, whenever the net price is lower [S2].",
+    "text": "It amends Medicare Part D law to require that, for plan years starting January 1, 2025, any coinsurance on a covered Part D drug be calculated from the drug's net price — the negotiated price after manufacturer discounts and rebates — rather than the higher list price.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Defines net price as the negotiated plan price net of manufacturer-provided price concessions, as reported in the plan's Detailed DIR Report [S2].",
+    "text": "It defines net price using the manufacturer price concessions reported by plans in the Detailed DIR Report, so the discount drugmakers give the system would actually flow through to seniors' out-of-pocket costs.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The sponsor, Sen. Jacky Rosen (D-NV), introduced the bill with Sen. John Cornyn (R-TX), giving it bipartisan sponsorship [S1][S2][S3].",
+    "text": "The rule applies to the cost-sharing band between the annual deductible and the out-of-pocket threshold, the range where most seniors pay percentage-based coinsurance.",
     "sources": [
-     "S1",
-     "S2",
-     "S3"
+     "S2"
     ]
    }
   ],
-  "who_pays": "Brand-name drug manufacturers and pharmacy benefit managers, whose combined list-price-minus-net-price spread is partly paid by patients through list-price-based coinsurance. Insurers offering Part D plans would face added reporting and plan-design adjustments. Plans could respond by raising premiums or shifting to flat copays.",
-  "who_pays_short": "Drug manufacturers, PBMs, and Part D insurers",
+  "who_pays": "Medicare drug plans and pharmacy benefit managers would collect less in coinsurance, and brand-name drugmakers would see their discounts reflected in what seniors pay rather than absorbed by the system; plan premiums could rise slightly to cover the difference.",
+  "who_pays_short": "Medicare drug plans and drugmakers",
   "drawbacks": [
    {
-    "text": "The requirement only applies to costs between the annual deductible and the annual out-of-pocket threshold, and it explicitly excludes drugs described in paragraphs (8) and (9) of the statute, so a portion of beneficiaries' drug costs would still be based on list price [S2].",
+    "text": "The bill only applies to drugs subject to coinsurance rather than flat copayments, and excludes certain drugs under paragraphs (8) and (9) of the statutory scheme, so many Medicare Part D beneficiaries would see no change in their out-of-pocket costs.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The net price is taken from the previous plan year's Detailed DIR Report, so coinsurance would be based on year-old negotiated prices, which may lag actual current prices [S2].",
+    "text": "Because coinsurance percentages applied to lower net prices would generate less revenue for plans, insurers and pharmacy benefit managers could seek to recoup the difference through higher premiums or copays, and the bill does not prohibit that.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Plans could respond by replacing coinsurance with flat copays or changing formularies, which could blunt the benefit for some patients.",
+    "text": "The net price calculation depends on plans' own annual reporting (the Detailed DIR Report), so accuracy hinges on plan self-reporting with no independent audit mechanism in the bill text.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core fix is sound: charging seniors a percentage of a fictional list price when the drug's real price is much lower overcharges them. The bill is narrow — it does not apply above the out-of-pocket cap, excludes some drug categories, and uses prior-year price reports — so its reach is limited, but for the patients it covers the benefit is direct and the cost falls mostly on manufacturers and intermediaries who currently benefit from the list-price gap.",
+  "benefit_vs_cost": "The idea is sound and low-cost: charging seniors coinsurance on the discounted price is a straightforward consumer protection. The main tradeoff is administrative — plans would need to report net prices accurately — and the cost of any revenue reduction would fall on Medicare plans and, indirectly, drug manufacturers rather than on seniors. The bill's fatal weakness was not design but attention: with one Republican cosponsor and a Senate split narrowly, it had little path.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced, read twice, and sent to the Senate Finance Committee, which never took it up, so it died when the 118th Congress ended in January 2025.",
+   "mechanism": "It was introduced and referred to the Senate Finance Committee, which never took it up, so it expired without any vote when the 118th Congress ended.",
    "narrative": [
     {
-     "text": "The bill was introduced in the Senate on May 1, 2024 by Sen. Rosen, for herself and Sen. Cornyn [S2][S4].",
+     "text": "Sen. Jacky Rosen introduced S. 4229 on May 1, 2024, with Republican Sen. John Cornyn as an original cosponsor.",
      "sources": [
-      "S2",
+      "S1",
       "S4"
      ]
     },
     {
-     "text": "The same day it was read twice and referred to the Committee on Finance [S4].",
+     "text": "The same day, the Senate read it twice and referred it to the Committee on Finance — the committee with jurisdiction over Medicare.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "No further action — no hearing, markup, floor vote, or companion House bill — appears in the action history before the Congress ended January 3, 2025 [S4][S1].",
+     "text": "No further action was ever taken; the Finance Committee held no markup and the Senate never voted on it.",
      "sources": [
-      "S4",
+      "S4"
+     ]
+    },
+    {
+     "text": "The bill died when the 118th Congress ended on January 3, 2025, meaning it would have to be reintroduced from scratch.",
+     "sources": [
       "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Brand-name drug manufacturers and pharmacy benefit managers keep the list-price-based coinsurance structure that shifts part of their rebate spread onto seniors' out-of-pocket costs; no senior saw a change."
+   "who_came_out_ahead": "Insurers and pharmacy benefit managers keep collecting coinsurance on inflated list prices, and drugmakers' rebates stay buried in plan finances rather than reaching seniors."
   },
-  "who_came_out_ahead_short": "Drug manufacturers and PBMs kept the status quo",
+  "who_came_out_ahead_short": "Insurers, PBM intermediaries, and drugmakers",
   "sides": {
    "for": [
     {
      "name": "Sen. Jacky Rosen",
-     "role": "Sponsor, U.S. Senate",
+     "role": "U.S. Senator (NV), bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill on May 1, 2024, for herself and Sen. Cornyn.",
+     "what_they_did": "Introduced the bill on May 1, 2024.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
-      "S4"
+      "S1",
+      "S2"
      ]
     },
     {
      "name": "Sen. John Cornyn",
-     "role": "Cosponsor, U.S. Senate",
+     "role": "U.S. Senator (TX), cosponsor",
      "party": "R",
-     "what_they_did": "Joined as the bill's only cosponsor, making it a bipartisan introduction.",
+     "what_they_did": "Cosponsored the bill as the lone Republican supporter.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
-      "S2"
+      "S2",
+      "S3"
      ]
     }
    ],
    "against": [
     {
-     "name": "Senate Finance Committee (Chair Ron Wyden)",
-     "role": "Committee of referral",
+     "name": "Senate Finance Committee",
+     "role": "Committee of jurisdiction",
      "party": null,
-     "what_they_did": "Received the bill on referral on May 1, 2024 and never scheduled a hearing, markup, or vote; no further action appears before the Congress ended.",
+     "what_they_did": "Took no action on the referred bill — no markup, no report, no vote — during the rest of the Congress.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -125,33 +128,24 @@
      ]
     }
    ],
-   "party_line": "unclear",
-   "party_line_note": "The bill had one Democratic sponsor and one Republican cosponsor, but it never advanced far enough for a partisan split to appear; its death reflects committee inaction, not a roll call."
+   "party_line": "mostly_party_line",
+   "party_line_note": "The bill had one Senate Republican cosponsor (1 of 49) among a Democratic sponsor, but the Finance Committee never acted, so no party split was ever tested on a vote."
   },
   "industries": [
    {
     "industry": "Brand-name drug manufacturers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Manufacturers negotiate large confidential rebates so the net price is well below the list price; when patient coinsurance is figured on the list price, part of that gap lands on seniors. Basing coinsurance on net price would cut that revenue channel.",
+    "note": "Manufacturers would effectively have to pass their rebate savings through to beneficiaries rather than letting plans charge coinsurance on the inflated list price. Their interest ran against the bill's benefit to seniors.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Pharmacy benefit managers (PBMs)",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "PBMs help set the negotiated net prices and concessions reported in the Detailed DIR Report; the current structure obscures the spread between list and net price. Net-price-based coinsurance makes the discount flow through to patients instead.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Part D prescription drug plans and Medicare Advantage drug plans",
+    "industry": "Medicare Part D plans and pharmacy benefit managers",
     "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "Plans would have to compute cost-sharing from reported net prices and could face pressure to adjust premiums, copays, or formularies to offset the change.",
+    "note": "Plans would owe more accurate reporting of net prices and could see lower cost-sharing revenue; the bill does not bar them from recouping through premiums. Their gatekeeping role over drug pricing is untouched.",
     "sources": [
      "S2"
     ]
@@ -164,9 +158,9 @@
   "scores": {
    "public_stakes": 6,
    "concentrated_stakes": 6,
-   "outcome_against_public": 8,
+   "outcome_against_public": 6,
    "support_mismatch": 4,
-   "corruption_relevance": 1,
+   "corruption_relevance": 2,
    "confidence": 0.85
   }
  },

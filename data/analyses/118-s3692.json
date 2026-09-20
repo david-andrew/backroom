@@ -1,179 +1,178 @@
 {
  "bill_id": "118-s3692",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T11:57:26+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:49:08+00:00",
  "record_fetched_at": "2026-09-20T11:19:09+00:00",
  "record_hash": "2434cda15368b068",
  "analysis": {
-  "one_liner": "Bans landlords from using pricing algorithms that inflate rents, and lets renters sue.",
-  "headline": "The bill never got a hearing or vote: it was referred to the Senate Judiciary Committee in January 2024 and died when the 118th Congress ended.",
+  "one_liner": "Bans landlords from using shared pricing algorithms to inflate rents.",
+  "headline": "S. 3692 was referred to the Senate Judiciary Committee on January 30, 2024, never received a hearing, vote, or floor action, and died when the 118th Congress ended on January 3, 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would make it illegal for landlords of four or more rental units to use pricing software that pools rent and supply data from many landlords and recommends prices. Using such a service would count automatically as an illegal price-fixing scheme under the antitrust laws, and the FTC, the Justice Department, state attorneys general, and renters themselves could all sue. It would also void forced-arbitration clauses so renters could take these companies to court. The bill was referred to the Senate Judiciary Committee and never moved.",
-  "who_benefits": "Renters, who would be protected from rent-setting algorithms that pool competitor data across many landlords and push rents upward; the FTC, the Justice Department, and state attorneys general would gain new enforcement tools.",
+  "plain_summary": "This bill would make it illegal for rental property owners to use software services that collect prices and lease data from many landlords and recommend rents back to them, treating such shared pricing algorithms as a per se violation of the Sherman Act, the nation's strongest antitrust law. It would let the FTC, the Justice Department, state attorneys general, and private tenants sue, and it would let tenants recover triple their damages and escape forced-arbitration clauses that block class actions. The bill defines a covered rental property owner as anyone leasing four or more residential units.",
+  "who_benefits": "Renters. The bill targets rent-setting software that pools pricing data from competing landlords and recommends rents, a practice regulators say can push apartment rents above what competition would produce. Tenants would gain new tools to sue, with triple damages, attorney fees, and the ability to bypass pre-dispute arbitration agreements and class-action waivers.",
   "who_benefits_short": "Renters facing algorithm-driven rent increases",
   "how_it_helps": [
    {
-    "text": "It makes it a per se Sherman Act violation for a rental property owner with 4 or more units to pay for a pricing coordinator's services, meaning a court would not need to weigh justifications before finding it illegal [S2].",
+    "text": "Makes it a per se Sherman Act violation for a rental property owner of four or more units to pay for the services of a 'coordinator' — a software or data analytics service that collects prices, supply, and lease-termination data from two or more landlords and recommends rents, lease terms, or occupancy levels [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It defines the banned 'coordinating function' as collecting prices, supply, and lease-renewal data from multiple landlords, processing it computationally, and recommending rents, renewal terms, or occupancy levels [S2].",
+    "text": "Makes it unlawful for such a coordinator itself to facilitate agreements among landlords not to compete, and bars coordinators from acquiring competitors when the merger would lessen competition or create a monopoly [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It gives enforcement power to the FTC, the Attorney General, and state attorneys general, and lets any aggrieved renter sue for triple damages plus attorney fees [S2].",
+    "text": "Gives the FTC, the Attorney General, and state attorneys general enforcement authority, and lets any aggrieved person sue to recover threefold damages plus attorney fees, with the option to invalidate pre-dispute arbitration agreements and class-action waivers in these cases [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "A renter can elect to have pre-dispute arbitration agreements and class-action waivers voided for claims under the Act, keeping the case in court [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "It lowers pleading standards for these cases: a complaint citing consciously parallel pricing coordination counts as plausible, without needing to rule out independent pricing [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "It also blocks one pricing-software company from acquiring another if the deal would lessen competition, and does not preempt stronger state or local laws [S2].",
+    "text": "Eases pleading standards so tenants claiming 'consciously parallel pricing coordination' do not have to allege facts excluding independent pricing, and preserves stronger state and local laws rather than preempting them [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Rental property owners with 4 or more units, and the pricing-software companies (such as revenue-management services used by large landlords) that would lose that business or face antitrust liability; mergers among such firms could be blocked.",
-  "who_pays_short": "Large landlords and pricing-software firms",
+  "who_pays": "Large landlords and the rent-setting software industry. Firms selling pricing and revenue-management software to landlords would lose a core line of business, and landlords using those services would face per se antitrust liability and treble-damage lawsuits. Owners of as few as four rental units are covered, so some small and mid-size landlords face compliance risk alongside the large operators.",
+  "who_pays_short": "Pricing-software firms and landlords using them",
   "drawbacks": [
    {
-    "text": "The bill's per se ban and relaxed pleading standard sweep broadly: any software that pools data from multiple landlords and recommends prices would be illegal, which could also capture legitimate pricing tools that help small landlords price fairly, and critics would argue it deters lawful competition on services rather than just collusion.",
+    "text": "The bill applies to any owner of four or more rental units and treats buying the software service itself as a per se violation, so a small landlord who subscribes to a mainstream revenue-management tool could face treble-damage exposure even without proof of any agreement to fix rents [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Landlords could argue rents reflect many factors (supply, demand, local regulations) and that a blanket per se rule, rather than a case-by-case antitrust inquiry, is an overly rigid way to police a new technology.",
+    "text": "The per se standard and lowered pleading requirements reduce the usual defenses available in antitrust cases, which defenders of pricing software argue could chill legitimate tools that help individual landlords price competitively; the bill provides no safe harbor for such uses [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefits to renters could be substantial if algorithmic rent-setting is raising rents across markets, and the bill preserves court access and state-level enforcement. The cost is that a per se rule is a blunt instrument: it bans entire categories of data-pooling software rather than policing specific schemes, which risks sweeping in tools that some landlords use innocently. Whether that trade is worth it depends on how much these algorithms actually raise rents, which the bill assumes rather than measures.",
+  "benefit_vs_cost": "The public benefit would be direct: rents are one of the largest household expenses, and an industry-wide pricing channel that pools competitors' data is a textbook antitrust concern that existing case law handles slowly and case-by-case. The costs are real but manageable with careful enforcement — the main design risk is the four-unit coverage threshold and the per se rule sweeping in small landlords with no intent to coordinate. A narrower threshold or safe harbor could have reduced that risk. On balance, the bill's targeted purpose outweighs its compliance costs, though it was never refined through committee work.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced and referred to the Senate Judiciary Committee, which never acted on it, and it died when the 118th Congress ended in January 2025.",
+   "mechanism": "It was referred to the Senate Judiciary Committee on the day it was introduced and sat there with no hearing, no committee vote, and no floor action until the 118th Congress ended and the bill expired.",
    "narrative": [
     {
-     "text": "Sen. Ron Wyden introduced the bill on January 30, 2024, with seven original Democratic cosponsors [S2].",
+     "text": "Senator Ron Wyden introduced S. 3692 with eight original co-introducers on January 30, 2024, and ten senators in total cosponsored it, all Democrats or independents [S1][S2][S3].",
      "sources": [
-      "S2"
-     ]
-    },
-    {
-     "text": "The same day, the Senate read it twice and referred it to the Committee on the Judiciary, its only action [S1].",
-     "sources": [
-      "S1"
-     ]
-    },
-    {
-     "text": "It gathered 10 cosponsors (9 Democrats and 1 Independent), all Democrats or allied independents, but no Republican [S3].",
-     "sources": [
+      "S1",
+      "S2",
       "S3"
      ]
     },
     {
-     "text": "The Judiciary Committee never held a hearing or markup, no further action appears in the record, and the bill expired with the 118th Congress [S4].",
+     "text": "The Senate read it twice and referred it to the Committee on the Judiciary the same day; that was the bill's only action [S1][S4].",
      "sources": [
+      "S1",
+      "S4"
+     ]
+    },
+    {
+     "text": "The Judiciary Committee took no further action on the bill for the rest of the 118th Congress, and it never received a hearing, a committee vote, or a floor vote before the Congress ended on January 3, 2025 [S1][S4].",
+     "sources": [
+      "S1",
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "Large landlords and pricing-software companies are better off: no court or agency can act on the conduct the bill targeted, and the status quo of algorithmic rent-setting continues. Renters gained nothing from the bill's death."
+   "who_came_out_ahead": "Rent-setting software firms and large landlords that use them are better off: the shared pricing-algorithm business model continues operating under the existing legal regime, and tenants gained no new antitrust tools. The Senate as an institution also avoided a recorded vote on the issue."
   },
-  "who_came_out_ahead_short": "Large landlords and pricing-software firms",
+  "who_came_out_ahead_short": "Pricing-software firms and large landlords",
   "sides": {
    "for": [
     {
      "name": "Sen. Ron Wyden",
-     "role": "U.S. Senator (D-OR), bill sponsor",
+     "role": "U.S. Senator from Oregon; bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and gathered 9 Democratic and 1 Independent cosponsor, but had no committee chair's support to move it.",
+     "what_they_did": "Introduced the bill and recruited ten cosponsors; took no further procedural steps available to him (such as a floor discharge attempt)",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
+      "S2"
+     ]
+    },
+    {
+     "name": "Sen. Peter Welch, Sen. Amy Klobuchar, Sen. Bernie Sanders, Sen. Richard Blumenthal, Sen. Mazie Hirono, Sen. Laphonza Butler, and Sen. Jeff Merkley",
+     "role": "Original co-introducers in the Senate",
+     "party": "D",
+     "what_they_did": "Co-introduced the bill on the day of introduction (Sanders listed as an Independent-aligned member in the cosponsor count)",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S2",
       "S3"
      ]
     },
     {
-     "name": "Sens. Welch, Klobuchar, Sanders, Blumenthal, Hirono, Butler, and Merkley",
-     "role": "Original Senate cosponsors",
+     "name": "10 senators (9 of 48 Senate Democrats, 1 of 4 Senate Independents)",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Co-introduced the bill; Klobuchar chairs the Senate antitrust subcommittee but the bill still never got committee action.",
+     "what_they_did": "Cosponsored the bill; no Republican cosponsored",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2"
+      "S3"
      ]
     }
    ],
    "against": [
     {
-     "name": "Senate Judiciary Committee leadership",
-     "role": "Committee to which the bill was referred",
+     "name": "Senate Committee on the Judiciary",
+     "role": "Committee to which the bill was referred (chaired by Sen. Dick Durbin, D-IL)",
      "party": null,
-     "what_they_did": "Never scheduled a hearing or markup on the bill during the 15 months it had jurisdiction, leaving it to die at the end of the Congress.",
+     "what_they_did": "Never scheduled a hearing, markup, or committee vote on the bill during the 17 months before the Congress ended",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S1",
       "S4"
      ]
     },
     {
-     "name": "Revenue-management software providers and large landlords",
-     "role": "Industry whose product and practices the bill would outlaw",
-     "party": null,
-     "what_they_did": "No lobbying appears in the record, but as the regulated parties they had a strong stake in the bill not advancing; related lawsuits over rent-setting algorithms were pending against major providers and landlords during this period.",
+     "name": "Senate Republican leadership",
+     "role": "Senate Republican Conference",
+     "party": "R",
+     "what_they_did": "No Republican senator cosponsored the bill, and the bill never moved; with no Republican support, the bill had no realistic path to a floor vote even if it had cleared committee",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
-   "party_line": "party_line",
-   "party_line_note": "All 10 cosponsors were Democrats or Independents who caucus with Democrats; no Republican supported it, and the Democratic-run Judiciary Committee also never advanced it."
+   "party_line": "unclear",
+   "party_line_note": "No votes were ever taken, so no roll-call split exists; all eleven sponsors were Democrats or independents and no Republican cosponsored, but the bill's fate was decided by inaction rather than a recorded vote."
   },
   "industries": [
    {
-    "industry": "Rental revenue-management software providers",
+    "industry": "Rent-setting and revenue-management software providers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These firms pool rent and supply data from many landlords and recommend prices; the bill would make their core service illegal for large landlords and expose mergers among them to antitrust blocks. Renters bear the cost of these algorithms through higher rents, so the firms' interest runs against theirs.",
+    "note": "These firms pool pricing, supply, and lease-termination data from competing landlords and sell rent recommendations back to them — the 'coordinator' role the bill would make unlawful. Their core business model depends on exactly the cross-landlord data exchange the bill bans, and the bill's death left that model intact.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Large landlords (4+ rental units)",
-    "effect": "loses",
+    "industry": "Large landlords and property-management companies",
+    "effect": "mixed",
     "stance_toward_public": "opposed",
-    "note": "They would be barred from using such pricing services, face per se antitrust liability, and be open to triple-damage suits by renters whose forced-arbitration clauses would be void. Their savings from coordinated pricing come out of renters' pockets.",
+    "note": "Landlords using shared pricing services would have faced per se antitrust liability and treble-damage suits from tenants; the bill's death lets them continue using these services. Even under the bill, they would have kept operating their own properties — the bill targeted the shared-pricing channel, not landlording itself.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Enforcement agencies (FTC, DOJ, state AGs)",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "The bill gives them explicit new authority over this conduct, including independent FTC litigation power and easier pleading standards.",
+    "industry": "Mandatory arbitration and class-action waiver agreements in residential leases",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill would have let tenants invalidate pre-dispute arbitration clauses and class-action waivers in lawsuits under the Act, removing a common shield against group claims; its death preserves those clauses in leases.",
     "sources": [
      "S2"
     ]
@@ -187,11 +186,11 @@
   ],
   "scores": {
    "public_stakes": 7,
-   "concentrated_stakes": 6,
-   "outcome_against_public": 6,
-   "support_mismatch": 3,
-   "corruption_relevance": 1,
-   "confidence": 0.9
+   "concentrated_stakes": 7,
+   "outcome_against_public": 8,
+   "support_mismatch": 6,
+   "corruption_relevance": 2,
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

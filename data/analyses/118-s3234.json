@@ -1,209 +1,193 @@
 {
  "bill_id": "118-s3234",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:57:19+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:46:07+00:00",
  "record_fetched_at": "2026-09-20T11:46:57+00:00",
  "record_hash": "d8d3fc89d51955d8",
  "analysis": {
-  "one_liner": "Requires warrants before the government searches Americans' communications collected under foreign surveillance law.",
-  "headline": "The Government Surveillance Reform Act, introduced November 7, 2023 with 10 bipartisan cosponsors, was referred to the Senate Judiciary Committee and never received a hearing or vote before the Congress ended.",
+  "one_liner": "Restricts warrantless government spying on Americans' communications and requires warrants for surveillance.",
+  "headline": "The Government Surveillance Reform Act was introduced in November 2023 and referred to the Senate Judiciary Committee, where it died without a hearing or vote when Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would put a judge's warrant requirement around the government's searches of Americans' communications collected under Section 702 of the Foreign Intelligence Surveillance Act, a program that sweeps in ordinary people's emails and texts because they communicate with foreigners overseas. It would also block the FBI from buying Americans' personal data from data brokers, require warrants for location and web-browsing records, end \"abouts\" collection, impose discipline for employees who violate surveillance rules, and let Americans sue over unlawful spying. In exchange, it would extend the underlying Section 702 program for four more years, through September 2027.",
-  "who_benefits": "Ordinary Americans whose calls, emails, and location data can currently be searched by federal agents without a warrant, simply because those communications were swept up while targeting foreigners abroad. It also benefits tech and telecom providers, who gain a court process before they can be forced to help the government spy, and it protects everyone whose data is currently sold to law enforcement by data brokers.",
-  "who_benefits_short": "Everyday users of phones and email",
+  "plain_summary": "This bill would require government agencies to get a warrant before searching surveillance data collected on Americans without one, ban 'backdoor searches' of intelligence databases for information about people in the US, end warrantless collection of domestic communications, require court approval for spying powers currently exercised in secret, and let people challenge unlawful surveillance in court despite the state secrets privilege. It also extends Section 702, the core foreign spying authority, for four more years — trading continued surveillance of foreigners for new protections for Americans.",
+  "who_benefits": "Everyday Americans whose phone calls, emails, web browsing, location, and car data would get warrant protection before federal agencies search or seize them; it also gives privacy advocates a seat at the secret surveillance court's table and lets victims of illegal spying sue. Tech companies ordered to help spy would get court-checked limits on those demands.",
+  "who_benefits_short": "Ordinary Americans' private data",
   "how_it_helps": [
    {
-    "text": "Prohibits government officials from searching the communications of U.S. persons without a probable-cause warrant, with narrow exceptions for emergencies, consent, and cybersecurity signatures.",
+    "text": "Requires warrants before FBI or other agencies search intelligence databases for communications of or about Americans or anyone in the US, closing the 'backdoor search loophole' in Section 702 of FISA.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Prohibits law enforcement from purchasing Americans' personal data from data brokers and extends warrant protections to location information, web browsing records, search queries, and emails.",
+    "text": "Extends similar warrant rules to surveillance under Executive Order 12333 and prohibits intelligence agencies from acquiring Americans' data and domestic communications without a warrant.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Bans the warrantless acquisition of domestic communications and bars 'reverse targeting' — spying on a foreign target for the real purpose of reading an American's messages.",
+    "text": "Limits how surveillance-derived evidence about Americans can be used in criminal, civil, and administrative proceedings unless it relates to specific national-security threats.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Ends the authority to resume 'abouts' collection, which captures communications that merely mention a target, and imposes five-year retention limits on data collected about Americans.",
+    "text": "Bans law enforcement from buying Americans' personal data from data brokers without a warrant and requires warrants for location, web browsing, and search records — closing workarounds agencies use to buy data they couldn't legally collect.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Limits use of 702-collected information against Americans in criminal, civil, and administrative proceedings to a narrow list of serious threats, and creates escalating discipline — up to termination and loss of security clearance — for federal employees who violate the rules.",
+    "text": "Expands the secret surveillance court's independent advisors, requires declassification of significant court rulings, lets those advisors appeal decisions up to the Supreme Court, and ends the state secrets privilege blocking lawsuits over surveillance — meaning Americans could actually challenge illegal spying in court.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Creates accountability in the secret surveillance court by requiring disclosure of exculpatory information in applications, protecting against judge shopping by the Justice Department, expanding amicus advocates, declassifying significant court decisions, and letting Americans sue over unlawful surveillance without being blocked by the state secrets privilege.",
+    "text": "Ends 'abouts' collection (sweeping up communications merely mentioning surveillance targets), bans 'reverse targeting' of Americans, imposes five-year data-retention limits, and requires accountability procedures — including possible termination — for federal employees who misuse Americans' data.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Federal intelligence and law enforcement agencies (the FBI, CIA, and NSA) lose the ability to query Americans' communications without a warrant and to buy data brokers' files; data brokers lose a law-enforcement customer base; and telecom and tech providers face some new court processes, though they gain protection from unchecked government demands. The bill's own extension keeps the 702 program operating through September 2027, so the cost to the intelligence community is its unchecked access to Americans' data, not the program's existence.",
-  "who_pays_short": "Intelligence agencies and data brokers",
+  "who_pays": "Intelligence and law-enforcement agencies (FBI, CIA, NSA, NCTC) and federal prosecutors would lose the ability to search Americans' communications without a judge's sign-off, and would face new reporting, audit, and accountability requirements; telecom and tech providers would face court-supervised limits on compliance demands but also clearer rules.",
+  "who_pays_short": "Intelligence agencies and federal law enforcement",
   "drawbacks": [
    {
-    "text": "The bill extends Section 702, the sweeping foreign-intelligence collection program, for four more years through September 2027, so it locks in the very program it reforms; critics who wanted the authority to lapse outright would point to that trade.",
+    "text": "Replaces the open-ended warrantless-search status quo with a four-year extension of Section 702, so critics on both sides see it as a compromise: surveillance hawks lose unconstrained backdoor searches, while civil libertarians object that bulk collection of foreigners' communications continues and the sunset keeps the program alive.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It leaves significant carve-outs: emergency warrantless searches are allowed, evidence from a denied emergency authorization is suppressed in court but can still be disclosed with Attorney General approval if it signals a threat of death or serious bodily harm, and the Attorney General retains approval power over use of 702 information in proceedings.",
+    "text": "Emergency and consent exceptions mean warrantless queries are still permitted in narrow circumstances (imminent threat of death or serious bodily harm, consent, defensive cybersecurity), so the bill does not eliminate all warrantless searches of Americans.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The standard national-security objection is that warrant requirements for 702 queries would slow terrorism and counterintelligence cases; the bill's answer is its emergency exception, but agencies argue any friction in bulk databases creates risk, and the FBI and intelligence community publicly fought warrant requirements during the 2023-2024 reauthorization debate.",
-    "sources": []
+    "text": "Implementation delays, DOJ reporting requirements, and new accountability procedures would add compliance costs and administrative burden for intelligence agencies, and some fear warrants would slow time-sensitive counterterrorism and counterintelligence work.",
+    "sources": [
+     "S2"
+    ]
    }
   ],
-  "benefit_vs_cost": "The core benefit is real and broad: a warrant requirement before the government reads Americans' swept-up messages, plus a stop to law enforcement buying data brokers' files, would change the daily privacy of tens of millions of people. The main cost is to government efficiency in intelligence work, which the bill addresses with emergency and cybersecurity exceptions. The genuine structural weakness is the four-year extension of 702 itself — reformers get warrants, the agencies get certainty — and some would argue the bill legitimizes a program it should have narrowed more sharply. On balance, the protections for ordinary people outweigh the trade.",
+  "benefit_vs_cost": "The bill trades a real loss of agency flexibility — no more warrantless searches of Americans' data and data-broker workarounds — for transparency, court oversight, and legal recourse that don't currently exist. The costs fall mostly on government agencies' convenience and speed rather than on ordinary people, though critics argue warrant requirements could impede urgent investigations and that extending Section 702 perpetuates mass collection rather than ending it.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced in the Senate and referred to the Judiciary Committee, which never held a hearing or vote on it before the two-year Congress ended, so it died without any action.",
+   "mechanism": "The bill was introduced on November 7, 2023 and referred to the Senate Judiciary Committee, which never took it up; it died there when the 118th Congress ended on January 3, 2025 without a hearing, markup, or floor vote.",
    "narrative": [
     {
-     "text": "Senator Ron Wyden introduced the bill on November 7, 2023, joined by nine original cosponsors spanning both parties, including Republican Senators Mike Lee, Cynthia Lummis, and Steve Daines.",
+     "text": "The Government Surveillance Reform Act of 2023 was introduced by Sen. Ron Wyden on November 7, 2023, with ten Senate cosponsors split between both parties (7 Democrats, 3 Republicans).",
      "sources": [
       "S1",
-      "S2"
-     ]
-    },
-    {
-     "text": "It received 10 cosponsors total, 7 Democrats and 3 Republicans, and was read twice and referred to the Senate Judiciary Committee.",
-     "sources": [
-      "S3",
-      "S4"
-     ]
-    },
-    {
-     "text": "The action history shows no hearing, no markup, no committee vote, and no floor action at any point afterward; the Congress ended January 3, 2025 with the bill still sitting in committee.",
-     "sources": [
-      "S4"
-     ]
-    }
-   ],
-   "who_came_out_ahead": "The intelligence and law-enforcement agencies that opposed warrant requirements kept their existing unchecked access to Americans' communications and their ability to buy data brokers' files, and data brokers kept the law-enforcement market. The 118th Congress ended with no reform at all; a separate 2024 law later extended Section 702 without the warrant requirement this bill would have imposed."
-  },
-  "who_came_out_ahead_short": "Intelligence agencies and data brokers",
-  "sides": {
-   "for": [
-    {
-     "name": "Sen. Ron Wyden",
-     "role": "Sponsor, U.S. Senate",
-     "party": "D",
-     "what_they_did": "Introduced the Government Surveillance Reform Act and recruited a bipartisan group of original cosponsors.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
-      "S2"
-     ]
-    },
-    {
-     "name": "Sen. Mike Lee",
-     "role": "Original Republican cosponsor",
-     "party": "R",
-     "what_they_did": "Signed on as an original cosponsor, giving the reform bill bipartisan cover from the right.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S2"
-     ]
-    },
-    {
-     "name": "Sens. Baldwin, Lummis, Hirono, Daines, Tester, Warren, and Markey",
-     "role": "Original and additional cosponsors",
-     "party": null,
-     "what_they_did": "Cosponsored the bill, bringing it to 10 cosponsors (7 Democrats, 3 Republicans).",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S2",
       "S3"
      ]
     },
     {
-     "name": "Privacy and civil liberties organizations",
-     "role": "Outside advocacy",
-     "party": null,
-     "what_they_did": "Publicly urged passage of surveillance warrant requirements during the 2023-2024 Section 702 reauthorization debate.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
-    }
-   ],
-   "against": [
-    {
-     "name": "Senate Judiciary Committee",
-     "role": "Committee of referral",
-     "party": null,
-     "what_they_did": "Received the bill on referral on November 7, 2023 and took no further action — no hearing, no markup, no vote — for the rest of the Congress.",
-     "direct": true,
-     "evidence": "record",
+     "text": "Its only action was referral to the Senate Judiciary Committee on the day it was introduced; no hearing, markup, or floor vote was ever scheduled.",
      "sources": [
       "S4"
      ]
     },
     {
-     "name": "FBI and intelligence community leadership",
-     "role": "Agencies with authority under Section 702",
+     "text": "The bill was reintroduced as legislation in the 119th Congress (as H.R. 1475 / S. 663, the same Government Surveillance Reform Act) after this one expired, but the original bill never became law.",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "Intelligence agencies and the FBI benefit from the bill's failure: they keep the ability to search Americans' communications without warrants and to buy personal data from brokers, and face no new accountability for misuse. Privacy advocates and ordinary Americans gained nothing from the effort in this Congress."
+  },
+  "who_came_out_ahead_short": "Intelligence agencies and the FBI",
+  "sides": {
+   "for": [
+    {
+     "name": "Sen. Ron Wyden",
+     "role": "Lead sponsor",
+     "party": "D",
+     "what_they_did": "Introduced the Government Surveillance Reform Act and recruited a bipartisan coalition of cosponsors.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S3"
+     ]
+    },
+    {
+     "name": "Senate cosponsors",
+     "role": "7 Senate Democrats and 3 Senate Republicans",
      "party": null,
-     "what_they_did": "Publicly lobbied against warrant requirements for 702 queries during the reauthorization fight, warning they would hamper counterterrorism work.",
+     "what_they_did": "Signed on as original cosponsors, giving the bill bipartisan sponsorship.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "name": "Senate Judiciary Committee",
+     "role": "Committee of referral",
+     "party": null,
+     "what_they_did": "Received the bill on referral and never scheduled a hearing or markup before Congress ended.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
+   "against": [
+    {
+     "name": "Intelligence and law-enforcement community",
+     "role": "FBI, NSA, CIA, and DOJ national-security divisions",
+     "party": null,
+     "what_they_did": "The bill targets the warrantless search and data-broker practices these agencies use; the bill's provisions restricting their authorities and adding accountability procedures were the changes they would most directly resist, and the bill never advanced past referral.",
      "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
+     "evidence": "record",
+     "sources": [
+      "S2"
+     ]
     },
     {
      "name": "Senate leadership",
-     "role": "Senate majority leadership",
+     "role": "Majority and minority leaders",
      "party": null,
-     "what_they_did": "Never brought surveillance reform to the floor, letting the 702 debate play out on a separate reauthorization bill without these warrant protections.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
+     "what_they_did": "Never brought the bill to the Senate floor or prioritized it for a vote during the two years it sat in committee.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
     }
    ],
-   "party_line": "bipartisan",
-   "party_line_note": "Sponsorship was genuinely bipartisan — 7 Democrats and 3 Republicans including libertarian-leaning Senator Mike Lee — so the bill's death was procedural, not a party-line vote that never happened."
+   "party_line": "unclear",
+   "party_line_note": "The bill's ten cosponsors split roughly two-to-one Democratic (7 of 48 Senate D, 3 of 49 Senate R), showing bipartisan but modest support; opposition is inferred from inaction rather than any recorded vote, so a party split on merits can't be established from the record."
   },
   "industries": [
+   {
+    "industry": "Telecom and internet service providers",
+    "effect": "mixed",
+    "stance_toward_public": "aligned",
+    "note": "Providers would face court-supervised limits on government demands for technical assistance and clearer minimization rules for voluntarily disclosing customer data, giving them legal clarity while restricting some cooperation with federal agencies.",
+    "sources": [
+     "S2"
+    ]
+   },
    {
     "industry": "Data brokers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Section 508 would prohibit law enforcement from purchasing Americans' personal data from brokers, and 509 imposes consistent privacy protections on broker-held data. Brokers currently sell location, browsing, and communications-derived data to government agencies in a legal gray area, a practice this bill ends.",
+    "note": "Law enforcement would be barred from buying Americans' personal location and other data from brokers without a warrant, closing a market these firms currently serve with government customers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Federal intelligence and law enforcement agencies",
+    "industry": "Intelligence community contractors and surveillance-technology vendors",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The FBI, CIA, NSA, and related agencies would lose the power to query Americans' communications without a warrant, to collect 'abouts' communications, and to buy broker data, and would face escalating discipline up to termination for violations. The bill still extends their core 702 authority for four years.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Electronic communication service providers (telecom and tech platforms)",
-    "effect": "mixed",
-    "stance_toward_public": "aligned",
-    "note": "Section 106 would bar the government from forcing technical assistance without a court finding it is necessary and narrowly tailored, and providers would not be obligated to comply absent an explicit court order — a shield against unchecked demands. In exchange, the bill extends the 702 program under which they receive directives for four more years.",
+    "note": "Cell site simulators, high-intensity drug-trafficking surveillance programs, and data-retention practices would face new restrictions, independent oversight, and public reporting, shrinking the market for these tools and services.",
     "sources": [
      "S2"
     ]
@@ -212,14 +196,15 @@
   "trajectory": null,
   "categories": [
    "corruption_and_ethics",
+   "consumer_protection_and_finance",
    "other"
   ],
   "scores": {
    "public_stakes": 8,
    "concentrated_stakes": 7,
    "outcome_against_public": 8,
-   "support_mismatch": 7,
-   "corruption_relevance": 6,
+   "support_mismatch": 6,
+   "corruption_relevance": 8,
    "confidence": 0.85
   }
  },

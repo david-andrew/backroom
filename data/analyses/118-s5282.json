@@ -1,174 +1,190 @@
 {
  "bill_id": "118-s5282",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T13:01:19+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T19:19:15+00:00",
  "record_fetched_at": "2026-09-20T11:49:17+00:00",
  "record_hash": "c2f29b703c530cf6",
  "analysis": {
-  "one_liner": "Requires car companies to get your permission before selling your driving and location data.",
-  "headline": "The bill was introduced in late September 2024 and referred to the Senate Commerce Committee, where it died with no hearing, no vote, and no further action before the Congress ended.",
+  "one_liner": "Requires car companies to get your explicit consent before selling or sharing your car and location data.",
+  "headline": "The Car Privacy Rights Act, introduced in September 2024 with two cosponsors, was referred to the Senate Commerce Committee and never received a hearing, a vote, or any further action before the 118th Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would make it illegal for car makers, insurers, and app companies to sell or share data collected from your car — where you drove, how you drove, where the car is parked — unless you first got a plain-language notice and explicitly said yes. You could take that permission back at any time through a website, app, or the mail. It would also force car makers and insurers to report their data practices to the Federal Trade Commission every year, and direct the FTC to write rules for how car makers handle location tracking in domestic violence situations. Violations would be enforced by the FTC like other unfair or deceptive business practices.",
-  "who_benefits": "Anyone who drives a car — or rides in one. Connected cars today collect precise location and driving-behavior data that has been sold to data brokers and insurers, sometimes raising people's insurance premiums based on driving habits they never agreed to share. The bill would flip the default: no sale or sharing of that data without your explicit, revocable consent. It would also give domestic violence survivors a rules framework for situations where an abuser can track a car's location through a manufacturer's app.",
-  "who_benefits_short": "Drivers and car owners",
+  "plain_summary": "Modern connected cars collect where you drove, how hard you braked, and where you park — and some companies sell that data to brokers and insurers. This bill would make it illegal for carmakers, insurers, and app companies to sell or share your car data unless you first got a clear notice and said yes. You could take back your consent any time, carmakers and insurers would have to report their data practices to the Federal Trade Commission each year, and the FTC would enforce the rules.",
+  "who_benefits": "Every driver and passenger whose connected car tracks location, driving behavior, and vehicle status — the bill puts you, rather than the manufacturer, in charge of who gets that data.",
+  "who_benefits_short": "Drivers of connected, data-collecting cars",
   "how_it_helps": [
    {
-    "text": "Requires car makers, insurers, and data-collecting app companies to provide a clear, standalone notice and get affirmative express consent before selling or sharing any consumer car-related data, including precise location and driving history [S2].",
+    "text": "Makes it unlawful to share or sell a person's car data — including driving history, vehicle condition, and precise location down to street level or within 1,850 feet — unless the company gave a clear, standalone notice and the consumer explicitly agreed [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Consent cannot be buried in a terms-of-service agreement or obtained through misleading means, and consumers can revoke it at any time through the company's website, app, or by mail [S2].",
+    "text": "Bars companies from treating acceptance of a general terms-of-service agreement as consent, and requires that consent be easy to revoke through the company's website, app, or mail [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires every car manufacturer and motor vehicle insurance company to report annually to the FTC on what car data they collect, why, and who they share or sell it to, with the FTC publishing a yearly summary to Congress [S2].",
+    "text": "Requires every car manufacturer and motor vehicle insurance company to report annually to the FTC on what car data it collects, why, and who it is sold or shared with, with the FTC summarizing the results publicly for Congress [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Directs the FTC, with the FCC and highway safety regulators, to issue guidance or rules within 180 days on how car makers should address domestic violence risks tied to apps that can pinpoint a car's location [S2].",
+    "text": "Directs the FTC, with the FCC and the auto safety agency, to issue guidance within 180 days on how carmakers should address domestic violence risks in apps that can pinpoint a person's or vehicle's precise location [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Enforces the law through the Federal Trade Commission's existing unfair-and-deceptive-practices authority, with rulemaking power to fill in the details [S2].",
+    "text": "Enforces all of this under the FTC's existing authority over unfair and deceptive practices, backed by rulemaking power and penalties [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Car manufacturers, auto insurers, telematics companies, and data brokers that profit from collecting and reselling car and driving data would lose that revenue stream and face new reporting and compliance duties. Some connected-car services that depend on data sharing — for example, insurance discounts based on driving monitoring — would require an explicit opt-in and might reach fewer customers.",
-  "who_pays_short": "Automakers, insurers, and data brokers",
+  "who_pays": "Car manufacturers, motor vehicle insurers, and app companies that currently monetize driving and location data — they would lose that revenue and bear notice, consent, and annual reporting costs.",
+  "who_pays_short": "Automakers, insurers, and car-data brokers",
   "drawbacks": [
    {
-    "text": "An opt-in requirement is stricter than most current state privacy laws, and it would apply to sharing with any company, not just sales to third parties; some services drivers find useful, such as accident-response or usage-based insurance discounts, would need a separate explicit sign-up and could reach fewer people [S2].",
+    "text": "The bill restricts sharing and selling but does not stop companies from collecting car data in the first place; a manufacturer could still gather location and driving history and simply hold it [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill's only sharing exception is for the National Highway Traffic Safety Administration; it does not address sharing with police, courts, or other government bodies, leaving a gap the rulemaking would have to work around [S2].",
+    "text": "It carves out an exception letting companies share data with the National Highway Traffic Safety Administration without consumer consent, and its only enforcement path is through the FTC — an individual driver could not sue on their own [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Compliance costs — annual privacy reports to the FTC and new consent systems — would fall on manufacturers and insurers, costs that could partly be passed to consumers [S2].",
+    "text": "Compliance would cost manufacturers and insurers real money: standalone notices for each data category, consent-confirmation systems, revocation channels, and annual privacy reports [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core trade is real but modest on the cost side: drivers give up one-click默认 data sharing in exchange for control over highly sensitive location and driving data, which has documented links to insurance rate increases. The strictness of the opt-in model is a genuine design debate, but the bill's transparency reports and domestic-violence guidance address real harms. On balance the benefits to ordinary drivers outweigh the compliance burden.",
+  "benefit_vs_cost": "The benefit — control over data that reveals where you live, work, and drive, which can feed insurance pricing, advertising, and stalking — is broad and personal, and the costs are one-time compliance burdens plus lost data revenue for the companies. The bill's real weakness is design: it leaves collection itself untouched and gives individuals no right to sue, so its protection depends entirely on FTC enforcement. As written, it is a meaningful but partial fix.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced and referred to the Senate Commerce Committee in September 2024, and the committee never took it up before the Congress ended in January 2025.",
+   "mechanism": "The bill was introduced and sent to the Senate Commerce Committee on September 25, 2024, and nothing further happened — no hearing, no vote — before the Congress ended on January 3, 2025.",
    "narrative": [
     {
-     "text": "Sen. Jeff Merkley introduced the bill on September 25, 2024, joined by Sen. Elizabeth Warren; it was read twice and referred to the Committee on Commerce, Science, and Transportation the same day [S4].",
+     "text": "Sen. Jeff Merkley introduced the Car Privacy Rights Act of 2024 on September 25, 2024, joined by Sen. Elizabeth Warren [S1] [S2].",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "text": "The Senate read the bill twice and referred it to the Committee on Commerce, Science, and Transportation [S4].",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The bill had 2 cosponsors, both Democrats [S3].",
+     "text": "The bill attracted two cosponsors, both Democrats, and no member of the other party signed on [S3].",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "No further action was taken — no hearing, markup, committee vote, or floor action appears in the bill's history before the 118th Congress ended on January 3, 2025 [S4].",
+     "text": "The committee never took the bill up, and the congressional record shows no action after the referral [S4].",
      "sources": [
-      "S4"
-     ]
-    }
-   ],
-   "who_came_out_ahead": "Automakers, auto insurers, and the data-broker industry that buys and resells car and driving data came out ahead, because they keep collecting and selling that data without needing explicit consent. Drivers gained nothing, since the bill never advanced beyond a committee referral."
-  },
-  "who_came_out_ahead_short": "Car makers, insurers, and data brokers",
-  "sides": {
-   "for": [
-    {
-     "name": "Sen. Jeff Merkley",
-     "role": "U.S. Senator from Oregon, bill sponsor",
-     "party": "D",
-     "what_they_did": "Introduced the Car Privacy Rights Act and referred it to the Commerce Committee.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
       "S4"
      ]
     },
     {
-     "name": "Sen. Elizabeth Warren",
-     "role": "U.S. Senator from Massachusetts, cosponsor",
+     "text": "The 118th Congress ended on January 3, 2025, killing the bill without a vote in either chamber [S1].",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "Automakers, insurers, and the data brokers that buy and resell driving and location records are better off — the existing market for that data continues unchanged, and drivers gained nothing."
+  },
+  "who_came_out_ahead_short": "Car-data sellers and brokers",
+  "sides": {
+   "for": [
+    {
+     "name": "Sen. Jeff Merkley",
+     "role": "U.S. Senator from Oregon; bill sponsor",
      "party": "D",
-     "what_they_did": "Cosponsored the bill at introduction.",
+     "what_they_did": "Introduced the Car Privacy Rights Act of 2024",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "name": "Sen. Elizabeth Warren",
+     "role": "U.S. Senator from Massachusetts; original cosponsor",
+     "party": "D",
+     "what_they_did": "Joined the bill's introduction as an original cosponsor",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S2",
       "S3"
      ]
+    },
+    {
+     "name": "2 of 48 Senate Democrats",
+     "role": "Cosponsors",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill; no Republican signed on",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3"
+     ]
     }
    ],
    "against": [
     {
-     "name": "Senate Commerce, Science, and Transportation Committee",
-     "role": "Committee of referral, chaired by Sen. Maria Cantwell (D-WA)",
+     "name": "Senate Committee on Commerce, Science, and Transportation",
+     "role": "Committee of referral; chaired by Sen. Maria Cantwell (D)",
      "party": null,
-     "what_they_did": "Received the referral on the day of introduction and took no further action — no hearing, markup, or vote — for the remainder of the Congress [S4].",
+     "what_they_did": "Took no action on the bill — no hearing or markup — after it was referred on September 25, 2024",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S1",
       "S4"
      ]
     }
    ],
-   "party_line": "party_line",
-   "party_line_note": "The bill's three Senate supporters were all Democrats, and with only 2 cosponsors it never attracted any Republican backing [S3]."
+   "party_line": "unclear",
+   "party_line_note": "No vote ever occurred; the bill's only support was from three Democrats, and it died in a committee controlled by the majority party without opposition ever being tested."
   },
   "industries": [
    {
-    "industry": "Car manufacturers",
+    "industry": "Automakers and connected-car service providers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Connected-car programs collect precise location and driving-behavior data that manufacturers have sold or shared with third parties; the bill would require explicit consent before any sharing, cutting off that revenue and forcing annual disclosure of their data practices [S2]. Drivers' interest in keeping their location private runs directly against this business line.",
+    "note": "The bill would end a revenue stream: selling or sharing driving records, vehicle status, and precise location without asking. It would also impose notice, consent, and annual reporting duties. The industry's interest in keeping that data flowing runs directly against drivers' control over their own information.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Auto insurers",
-    "effect": "mixed",
-    "stance_toward_public": "opposed",
-    "note": "Insurers buy driving-behavior data to set rates, and some have raised premiums based on data drivers never knowingly shared; the bill requires their explicit consent for such data and subjects them to annual reporting [S2]. Insurers lose a data channel; drivers could see fairer premiums.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Data brokers and telematics companies",
+    "industry": "Motor vehicle insurers and auto-data brokers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Companies that aggregate and resell car location and driving data would lose their supply unless each consumer opts in [S2]. Their profit comes from selling information about people who never agreed to the sale.",
+    "note": "Insurers are covered entities under the bill and, like manufacturers, could no longer receive or share driving data without explicit consent; they would also file annual privacy reports. Brokers that turn driving behavior into scores for insurers would lose their supply of consent-free data, which today can raise individual premiums.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Federal Trade Commission",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "The bill hands the FTC new enforcement jurisdiction, annual industry reporting, and rulemaking duties over car data privacy [S2].",
+    "industry": "App developers collecting car data",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "Companies that gather car data through phone and in-car apps fall under the bill's consent and reporting rules. Apps that can pinpoint a vehicle or a person's location would face federal guidance on protecting domestic violence victims.",
     "sources": [
      "S2"
     ]
@@ -180,9 +196,9 @@
   ],
   "scores": {
    "public_stakes": 6,
-   "concentrated_stakes": 7,
-   "outcome_against_public": 7,
-   "support_mismatch": 2,
+   "concentrated_stakes": 6,
+   "outcome_against_public": 5,
+   "support_mismatch": 4,
    "corruption_relevance": 1,
    "confidence": 0.9
   }

@@ -1,124 +1,114 @@
 {
  "bill_id": "119-hr7291",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:10:52+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:43:44+00:00",
  "record_fetched_at": "2026-09-20T08:11:56+00:00",
  "record_hash": "686c078644cb5628",
  "analysis": {
-  "one_liner": "Creates a federal board to re-review foodmakers' old self-declared 'safe' rulings on food additives.",
-  "headline": "The bill was introduced in late January 2026 with one Democratic cosponsor and referred to the House Energy and Commerce Committee, which has taken no further action on it.",
+  "one_liner": "Requires food makers to disclose old self-certified \"safe\" ingredients for FDA board review.",
+  "headline": "A bill to make food companies disclose ingredients they self-certified as safe before 2000 — many never seen by the FDA — was referred to the Energy and Commerce Committee on January 30, 2026 and has seen no action since.",
   "direction": "for_working_people",
-  "plain_summary": "Under current law, a food company can decide on its own that an ingredient is 'generally recognized as safe' (GRAS) and never show the FDA its evidence. This bill targets the oldest of those self-declarations — ones made before 2000, including ones companies never told the FDA about. It creates a review board inside the Department of Health and Human Services, requires manufacturers to disclose every covered designation within 90 days, ranks them for review, and lets the Secretary revoke a designation if the company cannot prove within 180 days that the substance is actually safe, including ordering recalls.",
-  "who_benefits": "Consumers of packaged and processed foods, since the bill would force the first federal review of additives that companies declared safe on their own, some decades ago and without ever showing the FDA their evidence. The public also gains transparency: the board must publish its findings and recommendations on the FDA website.",
-  "who_benefits_short": "People who eat packaged food",
+  "plain_summary": "Under current law, food companies can declare an ingredient \"generally recognized as safe\" (GRAS) on their own, without ever telling the FDA. This bill targets designations companies made before 2000 that were never filed with or reviewed by the agency: within 90 days of the law taking effect, manufacturers would have to list them for a new government review board. The board would review the designations, and if it finds an ingredient has not been shown to be safe, the Secretary of Health and Human Services could revoke the designation and require the product to be pulled from shelves.",
+  "who_benefits": "Consumers gain the most: thousands of food ingredients on the market today rest on safety judgments companies made about themselves, sometimes decades ago, without the FDA ever seeing them. The bill forces those ingredients into the open and gives the government power to remove any that cannot be shown to be safe. The FDA and USDA also gain a structured process and new enforcement tools, including civil penalties and the ability to treat an undisclosed ingredient as an unapproved — and therefore illegal — food additive.",
+  "who_benefits_short": "Consumers of processed foods",
   "how_it_helps": [
    {
-    "text": "Requires every food manufacturer, within 90 days of the bill becoming law, to identify to the board each covered GRAS designation attributable to it — including designations the company never filed with or notified to the FDA.",
+    "text": "Creates a review board, run through HHS and FDA with USDA and EPA participation, that must examine every pre-2000 GRAS designation a company made without notifying the FDA, categorize them by priority, and publish its findings on the FDA website.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Directs the board to review the validity of each covered designation, tier them by priority, and report its findings to the Secretary, to Congress, and publicly on the FDA website — tier 1 within 2 years, tier 2 within 4, tier 3 within 10.",
+    "text": "Forces food manufacturers to disclose, within 90 days of enactment, every covered GRAS designation they hold — the first time many of these self-certifications would ever reach the government. Companies that refuse face civil penalties or having their ingredient treated as an unapproved, unsafe food additive.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Lets the Secretary revoke a designation if the board finds the substance has not been shown to be safe, gives the manufacturer 180 days to produce sufficient scientific evidence of safety, and requires procedures for pulling the substance from distribution and recalling it if the revocation stands.",
+    "text": "Lets the Secretary revoke a designation the board finds unsupported, giving the manufacturer 180 days to produce real safety evidence, and requires procedures for pulling and recalling substances that fail — closing the gap where an untested ingredient could otherwise stay on shelves indefinitely.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Gives the Secretary enforcement tools against companies that refuse to disclose their designations: civil penalties under the Federal Food, Drug, and Cosmetic Act, or treating the undisclosed substance as an unapproved — and therefore unsafe — food additive.",
+    "text": "Sunsets the whole program after 10 years and requires public reports to Congress at set deadlines (2 years for the highest-priority tier, 4 for the next, 10 for the rest), so the review has a defined endpoint and a public paper trail.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Food manufacturers, which must compile and disclose their ingredient designations, face civil penalties if they do not, and may have to reformulate products, stop distributing, and recall substances whose safety designations are revoked. Some of those compliance and reformulation costs would likely be passed on to consumers in prices.",
-  "who_pays_short": "Food manufacturers and ingredient suppliers",
+  "who_pays": "Food manufacturers bear the cost. They must identify and disclose their legacy GRAS designations within 90 days, submit to board review, and — if a designation is revoked — either produce scientific safety evidence within 180 days or stop distributing and recall the substance. Failing to disclose brings civil penalties under the Federal Food, Drug, and Cosmetic Act or treatment of the ingredient as an unapproved food additive. Those compliance, reformulation, and recall costs would ultimately be partly passed to consumers through prices.",
+  "who_pays_short": "Food manufacturers using self-certified ingredients",
   "drawbacks": [
    {
-    "text": "The board's voting members are entirely government officials — the HHS and Agriculture Secretaries and staff from FDA, USDA, EPA, and their legal offices; the only outside expertise, an academic food toxicologist and a food industry representative, are non-voting members appointed by the Secretary. An independent-scientist review body this is not.",
+    "text": "The 90-day disclosure deadline is extremely tight. Companies would have to identify designations made as far back as before 2000 — including by predecessors or acquired brands — and incomplete or late filings could trigger penalties even for companies trying to comply.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The scope is limited to designations made before 2000, so the many GRAS self-determinations companies have made since then — including the modern self-affirmation pathway the FDA tightened rules around — are left out of this review.",
+    "text": "The review board is made up almost entirely of government officials, with only one non-voting industry representative and one non-voting academic food toxicologist. With no dedicated funding or staffing provisions in the bill, reviews of potentially hundreds of designations could be slow — the lowest-priority tier has up to 10 years — and the board sunsets after 10 years, so some substances could go unreviewed before the program ends.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Revocation is discretionary ('may'), not mandatory: the Secretary can decline to act on a board recommendation that a substance has not been shown to be safe, and enforcement penalties attach only to failing to file a notice, not to the underlying safety of the ingredient.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "The board and the entire Act terminate 10 years after enactment, so if the review is not completed — tier 3 reviews are due at the 10-year mark — part of it could expire unfinished.",
+    "text": "If designations are revoked, companies must cease distribution and recall products, which raises costs and could pull familiar ingredients off the market. Supporters would argue that is the point — unproven ingredients should not stay on shelves — but it is a real cost, and one an honest backer should acknowledge.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit is real but slow: Americans eat additives whose 'safe' status rests on company paperwork that was never independently reviewed, and this bill finally pulls that paperwork into public view and allows revocation. The costs are real but ordinary for a regulatory compliance exercise. The design is imperfect — an all-agency voting board, a pre-2000 cutoff, and discretionary revocation — so the bill is a partial fix to the GRAS loophole rather than a full one. On balance, the public-safety benefit plausibly outweighs the compliance cost, but the bill's narrow scope means the broader problem would remain.",
+  "benefit_vs_cost": "The benefit is real: a large share of the food supply relies on safety determinations companies made about themselves without FDA review, and this bill would finally surface and test them. The costs fall on food manufacturers in compliance, possible recalls, and reformulation, with some passed to consumers as higher prices. The design is imperfect — a 90-day disclosure deadline is likely too fast for decades-old records, and the 10-year sunset means the slowest-priority reviews might never finish — but the core trade favors the public: proving an ingredient is safe before it stays legal is a fair burden to place on the company profiting from it.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and sent to the House Energy and Commerce Committee, where it sits with no hearing, markup, or floor vote scheduled.",
+   "mechanism": "The bill was introduced and sent to the Energy and Commerce Committee, which has taken no action on it — no hearing, no markup, no vote — and it sits there while Congress is still in session.",
    "narrative": [
     {
-     "text": "Rep. Michael Lawler (R-NY) introduced the GRAS Oversight and Transparency Act on January 30, 2026, and it was referred the same day to the House Committee on Energy and Commerce.",
-     "sources": [
-      "S4",
-      "S1"
-     ]
-    },
-    {
-     "text": "The bill has one cosponsor, a Democrat, giving it small bipartisan sponsorship.",
-     "sources": [
-      "S3"
-     ]
-    },
-    {
-     "text": "No further action has been taken since the referral — no committee vote, no hearing listed, no floor action.",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "The bill would direct HHS, through the FDA Commissioner, to create a board that reviews the validity of GRAS designations made by manufacturers before 2000, including designations never filed or notified to the FDA.",
-     "sources": [
-      "S2"
-     ]
-    }
-   ],
-   "who_came_out_ahead": "So far, food manufacturers: their decades-old self-declared safety rulings remain unreviewed by anyone, because the bill has not moved past referral."
-  },
-  "who_came_out_ahead_short": "Food manufacturers, whose safety claims remain unreviewed",
-  "sides": {
-   "for": [
-    {
-     "name": "Rep. Michael Lawler",
-     "role": "Sponsor, H.R. 7291",
-     "party": "R",
-     "what_they_did": "Introduced the bill on January 30, 2026.",
-     "direct": true,
-     "evidence": "record",
+     "text": "Rep. Michael Lawler (R-NY) introduced the GRAS Oversight and Transparency Act on January 30, 2026.",
      "sources": [
       "S1",
       "S4"
      ]
     },
     {
-     "name": "One Democratic cosponsor",
+     "text": "The same day, the House referred it to the Committee on Energy and Commerce, the committee with jurisdiction over food and drug law.",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "One House Democrat signed on as a cosponsor; no further action, hearing, or vote has occurred, and the 119th Congress runs through January 3, 2027.",
+     "sources": [
+      "S3",
+      "S4"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "For now, no one has been changed by the bill: food manufacturers continue to rely on pre-2000 self-affirmed GRAS designations without disclosing them to the FDA, and consumers continue eating ingredients the government has never reviewed."
+  },
+  "who_came_out_ahead_short": "Food manufacturers, for now",
+  "sides": {
+   "for": [
+    {
+     "name": "Rep. Michael Lawler",
+     "role": "Sponsor, U.S. House of Representatives",
+     "party": "R",
+     "what_they_did": "Introduced the bill on January 30, 2026, directing HHS to create a board to review pre-2000 self-affirmed GRAS designations.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S2",
+      "S4"
+     ]
+    },
+    {
+     "name": "1 of 217 House Democrats",
      "role": "Cosponsor",
      "party": "D",
-     "what_they_did": "Signed on as the bill's sole cosponsor.",
+     "what_they_did": "Cosponsored the bill, giving it one Democratic and one Republican sponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -128,51 +118,61 @@
    ],
    "against": [
     {
-     "name": "House Committee on Energy and Commerce",
+     "name": "House Energy and Commerce Committee leadership",
      "role": "Committee of referral",
-     "party": null,
-     "what_they_did": "Received the bill on referral and has taken no action since — no hearing, markup, or vote scheduled.",
+     "party": "R",
+     "what_they_did": "Received the referral on January 30, 2026; the committee has taken no further action — no hearing, markup, or floor recommendation.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S4"
      ]
+    },
+    {
+     "name": "Food manufacturing industry",
+     "role": "Regulated industry",
+     "party": null,
+     "what_they_did": "The industry has long defended the self-affirmed GRAS process that this bill would force into review; no public position on this specific bill appears in the record.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
-   "party_line": "bipartisan",
-   "party_line_note": "The sponsorship is bipartisan in form — a Republican sponsor with one Democratic cosponsor — but the bill is so early that no partisan voting pattern exists yet."
+   "party_line": "unclear",
+   "party_line_note": "There are no votes to measure, but early support crosses party lines: a Republican sponsor with one Democratic cosponsor, and no recorded opposition yet."
   },
   "industries": [
    {
-    "industry": "Food manufacturers and ingredient suppliers",
+    "industry": "Food manufacturers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill forces them to disclose every pre-2000 self-declared GRAS designation within 90 days, face civil penalties or 'unsafe food additive' treatment if they do not, and potentially reformulate, stop distribution, and recall substances whose designations are revoked. Their interest in keeping unreviewed safety designations intact runs against consumers' interest in having additives independently checked. The bill does give the industry one non-voting seat on the review board.",
+    "note": "The bill ends the quiet use of pre-2000 self-affirmed GRAS designations: companies must disclose them, submit to review, and face revocation, recalls, and civil penalties if an ingredient cannot be shown to be safe. Because these companies profit from ingredients whose safety was never independently checked, their financial interest runs against the stricter review consumers get.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Food testing and toxicology services",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "If designations come under review, manufacturers would need to generate and supply scientific safety evidence within 180-day windows, creating demand for independent safety testing. This gain only materializes if the bill advances and revocations actually occur.",
+    "industry": "Food ingredient and additive suppliers",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "Suppliers of legacy additives face the same disclosure, review, and possible recall requirements, and a revoked designation would take their products off the market unless safety is proven within 180 days. Consumers gain an independent safety check on ingredients they currently cannot verify.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "With only one cosponsor and no committee action since referral, the bill's likely path is to sit in Energy and Commerce and expire at the end of the 119th Congress, as most bills do. GRAS reform has drawn executive-branch attention, so a narrow path exists if leadership attaches the bill to a broader food-safety package, but nothing in the record suggests that is underway.",
+  "trajectory": "The 119th Congress is still in session, so the bill is technically alive. But it is a backbench pattern: a single sponsor with one cosponsor, no committee hearing or markup more than a sit in committee, and referral to a committee with a crowded agenda. Absent either a markup or attachment to a larger food-safety or appropriations vehicle, the likeliest path is that it dies quietly when the Congress ends in January 2027.",
   "categories": [
-   "consumer_protection_and_finance"
+   "consumer_protection_and_finance",
+   "other"
   ],
   "scores": {
    "public_stakes": 6,
    "concentrated_stakes": 6,
-   "outcome_against_public": 2,
-   "support_mismatch": 1,
+   "outcome_against_public": 3,
+   "support_mismatch": 2,
    "corruption_relevance": 1,
-   "confidence": 0.9
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

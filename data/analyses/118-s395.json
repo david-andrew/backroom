@@ -1,95 +1,108 @@
 {
  "bill_id": "118-s395",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T13:01:05+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:50:52+00:00",
  "record_fetched_at": "2026-09-20T11:49:12+00:00",
  "record_hash": "5880b91ce211f631",
  "analysis": {
-  "one_liner": "Lets people demand deletion of personal data collected about them online before they turned 13.",
-  "headline": "The bill was introduced and referred to committee but never received a vote, expiring when the 118th Congress ended.",
+  "one_liner": "Gives people the right to have websites delete personal data collected about them as children.",
+  "headline": "The bill died in the Senate Commerce Committee without a hearing or a vote after being referred there in February 2023.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would have amended the 1998 children's online privacy law to give people a \"right to be forgotten\" for their childhood. Anyone over 13 — or their guardian — could ask a website aimed at children to permanently delete all personal information collected about them before they turned 13, and the site would have to confirm the deletion in writing. The Federal Trade Commission would write the rules, and state attorneys general could enforce the new right. The bill was referred to the Senate Commerce Committee on the day it was introduced and never moved again.",
-  "who_benefits": "Anyone who spent their childhood online. The bill would let adults erase the data trails websites collected about them as children — profiles, activity records, and personal details gathered by sites aimed at kids — before those records can shape advertising, scoring, or other decisions about them later in life. Guardians could act on behalf of people over 13, and state attorneys general could sue on their behalf.",
-  "who_benefits_short": "People whose childhood data is held online",
+  "plain_summary": "Under the existing Children's Online Privacy Protection Act, websites aimed at kids can collect children's personal information with parental consent, but once someone turns 13 they have no way to erase it. This bill would amend that law so anyone over 13 (or their guardian) could demand that a child-directed website delete everything it collected from or about them as a child, get written confirmation it was done, and see a notice on the site explaining how to ask. Only records needed for court cases or law enforcement could be kept.",
+  "who_benefits": "People who grew up online and now want their childhood data — collected from them before they could consent — permanently erased. Kids who were tracked on child-directed websites and apps, and their parents, gain a legal right to a clean slate instead of a permanent digital record that follows them into adulthood.",
+  "who_benefits_short": "Anyone whose data was collected as a child",
   "how_it_helps": [
    {
-    "text": "It gives individuals over 13 (or their guardians) the right to request deletion of personal information collected about them while they were under 13, and requires websites to honor those requests and confirm deletion in writing.",
+    "text": "Gives every person over 13 the right to request deletion of personal information collected from or about them when they were under 13, overriding any parental consent given at the time.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Requires child-directed websites to post a prominent notice explaining how to request deletion, to promptly delete the data, and to send written confirmation once it is gone.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "It requires child-directed sites to post prominent notices explaining how to request deletion, so the right is not hidden.",
+    "text": "Defines deletion strictly — information must not be maintained in retrievable form and cannot be retrieved in the normal course of business — so companies cannot simply hide it.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "It lets state attorneys general enforce the new deletion right, adding a layer of accountability beyond federal regulators.",
+    "text": "Lets state attorneys general enforce the new deletion right against operators who refuse, by adding it to the law's state-action provision.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Websites and online services directed to children. They would have to build systems to accept deletion requests, verify the requester, actually delete the data (not just make it unretrievable in normal business), and confirm deletions in writing. Operators with actual knowledge they collected data from children would face the same duties even if their site is not aimed at kids.",
-  "who_pays_short": "Websites and online services aimed at children",
+  "who_pays": "Websites and online services directed to children — game, video, and app platforms, and the ad networks behind them — would bear the cost of building deletion systems, verifying requests, and losing access to childhood data they currently hold. A right to deletion only has teeth if the data has commercial value, so the main cost falls on companies that monetize children's online activity.",
+  "who_pays_short": "Child-directed websites and ad networks",
   "drawbacks": [
    {
-    "text": "Compliance costs: websites directed to children would have to build request systems, verify ages and identities, and delete data on demand, which is a real administrative burden especially for small operators.",
+    "text": "The bill's reach is narrow: it covers only websites directed to children, or operators who actually knew they were collecting from a child. Data collected by general-audience sites and apps — where most childhood tracking happens — is left untouched unless the operator knew the user was a child.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The right is narrow: it covers only data collected by sites directed to children (or where the operator knew it was collecting from a child), so data gathered by general-audience platforms about minors would largely be out of scope.",
+    "text": "Enforcement depends on the FTC writing rules within a year and on companies voluntarily complying; the bill creates no new private right for individuals to sue, so a person whose deletion request is ignored would have to rely on the FTC or state attorneys general to act.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Deletion is not absolute — operators may retain information needed for court processes or law-enforcement/public-safety investigations, so a full 'clean slate' is not guaranteed.",
+    "text": "Some deleted records could have legitimate value — for example, medical, safety, or account-recovery records — though the bill does carve out data needed for court processes and law-enforcement investigations.",
     "sources": [
-     "S3"
+     "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit — allowing adults to erase data profiles built on them as children — is real and targeted, and the narrow law-enforcement exception addresses the main safety objection. The main cost is compliance work for online services, which would likely be passed to consumers only marginally. The larger honest criticism is that the bill was narrow and went nowhere: it addresses only data collected before age 13, on child-directed sites, leaving most of the broader youth-data problem untouched.",
+  "benefit_vs_cost": "The benefit is real but modest: a targeted right to erase childhood data, not a general consumer-privacy law. The main honest objection is the narrow scope and weak enforcement — it does nothing about the majority of childhood data collected on general-audience platforms, and ignored requests would depend on regulators to pursue. Still, for the data it does cover, it would eliminate a permanent record created by a child that the child never consented to.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The Senate introduced the bill and sent it to the Commerce Committee, which never acted on it, so it died when the two-year Congress ended.",
+   "mechanism": "The Senate sent it to the Commerce Committee the day it was introduced, and the committee never took it up before the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Durbin introduced the bill on February 13, 2023, and it was read twice and referred to the Senate Commerce, Science, and Transportation Committee.",
+     "text": "Senator Durbin introduced the bill on February 13, 2023, with Senators Blumenthal and Hirono as original cosponsors, and it was read twice and referred to the Committee on Commerce, Science, and Transportation.",
      "sources": [
       "S1",
+      "S3",
       "S5"
      ]
     },
     {
-     "text": "No further action was ever taken — the bill never received a hearing, a markup, or a floor vote in the committee or the Senate.",
+     "text": "The bill's only action after referral was its committee referral; no hearing, markup, or vote is recorded in the full action history.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "The 118th Congress ended on January 3, 2025, and the bill expired with it.",
+     "text": "The Congress ended on January 3, 2025, so the bill expired in committee without coming to a floor vote in either chamber.",
      "sources": [
       "S1"
      ]
+    },
+    {
+     "text": "The bill would have required the FTC to write rules within one year requiring child-directed websites to accept and confirm deletion requests for data collected from anyone while they were under 13.",
+     "sources": [
+      "S3"
+     ]
     }
    ],
-   "who_came_out_ahead": "Operators of child-directed websites keep the data they collected about children, with no deletion obligation. Families and young adults gained nothing."
+   "who_came_out_ahead": "Online services and ad networks that collected data from children keep that data indefinitely; the families who wanted it erased got nothing."
   },
-  "who_came_out_ahead_short": "Online operators holding childhood data",
+  "who_came_out_ahead_short": "Websites and ad networks that keep kids' data",
   "sides": {
    "for": [
     {
      "name": "Sen. Richard Durbin",
-     "role": "U.S. Senator (D-IL), bill sponsor",
+     "role": "U.S. Senator from Illinois; bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill to create a deletion right for data collected from children, building on the 1998 children's privacy law he has long worked on.",
+     "what_they_did": "Introduced the bill and steered it in the Senate.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -99,58 +112,49 @@
     },
     {
      "name": "Sens. Richard Blumenthal and Mazie Hirono",
-     "role": "U.S. Senators (D-CT, D-HI), original cosponsors",
+     "role": "Original cosponsors (2 of 48 Senate Democrats)",
      "party": "D",
-     "what_they_did": "Joined as original cosponsors at introduction; the bill ended with only two cosponsors, both Democrats.",
+     "what_they_did": "Cosponsored the bill at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
-      "S4"
+      "S4",
+      "S3"
      ]
     }
    ],
    "against": [
     {
      "name": "Senate Commerce, Science, and Transportation Committee",
-     "role": "Senate committee of jurisdiction",
+     "role": "Committee of referral",
      "party": null,
-     "what_they_did": "Received the bill by referral on February 13, 2023 and took no further action — no hearing, no markup, no vote — before the Congress ended.",
+     "what_they_did": "Received the bill by referral in February 2023 and never held a hearing, markup, or vote on it before the Congress ended.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S5"
+      "S5",
+      "S1"
      ]
-    },
-    {
-     "name": "Online advertising and data-broker industry",
-     "role": "Digital advertising and data industry",
-     "party": null,
-     "what_they_did": "Industry groups broadly oppose expanded deletion rights that would erase collected data, and such opposition is a routine presence in privacy debates; no specific lobbying on this bill appears in the record.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "The bill had only Democratic sponsorship (three Democrats) and never advanced far enough for any vote that would show whether it split by party."
+   "party_line_note": "All three sponsors were Democrats and no one ever voted on the bill, so no real partisan line ever formed; the only recorded opposition is the committee's inaction."
   },
   "industries": [
    {
-    "industry": "Websites and online services directed at children (and child-focused ad-tech)",
+    "industry": "Child-directed websites, games, and apps",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "They would lose the ability to keep and reuse data collected about users when those users were children, and would bear the cost of building deletion-request and confirmation systems. Today they can retain that data indefinitely.",
+    "note": "These operators would have to build deletion systems, confirm deletions in writing, and give up childhood data they currently hold — data whose value comes from keeping kids' information, which runs against the interest of the people it was collected from.",
     "sources": [
-     "S2",
      "S3"
     ]
    },
    {
-    "industry": "Technology platforms generally",
-    "effect": "mixed",
+    "industry": "Ad networks and data brokers serving children's platforms",
+    "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill amends existing children's privacy law rather than creating a broad new regime, but any platform with actual knowledge it collected data from children would face the same deletion obligations and enforcement exposure.",
+    "note": "Deletion of childhood data shrinks the profiles that make targeted advertising to minors profitable; the bill's strict definition of deletion — not retrievable in the normal course of business — would take that data out of circulation entirely.",
     "sources": [
      "S3"
     ]
@@ -158,16 +162,15 @@
   ],
   "trajectory": null,
   "categories": [
-   "consumer_protection_and_finance",
-   "other"
+   "consumer_protection_and_finance"
   ],
   "scores": {
    "public_stakes": 4,
    "concentrated_stakes": 4,
-   "outcome_against_public": 5,
-   "support_mismatch": 3,
+   "outcome_against_public": 4,
+   "support_mismatch": 2,
    "corruption_relevance": 1,
-   "confidence": 0.9
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

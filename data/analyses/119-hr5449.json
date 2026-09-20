@@ -1,130 +1,116 @@
 {
  "bill_id": "119-hr5449",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:07:21+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:28:02+00:00",
  "record_fetched_at": "2026-09-20T08:10:54+00:00",
  "record_hash": "0a7c2d932d50aea4",
  "analysis": {
-  "one_liner": "Requires independent citizen commissions to draw congressional maps and bans mid-decade redistricting.",
-  "headline": "The Redistricting Reform Act, backed by 61 House Democrats and no Republicans, has sat in the House Judiciary Committee with no hearing or vote since September 2025.",
+  "one_liner": "Takes congressional map-drawing away from state legislatures and gives it to independent citizen commissions, and bans mid-decade redistricting.",
+  "headline": "The bill was introduced on September 18, 2025 and referred to the House Judiciary Committee, where it has sat with no further action.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would take the drawing of congressional district lines away from state politicians and hand it to independent citizen commissions in every state. It bans mid-decade redistricting, meaning a state could not redraw its congressional map again before the next census unless a court orders it. It also sets uniform national rules: districts must follow the Voting Rights Act, respect communities of interest, and cannot be drawn to favor or hurt either political party. Members of Congress and state legislators currently control this process and would lose that control if it passed.",
-  "who_benefits": "Voters — especially those whose votes are currently diluted by maps drawn to protect one party — gain a fairer and more transparent process. The bill requires public hearings, public posting of maps and data, a ban on considering where incumbents live, and rules that protect communities of color's ability to elect candidates of choice. Ordinary citizens can apply to serve on the commissions and sue to enforce the rules.",
-  "who_benefits_short": "Voters in gerrymandered districts",
+  "plain_summary": "The bill would require every state to draw its congressional districts using an independent commission of ordinary citizens instead of letting legislators draw their own districts. It would ban states from redrawing maps mid-decade for partisan advantage, prohibit maps designed to favor one political party, and let any citizen go to federal court to enforce the rules. As of now, the bill has only been introduced and referred to the House Judiciary Committee, with no committee or floor action.",
+  "who_benefits": "Voters would gain: congressional maps would be drawn by citizen commissions rather than by the politicians who run in them, districts could no longer be engineered to guarantee one party's wins, and mid-decade remaps would be barred. Voters in states where the legislature currently draws its own maps would see the biggest change; competitive districts tend to make representatives more responsive to ordinary constituents.",
+  "who_benefits_short": "Voters in gerrymandered states",
   "how_it_helps": [
    {
-    "text": "Requires congressional redistricting in every state to be done by an independent commission rather than by legislators, with a three-judge federal court as a fallback if a state misses the deadline.",
+    "text": "Requires every state to draw congressional maps through an independent, multi-partisan commission of 15 citizens rather than through the state legislature, with strict disqualification rules excluding officeholders, campaign staff, and lobbyists and their immediate family members from serving [S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Prohibits mid-decade redistricting: once a state is redistricted after an apportionment, it cannot be redistricted again until after the next census unless a court requires it.",
+    "text": "Bans mid-decade redistricting: once a state is redistricted after the census, it may not redraw its maps again until the next apportionment, unless a court requires it [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Bans maps drawn with the intent, or having the effect, of materially favoring or disfavoring a political party, using a defined test based on recent statewide elections and quantitative partisan-fairness measures.",
+    "text": "Prohibits maps drawn with the intent or effect of materially favoring or disfavoring a political party, with an expedited court process and a rebuttable presumption that statistically skewed maps are unlawful [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Requires districts to comply with the Voting Rights Act and to preserve the practical ability of protected communities to elect representatives of choice, and to respect communities of interest and neighborhoods.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Imposes an open process: public hearings before and after draft maps, a public website with maps, data and software, disclosure of political spending by commission staff and vendors, and disqualification of lobbyists, officeholders and their family members from serving.",
+    "text": "Requires districts to protect the ability of communities of color to elect representatives of their choice and to respect communities of interest and neighborhoods, and requires public hearings, open data, and a public website throughout the process [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Bars map-drawers from considering where a sitting member of Congress lives, a rule directly aimed at protecting incumbents' seats.",
+    "text": "Gives any citizen a private right to sue in federal court to enforce the requirements, with expedited three-judge court review [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Taxpayers fund the new commissions: the bill authorizes Election Assistance Commission payments of $150,000 per congressional seat, subject to appropriations. Political parties, incumbent lawmakers and state legislatures pay in a different currency — they lose their power to draw the very districts that determine who they run against, and maps favoring incumbents or parties would become legally challengeable.",
-  "who_pays_short": "Taxpayers; incumbent lawmakers and parties",
+  "who_pays": "State legislatures and incumbent members of Congress would lose their power to draw their own district lines, and parties that currently benefit from favorable maps would lose that advantage. Taxpayers would fund the federal payments to states for running commissions.",
+  "who_pays_short": "Incumbent lawmakers and party map-drawers",
   "drawbacks": [
    {
-    "text": "The bill authorizes federal payments of $150,000 per Representative to run state commissions, a real taxpayer cost subject to annual appropriations, though states that draw maps with the politicians' own staff (like Iowa) are exempted from the commission mandate.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "The process is elaborate and deadline-driven; if a commission or legislature misses it, a federal three-judge court takes over map-drawing, which moves a state's lines further from local control.",
+    "text": "Federal courts would take on heavy new duties: if a state's commission deadlocks or misses deadlines, a three-judge federal court draws the state's congressional map itself [S2][S3], a role courts have historically found burdensome.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "The partisan-fairness test — a rebuttable presumption of violation when a party's share of seats exceeds its share of votes by more than 7% or one seat in at least two of four recent elections — will generate heavy litigation and depends on courts accepting Congress's authority over a map-drawing power traditionally exercised by states.",
+    "text": "The partisan-fairness test relies on statistical modeling of past elections and a rebuttable presumption of violation, which would invite years of litigation over every new map [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Because the fairness standard measures party performance against statewide vote shares, states whose voters are geographically concentrated could see maps challenged even where they were drawn without partisan intent.",
+    "text": "The bill authorizes federal payments of $150,000 per House seat to states to run their commissions, a new federal expense [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "A good-faith objection: opponents argue Congress's Elections Clause power covers the 'times, places and manner' of elections, not how states draw maps, so the mandate may exceed constitutional authority — a dispute the bill's own 'statement of constitutional authority' anticipates [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The core benefit — politicians no longer choosing their own voters — is large and goes straight at a practice that shapes every other outcome in Congress. The costs are real but secondary: some taxpayer funding, administrative complexity, and likely years of litigation over the fairness metrics. The strongest honest objection is constitutional: Congress is claiming power over a process states have traditionally run, and the bill itself flags that this would be tested in court. On balance the design is serious and detailed rather than symbolic, though nothing in it will ever be tested if it stays in committee.",
+  "benefit_vs_cost": "The benefit — House maps that don't systematically favor one party, protected by a federal backstop and an anti-gerrymandering legal standard — is significant for democratic fairness and for voters in states where one party currently draws itself large majorities. The costs are real but modest: federal funding for commission operations, slower and more elaborate map-drawing, and litigation as courts apply a new partisan-fairness test. The main design risk is the judiciary taking on heavy map-drawing responsibility in states where commissions deadlock, which shifts power from elected bodies to courts. Weighed honestly, the fairness gains outweigh the administrative costs, but the bill's weak position in a narrowly divided Congress makes its design questions moot for now.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced and referred to the House Judiciary Committee, where it has sat with no hearing, no markup and no vote since September 2025.",
+   "mechanism": "It was introduced and referred to the House Judiciary Committee in September 2025, and no committee action, hearing, or floor vote has followed.",
    "narrative": [
     {
-     "text": "The bill was introduced on September 18, 2025 by Rep. Zoe Lofgren with a long initial list of cosponsors, all Democrats, many of them members of the California delegation.",
+     "text": "The bill was introduced in the House on September 18, 2025 and referred the same day to the House Committee on the Judiciary [S1][S5].",
      "sources": [
       "S1",
-      "S3"
+      "S5"
      ]
     },
     {
-     "text": "It was referred the same day to the House Committee on the Judiciary, and the action history shows no further steps — no hearing, no committee vote, no floor action.",
+     "text": "The complete action history shows no further steps: no subcommittee or committee markup, no hearing, and no floor vote [S5].",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "It has 60 cosponsors in addition to the sponsor; every one is a Democrat and none is a Republican.",
+     "text": "All 60 cosponsors are House Democrats; no Republican has signed on, and the bill sits in a committee whose majority is of the opposing party [S4].",
      "sources": [
       "S4"
      ]
-    },
-    {
-     "text": "The bill's centerpiece, the ban on mid-decade redistricting, applies to redistricting already carried out after the 2020 census and would bar a state from redrawing maps again before the next apportionment unless a court orders it.",
-     "sources": [
-      "S2",
-      "S3"
-     ]
     }
    ],
-   "who_came_out_ahead": "The politicians and party organizations that currently draw congressional maps keep that power, because the bill never reached a vote. Members of both parties who benefit from maps already in place are better off with the bill stalled; the timing, arriving during a contested round of mid-decade remapping, means the present map-drawers retain the ability to redraw seats this decade."
+   "who_came_out_ahead": "Legislative map-drawers are better off: the existing system where legislatures draw their own congressional districts remains untouched."
   },
-  "who_came_out_ahead_short": "Current map-drawing politicians and parties",
+  "who_came_out_ahead_short": "Legislators who draw their own maps",
   "sides": {
    "for": [
     {
-     "name": "Rep. Zoe Lofgren",
-     "role": "U.S. Representative (CA-18), bill sponsor",
+     "name": "Zoe Lofgren",
+     "role": "U.S. Representative (D-CA), bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and recruited an initial cosponsor list of more than 50 House members, concentrated in the California delegation.",
+     "what_they_did": "Introduced the Redistricting Reform Act of 2025 in the House on September 18, 2025 [S1][S3].",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -133,10 +119,10 @@
      ]
     },
     {
-     "name": "60 House Democratic cosponsors",
-     "role": "Cosponsors of H.R. 5449",
+     "name": "60 of 217 House Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as cosponsors, bringing total support to 61 House members, all Democrats.",
+     "what_they_did": "Cosponsored the bill, all from the Democratic caucus [S4].",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -146,62 +132,62 @@
    ],
    "against": [
     {
-     "name": "Rep. Jim Jordan",
-     "role": "Chair, House Judiciary Committee",
-     "party": "R",
-     "what_they_did": "His committee received the bill on referral in September 2025 and has taken no action on it — no hearing, no markup, no vote.",
-     "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
-    },
-    {
-     "name": "House Republicans",
-     "role": "House majority (220 seats)",
-     "party": "R",
-     "what_they_did": "No House Republican cosponsored the bill, leaving it without the majority support needed to reach the floor.",
+     "name": "House Judiciary Committee",
+     "role": "Committee of referral",
+     "party": null,
+     "what_they_did": "Received the bill by referral on September 18, 2025 and has taken no action on it since — no markup, hearing, or vote appears in the action history [S5].",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S4"
+      "S5"
      ]
+    },
+    {
+     "name": "House Republican majority",
+     "role": "House majority",
+     "party": "R",
+     "what_they_did": "Controls the House committee agenda and floor schedule; no Republican cosponsored the bill and no committee or floor action has been scheduled.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
    "party_line": "party_line",
-   "party_line_note": "Support is 100% Democratic — 61 Democrats including the sponsor, zero Republicans — which mirrors the fact that the party holding the House majority benefits from the mid-decade remapping the bill would ban."
+   "party_line_note": "All 60 cosponsors are House Democrats and the bill has no Republican support, while the House majority that controls the committee calendar is Republican."
   },
   "industries": [
    {
-    "industry": "Incumbent members of Congress and national party organizations",
+    "industry": "Incumbent members of Congress and state party organizations",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These officials currently control the drawing of their own district lines; the bill would strip that power, ban considering incumbents' home addresses, and make partisan-favoring maps presumptively illegal. Their interest in keeping the status quo runs directly against the public's interest in competitive, fairly drawn districts.",
+    "note": "These interests currently hold the power to draw their own district lines, which is a foundation of safe seats and party control of the House. The bill removes map-drawing from legislatures, bans mid-decade remaps, and lets courts strike partisan-favoring maps — directly threatening incumbents' ability to protect their districts.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "State legislatures",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "State lawmakers would lose the congressional map-drawing function their chambers now exercise, replaced by citizen commissions (with courts as a backstop), though states like Iowa that already use nonpartisan staff are carved out.",
+    "industry": "Redistricting software and consulting vendors",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "Commissions may contract vendors and hire staff for mapping and data analysis, and every state must procure technical expertise, creating work for mapping and demography specialists. The bill requires disclosure of vendors' political spending and bars those with conflicts, limiting the scope of that gain.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "trajectory": "With a referral-only record, no Republican support, and a Judiciary Committee that has taken no action, this bill will almost certainly die in committee at the end of the 119th Congress. Its realistic path to influence is as a template: the detailed commission structure and fairness metrics it lays out could reappear in a future Congress under different majorities, or in state-level ballot measures.",
+  "trajectory": "The Congress is still in session, but the bill's prospects are poor: it sits in the House Judiciary Committee with no action since referral, no Republican cosponsors, and a committee majority controlled by the opposing party. Legislation of this kind typically dies quietly in committee unless leadership elevates it.",
   "categories": [
-   "corruption_and_ethics",
-   "voting_and_democracy"
+   "voting_and_democracy",
+   "corruption_and_ethics"
   ],
   "scores": {
-   "public_stakes": 6,
-   "concentrated_stakes": 8,
+   "public_stakes": 7,
+   "concentrated_stakes": 9,
    "outcome_against_public": 6,
-   "support_mismatch": 5,
-   "corruption_relevance": 8,
-   "confidence": 0.9
+   "support_mismatch": 6,
+   "corruption_relevance": 6,
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

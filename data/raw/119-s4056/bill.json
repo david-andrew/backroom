@@ -1,0 +1,66 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/4056/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4056/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/119/s/4056/cosponsors?format=json"
+  },
+  "introducedDate": "2026-03-11",
+  "latestAction": {
+   "actionDate": "2026-03-11",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text: CR S1011-1015)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4056",
+  "number": "4056",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Education"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000563",
+    "firstName": "Richard",
+    "fullName": "Sen. Durbin, Richard J. [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Durbin",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000563?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4056/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4056/text?format=json"
+  },
+  "title": "Proprietary Education Oversight Task Force Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/4056/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-04-01T15:47:44Z",
+  "updateDateIncludingText": "2026-04-01T15:47:44Z"
+ },
+ "request": {
+  "billNumber": "4056",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

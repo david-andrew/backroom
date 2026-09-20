@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/51/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/51/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 43,
+   "countIncludingWithdrawnCosponsors": 43,
+   "url": "https://api.congress.gov/v3/bill/119/s/51/cosponsors?format=json"
+  },
+  "introducedDate": "2025-01-09",
+  "latestAction": {
+   "actionDate": "2025-01-09",
+   "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/51",
+  "number": "51",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/51/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000128",
+    "firstName": "Chris",
+    "fullName": "Sen. Van Hollen, Chris [D-MD]",
+    "isByRequest": "N",
+    "lastName": "Van Hollen",
+    "party": "D",
+    "state": "MD",
+    "url": "https://api.congress.gov/v3/member/V000128?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/119/s/51/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/51/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/51/text?format=json"
+  },
+  "title": "Washington, D.C. Admission Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/51/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-05-27T19:49:33Z",
+  "updateDateIncludingText": "2025-05-27T19:49:33Z"
+ },
+ "request": {
+  "billNumber": "51",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

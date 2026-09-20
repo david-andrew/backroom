@@ -1,81 +1,100 @@
 {
  "bill_id": "119-hr6171",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:08:44+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:31:04+00:00",
  "record_fetched_at": "2026-09-20T08:11:10+00:00",
  "record_hash": "cc41d50b58a90e06",
  "analysis": {
-  "one_liner": "Caps yearly out-of-pocket prescription drug costs at $2,000 in ACA marketplace plans.",
-  "headline": "A single House member introduced a bill to cap annual out-of-pocket drug costs at $2,000 for people in ACA marketplace plans; it sits in committee with zero cosponsors and no vote scheduled.",
+  "one_liner": "Caps out-of-pocket prescription drug costs at $2,000 a year in ACA marketplace plans.",
+  "headline": "A single House Democrat introduced the bill with no cosponsors; it was referred to the Energy and Commerce Committee and has seen no action since.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would amend the Affordable Care Act so that people buying health plans on the ACA marketplaces could pay no more than $2,000 a year out of their own pockets for prescription drugs ($4,000 for family coverage), starting in 2027, with the cap rising with medical costs after that. It borrows an idea Congress already applied to Medicare drug plans, where a $2,000 drug cost cap took effect in 2025, and extends the same kind of protection to marketplace coverage. Today, marketplace plans can require patients to pay thousands of dollars toward expensive drugs before their overall out-of-pocket maximum is reached.",
-  "who_benefits": "Marketplace plan enrollees who take expensive prescription drugs — especially people on costly specialty drugs for cancer, multiple sclerosis, HIV, or autoimmune conditions — who would stop paying for those drugs once they hit $2,000 in a year.",
-  "who_benefits_short": "Marketplace enrollees on expensive drugs",
+  "plain_summary": "The bill would change the Affordable Care Act to put a hard annual limit on what people pay out of pocket for prescription drugs in plans bought on the ACA marketplaces: $2,000 a year for an individual, twice that for a family, starting in 2027 and rising with premiums afterward. Today those plans have an overall out-of-pocket maximum that can run several thousand dollars higher, and drug costs count toward it, so patients with expensive prescriptions can still owe a lot before the cap. This bill would make the drug limit much lower and separate.",
+  "who_benefits": "People who buy their health coverage through the ACA marketplaces and take expensive prescriptions. Under current law they can owe thousands of dollars in drug cost-sharing before hitting the plan's overall limit; this bill would cut that drug-specific exposure to $2,000 a year for an individual. Everyone with marketplace coverage benefits indirectly if fewer people abandon prescriptions they cannot afford, which can prevent costlier medical crises later.",
+  "who_benefits_short": "Marketplace enrollees with costly prescriptions",
   "how_it_helps": [
    {
-    "text": "Caps annual prescription drug cost-sharing at $2,000 for self-only marketplace coverage and $4,000 for other coverage, for plan years starting in 2027, with the cap indexed to rise with the premium adjustment percentage in later years [S2].",
+    "text": "The bill writes a drug-specific cost-sharing ceiling into the ACA: annual out-of-pocket spending on prescription drugs cannot exceed $2,000 for self-only coverage beginning in plan year 2027, and twice that ($4,000) for other coverage tiers [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Once an enrollee has paid $2,000 toward drugs, the plan must cover prescription drug benefits without further cost-sharing counting against them, under the bill's conforming amendments to the ACA and the Public Health Service Act [S2].",
+    "text": "The $2,000 cap rises each year after 2027 by the ACA's premium adjustment percentage, rounded down to the nearest $50, so the protection is permanent rather than a one-year fix [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The bill also amends the ACA's preventive-services and essential-health-benefits provisions so plans must honor the new drug limit as part of required cost-sharing rules [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Health insurers offering marketplace plans would absorb the drug costs above the cap, and would likely shift much of that added cost into premiums paid by all marketplace enrollees. Brand-name drug makers keep selling at current prices, now with fewer patients priced out.",
-  "who_pays_short": "Marketplace insurers and all enrollees' premiums",
+  "who_pays": "Health insurers offering marketplace plans would owe the difference whenever a patient's drug cost-sharing would otherwise exceed $2,000, and they would likely pass part of that cost back to all enrollees through higher premiums. Brand-name drug makers would not pay anything under the bill; the prices of their drugs are untouched, so the money simply moves from patients to insurers rather than shrinking. People with employer plans, Medicare, or Medicaid get no direct benefit from this bill.",
+  "who_pays_short": "Marketplace insurers, through premium costs",
   "drawbacks": [
    {
-    "text": "A targeted cap raises plans' costs, and insurers generally offset that by raising premiums for everyone in the marketplace, so enrollees who take no drugs would pay more through premiums — a standard trade-off of any benefit mandate [S2].",
+    "text": "The bill does not lower the underlying price of any drug; it only shifts who pays. If insurers absorb more drug cost-sharing, they can raise premiums for everyone with marketplace coverage, so some people who use few or no prescriptions would pay more [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The cap applies only to ACA marketplace plans; people with employer coverage, Medicare beneficiaries (who already have a $2,000 drug cap under a separate law), and the uninsured get nothing from this bill.",
+    "text": "It covers only ACA marketplace plans. People with employer-sponsored insurance, Medicare, or Medicaid get no new protection, so a large share of Americans with high drug costs is left out [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "A separate drug cap can make the total burden confusing: patients would still owe other medical cost-sharing up to the plan's overall out-of-pocket maximum, on top of what they pay toward premiums [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit is real and targeted: no one on a marketplace plan should be paying many thousands of dollars a year just to stay on their medication, and a hard $2,000 cap delivers that. The honest cost is that the burden moves rather than disappears — insurers pay more, and premiums for all marketplace shoppers likely rise to cover it, which hits middle-income enrollees who get little or no subsidy. Whether the trade is worth it depends on how large that premium spread ends up being.",
+  "benefit_vs_cost": "For marketplace enrollees with serious prescription needs, the benefit is real and large: a guaranteed $2,000 ceiling instead of a bill that can run several times that. The cost is diffuse — somewhat higher premiums spread across all marketplace customers — and the bill leaves drug prices themselves untouched, so it treats a symptom rather than the cause. It is also narrow: it helps only the marketplace population, not people with employer or Medicare coverage who face the same problem. On balance it is a genuine but partial fix.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced and referred to the House Energy and Commerce Committee, where it has sat with no cosponsors, no hearing, and no vote.",
+   "mechanism": "The bill was introduced and sent to the House Energy and Commerce Committee, where it has sat with no cosponsors and no scheduled action since day one.",
    "narrative": [
     {
-     "text": "Rep. Jake Auchincloss introduced the bill on November 20, 2025 [S1].",
+     "text": "Rep. Jake Auchincloss (D-MA) introduced the bill on November 20, 2025 [S1][S4].",
      "sources": [
-      "S1"
+      "S1",
+      "S4"
      ]
     },
     {
-     "text": "The same day, it was referred to the House Committee on Energy and Commerce, and no further action has been taken since [S4].",
+     "text": "It was referred the same day to the House Committee on Energy and Commerce, which holds jurisdiction over ACA market regulation [S4].",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "No other member has cosponsored the bill [S3].",
+     "text": "No other member of the House has cosponsored the bill — the cosponsor count is zero [S3].",
      "sources": [
       "S3"
      ]
+    },
+    {
+     "text": "The committee has taken no further action: no markup, no vote, and no floor consideration appear in the action history [S4].",
+     "sources": [
+      "S4"
+     ]
     }
    ],
-   "who_came_out_ahead": "No outcome yet — the bill is parked in committee. Marketplace patients on costly drugs are still paying full drug cost-sharing, and insurers and drug makers face no change."
+   "who_came_out_ahead": "So far the outcome is simply the status quo. Insurers and drug makers keep the existing cost-sharing structure — patients with expensive prescriptions can still owe thousands out of pocket — because the bill has not moved an inch."
   },
-  "who_came_out_ahead_short": "No one yet; bill is parked in committee",
+  "who_came_out_ahead_short": "Status quo; insurers and drug makers unaffected so far",
   "sides": {
    "for": [
     {
      "name": "Rep. Jake Auchincloss",
-     "role": "Sponsor",
+     "role": "Sponsor, H.R. 6171",
      "party": "D",
-     "what_they_did": "Introduced the bill and referred it to the Energy and Commerce Committee",
+     "what_they_did": "Introduced the bill on November 20, 2025",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -84,16 +103,28 @@
      ]
     }
    ],
-   "against": [],
+   "against": [
+    {
+     "name": "House Energy and Commerce Committee",
+     "role": "Committee of referral, chaired by Rep. Brett Guthrie (R-KY)",
+     "party": null,
+     "what_they_did": "Has taken no action on the bill since it was referred — no markup, no vote, no scheduling",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
    "party_line": "unclear",
-   "party_line_note": "There is no vote or cosponsor record yet — the bill has a single Democratic sponsor and no cosponsors from either party [S3]."
+   "party_line_note": "No party-line split is visible because the bill has exactly one sponsor, a House Democrat, and zero cosponsors from either party [S3]."
   },
   "industries": [
    {
-    "industry": "Health insurers offering ACA marketplace plans",
+    "industry": "Health insurers selling ACA marketplace plans",
     "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "The bill forces them to cover drug costs above $2,000 per patient, a direct hit to their cost structure; they can recoup it by raising premiums for all enrollees. Their financial interest runs against the cap, though the added cost ultimately flows back to the same patients the bill helps.",
+    "note": "Insurers would owe the gap between actual drug cost-sharing and the $2,000 cap, but can recoup it through premiums on all marketplace customers. Patients with big prescriptions win; enrollees who use no drugs may pay more.",
     "sources": [
      "S2"
     ]
@@ -101,23 +132,31 @@
    {
     "industry": "Brand-name drug makers",
     "effect": "gains",
-    "stance_toward_public": "opposed",
-    "note": "The bill does nothing to lower drug list prices; it only shifts who pays. Patients who currently skip or ration expensive prescriptions because of cost-sharing would be able to fill them, at the insurer's expense — more volume at today's prices. Cheaper access for patients, but the underlying prices stay high.",
+    "stance_toward_public": "mixed",
+    "note": "The bill leaves drug list prices untouched, so manufacturers keep full revenue while insurers and patients' premiums cover more of the bill. Cheaper prescriptions may also mean more filled prescriptions and more volume.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Pharmacy benefit managers",
+    "effect": "gains",
+    "stance_toward_public": "mixed",
+    "note": "The bill regulates only patient cost-sharing, not rebate or pricing practices, so PBMs' role in setting effective drug costs is unchanged and their negotiating leverage stays intact.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "This is a one-sponsor bill with no cosponsors, referred to a committee that has not acted on it. The overwhelming pattern for private members' health bills at this stage is that they never get a hearing or a floor vote. It could gain traction only if it attracts cosponsors and leadership decides to move it, which is unlikely this session unless drug pricing becomes a priority.",
+  "trajectory": "With a single sponsor, zero cosponsors, and referral to a committee run by the opposing party, the bill is unlikely to receive a markup or a floor vote this Congress. Most bills in this position die quietly at the end of the session; movement would require either attracting cosponsors across the aisle or leadership deciding to prioritize it.",
   "categories": [
-   "healthcare_and_drug_prices",
-   "consumer_protection_and_finance"
+   "healthcare_and_drug_prices"
   ],
   "scores": {
-   "public_stakes": 6,
-   "concentrated_stakes": 6,
+   "public_stakes": 5,
+   "concentrated_stakes": 5,
    "outcome_against_public": 3,
-   "support_mismatch": 2,
+   "support_mismatch": 1,
    "corruption_relevance": 1,
    "confidence": 0.85
   }

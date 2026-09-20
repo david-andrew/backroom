@@ -1,123 +1,120 @@
 {
  "bill_id": "119-hr4299",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:40:45+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:10:27+00:00",
  "record_fetched_at": "2026-09-20T14:31:17+00:00",
  "record_hash": "7fa9ba06e48a16d7",
  "analysis": {
-  "one_liner": "Keeps Medicare paying doctors the old drug prices while drugmakers rebate the difference from negotiated prices.",
-  "headline": "Introduced in July 2025 with 46 cosponsors from both parties, the bill has sat in two House committees without a hearing or a vote.",
+  "one_liner": "Keeps Medicare paying market-based rates for doctor-administered drugs while drugmakers rebate the negotiated-price difference.",
+  "headline": "Introduced in July 2025 with 46 bipartisan cosponsors, the bill was referred to two House committees and has received no hearing, markup, or vote.",
   "direction": "mixed",
-  "plain_summary": "Under current law, once Medicare negotiates a lower \"maximum fair price\" for a Part B drug (a drug given in a doctor's office, like many cancer therapies), Medicare pays the doctor the negotiated price plus 6%, which cuts into the margin community cancer clinics earn on drugs they buy. This bill flips that around: Medicare would keep paying doctors the old, higher average-sales-price payment, patients' 20% coinsurance would be figured off the lower negotiated price, and drug manufacturers would send Medicare a quarterly rebate equal to the difference. The rebates go back into the Medicare trust fund.",
-  "who_benefits": "Medicare beneficiaries who receive expensive Part B drugs, especially cancer therapies, would pay less out of pocket, since their 20% coinsurance would be based on the negotiated price rather than the higher average sales price. Community oncology practices and other providers who \"buy and bill\" these drugs would keep the 6% add-on on the higher price, protecting revenue that current law would shrink.",
-  "who_benefits_short": "Medicare cancer patients and oncology practices",
+  "plain_summary": "Under the 2022 drug-price negotiation law, drugmakers must eventually charge Medicare the negotiated \"maximum fair price\" for selected drugs that doctors administer, like chemotherapy. This bill keeps Medicare paying doctors at the current market-based rate (average sales price plus 6%) and instead makes manufacturers pay a quarterly rebate equal to the gap between that market rate and the negotiated price, with the rebate money going back into Medicare's Part B trust fund. It also sets patients' coinsurance off the negotiated price rather than the higher market price. The patient-facing pieces largely secure savings the negotiated-price system was already set to deliver, while the structural change preserves existing payment margins for prescribers and lets manufacturers satisfy the negotiated price through rebates instead of selling at that price directly.",
+  "who_benefits": "Medicare beneficiaries getting selected doctor-administered drugs, whose coinsurance would be calculated from the negotiated maximum fair price rather than the higher average sales price. Community oncology practices and hospitals that \"buy and bill\" these drugs also benefit, because payment stays at average sales price plus 6% instead of shifting to the negotiated price. Manufacturers benefit from a compliance method that leaves list prices and the existing distribution system intact.",
+  "who_benefits_short": "Medicare patients on costly infused drugs",
   "how_it_helps": [
    {
-    "text": "Sets beneficiaries' coinsurance for affected negotiated drugs at 20% of a payment amount based on the negotiated maximum fair price, instead of 20% of the higher average-sales-price amount.",
+    "text": "Sets beneficiaries' coinsurance for selected Part B drugs at 20% of a negotiated-price-based amount (MFP+6) rather than 20% of the higher market-based payment, which matters for drugs that can cost thousands of dollars per dose.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Restores Medicare payment for selected negotiated drugs to 106% of average sales price, the same payment doctors get for drugs that are not subject to negotiation.",
+    "text": "Requires manufacturers to pay a quarterly rebate equal to the gap between the market-based payment and the negotiated price, deposited into the Medicare Part B Supplementary Medical Insurance trust fund, so Medicare recoups the negotiated savings.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires manufacturers to pay quarterly rebates equal to the difference between the old and negotiated payment amounts, with the money deposited into the Medicare Supplementary Medical Insurance Trust Fund, so the negotiated savings are not lost.",
+    "text": "Maintains Part B payment at average sales price plus 6% for selected drugs, so oncology practices and hospitals that buy and administer these drugs keep their current reimbursement structure.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Applies the same civil money penalties used elsewhere in the negotiated-price program to manufacturers that fail to pay the rebates.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Drug manufacturers pay the quarterly rebates, which under the bill's design roughly leave them at the negotiated price they would receive under current law; taxpayers are held harmless because rebates are deposited into the Medicare trust fund. The main costs are administrative: HHS must report quarterly unit and payment data and manufacturers must calculate and return rebates.",
-  "who_pays_short": "Drug makers, via quarterly rebates",
+  "who_pays": "Manufacturers of selected drugs pay quarterly rebates equal to the difference between market-based and negotiated prices. The cost shows up indirectly in continued high list prices, which other payers and discount programs use as reference points. Taxpayers and beneficiaries are largely held harmless because rebates return the difference to Medicare.",
+  "who_pays_short": "Drugmakers, through quarterly rebates",
   "drawbacks": [
    {
-    "text": "The bill adds a new quarterly rebate machinery — Secretary reporting, manufacturer calculations, 30-day deadlines, and civil money penalties — where current law simply pays the negotiated price directly.",
+    "text": "The bill states that nothing requires a manufacturer to actually provide selected drugs at the negotiated maximum fair price other than through the rebate, so manufacturers would keep charging high market prices in the channel while paying the difference back separately — leaving the high prices intact as reference points for Medicaid, 340B discounts, and commercial negotiations.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It keeps payment anchored to the higher average sales price, so the negotiated lower price reaches Medicare only through after-the-fact rebates rather than becoming the actual market price.",
+    "text": "It replaces a direct lower price with a quarterly reporting-and-rebate bureaucracy: the Secretary must report quarterly unit and payment data, and manufacturers must rebate within 30 days, adding administrative machinery that wouldn't exist if the negotiated price were simply charged.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It preserves the 6% provider markup on the higher average sales price, a payment structure that rewards buying more expensive drugs; the savings to patients are limited to their coinsurance share.",
+    "text": "It preserves a 6% add-on to payment for prescribers and excludes the new rebates from the average sales price calculation, keeping payment tied to higher list-based prices; an honest supporter would acknowledge this favors prescriber economics over a leaner pay-the-negotiated-price approach.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The patient coinsurance relief largely replicates what the negotiated-price regime was already structured to deliver, so the bill's main substantive change is the rebate-based implementation, not a new patient benefit.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "For patients the bill is a real but modest win: lower coinsurance on some of the most expensive drugs in medicine. For providers it is a significant revenue protection. The cost is design, not money: instead of letting the negotiated price become the price of the drug, it maintains the higher benchmark and claws back the difference through rebates, which is more complex and leaves the 6% markup incentive intact.",
+  "benefit_vs_cost": "The genuine patient benefit — coinsurance computed from the negotiated price — is real for people on expensive infused drugs, but it largely matches what the negotiated-price system already provides, so the bill's true weight is structural: it re-implements negotiated prices through rebates, preserving buy-and-bill margins for prescribers and high list prices for manufacturers while Medicare still recoups the savings. It neither undoes the negotiation nor delivers clearly more for patients than current law; it is best read as an industry- and provider-friendly alternative implementation with a patient-access frame.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was referred to two House committees on the day it was introduced and has had no hearing, markup, or vote since.",
+   "mechanism": "The bill was introduced in July 2025 and referred to the Energy and Commerce and Ways and Means committees, where it has sat with no hearing, markup, or floor action.",
    "narrative": [
     {
-     "text": "Rep. Greg Murphy introduced the bill on July 7, 2025, joined by Reps. Adam Gray and Neal Dunn as original cosponsors.",
+     "text": "Rep. Gregory Murphy introduced the bill on July 7, 2025, joined by Rep. Gray and Rep. Dunn of Florida as original cosponsors.",
      "sources": [
       "S2",
       "S4"
      ]
     },
     {
-     "text": "It was referred the same day to the Energy and Commerce Committee and the Ways and Means Committee, the standard path for Medicare drug-payment legislation, which splits jurisdiction between them.",
+     "text": "It was referred to both the Energy and Commerce Committee and the Ways and Means Committee, and no further action has been taken since.",
      "sources": [
-      "S4"
+      "S4",
+      "S1"
      ]
     },
     {
-     "text": "The only actions on record since are the introduction and the dual committee referral; no hearing, markup, or floor vote has been scheduled.",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "The bill has 46 additional cosponsors, 33 Republicans and 13 Democrats.",
+     "text": "It has attracted 46 cosponsors, 33 Republicans and 13 Democrats.",
      "sources": [
       "S3"
      ]
     }
    ],
-   "who_came_out_ahead": "No one has won or lost yet: current law remains in place, meaning Medicare keeps negotiating lower prices and paying them directly while provider margins on those drugs shrink as negotiated prices phase in. Because the bill sits without action, neither patients nor providers nor manufacturers have seen anything change."
+   "who_came_out_ahead": "No one yet. The bill has not moved, so the negotiated-price rules as enacted remain in force unchanged, and prescribers and manufacturers keep the current-law implementation for now."
   },
-  "who_came_out_ahead_short": "Status quo continues; nothing has changed",
+  "who_came_out_ahead_short": "No one yet; nothing has moved",
   "sides": {
    "for": [
     {
-     "name": "Rep. Greg Murphy",
-     "role": "Sponsor, House Ways and Means member",
+     "name": "Rep. Gregory Murphy",
+     "role": "House sponsor (R-NC), physician",
      "party": "R",
-     "what_they_did": "Introduced the bill to preserve average-sales-price-based Medicare payment for negotiated Part B drugs and shift the negotiated savings into manufacturer rebates.",
+     "what_they_did": "Introduced the bill and recruited 46 cosponsors across both parties.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2"
-     ]
-    },
-    {
-     "name": "Reps. Adam Gray and Neal Dunn",
-     "role": "Original cosponsors",
-     "party": "D and R",
-     "what_they_did": "Joined the bill at introduction, giving it a bipartisan launch.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S2"
+      "S2",
+      "S3"
      ]
     },
     {
      "name": "46 House cosponsors",
-     "role": "Cosponsor bloc (33 R, 13 D)",
+     "role": "Cosponsors (33 Republicans, 13 Democrats)",
      "party": null,
-     "what_they_did": "Signed on to the bill after introduction.",
+     "what_they_did": "Cosponsored the bill, giving it bipartisan support on paper.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -125,73 +122,41 @@
      ]
     }
    ],
-   "against": [
-    {
-     "name": "House Energy and Commerce Committee",
-     "role": "Committee of referral",
-     "party": null,
-     "what_they_did": "Has not scheduled a hearing or markup on the bill since its July 2025 referral.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "name": "House Ways and Means Committee",
-     "role": "Committee of referral",
-     "party": null,
-     "what_they_did": "Has not scheduled a hearing or markup on the bill since its July 2025 referral.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
-    }
-   ],
+   "against": [],
    "party_line": "bipartisan",
-   "party_line_note": "Support crosses party lines: the Republican sponsor picked up 33 Republican and 13 Democratic cosponsors, with a Democrat among the three original cosponsors, and no recorded opposition."
+   "party_line_note": "The 46 cosponsors split 33 Republicans and 13 Democrats, and no vote or recorded opposition exists yet — the bill has simply not moved in committee."
   },
   "industries": [
    {
-    "industry": "Community oncology practices and other Part B drug providers",
+    "industry": "Community oncology practices and hospitals that bill Medicare for doctor-administered drugs",
     "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "They keep the 6% add-on on the higher average sales price for negotiated drugs, revenue current law would shrink as negotiated prices phase in. Patients also come out ahead on coinsurance, so the provider interest and the patient interest point the same way in this bill.",
+    "stance_toward_public": "mixed",
+    "note": "The bill keeps their payment at average sales price plus 6% instead of shifting to the negotiated price, preserving buy-and-bill reimbursement on higher market-based amounts. Patients in their chairs get coinsurance relief, so the provider gain and the patient benefit sit side by side in this bill.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Brand-name drug makers",
+    "industry": "Brand-name drugmakers of selected Part B drugs (cancer therapies and biologics)",
     "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "Net revenue is roughly unchanged — the rebate claws back the difference between the old and negotiated prices — but they avoid selling at the negotiated price directly, and the market benchmark stays at the higher average sales price. They bear the rebate compliance burden.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Medicare (taxpayers and the Part B trust fund)",
-    "effect": "mixed",
-    "stance_toward_public": "aligned",
-    "note": "Rebates are deposited into the trust fund, so the negotiated savings continue to flow to Medicare, offsetting the higher provider payments.",
+    "note": "They must pay quarterly rebates equal to the negotiated-price gap, so their net revenue on Medicare sales is similar to selling at the negotiated price, but the text says they never have to actually sell at that price — leaving high list prices intact as the reference point for Medicaid, 340B, and commercial bargaining.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "With no action in either committee for months and jurisdiction split between two committees, the bill is unlikely to move on its own; most referred bills never get a vote. Its realistic path is being folded into a broader Medicare package if provider groups keep pressing the issue, or expiring at the end of this Congress.",
+  "trajectory": "Most bills referred to two committees without a hearing stall for the Congress. This one has bipartisan cosponsors but no committee action so far; its realistic path is staying dormant unless its provisions are folded into a broader Medicare or health package later in the session.",
   "categories": [
    "healthcare_and_drug_prices"
   ],
   "scores": {
    "public_stakes": 4,
    "concentrated_stakes": 6,
-   "outcome_against_public": 3,
+   "outcome_against_public": 1,
    "support_mismatch": 4,
    "corruption_relevance": 1,
-   "confidence": 0.85
+   "confidence": 0.65
   }
  },
  "unresolved_citations": []

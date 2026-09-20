@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/1337/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1337/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1337/cosponsors?format=json"
+  },
+  "introducedDate": "2023-04-27",
+  "latestAction": {
+   "actionDate": "2023-04-27",
+   "text": "Read twice and referred to the Committee on Finance. (text: CR S1420-1421)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/1337",
+  "number": "1337",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000250",
+    "firstName": "John",
+    "fullName": "Sen. Thune, John [R-SD]",
+    "isByRequest": "N",
+    "lastName": "Thune",
+    "party": "R",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/T000250?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1337/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1337/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1337/text?format=json"
+  },
+  "title": "Increase Reliable Services Now Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/1337/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2024-07-24T15:22:30Z",
+  "updateDateIncludingText": "2024-07-24T15:22:30Z"
+ },
+ "request": {
+  "billNumber": "1337",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

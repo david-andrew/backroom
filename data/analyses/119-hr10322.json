@@ -1,125 +1,112 @@
 {
  "bill_id": "119-hr10322",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:14:49+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T19:41:00+00:00",
  "record_fetched_at": "2026-09-20T08:13:50+00:00",
  "record_hash": "a9fdb931ec54149e",
  "analysis": {
-  "one_liner": "Requires data centers and other giant power users to pay the full cost of the grid upgrades built for them.",
-  "headline": "The Data Center Fair Share Act was introduced in September 2026 with zero cosponsors and referred to two House committees; no hearing, vote, or further action has followed.",
+  "one_liner": "Makes giant data centers pay the full cost of the grid upgrades built to serve them, with states losing federal highway money if they don't comply.",
+  "headline": "The bill, introduced with no cosponsors on September 8, 2026, was referred to two House committees and has received no action since.",
   "direction": "for_working_people",
-  "plain_summary": "When a data center needs 100 megawatts or more of electricity, utilities typically build new power plants and transmission lines for it, and the costs get spread across all customers on the electric bill. This bill would change federal utility law so those large customers pay the full cost of the upgrades made just for them, even if they later cancel their contract. States would have to consider and adopt this rule, and any state that did not would lose 100% of its federal highway money.",
-  "who_benefits": "Residential and small-business electricity customers, especially in states like Virginia where data centers are driving up demand for new power plants and transmission lines. Today, utilities recover the cost of those upgrades from everyone's bill; the bill would make the data centers that cause the cost pay it directly, and would keep charging them even if they shut down and leave the upgrades behind.",
-  "who_benefits_short": "Household and small-business electricity ratepayers",
+  "plain_summary": "The bill would require electric utilities to charge very large electricity customers — any facility or campus drawing 100 megawatts or more, typically data centers — the full, incremental cost of the generation, transmission, and distribution upgrades needed to serve them, even if the customer later cancels its contract. Before building such upgrades, utilities would have to make the large customer or its class pay the full cost. States that fail to adopt these standards would lose 100% of their federal highway funding. The goal is to prevent ordinary households and small businesses from subsidizing the massive power demands of data centers through their electric bills.",
+  "who_benefits": "Ordinary electricity customers — households and small businesses — who today can be charged for part of the enormous grid upgrades built to serve data centers, and whose bills would no longer carry those costs. Utilities also gain a clearer legal basis to bill large customers for the dedicated infrastructure they require.",
+  "who_benefits_short": "Household and small-business electricity customers",
   "how_it_helps": [
    {
-    "text": "Requires electric rates for large-load customers (non-residential customers with 100 megawatts or more of peak demand at a single site or campus) to recover the full, incremental costs of any generation, transmission, or distribution upgrade needed to serve them [S2].",
+    "text": "It requires electric rates for large-load customers (100 megawatts or more at one site) to recover the full incremental cost of any generation, transmission, or distribution upgrades needed to serve them, even if the customer later cancels its contract — so residents don't absorb those costs.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Keeps charging those costs to the large customer even if the customer terminates its contract or stops buying power, so ratepayers are not left paying for abandoned infrastructure [S2].",
+    "text": "Before a utility builds an upgrade to serve large data center load, the utility must either require the data center to cover the full cost upfront through a contribution in aid of construction, or assign the full costs to the class of large-load customers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires utilities, before building an upgrade for a large-load customer, to either get a contribution in aid of construction covering the full cost or assign the full cost to the class of large-load customers [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Directs every state regulator and nonregulated utility to open proceedings within one year and decide within two years whether to adopt the standard, and withholds 100% of a state's federal highway apportionment if it does not [S2].",
+    "text": "States that fail to adopt the standard lose 100% of their federal highway funding, giving states a strong reason to act.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Data center operators — including the cloud and AI companies behind them — would pay the full price of power infrastructure built for their facilities, instead of sharing it with everyone's electric bill. States that refuse to adopt the standard would forfeit their entire federal highway allotment, and some of the added cost to data centers could eventually show up in prices for cloud and AI services.",
-  "who_pays_short": "Data center operators; noncompliant states' highway funds",
+  "who_pays": "Large-load customers — mainly data center and cloud computing companies — who would pay the full upfront cost of the grid upgrades built for them, and states that might lose highway funds if they refuse to implement the standard.",
+  "who_pays_short": "Large data centers and cloud companies",
   "drawbacks": [
    {
-    "text": "The penalty is extreme: a state that does not adopt the standard loses 100% of its federal highway apportionment, not a partial share, which gives states essentially no middle ground and could pull federal road money away from residents over a utility-ratemaking dispute [S2].",
+    "text": "The enforcement mechanism withholds 100% of a state's federal highway apportionment if the state does not implement the standard — an extremely heavy penalty that could cut off road and bridge funding for a state's drivers over a utility-ratemaking dispute.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill sets a federal ratemaking mandate that overrides state utility commissions' traditional control over who pays for grid upgrades, and pre-exempts states that have already voted on a comparable standard [S2].",
+    "text": "Requiring large-load customers to prepay the full cost of grid upgrades could discourage some data center or manufacturing investment in a state, a cost supporters would have to acknowledge.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Higher, more certain costs for data centers could slow data center construction in some states, and some of those costs would likely be passed through to customers of cloud and AI services in the form of higher prices — general knowledge about cost pass-through, not stated in the bill text.",
+    "text": "The bill preempts state utility regulators' traditional control over how rates are set, imposing a uniform federal formula on matters states have historically decided.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core idea — making the customers who cause expensive grid upgrades pay for them rather than spreading the cost across household bills — is straightforward ratepayer protection, and the stranded-cost provision guards against data centers that build, then leave. The weakness is the enforcement tool: threatening to strip a state of its entire federal highway funding over a utility rule is a sledgehammer that could hurt the very residents the bill claims to protect, and the cost shift to data centers will partly resurface in prices for digital services. On balance the consumer benefit outweighs those costs, but the highway-fund provision is badly proportioned.",
+  "benefit_vs_cost": "The core idea is well-targeted: making hyperscale facilities pay the incremental grid costs they cause protects other ratepayers and follows standard cost-causation principles. But the enforcement tool is badly mismatched — conditioning 100% of a state's federal highway money on its utilities adopting one federal ratemaking standard is an extreme lever that could defund road maintenance over a utility-billing rule, and in states that refuse, data centers might instead bear contract terms shaped under the threat of losing federal funds. The ratepayer-protection goal is sound; the mechanism is blunt and raises real costs of its own.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was referred to two House committees on the day it was introduced and has sat there since, with no cosponsors, hearing, markup, or vote.",
+   "mechanism": "The bill was introduced and sent to two House committees, where it has sat with no cosponsors and no action taken.",
    "narrative": [
     {
-     "text": "Rep. Suhas Subramanyam (D-VA) introduced the bill on September 8, 2026 [S1] [S4].",
+     "text": "The bill was introduced on September 8, 2026, and referred to the Energy and Commerce Committee and the Transportation and Infrastructure Committee.",
      "sources": [
-      "S1",
-      "S4"
+      "S4",
+      "S1"
      ]
     },
     {
-     "text": "The same day, it was referred to the Energy and Commerce Committee and the Transportation and Infrastructure Committee, with the Speaker to determine how the bill would be divided between them [S4].",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "No cosponsors have signed on [S3].",
+     "text": "It has zero cosponsors.",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "No further action — no hearing, markup, committee vote, or floor action — appears in the action history [S4].",
+     "text": "No further action has been taken since the referrals; no hearings, markups, or floor votes are in the record.",
      "sources": [
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, nobody has lost anything and nothing has changed: the status quo continues, which favors data center operators, who keep adding electricity demand under existing rate rules that spread upgrade costs across all customers."
+   "who_came_out_ahead": "Large data center operators are better off for now: no federal rule requires them to pay the full cost of the grid upgrades built for them, and state highway funding is untouched."
   },
-  "who_came_out_ahead_short": "Status quo — data centers under current rate rules",
+  "who_came_out_ahead_short": "Data center operators avoiding new cost rules",
   "sides": {
    "for": [
     {
      "name": "Rep. Suhas Subramanyam",
-     "role": "U.S. Representative (VA), bill sponsor",
+     "role": "U.S. Representative (D-VA)",
      "party": "D",
-     "what_they_did": "Introduced the Data Center Fair Share Act and referred it to Energy and Commerce and Transportation and Infrastructure.",
+     "what_they_did": "Introduced the bill on September 8, 2026, representing a Northern Virginia district dense with data centers.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2",
       "S4"
      ]
     }
    ],
    "against": [],
    "party_line": "unclear",
-   "party_line_note": "No votes have occurred and no members beyond the sponsor have taken a position, so no partisan split is visible yet."
+   "party_line_note": "The bill has a single Democratic sponsor and no cosponsors of either party, so no pattern of support or opposition has emerged yet."
   },
   "industries": [
    {
-    "industry": "Data centers and hyperscale cloud/AI companies",
+    "industry": "Data centers and cloud/AI computing companies",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "They would have to pay the full incremental cost of power plants and transmission lines built for their facilities, including stranded costs if they cancel — costs currently spread across everyone's electric bill. Their interest in the status quo runs directly against household ratepayers who absorb those costs today.",
+    "note": "They would have to pay the full, incremental cost of the grid upgrades built to serve them — upfront or through their rate class — instead of those costs being spread across all electric customers. This directly raises their cost of siting large facilities.",
     "sources": [
      "S2"
     ]
@@ -127,34 +114,35 @@
    {
     "industry": "Electric utilities",
     "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "Utilities would lose the option of recovering upgrade costs from the general rate base, but they would still build the infrastructure and collect the revenue — just billed to the large customer instead of everyone. Ratepayers currently footing data-center-driven upgrade costs would see their burden shift.",
+    "stance_toward_public": "aligned",
+    "note": "Utilities gain a clear federal basis to charge large customers for dedicated upgrades (reducing their risk of stranded assets), but lose flexibility to structure deals that spread costs broadly. Ordinary ratepayers are the intended beneficiary.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "State governments and highway programs",
-    "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "States that adopt a comparable standard are spared; states that do not lose 100% of federal highway apportionments, which forces a choice between a utility rule and road funding for their residents.",
+    "industry": "State and local highway programs (in non-complying states)",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "States that do not adopt the standard lose 100% of their federal highway apportionment, putting road and bridge funding at risk — a cost that would fall on drivers and construction contractors in those states.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "A first-term bill from a single sponsor with zero cosponsors, split between two committees, very rarely advances. Unless other members — including colleagues from data-center-heavy districts — sign on and the Energy and Commerce Committee schedules a hearing, the bill will likely expire at the end of this Congress without a vote.",
+  "trajectory": "The bill was referred to two committees and has attracted no cosponsors, no hearings, and no committee action in the record. Bills introduced this late in a Congress with no bipartisan sponsorship very rarely reach the floor; the realistic path is that it dies when the Congress ends in January 2027 unless it gains cosponsors or a data-center cost controversy forces a hearing.",
   "categories": [
+   "consumer_protection_and_finance",
    "environment_and_energy",
-   "consumer_protection_and_finance"
+   "other"
   ],
   "scores": {
-   "public_stakes": 7,
-   "concentrated_stakes": 8,
-   "outcome_against_public": 2,
-   "support_mismatch": 2,
+   "public_stakes": 6,
+   "concentrated_stakes": 9,
+   "outcome_against_public": 4,
+   "support_mismatch": 3,
    "corruption_relevance": 2,
-   "confidence": 0.85
+   "confidence": 0.8
   }
  },
  "unresolved_citations": []

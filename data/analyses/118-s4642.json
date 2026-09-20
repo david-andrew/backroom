@@ -1,82 +1,104 @@
 {
  "bill_id": "118-s4642",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T11:51:45+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T19:08:10+00:00",
  "record_fetched_at": "2026-09-20T11:09:48+00:00",
  "record_hash": "ceebccd821d690bd",
  "analysis": {
-  "one_liner": "Taxes large corporations 95% on profits above their pre-pandemic average through 2026.",
-  "headline": "The bill was introduced in July 2024, referred to the Senate Finance Committee, and never advanced; it died when the Congress ended in January 2025 without a hearing or a vote.",
+  "one_liner": "Taxes 95% of large corporations' profits above their pre-pandemic levels through 2026.",
+  "headline": "The bill never received a hearing, amendment, or vote; it died in the Senate Finance Committee with a single cosponsor.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would have created a new federal tax on \"excess profits\": if a large corporation (with at least $500 million in annual gross receipts) earned more than its inflation-adjusted average profit from 2015 through 2019, it would pay a 95% tax on the excess, capped at 75% of its modified taxable income, for tax years through 2026. It would also disallow several deductions large corporations currently use and expand the limits on deductible executive pay. The bill was referred to the Senate Finance Committee and never received a hearing, markup, or vote before the 118th Congress ended.",
-  "who_benefits": "Everyday taxpayers would benefit from the revenue the new tax would raise, since a 95% tax on corporate profits above pre-2020 levels would shift a portion of those windfalls back to the public instead of leaving them for shareholders and buybacks. It would also apply to foreign corporations' U.S.-connected income, closing a route that currently escapes the tax. Small and mid-sized businesses with under $500 million in receipts would be exempt entirely.",
-  "who_benefits_short": "Taxpayers and small businesses",
+  "plain_summary": "The bill would impose a 95% tax on the \"excess profits\" of corporations with at least $500 million in average annual gross receipts — meaning profits above what the company earned, adjusted for inflation, in 2015 through 2019. It would apply to tax years beginning after 2023 and expire after 2026. It also closes a few tax techniques large companies use, such as a deduction for offshore intangible income and a depreciation method that delays taxes, and it limits how much executive pay any company can deduct. The revenue would go to the Treasury; the bill does not dedicate it to any specific program.",
+  "who_benefits": "Ordinary taxpayers benefit in the general sense that revenue raised from large corporations flows to the Treasury, where it could reduce deficits or offset other taxes. The bill does not earmark the money for any program. The Framers' stated aim was to recapture profits companies earned by raising prices during and after the pandemic, so consumers who paid those higher prices would benefit if the tax deterred such pricing.",
+  "who_benefits_short": "General taxpayers via new federal revenue",
   "how_it_helps": [
    {
-    "text": "It imposes a 95% tax on corporate profits above each company's inflation-adjusted 2015-2019 average, recovering revenue from large corporations whose profits surged above their historical levels.",
+    "text": "It taxes 95% of a large corporation's profits above its inflation-adjusted 2015-2019 average, in addition to normal income tax, through 2026.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "text": "It narrows tax breaks those corporations currently use, including the deduction for foreign-derived intangible income and preferential depreciation rules, so their taxable income is measured more fully.",
+    "text": "It applies only to corporations averaging at least $500 million in annual gross receipts, measured with related companies treated as one, so mid-sized and small businesses are untouched.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "It broadens the tax base for covered companies by disallowing certain deductions (including for offshore intangible income and accelerated depreciation) and by limiting the tax deduction for pay to a wider set of highly paid executives, not just top officers.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Large corporations — roughly the biggest U.S. companies with $500 million or more in gross receipts — would pay the new tax on profits above their 2015-2019 average, and their shareholders would bear it through lower returns. Some cost could also pass to consumers through prices.",
+  "who_pays": "Large corporations and, through them, their shareholders. A company that earned far more in 2024-2026 than in its 2015-2019 baseline would pay up to 95% of that excess, capped at 75% of its modified taxable income for the year. Some of the cost could be passed to consumers through prices or absorbed in lower investment and returns.",
   "who_pays_short": "Large corporations and their shareholders",
   "drawbacks": [
    {
-    "text": "Profits above a 2015-2019 baseline can reflect legitimate growth or investment, not price gouging; the tax cannot distinguish between the two, and a 95% rate on that excess could discourage companies from expanding output or reporting income during the covered years.",
+    "text": "A 95% rate on profits above the baseline is close to confiscatory and could discourage companies from expanding output or investing in the United States during the covered years, since extra profit would be almost entirely taxed away.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The tax applies to all large C corporations with $500 million in receipts, not only those accused of price gouging, and the benchmark years (2015-2019) are fixed, so fast-growing firms in new industries would owe the tax even without raising prices.",
+    "text": "The baseline (inflation-adjusted average of 2015-2019 profits) may not reflect a company's current legitimate costs or market conditions, so some of what counts as 'excess' profit could be ordinary earnings today.",
     "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "The bill applies to tax years beginning after December 31, 2023, even though it was introduced in July 2024, meaning it would change tax liability retroactively for a year already underway.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "It exempts regulated investment companies, real estate investment trusts, and S corporations, which creates gaps where differently structured firms earning the same money would pay nothing under the new tax.",
+    "sources": [
+     "S2",
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The bill would claw back a large share of profits that big corporations earn above their pre-2020 levels, money that could otherwise go to shareholders or buybacks, and it broadens the tax base by denying several deductions. The strongest good-faith objection is that a 95% rate above a historical baseline is extremely steep: it could discourage expansion, and companies that legitimately grew because of real demand or innovation would pay as heavily as price-gougers, since the tax cannot tell the two apart. The cap at 75% of income and the 2026 sunset soften the stakes somewhat. Whether it is good policy depends heavily on how one weighs redistribution against those investment effects.",
+  "benefit_vs_cost": "The core idea — taxing windfall profits above a pre-pandemic baseline — is a real policy used in other countries and wartime America, and it targets the companies that posted record profits while prices rose. But this version is aggressive: a 95% rate over a 2015-2019 baseline is far steeper than comparable windfall taxes, the retroactive start date raises fairness concerns, and the carve-outs for REITs and S corporations invite reorganization to escape the tax. The bill also never says what the money is for. As drafted, the design weaknesses are significant even for a supporter of the concept.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The bill never advanced past its initial referral to the Senate Finance Committee, so it died without a vote when the Congress ended in January 2025.",
+   "mechanism": "The bill was referred to the Senate Finance Committee on the day it was introduced, and the committee never acted on it before the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Sanders and Markey introduced S. 4642 on July 9, 2024, and it was read twice and referred to the Senate Finance Committee the same day.",
+     "text": "Senator Bernie Sanders introduced the bill on July 9, 2024, with Senator Ed Markey as its sole cosponsor.",
      "sources": [
       "S1",
-      "S5"
+      "S3",
+      "S4"
      ]
     },
     {
-     "text": "No further action was ever taken: the bill sat in committee without a hearing, markup, or floor vote for the remainder of the 118th Congress.",
+     "text": "The bill's only action after introduction was being read twice and referred to the Committee on Finance; no hearing, markup, committee vote, or floor vote ever occurred.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "The bill had one cosponsor, Sen. Markey, and died when the 118th Congress ended on January 3, 2025.",
+     "text": "The 118th Congress ended on January 3, 2025, and bills that receive no further action die at the end of a Congress.",
      "sources": [
       "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Large corporations, whose windfall profits above pre-2020 levels remain untaxed by any federal excess-profits tax, are better off because the bill never advanced; no comparable tax was enacted in its place."
+   "who_came_out_ahead": "Large corporations with over $500 million in annual receipts and their shareholders are better off, because they will pay no excess-profits tax; the relatively small number of members who backed the bill gained attention but no policy change."
   },
-  "who_came_out_ahead_short": "Large corporations avoiding the excess-profits tax",
+  "who_came_out_ahead_short": "Large corporations and their shareholders",
   "sides": {
    "for": [
     {
      "name": "Sen. Bernie Sanders",
-     "role": "U.S. Senator (VT), bill sponsor",
+     "role": "U.S. Senator (I-VT), bill sponsor",
      "party": "I",
-     "what_they_did": "Introduced the Ending Corporate Greed Act to impose a 95% excess-profits tax on large corporations through 2026.",
+     "what_they_did": "Introduced the bill and spoke for it as its sponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -86,49 +108,70 @@
     },
     {
      "name": "Sen. Ed Markey",
-     "role": "U.S. Senator (MA), cosponsor",
+     "role": "U.S. Senator (D-MA), sole cosponsor",
      "party": "D",
-     "what_they_did": "Cosponsored the bill, its only cosponsor.",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S3",
       "S4"
      ]
     }
    ],
    "against": [
     {
-     "name": "Senate Finance Committee leadership",
-     "role": "Committee with jurisdiction",
+     "name": "Senate Finance Committee",
+     "role": "Committee of referral (Chair: Sen. Ron Wyden, D-OR)",
      "party": null,
-     "what_they_did": "The committee took no action on the bill after referral — no hearing, markup, or vote — which ended the bill's only path forward.",
+     "what_they_did": "Took no action on the bill after it was referred; no hearing or markup was ever scheduled, so it never reached the Senate floor.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "name": "Senate Republican caucus",
+     "role": "49 Senate Republicans",
+     "party": "R",
+     "what_they_did": "No Republican cosponsored the bill or moved it forward.",
      "direct": false,
      "evidence": "record",
      "sources": [
-      "S1",
-      "S5"
+      "S4"
      ]
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "The bill never reached a vote, so no roll-call record exists; it was sponsored by an independent senator with a single Democratic cosponsor."
+   "party_line_note": "No vote was ever taken, so no party split was recorded; the only support on paper came from an Independent sponsor and one Democratic cosponsor, with no Republican cosponsors."
   },
   "industries": [
    {
-    "industry": "Large C corporations with $500M+ in gross receipts",
+    "industry": "Large corporations (over $500M average annual gross receipts)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "They would owe a 95% surtax on profits above their pre-2020 inflation-adjusted average and would lose several deductions, sharply raising their tax bills while the tax is in effect.",
+    "note": "These companies would pay up to 95% of profits above their inflation-adjusted 2015-2019 average, on top of regular income tax, through 2026. Their interest in stopping the bill ran against taxpayers who would otherwise receive the revenue.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Corporate shareholders and executives",
-    "effect": "loses",
+    "industry": "REITs, regulated investment companies, and S corporations",
+    "effect": "gains",
     "stance_toward_public": "opposed",
-    "note": "Less profit flowing to shareholders and buybacks, and expanded executive pay rules; the bill's revenue would come out of returns to concentrated wealth.",
+    "note": "The bill exempts these structures entirely, so identical profits earned through them would escape the excess-profits tax paid by conventional corporations — an advantage for their investors that comes at the revenue's expense.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "industry": "Tax and accounting advisory industry",
+    "effect": "gains",
+    "stance_toward_public": "opposed",
+    "note": "A new 95% excess-profits tax with a five-year baseline would generate heavy demand for tax planning and structuring work. This effect was mooted because the bill never advanced.",
     "sources": [
      "S3"
     ]
@@ -142,8 +185,8 @@
   "scores": {
    "public_stakes": 6,
    "concentrated_stakes": 9,
-   "outcome_against_public": 6,
-   "support_mismatch": 4,
+   "outcome_against_public": 5,
+   "support_mismatch": 2,
    "corruption_relevance": 2,
    "confidence": 0.9
   }

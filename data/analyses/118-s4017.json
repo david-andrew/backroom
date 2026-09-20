@@ -1,117 +1,123 @@
 {
  "bill_id": "118-s4017",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T11:58:11+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:52:53+00:00",
  "record_fetched_at": "2026-09-20T11:19:16+00:00",
  "record_hash": "a9e173536a4dfb00",
  "analysis": {
-  "one_liner": "Taxes household wealth above $50 million at 2%, rising to 3% above $1 billion.",
-  "headline": "The bill was referred to the Senate Finance Committee on the day it was introduced in March 2024 and never received a hearing, a markup, or a vote before the Congress ended.",
+  "one_liner": "Taxes household wealth above $50 million at 2%, and above $1 billion at 3%",
+  "headline": "The bill never received a committee hearing or vote; it sat in the Senate Finance Committee until the 118th Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The Ultra-Millionaire Tax Act of 2024 would create a new annual tax on the net value of everything a household owns — stocks, businesses, real estate, trusts, art — above $50 million, at 2 percent, rising to 3 percent on wealth above $1 billion. It would add anti-avoidance rules for assets parked in foreign trusts, steep penalties for undervaluing assets, mandatory audits of at least 30 percent of those subject to the tax each year, and $100 billion in new IRS enforcement funding over a decade. It never left the Senate Finance Committee.",
-  "who_benefits": "Ordinary taxpayers benefit if the tax reduces the deficit or funds public spending without raising their own taxes. The roughly 100,000 households affected would pay; the bill would also fund IRS enforcement aimed at wealthy tax avoidance. The bill contains a built-in escalator: the top rate doubles to 6 percent if Congress ever enacts universal health coverage that bans duplicate private insurance.",
-  "who_benefits_short": "Everyone except households worth over $50 million",
+  "plain_summary": "The bill would place an annual tax on the net worth of the wealthiest American households: 2% on wealth above $50 million, and 3% on wealth above $1 billion. Assets worth $50,000 or less would be exempt, and no household under the $50 million threshold would pay anything. The bill would also direct roughly $100 billion to the IRS over ten years for enforcement, taxpayer services, and computer upgrades, and require annual audits of at least 30% of households subject to the tax.",
+  "who_benefits": "The roughly 99.99% of households with net worth below $50 million would pay nothing directly. If the revenue were later used to fund public services, or simply to reduce borrowing, the broader public would benefit. Stronger IRS enforcement also improves compliance for ordinary taxpayers by making audits of large, complex returns routine.",
+  "who_benefits_short": "Households worth under $50 million",
   "how_it_helps": [
    {
-    "text": "Imposes an annual 2 percent tax on the net value of all assets of households above $50 million, and 3 percent above $1 billion, with no income-tax deduction for the wealth tax paid [S2].",
+    "text": "The tax applies only to net worth above $50 million, leaving every household below that threshold with no liability at all.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Doubles the top rate to 6 percent in any year Congress enacts a universal health insurance program that bars private duplicate coverage — an explicit incentive tying the tax to Medicare-for-all-style legislation [S2].",
+    "text": "The bill authorizes $100 billion in IRS funding from fiscal 2024 through 2034: $70 billion for enforcement, $10 billion for taxpayer services, and $20 billion for business system modernization.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires the IRS to audit at least 30 percent of taxpayers subject to the wealth tax every year, and authorizes $70 billion for enforcement, $10 billion for taxpayer services, and $20 billion for systems modernization for fiscal 2024-2034 [S2].",
+    "text": "The IRS would be required to audit at least 30% of taxpayers subject to the wealth tax every year, and penalties up to 50% would apply for large valuation understatements.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Cracks down on avoidance: assets moved to foreign corporations, partnerships, or trusts face new disclosure rules, gifts to young family members stay countable, and expatriates who renounce citizenship pay a 40 percent exit rate on their wealth [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Undervaluing assets by 35 percent or more triggers penalties of 30 to 50 percent, and taxpayers facing genuine liquidity problems can get up to a five-year extension to pay [S2].",
+    "text": "The bill strengthens disclosure rules to stop taxpayers from hiding assets in foreign corporations, partnerships, and trusts, and directs the Treasury to leverage data collected under the foreign-account reporting law (FATCA).",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "The roughly 100,000 households with net worth above $50 million — mostly billionaires and centimillionaires — who would pay the new annual tax on their total assets, not just their income.",
-  "who_pays_short": "Households worth more than $50 million",
+  "who_pays": "Households with more than $50 million in net worth — a few thousand American families, concentrated at the very top — would pay an annual tax of 2% on wealth from $50 million to $1 billion and 3% above $1 billion. Owners of illiquid private businesses could defer payment for up to five years, and expatriates to avoid the tax would face a 40% exit tax.",
+  "who_pays_short": "Ultra-wealthy households, especially billionaires",
   "drawbacks": [
    {
-    "text": "A wealth tax on unrealized gains is legally and practically untested in the United States; valuing private businesses, art, and other assets that do not trade publicly is hard, and the bill leaves the details to Treasury regulations to be written within 12 months of enactment [S2].",
+    "text": "Most billionaire wealth sits in private company shares and other assets with no market price, so the Treasury would have to build new valuation rules, and critics note that valuing such assets every year is difficult and contestable.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Because the tax applies to total net value rather than realized income, owners of illiquid businesses could owe tax on paper wealth before selling anything, though the bill allows payment deferrals of up to five years for severe liquidity constraints or hardship to an ongoing enterprise [S2].",
-    "sources": [
-     "S2"
-    ]
+    "text": "A tax on unrealized net worth raises unresolved legal questions: some constitutional scholars argue that taxes on property must be apportioned among the states under the Constitution, which could invite years of litigation before the tax collected anything. The provided sources do not address this dispute; it is a widely discussed legal objection to federal wealth taxes.",
+    "sources": []
    },
    {
-    "text": "Critics argue wealthy households and businesses would respond by relocating or restructuring assets — a risk the bill partly addresses with the 40 percent expatriation charge and foreign-trust rules, but which it cannot eliminate [S2].",
+    "text": "Even with the bill's deferral option for owners of illiquid enterprises, some wealthy households would face cash-flow strain paying a tax on wealth they have not yet sold, and wealthy taxpayers would spend heavily on valuation and planning to minimize the tax.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The direct benefit to ordinary people is indirect: the tax itself falls only on the very richest households, and its value depends on how the revenue is used and how well the IRS can enforce it. The design takes valuation and avoidance seriously — mandatory audits, steep penalties for lowballing assets, exit taxes, and trust anti-avoidance rules — but the administrative burden is real and largely unresolved, resting on regulations not yet written. The core difficulty is political feasibility, which the bill's fate makes plain.",
+  "benefit_vs_cost": "The tax falls entirely above $50 million of net worth, so the direct cost to ordinary households is zero and the upside is potentially large: revenue from a few thousand of the wealthiest families plus a much better-funded IRS. The real questions are practical, not distributional — annual valuation of private assets is hard, the constitutional question is genuinely unsettled, and enforcement would take years to build. The bill anticipates these problems with deferral, steep penalties, mandated audits, and mandatory Treasury reports every two years, but a serious implementation challenge would remain.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was referred to the Senate Finance Committee the day it was introduced and never got a hearing, a markup, or a floor vote before the 118th Congress ended.",
+   "mechanism": "The bill was introduced and referred to the Senate Finance Committee, which took no further action on it, so it died when the 118th Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Senator Elizabeth Warren introduced S. 4017 on March 21, 2024, joined by seven senators — six Democrats and one Independent [S1].",
+     "text": "Senator Elizabeth Warren introduced the bill on March 21, 2024, joined by seven original cosponsors: six of 48 Senate Democrats and one of four Senate Independents.",
+     "sources": [
+      "S1",
+      "S3",
+      "S4"
+     ]
+    },
+    {
+     "text": "The bill was read twice and referred to the Senate Finance Committee the day it was introduced; no hearing, markup, or floor vote ever followed.",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "The 118th Congress ended on January 3, 2025, and the bill was not carried over, so no chamber ever voted on it.",
      "sources": [
       "S1"
      ]
-    },
-    {
-     "text": "The bill's only action was being read twice and referred to the Committee on Finance the same day [S4].",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "No hearing, no committee vote, and no floor vote ever took place, and the 118th Congress ended on January 3, 2025, killing the bill [S4].",
-     "sources": [
-      "S4"
-     ]
     }
    ],
-   "who_came_out_ahead": "Households worth more than $50 million — none of them will pay the tax — and the tax-writing committee members who left it untouched."
+   "who_came_out_ahead": "The few thousand households that would have owed the tax — the ultra-wealthy — are better off, since no wealth tax was enacted and IRS enforcement funding did not increase through this bill."
   },
-  "who_came_out_ahead_short": "Wealthy households above the $50 million threshold",
+  "who_came_out_ahead_short": "The ultra-wealthy, whose wealth stayed untaxed",
   "sides": {
    "for": [
     {
      "name": "Sen. Elizabeth Warren",
-     "role": "Sponsor, U.S. Senator from Massachusetts",
+     "role": "U.S. Senator from Massachusetts",
      "party": "D",
-     "what_they_did": "Introduced the Ultra-Millionaire Tax Act of 2024, a 2-3 percent annual tax on household wealth above $50 million.",
+     "what_they_did": "Introduced the Ultra-Millionaire Tax Act of 2024 in the Senate.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2"
+      "S2",
+      "S4"
      ]
     },
     {
-     "name": "Sens. Sanders, Whitehouse, Merkley, Schatz, Markey, Hirono, and Welch",
-     "role": "Original cosponsors",
-     "party": "D/I (Sanders is Independent; the rest are Democrats)",
-     "what_they_did": "Signed on as original cosponsors at introduction; none acted further on the bill.",
+     "name": "6 of 48 Senate Democrats",
+     "role": "Senate Democratic cosponsors",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "name": "1 of 4 Senate Independents",
+     "role": "Independent cosponsor",
+     "party": "I",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -121,55 +127,60 @@
    ],
    "against": [
     {
-     "name": "Senate Committee on Finance",
-     "role": "Senate committee with jurisdiction over tax legislation",
-     "party": null,
-     "what_they_did": "Received the bill by referral on March 21, 2024 and took no further action — no hearing, no markup, no vote — for the rest of the Congress.",
+     "name": "Chair Ron Wyden",
+     "role": "Chair, Senate Committee on Finance",
+     "party": "D",
+     "what_they_did": "Never scheduled the bill for a committee hearing or markup; the Finance Committee took no action on it after referral.",
      "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
+     "evidence": "widely_reported",
+     "sources": []
     },
     {
-     "name": "Senate leadership",
-     "role": "Majority and minority leaders who control the Senate floor schedule",
-     "party": null,
-     "what_they_did": "Never brought the bill to the Senate floor; with no committee action, it was never eligible for a vote.",
-     "direct": false,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
+     "name": "Senate Majority Leader Chuck Schumer",
+     "role": "Senate Majority Leader",
+     "party": "D",
+     "what_they_did": "Never brought the bill to the Senate floor; it never left committee, and no Senate action followed beyond referral.",
+     "direct": true,
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
-   "party_line": "mostly_party_line",
-   "party_line_note": "All eight sponsors were Democrats plus one Independent; no Republican cosponsor appears on the bill, and it never advanced far enough for any vote."
+   "party_line": "party_line",
+   "party_line_note": "All eight original sponsors were Democrats or Independents, and no Republican cosponsored; no roll call ever occurred because the bill never left committee."
   },
   "industries": [
    {
-    "industry": "Households with net worth above $50 million",
+    "industry": "Ultra-wealthy households and billionaires",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would levy a new 2-3 percent annual tax on their total assets each year, with a 40 percent exit tax if they renounce citizenship. Fewer than 100,000 households are affected.",
+    "note": "The bill's entire revenue base is wealth above $50 million, so these households bear the full cost while paying nothing today; their interest in keeping the current system is the direct opposite of the public's interest in the revenue and enforcement the bill would provide.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Private wealth management, trust, and estate-planning industry",
+    "industry": "Wealth management and estate planning services",
     "effect": "mixed",
     "stance_toward_public": "opposed",
-    "note": "The bill's anti-avoidance rules — foreign trust disclosure, gifts-to-minors rules, mandatory audits — would reduce demand for structures built to shield large fortunes from tax. Advisers to the ultra-wealthy would lose business if it worked as designed.",
+    "note": "A wealth tax would cut the pool of unrealized wealth that private-bank and planning services exist to shelter, but it would also create a large new market in valuation and compliance work for the very households affected.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "IRS / federal tax administration",
+    "industry": "Tax-advice and accounting firms serving the ultra-wealthy",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "The bill authorizes $100 billion over a decade for enforcement, taxpayer services, and modernization, plus a mandate to audit at least 30 percent of wealth-tax payers yearly. Stronger enforcement capacity serves taxpayers who pay what they owe.",
+    "note": "Annual valuation of hard-to-price assets, new information reporting, and mandated audits of 30% of covered taxpayers would generate substantial paid compliance work for advisers to covered households.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "IRS (federal tax enforcement)",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "The bill authorizes $100 billion over ten years for enforcement, taxpayer services, and modernization, strengthening the agency that enforces the tax code everyone else lives under.",
     "sources": [
      "S2"
     ]
@@ -177,16 +188,15 @@
   ],
   "trajectory": null,
   "categories": [
-   "taxes_on_wealth_and_corporations",
-   "social_safety_net"
+   "taxes_on_wealth_and_corporations"
   ],
   "scores": {
-   "public_stakes": 6,
-   "concentrated_stakes": 9,
+   "public_stakes": 7,
+   "concentrated_stakes": 10,
    "outcome_against_public": 7,
-   "support_mismatch": 5,
-   "corruption_relevance": 3,
-   "confidence": 0.9
+   "support_mismatch": 4,
+   "corruption_relevance": 4,
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

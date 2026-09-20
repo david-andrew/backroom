@@ -1,111 +1,113 @@
 {
  "bill_id": "119-hr5155",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T04:46:41+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:20:08+00:00",
  "record_fetched_at": "2026-09-20T04:07:48+00:00",
  "record_hash": "52171313abba763c",
  "analysis": {
-  "one_liner": "Requires defense contractors to share repair parts, tools, and information with the military.",
-  "headline": "The bill has been referred to the House Armed Services Committee and has not moved since its September 4 introduction, with 5 cosponsors from both parties.",
+  "one_liner": "Requires defense contractors to share repair parts, tools, and manuals with the military at fair prices.",
+  "headline": "The bill was introduced September 4, 2025 with five cosponsors from both parties and referred to the House Armed Services Committee, where no vote has been scheduled.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would bar the Defense Department from signing procurement contracts unless the contractor agrees in writing to give the military fair and reasonable access to the parts, tools, and information needed to diagnose, maintain, and repair the equipment it buys — at prices no worse than what authorized repair shops pay. It also directs the Defense Secretary to review existing contracts and work to strip intellectual-property restrictions that block military mechanics from doing repairs themselves, and requires a Government Accountability Office report on compliance a year after enactment.",
-  "who_benefits": "Military service members and Defense Department maintenance crews, who could fix equipment using their own depots and mechanics instead of waiting for manufacturer-authorized service. Taxpayers also benefit, since the Pentagon often pays premium manufacturer prices for repairs it could perform itself, and lawmakers of both parties have cited long repair delays that leave equipment out of service.",
-  "who_benefits_short": "Service members, military mechanics, and taxpayers",
+  "plain_summary": "This bill says the Pentagon cannot sign a purchase contract unless the maker agrees, in writing, to let the government and its repair contractors get the parts, tools, and repair information needed to fix the equipment. Makers would have to offer those items at the same prices and terms they give their own authorized repair shops. Existing programs could get a waiver if officials document the risks, and the Government Accountability Office would report a year after passage on how the Pentagon is complying. The Defense Secretary would also have to review existing contracts to find intellectual property restrictions that block military repairs.",
+  "who_benefits": "Taxpayers, who would pay less for maintaining military equipment because the military would no longer have to rely on the original manufacturer as the only repair channel. Service members also benefit, since equipment repaired faster and more cheaply means higher readiness. Independent repair and maintenance firms would gain new business competing against manufacturers' authorized shops.",
+  "who_benefits_short": "Taxpayers and military service members",
   "how_it_helps": [
    {
-    "text": "The bill requires that every new defense procurement contract include written terms giving the Defense Department access to the same parts, tools, and repair information the manufacturer gives its authorized repair providers, at no worse prices [S2].",
+    "text": "No new Defense procurement contract could be signed unless the contractor agrees in writing to give the Department of Defense fair and reasonable access to all repair materials, including parts, tools, and information used to diagnose, maintain, or repair the goods.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It defines 'fair and reasonable access' to include equivalent prices, terms, delivery, and rights of use compared to what authorized repair providers receive, and requires government-determined fair pricing when a manufacturer offers nothing to anyone [S2].",
+    "text": "Repair parts, tools, and information would have to be offered at prices and terms equivalent to the most favorable deal the manufacturer gives its own authorized repair providers, or, if the manufacturer offers nothing to anyone, at prices the government independently judges fair.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It directs the Secretary of Defense to review existing contracts for intellectual-property constraints that block military maintenance and to identify modifications needed to remove them [S2].",
+    "text": "The Defense Secretary must review existing contracts to identify intellectual property constraints that limit the military's ability to maintain equipment and to access repair parts, tools, and information.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It requires a Comptroller General report to Congress on Defense Department compliance within one year, creating oversight [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Contractors cannot simply abandon existing programs: the waiver authority for pre-existing programs requires an independent technical risk assessment and justification submitted to Congress [S2].",
+    "text": "Within one year of enactment, the Comptroller General must report to Congress on implementation and the Defense Department's compliance with the new repair-access requirement.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Defense contractors and original equipment manufacturers that now sell repair parts, tools, and software exclusively on their own terms. They would lose a portion of their aftermarket revenue and their leverage to steer repairs through authorized channels at premium prices, and they would have to share diagnostic software and pairing tools they currently hold back.",
-  "who_pays_short": "Defense contractors holding repair monopolies",
+  "who_pays": "Original equipment manufacturers of military hardware would give up their lock on repair work. They would have to sell genuine parts, service tools, and repair information to the military and authorized contractors at the same terms they give their own networks, ending a stream of above-market maintenance revenue. Some manufacturers might raise initial equipment prices to make up for it.",
+  "who_pays_short": "Military equipment manufacturers",
   "drawbacks": [
    {
-    "text": "Contractors argue that required access to repair materials can raise upfront procurement prices or expose sensitive technical data and software, and the bill itself acknowledges this by requiring a technical risk assessment and cost, schedule, and performance analysis before waiving the requirement for existing programs [S2].",
+    "text": "Manufacturers argue that sharing proprietary repair tools and information can raise upfront contract prices, expose intellectual property, and create security or warranty and liability concerns that the bill does not address beyond a general fairness standard.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill applies only to future Defense Department contracts unless agencies affirmatively renegotiate, so current equipment could stay locked under manufacturer control for years, with waivers available for any pre-existing program [S2].",
+    "text": "The waiver process for pre-existing programs requires an independent technical risk assessment and justification to Congress, which adds paperwork and could leave long-running programs locked into manufacturer-only repair for years.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The bill covers only Defense Department purchases, so consumers and businesses buying similar digital equipment outside the military would get no new repair rights.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The public benefit is straightforward: the military already owns the equipment, and giving its own mechanics the parts, tools, and manuals to fix it reduces repair delays and premium manufacturer charges. The main honest cost is that some contracts may carry higher upfront prices if contractors no longer recoup costs through the repair monopoly, and sensitive systems will need careful handling. The bill tries to manage this by pricing access at the same rates authorized repair shops get and requiring risk assessments before waiving requirements for legacy programs.",
+  "benefit_vs_cost": "The bill targets a specific, well-documented problem: defense contractors using parts pairing, software locks, and repair-information restrictions to make the military dependent on them for maintenance. The potential savings are real, and the waiver process plus a GAO oversight report are reasonable guardrails against disrupting legacy programs. The main honest cost is the risk that manufacturers raise upfront prices to recover lost maintenance revenue, which the bill's fairness pricing rules only partially offset.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and referred to the House Armed Services Committee, which has taken no further action on it so far; it is waiting to see whether it gets a hearing, a markup, or a slot in the annual defense authorization bill.",
+   "mechanism": "The bill was introduced in September 2025 and referred to the House Armed Services Committee, where it has been waiting without any committee action or vote.",
    "narrative": [
     {
-     "text": "Rep. Marie Gluesenkamp Perez introduced the bill on September 4, 2025, joined at introduction by Rep. Jennifer Kiggans, a Republican from Virginia, and Rep. Maggie Goodlander, a Democrat [S2].",
+     "text": "The bill was introduced in the House on September 4, 2025 by Rep. Marie Gluesenkamp Perez, joined by Rep. Jen Kiggans of Virginia and Rep. Maggie Goodlander, and referred to the House Committee on Armed Services.",
      "sources": [
-      "S2"
-     ]
-    },
-    {
-     "text": "The same day, it was referred to the House Committee on Armed Services, and no further action has been recorded since [S4].",
-     "sources": [
+      "S2",
       "S4"
      ]
     },
     {
-     "text": "The bill has 5 cosponsors, split between the parties, with 2 Republicans and 3 Democrats listed [S3].",
+     "text": "Five cosponsors have signed on: three House Democrats and two House Republicans, giving the bill backing from both parties.",
      "sources": [
       "S3"
      ]
+    },
+    {
+     "text": "No further action has been taken since the referral; the bill has not had a committee vote, a markup, or a floor vote.",
+     "sources": [
+      "S4"
+     ]
     }
    ],
-   "who_came_out_ahead": "So far, defense equipment manufacturers keep their exclusive control over repair parts, tools, and information, and taxpayers keep paying manufacturer-set repair prices, because the bill has not advanced past committee referral."
+   "who_came_out_ahead": "No one has won or lost yet. Manufacturers of military equipment continue to hold exclusive repair rights over their products as long as the bill sits without action."
   },
-  "who_came_out_ahead_short": "Defense contractors, for now",
+  "who_came_out_ahead_short": "Nobody yet; bill sits in committee",
   "sides": {
    "for": [
     {
      "name": "Rep. Marie Gluesenkamp Perez",
-     "role": "Sponsor; introduced the bill",
+     "role": "Sponsor",
      "party": "D",
-     "what_they_did": "Introduced the Warrior Right to Repair Act and recruited cosponsors from both parties",
+     "what_they_did": "Introduced the Warrior Right to Repair Act and referred it to the House Armed Services Committee.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2"
+      "S2",
+      "S4"
      ]
     },
     {
-     "name": "Rep. Jennifer Kiggans",
-     "role": "Original cosponsor (Republican co-lead)",
+     "name": "Rep. Jen Kiggans",
+     "role": "Original Republican cosponsor",
      "party": "R",
-     "what_they_did": "Joined as an original cosponsor at introduction",
+     "what_they_did": "Signed on as an original cosponsor when the bill was introduced.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -115,9 +117,9 @@
     },
     {
      "name": "Rep. Maggie Goodlander",
-     "role": "Original cosponsor",
+     "role": "Original Democratic cosponsor",
      "party": "D",
-     "what_they_did": "Joined as an original cosponsor at introduction",
+     "what_they_did": "Signed on as an original cosponsor when the bill was introduced.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -126,10 +128,10 @@
      ]
     },
     {
-     "name": "Two additional House Republicans and two additional Democrats",
+     "name": "5 of 440 House members",
      "role": "Cosponsors",
      "party": null,
-     "what_they_did": "Added their names as cosponsors after introduction",
+     "what_they_did": "Three Democrats and two Republicans cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -137,54 +139,42 @@
      ]
     }
    ],
-   "against": [
-    {
-     "name": "House Armed Services Committee",
-     "role": "Committee of referral; no hearing, markup, or vote scheduled",
-     "party": null,
-     "what_they_did": "Has taken no recorded action on the bill since it was referred on September 4, 2025",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
-    }
-   ],
+   "against": [],
    "party_line": "bipartisan",
-   "party_line_note": "Sponsorship is split across both parties — the lead sponsor is a Democrat and the co-lead at introduction is a Republican, with the 5 cosponsors split 2 Republicans to 3 Democrats [S2][S3]."
+   "party_line_note": "The bill's backers so far span both parties: three of 217 House Democrats and two of 223 House Republicans are cosponsors, and no one has opposed it on the record."
   },
   "industries": [
    {
-    "industry": "Defense equipment manufacturers (original equipment makers of military electronics and vehicles)",
+    "industry": "Military equipment manufacturers (defense OEMs)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These contractors currently control the parts, tools, and software needed to fix the equipment they sell the Pentagon, and can charge premium prices or route repairs through authorized channels. The bill would force them to offer those materials to the government at no worse terms than authorized repair shops get, cutting into their aftermarket revenue.",
+    "note": "Manufacturers that use parts pairing, software locks, and restricted repair information to keep the Pentagon dependent on their authorized repair networks would have to share parts, tools, and manuals at prices no worse than they give their own shops. That ends a monopoly on high-margin maintenance work, which is why the bill requires a written repair-access agreement in every new procurement contract.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Independent repair providers and military maintenance depots",
+    "industry": "Independent repair and defense maintenance contractors",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Government and private repair shops would gain legal access to parts, diagnostic software, and pairing tools they are often locked out of, letting them compete to service equipment the military already owns. This shortens repair delays for service members and cuts costs for taxpayers.",
+    "note": "Non-manufacturer repair firms would finally be able to get the parts, tools, and information needed to compete for military maintenance work, and the Defense Secretary's contract-modification review would chip away at intellectual property limits that currently lock them out.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "This bill is at the stage where most bills stall: referred to the House Armed Services Committee with no hearing, markup, or vote scheduled. Its realistic path to becoming law is as a provision in the annual National Defense Authorization Act, where right-to-repair language has previously drawn interest; as a standalone bill it is likely to sit in committee unless that happens.",
+  "trajectory": "The bill has bipartisan sponsorship but only five cosponsors and has sat in the House Armed Services Committee since early September with no scheduled action. Right-to-repair provisions have sometimes been attached to the annual defense authorization bill, which is the most realistic path; as a standalone bill, its likely fate is to die quietly at the end of the 119th Congress unless the committee folds it into that larger must-pass legislation.",
   "categories": [
-   "wages_and_labor",
+   "other",
    "consumer_protection_and_finance"
   ],
   "scores": {
    "public_stakes": 5,
    "concentrated_stakes": 6,
-   "outcome_against_public": 3,
-   "support_mismatch": 3,
-   "corruption_relevance": 2,
-   "confidence": 0.85
+   "outcome_against_public": 1,
+   "support_mismatch": 2,
+   "corruption_relevance": 1,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

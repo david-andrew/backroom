@@ -1,148 +1,165 @@
 {
  "bill_id": "119-hr2450",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:02:16+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T19:50:06+00:00",
  "record_fetched_at": "2026-09-20T08:08:59+00:00",
  "record_hash": "5a88b34af3328f5b",
  "analysis": {
-  "one_liner": "Requires pharmacy benefit managers to disclose drug pricing, rebates, and fees to employers and patients.",
-  "headline": "Introduced in March 2025 with support from both parties, the bill has received no hearing, markup, or vote in any of its three assigned committees.",
+  "one_liner": "Requires pharmacy benefit managers to disclose to health plans what they charge, what they keep in rebates, and how they steer prescriptions to affiliated pharmacies.",
+  "headline": "The bipartisan bill has sat in three House committees since its March 2025 introduction with no hearing, markup, or floor vote.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would force pharmacy benefit managers — the middlemen that negotiate drug prices for employers and insurers — to report every six months what they charge plans, what they pay pharmacies, and how much they keep in rebates, fees, and discounts. It would also expose when plans steer patients to pharmacies owned by the same company managing the benefit, and requirePBMs to disclose fees paid to brokers who refer them business. Plans would have to share summary information with patients on request.",
-  "who_benefits": "Employers and workers with job-based health plans, who currently cannot see the difference between what their plan pays a pharmacy benefit manager and what that manager pays the pharmacy — a gap known as 'spread pricing.' Large employers (100 or more employees) would get claims-level detail every six months, including the median and lowest prices for drugs when the same prescription is filled by an affiliated versus independent pharmacy. Patients could request a summary document and their own claims-level spread information.",
-  "who_benefits_short": "Employers, workers, and patients with job-based coverage",
+  "plain_summary": "Pharmacy benefit managers (PBMs) are middlemen that employers and insurers hire to run prescription drug benefits. This bill would require PBMs to report to health plans, at least every six months, detailed data on drug claims: what the plan pays the PBM versus what the PBM pays the pharmacy, how much the PBM receives in rebates and fees, how much it keeps, and how much of the business it routes to pharmacies it owns. Plans would have to share summary information with workers on request, and PBMs or plans that fail to report face civil penalties of up to $10,000 per day. The bill is disclosure-only: it does not cap drug prices or ban any pricing practice directly.",
+  "who_benefits": "Workers and retirees with job-based health coverage, and the employers and unions that sponsor their plans, especially at organizations with 100 or more employees. They gain a clear picture of where their drug dollars go, which gives them leverage to renegotiate PBM contracts, spot hidden markups, and demand cheaper dispensing channels. Independent pharmacies gain indirectly, since the reports would expose how much less PBMs pay them than they charge plans.",
+  "who_benefits_short": "Workers with job-based drug coverage",
   "how_it_helps": [
    {
-    "text": "Pharmacy benefit managers must report at least twice a year, for each drug, the difference between what the plan pays them and what they pay the pharmacy, plus all rebates, fees, and discounts they receive from manufacturers and group purchasing organizations.",
+    "text": "PBMs must report the gap between what the plan pays them for each drug and what they pay the pharmacy — the 'spread' — plus the rebates and fees they receive from drug makers and how much net spending remains after those concessions.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Plans must explain any benefit design that steers patients to mail-order, specialty, or retail pharmacies owned by or affiliated with the pharmacy benefit manager, and report the percentage of prescriptions those affiliates dispense and how their prices compare with independent pharmacies in the network.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Patients may request an aggregate summary document and the claims-level price spread for their own prescriptions, and plans must notify participants yearly that these reports exist.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "The bill requires disclosure of payments to brokers, consultants, and advisers for referring or retaining pharmacy benefit management business, and sets civil penalties of $10,000 per day for failure to report and up to $100,000 per item of knowingly false information.",
+    "text": "PBMs must disclose how they steer patients to pharmacies they own or control, including mandatory mail-order and specialty programs, and compare their prices to those of independent pharmacies in the same network.",
     "sources": [
      "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Plans must provide a summary document to participants on request, and individuals may ask their plan for the claims-level data on their own prescriptions.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Plans, insurers, and PBMs that violate the reporting rules face civil penalties of $10,000 per day of violation, and up to $100,000 per item of knowingly false information.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "The bill also requires disclosure of payments to brokers and consultants for steering an employer's pharmacy business to a particular PBM, closing one of the hidden-fee channels in the system.",
+    "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Pharmacy benefit managers and the mail-order and specialty pharmacies they own, which bear compliance costs and see their current pricing practices — spread pricing, rebate retention, and affiliate pharmacy markups — opened up to the employers and regulators who pay for them. Some compliance cost could be passed back to plans as higher fees.",
-  "who_pays_short": "Pharmacy benefit managers and their affiliated pharmacies",
+  "who_pays": "PBMs and their corporate parents — the three dominant firms are owned by the insurers CVS/Aetna, Cigna, and UnitedHealth — which would have to open their books on spread pricing, rebate retention, and affiliated-pharmacy steering, and bear the cost of building the reporting systems. Plans and insurers also bear some compliance cost.",
+  "who_pays_short": "PBMs and their parent insurers",
   "drawbacks": [
    {
-    "text": "Transparency alone does not cap prices. Employers and patients would see the spreads and markups, but nothing in the bill limits them, so savings depend on plans and employers using the disclosed information to renegotiate.",
+    "text": "The bill is transparency-only. It does not cap prices, ban spread pricing, or stop PBMs from keeping a share of manufacturer rebates; relief for consumers depends entirely on employers and plans using the new data to renegotiate.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The requirements do not take effect until 30 months after enactment, and the Department of Health and Human Services must first write rules setting the report format, delaying any benefit further.",
+    "text": "The most detailed, claims-level reporting applies only to plans covering employers or sponsors with at least 100 employees or participants, and employer-sponsored insurance coverage gets the full detail only if the employer affirmatively elects it each year. Workers at smaller employers receive only aggregate summary documents.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "The requirements do not begin until 30 months after enactment, and the standard reporting format itself would not be finalized until 18 months after enactment, so benefits would arrive years after any signing.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The most detailed, claims-level reporting applies only to plans offered by large employers or large plans of 100 or more participants; smaller employers get only summary documents, so most small businesses would not see the full picture.",
+    "text": "The reporting burden is substantial and compliance costs for PBMs, insurers, and plans could be passed back into premiums.",
     "sources": [
      "S3"
-    ]
-   },
-   {
-    "text": "Pharmacy benefit managers and some health economists argue that publishing rebate and discount data could weaken negotiations or push manufacturers to raise list prices, and compliance costs could be passed through to plans as higher fees — costs that employers would have to weigh against the value of the information.",
-    "sources": [
-     "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "For employers and patients, the benefit is real but indirect: this bill shines a light on opaque pricing rather than lowering it directly. Its main power is arming large employers to renegotiate. The strongest objections — a 30-month delay, rules-writing lag, limited reach to small employers, and the risk that disclosure raises list prices or compliance fees — are honest limits on how much it would accomplish, not reasons the bill serves anyone but the pharmacy benefit managers it regulates.",
+  "benefit_vs_cost": "For anyone covered by an employer or union health plan, the potential upside is real: the data would show, drug by drug, where money leaks out of the system, and employers who negotiate with PBMs have repeatedly used exactly this kind of disclosure to win concessions. The honest limitation is that disclosure does not lower anyone's copay by itself — the bill relies on employers and regulators acting on the information, covers smaller employers only weakly, and starts years after enactment. Compared with legislation that caps out-of-pocket drug costs directly, this is a modest but genuinely useful step.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was sent to three House committees on the day it was introduced and has sat there with no hearing, markup, or floor vote since.",
+   "mechanism": "It was introduced on March 27, 2025 and referred to three House committees — Energy and Commerce (the lead), Education and Workforce, and Ways and Means — and no committee has taken it up since, so it is waiting with no scheduled vote while the Congress continues.",
    "narrative": [
     {
-     "text": "Rep. Kristen McDonald Rivet introduced the bill on March 27, 2025, joined in the original sponsorship by Rep. Buddy Carter of Georgia and Rep. John James (Republicans) and Rep. Rob Menendez (Democrat).",
+     "text": "Rep. Kristen McDonald Rivet (D-MI) introduced the Prescription Drug Transparency and Affordability Act on March 27, 2025.",
      "sources": [
-      "S3",
-      "S1"
+      "S1",
+      "S5"
      ]
     },
     {
-     "text": "The bill was referred the same day to the House Energy and Commerce, Education and Workforce, and Ways and Means Committees, and no further action has been recorded since.",
+     "text": "It drew three cosponsors — two Republicans and one Democrat — making sponsorship bipartisan from the start.",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "The bill was referred to the Energy and Commerce Committee and, in addition, to the Education and Workforce and Ways and Means Committees; referral to multiple committees splits jurisdiction and typically slows a bill.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "It has three cosponsors: two Republicans and one Democrat.",
+     "text": "No further action — no hearing, markup, committee vote, or floor vote — is recorded in the action history.",
      "sources": [
-      "S4"
+      "S5"
+     ]
+    },
+    {
+     "text": "The bill would amend three separate laws governing health plans — the Public Health Service Act, ERISA, and the Internal Revenue Code — which is why it was sent to three committees.",
+     "sources": [
+      "S3"
      ]
     }
    ],
-   "who_came_out_ahead": "Pharmacy benefit managers and the affiliated pharmacies they own, whose pricing and rebate arrangements remain out of employers' and patients' sight for now. Three companies — CVS Caremark, Express Scripts, and Optum Rx — process the large majority of American prescriptions, so inaction leaves a concentrated industry's current economics in place."
+   "who_came_out_ahead": "Pharmacy benefit managers and their parent insurers are better off so far, because none of the reporting requirements exist in law and their current pricing arrangements continue unchanged."
   },
-  "who_came_out_ahead_short": "Pharmacy benefit managers and their affiliated pharmacies",
+  "who_came_out_ahead_short": "PBMs and their parent insurers",
   "sides": {
    "for": [
     {
      "name": "Rep. Kristen McDonald Rivet",
      "role": "Sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and sought bipartisan co-sponsorship.",
+     "what_they_did": "Introduced the bill and recruited the initial cosponsors.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3"
+      "S4"
      ]
     },
     {
      "name": "Rep. Buddy Carter",
-     "role": "Original cosponsor",
+     "role": "Cosponsor",
      "party": "R",
-     "what_they_did": "Joined the original sponsorship.",
+     "what_they_did": "Cosponsored the bill at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
       "S4"
      ]
     },
     {
      "name": "Rep. John James",
-     "role": "Original cosponsor",
+     "role": "Cosponsor",
      "party": "R",
-     "what_they_did": "Joined the original sponsorship.",
+     "what_they_did": "Cosponsored the bill at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
       "S4"
      ]
     },
     {
      "name": "Rep. Rob Menendez",
-     "role": "Original cosponsor",
+     "role": "Cosponsor",
      "party": "D",
-     "what_they_did": "Joined the original sponsorship.",
+     "what_they_did": "Cosponsored the bill at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
       "S4"
      ]
     }
@@ -150,9 +167,9 @@
    "against": [
     {
      "name": "House Energy and Commerce Committee",
-     "role": "Primary committee of referral; no markup scheduled",
+     "role": "Lead committee of referral",
      "party": null,
-     "what_they_did": "Received the referral on the day of introduction and has taken no recorded action on the bill since.",
+     "what_they_did": "Received the bill on referral on March 27, 2025; no hearing, markup, or vote has been scheduled since.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -161,45 +178,37 @@
     },
     {
      "name": "House Ways and Means and Education and Workforce Committees",
-     "role": "Additional committees of referral; no action taken",
+     "role": "Additional committees of referral",
      "party": null,
-     "what_they_did": "Received the referral for portions within their jurisdiction and have taken no recorded action.",
+     "what_they_did": "Received the bill on referral on March 27, 2025; no action recorded since.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S5"
      ]
-    },
-    {
-     "name": "Pharmacy benefit manager industry (CVS Caremark, Express Scripts, Optum Rx)",
-     "role": "Regulated industry",
-     "party": null,
-     "what_they_did": "The major pharmacy benefit managers have consistently opposed mandates to disclose their rebate and pricing arrangements to plan sponsors.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "The original sponsorship was split between one Democrat and two Republicans, and its three cosponsors include two Republicans and one Democrat; no recorded votes have occurred."
+   "party_line_note": "The sponsor is a Democrat joined by two Republicans and one more Democrat; no votes have occurred and no member has publicly opposed the bill, so its fate so far reflects committee inaction rather than partisan division."
   },
   "industries": [
    {
-    "industry": "Pharmacy benefit managers (CVS Caremark, Express Scripts, Optum Rx)",
+    "industry": "Pharmacy benefit managers (the three dominant firms are owned by CVS/Aetna, Cigna, and UnitedHealth)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would expose the spread between what plans pay PBMs and what PBMs pay pharmacies, plus the rebates and fees PBMs keep — the core of their current business economics. PBMs' interest in keeping those arrangements confidential runs against employers' and patients' interest in seeing them.",
+    "note": "The bill forces PBM disclosure of spread pricing, rebate and fee retention, payments to referring brokers, and steering to affiliated pharmacies, with penalties up to $10,000 per day. PBMs profit from exactly these opaque channels, and public exposure gives employers and regulators the evidence to squeeze them.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "PBM-affiliated mail-order and specialty pharmacies",
+    "industry": "Health insurers with vertically integrated PBM businesses",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would require disclosure of how plans steer patients to pharmacies owned by the PBM and how affiliate prices compare with independent pharmacies in the same network, undercutting a key profit channel.",
+    "note": "The three biggest PBMs sit inside larger insurance companies, so transparency into the PBM segment threatens profits those companies earn from their own pharmacy operations. Insurers and plans also bear compliance costs that may be passed into premiums.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
@@ -207,31 +216,22 @@
     "industry": "Independent and community pharmacies",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Community pharmacists have long argued that PBMs underpay them while steering patients to affiliated pharmacies; the disclosure of affiliate dispensing shares and price comparisons gives them evidence to press for fairer reimbursement.",
+    "note": "The bill requires side-by-side comparison of what PBM-affiliated pharmacies charge plans versus what independent pharmacies in the same network are paid, exposing underpayment of community pharmacies. Independent pharmacists have been the most vocal backers of PBM transparency.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Pharmacy benefits brokers and consultants",
+    "industry": "Benefits brokers and consultants",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would require disclosure of referral and retention fees paid to brokers and advisers, a compensation stream that currently shapes which PBM an employer hires without the employer seeing it.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "Health insurers (many of which own PBMs)",
-    "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "Insurers would receive more detailed reports from PBMs, but the largest insurers own the biggest PBMs, so disclosure aimed at the PBM also reaches their own vertically integrated operations.",
+    "note": "Firms must disclose payments received for steering an employer's pharmacy business to a PBM, including the identity of recipients, bringing an undisclosed fee channel into the open.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "trajectory": "With only three cosponsors and no committee action since March 2025, this bill is unlikely to advance on its own this Congress. PBM transparency provisions are more likely to become law if attached to a larger health or spending package — a common path for measures sitting in multiple committees.",
+  "trajectory": "A first-term sponsor's bill sitting with three committees and only three cosponsors faces long odds of a standalone floor vote. Its realistic path is being folded into a larger health or PBM package if congressional interest in PBM regulation grows; otherwise it will sit until the Congress ends.",
   "categories": [
    "healthcare_and_drug_prices",
    "consumer_protection_and_finance"
@@ -240,8 +240,8 @@
    "public_stakes": 6,
    "concentrated_stakes": 8,
    "outcome_against_public": 5,
-   "support_mismatch": 3,
-   "corruption_relevance": 3,
+   "support_mismatch": 4,
+   "corruption_relevance": 2,
    "confidence": 0.9
   }
  },

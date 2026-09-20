@@ -1,115 +1,114 @@
 {
  "bill_id": "119-hr6609",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:09:33+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:33:57+00:00",
  "record_fetched_at": "2026-09-20T08:11:22+00:00",
  "record_hash": "385aa5e4d69c8f6b",
  "analysis": {
-  "one_liner": "Forces pharmacy benefit managers to pay pharmacies their real costs and pass drug rebates to patients in Medicare and Medicaid.",
-  "headline": "A bipartisan bill to restrict pharmacy benefit managers in Medicare and Medicaid was introduced with 41 cosponsors (25 Republicans, 16 Democrats) and sent to two House committees, where no action has been scheduled.",
+  "one_liner": "Requires Medicare and Medicaid drug plans to pay pharmacies their acquisition costs and pass rebates to patients.",
+  "headline": "The bill was introduced December 11, 2025 with 41 cosponsors split between both parties and was referred to two House committees, where it has not yet received a hearing or vote.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would rewrite the rules for pharmacy benefit managers — the middleman companies that stand between drug plans and pharmacies for most Americans' prescriptions. It would require PBMs and drug plans in Medicare and Medicaid to pay pharmacies based on the actual national average cost of a drug plus a modest fee, pass manufacturer rebates to patients at the pharmacy counter instead of pocketing them, and stop practices that steer patients to PBM-owned pharmacies. It adds criminal penalties of up to $1 million in fines and 10 years in prison for knowingly violating the payment rules, and it expands price-survey reporting in Medicaid to cover mail-order, specialty, and hospital pharmacies.",
-  "who_benefits": "Medicare Part D enrollees and Medicaid beneficiaries, who would see manufacturer rebates applied directly to their copays at the pharmacy counter rather than being applied later or absorbed by intermediaries. Independent and community pharmacies would gain guaranteed reimbursement at the national average drug acquisition cost plus a dispensing fee, instead of opaque rates that can be below their purchase price. Patients would also keep the right to use any in-network pharmacy without being pushed toward PBM-affiliated stores.",
-  "who_benefits_short": "Medicare and Medicaid patients, community pharmacies",
+  "plain_summary": "The bill rewrites the rules for how pharmacies get paid under Medicare Part D and Medicaid. It would force insurers and the middlemen that run their drug benefits, called pharmacy benefit managers, to reimburse in-network pharmacies at the drug's actual national average acquisition cost plus a small fee, to apply manufacturer rebates to patients' copays at the pharmacy counter, and to stop steering patients to pharmacies the middlemen own. It adds annual compliance certifications, criminal penalties of up to $1 million and 10 years in prison, civil fines up to $1 million per violation, and new public reporting of drug acquisition prices in Medicaid [S2].",
+  "who_benefits": "Medicare and Medicaid enrollees, who would see manufacturer rebates applied directly to their copays at the pharmacy counter instead of being absorbed upstream, and independent and community pharmacies, which would be guaranteed payment at their actual acquisition cost plus a dispensing fee and would gain protection from being pushed out of networks in favor of pharmacies owned by the benefit managers themselves [S2].",
+  "who_benefits_short": "Patients and independent community pharmacies",
   "how_it_helps": [
    {
-    "text": "Requires Medicare Part D plans and PBMs to reimburse in-network pharmacies at the national average drug acquisition cost on the day of the claim (or wholesale acquisition cost if no survey price exists), plus a fee of 4% of that cost or $50, whichever is less, and a dispensing fee matching the state Medicaid rate [S2].",
+    "text": "Requires Medicare Part D plans and Medicaid managed-care contracts to reimburse in-network pharmacies the national average drug acquisition cost plus the lesser of 4% or $50, plus a dispensing fee matching the state Medicaid rate, and bars any fee that claws those payments back [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires manufacturer rebates on Part D drugs to be applied at the point of sale, reducing the patient's copay or coinsurance, and requires PBMs to remit full rebate amounts to the plan sponsor [S2].",
+    "text": "Requires manufacturer rebates to be applied at the point of sale to reduce a patient's copay or coinsurance, rather than being retained downstream [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Prohibits steering — practices that push enrollees to use a PBM-affiliated pharmacy, including preferred or narrow networks that exclude independent pharmacies or raise patient costs when they don't switch [S2].",
+    "text": "Prohibits steering, broadly defined to include preferred and narrow pharmacy networks, differential cost-sharing that punishes patients for using non-affiliated pharmacies, and accreditation or delivery rules that exclude in-network pharmacies [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Imposes criminal penalties of up to a $1 million fine and 10 years in prison, and civil monetary penalties, on PBMs that knowingly and willfully violate the payment rules, rebate pass-through rules, or steering ban [S2].",
+    "text": "Creates criminal penalties of up to a $1,000,000 fine, 10 years in prison, or both for a pharmacy benefits manager that knowingly and willfully fails the payment or rebate rules or engages in steering, plus civil monetary penalties of up to $1,000,000 per act [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Applies the same payment and rebate rules to Medicaid managed care contracts and requires that all manufacturer rebates received under Medicaid be remitted to the state [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Expands the Medicaid drug price survey to cover mail-order, specialty, nursing home, hospital, and clinic pharmacies — not just retail community pharmacies — and requires the government to publish national drug acquisition prices and information on price concessions [S2].",
+    "text": "Expands Medicaid drug price surveys to all pharmacy types, requires pharmacies to report acquisition prices net of all price concessions, and requires the Secretary to make the results public [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Pharmacy benefit managers would lose the margin between what plans pay them and what they pay pharmacies (spread pricing), rebate revenue they currently retain, and the steering advantage their own pharmacies enjoy. Insurers operating PBM subsidiaries would face the same exposure. If guaranteed pharmacy payment raises plan costs, part of the expense could surface in higher Medicare premiums or federal subsidy costs, and plans could respond by narrowing pharmacy networks.",
-  "who_pays_short": "Pharmacy benefit managers and their corporate owners",
+  "who_pays": "Pharmacy benefit managers and their affiliated mail-order and specialty pharmacies, which lose their current freedom to set pharmacy reimbursement below cost, steer volume to their own stores, and keep rebate spreads. Medicare plans and Medicaid managed-care entities take on compliance and certification duties, and some of the higher pharmacy reimbursement could flow into plan costs [S2].",
+  "who_pays_short": "Pharmacy benefit managers and their affiliated pharmacies",
   "drawbacks": [
    {
-    "text": "Guaranteeing pharmacies cost-based reimbursement plus a dispensing fee raises plan drug costs, which could push up Medicare premiums, federal subsidy spending, or Medicaid costs for states unless offset elsewhere [S2].",
+    "text": "Pegging pharmacy reimbursement to a fixed national average cost plus a capped fee may not reflect what every pharmacy actually pays, and dispensing fees set at state Medicaid rates are low in many states, so some pharmacies could still be underpaid [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill does not include an offset or funding mechanism in its text, so it would increase federal mandatory spending on its own under current scoring conventions [S2].",
+    "text": "Higher guaranteed pharmacy reimbursement and point-of-sale rebates could raise plan costs, which eventually show up in Medicare premiums, Medicaid financing, and taxpayer subsidies, though the bill requires plans to account for rebate remittances in their bids to limit that effect [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Plans might respond to higher pharmacy payment obligations by cutting the number of pharmacies they contract with, which could reduce convenience for patients in rural areas even as payment per prescription improves [S2].",
+    "text": "The steering ban is written broadly, prohibiting preferred pharmacy networks and differential cost-sharing entirely, which eliminates plan-design tools that can direct patients to lower-cost mail-order channels [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The strict definition of steering — including any multi-tier network or accreditation standard that differentially treats pharmacies — is broad enough that plans argue it could prevent legitimate tools for managing costs, a trade-off supporters accept to protect pharmacy access [S2].",
+    "text": "The criminal penalty of up to 10 years in prison applies to knowingly and willfully failing a complex set of payment and rebate rules, a sweeping sanction that critics would call disproportionate for billing disputes [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Requiring every pharmacy, including mail-order, specialty, and clinic pharmacies, to respond to acquisition-price surveys and report net costs adds administrative burden, and the bill excludes charitable and nonprofit pharmacies from the survey [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "For patients, the most direct gains are lower copays at the counter from point-of-sale rebates and better pharmacy payment that keeps community pharmacies open — a real problem in rural areas where store closures have left people driving long distances. The honest cost is that paying pharmacies more and guaranteeing rebate pass-through raises plan drug costs, which ultimately shows up in premiums or federal and state budgets. The bill deliberately chooses pharmacy access and transparent pricing over the current system's lower paper costs, and it backs the rules with criminal penalties — a serious enforcement tool aimed squarely at three dominant middleman companies.",
+  "benefit_vs_cost": "The benefits are concrete and well targeted: patients get rebates at the counter instead of losing them in the middle of the supply chain, and the pharmacies people actually use get paid what the drugs cost. The main cost, higher plan spending, is partially blunted by forcing plans to subtract rebate remittances from their bids. The biggest design risks are the one-size-fits-all reimbursement formula and the breadth of the steering ban and criminal penalties, which a careful committee process would likely need to refine. As written, the upside for patients and small pharmacies outweighs the downside, but the rough edges are real.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was just introduced and referred to the Energy and Commerce and Ways and Means committees, where it is waiting for a hearing or markup that has not been scheduled.",
+   "mechanism": "It was introduced on December 11, 2025 and referred to the House Energy and Commerce and Ways and Means Committees, where it now sits with no hearing, markup, or vote scheduled [S4].",
    "narrative": [
     {
-     "text": "Rep. Jake Auchincloss (D-MA) introduced the Pharmacists Fight Back in Medicare and Medicaid Act on December 11, 2025, joined by a bipartisan group of original cosponsors including Republicans Diana Harshbarger and James Comer [S1][S2].",
+     "text": "Representative Jake Auchincloss introduced the bill on December 11, 2025, with 21 original cosponsors listed in the introduction, 12 of them Republicans [S2].",
      "sources": [
-      "S1",
       "S2"
      ]
     },
     {
-     "text": "The bill was referred to the House Energy and Commerce Committee and, in addition, to the Ways and Means Committee, with no further action recorded since introduction [S4].",
+     "text": "The bill was referred to the Committee on Energy and Commerce and in addition to the Committee on Ways and Means, in each case for consideration of provisions within their jurisdiction [S4].",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The bill has 41 cosponsors, 25 Republicans and 16 Democrats [S3].",
+     "text": "As of the latest action history, 41 members had cosponsored the bill, 25 Republicans and 16 Democrats [S3].",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "The bill's provisions would take effect for plan years beginning on or after January 1, 2027, with penalties applying beginning on that date [S2].",
+     "text": "No further action, hearing, markup, or vote appears in the action history after the referral [S4].",
      "sources": [
-      "S2"
+      "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "Pharmacy benefit managers remain unregulated under these rules, and their revenue model is untouched for now."
+   "who_came_out_ahead": "No outcome has been reached yet. For now, pharmacy benefit managers' existing practices continue unchanged while the bill waits in committee, so the status quo serves them. Whether patients and pharmacies come out ahead depends on whether the bill ever gets a vote."
   },
   "who_came_out_ahead_short": "Pharmacy benefit managers, for now",
   "sides": {
@@ -118,32 +117,18 @@
      "name": "Rep. Jake Auchincloss",
      "role": "Sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill on December 11, 2025, establishing pharmacy payment, rebate pass-through, and steering rules for PBMs in Medicare and Medicaid, with criminal penalties for noncompliance.",
+     "what_they_did": "Introduced the bill and recruited a bipartisan list of original cosponsors",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S1",
-      "S2",
-      "S4"
+      "S2"
      ]
     },
     {
-     "name": "Reps. Diana Harshbarger and James Comer",
-     "role": "Original Republican cosponsors",
+     "name": "25 of 223 House Republicans",
+     "role": "Cosponsors",
      "party": "R",
-     "what_they_did": "Joined the bill at introduction as original cosponsors, giving it bipartisan sponsorship from the start.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S2",
-      "S3"
-     ]
-    },
-    {
-     "name": "41 cosponsors (25 Republicans, 16 Democrats)",
-     "role": "Cosponsor bloc",
-     "party": null,
-     "what_they_did": "Signed on in support of the bill within its first days, giving it bipartisan backing in the House.",
+     "what_they_did": "Cosponsored the bill",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -151,10 +136,21 @@
      ]
     },
     {
-     "name": "Community pharmacy industry (independent and chain pharmacists)",
-     "role": "Patient and pharmacy access advocates",
+     "name": "16 of 217 House Democrats",
+     "role": "Cosponsors",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "name": "Independent and community pharmacy groups",
+     "role": "National pharmacy trade associations",
      "party": null,
-     "what_they_did": "The bill's stated purpose and title respond to pharmacists' campaign against PBM practices that pay pharmacies below cost and steer patients to PBM-owned stores.",
+     "what_they_did": "Publicly championed PBM regulation, including reimbursement floors and anti-steering rules, providing the political base for bills like this one",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
@@ -162,19 +158,21 @@
    ],
    "against": [
     {
-     "name": "Pharmacy benefit manager industry (CVS Caremark, Express Scripts, Optum Rx)",
-     "role": "Three companies that process most U.S. prescriptions",
-     "party": null,
-     "what_they_did": "Industry companies and their trade groups lobby and advertise against PBM regulation bills like this one, which would eliminate spread pricing and rebate retention.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
+     "name": "House Energy and Commerce Committee leadership",
+     "role": "Chair of the committee of primary referral",
+     "party": "R",
+     "what_they_did": "Received the referral and has not scheduled a hearing or markup; no action appears after referral",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
     },
     {
-     "name": "Chairs, House Energy and Commerce and Ways and Means Committees",
-     "role": "Committee chairs with jurisdiction over the bill",
+     "name": "House Ways and Means Committee leadership",
+     "role": "Chair of the second committee of referral",
      "party": "R",
-     "what_they_did": "Received the referred bill on December 11, 2025; no hearing or markup has been scheduled as of the available record.",
+     "what_they_did": "Received the referral and has not scheduled a hearing or markup; no action appears after referral",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -183,57 +181,57 @@
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "Support is split almost evenly across parties — 25 Republican and 16 Democratic cosponsors — with the sponsor a Democrat and the top two original cosponsor Republicans."
+   "party_line_note": "Support so far is bipartisan: of 41 cosponsors, 25 are Republicans and 16 are Democrats, and the original introduction included 12 Republicans alongside the Democratic sponsor; no votes have occurred to test the split."
   },
   "industries": [
    {
-    "industry": "Pharmacy benefit managers (CVS Caremark, Express Scripts, Optum Rx)",
+    "industry": "Pharmacy benefit managers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill bans the core of the PBM business model in Medicare and Medicaid: spread pricing (paying pharmacies less than the plan pays the PBM), rebate retention, and steering patients to PBM-owned pharmacies, backed by criminal penalties. PBMs profit by taking a cut between what plans pay and what pharmacies receive, which runs directly against patients and pharmacies.",
+    "note": "The bill strikes at the core of the PBM business model: it requires paying pharmacies at cost plus a capped fee, remitting rebates to plans and patients, and bans steering patients to PBM-affiliated pharmacies, with felony-level penalties for knowing violations. For ordinary people, PBMs' margin currently sits between their copays and what their pharmacy gets paid.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Community and independent pharmacies",
+    "industry": "Independent and community pharmacies",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Pharmacies would be guaranteed reimbursement at the national average acquisition cost plus a fee and dispensing payment, ending arrangements that can pay them below their own purchase price. Their interest in staying solvent runs alongside patients' interest in having a pharmacy nearby.",
+    "note": "Community pharmacies are often reimbursed below their acquisition cost under PBM contracts. A guaranteed cost-plus payment and a bar on excluding them from networks directly addresses the financial pressure closing rural and neighborhood drugstores.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "PBM-affiliated retail and specialty pharmacies",
-    "effect": "mixed",
+    "industry": "PBM-affiliated mail-order and specialty pharmacies",
+    "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The steering ban removes the structural advantage that funnels patients to pharmacies owned by PBM parent companies, while payment floors would raise per-prescription revenue for all pharmacies including affiliated ones.",
+    "note": "These affiliated pharmacies rely on plans steering patients their way. The bill's steering definition outlaws preferred and narrow networks, differential cost-sharing, and accreditation tricks that route volume to affiliates.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Medicare Part D insurers and Medicaid managed care plans",
+    "industry": "Medicare Part D insurers and Medicaid managed-care plans",
     "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "Plans face guaranteed higher pharmacy payment costs and loss of rebate margins, which could raise premiums or cut into plan profits, but plans are also banned from steering and rebate games played through PBM affiliates.",
+    "note": "Plans must write PBM contracts with these guarantees, certify compliance, and pass rebates to patients, but the bill also requires rebate remittances to be subtracted from plan bids, so plan financing adjusts rather than purely rising. The main cost is compliance and loss of flexible network design.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill sits in two committees with no hearing or markup scheduled. Bipartisan PBM bills have repeatedly surfaced in Congress, and some narrower PBM provisions have advanced in larger packages, but standalone bills like this one rarely move without leadership scheduling. The most realistic path is that it stalls unless PBM regulation gets attached to a broader health or drug pricing bill late in the session.",
+  "trajectory": "With bipartisan backing but referral to two committees, the bill's fate depends entirely on whether either committee schedules it. Most bills at this stage die without a vote, but PBM reform has unusual cross-party attention this Congress, so a hearing or the absorption of its provisions into a larger health or drug-pricing package is the more plausible path than standalone passage. Without leadership scheduling action, it is likely to stall in committee.",
   "categories": [
    "healthcare_and_drug_prices",
-   "consumer_protection_and_finance"
+   "antitrust_and_competition"
   ],
   "scores": {
    "public_stakes": 6,
    "concentrated_stakes": 8,
    "outcome_against_public": 2,
    "support_mismatch": 3,
-   "corruption_relevance": 3,
+   "corruption_relevance": 4,
    "confidence": 0.85
   }
  },

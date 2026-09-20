@@ -1,113 +1,106 @@
 {
  "bill_id": "119-hr5427",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:43:50+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:24:37+00:00",
  "record_fetched_at": "2026-09-20T08:03:35+00:00",
  "record_hash": "e4010824479ccfb6",
  "analysis": {
-  "one_liner": "Taxes investment gains of households with over $100 million in income or $1 billion in assets annually, like wages.",
-  "headline": "Introduced in September 2025 with 33 Democratic cosponsors, the Billionaires Income Tax Act has sat in the House Ways and Means Committee without a hearing or vote ever since.",
+  "one_liner": "Makes households with over $100 million in income or $1 billion in assets pay tax on investment gains every year.",
+  "headline": "Introduced September 17, 2025 with 34 Democratic sponsors and cosponsors and referred to the House Ways and Means Committee, where no action has been taken.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would require people earning more than $100 million a year, or holding more than $1 billion in assets, to pay income tax on their investment gains every year, even if they never sell. It targets strategies like \"buy, borrow, die,\" where a wealthy person lives off loans against unsold stock and never pays income tax, then passes the assets to heirs who sell them tax-free. It also closes roughly 30 other loopholes available only to these taxpayers. The bill was referred to the Ways and Means Committee and has had no action since.",
-  "who_benefits": "Ordinary wage earners, whose pay is taxed every payday under withholding, gain a tax code that treats the largest fortunes the same way. The bill's stated purpose is to require billionaires to pay tax annually \"just like working people do on their income from wages\" and to shut down borrowing against unsold assets as a tax-free way to fund lifestyles. A broader tax base could also reduce pressure to raise taxes on everyone else, though the bill does not earmark its revenue for any specific use.",
-  "who_benefits_short": "Wage earners taxed every payday",
+  "plain_summary": "The bill would require the ultra-wealthy to pay income tax on their investment gains every year, the same way workers pay tax on wages, instead of being able to put off tax indefinitely. It targets strategies like 'buy, borrow, die' — buying assets that grow in value, borrowing against them to fund living costs, and passing them to heirs untaxed. It applies only to people with more than $100 million in yearly income or more than $1 billion in assets, and it also closes more than 30 related loopholes covering trusts, compensation, and business swaps.",
+  "who_benefits": "Ordinary taxpayers benefit from a rule that treats the largest fortunes the way wages are treated: taxed annually rather than deferred until death. Because gains on unsold stock and businesses would be counted each year, the deferral games that let a small number of families accumulate untaxed wealth would end. Any revenue raised is unspecified in the bill, so the direct benefit to working households is mainly fairness and whatever Congress later chooses to do with the money.",
+  "who_benefits_short": "Ordinary taxpayers, under current deferral rules",
   "how_it_helps": [
    {
-    "text": "The bill requires \"applicable taxpayers\" — individuals with income above $100 million (or assets above $1 billion, measured after debt) for three straight years — to recognize gains on tradable assets like stock each year as if sold at fair market value, instead of deferring tax indefinitely until sale.",
+    "text": "Requires taxpayers with over $100 million in adjusted gross income or over $1 billion in covered assets (for three straight years) to recognize gains and losses annually, as if unsold tradable assets were sold at fair market value at year end.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "For hard-to-price, nontradable assets like stakes in private companies, the bill instead charges a \"deferral recapture amount\" — interest on the tax that would have been owed each year — when the asset is finally transferred, so years of deferral are no longer free.",
+    "text": "Treats gifts, bequests, and transfers in trust of covered assets as a sale at fair market value, ending the stepped-up basis rule that lets heirs sell inherited assets tax-free.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill ends the step-up in basis at death for applicable taxpayers: assets passed at death, by gift, or in trust are treated as sold at fair market value, closing the \"buy, borrow, die\" path where heirs sell inherited assets completely tax-free. Spousal transfers and charitable gifts are exempted.",
+    "text": "Closes deferral routes beyond stocks: it reaches swaps, like-kind real estate exchanges, transfers in exchange for stock, deferred compensation, certain life insurance and annuity contracts, and holdings in partnerships and other pass-through entities, with special reporting and anti-avoidance rules to keep the ultra-wealthy from restructuring around it.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill closes other loopholes for these taxpayers, including limits on like-kind exchanges, elimination of deferral on certain deferred compensation and private-placement life insurance, treatment of expatriates who renounce citizenship to escape U.S. tax for 10 years, and restrictions on qualified opportunity fund investments.",
+    "text": "Eases the transition: a newly covered taxpayer can pay the first year's extra mark-to-market tax in five annual installments, and the deferral recapture charge on nontradable assets is capped and only applied when the asset is actually transferred.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Individuals earning over $100 million a year or holding over $1 billion in assets, plus trusts with over $10 million in income or $100 million in assets. Private companies, partnerships, and other pass-through businesses they own at least 5% of (or with over $50 million in their nontradable stakes) face new annual reporting duties. Tax and wealth-management advisers would pick up substantial new compliance work.",
-  "who_pays_short": "Households worth over $1 billion",
+  "who_pays": "A very small number of ultra-wealthy households — those with more than $100 million of yearly income or $1 billion in assets — plus the estate planners, private fund managers, and tax advisors whose business depends on the deferral strategies the bill shuts down. Retirement accounts, IRAs, 529s, HSAs, and cash are excluded from the tax.",
+  "who_pays_short": "Households with $100M income or $1B assets",
   "drawbacks": [
    {
-    "text": "Mark-to-market tax applies to gains on assets the taxpayer has not sold, so a taxpayer can owe a large tax bill in a year when no cash came in; the bill softens this only partially, allowing first-year liability on nontradable assets to be paid in five annual installments and charging interest rather than immediate tax on hard-to-sell assets.",
+    "text": "Taxing gains on assets that have not been sold creates annual valuation problems, especially for private businesses and other nontradable assets; the bill handles this with multiple valuation methods (original cost, adjusted basis, appraisals, financial statements, loan values) and leaves many details to Treasury regulations.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Valuing nontradable assets is hard. The bill relies on a hierarchy of values — original cost, adjusted basis, financial-statement values, values used to secure loans — plus Treasury anti-avoidance regulations, which invites years of valuation disputes between taxpayers and the IRS.",
+    "text": "Tax can come due on paper gains before any cash is realized; the bill softens this with a first-year five-year installment election, loss carrybacks, and a cap on the deferral recapture charge, but the administration burden for covered families and their business entities is large.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Pass-through entities owned by applicable taxpayers face new notice, reporting, and gain-allocation obligations, adding compliance costs and complexity for the businesses themselves.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Because the rules cover expatriates for 10 years after renouncing citizenship and direct the Treasury to write anti-avoidance rules, the bill anticipates — but may not fully prevent — wealthy taxpayers relocating or restructuring assets abroad before and after it takes effect.",
+    "text": "The bill anticipates avoidance and exit: it applies to expatriates for ten years after they give up citizenship and subjects them to lower thresholds, which signals the drafters' concern that covered taxpayers would renounce citizenship or move assets offshore rather than pay.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core change is straightforward and narrow in scope: roughly the richest few thousand households would pay tax on investment gains the way workers pay on wages, and their heirs could no longer sell inherited assets tax-free. The main costs are complexity — valuing private companies annually, managing tax bills on unsold assets, and heavier reporting for businesses these households own — which fall almost entirely on the affected taxpayers and their advisers, not on ordinary filers. The genuine risks are administrative (valuation disputes, avoidance planning) rather than a broad cost to the public.",
+  "benefit_vs_cost": "The core change — taxing the largest fortunes annually instead of letting gains compound tax-free until death — directly addresses a genuine gap between how wages and wealth are taxed. The costs are real but narrow: significant valuation and compliance complexity concentrated on a few thousand households, and unresolved legal challenges over taxing unrealized gains would be likely. Nothing in the bill directs new revenue to any specific benefit for working people, so its concrete upside for them depends on later spending decisions.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced on September 17, 2025 and referred to the House Ways and Means Committee, which has taken no further action on it — no hearing, no markup, no vote.",
+   "mechanism": "It was introduced and sent to the House Ways and Means Committee, where the chair has taken no action on it, so it sits with no scheduled hearing or vote.",
    "narrative": [
     {
-     "text": "Rep. Steve Cohen introduced the Billionaires Income Tax Act on September 17, 2025, joined by 28 original cosponsors, and it was referred to the House Committee on Ways and Means.",
+     "text": "Rep. Steve Cohen introduced the Billionaires Income Tax Act in the House on September 17, 2025.",
      "sources": [
-      "S2",
+      "S1",
       "S4"
      ]
     },
     {
-     "text": "The bill has 33 cosponsors, all Democrats; no Republican has signed on.",
+     "text": "The bill was referred to the House Committee on Ways and Means the day it was introduced, and the full action history shows no hearing, markup, or floor vote since.",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "Thirty-three House Democrats joined Cohen as cosponsors; no Republicans are listed.",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "Since the September 17 referral, the action history shows no hearings, markups, or floor action.",
+     "text": "The bill would apply to taxable years beginning after December 31, 2025, so it has no effect until enacted.",
      "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "Because the 119th Congress runs through January 2027, the bill technically remains alive, but with the House majority held by the party with zero cosponsors and no committee movement, it has no realistic path to a vote.",
-     "sources": [
-      "S3",
-      "S4"
+      "S2"
      ]
     }
    ],
-   "who_came_out_ahead": "Taxpayers with more than $100 million in annual income or more than $1 billion in assets are better off as things stand: the current rules that let them defer tax indefinitely on unsold investments and pass assets to heirs tax-free remain in place, at no cost to them, because the bill has not advanced."
+   "who_came_out_ahead": "Ultra-wealthy households are better off so far, because the bill has gone nowhere and the current rules that let investment gains go untaxed for decades remain in place. So do the tax planners and estate advisors whose services depend on those rules."
   },
-  "who_came_out_ahead_short": "Billion-dollar households, who keep the status quo",
+  "who_came_out_ahead_short": "Ultra-wealthy households and their tax planners",
   "sides": {
    "for": [
     {
      "name": "Rep. Steve Cohen",
-     "role": "U.S. Representative, Tennessee (bill sponsor)",
+     "role": "U.S. Representative (D-TN), bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the Billionaires Income Tax Act and delivered introductory remarks on the House floor.",
+     "what_they_did": "Introduced the Billionaires Income Tax Act and gave introductory remarks on the House floor.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -116,83 +109,91 @@
      ]
     },
     {
-     "name": "33 House Democrats",
-     "role": "Cosponsors, including Reps. Beyer, Tlaib, McGovern, DeLauro, Nadler, and others",
+     "name": "33 of 217 House Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as cosponsors; 28 joined as original cosponsors at introduction.",
+     "what_they_did": "Cosponsored the bill after its introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
       "S3"
      ]
     }
    ],
    "against": [
     {
-     "name": "House Ways and Means Committee leadership",
-     "role": "Chair of the committee to which the bill was referred",
+     "name": "Rep. Jason Smith",
+     "role": "Chair, House Ways and Means Committee",
      "party": "R",
-     "what_they_did": "Took no action on the bill after its September 17, 2025 referral — no hearing, no markup, no vote has been scheduled.",
+     "what_they_did": "Has not scheduled any hearing, markup, or vote on the bill since it was referred to the committee.",
      "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
-    },
-    {
-     "name": "House Republican majority",
-     "role": "The chamber majority, which controls what reaches the floor",
-     "party": "R",
-     "what_they_did": "No Republican members cosponsored the bill, and the majority has not brought it to the floor.",
-     "direct": false,
      "evidence": "record",
      "sources": [
-      "S3"
+      "S4"
      ]
     }
    ],
    "party_line": "mostly_party_line",
-   "party_line_note": "All 33 cosponsors are Democrats and no Republican has signed on; with Republicans holding the House majority and the Ways and Means chairmanship, the bill has not moved past referral."
+   "party_line_note": "All 34 sponsors and cosponsors are House Democrats; no Republican has signed on, and the Republican majority controls the Ways and Means Committee calendar where the bill now sits."
   },
   "industries": [
    {
-    "industry": "Households with over $1 billion in assets or $100 million in annual income",
+    "industry": "Ultra-high-net-worth households and family offices",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill's entire point is to end their ability to defer income tax indefinitely through buy-borrow-die planning and tax-free inherited gains. Their continued benefit under the status quo comes at the cost of a tax code that taxes wages annually but lets the largest unrealized fortunes go untaxed for generations.",
+    "note": "The bill ends the ability to hold appreciated assets, borrow against them tax-free, and pass them to heirs without tax — the core benefit wealthy families currently get from deferral. Their interest in keeping that benefit runs directly against the public interest in a tax system that taxes gains annually.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Closely held businesses and pass-through entities owned by applicable taxpayers",
+    "industry": "Private equity, hedge funds, and pass-through business owners",
     "effect": "loses",
-    "stance_toward_public": "mixed",
-    "note": "Partnerships, S corporations, and other pass-throughs at least 5% owned by covered taxpayers (or holding over $50 million of their nontradable interests) must file notices, report gains and holding periods annually, and make basis adjustments. Small businesses not owned by covered taxpayers are untouched.",
+    "stance_toward_public": "opposed",
+    "note": "The bill reaches ownership interests in partnerships and other pass-through entities, requires entity reporting to covered owners, and eliminates deferral on certain compensation. Fund managers and large private-business owners would owe tax on gains annually instead of when they choose to sell.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Tax advisory, valuation, and wealth management services",
-    "effect": "gains",
+    "industry": "Estate planning and tax advisory firms",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "Strategies the bill targets — 'buy, borrow, die', grantor trust planning, private placement life insurance — are a large fee business built on deferral. Closing the loopholes shrinks the market for that advice, though some demand shifts to compliance work under the new mark-to-market rules.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Private placement life insurance and annuity providers",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "These contracts are currently a favored vehicle for holding investments outside the income tax; the bill counts their cash surrender value toward the asset threshold and directs the Treasury to write rules ensuring the value reflects underlying investments so the vehicle cannot be used to avoid the tax.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Large real estate investors",
+    "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "Annual mark-to-market valuation of private assets, entity reporting, and expatriate rules would generate substantial new compliance and valuation work. Much of the same industry currently earns fees structuring the deferral strategies the bill would close.",
+    "note": "Like-kind (1031) exchanges would no longer indefinitely defer gain for covered taxpayers, and investments in qualified opportunity funds would be treated as nontradable assets. The effect falls only on the biggest, wealthiest holders, not ordinary property owners.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "With no Republican support, no committee hearing, and more than a year left in the Congress, the bill will most likely remain in Ways and Means and expire without a vote at the end of the 119th Congress, as most majority-opposed tax bills do. Its ideas could resurface in a future Congress or in a Democratic tax platform.",
+  "trajectory": "With 34 Democratic sponsors, no Republican support, and a Ways and Means Committee chaired by a Republican who has taken no action, the bill is unlikely to get a markup or floor vote this Congress. Comparable billionaire-tax proposals in recent Congresses have died in committee the same way. Its realistic path is as a marker for future Democratic tax packages rather than a law in this session.",
   "categories": [
    "taxes_on_wealth_and_corporations"
   ],
   "scores": {
-   "public_stakes": 8,
-   "concentrated_stakes": 10,
-   "outcome_against_public": 7,
-   "support_mismatch": 5,
-   "corruption_relevance": 2,
-   "confidence": 0.85
+   "public_stakes": 6,
+   "concentrated_stakes": 9,
+   "outcome_against_public": 3,
+   "support_mismatch": 3,
+   "corruption_relevance": 3,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

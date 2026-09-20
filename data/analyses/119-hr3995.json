@@ -1,194 +1,171 @@
 {
  "bill_id": "119-hr3995",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:04:30+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:05:52+00:00",
  "record_fetched_at": "2026-09-20T08:09:41+00:00",
  "record_hash": "2a0be3d0fe248554",
  "analysis": {
-  "one_liner": "Lets states open Medicaid to any resident who wants to buy in as a low-cost public option.",
-  "headline": "The bill was introduced June 12, 2025 with no cosponsors and referred to two House committees, where it has sat without a hearing, vote, or further action.",
+  "one_liner": "Lets states open Medicaid to residents who buy in, with income-based premium caps.",
+  "headline": "Referred to two House committees on June 12, 2025 with no cosponsors and no committee action since; no vote has been scheduled.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would let each state decide whether to open its Medicaid program to residents who don't qualify for regular Medicaid and aren't covered elsewhere. People could buy in with premiums capped at 8.5% of family income, with the same federal tax credits and out-of-pocket protections that apply to ACA marketplace plans. It would also give the enhanced federal matching rate to any state that expands Medicaid whenever it does so, raise Medicaid pay for primary care doctors to Medicare levels, and require every state Medicaid program to cover reproductive health care including abortion. It was introduced by one representative with no cosponsors and referred to two committees.",
-  "who_benefits": "If it passed and states opted in, people without affordable coverage — especially those who earn too much for Medicaid but find marketplace plans expensive, or who live in areas with no silver plans sold — would gain access to Medicaid-priced coverage with income-based premiums capped at 8.5% of household income, standard ACA out-of-pocket limits, and federal tax credits. People in the ten states that have not expanded Medicaid would also benefit from the new financial incentive to expand, and Medicaid patients would benefit from Medicare-level pay for primary care, which helps them find doctors who accept their coverage.",
-  "who_benefits_short": "Uninsured and underinsured residents of states that opt in",
+  "plain_summary": "This bill would let any state open its Medicaid program to residents who don't already qualify for Medicaid or other coverage. People who buy in would pay premiums capped at 8.5% of household income, could use the same federal premium tax credits available for marketplace plans, and would get standard cost-sharing protections. The bill also makes it easier for states that have never expanded Medicaid to get the enhanced federal matching rate, restores a Medicare-level payment floor for primary care providers treating Medicaid patients, and requires state Medicaid programs to cover comprehensive reproductive health care, including abortion.",
+  "who_benefits": "Adults who earn too much for Medicaid but can't afford or don't have other coverage in states that choose to participate — they could buy into Medicaid at premiums capped at 8.5% of income, with premium tax credits and cost-sharing reductions applied [S2][S3]. Primary care doctors, nurse practitioners, and community clinics gain because the bill restores a payment floor at Medicare rates for primary care services under Medicaid [S3]. States that have not expanded Medicaid gain the chance to claim the enhanced federal matching rate no matter when they expand [S2].",
+  "who_benefits_short": "Uninsured adults in participating states",
   "how_it_helps": [
    {
-    "text": "Starting January 1, 2026, residents not already eligible for Medicaid and not enrolled in other coverage could buy into their state's Medicaid plan, but only if their state elects to offer it.",
+    "text": "Allows states, at their option, to let residents not otherwise eligible for Medicaid buy into the state Medicaid plan starting January 1, 2026 [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Premiums for buy-in coverage could not exceed 8.5% of family income, and deductibles and copays would be subject to the same limits as ACA marketplace plans; enrollees could use the same federal premium tax credits and cost-sharing reductions available for marketplace plans.",
+    "text": "Caps total annual premiums for a family at 8.5% of household income and applies Affordable Care Act cost-sharing limits, with eligibility for federal premium tax credits and cost-sharing reductions [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "States could offer the buy-in through their ACA insurance exchanges and limit enrollment to standard open-enrollment periods, and the federal government would cover 90% of the administrative cost of running the buy-in program.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Any state that expands Medicaid under the Affordable Care Act, no matter how late, would receive the enhanced federal matching rate that early-expanding states got, removing the financial penalty that has kept ten holdout states from expanding.",
+    "text": "Gives every state that expands Medicaid the enhanced federal matching rate regardless of when it expands, removing the penalty for late-expanding states [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Medicaid payments for primary care would be raised to Medicare rates, and the guarantee would extend beyond family doctors to obstetricians, nurse practitioners, physician assistants, certified nurse-midwives, and community health clinics.",
+    "text": "Restores the requirement that Medicaid pay primary care providers no less than Medicare rates, and extends it to obstetricians, nurse practitioners, physician assistants, and certified nurse-midwives, with managed care plans required to pass those payment rates through to providers [S3].",
     "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "All state Medicaid programs would be required to cover comprehensive sexual and reproductive health care, including abortion services.",
-    "sources": [
-     "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "The federal government would cover 90% of the buy-in program's administrative costs, pay the enhanced Medicaid match to any late-expanding state, and fund $50 million for quality-measure updates; states that opt in would run the program and would owe the federal government half of any premiums collected beyond what they spend on enrollees' care. Private marketplace insurers would lose customers in states that offer the option, and federal and state Medicaid spending would rise from the higher primary care payment floor.",
-  "who_pays_short": "Federal taxpayers; private insurers in opt-in states",
+  "who_pays": "Federal taxpayers bear the added cost of the enhanced Medicaid matching rate and a 90% federal match for administering the buy-in program [S3]. Private health insurers selling marketplace or employer plans would lose premium revenue in states where residents shift to the cheaper Medicaid buy-in. Employers whose plans are unaffordable could see workers move to the buy-in option.",
+  "who_pays_short": "Federal taxpayers and private insurers",
   "drawbacks": [
    {
-    "text": "Participation is at the option of each state, so the public option would exist only where states choose to offer it, leaving residents of other states without the choice.",
+    "text": "Participation is optional for states, so coverage would only exist where a state chooses to open its Medicaid program; states with the most uninsured residents could simply decline [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Enrollees could owe premiums of up to 8.5% of family income plus deductibles and coinsurance at ACA-plan levels, which is a substantial share of a tight household budget even with federal tax credits and cost-sharing reductions applied.",
+    "text": "Families could still owe premiums up to 8.5% of household income — a substantial share for middle-income households — and the buy-in coverage is limited to the Medicaid benefit package under section 1902(k)(1) [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill requires every state Medicaid program to cover comprehensive sexual and reproductive health care including abortion services starting January 1, 2026, a condition applying to all states rather than only those opting into the buy-in, which would face immediate political and legal opposition under long-standing federal restrictions on abortion funding.",
+    "text": "The mandate that Medicaid cover comprehensive reproductive health care including abortion would be opposed by some states on policy and funding grounds, and could make adoption of the public option less likely in those states [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Raising Medicaid primary care payments to Medicare rates and extending the 90% enhanced federal match to any state that expands Medicaid, whenever it does so, would increase federal Medicaid spending.",
+    "text": "The bill adds ongoing federal spending through the enhanced matching rate and 90% administrative match, with $50 million appropriated for state quality-measure updates [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The core benefit is real: in states that opt in, people without affordable coverage would get a plan with capped premiums (no more than 8.5% of family income), standard out-of-pocket limits, and federal tax-credit help, backed by a 90% federal share of administrative costs. The honest costs: the state-by-state design leaves people in states that decline the option without it; the 8.5% premium cap can still be a heavy burden for a family near the ceiling; the permanent 90% match for late-expanding states and the Medicare-rate floor for primary care add federal and state spending; and the nationwide abortion-coverage mandate, whatever its merits, would guarantee a floor fight that a narrow, single-sponsor bill is not positioned to win. The bill's biggest design weakness is not what it does but how little political support it assembled.",
+  "benefit_vs_cost": "For people who fall in the coverage gap between Medicaid and affordable marketplace plans, the buy-in option with capped premiums and tax credits is a direct, meaningful benefit. The cost is mainly federal matching spending, and the design deliberately leaves the choice to each state, which limits both the reach and the federal exposure. The state opt-out is the biggest weakness: in states that decline, nothing changes. The abortion-coverage mandate is a genuine political flashpoint that could reduce adoption in some states even if the buy-in itself is popular.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced and sent to two House committees on the same day, and with no other members signing on it has not moved since.",
+   "mechanism": "The bill was introduced and referred to the House Energy and Commerce and Ways and Means committees on June 12, 2025, and neither committee has acted on it since; no vote has been scheduled [S1][S5].",
    "narrative": [
     {
-     "text": "Rep. Kim Schrier introduced the bill on June 12, 2025.",
+     "text": "Rep. Kim Schrier introduced the State Public Option Act in the House on June 12, 2025 [S1][S2].",
      "sources": [
       "S1",
+      "S2"
+     ]
+    },
+    {
+     "text": "The bill was referred to the Committee on Energy and Commerce and the Committee on Ways and Means, with no further action recorded since [S5].",
+     "sources": [
       "S5"
      ]
     },
     {
-     "text": "No other member of the House signed on as a cosponsor.",
+     "text": "The bill has no cosponsors [S4].",
      "sources": [
       "S4"
      ]
-    },
-    {
-     "text": "The bill was referred to the Energy and Commerce Committee and the Ways and Means Committee the day it was introduced; neither committee has taken it up since.",
-     "sources": [
-      "S1",
-      "S5"
-     ]
-    },
-    {
-     "text": "The action record shows no hearings, markups, floor votes, or any activity after the initial referral.",
-     "sources": [
-      "S5"
-     ]
     }
    ],
-   "who_came_out_ahead": "No one has gained or lost yet: the bill simply sits in committee. Health insurers in potential opt-in states are spared a new public competitor for now, and holdout Medicaid states are spared the new federal incentive to expand."
+   "who_came_out_ahead": "With no committee action and no cosponsors, the bill's fate is effectively in the hands of committee leadership, and the status quo continues: private insurers keep the customers they would have lost to a public option, and residents without affordable coverage remain without one."
   },
-  "who_came_out_ahead_short": "No one yet; the bill simply sits unacted upon",
+  "who_came_out_ahead_short": "Incumbent insurers and committee leadership",
   "sides": {
    "for": [
     {
-     "name": "Rep. Kim Schrier",
-     "role": "U.S. Representative (WA-8)",
+     "name": "Kim Schrier",
+     "role": "U.S. Representative (WA-8), bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and is its only sponsor.",
+     "what_they_did": "Introduced the State Public Option Act on June 12, 2025; no member of either party has cosponsored it [S1][S4].",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3",
-      "S5"
+      "S4"
      ]
     }
    ],
    "against": [],
    "party_line": "unclear",
-   "party_line_note": "The only support on record is the Democratic sponsor; with zero cosponsors and no votes, no partisan pattern has formed."
+   "party_line_note": "No votes have been taken and no member of either party has cosponsored the bill, so no partisan pattern is visible in the record; both referral committees have taken no action [S4][S5]."
   },
   "industries": [
    {
-    "industry": "ACA marketplace health insurers",
+    "industry": "Private health insurers (marketplace and employer plans)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "In states that opt in, people could buy Medicaid-based coverage instead of a private marketplace plan, taking customers and premium revenue from marketplace insurers. For ordinary people this is the point: a lower-cost alternative to private premiums.",
+    "note": "A Medicaid buy-in capped at 8.5% of income, purchasable through the exchanges with premium tax credits, is a cheaper alternative that could pull customers away from marketplace and employer coverage in participating states [S3]. Insurers' interest in keeping those premium dollars runs against the interests of residents seeking lower-cost coverage.",
     "sources": [
-     "S2",
      "S3"
     ]
    },
    {
-    "industry": "Medicaid managed care companies",
+    "industry": "Medicaid managed care plans",
     "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "Buy-in enrollees could be enrolled through the same Medicaid managed care contracts states already use, so the companies that administer Medicaid would take on new paying customers whose premiums are subsidized by federal tax credits. Their interest runs alongside the public's here, since more covered people means more revenue with no one losing existing coverage.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "Primary care providers (family doctors, OB/GYNs, nurse practitioners, community health clinics)",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "The bill locks in Medicaid payment rates at Medicare levels for primary care, which today often pays far less. Higher rates make it easier for patients to find doctors who accept their coverage.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "State governments",
-    "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "States gain a permanent 90% federal match if they expand Medicaid and a 90% federal share of buy-in administrative costs, but they take on a new program to operate and may owe the federal government a share of any premiums collected above program costs.",
+    "note": "Buy-in enrollees would be enrolled through state Medicaid managed care contracts, adding covered lives and revenue, while the bill also requires those plans to pass Medicare-level primary care payment rates through to providers [S3].",
     "sources": [
-     "S2",
+     "S3"
+    ]
+   },
+   {
+    "industry": "Primary care providers, community health centers, and clinics",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "The bill restores and broadens the Medicaid payment floor at Medicare rates for family medicine, internal medicine, pediatrics, obstetrics, nurse practitioners, physician assistants, and certified nurse-midwives, and requires managed care entities to pay providers accordingly [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "industry": "Hospitals",
+    "effect": "mixed",
+    "stance_toward_public": "aligned",
+    "note": "More insured patients would reduce uncompensated care, but Medicaid rates are low and the primary care payment floor explicitly excludes services provided in hospital emergency departments [S3].",
+    "sources": [
      "S3"
     ]
    }
   ],
-  "trajectory": "With a single sponsor, no cosponsors, no committee action in the months since referral, and a dual referral to two committees, this bill follows the pattern of the large majority of House bills that are introduced, referred, and never heard from again. It would need cosponsors, a committee hearing or markup, and eventual floor scheduling to move, none of which has begun; its abortion-coverage provision would also make passage difficult in the current Congress even if it advanced.",
+  "trajectory": "A health coverage bill with no cosponsors, sitting in two committees for months with no markup or hearing scheduled, rarely reaches the floor. Unless the sponsor builds cosponsor support or leadership decides to prioritize it, the most likely path is that the bill dies in committee when this Congress ends in January 2027.",
   "categories": [
    "healthcare_and_drug_prices",
    "social_safety_net"
   ],
   "scores": {
-   "public_stakes": 8,
+   "public_stakes": 7,
    "concentrated_stakes": 6,
-   "outcome_against_public": 2,
+   "outcome_against_public": 3,
    "support_mismatch": 2,
    "corruption_relevance": 1,
-   "confidence": 0.9
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

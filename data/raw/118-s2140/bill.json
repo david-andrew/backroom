@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/2140/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2140/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2140/cosponsors?format=json"
+  },
+  "introducedDate": "2023-06-22",
+  "latestAction": {
+   "actionDate": "2024-01-23",
+   "text": "Committee on the Judiciary Subcommittee on Intellectual Property. Hearings held. With printed Hearing: S.Hrg. 118-460."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/2140",
+  "number": "2140",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000476",
+    "firstName": "Thomas",
+    "fullName": "Sen. Tillis, Thomas [R-NC]",
+    "isByRequest": "N",
+    "lastName": "Tillis",
+    "middleName": "Roland",
+    "party": "R",
+    "state": "NC",
+    "url": "https://api.congress.gov/v3/member/T000476?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/118/s/2140/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2140/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2140/text?format=json"
+  },
+  "title": "Patent Eligibility Restoration Act of 2023",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/2140/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "2140",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

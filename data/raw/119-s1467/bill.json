@@ -1,0 +1,80 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/119/s/1467/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1467/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 45,
+   "countIncludingWithdrawnCosponsors": 45,
+   "url": "https://api.congress.gov/v3/bill/119/s/1467/cosponsors?format=json"
+  },
+  "introducedDate": "2025-04-10",
+  "latestAction": {
+   "actionDate": "2025-06-17",
+   "actionTime": "11:02:25",
+   "text": "Held at the desk."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1467",
+  "notes": [
+   {
+    "text": "The text of <a href=\"https://www.congress.gov/bill/119/S/1467\" target=\"_blank\">S.1467</a> is contained in the text of <a href=\"https://www.congress.gov/bill/119/HR/2808\" target=\"_blank\">H.R.2808</a>, which became Public Law 119-36."
+   }
+  ],
+  "number": "1467",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1467/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000122",
+    "firstName": "John",
+    "fullName": "Sen. Reed, Jack [D-RI]",
+    "isByRequest": "N",
+    "lastName": "Reed",
+    "middleName": "F.",
+    "party": "D",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/R000122?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/119/s/1467/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1467/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/1467/text?format=json"
+  },
+  "title": "Homebuyers Privacy Protection Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/119/s/1467/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-06-16T17:29:20Z",
+  "updateDateIncludingText": "2026-07-18T20:50:37Z"
+ },
+ "request": {
+  "billNumber": "1467",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

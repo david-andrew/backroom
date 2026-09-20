@@ -1,124 +1,102 @@
 {
  "bill_id": "119-hr3546",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:18:01+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:04:29+00:00",
  "record_fetched_at": "2026-09-20T07:55:00+00:00",
  "record_hash": "550e2176bc52d97f",
  "analysis": {
-  "one_liner": "Strips monopoly protections from brand-name drugs priced far above what other rich countries pay.",
-  "headline": "Khanna's Prescription Drug Price Relief Act was introduced in the House with 4 cosponsors and referred to two committees, where no action has been taken since May 2025.",
+  "one_liner": "Strips patent monopolies from drugmakers who charge Americans more than other countries pay.",
+  "headline": "The bill was introduced in May 2025 and referred to two House committees, where it has sat with no action, no hearings, and no vote.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would have the Department of Health and Human Services review every brand-name drug's price each year. Any drug priced above the median price charged in Canada, the UK, Germany, France, and Japan would be declared excessive, and the government would cancel the exclusivity that keeps generic competitors off the market — issuing open licenses so any company could make a cheaper version, with a royalty paid to the original maker. It also requires drug companies to disclose their pricing, research, and advertising spending, and creates a public database of the findings.",
-  "who_benefits": "Patients and insurers who pay U.S. brand-name drug prices that are higher than what the same drugs cost in other wealthy countries. Americans routinely pay several times the Canadian or German price for identical medicines. Generic and biosimilar makers would gain a new, legally protected path to sell cheaper versions, paying a reasonable royalty to the original developer. Taxpayers also benefit, since Medicare and Medicaid foot part of the bill for high U.S. drug prices.",
-  "who_benefits_short": "Patients paying U.S. drug prices",
+  "plain_summary": "The bill would make the Department of Health and Human Services review all brand-name drug prices every year against median prices in Canada, the UK, Germany, France, and Japan. If a drug costs more here than the median price abroad, the government would strip the manufacturer's exclusive rights, license any company to make a generic version, and require the licensed copies to be sold below the excessive price. It would also create a public database of price determinations and require drugmakers to disclose what they spend on research and advertising. It has not received any action beyond its committee referral.",
+  "who_benefits": "Patients who take brand-name drugs, especially expensive ones, plus taxpayers and insurers who pay those prices. If a drug is found excessively priced, generic and biosimilar makers could enter the market with an expedited 8-month review and would have to sell below the excessive price [S3].",
+  "who_benefits_short": "Patients on expensive brand-name drugs",
   "how_it_helps": [
    {
-    "text": "HHS must review all brand-name drugs at least annually and declare a price excessive if the U.S. average manufacturer price exceeds the median price in Canada, the UK, Germany, France, and Japan [S2][S3].",
+    "text": "HHS would review every brand-name drug's price at least annually, using median prices in Canada, the UK, Germany, France, and Japan as the benchmark, with a public database showing which drugs were found excessive.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "For a drug declared excessively priced, HHS must void the government-granted exclusivity that blocks generic competitors and grant open, non-exclusive licenses allowing anyone to make and sell the drug, with expedited 8-month review of generic and biosimilar applications [S3].",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Licensed generic makers pay a reasonable royalty to the original patent holder and must sell below the excessive price, so developers are compensated while prices fall [S2][S3].",
+    "text": "For a drug found excessively priced, the government would void its exclusivities and issue open, non-exclusive licenses letting any company make a cheaper generic or biosimilar, with expedited 8-month review of those applications.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "The bill requires manufacturers to report detailed pricing, research, and advertising spending for each brand-name drug and creates a public database of excessive-price determinations, with civil penalties up to 1% of a drug's gross revenues per day for noncompliance funding NIH research grants [S2][S3].",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Any person can petition HHS for an excessive-price determination on a specific drug, and HHS must act within 90 days or publicly explain why not [S3].",
+    "text": "Anyone could petition HHS for a determination on a drug, and the bill bars manufacturers from anticompetitive behavior that interferes with the licenses.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Brand-name pharmaceutical companies, which would lose monopoly pricing power — and potentially large revenues — on any drug the government declares excessively priced. Some revenue would be recaptured through royalties, but generic competition generally cuts prices sharply. Companies would also bear new annual reporting costs.",
+  "who_pays": "Brand-name drug manufacturers, whose exclusive rights and pricing power the bill would take away when they charge US prices above foreign medians, and who would face detailed annual financial reporting with penalties of up to 1% of a drug's daily gross revenue for noncompliance [S3].",
   "who_pays_short": "Brand-name drug manufacturers",
   "drawbacks": [
    {
-    "text": "The mechanism is aggressive: voiding exclusivity and issuing compulsory licenses whenever a U.S. price exceeds the median of five reference countries would override patents and regulatory exclusivities that Congress deliberately created to reward drug development, and companies could respond by launching new drugs abroad first or shifting investment [S3].",
+    "text": "It would strip exclusive patent rights from manufacturers whose US prices exceed median prices in Canada, the UK, Germany, France, and Japan — a company could lose monopoly control over a drug it invented and tested, which brand-name manufacturers argue undercuts the profits that pay for developing new drugs.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Comparing U.S. average manufacturer prices to foreign list prices is complicated by different rebate and pricing systems abroad, and a rigid median-price test could flag drugs whose U.S. net prices are actually lower after discounts [S3].",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "The bill leaves a great deal to the Secretary's discretion, including what counts as a reasonable royalty and how to weigh the factors in the fallback 'higher than reasonable' test, which could produce inconsistent or politicized determinations [S3].",
+    "text": "Generic or biosimilar versions sold under an open license would still pay a reasonable royalty and could take months to enter the market, so price relief for any given drug would not be immediate [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "For patients, the potential gains are large: U.S. prices for the same drugs are often multiples of prices in peer countries, and this bill attacks that gap directly rather than with negotiation. The tradeoff is real — it trades stronger patent protection for lower prices, which could modestly discourage some drug investment — but the royalty mechanism and the fallback test based on development costs and patient value acknowledge that tradeoff. It is a sweeping bill that would face serious implementation questions, but its costs fall on an industry with high margins, not on ordinary people.",
+  "benefit_vs_cost": "The potential benefit is large — prescription drug prices in the US run well above the prices other wealthy countries pay, and opening the market to generics when prices are out of line directly lowers costs for patients, insurers, and taxpayers. The main costs and risks: generic entry can take time even after licenses are issued, and weaker effective exclusivity could somewhat reduce the profits that fund pharmaceutical research, particularly for marginal drugs. The bill preserves reasonable royalties and development-cost review, which softens but does not eliminate that concern. On balance, the public benefit of ending above-world-price monopolies outweighs the research-incentive cost, though the bill's design depends heavily on how aggressively HHS administers it.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and referred to the House Energy and Commerce and Judiciary committees, and neither has taken it up — no hearing, no vote, nothing since the May 2025 referral [S1][S5].",
+   "mechanism": "It was sent to the Energy and Commerce and Judiciary committees on the day it was introduced, and neither committee has taken it up since.",
    "narrative": [
     {
-     "text": "Rep. Ro Khanna introduced the bill on May 21, 2025, joined by Rep. Jan Schakowsky, and it was referred to the Committee on Energy and Commerce and in addition to the Committee on the Judiciary [S1][S3][S5].",
+     "text": "The bill was introduced on May 21, 2025 and referred to the House Energy and Commerce and Judiciary committees the same day.",
      "sources": [
       "S1",
-      "S3",
       "S5"
      ]
     },
     {
-     "text": "It has 4 cosponsors, all Democrats [S4].",
+     "text": "The action history shows no hearings, no markup, no committee vote, and no floor action after the referral.",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "It drew only 4 cosponsors, all House Democrats, out of 217.",
      "sources": [
       "S4"
      ]
-    },
-    {
-     "text": "No further action has been recorded — the bill has sat in committee since its referral [S1][S5].",
-     "sources": [
-      "S1",
-      "S5"
-     ]
     }
    ],
-   "who_came_out_ahead": "Brand-name drug makers keep their current monopoly pricing and pay nothing, and the committees' leadership avoided a politically charged fight on their calendars."
+   "who_came_out_ahead": "Brand-name drug manufacturers keep their exclusive rights and their freedom to set US prices above what other countries pay. Patients and insurers keep paying those prices."
   },
-  "who_came_out_ahead_short": "Brand-name drug makers",
+  "who_came_out_ahead_short": "Brand-name drug manufacturers",
   "sides": {
    "for": [
     {
      "name": "Rep. Ro Khanna",
-     "role": "Sponsor, House Judiciary Committee",
+     "role": "Sponsor",
      "party": "D",
-     "what_they_did": "Introduced the Prescription Drug Price Relief Act of 2025 and referred it to two committees.",
+     "what_they_did": "Introduced the bill and its preceding versions of the same proposal.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3",
-      "S5"
+      "S3"
      ]
     },
     {
      "name": "Rep. Jan Schakowsky",
      "role": "Original cosponsor",
      "party": "D",
-     "what_they_did": "Joined Khanna in introducing the bill.",
+     "what_they_did": "Joined as an original cosponsor at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -126,10 +104,10 @@
      ]
     },
     {
-     "name": "4 Democratic cosponsors",
-     "role": "House Democrats",
+     "name": "4 of 217 House Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Cosponsored the bill; all listed cosponsors are Democrats.",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -139,67 +117,74 @@
    ],
    "against": [
     {
-     "name": "House Energy and Commerce Committee leadership",
-     "role": "Primary committee of referral",
-     "party": "R",
-     "what_they_did": "Has taken no action on the bill — no hearing or markup since the May 2025 referral.",
+     "name": "House Energy and Commerce and Judiciary Committees",
+     "role": "Committees of referral",
+     "party": null,
+     "what_they_did": "Received the bill on referral and have taken no action on it since May 2025.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S1",
       "S5"
      ]
     },
     {
-     "name": "House Judiciary Committee leadership",
-     "role": "Secondary committee of referral",
+     "name": "Speaker of the House",
+     "role": "House leadership",
      "party": "R",
-     "what_they_did": "Has taken no action on the bill since referral.",
+     "what_they_did": "The bill was never scheduled for floor consideration; the referral structure gave the Republican-controlled committees and leadership full discretion over whether it would advance.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S1",
       "S5"
      ]
+    },
+    {
+     "name": "Pharmaceutical industry",
+     "role": "Brand-name drug manufacturers",
+     "party": null,
+     "what_they_did": "The industry has consistently opposed measures that would undercut patent exclusivity or reference international drug prices.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
    "party_line": "party_line",
-   "party_line_note": "All five sponsors and cosponsors are Democrats; no Republican support is recorded, and the Republican-controlled committees have not moved the bill [S4][S5]."
+   "party_line_note": "All five sponsors and cosponsors are Democrats, and with Republicans controlling the House and its committees the bill has received no consideration."
   },
   "industries": [
    {
     "industry": "Brand-name drug manufacturers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill voids the exclusivities that keep generic rivals off the market whenever a drug's U.S. price exceeds peer-country medians, directly threatening monopoly revenues. Because the industry's gain comes from charging Americans more than other wealthy countries pay for the same drugs, its interest runs against patients'.",
+    "note": "The bill would void their government-granted exclusivities and open their patents to any competitor whenever US prices exceed median prices in five peer countries, and require detailed financial reporting on pricing, research, and marketing. It directly attacks the pricing power that makes US drugs the most expensive in the world.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Generic and biosimilar drug manufacturers",
+    "industry": "Generic and biosimilar drug makers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "The bill grants open, non-exclusive licenses and 8-month expedited reviews, giving generic makers a fast legal route to sell cheaper versions. Their gain is the public's gain: lower prices for the same medicine.",
+    "note": "They would gain the right to make and sell licensed versions of excessively priced brand-name drugs with expedited FDA review, creating a large new market for them and cheaper options for patients.",
     "sources": [
      "S2",
      "S3"
     ]
    }
   ],
-  "trajectory": "With only 4 cosponsors, no Republican support, and no committee action in months, the realistic path is that the bill sits in committee and expires at the end of the 119th Congress without a hearing or vote. Comparable international-reference-pricing and compulsory-licensing bills have repeatedly stalled in past Congresses.",
+  "trajectory": "With only 4 cosponsors, no hearings or markup in either committee of referral, and a Republican House majority that has not taken it up, the bill will very likely die quietly at the end of the Congress without a vote, as previous versions of this proposal have.",
   "categories": [
    "healthcare_and_drug_prices",
    "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 7,
+   "public_stakes": 9,
    "concentrated_stakes": 9,
-   "outcome_against_public": 5,
-   "support_mismatch": 2,
-   "corruption_relevance": 3,
-   "confidence": 0.85
+   "outcome_against_public": 6,
+   "support_mismatch": 3,
+   "corruption_relevance": 2,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

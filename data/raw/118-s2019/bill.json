@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/2019/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2019/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 14,
+   "url": "https://api.congress.gov/v3/bill/118/s/2019/cosponsors?format=json"
+  },
+  "introducedDate": "2023-06-15",
+  "latestAction": {
+   "actionDate": "2023-06-15",
+   "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/2019",
+  "number": "2019",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2019/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001198",
+    "firstName": "Roger",
+    "fullName": "Sen. Marshall, Roger [R-KS]",
+    "isByRequest": "N",
+    "lastName": "Marshall",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/M001198?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2019/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2019/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2019/text?format=json"
+  },
+  "title": "Ending Agricultural Trade Suppression Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/2019/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T08:47:06Z",
+  "updateDateIncludingText": "2025-12-05T08:47:06Z"
+ },
+ "request": {
+  "billNumber": "2019",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

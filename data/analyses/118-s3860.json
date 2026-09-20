@@ -1,118 +1,116 @@
 {
  "bill_id": "118-s3860",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T16:09:52+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:50:01+00:00",
  "record_fetched_at": "2026-09-20T15:40:54+00:00",
  "record_hash": "1b8a4ff9fb540e48",
  "analysis": {
-  "one_liner": "Bars Medicare providers from forcing nurses to work beyond scheduled shifts or 48 hours a week.",
-  "headline": "The bill was introduced in March 2024 and sent to the Senate Finance Committee, which took no further action before the 118th Congress ended, so it never received a vote.",
+  "one_liner": "Bars Medicare providers from forcing nurses to work beyond scheduled shifts, 48 hours a week, or 12 hours straight.",
+  "headline": "The bill never received a committee vote; it died in the Senate Finance Committee at the end of the 118th Congress with only 3 cosponsors.",
   "direction": "for_working_people",
-  "plain_summary": "Hospitals and other Medicare providers could no longer make nurses work beyond a scheduled shift, more than 48 hours a week, or more than 12 hours straight, with a required 10-hour rest after a 12-hour shift. Nurses who refuse mandatory overtime or report violations would be protected from firing or retaliation, and facilities could face civil penalties. The rules would not apply during declared emergencies, and nurses could still volunteer for extra hours.",
-  "who_benefits": "Registered nurses and licensed practical nurses, especially those routinely pushed into involuntary overtime, plus the patients they care for. Research cited in the bill links long nurse hours to fatigue, impaired vigilance, and medical errors.",
+  "plain_summary": "This bill would use Medicare's power over hospitals, home health agencies, clinics, and other providers to stop them from forcing nurses into mandatory overtime. Nurses could not be required to work beyond a scheduled shift, more than 48 hours a week, more than 12 consecutive hours, or the 10 hours right after finishing a 12-hour stretch. It would also protect nurses who complain about violations, require posted schedules and notice policies, and allow fines up to $10,000 per knowing violation.",
+  "who_benefits": "Registered nurses and licensed practical nurses who would no longer face mandatory overtime, mandatory 10-hour rests after long shifts, and new whistleblower and anti-retaliation protections. Patients also benefit, since the bill cites research linking nurse fatigue to medical errors [S2][S3].",
   "who_benefits_short": "Nurses and their patients",
   "how_it_helps": [
    {
-    "text": "Caps mandatory nursing overtime at the scheduled shift, 48 hours per week, or 12 consecutive hours, and requires a 10-hour break after the 12th hour worked.",
+    "text": "Prohibits providers that take Medicare patients from requiring nurses to work more than a previously scheduled shift, 48 hours in a workweek, or 12 consecutive hours, or to work during the 10 hours after a 12-hour shift [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Protects nurses from being fired, demoted, disciplined, or reported to state licensing boards for refusing mandatory overtime or reporting violations, and sets up a complaint process with the Health and Human Services Secretary.",
+    "text": "Protects nurses who refuse mandatory overtime or report violations from being fired, demoted, disciplined, or reported to state licensing boards in retaliation [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Lets nurses file complaints with the Secretary of Health and Human Services, requires investigations, and allows civil money penalties of up to $10,000 per knowing violation, with steeper penalties for repeat offenders [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Lets the Secretary impose civil money penalties of up to $10,000 per knowing violation, with stiffer penalties for repeat violators, and publish violators' names online.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "The bill's findings note that 18 states have already restricted mandatory overtime for nurses, and that research links regulated nurse work hours to improved patient safety.",
+    "text": "Exempts only declared emergencies and disasters, and even then only after the provider shows it tried to fill staffing needs another way; a labor dispute or 'consistent understaffing' does not count as an emergency [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Hospitals and other Medicare-participating providers, which would lose the ability to cover staffing shortages by ordering nurses to stay past their shifts. They would have to hire more staff, rely on voluntary overtime, or pay premiums, and pass those costs to insurers, patients, or taxpayers.",
+  "who_pays": "Hospitals, home health agencies, ambulatory surgical centers, and other Medicare providers, who would need to hire more staff or limit scheduling instead of extending nurses' hours. Some of that staffing cost could flow to Medicare, insurers, and patients [S3].",
   "who_pays_short": "Hospitals and Medicare providers",
   "drawbacks": [
    {
-    "text": "In a true staffing shortfall outside a declared emergency, a hospital could no longer require a nurse to stay past a scheduled shift, which could force units to transfer patients, close beds, or delay care until coverage is found.",
+    "text": "The limits could leave hospitals short-handed during staff shortages, since the emergency exception excludes shortages caused by 'consistent understaffing' — a hospital with chronic vacancies would have to cover shifts through hiring or voluntary overtime, which can be costly and difficult [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Hospitals would face new labor costs from hiring additional nurses or paying voluntary-overtime premiums to cover gaps, costs that flow to Medicare, private insurers, and patients in the form of higher payments.",
+    "text": "A hospital's compliance costs for hiring additional nursing staff could be passed on to Medicare, private insurers, and patients, and rural or safety-net hospitals operating on thin margins could feel the squeeze [S3].",
     "sources": [
-     "S2",
      "S3"
     ]
    },
    {
-    "text": "The cap counts on-call and standby time as hours worked even when the nurse is not required to be at the facility, which some providers would argue overstates actual fatigue and limits scheduling flexibility.",
+    "text": "The bill's own findings acknowledge that limits on work hours can create 'potential pitfalls of discontinuity in care' when handoffs between shifts increase, even as it concludes the safety benefits outweigh that risk [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit side is well documented: research cited in the bill ties long, involuntary nurse hours to medical errors and patient harm, and 18 states have already adopted similar limits. The cost is real but ordinary: hospitals would need to staff more predictably rather than absorbing shortages by extending individual nurses' shifts. The main design weakness is that the emergency exception excludes chronic understaffing, so hospitals that run perpetually short would have to fix it rather than paper over it.",
+  "benefit_vs_cost": "The core trade is straightforward: shorter, more predictable nurse shifts and fewer fatigue-driven errors, paid for through higher staffing costs at hospitals and other providers. The bill is narrowly drawn — voluntary overtime stays legal, emergencies get a genuine escape valve, and stronger state laws are untouched — so the design is reasonable. The unresolved question is cost: who funds the extra staffing, and whether fragile rural hospitals can absorb it. Those questions never got examined because the bill never received a hearing or vote.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "Senator Merkley introduced it in March 2024 and it was referred to the Senate Finance Committee, which never took it up, so it died there when the 118th Congress ended in January 2025.",
+   "mechanism": "It was introduced and referred to the Senate Finance Committee on the same day, and the committee never took it up before the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "The bill was introduced on March 5, 2024, by Senator Merkley with three Democratic cosponsors (Butler, Van Hollen, and Fetterman).",
+     "text": "Sen. Jeff Merkley introduced the bill on March 5, 2024, joined by Sens. Butler, Van Hollen, and Fetterman [S1][S3].",
      "sources": [
       "S1",
-      "S3",
-      "S4"
+      "S3"
      ]
     },
     {
-     "text": "It was read twice and referred to the Senate Committee on Finance the same day.",
+     "text": "The Senate read it twice and referred it to the Committee on Finance that same day — the only action recorded beyond introduction [S5].",
      "sources": [
-      "S1",
       "S5"
      ]
     },
     {
-     "text": "No further action was recorded before the 118th Congress ended on January 3, 2025, so the bill never reached the committee, the floor, or a vote.",
+     "text": "The bill had 3 cosponsors, all Democrats, and the Finance Committee never scheduled a markup or vote, so it died at the end of the 118th Congress [S1][S4][S5].",
      "sources": [
+      "S1",
+      "S4",
       "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Hospitals and other Medicare providers keep the ability to require nurses to work beyond their scheduled shifts without penalty, and nursing staff continue to bear the fatigue and patient-safety risks that the bill cited."
+   "who_came_out_ahead": "Hospitals, home health agencies, and other Medicare providers are better off, since they avoid the staffing limits, reporting requirements, and fines the bill would have imposed. Nurses and patients gain nothing from the outcome."
   },
-  "who_came_out_ahead_short": "Hospitals that mandate nurse overtime",
+  "who_came_out_ahead_short": "Hospitals and Medicare providers",
   "sides": {
    "for": [
     {
      "name": "Sen. Jeff Merkley",
-     "role": "Sponsor",
+     "role": "U.S. Senator, bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill to limit mandatory nurse overtime as a condition of Medicare participation.",
+     "what_they_did": "Introduced the Nurse Overtime and Patient Safety Act and led it as sole sponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3",
-      "S5"
+      "S3"
      ]
     },
     {
      "name": "Sens. Laphonza Butler, Chris Van Hollen, and John Fetterman",
-     "role": "Original cosponsors",
+     "role": "Senate cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as cosponsors at introduction; the bill's only recorded support.",
+     "what_they_did": "Cosponsored the bill, its only cosponsors.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -123,36 +121,47 @@
    ],
    "against": [
     {
-     "name": "Senate Finance Committee leadership",
-     "role": "Committee of referral",
-     "party": "D",
-     "what_they_did": "Received the bill on referral and took no further action — no hearing, markup, or vote was scheduled before the Congress ended.",
+     "name": "Senate Finance Committee",
+     "role": "Committee to which the bill was referred",
+     "party": null,
+     "what_they_did": "Never scheduled a hearing, markup, or vote on the bill, letting it die at the end of the Congress.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S5"
+      "S5",
+      "S1"
      ]
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "The bill had only Democratic sponsors (4 senators) and no recorded votes or floor debate, so no partisan split was ever tested."
+   "party_line_note": "All four supporters were Democrats and no Republican cosponsored, but the bill never reached a vote, so no record shows how most senators would have voted."
   },
   "industries": [
    {
-    "industry": "Hospitals and Medicare-participating providers",
+    "industry": "Hospitals and health systems",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would remove the option of covering staffing gaps by mandating overtime from nurses, forcing providers to hire more staff or pay premiums. Their interest in lower labor costs runs directly against the patient-safety and nurse-fatigue concerns the bill targets.",
+    "note": "The bill would cap mandatory overtime at Medicare-participating hospitals and psychiatric, outpatient, and critical access hospitals, forcing them to staff shifts through hiring or voluntary overtime instead of extending nurses' hours. The cost savings hospitals preserve by defeating it come at the expense of rested nurses and lower error rates [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Nurse staffing agencies and temporary nursing services",
+    "industry": "Home health agencies and clinics",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "Home health agencies, rural health clinics, federally qualified health centers, ambulatory surgical centers, and rehabilitation agencies would face the same overtime caps and documentation and notice requirements as hospitals [S2][S3].",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "industry": "Registered and licensed practical nurses",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "With mandatory overtime off the table, hospitals facing shortages would need to fill shifts through hires and temporary staffing rather than extending existing nurses' hours, likely increasing demand for agency staffing.",
+    "note": "Nurses would gain enforceable overtime limits, mandatory 10-hour rests after 12-hour shifts, and whistleblower and anti-retaliation protections, enforceable through complaints to HHS and civil money penalties [S3].",
     "sources": [
      "S3"
     ]
@@ -160,16 +169,16 @@
   ],
   "trajectory": null,
   "categories": [
-   "healthcare_and_drug_prices",
-   "wages_and_labor"
+   "wages_and_labor",
+   "healthcare_and_drug_prices"
   ],
   "scores": {
    "public_stakes": 6,
    "concentrated_stakes": 5,
    "outcome_against_public": 7,
-   "support_mismatch": 5,
+   "support_mismatch": 3,
    "corruption_relevance": 1,
-   "confidence": 0.9
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

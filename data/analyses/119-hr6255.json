@@ -1,175 +1,157 @@
 {
  "bill_id": "119-hr6255",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:25:09+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:32:31+00:00",
  "record_fetched_at": "2026-09-20T07:58:03+00:00",
  "record_hash": "868656858628f87d",
  "analysis": {
-  "one_liner": "Caps insulin out-of-pocket costs at $35 a month and waives deductibles for insulin in private health plans.",
-  "headline": "The bill was introduced in November 2025 and sent to three House committees, where it has had no further action.",
+  "one_liner": "Caps out-of-pocket insulin costs at $35 a month for people with private health insurance.",
+  "headline": "The bill, introduced November 21, 2025, has only been referred to three House committees and has not moved since.",
   "direction": "for_working_people",
-  "plain_summary": "The bill requires private health plans — employer plans and individual insurance bought on or off the marketplaces — to cover at least one insulin of every type and dosage form with no deductible and cost-sharing capped at $35 for a 30-day supply, or 25% of the plan's net price if that's cheaper. It also forces catastrophic plans to cover insulin before the enrollee has hit their huge annual deductible, and makes insulin cost-sharing count toward deductibles and out-of-pocket maximums. It does not set the price drug makers can charge; it only limits what the patient pays out of pocket.",
-  "who_benefits": "People who use insulin and have private insurance — through an employer or bought individually. They would no longer pay a deductible before insulin coverage starts and would pay at most $35 per 30-day supply (or 25% of the plan's net insulin price if lower). People with high-deductible or catastrophic plans benefit most, since insulin would be covered up front instead of after thousands of dollars in spending.",
+  "plain_summary": "This bill would require private health plans — employer plans, plans bought on the ACA marketplaces, and even bare-bones catastrophic plans — to cover at least one insulin product of every type and dosage form with no deductible and cost-sharing of no more than $35 for a 30-day supply (or 25% of the negotiated price, if lower). It counts rebates that middlemen like pharmacy benefit managers receive when calculating that cap. It does not change Medicare or Medicaid, which already have a $35 insulin cap under a 2022 law, and it does not apply to insulin products a plan does not designate as covered.",
+  "who_benefits": "People with private insurance who use insulin — roughly several million Americans with type 1 and insulin-dependent type 2 diabetes — who would pay no more than $35 a month for their insulin, with nothing going toward their deductible first. Plans would also have to cover insulin before catastrophic-plan enrollees hit their deductible.",
   "who_benefits_short": "Insulin users with private insurance",
   "how_it_helps": [
    {
-    "text": "Group and individual health plans must cover selected insulin products with no deductible and cost-sharing capped at $35 per 30-day supply, or 25% of the plan's net negotiated price if lower [S2].",
+    "text": "Caps cost-sharing for covered insulin at the lesser of $35 per 30-day supply or 25% of the negotiated price net of all price concessions, including pharmacy benefit manager rebates, and bars applying the deductible to it [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Plans must cover at least one product of each insulin type (rapid-, short-, intermediate-, long-, ultra long-acting, and premixed) and each dosage form (vial, pump, inhaler) when available [S2].",
+    "text": "Requires every plan to cover at least one insulin product of each dosage form (vial, pump, inhaler) and each type (rapid-acting, long-acting, premixed, etc.), so no insulin user is left without a covered option [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Catastrophic plans must cover selected insulin products before the enrollee has reached the annual deductible limit, so people with catastrophic coverage get protected insulin pricing up front [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Cost-sharing paid for insulin counts toward deductibles and out-of-pocket maximums, so insulin spending still moves people toward full coverage [S2].",
+    "text": "Applies to group health plans, individual market plans, and catastrophic plans, and requires the capped cost-sharing to count toward deductibles and out-of-pocket maximums [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Health plans and the employers and insurers behind them absorb the difference between what patients used to pay and the $35 cap, which could show up as somewhat higher premiums spread across everyone with the plan. Pharmacy benefit managers may capture fewer price concessions on insulin. Drug makers face no new price limit, so the underlying list price of insulin is unchanged.",
-  "who_pays_short": "Health plans, employers, and pharmacy benefit managers",
+  "who_pays": "Health insurers and employers who sponsor group plans would absorb the difference between the $35 cap and what patients currently pay, likely passed on as slightly higher premiums spread across all enrollees. Insulin users who buy non-selected or out-of-network products get no protection.",
+  "who_pays_short": "Insurers, employers, and premium payers generally",
   "drawbacks": [
    {
-    "text": "The bill caps only what the patient pays out of pocket — it puts no limit on the price manufacturers can charge, so the underlying cost of insulin is untouched and the difference is shifted into premiums and plan costs [S2].",
+    "text": "The cap only applies to insulin products each plan selects; a patient whose doctor prescribes a different brand or formulation can still face full cost-sharing, and out-of-network pharmacies get no protection [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The cap applies only to the plan's 'selected insulin products'; plans can still charge higher cost-sharing on any other insulin products not on that list [S2].",
+    "text": "It caps what patients pay but does not cap what plans pay manufacturers and middlemen, so the underlying high list prices of insulin are untouched and the cost lands in premiums for everyone, including people who do not use insulin.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Plans can impose higher cost-sharing or deny coverage for insulin delivered by an out-of-network provider [S2].",
+    "text": "Plans may argue that mandatory rich benefits raise premiums and could push some employers or insurers to trim other benefits or drop coverage; the bill itself offers no funding to offset those costs.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The patient-side benefit is real and immediate: no deductible and a $35 monthly ceiling for insulin users, which for people on high-deductible plans can be the difference between rationing insulin and taking it as prescribed. The honest cost is that the money has to come from somewhere — plans, employers, and eventually premiums — and because the bill does not cap manufacturer prices, it leaves the biggest driver of insulin costs alone. It is a targeted patient-protection bill, not a price fix.",
+  "benefit_vs_cost": "For the people it covers, this is a direct, immediate benefit: no insulin user in a private plan would pay more than $35 a month for their insulin. The costs are real but diffuse — modestly higher premiums spread across insured people and employer plans — and the design has gaps, notably the out-of-network carve-out and the fact that it rides on top of, rather than reforms, high insulin list prices. On balance the benefit to insulin users outweighs the broad premium cost, though a more complete fix would address prices themselves.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced in late November 2025 and referred to three House committees, and none of them has taken it up since.",
+   "mechanism": "It was introduced in the House and split among three committees — Energy and Commerce, Ways and Means, and Education and Workforce — and none has taken it up yet.",
    "narrative": [
     {
-     "text": "Rep. Angie Craig introduced the Affordable Insulin Now Act on November 21, 2025 [S1].",
-     "sources": [
-      "S1"
-     ]
-    },
-    {
-     "text": "The bill was referred to the Energy and Commerce, Ways and Means, and Education and Workforce Committees; no committee has acted and no vote has been scheduled [S4].",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "All 11 cosponsors are House Democrats, and no further action has occurred since referral [S3].",
-     "sources": [
-      "S3"
-     ]
-    }
-   ],
-   "who_came_out_ahead": "So far, nothing has changed: health plans, employers, and pharmacy benefit managers keep the current cost-sharing arrangements, and insulin users with private coverage keep paying whatever their plans charge."
-  },
-  "who_came_out_ahead_short": "No one has moved; current plan cost-sharing continues",
-  "sides": {
-   "for": [
-    {
-     "name": "Rep. Angie Craig",
-     "role": "U.S. Representative, Minnesota; bill sponsor",
-     "party": "D",
-     "what_they_did": "Introduced the bill on November 21, 2025, capping private-plan insulin cost-sharing at $35 per month [S1].",
-     "direct": true,
-     "evidence": "record",
+     "text": "Rep. Angie Craig introduced the Affordable Insulin Now Act on November 21, 2025, with four original cosponsors [S1] [S2].",
      "sources": [
       "S1",
-      "S4"
-     ]
-    },
-    {
-     "name": "Reps. McBath, Horsford, Landsman, and Schrier",
-     "role": "Original cosponsors",
-     "party": "D",
-     "what_they_did": "Joined as original cosponsors at introduction [S2].",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
       "S2"
      ]
     },
     {
-     "name": "11 House Democrats",
-     "role": "Cosponsors",
-     "party": "D",
-     "what_they_did": "Signed on as cosponsors; no Republican has [S3].",
-     "direct": true,
-     "evidence": "record",
+     "text": "The Speaker referred it to the Committee on Energy and Commerce and, in addition, to the Committees on Ways and Means, and Education and Workforce, for provisions falling within their jurisdictions [S4].",
      "sources": [
-      "S3"
+      "S4"
      ]
-    }
-   ],
-   "against": [
+    },
     {
-     "name": "House committees of jurisdiction (Energy and Commerce, Ways and Means, Education and Workforce)",
-     "role": "Committees to which the bill was referred",
-     "party": null,
-     "what_they_did": "Received the bill by referral in November 2025 and have taken no action — no hearing, markup, or vote scheduled [S4].",
-     "direct": true,
-     "evidence": "record",
+     "text": "No committee markup, hearing, or floor vote has been scheduled as of the latest action record [S4].",
      "sources": [
       "S4"
      ]
     }
    ],
+   "who_came_out_ahead": "So far, no one has moved the bill, which leaves the current system in place: private-plan insulin users keep facing full deductibles and cost-sharing, and health insurers and pharmacy benefit managers keep the present cost-sharing arrangements."
+  },
+  "who_came_out_ahead_short": "Current cost-sharing practices continue for now",
+  "sides": {
+   "for": [
+    {
+     "name": "Rep. Angie Craig",
+     "role": "U.S. Representative, MN-2 (lead sponsor)",
+     "party": "D",
+     "what_they_did": "Introduced the bill on November 21, 2025, capping insulin cost-sharing in private plans [S1] [S2].",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "name": "11 of 217 House Democrats",
+     "role": "Cosponsors",
+     "party": "D",
+     "what_they_did": "Signed on as cosponsors, including original cosponsors Reps. McBath, Horsford, Landsman, and Schrier [S3] [S2].",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3",
+      "S2"
+     ]
+    }
+   ],
+   "against": [],
    "party_line": "mostly_party_line",
-   "party_line_note": "The sponsor and all 11 cosponsors are Democrats; no Republican has signed on, and the bill sits untouched in committees of a Republican-controlled House [S3]."
+   "party_line_note": "All 12 sponsors and cosponsors are Democrats, and no Republican has signed on; no votes have occurred yet, so the partisan shape is so far one-sided."
   },
   "industries": [
    {
     "industry": "Health insurers",
-    "effect": "mixed",
+    "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Plans must cover selected insulin up front and absorb any patient cost above $35 per month, which pressures premiums. But plans stay the gatekeepers: they choose which insulin products count, can exclude non-selected insulins, and can charge more for out-of-network supply [S2].",
+    "note": "Plans must cover selected insulin with no deductible and at most $35 in cost-sharing, absorbing the difference between that cap and current patient payments. Patients who use insulin save; the cost is spread into premiums for everyone.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Pharmacy benefit managers (PBMs)",
+    "industry": "Pharmacy benefit managers",
     "effect": "mixed",
-    "stance_toward_public": "opposed",
-    "note": "The cap is measured against the plan's net price after all price concessions, including those captured by PBMs, so PBM middleman economics on insulin come under the cap's math [S2].",
+    "stance_toward_public": "mixed",
+    "note": "The bill counts PBM price concessions when calculating the 25% alternative cap, which limits how much rebate money can inflate what patients pay. It does not otherwise restructure PBM rebates.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Brand-name insulin manufacturers",
+    "industry": "Employers offering group health plans",
+    "effect": "loses",
+    "stance_toward_public": "mixed",
+    "note": "Self-insured employer plans are covered through the ERISA and tax code provisions, so employers bear part of the added cost of the cap, which may show up in benefits negotiations.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Insulin manufacturers",
     "effect": "mixed",
-    "stance_toward_public": "opposed",
-    "note": "The bill puts no ceiling on what manufacturers can charge, so their list prices are untouched; they keep selling insulin through private plans with plans and patients financing the cost-sharing cap [S2].",
+    "stance_toward_public": "mixed",
+    "note": "Guaranteed coverage of one product per type and dosage form locks in a covered market channel, but the bill does not cap what manufacturers are paid, leaving their high list prices intact.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "With no committee action since November and no Republican cosponsors, the bill is likely to sit until it expires with the 119th Congress, as most bills do; a version of this same proposal did pass the House in 2022, so insulin pricing could re-enter the agenda and revive it.",
+  "trajectory": "The bill sits in three committees with no scheduled action; with 11 cosponsors, no Republican support, and only weeks elapsed since introduction, its most likely path is to remain in committee. An earlier House-passed private-insurance insulin cap (2022) died in the Senate without a vote, so even House passage would not guarantee an outcome. Its best realistic route is attachment to a larger health or funding package.",
   "categories": [
    "healthcare_and_drug_prices",
    "consumer_protection_and_finance"
@@ -177,10 +159,10 @@
   "scores": {
    "public_stakes": 6,
    "concentrated_stakes": 6,
-   "outcome_against_public": 5,
-   "support_mismatch": 4,
-   "corruption_relevance": 2,
-   "confidence": 0.9
+   "outcome_against_public": 3,
+   "support_mismatch": 3,
+   "corruption_relevance": 1,
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

@@ -1,184 +1,192 @@
 {
  "bill_id": "118-s2576",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:31:53+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:39:25+00:00",
  "record_fetched_at": "2026-09-20T11:32:42+00:00",
  "record_hash": "27b5372cf9a275c3",
  "analysis": {
-  "one_liner": "Bans government agencies from buying Americans' personal data from brokers without a warrant.",
-  "headline": "The bill never left the Senate Judiciary Committee: after introduction it was referred there on July 27, 2023 and received no further action before the 118th Congress ended.",
+  "one_liner": "Bans agencies from buying Americans' location and personal data from brokers without a court order.",
+  "headline": "The bill drew six bipartisan cosponsors but never got a committee vote, dying in the Senate Judiciary Committee when the 118th Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "Government agencies can currently buy Americans' phone location records, browsing history, and other personal data from data brokers instead of getting a warrant. This bill would make it illegal for law enforcement and intelligence agencies to purchase those records or obtain them indirectly, and would bar such illegally bought data from being used as evidence in court. It also requires agencies to get a real court order for data held by companies that handle communications behind the scenes, and says intelligence agencies must use the normal legal process for location, browsing, and search histories of people in the United States.",
-  "who_benefits": "Everyone in the United States, whose location movements, online accounts, and communications records could no longer be bought by agencies from data brokers without a warrant. People who could not have been legally surveilled directly — because the government lacks a warrant — are the main group protected, since agencies currently route around that requirement by purchasing the same data commercially.",
-  "who_benefits_short": "All Americans' personal data",
+  "plain_summary": "Federal, state, and local law enforcement and intelligence agencies can currently buy Americans' location, browsing, and communications records from data brokers without a warrant. This bill would make that illegal, requiring agencies to get a court order under the same strict standards that apply to phone and internet companies. It would also close a path around surveillance law by making the warrant process of the Foreign Intelligence Surveillance Act the only legal route for foreign-intelligence collection of Americans' location and browsing history from U.S. companies.",
+  "who_benefits": "Ordinary Americans. The bill would restore warrant protection to personal data that people effectively give up every day — phone location, web browsing, app activity — when that data ends up with brokers who sell it to government agencies. People whose records were wrongly purchased would gain a remedy, since data bought in violation could not be used against them in court.",
+  "who_benefits_short": "Americans whose personal data is sold",
   "how_it_helps": [
    {
-    "text": "Bars law enforcement and intelligence agencies from obtaining customer or subscriber records — including location data, communication contents, and device data — from third parties in exchange for anything of value, and applies the ban even when the data is acquired indirectly from another buyer [S2].",
+    "text": "Bars law enforcement agencies and intelligence agencies from obtaining records about people in the U.S. from third parties in exchange for anything of value, including access, service, and licensing fees, and applies even when the data passed through multiple hands.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Makes data bought in violation of the ban inadmissible as evidence in any court or proceeding, and requires the Attorney General to adopt procedures to minimize retention and dissemination of data acquired unlawfully [S2].",
+    "text": "Requires a court order before a third party can be forced to hand over such records, with courts applying the most stringent standard under federal statute or the Constitution that would apply to a comparable demand on a phone or internet provider.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Closes a gap by extending warrant requirements to intermediary service providers — companies that deliver, store, or process communications behind the scenes for phone and internet providers — so they cannot hand over communications contents or customer records to the government [S2].",
+    "text": "Prohibits data bought or shared in violation of the ban from being used as evidence in any U.S. court or proceeding, and requires the Attorney General to adopt procedures to minimize and destroy such improperly acquired information.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires agencies to get a court order, applying the most stringent applicable legal standard, before forcing third parties to hand over covered records [S2].",
+    "text": "Makes the warrant process of the Foreign Intelligence Surveillance Act the exclusive legal route for foreign-intelligence collection of Americans' location information, web browsing history, and internet search history from U.S. companies, closing side channels around FISA.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Makes surveillance law (FISA) the exclusive legal route for intelligence agencies to acquire location information, web browsing history, and internet search history of people in the United States, rather than leaving a loophole for other methods [S2].",
+    "text": "Extends the existing ban on communications providers divulging call contents and subscriber records to 'intermediary service providers' — companies that deliver, store, or process communications behind the scenes for phone and internet services.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Data brokers and companies selling location and personal data would lose a large customer: federal law enforcement and intelligence agencies. Agencies would have to go through the slower warrant process or go without data they currently buy.",
-  "who_pays_short": "Data brokers selling personal data",
+  "who_pays": "Data brokers and ad-tech companies that sell Americans' location and personal data would lose a major customer: government agencies. Police and intelligence agencies would lose a shortcut and have to get court orders instead. Telecommunications and internet companies that sell subscriber data or assist agencies without court orders would face new limits and narrower legal immunity.",
+  "who_pays_short": "Data brokers and data-selling tech firms",
   "drawbacks": [
    {
-    "text": "The bill restricts what agencies can buy but does not stop data brokers from collecting and selling the same data to anyone else, such as private companies, stalkers, or foreign buyers — it targets the government buyer, not the data market itself [S2].",
+    "text": "The bill makes evidence obtained in violation unusable in any proceeding, a strong remedy that in a real case could let someone who committed a serious crime go free because of how the evidence was gathered.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Law enforcement agencies argue that purchased data helps solve crimes and locate missing people quickly, and that warrant requirements can slow urgent investigations; the bill's court-order process adds steps even in emergencies.",
-    "sources": []
+    "text": "The ban is absolute and applies even where commercially available data has helped agencies locate missing people, trafficking victims, or fugitives quickly; agencies would have to route those urgent cases through court orders or narrow emergency exceptions instead.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "It restricts only government purchases. Data brokers would still be free to sell the same Americans' location and personal data to any private buyer, so the underlying market in personal data would continue largely untouched.",
+    "sources": [
+     "S2"
+    ]
    }
   ],
-  "benefit_vs_cost": "The core trade is real but narrow: agencies would lose a fast, cheap shortcut to Americans' location and communication records, and would have to meet the same legal standard Congress already requires for directly demanding that data from phone and internet companies. The main honest objection is that the bill leaves the underlying data-broker market untouched — brokers could still sell the same sensitive data to private buyers. The bill would not have protected privacy from everyone, only from the government.",
+  "benefit_vs_cost": "The core benefit is real: warrant protection for data that today can be bought about nearly anyone without a judge ever seeing a request. The costs are manageable, because the bill does not eliminate access — agencies can still obtain records through court orders under the strictest applicable standard, and emergency legal channels remain for urgent interceptions. The biggest honest criticism is that it disciplines only the government side of the data-broker market while leaving the market itself intact.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced and sent to the Senate Judiciary Committee, which never took it up, so it died when the two-year Congress ended in January 2025.",
+   "mechanism": "The bill was introduced in late July 2023 and referred to the Senate Judiciary Committee the same day, and no committee ever considered it before the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Sen. Ron Wyden introduced the bill on July 27, 2023, joined by an initial group of senators from both parties [S1].",
-     "sources": [
-      "S1"
-     ]
-    },
-    {
-     "text": "The same day, the Senate read it twice and referred it to the Committee on the Judiciary [S4].",
+     "text": "Sen. Ron Wyden introduced the Fourth Amendment Is Not For Sale Act on July 27, 2023.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "That referral was the last action of any kind: the bill received no hearings, no committee vote, and no floor action for the rest of the 118th Congress [S4].",
+     "text": "The same day, the Senate read the bill twice and referred it to the Committee on the Judiciary, which was the last action ever taken on it.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "It drew six cosponsors, four Democrats and two Republicans [S3].",
+     "text": "Six senators cosponsored the bill — two Republicans and four Democrats — giving it support from both parties.",
      "sources": [
       "S3"
      ]
+    },
+    {
+     "text": "The 118th Congress ended on January 3, 2025 without the Judiciary Committee holding a markup or the Senate ever voting on the bill.",
+     "sources": [
+      "S4"
+     ]
     }
    ],
-   "who_came_out_ahead": "Data brokers and the agencies that buy their data keep the status quo: no warrant needed to purchase Americans' location and personal records. Ordinary people get no new protection."
+   "who_came_out_ahead": "Data brokers came out ahead: they keep selling Americans' location and personal data to law enforcement and intelligence agencies, and agencies keep buying it without a warrant. The companies collecting and reselling the data keep the revenue channel, and Americans remain without the warrant protection the bill would have restored."
   },
-  "who_came_out_ahead_short": "Data brokers and buying agencies",
+  "who_came_out_ahead_short": "Data brokers and their government customers",
   "sides": {
    "for": [
     {
      "name": "Sen. Ron Wyden",
-     "role": "U.S. Senator (OR), lead sponsor",
+     "role": "U.S. Senator from Oregon, bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and recruited bipartisan cosponsors",
+     "what_they_did": "Introduced the bill in the Senate on July 27, 2023.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S1",
-      "S3"
+      "S4"
      ]
     },
     {
      "name": "Sen. Rand Paul",
-     "role": "U.S. Senator (KY), cosponsor",
+     "role": "U.S. Senator from Kentucky",
      "party": "R",
-     "what_they_did": "Cosponsored the bill",
+     "what_they_did": "Cosponsored the bill at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S2",
       "S3"
      ]
     },
     {
      "name": "Sen. Mike Lee",
-     "role": "U.S. Senator (UT), cosponsor",
+     "role": "U.S. Senator from Utah",
      "party": "R",
-     "what_they_did": "Cosponsored the bill",
+     "what_they_did": "Cosponsored the bill at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S2",
       "S3"
      ]
     },
     {
-     "name": "Sens. Schatz, Baldwin, Murray, and Tester",
-     "role": "Cosponsors (D-HI, D-WI, D-WA, D-MT)",
+     "name": "4 of 48 Senate Democrats",
+     "role": "Democratic cosponsors (Sens. Schatz, Baldwin, Murray, Tester)",
      "party": "D",
-     "what_they_did": "Cosponsored the bill at introduction",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S2",
       "S3"
      ]
     }
    ],
    "against": [
     {
-     "name": "Senate Judiciary Committee leadership",
-     "role": "Committee the bill was referred to",
-     "party": null,
-     "what_they_did": "Never scheduled the bill for a hearing, markup, or vote during the 118th Congress",
+     "name": "Sen. Dick Durbin",
+     "role": "Chair, Senate Judiciary Committee",
+     "party": "D",
+     "what_they_did": "Never scheduled the bill for a committee markup, so it never advanced past referral.",
      "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "name": "Agencies that purchase broker data",
-     "role": "Federal law enforcement and intelligence agencies using purchased location and personal data",
-     "party": null,
-     "what_they_did": "Benefited from the bill's inaction; widely reported to be the users of data-broker purchases the bill targeted",
-     "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "The bill's support was bipartisan at introduction — a Democratic lead sponsor with six cosponsors split four Democrats and two Republicans, including libertarian-leaning Republicans Rand Paul and Mike Lee — but no vote was ever taken, so no partisan division was recorded."
+   "party_line_note": "Sponsorship crossed party lines — a Democratic sponsor joined by 2 of 49 Senate Republicans and 4 of 48 Senate Democrats — but no votes were ever recorded, so the final split was never tested."
   },
   "industries": [
    {
-    "industry": "Data brokers and location-data sellers",
+    "industry": "Data brokers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These companies sell Americans' location and personal data to government agencies without a warrant. The bill would cut off their government sales, forcing agencies back to the court-order process.",
+    "note": "Data brokers sell Americans' location and personal records, often scraped or bought from apps and telecoms, to law enforcement and intelligence agencies that thereby avoid needing a warrant. The bill cuts off that government revenue channel, so the industry's interest runs directly against the privacy of ordinary people.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Telecom and internet infrastructure companies (intermediary service providers)",
+    "industry": "Telecom and internet intermediaries",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill extends the ban on divulging call contents and subscriber records to intermediary companies that process communications behind the scenes, and narrows the civil immunity of companies assisting the government without a court order. That closes revenue and cooperation channels these firms currently use with agencies.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Ad tech and app-data collectors",
     "effect": "mixed",
-    "stance_toward_public": "aligned",
-    "note": "The bill adds new restrictions on companies that store and process communications for phone and internet providers, barring them from handing contents or customer records to the government. It imposes compliance burdens but strengthens privacy protections for their customers' data.",
+    "stance_toward_public": "mixed",
+    "note": "Companies feeding location and behavioral data into the broker market would face the bill's definitions of illegitimately obtained information — data gathered by deceiving users, breaking contracts, or violating privacy policies could not be sold to the government. But the bill does not regulate their sales to private buyers, so their core business would continue.",
     "sources": [
      "S2"
     ]
@@ -186,13 +194,13 @@
   ],
   "trajectory": null,
   "categories": [
-   "corruption_and_ethics",
-   "consumer_protection_and_finance"
+   "consumer_protection_and_finance",
+   "other"
   ],
   "scores": {
    "public_stakes": 7,
    "concentrated_stakes": 6,
-   "outcome_against_public": 8,
+   "outcome_against_public": 7,
    "support_mismatch": 6,
    "corruption_relevance": 3,
    "confidence": 0.85

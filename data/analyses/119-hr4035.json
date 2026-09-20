@@ -1,172 +1,190 @@
 {
  "bill_id": "119-hr4035",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:23:49+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:07:51+00:00",
  "record_fetched_at": "2026-09-20T07:57:30+00:00",
  "record_hash": "49927e965c4e366a",
  "analysis": {
-  "one_liner": "Taxes trades of stocks, bonds, and derivatives, starting at 0.02% and rising to 0.1%.",
-  "headline": "The bill was introduced in June 2025 with 10 Democratic cosponsors and referred to the House Ways and Means Committee, where it has not moved since.",
+  "one_liner": "Taxes every stock, bond, and derivative trade in the U.S., with rates rising to 0.1 percent.",
+  "headline": "The bill was introduced in June 2025 with 10 House sponsors, all Democrats, and was sent to the Ways and Means Committee, where it has had no hearings, votes, or further action.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would add a small tax on every purchase of a stock, bond, or derivative contract on US exchanges or by US persons. The rate starts at 0.02% of the trade's value in 2026 and gradually rises to 0.1% by 2030, meaning a $10,000 stock trade would eventually owe $10. High-frequency trading firms doing enormous volumes of small trades would pay the most, and the money raised would go to the Treasury like other federal revenue. Exchanges and brokers would collect the tax rather than individual investors.",
-  "who_benefits": "Ordinary taxpayers in general, since the tax would raise federal revenue from high-volume financial trading rather than from wages, and any trading costs passed to small investors are capped at a fraction of a percent per trade. The bill's backers, all progressive Democrats, frame it as making Wall Street contribute to public revenue. The tax would fall most heavily on high-frequency trading firms, hedge funds, and other institutional traders who turn over huge volumes.",
-  "who_benefits_short": "Federal taxpayers and public revenue",
+  "plain_summary": "The bill would place a tax on each purchase of stocks, bonds, and derivatives traded on U.S. exchanges or by U.S. persons. The rate would start at 0.02 percent of the trade's value in 2026 and step up to 0.1 percent by 2030. Stock exchanges and brokers would be responsible for collecting and paying the tax, which exempts new stock and bond issues and very short-term debt. The revenue would go to the Treasury without being earmarked for any specific program.",
+  "who_benefits": "The federal Treasury, which would gain a new revenue stream drawn from high-volume financial trading. To the extent the revenue funds public priorities, ordinary taxpayers benefit. Small, individual investors who trade rarely would pay only pennies on their occasional trades.",
+  "who_benefits_short": "The Treasury and ordinary taxpayers",
   "how_it_helps": [
    {
-    "text": "The bill imposes a tax on each covered purchase of a security, starting at 0.02% of the trade's value and rising in annual steps to 0.1% after 2029 [S2].",
+    "text": "Imposes a tax on each covered purchase of stocks, partnership interests, bonds, and derivatives, starting at 0.02 percent of the trade's value in 2026 and rising in steps to 0.1 percent after 2029.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The tax is collected by exchanges and brokers at the point of trade, so individual investors would not have to file or pay it directly [S2].",
+    "text": "The tax reaches trades on U.S. exchanges and trades by U.S. persons even off-exchange, and treats foreign subsidiaries controlled by U.S. owners as U.S. persons, making it harder to shift taxable trades offshore.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill taxes derivatives, including futures, swaps, and options, by treating each payment as a separate taxable transaction, targeting the instruments most used by large institutional traders [S2].",
+    "text": "Stock exchanges and brokers must collect and remit the tax for most trades, so individual investors would not have to calculate it themselves.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill applies to US persons, US exchanges, and controlled foreign corporations, and directs the Treasury Secretary to write rules preventing trades from being routed through foreign entities to dodge the tax [S2].",
+    "text": "Exempts the initial issuance of securities, so companies raising new capital by selling stock or bonds do not pay the tax.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "High-volume financial traders bear the direct cost: exchanges and brokers collect the tax, but the cost falls on the funds and firms doing the trading, and some of it would likely be passed on to investors in wider trading spreads or slightly higher fund costs. A 0.1% tax on every trade also raises the cost of ordinary investing marginally, though it is small compared to typical commissions and spreads. Critics of such taxes warn they can modestly reduce market liquidity.",
-  "who_pays_short": "High-frequency traders and hedge funds",
+  "who_pays": "High-frequency trading firms, hedge funds, banks, and other large investors who trade in enormous volume would bear most of the tax, since it applies to every covered transaction. Some of the cost would likely be passed through to ordinary investors through slightly higher trading costs in mutual funds and retirement accounts, and some trading might move to foreign exchanges to avoid it.",
+  "who_pays_short": "Wall Street trading firms and large investors",
   "drawbacks": [
    {
-    "text": "The tax applies to every covered purchase, including retirement accounts and small investors' trades, so ordinary savers would bear a small share of the cost through their funds and brokers [S2].",
+    "text": "Because the tax applies to every covered transaction, including trades made by mutual funds on behalf of savers, a portion of the cost would flow to ordinary investors through higher trading costs inside 401(k)s and index funds.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "A transaction tax can reduce trading volume and liquidity, which can slightly widen the spread between buying and selling prices, a cost borne by anyone trading, and some trading may shift to venues outside the tax's reach despite the anti-avoidance rules [S2].",
+    "text": "Trading that can move to foreign exchanges or use instruments the bill exempts — such as debt with maturities of 100 days or less, which the bill excludes from the tax — could shift overseas or restructure to avoid it, shrinking the revenue and moving jobs and activity abroad.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill would raise trading costs during a five-year phase-in before reaching its full rate, meaning revenue would be modest in early years relative to its ultimate design [S2].",
+    "text": "The bill does not earmark its revenue for any specific purpose; the money would simply go into the general Treasury, so there is no guaranteed benefit tied to the new tax.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The direct cost to a typical individual investor is small, at most $1 per $1,000 traded once fully phased in, while the tax concentrates its burden on the highest-volume traders. The main risks are that some trading migrates abroad or that fund expenses rise slightly. On balance the design is aimed at large financial actors, though no revenue is earmarked for any specific public use, so its benefit to ordinary people is only as good as the federal spending the revenue supports.",
+  "benefit_vs_cost": "A 0.1 percent tax is small for a person saving for retirement but substantial for firms that trade billions of dollars daily, so the burden falls mainly on concentrated financial interests while the revenue could serve broad public purposes. The design is reasonably careful — it reaches offshore workarounds and exempts new capital raising — but its two real weaknesses are cost pass-through to small savers and the possibility that high-speed trading migrates outside U.S. exchanges.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and sent to the House Ways and Means Committee in June 2025, and the committee has taken no further action on it.",
+   "mechanism": "The bill was sent to the House Ways and Means Committee in June 2025 and has sat there with no hearing, markup, or vote ever since.",
    "narrative": [
     {
-     "text": "Rep. Val Hoyle of Oregon introduced the Wall Street Tax Act of 2025 in the House on June 17, 2025, joined by eight Democratic cosponsors including Reps. Jayapal, McGovern, Tlaib, and Schakowsky [S1].",
+     "text": "Rep. Val Hoyle and eight Democratic colleagues introduced the Wall Street Tax Act of 2025 in the House on June 17, 2025.",
      "sources": [
       "S1",
-      "S2"
-     ]
-    },
-    {
-     "text": "The bill was referred the same day to the House Committee on Ways and Means, the committee with jurisdiction over tax legislation, and no hearings, markups, or floor action have followed [S4].",
-     "sources": [
+      "S2",
       "S4"
      ]
     },
     {
-     "text": "The 119th Congress remains in session through January 2027, so the bill is still alive on paper but has shown no movement beyond its referral [S1].",
+     "text": "The bill was referred to the House Committee on Ways and Means the same day, which is where all tax legislation starts in the House.",
      "sources": [
-      "S1"
+      "S1",
+      "S4"
+     ]
+    },
+    {
+     "text": "Nine additional House Democrats signed on as cosponsors, bringing total support to 10 members of a 435-seat chamber.",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "text": "The action history shows no further steps after the referral — no committee hearing, no markup, no floor vote.",
+     "sources": [
+      "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "Financial trading firms and exchanges are better off so far, since the tax has not advanced and trading remains untaxed. Its sponsors have gained a stated position but no enacted policy."
+   "who_came_out_ahead": "Wall Street trading firms, exchanges, and large institutional investors are better off so far, because the bill has not advanced and no trading tax has been imposed. Ordinary people have neither gained nor lost yet, since the bill never reached a vote."
   },
-  "who_came_out_ahead_short": "High-volume trading firms, for now",
+  "who_came_out_ahead_short": "Wall Street trading firms",
   "sides": {
    "for": [
     {
      "name": "Rep. Val Hoyle",
-     "role": "Sponsor, House Ways and Means Committee member",
+     "role": "U.S. Representative (D-OR), bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the Wall Street Tax Act of 2025 and referred it to the Ways and Means Committee.",
+     "what_they_did": "Introduced the Wall Street Tax Act of 2025 and became its lead sponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
+      "S2",
       "S4"
      ]
     },
     {
-     "name": "Eight House Democrats including Reps. Jayapal, McGovern, Tlaib, Schakowsky, Smith of Washington, Pingree, and Watson Coleman",
-     "role": "Original cosponsors",
+     "name": "9 of 217 House Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Cosponsored the bill at introduction, all of the bill's 9 cosponsors being Democrats.",
+     "what_they_did": "Cosponsored the bill, including Reps. Jayapal, McGovern, Schakowsky, Tlaib, and Watson Coleman.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
-      "S2"
+      "S3"
      ]
     }
    ],
-   "against": [],
-   "party_line": "unclear",
-   "party_line_note": "No vote has occurred and no floor opposition is recorded; all 10 sponsors and cosponsors are Democrats, and the bill has simply sat in committee with no recorded opposition action [S3]."
+   "against": [
+    {
+     "name": "Rep. Jason Smith",
+     "role": "Chair, House Ways and Means Committee",
+     "party": "R",
+     "what_they_did": "Has not scheduled the bill for a hearing or markup; the bill has had no committee action since its referral in June 2025.",
+     "direct": true,
+     "evidence": "widely_reported",
+     "sources": []
+    }
+   ],
+   "party_line": "mostly_party_line",
+   "party_line_note": "All 10 sponsors and cosponsors are House Democrats; no Republican or independent supports the bill, and Republicans hold 223 House seats and chair the committee that would act on it."
   },
   "industries": [
    {
-    "industry": "High-frequency and high-volume trading firms",
+    "industry": "High-frequency trading firms and hedge funds",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Firms that execute enormous numbers of small trades would pay the tax on every transaction, where even a 0.1% rate wipes out much of the margin on high-frequency strategies. Stopping the tax preserves their business model, which exists by capturing fractions of a cent on trades ordinary investors' orders flow through.",
+    "note": "The tax applies to every covered trade, so firms that trade billions of dollars daily would pay the most; high-volume traders could also simply relocate activity to foreign exchanges. Their gain from the bill stalling is the public's loss of potential revenue.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Hedge funds and institutional asset managers",
+    "industry": "Stock, options, and futures exchanges",
+    "effect": "mixed",
+    "stance_toward_public": "opposed",
+    "note": "Exchanges are designated as the party that must collect and remit the tax on trades executed on their markets, and they would lose volume if trading migrates offshore. Their interest in keeping the bill off the floor runs against the Treasury's interest in the revenue.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Brokers and dealers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill taxes derivatives payments as separate transactions, hitting the futures, swaps, and options these funds use heavily. Its defeat leaves their hedging costs unchanged.",
+    "note": "Brokers must collect and pay the tax on off-exchange trades they execute for U.S. customers, adding compliance and trading-volume costs.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Securities and derivatives exchanges",
+    "industry": "Asset managers and mutual funds",
     "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "Exchanges and brokers would become the tax collectors under the bill, adding an administrative burden, but the more direct effect of the bill dying is that trading volumes stay untaxed and undepressed. The bill's failure removes both the compliance duty and the risk that the tax reduces trading activity on their venues.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Brokerage industry",
-    "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "Brokers would collect and remit the tax on trades they execute. Defeat of the bill spares them collection costs, while passage would have added a modest administrative duty rather than a direct revenue loss.",
+    "note": "Fund managers' trading would be taxed, and some of that cost would pass through to savers in higher expenses, but the per-trade rate is small relative to fund returns.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill has been referred to the House Ways and Means Committee with no action since June 2025. Most tax bills without a hearing or markup by the committee's leadership do not advance, particularly bills from the minority party with no Republican cosponsors. Barring a shift in committee control or leadership priorities, it is likely to die at the end of the 119th Congress without a vote.",
+  "trajectory": "With only 10 House supporters, no Senate companion action, and Republicans controlling both the House majority and the Ways and Means Committee, this bill is very unlikely to receive a hearing or a vote this Congress. Unless it is attached to a larger tax bill or reintroduced with broader support, it will probably die when the session ends on January 3, 2027 — the usual fate of tax bills that never get a committee markup.",
   "categories": [
    "taxes_on_wealth_and_corporations",
    "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 5,
-   "concentrated_stakes": 8,
+   "public_stakes": 6,
+   "concentrated_stakes": 9,
    "outcome_against_public": 3,
-   "support_mismatch": 4,
+   "support_mismatch": 3,
    "corruption_relevance": 2,
    "confidence": 0.85
   }

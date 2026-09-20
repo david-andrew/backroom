@@ -1,118 +1,115 @@
 {
  "bill_id": "118-s4213",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T16:10:54+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:56:32+00:00",
  "record_fetched_at": "2026-09-20T15:48:40+00:00",
  "record_hash": "eed080132ee659bf",
  "analysis": {
-  "one_liner": "Bans social media accounts for children under 13 and blocks targeted feeds for teens.",
-  "headline": "Introduced with bipartisan backing on April 30, 2024, the bill was referred to the Senate Commerce Committee and never received a vote or hearing before the Congress ended.",
+  "one_liner": "Bans social media accounts for children under 13 and blocks algorithmic feeds for teens, while requiring schools to filter social media to keep federal broadband subsidies.",
+  "headline": "The bipartisan Kids Off Social Media Act was referred to the Senate Commerce Committee in April 2024 and never received a vote before the Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would prohibit social media platforms from knowingly letting children under 13 hold accounts, require deletion of existing child accounts and their data, and bar platforms from using personalized recommendation systems that feed on young users' personal data for anyone under 17. It would let the FTC and state attorneys general enforce those rules. It would also condition schools' discounted E-Rate internet service on blocking social media on school networks and devices and on adopting grade-by-grade screen time policies.",
-  "who_benefits": "Children and teenagers, and the parents worried about them, would get enforceable limits on platforms' collection of young users' personal data and on accounts held by kids under 13. Schools would get a federal mandate (and public transparency database) around screen time policies, tied to the broadband subsidies many already receive.",
+  "plain_summary": "The bill would have banned social media platforms from knowingly allowing accounts for children under 13, required them to delete existing child accounts and their data, and barred them from feeding personalized, data-driven content recommendations to users under 17. The FTC would enforce the rules, and state attorneys general could sue on behalf of residents. Separately, schools receiving discounted internet service through the E-Rate program would have to block social media on school networks and devices and adopt grade-by-grade screen-time policies, with their policies posted in a public FCC database. The bill died in committee without ever coming to a vote.",
+  "who_benefits": "Children and their parents: platforms would have to keep children under 13 off their services, delete existing child accounts and their data, and stop feeding teens algorithmic content based on their personal data. Schools and parents also gain transparency, since school internet-safety and screen-time policies would be posted in a public database.",
   "who_benefits_short": "Children, teens, and their parents",
   "how_it_helps": [
    {
-    "text": "Platforms would be barred from knowingly allowing users under 13 to create or keep accounts, must terminate existing child accounts, and must delete the personal data collected from those users, giving the user 90 days to obtain a copy of that data on request.",
+    "text": "Platforms could no longer knowingly allow accounts for children under 13, would have to delete existing child accounts, and would have to erase the personal data collected from them.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Platforms could not use personalized recommendation systems that rely on a young user's personal data to suggest or rank content for anyone under 17, except for coarse data like device type, language, city, and age — leaving chronological feeds and direct searches intact.",
+    "text": "Platforms could not use automated systems to build personalized content feeds for users under 17 based on their personal data — the feature critics link to compulsive use and harmful content spirals.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "The Federal Trade Commission would enforce the rules as an unfair or deceptive practice, and state attorneys general could sue platforms on behalf of residents harmed by violations.",
+    "text": "Parents and state attorneys general gain an enforcement handle: the FTC enforces the rules, and state attorneys general can sue platforms on behalf of harmed residents.",
     "sources": [
-     "S2",
      "S3"
     ]
    },
    {
-    "text": "As a condition of receiving discounted internet service through the E-Rate program, schools would have to use filtering technology to block social media on school networks and devices, adopt grade-by-grade screen time policies, and submit them to the FCC, which must publish them in a public database.",
+    "text": "Parents and local communities gain visibility into school device and screen-time practices: schools must post their internet safety and screen-time policies to a public FCC database.",
     "sources": [
      "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Social media platforms would lose ad-targeted engagement from users under 17 and the account base of children under 13. Schools would bear the cost of procuring and operating filtering technology and writing screen time policies, and schools that do not comply would forfeit their E-Rate discounted broadband service.",
+  "who_pays": "Social media platforms, which would lose the ability to serve accounts to under-13 users and to run personalized recommendation feeds for users under 17, shrinking the audience available for targeted advertising. Schools would bear the cost of filtering technology and compliance paperwork to keep their E-Rate broadband subsidies.",
   "who_pays_short": "Social media platforms and schools",
   "drawbacks": [
    {
-    "text": "Enforcement is deliberately soft: the bill bars the FTC from requiring age verification or new age collection, so liability turns on what a platform 'knows fairly implied' from objective circumstances — meaning platforms can claim they did not know a user's age, which makes violations hard to prove and gives large platforms wide room to argue compliance.",
+    "text": "The bill explicitly does not require platforms to verify users' ages, so under-13 users can still sign up with false birthdates and platforms are only liable when circumstances should have tipped them off — meaning the under-13 ban may be hard to actually enforce.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Tying E-Rate subsidies to social media blocking puts federal broadband money at risk for schools that lag on compliance, and mandated filtering of whole platforms can over-block legitimate educational or teacher-directed uses (the bill exempts sanctioned learning systems and teachers' classroom use, but blunt filters are imperfect).",
+    "text": "The school provisions condition E-Rate broadband discounts on blocking social media on school networks and devices, adding compliance work and screening costs for under-resourced schools, and cutting students off from platforms that some teachers and students use for legitimate learning and communication.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The school provisions also require monitoring of student network activity to detect social media use, extending surveillance of student online behavior as the price of discounted internet service.",
+    "text": "The bar on personalized recommendations for users under 17 restricts what content teens voluntarily choose to see, which free-speech advocates object to as limiting young people's access to information even when they want it.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The child-protection provisions address a real and widely felt problem — ad-driven algorithms and accounts targeting young children — and the bill takes care to preserve search, chronological feeds, and educational tools. But its central weakness is that it chose not to require age verification, so its ban on under-13 accounts depends on platforms volunteering knowledge of users' ages; the same companies that profit from young users are the ones who control that knowledge. The school-screen-time title is well-intentioned but adds compliance burden and funding risk for schools in exchange for modest transparency.",
+  "benefit_vs_cost": "The core idea — no under-13 accounts and no algorithmic feeds built on teens' personal data, with FTC and state enforcement — addresses a real and widely shared concern, and the school-filtering piece builds on existing law (Children's Internet Protection Act) with a two-year phase-in and waiver provisions that make it workable. The honest drawbacks: the bill deliberately avoids requiring age verification (to protect privacy), so enforcement rests on inferring a user's age from circumstances, which large platforms have experience evading; blocking social media on school networks is a blunt instrument that also cuts off legitimate educational and organizing uses; and the bill does nothing about advertising or data collection on 17-year-olds. On balance the benefits to families and schools outweigh those costs, but the design gives platforms room to comply in name only.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced and referred to the Senate Commerce Committee on April 30, 2024, and the committee never took it up before the Congress ended in January 2025.",
+   "mechanism": "The bill was introduced in April 2024 and referred to the Senate Commerce Committee, which never took it up, so it expired with the 118th Congress without any vote.",
    "narrative": [
     {
-     "text": "Senator Brian Schatz introduced the bill with five cosponsors — three Republicans (Cruz, Britt, Budd) and two Democrats (Murphy, Welch) — on April 30, 2024.",
-     "sources": [
-      "S1",
-      "S4",
-      "S5"
-     ]
-    },
-    {
-     "text": "The bill was read twice and referred to the Committee on Commerce, Science, and Transportation the day it was introduced; the action history shows no hearing, markup, committee vote, or floor action at any point afterward.",
+     "text": "The bill's entire action history is two entries: it was introduced in the Senate on April 30, 2024, and read twice and referred to the Committee on Commerce, Science, and Transportation the same day.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "The 118th Congress ended on January 3, 2025, without the bill ever being reported out of committee or voted on, so it died and would need to be reintroduced from scratch.",
+     "text": "No committee markup, hearing vote, floor vote, or further action is recorded before the 118th Congress ended on January 3, 2025.",
      "sources": [
       "S1",
       "S5"
+     ]
+    },
+    {
+     "text": "The bill carried bipartisan sponsorship from the start: Senator Schatz introduced it with two other Democrats and three Republicans, including Senator Cruz.",
+     "sources": [
+      "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "Social media platforms are better off: the personalized-recommendation and child-account restrictions that would have cut into their youngest users' engagement and ad targeting never took effect, and no similar federal rule replaced them. Families and schools gained nothing."
+   "who_came_out_ahead": "Social media platforms keep the young users' attention and data that the bill would have restricted; no company faced the new FTC or state enforcement exposure."
   },
   "who_came_out_ahead_short": "Social media platforms",
   "sides": {
    "for": [
     {
-     "name": "Brian Schatz",
-     "role": "U.S. Senator (Hawaii); bill sponsor",
+     "name": "Sen. Brian Schatz",
+     "role": "U.S. Senator (D-HI), lead sponsor",
      "party": "D",
-     "what_they_did": "Introduced the Kids Off Social Media Act on April 30, 2024.",
+     "what_they_did": "Introduced the bill and led its sponsorship.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S5"
+      "S3"
      ]
     },
     {
-     "name": "Ted Cruz",
-     "role": "U.S. Senator (Texas); cosponsor",
-     "party": "R",
-     "what_they_did": "Original cosponsor of the bill.",
+     "name": "Sen. Ted Cruz, Sen. Chris Murphy, Sen. Katie Britt, Sen. Peter Welch, Sen. Ted Budd",
+     "role": "Original cosponsors (3 Republicans, 2 Democrats)",
+     "party": null,
+     "what_they_did": "Signed on as original cosponsors at introduction, giving the bill bipartisan backing.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -121,60 +118,10 @@
      ]
     },
     {
-     "name": "Chris Murphy",
-     "role": "U.S. Senator (Connecticut); cosponsor",
-     "party": "D",
-     "what_they_did": "Original cosponsor of the bill.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S3",
-      "S4"
-     ]
-    },
-    {
-     "name": "Katie Britt",
-     "role": "U.S. Senator (Alabama); cosponsor",
-     "party": "R",
-     "what_they_did": "Original cosponsor of the bill.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S3",
-      "S4"
-     ]
-    },
-    {
-     "name": "Peter Welch",
-     "role": "U.S. Senator (Vermont); cosponsor",
-     "party": "D",
-     "what_they_did": "Original cosponsor of the bill.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S3",
-      "S4"
-     ]
-    },
-    {
-     "name": "Ted Budd",
-     "role": "U.S. Senator (North Carolina); cosponsor",
-     "party": "R",
-     "what_they_did": "Original cosponsor of the bill.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S3",
-      "S4"
-     ]
-    }
-   ],
-   "against": [
-    {
-     "name": "Senate Committee on Commerce, Science, and Transportation",
+     "name": "Senate Commerce, Science, and Transportation Committee",
      "role": "Committee of referral",
      "party": null,
-     "what_they_did": "Received the bill on referral on April 30, 2024, and never held a hearing, markup, or committee vote; the bill never reached the Senate floor.",
+     "what_they_did": "Received the bill on referral and took no further recorded action on it before the Congress ended.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -182,37 +129,27 @@
      ]
     }
    ],
+   "against": [],
    "party_line": "bipartisan",
-   "party_line_note": "Sponsorship was split across both parties from day one — a Democratic sponsor joined by three Republicans and two Democrats — and the record shows no partisan opposition; the bill died from inaction, not from a vote."
+   "party_line_note": "Sponsorship was bipartisan from introduction — Senator Schatz (D-HI) introduced the bill alongside three Republicans and one other Democrat — but the Senate never acted on it, so no votes show the actual partisan split."
   },
   "industries": [
    {
-    "industry": "Social media platforms",
+    "industry": "Social media and ad-tech platforms",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would end under-13 accounts entirely and bar platforms from feeding targeted, data-driven recommendations to anyone under 17 — cutting off the youngest and most engaged segment of their advertising-based business model. Platforms' interest in keeping young users' attention and data runs directly against what the bill was designed to do for children.",
+    "note": "The bill bans under-13 accounts, requires deletion of child accounts and data, and bars personalized recommendation feeds for users under 17 — cutting off young users, whose attention and data feed the targeted-advertising model. It is explicitly written not to require age verification, which softens the compliance burden.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "School web-filtering and monitoring software vendors",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "Every E-Rate school would need technology that blocks and monitors social media access on school networks and devices, creating a compliance-driven market for filtering vendors. Their gain flows from a child-safety mandate, so it runs alongside the public's interest.",
+    "industry": "Schools and school districts",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "Schools receiving E-Rate broadband subsidies must block social media on school networks and adopt screen-time policies or risk losing the discount, adding administrative and filtering costs — but many already operate similar filters under existing law.",
     "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "industry": "Digital advertising and data-broker ecosystem",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "The bill requires deletion of personal data collected from child accounts and restricts use of under-17 personal data in recommendation systems, shrinking the pool of minors whose data can feed ad targeting.",
-    "sources": [
-     "S2",
      "S3"
     ]
    }
@@ -220,15 +157,15 @@
   "trajectory": null,
   "categories": [
    "consumer_protection_and_finance",
-   "other"
+   "education_and_student_debt"
   ],
   "scores": {
    "public_stakes": 6,
    "concentrated_stakes": 7,
-   "outcome_against_public": 7,
-   "support_mismatch": 7,
+   "outcome_against_public": 6,
+   "support_mismatch": 5,
    "corruption_relevance": 2,
-   "confidence": 0.85
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

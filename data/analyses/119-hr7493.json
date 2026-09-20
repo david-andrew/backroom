@@ -1,139 +1,159 @@
 {
  "bill_id": "119-hr7493",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:11:08+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:44:02+00:00",
  "record_fetched_at": "2026-09-20T08:12:05+00:00",
  "record_hash": "696604501adec203",
  "analysis": {
-  "one_liner": "Treats US companies that move their headquarters abroad to dodge taxes as still American for tax purposes.",
-  "headline": "The bill was introduced in the House and referred to the Ways and Means Committee, where it has sat with no cosponsors and no action since February 2026.",
+  "one_liner": "Stops companies from dodging US taxes by moving their headquarters to tax-haven countries.",
+  "headline": "The bill to tax corporate inversions as if they never left the US has 0 cosponsors and has sat untouched in the Ways and Means Committee since its February 11, 2026 introduction.",
   "direction": "for_working_people",
-  "plain_summary": "When an American corporation is bought by, or merges into, a company organized overseas but its own former owners still control the result, it can claim it is now a foreign company and stop paying US corporate tax on its worldwide income. This bill changes the tax code's definition so many more of those deals count as American companies anyway: it raises the ownership share that triggers the rule from 60 percent to 80 percent, adds a test for companies whose executives and day-to-day management stay in the United States, and applies the rules to tax years ending after May 8, 2014. The sponsor is Rep. Lloyd Doggett; it was referred to the House Ways and Means Committee and has had no other action.",
-  "who_benefits": "American taxpayers generally, because profits of companies that invert would keep flowing into the US tax base instead of escaping to a low-tax foreign parent. Domestic competitors who already pay full US taxes would also no longer be undercut on taxes by lookalike foreign firms.",
-  "who_benefits_short": "US taxpayers and domestic competitors",
+  "plain_summary": "Under current tax law, a US company can move its legal home to a low-tax country in an 'inversion' and, in many cases, pay less US tax while keeping its factories, offices, and customers in America. This bill rewrites Section 7874 of the tax code so that such a company is treated, for tax purposes, as if it were still a US corporation if its former US owners kept more than half the stock, or if its top managers stayed in the US and a quarter or more of its employees, payroll, assets, or income remain American. Companies with genuine, substantial business operations in the country they moved to are still exempt. The change reaches back to tax years ending after May 8, 2014, when the IRS first cracked down on inversions.",
+  "who_benefits": "Ordinary US taxpayers, who otherwise make up for revenue lost when profitable American companies legally relocate on paper to low-tax countries while keeping their operations here. Domestic competitors that never invert also benefit, because the tax advantage of flipping headquarters disappears.",
+  "who_benefits_short": "Ordinary US taxpayers",
   "how_it_helps": [
    {
-    "text": "The bill treats a foreign corporation as domestic for tax purposes when a post-2014 acquisition gives former US shareholders more than 50 percent of its stock, closing the main path companies used to shed US tax residence while keeping American operations [S2].",
+    "text": "A foreign-reincorporated company is taxed as a US corporation if former American shareholders own more than 50% of it, instead of the current 60% surrogate threshold, or if its management and control remain primarily in the US alongside significant domestic business activity (at least 25% of employees, employee compensation, assets, or income).",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It also counts companies whose executive officers and senior management are based primarily in the United States, and groups with at least 25 percent of employees, pay, assets, or income in the United States, as domestic — so moving the legal address on paper no longer escapes US tax while the actual business stays put [S2].",
+    "text": "The rules reach back to tax years ending after May 8, 2014, so companies that inverted in recent years could not keep the tax benefit of deals already completed.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The changes apply to taxable years ending after May 8, 2014, meaning companies that already inverted after that date would be taxed as domestic again rather than keeping the benefits of earlier deals [S2].",
+    "text": "Companies that truly moved substantial operations abroad are still exempt, so the bill targets paper relocations rather than genuine foreign expansion.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Multinational companies that have inverted or plan to, and their shareholders, who would face US corporate tax on worldwide income they currently avoid; the bill acknowledges no offsetting revenue estimates or transition relief for completed deals.",
-  "who_pays_short": "Inverted and inverting multinationals",
+  "who_pays": "Multinational corporations that have inverted or plan to — drug and medical-device makers are the classic cases — along with their shareholders, who would face higher US tax bills, and the law and accounting firms that earn fees structuring such deals.",
+  "who_pays_short": "Inverted multinationals and their shareholders",
   "drawbacks": [
    {
-    "text": "The changes are retroactive to tax years ending after May 8, 2014, so companies that completed inversions in good faith under the existing law would face new taxes on past transactions — retroactive tax changes are a standard fairness objection [S2].",
+    "text": "The change applies retroactively to tax years ending after May 8, 2014, meaning companies that completed inversions years ago would face new taxes on old transactions — a fairness objection an honest supporter must acknowledge.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill keeps an exception for companies with substantial business activities in their foreign country of organization, so inversions paired with genuinely large foreign operations would still escape the rule [S2].",
+    "text": "The new 'management and control' test depends on Treasury regulations to decide when executives count as US-based, adding complexity and dispute risk, and the substantial-foreign-activity exception starts from regulations issued January 18, 2017 that critics called lenient; the Treasury Secretary could tighten those thresholds but the bill does not tighten them itself.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Critics of anti-inversion rules generally argue that higher taxes on these companies can push deals in the other direction, toward foreign buyers acquiring American firms outright instead of American firms buying foreign ones [S2].",
+    "text": "Sweeping definitions could reach companies with real, growing foreign operations, even with the exemption, increasing compliance costs across multinationals, not just inversion specialists.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The policy goal — keeping US-taxed profits from companies whose business and management remain in the United States — directly serves ordinary taxpayers, and the drafting closes several known escape routes, including the management-and-control test. The serious costs are the retroactivity, which taxes past deals under new rules, and the retained substantial-business-activities exception, which leaves a narrower loophole. On balance the design is more aggressive than the current law, and its main flaw is the lack of transition relief for companies that already inverted.",
+  "benefit_vs_cost": "The core idea — a company should not cut its US tax bill by swapping its legal address while keeping its business here — is straightforwardly aimed at a tax benefit ordinary taxpayers ultimately fund. The main design flaws are retroactivity and reliance on detailed regulations that could make compliance expensive and litigious; the lenient 2017-regulation baseline for the exemption also leaves room for well-advised companies to escape. On balance the bill helps taxpayers more than it hurts them, but it is a broad, retroactive change that would have faced serious transition disputes if it ever moved.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced and sent to the House Ways and Means Committee in February 2026, and nothing has happened to it since — no cosponsors, no hearing, no vote — while Congress remains in session.",
+   "mechanism": "Introduced and referred to the House Ways and Means Committee on the day it was filed, with zero cosponsors and no hearing or markup since — it has simply sat in committee.",
    "narrative": [
     {
-     "text": "Rep. Lloyd Doggett introduced the bill on February 11, 2026, and it was referred the same day to the House Committee on Ways and Means, which handles tax legislation [S1] [S4].",
+     "text": "Rep. Lloyd Doggett (D-TX) introduced the bill on February 11, 2026, and it was referred that same day to the House Committee on Ways and Means, which writes tax legislation.",
      "sources": [
       "S1",
       "S4"
      ]
     },
     {
-     "text": "No other member signed on as a cosponsor [S3].",
+     "text": "No other member of the House has signed on as a cosponsor.",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "The committee has taken no further action on the bill: the full action history lists only the introduction and the referral [S4].",
+     "text": "The action history shows nothing after the referral — no hearing, no markup, no vote.",
      "sources": [
       "S4"
      ]
+    },
+    {
+     "text": "The bill would rewrite the corporate inversion rules (Section 7874) so a foreign-reincorporated company is treated as a US corporation if former US shareholders own more than 50% of it, or if its management and control remain primarily in the US with at least 25% of its employees, payroll, assets, or income in the country.",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "text": "It applies to taxable years ending after May 8, 2014, with an exception for companies that have substantial real business activity in the country they moved to, measured against regulations issued January 18, 2017.",
+     "sources": [
+      "S2"
+     ]
     }
    ],
-   "who_came_out_ahead": "So far, multinational companies that have inverted or may want to are better off, because the bill has not moved and the stricter rules have not been enacted."
+   "who_came_out_ahead": "Companies that have used or could use inversion structures are unaffected so far: because the bill has stalled without even cosponsors, no tax change has taken effect and the existing inversion rules remain in place."
   },
-  "who_came_out_ahead_short": "Companies seeking to escape US tax",
+  "who_came_out_ahead_short": "Inversion-using multinationals, for now",
   "sides": {
    "for": [
     {
      "name": "Rep. Lloyd Doggett",
-     "role": "Sponsor (D-TX)",
+     "role": "Sponsor, House Ways and Means",
      "party": "D",
-     "what_they_did": "Introduced the Stop Corporate Inversions Act of 2026 and referred it to the Ways and Means Committee",
+     "what_they_did": "Introduced the bill and it was referred to his committee; the only member supporting it.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2",
-      "S4"
+      "S2"
      ]
     }
    ],
-   "against": [],
+   "against": [
+    {
+     "name": "Jason Smith",
+     "role": "Chair, House Ways and Means",
+     "party": "R",
+     "what_they_did": "Received the referral as chair and has scheduled no hearing or markup on the bill.",
+     "direct": true,
+     "evidence": "widely_reported",
+     "sources": []
+    }
+   ],
    "party_line": "unclear",
-   "party_line_note": "With a single Democratic sponsor, no cosponsors, and no votes or hearings, the record shows no pattern of support or opposition yet."
+   "party_line_note": "There are no votes and no cosponsors to measure; the bill's support is one Democrat and it sits with a Republican-controlled committee that has taken no action."
   },
   "industries": [
    {
-    "industry": "Multinational corporations that invert or have inverted",
+    "industry": "Multinational corporations using or considering inversion structures (notably drug and medical-device makers)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These companies gain by reorganizing so a foreign parent holds the US business, lowering their US tax bill while the business itself stays American. The bill would tax them as domestic again, retroactive to tax years ending after May 8, 2014, taking away that benefit.",
+    "note": "The bill would strip the tax advantage of relocating a legal headquarters abroad while keeping US operations, subjecting such companies to US tax on their worldwide income. Their gain under the status quo comes at the expense of the broader tax base that other taxpayers support.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "US-headquartered companies that pay full corporate tax",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "Firms that never inverted compete against inverted rivals that legally pay less US tax; tightening the rules removes that tax advantage and levels the field. Their gain comes alongside higher federal revenue rather than at taxpayers' expense.",
+    "industry": "Corporate tax planning advisers (major accounting and law firms)",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "Fewer inversion transactions and related restructurings would mean less fee income from structuring and defending these deals. Their interest in keeping the current rules runs against the taxpayers who fund the revenue the rules preserve.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "With one sponsor, zero cosponsors, and a committee that has taken no action in months, this bill is very likely to sit in the Ways and Means Committee until the Congress ends without a hearing or vote — the fate of most single-sponsor tax bills.",
+  "trajectory": "Very unlikely to advance: a sole-sponsored corporate tax increase with no cosponsors rarely gets a hearing, and the Ways and Means chair has shown none. The realistic best case is that its language is folded into a larger tax bill, which would require support nowhere visible in the record.",
   "categories": [
-   "taxes_on_wealth_and_corporations",
-   "consumer_protection_and_finance"
+   "taxes_on_wealth_and_corporations"
   ],
   "scores": {
-   "public_stakes": 5,
-   "concentrated_stakes": 8,
-   "outcome_against_public": 3,
-   "support_mismatch": 2,
-   "corruption_relevance": 2,
-   "confidence": 0.9
+   "public_stakes": 6,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 4,
+   "support_mismatch": 1,
+   "corruption_relevance": 3,
+   "confidence": 0.75
   }
  },
  "unresolved_citations": []

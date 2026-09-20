@@ -1,181 +1,160 @@
 {
  "bill_id": "119-hr5426",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:08:14+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:26:04+00:00",
  "record_fetched_at": "2026-09-20T08:10:52+00:00",
  "record_hash": "ccf0cb378db1aaff",
  "analysis": {
-  "one_liner": "Bars states from redrawing congressional maps mid-decade and requires independent citizen commissions to draw them instead.",
-  "headline": "The bill has not moved: introduced in September 2025 with zero cosponsors, it sits in the House Judiciary Committee with no vote or hearing scheduled.",
+  "one_liner": "Bans mid-decade congressional redistricting and requires states to draw House maps with independent commissions.",
+  "headline": "The bill to ban mid-decade congressional redistricting and require independent map-drawing commissions was referred to the House Judiciary Committee on September 17, 2025, with no cosponsors, and has received no further action.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would change how congressional district lines get drawn after each census. Instead of legislators drawing maps to favor their own party, an independent commission made up of ordinary citizens — barred from considering party affiliation or where incumbents live — would draft the maps, with public hearings and public mapping software. It would also prohibit states from redrawing maps mid-decade, a practice used to lock in advantages between censuses. A similar version of this idea has been introduced in Congress repeatedly for years without passing.",
-  "who_benefits": "Voters, whose congressional districts would be drawn without regard to party affiliation or where incumbents live, and who could watch every commission meeting, use public mapping tools, and submit their own maps. Citizens in states that currently let legislators gerrymander — and redraw maps mid-decade to protect a party's advantage — would gain the most, since the bill ends mid-decade redistricting outright. Minor-party and independent candidates would also tend to benefit from less engineer-able districts.",
+  "plain_summary": "This bill would stop states from redrawing congressional district maps more than once every ten years, ending the practice of parties remapping districts mid-cycle to gain seats. It would also require every state to hand map-drawing to an independent commission made up of citizens who cannot have recently held office or worked in politics, with public meetings, an open website where anyone can submit their own map, and strict rules against considering voters' party affiliation or where incumbents live. If a legislature rejects the commission's plan, courts would pick or draw the map instead, and states would receive federal money to run their commissions.",
+  "who_benefits": "Ordinary voters in states where legislators currently draw their own district lines: their House elections would become more competitive and their votes would count more evenly, because map-drawers could no longer consider party affiliation, voting history, or incumbents' addresses. Voters in states whose legislatures remap districts mid-decade to lock in a partisan advantage would be protected from having their districts redrawn between censuses.",
   "who_benefits_short": "Voters in gerrymandered states",
   "how_it_helps": [
    {
-    "text": "It bans mid-decade redistricting: once a state draws congressional maps after a census, it cannot redraw them again until the next census, unless a court orders a redraw to comply with the Constitution or the Voting Rights Act.",
+    "text": "Bars a state from redrawing its congressional map more than once per decade, except when a court orders a new map to comply with the Constitution or the Voting Rights Act — eliminating mid-cycle gerrymanders.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "It requires every state to draw congressional maps through an independent commission whose members cannot have held office or party jobs for four years and cannot run for Congress until after the next apportionment.",
+    "text": "Requires each state to draw its congressional districts through an independent commission whose members cannot have held office, run for office, or worked for a party or candidate in the previous four years, and bars the commission from considering voters' party affiliation or where incumbent House members live.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "It bans the commission from considering voters' party affiliation or the residences of incumbent House members when drawing districts.",
+    "text": "Requires public commission meetings, a public website with interactive mapping tools anyone can use to submit their own plan, and public hearings around the state before a plan is sent to the legislature.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "It requires all commission meetings to be public, creates a state website with census data and free mapping software so any citizen can design and submit a plan, and requires public hearings and advance notice before a plan is submitted.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "If the legislature rejects the commission's plan, the state's highest court — or a federal district court if the state never forms a commission — must pick or draw a plan under the same neutral criteria.",
+    "text": "Sets neutral criteria — equal population, Voting Rights Act compliance, keeping counties and municipalities together, compact and contiguous districts — and authorizes federal payments of $150,000 per House seat to help states run their commissions.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Party leaders and incumbent legislators, who would lose their ability to draw safe districts for themselves and their party; the bill would also cost federal taxpayers roughly $65 million per cycle in commission funding ($150,000 per House seat), and state legislatures would lose a power they have exercised for two centuries.",
-  "who_pays_short": "Party legislatures and incumbents",
+  "who_pays": "State legislatures and incumbent members of Congress lose their ability to draw districts that favor their own party or protect incumbents. The federal government would pay states $150,000 per House seat to fund the commissions. Neither cost falls directly on taxpayers in a large way, but legislatures give up significant power.",
+  "who_pays_short": "State legislators and congressional incumbents",
   "drawbacks": [
    {
-    "text": "Commissions are barred from considering voting history or party affiliation (except where needed for the Voting Rights Act or state competitiveness laws), which can unintentionally make districts less reflective of communities of interest and is a real design tradeoff reformers debate.",
+    "text": "The bill bans drawing districts based on voting history or party affiliation, which can make districts less geographically natural or split communities that vote alike, in pursuit of mathematical neutrality.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Taking map-drawing away from elected legislatures is itself a democratic tradeoff: it removes partisan accountability for district lines, and commissions can deadlock or produce plans voters dislike with no elected official answerable for them.",
+    "text": "If a state's legislature rejects the commission's plan, the map is handed to the state's highest court or a federal district court, shifting line-drawing power to judges rather than voters.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill relies on Congress's power over federal elections, which some states and constitutional scholars would challenge as an overreach into state districting authority, and its 2031 effective date means it protects no election before then.",
+    "text": "The prohibition on mid-decade redistricting is written as a federal rule, raising the same federalism objection opponents have raised to past national redistricting standards: that the Constitution traditionally leaves districting to the states.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "The ban applies only prospectively (redistricting after the 2030 census), so it would do nothing about maps already drawn today.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The design is reasonable and draws on decades of state-level reform experience: banning mid-decade redistricting is the single clearest way to stop gerrymander wars, and independent commissions with open meetings and public mapping tools have worked in states that adopted them. The main costs are real but modest: the criteria ban on considering party affiliation and voting history can make it harder to draw districts that actually elect a second major party's candidates in some states, and taking map-drawing away from legislatures removes accountability to voters if commissions draw poorly. On balance the anti-gerrymandering gains for voters outweigh these design tradeoffs — the larger problem is that the bill has no realistic path, since the majority that would have to vote to limit its own power has not engaged with it.",
+  "benefit_vs_cost": "The benefit — permanently competitive, un-gerrymandered House elections — would be large, and the main costs are real but manageable: districts that ignore voting patterns can sometimes split communities of interest, and a nonpartisan commission drawn to neutral rules can still produce uncompetitive maps in a geographically sorted state. On balance the design is a serious, detailed attempt at the problem, but its enforceability against resistant states is its weakest point.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced in the House and referred to the Judiciary Committee, where nothing has happened since — no hearing, no vote, no cosponsors — so it will likely die when the term ends.",
+   "mechanism": "A single member introduced the bill with no cosponsors; the House Judiciary Committee never took it up, and it died there when the Congress ended.",
    "narrative": [
     {
-     "text": "The bill's entire history is two entries: it was introduced on September 17, 2025, and referred the same day to the House Judiciary Committee.",
+     "text": "The bill was introduced on September 17, 2025 and referred the same day to the House Judiciary Committee, whose action history shows nothing further.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "As of the provided record, no other member of the House has signed on as a cosponsor.",
+     "text": "No other member of the House signed on as a cosponsor.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The bill would not take effect until after the 2030 census, applying only to redistricting conducted after that census.",
+     "text": "The bill's effective date was the redistricting cycle after the 2030 census, so it offered no change to maps in use today even if it had passed.",
      "sources": [
       "S3"
      ]
     }
    ],
-   "who_came_out_ahead": "For now, incumbent officeholders and state legislative majorities are better off: nothing has changed, and the power to gerrymander maps mid-decade remains with whoever holds legislative majorities. The 2025 mid-decade redistricting fights it was written to prevent continue unrestricted."
+   "who_came_out_ahead": "Whoever benefits from the current system of legislator-drawn, mid-decade-remappable districts — incumbent officeholders and party mapmakers on both sides."
   },
-  "who_came_out_ahead_short": "Incumbents who keep map-drawing power",
+  "who_came_out_ahead_short": "Incumbent officeholders and party mapmakers",
   "sides": {
    "for": [
     {
      "name": "Rep. Steve Cohen",
-     "role": "Sponsor, U.S. Representative (D-TN)",
+     "role": "U.S. Representative (D-TN)",
      "party": "D",
-     "what_they_did": "Introduced the bill and has been its sole sponsor.",
+     "what_they_did": "Introduced the bill and became its sole sponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3"
+      "S5"
      ]
     }
    ],
    "against": [
     {
-     "name": "House Judiciary Committee (no action taken)",
-     "role": "Committee of referral",
+     "name": "House Judiciary Committee leadership",
+     "role": "Committee of jurisdiction",
      "party": null,
-     "what_they_did": "Has taken no action on the bill since its referral — no hearing, markup, or vote has been scheduled.",
+     "what_they_did": "Took no action on the bill after it was referred.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S5"
      ]
-    },
-    {
-     "name": "House members generally (0 cosponsors)",
-     "role": "The House of Representatives",
-     "party": null,
-     "what_they_did": "Not a single member from either party has cosponsored the bill.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "The bill is a Democratic-sponsored redistricting reform with no cosponsors of either party, so no partisan voting pattern exists yet to measure — though similar redistricting commission bills have historically drawn little Republican support."
+   "party_line_note": "With no cosponsors and no votes on record, the partisan shape of support and opposition was never tested; no Republican signed on, and the bill died in committee."
   },
   "industries": [
    {
     "industry": "Incumbent members of Congress and state legislative majorities",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill strips legislators of the power to draw their own district lines and bars mid-decade remaps, ending the main tool they use to lock in safe seats. This is the concentrated interest the bill exists to constrain.",
-    "sources": [
-     "S3",
-     "S2"
-    ]
-   },
-   {
-    "industry": "Political parties and campaign operatives",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "Banning consideration of party affiliation and voting history in map-drawing reduces the ability to engineer safe seats and the consulting and data work built around them.",
+    "note": "The bill takes map-drawing power away from legislators and their operatives, banning commissions from considering incumbent residences or partisan voting patterns, and locking maps in for the decade. Incumbents lose a tool for securing their seats.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "State election administrators",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "States receive federal payments of $150,000 per House seat to run their redistricting commissions, with smaller states receiving nothing under the single-member-state exclusion.",
+    "industry": "Political consulting and redistricting software firms",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "Gerrymandering is a lucrative, specialized industry; independent commissions with public mapping tools would shrink the market for partisan map-drawing services.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "trajectory": "With zero cosponsors and no committee action more than a year out from the 2030 effective date, the bill is almost certain to die quietly in the Judiciary Committee, as similar versions have in prior Congresses. Redistricting reform through Congress would require broad bipartisan support that does not currently exist, especially while both parties are actively pursuing mid-decade redistricting.",
+  "trajectory": "A redistricting-reform bill with zero cosponsors and no committee action has effectively no path forward in this Congress; comparable measures have repeatedly stalled in committee, and the bill would not take effect until after the 2030 census even if enacted.",
   "categories": [
-   "voting_and_democracy",
-   "corruption_and_ethics"
+   "corruption_and_ethics",
+   "voting_and_democracy"
   ],
   "scores": {
-   "public_stakes": 8,
-   "concentrated_stakes": 9,
-   "outcome_against_public": 6,
-   "support_mismatch": 4,
-   "corruption_relevance": 7,
+   "public_stakes": 7,
+   "concentrated_stakes": 8,
+   "outcome_against_public": 7,
+   "support_mismatch": 6,
+   "corruption_relevance": 8,
    "confidence": 0.9
   }
  },

@@ -1,168 +1,211 @@
 {
  "bill_id": "118-s2052",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T16:06:23+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:37:03+00:00",
  "record_fetched_at": "2026-09-20T15:49:26+00:00",
  "record_hash": "a2f96239ecba2733",
  "analysis": {
-  "one_liner": "Requires Medicare drug plans to pay pharmacies at least their cost to dispense drugs and standardizes pharmacy performance fees.",
-  "headline": "The bipartisan bill, which would have barred Medicare drug plans from paying pharmacies less than their cost to acquire and dispense drugs, was referred to the Senate Finance Committee on June 20, 2023 and never received a committee vote before Congress ended.",
+  "one_liner": "Requires Medicare drug plans to pay pharmacies at least enough to cover the cost of buying and dispensing each drug.",
+  "headline": "The bill never got a vote: it sat in the Senate Finance Committee from June 2023 until the Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would require Medicare prescription drug plans to pay network pharmacies at least enough to cover each drug's acquisition and dispensing cost, after all discounts and back-end fees are netted out. It would give pharmacies a written appeal when a plan pays below their actual cost, force plans to disclose every pricing component of a claim, and require Medicare to evaluate and standardize the performance measures plans use to charge pharmacies fees. It was aimed at keeping community pharmacies — especially in rural areas — from being paid below cost and closing.",
-  "who_benefits": "Independent, rural, and community pharmacies that are currently paid less than their cost to dispense Medicare drugs, and the patients — particularly in rural areas like Montana — who would lose access if those pharmacies close. Pharmacies gain a reimbursement floor, an appeal process through the Medicare ombudsman, disclosure of how each claim is priced, and protection from opaque or unreachable performance-based fees charged by plans.",
-  "who_benefits_short": "Community pharmacies and the patients they serve",
+  "plain_summary": "The bill would require Medicare drug plans to pay pharmacies at least enough to cover what each drug costs the pharmacy to buy and dispense, after subtracting any discounts or fees the plans take back. It would also create an appeal process for pharmacies paid below cost, require plans to disclose all the pricing pieces of each claim, and force plans to use standardized, independently developed performance measures instead of their own. It was referred to the Senate Finance Committee on the day it was introduced and never received any further action before the Congress ended.",
+  "who_benefits": "Community and independent pharmacies, especially in rural areas, would be guaranteed reimbursement that at least covers their cost to buy and dispense each Medicare-covered drug, plus a written appeal process when a plan pays below that floor. Patients benefit indirectly by keeping local pharmacies open and in-network. Pharmacy owners gain from restrictions on performance-based fees and new pricing transparency.",
+  "who_benefits_short": "Local and rural community pharmacies",
   "how_it_helps": [
    {
-    "text": "Requires Medicare drug plans to pay network pharmacies, net of all price concessions, discounts, and fees of any kind, at least enough to cover the pharmacy's cost to acquire and dispense each covered Part D drug.",
+    "text": "Requires Medicare drug plans to pay network pharmacies, after all discounts and fees, at least what the pharmacy spent to acquire and dispense each covered drug, so small pharmacies are not dispensing at a loss.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Creates a written appeal process: a pharmacy paid below its lowest actual acquisition and dispensing cost can appeal to the Medicare Pharmaceutical and Technology Ombudsman within 60 days.",
+    "text": "Creates a written appeal process, through the Medicare Pharmaceutical and Technology Ombudsman, for pharmacies paid below their lowest actual acquisition and dispensing costs.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Directs Medicare to evaluate the performance measures plans use to charge pharmacies concessions and fees, examine whether targets are achievable, and establish standardized, evidence-based measures that plans must use for plan years starting in 2025.",
+    "text": "Requires plans to use standardized, independently developed pharmacy performance measures rather than their own targets, and to evaluate whether existing measures were achievable and applied uniformly across pharmacy types.",
     "sources": [
-     "S2",
      "S3"
     ]
    },
    {
-    "text": "Requires plans to promptly disclose to pharmacies all pricing components of each claim, including reimbursement identifiers, fees, concessions, and incentives, and defines 'specialty pharmacy' and affiliated entities to close loopholes.",
+    "text": "Requires plans to promptly disclose to pharmacies every pricing component of a claim, including fees, concessions, and incentives, ending opaque after-the-fact adjustments.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Prescription drug plan sponsors (Part D insurers) and the pharmacy benefit managers that administer their networks, which currently recoup money from pharmacies through below-cost reimbursement rates, performance fees, and price concessions. Some of the added cost would flow through plan bids into Medicare Part D premiums and federal subsidies, meaning beneficiaries and taxpayers would bear part of the bill.",
-  "who_pays_short": "Medicare drug plans, PBMs, and premiums",
+  "who_pays": "Prescription drug plan sponsors, Medicare Advantage insurers, and the pharmacy benefit managers behind them, who would have to pay pharmacies enough to cover their actual costs and give up price concessions and performance-based fees not backed by standardized measures. Some of that cost could flow into Part D premiums and federal program spending.",
+  "who_pays_short": "Medicare drug plans and PBMs",
   "drawbacks": [
    {
-    "text": "Raising the reimbursement floor costs plans real money, and in Medicare Part D, higher plan costs flow into beneficiary premiums and federal subsidy payments, so beneficiaries and taxpayers would bear part of the price of the fix.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "The bill mandates a heavy administrative build-out: Medicare must collect acquisition and dispensing cost surveys for every covered drug, set payment parameters drug by drug, and run a new appeals process, adding regulatory complexity to an already intricate payment system.",
+    "text": "Guaranteeing every pharmacy reimbursement that covers its full acquisition and dispensing costs would raise Medicare drug plan costs, some share of which would surface in premiums and federal spending rather than being absorbed by plans.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The most direct beneficiaries are pharmacy owners, a business interest; a supporter would have to acknowledge that better pharmacy margins and patient access mostly travel together here, but the bill does not directly cap what patients pay at the counter.",
+    "text": "A federal payment floor limits plans' ability to negotiate lower drug dispensing prices, which is how many plans currently keep Part D drug spending down.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "The bill targets pharmacy reimbursement but does not touch the rebate and formulary system through which PBMs extract concessions from manufacturers, so the larger PBM pricing structure would remain in place.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The core protection is real and modest in design: pharmacies that today accept below-cost reimbursement plus back-end fees because plans control network access would get a cost floor, transparency, and an appeal. The main cost is that higher payments to pharmacies raise plan expenses, some share of which lands on premiums and taxpayers, and the drug-by-drug payment parameters would be administratively demanding. On balance, for rural and independent pharmacies on the edge of closure, the benefits plausibly outweigh the costs — but the bill never got far enough for Congress to weigh them.",
+  "benefit_vs_cost": "The benefit side is concrete: pharmacies across the country, especially independents and rural locations, have been closing as plan payments fall below what drugs cost them, and the bill would directly stop that by setting a cost-covering floor and an appeal process. The cost side is real but diffuse: higher guaranteed reimbursement would raise plan costs and some of it would show up in premiums and federal spending, and plans would lose some negotiating leverage. On balance the bill addressed a documented access problem for patients, and the fair criticism is less that it helps the wrong people than that it leaves the larger PBM rebate machinery untouched.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The bill sat in the Senate Finance Committee for the rest of the Congress; the committee never voted on it and the Senate never brought it to the floor.",
+   "mechanism": "It was sent to the Senate Finance Committee the day it was introduced and the committee never acted on it before the Congress ended.",
    "narrative": [
     {
-     "text": "Senator Jon Tester introduced the bill on June 20, 2023, joined by two Republican and one Democratic cosponsors (Capito, Lankford, and Brown).",
+     "text": "The bill was introduced on June 20, 2023 and referred the same day to the Senate Committee on Finance.",
      "sources": [
       "S1",
-      "S3",
-      "S4"
-     ]
-    },
-    {
-     "text": "The same day, the Senate read the bill twice and referred it to the Committee on Finance, which has jurisdiction over Medicare.",
-     "sources": [
-      "S2",
       "S5"
      ]
     },
     {
-     "text": "No further action ever appears in the record: no hearing, no committee markup, no floor vote, through the end of the 118th Congress on January 3, 2025.",
+     "text": "The action history shows no markup, hearing, committee vote, or floor action at any point in the two-year Congress; the last entry is the referral itself.",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "The bill drew a small bipartisan group of supporters, with cosponsors from both parties, but that support never translated into committee consideration.",
+     "sources": [
+      "S4",
+      "S5"
+     ]
+    },
+    {
+     "text": "The Congress ended on January 3, 2025, and the bill died with it; identical language would have to be reintroduced in a new Congress.",
      "sources": [
       "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Pharmacy benefit managers and Medicare Part D insurers came out ahead: they keep the existing system in which pharmacies can be paid below cost and charged performance-based concessions, and rural patients who depend on independent pharmacies are left with the risk those pharmacies close."
+   "who_came_out_ahead": "Pharmacy benefit managers and Medicare drug plan sponsors, who continue to set pharmacy reimbursement and collect price concessions and performance fees without a federal cost floor, a pricing-claim disclosure requirement, or an appeal process for pharmacies. Large PBM-affiliated mail-order and specialty pharmacies keep their pricing advantages."
   },
-  "who_came_out_ahead_short": "Pharmacy benefit managers and drug plans",
+  "who_came_out_ahead_short": "PBM-affiliated insurers keep paying pharmacies below cost",
   "sides": {
    "for": [
     {
-     "name": "Sen. Jon Tester",
+     "name": "Jon Tester",
      "role": "U.S. Senator from Montana",
      "party": "D",
-     "what_they_did": "Introduced the bill and recruited a bipartisan group of cosponsors",
+     "what_they_did": "Introduced the bill",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3"
+      "S4"
      ]
     },
     {
-     "name": "Sens. Shelley Moore Capito, Sherrod Brown, and James Lankford",
-     "role": "U.S. Senators (original cosponsors)",
-     "party": null,
-     "what_they_did": "Cosponsored the bill at introduction — two Republicans and one Democrat",
+     "name": "Shelley Moore Capito",
+     "role": "U.S. Senator from West Virginia",
+     "party": "R",
+     "what_they_did": "Cosponsored the bill",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S4",
-      "S3"
+      "S4"
+     ]
+    },
+    {
+     "name": "James Lankford",
+     "role": "U.S. Senator from Oklahoma",
+     "party": "R",
+     "what_they_did": "Cosponsored the bill",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "Sherrod Brown",
+     "role": "U.S. Senator from Ohio",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
      ]
     }
    ],
    "against": [
     {
-     "name": "Senate Finance Committee leadership",
-     "role": "Chair of the Senate Finance Committee",
+     "name": "Ron Wyden",
+     "role": "Chair, Senate Finance Committee",
      "party": "D",
-     "what_they_did": "Never scheduled the bill for a hearing or markup; the record shows no committee action after referral on June 20, 2023, and the bill died there",
+     "what_they_did": "As Finance Committee chair, never scheduled the bill for consideration; the record shows no committee action after the June 20, 2023 referral",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S5"
      ]
+    },
+    {
+     "name": "Pharmacy benefit managers and Medicare drug plan industry",
+     "role": "Pharmacy benefit managers and Medicare drug plan sponsors",
+     "party": null,
+     "what_they_did": "Have opposed federal requirements that Medicare plans pay pharmacies cost-covering reimbursement, which would reduce the concessions and fees they collect on pharmacy claims",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "Sponsorship split evenly by party — one Democratic and two Republican cosponsors joined Tester — and no vote was ever recorded, so the bill never faced a partisan test on the floor."
+   "party_line_note": "The bill was introduced by a Democrat with one Democratic and two Republican cosponsors and drew no recorded opposition, but it never reached a vote in either chamber."
   },
   "industries": [
+   {
+    "industry": "Community and independent pharmacies",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "The bill's core promise is a payment floor tied to each pharmacy's actual acquisition and dispensing costs, plus an appeal process when plans pay below that floor. Independent pharmacies, which lack the negotiating power of chains, would gain the most; rural patients gain through continued access.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
    {
     "industry": "Pharmacy benefit managers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "PBMs administer Medicare drug plan networks and make money by negotiating price concessions, performance fees, and reimbursement rates below pharmacies' cost. The bill would force payment up to pharmacies' actual cost, require claim-level pricing disclosure, and standardize the performance measures PBMs use to charge pharmacies — cutting off several of their revenue levers.",
+    "note": "The bill counts price concessions, discounts, fees, and incentives against pharmacies, so a plan could no longer pay a pharmacy less than the drug cost it. The bill also requires standardized performance measures and full claim pricing disclosure, cutting into PBM-driven fee and steerage revenue.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Medicare Part D insurers",
+    "industry": "Medicare prescription drug plan sponsors and Medicare Advantage insurers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Plan sponsors would have to pay pharmacies a reimbursement floor net of all concessions, disclose every pricing component of a claim, and accept standardized performance measures. Their savings from squeezing pharmacies — some of which shows up in lower bids and premiums — would shrink.",
+    "note": "Plan sponsors would face a mandated minimum reimbursement and restrictions on performance-based fees and concessions, raising their Part D drug benefit costs.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Independent and community pharmacies",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "Community, rural, and independent pharmacies would be guaranteed at least their cost to acquire and dispense each Medicare drug, gain an appeals process, and be protected from performance fees based on measures they cannot control. Their survival is directly tied to patients' access to a local pharmacy.",
+    "industry": "PBM-owned mail-order and specialty pharmacies",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill folds specialty pharmacies into the payment floor and requires the Secretary to define the term, limiting plans' ability to steer dispensing to their own lower-cost channels.",
     "sources": [
-     "S2",
      "S3"
     ]
    }
@@ -172,10 +215,10 @@
    "healthcare_and_drug_prices"
   ],
   "scores": {
-   "public_stakes": 6,
-   "concentrated_stakes": 8,
-   "outcome_against_public": 7,
-   "support_mismatch": 4,
+   "public_stakes": 5,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 6,
+   "support_mismatch": 5,
    "corruption_relevance": 2,
    "confidence": 0.85
   }

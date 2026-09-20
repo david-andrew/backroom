@@ -1,125 +1,136 @@
 {
  "bill_id": "119-hr1091",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:38:50+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T19:44:37+00:00",
  "record_fetched_at": "2026-09-20T08:01:35+00:00",
  "record_hash": "c416e6449f256bab",
  "analysis": {
-  "one_liner": "Taxes private fund managers' carried-interest profits at ordinary income rates instead of lower capital-gains rates.",
-  "headline": "Introduced with 2 cosponsors and referred to the House Ways and Means Committee on February 6, 2025, the bill has had no further action.",
+  "one_liner": "Taxes hedge fund and private equity managers' carried-interest pay at ordinary income rates.",
+  "headline": "The Carried Interest Fairness Act was introduced in February 2025 and has sat in the House Ways and Means Committee with no hearings, no markup, and no vote.",
   "direction": "for_working_people",
-  "plain_summary": "Managers of private equity, hedge fund, and similar investment partnerships typically take a share of their investors' profits, called carried interest, and pay tax on it at the lower long-term capital-gains rate even though it is pay for their work. The bill would reclassify that income as ordinary income, taxed at the same rates as wages (up to 37%), and would also subject it to Social Security and Medicare self-employment taxes. It closes several related escape hatches, such as selling or swapping a carry to convert it into capital-gains income, and adds a doubled 40% penalty for underpayments that dodge the new rules.",
-  "who_benefits": "Ordinary taxpayers, who would not directly receive a check but would bear a smaller share of the tax burden if the roughly $15–20 billion per year the loophole is estimated to cost the Treasury were collected instead from fund managers. Wage earners currently pay higher rates on their pay than fund managers pay on compensation that looks like pay.",
-  "who_benefits_short": "Ordinary taxpayers who pay wage rates",
+  "plain_summary": "Hedge fund and private equity partners are typically paid with a share of their fund's profits, called carried interest. Under current law the tax code treats that pay as a capital gain, which is taxed at a lower rate than regular work income. The bill would reclassify carried interest as ordinary income — the same treatment as a salary — and also subject it to self-employment taxes. It would raise revenue from a small group of very high earners, and the money would otherwise be available to the Treasury for whatever Congress chooses to fund.",
+  "who_benefits": "Ordinary taxpayers benefit broadly but diffusely: income from fund managers' work would be taxed like everyone else's work income, adding revenue that could reduce deficits or fund public programs. Federal, state, and local governments that lose revenue to the current treatment also benefit.",
+  "who_benefits_short": "Ordinary taxpayers, via added revenue",
   "how_it_helps": [
    {
-    "text": "Recharacterizes net capital gain from an investment-services partnership interest as ordinary income, taxed at ordinary rates rather than capital-gains rates [S2][S3].",
+    "text": "The bill recharacterizes net capital gain from carried interest in investment partnerships as ordinary income, so it is taxed at the same rates as wages rather than the lower capital gains rates [S2].",
     "sources": [
-     "S2",
-     "S3"
+     "S2"
     ]
    },
    {
-    "text": "Subjects carried-interest income to self-employment taxes, which fund managers' carry has generally escaped [S2][S3].",
+    "text": "It extends the 'hot asset rule' so that money or property received for selling a carried interest is treated as ordinary income rather than capital gain [S2].",
     "sources": [
-     "S2",
-     "S3"
+     "S2"
     ]
    },
    {
-    "text": "Treats money received for selling or exchanging a carried interest as ordinary income, and deems certain partnership distributions a sale so managers cannot convert the carry into capital gains by moving it around [S2][S3].",
+    "text": "It applies self-employment taxes to carried interest income, closing a gap where this work income avoids payroll taxes that ordinary workers pay [S2].",
     "sources": [
-     "S2",
-     "S3"
+     "S2"
     ]
    },
    {
-    "text": "Repeals Section 1061, the 2017 rule that shortened the holding period managers needed to keep the lower rate, and imposes a 40% accuracy-related penalty (double the usual 20%) on underpayments that avoid the new rules [S3].",
+    "text": "It closes several workarounds, including treating distributions in exchange for other partnership property as taxable sales and imposing a doubled 40 percent penalty on underpayments tied to avoidance schemes [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Private equity, hedge fund, venture capital, real estate fund, and SPAC sponsor managers, whose performance-based pay would be taxed at wage rates plus payroll taxes, reducing their after-tax take by a large margin.",
-  "who_pays_short": "Private equity and hedge fund managers",
+  "who_pays": "General partners at private equity, hedge fund, venture capital, and real estate investment firms, whose share of fund profits would be taxed at top ordinary income rates and be subject to self-employment tax. These are among the highest earners in the country.",
+  "who_pays_short": "Private equity and hedge fund partners",
   "drawbacks": [
    {
-    "text": "Opponents argue that taxing carried interest as ordinary income would reduce risk-taking and after-tax returns for the managers who supply investment services, potentially shrinking the pool of capital for startups and companies that buyout firms restructure [S3].",
+    "text": "The bill exempts gains allocated to a domestic C corporation from the new rules [S3], which tax lawyers would likely treat as a roadmap to restructure partnerships and shift carry into corporate form, complicating enforcement.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill's complexity is real: it builds an entire new definitional framework (investment services partnership interests, qualified capital interests, family partnership carve-outs, regulations to be written by the Treasury), and any gap in those definitions becomes a planning opportunity for well-advised fund managers [S3].",
+    "text": "The provision denying carried-interest income 'qualifying income' status for publicly traded partnerships includes a transition that does not begin until 10 years after enactment [S3], so some structures would keep the current treatment for a decade.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Its own text leaves out significant categories: managers who hold interests through domestic C corporations, partnerships owned by real estate investment trusts, and qualified family partnerships get exceptions or delayed effective dates, so some of the income the bill targets would still escape full taxation [S3].",
+    "text": "The rules are highly technical, with extensive elections, safe harbors, and Secretary-of-the-Treasury discretion [S3], which supporters of the current treatment argue invites disputes and litigation even if the policy goal is sound.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Fund managers would argue the current lower rate reflects the risk of their capital-like stake; the bill's own machinery — defining 'qualified capital interests' that keep capital-gains treatment — is an acknowledgment that distinguishing true invested capital from labor income is difficult to draw cleanly [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The core change is straightforward fairness: pay for managing other people's money would be taxed like pay, rather than like an investment gain. The revenue goes to the Treasury generally, not to any specific household, so most people's benefit is indirect. The carve-outs and definitional complexity blunt the effect, but this is one of the cleaner versions of a proposal Congress has debated for over a decade.",
+  "benefit_vs_cost": "The core change — taxing a manager's share of profits from managing other people's money at the same rate as work income — is a defensible fairness fix that raises revenue from a narrow, high-income group. The costs are concentrated on those managers and largely involve complexity and avoidance risk rather than public harm. The main weakness is design: the corporation carve-out and the 10-year transition would blunt the bill and push income into new structures.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced and referred to the House Ways and Means Committee, where it has sat without a hearing, a markup, or a floor vote since February 2025.",
+   "mechanism": "The bill was referred to the House Ways and Means Committee in February 2025 and has sat there with no hearings, no markup, and no vote.",
    "narrative": [
     {
-     "text": "Rep. Marie Gluesenkamp Perez introduced the bill in the House on February 6, 2025 [S1][S5].",
+     "text": "Representative Marie Gluesenkamp Perez introduced the Carried Interest Fairness Act of 2025 on February 6, 2025, for herself and Representative Don Beyer [S1].",
      "sources": [
-      "S1",
+      "S1"
+     ]
+    },
+    {
+     "text": "The same day, the House referred it to the Committee on Ways and Means, the committee with jurisdiction over tax legislation [S5].",
+     "sources": [
       "S5"
      ]
     },
     {
-     "text": "It was referred the same day to the House Committee on Ways and Means, which has jurisdiction over tax legislation [S5].",
+     "text": "No further action appears in the bill's history: no hearings, no markup, no committee vote, and no floor action [S5].",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "It has 2 cosponsors, both Democrats [S4].",
+     "text": "Only two House Democrats cosponsored the bill alongside the sponsor [S4], so it has minimal support even within its own party.",
      "sources": [
       "S4"
      ]
-    },
-    {
-     "text": "The Ways and Means Committee has taken no further action on the bill; no hearing, markup, or vote appears in its action history [S5].",
-     "sources": [
-      "S5"
-     ]
     }
    ],
-   "who_came_out_ahead": "Private equity, hedge fund, and other investment fund managers keep paying the lower capital-gains rate on their performance pay, and their investors keep the current tax treatment, because the bill never advanced."
+   "who_came_out_ahead": "Private equity and hedge fund partners are better off so far: the current treatment of carried interest as lower-taxed capital gain remains untouched because the bill has not moved in committee. Ordinary taxpayers are no worse off than before, but have gained nothing."
   },
-  "who_came_out_ahead_short": "Investment fund managers keep the lower tax rate",
+  "who_came_out_ahead_short": "Private equity and hedge fund managers",
   "sides": {
    "for": [
     {
      "name": "Rep. Marie Gluesenkamp Perez",
      "role": "Sponsor, H.R. 1091",
      "party": "D",
-     "what_they_did": "Introduced the bill to tax carried interest as ordinary income and referred it to committee.",
+     "what_they_did": "Introduced the bill to tax carried interest as ordinary income on February 6, 2025.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S1",
-      "S5"
+      "S1"
      ]
     },
     {
-     "name": "Rep. Donald Beyer",
-     "role": "Original cosponsor",
+     "name": "Rep. Don Beyer",
+     "role": "Cosponsor",
      "party": "D",
-     "what_they_did": "Joined as an original cosponsor at introduction.",
+     "what_they_did": "Cosponsored the bill as the only original cosponsor named at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
+      "S1"
+     ]
+    },
+    {
+     "name": "2 of 217 House Democrats",
+     "role": "Cosponsors",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
       "S4"
      ]
     }
@@ -127,9 +138,9 @@
    "against": [
     {
      "name": "House Ways and Means Committee",
-     "role": "Committee of referral; tax-writing committee of the House",
-     "party": "R",
-     "what_they_did": "Received the referral on February 6, 2025 and has taken no action — no hearing, markup, or vote — in the months since.",
+     "role": "Committee of referral",
+     "party": null,
+     "what_they_did": "Took no action after referral: no hearing, markup, or vote has been scheduled in the year since the bill arrived.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -137,26 +148,35 @@
      ]
     },
     {
-     "name": "Private equity and hedge fund industry",
-     "role": "Industry whose managers hold the carried-interest loophole",
-     "party": null,
-     "what_they_did": "The industry has long lobbied against every carried-interest repeal, and the loophole has survived repeal attempts by multiple administrations and Congresses.",
+     "name": "House Republican leadership",
+     "role": "Controls the House floor calendar",
+     "party": "R",
+     "what_they_did": "Has not brought the bill to the floor; with a 223-seat Republican majority, no tax increase on investment managers would reach a vote without leadership's say-so.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "mostly_party_line",
-   "party_line_note": "Both the sponsor and the 2 cosponsors are Democrats, and carried-interest repeal has been a Democratic proposal; the Republican-controlled Ways and Means Committee has not acted on it [S4][S5]."
+   "party_line_note": "Sponsorship and cosponsorship are entirely Democratic — a Democrat introduced the bill and both cosponsors are Democrats — and no Republican has signed on, while Republicans hold a 223-seat House majority and control the Ways and Means agenda."
   },
   "industries": [
    {
     "industry": "Private equity and hedge fund managers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Their performance pay would be taxed at wage rates plus self-employment taxes instead of the lower capital-gains rate, sharply reducing after-tax income. The industry's interest in keeping the current rate runs against ordinary taxpayers, who make up the difference in revenue.",
+    "note": "Their signature pay — a share of fund profits taxed as capital gain — would be taxed as ordinary income and become subject to self-employment tax. Managers oppose this because it raises their tax bill on labor-like income by a large margin; for the public, it is additional revenue.",
     "sources": [
      "S2",
+     "S3"
+    ]
+   },
+   {
+    "industry": "Real estate investment partnerships",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill's definition of specified assets includes real estate held for rental or investment, so real estate sponsors using carried interest would face the same higher tax treatment.",
+    "sources": [
      "S3"
     ]
    },
@@ -164,31 +184,22 @@
     "industry": "Venture capital and SPAC sponsors",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill specifically sweeps in SPAC sponsor interests and investment management gains, so these fund organizers face the same recharacterization to ordinary income.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "Real estate investment partnerships",
-    "effect": "mixed",
-    "stance_toward_public": "opposed",
-    "note": "Real estate held for investment counts as a specified asset, but partnerships owned 50% or more by publicly traded REITs and qualified family partnerships get exceptions or delayed effective dates, so much real-estate carry would still be taxed at the lower rate.",
+    "note": "The bill explicitly sweeps SPACs into the investment-management rules and would tax sponsor promotional interests as ordinary income.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "trajectory": "Bills like this have been introduced in every recent Congress and none has reached the floor; with 2 cosponsors and no committee action, it will almost certainly die in Ways and Means unless carried interest is folded into a larger tax bill, which historically has not happened.",
+  "trajectory": "With no committee action more than a year after referral, only two cosponsors, and a Ways and Means majority whose tax priorities run the other way, the bill is very likely to die quietly at the end of this Congress without a vote, as every carried-interest repeal bill of the last decade has.",
   "categories": [
    "taxes_on_wealth_and_corporations"
   ],
   "scores": {
-   "public_stakes": 5,
+   "public_stakes": 6,
    "concentrated_stakes": 9,
-   "outcome_against_public": 5,
-   "support_mismatch": 3,
-   "corruption_relevance": 4,
+   "outcome_against_public": 4,
+   "support_mismatch": 2,
+   "corruption_relevance": 2,
    "confidence": 0.85
   }
  },

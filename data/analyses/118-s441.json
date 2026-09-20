@@ -1,165 +1,114 @@
 {
  "bill_id": "118-s441",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T11:55:23+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T19:03:30+00:00",
  "record_fetched_at": "2026-09-20T11:17:55+00:00",
  "record_hash": "4c90ee1aab90b0de",
  "analysis": {
-  "one_liner": "Gives every child a $1,000 savings account at birth, with annual deposits up to $2,000 for lower-income families.",
-  "headline": "The bill never got a hearing or a vote: introduced in February 2023 with 16 Democratic and Independent cosponsors, it sat in the Senate Finance Committee until the 118th Congress ended in January 2025.",
+  "one_liner": "Gives every newborn a $1,000 federal savings account, with up to $2,000 more each year for lower-income families.",
+  "headline": "The bill sat in the Senate Finance Committee for nearly two years and never got a hearing, a vote, or a floor action before the 118th Congress ended on January 3, 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would create a government-run savings account for every child, seeded with $1,000 at birth. Each year until the child turns 18, the Treasury would add more, on a sliding scale: up to $2,000 a year for the poorest families, tapering to nothing for households above five times the poverty line. At 18, the money could be spent only on college or job training, buying a home, retirement savings after age 59½, or other investments the government approves as building long-term wealth. The money would be invested in U.S. Treasury bonds by a government board, similar to the retirement plan for federal employees, and the accounts would not count against a family's eligibility for benefits like student aid.",
-  "who_benefits": "Children, and most of all children in lower-income families, who would receive the largest deposits. A child born to a family below the poverty line would get the maximum $1,000 plus $2,000 every year for 17 years, roughly $35,000 in deposits plus interest by age 18. Children born after 2007 could apply for accounts before turning 18. Because the money is tax-exempt and ignored when calculating eligibility for federal benefits like student aid, it would reach poor families without cutting other support they receive.",
-  "who_benefits_short": "Children, especially in lower-income families",
+  "plain_summary": "The bill would open a tax-free savings account at birth for every child, seeded with $1,000 from the Treasury. Each year until the child turns 18, the federal government would add up to $2,000 more, with the largest contributions going to lower-income families and nothing to households above five times the poverty line. Children could not touch the money before 18, and then only for college, career school, buying a home, or other investments meant to build long-term wealth — and the accounts could not be counted against them when they apply for federal aid or benefits. It was introduced in February 2023 and referred to the Senate Finance Committee, where it stayed until the Congress ended.",
+  "who_benefits": "Children born into lower- and middle-income families gain the most: a poor family's child could enter adulthood with roughly $30,000 or more, tax-free, for college, a first home, or retirement savings. The design is heavily progressive — families below the poverty line get the full $2,000 a year, and contributions phase out to zero for households above five times the poverty line. The account balance is disregarded for eligibility for federal benefits and student aid, so building the savings does not cost a family its other help.",
+  "who_benefits_short": "Children in lower- and middle-income families",
   "how_it_helps": [
    {
-    "text": "Every child born after December 31, 2023 would automatically receive a $1,000 account at birth, and children born after December 31, 2007 could request an account before turning 18.",
+    "text": "Every child born after December 31, 2023 automatically gets a $1,000 account opened when they receive a Social Security number, with no application needed.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Each year until age 18, the government adds a sliding-scale contribution: $2,000 for families at or below the poverty line, phasing down to $250 and then zero for households above 500 percent of the poverty line.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "The money is held in a Treasury-run fund invested in government securities, grows tax-free, and can be withdrawn at 18 only for qualified expenses: higher education, a career and technical school, buying a home, expenses after age 59½, or other investments that build long-term wealth.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Annual deposits run on a sliding scale by family income: $2,000 per year for households below the poverty line, tapering to $250 for households between three and five times the poverty line, and nothing above that.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Families that do not file tax returns are treated as having income below the poverty line, so the poorest children get the maximum deposit by default.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "At 18 the money can be used for higher education, career and technical school, buying a home, retirement savings after 59½, or other long-term wealth-building investments approved by regulation.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "The accounts grow tax-free, are exempt from federal tax, and are disregarded in determining eligibility for any federal benefit, including student financial aid.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "The fund is invested in U.S. Treasury securities and managed with the same fiduciary, auditing, and accountability rules as the federal employees' Thrift Savings Plan, with annual reports to Congress and to account holders.",
+    "text": "Account balances are excluded when determining eligibility for any federal benefit or service, including student financial aid, so saving does not reduce other support a family receives.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Federal taxpayers generally. Deposits come from the general fund of the Treasury with no dedicated funding source, and the bill bars using payroll taxes, so the cost would be added to federal borrowing or general revenue. The initial $1,000 goes to every child regardless of family wealth, though yearly deposits phase out for higher incomes.",
-  "who_pays_short": "Federal taxpayers, through the Treasury",
+  "who_pays": "Federal taxpayers fund the program out of general Treasury revenue — the bill bars using payroll taxes and instead transfers money from the general fund. Wealthier households and large earners would pay most of that cost through general taxation, and they receive no account contributions above the income cutoff. There is also an administrative cost of running a national account system.",
+  "who_pays_short": "General federal taxpayers",
   "drawbacks": [
    {
-    "text": "The bill has no dedicated funding source: deposits come from the Treasury's general fund, payroll taxes are explicitly barred, and the annual cost of seeding and topping up accounts for every child born each year would run into the tens of billions of dollars.",
+    "text": "The program is expensive: it pays contributions for every child in a large birth cohort for 18 years, a multi-decade federal commitment that competes with other spending priorities.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The initial $1,000 goes to every child, including those from wealthy households; only the yearly contributions are phased out above five times the poverty line.",
+    "text": "Contributions depend on prior-year tax filings, which can lag behind a family's actual current circumstances, and enforcement of the qualified-use rules relies heavily on regulations the Treasury would have to write.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The money can only be invested in U.S. Treasury bonds, so returns would be limited to government bond interest, historically lower than a diversified stock portfolio would earn over 18 years.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "The money is locked up: nothing can be withdrawn before age 18, and then only for approved uses, so a family facing an emergency cannot touch it.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "The first beneficiaries would not see the money until 2041 at the earliest, so the bill offers no help to today's adults struggling with wealth gaps.",
+    "text": "The money cannot be used for everyday needs before 18, so families under acute financial pressure get no direct relief from it; the benefit only arrives when the child reaches adulthood.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "This is a large, permanent new spending program aimed squarely at closing the racial and class wealth gap at its starting point: childhood. The design is careful in several ways — deposits are progressive, the accounts don't reduce other benefits, and management is modeled on a well-regarded government plan — but the main honest objections are its cost with no funding mechanism and the low-return, low-flexibility structure. Whether it is worth it depends on weighing a generational wealth-building program against tens of billions a year in new federal spending.",
+  "benefit_vs_cost": "The benefit is real and directly aimed at the children's-wealth gap: a large, guaranteed asset for young adults from families with little wealth, protected from being counted against benefits. The cost is a large and long-term federal outlay, and its value at age 18 depends on modest returns from government securities, so it will not by itself close wealth gaps. The main honest objection is fiscal: it is a big, permanent new entitlement, and supporters would need to defend that price against other uses of the same money.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced and sent to the Senate Finance Committee, which never held a hearing or voted on it, and the bill died when the 118th Congress ended in January 2025.",
+   "mechanism": "It was read twice and referred to the Senate Finance Committee the day it was introduced, and the committee never took it up before the Congress ended.",
    "narrative": [
     {
-     "text": "Sen. Cory Booker introduced the bill on February 15, 2023, joined by 16 cosponsors, all Democrats and Independents, including Senate Majority Leader Chuck Schumer.",
+     "text": "Sen. Cory Booker introduced the American Opportunity Accounts Act on February 15, 2023, joined by 15 Democratic and one Independent cosponsor.",
      "sources": [
       "S1",
-      "S4",
-      "S3"
-     ]
-    },
-    {
-     "text": "The Senate read it twice and referred it to the Committee on Finance the same day.",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "The Finance Committee took no further action on the bill for the rest of the Congress — no hearings, no markup, no vote.",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "No Republican cosponsored the bill at any point.",
-     "sources": [
       "S4"
      ]
     },
     {
-     "text": "The bill died when the 118th Congress ended on January 3, 2025, without ever reaching the Senate floor or the House.",
+     "text": "The same day, the Senate read the bill twice and referred it to the Committee on Finance.",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "That referral was the bill's last action of any kind: no hearing, no markup, no committee report, and no floor vote occurred before the 118th Congress ended on January 3, 2025.",
      "sources": [
       "S5",
       "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "The Treasury and taxpayers avoided tens of billions in new annual spending, and the private savings and investment industry kept its current role managing children's savings; low-income children gained nothing, since no wealth-building program was created."
+   "who_came_out_ahead": "No one gained policy from the outcome; children in lower-income families simply never got the accounts. The outcome costs taxpayers nothing, and it preserves the status quo where wealth-building programs like 529 plans and the home mortgage deduction flow disproportionately to households that already have wealth. Senator Booker and the cosponsors retain an unpassed bill and its issue positioning."
   },
-  "who_came_out_ahead_short": "Taxpayers and the savings industry, for now",
+  "who_came_out_ahead_short": "Status quo; wealthier households keep existing tax breaks",
   "sides": {
    "for": [
     {
-     "name": "Cory Booker",
-     "role": "U.S. Senator from New Jersey",
+     "name": "Sen. Cory Booker",
+     "role": "U.S. Senator from New Jersey, bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the American Opportunity Accounts Act and recruited 16 cosponsors.",
+     "what_they_did": "Introduced the American Opportunity Accounts Act on February 15, 2023.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S5"
+      "S3"
      ]
     },
     {
-     "name": "Chuck Schumer",
-     "role": "Senate Majority Leader",
+     "name": "16 senators",
+     "role": "Cosponsors — 15 of 48 Senate Democrats and 1 of 4 Senate Independents",
      "party": "D",
-     "what_they_did": "Cosponsored the bill, signaling leadership-level support, but never brought it to the floor.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S3",
-      "S4"
-     ]
-    },
-    {
-     "name": "Democratic and Independent cosponsors",
-     "role": "15 senators including Warren, Sanders, Brown, and Markey",
-     "party": null,
-     "what_they_did": "Signed on as cosponsors, all from one party; none was enough to move the bill out of committee.",
+     "what_they_did": "Cosponsored the bill, including Sens. Durbin, Markey, Merkley, Warren, Sanders, Brown, Blumenthal, Van Hollen, Schatz, Whitehouse, Schumer, Baldwin, Klobuchar, Gillibrand, and Heinrich.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -170,46 +119,68 @@
    ],
    "against": [
     {
-     "name": "Ron Wyden",
-     "role": "Chair, Senate Finance Committee",
-     "party": "D",
-     "what_they_did": "Never scheduled a hearing, markup, or vote on the bill, which sat in his committee from February 2023 until the Congress ended.",
+     "name": "Senate Finance Committee",
+     "role": "Committee of referral; chaired by Sen. Ron Wyden (D-OR)",
+     "party": null,
+     "what_they_did": "Never scheduled a hearing or markup, so the bill never advanced out of committee.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S5"
+      "S5",
+      "S1"
      ]
     },
     {
-     "name": "Senate Republicans",
-     "role": "Senate minority caucus",
-     "party": "R",
-     "what_they_did": "Offered no support; not a single Republican cosponsored the bill during the two years it was pending.",
-     "direct": false,
+     "name": "Senate Majority Leader",
+     "role": "Sen. Chuck Schumer (D-NY), also a cosponsor",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill but never brought it to the Senate floor for debate or a vote.",
+     "direct": true,
      "evidence": "record",
      "sources": [
+      "S1",
+      "S5",
       "S4"
      ]
     }
    ],
    "party_line": "mostly_party_line",
-   "party_line_note": "All 16 cosponsors were Democrats or Independents and no Republican ever signed on; the bill stalled in a committee chaired by a member of the sponsoring party, so partisan support alone was not enough to get it a vote."
+   "party_line_note": "All 16 cosponsors were Democrats or Independents; no Republican signed on, and the bill never reached a vote in the Republican-controlled House or on the Senate floor."
   },
   "industries": [
    {
-    "industry": "Asset managers and children's savings providers (e.g., 529 plan administrators)",
+    "industry": "Asset-management and financial services firms",
     "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "The bill routes children's savings through a government fund invested directly in Treasury securities, bypassing private account managers who collect fees on savings products like 529 college plans. A cheaper public alternative would have displaced part of that fee stream.",
+    "stance_toward_public": "mixed",
+    "note": "The bill routes all account money through a single government fund invested in Treasury securities, managed by a federal board modeled on the Thrift Savings Fund, so private firms are cut out of managing the balances and fees. It sets no requirement that children's savings flow through commercial financial products.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Higher education and career-training institutions",
+    "industry": "Colleges and universities",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Account holders could spend the money on college or technical school tuition from age 18, adding a new source of payment for students at those institutions.",
+    "note": "Allowable uses include higher education and career-technical school expenses, creating a pool of future tuition money for a cohort of students — though only when those students turn 18 and choose to spend it there.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "industry": "Mortgage lenders and home sellers",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "Home ownership is a qualified use of the accounts, so a generation of young adults would enter the housing market with larger down payments.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "industry": "Wealthy households",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "Households above 500 percent of the poverty line get no annual contributions, yet general-fund financing means broad taxpayers carry the cost; the program is funded from general Treasury revenue, not payroll taxes.",
     "sources": [
      "S3"
     ]
@@ -218,15 +189,16 @@
   "trajectory": null,
   "categories": [
    "social_safety_net",
+   "taxes_on_wealth_and_corporations",
    "education_and_student_debt"
   ],
   "scores": {
-   "public_stakes": 8,
+   "public_stakes": 7,
    "concentrated_stakes": 3,
-   "outcome_against_public": 8,
-   "support_mismatch": 7,
+   "outcome_against_public": 7,
+   "support_mismatch": 4,
    "corruption_relevance": 1,
-   "confidence": 0.9
+   "confidence": 0.95
   }
  },
  "unresolved_citations": []

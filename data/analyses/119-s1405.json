@@ -1,0 +1,188 @@
+{
+ "bill_id": "119-s1405",
+ "model": "z-ai/glm-5.3-flash",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:05:04+00:00",
+ "record_fetched_at": "2026-09-20T19:36:18+00:00",
+ "record_hash": "34727814bec5f9e4",
+ "analysis": {
+  "one_liner": "Requires crypto exchanges to segregate customer funds and publish monthly proof of reserves.",
+  "headline": "The bill, introduced by a Republican and a Democratic senator, has sat in the Senate Banking Committee without a hearing, vote, or further action since April 2025.",
+  "direction": "for_working_people",
+  "plain_summary": "The bill would require platforms where people buy and sell crypto to keep customers' money and assets separate from the company's own, and to bar the company from lending out customer assets to back other people's trades. Every crypto exchange and custodian would have to get a monthly independent audit showing it actually holds the reserves it claims, with those reports made public by Treasury. Companies that violate the rules would face civil penalties.",
+  "who_benefits": "People who keep money or crypto on a digital exchange or with a custodian. The rules are aimed at failures like the 2022 FTX collapse, where a platform secretly used customer deposits for its own trading, leaving customers with nothing when it went under. Segregating customer assets and requiring independent, published proof that reserves exist makes it harder for a platform to hide shortfalls and easier for customers to get their assets out if a platform fails.",
+  "who_benefits_short": "People who hold crypto on exchanges",
+  "how_it_helps": [
+   {
+    "text": "Customer assets must be treated as belonging to the customer and generally may not be co-mingled with the exchange's own funds or used to margin, secure, or guarantee anyone else's trades [S2][S3].",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Exchanges and custodians must obtain monthly attestations from independent auditing firms proving their reserves, verified cryptographically, and Treasury must make every report public with the entity and auditor named [S2][S3].",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Exchanges must design procedures to minimize both the risk that a customer loses assets and delays in a customer getting assets back [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Violations carry civil penalties scaled to users or assets under management, and Treasury must publicly name entities that failed to comply over the prior 24 months [S3].",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
+  "who_pays": "Crypto exchanges and custodians, which bear the cost of segregating funds, monthly independent audits, and potential civil penalties. Auditing firms gain a new stream of monthly attestation business.",
+  "who_pays_short": "Crypto exchanges and digital custodians",
+  "drawbacks": [
+   {
+    "text": "The penalty regime is capped: total penalties per entity per year cannot exceed the lesser of $1 per user or 10 basis points of assets under management, and a company does not have to pay while an appeal is pending [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Enforcement is triggered only if Treasury discovers a violation while reviewing the exchanges' own submitted reports, so an entity that never submits a report is not caught by the same mechanism [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "The bill takes effect only after the Public Company Accounting Oversight Board and the accounting industry's own trade group jointly approve an attestation standard built by an advisory committee made up of the industry entities that submitted proposals, with the deadline extendable indefinitely in 180-day increments [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Assets in margin accounts are excluded from protection, and exchanges may still co-mingle customer funds with their own bank accounts for convenience [S3].",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
+  "benefit_vs_cost": "The core protections address a real, repeated harm: exchange customers losing everything when a platform secretly gambles with their deposits. The design is imperfect, though. Penalties are small relative to the largest exchanges, enforcement depends on the exchanges self-reporting into a review process, and the effective date is hostage to an industry-weighted standard-setting process with no hard deadline. Even so, the segregation and public proof-of-reserves rules would meaningfully change what an FTX-style failure would look like.",
+  "outcome": {
+   "status": "pending",
+   "mechanism": "The bill was introduced and referred to the Senate Banking Committee in April 2025 and has had no hearing, markup, or vote since.",
+   "narrative": [
+    {
+     "text": "Senator Tillis introduced the bill on April 10, 2025, joined by Senator Hickenlooper [S1][S3].",
+     "sources": [
+      "S1",
+      "S3"
+     ]
+    },
+    {
+     "text": "It was read twice and referred to the Senate Committee on Banking, Housing, and Urban Affairs [S5].",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "No further action appears in the bill's action history [S5].",
+     "sources": [
+      "S5"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "No one yet, and no one has lost anything either; the bill simply has not moved, so exchange customers remain without the protections it would add and exchanges remain without the clarity it would provide."
+  },
+  "who_came_out_ahead_short": "No one yet; the bill is untouched",
+  "sides": {
+   "for": [
+    {
+     "name": "Sen. Thom Tillis",
+     "role": "U.S. Senator from North Carolina; bill sponsor",
+     "party": "R",
+     "what_they_did": "Introduced the bill imposing asset-segregation and proof-of-reserves requirements on digital exchanges",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S3",
+      "S5"
+     ]
+    },
+    {
+     "name": "Sen. John Hickenlooper",
+     "role": "U.S. Senator from Colorado; cosponsor",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S4"
+     ]
+    }
+   ],
+   "against": [
+    {
+     "name": "Senate Banking, Housing, and Urban Affairs Committee",
+     "role": "Committee of referral",
+     "party": null,
+     "what_they_did": "Received the bill on referral and has taken no further action on it — no hearing, markup, or vote",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S5"
+     ]
+    }
+   ],
+   "party_line": "bipartisan",
+   "party_line_note": "A Republican senator sponsored it and a Democratic senator is the sole cosponsor; there has been no vote to reveal a partisan split."
+  },
+  "industries": [
+   {
+    "industry": "Crypto exchanges and digital custodians",
+    "effect": "mixed",
+    "stance_toward_public": "aligned",
+    "note": "The bill imposes real compliance costs and penalty exposure on exchanges, but it also would give the industry a federal framework for demonstrating solvency, which is the trust problem that followed the FTX collapse. Its interest in avoiding an FTX-style implosion runs alongside customers' interest in getting their assets back.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "industry": "Accounting and auditing firms",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "Monthly proof-of-reserves attestations would be mandatory for every exchange and custodian, a permanent new line of audit business. The accounting industry also sits on both sides of the standard-setting process, since an industry body co-approves the standard and the advisory committee is made up of proposal submitters.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "industry": "Digital asset industry generally",
+    "effect": "entrenched",
+    "stance_toward_public": "aligned",
+    "note": "By establishing a federal attestation standard and naming Treasury as the clearinghouse for public proof-of-reserves reports, the bill folds crypto trading into a recognized regulatory structure rather than restricting it, which tends to stabilize and legitimize the industry's role.",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
+  "trajectory": "With no committee action eight months after referral, the bill is on the standard path for legislation that never reaches the floor. Unless the Banking Committee schedules a hearing or markup in the remainder of this Congress, it will expire in January 2027 with no vote.",
+  "categories": [
+   "consumer_protection_and_finance",
+   "corruption_and_ethics"
+  ],
+  "scores": {
+   "public_stakes": 5,
+   "concentrated_stakes": 5,
+   "outcome_against_public": 2,
+   "support_mismatch": 3,
+   "corruption_relevance": 2,
+   "confidence": 0.85
+  }
+ },
+ "unresolved_citations": []
+}

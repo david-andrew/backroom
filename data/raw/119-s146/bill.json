@@ -1,0 +1,79 @@
+{
+ "bill": {
+  "actions": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/119/s/146/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/146/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 21,
+   "countIncludingWithdrawnCosponsors": 21,
+   "url": "https://api.congress.gov/v3/bill/119/s/146/cosponsors?format=json"
+  },
+  "introducedDate": "2025-01-16",
+  "latestAction": {
+   "actionDate": "2025-05-19",
+   "text": "Became Public Law No: 119-12."
+  },
+  "laws": [
+   {
+    "number": "119-12",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/146",
+  "number": "146",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/146/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001098",
+    "firstName": "Ted",
+    "fullName": "Sen. Cruz, Ted [R-TX]",
+    "isByRequest": "N",
+    "lastName": "Cruz",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/C001098?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/119/s/146/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/146/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/119/s/146/text?format=json"
+  },
+  "title": "TAKE IT DOWN Act",
+  "titles": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/119/s/146/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:09:51Z"
+ },
+ "request": {
+  "billNumber": "146",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

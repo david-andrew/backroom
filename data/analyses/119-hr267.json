@@ -1,121 +1,122 @@
 {
  "bill_id": "119-hr267",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:00:49+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T19:54:31+00:00",
  "record_fetched_at": "2026-09-20T08:08:29+00:00",
  "record_hash": "62262561b9120cc5",
  "analysis": {
-  "one_liner": "Requires hospitals and insurers to publish their actual negotiated prices for care.",
-  "headline": "Introduced with no cosponsors in January 2025, the bill has sat in the House Energy and Commerce Committee without a hearing or vote ever since.",
+  "one_liner": "Requires hospitals and insurers to publish negotiated prices and give consumers a cost-estimator tool.",
+  "headline": "A bill requiring hospitals and insurers to disclose negotiated prices was introduced in January 2025 with zero cosponsors and has sat in the House Energy and Commerce Committee since, with no hearing or vote.",
   "direction": "for_working_people",
-  "plain_summary": "The bill writes into law requirements that hospitals and health insurance plans disclose their real prices: hospitals must post their full list of standard charges, including the rates they negotiate with each insurer, their cash-pay discounts, and billing codes, for at least 300 common schedulable services, in a free, machine-readable format. Insurance plans must publish in-network and out-of-network rates and the net prices they pay for prescription drugs after rebates, and must give patients a searchable tool to estimate what a specific service will cost them out of pocket. Hospitals that do not comply face a civil penalty of up to $300 per day.",
-  "who_benefits": "Patients, especially people paying cash (the uninsured or those with high deductibles) and anyone scheduling non-emergency care, who could compare real prices across hospitals and providers before committing to treatment. People with insurance could get an estimate of their own out-of-pocket share before a procedure, instead of being surprised by a bill weeks later.",
-  "who_benefits_short": "Patients shopping for scheduled care",
+  "plain_summary": "This bill writes hospital and health insurer price disclosure rules directly into federal law. Hospitals would have to publish their list prices, the rates they negotiated with each insurer, cash discounts, and billing codes for at least 300 common services, in a free, machine-readable format. Insurance plans would have to publish in-network and out-of-network rates, negotiated prescription drug prices, and offer a free online tool so patients can see what a service will actually cost them before they get the bill. Violating hospitals could face a civil penalty of up to $300 per day.",
+  "who_benefits": "Patients and anyone paying for health care. Someone getting a knee MRI or a scheduled surgery could look up what their insurer actually pays at different hospitals and what they would owe out of pocket before committing. Uninsured patients would see discounted cash prices that many hospitals keep off their websites. Employers who buy health plans for workers would also get visibility into the rates their money covers.",
+  "who_benefits_short": "Patients, the uninsured, and employers",
   "how_it_helps": [
    {
-    "text": "Hospitals must publish, in plain language and free of charge, a machine-readable list of standard charges including gross charges, the specific rates negotiated with each insurer, the minimum and maximum negotiated rates, and the discounted cash price, for at least 300 shoppable services.",
+    "text": "Hospitals must publish, in plain language and free of charge, their gross charges, the specific rates negotiated with each named insurer, discounted cash prices, and billing codes, for at least 300 shoppable services [S3].",
     "sources": [
      "S3",
      "S2"
     ]
    },
    {
-    "text": "Hospitals can satisfy the disclosure requirement by maintaining a free online price estimator, searchable by service, billing code, and insurer, that tells a consumer what they will actually owe.",
+    "text": "Hospitals would be deemed compliant if they maintain a free internet-based price estimator tool that shows consumers what they would actually pay, searchable by service, billing code, and insurer [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Insurance plans must publish in-network provider rates, out-of-network allowed amounts, and the negotiated rates and historical net prices (after rebates and discounts) for covered prescription drugs, and must apply these rules to group plans, not just individual marketplace plans.",
+    "text": "Insurance plans must disclose in-network rates, out-of-network allowed amounts, and negotiated prescription drug rates including historical net prices after rebates, and must provide a free self-service tool with real-time cost-sharing estimates [S3].",
     "sources": [
-     "S2",
-     "S3"
+     "S3",
+     "S2"
     ]
    },
    {
-    "text": "Plans must provide a free internet self-service tool that gives real-time estimates of a member's cost-sharing for a covered item or service at a specific provider, plus a paper response mailed within two business days on request.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Hospitals that fail to disclose and do not complete a corrective action plan face a civil monetary penalty of up to $300 per day of ongoing violation.",
+    "text": "Hospitals that fail to comply after a corrective action plan face a civil monetary penalty of up to $300 per day while the violation continues [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Hospitals and health insurers bear the cost of compiling and publishing detailed price data and building consumer-facing tools. Hospitals also risk losing pricing power where publishing negotiated rates reveals they charge some insurers or cash patients far more than others. Insurers and pharmacy benefit managers would have to expose the rebates and discounts they receive on prescription drugs, information that today largely stays confidential.",
-  "who_pays_short": "Hospitals, insurers, and drug middlemen",
+  "who_pays": "Hospitals and health insurers bear the costs of building, maintaining, and updating the price publications and consumer tools, and they lose the pricing secrecy that comes from keeping negotiated rates confidential. PBMs and insurers would have to reveal drug prices net of rebates. Compliance costs are likely passed to consumers in some form through premiums and charges.",
+  "who_pays_short": "Hospitals, health insurers, and PBMs",
   "drawbacks": [
    {
-    "text": "The penalty for a hospital that simply refuses to comply is capped at $300 per day — roughly $110,000 a year — which is small relative to large hospital systems' revenues and is weaker than the existing regulatory penalty structure for some large hospitals, so enforcement could amount to little.",
+    "text": "The penalty for a hospital that refuses to publish its prices is capped at $300 per day, which for a large hospital system is a rounding error and gives regulators little leverage against a determined violator [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Transparency alone does not force prices down: a patient facing an emergency cannot shop, and research on price transparency is mixed, with some evidence that publishing negotiated rates can lead providers and insurers to match toward the higher disclosed rates rather than compete downward.",
-    "sources": []
+    "text": "Publishing rates does not by itself lower prices; many consumers will never use the data, and researchers have found the already-existing version of these disclosure rules has had limited effect on what patients actually pay. The bill's main practical change is making permanent rules that already exist administratively.",
+    "sources": [
+     "S2"
+    ]
    },
    {
-    "text": "Requiring disclosure of at least 300 shoppable services, with payer-specific rates and billing codes, imposes real compliance and data-management costs, which fall hardest on small and rural hospitals with thin administrative staffs.",
+    "text": "Hospitals and insurers would face real compliance costs building and maintaining machine-readable price files and consumer-facing estimate tools, and some of that cost would likely show up in premiums or charges [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The core benefit is real: patients scheduled for surgery, imaging, or other planned care could see what they will owe before treatment, and cash payers could find hospitals' discounted prices. But the bill's design blunts its own impact — the penalty cap is trivial for large hospital systems, and transparency changes behavior only where patients actually have a choice and time to choose. On the cost side, hospitals and insurers already operate under very similar disclosure requirements adopted by regulation in 2019 and 2020, so the added compliance burden is modest; the main new exposure is for insurers and drug middlemen, who would have to reveal rebate economics they now keep confidential. A reasonable person could support this as a consumer right-to-know measure while conceding it will not, by itself, bring hospital prices down.",
+  "benefit_vs_cost": "The consumer benefit is real but indirect: knowing prices does not guarantee a better deal, and the disclosure rules it codifies largely already exist under federal regulations, so the bill's incremental effect is modest. Its biggest value is durability, putting the rules in statute so they cannot be quietly rescinded. The weak $300-a-day penalty undercuts enforcement, which is the bill's most serious design flaw. On balance it is a low-cost, pro-consumer bill that falls well short of what the underlying problem demands.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and sent to the House Energy and Commerce Committee, which has taken no further action on it, so no vote has happened and Congress is still in session.",
+   "mechanism": "It was introduced in January 2025 and referred to the House Energy and Commerce Committee, where it has not moved since.",
    "narrative": [
     {
-     "text": "Rep. Warren Davidson (R-OH) introduced the bill on January 9, 2025, and it was referred the same day to the House Committee on Energy and Commerce.",
+     "text": "Rep. Warren Davidson introduced the bill in the House on January 9, 2025 [S1].",
      "sources": [
       "S1",
       "S5"
      ]
     },
     {
-     "text": "No other member cosponsored the bill.",
+     "text": "It was referred the same day to the House Committee on Energy and Commerce, which is where health pricing legislation sits before any floor consideration [S5].",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "The bill has no cosponsors, so no other member has formally signed on [S4].",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The committee has held no markup, hearing, or floor action on the bill; the only entries in the action history are introduction and committee referral.",
+     "text": "As of the latest action record, the committee has taken no further step, with no hearing, markup, or floor vote [S5].",
      "sources": [
       "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Hospitals and insurers are better off for now: the current pricing system, where negotiated rates and drug rebates stay largely confidential, remains in place because nothing has moved. Patients gain nothing until a bill like this becomes law."
+   "who_came_out_ahead": "So far, hospitals and insurers keep the pricing status quo, since the bill has produced no action and nothing has changed for patients yet."
   },
   "who_came_out_ahead_short": "Hospitals and insurers, for now",
   "sides": {
    "for": [
     {
      "name": "Rep. Warren Davidson",
-     "role": "Sponsor, H.R. 267",
+     "role": "Sponsor, House Energy and Commerce Committee",
      "party": "R",
-     "what_they_did": "Introduced the bill to write hospital and insurer price disclosure requirements into statute.",
+     "what_they_did": "Introduced the bill and referred it to the Energy and Commerce Committee",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3",
       "S5"
      ]
     }
    ],
    "against": [
     {
-     "name": "House Committee on Energy and Commerce",
-     "role": "Committee of referral",
+     "name": "House Energy and Commerce Committee",
+     "role": "Committee of referral for hospital and insurer pricing legislation",
      "party": null,
-     "what_they_did": "Received the bill on referral and has not scheduled a markup, hearing, or vote; it has sat untouched since January 2025.",
+     "what_they_did": "Has taken no action on the bill since it was referred on January 9, 2025",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -123,58 +124,67 @@
      ]
     },
     {
-     "name": "Rep. Brett Guthrie",
-     "role": "Chair, House Energy and Commerce Committee",
-     "party": "R",
-     "what_they_did": "As chair, controls the committee's agenda and has not brought the bill up for consideration.",
+     "name": "American Hospital Association",
+     "role": "National hospital industry lobby",
+     "party": null,
+     "what_they_did": "Sued in federal court to block the underlying 2019 hospital price disclosure rule that this bill would write into statute",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
+    },
+    {
+     "name": "Health insurer industry groups",
+     "role": "National insurance industry lobbies",
+     "party": null,
+     "what_they_did": "Lobbied against and sued to narrow the parallel insurer price disclosure rules this bill would codify",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "There is no vote record to split: the bill has a single Republican sponsor, zero cosponsors from either party, and has never been considered by the committee or the floor."
+   "party_line_note": "The bill has a single Republican sponsor and no cosponsors of either party, so no partisan pattern has formed yet."
   },
   "industries": [
    {
-    "industry": "Hospitals",
-    "effect": "mixed",
+    "industry": "Hospitals and hospital systems",
+    "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Hospitals must publish negotiated rates, cash discounts, and billing codes for at least 300 schedulable services, which erodes their ability to charge different payers very different secret prices, though the $300/day penalty cap limits the downside of ignoring it. The compliance burden falls on hospitals, but most already face similar disclosure rules issued by regulation.",
+    "note": "Hospitals would have to publish their negotiated rates with each insurer, cash discounts, and billing codes for at least 300 services, ending the information advantage they get from opaque pricing. Hospital groups fought the existing version of this rule in court, and a statute would take away the option of a friendlier administration quietly dropping it.",
     "sources": [
-     "S3"
+     "S3",
+     "S2"
     ]
    },
    {
     "industry": "Health insurers",
-    "effect": "mixed",
+    "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Insurers must publish in-network and out-of-network rates and provide free price-estimator tools for members, and the requirement would now cover employer group plans as well as marketplace plans. Their business depends partly on opaque negotiated pricing, so disclosure works against them even as it is sold as a consumer service.",
+    "note": "Plans would have to publish in-network and out-of-network rates and provide a free cost-estimator tool, and the requirement would apply to employer group plans as well as marketplace plans. Insurers lose the negotiating secrecy that lets them charge different rates to different buyers.",
     "sources": [
-     "S2",
      "S3"
     ]
    },
    {
-    "industry": "Pharmacy benefit managers and drug rebate intermediaries",
-    "effect": "loses",
+    "industry": "Pharmacy benefit managers and drug pricing intermediaries",
+    "effect": "mixed",
     "stance_toward_public": "opposed",
-    "note": "Plans would have to disclose negotiated drug rates and 'historical net prices' after rebates, discounts, and fees, exposing the rebate economics that PBMs and insurers currently keep confidential. This is the part of the bill with the most direct bearing on why patients' drug prices are far higher than what insurers actually pay.",
+    "note": "Insurers would have to publish negotiated drug rates and historical net prices net of rebates and fees, which would expose how much of a drug's list price is captured by intermediaries. The disclosure requirement stops short of forcing any change in how those rebates are shared.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "trajectory": "With a single sponsor, zero cosponsors, and no committee action more than a year into the Congress, the bill is very unlikely to advance on its own. Price transparency measures of this kind more often move when attached to a larger health package; a watcher should look for whether its language reappears in a broader bill rather than expect standalone action.",
+  "trajectory": "With no cosponsors and no committee action for months, the bill faces long odds. Price transparency codification has drawn occasional interest from both parties, so it could pick up cosponsors if leadership takes it up, but a bill sitting untouched in Energy and Commerce typically dies quietly when the Congress ends.",
   "categories": [
    "healthcare_and_drug_prices",
    "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 5,
-   "concentrated_stakes": 5,
-   "outcome_against_public": 3,
-   "support_mismatch": 1,
+   "public_stakes": 6,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 4,
+   "support_mismatch": 3,
    "corruption_relevance": 1,
    "confidence": 0.85
   }

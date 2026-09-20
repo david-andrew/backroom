@@ -1,0 +1,55 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/hr/10412/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/10412/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/119/hr/10412/cosponsors?format=json"
+  },
+  "introducedDate": "2026-09-16",
+  "latestAction": {
+   "actionDate": "2026-09-16",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10412",
+  "number": "10412",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "sponsors": [
+   {
+    "bioguideId": "S001172",
+    "district": 3,
+    "firstName": "Adrian",
+    "fullName": "Rep. Smith, Adrian [R-NE-3]",
+    "isByRequest": "N",
+    "lastName": "Smith",
+    "party": "R",
+    "state": "NE",
+    "url": "https://api.congress.gov/v3/member/S001172?format=json"
+   }
+  ],
+  "title": "To amend the Internal Revenue Code of 1986 to eliminate the State opt-in requirement for the qualified elementary and secondary education scholarship credit.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/hr/10412/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-17T08:07:26Z",
+  "updateDateIncludingText": "2026-09-17T08:07:26Z"
+ },
+ "request": {
+  "billNumber": "10412",
+  "billType": "hr",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

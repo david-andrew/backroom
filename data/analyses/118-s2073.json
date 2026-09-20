@@ -1,168 +1,212 @@
 {
  "bill_id": "118-s2073",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:56:34+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:35:25+00:00",
  "record_fetched_at": "2026-09-20T11:43:46+00:00",
  "record_hash": "4f8ab6c54587b671",
  "analysis": {
-  "one_liner": "Requires online platforms to safeguard minors from harmful design features and bans targeted ads to children and teens.",
-  "headline": "The bill cleared the Senate 91-3 with near-unanimous bipartisan support, but the House never voted on the final version before the Congress ended, so it became law for no one.",
+  "one_liner": "Imposes child-safety rules and audits on big online platforms and lets users switch off algorithmic feeds.",
+  "headline": "The Senate passed the final version 91-3 in July 2024, but the House never voted on that version, and the bill died when the 118th Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "This bill started as a small government-housekeeping measure requiring agencies to list outdated reports they no longer need. Along the way, Congress used it as the vehicle for a much larger package: the Kids Online Safety and Privacy Act, which would require social media, gaming, and streaming platforms to protect minors from addictive design features, bullying, sexual exploitation, and ads for drugs, tobacco, gambling, and alcohol. It would also update children's online privacy law to cover teens under 17 and ban targeted advertising aimed at kids and teens. The Senate passed it twice, the House passed it once by voice vote, and the Senate approved the final version 91-3 — but the House never voted on that final version, and the bill died when the 118th Congress ended.",
-  "who_benefits": "Children and teenagers who use social media, gaming, and video platforms, and their parents, who would get default privacy and safety settings, tools to limit screen time and purchases, a ban on targeted advertising to minors, and new independent research on social media harms.",
-  "who_benefits_short": "Kids, teens, and their parents",
+  "plain_summary": "This bill started as a small good-government measure from Senator Ossoff requiring agencies to list outdated, duplicative reports in their budget requests. Along the way it became the vehicle for a much larger package: the Kids Online Safety and Privacy Act, which would require major social media, gaming, and streaming platforms to take 'reasonable care' against harms to minors, provide default safety controls and parental tools, publish annual third-party audits of risks to children, ban targeted advertising aimed at anyone under 17, and let users switch to a feed that does not use their personal data. The Senate approved that final version 91-3, but the House never voted on it before the Congress ended.",
+  "who_benefits": "Families with children and teens who use online platforms: parents get default-on safety controls, purchase limits, and time limits, and platforms must be audited and disclose risks to minors. All users also gain the right to see content ranked without their browsing and location data.",
+  "who_benefits_short": "Parents, teens, and everyday platform users",
   "how_it_helps": [
    {
-    "text": "Platforms must use reasonable care to prevent and mitigate harms to minors including anxiety, depression, eating disorders, substance use, addiction-like usage patterns, bullying, sexual exploitation, and marketing of drugs, tobacco, gambling, and alcohol.",
+    "text": "Platforms likely used by minors must exercise reasonable care in design features to prevent anxiety, depression, eating disorders, addiction-like use, bullying, sexual exploitation, and marketing of drugs, tobacco, gambling, or alcohol to minors.",
     "sources": [
      "S5"
     ]
    },
    {
-    "text": "Platforms must give minors default-on safeguards: limits on who can contact them, controls over addictive design features like infinite scrolling and autoplay, opt-outs of personalized recommendation systems, and location-sharing restrictions, plus parental tools for younger children.",
+    "text": "Platforms must give minors default-on safeguards (limits on contact, public personal data, compulsive design features like infinite scroll, recommendation systems, and location tracking) and give parents tools to manage privacy, purchases, and screen time.",
     "sources": [
      "S5"
     ]
    },
    {
-    "text": "The bill bans collecting or using children's and teens' personal information for individual-specific advertising, extending child privacy law to teens under 17 for the first time.",
+    "text": "Platforms averaging more than 10 million US users must publish yearly public reports based on an independent third-party audit of risks to minors, their mitigation steps, and their commercial interests in use by minors.",
     "sources": [
      "S5"
     ]
    },
    {
-    "text": "Large platforms must publish annual, independently audited public reports on risks of harm to minors, and federal agencies must commission at least five comprehensive studies on social media's effects on minors.",
+    "text": "Under an updated children's privacy law, platforms may not collect, use, or disclose a child's or teen's personal information for individual-specific (targeted) advertising.",
     "sources": [
      "S5"
     ]
    },
    {
-    "text": "It also carries the original purpose: agencies must list outdated or duplicative congressionally required reports in their budget justifications and recommend ending, modifying, or consolidating them.",
+    "text": "Users of online platforms must be able to easily switch from an opaque algorithm (one that ranks content using their browsing history, inferences, and other unrequested data) to an input-transparent feed, with no price penalty for choosing the transparent option.",
+    "sources": [
+     "S5"
+    ]
+   },
+   {
+    "text": "The original core of the bill requires agencies to list outdated or duplicative reporting requirements in their annual budget justifications, with recommendations to end, modify, or consolidate them.",
     "sources": [
      "S2",
-     "S5"
-    ]
-   },
-   {
-    "text": "It lets users switch off algorithmic feeds that use their inferred data, requiring platforms to offer a chronological, non-profiled content option.",
-    "sources": [
-     "S5"
+     "S3"
     ]
    }
   ],
-  "who_pays": "Large social media, online gaming, video streaming, and digital advertising companies, which would have to redesign features, run third-party audits, publish annual transparency reports, and lose targeted-advertising revenue from minors.",
-  "who_pays_short": "Large social media, gaming, and ad-tech firms",
+  "who_pays": "Large online platforms — social networks, video games with in-game purchases, and streaming services — bear design changes, audit costs, and the loss of targeted advertising and engagement-driven revenue from minors. Advertisers lose a channel for reaching children. Users could face more collection of personal data as platforms infer ages, since the bill requires a study of age verification rather than mandating it.",
+  "who_pays_short": "Major tech platforms and online advertisers",
   "drawbacks": [
    {
-    "text": "Platforms would have to determine which users are minors using actual knowledge or 'knowledge fairly implied on the basis of objective circumstances,' which could push services toward broader age estimation of all users, raising privacy and free-expression concerns even though the bill forbids requiring new age-gating.",
+    "text": "Civil-liberties groups argue the 'duty of care' could pressure platforms to suppress lawful content — on mental health, LGBTQ topics, or abortion — to avoid liability for contributing to listed harms, chilling speech for minors and adults alike.",
     "sources": [
      "S5"
     ]
    },
    {
-    "text": "The duty-of-care requirement could lead platforms to restrict or restrict-by-default content that minors can access — such as health or identity-related material — to avoid legal risk, a trade-off critics of online safety bills have raised.",
+    "text": "To comply, platforms may need to collect more personal data to infer who is a minor; the bill directs agencies to study device-level age verification precisely because forcing verification now would create privacy and data-security risks it does not yet solve.",
     "sources": [
      "S5"
     ]
    },
    {
-    "text": "The definitions are broad — covering any platform 'reasonably likely to be used by a minor,' including online games with chat — so compliance costs would fall heavily on smaller companies as well as large ones.",
+    "text": "The compliance burden falls unevenly: platforms under 10 million US users are exempt from the audit requirement, and the bill itself instructs the age-verification study to consider whether such systems create barriers to entry for small companies — meaning the rules could tilt the market toward incumbents.",
     "sources": [
      "S5"
     ]
    }
   ],
-  "benefit_vs_cost": "The core trade-off is real but narrow: stronger safety defaults, privacy protections, and transparency for minors in exchange for compliance burdens and less targeted advertising revenue for tech companies, and some risk that platforms over-restrict teen access to content to limit liability. On balance the package is a consumer-protection measure aimed squarely at some of the largest and most profitable companies in the economy.",
+  "benefit_vs_cost": "The consumer wins are concrete: default safety controls for minors, independent audits of child-safety risks at the biggest platforms, a ban on targeted ads to children and teens, and an opt-out from algorithmic feeds. The honest objections are also real: the duty-of-care standard gives platforms a reason to over-remove lawful content, enforcement may push more data collection to determine ages, and compliance costs favor large incumbents over startups. A well-designed version would need stronger safeguards against censorship side effects and a real answer on age verification.",
   "outcome": {
    "status": "passed_one_chamber_then_stalled",
-   "mechanism": "The Senate passed the final version 91-3, but House leaders never brought that version up for a vote before the Congress ended, so the bill died.",
+   "mechanism": "The Senate rewrote the small reports bill into the Kids Online Safety and Privacy Act and passed it 91-3, but the House never voted on that version before the 118th Congress ended, so the bill died.",
    "narrative": [
     {
-     "text": "The bill was introduced as the Eliminate Useless Reports Act, requiring agencies to list outdated or duplicative reporting requirements in budget justifications.",
+     "text": "Senator Ossoff introduced the Eliminate Useless Reports Act on June 21, 2023, requiring agencies to list outdated or duplicative reporting requirements in their budget justifications.",
      "sources": [
+      "S1",
       "S2"
      ]
     },
     {
-     "text": "The Senate Homeland Security Committee reported it favorably in August 2023, and the Senate passed it by unanimous consent in December 2023.",
+     "text": "The Senate Homeland Security and Governmental Affairs Committee reported the bill favorably on August 22, 2023, and it was placed on the Senate calendar.",
      "sources": [
-      "S3",
+      "S7",
+      "S3"
+     ]
+    },
+    {
+     "text": "The Senate passed the original bill by unanimous consent on December 18, 2023.",
+     "sources": [
+      "S7",
+      "S4"
+     ]
+    },
+    {
+     "text": "The House passed its own amended version by voice vote under suspension of the rules on May 6, 2024.",
+     "sources": [
       "S7"
      ]
     },
     {
-     "text": "In May 2024, the House passed an amended version by voice vote under suspension of the rules — a fast-track procedure used for noncontroversial bills — that turned the bill into the Kids Online Safety and Privacy Act.",
+     "text": "The Senate then concurred in the House amendment with a sweeping amendment (SA 3021) that replaced the bill's text with the Kids Online Safety and Privacy Act — the combined Kids Online Safety and children's privacy provisions plus the reports sunset.",
      "sources": [
       "S5",
       "S7"
      ]
     },
     {
-     "text": "The Senate invoked cloture on the House-amended bill 86-1, meaning 86 senators voted to allow a final vote, with 45 Democrats, 38 Republicans, and 3 independents in favor.",
+     "text": "The Senate invoked cloture on the motion to concur 86-1 on July 25, 2024, and passed the final version 91-3 on July 30, 2024, with Democrats, Republicans, and Independents overwhelmingly in favor.",
      "sources": [
       "S8",
-      "S7"
+      "S9"
      ]
     },
     {
-     "text": "On July 30, 2024, the Senate concurred in the House amendment with its own amendment by a 91-3 vote, with 43 Democrats, 44 Republicans, and 4 independents in favor.",
-     "sources": [
-      "S9",
-      "S7"
-     ]
-    },
-    {
-     "text": "The final Senate-amended version was sent to the House on July 31, 2024, but the House never voted on it, and the bill died when the 118th Congress ended on January 3, 2025.",
+     "text": "The House received the Senate's action on July 31, 2024, and took no further action before the 118th Congress ended on January 3, 2025, so the bill never became law.",
      "sources": [
       "S7"
      ]
     }
    ],
-   "who_came_out_ahead": "Social media, gaming, and digital advertising companies are better off: the bill that would have restricted their design features and targeted advertising to minors died without a House vote, despite overwhelming Senate support."
+   "who_came_out_ahead": "Major online platforms — social media, gaming, and targeted-advertising companies — avoided new child-safety duties, mandatory third-party audits, and a ban on targeted ads to minors. The House leadership also avoided holding a vote on a controversial bill late in the session."
   },
-  "who_came_out_ahead_short": "Social media and ad-tech companies",
+  "who_came_out_ahead_short": "Large social media, gaming, and adtech firms",
   "sides": {
    "for": [
     {
      "name": "Sen. Jon Ossoff",
-     "role": "U.S. Senator, original sponsor of S. 2073",
+     "role": "U.S. Senator, sponsor of the original Eliminate Useless Reports Act",
      "party": "D",
-     "what_they_did": "Introduced the bill requiring agencies to identify useless reports, which became the vehicle for the children's online safety package.",
+     "what_they_did": "Introduced the bill requiring agencies to list outdated and duplicative reports in budget justifications.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S7"
-     ]
-    },
-    {
-     "name": "Sen. Gary Peters",
-     "role": "Chair, Senate Homeland Security and Governmental Affairs Committee",
-     "party": "D",
-     "what_they_did": "Reported the bill favorably out of committee with an amendment in the nature of a substitute.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S7"
-     ]
-    },
-    {
-     "name": "Rep. Jake LaTurner",
-     "role": "U.S. Representative (R-KS)",
-     "party": "R",
-     "what_they_did": "Moved in the House to suspend the rules and pass the amended bill, bringing the children's online safety provisions to the floor.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S7"
+      "S2"
      ]
     },
     {
      "name": "Sen. Chuck Schumer",
      "role": "Senate Majority Leader",
      "party": "D",
-     "what_they_did": "Brought the House-amended bill to the Senate floor, moved to concur with an amendment, and filed cloture to force a final vote.",
+     "what_they_did": "Brought the House message to the floor, moved to concur in the House amendment with the Kids Online Safety package, and managed the cloture and final-passage votes.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S7",
+      "S8",
+      "S9"
+     ]
+    },
+    {
+     "name": "44 of 49 Senate Republicans",
+     "role": "Senate Republicans voting on final passage",
+     "party": "R",
+     "what_they_did": "Voted yes on the motion to concur in the House amendment, part of the 91-3 final vote.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S9"
+     ]
+    },
+    {
+     "name": "43 of 48 Senate Democrats",
+     "role": "Senate Democrats voting on final passage",
+     "party": "D",
+     "what_they_did": "Voted yes on the motion to concur in the House amendment, part of the 91-3 final vote.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S9"
+     ]
+    },
+    {
+     "name": "1 of 49 Senate Republicans",
+     "role": "Cosponsor of S. 2073",
+     "party": "R",
+     "what_they_did": "Cosponsored the bill alongside its Democratic sponsor.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S6"
+     ]
+    },
+    {
+     "name": "Rep. Jake LaTurner",
+     "role": "U.S. Representative (R-KS)",
+     "party": "R",
+     "what_they_did": "Moved to suspend the rules and pass the House version of the bill on May 6, 2024.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S7"
+     ]
+    }
+   ],
+   "against": [
+    {
+     "name": "House Republican leadership (Speaker Mike Johnson)",
+     "role": "Speaker of the House and House majority",
+     "party": "R",
+     "what_they_did": "The House received the Senate-amended Kids Online Safety version on July 31, 2024, and never scheduled a vote on it before the 118th Congress ended, killing the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -170,64 +214,42 @@
      ]
     },
     {
-     "name": "Sen. Richard Blumenthal and Sen. Marsha Blackburn",
-     "role": "Lead authors of the Kids Online Safety Act provisions",
-     "party": "D and R",
-     "what_they_did": "Drafted and championed the kids' online safety framework that the House inserted into this bill.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
-    }
-   ],
-   "against": [
-    {
-     "name": "House Republican leadership",
-     "role": "House Speaker and floor schedulers",
-     "party": "R",
-     "what_they_did": "Never brought the Senate-amended final version up for a House vote after July 2024, allowing it to die at the end of the Congress.",
-     "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
-    },
-    {
-     "name": "Internet industry trade associations and major platforms",
-     "role": "Lobbyists for social media and advertising companies",
+     "name": "NetChoice",
+     "role": "Trade association for major online platforms including Meta and Google",
      "party": null,
-     "what_they_did": "Lobbied against the kids' online safety and privacy provisions, arguing the duty of care and ad restrictions were unworkable and censorious.",
+     "what_they_did": "Campaigned against the Kids Online Safety Act, arguing its duty-of-care mandate is unconstitutional and would force platforms to censor.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     },
     {
-     "name": "Three Senate Republicans and one Senate Democrat",
-     "role": "Senate opponents on the final vote",
-     "party": "R and D",
-     "what_they_did": "Voted no on final Senate passage, the only recorded opposition in either chamber's roll-call votes.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S9"
-     ]
+     "name": "Electronic Frontier Foundation and allied civil-liberties groups",
+     "role": "Digital-rights advocacy organizations",
+     "party": null,
+     "what_they_did": "Opposed the Kids Online Safety Act, warning the duty-of-care standard and surveillance of minors' use would chill lawful speech and compromise privacy.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "Support was overwhelmingly bipartisan at every recorded step: cloture passed 86-1 (45 D, 38 R, 3 I in favor) and final Senate passage passed 91-3 (43 D, 44 R, 4 I in favor), with no partisan divide. The bill's death was not a party-line vote — it simply never came up in the House."
+   "party_line_note": "Support was overwhelmingly bipartisan: cloture passed 86-1 and final passage 91-3, with 43 of 47 voting Democrats, 44 of 49 voting Republicans, and all 4 Independents in favor; the only opposition came from 3 Republicans and 1 Democrat."
   },
   "industries": [
    {
-    "industry": "Social media and online platforms",
+    "industry": "Major social media platforms (over 10 million US users)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would force large platforms to build default-on safety controls for minors, restrict addictive design features like infinite scrolling, and publish independently audited annual reports on harms to minors, creating legal exposure under FTC and state-enforcement provisions. These costs are the direct source of the bill's benefits for kids and parents.",
+    "note": "They would face a legal duty to prevent harms to minors, default-on safety controls, annual independent audits, and transparency reports, with FTC and state attorney general enforcement. Their engagement-driven business model — addictive design features, targeted ads, and data-driven ranking — is exactly what the bill restricts. The audit threshold exempts smaller sites, so the cost lands mainly on incumbents, which could entrench them against startups.",
     "sources": [
      "S5"
     ]
    },
    {
-    "industry": "Digital advertising and data brokers",
+    "industry": "Online advertising and ad-tech firms",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The privacy title bans collecting or using children's and teens' personal information for individual-specific advertising and extends child privacy rules to teens under 17, cutting off a lucrative segment of targeted advertising. Parents and teens would see less profiling in exchange.",
+    "note": "An updated children's privacy law bans individual-specific advertising to anyone under 17, eliminating targeted-ad revenue from minors and the profiling infrastructure behind it.",
     "sources": [
      "S5"
     ]
@@ -236,7 +258,7 @@
     "industry": "Online video game companies",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Online games with chat, microtransactions, or user uploads count as covered platforms, so they would owe the same safeguards for minors, restrictions on design features, and parental purchase controls.",
+    "note": "Games with microtransactions are covered platforms: they must limit compulsive design features and in-game purchases to minors, provide parental purchase and time controls, and respond to harm reports within set deadlines.",
     "sources": [
      "S5"
     ]
@@ -244,8 +266,8 @@
    {
     "industry": "Video streaming services",
     "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "The bill covers streaming services but gives a lighter-touch compliance path if their content is preselected rather than user-generated, so large streamers face fewer obligations than social networks.",
+    "stance_toward_public": "opposed",
+    "note": "Services whose content is provider-selected rather than user-generated get a lighter compliance path — age-rating access controls, ad safeguards, and parental settings — rather than the full audit regime, but still face new obligations where minors use them.",
     "sources": [
      "S5"
     ]
@@ -257,12 +279,12 @@
    "other"
   ],
   "scores": {
-   "public_stakes": 7,
+   "public_stakes": 6,
    "concentrated_stakes": 8,
-   "outcome_against_public": 7,
+   "outcome_against_public": 8,
    "support_mismatch": 9,
    "corruption_relevance": 2,
-   "confidence": 0.8
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

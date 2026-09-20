@@ -1,153 +1,198 @@
 {
  "bill_id": "119-hr5298",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:24:49+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:22:18+00:00",
  "record_fetched_at": "2026-09-20T07:57:52+00:00",
  "record_hash": "e28a8917fe65fba9",
  "analysis": {
-  "one_liner": "Raises the corporate tax rate for companies whose CEO pay exceeds 50 times their typical worker's pay.",
-  "headline": "The bill, which would add up to 5 percentage points to the 21% corporate tax rate at firms with extreme CEO-to-worker pay gaps, was introduced with 30 Democratic members and referred to the Ways and Means Committee, which has not acted on it.",
+  "one_liner": "Raises corporate tax rates for companies whose CEO pay is more than 50 times their median worker's pay.",
+  "headline": "The bill, which would add a 0.5 to 5 percentage-point surcharge on the 21% corporate tax rate for companies with CEO-to-worker pay ratios above 50 to 1, was referred to the House Ways and Means Committee on September 11, 2025 and has had no hearing or vote since.",
   "direction": "for_working_people",
-  "plain_summary": "Companies with more than 50 employees would pay a higher federal corporate tax rate — on top of the current 21% — if their chief executive's pay is more than 50 times what their median worker makes. The surcharge grows with the gap: half a point above 50-to-1, up to 5 points above 500-to-1. Large private companies with $100 million or more in annual revenue would have to report their pay ratio too, and the bill directs Treasury to write rules to stop companies from dodging the tax by swapping employees for contractors. It applies to tax years beginning after December 31, 2025.",
-  "who_benefits": "Workers at large corporations, especially low- and mid-wage employees at firms where the CEO earns hundreds of times their pay. The tax creates a financial incentive for companies to narrow the gap, either by raising typical workers' pay or reining in executive pay. It also raises federal revenue that funds public services.",
-  "who_benefits_short": "Workers at large high-gap corporations",
+  "plain_summary": "The bill raises the corporate tax rate on large companies where the CEO or highest-paid employee earns more than 50 times what the median worker makes. The surcharge starts at half a percentage point and rises with the pay gap, reaching 5 extra percentage points for companies above a 500-to-1 ratio. Companies that narrow the gap — by raising typical workers' pay or slowing executive pay growth — pay less.",
+  "who_benefits": "Workers at large corporations with wide pay gaps gain the most, because their employers now have a direct tax reason to raise median wages or slow CEO pay growth. Taxpayers gain from the revenue the surcharge raises on companies that keep extreme pay ratios. Workers broadly gain from the reporting: companies over $100 million in receipts that don't even file with the SEC would have to calculate and report their pay ratio for the first time.",
+  "who_benefits_short": "Workers at large corporations with wide pay gaps",
   "how_it_helps": [
    {
-    "text": "Companies with a pay ratio above 50-to-1 face a corporate tax surcharge of 0.5 to 5 percentage points on top of the 21% rate, scaling with the size of the gap — so a company at 600-to-1 pays 26% instead of 21%.",
+    "text": "Adds a tiered surcharge to the 21% corporate rate: half a point for pay ratios above 50-to-1, rising one point per extra 100-to-1 of gap, up to 5 additional points for ratios above 500-to-1.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The pay ratio is measured over a rolling five-year average using the SEC's existing executive compensation disclosure rules, and it applies to the highest-paid employee even if that person is not the CEO.",
+    "text": "Uses a 5-year averaged version of the SEC's existing pay-ratio disclosure, so companies can't dodge the tax with one unusual year.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Large private corporations with at least $100 million in average annual gross receipts must calculate and report their pay ratio under Treasury rules, so the tax reaches private firms, not just public ones; smaller private companies are exempt.",
+    "text": "Extends the pay-ratio requirement to private companies with at least $100 million in average annual receipts, which are otherwise exempt from SEC disclosure rules, so large private firms can't escape by staying unlisted.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill orders Treasury to write anti-avoidance rules, including to prevent companies from gaming the ratio by using contractors instead of employees.",
+    "text": "Directs the Treasury Department to write rules preventing companies from gaming the ratio, including by replacing employees with outside contractors.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Large corporations with high CEO-to-worker pay gaps — and by extension their shareholders, who would see the higher tax reduce corporate earnings. Companies could avoid the tax by narrowing the gap, which is the intended effect, but companies that keep extreme pay ratios would owe more.",
-  "who_pays_short": "Shareholders of large high pay-gap corporations",
+  "who_pays": "Large corporations with high CEO-to-worker pay ratios pay a higher corporate tax rate — 21.5% to 26% depending on the gap. The cost lands mostly on shareholders of big publicly traded companies and on large private firms. Companies can avoid the surcharge entirely by narrowing their pay gap, so it functions as a standing tax on extreme pay ratios rather than a fixed cost.",
+  "who_pays_short": "Large corporations with wide CEO pay gaps",
   "drawbacks": [
    {
-    "text": "The surcharge is modest relative to the size of executive pay packages, so the biggest pay-gap firms could absorb the extra tax (a few tenths of a percent of revenue for even a 5-point rate increase on taxable income) rather than change pay structures, making the tax more of a revenue raiser than a pay-gap fixer.",
+    "text": "A company can simply keep its extreme pay ratio and pay the tax. At the lowest tier the increase is only half a percentage point on a 21% rate, and even the top tier is 5 points, so for the most profitable firms the surcharge may be cheaper than raising median wages across the workforce.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Companies may respond by reshaping compensation in ways the tax does not measure — for example, shifting workers to contractor arrangements, which the bill tries to block by regulation but which enforcement would have to catch in practice.",
+    "text": "Large private companies that have never had to report a pay ratio would face new calculation and reporting costs; measuring median worker compensation across a big workforce is administratively complex.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Because the ratio is averaged over five years, recent changes in a company's pay structure take years to show up in its tax bill, slowing the incentive's effect.",
+    "text": "The design depends on Treasury regulations to stop companies from manipulating the ratio — for example by shifting workers to contractor status — and the bill only directs Treasury to write those rules, so the anti-avoidance protection is only as good as the regulations that follow.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The bill attacks CEO-to-worker pay gaps through the tax code with a graduated surcharge and at least some built-in defenses against gaming. Its main honest weakness is that the penalty is small compared with the pay gaps it targets, so its practical power depends on whether companies would narrow gaps to avoid even a modest tax — a bet, not a guarantee. As a signal and a modest revenue measure it is straightforward; as a wage-boosting tool it is uncertain.",
+  "benefit_vs_cost": "The design is simple and well-aimed: it uses a pay figure companies already report to the SEC, exempts small private firms, and tries to close the contractor loophole up front. Its honest weakness is that it pressures rather than forces — the penalty is modest, so a highly profitable company with a 400-to-1 ratio could treat it as a rounding error. As a result the bill is more likely to shift behavior at the margins and raise revenue from the worst offenders than to compress pay gaps across the economy.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and referred to the Ways and Means Committee in September 2025, and the committee has not scheduled any markup or hearing on it; since Congress is still in session, it could still move, but at this point it is sitting in committee with no action taken.",
+   "mechanism": "The bill was referred to the House Ways and Means Committee the day after it was introduced and has sat there with no hearing, markup, or vote since; Congress is still in session, so it could still move, but nothing has happened.",
    "narrative": [
     {
-     "text": "Rep. Rashida Tlaib introduced the bill on September 11, 2025, with 19 other original Democratic cosponsors.",
+     "text": "Representative Rashida Tlaib introduced the bill on September 11, 2025, with 20 original cosponsors, all Democrats.",
      "sources": [
-      "S2"
+      "S2",
+      "S4"
      ]
     },
     {
-     "text": "The bill was referred to the House Committee on Ways and Means, which holds jurisdiction over tax legislation.",
+     "text": "The House referred it to the Ways and Means Committee, which writes tax law, on September 11, 2025.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "No further action — no markup, hearing, or vote — has been recorded since the referral.",
+     "text": "Twenty-nine House Democrats had signed on as cosponsors, with no Republican support, and the committee has taken no action since the referral.",
      "sources": [
+      "S3",
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "At this stage, no outcome has occurred. The companies that would owe the surcharge — large corporations with extreme CEO-to-worker pay ratios — are better off for now, since the tax has not advanced and never became law."
+   "who_came_out_ahead": "Large corporations with extreme CEO-to-worker pay ratios are better off so far, because the higher tax rate has not advanced toward a vote."
   },
-  "who_came_out_ahead_short": "High pay-gap corporations, for now",
+  "who_came_out_ahead_short": "High pay-ratio corporations that avoid the tax",
   "sides": {
    "for": [
     {
-     "name": "Rep. Rashida Tlaib",
-     "role": "Sponsor, House Ways and Means Committee member",
+     "name": "Rashida Tlaib",
+     "role": "U.S. Representative (D-MI)",
      "party": "D",
-     "what_they_did": "Introduced the bill and delivered introductory remarks on the House floor.",
+     "what_they_did": "Sponsored and introduced the bill",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S4"
+      "S2"
      ]
     },
     {
-     "name": "Rep. Chellie Pingree, Rep. Jared Huffman, and 28 other House Democrats",
-     "role": "Cosponsors (29 total)",
+     "name": "29 of 217 House Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Signed on in support; no Republican cosponsored the bill.",
+     "what_they_did": "Cosponsored the bill, including original cosponsors such as Jim McGovern, Ro Khanna, Pramila Jayapal, and Ayanna Pressley",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S2",
       "S3"
      ]
     }
    ],
-   "against": [],
-   "party_line": "party_line",
-   "party_line_note": "All 30 supporters are Democrats — sponsor plus 29 cosponsors — and no Republican has signed on, so the bill's support runs entirely along party lines so far."
+   "against": [
+    {
+     "name": "House Ways and Means Committee (Chair Jason Smith)",
+     "role": "Committee of jurisdiction for tax bills",
+     "party": "R",
+     "what_they_did": "Took no action after the bill was referred on September 11, 2025 — no hearing, markup, or vote has been scheduled",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "House Republican majority",
+     "role": "Controls the House floor agenda",
+     "party": "R",
+     "what_they_did": "Has not brought the bill to the floor, and no Republican has cosponsored it",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S3"
+     ]
+    }
+   ],
+   "party_line": "mostly_party_line",
+   "party_line_note": "All 30 sponsors and cosponsors are House Democrats; no Republican has signed on, and the Republican-led Ways and Means Committee has not acted on the bill."
   },
   "industries": [
    {
-    "industry": "Large corporations with high CEO-to-worker pay gaps (tech, finance, retail chains, fast food)",
+    "industry": "Large publicly traded corporations with high pay ratios (big retail, tech, finance, healthcare)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These firms would owe a 0.5-to-5 percentage-point corporate tax surcharge for as long as their executive-to-median-worker pay ratio stays above 50-to-1. Their interest in avoiding that tax runs against workers whose pay would need to rise (or executives' pay fall) for the tax to disappear.",
+    "note": "These firms face a 0.5 to 5 percentage-point higher corporate tax rate unless they shrink the gap between CEO and median-worker pay. Their financial interest in keeping the gap wide runs directly against the bill's goal of narrowing it.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Public-company shareholders and large private companies near the $100 million revenue threshold",
+    "industry": "Corporate executives and other highest-paid employees",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill counts the highest-paid employee, not just the CEO, so surcharge exposure pushes companies to slow growth in top compensation. Executive pay is the main lever companies could pull to avoid the tax.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Large private companies (over $100M in receipts)",
     "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "Shareholders bear the tax through lower after-tax earnings; large private companies ($100M+ revenue) face new pay-ratio reporting and potential liability, while smaller private firms are exempt. Compliance costs are real but modest, and any company can escape the tax entirely by narrowing its pay gap.",
+    "note": "They gain an exemption if they stay under the $100 million receipts threshold, but above it they must calculate and report a pay ratio for the first time and face the same surcharge — a new compliance cost and tax exposure.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Tax and payroll compliance services",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "New pay-ratio calculations for large private companies and annual surcharge computations create billable compliance work.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "Bills to amend the tax code that are introduced by minority-party members with no cosponsors from the majority almost never reach a vote; Ways and Means' chair controls whether anything gets a markup. Unless pay-gap politics shifts or the bill picks up broad support, it will likely remain in committee through the end of the 119th Congress.",
+  "trajectory": "The bill is very likely to die in the Ways and Means Committee without a vote. It has no Republican cosponsors, the committee and the floor are controlled by the Republican majority, and tax bills almost never reach the House floor without the committee chair scheduling action. The best realistic path is inclusion as a provision in a broader tax package, which the sponsor could pursue if the party ever controls the committee.",
   "categories": [
    "taxes_on_wealth_and_corporations",
    "wages_and_labor"
   ],
   "scores": {
    "public_stakes": 6,
-   "concentrated_stakes": 7,
-   "outcome_against_public": 4,
-   "support_mismatch": 3,
-   "corruption_relevance": 2,
+   "concentrated_stakes": 8,
+   "outcome_against_public": 5,
+   "support_mismatch": 2,
+   "corruption_relevance": 1,
    "confidence": 0.9
   }
  },

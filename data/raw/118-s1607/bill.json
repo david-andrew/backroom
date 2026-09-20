@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/1607/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1607/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1607/cosponsors?format=json"
+  },
+  "introducedDate": "2023-05-16",
+  "latestAction": {
+   "actionDate": "2023-05-16",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/1607",
+  "number": "1607",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1607/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001184",
+    "firstName": "Tim",
+    "fullName": "Sen. Scott, Tim [R-SC]",
+    "isByRequest": "N",
+    "lastName": "Scott",
+    "party": "R",
+    "state": "SC",
+    "url": "https://api.congress.gov/v3/member/S001184?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/118/s/1607/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1607/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1607/text?format=json"
+  },
+  "title": "Repair Abuses of MSP Payments (RAMP) Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/1607/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-06T01:06:03Z",
+  "updateDateIncludingText": "2025-12-06T01:06:03Z"
+ },
+ "request": {
+  "billNumber": "1607",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

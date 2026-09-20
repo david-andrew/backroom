@@ -1,94 +1,118 @@
 {
  "bill_id": "118-s4532",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T16:11:52+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T19:05:32+00:00",
  "record_fetched_at": "2026-09-20T15:48:59+00:00",
  "record_hash": "9e9fadca03d9a553",
  "analysis": {
-  "one_liner": "Requires Medicare Advantage plans to speed up and publicly report how they approve or deny seniors' care.",
-  "headline": "A bipartisan Senate bill to speed up Medicare Advantage care approvals died in committee without ever getting a vote.",
+  "one_liner": "Requires Medicare Advantage plans to speed up, standardize, and publicly report their prior-authorization decisions.",
+  "headline": "A bill to speed up Medicare Advantage care approvals drew 59 Senate cosponsors from both parties, but died in the Finance Committee without ever getting a vote.",
   "direction": "for_working_people",
-  "plain_summary": "Nearly all Medicare seniors are in private Medicare Advantage plans, which decide whether to approve care before doctors can provide it — and those plans decide how long patients wait. This bill would have required those plans to use a standardized electronic system for approval requests, respond within timeframes set by the Health Secretary, and publicly report each year, plan by plan, how many requests they approve or deny, how long they take, how often denials are overturned on appeal, and when they use artificial intelligence to make decisions. Patients would also gain the right to see the criteria a plan uses to deny their care.",
-  "who_benefits": "Seniors in Medicare Advantage plans who wait on approval decisions for care, and the doctors and suppliers who navigate those requests. More than half of Medicare beneficiaries are in Medicare Advantage plans, so delays and denials affect a very large group of older Americans; the bill would also benefit them indirectly by giving regulators and the public plan-by-plan data on denials and on the use of AI in those decisions.",
-  "who_benefits_short": "Seniors in Medicare Advantage plans",
+  "plain_summary": "About half of Medicare beneficiaries are in Medicare Advantage, private plans that often require doctors to get advance approval — \"prior authorization\" — before delivering care, and delays or denials can postpone treatment. This bill would require plans that use prior authorization to adopt a standardized electronic approval system, report to the government and publish how many requests they approve or deny (including decisions made with artificial intelligence), give enrollees and doctors access to the criteria used, and let the Health and Human Services Secretary set response deadlines as short as 24 hours. The bill was referred to the Senate Finance Committee the day it was introduced and never received a hearing, a committee vote, or a floor vote before the Congress ended.",
+  "who_benefits": "Seniors enrolled in Medicare Advantage plans, roughly half of Medicare beneficiaries, who currently face approval delays and denials for items and services like post-acute care and imaging. Doctors and hospitals also gain from less paperwork and faster answers, and high-performing providers could get exemptions from prior authorization entirely.",
+  "who_benefits_short": "Medicare Advantage enrollees and their doctors",
   "how_it_helps": [
    {
-    "text": "Medicare Advantage plans would have to run prior authorization requests through a standardized electronic system with defined response timeframes, rather than fax and portal delays.",
+    "text": "Medicare Advantage plans that use prior authorization would have to run a standardized electronic system for submitting and answering requests, explicitly excluding fax machines and proprietary portals that don't meet federal standards, starting with plan years in 2027.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Plans must report annually, on a public website, how often they approve or deny requests for each item and service, how long decisions take, how often denials are overturned on appeal, and when they use artificial intelligence or automated decision-making — making denial practices visible for the first time.",
+    "text": "Plans would have to report annually — and the government would publish plan-by-plan on a public CMS website — the percentage and number of requests approved and denied, how often denials were appealed and overturned, how long decisions took, and whether artificial intelligence or automated tools were used to make the decisions.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Enrollees gain the right to see the criteria a plan uses to decide their requests, and plans must review their prior authorization lists every year with input from patients and providers, with the possibility of waiving requirements for well-performing providers.",
+    "text": "Enrollees could request the criteria a plan uses to decide prior authorization requests, and providers would get access to those criteria and an itemized list of required documentation before signing contracts.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The Secretary could set binding timeframes — such as 24 hours — for plan decisions, including expedited and routine requests.",
+    "text": "Plans would have to adopt enrollee-protection standards, including waiving or loosening prior authorization for providers who consistently follow the rules, and reviewing annually which services actually need prior authorization based on their own data.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The Health and Human Services Secretary could set enforceable timeframes for plan responses — such as 24 hours — for expedited requests, routinely approved services, and other prior authorization requests, on top of the existing 72-hour rule.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "MedPAC and the Government Accountability Office would study how prior authorization is used and how often denied decisions are overturned, and CMS would report on how to create real-time approvals for routinely approved services.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Medicare Advantage insurers, who would bear the cost of building electronic approval systems and publishing their denial and appeal data — costs they might partly pass to premiums. Doctor's offices would face an adjustment to new electronic workflows, though many providers supported the bill because it would cut their fax-and-portal paperwork.",
-  "who_pays_short": "Medicare Advantage insurers",
+  "who_pays": "Medicare Advantage insurers bear the cost of building electronic prior authorization systems, compiling detailed annual denial and appeal data, and facing public exposure of their denial rates and use of AI in deciding care. Some of that cost could be passed to beneficiaries through premiums or benefit design, and insurers argue prior authorization is a tool for holding down premiums and screening out unnecessary care.",
+  "who_pays_short": "Medicare Advantage insurance companies",
   "drawbacks": [
    {
-    "text": "The bill does not ban or limit any prior authorization requirement — plans could keep denying care as long as they disclose it electronically and on time, so it regulates rather than restricts the practice.",
+    "text": "The bill places new technology and reporting requirements on Medicare Advantage insurers, and compliance costs could be recovered through higher premiums or slimmer benefits rather than absorbed by company margins.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Compliance costs fall on Medicare Advantage insurers and the doctors' offices that must adopt new electronic systems, and insurers argue some of those costs are ultimately passed back into premiums or plan benefits.",
+    "text": "Prior authorization exists partly to hold down premiums and catch unnecessary or risky care; a faster, more automatic approval system could weaken that check if poorly calibrated, which is why the bill builds in provider performance standards and annual reviews rather than banning prior authorization.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The bill relies heavily on later rulemaking by the Secretary and requires reports to Congress years out — a GAO evaluation not due until 2032 — so even if enacted, its real-world effect would depend on how future administrations write and enforce the rules.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The main cost is administrative: MA plans must build electronic prior authorization systems and report extensive data, and some of that cost may be passed on. Some providers also worry that standardizing prior authorization could implicitly endorse its use rather than shrink it. But the patient benefit — faster decisions, visible denial data, curbs on opaque AI-driven denials — is substantial and overdue for the tens of millions of beneficiaries in MA. On balance the benefits clearly outweigh the costs.",
+  "benefit_vs_cost": "The benefits are concrete: faster answers for seniors waiting on care, public data showing which plans deny the most requests, and limits on opaque AI-driven denials. The costs are real but modest relative to the stakes — compliance spending by insurers and some risk that weakened utilization review nudges premiums up. The bill is not radical: it does not ban prior authorization, it standardizes and illuminates it, and it lets high-performing doctors escape it. The honest criticism is that transparency takes years to translate into enforcement, and the long timeline of reports and rulemaking means seniors would feel the effects slowly even if it had passed.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The Senate introduced it and sent it to the Finance Committee, where it sat until the congressional session ended — no committee vote, no floor vote.",
+   "mechanism": "It was referred to the Senate Finance Committee the day it was introduced, sat there with no hearing, no committee vote, and no floor vote, and died when the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "The bill was introduced on June 13, 2024, read twice, and referred to the Senate Finance Committee — the only action it ever received.",
+     "text": "Sen. Roger Marshall introduced the bill in the Senate on June 13, 2024, with 44 original cosponsors listed from both parties.",
      "sources": [
       "S1",
+      "S2"
+     ]
+    },
+    {
+     "text": "The bill was read twice and referred to the Senate Finance Committee on the day of introduction, which was the only action it ever received.",
+     "sources": [
       "S4"
      ]
     },
     {
-     "text": "It carried 59 Senate cosponsors from both parties, including 32 Democrats, 26 Republicans, and 1 Independent.",
+     "text": "By the end, the bill had 59 cosponsors: 32 of 48 Senate Democrats, 26 of 49 Senate Republicans, and 1 of the 4 Independents — a majority of the Senate signed on, split almost evenly between the parties.",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "The Finance Committee never took it up, and the 118th Congress ended on January 3, 2025, so the bill expired without a vote.",
+     "text": "The Finance Committee never scheduled a hearing or a vote, and the bill never reached the Senate floor before the 118th Congress ended on January 3, 2025, killing it under the rule that bills die when a Congress ends.",
      "sources": [
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "Medicare Advantage insurers are better off: the bill that would have required them to disclose and speed up their care denials died in committee without a vote."
+   "who_came_out_ahead": "Medicare Advantage insurers came out ahead: no new electronic prior-authorization mandate, no public reporting of denial and appeal rates, no AI-disclosure requirements, and no federally set response deadlines. Seniors in Medicare Advantage continue under the prior-authorization rules that existed before the bill, with no added transparency about denials."
   },
   "who_came_out_ahead_short": "Medicare Advantage insurers",
   "sides": {
    "for": [
     {
      "name": "Sen. Roger Marshall",
-     "role": "U.S. Senator (R-KS), lead sponsor",
+     "role": "U.S. Senator (R-KS), bill sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill in the Senate on June 13, 2024.",
+     "what_they_did": "Introduced the bill and recruited cosponsors from both parties.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -97,57 +121,78 @@
      ]
     },
     {
-     "name": "59 Senate cosponsors",
-     "role": "Senators from both parties (32 D, 26 R, 1 I)",
-     "party": null,
-     "what_they_did": "Cosponsored the bill, giving it enough support to pass the Senate if it had reached the floor.",
+     "name": "32 of 48 Senate Democrats",
+     "role": "Senate Democratic cosponsors",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S3"
+     ]
+    },
+    {
+     "name": "26 of 49 Senate Republicans",
+     "role": "Senate Republican cosponsors",
+     "party": "R",
+     "what_they_did": "Cosponsored the bill.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "name": "Sen. Kyrsten Sinema",
+     "role": "U.S. Senator (I-AZ)",
+     "party": "I",
+     "what_they_did": "Cosponsored the bill and was listed second among its original cosponsors.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S2",
       "S3"
      ]
     }
    ],
    "against": [
     {
-     "name": "Senate Finance Committee",
-     "role": "Senate committee with jurisdiction over Medicare",
-     "party": null,
-     "what_they_did": "Never scheduled a markup or vote on the bill; it remained referred to the committee until the Congress ended.",
+     "name": "Sen. Ron Wyden",
+     "role": "Chair, Senate Finance Committee",
+     "party": "D",
+     "what_they_did": "Never scheduled a hearing or committee vote on the bill; it sat in the Finance Committee until the Congress ended.",
      "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "The 59 cosponsors split 32 Democrats, 26 Republicans, and 1 Independent — unusually broad, bipartisan support for a bill that never got a vote."
+   "party_line_note": "Support was almost evenly split across party lines — 32 of 48 Senate Democrats, 26 of 49 Senate Republicans, and 1 of 4 Independents cosponsored — and no senator is recorded as opposing it; the bill died in committee, not on the floor."
   },
   "industries": [
    {
     "industry": "Medicare Advantage insurers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill forces these insurers to build electronic prior authorization systems, disclose their denial and appeal rates publicly, and accept federal decision timeframes — reducing a key tool for holding down spending by delaying or denying care. Seniors gain timely access at the insurers' administrative expense.",
+    "note": "Prior authorization is these insurers' main tool for managing utilization and costs, and the bill would force them to move approvals onto standardized electronic systems, disclose denial and appeal rates publicly, and reveal when AI makes the decisions. Insurers argue the requirements protect plan value; patients experience the other side of that tool as delayed or denied care, so the industry's interest in keeping it unrestrained runs against seniors' access in this bill — though the electronic mandate itself would trim some administrative cost.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Physicians and medical suppliers",
+    "industry": "Physicians, hospitals, and medical suppliers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Doctors and suppliers currently spend staff time chasing approvals by fax and proprietary portals; standardized electronic prior authorization and published criteria would cut that paperwork burden.",
+    "note": "Providers would get standardized electronic submissions, faster response deadlines, access to plans' approval criteria, and possible waiver of prior authorization for high performers — less paperwork and fewer treatment delays for their Medicare Advantage patients.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Health IT vendors",
-    "effect": "mixed",
+    "industry": "Health information technology vendors",
+    "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "A mandate for standardized electronic prior authorization creates a compliance market for health information technology vendors building the transmission systems.",
+    "note": "The mandate for standards-based electronic prior authorization would create demand for systems that transmit requests, documentation, and responses between providers and plans.",
     "sources": [
      "S2"
     ]
@@ -156,13 +201,13 @@
   "trajectory": null,
   "categories": [
    "healthcare_and_drug_prices",
-   "consumer_protection_and_finance"
+   "social_safety_net"
   ],
   "scores": {
    "public_stakes": 7,
-   "concentrated_stakes": 7,
-   "outcome_against_public": 7,
-   "support_mismatch": 8,
+   "concentrated_stakes": 8,
+   "outcome_against_public": 8,
+   "support_mismatch": 9,
    "corruption_relevance": 2,
    "confidence": 0.85
   }

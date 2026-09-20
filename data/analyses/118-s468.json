@@ -1,88 +1,97 @@
 {
  "bill_id": "118-s468",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T16:12:13+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T19:06:55+00:00",
  "record_fetched_at": "2026-09-20T15:42:56+00:00",
  "record_hash": "f70e3b779529b63a",
  "analysis": {
-  "one_liner": "Raises the fines hospitals pay for refusing to publish their standard prices.",
-  "headline": "The bill never received a committee hearing or a Senate vote and died when the 118th Congress ended on January 3, 2025, without any cosponsor.",
+  "one_liner": "Raises fines on hospitals that refuse to publish their standard prices for care.",
+  "headline": "The bill died in committee without a hearing, a vote, or a single cosponsor.",
   "direction": "for_working_people",
-  "plain_summary": "A 2019 federal rule requires hospitals to publish a list of their standard prices for services, but enforcement has been weak: the maximum fine is only $300 per day, which large hospitals can treat as a rounding error. This bill would have raised those fines to a tiered schedule — up to $11,000 per day for the biggest hospitals, $20 per bed per day for mid-sized ones, and $600 per day for small ones. It would also have required the Health and Human Services Department to publish a public list naming every noncompliant hospital, and barred hospitals from hiding their price pages from online search engines. The bill died in committee without a single hearing or cosponsor.",
-  "who_benefits": "Patients and families, who would be able to see standard hospital prices before getting care and avoid surprise bills, and employers and insurers negotiating with hospitals. People facing emergency care or major procedures — the areas of highest price opacity — would gain the most.",
+  "plain_summary": "Federal rules already require hospitals to publish a list of their standard charges, but the current fine tops out at about $300 per day, which is trivial for large hospitals. This bill raises the fine dramatically for big hospitals — up to $11,000 per day — makes the fine rules permanent, bars hospitals from hiding their price pages from online search engines, and requires the government to publish a public list of hospitals that are out of compliance.",
+  "who_benefits": "Patients and anyone shopping for care: hospitals would have to publish real, machine-readable price lists they couldn't hide from search results, making it possible to compare what care costs before getting a bill.",
   "who_benefits_short": "Patients comparing hospital prices",
   "how_it_helps": [
    {
-    "text": "It raises the civil monetary penalties for hospitals that fail to publish or update their standard charges, replacing the current $300-per-day cap with tiered penalties that can reach $11,000 per day for the largest hospitals.",
+    "text": "Increases the daily civil monetary penalty for hospitals that fail to publish and update their standard charge lists, with larger hospitals facing fines up to $11,000 per day instead of the small fine currently in law [S2][S3].",
     "sources": [
-     "S2"
+     "S2",
+     "S3"
     ]
    },
    {
-    "text": "It requires the Secretary of Health and Human Services to publish a public list, updated every 180 days, naming every hospital that is out of compliance.",
+    "text": "Prohibits hospitals from using webpage coding to shield their required price information from online search results, so published prices are actually findable [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "It bars hospitals from using webpage coding to block their price lists from appearing in online search results.",
+    "text": "Requires the Secretary of Health and Human Services to publish a public list of every hospital out of compliance, updated every 180 days [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Sets firm timing requirements: existing hospitals must post prices within six months of enactment and update them yearly [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Hospitals — mainly large hospital systems that do not publish complete, updated price lists — would bear the fines and the cost of publishing prices, plus competitive pressure once prices are visible.",
-  "who_pays_short": "Large hospital systems",
+  "who_pays": "Hospitals — mostly large ones — that do not comply with the transparency rules would face much steeper fines and public name-and-shame listings. The compliance itself (publishing price lists) is a modest administrative cost.",
+  "who_pays_short": "Non-compliant hospitals",
   "drawbacks": [
    {
-    "text": "Penalties are capped: the largest hospitals could pay at most about $4 million a year, which is small relative to the revenue of a major hospital system and may not outweigh the business advantage of keeping prices hard to compare.",
+    "text": "Fines and publication requirements do not by themselves make hospital prices fair or low; a hospital can comply fully with a list of chargemaster prices that no insurer pays and no patient can navigate, so transparency may not translate into savings for many patients.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "text": "Publishing standard charges does not guarantee patients get those prices; the standard charges may differ from what insurers actually negotiate, so real-world savings depend on patients being able to act on the information.",
+    "text": "The penalty structure still lets small hospitals off lightly ($600 per day for hospitals with 30 or fewer beds), and enforcement depends entirely on the Health and Human Services Secretary actually imposing penalties [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit is real: patients cannot shop for care or anticipate bills without published prices, and tougher penalties are the main proven way to move hospitals into compliance. The cost to hospitals of posting and updating prices is modest, and the bill includes hearings and a compliance list, so its design is reasonable. Its weakness is that it never advanced, so any benefit stayed hypothetical.",
+  "benefit_vs_cost": "The bill is a genuine but narrow fix: it gives real teeth to a transparency rule whose current fines are too small to matter to large hospital systems. It does not cap prices or lower bills directly — it only makes prices visible — so its benefit depends on patients, employers, and insurers actually using the published data to push costs down. The administrative cost to hospitals is small; the risk is that transparency alone underdelivers.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced, sent to the Senate health committee, and sat there with no hearing, no vote, and no cosponsors until the two-year Congress ended.",
+   "mechanism": "It was introduced and referred to the Senate health committee, where it sat until the Congress ended — no hearing, no vote, no cosponsors.",
    "narrative": [
     {
-     "text": "Senator Kennedy introduced the bill on February 16, 2023, and it was read twice and referred to the Senate Health, Education, Labor, and Pensions Committee.",
+     "text": "Sen. John Kennedy introduced the bill on February 16, 2023 [S1][S5].",
      "sources": [
       "S1",
       "S5"
      ]
     },
     {
-     "text": "No further action was ever taken: the committee held no markup, the Senate never voted, and the bill died when the 118th Congress ended on January 3, 2025.",
+     "text": "The same day, it was read twice and referred to the Senate Health, Education, Labor, and Pensions Committee, which was its last action in the 118th Congress [S5].",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "The bill attracted zero cosponsors over nearly two years.",
+     "text": "No senator signed on as a cosponsor [S4], and the committee never took it up before the Congress ended on January 3, 2025 [S5].",
      "sources": [
-      "S4"
+      "S4",
+      "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Hospitals that have not complied with the price transparency rules are better off: the stronger fines were never enacted, and the current $300-per-day cap remains the maximum exposure. Patients still cannot reliably see hospital prices."
+   "who_came_out_ahead": "Hospitals that fail to publish their standard prices are better off, because the fine increase and the public non-compliance list never became law. Patients are left with the same weak enforcement."
   },
-  "who_came_out_ahead_short": "Noncompliant hospitals; patients still pay blind",
+  "who_came_out_ahead_short": "Hospitals avoiding price disclosure",
   "sides": {
    "for": [
     {
      "name": "Sen. John Kennedy",
-     "role": "U.S. Senator (R-LA), sole sponsor",
+     "role": "U.S. Senator from Louisiana and bill sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill to raise hospital price transparency fines; it was referred to the HELP Committee.",
+     "what_they_did": "Introduced the Hospital Transparency Compliance Enforcement Act and referred it to committee",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -93,10 +102,10 @@
    ],
    "against": [
     {
-     "name": "Senate HELP Committee leadership",
-     "role": "Senate committee of jurisdiction",
+     "name": "Senate HELP Committee",
+     "role": "Committee of jurisdiction, chaired by Sen. Bernie Sanders (D)",
      "party": null,
-     "what_they_did": "Never scheduled a hearing or markup on the bill during the two-year Congress, leaving it to die in committee.",
+     "what_they_did": "Never scheduled a hearing or markup on the bill; it died in committee after two years",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -105,17 +114,25 @@
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "With a single Republican sponsor and zero cosponsors from either party, the bill never drew enough support to reveal a partisan split."
+   "party_line_note": "The bill got no cosponsors from either party and never reached a vote, so no party-line split was ever recorded; the sponsor was a Republican."
   },
   "industries": [
    {
-    "industry": "Hospitals and hospital systems",
+    "industry": "Hospitals and health systems",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Hospitals face per-day fines for not publishing prices, public naming of violators, and a ban on hiding price pages from search engines. Compliance costs are modest but the exposure to comparison shopping and enforcement is the point.",
+    "note": "The bill raises daily fines up to $11,000 for large hospitals that fail to publish standard charges, bans hiding price pages from search engines, and requires a public list of non-compliant hospitals. Hospitals benefit financially from price opacity, so their interest runs against patients here.",
     "sources": [
-     "S3",
-     "S2"
+     "S3"
+    ]
+   },
+   {
+    "industry": "Health insurers and employers",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "Negotiating better hospital rates is easier when standard charge lists are complete, current, and findable; employers and insurers shopping for care are among the main intended users of the data.",
+    "sources": [
+     "S3"
     ]
    }
   ],
@@ -126,11 +143,11 @@
   ],
   "scores": {
    "public_stakes": 6,
-   "concentrated_stakes": 7,
-   "outcome_against_public": 7,
+   "concentrated_stakes": 6,
+   "outcome_against_public": 6,
    "support_mismatch": 3,
-   "corruption_relevance": 2,
-   "confidence": 0.9
+   "corruption_relevance": 1,
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

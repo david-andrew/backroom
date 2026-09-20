@@ -1,146 +1,135 @@
 {
  "bill_id": "118-s359",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:06:53+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:48:52+00:00",
  "record_fetched_at": "2026-09-20T11:23:27+00:00",
  "record_hash": "3b804c854ccd1c15",
  "analysis": {
-  "one_liner": "Requires Supreme Court justices to follow a binding ethics code, disclose gifts, and step aside from cases involving their benefactors.",
-  "headline": "The bill cleared the Senate Judiciary Committee and sat on the Senate calendar with 43 cosponsors, but never received a floor vote before the Congress ended in January 2025.",
+  "one_liner": "Requires Supreme Court justices to follow a written code of conduct, disclose gifts, and step aside from conflicts.",
+  "headline": "The Senate Judiciary Committee approved the bill and put it on the Senate's calendar, but the Senate never voted on it before that Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would have required the Supreme Court to adopt a binding code of conduct for justices, with a process for investigating ethics complaints. It would have forced justices to disclose gifts, travel, and income at least as rigorously as members of Congress, and to step aside from any case involving a party that gave them money or gifts in the previous six years. It also would have required parties and outside groups to reveal gifts or payments to justices and to disclose who funds their \"friend of the court\" briefs.",
-  "who_benefits": "Everyone who appears before, or is affected by, the Supreme Court. Litigants would get a real process to demand a justice step aside when a conflict exists, and the public would see justices' gifts and the funding behind the briefs that flood the Court. Currently, justices decide their own recusals and there is no enforceable ethics code for them.",
+  "plain_summary": "This bill would force the Supreme Court to adopt a code of conduct for justices, set up a process for filing and investigating misconduct complaints, and require justices to disclose gifts, income, and travel under standards at least as strict as those for members of Congress. It would expand the situations requiring a justice to step aside from a case, including when a party gave the justice gifts or spent money backing their appointment, and would make people filing Supreme Court briefs disclose their funders. The committee approved version also added a non-binding statement condemning racial attacks on Justice Clarence Thomas.",
+  "who_benefits": "Litigants and the general public, who get a Supreme Court bound by written ethics rules, an actual complaint process, public disclosure of what gifts and money flow to justices, and clearer rules for when a justice must recuse. Ordinary people who appear before the federal courts would be litigating before judges whose financial ties to the parties are on the record.",
   "who_benefits_short": "Litigants and the general public",
   "how_it_helps": [
    {
-    "text": "Requires the Supreme Court to issue a code of conduct for justices within 180 days and to post it, and any related ethics rules, publicly on its website.",
+    "text": "Requires the Supreme Court to issue a code of conduct for justices and make it publicly available on the Court's website, and to establish procedures for individuals to file misconduct complaints, which a panel of five randomly chosen chief circuit judges would review and investigate.",
+    "sources": [
+     "S2",
+     "S3",
+     "S5"
+    ]
+   },
+   {
+    "text": "Requires disclosure rules for justices' and law clerks' gifts, income, and reimbursements at least as rigorous as the disclosure rules that apply to the House and Senate.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Creates a complaint process: anyone could file an ethics complaint against a justice, and a randomly selected panel of five chief circuit judges would investigate, with subpoena power, and publish its findings.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Requires justices to disclose gifts, income, and reimbursements at least as rigorously as House and Senate disclosure rules apply to members of Congress.",
+    "text": "Expands mandatory disqualification to cover cases where a party or its affiliate gave the justice, the justice's spouse, or minor children income, gifts, or reimbursements within a six-year window, or lobbied or spent substantial funds supporting the justice's appointment; justices must also notify parties when they learn of a possible conflict.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Expands mandatory recusal: a justice must step aside if a party or its affiliate gave the justice, their spouse, or minor child income, gifts, or reimbursements within the previous six years, or lobbied or spent substantial funds to support the justice's confirmation.",
+    "text": "Requires parties and friends-of-the-court filers to disclose in their briefs any gift, income, or reimbursement they or their lawyers provided to a justice in the two years before a case, and requires amicus briefs to list major funders (over $100,000 or 3% of annual revenue), subject to an annual audit.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Lets parties file disqualification motions that are decided by a reviewing panel rather than by the justice alone; for a Supreme Court justice, the other eight justices would review the motion, and every disqualification must be publicly explained on the court's website.",
+    "text": "The Federal Judicial Center would study compliance with the recusal rules and report to Congress, and the Government Accountability Office would periodically evaluate the findings.",
     "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Requires every party and friend-of-the-court filer to disclose any gift, income, or reimbursement it, its lawyers, or its officers gave any justice, and requires amicus briefs to list their significant funders, with an annual audit.",
-    "sources": [
-     "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "The justices themselves, who would lose sole control over their own recusal and gift rules; the federal judiciary, which would run the complaint, investigation, and audit systems; and parties, law firms, and interest groups, which would face new disclosure paperwork for gifts to justices and amicus funding. Taxpayers fund the administrative cost.",
-  "who_pays_short": "Justices, the courts, and interest groups",
+  "who_pays": "The nine Supreme Court justices and the network around them: the justices themselves, wealthy patrons and major litigants whose gifts and financial ties would become public, and dark-money-funded groups that file anonymous friend-of-the-court briefs and would have to name their funders.",
+  "who_pays_short": "Justices and wealthy court patrons",
   "drawbacks": [
    {
-    "text": "Enforcement is weaker than it looks: the investigation panel only 'presents findings and recommendations' to the Court, and a motion to disqualify a justice would be decided by the other eight justices, so the institution would still largely judge its own members.",
+    "text": "The expanded recusal rules sweep broadly: any gift or income from a party, its affiliates, or its lawyers within six years forces disqualification, and a denied recusal motion pauses the case until a panel rules, which parties could use strategically to remove justices from controversial cases or drag out proceedings.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The amicus disclosure rules would hit every filer, including small nonprofits and individuals, requiring them to list anyone contributing over $100,000 or 3% of revenue, and the bill lets courts strike briefs that would disqualify a judge — critics argued this burdens participation and treads on judicial independence as a separation-of-powers matter.",
+    "text": "A motion to disqualify a Supreme Court justice would be decided by the other eight justices, so in the highest-profile cases the Court would still be policing itself rather than an outside body.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The committee's amended version added an unrelated nonbinding section condemning racial attacks on Justice Thomas, which had nothing to do with the ethics machinery and was attached by the committee amendment.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Six-year recusal lookback and gift definitions rely on justices and parties to self-report; the bill depends on honest disclosure, and its studies of compliance would come years apart.",
+    "text": "The committee-added 'sense of Congress' section condemning racial attacks on Justice Thomas is a non-binding statement about public rhetoric that has nothing to do with the bill's ethics machinery, and critics of Congress mandating rules on the Court have long argued such requirements raise separation-of-powers objections.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefits — enforceable ethics rules, gift disclosure, and independent recusal review for the most powerful court in the country — far outweigh the compliance paperwork, and the public would finally see who is paying the justices' way. The honest weakness is structural: the bill still leaves the final word on discipline and disqualification largely inside the Court itself, so a determined institution could blunt it. And the bill never got far enough for any of this to be tested: it died on the Senate calendar.",
+  "benefit_vs_cost": "The core benefit is real and large: the most powerful court in the country would go from no enforceable ethics code to written rules, a complaint process, and public disclosure of money and gifts. The main costs are design risks: the six-year gift lookback and motion-and-stay recusal procedure could be gamed to knock justices off cases, and letting the other eight justices review recusal motions keeps final judgment largely inside the Court. On balance the accountability gains outweigh the procedural risks, though the bill is not perfectly built.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was reported out of the Judiciary Committee and placed on the Senate's calendar in September 2023, but no one ever brought it up for a floor vote before the Congress ended in January 2025.",
+   "mechanism": "The Senate Judiciary Committee held a hearing, approved the bill with changes, and put it on the Senate's calendar of pending business, but no senator ever got a chance to vote on it before the two-year Congress ended.",
    "narrative": [
     {
-     "text": "Senator Sheldon Whitehouse introduced the bill on February 9, 2023, with 27 original cosponsors; it was read twice and referred to the Judiciary Committee.",
+     "text": "Senator Sheldon Whitehouse introduced the bill on February 9, 2023, and it was read twice and referred to the Senate Judiciary Committee.",
      "sources": [
       "S1",
-      "S3",
       "S5"
      ]
     },
     {
-     "text": "A Judiciary subcommittee held a hearing on the bill on June 14, 2023.",
+     "text": "The Judiciary subcommittee on federal courts held a hearing on the bill on June 14, 2023.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "The committee ordered the bill reported favorably on July 20, 2023, and Chairman Durbin reported it on September 5, 2023 with a substitute amendment; it was placed on the Senate Legislative Calendar under General Orders as Calendar No. 199.",
+     "text": "On July 20, 2023, the Judiciary Committee ordered the bill reported favorably with an amendment, and on September 5, 2023, Chairman Dick Durbin reported it to the Senate with an amendment in the nature of a substitute.",
      "sources": [
-      "S3",
       "S5"
      ]
     },
     {
-     "text": "The committee amendment added a nonbinding 'sense of Congress' section condemning racially charged attacks on Justice Thomas, alongside the bill's ethics provisions.",
+     "text": "The committee-approved version added a Section 10, a non-binding 'sense of Congress' condemning racial attacks on Justice Clarence Thomas, alongside the ethics provisions.",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "The bill's 43 cosponsors were all Democrats or independents; no Republican signed on, and the bill never received a floor vote in the Senate or the House before the 118th Congress ended on January 3, 2025.",
+     "text": "On September 5, 2023, the bill was placed on the Senate Legislative Calendar under General Orders as Calendar No. 199, and no further action — no floor debate, no vote — ever occurred.",
      "sources": [
-      "S4",
-      "S5"
+      "S5",
+      "S1"
      ]
     },
     {
-     "text": "The Senate in this period had no ethics legislation for the Supreme Court enacted; the Court itself adopted a voluntary, nonbinding code of conduct in November 2023 without any enforcement mechanism.",
-     "sources": []
+     "text": "The bill drew 43 cosponsors, 42 of the 48 Senate Democrats and 1 of 4 independents, and not a single Senate Republican, and the 118th Congress ended on January 3, 2025 with the bill still on the calendar.",
+     "sources": [
+      "S4",
+      "S1"
+     ]
     }
    ],
-   "who_came_out_ahead": "The justices, who keep sole control over their own recusal decisions and gift rules, and the wealthy patrons, litigants, and interest groups who benefit from a court that polices itself without outside disclosure or review."
+   "who_came_out_ahead": "The justices and the network of patrons, major litigants, and anonymous-funded brief-writers around the Court are better off: no enforceable code of conduct, no complaint process, no stricter gift disclosure, and no expanded recusal rules ever took effect. Meanwhile the Court's existing voluntary ethics code, adopted separately in November 2023, has no enforcement mechanism — though that development is outside the bill record here."
   },
-  "who_came_out_ahead_short": "The justices and their gift-giving benefactors",
+  "who_came_out_ahead_short": "Supreme Court justices and their patrons",
   "sides": {
    "for": [
     {
      "name": "Sheldon Whitehouse",
      "role": "U.S. Senator (D-RI), bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and assembled 27 original cosponsors, all Democrats or independents",
+     "what_they_did": "Introduced the Supreme Court ethics bill and recruited cosponsors across the Senate Democratic caucus.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3",
       "S4"
      ]
     },
@@ -148,7 +137,7 @@
      "name": "Dick Durbin",
      "role": "Chair, Senate Judiciary Committee",
      "party": "D",
-     "what_they_did": "Held a subcommittee hearing, ordered the bill reported favorably, and reported it to the Senate calendar on September 5, 2023",
+     "what_they_did": "Held a subcommittee hearing, managed the committee markup that reported the bill favorably, and reported it to the Senate with a substitute amendment.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -156,10 +145,21 @@
      ]
     },
     {
-     "name": "43 Senate cosponsors",
-     "role": "42 Democrats and 1 independent",
+     "name": "42 of 48 Senate Democrats",
+     "role": "Senate Democratic cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as cosponsors, including Senator Sanders",
+     "what_they_did": "Cosponsored the bill, including the party leader, Schumer, and the committee's senior members.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "1 of 4 Senate independents",
+     "role": "Independent cosponsor",
+     "party": "I",
+     "what_they_did": "Cosponsored the bill (Sen. Bernie Sanders).",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -170,53 +170,55 @@
    "against": [
     {
      "name": "Senate Republicans",
-     "role": "Senate minority",
+     "role": "49 Senate Republicans, the minority caucus",
      "party": "R",
-     "what_they_did": "None signed on as cosponsors, and the bill never advanced to a floor vote during two years on the Senate calendar",
-     "direct": true,
+     "what_they_did": "None of the 49 cosponsored the bill, and the Republican conference opposed the Court-ethics legislation; the bill never reached the floor for a vote.",
+     "direct": false,
      "evidence": "widely_reported",
      "sources": []
+    },
+    {
+     "name": "Chuck Schumer",
+     "role": "Senate Majority Leader",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill, but as the senator who controls floor scheduling he never called it up for a vote while it sat on the Senate calendar for the rest of the Congress.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4",
+      "S5"
+     ]
     }
    ],
-   "party_line": "mostly_party_line",
-   "party_line_note": "All 43 cosponsors were Democrats or independents and no Republican signed on; the bill cleared the Democratic-led Judiciary Committee but never reached the Senate floor, where it would have needed some Republican support to advance."
+   "party_line": "party_line",
+   "party_line_note": "Every one of the bill's 43 cosponsors was a Democrat or independent — 42 of 48 Senate Democrats and 1 of 4 independents — with zero of 49 Senate Republicans signing on, and the bill died without a floor vote."
   },
   "industries": [
    {
-    "industry": "Supreme Court justices (incumbent officeholders)",
+    "industry": "Supreme Court justices",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would strip justices of sole authority over their own recusals, subject them to an enforceable code of conduct and complaint process, and require gift disclosure at congressional standards. Justices currently set their own ethics rules with no binding enforcement.",
+    "note": "The nine justices would go from having no enforceable ethics code to binding conduct rules, a public complaint process, gift and income disclosure as strict as members of Congress, and expanded recusal duties reaching gifts received up to six years earlier. Their interest in avoiding accountability ran directly against the public's interest in an impartial, transparent court.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Wealthy patrons and litigants who give gifts to justices",
+    "industry": "Major litigants and wealthy patrons with ties to the Court",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Anyone who gave a justice income, gifts, or reimbursements within the previous six years, or spent substantial funds backing the justice's confirmation, would trigger that justice's disqualification from their cases. Parties would also have to disclose any gifts their side gave justices. This would directly burden the kind of undisclosed patronage that prompted the bill.",
+    "note": "Corporations, wealthy donors, and their lawyers with business before the Court would have to disclose any gifts, income, or reimbursements given to justices, and lobbying or spending that supported a justice's appointment would force the justice off their cases. Secrecy about these financial channels is what would be lost.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Interest groups filing friend-of-the-court (amicus) briefs",
+    "industry": "Dark-money-funded amicus groups",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Briefs would have to list significant funders (over $100,000 or 3% of annual revenue), subject to annual audit, and courts could strike briefs whose filers' gifts to a justice would require disqualification. This exposes shadow funding behind Supreme Court advocacy.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "industry": "Law firms practicing before the Supreme Court",
-    "effect": "loses",
-    "stance_toward_public": "mixed",
-    "note": "Firms and their officers would have to disclose gifts, income, or reimbursements provided to any justice, and lobbying contacts or spending supporting a justice's confirmation. Most of this disclosure burden falls on firms already doing business at the Court.",
+    "note": "Groups filing friend-of-the-court briefs would have to name anyone who funded them above $100,000 or 3% of annual revenue, with an annual audit to check compliance. Anonymous-funded influence campaigns aimed at the Court would have to come out of the shadows.",
     "sources": [
      "S3"
     ]
@@ -227,11 +229,11 @@
    "corruption_and_ethics"
   ],
   "scores": {
-   "public_stakes": 7,
+   "public_stakes": 6,
    "concentrated_stakes": 8,
    "outcome_against_public": 8,
-   "support_mismatch": 8,
-   "corruption_relevance": 10,
+   "support_mismatch": 6,
+   "corruption_relevance": 9,
    "confidence": 0.85
   }
  },

@@ -1,123 +1,103 @@
 {
  "bill_id": "118-s2780",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:56:46+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:41:58+00:00",
  "record_fetched_at": "2026-09-20T11:44:02+00:00",
  "record_hash": "3683627f390b87c9",
  "analysis": {
-  "one_liner": "Requires drug makers to give the patent office the same data they give the FDA, and voids patents withheld.",
-  "headline": "A bipartisan Senate bill to stop drug companies from making inconsistent statements to the FDA and the patent office was introduced in September 2023, referred to the health committee, and never received a vote before the Congress ended.",
+  "one_liner": "Requires drug makers to share FDA drug data with the patent office, so weak patents can be challenged.",
+  "headline": "The bill was introduced in September 2023 with bipartisan sponsorship but never received a hearing, a committee vote, or a floor vote before the Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "Drug companies sometimes describe the same drug differently to two government agencies: to the Food and Drug Administration they may downplay a drug's novelty to win approval, while telling the patent office it is highly novel to win broad patents that keep cheaper generic copies off the market. This bill would require drug companies to submit to the patent office everything material they give the FDA about a drug's patents, certify the two sets of information match, and would let generic and biosimilar makers use a company's failure to disclose as a defense if the company sues them for patent infringement. It was introduced by a Democrat and a Republican together, but the Senate health committee never acted on it, and it died when the two-year Congress ended.",
-  "who_benefits": "Consumers who buy prescription drugs, because easier generic and biosimilar competition historically pushes prices down. Generic and biosimilar manufacturers also gain a new defense against patent lawsuits built on patents a brand company obtained without giving the patent office the full picture.",
-  "who_benefits_short": "Patients who buy prescription drugs",
+  "plain_summary": "Drug companies sometimes describe their data differently to two government agencies: they tell the Food and Drug Administration one thing to win drug approval, then tell the patent office another thing to win broader, longer-lasting patents. This bill would require drug companies to certify that the information they give both agencies is consistent, hand over any FDA submissions relevant to a patent's validity to the patent office, and allow a company accused of patent infringement to escape liability if the patent holder hid required information. The aim is to make it harder to keep cheaper generic and biosimilar competitors off the market with patents built on inconsistent filings.",
+  "who_benefits": "Patients who buy prescription drugs, because more effective challenges to weak drug patents should speed the arrival of lower-priced generic and biosimilar competition; and generic and biosimilar manufacturers, who gain a defense against patent suits when a brand-name company failed to disclose required information.",
+  "who_benefits_short": "Patients facing high drug prices",
   "how_it_helps": [
    {
-    "text": "Requires any company seeking or holding FDA drug approval to send the patent office all information material to patentability that it submits to the FDA, and to certify to both agencies that the information is complete and consistent. [S2]",
+    "text": "Requires drug application sponsors and holders of approved applications to certify to the FDA that their information is complete and consistent with what they told the U.S. Patent and Trademark Office, and to submit to the patent office any FDA material relevant to a patent's validity. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Covers both small-molecule drugs under the Federal Food, Drug, and Cosmetic Act and biologics under the Public Health Service Act, including patents on formulations, methods of use, and manufacturing. [S2]",
+    "text": "Adds a legal defense for a person accused of infringing a drug patent if the patent owner negligently or intentionally failed to disclose information the bill requires, which could invalidate patents built on hidden or inconsistent information. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Adds a new defense to patent infringement suits: if a patent owner negligently or intentionally failed to make the required disclosures, the accused infringer — typically a generic or biosimilar maker — can raise that failure as a defense. [S2]",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Makes FDA approval conditional on compliance: an application can be refused if the sponsor failed to certify its disclosures, and failure to comply becomes a prohibited act the FDA can enforce. [S2]",
+    "text": "Makes compliance a condition of FDA approval: the FDA may reject a drug application if the sponsor failed to comply with the disclosure certification, and noncompliance becomes a prohibited act subject to FDA enforcement. [S2]",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Brand-name drug companies, which would face new disclosure duties, the risk that inconsistently obtained patents become unenforceable, and possible approval delays for failing to certify compliance. Some compliance costs could ultimately show up in prices, but the bill's aim is to shorten patent-protected monopolies that cost consumers far more.",
+  "who_pays": "Brand-name and biologic drug manufacturers, who would face new certification and disclosure duties with every application and patent, could see patents narrowed or invalidated, and would lose a common tool for delaying generic and biosimilar competition.",
   "who_pays_short": "Brand-name drug manufacturers",
   "drawbacks": [
    {
-    "text": "Adds certification and cross-agency disclosure requirements for every drug application, which creates administrative burden for drug makers and could slow filings if companies are cautious about the compliance condition on FDA approval. [S2]",
+    "text": "The bill's enforcement tool reaches negligent failures to disclose, not just intentional ones, so a patent could be undermined by an honest mistake in a large filing, weakening patent incentives for legitimate inventions. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The non-disclosure defense invites more patent litigation between brand and generic companies, since accused infringers have a new weapon and courts will have to sort out what counts as negligent non-disclosure. [S2]",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "The bill only reaches patents connected to information submitted to the FDA; much of the patent thicket around a drug consists of later-filed patents on formulations and manufacturing methods that may never touch an FDA submission, so the actual effect on drug prices could be narrower than the title suggests. [S2]",
+    "text": "Companies would bear new compliance costs and might file more cautiously with the FDA to avoid creating information that undercuts their patents, adding administrative burden to the drug approval process. [S2]",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The upside for consumers runs through competition: if brand companies can no longer win or defend broad patents by describing their inventions inconsistently to two agencies, generic and biosimilar copies reach the market sooner and prices fall. The costs are real but modest — added paperwork, more litigation, and possible approval friction — and the main honest objection is design: the bill only covers information connected to FDA submissions, so it nibbles at the patent-thicket problem rather than solving it.",
+  "benefit_vs_cost": "The mechanism is narrow and targeted: it does not change patent law directly, it just closes the gap between what drug companies tell the FDA and what they tell the patent office. The main cost falls on drug makers in extra compliance work and some risk to patents over negligent mistakes. For patients, the benefit depends on how much patent-thicket strategies actually delay generics, which research suggests is substantial for many drugs; the bill addresses one known contributor but not the whole problem.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The Senate referred the bill to its health committee the day it was introduced, the committee never took it up, and it died when the 118th Congress ended in January 2025.",
+   "mechanism": "It was introduced and referred to the Senate Health, Education, Labor, and Pensions Committee, which never took it up, so it died when the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Senator Maggie Hassan introduced the bill on September 13, 2023, joined by Republican Senator Mike Braun. [S1] [S2] [S3]",
+     "text": "Sen. Maggie Hassan introduced the bill on September 13, 2023, for herself and Sen. Mike Braun, and it was read twice and referred to the Senate Committee on Health, Education, Labor, and Pensions. [S4]",
      "sources": [
-      "S1",
-      "S2",
-      "S3"
-     ]
-    },
-    {
-     "text": "The same day, the Senate read it twice and referred it to the Committee on Health, Education, Labor, and Pensions. [S4]",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "The action history shows no hearing, no committee vote, no floor action, and no roll call — the bill's only action was the referral. [S4]",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "The 118th Congress ended on January 3, 2025, so the bill expired with the committee never having acted. [S4]",
-     "sources": [
-      "S4"
-     ]
-    }
-   ],
-   "who_came_out_ahead": "Brand-name drug companies are better off: their patents remain fully enforceable no matter what they told the FDA versus the patent office, and the pressure for cheaper generic and biosimilar competition never got a hearing. No consumer group gained anything from the bill's death."
-  },
-  "who_came_out_ahead_short": "Brand-name drug companies",
-  "sides": {
-   "for": [
-    {
-     "name": "Sen. Maggie Hassan",
-     "role": "U.S. Senator from New Hampshire, bill sponsor",
-     "party": "D",
-     "what_they_did": "Introduced the bill to require drug makers to give the FDA and the patent office consistent information. [S1] [S2]",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
+      "S4",
       "S2"
      ]
     },
     {
-     "name": "Sen. Mike Braun",
-     "role": "U.S. Senator from Indiana, cosponsor",
-     "party": "R",
-     "what_they_did": "Cosponsored the bill, making it bipartisan from introduction. [S2] [S3]",
+     "text": "That referral was the last action ever recorded; the bill received no hearing, no committee markup, no floor vote, and no further amendments before the 118th Congress ended on January 3, 2025. [S4]",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "Sen. Braun was the bill's only cosponsor besides its sponsor. [S3]",
+     "sources": [
+      "S3"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "Brand-name drug makers are better off: the patents and filing practices the bill targeted remain untouched, and no competing version advanced in the 118th Congress."
+  },
+  "who_came_out_ahead_short": "Brand-name drug makers",
+  "sides": {
+   "for": [
+    {
+     "name": "Sen. Maggie Hassan",
+     "role": "U.S. Senator from New Hampshire; bill sponsor",
+     "party": "D",
+     "what_they_did": "Introduced the bill and sought bipartisan support by pairing with a Republican cosponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
+      "S1",
+      "S4"
+     ]
+    },
+    {
+     "name": "Sen. Mike Braun",
+     "role": "U.S. Senator from Indiana; bill cosponsor",
+     "party": "R",
+     "what_they_did": "Cosponsored the bill, its only cosponsor.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
       "S3"
      ]
     }
@@ -125,34 +105,25 @@
    "against": [
     {
      "name": "Senate Committee on Health, Education, Labor, and Pensions",
-     "role": "Committee to which the bill was referred",
+     "role": "Committee of referral for the bill",
      "party": null,
-     "what_they_did": "Received the bill on September 13, 2023 and never scheduled a hearing, markup, or vote; the bill's entire action history is the referral. [S4]",
+     "what_they_did": "Received the bill on referral and never scheduled a hearing, markup, or vote on it during the two-year Congress.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S4"
      ]
-    },
-    {
-     "name": "Sen. Bernie Sanders",
-     "role": "Chair, Senate HELP Committee (118th Congress)",
-     "party": "I",
-     "what_they_did": "As committee chair, never brought the bill to a markup or vote during the two-year Congress. [S4]",
-     "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
     }
    ],
-   "party_line": "unclear",
-   "party_line_note": "The bill was bipartisan at introduction — a Democrat and a Republican introduced it together — but only two senators supported it, and no votes were ever taken, so there is no record of a partisan split."
+   "party_line": "bipartisan",
+   "party_line_note": "A Democrat sponsored the bill and a Republican was its only cosponsor; no opposition ever appeared on the record because the committee never acted, so the partisan shape beyond the two sponsors is unknown."
   },
   "industries": [
    {
-    "industry": "Brand-name drug makers",
+    "industry": "Brand-name and biologic drug manufacturers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would require them to mirror to the patent office everything they tell the FDA and would let generic rivals escape infringement suits based on patents obtained through non-disclosure. It strikes at a practice — describing the same drug inconsistently to two agencies — that keeps monopoly prices in place, so its interest ran against the consumers the bill targeted. [S2]",
+    "note": "The bill targets a known strategy: getting broad drug patents using characterizations of data that differ from what the company told the FDA, then using those patents to block cheaper generics and biosimilars. It would expose those patents to challenge and require disclosure of FDA communications to the patent office.",
     "sources": [
      "S2"
     ]
@@ -161,16 +132,7 @@
     "industry": "Generic and biosimilar manufacturers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "The new non-disclosure defense gives them a way to defeat patents sued on by brand companies that withheld information from the patent office, letting their cheaper copies reach the market. Their gain is consumers' gain. [S2]",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Pharmaceutical patent counsel and law firms",
-    "effect": "gains",
-    "stance_toward_public": "mixed",
-    "note": "New certification duties and a new litigation defense mean more compliance work and more patent litigation for firms that serve the drug industry. [S2]",
+    "note": "A non-disclosure defense against patent infringement would make it easier to launch lower-priced copies and survive patent suits built on withheld information.",
     "sources": [
      "S2"
     ]
@@ -179,14 +141,14 @@
   "trajectory": null,
   "categories": [
    "healthcare_and_drug_prices",
-   "antitrust_and_competition"
+   "consumer_protection_and_finance"
   ],
   "scores": {
    "public_stakes": 6,
-   "concentrated_stakes": 8,
-   "outcome_against_public": 7,
-   "support_mismatch": 6,
-   "corruption_relevance": 4,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 6,
+   "support_mismatch": 4,
+   "corruption_relevance": 2,
    "confidence": 0.85
   }
  },

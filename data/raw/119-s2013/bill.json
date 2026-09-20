@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/2013/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/2013/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/2013/cosponsors?format=json"
+  },
+  "introducedDate": "2025-06-10",
+  "latestAction": {
+   "actionDate": "2025-06-10",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2013",
+  "number": "2013",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001089",
+    "firstName": "Josh",
+    "fullName": "Sen. Hawley, Josh [R-MO]",
+    "isByRequest": "N",
+    "lastName": "Hawley",
+    "party": "R",
+    "state": "MO",
+    "url": "https://api.congress.gov/v3/member/H001089?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/2013/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/2013/text?format=json"
+  },
+  "title": "Higher Wages for American Workers Act of 2025",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/2013/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-06-30T13:21:01Z",
+  "updateDateIncludingText": "2025-06-30T13:21:01Z"
+ },
+ "request": {
+  "billNumber": "2013",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

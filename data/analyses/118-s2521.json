@@ -1,111 +1,100 @@
 {
  "bill_id": "118-s2521",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:56:27+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:39:05+00:00",
  "record_fetched_at": "2026-09-20T11:43:49+00:00",
  "record_hash": "200a6680c244c3e1",
  "analysis": {
-  "one_liner": "Requires the largest social media and messaging platforms to let users move data and communicate across competing apps.",
-  "headline": "The bipartisan bill, introduced in July 2023 with two Democrats and two Republicans behind it, never received a hearing or vote in the Senate Commerce Committee before the Congress ended.",
+  "one_liner": "Requires giant social media and messaging platforms to let users take their data and connect across competing apps.",
+  "headline": "A bipartisan bill by five senators to force the largest online platforms to open up their networks never received a committee vote and died when the Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The ACCESS Act would require the very largest online platforms—those with more than 100 million U.S. users that make money from user data—to build open doors for their customers. Users could take their data with them when they leave, message people on rival apps without switching, and hire an authorized agent to manage their account. The Federal Trade Commission would write the rules and enforce them, and violators would face penalties counted per affected user.",
-  "who_benefits": "Ordinary users of the biggest social networks, messaging apps, and similar services. Today, leaving a dominant platform means leaving your photos, contacts, and history behind, and there is no way to message a friend on one app from another. The bill would force the giants to let users port their data to competitors and connect across services, making it far easier to switch to a rival if the incumbent raises prices, degrades quality, or mishandles privacy [S2]. Smaller and would-be competitors would gain a foothold because they could interoperate with the giants instead of having to build everything from scratch [S2].",
-  "who_benefits_short": "Users of dominant social and messaging platforms",
+  "plain_summary": "The bill targeted online platforms with more than 100 million U.S. users that make money from people's data. It would have required those platforms to let users export their data to a competitor, to interoperate — meaning a user of one app could communicate directly with a user of another — and to let users appoint a third-party agent to manage their accounts. The Federal Trade Commission would enforce the rules, and violating them could bring fines counted per affected user. The bill was referred to the Senate Commerce Committee and never moved again.",
+  "who_benefits": "Users of the largest social media and messaging services, who could leave a platform without losing their photos, contacts, and message history, and could reach people on other apps without everyone using the same service. Smaller and would-be competitors also gain, because the biggest advantage of the giant platforms — the network of people you already know there — becomes something they can plug into instead of having to rebuild.",
+  "who_benefits_short": "Users of major social and messaging platforms",
   "how_it_helps": [
    {
-    "text": "Large platforms (over 100 million U.S. monthly users earning income from user data) must maintain interfaces that let users securely transfer their data to themselves or to a competing provider in a machine-readable format [S2].",
+    "text": "Platforms with over 100 million U.S. users must provide interfaces so users can transfer their data to themselves or to a competing service in a machine-readable format [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Large platforms must maintain interfaces allowing interoperable communications with users of competing services on fair, reasonable, and nondiscriminatory terms, and cannot change interfaces with the purpose or effect of blocking those rivals [S2].",
+    "text": "Platforms must maintain interoperability interfaces on fair, reasonable, and nondiscriminatory terms so users of competing services can communicate with their users, and changes made to undermine that access count as violations [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Users may designate a registered custodial third-party agent to manage their account, content, and settings on their behalf, and the FTC must set verification rules and can deregister agents that misuse access [S2].",
+    "text": "Users may designate a registered third-party agent to manage their account, content, and settings on their behalf, with the agent barred from using the user's data for its own commercial benefit [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The FTC enforces violations as unfair or deceptive practices, must regularly assess compliance, must consider each affected user an individual violation when fining, and has authority over common carriers for this purpose [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "The National Institute of Standards and Technology must publish model technical standards for interoperable messaging, multimedia sharing, and social networking within 180 days of enactment [S2].",
+    "text": "The FTC enforces the Act and, in assessing fines, must count each affected user as a separate violation, which makes violations of a service with hundreds of millions of users enormously expensive [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "The handful of giant platform companies—social networks, messaging services, and similar consumer-facing platforms above the 100-million-user threshold—bear the cost of building and maintaining open interfaces, exposing their systems to outside access, and complying with FTC oversight. Their current advantage of holding users' networks and data would shrink [S2].",
-  "who_pays_short": "Big social media and messaging platforms",
+  "who_pays": "The large platform companies themselves, which would lose a major advantage: the difficulty of switching that keeps users on their services. They would bear the cost of building and maintaining the required interfaces, and they could face per-user fines. Some compliance costs and any access fees the platforms are allowed to charge could ultimately show up in the price of services users pay.",
+  "who_pays_short": "Large platform companies like Meta and Google",
   "drawbacks": [
    {
-    "text": "Opening platform interfaces to competitors and third-party agents creates privacy and security risk: more access points for user data means more chances for leaks or abuse, which the bill tries to manage with security standards, FTC registration of agents, and revocation of access for bad actors [S2].",
+    "text": "Opening platform networks through third-party-accessible interfaces creates new security and privacy risks: competing providers and delegated agents that access user data could be breached or misused, which is why the bill requires those parties to secure the data and lets the FTC deregister agents that violate their duties [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill lets custodial third-party agents charge users fees for managing accounts, so consumers who use delegated management could face new charges [S2].",
+    "text": "Interoperability between messaging networks can make spam, scams, and unwanted content easier to spread across services, and the bill allows platforms to set security and privacy standards for access in response to such threats [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill allows platform providers to assess reasonable fees on competitors that exceed usage thresholds, which could raise costs for smaller entrants, though fees must be proportional to the platform's cost of providing access [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Compliance could be expensive for the covered platforms, and the FTC must issue implementing regulations within a year; the act takes effect only once those regulations are issued, which could delay any benefits [S2].",
+    "text": "The rules are technically demanding and the effective date is tied to the FTC finishing its regulations, so compliance costs and the platform's ability to charge fees proportional to the cost and risk of providing access could be passed along or used to slow competitors [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core benefit is real: the biggest platforms' dominance rests partly on lock-in—your friends and your data are already there—and the bill attacks that directly by mandating portability and cross-app messaging. The main risks are security and privacy exposure from more third-party access, and the possibility that implementation rules get slow or watered down. The bill includes guardrails (FTC registration, security standards, fee proportionality) but its success would depend heavily on how the FTC writes the rules.",
+  "benefit_vs_cost": "The core benefit is real: today a person's social graph and content are effectively held hostage by the platform they joined, and this bill attacks that lock-in directly, the way number portability did for phone numbers. The costs are genuine but manageable — security risks that the bill tries to contain through registration, standards, and FTC enforcement, and compliance burdens that fall on companies with more than 100 million users. The bill would not directly lower prices or raise wages, but it would give ordinary users something they largely lack today: a real exit option.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The Senate introduced it and sent it to the Commerce Committee in July 2023, and no hearing, markup, or floor vote ever happened before the Congress ended in January 2025.",
+   "mechanism": "It was introduced by a bipartisan group of five senators and referred to the Senate Commerce Committee in July 2023, and the committee never acted on it; the bill died there when that Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Sen. Mark Warner (D-VA) introduced the ACCESS Act on July 26, 2023, joined by Sens. Blumenthal (D-CT), Klobuchar (D-MN), Graham (R-SC), and Hawley (R-MO) [S2].",
+     "text": "Senator Mark Warner introduced the ACCESS Act on July 26, 2023, joined by Senators Blumenthal and Klobuchar, both Democrats, and Graham and Hawley, both Republicans [S1].",
      "sources": [
+      "S1",
       "S2"
      ]
     },
     {
-     "text": "The Senate read the bill twice and referred it to the Committee on Commerce, Science, and Transportation on the day of introduction [S4].",
+     "text": "The bill was read twice and referred to the Committee on Commerce, Science, and Transportation the same day [S4].",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "No further action was ever recorded: the bill received no hearing, no committee vote, and no floor vote before the 118th Congress ended on January 3, 2025 [S4].",
+     "text": "No further action appears in the record: no hearing, no committee vote, no floor vote, through the end of the 118th Congress [S4].",
      "sources": [
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "The giant platform companies, which never had to open their networks to competitors or give up control of user data, and whose lock-in advantage over users remains intact."
+   "who_came_out_ahead": "The large platform companies, which keep the network lock-in the bill would have removed, and the committee leadership that never had to take a position on it."
   },
-  "who_came_out_ahead_short": "The largest social media and messaging platforms",
+  "who_came_out_ahead_short": "Large platforms keep their lock-in",
   "sides": {
    "for": [
     {
      "name": "Sen. Mark Warner",
-     "role": "U.S. Senator from Virginia; bill sponsor",
+     "role": "U.S. Senator from Virginia, lead sponsor",
      "party": "D",
-     "what_they_did": "Introduced the ACCESS Act of 2023 in the Senate on July 26, 2023",
+     "what_they_did": "Introduced the bill and authored its portability, interoperability, and delegability requirements.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -114,24 +103,24 @@
      ]
     },
     {
-     "name": "Sens. Richard Blumenthal, Amy Klobuchar, Lindsey Graham, and Josh Hawley",
-     "role": "Original cosponsors (two Democrats, two Republicans)",
-     "party": "mixed",
-     "what_they_did": "Cosponsored the bill at introduction, giving it bipartisan backing",
+     "name": "Sens. Blumenthal, Klobuchar (D) and Graham, Hawley (R)",
+     "role": "Original cosponsors of the bill",
+     "party": null,
+     "what_they_did": "Cosponsored the bill, giving it support from both parties at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
-      "S3"
+      "S3",
+      "S2"
      ]
     }
    ],
    "against": [
     {
-     "name": "Senate Committee on Commerce, Science, and Transportation (chaired by Sen. Maria Cantwell, D-WA)",
-     "role": "Committee to which the bill was referred",
-     "party": "D",
-     "what_they_did": "Never scheduled a hearing, markup, or vote on the bill during the two-year Congress, leaving it to die in committee",
+     "name": "Senate Commerce, Science, and Transportation Committee",
+     "role": "Committee of referral, chaired by Sen. Maria Cantwell (D)",
+     "party": null,
+     "what_they_did": "Never scheduled a hearing, markup, or vote on the bill during the entire Congress.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -139,24 +128,24 @@
      ]
     },
     {
-     "name": "Senate Majority Leader",
-     "role": "Senate floor leadership",
-     "party": "D",
-     "what_they_did": "Never brought the bill to the Senate floor; with no committee action there was nothing to schedule",
+     "name": "Major social media and messaging platforms",
+     "role": "Companies with more than 100 million U.S. users that the bill would regulate",
+     "party": null,
+     "what_they_did": "Opposed interoperability and portability mandates that would erode the switching costs protecting their user bases.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
-   "party_line": "unclear",
-   "party_line_note": "The bill was notably bipartisan at introduction—two Democrats and two Republicans signed on as original cosponsors—so its death in committee was not a straightforward party-line refusal."
+   "party_line": "bipartisan",
+   "party_line_note": "The bill had bipartisan sponsorship from the start — three senators from the Democratic caucus and two Republicans — and died in committee without any vote, so no roll calls exist to measure the split."
   },
   "industries": [
    {
-    "industry": "Large social media, messaging, and online platform companies (over 100 million U.S. users monetizing user data)",
+    "industry": "Large social media and messaging platforms (Meta, Google, and similar companies)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would force these firms to build open interfaces for data portability, cross-service interoperability, and delegated account management, directly eroding the network lock-in that keeps their users from leaving. Because their dominant position lets them charge advertisers more and face less competitive pressure, their interest runs against consumers who want easier switching [S2].",
+    "note": "These companies profit from the difficulty of leaving their services; the bill would force them to build data portability, interoperability, and account-delegation interfaces and face per-user fines for violations. Their gain from the bill's failure is the public's loss of exit options.",
     "sources": [
      "S2"
     ]
@@ -165,7 +154,16 @@
     "industry": "Smaller and emerging communications providers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Competing providers would get access to interoperability interfaces and ported user data, letting them offer compatible services without rebuilding networks from scratch. Their gain comes from the same easier switching that benefits users [S2].",
+    "note": "Startups and smaller apps could plug into the large platforms' networks and attract users with their data intact, rather than having to rebuild a social network from zero. This only works if a user can leave, which is why it runs alongside users' interests.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Digital advertising and data-broker ecosystem",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill covers platforms that earn income from collecting, processing, selling, or sharing user data, and would loosen their grip on that data by letting users move it elsewhere.",
     "sources": [
      "S2"
     ]
@@ -174,16 +172,7 @@
     "industry": "Custodial third-party account-management services",
     "effect": "gains",
     "stance_toward_public": "mixed",
-    "note": "The bill would create a new class of FTC-registered agents authorized to manage users' accounts, which could charge users fees. A new service market opens, but consumers using it would pay for it [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Digital advertising and data brokerage ecosystem",
-    "effect": "mixed",
-    "stance_toward_public": "opposed",
-    "note": "Platforms that monetize user data are the bill's target, and easier switching plus non-commercialization rules on data obtained through interfaces would constrain how tightly user data can be locked into ad ecosystems. The effect on the broader data economy is indirect and uncertain [S2].",
+    "note": "A new class of FTC-registered agents that would manage users' accounts for a fee, creating a business opportunity regulated by the FTC — a convenience for users that also adds a party holding their data.",
     "sources": [
      "S2"
     ]
@@ -195,12 +184,12 @@
    "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 5,
-   "concentrated_stakes": 8,
-   "outcome_against_public": 6,
-   "support_mismatch": 5,
+   "public_stakes": 6,
+   "concentrated_stakes": 9,
+   "outcome_against_public": 7,
+   "support_mismatch": 6,
    "corruption_relevance": 1,
-   "confidence": 0.85
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

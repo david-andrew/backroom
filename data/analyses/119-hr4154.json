@@ -1,192 +1,248 @@
 {
  "bill_id": "119-hr4154",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:40:32+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:09:22+00:00",
  "record_fetched_at": "2026-09-20T14:31:12+00:00",
  "record_hash": "e93076bf5c74779c",
  "analysis": {
-  "one_liner": "Bars undocumented workers from union votes, requires yearly written consent for union political spending, and loosens employer rules for contractors and franchises.",
-  "headline": "The Employee Rights Act was introduced in June 2025 with 14 Republican sponsors, referred to two House committees, and has received no hearing, markup, or vote.",
+  "one_liner": "Rewrites federal labor law to weaken unions and make it easier to treat workers as contractors.",
+  "headline": "The Employee Rights Act, introduced with 14 House Republican sponsors in June 2025, has sat in two House committees with no hearing, no vote, and no movement since.",
   "direction": "for_concentrated_interests",
-  "plain_summary": "This bill would rewrite federal labor law in several ways at once. It would bar workers without lawful immigration status from voting in union elections or filing union petitions, require union members to give written consent each year before their dues can be spent on political or other non-bargaining activity, and let individual workers in right-to-work states drop out of union representation and negotiate with their employer alone. It would also make it harder to treat franchise chains and companies that use contractors as joint employers responsible for workers' wages and conditions, and would make it lawful for employers to penalize workers for 'demeaning' language during organizing drives and strikes.",
-  "who_benefits": "Employers, franchise chains, and companies that rely on contract labor gain the most. The joint-employer provisions shield brand companies from liability for labor conditions at franchisees and contractors, and the new independent-contractor test makes it easier to classify workers as contractors without minimum wage, overtime, or union protections. Companies also gain a weaker union counterparty: dues restrictions cut union budgets, the independent-negotiating option lets workers be carved out of union contracts, and employers gain new authority to discipline organizing-related speech.",
-  "who_benefits_short": "Franchise chains, gig companies, and anti-union employers",
+  "plain_summary": "This bill would rewrite the National Labor Relations Act and related labor laws. It would require NLRB-run secret-ballot elections before workers get a union, bar workers without lawful immigration status from voting in union elections, and require unions to get written, annually renewed permission before spending dues on anything beyond bargaining and contract administration. It would also lock in a loose test for who counts as an independent contractor, sharply narrow when two companies count as a single \"joint employer\" — including a carve-out protecting franchisors like fast-food headquarters — and let workers in right-to-work states opt out of union bargaining and negotiate individually. It has been referred to two House committees and has not moved.",
+  "who_benefits": "Employers, most of all. Franchise chains gain insulation from liability for franchisee workplaces. Gig platforms and businesses that rely on contractors gain a codified, looser test that keeps workers out of employee status (minimum wage, overtime, and union rights). Employers fighting union drives gain elections, voter-list limits, and opt-in dues rules that make organizing and sustaining unions harder. A narrower group also benefits: individual workers in right-to-work states who would rather negotiate on their own than be covered by a union contract.",
+  "who_benefits_short": "Franchise chains, gig platforms, and anti-union employers",
   "how_it_helps": [
    {
-    "text": "Gives workers in right-to-work states the right to leave union representation and negotiate individually, treating them as outside the bargaining unit [S2]",
+    "text": "Codifies a two-part independent-contractor test and bars regulators from counting supervision, safety rules, insurance requirements, or deadlines as evidence of employment, keeping many workers out of minimum-wage, overtime, and union protections [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Protects employees' personal contact information during organizing drives by limiting the voter list a union receives to one form of contact chosen by the employee in writing, and makes union misuse of that information an unfair labor practice [S2]",
+    "text": "Narrows joint-employer status to companies that directly, actually, and immediately control essential terms of employment, and flatly provides that handing franchisees a handbook or harassment policy cannot make a franchisor an employer [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires annual written consent before union dues can be spent on non-representational activities, with no automatic renewal, giving members control over funding of union political activity [S2]",
+    "text": "Requires that union representation be chosen in a secret-ballot election run by the NLRB, foreclosing card-check recognition agreements [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Rewrites the Fair Labor Standards Act so an individual is an independent contractor if the company does not significantly control how the work is performed, and bars factors like safety requirements or performance standards from counting toward employee status [S2]",
+    "text": "Requires written, annually renewed employee authorization before any dues can be spent on non-bargaining activities, and makes union misuse of workers' personal contact information an unfair labor practice [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Permits joint-employer status only where each employer directly, actually, and immediately controls essential terms of employment, and says franchisor rules on harassment training, child care, or paid leave policies cannot create an employment relationship [S2]",
+    "text": "Lets workers in right-to-work ('covered') states leave the bargaining unit and negotiate individually, and bars collective bargaining agreements from including DEI provisions [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Exempts Indian tribes and tribal enterprises from the National Labor Relations Act [S2]",
+    "text": "Exempts tribes and tribally owned businesses on tribal land from the National Labor Relations Act [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Union members and workers trying to organize collectively bear the cost. The annual written-consent rule and the independent-negotiating carve-out shrink union treasuries and bargaining units, which are the funding and leverage behind union contracts. Workers without lawful status lose the ability to vote in NLRB elections or file petitions, removing one check on employer pressure against them. Workers in franchised and contract settings lose a path to holding brand-name companies responsible for their pay and conditions. Gig-economy and other contract workers risk losing minimum wage, overtime, and collective bargaining coverage under the new contractor test.",
-  "who_pays_short": "Union members, gig and contract workers",
+  "who_pays": "If it passes, the cost falls on workers who rely on collective bargaining: unions lose dues revenue and bargaining leverage, union contracts shrink to the members who stay, and workers reclassified as independent contractors lose minimum wage, overtime, and the right to organize. Workers in industries like agriculture and construction who lack lawful status would lose any vote on their representation.",
+  "who_pays_short": "Unionized workers and workers seeking employee status",
   "drawbacks": [
    {
-    "text": "Independent negotiating allows individual employees to be pulled out of a union contract, which critics say dismantles collective representation piece by piece in right-to-work states, where unions could no longer bargain for workers who opt out [S2]",
+    "text": "Loosening the contractor test and narrowing joint-employer status shifts workers off the books that carry minimum wage, overtime, unemployment insurance, and bargaining rights — misclassification disputes have historically been a major source of wage theft claims [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The new joint-employer standard shields franchisors from responsibility for franchise labor practices, and a rule that franchisor requirements on harassment, human trafficking, or child care policies cannot create employment ties makes it harder for franchise workers to reach the brand company with claims [S2]",
+    "text": "Letting employees opt out of bargaining units in right-to-work states ('independent negotiating') would fragment contracts and could pull wages and benefits toward whatever an individual worker can extract alone [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Bars workers without lawful immigration status from voting in or petitioning for NLRB elections, which removes undocumented workers' only federal channel to contest employer retaliation and leaves employers less accountable for the conditions such workers face [S2]",
+    "text": "The opt-in rule for non-bargaining dues, with annual expiration, would cut the funding unions use for political and public advocacy — a real cost to unions, though framed as protecting members' money [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Lets employers take action against 'discriminatory, harassing, or demeaning language or conduct' during organizing campaigns or strikes, a carve-out that opponents say can be used to penalize pro-union speech on the shop floor [S2]",
+    "text": "Rewriting the federal extortion statute with a carve-out for 'minor' injury or damage during peaceful picketing, prosecutable only by states, narrows federal tools against violence in labor disputes [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The annual written-consent requirement for any dues spent on non-bargaining purposes would sharply cut union spending on politics and communications, shrinking union budgets that also fund contract enforcement [S2]",
+    "text": "Supporters' strongest counterargument: secret-ballot elections, private ballots on dues, and the right to negotiate individually are genuine employee freedoms, and the franchisor provisions protect small franchise owners from being held liable for rules headquarters imposes on them [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The bill bundles real worker protections — contact-information privacy, annual consent for political spending, and an individual negotiating right — with provisions that shift bargaining power and legal liability toward employers. The privacy and consent provisions are narrow and could stand alone; the provisions with the largest effects are the contractor and joint-employer standards and the independent-negotiating carve-out, which reduce wage floors, accountability, and collective leverage for millions of workers. On balance, the bill's biggest financial beneficiaries are companies, not workers.",
+  "benefit_vs_cost": "The bill offers some real protections — privacy limits on organizers' contact lists and a worker-chosen form of contact information — and individual choice is a fair value. But the provisions with the largest reach all move power one direction: toward employers. A looser contractor test and a narrower joint-employer standard determine whether millions of workers get basic wage-and-hour protections at all, and the individual-negotiating and dues provisions shrink unions' ability to bargain. Weighed honestly, the gains to individual choice are small next to the loss of bargaining power and workplace protections for the broader workforce.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced in June 2025 and referred to the House Education and Workforce and Judiciary committees, and neither committee has taken it up; no vote has been scheduled.",
+   "mechanism": "The bill was introduced and referred to two House committees in June 2025, and nothing has happened since — no hearing, no markup, no vote.",
    "narrative": [
     {
-     "text": "Rep. Rick Allen of Georgia introduced the bill on June 26, 2025, with eight original cosponsors named in the bill text [S2]",
+     "text": "Rep. Rick Allen introduced the Employee Rights Act in the House on June 26, 2025 [S1].",
      "sources": [
-      "S2"
-     ]
-    },
-    {
-     "text": "It was referred to the Committee on Education and Workforce and, in addition, the Committee on the Judiciary [S4]",
-     "sources": [
+      "S1",
       "S4"
      ]
     },
     {
-     "text": "Thirteen additional cosponsors, all Republicans, have joined [S3]",
+     "text": "Thirteen House Republicans cosponsored the bill; no Democrats did [S3].",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "No further action — no hearing, markup, or floor vote — appears in the action history [S4]",
+     "text": "The Speaker referred it to the Education and Workforce Committee and the Judiciary Committee, where provisions fall by jurisdiction [S4].",
      "sources": [
       "S4"
      ]
+    },
+    {
+     "text": "Since the referral, the action history shows no hearings, no committee votes, and no floor action [S4].",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "Congress remains in session through January 2027, so the bill is still technically alive [S1].",
+     "sources": [
+      "S1"
+     ]
     }
    ],
-   "who_came_out_ahead": "Because the bill has not moved, current labor law remains in place; unions and workers covered by existing joint-employer and contractor standards keep the status quo for now."
+   "who_came_out_ahead": "So far no one has gained, because nothing has passed. If the bill stays stalled, the biggest winners are unionized workers and workers seeking employee status, whose current protections remain intact; employers who would benefit from the bill are the ones kept waiting."
   },
-  "who_came_out_ahead_short": "Unions and workers, under the status quo",
+  "who_came_out_ahead_short": "Union-reliant workers, for now",
   "sides": {
    "for": [
     {
      "name": "Rep. Rick Allen",
      "role": "U.S. Representative, GA-12; bill sponsor",
      "party": "R",
-     "what_they_did": "Introduced the Employee Rights Act and recruited 13 Republican cosponsors",
+     "what_they_did": "Introduced the Employee Rights Act and recruited 13 Republican cosponsors.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3",
-      "S4"
+      "S3"
      ]
     },
     {
-     "name": "13 House Republican cosponsors",
-     "role": "Cosponsors including Reps. Joe Wilson, Earl L. 'Buddy' Carter, Aaron Bean, Ralph Norman, Tim Moore-era colleagues and others",
+     "name": "13 of 223 House Republicans",
+     "role": "Cosponsors",
      "party": "R",
-     "what_they_did": "Signed on as cosponsors after introduction",
+     "what_they_did": "Cosponsored the bill, giving it a small base of support within the majority party.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S3"
      ]
+    },
+    {
+     "name": "Business groups backing the Employee Rights Act",
+     "role": "Outside coalition",
+     "party": null,
+     "what_they_did": "Promoted versions of the Employee Rights Act in prior Congresses as model legislation for employers.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
-   "against": [],
-   "party_line": "party_line",
-   "party_line_note": "The sponsor and all 13 cosponsors are Republicans, and no Democrat has signed on; no one has yet acted to block the bill because no committee or floor action has occurred."
+   "against": [
+    {
+     "name": "Rep. Virginia Foxx",
+     "role": "Chair, House Education and Workforce Committee",
+     "party": "R",
+     "what_they_did": "Has not scheduled a hearing or markup on the bill since it was referred to her committee.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "Rep. Jim Jordan",
+     "role": "Chair, House Judiciary Committee",
+     "party": "R",
+     "what_they_did": "Has not scheduled a hearing or markup on the bill since it was referred to his committee.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "Labor unions",
+     "role": "Organized labor, including the AFL-CIO",
+     "party": null,
+     "what_they_did": "Have opposed Employee Rights Act versions as legislation designed to weaken collective bargaining.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
+    }
+   ],
+   "party_line": "mostly_party_line",
+   "party_line_note": "Every sponsor and cosponsor is a House Republican — 14 of 223 — and no Democrat has signed on; the bill has not advanced in the Republican-run committees either."
   },
   "industries": [
+   {
+    "industry": "Franchise chains (fast food, hotels, retail)",
+    "effect": "gains",
+    "stance_toward_public": "opposed",
+    "note": "The bill writes a narrow joint-employer standard into law and provides that giving franchisees handbooks or harassment policies can never make the franchisor an employer. That shields corporate headquarters from liability when franchisee workers are underpaid or mistreated, and leaves those workers with no one above the franchisee to bargain with.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Gig platforms and businesses built on contractors (rideshare, delivery, cleaning)",
+    "effect": "gains",
+    "stance_toward_public": "opposed",
+    "note": "The bill codifies a looser independent-contractor test and forbids counting supervision, deadlines, insurance, or safety rules as evidence of employment. Workers classified out of employee status lose minimum wage, overtime, and the right to unionize, which lowers these companies' labor costs.",
+    "sources": [
+     "S2"
+    ]
+   },
    {
     "industry": "Labor unions",
     "effect": "loses",
     "stance_toward_public": "aligned",
-    "note": "The bill cuts union funding (annual written consent for non-bargaining dues spending), shrinks bargaining units (independent negotiating), and restricts bargaining content (DEI provisions). Because union budgets and bargaining units are also the mechanism that protects workers' wages and contracts, the union's loss and the member's loss travel together in this bill.",
+    "note": "Secret-ballot election requirements, restricted voter lists, opt-in dues with annual re-authorization, individual negotiating in right-to-work states, and a ban on DEI contract provisions would all shrink union membership, finances, and bargaining power. Unions' interest here runs alongside the workers they represent, since weaker unions mean weaker contracts.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Franchise chains (fast food, hospitality, retail brands)",
+    "industry": "Staffing agencies and outsourcing firms",
     "effect": "gains",
     "stance_toward_public": "opposed",
-    "note": "The bill makes joint-employer status rare and says franchisor policies on harassment, child care, or paid leave cannot create an employment relationship, so brand companies cannot be held responsible for franchise workers' wages and conditions. Workers lose a route to accountability at the brand-name employer.",
+    "note": "The narrow joint-employer test means a client company that supervises temp workers day-to-day but formally employs them through an agency is likely not a joint employer, cutting the agencies' and clients' exposure to labor-law liability that workers would otherwise claim against both.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Gig platforms and companies using contract labor",
+    "industry": "Tribal enterprises (casinos and tribally owned businesses)",
     "effect": "gains",
-    "stance_toward_public": "opposed",
-    "note": "A new test classifies a worker as an independent contractor whenever the company does not significantly control how the work is done, making it easier to avoid minimum wage, overtime, and union coverage obligations.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Employers generally, especially in right-to-work states",
-    "effect": "gains",
-    "stance_toward_public": "opposed",
-    "note": "In right-to-work states, employers could negotiate individually with workers who opt out of the union, and employers gain explicit authority to police 'demeaning' language during organizing drives and strikes.",
+    "stance_toward_public": "mixed",
+    "note": "The bill exempts tribes and tribally owned businesses on tribal land from the National Labor Relations Act. Presented as tribal sovereignty, it also means tribal employees would have no federal right to organize or bargain.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "With 14 Republican sponsors, dual referral to two committees, and no committee action, the bill follows the pattern of earlier Employee Rights Acts that accumulated cosponsors but never reached the floor. Labor-law overhauls rarely advance without leadership prioritizing floor time, and union-weakening provisions draw opposition that makes passage difficult even in a Republican-led Congress. The most likely path is that it sits in committee for the remainder of the session unless leadership attaches elements of it to a larger bill.",
+  "trajectory": "The bill has 14 Republican sponsors in a 223-member Republican House conference, and neither committee has taken it up after six months. Prior Congresses' versions of the Employee Rights Act have never reached a floor vote. With no hearing scheduled and competing priorities on the majority's calendar, the most likely path is that it stays in committee and dies when this Congress ends in January 2027.",
   "categories": [
    "wages_and_labor"
   ],
@@ -195,7 +251,7 @@
    "concentrated_stakes": 8,
    "outcome_against_public": 2,
    "support_mismatch": 1,
-   "corruption_relevance": 2,
+   "corruption_relevance": 1,
    "confidence": 0.85
   }
  },

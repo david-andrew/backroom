@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/2405/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2405/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/118/s/2405/cosponsors?format=json"
+  },
+  "introducedDate": "2023-07-20",
+  "latestAction": {
+   "actionDate": "2023-07-20",
+   "text": "Read twice and referred to the Committee on Finance. (text: CR S3461-3462)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/2405",
+  "number": "2405",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000250",
+    "firstName": "John",
+    "fullName": "Sen. Thune, John [R-SD]",
+    "isByRequest": "N",
+    "lastName": "Thune",
+    "party": "R",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/T000250?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2405/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2405/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2405/text?format=json"
+  },
+  "title": "Strengthening Pharmacy Access for Seniors Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/2405/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-05-27T14:15:48Z",
+  "updateDateIncludingText": "2025-05-27T14:15:48Z"
+ },
+ "request": {
+  "billNumber": "2405",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

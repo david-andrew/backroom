@@ -1,177 +1,170 @@
 {
  "bill_id": "119-hr6124",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:08:32+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:30:24+00:00",
  "record_fetched_at": "2026-09-20T08:11:05+00:00",
  "record_hash": "bab7e72e4bf1d62c",
  "analysis": {
-  "one_liner": "Bans landlords from sharing rent data through pricing software that coordinates rents.",
-  "headline": "The bill was introduced with 37 House Democrats behind it and sent to the Judiciary Committee, where it has not advanced.",
+  "one_liner": "Bans landlords from using shared pricing software that fixes apartment rents.",
+  "headline": "The bill was introduced in November 2025 and referred to the House Judiciary Committee, where it has not advanced.",
   "direction": "for_working_people",
-  "plain_summary": "This bill makes it a crime under antitrust law for landlords to hire a company that collects rent, lease, and vacancy data from multiple landlords and uses software to recommend what each of them should charge. That practice — often done through rent-setting software — is already the subject of government lawsuits; this bill would write a flat ban into statute, let the FTC, the Justice Department, and state attorneys general enforce it, and let overcharged tenants sue for triple damages. It has been referred to the House Judiciary Committee and has not moved.",
-  "who_benefits": "Renters, especially the roughly 44 million US renter households, who would pay rents set by their own landlord's judgment rather than by prices coordinated across competing landlords.",
-  "who_benefits_short": "Renters in markets with algorithmic pricing",
+  "plain_summary": "The bill makes it illegal for landlords to hire a third party — typically rent-setting software — that collects pricing, supply, and lease-renewal data from multiple landlords and recommends rents back to them. It declares this coordination a per se violation of the Sherman and Federal Trade Commission Acts, lets the FTC, the Justice Department, and state attorneys general sue, and lets any renter who was overcharged sue for triple damages with attorneys' fees. It also bars landlords from forcing tenants into pre-dispute arbitration over these claims.",
+  "who_benefits": "Renters — especially tenants in large apartment complexes where many landlords rely on the same pricing software — who currently pay rents set or nudged upward by algorithms fed with competitors' data. The bill gives them the right to sue for three times their overcharge plus attorney fees, and removes forced arbitration as an obstacle.",
+  "who_benefits_short": "Renters in large apartment complexes",
   "how_it_helps": [
    {
-    "text": "It makes it a per se Sherman Act violation for any landlord to pay for a 'coordinator' service — one that collects rents, lease dates, and vacancy data from multiple owners and recommends prices, lease terms, or occupancy targets [S2].",
+    "text": "The bill makes it unlawful for any rental property owner to pay for the services of a 'coordinator' that collects pricing, supply, and lease-term data from two or more landlords and recommends rents back to them, deeming this a per se violation of the Sherman Act and an unfair method of competition under the FTC Act [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It bans the coordinating service itself, so the software company performing the function is liable alongside the landlords who buy it [S2].",
+    "text": "It also outlaws performing the coordinating function itself, which directly targets rent-setting software companies that pool data from competing landlords and run a shared pricing algorithm [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It gives renters a private right of action with tripled damages, attorney's fees, and interest, and invalidates pre-dispute arbitration clauses and class-action waivers for claims under the Act [S2].",
+    "text": "Any renter 'aggrieved by a violation' can sue for threefold damages plus attorney fees and litigation costs, and can invalidate pre-dispute arbitration agreements or class-action waivers that would otherwise block their claim [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It makes the conduct enforceable by the FTC, the Attorney General, and every state attorney general, using existing antitrust enforcement powers [S2].",
+    "text": "Enforcement is layered: the FTC may bring civil actions for penalties, the Attorney General enforces it as if it were part of the antitrust laws, and every state attorney general gets the same power [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It lowers the pleading bar so rent-fixing complaints cannot be dismissed merely for failing to rule out that each landlord acted independently, a common early exit for antitrust suits [S2].",
+    "text": "The bill covers all residential units — houses, apartments, accessory units, manufactured homes, and manufactured housing community lots — and does not preempt stronger state laws, so existing state protections remain in place [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Landlords using coordinated pricing software, and the companies that sell it. Whether savings flow to tenants depends on competitive conditions in each rental market.",
-  "who_pays_short": "Landlords and rent-pricing software firms",
+  "who_pays": "If it passes, corporate landlords and the rent-setting software industry would bear the cost: they could no longer rely on pooled pricing algorithms, would face FTC and state enforcement and private treble-damage suits, and would lose the extra revenue that comes from coordinated rent recommendations. Some of that cost is exactly the inflated rents renters currently pay.",
+  "who_pays_short": "Corporate landlords and rent-pricing software firms",
   "drawbacks": [
    {
-    "text": "The ban is written as a flat per se rule, so even a landlord's own use of a standard pricing tool for its own portfolio could count as an unlawful 'coordinating function,' since the definition includes 'a rental property owner performing a coordinating function for their own benefit' [S2].",
+    "text": "The per se rule is unusually broad: it defines a 'coordinator' to include a rental property owner performing the coordinating function for its own benefit, so even a single large landlord analyzing its own portfolio's pricing data across units could face per se Sherman Act liability, a category normally reserved for outright cartels [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Critics of rent-fixing lawsuits argue that software recommends prices but landlords can and do reject them, so the practice is ordinary pricing, not price fixing; that argument is being tested in ongoing federal litigation rather than resolved by Congress.",
-    "sources": []
+    "text": "Landlords and software firms argue that pricing software simply helps independent landlords price their units efficiently and that recommendations are not binding, so banning it could raise compliance and litigation costs that get passed through in a market where even lawful price-setting is already expensive — a cost an honest supporter would acknowledge [S2].",
+    "sources": [
+     "S2"
+    ]
    },
    {
-    "text": "Supporters and opponents agree housing costs are driven largely by a shortage of homes; a ban on coordinated pricing would not build a single unit, so rents in tight markets could remain high.",
-    "sources": []
+    "text": "The bill does not cap rents or build new housing; it relies entirely on enforcement and lawsuits, so relief for any individual renter arrives slowly and only where a violation can be proven in court [S2].",
+    "sources": [
+     "S2"
+    ]
    }
   ],
-  "benefit_vs_cost": "If coordinated pricing does push rents above competitive levels, the bill directly targets that practice and gives overcharged tenants a way to recover. The main risk is overbreadth: the per se ban sweeps in some pricing software that a landlord uses on its own portfolio, and the added uncertainty could chill ordinary revenue management without delivering much rent relief in supply-starved markets.",
+  "benefit_vs_cost": "The core benefit is real and large: renters in markets where many landlords feed the same algorithm pay measurably more than they would in genuine competition, and the bill attacks that mechanism directly with strong enforcement tools. The main cost is legal overreach risk — treating a landlord's internal pricing analysis the same as cartel conduct — and the possibility that some landlords abandon software that also produces legitimate, independent pricing. On balance the targeting is defensible, though the 'own benefit' definition invites litigation over ordinary portfolio management.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced on November 19, 2025 and referred to the House Judiciary Committee, where it currently sits with no further action [S4].",
+   "mechanism": "The bill was introduced and sent to the House Judiciary Committee, which has taken no further action on it while Congress remains in session.",
    "narrative": [
     {
-     "text": "Rep. Becca Balint introduced the bill with 14 original cosponsors on November 19, 2025, and it was referred to the House Committee on the Judiciary the same day [S1] [S2] [S4].",
+     "text": "Rep. Becca Balint (D-VT) introduced the End Rent Fixing Act of 2025 on November 19, 2025, with 14 original cosponsors [S1][S2].",
      "sources": [
       "S1",
-      "S2",
+      "S2"
+     ]
+    },
+    {
+     "text": "The bill was referred to the House Committee on the Judiciary the same day; no hearing, markup, or floor action has occurred [S4].",
+     "sources": [
       "S4"
      ]
     },
     {
-     "text": "It has attracted 36 cosponsors, all Democrats [S3].",
+     "text": "36 House Democrats have cosponsored the bill as of the latest count [S3].",
      "sources": [
       "S3"
      ]
-    },
-    {
-     "text": "The bill has no committee action, hearing, markup, or floor vote recorded after the referral [S4].",
-     "sources": [
-      "S4"
-     ]
     }
    ],
-   "who_came_out_ahead": "At this stage, no outcome has been reached. Rental-pricing software firms and large landlords continue operating under the current legal regime, where coordination cases must be litigated case by case rather than facing the flat statutory ban this bill would create."
+   "who_came_out_ahead": "No one has won or lost yet. For now, the rent-setting software industry and large landlords keep operating under existing law, while renters await any relief."
   },
-  "who_came_out_ahead_short": "No outcome yet; status quo persists",
+  "who_came_out_ahead_short": "No outcome yet; bill sits in committee",
   "sides": {
    "for": [
     {
      "name": "Rep. Becca Balint",
-     "role": "Sponsor, H.R. 6124",
+     "role": "U.S. Representative, VT (sponsor)",
      "party": "D",
-     "what_they_did": "Introduced the bill and referred it to the House Judiciary Committee.",
+     "what_they_did": "Introduced the bill and recruited 14 original cosponsors.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S4"
+      "S2"
      ]
     },
     {
-     "name": "36 House Democrats",
+     "name": "36 of 217 House Democrats",
      "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as cosponsors of the bill.",
+     "what_they_did": "Cosponsored the bill after its introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S3"
      ]
-    },
-    {
-     "name": "U.S. Department of Justice Antitrust Division",
-     "role": "Federal antitrust enforcer",
-     "party": null,
-     "what_they_did": "Brought a civil antitrust suit alleging that a leading rent-setting software provider and major landlords conspired to keep rents high, the same practice this bill would ban by statute.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
     }
    ],
    "against": [],
-   "party_line": "party_line",
-   "party_line_note": "All 36 cosponsors are Democrats, with no Republican support recorded, and the bill sits in the House Judiciary Committee of a Republican-controlled House without further action [S3] [S4]."
+   "party_line": "mostly_party_line",
+   "party_line_note": "All 36 cosponsors are House Democrats; no Republican has signed on, and the bill sits in a committee controlled by the House's Republican majority."
   },
   "industries": [
    {
-    "industry": "Rent-setting software providers (e.g. RealPage-style revenue management firms)",
+    "industry": "Rent-setting software providers (algorithmic pricing firms for landlords)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Their core business — pooling rent, lease, and vacancy data across landlords and recommending prices — would become a per se antitrust violation, and their landlord contracts would be unlawful to buy. The bill would end a revenue stream built on servicing multiple competing landlords at once.",
+    "note": "Their core business — pooling pricing, supply, and lease-termination data from many landlords and recommending rents — is defined as an unlawful coordinating function, a per se Sherman Act violation, and they face FTC, DOJ, state AG, and private treble-damage suits. Their revenue comes directly from the coordinated rents tenants pay.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Large landlords and institutional property managers",
+    "industry": "Large landlords and multifamily property owners",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "They could no longer subscribe to shared pricing services, and paying for one would itself be illegal. Small landlords that set rents independently would be largely untouched.",
+    "note": "They could no longer lawfully buy shared pricing recommendations, would face penalties and renter lawsuits for threefold damages, and would lose the above-market rents algorithmic coordination can produce. Some of what they lose is money currently extracted from tenants.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "American renters",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "Renters in markets where landlords share data through a common pricing platform would gain a statutory ban and a private right of action with triple damages and an escape from pre-dispute arbitration for these claims.",
+    "industry": "Small and mid-sized independent landlords",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "The bill applies to any rental property owner, so a small landlord using common pricing software could be swept in, but many also stand on the renter side of the ledger as consumers of the same housing market the bill aims to cool. The breadth of the 'coordinator' definition, which covers an owner analyzing its own data, is the main exposure.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "A new bill with only Democratic cosponsors in a Republican-controlled House, sitting in committee with no action scheduled, is unlikely to advance this session; the practical fight over algorithmic rent-setting is instead playing out in ongoing antitrust litigation and agency actions.",
+  "trajectory": "The bill sits in the House Judiciary Committee with no hearing or markup scheduled, and its cosponsors are exclusively Democrats in a chamber with a 223-seat Republican majority. Bills at this stage with this pattern of support overwhelmingly die in committee without a vote; unless the committee acts or the bill's rent-pricing provisions are attached to a larger package, it is likely to expire at the end of this Congress.",
   "categories": [
    "consumer_protection_and_finance",
-   "housing",
-   "antitrust_and_competition"
+   "housing"
   ],
   "scores": {
-   "public_stakes": 8,
+   "public_stakes": 7,
    "concentrated_stakes": 8,
-   "outcome_against_public": 3,
-   "support_mismatch": 4,
-   "corruption_relevance": 1,
-   "confidence": 0.85
+   "outcome_against_public": 4,
+   "support_mismatch": 3,
+   "corruption_relevance": 2,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

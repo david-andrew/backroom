@@ -1,197 +1,175 @@
 {
  "bill_id": "118-s2224",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:11:40+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:36:10+00:00",
  "record_fetched_at": "2026-09-20T11:24:16+00:00",
  "record_hash": "2f58079d2b4a6e59",
  "analysis": {
-  "one_liner": "Strips federal tax breaks from big investors that own 50 or more single-family rental homes.",
-  "headline": "The bill drew 12 cosponsors and a Senate Banking Committee hearing, but it never got a committee vote or a floor vote before Congress ended.",
+  "one_liner": "Strips federal tax breaks from corporations owning 50 or more single-family rental homes.",
+  "headline": "The bill never received a vote; it died in the Senate Finance Committee after a single Banking Committee hearing, with no floor action before the 118th Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would deny interest and depreciation deductions to any taxpayer that owns 50 or more single-family rental homes, removing two of the biggest tax breaks large corporate landlords use when they buy up existing houses. The deductions come back only if the owner sells a home to a family to live in or to an affordable-housing nonprofit. Newly built homes and smaller landlords below the 50-property line are exempt.",
-  "who_benefits": "Renters and families trying to buy a house. Large investors that own 50+ single-family rentals would lose tax advantages worth billions over time, which raises their cost of outbidding ordinary buyers for existing homes and creates a tax reason to sell homes to owner-occupants or community land trusts. Small landlords with fewer than 50 properties are untouched.",
+  "plain_summary": "The bill would deny federal income tax deductions for mortgage interest and for depreciation to any taxpayer that owns 50 or more single-family rental houses. The point is to make large corporate landlords less able to use borrowed money and tax write-offs to outbid families trying to buy a home. Owners who sell a house to a family that will live in it, or to a nonprofit affordable-housing group, could claim the deductions for the year of sale.",
+  "who_benefits": "Renters in corporate-owned single-family homes and families trying to buy a first home, who would face less competition from heavily financed institutional buyers. Nonprofit affordable-housing organizations, land banks, community land trusts, and resident-owned cooperatives get a defined buyer category, since sales to them would still allow the deductions.",
   "who_benefits_short": "Renters and first-time homebuyers",
   "how_it_helps": [
    {
-    "text": "Denies the mortgage-interest deduction to any taxpayer that owns 50 or more single-family rental homes, so large investors lose a major tax subsidy for financing buy-ups of existing housing stock.",
+    "text": "Disallows the mortgage interest deduction on single-family rental homes for any taxpayer that owns 50 or more of them, directly or through affiliated entities.",
     "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Also denies depreciation deductions on those homes, closing a second way large owners shelter rental income.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Restores the interest deduction only in the year a property is sold to an individual for their principal residence or to a qualified nonprofit such as a community land trust or land bank, giving big owners a tax reason to sell homes back to families rather than to other investors.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Leaves small landlords below 50 properties completely alone and exempts newly built housing, so the bill targets investors buying existing homes rather than penalizing construction or mom-and-pop rentals.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   }
-  ],
-  "who_pays": "Large corporate owners of single-family rental homes — including single-family rental REITs and private-equity-backed landlords — through higher tax bills on their portfolios. Tenants of those specific large landlords could see some of the cost passed through as higher rents if the owners don't sell.",
-  "who_pays_short": "Corporate landlords with 50+ single-family rentals",
-  "drawbacks": [
-   {
-    "text": "The 50-property threshold is a bright line: a firm with 49 homes keeps every deduction, and critics could argue the line rewards staying just under it.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Large owners could respond by raising rents on tenants or selling to other large investors rather than to owner-occupants, which would shrink rental supply in tight markets before adding any new homes.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "The construction carve-out is broad: any property built by the taxpayer, or bought before a unit was ever occupied, keeps full deductions — so a large investor that shifts to build-to-rent keeps its tax breaks entirely, blunting the bill's effect on the overall share of homes owned by institutions.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Denying deductions does not cap rents or limit who can buy; it changes incentives, and its real-world effect on home prices depends on how much of large investors' edge actually comes from these tax breaks.",
-    "sources": [
+     "S3",
      "S2"
     ]
+   },
+   {
+    "text": "Also disallows depreciation deductions on those properties for large owners, so both major tax write-offs of rental real estate are off the table for them.",
+    "sources": [
+     "S3",
+     "S2"
+    ]
+   },
+   {
+    "text": "Treats all companies under common ownership or control as a single taxpayer, so splitting a portfolio across subsidiaries does not get under the 50-house threshold.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Preserves the deductions for a large owner in the year it sells a home to an individual who will occupy it as a primary residence, or to a qualified nonprofit such as a community land trust or land bank, encouraging sales into ownership rather than to another investor.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Excludes newly built homes from the definition, so the penalty does not apply to landlords who construct new housing.",
+    "sources": [
+     "S3"
+    ]
    }
   ],
-  "benefit_vs_cost": "The bill is a targeted, not sweeping, affordability measure: it hits only the largest single-family landlords, exempts new construction, and steers sales toward owner-occupants and nonprofits. Its strongest honest criticism is the pass-through risk — tenants of affected landlords could pay more before any homes change hands — plus the build-to-rent carve-out that lets large investors keep deductions by building instead of buying. On balance the design pushes costs onto a concentrated industry rather than the public, but it is an incentive-based approach whose effect on prices would be gradual, not a guarantee of cheaper homes.",
+  "who_pays": "Large corporate and institutional owners of single-family rental homes, who would pay more federal tax on their portfolios, and potentially their lenders and investors, whose loans to these landlords would no longer generate deductions for the borrowers.",
+  "who_pays_short": "Large corporate single-family landlords",
+  "drawbacks": [
+   {
+    "text": "Critics of this approach argue that a large landlord facing sharply higher tax costs may pass some of it to the tenants of the affected homes through rents or reduced maintenance, at least until the properties are sold.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "The bill targets only owners of 50 or more single-family rentals, so the many smaller landlords who own the bulk of single-family rentals are untouched, and a large owner can shed houses until it falls under the threshold and keep the deductions on the rest.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Denying interest deductions penalizes financing itself, which some economists would say is a blunt instrument: it could reduce rental supply in tight markets before any offsetting increase in homeownership appears.",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
+  "benefit_vs_cost": "For aspiring homebuyers and renters facing corporate competition for starter homes, the upside is real: the bill removes the two main tax write-offs that make leveraged single-family accumulation cheaper, and it steers divestment toward owner-occupants and nonprofits rather than other investors. The costs fall on large landlords and their investors, though honest supporters should acknowledge the risk of short-term rent pressure on affected tenants and the design gaps around the 50-house threshold and smaller landlords.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The bill sat in the Senate Finance Committee for the rest of the two-year Congress — it never got a committee vote, and the Senate never voted on it before the session ended.",
+   "mechanism": "The bill was referred to the Senate Finance Committee at introduction, a related Senate Banking Committee held one hearing on it a year later, and the Finance Committee never reported it or brought it to a vote before the Congress ended.",
    "narrative": [
     {
-     "text": "Senator Sherrod Brown introduced the bill on July 11, 2023, joined at the start by seven other Democratic senators including Finance Chairman Ron Wyden; it was read twice and referred to the Finance Committee.",
+     "text": "Senator Sherrod Brown introduced the Stop Predatory Investing Act on July 11, 2023, joined by 12 original cosponsors.",
      "sources": [
-      "S3",
-      "S5"
-     ]
-    },
-    {
-     "text": "Twelve senators total signed on as cosponsors — 11 Democrats and 1 independent; no Republican ever did.",
-     "sources": [
+      "S5",
       "S4"
      ]
     },
     {
-     "text": "On April 18, 2024, the Banking, Housing, and Urban Affairs Committee held a hearing at which the bill's subject was taken up, printed as S.Hrg. 118-712 — but the bill itself remained in the Finance Committee, which has jurisdiction over tax law.",
+     "text": "The Senate read it twice and referred it to the Committee on Finance, which held no markup and produced no vote.",
      "sources": [
-      "S5",
-      "S1"
+      "S5"
      ]
     },
     {
-     "text": "No markup, committee vote, or floor vote ever followed, and when the 118th Congress ended on January 3, 2025, the bill died there.",
+     "text": "On April 18, 2024, the Senate Banking, Housing, and Urban Affairs Committee held a hearing at which the bill's subject matter was discussed, with the hearing printed as S.Hrg. 118-712.",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "No further action followed, and the bill expired at the end of the 118th Congress on January 3, 2025, without a vote in either chamber.",
      "sources": [
       "S1",
       "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Large corporate single-family landlords are better off: they keep the interest and depreciation deductions the bill would have taken away, and their tax-advantaged position when bidding for existing homes is unchanged."
+   "who_came_out_ahead": "Large corporate and institutional owners of single-family rental homes, who keep the interest and depreciation deductions the bill would have taken away, and any industry actors who would have faced similar measures modeled on it."
   },
   "who_came_out_ahead_short": "Large corporate single-family landlords",
   "sides": {
    "for": [
     {
      "name": "Sherrod Brown",
-     "role": "U.S. Senator (D-OH), Chair of the Senate Banking, Housing, and Urban Affairs Committee",
+     "role": "U.S. Senator (D-OH); bill sponsor; Chair, Senate Banking, Housing, and Urban Affairs Committee",
      "party": "D",
-     "what_they_did": "Sponsored the bill and introduced it in the Senate.",
+     "what_they_did": "Sponsored the bill and chaired the April 2024 Senate Banking Committee hearing at which the issue was examined; the Finance Committee, which held the bill, never acted on it.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3"
+      "S5"
      ]
     },
     {
-     "name": "Elizabeth Warren, John Fetterman, Jeff Merkley, Jack Reed, Tina Smith, Tammy Baldwin, Sheldon Whitehouse and other Democratic cosponsors",
-     "role": "U.S. Senators (original and later cosponsors)",
+     "name": "11 of 48 Senate Democrats and 1 of 4 Senate independents",
+     "role": "Cosponsors, including the Senate Finance Committee chairman",
      "party": "D",
-     "what_they_did": "Signed on as cosponsors, bringing total support to 12 senators.",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
       "S4"
      ]
     }
    ],
    "against": [
     {
-     "name": "Ron Wyden",
-     "role": "Chair, Senate Finance Committee",
-     "party": "D",
-     "what_they_did": "Cosponsored the bill at introduction, but as chair of the committee where it sat he never scheduled a markup or committee vote, and the bill never advanced past referral.",
+     "name": "Senate Committee on Finance",
+     "role": "Committee with jurisdiction over the bill",
+     "party": null,
+     "what_they_did": "Held the bill after referral for the remainder of the Congress without a markup, a report, or a floor vote.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
       "S5"
      ]
-    },
-    {
-     "name": "Single-family rental industry, including operators represented by the National Rental Home Council",
-     "role": "Industry trade group and corporate landlords",
-     "party": null,
-     "what_they_did": "Publicly opposed restrictions on large investors buying single-family homes while the bill was pending.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
     }
    ],
-   "party_line": "mostly_party_line",
-   "party_line_note": "All 13 sponsors and cosponsors were Democrats or an independent; no Republican signed on, and the bill never reached a vote where the partisan split would have been tested."
+   "party_line": "party_line",
+   "party_line_note": "All 13 sponsors and cosponsors were Senate Democrats or independents; no Republican signed on and no Republican support is recorded in the action history."
   },
   "industries": [
    {
-    "industry": "Institutional single-family rental landlords (rental REITs and private-equity-backed operators)",
+    "industry": "Large corporate and institutional single-family rental owners",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill directly removes interest and depreciation deductions for any owner of 50 or more single-family rentals, raising their tax bill and narrowing the financial edge that lets them outbid families for existing houses. Only a sale to an owner-occupant or affordable-housing nonprofit restores the deduction in the sale year.",
+    "note": "These owners earn by accumulating single-family homes as rentals, financed with debt whose interest is currently deductible; the bill would raise their tax bill and, in the bill's design, push them to sell to families or nonprofits. Their gain in today's system comes at the expense of buyers priced out of ownership.",
     "sources": [
-     "S2",
+     "S3",
+     "S2"
+    ]
+   },
+   {
+    "industry": "Small single-family landlords (fewer than 50 homes)",
+    "effect": "gains",
+    "stance_toward_public": "mixed",
+    "note": "Falling under the 50-house threshold, they would keep the interest and depreciation deductions while large competitors lost them, improving their relative position. The bill does not otherwise change how they operate.",
+    "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Homebuilders and build-to-rent developers",
+    "industry": "Single-family homebuilders",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Newly built homes are exempt from the deduction denial, so large investors that want institutional-scale returns are pushed toward building new housing rather than buying up existing homes, which adds supply.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "Affordable-housing nonprofits, community land trusts, and land banks",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "The bill defines these organizations as qualified buyers whose purchases preserve the seller's deduction, making large landlords likelier to sell to them and putting permanently affordable stock within their reach.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "Banks and lenders financing large single-family rental portfolios",
-    "effect": "loses",
-    "stance_toward_public": "aligned",
-    "note": "With interest no longer deductible on portfolios of 50 or more homes, the tax value of heavy borrowing falls, which would modestly reduce demand for acquisition financing from the largest operators.",
+    "note": "Homes a taxpayer built or acquired right after construction are excluded from the denial, so the bill keeps the tax treatment that supports building new housing rather than buying up existing homes.",
     "sources": [
      "S3"
     ]
@@ -203,12 +181,12 @@
    "taxes_on_wealth_and_corporations"
   ],
   "scores": {
-   "public_stakes": 6,
-   "concentrated_stakes": 7,
+   "public_stakes": 7,
+   "concentrated_stakes": 8,
    "outcome_against_public": 8,
-   "support_mismatch": 8,
+   "support_mismatch": 7,
    "corruption_relevance": 2,
-   "confidence": 0.85
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

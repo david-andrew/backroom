@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/293/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/293/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/119/s/293/cosponsors?format=json"
+  },
+  "introducedDate": "2025-01-29",
+  "latestAction": {
+   "actionDate": "2025-01-29",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/293",
+  "number": "293",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Immigration"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001319",
+    "firstName": "Katie",
+    "fullName": "Sen. Britt, Katie Boyd [R-AL]",
+    "isByRequest": "N",
+    "lastName": "Britt",
+    "party": "R",
+    "state": "AL",
+    "url": "https://api.congress.gov/v3/member/B001319?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/293/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/293/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/293/text?format=json"
+  },
+  "title": "WALL Act of 2025",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/293/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-05-23T20:32:39Z",
+  "updateDateIncludingText": "2025-05-23T20:32:39Z"
+ },
+ "request": {
+  "billNumber": "293",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

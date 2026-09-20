@@ -1,162 +1,190 @@
 {
  "bill_id": "119-hr6010",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:41:17+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:28:57+00:00",
  "record_fetched_at": "2026-09-20T14:31:23+00:00",
  "record_hash": "c0cbeee184361bfe",
  "analysis": {
-  "one_liner": "Extends expiring Affordable Care Act premium subsidies for two years and raises the income cap to six times poverty.",
-  "headline": "A bipartisan bill to extend and reshape the enhanced ACA premium tax credits, introduced with 12 cosponsors from both parties, has sat in two House committees with no hearing or vote since November 2025.",
+  "one_liner": "Extends enhanced ACA health insurance premium tax credits through 2027 and tightens broker fraud and Medicare Advantage payment rules.",
+  "headline": "Backed by 12 cosponsors including 7 Republicans, the bill has sat in two House committees with no markup or vote since its November 10, 2025 introduction.",
   "direction": "for_working_people",
-  "plain_summary": "The enhanced premium tax credits that have lowered health insurance premiums for people buying coverage on their own are scheduled to run out. This bill keeps that enhanced subsidy structure in place for 2026 and 2027 and raises the income ceiling for help from four times the poverty line to six times, so middle-income households keep getting aid. It also tightens Medicare Advantage payment rules so plans get paid based on two years of patient data and can't boost payments from diagnoses gathered in chart reviews or health questionnaires, and it cracks down on insurance brokers who enroll people in plans without their knowledge, adding civil and criminal penalties and new verification rules.",
-  "who_benefits": "Households that buy their own health insurance through the ACA marketplaces, especially the millions above four times the poverty line who would otherwise lose subsidy help entirely when the enhanced credits expire, and lower-income enrollees who would see premiums jump. Patients also benefit from less fraud in broker-driven enrollment and Medicare dollars no longer inflated by extra diagnoses recorded on paper.",
-  "who_benefits_short": "Marketplace health insurance enrollees",
+  "plain_summary": "The enhanced Affordable Care Act premium tax credits, which lower the cost of insurance bought through the marketplaces, are scheduled to lapse after 2025. This bill extends them through 2027, raises the income cutoff from 400% to 600% of the poverty line, and lowers the share of income enrollees must pay toward premiums. It also cracks down on insurance brokers who enroll or switch people into plans without their consent, and tightens Medicare Advantage payment rules to reduce payments based on inflated patient-risk coding.",
+  "who_benefits": "People who buy health insurance on the ACA marketplaces—especially middle- and upper-middle-income households above 400% of the poverty line, who lose eligibility when the enhanced credits lapse—would keep help through 2027. Marketplace enrollees also gain broker-fraud protections, and taxpayers gain from tighter Medicare Advantage payment rules.",
+  "who_benefits_short": "Marketplace insurance buyers",
   "how_it_helps": [
    {
-    "text": "Extends the enhanced premium tax credit table through 2027 and raises the subsidy income cap from 400% to 600% of the poverty line, so households well into middle-income territory keep premium help [S2].",
+    "text": "For 2026 and 2027, the bill keeps premiums at 0% of income for households up to 150% of the poverty line and lowers the required premium percentage at every income tier, with a top rate of 8.5%.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires Medicare Advantage plans' payments to be based on two years of diagnostic data, excludes diagnoses collected from chart reviews and health risk assessments, and directs the government to adjust payments for plans' more aggressive coding patterns — reducing payments that grow when plans record more diagnoses [S2].",
+    "text": "It raises the income cap for receiving the credit from 400% to 600% of the poverty line for taxable years in 2026 and 2027.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Imposes civil penalties of $10,000 to $50,000 per affected person for negligent broker violations, up to $200,000 for knowing fraud, and criminal penalties of up to 10 years in prison, plus a verification process requiring documented consumer consent before broker-assisted enrollments take effect [S2].",
+    "text": "It creates civil penalties of $10,000 to $50,000 per affected applicant for negligent misinformation by agents or brokers, up to $200,000 per person for knowing fraud, and criminal penalties of up to 10 years in prison for knowing and willful fraud.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires consumers to be notified of any enrollment or agent-of-record changes with plain-language instructions for canceling unauthorized activity, and delays broker commissions until inconsistencies in an application are resolved [S2].",
+    "text": "It requires broker-assisted enrollments to include documented consent, delays broker commissions until data inconsistencies are resolved, notifies enrollees of changes with instructions for canceling unauthorized activity, and bars disenrolling people without their consent.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "It tightens Medicare Advantage risk adjustment by requiring two years of diagnostic data, excluding diagnoses gathered from chart reviews and health risk assessments, and requiring an annual public evaluation of coding-pattern differences between plans and providers.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Federal taxpayers, through the cost of extending the subsidies (the bill contains no offsetting spending cuts or tax increases). Medicare Advantage insurers also bear reduced payments under the tighter risk-adjustment rules, and brokers and marketing firms face new penalties, audits, and commission delays.",
-  "who_pays_short": "Federal taxpayers; Medicare Advantage insurers",
+  "who_pays": "Federal taxpayers bear the cost of the extended credits; the bill contains no offsetting revenue. Medicare Advantage insurers would receive less through risk-adjusted payments, and insurance agents, brokers, and marketing firms would bear penalties and new compliance requirements.",
+  "who_pays_short": "Federal taxpayers; Medicare Advantage insurers and brokers",
   "drawbacks": [
    {
-    "text": "The two-year extension is deficit-financed: the bill includes no offsets, so extending subsidies to households up to 600% of the poverty line — roughly $150,000 for a family of four — adds to federal spending, and critics note some of that aid goes to families who could afford coverage on their own.",
+    "text": "The bill extends the credits with no pay-for; it contains no revenue provisions or offsets for the added federal cost.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The extension is temporary and does nothing about the underlying premiums, which have risen sharply; after 2027 the same affordability cliff returns unless Congress acts again.",
+    "text": "The extension lasts only through 2027, so enrollees face the same expiration cliff again at the end of 2027.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The Medicare Advantage and broker-fraud provisions trade speed for rigor: requiring two years of diagnostic data and excluding chart-review diagnoses lowers plan payments, which insurers argue could squeeze benefits, though the bill directs the process to preserve continuity of coverage for enrollees.",
+    "text": "Agents and brokers could argue the new per-person penalties, consent documentation, and commission-delay rules push liability onto small brokers and could reduce the number of agents willing to help consumers enroll.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Medicare Advantage plans could argue that excluding chart-review diagnoses and adding coding-intensity adjustments cuts payments for plans that accurately document sicker patients, potentially pressuring benefits or provider networks.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core of the bill — keeping premiums affordable for people who buy their own insurance and the aid reaching further up the income scale — is a large, direct benefit to millions of households, and the fraud and payment-integrity provisions plausibly recover some of the cost. The honest objections are that it is a two-year patch financed entirely by borrowing, and that it extends help well up the income scale. On balance the benefits to enrollees are large and concrete; the fiscal cost is real and left unaddressed.",
+  "benefit_vs_cost": "The core of the bill—keeping marketplace coverage affordable through 2027—delivers large, concrete help to enrollees, and the anti-fraud provisions address real enrollment abuses while explicitly protecting victims from losing coverage. The honest costs are forgone federal revenue with no offsets, a two-year design that sets up another expiration fight in 2027, and reduced Medicare Advantage payments that plans will contest. On balance the benefits to enrollees and taxpayers outweigh those costs, but the temporary structure limits the good it does.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced on November 10, 2025 and referred to the Ways and Means and Energy and Commerce committees, where it has sat with no hearing or vote as the end of 2025 approaches and the enhanced credits near expiration.",
+   "mechanism": "Introduced November 10, 2025 and referred to the House Ways and Means and Energy and Commerce committees; neither has scheduled a markup or vote.",
    "narrative": [
     {
-     "text": "Representative Sam Liccardo (D-CA) introduced the bill on November 10, 2025, joined as original cosponsors by Representatives Kiley (R-CA), Bacon (R-NE), Goodlander (D-NH), and Ross (D-NC) [S2].",
+     "text": "The bill was introduced on November 10, 2025 by Rep. Sam Liccardo with Reps. Kiley, Bacon, Goodlander, and Ross as original cosponsors.",
      "sources": [
-      "S2"
+      "S2",
+      "S4"
      ]
     },
     {
-     "text": "The bill has 12 cosponsors, split 7 Republicans and 5 Democrats [S3].",
+     "text": "It was referred to the Committee on Ways and Means and, in addition, the Committee on Energy and Commerce.",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "It has 12 cosponsors, 7 Republicans and 5 Democrats.",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "It was referred to both the Ways and Means and Energy and Commerce committees on the day of introduction; the complete action history shows no hearing, markup, or floor vote since [S4].",
+     "text": "The action history shows no further activity after the initial referral—no markup, hearing, or floor vote.",
      "sources": [
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, no one has acted, which favors the industries the bill would constrain: marketplace insurers keep subsidy-driven customers without the new broker-fraud verification rules, Medicare Advantage plans avoid the tighter coding-based payment rules, and brokers avoid the new penalties — while marketplace enrollees face sharply higher premiums if the credits lapse on schedule."
+   "who_came_out_ahead": "So far, no one has won or lost on the merits; the bill has simply not moved, leaving the subsidy extension unresolved while marketplace plans and enrollees face uncertainty about premiums for 2026."
   },
-  "who_came_out_ahead_short": "Insurers and brokers, so far",
+  "who_came_out_ahead_short": "No one yet—bill untouched in committee",
   "sides": {
    "for": [
     {
-     "name": "Rep. Sam Liccardo",
-     "role": "U.S. Representative (CA-16), bill sponsor",
+     "name": "Sam Liccardo",
+     "role": "U.S. Representative (CA-16), lead sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill extending and modifying the enhanced premium tax credit, paired with Medicare Advantage payment-integrity and broker-fraud provisions.",
+     "what_they_did": "Introduced the bill on November 10, 2025.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2"
+      "S1",
+      "S4"
      ]
     },
     {
-     "name": "Rep. Kevin Kiley",
-     "role": "U.S. Representative (R-CA), original cosponsor",
+     "name": "7 of 223 House Republicans",
+     "role": "Republican cosponsors",
      "party": "R",
-     "what_they_did": "Joined as an original cosponsor, giving the bill Republican sponsorship from day one.",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
       "S3"
      ]
     },
     {
-     "name": "Rep. Don Bacon",
-     "role": "U.S. Representative (R-NE), original cosponsor",
-     "party": "R",
-     "what_they_did": "Joined as an original cosponsor.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S2",
-      "S3"
-     ]
-    },
-    {
-     "name": "Reps. Debbie Dingell-aligned cosponsors: Goodlander and Ross",
-     "role": "Original cosponsors (R-NH... D-NH and D-NC)",
+     "name": "5 of 217 House Democrats",
+     "role": "Democratic cosponsors",
      "party": "D",
-     "what_they_did": "Maggie Goodlander (D-NH) and Deborah Ross (D-NC) joined as original cosponsors.",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
       "S3"
      ]
     }
    ],
    "against": [
     {
-     "name": "Speaker Mike Johnson",
-     "role": "Speaker of the House",
-     "party": "R",
-     "what_they_did": "Has not scheduled this bill for a floor vote; during the November 2025 funding fight he declined to commit to extending the enhanced subsidies, and the House instead moved on its own narrower approach.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
+     "name": "House Committee on Ways and Means",
+     "role": "Committee holding the bill",
+     "party": null,
+     "what_they_did": "Received the referral on November 10, 2025; no markup, hearing, or vote has been scheduled.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "House Committee on Energy and Commerce",
+     "role": "Committee holding the bill",
+     "party": null,
+     "what_they_did": "Received the referral on November 10, 2025; no markup, hearing, or vote has been scheduled.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "Sponsorship is genuinely bipartisan — 7 of the bill's 12 cosponsors are Republicans and 5 are Democrats — but no vote has been scheduled, so the partisan test hasn't happened yet."
+   "party_line_note": "The 12 cosponsors split 5 Democrats and 7 Republicans; no votes have occurred, so the record shows only bipartisan sponsorship so far."
   },
   "industries": [
    {
     "industry": "Marketplace health insurers",
     "effect": "entrenched",
-    "stance_toward_public": "mixed",
-    "note": "The bill keeps federal premium subsidies flowing through private ACA plans and extends that support to households up to 600% of poverty, locking in insurers' role as the paid channel for affordability aid. It also subjects their enrollment chain to new verification, audit, and marketing rules, and delays broker commissions until applications are clean.",
+    "stance_toward_public": "aligned",
+    "note": "The extension keeps federal premium subsidies flowing through marketplace plans for two more years, locking in the insurers' subsidized customer base even as the broker-fraud rules police enrollment practices. The insurers' interest in continued subsidies runs alongside enrollees' interest in affordable premiums.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Insurance agents and brokers",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill imposes per-person civil penalties up to $200,000, up to 10 years' imprisonment for knowing fraud, consent documentation, commission delays until inconsistencies are resolved, and audits of broker conduct. Agents who enrolled or switched consumers without consent profited at enrollees' expense.",
     "sources": [
      "S2"
     ]
@@ -165,31 +193,31 @@
     "industry": "Medicare Advantage insurers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill requires payment calculations to use two years of diagnostic data, excludes diagnoses gathered through chart reviews and health risk assessments, and directs the government to fully adjust for plans' more aggressive coding patterns — reducing payments that currently grow whenever a plan records more diagnoses. The savings run to Medicare and taxpayers rather than to the plans.",
+    "note": "Risk adjustment changes—two years of diagnostic data, exclusion of chart-review and health-risk-assessment diagnoses, and a coding-intensity adjustment—would reduce payments tied to documenting sicker patients. Excess coding has been paid for by taxpayers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Health insurance agents, brokers, and marketing firms",
+    "industry": "Field and third-party marketing organizations",
     "effect": "loses",
-    "stance_toward_public": "mixed",
-    "note": "The bill creates civil penalties of up to $200,000 per person for knowing fraud and up to 10 years in prison for willful false enrollment information, requires documented consumer consent and audits, and pays commissions only after inconsistencies are resolved. Legitimate agents keep working under tighter rules; fraudulent enrollment pipelines are the target.",
+    "stance_toward_public": "opposed",
+    "note": "They must register with the Secretary, meet conduct and marketing criteria, forgo unapproved referral compensation, and report agent terminations. Their lead-generation and enrollment-switching business model comes under direct federal criteria for the first time in the ACA marketplace.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill is barely two weeks old and sits before two committees with no scheduled action, while the enhanced credits it would extend are set to lapse at the end of 2025 and open-enrollment premiums are already reflecting that. Congress is instead working on rival, narrower proposals, so unless House leadership picks up this bipartisan framework directly, the likely path is the same one most subsidy-extension bills take: committee referral with no vote before the credits expire, possibly revisited retroactively later.",
+  "trajectory": "The bill sits with Ways and Means and Energy and Commerce with no scheduled action. Extension of the enhanced premium credits is being negotiated at a higher level after their scheduled end-of-2025 expiration, and standalone extensions like this one typically advance only if attached to a larger package that House leadership agrees to bring up. With narrow margins and leadership controlling the calendar, a standalone floor vote on this bill is unlikely in the near term.",
   "categories": [
    "healthcare_and_drug_prices",
    "social_safety_net"
   ],
   "scores": {
-   "public_stakes": 8,
+   "public_stakes": 9,
    "concentrated_stakes": 7,
-   "outcome_against_public": 6,
-   "support_mismatch": 5,
+   "outcome_against_public": 5,
+   "support_mismatch": 4,
    "corruption_relevance": 2,
    "confidence": 0.85
   }

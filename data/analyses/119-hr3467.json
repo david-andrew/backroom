@@ -1,192 +1,164 @@
 {
  "bill_id": "119-hr3467",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:41:00+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:00:42+00:00",
  "record_fetched_at": "2026-09-20T08:02:40+00:00",
  "record_hash": "66361af944194c60",
  "analysis": {
-  "one_liner": "Cuts Medicare Advantage insurer payments and automatically enrolls seniors in MA plans.",
-  "headline": "A single-sponsor bill to overhaul Medicare Advantage payments has sat without a hearing or vote in two House committees since May 2025.",
+  "one_liner": "Overhauls how Medicare pays private Medicare Advantage plans and changes how seniors are enrolled in them.",
+  "headline": "The bill went nowhere: introduced in May 2025 with no cosponsors and referred to two committees, it never received a hearing or a vote.",
   "direction": "mixed",
-  "plain_summary": "Starting in 2028, the bill would require Medicare Advantage plans to pay doctors and other providers a fixed per-person amount instead of fee-for-service, trim the benchmarks insurers are paid, stop bonus payments tied to quality ratings, and count only diagnoses from actual patient visits for risk adjustment. It would also automatically enroll every Medicare beneficiary into the lowest-premium Advantage plan available, make them stay in that plan or in Advantage for three years, fold hospice care into Advantage plans, and loosen ethics rules on equipment and drug referrals inside Advantage plans.",
-  "who_benefits": "Taxpayers, if the payment trims reduce what the government overpays insurers. Beneficiaries would get hospice care included in Advantage plans, but they would lose the default option of traditional Medicare and the ability to switch plans freely for three years.",
-  "who_benefits_short": "Taxpayers; some Medicare enrollees",
+  "plain_summary": "The bill would change Medicare Advantage, the private plans that cover most people on Medicare. Starting in 2028, plans would have to pay providers through a fixed per-patient arrangement rather than fee-for-service, government payment benchmarks would be cut to 75% of the blended benchmark, and plans could no longer boost payments by collecting diagnoses from chart reviews and health risk assessments — a practice critics say inflates costs. It would also auto-enroll new Medicare beneficiaries into the lowest-premium private plan, lock them in for three years, require hospice to be covered inside these plans, and create a new exception to the physician self-referral law for equipment and drugs under these plans.",
+  "who_benefits": "If enacted, taxpayers would benefit from lower Medicare Advantage payments (MA overpayment estimates run in the tens of billions per year), and beneficiaries auto-enrolled into the lowest-premium plan would pay less out of pocket. Doctors could also refer patients for medical equipment and drugs under MA plans without violating the self-referral ban.",
+  "who_benefits_short": "Taxpayers and low-premium plan enrollees",
   "how_it_helps": [
    {
-    "text": "Requires plans to pay providers on a capitated basis — a fixed amount per enrolled person — rather than fee-for-service, starting in 2028 [S2].",
+    "text": "It ends the practice of counting diagnoses collected through chart reviews and stand-alone health risk assessments when setting MA payments, and limits health-status risk adjustment to diagnoses documented on claims from actual visits over a two-year lookback — directly targeting the coding practices that MedPAC and federal watchdogs have identified as inflating MA payments [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Cuts the payment benchmark for new plans to 75 percent of the blended benchmark beginning in 2028, and eliminates the quality-rating bonus increases plans currently receive [S2].",
+    "text": "It cuts the payment benchmark for most MA plans to 75% of the blended benchmark beginning in 2028 and eliminates quality-bonus payment increases, reducing what the government pays private plans [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Limits risk adjustment to diagnoses documented on claims from face-to-face or telehealth visits, excluding diagnoses gathered through chart reviews and stand-alone health risk assessments — a mechanism that has been used to record additional illnesses and raise payments [S2].",
+    "text": "It auto-enrolls new Medicare beneficiaries into the lowest-premium MA plan available to them, which by design lowers what enrollees pay in premiums [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Automatically enrolls every Medicare beneficiary into the lowest-premium Advantage plan available, with an option to opt out [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Requires Advantage plans to include hospice care rather than having it carved out to traditional Medicare [S2].",
+    "text": "It lets the Secretary create stop-loss payments for plans facing unusually high expenditures, and requires hospice care to be covered inside MA plans rather than carved out [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Medicare Advantage insurers, whose payment benchmarks, bonuses, and risk-adjustment revenue would all be cut. Beneficiaries also bear a cost in choice: they could not switch plans or return to traditional Medicare for three years after enrolling in Advantage, except for a hardship like serious illness.",
-  "who_pays_short": "Medicare Advantage insurers; enrollees' plan choice",
+  "who_pays": "Medicare Advantage insurance companies would bear the cost through lower benchmarks and coding restrictions. Some beneficiaries would lose flexibility: they would be defaulted into an MA plan and unable to switch plans or return to traditional Medicare for three years, and a new self-referral exception could expose patients to physician-owned equipment and drug arrangements.",
+  "who_pays_short": "MA insurers and some seniors' plan choice",
   "drawbacks": [
    {
-    "text": "After enrolling in an Advantage plan, a beneficiary could not switch to another plan or return to traditional Medicare for three years, except for hardship events such as serious illness as defined by the Secretary [S2].",
+    "text": "Automatic enrollment would place every new Medicare beneficiary into the lowest-premium private MA plan by default, and once enrolled they could not switch plans or return to traditional Medicare for three years except in hardship cases — removing a choice seniors currently make freely every year [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill automatically places every Medicare beneficiary into the lowest-premium Advantage plan, making private plans the default rather than traditional Medicare, with only an opt-out [S2].",
+    "text": "The bill removes the current-law protection that keeps hospice care outside MA, so terminally ill beneficiaries would receive hospice through their private plan rather than under traditional Medicare rules [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It creates an exception to the physician self-referral (Stark) rules for durable medical equipment and Part D drugs furnished under Advantage plans, allowing financial arrangements between referring doctors and suppliers that are otherwise restricted [S2].",
+    "text": "It adds a new self-referral exception allowing physicians to refer Medicare patients for durable medical equipment and Part D drugs under MA plans without violating the physician self-referral (Stark) law [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requiring capitated payment could make it harder for beneficiaries to keep seeing providers who are not part of a capitated arrangement, since plans could only pay providers that way, with only grandfathered plans and special-needs plans exempt [S2].",
+    "text": "The mandated payment cuts take effect on a fixed date (2028) regardless of market readiness; a stop-loss mechanism to cushion plans facing unusually high costs is discretionary ('may establish') and must be implemented budget-neutrally, so the risk of plan exits or benefit cuts in affected areas is not fully addressed in the text [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The payment-cut side of the bill attacks real cost drivers in Medicare Advantage — upcoded risk scores, quality bonuses, and high benchmarks — and could save taxpayers money. But it buys that with a three-year lock-in that strips beneficiaries of the exit option that currently disciplines private plans, and it makes Advantage the automatic default for every new Medicare beneficiary. The loosened self-referral rules for equipment and drugs point in the opposite direction from the rest of the bill. As written, beneficiaries give up flexibility and choice in exchange for a leaner, mandatory private-plan system whose savings are not guaranteed to reach them.",
+  "benefit_vs_cost": "The cost-control pieces are the bill's real substance: capping plan benchmarks at 75% of the blended benchmark, banning chart-review and health-risk-assessment diagnoses in risk adjustment, and ending quality bonus increases are the kind of changes MedPAC and others have long suggested because MA coding has cost taxpayers tens of billions of dollars a year [S2]. But the bill buys that savings with a radical change for beneficiaries: automatic enrollment into the lowest-premium MA plan, a three-year lock-in, and the removal of the traditional Medicare hospice carve-out [S2]. Weighing an estimated 32 million beneficiaries' flexibility against taxpayer savings, the trade is real but the bill as written asks the most vulnerable population in the health system to bear the adjustment risk, and the automatic-enrollment design (defaulting into the cheapest plan rather than into traditional Medicare) is a blunt instrument.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was referred to the Ways and Means and Energy and Commerce committees in May 2025 and has had no hearing, markup, or vote since — only the sponsor's remarks on the floor in June 2025.",
+   "mechanism": "The bill was introduced in May 2025 with no cosponsors, referred to two House committees, and nothing has happened since — no hearing, no markup, no vote.",
    "narrative": [
     {
-     "text": "Rep. David Schweikert introduced the bill on May 15, 2025; no cosponsors joined [S1] [S3].",
+     "text": "The bill was introduced on May 15, 2025 and referred to the Ways and Means and Energy and Commerce committees the same day [S4].",
      "sources": [
-      "S1",
+      "S4"
+     ]
+    },
+    {
+     "text": "It attracted zero cosponsors [S3].",
+     "sources": [
       "S3"
      ]
     },
     {
-     "text": "It was referred to the Committee on Ways and Means and, additionally, to the Committee on Energy and Commerce [S4].",
+     "text": "The only subsequent activity was the sponsor's introductory remarks in the Congressional Record on June 3, 2025; neither committee has taken it up [S4].",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The only recorded activity after referral was the sponsor's introductory remarks on June 3, 2025 [S4].",
+     "text": "Even if it moved, its provisions would not take effect until 2028, so its real-world effects remain hypothetical [S2].",
      "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "As of the latest record, neither committee has taken up the bill, so no provisions have advanced toward the floor [S4].",
-     "sources": [
-      "S4"
+      "S2"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, Medicare Advantage insurers, since none of the payment cuts, bonus eliminations, or auto-enrollment provisions have moved an inch — the current payment system remains untouched."
+   "who_came_out_ahead": "No one has gained or lost yet — the bill has not advanced, so current Medicare Advantage payment rules remain unchanged."
   },
-  "who_came_out_ahead_short": "Medicare Advantage insurers, for now",
+  "who_came_out_ahead_short": "No one yet — the bill is stalled",
   "sides": {
    "for": [
     {
      "name": "Rep. David Schweikert",
-     "role": "Sponsor (House)",
+     "role": "U.S. Representative (R-AZ), sole sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill and delivered introductory remarks on the floor; no other member joined as a cosponsor.",
+     "what_they_did": "Introduced the bill and delivered introductory remarks on the House floor [S1][S2].",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S4"
+      "S2"
      ]
     }
    ],
-   "against": [
-    {
-     "name": "Ways and Means and Energy and Commerce Committees",
-     "role": "Committees of referral",
-     "party": null,
-     "what_they_did": "Took no recorded action on the bill after referral in May 2025 — no hearing, markup, or vote.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "name": "Medicare Advantage insurance industry",
-     "role": "Industry with a stake in Advantage payment rules",
-     "party": null,
-     "what_they_did": "No record ties the industry to this bill, but Advantage insurers have a long, well-documented history of mobilizing against Medicare Advantage payment reductions.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
-    }
-   ],
+   "against": [],
    "party_line": "unclear",
-   "party_line_note": "The bill has a single Republican sponsor and zero cosponsors, so no partisan pattern of support or opposition has formed in the record."
+   "party_line_note": "With one sponsor, zero cosponsors, and no votes or committee action, there is no record of who supports or opposes the bill."
   },
   "industries": [
    {
-    "industry": "Medicare Advantage insurers",
-    "effect": "mixed",
+    "industry": "Medicare Advantage insurers (large national carriers)",
+    "effect": "loses",
     "stance_toward_public": "mixed",
-    "note": "The bill cuts insurer revenue on three fronts — lower benchmarks, no quality bonuses, and restricted risk-adjustment coding — while simultaneously making Advantage plans the automatic default for every new Medicare beneficiary and locking enrollees in for three years. Lower payments and a captive customer base genuinely pull in opposite directions.",
+    "note": "The bill cuts payment benchmarks to 75%, bans chart-review and risk-assessment diagnoses from risk adjustment, and ends quality bonus increases — closing coding channels that have driven MA overpayments. Beneficiaries would also be defaulted into low-premium MA plans, giving insurers a captive enrollment base even as their payments shrink.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Durable medical equipment suppliers and Part D drug suppliers with physician ownership",
+    "industry": "Traditional Medicare providers (hospitals and physicians paid fee-for-service)",
+    "effect": "loses",
+    "stance_toward_public": "mixed",
+    "note": "Requiring capitated payment and moving hospice into MA plans shrinks the volume of care delivered under traditional fee-for-service Medicare, reducing revenue for providers who bill Medicare directly.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Durable medical equipment suppliers and pharmacy intermediaries under MA",
     "effect": "gains",
     "stance_toward_public": "opposed",
-    "note": "A new Stark-law exception would let referring physicians keep financial relationships with entities furnishing equipment and Part D drugs under Advantage plans, arrangements otherwise barred as self-referral.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Hospice providers",
-    "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "Hospice care would be folded into Advantage plans instead of remaining outside them, changing how hospice providers are paid and putting plans between hospices and Medicare.",
+    "note": "A new exception to the physician self-referral (Stark) law would let physicians refer MA patients for durable medical equipment and Part D drugs in which they have a financial interest, loosening an anti-kickback-style safeguard.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "A one-sponsor bill with no cosponsors, pending in two committees with no recorded action after referral, rarely advances in a two-year Congress. Unless Schweikert recruits cosponsors or the provisions get attached to a larger Medicare package, this bill is likely to die quietly in committee at the end of the 119th Congress.",
+  "trajectory": "Bills introduced without cosponsors and referred to two committees without a hearing almost never advance. Unless Schweikert builds cosponsor support or the provisions are folded into a larger Medicare package, the bill will die quietly at the end of the 119th Congress.",
   "categories": [
    "healthcare_and_drug_prices",
    "social_safety_net"
   ],
   "scores": {
    "public_stakes": 7,
-   "concentrated_stakes": 8,
-   "outcome_against_public": 2,
+   "concentrated_stakes": 9,
+   "outcome_against_public": 0,
    "support_mismatch": 2,
-   "corruption_relevance": 3,
-   "confidence": 0.85
+   "corruption_relevance": 2,
+   "confidence": 0.7
   }
  },
  "unresolved_citations": []

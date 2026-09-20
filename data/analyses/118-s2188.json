@@ -1,104 +1,135 @@
 {
  "bill_id": "118-s2188",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T16:05:54+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:35:32+00:00",
  "record_fetched_at": "2026-09-20T15:43:19+00:00",
  "record_hash": "9c17fdcdf4073d6b",
  "analysis": {
-  "one_liner": "Requires insurers and public programs to cover HIV-prevention drugs free of charge and funds access for the uninsured.",
-  "headline": "The bill never received a committee vote or a floor vote in the Senate and died when the Congress ended in January 2025.",
+  "one_liner": "Requires health plans and public programs to cover HIV prevention drugs with no patient cost-sharing.",
+  "headline": "The bill got no committee vote, no floor action, and died when the 118th Congress ended in January 2025, after being referred to the Senate health committee with 1 cosponsor.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would require nearly every kind of health coverage — private insurance, Medicare, Medicaid, CHIP, VA, TRICARE, and the Indian Health Service — to pay the full cost of drugs that prevent HIV, with no copays, deductibles, or preauthorization, and would cover the lab tests and follow-up visits those drugs require. It would also create grant programs so uninsured and underinsured people can get the drugs for free, ban insurers from denying life, disability, or long-term care coverage to people taking HIV-prevention medication, and fund a public education campaign. The bill never got a hearing or a vote in the Senate committee it was sent to, and died when the Congress ended.",
-  "who_benefits": "The roughly 1.2 million Americans the CDC estimates could benefit from PrEP, only about 31% of whom filled a prescription in 2022 [S3]. Black, Latino, and female patients — who were prescribed PrEP at rates of 11%, 21%, and under 12% of eligible people in 2022, versus 82% of eligible White people — gain most, because the bill forces coverage regardless of cost, prior approval, or insurer discretion [S3]. Uninsured and underinsured people gain through direct grant-funded access, and survivors of sexual assault gain faster access to emergency PEP without preauthorization hurdles [S3].",
-  "who_benefits_short": "People at risk of HIV, especially uninsured and low-income patients",
+  "plain_summary": "The bill would require private insurance, employer plans, Medicare, Medicaid, CHIP, the VA, TRICARE, and the Indian Health Service to cover FDA-approved drugs that prevent HIV — plus lab work and follow-up visits — at zero cost to the patient, with no pre-authorization hoops. It would bar life, disability, and long-term care insurers from denying coverage or raising premiums because someone takes HIV prevention medication. It would also fund programs so uninsured people can get the drugs and direct a CDC public awareness campaign.",
+  "who_benefits": "The roughly 1.2 million Americans who could benefit from PrEP — especially gay and bisexual men, transgender women, and Black and Latino communities, where usage is lowest (only 11% of eligible Black Americans and 12% of eligible women were prescribed it in 2022, versus 82% of eligible White people). Uninsured and underinsured people would gain access through new federal grants, and anyone taking PrEP could no longer be penalized by life or disability insurers.",
+  "who_benefits_short": "People at risk of HIV, especially Black and Latino communities",
   "how_it_helps": [
    {
-    "text": "Requires private plans, Medicare, Medicaid, CHIP, FEHB, TRICARE, VA, and Indian Health Service to cover HIV-prevention drugs, lab work, and follow-up visits with no copays, deductibles, or preauthorization.",
+    "text": "Adds HIV prevention drugs, lab tests, and clinical follow-up to the list of preventive services private plans must cover without any cost-sharing, and bans pre-authorization for them except when a therapeutically equivalent drug is covered without restrictions.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Creates grant programs for states, tribes, and community clinics to pay for PrEP and PEP for people without adequate insurance, plus a CDC public-education campaign targeting communities where prevention drugs are underused.",
+    "text": "Extends no-cost HIV prevention coverage to Medicare (both Part B services and Part D drugs), Medicaid, CHIP, the Federal Employees Health Benefits program, the VA, TRICARE, and the Indian Health Service, with most provisions effective for plan years starting January 1, 2025.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Makes it unlawful for life, disability, or long-term care insurers to deny coverage or raise premiums because someone takes HIV-prevention medication.",
+    "text": "Makes it unlawful for life, disability, or long-term care insurers to deny coverage, refuse to issue a policy, or raise premiums because a person takes HIV prevention medication.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "text": "Adds a private right of action so patients can sue insurers that violate the coverage rules, with attorney fees for prevailing plaintiffs, and requires annual insurer compliance reporting to HHS.",
+    "text": "Directs HHS to award grants to states, tribes, and clinics to get PrEP and post-exposure prophylaxis to uninsured and underinsured people, and requires a CDC public education campaign focused on communities where use is lowest.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Gives patients a private right of action with attorney fees if insurers violate the coverage rules, and requires HHS, Labor, and Treasury to police compliance with annual insurer data submissions and reports to Congress.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Directs HHS to update privacy rules so someone on a family plan can use these benefits without the policyholder finding out.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Private insurers, who must cover the drugs, testing, and follow-up with no cost-sharing and no preauthorization, and must report compliance data and face enforcement by three federal agencies plus private lawsuits [S2, S3]. Life, disability, and long-term care insurers lose the ability to deny or reprice policies for people on prevention medication [S2]. Taxpayers fund the grant programs and education campaigns, which are authorized at unspecified sums [S3].",
-  "who_pays_short": "Health insurers and, for grants, taxpayers",
+  "who_pays": "Health insurers bear the cost of free coverage and compliance reporting, which flows into premiums for enrollees generally. Taxpayers fund the expanded Medicaid, Medicare, VA, and IHS coverage and the grant program. Life, disability, and long-term care insurers would spread the banned rating practice across their remaining policyholders. Brand-name HIV drug makers gain a guaranteed, funded market at negotiated prices the bill does not touch.",
+  "who_pays_short": "Insurers, taxpayers, and other policyholders",
   "drawbacks": [
    {
-    "text": "The mandate that insurers cover all HIV-prevention drugs, lab work, and follow-up with no cost-sharing, and the ban on preauthorization, shifts those costs onto premiums for everyone with private insurance.",
+    "text": "Requiring plans to cover PrEP and all related services at no cost adds to insurer costs, which are typically passed into premiums paid by all enrollees.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The ban on rating or denying life, disability, and long-term care coverage for PrEP users blocks insurers from pricing what they view as actuarial risk, which would spread costs across other policyholders — a standard objection to any anti-discrimination insurance mandate.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The grant programs for uninsured and underinsured people are authorized at 'such sums as are necessary,' an open-ended federal spending commitment with no fixed dollar limit for fiscal years 2024 through 2029.",
+    "text": "The private right of action with mandatory attorney fees could generate litigation against insurers over coverage disputes.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill also bars life, disability, and long-term care insurers from denying coverage or raising premiums based on a person taking HIV-prevention medication, which insurers argue limits their ability to price risk.",
+    "text": "The grant and awareness programs are authorized at unspecified sums and would need annual appropriations from Congress.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "States could delay Medicaid and CHIP compliance if state legislation is needed, so coverage would not arrive everywhere on the same date.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefits are large and concrete: free PrEP and PEP for tens of thousands of people, fewer new HIV infections (each of which costs hundreds of thousands of dollars in lifetime treatment), and a fix for insurers quietly charging or denying people who take prevention medication. The costs fall on insurers and drugmakers through lost cost-sharing revenue and mandated coverage, and on taxpayers through the grant program, which authorizes unspecified sums. The main design weakness is the open-ended funding authorization and the breadth of \"related services... without limitation,\" which makes long-term cost estimates difficult. On balance, the public-health and equity benefits plainly outweigh those costs.",
+  "benefit_vs_cost": "The benefit is concrete and well documented in the bill's own findings: PrEP cuts the risk of HIV from sex by more than 99%, yet only about a third of the people who could benefit filled prescriptions in 2022, with stark racial gaps. Cost is modest relative to the alternative — each prevented HIV infection avoids a lifetime of treatment the public eventually pays for through Medicaid and federal programs. The main honest costs are higher premiums for insured people broadly and forgone risk-pricing for life and disability insurers. This is a targeted, evidence-based mandate rather than a sweeping entitlement, but it is a real mandate, and its costs do not disappear; they are redistributed.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced in the Senate and sent to the Health, Education, Labor, and Pensions Committee, which never acted on it, so it died when the two-year Congress ended.",
+   "mechanism": "The bill was introduced and referred to the Senate Health, Education, Labor, and Pensions Committee in June 2023, and the committee never took it up; no vote ever happened in either chamber before the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "The bill was introduced on June 22, 2023 by Senator Tina Smith and read twice before being referred to the Senate Committee on Health, Education, Labor, and Pensions.",
+     "text": "Sen. Tina Smith introduced the bill on June 22, 2023, and it was read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
      "sources": [
       "S1",
       "S5"
      ]
     },
     {
-     "text": "It attracted only one cosponsor in the Senate, a Democrat, and no further action was ever taken.",
+     "text": "That referral was the bill's only action: no hearing, no committee vote, no floor vote is recorded in its entire history.",
      "sources": [
-      "S4",
       "S5"
      ]
     },
     {
-     "text": "The bill never received a committee markup, a floor vote, or action in the House, and the 118th Congress ended on January 3, 2025 without it advancing.",
+     "text": "It drew a single cosponsor, one of 48 Senate Democrats, and no Senate Republican signed on.",
      "sources": [
-      "S1",
-      "S5"
+      "S4"
+     ]
+    },
+    {
+     "text": "The 118th Congress ended on January 3, 2025, and the bill died without a vote.",
+     "sources": [
+      "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Health insurers, who avoided new no-cost coverage mandates and enforcement, and life, disability, and long-term care insurers, who kept the ability to price and deny coverage based on PrEP use. People at risk of HIV got nothing from this bill's failure."
+   "who_came_out_ahead": "Health insurers avoid the new no-cost coverage mandate, compliance reporting, and lawsuits, and life, disability, and long-term care insurers keep the ability to rate or decline applicants who take HIV prevention drugs. Meanwhile the gap the bill targeted persists: about two-thirds of the people who could benefit from PrEP still do not get it."
   },
-  "who_came_out_ahead_short": "Insurers, who avoided the coverage mandates",
+  "who_came_out_ahead_short": "Insurers; the PrEP access gap persists",
   "sides": {
    "for": [
     {
      "name": "Sen. Tina Smith",
-     "role": "U.S. Senator (MN), sponsor",
+     "role": "Sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and its full text in the Senate.",
+     "what_they_did": "Introduced the PrEP Access and Coverage Act of 2023 and became its only Senate sponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -107,10 +138,10 @@
      ]
     },
     {
-     "name": "One Democratic cosponsor",
-     "role": "Cosponsor",
+     "name": "1 of 48 Senate Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Cosponsored the bill.",
+     "what_they_did": "Cosponsored the bill; no other senators joined.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -120,34 +151,28 @@
    ],
    "against": [
     {
-     "name": "Senate Health, Education, Labor, and Pensions Committee leadership",
-     "role": "Committee with jurisdiction",
+     "name": "Senate Health, Education, Labor, and Pensions Committee",
+     "role": "Committee of referral",
      "party": null,
-     "what_they_did": "Never scheduled the bill for consideration, leaving it without a mark-up or a vote.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
+     "what_they_did": "Received the bill by referral in June 2023 and never held a hearing, markup, or vote on it for the rest of the Congress.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S5"
+     ]
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "The bill never got far enough for a vote, so no roll-call split exists; both sponsor and its single cosponsor were Democrats, and no Republican support appears in the record."
+   "party_line_note": "No vote was ever taken, so no roll-call exists; the only recorded support was two Democrats (Smith and one cosponsor), and no Republican is recorded as either supporting or opposing the bill."
   },
   "industries": [
    {
     "industry": "Health insurers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill requires them to cover all HIV-prevention drugs and related services with no cost-sharing, bans preauthorization, and exposes them to patient lawsuits and federal compliance enforcement. Their interest ran directly against the bill.",
+    "note": "Plans would have to cover HIV prevention drugs, labs, and follow-up with zero patient cost-sharing, no pre-authorization, annual compliance data submissions, and exposure to lawsuits with attorney fees. Because the bill removes insurers' ability to shift these costs to patients, insurers' savings come directly at the expense of the people the bill protects.",
     "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "Brand-name and generic drug makers selling HIV-prevention drugs",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "Guaranteed no-cost coverage and public grants would expand the number of prescriptions filled, including for expensive brand-name products. Their interest aligned with expanded access, which is why this entrenchment is worth noting alongside the public benefit.",
-    "sources": [
+     "S2",
      "S3"
     ]
    },
@@ -155,17 +180,19 @@
     "industry": "Life, disability, and long-term care insurers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "They would be barred from denying coverage or charging higher premiums to people taking HIV-prevention medication, eliminating a screening practice they used to price these policies.",
+    "note": "The bill makes it unlawful to deny coverage, refuse a policy, or raise premiums because someone takes HIV prevention medication, eliminating a rating and underwriting practice these insurers currently use.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "industry": "Community health centers and HIV service organizations",
+    "industry": "Brand-name HIV drug makers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Federally qualified health centers, family planning grantees, and community clinics are directly eligible for new federal grants to fund PrEP and PEP services, outreach, and patient navigators.",
+    "note": "Mandatory coverage across every major insurance program plus federal grants for the uninsured would guarantee payment for PrEP drugs at prices the bill does not regulate, expanding the manufacturers' market. Wider access helps patients, but the public pays list prices with no negotiating lever in the bill.",
     "sources": [
+     "S2",
      "S3"
     ]
    }
@@ -176,12 +203,12 @@
    "social_safety_net"
   ],
   "scores": {
-   "public_stakes": 7,
-   "concentrated_stakes": 6,
+   "public_stakes": 6,
+   "concentrated_stakes": 5,
    "outcome_against_public": 6,
-   "support_mismatch": 4,
-   "corruption_relevance": 1,
-   "confidence": 0.9
+   "support_mismatch": 3,
+   "corruption_relevance": 2,
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

@@ -1,125 +1,112 @@
 {
  "bill_id": "119-hr4968",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:40:56+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:19:51+00:00",
  "record_fetched_at": "2026-09-20T14:27:07+00:00",
  "record_hash": "b15eb14e4b6e880c",
  "analysis": {
-  "one_liner": "Applies Social Security payroll taxes to all earnings and ties retirees' inflation adjustment to senior spending.",
-  "headline": "Introduced August 2025 with 12 Democratic sponsors and referred to three House committees, where no action has been taken.",
+  "one_liner": "Applies Social Security payroll taxes to all earnings and uses an elderly-focused inflation index for benefits.",
+  "headline": "The bill, which would phase out the payroll tax cap above $176,100 and switch Social Security's inflation adjustment to a seniors-specific index, has been referred to three House committees with no action since its August 12, 2025 introduction.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would apply the 12.4% Social Security payroll tax to all wages and self-employment income, phasing it in from 2026 to 2031; today, earnings above $176,100 (the 2025 cap) are exempt [S2]. It also computes a small additional benefit for people who paid taxes on earnings above that cap [S2]. Separately, it would switch Social Security's cost-of-living adjustment to an index that tracks the spending of people 62 and older, whose budgets weigh health care more heavily, and it would ensure any resulting benefit increase cannot push someone off Medicaid or Supplemental Security Income [S2].",
-  "who_benefits": "Retirees, survivors, and disability beneficiaries gain from a cost-of-living adjustment built around what seniors actually buy, which typically rises faster than the standard index because of medical costs [S2]. Low-income beneficiaries gain because higher benefits could not cost them Medicaid or SSI eligibility [S2]. Social Security's finances also improve, since taxing all earnings raises more revenue for the same benefit promises [S2]. People who earn above the current cap would see a small additional benefit of their own (3% of most above-cap earnings, 0.25% of the highest earnings) [S3].",
-  "who_benefits_short": "Retirees and disability beneficiaries",
+  "plain_summary": "Under current law, wages above about $176,100 a year are exempt from Social Security taxes. This bill would phase out that exemption over six years, so that after 2031 every dollar of earnings is taxed, and it would credit some of those previously untaxed earnings toward slightly higher benefits for high earners. It would also switch the annual cost-of-living adjustment to an index reflecting the spending of people over 62, which typically rises faster, and shield any resulting benefit increase from counting as income for Medicaid or SSI eligibility.",
+  "who_benefits": "Social Security beneficiaries, especially lower- and middle-income seniors, would get more accurate inflation adjustments and stronger program financing; high earners who currently stop paying Social Security tax at the cap would pay more.",
+  "who_benefits_short": "Current and future Social Security beneficiaries",
   "how_it_helps": [
    {
-    "text": "Switches the annual cost-of-living adjustment for Social Security benefits to the Consumer Price Index for Elderly Consumers, which reflects the spending patterns of people 62 and older [S2][S3].",
+    "text": "Phases out the taxable maximum between 2026 and 2031 so that after 2031 all earnings are subject to the Social Security payroll tax, which extends the program's financing base [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Bars any benefit increase from the new index from being counted as income for Medicaid or Supplemental Security Income eligibility or payment amounts [S2][S3].",
+    "text": "Replaces the general inflation index with a Consumer Price Index for Elderly Consumers, which reflects spending patterns of people 62 and older, for calculating benefit increases [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Phases out the taxable maximum for payroll taxes between 2026 and 2031, after which all wages and self-employment income are subject to Social Security taxes [S2][S3].",
+    "text": "Ensures that a benefit increase from the new index is not counted as income when determining Medicaid or SSI eligibility or benefit amounts, so low-income beneficiaries are not penalized for the raise [S2][S3].",
     "sources": [
      "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Credits earnings above the cap into the benefit formula at a modest rate, so newly taxed high earners receive some additional benefit in return [S3].",
-    "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Workers whose wages exceed the taxable maximum would pay the 12.4% combined employee share on their full earnings, phased in over six years [S2][S3]. Their employers would owe the matching 6.2% on those same wages [S3]. Self-employed people above the cap would owe the full 12.4% themselves [S3]. High earners receive only a small offsetting benefit bump in the formula [S3].",
-  "who_pays_short": "High earners and their employers",
+  "who_pays": "High earners and the self-employed would pay Social Security taxes on all their income rather than just the first $176,100, with the share of earnings above the cap taxed at declining rates until the cap disappears after 2031.",
+  "who_pays_short": "High earners and self-employed professionals",
   "drawbacks": [
    {
-    "text": "The tax reaches the highest earners most: someone earning $1 million a year would eventually pay tens of thousands of dollars more in payroll taxes each year, a direct income hit to top earners and an added cost on their employers [S3].",
+    "text": "High earners and the self-employed face a substantially higher combined marginal tax rate as the cap phases out, since the Social Security payroll tax rate (12.4% counting both employer and employee shares) would apply to all wages [S2][S3].",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "The bill credits surplus earnings in the benefit formula at 3% and 0.25% bend points, so high earners would receive modestly higher benefits in return for their extra taxes, meaning the revenue raised exceeds the new benefit obligations [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "High earners do not get benefits proportional to the new taxes. The bill credits above-cap earnings at roughly 3% and 0.25% rates, far below the ~15% marginal replacement rates the standard formula applies to ordinary earnings, so the tax increase is not matched one-for-one by benefits [S3].",
+    "text": "The phase-in over six years means the tax increase is gradual, and the bill does not address other Social Security financing questions such as disability insurance trust fund projections beyond the general tax base [S2][S3].",
     "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Applying the employer half of the payroll tax to high salaries raises the cost of highly compensated labor, which good-faith critics argue could show up as slower pay growth or fewer high-end positions [S3].",
-    "sources": [
+     "S2",
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The gains go to people with modest fixed incomes — bigger, more accurate inflation adjustments that cannot claw back Medicaid or SSI — while the costs fall entirely on high earners and their employers, and the added revenue strengthens the program everyone depends on. The strongest honest objection is that high earners pay full payroll tax rates for only a token benefit in return; supporters would answer that Social Security was never designed as a dollar-for-dollar annuity and that progressivity is the point. On balance, the costs are concentrated at the very top and the benefits are broad.",
+  "benefit_vs_cost": "The main benefit is a more accurate inflation adjustment for seniors and a broader tax base for the program's funding; the main cost is a large tax increase on upper-income earners that begins in 2026 and completes in 2031, with only small incremental benefits returned to those earners.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced in August 2025 and sent to three House committees, and none of them has taken it up yet.",
+   "mechanism": "The bill was introduced and referred to three House committees, and has not received a committee markup or floor vote; Congress is still in session.",
    "narrative": [
     {
-     "text": "Representative Jill Tokuda introduced the bill on August 12, 2025, joined by seven original cosponsors [S3].",
+     "text": "Rep. Jill Tokuda introduced the bill on August 12, 2025 [S1][S5].",
      "sources": [
-      "S3"
+      "S1",
+      "S5"
      ]
     },
     {
-     "text": "The Speaker referred it to the Ways and Means Committee and, in addition, to the Energy and Commerce and Education and Workforce Committees [S5].",
+     "text": "It was referred to the Committees on Ways and Means, Energy and Commerce, and Education and Workforce, and no further action has been recorded [S5].",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "As of the latest recorded action, no committee has held a hearing or markup and the bill has not received a floor vote [S5].",
+     "text": "The bill has 11 Democratic cosponsors and no Republican cosponsors listed [S4].",
      "sources": [
-      "S5"
+      "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "No one has won or lost yet. The bill sits unreferred-to-floor in committee; if it stays there, the people better off would be high earners and employers above the cap, who avoid the new tax."
+   "who_came_out_ahead": "No outcome yet; the bill sits in committee, so the payroll tax cap and current inflation index remain in place for now."
   },
-  "who_came_out_ahead_short": "Nobody yet — bill is still parked in committee",
+  "who_came_out_ahead_short": "Current tax cap and benefit formula remain in place",
   "sides": {
    "for": [
     {
      "name": "Rep. Jill Tokuda",
      "role": "Sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill on August 12, 2025",
+     "what_they_did": "Introduced the bill and originally cosponsored it with seven other members",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3"
+      "S3",
+      "S4"
      ]
     },
     {
-     "name": "Reps. Pettersen, Tlaib, Magaziner, Cohen, Tonko, Pingree, and Norton",
-     "role": "Original cosponsors",
+     "name": "11 of 217 House Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Joined the introduction as original cosponsors",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S3"
-     ]
-    },
-    {
-     "name": "Three additional Democratic cosponsors",
-     "role": "Cosponsors, joining after introduction (11 cosponsors total)",
-     "party": "D",
-     "what_they_did": "Added their names after introduction, bringing the cosponsor count to 11",
+     "what_they_did": "Cosponsored the bill",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -129,10 +116,10 @@
    ],
    "against": [
     {
-     "name": "House Ways and Means Committee leadership",
-     "role": "Chair of the primary committee of referral",
-     "party": "R",
-     "what_they_did": "The committee has taken no action — no hearing, markup, or vote — since the bill was referred to it in August 2025",
+     "name": "House Ways and Means Committee",
+     "role": "Primary committee of referral, no markup scheduled",
+     "party": null,
+     "what_they_did": "Received the referral and has not scheduled action on the bill",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -140,39 +127,30 @@
      ]
     }
    ],
-   "party_line": "party_line",
-   "party_line_note": "All 12 supporters — the sponsor and 11 cosponsors — are Democrats; no Republican has signed on, and the House committees involved are led by Republicans who have not acted on the bill."
+   "party_line": "mostly_party_line",
+   "party_line_note": "The sponsor and all 11 cosponsors are House Democrats; no Republican cosponsors are listed [S4]."
   },
   "industries": [
    {
-    "industry": "High earners (wages above the $176,100 cap) and self-employed high earners",
+    "industry": "High earners and self-employed professionals",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "They would pay the full 12.4% payroll tax on all earnings, phased in through 2031, receiving only a small offsetting benefit in the formula. Their interest in blocking the bill runs against the retirees and disabled beneficiaries it would fund.",
+    "note": "They would pay the 12.4% Social Security payroll tax (split between employers and employees, and both halves for the self-employed) on all earnings rather than just the first $176,100, phased in from 2026 to 2031; in return they would accrue modestly higher future benefits under the new surplus-earnings formula.",
     "sources": [
      "S2",
      "S3"
     ]
-   },
-   {
-    "industry": "Employers with highly paid workforces",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "Employers owe the matching 6.2% payroll tax on wages that today escape the cap, raising the cost of six- and seven-figure compensation. Cheaper high-end pay is their interest, not their workers' benefits.",
-    "sources": [
-     "S3"
-    ]
    }
   ],
-  "trajectory": "The bill has the typical profile of a measure that stalls: minority-party sponsorship only, three committee referrals splitting jurisdiction, and no recorded committee action months after introduction. Expect it to remain in committee unless Social Security financing becomes a negotiated priority; similar cap-elimination proposals have historically not reached a floor vote without bipartisan buy-in.",
+  "trajectory": "A payroll tax increase on high earners with no bipartisan cosponsors and no committee action is unlikely to advance in this Congress; the most likely path is that it remains in committee without a markup or vote.",
   "categories": [
    "social_safety_net",
    "taxes_on_wealth_and_corporations"
   ],
   "scores": {
    "public_stakes": 8,
-   "concentrated_stakes": 9,
-   "outcome_against_public": 3,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 5,
    "support_mismatch": 3,
    "corruption_relevance": 1,
    "confidence": 0.85

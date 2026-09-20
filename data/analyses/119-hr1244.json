@@ -1,61 +1,61 @@
 {
  "bill_id": "119-hr1244",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:39:11+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T19:45:27+00:00",
  "record_fetched_at": "2026-09-20T08:01:43+00:00",
  "record_hash": "b82738171fe27069",
  "analysis": {
-  "one_liner": "Bases Medicare Part D drug coinsurance on the net negotiated price instead of the higher list price.",
-  "headline": "A bipartisan bill to lower seniors' Medicare drug coinsurance has sat without any action in two House committees since February 2025, drawing only two cosponsors.",
+  "one_liner": "Bases seniors' Medicare drug coinsurance on the drug's actual discounted price, not the higher list price.",
+  "headline": "The bill, which would lower some seniors' Medicare drug coinsurance, has not moved since being referred to two House committees in February 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would require Medicare's prescription drug benefit to calculate a senior's coinsurance share of a drug's cost from the plan's actual negotiated price, net of manufacturer discounts, whenever that is lower than the drug's list price (wholesale acquisition cost). Today, coinsurance percentages are applied to the higher list price, so beneficiaries can pay more than the plan actually pays after rebates and discounts. Starting in 2026, seniors in the initial coverage phase would owe coinsurance on the lower, real-world price.",
-  "who_benefits": "Medicare Part D enrollees who face percentage-based coinsurance on their drugs between the annual deductible and the out-of-pocket ceiling. If a plan negotiated a lower net price than the list price, the beneficiary's percentage share would be calculated on the lower number, directly lowering out-of-pocket costs.",
-  "who_benefits_short": "Medicare Part D enrollees",
+  "plain_summary": "Under Medicare's prescription drug benefit, some seniors pay a percentage of a drug's price as coinsurance. Plans often calculate that share off the drug's wholesale list price, which is higher than what the plan actually pays after manufacturer discounts and rebates. This bill would require the coinsurance share to be based on the lower, actual price the plan pays, when that price is lower, starting with plan year 2026.",
+  "who_benefits": "Medicare Part D enrollees whose plans charge percentage coinsurance on drugs, mainly brand-name drugs, in the portion of the year after the deductible and before the annual out-of-pocket maximum. They would owe a smaller coinsurance amount on drugs where the plan's real cost, after manufacturer concessions, is below the list price.",
+  "who_benefits_short": "Seniors with Medicare drug coverage",
   "how_it_helps": [
    {
-    "text": "Requires that coinsurance for covered Part D drugs be based on the drug's actual acquisition cost — the negotiated plan price net of manufacturer price concessions — whenever that is lower than the wholesale acquisition cost [S2] [S3].",
+    "text": "Requires that coinsurance for covered Part D drugs be calculated from the drug's actual acquisition cost, the negotiated plan price net of manufacturer price concessions, whenever that is lower than the wholesale acquisition cost [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Applies to plan years beginning on or after January 1, 2026, for costs above the annual deductible and below the annual out-of-pocket threshold, where percentage coinsurance applies [S3].",
+    "text": "Applies to plan years beginning on or after January 1, 2026, for costs between the annual deductible and the annual out-of-pocket threshold, for drugs subject to coinsurance rather than a flat copayment [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Medicare Part D plan sponsors and the pharmacy benefit intermediaries behind them, who today can charge beneficiaries coinsurance on the higher list price while paying the lower negotiated price and keep the difference. Drug manufacturers are unaffected in what they receive, since the bill redirects existing discounts toward beneficiaries rather than extracting new ones.",
-  "who_pays_short": "Part D insurers and pharmacy middlemen",
+  "who_pays": "Medicare Part D plans would collect less in coinsurance from enrollees and would bear more of each covered drug's cost themselves, a cost that could be recovered through higher premiums. Drugmakers' list prices would still exist, but their discounted prices would directly set the enrollee's share.",
+  "who_pays_short": "Part D plans and, possibly, all enrollees",
   "drawbacks": [
    {
-    "text": "The relief is narrow: it applies only to drugs subject to percentage coinsurance rather than flat copays, only in the cost band between the deductible and the out-of-pocket threshold, and excludes drugs described in paragraphs (8) and (9) of the statute [S3].",
+    "text": "The savings only reach seniors in the band between the deductible and the out-of-pocket threshold, and only on drugs charged as percentage coinsurance rather than a flat copay; drugs in certain excluded categories are carved out [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Plans could respond by converting coinsurance drugs to flat copays, raising premiums, or using other cost-sharing tools to recoup the spread, so the savings for any given senior are not guaranteed [S2].",
+    "text": "The bill shifts the difference between list and net prices from enrollees to plans. Plans could recoup that through higher premiums, spreading the cost to all Part D enrollees including those who take no coinsurance drugs; the bill contains no mechanism addressing premium effects.",
     "sources": [
-     "S2"
+     "S3"
     ]
    },
    {
-    "text": "The calculation depends on plan-reported data (the Detailed DIR Report of prior-year net prices), which may lag and may not reflect current-year negotiations [S3].",
+    "text": "The net price is taken from plan-submitted reports on manufacturer concessions, so accuracy depends on plans reporting those concessions correctly [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit is real but modest: it stops plans from charging seniors a percentage of an inflated list price when the true negotiated price is lower. The cost falls on plan intermediaries' margins, and the main risk is that plans restructure cost-sharing to offset it. It is a targeted fix to a pricing mechanism, not a broad drug-price overhaul.",
+  "benefit_vs_cost": "For seniors on plans that set coinsurance off the higher list price, the bill delivers a real, direct cut in what they pay at the pharmacy. The cost is diffuse: plans may pass the shift on through premiums, so some of the savings could be offset for the broader enrollee pool. The design is narrow but straightforward, and its main weakness is how little ground it covers.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced in February 2025 and referred to two House committees, which have taken no action on it since; the Congress is still in session, so it could still move, but so far it has gone nowhere.",
+   "mechanism": "It was introduced and referred to two House committees, and no committee has taken it up since.",
    "narrative": [
     {
-     "text": "Rep. Donald G. Davis (D-NC) introduced the bill on February 12, 2025, joined by Rep. August Pfluger (R-TX) [S1] [S3] [S4].",
+     "text": "Rep. Donald Davis introduced the bill on February 12, 2025, joined by Rep. August Pfluger as its only cosponsor at introduction [S1][S3][S4].",
      "sources": [
       "S1",
       "S3",
@@ -63,28 +63,28 @@
      ]
     },
     {
-     "text": "The same day, it was referred to the House Energy and Commerce Committee and the House Ways and Means Committee, where Medicare-related provisions typically must be approved before reaching the floor [S5].",
+     "text": "The same day, it was referred to the House Energy and Commerce Committee and the House Ways and Means Committee [S5].",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "No further action — no hearing, markup, or vote — appears in the action history [S5].",
+     "text": "The action history shows no further activity, no hearing, markup, or floor vote, since the February 2025 referral [S5].",
      "sources": [
       "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, Part D plan sponsors and pharmacy benefit intermediaries, who continue to collect coinsurance based on the higher list price while paying lower net prices; seniors' out-of-pocket drug costs remain unchanged."
+   "who_came_out_ahead": "So far, the status quo holds: Part D plans can continue setting enrollee coinsurance off the higher wholesale list price rather than the net price they actually pay."
   },
-  "who_came_out_ahead_short": "Part D insurers and pharmacy middlemen",
+  "who_came_out_ahead_short": "Plans keeping the current coinsurance formula",
   "sides": {
    "for": [
     {
      "name": "Rep. Donald G. Davis",
-     "role": "U.S. Representative, NC-1",
+     "role": "U.S. Representative, NC-1; bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill to base Part D coinsurance on actual acquisition cost.",
+     "what_they_did": "Introduced the bill to base Part D coinsurance on the drug's actual acquisition cost.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -94,9 +94,9 @@
     },
     {
      "name": "Rep. August Pfluger",
-     "role": "U.S. Representative, TX-11, original cosponsor",
+     "role": "U.S. Representative, TX-11; cosponsor",
      "party": "R",
-     "what_they_did": "Signed on as the bill's sole original cosponsor at introduction.",
+     "what_they_did": "Original cosponsor, the bill's only cosponsor listed.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -107,21 +107,10 @@
    ],
    "against": [
     {
-     "name": "House Ways and Means Committee",
-     "role": "Committee with jurisdiction over Medicare; referred the bill",
+     "name": "House Energy and Commerce and Ways and Means Committees",
+     "role": "Committees with jurisdiction over Medicare drug benefit provisions",
      "party": null,
-     "what_they_did": "Received the referral on February 12, 2025 and has taken no action — no hearing or markup — leaving the bill unadvanced.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "name": "House Energy and Commerce Committee",
-     "role": "Second committee of referral; referred the bill",
-     "party": null,
-     "what_they_did": "Received the referral on February 12, 2025 and has taken no action since.",
+     "what_they_did": "Received the referral in February 2025 and have taken no further action on it.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -130,42 +119,50 @@
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "The bill's only sponsors are one Democrat (Davis of North Carolina) and one Republican (Pfluger of Texas), and no opposition has been recorded; with just two cosponsors, no meaningful partisan lineup has formed."
+   "party_line_note": "Sponsorship is bipartisan, one House Democrat and one House Republican, but with only two cosponsors total there is no organized bloc on either side and no vote record to measure party splits."
   },
   "industries": [
    {
-    "industry": "Medicare Part D plan sponsors and pharmacy benefit managers",
+    "industry": "Medicare Part D insurers and plan sponsors",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These intermediaries currently charge beneficiaries coinsurance on the drug's higher list price while paying the lower negotiated, rebate-adjusted price, keeping the difference. The bill would channel that spread back to seniors as lower coinsurance.",
+    "note": "Plans can currently set the enrollee's percentage coinsurance off the higher wholesale list price, collecting more from seniors than the drug's real cost reflects. The bill would cap that share at the net price, cutting enrollee costs at plans' expense, though plans may shift the difference into premiums.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Brand-name and generic drug manufacturers",
+    "industry": "Pharmacy benefit managers",
+    "effect": "entrenched",
+    "stance_toward_public": "opposed",
+    "note": "The bill does not touch the rebate-and-concession system PBMs run; it defines the new coinsurance base as the negotiated price net of manufacturer concessions reported through existing plan filings. It accepts that structure as the source of the lower price rather than replacing it.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "industry": "Brand-name drug manufacturers",
     "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "Manufacturers would pay nothing new — the bill simply redirects concessions they already give plans toward beneficiaries' coinsurance. Their list prices, which anchor the current higher coinsurance, would no longer determine what seniors pay.",
+    "note": "Manufacturers keep list prices and continue paying concessions, but those concessions would now directly lower what seniors owe instead of being absorbed in the middle of the supply chain. That reduces the value of maintaining a wide gap between list and net prices.",
     "sources": [
      "S2",
      "S3"
     ]
    }
   ],
-  "trajectory": "A narrowly scoped Medicare billing fix with two cosponsors, idling in two committees for months, rarely reaches the floor on its own. Its most realistic path is absorption into a larger Medicare or health package; absent that, it will likely die at the end of the 119th Congress without a vote.",
+  "trajectory": "The bill has sat in two committees since its February 2025 referral with no hearing, markup, or vote, and only two cosponsors. Bills at this stage in this position rarely reach the floor; unless a committee schedules it or leadership attaches it to a larger Medicare package, it is likely to die at the end of this Congress without a vote.",
   "categories": [
-   "healthcare_and_drug_prices",
-   "consumer_protection_and_finance"
+   "healthcare_and_drug_prices"
   ],
   "scores": {
-   "public_stakes": 4,
-   "concentrated_stakes": 4,
-   "outcome_against_public": 4,
-   "support_mismatch": 2,
-   "corruption_relevance": 2,
-   "confidence": 0.85
+   "public_stakes": 5,
+   "concentrated_stakes": 3,
+   "outcome_against_public": 2,
+   "support_mismatch": 1,
+   "corruption_relevance": 1,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

@@ -1,149 +1,142 @@
 {
  "bill_id": "119-hr5039",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T04:46:28+00:00",
- "record_fetched_at": "2026-09-20T04:07:48+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:19:44+00:00",
+ "record_fetched_at": "2026-09-20T08:10:34+00:00",
  "record_hash": "abdb2dcf4039b80e",
  "analysis": {
-  "one_liner": "Gives wheelchair owners and independent shops the legal right and tools to repair power wheelchairs.",
-  "headline": "The bill was introduced in August 2025 with one cosponsor and referred to two House committees, where it has received no further action.",
+  "one_liner": "Lets wheelchair owners and independent shops repair powered wheelchairs without manufacturer locks.",
+  "headline": "A bill to give wheelchair users and independent repair shops the tools and parts to fix powered wheelchairs was introduced and referred to two House committees, where it awaits action.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would make it legal to bypass the electronic locks on powered wheelchairs and other mobility devices so owners and independent repair shops can diagnose, maintain, and fix them. It would require the manufacturers to sell repair parts, manuals, software, and diagnostic tools to independent shops and device owners on the same terms they give their own authorized dealers. The Federal Trade Commission and state attorneys general would enforce these requirements.",
-  "who_benefits": "People who use power wheelchairs, scooters, and wearable robotic walking devices, along with the independent repair shops that fix them. Today, a wheelchair owner who needs a repair may have to wait weeks for the manufacturer's authorized service network, and copyright law can make it illegal for anyone else to bypass the device's software locks. The bill would let owners and independent shops do repairs themselves and buy the needed parts and tools at the same price and terms the manufacturer offers its authorized dealers, which could mean faster fixes, lower repair bills, and less time stuck without a working chair [S2].",
-  "who_benefits_short": "Power wheelchair users and independent repair shops",
+  "plain_summary": "The bill would require companies that make powered wheelchairs and other mobility devices to sell parts, manuals, diagnostic software, and repair tools to independent repair shops and device owners on the same terms they give their own authorized dealers. It would also change copyright law so that bypassing software locks to diagnose, maintain, or repair a mobility device is not illegal. The Federal Trade Commission and state attorneys general could enforce the rules.",
+  "who_benefits": "People who use powered wheelchairs or exoskeletons, who would no longer have to rely solely on the manufacturer or its authorized dealers for repairs. Independent repair shops would gain access to parts, manuals, diagnostic software, and lock-reset tools needed to fix devices, and device owners would gain the right to repair their own equipment. Rural users far from an authorized dealer would likely see the biggest practical change, since they could use any local shop.",
+  "who_benefits_short": "Wheelchair users and independent repair shops",
   "how_it_helps": [
    {
-    "text": "It adds a copyright-law exception making it legal to circumvent software locks for the purpose of diagnosing, maintaining, or repairing a powered mobility device, and to make or distribute the tools needed to do so [S2].",
+    "text": "The bill requires manufacturers to make documentation, parts, embedded software, firmware, and repair tools available to independent repair providers and owners on fair and reasonable terms, meaning terms at least as good as those given to their own authorized dealers [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It requires manufacturers to provide documentation, parts, embedded software, firmware, and repair tools to independent repair providers and owners on a timely basis and on terms equivalent to the best terms offered to their own authorized repair network, including tools to disable and reset electronic security locks [S2].",
+    "text": "It adds an exception to copyright law so that circumventing a technological lock for the diagnosis, maintenance, or repair of a powered mobility device is not a violation, and so that selling tools or parts for that purpose is not illegal 'trafficking' [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It gives the Federal Trade Commission enforcement authority and lets state attorneys general sue in court to stop violations and obtain civil penalties, damages, and restitution for state residents [S2].",
+    "text": "It requires manufacturers to provide tools needed to disable and reset electronic security locks, through a secure data release system if needed, so an independent shop can complete a repair [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It requires manufacturers to notify buyers and independent shops of these repair rights and to set up a standard public process for requesting repair materials within 90 days of enactment [S2].",
+    "text": "Enforcement is through the Federal Trade Commission, which would treat violations as unfair or deceptive practices under the FTC Act, and state attorneys general could sue for injunctions, civil penalties, restitution, and damages on behalf of state residents [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Manufacturers of powered wheelchairs and other mobility devices, which would have to sell repair parts, manuals, diagnostic software, and unlocking tools to independent shops and owners on equal terms, ending their control over who can service their devices and over repair pricing. Some repair revenue now captured through authorized dealer networks would shift to independent shops and owners [S2].",
-  "who_pays_short": "Powered mobility device manufacturers",
+  "who_pays": "Powered wheelchair and mobility device manufacturers would bear the cost of sharing repair information and selling parts and diagnostic tools to independent shops on equal terms. Some manufacturers earn revenue from repairs performed only through authorized channels, and this would open that work to competition.",
+  "who_pays_short": "Powered wheelchair manufacturers",
   "drawbacks": [
    {
-    "text": "Manufacturers would have to provide tools to disable electronic security locks and reset them after repair, which raises safety and cybersecurity concerns about who can alter the software controlling a device a disabled person depends on; the bill addresses this only by allowing delivery through a secure data release system [S2].",
+    "text": "Manufacturers raise safety concerns: they argue that repairs by untrained technicians on devices that bear a person's weight could cause injury. The bill addresses this by shielding manufacturers from liability for damage caused by an independent repair or owner during repair, unless it stems from a design or manufacturing defect [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill protects manufacturers and authorized dealers from liability for damage or injury caused by an independent shop's or owner's repair, so a botched third-party repair would leave the device owner with limited recourse against the manufacturer [S2].",
+    "text": "The bill does not require manufacturers to sell a part that is no longer available, so owners of older devices could still be unable to obtain discontinued components [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It does not require manufacturers to sell parts that are no longer available, and it preserves trade secrets except as needed to supply required repair materials, so owners of older devices may still be unable to get parts [S2].",
+    "text": "Manufacturers remain protected from having to divulge trade secrets, except as necessary to provide the repair materials the bill requires, which could leave room for disputes over what must be shared [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "For the people who use these devices, the benefits are concrete: a broken power wheelchair can leave someone housebound, and manufacturer-controlled service often means long waits and high repair prices. The main costs fall on manufacturers, who lose a repair monopoly. The real drawbacks are design questions: loosening software locks on safety-critical devices needs careful handling, and the liability shield for manufacturers shifts risk onto owners who use independent repairs. On balance the bill targets a narrow, well-documented hardship for a vulnerable population, with manageable if real trade-offs.",
+  "benefit_vs_cost": "For the people affected, the benefits are direct and personal: a powered wheelchair that sits broken for weeks while waiting for an authorized repair is a loss of mobility, work, and independence. The main costs fall on manufacturers, who would face new obligations to share repair information and compete for repair work. Good-faith safety concerns are partly answered by the liability provision and the requirement to provide lock-reset tools through secure channels, though disputes over what counts as a necessary repair tool would likely follow.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill is sitting with two House committees after referral and no hearings, votes, or further action have been scheduled.",
+   "mechanism": "The bill was introduced in the House in late August 2025 and referred to the Energy and Commerce and Judiciary committees; no hearing, markup, or vote has taken place, and Congress is still in session.",
    "narrative": [
     {
-     "text": "The bill was introduced on August 26, 2025 by Rep. Maxwell Frost with Rep. Perez as the sole cosponsor [S1].",
+     "text": "Rep. Maxwell Frost introduced the Wheelchair Right to Repair Act on August 26, 2025, with Rep. Sara Perez as the sole cosponsor [S1][S2][S3].",
      "sources": [
       "S1",
+      "S2",
       "S3"
      ]
     },
     {
-     "text": "It was referred the same day to the House Energy and Commerce Committee and the House Judiciary Committee, the standard first step that sends a bill to the panels with authority over its subject matter [S4].",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "No further action — no hearing, markup, committee vote, or floor vote — has been taken since referral, and the 119th Congress is still in session [S4].",
+     "text": "The bill was referred to the Committee on Energy and Commerce and, in addition, to the Committee on the Judiciary; no further action appears in the record [S4].",
      "sources": [
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, powered mobility device manufacturers are better off: the status quo, in which they control who can repair their devices and what repairs cost, remains unchanged while the bill sits in committee."
+   "who_came_out_ahead": "So far, no one has gained or lost; manufacturers face no new obligations because the bill has not advanced."
   },
-  "who_came_out_ahead_short": "Mobility device makers, for now",
+  "who_came_out_ahead_short": "No one yet; the bill sits in committee",
   "sides": {
    "for": [
     {
      "name": "Rep. Maxwell Frost",
-     "role": "Sponsor, House of Representatives",
+     "role": "Sponsor, House Energy and Commerce and Judiciary referee",
      "party": "D",
-     "what_they_did": "Introduced the Wheelchair Right to Repair Act in the House.",
+     "what_they_did": "Introduced the Wheelchair Right to Repair Act in the House on August 26, 2025.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2",
-      "S4"
+      "S2"
      ]
     },
     {
-     "name": "Rep. Perez",
-     "role": "Original cosponsor (the bill's only cosponsor)",
+     "name": "Rep. Sara Perez",
+     "role": "Cosponsor",
      "party": "D",
-     "what_they_did": "Cosponsored the bill at introduction.",
+     "what_they_did": "Joined as the bill's only cosponsor at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
-      "S3"
+      "S3",
+      "S2"
      ]
     }
    ],
    "against": [],
-   "party_line": "unclear",
-   "party_line_note": "The bill has a Democratic sponsor and its single cosponsor is also a Democrat, so no partisan pattern has yet emerged; no member has opposed it on the record."
+   "party_line": "party_line",
+   "party_line_note": "The bill has two Democratic sponsors and no Republican support in the record so far, though no vote has occurred to show where members stand."
   },
   "industries": [
    {
     "industry": "Powered wheelchair and mobility device manufacturers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill ends these manufacturers' control over who can service their devices by requiring them to sell parts, manuals, software, and unlocking tools to independent shops and owners on the same terms offered to their authorized dealers. Repair is a lucrative add-on to device sales, and owners of these devices have limited alternatives when manufacturer service is slow or expensive.",
+    "note": "The bill would require these manufacturers to share repair documentation, parts, software, and tools with independent shops and owners on terms equal to what they give authorized dealers, opening repair work to competition. Repair performed only through authorized channels is a revenue stream this bill would erode.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Independent repair shops for mobility equipment",
+    "industry": "Independent repair shops and repair technicians",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Independent shops gain legal access to parts, diagnostic software, and documentation they are often locked out of today, letting them compete for repair work. Their interest in the bill runs with that of device owners, who get faster and likely cheaper repairs.",
+    "note": "Shops not affiliated with manufacturers would gain legal access to manuals, diagnostic software, parts, and lock-reset tools, letting them compete for wheelchair repair work. Their interest runs alongside the device owners they serve.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill is at the very start of the process with a single cosponsor and dual committee referral, which splits jurisdiction and makes advance harder. Most House bills never get a hearing or a vote, and with no committee action more than a year before the Congress ends, the realistic outlook is that it stalls in committee unless it picks up substantially more cosponsors and advocacy pressure.",
+  "trajectory": "With a single cosponsor and no recorded committee action two months after introduction, the bill is unlikely to advance in this Congress unless right-to-repair issues gain momentum or the sponsors build a broader coalition; the usual path for a bill at this stage is to die in committee at the end of the session.",
   "categories": [
-   "consumer_protection_and_finance",
-   "other"
+   "consumer_protection_and_finance"
   ],
   "scores": {
    "public_stakes": 5,
@@ -151,7 +144,7 @@
    "outcome_against_public": 2,
    "support_mismatch": 2,
    "corruption_relevance": 1,
-   "confidence": 0.85
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

@@ -1,77 +1,69 @@
 {
  "bill_id": "118-s2491",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:10:19+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:38:26+00:00",
  "record_fetched_at": "2026-09-20T11:24:29+00:00",
  "record_hash": "4f4e75e360b98966",
  "analysis": {
-  "one_liner": "Taxes stock, bond, and derivative trades at 0.1%, paid by exchanges and brokers.",
-  "headline": "A 0.1% tax on stock, bond, and derivative trades, sponsored by six Democratic senators, died in the Senate Finance Committee without ever getting a vote.",
+  "one_liner": "Imposes a 0.1% tax on trades of stocks, bonds, and derivatives.",
+  "headline": "Introduced with 6 senators' support and referred to the Senate Finance Committee, the bill never received a hearing or vote and died when the Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would put a 0.1% tax on every purchase of stocks, bonds, and derivatives traded on U.S. exchanges or involving U.S. parties — a levy aimed at high-volume trading. Stock and bond exchanges and brokers would collect the tax, and new stock issues and very short-term debt would be exempt. It was referred to the Senate Finance Committee in July 2023 and never received a hearing, a vote, or any further action before Congress ended.",
-  "who_benefits": "If enacted, the federal treasury would gain revenue from a tax that falls on each trade, meaning the heaviest burden lands on hedge funds, high-frequency traders, and other large investors who buy and sell constantly. Ordinary investors, who trade rarely, would owe little directly, and the public would benefit from whatever the revenue funded. Companies raising money by issuing new stock would not pay the tax on those issuances [S2] [S3].",
-  "who_benefits_short": "Federal treasury and ordinary taxpayers",
+  "plain_summary": "The bill would put a 0.1% excise tax on every purchase of stocks, bonds, and derivatives traded in the U.S. or involving U.S. parties. A $10,000 stock purchase would carry a $10 tax, paid through the exchange or broker. It exempts new stock issues and very short-term debt, and it taxes deals routed through foreign subsidiaries owned by U.S. shareholders so the tax can't be dodged by trading offshore. The revenue would go to the Treasury; the bill does not earmark it for any specific purpose.",
+  "who_benefits": "If enacted, the federal Treasury would gain a new revenue stream drawn from high-volume securities trading. Because the tax is charged per transaction, its burden falls heaviest on firms and investors that trade constantly — high-frequency trading firms, hedge funds, and large institutional traders — while a long-term investor who buys a few times a year pays very little.",
+  "who_benefits_short": "The Treasury and long-term taxpayers",
   "how_it_helps": [
    {
-    "text": "Imposes a 0.1% excise tax on each covered purchase of stocks, bonds, and derivatives, so frequent, high-volume traders — who move most of the market's volume — pay the most.",
+    "text": "The bill raises revenue from securities trading rather than from wages or ordinary consumption, since the tax is charged on each purchase of a stock, bond, or derivative [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Applies to trades on U.S. exchanges or involving U.S. persons, and treats controlled foreign corporations as U.S. persons whose American shareholders must pay the tax, closing an obvious route for shifting trades offshore.",
+    "text": "Because the tax is per-transaction, an investor who trades rarely pays far less than a firm executing thousands of trades per second, concentrating the burden on high-volume traders [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Requires exchanges and brokers to collect and pay the tax, so individual investors generally would not have to file or calculate anything themselves.",
+    "text": "The bill includes anti-avoidance rules: purchases by a U.S. person or on a U.S. exchange are covered even if other parties are foreign, controlled foreign corporations are treated as U.S. persons with the tax paid by their U.S. shareholders, and the Treasury Secretary must write regulations to prevent routing trades through non-U.S. parties [S3].",
     "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Exempts initial issuances of securities, so companies raising capital by selling new stock would not be taxed on that activity.",
-    "sources": [
-     "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Large banks, hedge funds, and high-frequency trading firms would bear most of the cost directly, since they trade the most. Part of the cost would likely pass through to ordinary investors, because mutual funds and retirement funds trade on behalf of savers and could pass the tax on through fund expenses. Exchanges and brokers would take on the administrative job of collecting and remitting the tax [S2] [S3].",
-  "who_pays_short": "Big banks, hedge funds, high-frequency traders",
+  "who_pays": "High-volume financial traders — hedge funds, high-frequency trading firms, and large institutions — would pay the tax directly on each purchase. Exchanges and brokers would be responsible for collecting it. Some of the cost could trickle to ordinary investors as slightly wider trading costs, and reduced trading could mean marginally lower liquidity and returns in retirement accounts.",
+  "who_pays_short": "High-frequency traders and hedge funds",
   "drawbacks": [
    {
-    "text": "The tax applies to every covered purchase, including trades made by mutual funds and retirement funds, so ordinary savers would absorb part of the cost through higher fund expenses even though they never place a trade themselves.",
+    "text": "A per-trade tax is passed into trading costs, so some portion would land on ordinary investors' 401(k)s and index funds, which buy and sell constantly as money flows in and out [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "The bill carves out initial securities issuances and short-term debt with maturities of 100 days or less, which narrows the tax base and concentrates the burden on the secondary trading market.",
+    "text": "Taxes on each transaction discourage some trading, which critics argue reduces market liquidity and could make it slightly more expensive for savers to buy and sell [S2].",
     "sources": [
-     "S2",
-     "S3"
+     "S2"
     ]
    },
    {
-    "text": "A transaction tax can push some trading to venues outside the United States; the bill tries to counter this by taxing any trade involving a U.S. person and directing the Treasury Secretary to write anti-avoidance rules, but enforcement would depend on those rules working as intended.",
+    "text": "The bill does not earmark its revenue, so there is no guarantee the money would fund anything specific for ordinary people [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The 0.1% rate is small enough per trade that long-term, buy-and-hold investors would feel little of it, while the burden concentrates on high-volume professional trading — a reasonable design for taxing financial activity. The honest cost is that retirement funds and mutual funds trade constantly on savers' behalf, so some of the tax would flow back to ordinary investors as higher fund expenses, and its anti-offshoring provisions depend on future Treasury rules holding up.",
+  "benefit_vs_cost": "The core trade-off is real: the tax raises money in a way that falls mostly on the most active and wealthiest market participants, but a share of the cost leaks into the retirement accounts of ordinary savers through slightly higher trading costs. The design reduces that leakage — short-term debt is exempt, and trades by insurers and ordinary commodity hedgers are carved out — but it does not eliminate it, and the revenue has no designated purpose.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The bill was sent to the Senate Finance Committee the day it was introduced and sat there, with no hearing or vote, until the Congress ended.",
+   "mechanism": "It was introduced and sent to the Senate Finance Committee, which never took it up, and it expired when the 118th Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Senator Brian Schatz introduced the bill on July 25, 2023, joined by five Democratic colleagues: Van Hollen, Warren, Merkley, Whitehouse, and Fetterman.",
+     "text": "Sen. Brian Schatz introduced the bill on July 25, 2023, with five Democratic cosponsors: Sens. Van Hollen, Warren, Merkley, Whitehouse, and Fetterman [S1][S3][S4].",
      "sources": [
       "S1",
       "S3",
@@ -79,29 +71,29 @@
      ]
     },
     {
-     "text": "The same day, the Senate read the bill twice and referred it to the Committee on Finance.",
+     "text": "The Senate read it twice and referred it to the Committee on Finance the same day [S5].",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "No further action was ever taken — the committee never held a markup or vote, and the full Senate never debated it — and the bill died when the 118th Congress ended on January 3, 2025.",
+     "text": "No further action appears in the record — no hearing, no committee vote, no floor action — and the bill died at the end of the 118th Congress on January 3, 2025 [S5][S1].",
      "sources": [
-      "S1",
-      "S5"
+      "S5",
+      "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Large financial firms and high-volume traders are better off because the bill died, since no new tax was ever imposed on their trades. The senators who sponsored it gained a record of support without needing to move it through a committee they did not chair."
+   "who_came_out_ahead": "Firms that profit from massive trading volume — high-frequency trading shops, hedge funds, and large institutions — are better off, since they never faced the tax. The exchanges and brokers that would have collected it also avoided the compliance burden."
   },
-  "who_came_out_ahead_short": "Big traders who avoided a new tax",
+  "who_came_out_ahead_short": "High-volume trading firms and hedge funds",
   "sides": {
    "for": [
     {
      "name": "Sen. Brian Schatz",
      "role": "U.S. Senator (Hawaii)",
      "party": "D",
-     "what_they_did": "Introduced the bill and led the effort",
+     "what_they_did": "Introduced the Wall Street Tax Act of 2023 in the Senate.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -110,24 +102,24 @@
      ]
     },
     {
-     "name": "Sens. Van Hollen, Warren, Merkley, Whitehouse, and Fetterman",
-     "role": "Cosponsors (5 Democratic senators)",
+     "name": "5 of 48 Senate Democrats",
+     "role": "Cosponsors (Sens. Van Hollen, Warren, Merkley, Whitehouse, Fetterman)",
      "party": "D",
-     "what_they_did": "Cosponsored the bill at introduction; none of them sat in a position to schedule committee action on it",
+     "what_they_did": "Cosponsored the bill at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
-      "S4"
+      "S4",
+      "S3"
      ]
     }
    ],
    "against": [
     {
-     "name": "Senate Committee on Finance",
-     "role": "Committee of referral, chaired by Sen. Ron Wyden (D)",
+     "name": "Senate Finance Committee",
+     "role": "Committee of jurisdiction over tax legislation",
      "party": null,
-     "what_they_did": "Received the bill by referral and took no action on it for the rest of the Congress — no markup, no hearing on the bill, no vote",
+     "what_they_did": "Never scheduled the bill for a hearing or markup after it was referred; the record shows no committee action after the July 2023 referral.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -135,45 +127,45 @@
      ]
     },
     {
-     "name": "Financial services and trading industry",
-     "role": "Industry group",
+     "name": "Financial services industry",
+     "role": "Trading firms, asset managers, and their trade associations",
      "party": null,
-     "what_they_did": "Consistently opposed financial transaction taxes in Congress through lobbying",
+     "what_they_did": "Opposed transaction taxes, arguing they would raise trading costs for investors and push trading offshore; no committee ever took the bill up.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "mostly_party_line",
-   "party_line_note": "All six sponsors and cosponsors were Democrats, no Republican supported it, and the bill never advanced far enough to produce a recorded floor vote."
+   "party_line_note": "Every sponsor and cosponsor was a Democrat — 6 of 48 Senate Democrats — and no Republican support appears in the record; the bill never advanced far enough for a roll-call vote."
   },
   "industries": [
    {
-    "industry": "Securities traders, hedge funds, and high-frequency trading firms",
+    "industry": "High-frequency trading firms and hedge funds",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The tax hits every covered purchase, so the firms that trade the most pay the most. Their interest in blocking the bill ran directly against the public's interest in the revenue it would raise.",
+    "note": "A 0.1% tax on every purchase would come directly out of the thin margins these firms earn on enormous trading volume, so their interest ran squarely against the bill. Their cost would otherwise be a new revenue source for the Treasury.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Mutual funds and retirement fund managers",
+    "industry": "Securities exchanges and broker-dealers",
+    "effect": "mixed",
+    "stance_toward_public": "opposed",
+    "note": "Exchanges and brokers would be legally responsible for collecting and remitting the tax on every covered purchase, adding compliance costs. Some of that cost, and any reduced trading volume, would flow to their customers and revenues.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "industry": "Large institutional investors and asset managers",
     "effect": "loses",
     "stance_toward_public": "mixed",
-    "note": "Funds trading on behalf of savers would owe the tax on each purchase and would likely pass some of it to ordinary investors through fund expenses, though the tiny per-trade rate would be a small share of fund costs.",
+    "note": "Mutual funds and index funds trade constantly on behalf of savers, so a per-purchase tax would raise their costs slightly. The burden is small per trade but recurring.",
     "sources": [
      "S2",
-     "S3"
-    ]
-   },
-   {
-    "industry": "Stock exchanges and broker-dealers",
-    "effect": "mixed",
-    "stance_toward_public": "aligned",
-    "note": "Exchanges and brokers are made the collectors of the tax, adding compliance and remittance work for them; the same mechanism spares individual investors from having to file anything.",
-    "sources": [
      "S3"
     ]
    }
@@ -185,11 +177,11 @@
   ],
   "scores": {
    "public_stakes": 6,
-   "concentrated_stakes": 8,
-   "outcome_against_public": 6,
-   "support_mismatch": 3,
+   "concentrated_stakes": 9,
+   "outcome_against_public": 7,
+   "support_mismatch": 4,
    "corruption_relevance": 2,
-   "confidence": 0.9
+   "confidence": 0.75
   }
  },
  "unresolved_citations": []

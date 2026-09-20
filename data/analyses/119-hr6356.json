@@ -1,107 +1,126 @@
 {
  "bill_id": "119-hr6356",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:09:04+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:31:56+00:00",
  "record_fetched_at": "2026-09-20T08:11:16+00:00",
  "record_hash": "cf667572c306aa72",
  "analysis": {
-  "one_liner": "Requires companies to test algorithms used in hiring, lending, housing, and benefits for bias before using them.",
-  "headline": "Introduced on December 2, 2025 with 29 Democratic cosponsors, the bill sits with two House committees and has received no hearing, markup, or vote.",
+  "one_liner": "Requires independent audits and anti-discrimination rules for AI used in hiring, lending, housing, and other major decisions.",
+  "headline": "The Artificial Intelligence Civil Rights Act was introduced in the House on December 2, 2025 with 30 Democratic sponsors and cosponsors, and has had no committee action since it was referred to two committees.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would make companies check their algorithms for discrimination before using them in decisions that shape people's lives, like hiring, lending, housing, insurance, and government benefits. Anyone whose algorithmic decision harms them could appeal to a human, sue for damages, and see the audit results posted publicly. Enforcement would go through the Federal Trade Commission, state attorneys general, and private lawsuits.",
-  "who_benefits": "People subject to algorithmic decisions about jobs, credit, housing, insurance, education, health care, criminal justice, elections, and government benefits. The bill targets discrimination based on race, sex, disability, age, income, and other protected traits, and gives individuals the right to a human decision, an appeal, and a court case free of forced arbitration.",
-  "who_benefits_short": "People judged by algorithms",
+  "plain_summary": "This bill would make it illegal to use an algorithm that discriminates by race, sex, age, disability, income, and other protected traits when the algorithm affects major life decisions — hiring, housing, credit, insurance, health care, government benefits, court and policing decisions, and elections. Companies would have to test high-risk algorithms with independent auditors before launch, publish audit summaries, let people opt out to a human decision-maker, and appeal to a human. Enforcement would come from the FTC, state attorneys general, and lawsuits by individuals, with penalties of at least $15,000 per violation and a ban on forced arbitration.",
+  "who_benefits": "People on the receiving end of automated decisions: job applicants and workers graded or screened by algorithms, renters and buyers facing algorithmic appraisals and lending, patients and insurance claimants, people whose benefits, ballots, or court outcomes are touched by automated systems, and workers who blow the whistle on flawed AI.",
+  "who_benefits_short": "Workers, renters, borrowers, and patients",
   "how_it_helps": [
    {
-    "text": "Before an algorithm is used for a 'consequential action' (hiring, pay, education, housing, utilities, health care, credit, insurance, criminal justice, elections, benefits, and more), the company must run a preliminary harm check and, if harm is plausible, a full independent audit covering how the algorithm was built, trained, and tested, and its potential for disparate impact on protected groups.",
+    "text": "Prohibits using an algorithm in a way that causes a disparate impact or otherwise discriminates by race, color, ethnicity, national origin, religion, sex, disability, income, age, veteran status, and other protected traits in decisions about employment, education, housing, utilities, health care, credit, insurance, criminal justice, elections, and government benefits.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "After deployment, companies must run annual impact assessments, report findings to the FTC within 30 days, publish summaries on their websites, and keep records for at least 10 years.",
+    "text": "Requires a preliminary harm screening for every covered algorithm used in a consequential action, and a full independent-auditor evaluation before deployment when harm is plausible, covering the data used, testing across demographic groups, and the algorithm's potential for disparate impact.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Individuals gain a right to opt out of an algorithmic decision and have a human decide instead, plus a right to appeal to a human, both to be set by FTC rules and available at no cost.",
+    "text": "Gives individuals a right to opt out of an algorithmic decision and have a human make it instead, and a right to appeal an algorithmic decision to a human, with rules to be set by the FTC.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The FTC, state attorneys general, and individuals can enforce the rules; individuals can recover treble damages or $15,000 per violation, and pre-dispute arbitration agreements and class-action waivers cannot be used to block these claims.",
+    "text": "Bans retaliation against people who exercise rights under the bill and protects whistleblowers who report violations.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The FTC must publish a public, searchable repository of algorithm audits, cannot be blocked by trade secrets beyond redaction, and may hire up to 500 additional staff; a new federal occupational series for algorithm auditing would be created.",
+    "text": "Requires plain-language public disclosures, in the 10 most common US languages and accessible to people with disabilities, plus a public FTC repository of algorithm audits.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Lets individuals sue with treble damages or $15,000 per violation (whichever is greater), plus attorney's fees, invalidates pre-dispute arbitration agreements and class-action waivers for claims under the bill, and lets state attorneys general seek penalties of $15,000 per violation or 4 percent of a company's average gross annual revenue.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Authorizes the FTC to hire up to 500 additional staff and directs the Office of Personnel Management to create a federal occupational series for algorithm auditors.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Companies that build or use covered algorithms: AI developers and the businesses deploying them in hiring, lending, insurance, tenant screening, benefits, and similar decisions would bear audit costs, reporting obligations, exposure to lawsuits with treble damages and $15,000-per-violation state penalties, and lose the ability to force these disputes into arbitration.",
-  "who_pays_short": "AI developers and businesses using algorithms",
+  "who_pays": "Companies that develop or deploy algorithms used in high-stakes decisions — from large AI labs to banks, insurers, landlords, employers, and government contractors using off-the-shelf tools — would bear audit fees, record-keeping for at least 10 years, disclosure obligations, and litigation and penalty exposure.",
+  "who_pays_short": "AI developers and companies deploying algorithms",
   "drawbacks": [
    {
-    "text": "Compliance is costly and repetitive: every covered algorithm requires a preliminary evaluation, possible full independent audit, annual impact assessments, disclosures in 10 languages, and 10-year record retention, a burden that falls hardest on small businesses using off-the-shelf tools.",
+    "text": "Compliance costs are substantial: developers and deployers must run preliminary screenings for every consequential use, engage independent auditors when harm is plausible, submit evaluations to the FTC within 30 days, keep records for at least 10 years, and publish disclosures in 10 languages.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Liability is broad: a private right of action with treble damages or $15,000 per violation, enforceable against both developers and deployers, invites litigation even where no one was actually harmed, and companies can redact trade secrets from the public audit reports, limiting how much the public can verify.",
+    "text": "The independent-auditor definition disqualifies anyone involved in developing or deploying the algorithm or holding a financial interest in the company, which could leave a thin pool of qualified auditors and concentrate a new mandatory audit market in a few firms.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill's scope is defined by FTC rulemaking in large part, so the actual burden depends on how aggressively the commission writes the rules; an adversarial or lax FTC could make the protections far weaker or the compliance burden far heavier than the text suggests.",
+    "text": "Companies may redact trade secrets from published audit summaries, which limits how much the public can actually verify from the required disclosures and the FTC repository.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Critics of algorithm-audit mandates argue the cost and liability exposure could slow the deployment of beneficial automated tools, and the bill's broad definitions leave significant discretion to FTC rulemaking.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The protections are substantial and aimed at a real, growing problem: automated decisions that few people can see or contest. The honest tradeoff is cost and litigation exposure, particularly for small businesses, and the possibility that audits become a paperwork exercise rather than real accountability. The bill's design leans toward strong enforcement, with public reporting and damage multipliers, which raises both its potential benefit and its compliance burden.",
+  "benefit_vs_cost": "The bill's benefits — a legal right to a non-discriminatory process, a human alternative, an appeal, and real money damages — are large for individuals facing automated decisions in hiring, housing, credit, and benefits. The costs fall on the companies deploying these systems, though some of those costs would ultimately be passed to consumers, and small businesses using off-the-shelf AI tools face the same paperwork as large ones. The design leans on mandatory independent audits, which are a real safeguard but also create a new industry with a financial stake in the mandate it enforces.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced in December 2025 and sent to the Energy and Commerce and Oversight committees, where no hearing, markup, or floor vote has been scheduled.",
+   "mechanism": "The bill was introduced and referred to the Energy and Commerce and Oversight committees on December 2, 2025, and neither committee has taken it up since.",
    "narrative": [
     {
-     "text": "Rep. Yvette D. Clarke of New York introduced the bill on December 2, 2025, joined by 22 original cosponsors, all Democrats.",
+     "text": "Rep. Yvette Clarke (D-NY) introduced the bill on December 2, 2025 with 22 original cosponsors, and 29 Democratic cosponsors joined in total.",
      "sources": [
       "S1",
-      "S2"
+      "S2",
+      "S3"
      ]
     },
     {
-     "text": "The Speaker referred it to two committees, Energy and Commerce and Oversight and Government Reform, for consideration of the provisions within each committee's jurisdiction.",
+     "text": "The bill was referred to the House Energy and Commerce Committee and, in addition, the House Oversight and Government Reform Committee, with consideration to be determined by the Speaker.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The bill has 29 cosponsors, all Democrats, and no further action has been taken since the referral.",
+     "text": "No hearing, markup, or floor action has been recorded since the referral, and no Republican has cosponsored the bill.",
      "sources": [
-      "S3",
+      "S1",
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, no outcome has been reached. If the bill stalls without action, AI developers and the businesses that deploy algorithms in consequential decisions are better off, avoiding audit requirements, reporting, and litigation exposure; consumers harmed by algorithmic decisions gain nothing until a law passes."
+   "who_came_out_ahead": "Companies that develop or use algorithms in hiring, lending, housing, insurance, and other high-stakes decisions are better off so far, because no anti-discrimination or audit requirements have advanced, and the liability, audit costs, and private lawsuits the bill would create have not materialized. The newly emerging algorithm-auditing industry also gains nothing yet, since the mandatory audit market the bill would create has not been established."
   },
-  "who_came_out_ahead_short": "No outcome yet; algorithm users benefit if it stalls",
+  "who_came_out_ahead_short": "Companies deploying high-stakes algorithms",
   "sides": {
    "for": [
     {
-     "name": "Rep. Yvette D. Clarke",
-     "role": "Sponsor, H.R. 6356",
+     "name": "Rep. Yvette Clarke",
+     "role": "U.S. Representative, NY-09; bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and assembled 22 original cosponsors.",
+     "what_they_did": "Introduced the Artificial Intelligence Civil Rights Act of 2025 in the House on December 2, 2025.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -110,13 +129,14 @@
      ]
     },
     {
-     "name": "29 House cosponsors",
-     "role": "Democratic cosponsor bloc (including members of the Progressive Caucus)",
+     "name": "29 of 217 House Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as cosponsors; the bill's support is entirely Democratic.",
+     "what_they_did": "Cosponsored the bill; all 29 cosponsors are Democrats, including the 22 original cosponsors listed on the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S2",
       "S3"
      ]
     }
@@ -124,80 +144,74 @@
    "against": [
     {
      "name": "House Energy and Commerce Committee",
-     "role": "Committee of referral (Republican-controlled)",
-     "party": "R",
-     "what_they_did": "Received the referral and has taken no further action on the bill; no hearing or markup scheduled in the available record.",
-     "direct": false,
+     "role": "Primary committee of referral",
+     "party": null,
+     "what_they_did": "Received the referral on December 2, 2025 and has taken no recorded action — no hearing, markup, or vote — since.",
+     "direct": true,
      "evidence": "record",
      "sources": [
+      "S1",
       "S4"
      ]
     },
     {
      "name": "House Oversight and Government Reform Committee",
-     "role": "Committee of referral (Republican-controlled)",
-     "party": "R",
-     "what_they_did": "Received the referral and has taken no further action on the bill; no hearing or markup scheduled in the available record.",
-     "direct": false,
+     "role": "Additional committee of referral",
+     "party": null,
+     "what_they_did": "Received the referral on December 2, 2025 and has taken no recorded action since.",
+     "direct": true,
      "evidence": "record",
      "sources": [
+      "S1",
       "S4"
      ]
     }
    ],
-   "party_line": "party_line",
-   "party_line_note": "All 29 cosponsors, including the sponsor, are Democrats; no Republican has signed on, and the bill sits in committees controlled by the House Republican majority."
+   "party_line": "mostly_party_line",
+   "party_line_note": "All 30 sponsors and cosponsors are House Democrats; no Republican has signed on, and the bill sits in committees controlled by the House Republican majority."
   },
   "industries": [
    {
-    "industry": "AI developers and algorithm providers",
+    "industry": "AI developers and companies deploying algorithms in hiring, lending, housing, insurance, and government services",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill requires independent audits before deployment, annual impact reviews, public disclosures, and exposes developers to treble-damages lawsuits and a ban on forced arbitration for these claims. Their commercial interest in avoiding these costs runs against the consumer protections the bill creates.",
+    "note": "The bill imposes mandatory harm screenings, independent audits, disclosures, a right to human decision-making, and private lawsuits with penalties of $15,000 or more per violation — costs and liability these companies do not currently face for algorithmic discrimination. The bill exists precisely because these systems currently shape hiring, credit, and housing without those checks.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Deployers of algorithms (employers, lenders, insurers, landlords, benefits administrators)",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "Any business using an algorithm for hiring, credit, housing, insurance, or benefits must run harm evaluations, offer human alternatives and appeals, and share liability with developers. Cost falls on them; the benefit of contestable decisions accrues to the public.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Independent algorithm auditors",
+    "industry": "Algorithm auditing services",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "The bill creates a mandated market for independent bias audits and a new federal occupational series for algorithm auditing, building a profession around the required assessments.",
+    "note": "The bill would create a mandatory market: any developer or deployer whose algorithm plausibly risks harm must hire an independent auditor, and it directs OPM to build a federal algorithm-auditing profession. The auditors' interest in a growing mandate runs alongside the public's interest in testing, though a too-small auditor pool could concentrate the market.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Federal Trade Commission and state enforcers",
+    "industry": "Federal Trade Commission",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "The FTC gains explicit jurisdiction over algorithmic discrimination, including over common carriers, banks, and nonprofits usually outside its reach, and may hire up to 500 staff; state attorneys general gain $15,000-per-violation or 4%-of-revenue penalties.",
+    "note": "The bill makes the FTC the lead enforcer and authorizes up to 500 additional staff plus appropriations, expanding its jurisdiction over entities like banks, airlines, and common carriers that it otherwise cannot reach.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill is at the starting line: newly introduced, referred to two committees, no Republican cosponsors, and no scheduled action. A partisan bill with no committee activity at this stage typically dies quietly at the end of the Congress. It could advance only if a committee schedules a hearing or markup, which currently shows no sign of happening.",
+  "trajectory": "With no Republican cosponsors, referral to two committees, and no recorded committee action weeks after introduction, the bill is unlikely to get a hearing or a floor vote this Congress; the realistic path is that it sits in committee until the 119th Congress ends in January 2027, as most first-term civil rights and tech-regulation bills do. Its main practical value is as a draft for a future Congress or for state legislatures.",
   "categories": [
    "consumer_protection_and_finance",
+   "wages_and_labor",
    "other"
   ],
   "scores": {
-   "public_stakes": 6,
-   "concentrated_stakes": 7,
-   "outcome_against_public": 1,
+   "public_stakes": 7,
+   "concentrated_stakes": 8,
+   "outcome_against_public": 4,
    "support_mismatch": 3,
    "corruption_relevance": 2,
-   "confidence": 0.85
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

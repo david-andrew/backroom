@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/711/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/711/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/711/cosponsors?format=json"
+  },
+  "introducedDate": "2025-02-25",
+  "latestAction": {
+   "actionDate": "2025-02-25",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/711",
+  "number": "711",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/711/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001242",
+    "firstName": "Bernie",
+    "fullName": "Sen. Moreno, Bernie [R-OH]",
+    "isByRequest": "N",
+    "lastName": "Moreno",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/M001242?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/711/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/711/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/711/text?format=json"
+  },
+  "title": "Transportation Freedom Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/711/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-07T18:32:58Z",
+  "updateDateIncludingText": "2026-01-07T18:32:58Z"
+ },
+ "request": {
+  "billNumber": "711",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
