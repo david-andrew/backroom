@@ -1,112 +1,93 @@
 {
  "bill_id": "118-s1120",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T16:03:00+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:24:42+00:00",
  "record_fetched_at": "2026-09-20T15:43:05+00:00",
  "record_hash": "8d0c709c9bbee983",
  "analysis": {
-  "one_liner": "Makes it easier for generic drug makers to get brand-name samples needed to develop cheaper copies.",
-  "headline": "The bill, introduced in March 2023 with one Democrat and one Republican behind it, never received a Senate committee vote and died when the Congress ended in January 2025.",
+  "one_liner": "Eases how generic drugmakers get brand-name drug samples to develop cheaper copies.",
+  "headline": "The bipartisan bill, introduced in March 2023, was referred to the Senate health committee and never received a vote before the Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would make it harder for brand-name drug companies to stall generic competition. Under current law, brand companies must sell samples of their drugs to generic makers who need them to develop and test lower-cost copies, and this bill would close common evasions: it would bar companies from using contract terms to refuse, let generic makers send requests by tracked overnight delivery, require them to publish who handles requests, and cut the Food and Drug Administration's wait time for approving sample requests for safety-restricted drugs from 120 days to 60 when no human trials are involved. It was referred to the Senate health committee and never taken up.",
-  "who_benefits": "Patients who would get cheaper generic drugs and biosimilars sooner, because the bill removes tools brand companies can use to slow the arrival of lower-cost competition: refusing to sell samples, imposing restrictive contract terms, ignoring or slow-walking written requests, and lengthy FDA waits for safety-restricted (REMS) drugs. Generic and biosimilar manufacturers, which must buy these samples to develop products, also gain directly.",
-  "who_benefits_short": "Patients waiting for cheaper generic drugs",
+  "plain_summary": "When a generic drugmaker wants to make a cheaper copy of a brand-name drug, it often needs actual samples of that drug. Brand-name companies can slow this by refusing to sell samples, adding restrictive contract terms, or through safety programs that limit distribution. This bill would tighten the rules: it would let generic makers prove a sample request was made through a tracked delivery service, sue over more kinds of delays, make the FDA act faster (60 days instead of 120) on requests to get restricted drugs when no human trials are involved, and require brand-name companies to publicly post their policies for handling sample requests.",
+  "who_benefits": "Consumers who pay for prescription drugs, since faster generic and biosimilar competition generally lowers prices. Generic and biosimilar manufacturers also benefit directly, because the bill gives them clearer legal tools to obtain samples and sue when brand-name companies delay.",
+  "who_benefits_short": "Patients who rely on generics",
   "how_it_helps": [
    {
-    "text": "Forces brand-name companies to sell samples on commercially reasonable, market-based terms and adds restrictive 'contractual terms' imposed by the license holder to the conditions that count as an unlawful refusal to provide samples.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Lets generic developers send purchase requests through tracked overnight or 2-day delivery services ('designated delivery services'), and allows repeated requests at each stage of development, so brand companies cannot quietly ignore requests or let them sit unopened in a mailroom.",
+    "text": "Lets generic developers prove they requested samples through a tracked delivery service and adds restrictive contract terms to the conduct that can trigger a civil suit against a brand-name company [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Cuts the FDA's deadline for authorizing access to samples of safety-restricted (REMS with ETASU) drugs from 120 days to 60 days when testing does not involve human clinical trials, speeding development of generics for drugs that are hard to study.",
+    "text": "Requires the FDA to authorize generic access to drugs with strict safety-distribution programs within 60 days instead of 120 when testing does not involve human clinical trials [S2].",
     "sources": [
-     "S2",
-     "S3"
+     "S2"
     ]
    },
    {
-    "text": "Requires each brand company to publicly post its policy for handling sample requests, with contact information, procedures, and the name of the corporate officer responsible — making refusals and delays visible and attributable.",
+    "text": "Requires brand-name manufacturers to publicly post policies on how they evaluate and respond to sample requests, including contact information and a named responsible officer [S2].",
     "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Extends the same protections to biosimilar developers, including treating a brand product's packaging, devices, and accessories as part of what must be provided, which matters for copycat versions of biologic drugs.",
-    "sources": [
-     "S3"
+     "S2"
     ]
    }
   ],
-  "who_pays": "Brand-name drug manufacturers, which lose some of the practical ways to delay generic and biosimilar competition — refusing sample sales via contract terms, ignoring written requests, and long FDA waits for safety-restricted drugs. Any resulting revenue loss shows up as shorter periods of monopoly pricing before cheaper copies reach the market.",
+  "who_pays": "Brand-name drug manufacturers, which would have to sell samples on demand, accept broader grounds for lawsuits over delays, and publish their handling policies. To the extent faster generic entry cuts into brand-name revenue, that cost is borne by the brand-name companies rather than passed to patients.",
   "who_pays_short": "Brand-name drug manufacturers",
   "drawbacks": [
    {
-    "text": "The bill is narrow: it only helps generic development where sample access is the bottleneck, and does nothing about the biggest price drivers — patent thickets, pay-for-delay settlements, or pharmacy middlemen — so its effect on drug prices would be modest and incremental.",
+    "text": "Brand manufacturers have long argued that forced sample sharing and faster generic entry can reduce the returns that fund development of new medicines; the bill widens the conditions that can trigger lawsuits and shortens FDA review timelines, though it keeps FDA authorization for requests involving human clinical trials [S2].",
     "sources": [
-     "S2",
-     "S3"
+     "S2"
     ]
    },
    {
-    "text": "It compresses FDA review of sample requests for safety-restricted (REMS with ETASU) drugs from 120 days to 60 in non-human-trial cases, giving the agency less time to confirm that a generic developer's handling of a risky drug meets the safety conditions the brand version is subject to.",
+    "text": "The bill targets one bottleneck in generic development; it would not cap drug prices or address other reasons generics are delayed, so its effect on out-of-pocket costs would likely be modest for any single drug [S2].",
     "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "It imposes new compliance duties on brand companies — public sample-access policies, named responsible officers, and acceptance of courier deliveries at any development stage — an administrative cost, though a small one relative to what the companies currently charge for their drugs.",
-    "sources": [
-     "S3"
+     "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "A well-targeted, low-risk fix. The costs are an administrative burden on brand manufacturers and a slightly faster clock at the FDA for safety-restricted drugs; the benefit is that generics and biosimilars reach patients sooner and cheaper. The main honest criticism is scale: it patches one workaround in the generic-approval process rather than addressing the largest causes of high drug prices, so patients should not expect dramatic savings from it.",
+  "benefit_vs_cost": "The likely benefits to patients through more timely generic competition outweigh the costs to brand-name manufacturers, though the bill is a narrow fix rather than a broad price control, and some safety-protocol concerns around restricted-distribution drugs remain even as the bill preserves FDA review.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced in March 2023, sent to the Senate health committee, and the committee never took it up, so it died quietly when the Congress ended in January 2025.",
+   "mechanism": "The Senate referred it to the Health, Education, Labor, and Pensions Committee, which never acted on it, and it died when the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Senator Maggie Hassan introduced the bill on March 30, 2023, joined by Republican Senator Mike Braun, giving it bipartisan sponsorship from the start.",
+     "text": "Sen. Maggie Hassan introduced the bill on March 30, 2023, joined by Sen. Mike Braun, making it a Democratic-Republican pairing from the start [S3].",
      "sources": [
-      "S1",
-      "S3",
+      "S3"
+     ]
+    },
+    {
+     "text": "One Senate Republican cosponsored the bill [S4].",
+     "sources": [
       "S4"
      ]
     },
     {
-     "text": "That same day the Senate read it twice and referred it to the Committee on Health, Education, Labor, and Pensions.",
+     "text": "The Senate read the bill twice and referred it to the Committee on Health, Education, Labor, and Pensions on the day of introduction; no further action appears in the record [S5].",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "No further action was ever taken: no hearing, no committee vote, no floor vote — the action history ends with the referral, and the bill expired with the 118th Congress on January 3, 2025.",
+     "text": "No committee markup, floor vote, or passage ever occurred, and the 118th Congress ended on January 3, 2025, killing the bill [S5].",
      "sources": [
       "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Brand-name drug manufacturers are better off, because the existing tools this bill would have restricted — refusing or slow-walking sample requests and lengthy waits for safety-restricted drugs — remain available, and cheaper generic competition keeps arriving later than it otherwise might."
+   "who_came_out_ahead": "Brand-name drug manufacturers are better off, since they keep the existing ability to delay sample requests without the new disclosure duties, shortened FDA timelines, and expanded lawsuit grounds the bill would have imposed. Patients waiting for cheaper generic versions gained nothing."
   },
-  "who_came_out_ahead_short": "Brand-name drug companies",
+  "who_came_out_ahead_short": "Brand-name drug makers",
   "sides": {
    "for": [
     {
      "name": "Sen. Maggie Hassan",
-     "role": "U.S. Senator (NH)",
+     "role": "U.S. Senator, New Hampshire",
      "party": "D",
-     "what_they_did": "Sponsored and introduced the bill on March 30, 2023.",
+     "what_they_did": "Introduced the bill to speed generic and biosimilar development by easing sample access.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -116,13 +97,24 @@
     },
     {
      "name": "Sen. Mike Braun",
-     "role": "U.S. Senator (IN)",
+     "role": "U.S. Senator, Indiana; cosponsor",
      "party": "R",
-     "what_they_did": "Cosponsored the bill at introduction, its only Republican support.",
+     "what_they_did": "Cosponsored the bill, giving it bipartisan sponsorship.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S3",
+      "S4"
+     ]
+    },
+    {
+     "name": "1 of 49 Senate Republicans",
+     "role": "Senate Republican cosponsors",
+     "party": "R",
+     "what_they_did": "Cosponsored the bill.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
       "S4"
      ]
     }
@@ -130,34 +122,25 @@
    "against": [
     {
      "name": "Senate HELP Committee leadership",
-     "role": "Committee on Health, Education, Labor, and Pensions",
+     "role": "Chair, Senate Health, Education, Labor, and Pensions Committee",
      "party": null,
-     "what_they_did": "Received the bill by referral on March 30, 2023 and never scheduled a markup or vote; the bill sat for 21 months until the Congress ended.",
+     "what_they_did": "Took no recorded action after the bill was referred on March 30, 2023; no markup or vote was ever scheduled.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S5"
      ]
-    },
-    {
-     "name": "Sen. Bernie Sanders",
-     "role": "Chair, Senate HELP Committee (118th Congress)",
-     "party": "I",
-     "what_they_did": "Led the committee that took no action on the bill after referral; nothing in the record shows the bill was prioritized for a hearing or vote.",
-     "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
     }
    ],
-   "party_line": "unclear",
-   "party_line_note": "The bill's only sponsor was a Democrat and its only cosponsor a Republican, but because no committee or floor vote ever occurred, the chamber's partisan breakdown on it is unknown."
+   "party_line": "bipartisan",
+   "party_line_note": "A Democrat introduced the bill and a Republican cosponsored it; there is no record of opposition votes because the bill never reached the floor."
   },
   "industries": [
    {
-    "industry": "Brand-name pharmaceutical companies",
+    "industry": "Brand-name (innovator) drug manufacturers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would strip away several practical ways to delay generic competition — refusing to sell samples through contract terms, ignoring or slow-walking written requests, and lengthy FDA waits for safety-restricted drugs — shortening the period of monopoly pricing. Its interest in preserving those delays runs directly against patients paying brand prices.",
+    "note": "The bill would force them to sell samples to generic developers on request, accept broader grounds for delay lawsuits, and post their sample-request policies publicly. Their interest in resisting sample access runs against patients who want cheaper generic versions sooner.",
     "sources": [
      "S2",
      "S3"
@@ -167,34 +150,24 @@
     "industry": "Generic and biosimilar drug manufacturers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "These companies must buy brand-name samples to develop and test copies, and the bill makes those samples easier to get and requests harder to ignore. Faster generic development is exactly how their product pipeline advances, which is also when patients see savings.",
+    "note": "The bill gives them faster FDA authorization for restricted drugs, proof-of-request tools, and expanded legal remedies, which lets them bring lower-priced copies to market sooner. Their gain comes through lower prices for patients.",
     "sources": [
      "S2",
-     "S3"
-    ]
-   },
-   {
-    "industry": "National courier and delivery services",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "The bill defines a class of tracked overnight and 2-day delivery services as the official channel for sample requests, creating a small new business use for couriers like these. A minor effect alongside the main provisions.",
-    "sources": [
      "S3"
     ]
    }
   ],
   "trajectory": null,
   "categories": [
-   "healthcare_and_drug_prices",
-   "antitrust_and_competition"
+   "healthcare_and_drug_prices"
   ],
   "scores": {
    "public_stakes": 5,
-   "concentrated_stakes": 7,
-   "outcome_against_public": 6,
+   "concentrated_stakes": 5,
+   "outcome_against_public": 4,
    "support_mismatch": 4,
-   "corruption_relevance": 2,
-   "confidence": 0.9
+   "corruption_relevance": 1,
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

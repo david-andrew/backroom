@@ -1,152 +1,116 @@
 {
  "bill_id": "118-hr17",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T11:58:46+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:49:22+00:00",
  "record_fetched_at": "2026-09-20T11:20:10+00:00",
  "record_hash": "d09fdf80da2d85c3",
  "analysis": {
-  "one_liner": "Strengthens enforcement of equal pay for women by narrowing employer defenses and banning salary-history screening.",
-  "headline": "The bill won 221 House cosponsors, including one Republican, but committees never held a hearing or vote before the 118th Congress ended.",
+  "one_liner": "Makes it easier to sue employers who pay women less and harder for them to justify it.",
+  "headline": "The bill drew 221 House cosponsors, including 220 of the chamber's Democrats, but never received a committee or floor vote before the Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "The Paycheck Fairness Act would make it easier for workers to win sex-based pay discrimination cases by limiting the defenses employers can raise, adding compensatory and punitive damages, and allowing class actions. It would also ban employers from demanding or relying on a job applicant's prior salary, let workers discuss their wages without retaliation, require large employers to report pay data by sex, race, and national origin, and fund salary-negotiation training and pay-gap research.",
-  "who_benefits": "Workers — especially women and workers of color, who together lose an estimated tens of billions of dollars a year to pay discrimination — gain stronger legal tools: a narrower employer defense, real damages, class-action access, protection for discussing wages, and a ban on salary-history screening that locks in past underpayment. Small businesses are exempt, and federal small-business compliance help is provided.",
-  "who_benefits_short": "Women workers and workers of color",
+  "plain_summary": "The bill strengthens the Equal Pay Act so an employer can only justify paying a woman less than a man with a job-related, business-necessity reason that explains the whole gap. It bans employers from asking a job applicant's salary history, protects workers who discuss their wages from retaliation, adds compensatory and punitive damages for victims, and requires large employers to report pay data by sex, race, and national origin so discrimination can be detected.",
+  "who_benefits": "Women and workers in protected classes who are underpaid relative to coworkers doing the same work. The bill gives them stronger lawsuits, broader damages including attorney and expert fees, class-action rights, and an easier path because employers must prove their pay gap reason is job-related. It also bans employers from using a new hire's prior salary to justify a lower starting wage, which stops past discrimination from following workers from job to job.",
+  "who_benefits_short": "Women facing pay discrimination",
   "how_it_helps": [
    {
-    "text": "An employer could only defeat a pay-discrimination claim by proving its pay difference rests on a job-related factor tied to business necessity that explains the entire differential and is not itself derived from a sex-based pay gap.",
+    "text": "An employer claiming a pay gap is based on education, training, or experience must prove the factor is job-related, consistent with business necessity, and accounts for the entire differential, and loses the defense if a less discriminatory alternative would serve the same business purpose [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Employees who win could recover compensatory damages, and punitive damages where the employer acted with malice or reckless indifference; equal-pay claims could be maintained as class actions under the Federal Rules of Civil Procedure.",
+    "text": "Employees win compensatory damages, punitive damages where the employer acted with malice or reckless indifference, and expert fees; equal pay claims can proceed as class actions [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Employers could not fire or retaliate against workers for inquiring about, discussing, or disclosing wages, and could not require employees to sign contracts or waivers barring wage disclosure.",
+    "text": "Employers may not seek or rely on a prospective employee's wage history in hiring or pay decisions, with civil penalties of $5,000 per first violation and up to $10,000 in special damages per affected worker [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "The bill makes it unlawful to require employees to sign contracts or waivers prohibiting disclosure of their wages and expands retaliation protections to workers who inquire about, discuss, or disclose wages [S2] [S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Employers could not seek or rely on a job applicant's wage history in hiring or setting pay (except to support a wage higher than the one offered after a voluntary disclosure), with civil penalties up to $10,000 per violation and special damages for applicants.",
+    "text": "The EEOC must collect annual compensation data disaggregated by sex, race, and national origin from employers with 100 or more employees, for use in investigating pay discrimination charges [S3].",
     "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Employers with 100 or more workers would have to report compensation data disaggregated by sex, race, and national origin annually, so the EEOC can target investigations of pay discrimination.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "The bill defines 'sex' to include pregnancy, sexual orientation, gender identity, and sex characteristics, extending equal-pay protections to those groups.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "The Department of Labor would run grant programs for salary-negotiation training and conduct studies and public outreach on pay disparities, and an interagency Equal Pay Enforcement Task Force would coordinate enforcement.",
-    "sources": [
-     "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Employers — chiefly large employers — bear new liability for compensatory and punitive damages, civil penalties, mandatory annual pay-data reporting, notice-posting requirements, and litigation risk from easier class actions. Federal agencies take on new data-collection, enforcement, training, and research duties funded by unspecified appropriations.",
-  "who_pays_short": "Large employers and federal agencies",
+  "who_pays": "Employers, particularly larger ones. They face expanded lawsuit exposure with new damages categories, new administrative duties (pay data reporting, workplace notices), and in some cases will have to restructure pay practices that currently produce gaps. Small businesses that are exempt from the Fair Labor Standards Act are exempt here too [S3].",
+  "who_pays_short": "Large and mid-size employers",
   "drawbacks": [
    {
-    "text": "Employers would face substantially higher litigation exposure: punitive damages, class actions, and a defense they must prove element-by-element, which business groups argued could push companies toward rigid pay formulas and settlement of weak claims.",
+    "text": "Employers would face significantly higher litigation risk, since narrowed defenses, punitive damages, and class actions raise the cost of even good-faith pay practices that fall short, and businesses bear new compliance and reporting burdens [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Employers with 100 or more employees would take on annual compensation-data reporting by sex, race, and national origin, a compliance cost the bill itself acknowledges it should weigh against enforcement benefits.",
+    "text": "The measure exempts small enterprises to the same extent they are exempt from the Fair Labor Standards Act, so many small employers and their employees fall outside its protections [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill authorizes appropriations of 'such sums as may be necessary' for grants, studies, and an enforcement task force with no dollar cap.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "The county-based definition of 'same establishment' broadens who can be compared for pay claims beyond a single workplace, which employers argued could produce misleading cross-location comparisons.",
+    "text": "Training, research, and grant programs in the bill are funded by 'such sums as may be necessary' with no cost estimate attached, an open-ended federal authorization [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "For workers whose pay has been depressed by discrimination or by salary-history screening, the bill's remedies are meaningful and directly targeted at documented enforcement gaps. The costs fall on employers as litigation risk, damages exposure, and reporting paperwork, and the open-ended appropriations deserve scrutiny; the small-business exemption and required compliance assistance soften the burden on the smallest firms. On balance the bill's benefits to workers clearly outweigh its compliance costs, though the litigation expansion is the strongest good-faith objection.",
+  "benefit_vs_cost": "For workers facing sex-based pay gaps, the bill materially changes the balance: today the employer controls the evidence and the legal standard is easy to meet; the bill shifts the burden, adds damages, and bars salary-history practices that import past discrimination into new jobs. The main cost falls on employers in the form of compliance work and litigation exposure, which is the intended deterrent, though opponents argue it invites lawsuits over legitimate pay differences. The small-business exemption limits both the benefit and the burden.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The bill was referred to two House committees on the day it was introduced, and neither committee ever held a hearing or markup on it, so it died when the 118th Congress ended.",
+   "mechanism": "It was referred to the Education and Workforce and Oversight committees on introduction day, never got a committee vote or floor vote, and died when the 118th Congress ended.",
    "narrative": [
     {
-     "text": "Rep. Rosa DeLauro introduced the Paycheck Fairness Act in the House on March 10, 2023, with 221 original cosponsors.",
-     "sources": [
-      "S1",
-      "S3",
-      "S5"
-     ]
-    },
-    {
-     "text": "The bill was referred to the Committee on Education and the Workforce and in addition to the Committee on Oversight and Accountability, in each case for consideration of provisions within their jurisdiction.",
-     "sources": [
-      "S1",
-      "S5"
-     ]
-    },
-    {
-     "text": "No further action — no hearing, markup, committee report, or floor vote — appears in the bill's action history for the remainder of the 118th Congress.",
+     "text": "Representative Rosa DeLauro introduced the bill on March 10, 2023, and it was referred the same day to the Committee on Education and the Workforce and the Committee on Oversight and Accountability [S5].",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "The bill attracted 221 cosponsors, 220 Democrats and 1 Republican (Rep. Brian Fitzpatrick), a level of support well short of what would be needed to force action but substantial for a bill that never advanced.",
+     "text": "The bill accumulated 221 cosponsors, 220 House Democrats and 1 House Republican, but no further action was recorded before the 118th Congress ended on January 3, 2025 [S4] [S5].",
      "sources": [
-      "S4"
+      "S4",
+      "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Employers are better off because the bill died: they avoided expanded liability for compensatory and punitive damages, class-action exposure, a salary-history ban, and mandatory pay-data reporting. The bill's cosponsors, and the workers it aimed to protect, are left with the existing equal-pay enforcement system."
+   "who_came_out_ahead": "Employers are better off because the bill died: they keep the current legal standard, under which they need only show any factor other than sex explains a pay gap, and they avoid new pay-data reporting and expanded damages. House Republicans who opposed the measure also benefit, since a vote would have forced members to go on record."
   },
-  "who_came_out_ahead_short": "Employers who avoided new pay-bias liability",
+  "who_came_out_ahead_short": "Employers avoiding new pay-discrimination liability",
   "sides": {
    "for": [
     {
      "name": "Rosa DeLauro",
      "role": "U.S. Representative (D-CT), lead sponsor",
      "party": "D",
-     "what_they_did": "Introduced the Paycheck Fairness Act and recruited more than 200 House cosponsors.",
+     "what_they_did": "Introduced the bill and recruited the House's top Democrats as original cosponsors.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3",
       "S5"
      ]
     },
     {
-     "name": "220 House Democratic cosponsors, including House leaders Jeffries, Pelosi, Hoyer, and Clyburn",
-     "role": "Cosponsors",
+     "name": "220 of 216 House Democrats",
+     "role": "House Democratic cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as cosponsors of the bill.",
+     "what_they_did": "Cosponsored the bill, giving it near-unanimous support within the caucus.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
       "S4"
      ]
     },
@@ -154,7 +118,7 @@
      "name": "Brian Fitzpatrick",
      "role": "U.S. Representative (R-PA)",
      "party": "R",
-     "what_they_did": "The only Republican cosponsor of the bill.",
+     "what_they_did": "Was the bill's only Republican cosponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -164,10 +128,10 @@
    ],
    "against": [
     {
-     "name": "House Education and the Workforce Committee",
-     "role": "Committee of primary referral (Republican majority in the 118th Congress)",
-     "party": null,
-     "what_they_did": "Took no recorded action on the bill — no hearing, markup, or report — for the entire Congress.",
+     "name": "Virginia Foxx",
+     "role": "Chair, House Education and Workforce Committee",
+     "party": "R",
+     "what_they_did": "Her committee, the bill's primary referral, never held a markup or vote on it in two years.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -175,10 +139,10 @@
      ]
     },
     {
-     "name": "House Oversight and Accountability Committee",
-     "role": "Second committee of referral",
-     "party": null,
-     "what_they_did": "Took no recorded action on the provisions within its jurisdiction.",
+     "name": "James Comer",
+     "role": "Chair, House Oversight and Accountability Committee",
+     "party": "R",
+     "what_they_did": "His committee, the bill's second referral, never took action on it.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -187,23 +151,23 @@
     },
     {
      "name": "House Republican leadership",
-     "role": "Majority party controlling the House floor and committee calendars",
+     "role": "Speaker and majority leadership",
      "party": "R",
-     "what_they_did": "Never scheduled the bill for floor consideration; with committee chairs in the majority declining to act, no path to a vote existed.",
+     "what_they_did": "Never scheduled the bill for a floor vote during the 118th Congress.",
      "direct": true,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "mostly_party_line",
-   "party_line_note": "Cosponsorship was almost entirely Democratic — 220 Democrats to 1 Republican — and no vote was ever held, so the bill's fate was decided by which party controlled the House committees rather than by a recorded division."
+   "party_line_note": "All 220 Democratic cosponsors joined against a single Republican; the committees and leadership that never moved the bill were both controlled by Republicans, so the split fell almost entirely along party lines."
   },
   "industries": [
    {
-    "industry": "Large employers (businesses with 100 or more employees)",
+    "industry": "Employers with 100 or more employees",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "They would face compensatory and punitive damages, class-action exposure, annual pay-data reporting by sex, race, and national origin, and a ban on using salary history in hiring. The bill's failure leaves them free of these costs, while workers keep today's weaker equal-pay remedies.",
+    "note": "The bill narrows their legal defense against equal pay claims, adds compensatory and punitive damages and class actions, bans salary-history questions, and requires annual pay data reporting by sex, race, and national origin. The cost is compliance and litigation exposure; the benefit to workers is stronger enforcement of equal pay.",
     "sources": [
      "S3"
     ]
@@ -211,28 +175,18 @@
    {
     "industry": "Small businesses",
     "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "The bill exempts small enterprises to the same extent they are exempt from the Fair Labor Standards Act and requires federal compliance-assistance materials for them, but those below the FLSA thresholds would remain outside its protections too.",
+    "stance_toward_public": "aligned",
+    "note": "Small enterprises are exempt to the same extent they are exempt from the Fair Labor Standards Act, so most of the bill's duties and liabilities skip them, though their employees also get no new protections.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Employment litigation and compliance industries (HR consulting, EEO plaintiffs' bar)",
-    "effect": "gains",
-    "stance_toward_public": "mixed",
-    "note": "Expanded damages, class actions, mandatory reporting, and new compliance notices would create work for employment lawyers, HR compliance vendors, and EEO data-reporting services if the bill passed.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "Federal enforcement agencies (EEOC, DOL's OFCCP, Bureau of Labor Statistics)",
+    "industry": "Human resources and payroll compliance services",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "The bill gives the EEOC and Labor Department new enforcement authority, pay-data collection mandates, training duties, and research programs, funded by open-ended appropriations.",
+    "note": "Annual compensation-data reporting by 100+ employee employers and new workplace notice requirements would create compliance work for data, payroll, and HR services firms.",
     "sources": [
-     "S2",
      "S3"
     ]
    }
@@ -242,9 +196,9 @@
    "wages_and_labor"
   ],
   "scores": {
-   "public_stakes": 6,
-   "concentrated_stakes": 5,
-   "outcome_against_public": 8,
+   "public_stakes": 8,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 9,
    "support_mismatch": 8,
    "corruption_relevance": 2,
    "confidence": 0.9

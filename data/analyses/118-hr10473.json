@@ -1,105 +1,109 @@
 {
  "bill_id": "118-hr10473",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:05:58+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:42:57+00:00",
  "record_fetched_at": "2026-09-20T11:23:09+00:00",
  "record_hash": "4a950a87c85db598",
  "analysis": {
-  "one_liner": "Bars automakers from selling drivers' vehicle data and gives owners free control of it.",
-  "headline": "The bill was introduced on December 18, 2024, referred to the House Energy and Commerce Committee, and died there two weeks later when the Congress ended, without a hearing, a markup, or a vote.",
+  "one_liner": "Stops carmakers from selling your vehicle's data and gives you free control over it.",
+  "headline": "The bill was introduced on December 18, 2024 and referred to the House Energy and Commerce Committee, where it died with no vote as the Congress ended on January 3, 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would stop car and truck makers from collecting or selling the data their vehicles generate — location, driving behavior, internet activity — unless the owner gives clear, written, revocable consent. It would also require manufacturers to give owners free, open access to their own vehicle data, allow them to delete their data, and make it a federal trade violation to sell Americans' vehicle data to China, Russia, North Korea, Iran, or Venezuela. The Federal Trade Commission would enforce the rules.",
-  "who_benefits": "Drivers and owners of cars, trucks, and farm or construction equipment. Modern vehicles record where you go, how you drive, and sometimes what you do online. Under this bill, that data could not be accessed or sold without the owner's affirmative written consent (except to improve vehicle safety or performance, or under a warrant, court order, or emergency), owners could get and control their own data at no extra cost, and they could delete data they generated. Independent repair shops would also benefit, because owners could access and share their vehicle's data without paying a manufacturer for decryption tools or using manufacturer-only devices [S2].",
-  "who_benefits_short": "Vehicle owners and drivers",
+  "plain_summary": "Modern cars constantly record where you go and how you drive. This bill would forbid manufacturers from selling or sharing that data — including with foreign governments like China, Russia, and Iran — unless a court order, emergency, or the owner's consent allows it. It would also require automakers to give owners free access to their own vehicle's data through a standard interface, with FTC-enforced rules and standards. The bill never got a hearing or a vote before the congressional session ended.",
+  "who_benefits": "Vehicle owners — drivers of cars, trucks, and farm and construction equipment. Today, connected cars record location, driving behavior, and in-car activity, and manufacturers can sell or share that data. The bill would require the owner's explicit, written, revocable consent before a manufacturer could access it, bar sales except under court order or in emergencies, prohibit sharing Americans' personal data with China, Russia, North Korea, Iran, and Venezuela, and guarantee owners free access to and deletion of their own data through a secure, technology-neutral interface.",
+  "who_benefits_short": "Drivers and equipment owners",
   "how_it_helps": [
    {
-    "text": "Would require a vehicle owner's freely given, informed, written, revocable consent before a manufacturer may access the data the vehicle generates, with only narrow exceptions for improving vehicle performance or safety, warrants, court orders with 48 hours' notice to object, and emergencies.",
+    "text": "Bans manufacturers from selling, leasing, or sharing vehicle data except under a warrant, a court order with notice and a hearing, an emergency, or the owner's explicit permission.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Would generally prohibit manufacturers from selling, leasing, or sharing vehicle operator data, and would flatly ban selling Americans' vehicle data — including location and internet activity — to North Korea, China, Russia, Iran, or Venezuela.",
+    "text": "Prohibits sharing any American's personally identifiable information — including location and internet activity — with China, Russia, North Korea, Iran, or Venezuela.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Would require manufacturers to give owners access to and control of their vehicle's data at no cost beyond the purchase price, with no fee to decrypt it and no requirement to use manufacturer-provided devices, and would require open interfaces so owners can delete their own data and set their own preferences.",
+    "text": "Requires manufacturers to give owners free, unrestricted access to their vehicle's data through a secure, technology-neutral interface, with no fees or proprietary devices required.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Would make violations enforceable by the FTC as unfair or deceptive practices, and would require the FTC to report to Congress within 180 days on who is accessing vehicle data, where it is sold, and how often it has been compromised.",
+    "text": "Requires open APIs so owners can delete their own data and control vehicle settings, and directs the FTC to set and periodically update security standards.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Makes violations enforceable by the FTC as unfair or deceptive practices.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Automakers, who would lose the ability to monetize the data their connected vehicles generate, would have to build open, secure, technology-neutral data interfaces at their own expense (the bill allows no new FTC appropriations, so the agency would have to do the work from existing funds), and could not charge owners for decryption or access tools [S2]. Companies that buy telematics data — brokers, insurers, and marketers — would lose their supply of driver data [S2].",
-  "who_pays_short": "Automakers and vehicle data brokers",
+  "who_pays": "Automakers, who would lose a growing revenue stream from selling vehicle data and would have to build open, standards-based data interfaces for owners. Some compliance costs could ultimately be passed on in vehicle prices.",
+  "who_pays_short": "Automakers and data brokers",
   "drawbacks": [
    {
-    "text": "The bill preempts state law: Section 7 says it supersedes any state statute or rule relating to its requirements, which could override stronger state vehicle-privacy protections (such as California's) with a single federal floor.",
+    "text": "Section 7 preempts any state or federal law touching the same requirements, which would override stronger state auto-privacy protections in places like California.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The consent rules have a broad carve-out: manufacturers may access operator data without consent whenever it is 'solely to improve covered vehicle performance or safety,' a term the bill does not define, which could swallow much of the protection.",
+    "text": "The bill lets manufacturers access operator data without consent whenever it is 'solely to improve covered vehicle performance or safety' — a broad exception that could swallow much of the consent rule in practice.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Only the FTC could enforce the bill; there is no private right of action for individual drivers, and the FTC is directed to do the reporting and standards-setting work with no new appropriations, stretching existing agency resources.",
+    "text": "Compliance costs for automakers would be significant: building open, technology-neutral data interfaces and complying with new FTC standards, costs that could be passed to buyers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The FTC would have up to a year after its initial report to set the required data-access standards, so owners' rights would not be fully usable until well after enactment.",
+    "text": "The FTC must write detailed technical standards within roughly 21 months and must do so with no new appropriations, which could delay or weaken implementation.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "For drivers, the upside is substantial: control over where-you-go and how-you-drive data that is currently collected and sold largely without meaningful consent, plus a right-to-repair-style guarantee of free access to one's own vehicle data. The main costs fall on automakers and data brokers, which is the point of the bill. The genuine design tradeoffs are the broad 'performance or safety' loophole, the override of stronger state privacy laws, and the lack of any private right of action — all fixable, but real. On balance the protections outweigh the costs for ordinary vehicle owners.",
+  "benefit_vs_cost": "The benefits are substantial: your car's data would stop being a product sold about you, and you would own access to it. The costs are real but modest: compliance work for manufacturers, and the FTC would need to write standards without new money. The bill is also somewhat blunt — its preemption clause would wipe out any state auto-data privacy law, and its safety-research exception is broad enough that manufacturers could still access data without consent by labeling it performance or safety work. On balance, though, it addresses a fast-growing privacy problem in a fairly direct way.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was sent to the House Energy and Commerce Committee the day it was introduced and never came back out; the Congress ended and the bill died with it.",
+   "mechanism": "It was introduced in the final two weeks of the congressional session and sent to the Energy and Commerce Committee, which never acted on it before the session ended.",
    "narrative": [
     {
-     "text": "Representative Eric Burlison introduced the Auto Data Privacy and Autonomy Act on December 18, 2024, with Representative Andy Biggs as its one cosponsor.",
+     "text": "Introduced December 18, 2024, less than three weeks before the 118th Congress expired.",
      "sources": [
-      "S2",
-      "S3"
-     ]
-    },
-    {
-     "text": "The same day, the bill was referred to the House Committee on Energy and Commerce, which is where bills affecting the FTC and communications policy are handled.",
-     "sources": [
-      "S1",
       "S4"
      ]
     },
     {
-     "text": "No further action was ever taken — no hearing, no committee vote, no floor action — and the 118th Congress ended on January 3, 2025, killing the bill.",
+     "text": "Referred the same day to the House Energy and Commerce Committee; no hearing, markup, or floor vote followed.",
      "sources": [
       "S4"
+     ]
+    },
+    {
+     "text": "The Congress ended January 3, 2025, and the bill expired with the session, carrying over no further action.",
+     "sources": [
+      "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Automakers and the vehicle-data industry are better off because the bill died: connected vehicles continue generating, collecting, and selling driver data under whatever rules existed before, with no consent requirement, no foreign-adversary sales ban, and no owner right to free access."
+   "who_came_out_ahead": "Automakers keep full control over the data their connected cars generate and the revenue it can bring, and owners gained no new rights."
   },
-  "who_came_out_ahead_short": "Automakers and vehicle data brokers",
+  "who_came_out_ahead_short": "Carmakers, which keep data control",
   "sides": {
    "for": [
     {
      "name": "Rep. Eric Burlison",
-     "role": "Sponsor",
+     "role": "Sponsor (R-MO)",
      "party": "R",
      "what_they_did": "Introduced the bill on December 18, 2024.",
      "direct": true,
@@ -111,57 +115,65 @@
     },
     {
      "name": "Rep. Andy Biggs",
-     "role": "Original cosponsor (the bill's only cosponsor)",
+     "role": "Original cosponsor (R-AZ)",
      "party": "R",
-     "what_they_did": "Signed on as the sole cosponsor at introduction.",
+     "what_they_did": "Joined as an original cosponsor at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
-      "S3"
+      "S2"
      ]
     }
    ],
    "against": [
     {
-     "name": "House Energy and Commerce Committee (chair and members)",
-     "role": "Committee of referral",
-     "party": "R",
-     "what_they_did": "Took no action on the bill after referral — no hearing, no markup, no vote — before the Congress ended.",
+     "name": "House Energy and Commerce Committee",
+     "role": "Committee of jurisdiction",
+     "party": null,
+     "what_they_did": "Received the referral and took no action — no hearing, markup, or report before the Congress ended.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S4"
      ]
+    },
+    {
+     "name": "Automobile manufacturers",
+     "role": "Auto industry",
+     "party": null,
+     "what_they_did": "The industry has long opposed restrictions on collecting and monetizing vehicle telematics data and on right-to-repair access requirements.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "No vote was ever recorded; the bill's only support was two Republican House members, and no member is on record in opposition."
+   "party_line_note": "The bill never attracted enough action to reveal a partisan divide: one Republican sponsor, one cosponsor, and no votes or committee activity."
   },
   "industries": [
    {
-    "industry": "Automakers (connected-vehicle manufacturers)",
+    "industry": "Automakers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Connected cars and trucks generate a constant stream of location, driving-behavior, and device data that manufacturers currently collect and monetize. The bill would require consent for access, bar most sales of that data, ban sales to five adversarial governments, and force manufacturers to give owners free, open access to their own vehicle data at the manufacturers' expense.",
+    "note": "They would lose the ability to collect, monetize, and gate access to the data their connected vehicles generate, and would have to build open data interfaces at their own expense. Their interest in blocking this runs against vehicle owners' control over their own data.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Telematics data brokers and the insurers/marketers that buy driver data",
+    "industry": "Data brokers and telematics services",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These firms depend on vehicle data sold or shared by manufacturers — including driving-behavior data used to set insurance rates. The bill would cut off most of that supply by requiring owner consent before any sale or sharing.",
+    "note": "A secondary market in vehicle location and behavior data would be sharply curtailed, since sharing would require the owner's explicit consent or legal process.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Independent auto repair shops and aftermarket tools makers",
+    "industry": "Independent repair shops and aftermarket device makers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "By requiring manufacturers to provide owners free, technology-neutral access to vehicle data without proprietary decryption fees or manufacturer-only devices, the bill would make it easier for owners to have their vehicles diagnosed and repaired outside the dealer network.",
+    "note": "The technology-neutral access requirement would let owners authorize third parties to read vehicle data without paying manufacturer licensing fees, weakening a closed ecosystem.",
     "sources": [
      "S2"
     ]
@@ -169,14 +181,15 @@
   ],
   "trajectory": null,
   "categories": [
-   "consumer_protection_and_finance"
+   "consumer_protection_and_finance",
+   "other"
   ],
   "scores": {
    "public_stakes": 6,
-   "concentrated_stakes": 6,
-   "outcome_against_public": 6,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 4,
    "support_mismatch": 3,
-   "corruption_relevance": 2,
+   "corruption_relevance": 1,
    "confidence": 0.9
   }
  },

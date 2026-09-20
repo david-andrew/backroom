@@ -1,118 +1,113 @@
 {
  "bill_id": "118-hr6092",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T11:53:10+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:04:06+00:00",
  "record_fetched_at": "2026-09-20T11:16:45+00:00",
  "record_hash": "0539e6d97f029854",
  "analysis": {
-  "one_liner": "Requires police to get a court order before running facial recognition searches and bans real-time face surveillance.",
-  "headline": "The Facial Recognition Act of 2023 was never taken up by either committee it was referred to, and died without a vote when the 118th Congress ended in January 2025.",
+  "one_liner": "Requires police to get a warrant before using facial recognition and bans its use in surveillance and immigration enforcement.",
+  "headline": "The Facial Recognition Act of 2023 was referred to two House committees the day it was introduced, was never taken up by either one, and died without a single vote when the 118th Congress ended in January 2025 [S1][S4].",
   "direction": "for_working_people",
-  "plain_summary": "The bill would set the first federal rules for how police use facial recognition. Officers would need a court order, based on probable cause of a serious crime, before searching databases of driver's license photos, passport photos, or arrest photos. It bans using the technology for real-time tracking and surveillance, on body and dashboard cameras, or to enforce immigration law; it requires annual accuracy and bias testing, public reporting and audits, notice to people identified by the technology, and lets people sue for $50,000 per violation when police use it unlawfully. States that don't comply would lose 15% of a federal justice grant.",
-  "who_benefits": "Anyone whose photo sits in a government database — effectively everyone with a driver's license, passport, or prior arrest. The people most directly protected are those wrongly identified by inaccurate systems, people arrested but never charged (whose photos must be purged from databases used for searches), and people of color, on whom misidentification errors fall hardest.",
-  "who_benefits_short": "Everyone in police photo databases",
+  "plain_summary": "This bill would put court oversight around police use of facial recognition: officers would generally need a warrant to search databases of driver's license, passport, and arrest photos against a face image. It would ban scanning body camera and drone footage, ban real-time face surveillance, ban using facial recognition to track people exercising First Amendment rights or to enforce immigration law, and require annual testing to prove the systems are accurate across race, gender, and age. It also gives people wrongly identified the right to sue for up to $50,000 per violation and lets courts throw out evidence obtained illegally. It never received a hearing, a markup, or a vote [S1][S4].",
+  "who_benefits": "Everyone whose photo sits in a government database — which is essentially every licensed driver — plus people wrongly identified by facial recognition. The bill's sponsor pointed to the risk that error-prone systems misidentify people, with documented disparities by race and gender, leading to wrongful stops and arrests. The notice provisions would tell people arrested via a facial recognition match which system and database flagged them.",
+  "who_benefits_short": "Drivers, crime suspects, and misidentified people",
   "how_it_helps": [
    {
-    "text": "Police could only search reference photo databases (driver's licenses, passports, arrest photos) with a court order requiring probable cause of a serious felony-level offense, with narrow emergencies like AMBER Alerts and immediate danger of death allowed first and a 12-hour deadline to get a judge's approval afterward.",
+    "text": "Police could search reference photo databases (driver's license, passport, and arrest photos) only under a court order based on probable cause of a serious crime, after other investigative steps failed, with narrow emergency exceptions requiring prosecutor approval within 12 hours [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill bans facial recognition used for real-time face surveillance, on body cameras, dashboard cameras, aircraft, and drones, and bans its use to track people exercising First Amendment rights or to enforce immigration law.",
+    "text": "The bill bans use of facial recognition on body camera, dashcam, and drone footage, bans real-time face surveillance, bans using it to track people exercising First Amendment rights, and bans its use for immigration enforcement [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Every system would need annual National Institute of Standards and Technology benchmark testing and independent operational testing for accuracy and for error rates that vary by race, ethnicity, gender, or age, and systems that fail could not be used.",
+    "text": "No agency could use a system that fails an annual National Institute of Standards and Technology accuracy and bias test, and any system whose accuracy varies significantly by race, ethnicity, gender, or age could be barred outright [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "A facial recognition match could not be the sole basis for an arrest or search warrant, judges would get public annual reports on orders issued, and the Government Accountability Office would audit federal agencies — with agencies suspended from using the technology until violations are fixed.",
+    "text": "Arrest photo databases would have to be purged every six months of photos of minors, people released without charge, people whose charges were dropped or dismissed, and people acquitted [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "People identified or misidentified in violation of the bill could sue for damages of $50,000 per violation or the government's profits, plus attorney's fees, and the bill strips state immunity from such suits.",
+    "text": "People identified in violation of the bill could sue for the greater of the violator's profits or $50,000 per violation, plus attorney's fees; a private right of action would also cover discriminatory impact, and evidence from unlawful scans would be inadmissible in court [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Arrest photo databases would have to purge photos of minors, people released without charge, and people acquitted, every six months.",
+    "text": "State and federal agencies would have to log and publicly report facial recognition searches — including arrests and convictions broken down by race, ethnicity, gender, and age — and submit to annual audits, with suspension of use if violations are found; states that refuse could lose 15 percent of their Bureau of Justice Assistance grant funds [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Facial recognition vendors selling to police, and law enforcement agencies, which would lose the ability to run unchecked searches; a small cost falls on taxpayers through $5 million a year for NIST testing and compliance staff time at police departments and courts.",
-  "who_pays_short": "Police agencies and surveillance vendors",
+  "who_pays": "Law enforcement agencies would bear compliance costs: warrant applications, logging, annual testing, audits, and reporting. Facial recognition vendors would lose sales and face liability-adjacent exposure if their systems fail accuracy and bias benchmarks or get agencies sued.",
+  "who_pays_short": "Police agencies and facial recognition vendors",
   "drawbacks": [
    {
-    "text": "The warrant requirement and documentation duties could add time and cost to investigations in which identifying a suspect through other means has already failed — precisely the cases the bill targets.",
+    "text": "The warrant requirement could add delay to identification work, though the bill preserves immediate use for identifying deceased or incapacitated people, victims, AMBER Alert subjects, booked arrestees, and emergencies involving imminent death or serious injury [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill leaves broad carve-outs: police may still use facial recognition without any court order on people during booking and custody, and the emergency exception lets officers search first and seek approval up to 12 hours later.",
+    "text": "The only financial penalty on states is a 15 percent reduction in one grant program for noncompliance, so an agency determined to keep using the technology has a limited downside [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Enforcement leans on lawsuits with a $50,000 per-violation damages figure and a good-faith reliance defense for officers acting on a court order or honest reading of the law, which critics could argue either over-penalizes agencies or under-deters misconduct depending on their view.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "It regulates only law enforcement use; commercial and private-sector facial recognition, including scraping of public photos by firms like Clearview AI for sales to police, is largely untouched outside the rules on what databases officers may search.",
+    "text": "The enforcement scheme depends heavily on self-reporting by judges, prosecutors, and agencies, and on state governments designating independent auditors; the good-faith reliance on a court order is a complete defense to civil suits, which could blunt the private enforcement mechanism [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core trade is straightforward: police and vendors give up cheap, unreviewed access to photo databases of millions of people, and in exchange the public gets a warrant requirement, bias testing, and a way to sue when the technology is misused. The genuine weaknesses are the booking and emergency carve-outs and the narrow scope covering only law enforcement, not commercial surveillance. On balance the bill is a serious, detailed attempt to fix a documented problem — wrongful arrests from faulty matches — without banning the technology outright.",
+  "benefit_vs_cost": "The benefits to ordinary people are substantial: a court-order gate before police scan driver's license and arrest photos of millions, testing that targets documented racial accuracy gaps, and a real remedy for people wrongly arrested. The costs fall mainly on police agencies and vendors in the form of paperwork, testing, and a smaller market. The design is imperfect — the 15 percent grant penalty is a modest stick, and self-reported data can understate violations — but the bill explicitly preserves stricter state laws rather than overriding them [S2].",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced in October 2023 and referred to the Judiciary and Science, Space, and Technology Committees, neither of which ever held a hearing or markup, and it expired when the 118th Congress ended in January 2025.",
+   "mechanism": "It was referred to the House Judiciary and Science committees on the day it was introduced, neither committee ever scheduled a hearing or vote, and it expired when the 118th Congress ended in January 2025 [S1][S4].",
    "narrative": [
     {
-     "text": "Rep. Ted Lieu introduced the bill on October 26, 2023, with five Democratic cosponsors: Reps. Jackson Lee, Clarke, Gomez, Ivey, and Veasey.",
+     "text": "Rep. Ted Lieu introduced the bill with five Democratic cosponsors on October 26, 2023 [S1][S3].",
      "sources": [
-      "S2",
+      "S1",
       "S3"
      ]
     },
     {
-     "text": "The same day it was referred to the House Judiciary Committee and, in addition, to the Committee on Science, Space, and Technology.",
+     "text": "The same day, it was referred to the House Judiciary Committee and, in addition, to the House Science, Space, and Technology Committee [S4].",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "That referral was the last action of any kind recorded for the bill; no hearing, markup, vote, or further consideration ever occurred before the Congress ended on January 3, 2025.",
+     "text": "No further action appears in the record: no hearings, no markup, no committee vote, and no floor action through the end of the Congress on January 3, 2025 [S1][S4].",
      "sources": [
+      "S1",
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "Police agencies and facial recognition vendors are better off: they continue running searches against driver's license and arrest photo databases with no federal warrant requirement, no bias testing mandate, and no civil liability. The public gets none of the protections the bill offered."
+   "who_came_out_ahead": "Police agencies and facial recognition vendors are better off: they continue using the technology with no warrant requirement, no mandatory accuracy or bias testing, no purging of arrest photos, and no public reporting of how the systems are used."
   },
-  "who_came_out_ahead_short": "Police agencies and surveillance tech vendors",
+  "who_came_out_ahead_short": "Police agencies and facial recognition vendors",
   "sides": {
    "for": [
     {
-     "name": "Ted Lieu",
-     "role": "U.S. Representative (D-CA), bill sponsor",
+     "name": "Rep. Ted Lieu",
+     "role": "U.S. Representative, CA-36; bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the Facial Recognition Act of 2023 and shepherded its referral to two committees.",
+     "what_they_did": "Introduced the Facial Recognition Act of 2023 and recruited five cosponsors.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -121,10 +116,10 @@
      ]
     },
     {
-     "name": "Sheila Jackson Lee, Yvette Clarke, Jimmy Gomez, Glenn Ivey, and Marc Veasey",
-     "role": "Original cosponsors, all House Democrats",
+     "name": "5 of 216 House Democrats",
+     "role": "Original cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as the bill's five original cosponsors.",
+     "what_they_did": "Cosponsored the bill at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -134,10 +129,10 @@
    ],
    "against": [
     {
-     "name": "House Judiciary Committee",
-     "role": "Primary committee of referral, chaired by Rep. Jim Jordan (R-OH)",
-     "party": null,
-     "what_they_did": "Took no action on the bill after referral — no hearing, no markup, no vote — over the remaining fourteen months of the Congress.",
+     "name": "Rep. Jim Jordan",
+     "role": "Chair, House Judiciary Committee",
+     "party": "R",
+     "what_they_did": "Took no action on the bill after referral; no hearing or markup was ever scheduled in the record.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -145,10 +140,10 @@
      ]
     },
     {
-     "name": "House Science, Space, and Technology Committee",
-     "role": "Second committee of referral, chaired by Rep. Frank Lucas (R-OK)",
-     "party": null,
-     "what_they_did": "Also never acted on the bill after referral.",
+     "name": "Rep. Frank Lucas",
+     "role": "Chair, House Science, Space, and Technology Committee",
+     "party": "R",
+     "what_they_did": "Took no action on the bill after receiving a second referral; no hearing or markup was ever scheduled in the record.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -156,15 +151,15 @@
      ]
     }
    ],
-   "party_line": "mostly_party_line",
-   "party_line_note": "All six sponsors and cosponsors were Democrats and no Republican signed on; the House majority never scheduled any action on the bill."
+   "party_line": "unclear",
+   "party_line_note": "All six supporters on the record were Democrats; no Republican ever cosponsored, spoke for, or voted on the bill, and no committee or floor vote ever happened, so the opposition never had to register formally [S1][S3][S4]."
   },
   "industries": [
    {
     "industry": "Facial recognition vendors",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Companies selling search tools against driver's license, passport, and arrest databases — including firms like Clearview AI that scrape public photos — would face warrant-based demand, mandatory accuracy and bias testing, bans on surveillance uses, and clients suspended for violations. Their business model of unreviewed bulk searches against government photo troves is what the bill targets.",
+    "note": "The bill requires annual accuracy and bias testing, bans face surveillance and body-camera scanning, and exposes agencies using deficient systems to suits — shrinking the police market these firms sell into. Their revenue comes from police scanning the faces of ordinary people, so their interest runs against the public's privacy interest here.",
     "sources": [
      "S2"
     ]
@@ -173,16 +168,16 @@
     "industry": "Law enforcement agencies",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Police and prosecutors would lose unilateral access to photo databases, face logging, reporting, GAO and state audits, and civil suits of $50,000 per violation. Their interest in unrestricted searches runs against the public's interest in not being misidentified or tracked.",
+    "note": "Agencies would lose unrestricted access to driver's license and arrest photo databases, face audits and public reporting disaggregated by race, and could have evidence suppressed. Discretion over a powerful investigative tool is the concentrated interest at stake; the accountability provisions are what ordinary people gain.",
     "sources": [
      "S2"
     ]
    },
    {
     "industry": "State departments of motor vehicles",
-    "effect": "mixed",
-    "stance_toward_public": "aligned",
-    "note": "DMVs would have to post public notices about facial recognition searches of license photos, restrict bulk photo transfers to law enforcement, and operate searches only under court orders — a compliance burden, but one that closes a little-known backdoor into license databases.",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill amends the Driver's Privacy Protection Act to bar bulk transfers of license photos to facial recognition systems and to allow access only under a court order. DMV photo databases would stop being an open feed for police face searches.",
     "sources": [
      "S2"
     ]
@@ -190,16 +185,16 @@
   ],
   "trajectory": null,
   "categories": [
-   "corruption_and_ethics",
+   "other",
    "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 6,
+   "public_stakes": 7,
    "concentrated_stakes": 6,
    "outcome_against_public": 7,
-   "support_mismatch": 4,
-   "corruption_relevance": 3,
-   "confidence": 0.9
+   "support_mismatch": 3,
+   "corruption_relevance": 2,
+   "confidence": 0.92
   }
  },
  "unresolved_citations": []

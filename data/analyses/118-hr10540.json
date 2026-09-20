@@ -1,113 +1,99 @@
 {
  "bill_id": "118-hr10540",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T15:50:18+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:43:24+00:00",
  "record_fetched_at": "2026-09-20T15:40:26+00:00",
  "record_hash": "68833e6bfa4312f0",
  "analysis": {
-  "one_liner": "Bans data brokers from selling or transferring people's health and location data.",
-  "headline": "The bill was introduced in the final weeks of the 118th Congress, sent to committee, and never received a hearing or vote before that Congress ended.",
+  "one_liner": "Bans data brokers from selling or transferring people's location and health data.",
+  "headline": "The bill never received a hearing or a vote; it was introduced in the final two weeks of the 118th Congress and referred to the House Energy and Commerce Committee, where it died.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would make it illegal for data brokers — companies that collect and resell information about people — to sell, license, or share a person's location data or health data, including data about pregnancies, mental health, disabilities, and medical care. The Federal Trade Commission and state attorneys general could enforce the ban, and individuals could sue violators. Companies could face civil penalties of up to 15 percent of their parent company's annual revenue. The bill never advanced past its committee referral, and it died when the 118th Congress ended on January 3, 2025.",
-  "who_benefits": "Anyone whose phone location, medical searches, pregnancy status, or health conditions could otherwise be packaged and sold — including people seeking abortion care, mental health treatment, or other services they may want kept private. The bill gives the FTC a dedicated $1 billion to enforce the ban.",
-  "who_benefits_short": "Everyone with a phone or health record",
+  "plain_summary": "The bill would make it illegal for data brokers — companies that buy and resell information about individuals — to sell, share, or transfer data showing where a person has been or what their health status is, including pregnancy, miscarriage, mental health, disability, and searches for health services. The Federal Trade Commission and state attorneys general could enforce the ban, and violators could face fines of up to 15% of their parent company's annual revenue. The bill was introduced on December 19, 2024, with only two weeks left in the session, and was referred to committee without any further action.",
+  "who_benefits": "Anyone whose movements or health information is bought and resold without their knowledge. The bill defines health data to include pregnancy, miscarriage, disability, mental health conditions, and even searches for health care, so it would cover the app and location data that data brokers currently package and sell. People in states where reproductive health care is restricted would have less of that information available for resale.",
+  "who_benefits_short": "People whose location and health data is resold",
   "how_it_helps": [
    {
-    "text": "The bill makes it unlawful for a data broker to sell, resell, license, trade, transfer, share, or otherwise make available a person's location data or health data, whether the data was directly declared or inferred from other information [S2].",
+    "text": "Prohibits data brokers from selling, licensing, trading, or otherwise making available location data and health data, whether directly collected or inferred from other information [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Health data is defined broadly to include searches for health services, disabilities, physical and mental health conditions, pregnancy and miscarriage, and treatments or diagnoses [S2].",
+    "text": "Defines health data broadly to include pregnancy, miscarriage, disability, physical and mental health conditions, and attempts to obtain health services [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Enforcement would rest on three tracks: the Federal Trade Commission could use its existing powers and also sue directly in federal court for injunctions, civil penalties, and damages; state attorneys general could sue on behalf of residents; and private individuals could sue for injunctions, damages, and attorney's fees [S2].",
+    "text": "Gives the FTC, state attorneys general, and private individuals the power to sue violators, seek deletion of improperly transferred data, and obtain civil penalties of up to 15% of a violator's ultimate parent entity's prior-year revenues [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Violations would carry a civil penalty of up to 15 percent of the violator's ultimate parent entity's revenues from the preceding 12 months, and enforcement could require deletion of the improperly sold data [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "The bill appropriates $1 billion to the FTC, available through fiscal 2034, to carry out the work of enforcement [S2].",
+    "text": "Carves out HIPAA-compliant handling by covered entities and business associates, publication of newsworthy information, and disclosures the individual explicitly authorizes, so the ban targets the resale market rather than ordinary health care or journalism [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Data brokers and the advertising and analytics companies that buy location and health data would lose a product line built on Americans' personal information. Companies would also bear compliance costs of building systems that wall off health and location data from sale.",
-  "who_pays_short": "Data brokers and ad analytics companies",
+  "who_pays": "Data brokers and the app and advertising companies that feed them location and health data would lose a resale market, and some ad-supported free apps that monetize location data would lose that revenue stream.",
+  "who_pays_short": "Data brokers and location-data advertisers",
   "drawbacks": [
    {
-    "text": "The bill bans the sale and transfer of health and location data but does not ban collecting it, so data brokers could continue to gather and hold this information; it also carves out HIPAA-compliant actions, newsworthy publications, and disclosures the individual affirmatively authorizes [S2].",
+    "text": "The bill appropriates $1 billion to the FTC to carry out the law, a large new spending commitment for one agency's enforcement effort [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The definitions are broad — for example, 'location data' covers any data capable of determining a person's past or present location, and 'data' includes information merely 'reasonably linkable' to individuals or groups sharing a residence or IP address — which would require detailed FTC rulemaking within 180 days and could sweep in legitimate business practices [S2].",
+    "text": "The definition of 'data broker' — a person that collects, buys, licenses, or infers data and then sells, licenses, or trades it — and the FTC's rulemaking to define 'data' would leave the boundary of the ban to regulatory interpretation, creating compliance uncertainty for firms that touch location or health information [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Critics of this style of legislation generally argue it raises compliance costs for firms and could chill ordinary digital services; the bill itself does not address those tradeoffs, and its penalty ceiling of 15 percent of parent-company revenue is a substantial exposure for large firms [S2].",
+    "text": "Routing enforcement through the FTC and exclusive jurisdiction in federal courts concentrates enforcement in one agency, and a future administration could choose to enforce it loosely; private suits require the plaintiff to show their own interest was affected [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit is a hard ban on a market most consumers never knew existed: the routine sale of where they go and what their bodies are going through. The costs are real but ordinary for a data regulation — compliance costs and some definitional uncertainty — and the bill preserves the FTC's existing authority and includes carve-outs for authorized disclosures and journalism. The main design weakness is that it restricts sale and transfer without restricting collection, leaving the underlying data-gathering in place.",
+  "benefit_vs_cost": "The benefit — keeping records of where people go and their health status, including pregnancy and miscarriage, out of a resale market — is substantial at a time when such data can be bought by anyone, and the exceptions for HIPAA-covered handling, journalism, and authorized disclosures limit the burden on health care and the press. The main honest costs are the $1 billion appropriation and compliance uncertainty for firms near the edge of the 'data broker' definition.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced on December 19, 2024, referred to the House Energy and Commerce Committee the same day, and the 118th Congress ended on January 3, 2025 with no hearing, markup, or floor vote ever scheduled.",
+   "mechanism": "It was introduced with two weeks left in the session and referred to the House Energy and Commerce Committee, which never took it up, and the Congress ended without any hearing, markup, or floor vote.",
    "narrative": [
     {
-     "text": "Representative Mary Gay Scanlon introduced the Health and Location Data Protection Act of 2024 in the House on December 19, 2024, with Representatives Jayapal, Velazquez, and Espaillat as the original cosponsors [S1] [S2].",
+     "text": "Representative Mary Gay Scanlon introduced the bill on December 19, 2024, in the final two weeks of the 118th Congress [S1].",
      "sources": [
-      "S1",
-      "S2"
-     ]
-    },
-    {
-     "text": "The bill was referred to the House Committee on Energy and Commerce on the day it was introduced; that was the last action recorded before the 118th Congress ended on January 3, 2025 [S4] [S1].",
-     "sources": [
-      "S4",
       "S1"
      ]
     },
     {
-     "text": "The bill had three cosponsors in addition to its sponsor, all Democrats [S3].",
+     "text": "The same day it was referred to the House Committee on Energy and Commerce, and the action history shows no further steps — no hearing, no markup, no report, no floor action — before the Congress ended on January 3, 2025 [S4].",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "The bill attracted three cosponsors, all Democrats, and no Republican support [S3].",
      "sources": [
       "S3"
      ]
-    },
-    {
-     "text": "Because bills do not carry over between Congresses, the bill's death on January 3, 2025 means any future attempt must start over with a new introduction.",
-     "sources": [
-      "S1"
-     ]
     }
    ],
-   "who_came_out_ahead": "Data brokers and the advertising and analytics companies that buy Americans' health and location data are better off, since the market for that data remains unrestricted. The committee also avoided taking a position, since no hearing or vote was ever held."
+   "who_came_out_ahead": "Data brokers and the location-data advertising ecosystem keep selling health and location information, since no restriction took effect."
   },
-  "who_came_out_ahead_short": "Data brokers and data-buying advertisers",
+  "who_came_out_ahead_short": "Data brokers; nothing changed",
   "sides": {
    "for": [
     {
-     "name": "Rep. Mary Gay Scanlon",
-     "role": "U.S. Representative (PA-5), bill sponsor",
+     "name": "Mary Gay Scanlon",
+     "role": "U.S. Representative (PA-5); bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill on December 19, 2024 and served as its lead sponsor [S1] [S2].",
+     "what_they_did": "Introduced the Health and Location Data Protection Act of 2024",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -116,10 +102,10 @@
      ]
     },
     {
-     "name": "Reps. Pramila Jayapal, Nydia Velazquez, and Adriano Espaillat",
-     "role": "Original cosponsors of the bill",
+     "name": "Pramila Jayapal, Nydia Velázquez, and Adriano Espaillat",
+     "role": "House cosponsors",
      "party": "D",
-     "what_they_did": "Joined as the bill's original cosponsors at introduction [S2] [S3].",
+     "what_they_did": "Cosponsored the bill as original cosponsors",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -131,55 +117,43 @@
    "against": [
     {
      "name": "House Energy and Commerce Committee leadership",
-     "role": "The committee to which the bill was referred",
-     "party": null,
-     "what_they_did": "Never scheduled the bill for a hearing, markup, or vote; the referral was the bill's only recorded action before the Congress ended [S4].",
+     "role": "Committee to which the bill was referred",
+     "party": "R",
+     "what_they_did": "Took no action on the bill — no hearing, markup, or committee vote — during the two weeks it had jurisdiction before the Congress ended",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S4"
      ]
-    },
-    {
-     "name": "House Republican leadership",
-     "role": "Majority party in the 118th House, which controlled the floor calendar",
-     "party": "R",
-     "what_they_did": "Never brought the bill to the House floor; no floor action of any kind was recorded [S4] [S1].",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4",
-      "S1"
-     ]
     }
    ],
-   "party_line": "unclear",
-   "party_line_note": "No votes were ever taken, so no roll-call split exists; the sponsor and all three cosponsors were Democrats, and the bill sat in a committee led by the Republican majority until the Congress ended [S3] [S4]."
+   "party_line": "party_line",
+   "party_line_note": "All four sponsors and cosponsors were Democrats; no Republican cosponsored, and the bill received no committee action in the Republican-controlled House before the session ended [S2][S3][S4]."
   },
   "industries": [
    {
     "industry": "Data brokers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These companies collect, infer, and resell Americans' location and health data; the bill would make that core business unlawful, with penalties up to 15 percent of parent-company revenue. Their interest in keeping the market open runs directly against consumers' privacy.",
+    "note": "Their core business is collecting and reselling information about individuals; the bill makes it unlawful to sell or transfer location and health data, with civil penalties up to 15% of parent-entity revenue [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Targeted advertising and mobile analytics",
+    "industry": "Location-based advertising and app developers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Ad networks and app analytics firms buy precise location and health signals from brokers to target ads; the ban would cut off that supply chain and force changes to how they monetize app and browsing data.",
+    "note": "Apps and ad networks that monetize users' movements by feeding location data to brokers would lose that revenue channel, since transfers of location data would be prohibited [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Healthcare providers and HIPAA-covered entities",
+    "industry": "Health and wellness app makers and period trackers",
     "effect": "mixed",
-    "stance_toward_public": "aligned",
-    "note": "The bill explicitly preserves HIPAA-compliant handling of health information by covered entities and business associates, so normal medical-data operations are untouched while gray-market resale is banned.",
+    "stance_toward_public": "mixed",
+    "note": "The bill covers health data collected by non-HIPAA apps, including pregnancy and miscarriage information, blocking resale of that data; if they sell or license user data they lose that stream, while apps that do not sell data are largely unaffected [S2].",
     "sources": [
      "S2"
     ]
@@ -187,14 +161,13 @@
   ],
   "trajectory": null,
   "categories": [
-   "consumer_protection_and_finance",
-   "corruption_and_ethics"
+   "consumer_protection_and_finance"
   ],
   "scores": {
    "public_stakes": 7,
    "concentrated_stakes": 7,
-   "outcome_against_public": 7,
-   "support_mismatch": 4,
+   "outcome_against_public": 6,
+   "support_mismatch": 3,
    "corruption_relevance": 2,
    "confidence": 0.9
   }

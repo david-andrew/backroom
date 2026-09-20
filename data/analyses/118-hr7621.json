@@ -1,192 +1,211 @@
 {
  "bill_id": "118-hr7621",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:04:03+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:11:17+00:00",
  "record_fetched_at": "2026-09-20T11:22:19+00:00",
  "record_hash": "c448e5f65761321b",
  "analysis": {
-  "one_liner": "Blocks employers from letting algorithms alone hire, fire, discipline, or manage workers, and requires testing, disclosure, human review, and appeal rights.",
-  "headline": "The bill never received a hearing or a vote in any committee before Congress ended in January 2025, so no restrictions on automated management were adopted.",
+  "one_liner": "Bars employers from making job decisions by algorithm alone and gives workers a human appeal.",
+  "headline": "The bill was introduced in March 2024, referred to three House committees, and never received a hearing or a vote before the Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "The No Robot Bosses Act would stop employers from relying entirely on software — often called algorithmic management — to hire, fire, discipline, schedule, or set pay. Any automated decision affecting a worker would require human oversight, testing for bias before and after use, a plain-language explanation to the worker within 7 days, and the right to dispute the output and appeal to a human. Workers could opt out of being managed by an algorithm and be assigned a human manager instead, and a new Technology and Worker Protection Division at the Labor Department would enforce the rules, alongside lawsuits by workers, unions, and state attorneys general.",
-  "who_benefits": "Workers and job applicants at employers with 11 or more employees — including gig and contract workers — gain the right to a human check on any algorithm-driven hiring, firing, discipline, pay, or scheduling decision, plain-language explanations, appeal rights, and the option to opt out of algorithmic management. Unions and state attorneys general gain new enforcement tools, including the right to sue and to void forced arbitration for these claims.",
-  "who_benefits_short": "Workers managed by workplace algorithms",
+  "plain_summary": "The No Robot Bosses Act would stop employers with 11 or more workers from letting software alone hire, fire, discipline, pay, or schedule people. Any algorithm used in a job decision would have to be tested for bias each year, explained to the worker in plain language, and backed up by a human reviewer, with the worker able to dispute the result and appeal to a different human. Workers could also opt out of being managed by an algorithm and get a human manager instead. The bill would create a new Technology and Worker Protection Division in the Labor Department to enforce these rules, let workers and unions sue with statutory damages of up to $40,000 per violation, and make it illegal to retaliate against workers who complain.",
+  "who_benefits": "Workers and job applicants at employers of 11 or more people. Anyone screened out by an automated hiring tool, denied a raise or hours by a scheduling algorithm, or disciplined based on software scores would get advance notice, a plain-language explanation, testing of the system for bias, a human double-check, and a way to dispute and appeal. Workers managed by algorithms could opt out and get a human manager. Workers and unions could sue, with damages of $5,000 to $40,000 per violation plus attorney's fees, and could not be forced into pre-dispute arbitration or barred from class actions for these claims [S2].",
+  "who_benefits_short": "Workers and job applicants",
   "how_it_helps": [
    {
-    "text": "Employers could not rely exclusively on an algorithm to hire, fire, discipline, schedule, or set pay; a human with relevant experience would have to independently corroborate any automated output.",
+    "text": "Employers could not rely exclusively on an automated decision system for any hiring, firing, discipline, pay, scheduling, or promotion decision; a human with relevant experience would have to independently corroborate the algorithm's output [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Workers and applicants would get plain-language notice of how an automated system measures them, full documentation of any decision made with one within 7 days, and the right to dispute the output and appeal the decision to a human.",
+    "text": "Before using an algorithm in a job decision, the employer would have to test it for discriminatory impact against race, sex, age, disability, pregnancy, and other protected traits, and re-test it annually with results made public [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Workers could opt out of being managed by an automated system and be assigned a human manager instead.",
+    "text": "Workers would get advance notice that an algorithm is being used, a plain-language explanation of what data feeds it and how it scores them, free documentation within 7 days of any decision, and the right to dispute the output and appeal to a different human [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Automated systems would have to be tested for discriminatory impact before deployment and annually, with results made public, and the bill gives workers, unions, state attorneys general, and state privacy regulators the right to sue, with statutory damages of $5,000–$20,000 per violation and attorney's fees.",
+    "text": "Workers managed through an automated system could opt out and be managed by a human manager instead [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill would void forced arbitration agreements and class-action waivers for claims under the act, and would protect workers from retaliation for complaining.",
+    "text": "The bill creates a Technology and Worker Protection Division inside the Labor Department to investigate employers, gives workers and unions a private right to sue with statutory damages of $5,000-$40,000 per violation ($10,000-$40,000+ for willful or repeat violations) and attorney's fees, lets state attorneys general enforce, and voids pre-dispute arbitration agreements and class-action waivers for these claims [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Employers could not fire, demote, threaten, or otherwise retaliate against a worker for complaining about or exercising rights under the act [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Employers — from large chains to firms with just over 10 employees — bear the cost of pre-deployment and annual bias testing, public disclosure of results, training staff, documenting decisions for workers, providing human corroboration and appeals, and litigation risk from statutory damages of up to $20,000 per violation (up to $40,000 for willful or repeat violations).",
-  "who_pays_short": "Employers that automate hiring and management",
+  "who_pays": "Employers with 11 or more workers that use automated hiring, evaluation, scheduling, or management tools, and the vendors that sell those systems. They would bear testing and annual bias-audit costs, new disclosure paperwork, human oversight on every algorithm-assisted decision, appeal processes, litigation exposure with statutory damages, and lost ability to force such disputes into individual arbitration. Federal and state labor and consumer-protection agencies would bear the cost of standing up a new enforcement division and advisory boards [S2].",
+  "who_pays_short": "Employers using workplace AI tools",
   "drawbacks": [
    {
-    "text": "The compliance burden is real: employers would need pre-deployment bias testing, annual independent audits made public, plain-language documentation for every affected worker within 7 days of a decision, and a trained human to corroborate each automated output — costs that would fall most heavily on small firms just above the 11-employee threshold.",
+    "text": "The compliance burden is heavy even for mid-sized employers: annual third-party bias testing, detailed pre-use disclosures, free documentation to every affected worker within 7 days of each decision, training for system operators, and human corroboration of every algorithm-assisted decision. The text does not provide dedicated funding for the new Labor Department division, so its cost would fall on appropriations [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Some provisions are technically demanding in ways that may be hard to satisfy: requiring pre-deployment testing for any 'potential discriminatory impact' and a human corroboration of every output could be difficult for fast-changing machine-learning systems, and an honest supporter would concede it might simply lead employers to drop useful scheduling and productivity tools.",
+    "text": "The definition of an automated decision system is broad, covering any software that aids or informs employment decisions, which could sweep in ordinary HR tools like spreadsheet-based scheduling or keyword resume filters and generate litigation over what counts [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill creates a new federal enforcement division with broad inspection and reporting powers and a private right of action with statutory damages of $5,000–$20,000 per violation, which critics would call an invitation to litigation beyond what the harm requires.",
+    "text": "Statutory damages of $5,000-$40,000 per covered individual, plus a private right of action and attorney's fees, give plaintiffs' lawyers a strong incentive to sue over paperwork violations even where no worker was actually harmed by the algorithm's substance [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Requiring a human to corroborate and allowing workers to opt out of algorithmic management does not by itself guarantee human managers are better; it can slow decisions and shift costs to smaller employers near the 11-worker threshold [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "For workers, the benefits are substantial: a human check on automated firings, disclosure of how they are being judged, an appeals process, and the right to sue with damages and fees that make lawsuits realistic. The main costs fall on employers — the bill estimates none itself, but testing, disclosure, and human review are real compliance burdens, especially for smaller firms near the 11-employee threshold. An honest supporter would also acknowledge that pre-deployment testing for bias is technically hard and could slow adoption of tools that, used well, might reduce human-manager favoritism. But the bill preserves employers' ability to use these systems — it just requires they be validated, explained, and appealable — and died without any recorded objection on the merits, so the trade was never weighed in Congress.",
+  "benefit_vs_cost": "The protections address a real and growing problem: automated tools already screen out job applicants and set workers' schedules and pay with little transparency or recourse. The bill's core requirement — no purely algorithmic job decisions, tested for bias, explained, and appealable to a human — is a straightforward safeguard. The costs are real but conventional for new workplace regulation, and the 11-employee threshold spares the smallest businesses. The main design risk is litigation exposure from statutory damages and a very broad definition of covered software, which opponents could have narrowed in committee. As introduced, the benefits to workers outweigh the compliance costs, though a negotiated version would likely have softened the damages provisions.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The bill was referred to three House committees the day it was introduced, none of which acted on it before the Congress ended in January 2025, so it died without a hearing or a vote.",
+   "mechanism": "It was introduced and sent to three House committees, none of which acted on it, so it died when the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Rep. Suzanne Bonamici introduced the No Robot Bosses Act in the House on March 12, 2024, joined by one cosponsor, Rep. Chris Deluzio.",
+     "text": "Rep. Suzanne Bonamici introduced the No Robot Bosses Act on March 12, 2024, joined by Rep. Chris Deluzio as its only cosponsor [S1][S2][S3].",
      "sources": [
       "S1",
-      "S4"
+      "S2",
+      "S3"
      ]
     },
     {
-     "text": "The same day, the Speaker referred it to three committees — Education and the Workforce, House Administration, and Oversight and Accountability — splitting jurisdiction three ways.",
+     "text": "The same day, the bill was referred to the Education and Workforce, House Administration, and Oversight committees; no further action was ever taken [S4].",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "No committee held a hearing, marked up the bill, or reported it to the floor at any point during the remainder of the 118th Congress, which ended January 3, 2025.",
+     "text": "No hearing, markup, or floor vote occurred in either chamber, and the bill expired when the 118th Congress ended on January 3, 2025 [S4][S1].",
      "sources": [
-      "S1",
-      "S4"
-     ]
-    },
-    {
-     "text": "Because no action was taken before the Congress ended, the bill expired and would need to be reintroduced to move again.",
-     "sources": [
+      "S4",
       "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Employers using automated systems to hire, fire, discipline, and manage workers keep operating without the testing, disclosure, human-review, and appeal requirements the bill would have imposed."
+   "who_came_out_ahead": "Employers that use automated hiring and management tools, and the vendors that sell them, are better off: they face none of the testing, disclosure, human-oversight, and litigation obligations the bill would have imposed. Workers who deal with algorithmic management got no new federal protections from this Congress."
   },
-  "who_came_out_ahead_short": "Employers using algorithmic management",
+  "who_came_out_ahead_short": "Employers using algorithmic management tools",
   "sides": {
    "for": [
     {
      "name": "Rep. Suzanne Bonamici",
-     "role": "Sponsor (D-OR)",
+     "role": "Sponsor, H.R. 7621",
      "party": "D",
-     "what_they_did": "Introduced the No Robot Bosses Act on March 12, 2024.",
+     "what_they_did": "Introduced the bill on March 12, 2024",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2"
+      "S4"
      ]
     },
     {
      "name": "Rep. Chris Deluzio",
-     "role": "Cosponsor (D-PA)",
+     "role": "Sole cosponsor",
      "party": "D",
-     "what_they_did": "The bill's only cosponsor; original cosponsor at introduction.",
+     "what_they_did": "Cosponsored the bill as original co-lead",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S2",
       "S3"
      ]
     }
    ],
    "against": [
     {
-     "name": "House Education and the Workforce Committee",
-     "role": "Committee of primary jurisdiction",
+     "name": "House Education and Workforce Committee",
+     "role": "Primary committee of referral",
      "party": null,
-     "what_they_did": "Received the referral on March 12, 2024 and took no action — no hearing, no markup, no report — for the rest of the Congress.",
-     "direct": false,
+     "what_they_did": "Took no action on the bill after referral; no hearing or markup was held",
+     "direct": true,
      "evidence": "record",
      "sources": [
       "S4"
      ]
     },
     {
-     "name": "House Committees on House Administration and Oversight and Accountability",
-     "role": "Additional committees of referral",
+     "name": "House Oversight and Government Reform Committee",
+     "role": "Committee of referral",
      "party": null,
-     "what_they_did": "Received the bill for consideration of provisions in their jurisdiction and took no action.",
-     "direct": false,
+     "what_they_did": "Took no action on the bill after referral",
+     "direct": true,
      "evidence": "record",
      "sources": [
       "S4"
      ]
     },
     {
-     "name": "House Republican leadership",
-     "role": "House majority",
+     "name": "House Committee on House Administration",
+     "role": "Committee of referral",
+     "party": null,
+     "what_they_did": "Took no action on the bill after referral",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "Speaker of the House",
+     "role": "Controls which bills reach the floor",
      "party": "R",
-     "what_they_did": "Set the House agenda for the 118th Congress and never brought the bill up; the bill had no Republican cosponsors.",
+     "what_they_did": "Never brought the bill to the floor; the Republican majority agenda did not include it",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
-   "party_line": "unclear",
-   "party_line_note": "The bill never advanced far enough for a recorded vote; both its sponsor and its single cosponsor were Democrats, but no votes were ever taken."
+   "party_line": "party_line",
+   "party_line_note": "The bill had only two House Democrats behind it and no Republican cosponsors; with a Republican House majority and committee control, it never advanced past referral, making the partisan shape lopsided though never tested by a vote."
   },
   "industries": [
    {
-    "industry": "Employers using workforce management and surveillance software (retail, warehousing, gig platforms, large service employers)",
+    "industry": "HR technology and AI hiring-software vendors",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill would require pre-deployment testing, annual independent bias audits with public results, and disclosure of the vendor's identity to every worker whose data feeds the system, alongside liability that follows the employer. Vendors profit from selling opaque scoring systems into workplaces; the bill makes transparency and testing the price of that market [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Large employers using automated hiring, scheduling, and management tools",
     "effect": "mixed",
-    "stance_toward_public": "opposed",
-    "note": "The bill does not ban algorithmic management, but it requires bias testing, disclosure, human corroboration, and appeal rights, and it exposes employers to statutory damages and lawsuits without forced arbitration. Its interest in keeping automated management cheap and unchallenged runs against the bill.",
+    "stance_toward_public": "mixed",
+    "note": "Employers would face testing, disclosure, human-oversight, and appeal obligations and statutory-damages exposure, but the bill does not ban the tools; employers that can absorb the compliance costs keep algorithmic systems as a permanent part of running their workforce, now with a federal framework that legitimizes their use [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Vendors of automated hiring, scheduling, and productivity-scoring systems",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "The companies selling these tools would face pre-deployment testing, annual independent audits with public results, and liability when their products drive decisions. The bill requires they operate under human oversight rather than as the final word.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Forced-arbitration defense practice / employers relying on mandatory arbitration",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "The bill voids predispute arbitration agreements and class-action waivers for claims under the act, removing a tool employers use to keep workplace disputes out of court. This runs directly against the industry's interest and in favor of workers' day in court.",
+    "industry": "Employment law plaintiffs' bar",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "The private right of action, statutory damages of $5,000-$40,000 per violation, mandatory attorney's fees, and a ban on pre-dispute arbitration and class-action waivers would open a large new litigation avenue for representing workers [S2].",
     "sources": [
      "S2"
     ]
@@ -202,8 +221,8 @@
    "concentrated_stakes": 6,
    "outcome_against_public": 7,
    "support_mismatch": 2,
-   "corruption_relevance": 2,
-   "confidence": 0.9
+   "corruption_relevance": 1,
+   "confidence": 0.95
   }
  },
  "unresolved_citations": []

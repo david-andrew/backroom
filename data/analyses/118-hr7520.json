@@ -1,164 +1,185 @@
 {
  "bill_id": "118-hr7520",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:50:14+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:13:53+00:00",
  "record_fetched_at": "2026-09-20T11:39:20+00:00",
  "record_hash": "e7680cedb71e30e8",
  "analysis": {
-  "one_liner": "Bans data brokers from selling Americans' sensitive personal data to China, Russia, Iran, or North Korea.",
-  "headline": "The House passed it 414-0, but the Senate Commerce Committee never acted on it, so the bill died when the Congress ended.",
+  "one_liner": "Bars data brokers from selling Americans' sensitive personal data to China, Russia, Iran, and North Korea.",
+  "headline": "The House passed the bill 414 to 0, with no member voting no, but the Senate committee it was sent to never acted and the term ended without a Senate vote.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would make it illegal for data brokers — companies that collect and sell information about people they never met — to sell Americans' sensitive data to China, Russia, Iran, or North Korea, or to companies controlled by those countries. The covered data includes Social Security numbers, financial account details, health records, biometric and genetic data, precise location information, and private messages. The Federal Trade Commission would enforce the ban. The House passed it unanimously, but the Senate never voted on it, and the bill died when the Congress ended.",
-  "who_benefits": "Everyday Americans whose sensitive personal data is currently collected, packaged, and sold by data brokers: Social Security numbers, health and mental-health records, precise location histories, biometric and genetic information, and private communications would be barred from sale to the four designated adversary countries or entities they control. The FTC would gain a new tool to penalize brokers that sell that data abroad.",
-  "who_benefits_short": "Ordinary Americans' personal data",
+  "plain_summary": "This bill makes it illegal for data brokers — companies that buy and resell personal information they did not collect directly from people — to sell sensitive data about people in the United States to China, Russia, Iran, or North Korea, or to companies those countries control. Covered data includes Social Security numbers, health information, bank account details, precise location history, private messages, biometric and genetic data, and more. The Federal Trade Commission would enforce the ban. The House passed it 414 to 0, but the Senate committee it was sent to never acted on it before the term ended.",
+  "who_benefits": "Everyone living in the United States whose personal data is bought and sold. Data brokers could no longer sell Social Security numbers, health records, financial account details, precise location history, private messages, biometric and genetic data, and similar information to China, Russia, Iran, North Korea, or entities those countries control — a channel long used for spying, identity theft, and targeted scams against Americans [S5]. The FTC would enforce the ban [S5].",
+  "who_benefits_short": "All Americans whose data is brokered",
   "how_it_helps": [
    {
-    "text": "Makes it a federal offense for a data broker to sell, rent, trade, or disclose personally identifiable sensitive data — Social Security numbers, financial account details, health records, biometric and genetic data, precise location, private messages — to North Korea, China, Russia, Iran, or entities controlled by those countries.",
+    "text": "It cuts off a documented espionage and fraud channel: data brokers would be barred from selling Social Security numbers, health and financial records, precise location history, private communications, biometric and genetic data, and data about members of the armed forces to China, Russia, Iran, North Korea, or entities at least 20 percent owned or controlled by those countries.",
     "sources": [
-     "S2",
-     "S4",
+     "S5",
+     "S2"
+    ]
+   },
+   {
+    "text": "It covers the full range of brokers — any company that sells data it did not collect directly from the people it describes — rather than only a narrow list of firms.",
+    "sources": [
      "S5"
     ]
    },
    {
-    "text": "Covers entities with as little as 20 percent ownership by a foreign adversary's nationals and lets the Federal Trade Commission enforce the ban with civil penalties.",
+    "text": "It puts enforcement in the hands of the FTC using its existing unfair-and-deceptive-practices authority, so violations carry real penalties without creating a new bureaucracy.",
     "sources": [
      "S5"
     ]
    },
    {
-    "text": "Defines the scope broadly enough to include precise location data accurate to within 1,850 feet, meaning brokers could no longer sell movement histories to foreign-controlled firms.",
+    "text": "It takes effect quickly, 60 days after enactment.",
     "sources": [
-     "S2",
-     "S3"
+     "S5"
     ]
    }
   ],
-  "who_pays": "Data brokers, which would lose a paying customer for sensitive Americans' data, and any foreign-controlled firms buying that data. Companies that collect data directly from users (like major tech platforms) are largely excluded from the ban, so the cost falls on the broker industry specifically.",
-  "who_pays_short": "Data brokers selling to foreign buyers",
+  "who_pays": "Data brokers bear the cost: they could no longer sell Americans' sensitive data to China, Russia, Iran, North Korea, or companies they control, and would face FTC penalties for violations [S5]. Brokers would also bear the compliance cost of screening who they sell to. The bill creates no new agency funding; enforcement runs through the FTC's existing authorities [S5].",
+  "who_pays_short": "Data brokers selling to adversary countries",
   "drawbacks": [
    {
-    "text": "The bill only restricts the sale of sensitive data to four named countries; it does nothing to limit the data broker industry's ongoing collection and sale of the same information to domestic buyers, so the underlying privacy problem remains.",
+    "text": "The bill is narrow: it stops sales to four named adversary countries but leaves data brokers free to sell the same sensitive data to domestic buyers, to US-allied governments, and to anyone else, so it addresses a small slice of the data brokerage market.",
     "sources": [
-     "S2",
+     "S5",
+     "S2"
+    ]
+   },
+   {
+    "text": "It creates no right for individuals to sue and no opt-out; people whose data is sold still have no say, and protection depends entirely on FTC enforcement resources.",
+    "sources": [
      "S5"
     ]
    },
    {
-    "text": "Enforcement relies entirely on the Federal Trade Commission; there is no private right of action for individuals whose data is sold, so violations depend on the agency bringing cases.",
+    "text": "Large platforms and firms acting as 'service providers' are carved out, so much of the personal-data economy that actually holds Americans' information is untouched.",
     "sources": [
      "S5"
     ]
    },
    {
-    "text": "Entities that collect data directly from individuals and only resell brokered data fall outside the definition of a data broker, leaving potential gaps in coverage.",
+    "text": "With such overwhelming bipartisan support in the House, its failure to get any Senate action suggests it was never prioritized by Senate leadership despite having the votes to likely pass.",
     "sources": [
-     "S5"
+     "S8",
+     "S7"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit is real protection for Americans' most sensitive personal data — Social Security numbers, health records, locations, private messages — from sale to adversarial governments, with essentially no downside for ordinary people. The main limitation is that it is narrow: it stops the foreign sale but does nothing to restrict the data broker industry's ordinary collection and sale practices domestically, or the government's own access to brokered data.",
+  "benefit_vs_cost": "The protection is real but modest: it closes a specific national-security and fraud channel used against Americans at almost no cost to the public, and the compliance burden falls only on brokers selling to the four named adversaries. The honest criticism is that it leaves the core problem standing — the same Social Security numbers, health records, and location histories can still be bought and sold domestically and exported to nearly any other country — so it functions as a targeted fix rather than a privacy right for Americans. A bill with unanimous House support and little industry defense deserved a Senate vote and did not get one.",
   "outcome": {
    "status": "passed_one_chamber_then_stalled",
-   "mechanism": "The House passed it by a unanimous 414-0 vote, but it was sent to the Senate Commerce Committee, which never considered it, and it died when the Congress ended.",
+   "mechanism": "The House passed it unanimously, but the Senate Commerce Committee it was sent to never brought it up, and the term ended without a Senate vote.",
    "narrative": [
     {
-     "text": "Introduced March 5, 2024, the bill cleared the House Energy and Commerce Committee two days later with a 50-0 vote to report it.",
+     "text": "The bill was introduced on March 5, 2024, and referred to the House Energy and Commerce Committee.",
      "sources": [
-      "S1",
+      "S7",
+      "S1"
+     ]
+    },
+    {
+     "text": "The committee took it up unusually fast: a subcommittee was discharged, a markup was held on March 7, and the committee ordered it reported 50-0 on March 7, reporting it on March 11.",
+     "sources": [
       "S7"
      ]
     },
     {
-     "text": "On March 20, 2024, the House passed the bill under a suspension-of-the-rules procedure (a fast-track path requiring two-thirds support) by a vote of 414-0, with every Democrat and Republican voting yes.",
+     "text": "The House passed the bill 414-0 under a suspension-of-the-rules procedure (a fast-track vote requiring two-thirds), with 202 of 213 Democrats and 212 of 219 Republicans voting yes and no member voting no.",
      "sources": [
-      "S8"
+      "S8",
+      "S7"
      ]
     },
     {
-     "text": "The Senate received the bill on March 21, 2024 and referred it to its Commerce Committee, which took no further action before the 118th Congress ended on January 3, 2025.",
+     "text": "The Senate received the bill on March 21, 2024, and referred it to the Committee on Commerce, Science, and Transportation, which took no further action.",
      "sources": [
-      "S1",
-      "S7"
+      "S7",
+      "S5"
+     ]
+    },
+    {
+     "text": "The 118th Congress ended on January 3, 2025, without the Senate ever voting on the bill.",
+     "sources": [
+      "S7",
+      "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Data brokers and any foreign buyers of Americans' sensitive data are better off; the ban never took effect, so their data trade continues as before."
+   "who_came_out_ahead": "Data brokers and the broader data resale economy are better off: the bill died without a Senate vote, so they kept the ability to sell the same sensitive data to buyers at home and in countries other than the four named adversaries. Americans gained no new protection from this bill."
   },
-  "who_came_out_ahead_short": "Data brokers and foreign data buyers",
+  "who_came_out_ahead_short": "Data brokers and the data resale industry",
   "sides": {
    "for": [
     {
-     "name": "House of Representatives",
-     "role": "Chamber of origin",
+     "name": "Rep. Frank Pallone",
+     "role": "Ranking Member, House Energy and Commerce; bill sponsor",
+     "party": "D",
+     "what_they_did": "Sponsored the bill and delivered introductory remarks on the House floor.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S7",
+      "S13"
+     ]
+    },
+    {
+     "name": "Rep. Cathy McMorris Rodgers",
+     "role": "Chair, House Energy and Commerce",
+     "party": "R",
+     "what_they_did": "Moved to suspend the rules and pass the bill, as amended, bringing it to the House floor.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S7"
+     ]
+    },
+    {
+     "name": "The House of Representatives",
+     "role": "House of Representatives",
      "party": null,
-     "what_they_did": "Passed the bill 414-0 on March 20, 2024.",
+     "what_they_did": "Voted yes 414-0 to pass the bill, with 202 of 213 Democrats and 212 of 219 Republicans in favor.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S8"
-     ]
-    },
-    {
-     "name": "Rep. Frank Pallone",
-     "role": "Ranking Member, House Energy and Commerce (sponsor)",
-     "party": "D",
-     "what_they_did": "Introduced the bill and guided it through committee markup and House passage.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
-      "S6",
-      "S7"
-     ]
-    },
-    {
-     "name": "House Energy and Commerce Committee",
-     "role": "Committee of jurisdiction",
-     "party": null,
-     "what_they_did": "Reported the bill unanimously (50-0 committee vote) two days after introduction.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S7"
      ]
     }
    ],
    "against": [
     {
      "name": "Senate Commerce, Science, and Transportation Committee",
-     "role": "Senate committee with jurisdiction",
+     "role": "Senate Commerce, Science, and Transportation Committee",
      "party": null,
-     "what_they_did": "Received the House-passed bill on March 21, 2024 and took no action on it for the rest of the Congress.",
+     "what_they_did": "Received the bill on referral on March 21, 2024, and took no further action before the Congress ended on January 3, 2025.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S1",
       "S7"
      ]
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "Support was completely bipartisan: all 202 Democrats and all 212 Republicans voting in the House voted yes, and the Senate referred it to a committee controlled by the president's own party where it stalled."
+   "party_line_note": "There was no partisan opposition: the House committee reported it 50-0 and the full House passed it 414-0, with 202 of 213 Democrats and 212 of 219 Republicans voting yes and no one voting no."
   },
   "industries": [
    {
     "industry": "Data brokers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Loses a paying customer: foreign adversary-controlled entities can no longer legally buy Americans' Social Security numbers, health data, location trails, and private communications. Their broader domestic business is untouched, however.",
+    "note": "The bill would cut off one of their sales channels: reselling Americans' Social Security numbers, health data, location histories, and private messages to China, Russia, Iran, North Korea, and entities they control. Their interest in keeping that market open runs against the protection the bill offers ordinary people.",
     "sources": [
-     "S2",
-     "S4",
      "S5"
     ]
    },
    {
-    "industry": "Advertising technology and consumer data platforms",
-    "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "Firms that collect data directly from users rather than reselling brokered data are excluded from the ban, so many large platforms are largely unaffected; those acting as data brokers face new FTC-enforced restrictions on foreign sales.",
+    "industry": "Large tech platforms and ad-tech firms",
+    "effect": "entrenched",
+    "stance_toward_public": "opposed",
+    "note": "The bill defines 'data broker' to exclude entities transmitting or processing data at a customer's direction, so large platforms and ad-tech firms acting as service providers are not covered and keep their existing role in the personal-data economy. The underlying market in Americans' sensitive data continues.",
     "sources": [
      "S5"
     ]
@@ -166,17 +187,18 @@
   ],
   "trajectory": null,
   "categories": [
-   "consumer_protection_and_finance",
-   "other"
+   "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 6,
-   "concentrated_stakes": 7,
-   "outcome_against_public": 6,
-   "support_mismatch": 8,
-   "corruption_relevance": 2,
+   "public_stakes": 5,
+   "concentrated_stakes": 4,
+   "outcome_against_public": 4,
+   "support_mismatch": 5,
+   "corruption_relevance": 1,
    "confidence": 0.9
   }
  },
- "unresolved_citations": []
+ "unresolved_citations": [
+  "S13"
+ ]
 }

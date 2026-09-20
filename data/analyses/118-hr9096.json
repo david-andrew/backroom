@@ -1,117 +1,126 @@
 {
  "bill_id": "118-hr9096",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:54:21+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:19:37+00:00",
  "record_fetched_at": "2026-09-20T11:40:57+00:00",
  "record_hash": "2077cef5933d53a2",
  "analysis": {
-  "one_liner": "Requires pharmacy benefit managers to pay pharmacies fairly and bans spread pricing, steering, and clawback fees.",
-  "headline": "Despite 55 cosponsors split almost evenly between the parties, the bill never received a committee vote before Congress ended in January 2025.",
+  "one_liner": "Forces pharmacy benefits managers to pay pharmacies the full cost of drugs, ban spread pricing and steering, and pass rebates to patients.",
+  "headline": "A bipartisan bill with 55 cosponsors to rein in pharmacy benefits managers died in committee without a hearing or a vote.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would set the rules for how pharmacy benefit managers — the middlemen insurers hire to run prescription drug plans — pay pharmacies under federal health programs like Medicare, Medicaid, TRICARE, and the federal employees' plan. It would force PBMs to pay pharmacies at the national average cost of a drug plus a set dispensing fee, and would ban practices like spread pricing (charging the program more than the pharmacy is paid), fees that claw back pharmacy reimbursement, and steering patients to PBM-owned pharmacies. It would also require that most manufacturer rebates be applied to lower patients' out-of-pocket costs at the pharmacy counter, backed by felony penalties and whistleblower lawsuits.",
-  "who_benefits": "Patients with drug coverage under Medicare, Medicaid, TRICARE, or the federal employees' plan would see out-of-pocket costs calculated with most rebates passed through at the point of sale, and would keep access to any in-network pharmacy instead of being pushed to PBM-owned ones. Community and independent pharmacies would get guaranteed reimbursement at the national average drug cost plus a dispensing fee, and an end to post-adjudication fees that cut their pay after the fact.",
-  "who_benefits_short": "Federal drug-plan patients and local pharmacies",
+  "plain_summary": "The bill would set a floor on what pharmacy benefits managers (PBMs) — the middlemen who process prescription drug claims for insurers and employers — must pay pharmacies for drugs covered by Medicare Part D, Medicare Advantage drug plans, Medicaid managed care, federal employee health plans, and TRICARE. It would ban PBMs from 'spread pricing' (charging the program more than they pay the pharmacy), from steering patients to PBMs' own affiliated pharmacies, and from charging pharmacies fees after a claim is filed. It would also require at least 80% of manufacturer rebates to reduce what patients pay at the counter, and would make knowing violations a federal felony with civil whistleblower suits allowed. The bill was referred to four House committees, then to a subcommittee, and never advanced further before the Congress ended.",
+  "who_benefits": "Patients in Medicare Part D, Medicare Advantage drug plans, Medicaid managed care, the Federal Employees Health Benefits program, and TRICARE, who would pay less out of pocket at the pharmacy counter and could not be pushed to a PBM-owned pharmacy. Community and independent pharmacies, especially rural ones squeezed below cost by PBM reimbursement, would be paid at least the national average drug acquisition cost plus a dispensing fee, with post-claim clawback fees prohibited.",
+  "who_benefits_short": "Federal program patients and community pharmacies",
   "how_it_helps": [
    {
-    "text": "Requires PBMs administering federal drug plans to reimburse in-network pharmacies at the national average drug acquisition cost plus a dispensing fee equal to the state's Medicaid dispensing fee [S2].",
+    "text": "PBMs must reimburse in-network pharmacies for the national average drug acquisition cost of a drug plus a dispensing fee equal to what the state Medicaid program pays, ending reimbursement practices that often pay pharmacies less than the drug cost them [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Bans spread pricing, steering patients to PBM-affiliate pharmacies, requiring brand-name drugs when cheaper generics exist, and any post-adjudication fees or adjustments that reduce pharmacy reimbursement [S2].",
+    "text": "The bill prohibits spread pricing, steering to affiliated pharmacies, charging a beneficiary more than the pharmacy was reimbursed, forcing brand-name drugs when cheaper generics exist, and post-adjudication fees that cut pharmacy reimbursement [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires patient cost sharing to be calculated at the pharmacy counter with at least 80% of manufacturer rebates deducted from the price [S2].",
+    "text": "Beneficiaries' cost sharing at the point of sale must be calculated on a price reduced by at least 80% of all manufacturer rebates on the drug, so rebates lower what patients actually pay rather than flowing back to the PBM and plan [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Imposes felony penalties of up to $1 million per violation and 10 years in prison for knowing violations, and allows whistleblower-style civil actions modeled on the False Claims Act [S2].",
+    "text": "Knowingly and willfully violating the rules would be a felony carrying up to $1 million in fines per act or up to 10 years in prison, and private parties could bring False Claims Act-style civil suits against PBMs on behalf of the United States [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Broadens Medicaid's drug-price surveys to cover all pharmacy types — including mail-order and PBM-owned specialty pharmacies — and requires the government to publish national drug acquisition price data and report non-response rates [S2].",
+    "text": "The bill expands Medicaid drug price survey transparency to all pharmacy types (mail-order, specialty, long-term care, hospital) and requires public reporting of survey response rates and pharmacy price concessions, while barring use of non-retail pharmacy pricing to set retail reimbursement [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "The three dominant PBMs — CVS Caremark, Express Scripts, and Optum Rx — and the insurers that own them (CVS Health, Cigna, and UnitedHealth) would lose the spread pricing margins, clawback fees, and rebate-related revenue the bill outlaws, and would face steep penalties for violations. Federal programs and plan sponsors could see higher costs if pharmacies' guaranteed reimbursement exceeds what plans pay today.",
-  "who_pays_short": "Pharmacy benefit managers and their insurer owners",
+  "who_pays": "The three dominant PBMs — CVS Caremark, Express Scripts (Cigna), and Optum Rx (UnitedHealth) — and their corporate parents would lose spread-pricing revenue, post-claim pharmacy fees, and the steering of patients toward their own affiliated pharmacies. Health plans and programs they administer could see higher pharmacy reimbursement costs, some of which could flow into premiums or federal spending.",
+  "who_pays_short": "The big three PBMs and their parent insurers",
   "drawbacks": [
    {
-    "text": "Guaranteeing every pharmacy the national average drug cost plus a dispensing fee, while banning outcome- or performance-based reimbursement adjustments, could raise drug-plan costs and federal program spending, which could show up as premiums or taxpayer costs [S2].",
+    "text": "A fixed reimbursement formula of national average acquisition cost plus a capped dispensing fee may not reflect what some pharmacies — especially specialty pharmacies buying through different channels — actually pay for expensive drugs, and could be set too low for high-cost therapies [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "A one-size-fits-all reimbursement formula based on average acquisition cost may not cover pharmacies that buy at above-average prices, and eliminating performance metrics removes incentives tied to service quality [S2].",
+    "text": "Higher required pharmacy reimbursement means Medicare, Medicaid, federal employee plans, and TRICARE — and ultimately taxpayers and premium payers — could bear added drug benefit costs, since PBMs would no longer be able to offset pharmacy payments with spread revenue [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The felony penalty of up to $1 million per act and whistleblower lawsuits could invite aggressive litigation over billing disputes that are now handled by audits [S2].",
+    "text": "The blanket prohibition on tying reimbursement to any performance scores or metrics could sweep in legitimate quality and adherence programs along with the manipulative ones [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The combination of per-act felony penalties, $1 million fines, and private whistleblower suits would invite extensive litigation over what counts as a knowing violation, and smaller PBMs could face compliance costs that entrench the large incumbents the bill targets [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The patient protections and pharmacy payment guarantees are substantial and target practices with well-documented costs to patients and independent pharmacies, but the fixed reimbursement formula and ban on all performance-based adjustments are blunt instruments that could raise plan costs without a spending offset. A well-designed version would trade some of that rigidity for accountability on quality.",
+  "benefit_vs_cost": "The patient-side and pharmacy-side benefits are direct and concrete: cheaper point-of-sale costs from rebate pass-through, guaranteed access to in-network pharmacies, and a reimbursement floor for pharmacies operating at a loss. The main uncertainty is cost pass-through — eliminating spread pricing and clawbacks raises the underlying cost of the pharmacy benefit, and part of that could surface in premiums and federal outlays, though those costs today are largely hidden inside opaque PBM contracts. The enforcement design is aggressive and could be litigated heavily, but the core mechanics are straightforward rules that PBMs in Medicare and Medicaid already face under separate CMS rules adopted around the same period, suggesting they are administrable.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was referred to four House committees the day it was introduced, sat there through a December subcommittee referral, and never got a markup, a floor vote, or a Senate companion before Congress ended in January 2025.",
+   "mechanism": "It was introduced and referred to four House committees, then to a Health subcommittee in December 2024, and no committee ever acted on it before the 118th Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Rep. Jake Auchincloss (D-MA) and Rep. Diana Harshbarger (R-TN) introduced the Pharmacists Fight Back Act on July 23, 2024 [S2].",
+     "text": "Rep. Jake Auchincloss (D-MA) introduced the Pharmacists Fight Back Act on July 23, 2024, joined as original cosponsor by Rep. Diana Harshbarger (R-TN), herself a licensed pharmacist [S1][S2].",
      "sources": [
+      "S1",
       "S2"
      ]
     },
     {
-     "text": "It was referred to the Energy and Commerce, Ways and Means, Oversight, and Armed Services committees on the day of introduction [S4].",
+     "text": "The bill was referred the same day to four committees — Energy and Commerce, Ways and Means, Oversight and Accountability, and Armed Services — a multi-committee referral that splits jurisdiction and makes advancement harder [S1][S4].",
      "sources": [
+      "S1",
       "S4"
      ]
     },
     {
-     "text": "The bill drew 55 cosponsors, split 29 Republicans and 26 Democrats [S3].",
+     "text": "It drew 55 cosponsors, split between 29 of 224 House Republicans and 26 of 216 House Democrats [S3].",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "On December 17, 2024, it was referred to the Energy and Commerce Subcommittee on Health — the last recorded action [S4].",
+     "text": "On December 17, 2024, the bill was referred to the Energy and Commerce Subcommittee on Health, the last action it received [S4].",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "No markup, floor vote, or Senate companion action occurred before the 118th Congress ended on January 3, 2025 [S4].",
+     "text": "No hearing, markup, or floor vote ever occurred, and the bill died when the 118th Congress ended on January 3, 2025 [S1][S4].",
      "sources": [
+      "S1",
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "The dominant pharmacy benefit managers and the insurers that own them — CVS Health, Cigna, and UnitedHealth — kept the spread pricing margins, clawback fees, and rebate-driven revenue the bill would have outlawed, and community pharmacies kept absorbing post-adjudication fee cuts."
+   "who_came_out_ahead": "The dominant pharmacy benefits managers and their parent companies are better off: the bill's bans on spread pricing, post-claim pharmacy fees, and steering to affiliated pharmacies never took effect, and the multi-committee referral plus subcommittee referral left the bill parked with no action until it expired."
   },
-  "who_came_out_ahead_short": "Pharmacy benefit managers and their parent insurers",
+  "who_came_out_ahead_short": "The big three PBMs and their parents",
   "sides": {
    "for": [
     {
      "name": "Rep. Jake Auchincloss",
-     "role": "Sponsor",
+     "role": "Sponsor, H.R. 9096",
      "party": "D",
-     "what_they_did": "Introduced the bill and recruited a bipartisan cosponsor coalition",
+     "what_they_did": "Introduced the bill and recruited a bipartisan cosponsor list",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -121,21 +130,31 @@
     },
     {
      "name": "Rep. Diana Harshbarger",
-     "role": "Original co-lead",
+     "role": "Original cosponsor",
      "party": "R",
-     "what_they_did": "Joined as the Republican co-lead on the day of introduction",
+     "what_they_did": "Joined the bill as an original Republican cosponsor",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
+      "S2"
+     ]
+    },
+    {
+     "name": "29 of 224 House Republicans",
+     "role": "Cosponsors",
+     "party": "R",
+     "what_they_did": "Cosponsored the bill",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
       "S3"
      ]
     },
     {
-     "name": "55 House cosponsors",
-     "role": "Cosponsors (29 R, 26 D)",
-     "party": null,
-     "what_they_did": "Signed on in bipartisan numbers across the bill's five months",
+     "name": "26 of 216 House Democrats",
+     "role": "Cosponsors",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -145,35 +164,36 @@
    ],
    "against": [
     {
-     "name": "House leadership and committee chairs",
-     "role": "Controllers of the House floor and of the four referred committees",
+     "name": "House Energy and Commerce, Ways and Means, Oversight, and Armed Services Committees",
+     "role": "Committees of referral",
      "party": null,
-     "what_they_did": "Never scheduled a markup or floor vote; the bill's only movement was a December subcommittee referral",
+     "what_they_did": "Took no action beyond a subcommittee referral; no hearing or markup was ever scheduled",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S1",
       "S4"
      ]
     },
     {
-     "name": "Pharmacy benefit manager industry",
-     "role": "CVS Caremark, Express Scripts, and Optum Rx, represented by the Pharmaceutical Care Management Association",
+     "name": "Major pharmacy benefits managers (CVS Caremark, Express Scripts, Optum Rx)",
+     "role": "Industry facing the bill's restrictions",
      "party": null,
-     "what_they_did": "Lobbied against restrictions on PBM practices during the period when Congress debated but did not act on PBM reform bills",
+     "what_they_did": "Lobbied against PBM regulation proposals during the period, as the three dominant PBMs have done as Congress weighed PBM rules",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "The two original sponsors were one Democrat and one Republican, and cosponsorship split nearly evenly — 29 Republicans to 26 Democrats — so the bill died in committee rather than on a party-line vote."
+   "party_line_note": "Sponsorship was genuinely split: 29 of 224 House Republicans and 26 of 216 House Democrats signed on, and no recorded vote ever took place for the parties to split on."
   },
   "industries": [
    {
-    "industry": "Pharmacy benefit managers (CVS Caremark, Express Scripts, Optum Rx)",
+    "industry": "Pharmacy benefits managers (CVS Caremark, Express Scripts, Optum Rx)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would outlaw the core of PBM profit on federal drug claims: spread pricing, post-adjudication clawback fees, steering patients to PBM-owned pharmacies, and keeping rebates out of patient cost sharing, with felony penalties attached. Their gain today comes directly out of what patients and pharmacies keep.",
+    "note": "The bill eliminates the core ways PBMs profit in federal drug programs: spread pricing, post-claim fees charged to pharmacies, steering patients to PBM-owned pharmacies, and keeping rebates rather than passing them to patients at the counter. It also adds felony and whistleblower exposure for knowing violations. PBMs profit today by charging federal programs more than they pay pharmacies and by directing volume to their own retail operations, so their interest runs against both patients and independent pharmacies.",
     "sources": [
      "S2"
     ]
@@ -182,16 +202,25 @@
     "industry": "Community and independent pharmacies",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Pharmacies would get guaranteed reimbursement at the national average drug cost plus a state-set dispensing fee, and an end to fees that cut their pay after a claim is processed. Small pharmacies are the ones squeezed hardest by current PBM practices.",
+    "note": "Pharmacies would be paid at least the national average drug acquisition cost plus a Medicaid-equivalent dispensing fee, and could no longer have claims reduced by post-adjudication fees. Independent pharmacies, which frequently fill prescriptions at a loss under PBM contracts, gain survival prospects; patients in rural areas where independent pharmacies are closing also gain from keeping them open.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Insurers that own PBMs (UnitedHealth, CVS Health, Cigna)",
+    "industry": "Brand-name drug manufacturers",
     "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "These vertically integrated companies would lose the PBM-side revenue the bill targets, though their insurance plans would also benefit from lower pharmacy reimbursement obligations. The bill would loosen, not break, their control of the drug supply chain.",
+    "note": "The bill does not cap drug list prices or change manufacturer-PBM rebate negotiations, but it requires at least 80% of every rebate to reduce patient cost sharing, making high-rebate formulary positioning less valuable as a lever to keep pricier drugs on formularies over cheaper generics.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Medicare, Medicaid, FEHB, and TRICARE health plans and their insurers",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "Plans must pass rebate value through to patients and pay pharmacies the full acquisition cost, which could raise their drug benefit costs; in return they gain transparent acquisition-cost data from the expanded Medicaid price surveys and a ban on PBM practices like spread pricing that opaque contracts previously concealed.",
     "sources": [
      "S2"
     ]
@@ -200,15 +229,16 @@
   "trajectory": null,
   "categories": [
    "healthcare_and_drug_prices",
+   "consumer_protection_and_finance",
    "antitrust_and_competition"
   ],
   "scores": {
    "public_stakes": 7,
    "concentrated_stakes": 9,
    "outcome_against_public": 8,
-   "support_mismatch": 9,
+   "support_mismatch": 7,
    "corruption_relevance": 3,
-   "confidence": 0.8
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

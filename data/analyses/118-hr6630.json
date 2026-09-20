@@ -1,115 +1,108 @@
 {
  "bill_id": "118-hr6630",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T15:57:33+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:06:23+00:00",
  "record_fetched_at": "2026-09-20T15:42:33+00:00",
  "record_hash": "1980d973b3c9ed00",
  "analysis": {
-  "one_liner": "Taxes large owners $10,000 for every single-family home they hold beyond 75, funding down-payment help.",
-  "headline": "The bill never got a hearing or vote in either of the two committees it was sent to, and died when the 118th Congress ended in January 2025.",
+  "one_liner": "Taxes corporate owners $10,000 per year for each single-family home they own beyond 75, funding down-payment help.",
+  "headline": "The bill never got a hearing or a vote; it died in committee when the 118th Congress ended in January 2025, after picking up a single cosponsor.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would charge a $10,000 tax each year for every single-family home an owner holds above 75 homes, with the money going into a new Housing Trust Fund. The fund would pay for grants to state housing agencies for down-payment assistance to homebuyers, with priority given to families buying homes sold off by these large owners. Certain owners are left out, including nonprofits, homebuilders, banks holding foreclosed homes, and owners of federally subsidized housing.",
-  "who_benefits": "Families trying to buy their first or next home, who would receive down-payment assistance funded by the tax. The bill is also aimed at the housing market broadly: by making it costly for a single owner to hold more than 75 single-family homes, it pressures large owners to sell, putting more houses in reach of ordinary buyers. Note that its definition of ownership is narrow (a direct majority stake), so it reaches only a subset of large owners.",
-  "who_benefits_short": "Families buying their first home",
+  "plain_summary": "This bill would put a yearly $10,000 tax on every single-family home an individual or company owns beyond the first 75 — counting small buildings of up to 4 units, and treating affiliated companies as one owner so large landlords can't split their portfolios among LLCs. The money raised would go into a Housing Trust Fund for grants to state agencies that help families make down payments on homes, with priority given to families buying homes the big owners are selling.",
+  "who_benefits": "Families trying to buy their first home, especially in neighborhoods where large investors have bought up houses. Renters could benefit indirectly if the tax pushes big owners to sell houses to owner-occupants, and state housing finance agencies gain a new grant stream to run down-payment programs.",
+  "who_benefits_short": "First-time homebuyers competing with large landlords",
   "how_it_helps": [
    {
-    "text": "Owners who hold more than 75 single-family residences would owe $10,000 per year for each home above 75, giving them a strong incentive to sell excess homes.",
+    "text": "Imposes a $10,000-per-year excise tax on each single-family residence a covered taxpayer owns beyond 75, applying to taxable years starting after December 31, 2023 [S2] [S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Revenue from the tax would go into a new Housing Trust Fund for grants to state housing finance agencies for down-payment assistance to families buying homes.",
+    "text": "Counts properties of up to 4 dwelling units as single-family residences and treats companies under common ownership as a single taxpayer, closing the loophole of splitting a portfolio across affiliates [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Deposits the tax revenue into a Housing Trust Fund and directs HUD to grant it to state housing finance agencies for down-payment assistance, prioritizing families buying homes sold by the large taxed owners [S2] [S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "State agencies receiving grants would give priority to families buying homes that a large taxed owner sells, directly connecting the tax to homes coming back on the market.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Related-entity ownership is aggregated, so an owner cannot dodge the tax simply by spreading homes across companies under common control.",
+    "text": "An anti-avoidance rule says a home sold to another business, an investment group, or another large owner still counts as owned that year, so big landlords can't dodge the tax by trading homes among themselves [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Individuals and companies with large portfolios of single-family homes (more than 75), including institutional landlords and absentee investors, who would either pay the tax or sell homes. Buyers of those homes, and the tax's own rules impose a $50,000 penalty on anyone who fails to report required purchase information.",
-  "who_pays_short": "Large landlords and investor home portfolios",
+  "who_pays": "Individuals and companies that own more than 75 single-family homes — the largest institutional and corporate landlords — plus a $50,000 penalty for anyone who fails to report required ownership information on a home sale.",
+  "who_pays_short": "Corporate owners of 75+ single-family homes",
   "drawbacks": [
    {
-    "text": "The definition of ownership only counts a direct majority interest, so investors holding large stakes below a majority, or through structures the rules don't capture, could avoid the tax entirely.",
+    "text": "The 75-home threshold is high: investors owning anywhere from a handful to 70 houses would pay nothing, so the tax touches only the very largest owners and its effect on overall home prices would be limited [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Several large owner categories are fully exempt — nonprofits, builders and rehabilitators, banks holding homes through foreclosure, and owners of federally subsidized housing — which narrows the bill's reach.",
+    "text": "Down-payment grants boost buyers' purchasing power; unless more homes are built or sold, added demand can bid prices up rather than make homes more affordable — a cost an honest supporter would have to weigh [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The tax applies only above 75 homes, so owners with dozens of homes but fewer than 76 face no charge at all, and the $10,000-per-home charge is small relative to the value of a home, which may make paying the tax an easy choice for the largest owners.",
+    "text": "Because a home sold to another business or a multi-property owner still counts as owned that year, an owner trying to exit could be taxed on homes it no longer wants, complicating sales in ways ordinary transactions would have to navigate [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The trust fund spends only as appropriations Acts allow, so revenue collection does not guarantee the down-payment grants actually flow.",
+    "text": "Reporting failures carry a $50,000 penalty per violation (with a reasonable-cause waiver), a compliance cost that falls on anyone handling a covered sale, including individual buyers and sellers filing certifications [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The bill aims squarely at a real problem — large investors accumulating single-family homes that would otherwise be owner-occupied — and recycles the money into down-payment help. But it is narrow: a 75-home floor and a majority-ownership definition leave many large owners untouched, several favored categories are exempt, and the per-home tax is modest for the biggest players. Even if enacted, its effect on the housing market would likely be limited to the very largest portfolio holders. The bigger obstacle is that it never received any committee action, so its design was never tested.",
+  "benefit_vs_cost": "The bill targets a real and widely felt problem — large investors buying up entry-level single-family homes — and its anti-avoidance rules are more serious than most gesture bills of this kind. But the 75-home carve-out means most investor-owned houses are untouched, and the down-payment grants could push prices up if the tax fails to free up many homes. It is a narrow tool aimed at a narrow slice of the market, helpful at the margins rather than transformative.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was sent to two House committees on the day it was introduced, neither ever took it up, and it died when the 118th Congress ended in January 2025.",
+   "mechanism": "It was referred to the Ways and Means and Financial Services committees the day it was introduced, neither committee ever took it up, and it expired when the Congress ended.",
    "narrative": [
     {
-     "text": "Rep. Jeff Jackson of North Carolina introduced the bill on December 6, 2023, joined by Rep. Alma Adams.",
+     "text": "Rep. Jeff Jackson (D-NC) introduced the bill on December 6, 2023, joined by Rep. Alma Adams (D-NC) as its only cosponsor [S1] [S4].",
      "sources": [
       "S1",
-      "S3"
+      "S4"
      ]
     },
     {
-     "text": "The same day, the House referred it to the Ways and Means Committee and the Financial Services Committee, the two committees with jurisdiction over its tax and housing provisions.",
+     "text": "The same day, it was referred to both the Ways and Means Committee and the Financial Services Committee; that referral was the bill's last recorded action [S5].",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "No hearing, markup, or vote ever followed in either committee, and the bill's only listed cosponsor was one member, leaving it without momentum.",
+     "text": "Neither committee held a markup, hearing on the bill, or floor vote before the 118th Congress ended on January 3, 2025, so the bill died without ever coming up [S5].",
      "sources": [
-      "S4",
       "S5"
-     ]
-    },
-    {
-     "text": "The 118th Congress ended on January 3, 2025, so all pending legislation, including this bill, expired without a vote.",
-     "sources": [
-      "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Large owners of single-family rental portfolios, who face no new tax or sell-off pressure, and the committees' leadership, which never had to take a position."
+   "who_came_out_ahead": "The largest corporate owners of single-family rental homes keep their portfolios untaxed, and would-be homebuyers get no new down-payment help. The two sponsors gained nothing beyond a recorded position."
   },
-  "who_came_out_ahead_short": "Large landlords and portfolio investors",
+  "who_came_out_ahead_short": "Large single-family rental owners",
   "sides": {
    "for": [
     {
      "name": "Rep. Jeff Jackson",
      "role": "U.S. Representative, NC-14; bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill imposing the excess-home tax and creating the down-payment assistance trust fund.",
+     "what_they_did": "Introduced the bill and was its sole sponsor",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -119,9 +112,9 @@
     },
     {
      "name": "Rep. Alma Adams",
-     "role": "U.S. Representative, NC-12; original cosponsor",
+     "role": "U.S. Representative, NC-12; cosponsor",
      "party": "D",
-     "what_they_did": "Joined as an original cosponsor when the bill was introduced.",
+     "what_they_did": "Joined as the bill's only cosponsor at introduction",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -132,65 +125,60 @@
    ],
    "against": [
     {
-     "name": "House Ways and Means Committee leadership",
-     "role": "Chair of the committee where the tax provisions sat",
+     "name": "Rep. Jason Smith",
+     "role": "Chair, House Ways and Means Committee (lead referral for the tax provision)",
      "party": "R",
-     "what_they_did": "Never scheduled a hearing or markup on the bill after it was referred on December 6, 2023.",
+     "what_they_did": "Never scheduled the bill for a committee markup or vote",
      "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S5"
-     ]
+     "evidence": "widely_reported",
+     "sources": []
     },
     {
-     "name": "House Financial Services Committee leadership",
-     "role": "Chair of the committee with jurisdiction over the housing grant provisions",
+     "name": "Rep. Patrick McHenry",
+     "role": "Chair, House Financial Services Committee (second referral for the housing-grant provision)",
      "party": "R",
-     "what_they_did": "Never scheduled a hearing or markup on the bill after it was referred on December 6, 2023.",
+     "what_they_did": "Never scheduled the bill for a committee markup or vote",
      "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S5"
-     ]
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "There were no votes or recorded floor opposition, so no party split is visible; the bill had only Democratic support (one sponsor and one cosponsor) and no recorded Republican action either way."
+   "party_line_note": "No votes were ever taken; the bill's only recorded support was its two House Democratic sponsors, and no Republican cosigned it [S4]."
   },
   "industries": [
    {
-    "industry": "Institutional and large individual landlords of single-family homes",
+    "industry": "Institutional single-family rental landlords",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Owners of more than 75 single-family residences would owe $10,000 per excess home each year, pushing them to shrink their portfolios. The bill's premise is that large investor holdings crowd out ordinary homebuyers.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "industry": "Homebuilders and home rehabilitation firms",
-    "effect": "entrenched",
-    "stance_toward_public": "mixed",
-    "note": "Firms primarily engaged in building or rehabilitating single-family homes are exempt from the tax, leaving their business model untouched while competitors holding finished homes are taxed.",
+    "note": "A $10,000-per-year tax on every home they hold above 75, with affiliated companies counted as one owner and inter-investor sales not counting as disposals. Their interest in avoiding the tax runs against the bill's goal of moving homes to owner-occupant families. [S3]",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Banks and mortgage note holders",
-    "effect": "gains",
-    "stance_toward_public": "opposed",
-    "note": "Owners of foreclosed homes are exempt from the tax, so banks that repossess single-family homes face no charge and face no pressure from this bill to release them to the market.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "Nonprofit housing organizations",
+    "industry": "Homebuilders and home rehabbers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Tax-exempt 501(c)(3) organizations are excluded from the tax, so affordable-housing nonprofits are not charged for their holdings.",
+    "note": "Firms primarily engaged in building or rehabbing single-family homes are expressly excluded from the tax, and any large-owner sell-offs would add homes to the market at no cost to them. [S3]",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "industry": "Banks and mortgage holders with foreclosed properties",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "Homes held through foreclosure are exempt, so lenders disposing of repossessed houses face no penalty while still offloading inventory to buyers. [S3]",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "industry": "State housing finance agencies",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "They would administer a new federal grant stream for down-payment assistance programs, giving them funding and a larger role in getting families into homes. [S3]",
     "sources": [
      "S3"
     ]
@@ -202,12 +190,12 @@
    "taxes_on_wealth_and_corporations"
   ],
   "scores": {
-   "public_stakes": 5,
-   "concentrated_stakes": 5,
+   "public_stakes": 6,
+   "concentrated_stakes": 6,
    "outcome_against_public": 6,
-   "support_mismatch": 3,
+   "support_mismatch": 2,
    "corruption_relevance": 1,
-   "confidence": 0.9
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

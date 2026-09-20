@@ -1,154 +1,144 @@
 {
  "bill_id": "118-hr7890",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:26:36+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:12:49+00:00",
  "record_fetched_at": "2026-09-20T11:29:11+00:00",
  "record_hash": "fd13356f405d1d14",
  "analysis": {
-  "one_liner": "Extends children's online privacy law to teens and bans tracking them for targeted ads.",
-  "headline": "The House Energy and Commerce Committee approved the bill by voice vote in September 2024, but the full House never voted on it before the Congress ended in January 2025.",
+  "one_liner": "Extends children's online privacy protections to teens and bans targeted advertising to minors.",
+  "headline": "The House Energy and Commerce Committee approved the bill by voice vote in September 2024, but it was never brought to the House floor and died when the Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "This bill updates the 1998 children's online privacy law to cover teens up to age 17, not just young children. It would ban apps and websites from collecting kids' and teens' personal data to target them with individualized ads, cover new data types like geolocation and biometric identifiers, give teens and parents the right to see and delete collected data, and require companies to protect that data from breaches. It also preserves the ability of states to pass stronger protections. It never got a vote.",
-  "who_benefits": "Children and teenagers, whose personal data, location, biometric identifiers, and online profiles would be protected from collection and use for targeted advertising; parents, who would gain notice and consent rights and the ability to review and delete their child's data; and states, which could add stronger protections of their own.",
-  "who_benefits_short": "Children, teens, and their parents",
+  "plain_summary": "This bill updates the 1998 children's online privacy law to cover teenagers ages 13 to 16, not just children under 13. It would stop websites and apps from using kids' personal data to target them with ads, let parents and teens view and delete collected data, require stronger security, and let the Federal Trade Commission and state attorneys general enforce the rules. The committee approved it unanimously by voice vote, but House leadership never scheduled a vote on the floor before the two-year Congress expired.",
+  "who_benefits": "Children under 13 and teens 13 through 16 who use websites, apps, games, and connected devices, plus their parents, who gain the right to review, correct, and delete the data companies collect about their kids.",
+  "who_benefits_short": "Kids, teens, and their parents",
   "how_it_helps": [
    {
-    "text": "The bill extends the existing children's online privacy law from children under 13 to teens ages 13 to 16, covering a far larger group of users whose data companies could otherwise collect and sell [S2].",
+    "text": "The bill extends the Children's Online Privacy Protection Act from children under 13 to cover 'teens,' defined as individuals over 12 and under 17, so platforms are restricted in how they collect and use teen data [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It makes it unlawful for operators to collect, use, or disclose a child's or teen's personal information for individualized advertising, and defines that term to cover profiling based on a young person's data or a device identifier [S2].",
+    "text": "It makes it unlawful for operators with actual knowledge, or knowledge fairly implied by objective circumstances, that a user is a child or teen to collect, use, disclose, or maintain their personal information for individual-specific advertising, except for contextual ads and ads the user asks for [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It expands the definition of personal information to include geolocation, photographs and voice files, biometric identifiers like facial templates and DNA, and persistent identifiers like IP addresses that track a user across sites and apps [S2].",
+    "text": "It requires operators to give parents and teens notice of data practices, verifiable consent for collection, access to the data collected, the ability to delete data and refuse further use, the ability to challenge inaccuracies, and reasonable security protections [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It gives teens, not just parents, the right to see what data a company collected, delete their information and posts, and correct inaccurate data [S2].",
+    "text": "The bill expands the definition of personal information to cover persistent identifiers like IP addresses and device IDs, geolocation, biometric data such as facial templates and voiceprints, and photos or audio of a child's image or voice [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It requires operators to maintain reasonable security practices to protect children's and teens' data from unauthorized access, and to delete it once it is no longer needed for the requested service [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "The bill replaces broad federal preemption with a conflicts-only rule, expressly allowing states to enact stronger protections for children and teens [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "It requires the Federal Trade Commission to report annually on its enforcement of the law, including the number of investigations and complaints, creating public accountability [S2].",
+    "text": "The FTC and state attorneys general are given explicit authority to enforce the new prohibitions, and the FTC must report annually to Congress on its enforcement actions, investigations, and complaints under the law [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Online platforms, app developers, and the advertising technology industry, which would lose the ability to build profiles of minors and serve them targeted ads, and would bear the cost of compliance, notices, deletion systems, and security measures. Small developers get a lighter-touch analysis requirement but still face compliance costs.",
-  "who_pays_short": "Social media platforms and ad-tech companies",
+  "who_pays": "If it had passed, the cost would fall on social media platforms, app developers, and digital ad companies, whose ad businesses run on collecting and profiling user data, including data about young users, and who would face FTC enforcement and state lawsuits for violations.",
+  "who_pays_short": "Platforms and adtech companies",
   "drawbacks": [
    {
-    "text": "The bill does not require companies to verify users' ages: it expressly says operators need not implement age-gating or age-verification, relying instead on 'knowledge fairly implied on the basis of objective circumstances,' which could let platforms claim ignorance that a user is a minor [S2].",
+    "text": "The bill explicitly does not require operators to verify ages or implement age gating, relying instead on operators' 'knowledge fairly implied on the basis of objective circumstances,' so companies could avoid the law's protections if they can plausibly claim they did not know a user's age [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The FTC's guidance on how that knowledge standard will be applied is expressly non-binding and cannot be the basis of an enforcement action, which may make enforcement inconsistent and litigable [S2].",
+    "text": "Its protections for teens depend on teens themselves giving consent to collection, and it permits operators to terminate service to a child or teen whose parent or the teen refuses further data collection, so the leverage in the notice-and-consent system still sits with the company [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Compliance costs fall on all covered operators, and the bill requires regulators to analyze the impact on small entities, acknowledging that smaller app developers could face a disproportionate burden [S2].",
+    "text": "It creates a written-agreement pathway for education technology operators to collect student data without verifiable consent, shifting enforcement of children's privacy in schools from families to school systems [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill allows operators working under agreements with schools to collect student data without parental consent, provided the data is limited to educational purposes — a carve-out that shifts oversight to school administrators [S2].",
+    "text": "It exempts nonprofits that would be exempt from the FTC Act, leaving data practices of nonprofit online services unregulated by this law [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "For families, the benefits are substantial: fewer ads built on children's profiles, deletion rights, and stronger data security, while the main cost is compliance spending by platforms and apps. The design has real gaps — no age verification and non-binding FTC guidance — but the core restrictions on profiling minors are meaningful, and states may go further. The larger failure is procedural: a bill with bipartisan support that cleared committee was never allowed a floor vote.",
+  "benefit_vs_cost": "The privacy gains for children and teens are real and address a widely felt problem: platforms currently profile and target kids with personalized ads. The main weakness is that without any age-verification duty, the law depends on catching companies that should have known a user was a minor, which creates a loophole companies can design around. Even a strong honest supporter would concede the compliance costs fall hardest on small app developers, though the bill requires the FTC to analyze small-business impacts. On balance, the benefits to families outweigh the costs to industry.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The Energy and Commerce Committee approved the bill in September 2024, but House leaders never brought it to the floor for a vote before the Congress ended in January 2025.",
+   "mechanism": "The House committee held a markup and approved it by voice vote in September 2024, but it was never reported to and voted on by the full House before the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Representative Tim Walberg introduced the bill on April 9, 2024, with bipartisan original cosponsors including Democrats Kathy Castor and Anna Eshoo, and it was referred to the House Committee on Energy and Commerce [S1, S2].",
+     "text": "Rep. Tim Walberg (R-MI) introduced the bill on April 9, 2024, with bipartisan original cosponsors, and it was referred to the House Committee on Energy and Commerce [S1][S2].",
      "sources": [
       "S1",
       "S2"
      ]
     },
     {
-     "text": "The bill gathered 28 cosponsors split 16 Democrats and 12 Republicans [S3].",
+     "text": "Twenty-eight members cosponsored the bill, split 16 Democrats and 12 Republicans [S3].",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "On September 18, 2024, the committee held a markup session and ordered the bill reported to the House with amendments by voice vote [S4].",
+     "text": "On September 18, 2024, the Energy and Commerce Committee held a markup session and ordered the bill reported to the House, as amended, by voice vote [S4].",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "No further action was ever taken: the bill never received a vote in the full House and the 118th Congress ended on January 3, 2025 [S4, S1].",
+     "text": "No further action appears in the record: the bill was never reported out of committee to the floor, never debated, and never voted on before the 118th Congress ended on January 3, 2025 [S4][S1].",
      "sources": [
       "S4",
       "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Online platforms and the advertising technology industry are better off: the bill that would have restricted collecting and profiling minors' data for targeted advertising died without a floor vote, so the status quo remains."
+   "who_came_out_ahead": "Platforms and the adtech industry, which continue profiling and targeting children and teens under the pre-2024 rules; families gained nothing from this Congress."
   },
-  "who_came_out_ahead_short": "Platforms and ad-tech companies",
+  "who_came_out_ahead_short": "Platforms and adtech companies",
   "sides": {
    "for": [
     {
-     "name": "Rep. Tim Walberg",
-     "role": "Sponsor (House Energy and Commerce Committee member)",
+     "name": "Tim Walberg",
+     "role": "U.S. Representative (R-MI), bill sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill and led it through committee",
+     "what_they_did": "Introduced the bill and guided it into the Energy and Commerce Committee markup.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2"
+      "S2",
+      "S4"
      ]
     },
     {
-     "name": "Reps. Kathy Castor, Anna Eshoo, and other original cosponsors",
-     "role": "Original cosponsors, both parties",
-     "party": "D",
-     "what_they_did": "Signed on as original cosponsors at introduction, giving the bill bipartisan footing",
+     "name": "Anna Eshoo, Kathy Castor, Seth Moulton, Jake Auchincloss, Buddy Carter, Larry Bucshon, and Neal Dunn",
+     "role": "Original bipartisan cosponsors",
+     "party": "I",
+     "what_they_did": "Signed on as original cosponsors, giving the bill Democratic and Republican backing from day one.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2"
+      "S2",
+      "S3"
      ]
     },
     {
      "name": "House Committee on Energy and Commerce",
      "role": "Committee of jurisdiction",
      "party": null,
-     "what_they_did": "Held a markup on September 18, 2024 and ordered the bill reported to the House with amendments by voice vote",
+     "what_they_did": "Held a markup on September 18, 2024, and approved the bill as amended by voice vote.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -156,10 +146,10 @@
      ]
     },
     {
-     "name": "28 House cosponsors",
-     "role": "Cosponsors (16 Democrats, 12 Republicans)",
-     "party": null,
-     "what_they_did": "Cosponsored the bill, signaling bipartisan support",
+     "name": "16 of 216 House Democrats and 12 of 224 House Republicans",
+     "role": "Cosponsors in the House",
+     "party": "I",
+     "what_they_did": "Cosponsored the bill across party lines.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -169,62 +159,44 @@
    ],
    "against": [
     {
-     "name": "House leadership / the full House",
-     "role": "House Republican majority controlling the floor calendar",
+     "name": "House leadership of the 118th Congress",
+     "role": "Floor schedule control",
      "party": "R",
-     "what_they_did": "Never scheduled or brought the bill to the House floor after it was reported from committee; it died with the Congress",
+     "what_they_did": "Never scheduled the bill for a vote on the House floor after the committee ordered it reported; it sat and expired with the Congress.",
      "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "name": "Online platforms and advertising industry groups",
-     "role": "Companies whose business models rely on collecting user data for targeted advertising",
-     "party": null,
-     "what_they_did": "Opposed restrictions on collecting and profiling minors' data for advertising",
-     "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "The bill had bipartisan sponsorship and support throughout: a Republican sponsor, 28 cosponsors split 16 Democrats and 12 Republicans, and approval by voice vote in committee, with no recorded opposition in the congressional record."
+   "party_line_note": "Support was bipartisan: a Republican sponsor with 16 Democratic and 12 Republican cosponsors, and a committee that approved it by voice vote with no recorded opposition."
   },
   "industries": [
    {
-    "industry": "Advertising technology and data brokers",
+    "industry": "Social media and online platforms",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill makes it unlawful to collect, use, or disclose minors' personal information for individualized advertising, striking at the profiling-based ad model. Its gain had been a constant stream of young users' data at no cost to the industry.",
+    "note": "The bill restricts how platforms collect and use personal data from users under 17, including requiring consent and data deletion rights. Platforms' revenue model relies on exactly this data collection, and the outcome preserved the status quo for them.",
     "sources": [
-     "S2"
+     "S2",
+     "S4",
+     "S1"
     ]
    },
    {
-    "industry": "Social media platforms and app developers",
-    "effect": "mixed",
+    "industry": "Digital advertising and adtech",
+    "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill covers mobile and online apps, not just websites, and adds duties: notices, deletion and correction rights for teens, data-retention limits, and security requirements. These costs fall on platforms, while the restrictions protect the young users those platforms court.",
+    "note": "The bill bans individual-specific advertising to children and teens based on profiling or persistent identifiers, cutting off targeted ad revenue from young users. The bill never became law, so this revenue stream was untouched.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Educational technology providers",
-    "effect": "entrenched",
+    "industry": "Education technology companies",
+    "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "The bill lets operators collecting student data under school agreements proceed without parental consent, so long as use is limited to educational purposes. This locks in ed-tech companies' role as the channel for student data in schools, with oversight shifted to school administrators rather than parents.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "State attorneys general and consumer enforcement",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "The bill expands state attorneys general enforcement to the new restrictions and expressly preserves states' power to enact stronger protections for children and teens.",
+    "note": "The bill would let edtech operators collect student data without verifiable parental consent if they sign written agreements with schools limiting use to educational purposes. That keeps schools as a channel for data collection while adding notice and review requirements.",
     "sources": [
      "S2"
     ]
@@ -233,13 +205,12 @@
   "trajectory": null,
   "categories": [
    "consumer_protection_and_finance",
-   "corruption_and_ethics",
-   "social_safety_net"
+   "corruption_and_ethics"
   ],
   "scores": {
-   "public_stakes": 7,
-   "concentrated_stakes": 8,
-   "outcome_against_public": 7,
+   "public_stakes": 6,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 8,
    "support_mismatch": 6,
    "corruption_relevance": 2,
    "confidence": 0.85

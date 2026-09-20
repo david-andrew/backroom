@@ -1,171 +1,184 @@
 {
  "bill_id": "118-hr4115",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T15:56:16+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:59:15+00:00",
  "record_fetched_at": "2026-09-20T15:40:12+00:00",
  "record_hash": "4dd9f038b4654cbc",
  "analysis": {
-  "one_liner": "Extends Medicare's drug-price inflation rebates to prescription drugs sold through private insurance.",
-  "headline": "The bill to extend Medicare's drug-price inflation rebates to private insurance was referred to two House committees in June 2023 and died without a hearing, a vote, or a single action beyond committee referral.",
+  "one_liner": "Makes brand-name drug makers pay Medicare-style inflation rebates on drugs sold through private insurance.",
+  "headline": "The bill went nowhere: after two committee referrals and two subcommittee referrals over 18 months, it never got a committee vote or floor action, and it died when the 118th Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "Under current law, drug makers must pay Medicare a rebate when the price of a brand-name drug without a generic rises faster than inflation. This bill would apply that same rebate rule to drugs sold through private insurance plans, and would move the baseline year back from 2021 to 2016 so that rebates cover more of the price increases drug companies have charged since then. It never advanced past committee referral.",
-  "who_benefits": "Families and workers with private health insurance would benefit. Today, Medicare's inflation rebate only applies to drugs bought through Medicare; brand-name drugs sold through employer and other private plans can rise in price faster than inflation with no rebate to anyone. The bill would require manufacturers to pay those rebates for commercial-market drugs as well, and it would calculate rebates from 2016 price levels instead of 2021, capturing years of price increases that the current rule ignores. Lower prices paid by insurers would flow into lower premiums and out-of-pocket drug costs for privately insured households.",
-  "who_benefits_short": "Families with private insurance",
+  "plain_summary": "Current law requires drug makers to pay rebates to Medicare when the prices of brand-name drugs without generics rise faster than inflation — but only on drugs sold through Medicare. This bill would extend that penalty to the same drugs when they're sold through private health insurance, and it would move the starting-year for measuring price increases back from 2021 to 2016, which catches far more price hikes. The result would be direct financial pressure on brand-name manufacturers to stop raising prices faster than inflation on drugs used by the roughly half of Americans with private coverage.",
+  "who_benefits": "The tens of millions of Americans who get health insurance through an employer or the private market would benefit indirectly: drug makers facing rebates on every unit sold commercially have a strong reason to slow price increases, which over time would ease premiums and out-of-pocket costs. The Medicare program itself would also collect the rebate payments.",
+  "who_benefits_short": "Families with private health insurance",
   "how_it_helps": [
    {
-    "text": "Extends Medicare's rule requiring rebates when brand-name drug prices rise faster than inflation — currently limited to drugs without generic equivalents costing $100 or more per year — to drugs sold in the commercial market under private health insurance.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Moves the rebate baseline year from 2021 back to 2016, so manufacturers owe rebates on more of the price increases charged between 2016 and today, and applies both changes retroactively as if they had been part of the 2022 Inflation Reduction Act.",
+    "text": "The bill applies the existing Medicare inflation-rebate requirement — covering brand-name drugs costing at least $100 per year with no generic, whose prices rise faster than inflation — to drugs sold in the commercial market under private insurance, with civil penalties for manufacturers that fail to comply.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Imposes civil penalties on manufacturers that fail to comply, giving the requirement teeth rather than relying on voluntary cooperation.",
+    "text": "It also moves the base year used to calculate rebates from 2021 back to 2016, so price increases accumulated over five extra years count against the manufacturer, making the rebate much larger.",
     "sources": [
-     "S2"
+     "S2",
+     "S3"
     ]
    },
    {
-    "text": "The bill's mechanics exclude drugs already covered by Medicaid rebates, Medicare rebates, and (from 2026) 340B discounts, so it targets the commercial market specifically and avoids double-counting.",
+    "text": "The bill excludes units already covered by Medicaid rebates, Part D rebates, and (from 2026) the 340B discount program, so the new rebate targets sales through private insurance specifically.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Brand-name drug manufacturers would pay, in the form of rebates owed to the federal government whenever prices of their commercial-market drugs rose faster than inflation from a 2016 baseline. Any costs they shifted would land on insurers, employers who sponsor plans, or consumers, though the bill's premise is that rebates discipline pricing rather than raise it.",
+  "who_pays": "Brand-name pharmaceutical manufacturers would bear the cost, paying inflation-linked rebates to Medicare on drugs they sell into the private market, including rebates calculated retroactively against a 2016 baseline. Insurers and employers might see offsetting pressure on premiums, but the rebate payments themselves come from the manufacturers.",
   "who_pays_short": "Brand-name drug manufacturers",
   "drawbacks": [
    {
-    "text": "Applying Medicare's rebate machinery to the private market is untested: the bill would calculate commercial-market drug volumes from manufacturer-reported pricing data and state Medicaid reports, a method built for Medicare and Medicaid rather than private plans, and administering it could be complicated or contentious.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Manufacturers subject to inflation rebates on all commercial sales could respond by launching new drugs at higher starting prices or slowing price concessions elsewhere, since the penalty only reaches price increases above inflation from the baseline.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "The deeper 2016 baseline makes rebates much larger than under current law, which increases the risk that manufacturers argue the rebates function as a broad tax on their commercial revenues rather than a penalty for specific price gouging.",
+    "text": "The rebates go to the Medicare program, not directly to insured families, so the savings for privately insured people are indirect — felt through slower price growth rather than a visible discount at the pharmacy counter.",
     "sources": [
      "S2",
      "S3"
     ]
+   },
+   {
+    "text": "The bill makes its changes take effect as if they were part of the original 2022 drug-price law, meaning the 2016 baseline applies retroactively; that would impose a very large one-time rebate liability on manufacturers and is the kind of provision that draws intense industry resistance.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Extending rebates to the entire private market is a far heavier intervention than anything Congress has applied to commercial coverage, and manufacturers and their allies argue that penalties on price increases discourage investment in new medicines — a cost an honest supporter would have to weigh.",
+    "sources": [
+     "S2"
+    ]
    }
   ],
-  "benefit_vs_cost": "For privately insured families, the upside is direct: the same anti-inflation rebate that applies to Medicare would apply to the drugs their plans buy, with a 2016 baseline that captures five extra years of price increases. The costs fall on brand-name manufacturers, and the main genuine risks are administrative complexity and the possibility that drug makers adapt by setting higher launch prices or shifting pricing elsewhere. On balance the bill's benefits to consumers are broad and its drawbacks are manageable design questions, but none of that was ever tested because the bill received no committee action.",
+  "benefit_vs_cost": "The upside — slowing drug price inflation for everyone with private coverage, at zero direct cost to taxpayers — is substantial, and the bill targets only drugs without generic competition whose prices are rising faster than inflation. The real weaknesses are design and politics: the benefit to families is indirect because the money flows to Medicare, the retroactive 2016 baseline makes the manufacturer burden unusually large and hard to pass, and the industry would fight it hard. It was never actually tested, since no committee ever took it up.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced and referred to two House committees in June 2023, sat in a health subcommittee, and never got a hearing, a markup, or a floor vote before the two-year term ended.",
+   "mechanism": "It was sent to two House committees and then a health subcommittee, where it sat for a year and a half without a hearing, markup, or vote, and it expired when the 118th Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Rep. Ruben Gallego introduced the bill on June 14, 2023, with Rep. Elissa Slotkin as an original cosponsor; only two members cosponsored it in total.",
-     "sources": [
-      "S3",
-      "S4"
-     ]
-    },
-    {
-     "text": "The Speaker referred it to both the Energy and Commerce Committee and the Ways and Means Committee, the standard dual referral for bills touching both drug pricing and health programs, and it was sent to the Energy and Commerce Subcommittee on Health within two days.",
+     "text": "The bill was introduced on June 14, 2023, and referred to the House Energy and Commerce and Ways and Means Committees.",
      "sources": [
       "S1",
       "S5"
      ]
     },
     {
-     "text": "In more than eighteen months, no committee held a hearing or marked up the bill; the only further action was a second subcommittee referral on December 17, 2024, less than three weeks before the term ended.",
+     "text": "On June 16, 2023, it was referred to the Energy and Commerce Health Subcommittee, and it was referred to that subcommittee again on December 17, 2024 — the last action of its life.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "The bill died when the 118th Congress ended on January 3, 2025, without ever reaching the House floor.",
+     "text": "The bill never received a committee vote, a floor vote, or a hearing, and it died when the 118th Congress ended on January 3, 2025.",
      "sources": [
-      "S1",
       "S5"
+     ]
+    },
+    {
+     "text": "The bill would have extended Medicare's drug inflation rebates to the private insurance market and moved the rebate base year back to 2016, per the CRS summary and bill text.",
+     "sources": [
+      "S2",
+      "S3"
      ]
     }
    ],
-   "who_came_out_ahead": "Brand-name drug manufacturers are better off: the inflation rebate requirement was never extended to the commercial market, and they continue to sell privately insured patients their drugs at prices that can outpace inflation with no rebate owed. Privately insured families got nothing."
+   "who_came_out_ahead": "Brand-name drug manufacturers are better off: they avoided paying inflation rebates on the entire private-insurance market and never faced the retroactive 2016 baseline, and the bill's small pool of sponsors produced no follow-up in the next Congress recorded in these sources."
   },
   "who_came_out_ahead_short": "Brand-name drug manufacturers",
   "sides": {
    "for": [
     {
      "name": "Rep. Ruben Gallego",
-     "role": "Sponsor",
+     "role": "House bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and recruited an original cosponsor, but it never advanced in committee.",
+     "what_they_did": "Introduced the bill and pressed for it through subcommittee referral; it received no further action.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3"
+      "S3",
+      "S5"
      ]
     },
     {
      "name": "Rep. Elissa Slotkin",
-     "role": "Original cosponsor",
+     "role": "Original cosponsor, named on introduction",
      "party": "D",
-     "what_they_did": "Joined Gallego at introduction as one of the bill's only two cosponsors.",
+     "what_they_did": "Joined the bill as its only named cosponsor at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S3",
       "S4"
      ]
+    },
+    {
+     "name": "2 of 216 House Democrats",
+     "role": "Cosponsors",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill; no House Republican did.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
     }
    ],
    "against": [
     {
-     "name": "House Energy and Commerce and Ways and Means leadership",
-     "role": "Committee chairs controlling the drug-pricing and health jurisdictions",
+     "name": "House Energy and Commerce Committee leadership",
+     "role": "Referral committee; controlled the Health Subcommittee where the bill sat",
      "party": "R",
-     "what_they_did": "Never scheduled a hearing or markup in either committee during the entire 18-month life of the bill, leaving it with only subcommittee referrals.",
+     "what_they_did": "Never scheduled a hearing or markup on the bill across 18 months, including a second subcommittee referral in December 2024.",
      "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S5"
-     ]
+     "evidence": "widely_reported",
+     "sources": []
     },
     {
-     "name": "Pharmaceutical industry",
-     "role": "Brand-name drug manufacturers",
+     "name": "House Ways and Means Committee leadership",
+     "role": "Joint referral committee with jurisdiction over the Medicare provisions",
+     "party": "R",
+     "what_they_did": "Never scheduled a markup or any action on the bill before the Congress ended.",
+     "direct": true,
+     "evidence": "widely_reported",
+     "sources": []
+    },
+    {
+     "name": "Brand-name drug manufacturers",
+     "role": "Industry that would owe the new rebates",
      "party": null,
-     "what_they_did": "Opposed extending Medicare's inflation rebates to the commercial market, a proposal that would require rebates on drugs sold through private insurance.",
+     "what_they_did": "Lobbied against expanding the Medicare inflation-rebate program to the commercial market, the drug industry's consistent position on such extensions.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "party_line",
-   "party_line_note": "Both sponsor and cosponsors were Democrats, and the bill sat untouched in committees controlled by the House Republican majority, so support ran on one side of the aisle only."
+   "party_line_note": "Support was entirely Democratic — the sponsor and two Democratic cosponsors out of 216 House Democrats — with no Republican cosponsors, and the bill's referral committees were under Republican control and never acted on it."
   },
   "industries": [
    {
-    "industry": "Brand-name drug manufacturers",
+    "industry": "Brand-name drug makers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would require manufacturers to pay inflation rebates on brand-name drugs sold through private insurance, calculated from 2016 price levels instead of 2021, substantially expanding the rebates they owe. Today the commercial market — the largest channel for prescription drugs — is exempt from the inflation rebate rule entirely, so the bill directly attacks a pricing freedom manufacturers currently enjoy.",
+    "note": "They would owe Medicare inflation-linked rebates on every unit of a rebatable drug sold through private insurance, calculated back to a 2016 baseline — a multi-billion-dollar revenue hit. Their interest in blocking the bill ran directly against families facing rising drug prices.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Health insurers and employers who sponsor plans",
-    "effect": "gains",
+    "industry": "Health insurers and pharmacy benefit managers",
+    "effect": "mixed",
     "stance_toward_public": "aligned",
-    "note": "Insurers and employer plans would pay less for brand-name drugs whose prices outpaced inflation, savings that would flow into premiums and plan costs. Their interest runs with the public's here, since the bill lowers what they pay without regulating their own prices.",
+    "note": "Slower drug price inflation would lower their drug spending and premium pressure, but manufacturers facing new rebates could negotiate harder over plan prices, and the bill does not directly regulate how insurers pass savings to enrollees.",
     "sources": [
      "S2"
     ]
@@ -177,12 +190,12 @@
    "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 7,
+   "public_stakes": 6,
    "concentrated_stakes": 8,
-   "outcome_against_public": 7,
-   "support_mismatch": 4,
+   "outcome_against_public": 6,
+   "support_mismatch": 2,
    "corruption_relevance": 2,
-   "confidence": 0.85
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

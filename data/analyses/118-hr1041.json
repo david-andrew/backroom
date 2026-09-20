@@ -1,109 +1,101 @@
 {
  "bill_id": "118-hr1041",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:00:25+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:40:58+00:00",
  "record_fetched_at": "2026-09-20T11:20:14+00:00",
  "record_hash": "f078195070a5a0f5",
  "analysis": {
-  "one_liner": "Gives every child $1,000 at birth plus yearly federal deposits in a savings account for college, a home, or investing.",
-  "headline": "The bill, which had 33 cosponsors, never received a hearing or vote in the House Ways and Means Committee and died when the 118th Congress ended on January 3, 2025.",
+  "one_liner": "Gives every child a $1,000 government savings account at birth with yearly deposits for lower-income families.",
+  "headline": "The bill never got a vote in the House Ways and Means Committee and died when the 118th Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would create a government-run savings account for every American child, starting with $1,000 at birth. Each year afterward, the federal Treasury would add up to $2,000, with the biggest deposits going to the poorest families and phasing out for households above five times the poverty line. At 18, the child could use the money for college or job training, buying a home, or other long-term investments, and the accounts would not count against eligibility for benefits like student aid [S2] [S3].",
-  "who_benefits": "Children in low- and middle-income families benefit most: a child born into the poorest households would receive $1,000 at birth and $2,000 every year until 18 — roughly $37,000 plus investment earnings before inflation adjustments — usable for education, job training, or a first home. Families with no tax filing are treated as lowest-income automatically, and the accounts would not reduce eligibility for student aid or other federal benefits [S3]. Middle-income families up to 500% of the poverty line (roughly $150,000 for a family of four) would receive smaller but still meaningful deposits [S3].",
-  "who_benefits_short": "Children in low- and middle-income families",
+  "plain_summary": "The bill would have created a federal savings account for every child, seeded with $1,000 at birth. Each year until the child turned 18, the government would add more — up to $2,000 a year for the poorest families, tapering off as family income rises. At 18, the child could spend the money on college or job training, a first home, or leave it invested until later in life. The bill was referred to the House Ways and Means Committee and never went anywhere: no hearing, no vote, and it died when the Congress ended.",
+  "who_benefits": "Every child born after 2023 would get a savings account worth at least $1,000 at birth, growing to several thousand dollars or more with interest by age 18. Lower-income families get the largest annual deposits, and the account would not reduce their eligibility for other federal benefits. Children of wealthy families (above 500% of poverty line income) get the $1,000 seed but no yearly additions.",
+  "who_benefits_short": "Children of low- and middle-income families",
   "how_it_helps": [
    {
-    "text": "Every child born after December 31, 2023 would automatically get a $1,000 account at birth through the Social Security number system, with no application needed.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Annual deposits run on a sliding scale tied to family income: $2,000 a year for families under the poverty line, stepping down gradually and reaching zero for households above 500% of the poverty line, so the poorest children get the most.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "At 18 the account holder could spend the money on higher education or career and technical school tuition, buying a home, or any expense after age 59½, and regulators could approve other wealth-building uses.",
+    "text": "Every child born after December 2023 would receive a $1,000 federal savings account at birth.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "The money would be invested in U.S. Treasury securities through a board modeled on the federal employees' Thrift Savings Plan, with fiduciary rules and independent audits, so the savings grow tax-free with no fees paid to private fund managers.",
+    "text": "Annual contributions of up to $2,000 per year are targeted to lower- and middle-income families, scaling down on a sliding scale and phasing out above 500 percent of the poverty line.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Account balances would be ignored when deciding eligibility for any federally funded benefit, including student financial aid, so saving would never cost a family other assistance.",
+    "text": "Account balances, including investment earnings, would be tax-exempt, and the balances would not count against eligibility for federal benefits such as student financial aid.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Money could be used for education, a first home, or long-term investment after age 18, and unlike 529-style plans, requires no family money up front.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Federal taxpayers pay. The bill funds deposits from the Treasury's general fund with no dedicated new revenue — it would cost tens of billions of dollars a year once fully phased in — and it explicitly bars using any payroll tax for the program [S3]. Higher-income households and families above 500% of the poverty line get no deposit at all [S3].",
-  "who_pays_short": "Federal taxpayers via the Treasury general fund",
+  "who_pays": "Federal taxpayers, through general Treasury revenues, since the bill bars using payroll taxes and funds accounts directly from the general fund; no single industry bears a direct cost, though the investment would be limited to government bonds rather than private financial products.",
+  "who_pays_short": "Federal taxpayers generally",
   "drawbacks": [
    {
-    "text": "The bill is expensive and pays for it with borrowed general revenue: it specifies no dedicated funding source and prohibits using payroll taxes, so the full cost of deposits for every child born each year would be added to federal deficits.",
+    "text": "The bill creates an expensive open-ended entitlement: every child born after 2023 gets $1,000 at birth, with annual payments up to $2,000 per child, all drawn from the Treasury's general fund — a substantial long-term federal outlay.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Deposits extend well up the income scale — a family of four earning around $150,000 (500% of poverty) would still qualify for partial contributions — so a large share of the money goes to households that are not poor, which is why the bill orders a study on targeting contributions by family wealth instead of income.",
+    "text": "Money is locked up for 18 years and can only be spent on the allowed purposes before age 59½, so it is less flexible than giving families the same money as cash now.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The money is locked up: nothing can be withdrawn before 18 (except for tuition), funds can only be invested in Treasury bonds earning government-bond returns rather than higher-yielding stock investments, and any unused balance can only be spent after 59½ — so the program builds wealth slowly.",
+    "text": "Funds are invested only in government securities, so families forgo potentially higher market returns in exchange for safety.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The upside for poor children is real and large — a guaranteed asset of roughly $37,000-plus by 18 that no private bank product replicates — and the design is careful about the usual traps: no fees to private managers, no benefit-cliff, automatic enrollment. But the cost is genuinely substantial and the bill refuses to name a payer, and it spreads deposits far up the income scale, weakening the anti-poverty punch per dollar. An honest supporter would say this is a sound wealth-building program that needed a real funding mechanism attached before it was ready for a floor vote.",
+  "benefit_vs_cost": "The potential benefits for low-income children are large and long-term, but the bill's costs to taxpayers over an 18-year horizon are also large, and money locked away in a federal fund cannot be used for other needs like health coverage or direct cash assistance today. The design — income-graded contributions, no benefit cliffs, broad qualified uses — is unusually well done for a wealth-building bill, so the main objection is cost and priorities rather than design.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was referred to the House Ways and Means Committee the day it was introduced, never got a hearing or a vote, and expired when the two-year Congress ended.",
+   "mechanism": "The bill was referred to the House Ways and Means Committee two weeks after it was introduced, and the committee never took it up, so it died when the two-year congressional session ended in January 2025.",
    "narrative": [
     {
-     "text": "Representative Ayanna Pressley introduced the American Opportunity Accounts Act on February 14, 2023, with 33 Democratic cosponsors signing on the same day.",
+     "text": "The bill was introduced on February 14, 2023, and referred the same day to the House Committee on Ways and Means.",
      "sources": [
       "S1",
-      "S3",
-      "S4"
+      "S5"
      ]
     },
     {
-     "text": "The bill was referred to the House Committee on Ways and Means, which has jurisdiction over tax legislation, on the day of introduction.",
+     "text": "That was the only action ever taken on it: no hearing, no markup, no committee vote, and no floor vote in the entire two-year Congress.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "No further action of any kind was ever taken — no hearing, no markup, no committee vote, no floor vote — through the end of the 118th Congress on January 3, 2025.",
+     "text": "It gathered 33 cosponsors, all of them House Democrats, and no Republicans signed on.",
      "sources": [
-      "S5",
-      "S1"
+      "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "No one gained anything tangible, but the biggest winners from the bill dying are higher-income families and the Treasury's balance sheet: the spending never happened, and the existing advantage of families wealthy enough to fund their children's start in life on their own — through 529 plans, home equity, and inheritances — went untouched."
+   "who_came_out_ahead": "No public program was created, so taxpayers avoided a long-term cost, and the existing college-savings industry kept its market. Children born without family wealth got nothing."
   },
-  "who_came_out_ahead_short": "Wealthier families and the Treasury, by default",
+  "who_came_out_ahead_short": "Taxpayers avoided the cost; existing savings industry kept its market",
   "sides": {
    "for": [
     {
      "name": "Rep. Ayanna Pressley",
-     "role": "Sponsor",
+     "role": "Sponsor, House Ways and Means member",
      "party": "D",
-     "what_they_did": "Introduced the American Opportunity Accounts Act on February 14, 2023.",
+     "what_they_did": "Introduced the bill and recruited 30 original cosponsors.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -112,49 +104,61 @@
      ]
     },
     {
-     "name": "33 House Democrats",
-     "role": "Original cosponsors (including Reps. Tlaib, Jayapal, Ocasio-Cortez, Beatty, Blumenauer, and DeLauro)",
+     "name": "33 of 216 House Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as cosponsors the day the bill was introduced.",
+     "what_they_did": "Cosponsored the bill; no Republican did.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
       "S4"
      ]
     }
    ],
    "against": [
     {
-     "name": "Rep. Jason Smith",
-     "role": "Chair, House Ways and Means Committee",
-     "party": "R",
-     "what_they_did": "Never scheduled the bill for a hearing, markup, or committee vote; it sat with no action after referral for the entire two-year Congress.",
+     "name": "House Ways and Means Committee",
+     "role": "Committee of referral",
+     "party": null,
+     "what_they_did": "Never scheduled a hearing, markup, or vote on the bill after receiving the referral.",
      "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S5"
+     ]
+    },
+    {
+     "name": "House Republicans",
+     "role": "224 members, majority",
+     "party": "R",
+     "what_they_did": "No Republican cosponsored the bill, and the Republican majority controlled what the Ways and Means Committee took up.",
+     "direct": false,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
     }
    ],
-   "party_line": "unclear",
-   "party_line_note": "No vote was ever taken, so the only partisan signal is sponsorship: all 34 supporters (the sponsor plus 33 cosponsors) were Democrats, and the Republican-chaired committee that received the bill never acted on it."
+   "party_line": "party_line",
+   "party_line_note": "All 33 cosponsors were Democrats and none of the 224 House Republicans signed on, so the bill had no visible Republican support."
   },
   "industries": [
    {
-    "industry": "Financial services and asset managers",
+    "industry": "Wealthiest households (incomes above 500% of poverty)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill creates a government-run fund invested directly in Treasury securities on the model of federal employees' Thrift Savings Plan, with fiduciary duties and independent audits — so no private fund, bank, or 529-plan manager would earn fees managing the money. Its interest in managing these accounts runs against the bill's cheaper public alternative, and in this case the industry lost nothing because the bill never moved.",
+    "note": "They pay for the program through general federal revenues but receive no contributions for their own children. The largest standing cost falls on federal taxpayers overall.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Colleges and trade schools",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "Account holders could spend their balance on higher education and career-and-technical school tuition, and the accounts would be disregarded in student-aid eligibility calculations, so more students would arrive with money to spend on school.",
+    "industry": "Private 529 plan managers and financial services firms",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "A universal public savings program run by a federal board competes with private college-savings products and keeps these accounts out of fee-charging private funds.",
     "sources": [
-     "S2",
      "S3"
     ]
    }
@@ -162,16 +166,16 @@
   "trajectory": null,
   "categories": [
    "social_safety_net",
-   "education_and_student_debt",
-   "housing"
+   "taxes_on_wealth_and_corporations",
+   "education_and_student_debt"
   ],
   "scores": {
    "public_stakes": 7,
-   "concentrated_stakes": 3,
+   "concentrated_stakes": 4,
    "outcome_against_public": 8,
-   "support_mismatch": 6,
+   "support_mismatch": 4,
    "corruption_relevance": 1,
-   "confidence": 0.9
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

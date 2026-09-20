@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/303/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/303/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/119/s/303/cosponsors?format=json"
+  },
+  "introducedDate": "2025-01-29",
+  "latestAction": {
+   "actionDate": "2025-01-29",
+   "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/303",
+  "number": "303",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/303/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001098",
+    "firstName": "Ted",
+    "fullName": "Sen. Cruz, Ted [R-TX]",
+    "isByRequest": "N",
+    "lastName": "Cruz",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/C001098?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/303/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/303/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/303/text?format=json"
+  },
+  "title": "Defund the CFPB Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/303/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T22:57:52Z",
+  "updateDateIncludingText": "2025-12-05T22:57:52Z"
+ },
+ "request": {
+  "billNumber": "303",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

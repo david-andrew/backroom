@@ -1,111 +1,124 @@
 {
  "bill_id": "118-hr3420",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:42:12+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:56:19+00:00",
  "record_fetched_at": "2026-09-20T11:36:40+00:00",
  "record_hash": "1b11cbe0f67b654d",
  "analysis": {
-  "one_liner": "Bars companies and data brokers from collecting or selling personal reproductive and sexual health information.",
-  "headline": "The bill drew 119 cosponsors, all Democrats, but never received a hearing or a vote in the House Energy and Commerce Committee before the Congress ended.",
+  "one_liner": "Bars companies from collecting or selling people's reproductive and sexual health data except to provide a service they asked for.",
+  "headline": "The bill drew 119 House cosponsors, all Democrats, but never received a hearing or vote in the House Energy and Commerce Committee before the 118th Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would prohibit companies outside the doctor-patient system from collecting, keeping, or sharing personal reproductive or sexual health data — including period-tracker information, pregnancy status, searches for abortion services, and location data suggesting such visits — unless it is strictly needed to provide the service the person asked for. It would give people the right to see, correct, and delete that data, require clear privacy policies, and let both the Federal Trade Commission and individuals enforce the rules, with damages of $100 to $1,000 per violation per day. It would also bar companies from forcing users into arbitration over these claims.",
-  "who_benefits": "Anyone who uses period trackers, fertility apps, pregnancy tests, telehealth services, or simply searches for reproductive health care. After the Supreme Court overturned Roe v. Wade in 2022, this kind of data can be bought by third parties and sought in investigations or lawsuits over abortion in states where it is banned. The bill would sharply shrink the pool of data available for that purpose and give individuals direct control over it.",
-  "who_benefits_short": "People using period, fertility, and health apps",
+  "plain_summary": "The bill would have stopped companies from collecting, keeping, using, or selling personal reproductive and sexual health information unless it was strictly needed to provide a product or service the person actually requested. It would have given people the right to see, correct, and delete that data, required plain-language privacy policies, and let people sue violators in court, with the Federal Trade Commission also able to enforce it. It was introduced after the Supreme Court returned abortion regulation to the states, when records like period-tracker entries, location data near clinics, and search histories can be bought by data brokers and potentially used to investigate or prosecute people.",
+  "who_benefits": "Anyone who uses apps or websites that touch reproductive or sexual health data — period trackers, fertility apps, pharmacy and clinic websites, search and maps. The bill would have limited what companies can keep and sell about them, given them access, correction, and deletion rights at no fee, barred companies from punishing them for using those rights, and let them sue with statutory damages of at least $100 per violation per day. It also barred pre-dispute arbitration clauses for these claims, meaning companies could not force people into private arbitration instead of court. People in states where abortion is restricted stood to benefit the most, because data trails could otherwise expose them to investigation.",
+  "who_benefits_short": "Users of health and period-tracking apps",
   "how_it_helps": [
    {
-    "text": "Companies may collect, retain, use, or disclose reproductive or sexual health information only when strictly necessary to provide the product or service the user requested [S2].",
+    "text": "Prohibits regulated entities from collecting, retaining, using, or disclosing personal reproductive or sexual health information except as strictly necessary to provide a product or service the individual requested, and restricts employee access to that data [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Individuals gain enforceable rights to access, correct, and delete their reproductive health data — including data inferred by algorithms or bought from third parties — with a 15-day compliance deadline and no fees [S2].",
+    "text": "Gives individuals the right to access their data (including how it was collected and which third parties received it), correct it, and have it deleted, with companies required to respond within 15 days and barred from charging fees [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Companies must publish detailed privacy policies listing exactly which third parties they sell such data to and why [S2].",
+    "text": "Requires a clear, prominently published privacy policy naming the specific third parties a company shares reproductive health data with and why [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Violations are enforceable by the FTC and by individuals in court, with $100–$1,000 per violation per day or actual damages, attorney's fees, and invalidation of pre-dispute arbitration agreements and class-action waivers [S2].",
+    "text": "Bars companies from retaliating against people who exercise these rights, such as by denying service or changing prices [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill does not preempt stronger state privacy laws and carves out entities already covered by HIPAA, so it targets the unregulated app and data-broker market rather than doctor's offices [S2].",
+    "text": "Lets individuals sue violators for $100–$1,000 per violation per day plus punitive damages and attorney's fees, treats a violation as a concrete injury for standing purposes, and makes pre-dispute arbitration agreements unenforceable for these disputes; the FTC can also enforce the Act [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Covers inferred and algorithmically derived data — for example, conclusions about pregnancy or sexual activity drawn from non-health data — and location data that might indicate seeking reproductive care [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Apps and websites that monetize reproductive health data — period and fertility trackers, digital advertisers, and data brokers — would lose a source of revenue and face compliance costs and lawsuit exposure. Consumers might see more friction, such as privacy prompts, or in rare cases apps dropping features that require sensitive data.",
-  "who_pays_short": "Period apps, data brokers, and ad networks",
+  "who_pays": "Companies that collect, use, broker, or advertise against reproductive and sexual health data: period and fertility apps, data brokers, ad-tech firms, and platforms. They would face compliance costs, lose access to a data category they currently sell, and face litigation exposure including statutory damages. The bill excluded HIPAA-covered doctors, hospitals, and their business associates, so ordinary medical privacy rules would not have changed.",
+  "who_pays_short": "Data brokers, ad-tech, and health apps",
   "drawbacks": [
    {
-    "text": "The private right of action allows $100–$1,000 per violation per day plus attorney's fees, which critics of similar laws warn can produce costly class-action litigation over technical compliance slip-ups [S2].",
+    "text": "The definition of regulated data is broad — including inferred information and anything tied to menstruation, pregnancy, or sexual activity — so compliance costs could fall heavily on small app developers, not just large data brokers [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The definition of covered data is extremely broad — including location information that 'might indicate' an attempt to obtain reproductive services and any algorithmically inferred data — which small app developers could find difficult to apply with certainty [S2].",
+    "text": "The private right of action with statutory damages of $100–$1,000 per violation per day could generate substantial litigation against companies even for technical violations, a cost an honest supporter would acknowledge [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Companies already covered by HIPAA are excluded, so the bill would not tighten the rules governing data held by hospitals, insurers, and clinics — only the large consumer-data market outside them [S2].",
+    "text": "The bill leaves state privacy laws in place rather than creating one uniform national standard, which companies argue means following a patchwork of rules; it also preserves stronger state protections [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Entities covered by HIPAA are excluded, so the bill would not have strengthened privacy protections at doctors' offices, hospitals, and clinics — only at the apps and websites outside HIPAA [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core benefit is real: it removes a specific, documented risk in which commercial data about pregnancies and abortion searches can be obtained by third parties and law enforcement after Dobbs. The costs fall on a narrow set of companies profiting from that data, plus some litigation risk from broad damages provisions. A fair reading is that the protections outweigh the compliance burden, though the breadth of the definitions and the damages formula would likely need refinement in committee.",
+  "benefit_vs_cost": "The benefit is concrete: in a country where abortion is legal in some states and restricted in others, commercial data trails — a missed period logged in an app, a GPS ping near a clinic, a search for medication abortion — can be bought and resold, and the bill would have sharply limited that market while giving people direct control over their own data. The costs are real but ordinary for a privacy law: compliance burdens, litigation risk, and a state-law patchwork. The main design gap is the HIPAA exclusion, which leaves the formal medical system untouched and targets the commercial data economy instead — which is precisely where most people's data is least protected.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was referred to the House Energy and Commerce Committee and its Innovation, Data, and Commerce Subcommittee, and no hearing, markup, or floor vote ever happened before the 118th Congress ended.",
+   "mechanism": "It was referred to the House Energy and Commerce Committee and then to its Innovation, Data, and Commerce subcommittee, and the committee never acted on it before the Congress ended.",
    "narrative": [
     {
-     "text": "The bill was introduced on May 17, 2023 by Rep. Sara Jacobs with 118 original cosponsors [S1].",
+     "text": "The bill was introduced in the House on May 17, 2023 by Rep. Sara Jacobs with 89 original cosponsors [S2].",
      "sources": [
-      "S1"
+      "S2",
+      "S4"
      ]
     },
     {
-     "text": "On May 17 it was referred to the House Committee on Energy and Commerce, and on May 19 to the Subcommittee on Innovation, Data, and Commerce [S4].",
+     "text": "The same day, it was referred to the House Committee on Energy and Commerce, and on May 19, 2023 to the Subcommittee on Innovation, Data, and Commerce [S4].",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The cosponsor list grew to 119, all Democrats, with no Republican support [S3].",
+     "text": "No further action — no hearing, no markup, no floor vote — appears in the action history through the end of the 118th Congress [S4].",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "It ended the Congress with 119 cosponsors, all of them House Democrats [S3].",
      "sources": [
       "S3"
      ]
-    },
-    {
-     "text": "No further action — no hearing, markup, committee vote, or floor vote — appears in the action history for the remainder of the Congress [S4].",
-     "sources": [
-      "S4"
-     ]
     }
    ],
-   "who_came_out_ahead": "Data brokers, advertisers, and app companies keep collecting and selling reproductive health data with no new federal restrictions. No consumer protections took effect."
+   "who_came_out_ahead": "Data brokers, ad-tech firms, and app makers that collect and monetize reproductive and sexual health data are better off, since they faced no new restrictions, and they never even had to fight the bill on the floor."
   },
-  "who_came_out_ahead_short": "Data brokers and tracking apps that keep selling data",
+  "who_came_out_ahead_short": "Data brokers and health-data app makers",
   "sides": {
    "for": [
     {
      "name": "Rep. Sara Jacobs",
      "role": "Sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and recruited 118 original cosponsors",
+     "what_they_did": "Introduced the bill and organized 119 Democratic cosponsors for it.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -115,10 +128,10 @@
      ]
     },
     {
-     "name": "119 House Democrats",
+     "name": "119 of 216 House Democrats",
      "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Cosponsored the bill, giving it majority-Democratic House support without a single Republican",
+     "what_they_did": "Cosponsored the bill; no House Republican cosponsored it.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -128,22 +141,20 @@
    ],
    "against": [
     {
-     "name": "House Energy and Commerce Committee",
-     "role": "Committee of referral (Chair Cathy McMorris Rodgers, R-WA)",
-     "party": null,
-     "what_they_did": "Received the referral on May 17, 2023 and never scheduled a hearing, markup, or vote on it for the rest of the Congress",
+     "name": "Cathy McMorris Rodgers",
+     "role": "Chair, House Energy and Commerce Committee",
+     "party": "R",
+     "what_they_did": "Never scheduled a markup or hearing on the bill, so it stayed in committee without a vote.",
      "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
+     "evidence": "widely_reported",
+     "sources": []
     },
     {
-     "name": "Subcommittee on Innovation, Data, and Commerce",
-     "role": "Subcommittee of referral",
-     "party": null,
-     "what_they_did": "Received the referral on May 19, 2023 and took no recorded action",
-     "direct": true,
+     "name": "House Republicans on Energy and Commerce",
+     "role": "Committee majority (224-seat House majority)",
+     "party": "R",
+     "what_they_did": "As the chamber's majority party, took no action to advance the bill out of committee during the Congress.",
+     "direct": false,
      "evidence": "record",
      "sources": [
       "S4"
@@ -151,32 +162,32 @@
     }
    ],
    "party_line": "party_line",
-   "party_line_note": "All 119 cosponsors were Democrats; no Republican signed on, and the Republican-chaired Energy and Commerce Committee never moved the bill."
+   "party_line_note": "All 119 cosponsors were House Democrats out of 216; the record lists no Republican cosponsor, and the Republican-majority committee never moved the bill."
   },
   "industries": [
    {
-    "industry": "Data brokers and ad-tech networks",
+    "industry": "Data brokers and ad-tech firms",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These companies buy, infer, and resell signals about pregnancies, contraception, and abortion searches. The bill's strict minimization rule and deletion rights would cut off much of that trade, which currently happens outside HIPAA with no federal limits [S2].",
+    "note": "These firms buy, infer, and resell location and behavioral data that can reveal pregnancies, clinic visits, and contraceptive use. The bill would have barred collecting or disclosing such data except to serve a customer's actual request, cutting off a lucrative data category, which is why its interest runs against the public's privacy.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Period-tracking, fertility, and reproductive health app developers",
+    "industry": "Femtech and period/fertility app makers",
     "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "Apps whose core service depends on menstrual or pregnancy data could keep collecting what is strictly necessary, but could no longer monetize it through third parties and would face access, deletion, and privacy-policy duties plus lawsuit exposure [S2].",
+    "note": "Apps would face new collection limits, deletion duties, and lawsuit exposure, but they would also have to disclose exactly who they sell users' data to, which could build trust with users whose trust is currently the product being sold.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Hospitals, doctors, and HIPAA-covered health providers",
-    "effect": "entrenched",
+    "industry": "Physicians, hospitals, and HIPAA-covered health systems",
+    "effect": "mixed",
     "stance_toward_public": "aligned",
-    "note": "The bill excludes HIPAA-covered entities, leaving health providers operating under existing medical-privacy rules and making the non-medical app and broker market the target [S2].",
+    "note": "They are excluded from the bill when acting under HIPAA privacy rules, so their legal obligations would not change; nothing in the bill adds to or subtracts from their compliance burden.",
     "sources": [
      "S2"
     ]
@@ -189,11 +200,11 @@
   ],
   "scores": {
    "public_stakes": 7,
-   "concentrated_stakes": 5,
+   "concentrated_stakes": 6,
    "outcome_against_public": 7,
-   "support_mismatch": 6,
-   "corruption_relevance": 2,
-   "confidence": 0.9
+   "support_mismatch": 5,
+   "corruption_relevance": 1,
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

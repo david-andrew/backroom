@@ -1,95 +1,88 @@
 {
  "bill_id": "118-hr3134",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T15:55:59+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:56:03+00:00",
  "record_fetched_at": "2026-09-20T15:42:12+00:00",
  "record_hash": "489f998b2b33eec4",
  "analysis": {
-  "one_liner": "Creates free emergency insulin cards for uninsured people and taxes insulin makers that spike prices.",
-  "headline": "The insulin assistance bill, introduced with one cosponsor in May 2023, never received a hearing, markup, or vote before the 118th Congress ended in January 2025.",
+  "one_liner": "Gives free emergency insulin to uninsured and underinsured people, paid by fees and price-spike taxes on insulin makers.",
+  "headline": "The bill never got a hearing or a vote: referred to two House committees in May 2023, it sat in the Energy and Commerce Subcommittee on Health until the Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would send grants to states, tribes, and tribal organizations to run \"insulin card\" programs giving uninsured and underinsured people insulin at no cost at pharmacies. It pays for the program by charging insulin makers an annual fee based on their market share, and it adds an excise tax — up to 100% of the extra revenue — on manufacturers that raise insulin prices faster than inflation. It would also shorten the period during which brand-name biologic drug makers are shielded from cheaper copycat versions, from 12 years to 7.",
-  "who_benefits": "Uninsured people and people in high-deductible health plans who need insulin: they could get an initial roughly 7-day supply within 5 business days of applying, then renewable 90-day supplies at no cost [S3]. Payments made on behalf of underinsured enrollees would count toward their plan deductible, so they would not lose that money [S2, S3]. States, tribes, and tribal health programs would get federal funding and a new tool to stop insulin rationing among residents they serve [S3]. Pharmacies would be paid to dispense the insulin [S3].",
+  "plain_summary": "This bill would create a federal grant program so states, tribes, and tribal organizations can issue insulin cards giving uninsured and underinsured people a 7-day emergency supply within days, followed by 90-day supplies, at no cost. The program would be funded entirely by annual fees on insulin manufacturers, charged by market share. It would also impose an excise tax on manufacturers whose insulin prices spike faster than inflation, and would cut the market exclusivity period for biological drugs from 12 to 7 years to open the door to cheaper copies.",
+  "who_benefits": "Uninsured and underinsured people who need insulin, especially those in high-deductible health plans, would get insulin at no cost through card programs run by states, tribes, and tribal organizations. Amounts paid by the program would count toward their insurance deductibles.",
   "who_benefits_short": "Uninsured and underinsured people who need insulin",
   "how_it_helps": [
    {
-    "text": "Grants to states, Indian tribes, and tribal organizations would fund insulin card programs that let uninsured or underinsured people get insulin at pharmacies at no cost — an initial roughly 7-day supply within 5 business days of applying, then a renewable 90-day card",
+    "text": "States, Indian tribes, and tribal organizations would receive grants to run insulin card programs; a person applying would get an initial card valid for a roughly 7-day supply of insulin within 5 business days, and, if found eligible, a card for a roughly 90-day supply within 12 business days, with prescriptions filled at pharmacies at no cost to the individual.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "For underinsured people in high-deductible health plans, payments the program makes to pharmacies for their insulin must be counted toward the plan's deductible or other out-of-pocket requirements.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "The program would be funded by annual fees on insulin manufacturers, 2024 through 2028, sized to equal the total cost of the grant program and divided among manufacturers by market share.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "For people in high-deductible health plans, amounts the program pays pharmacies for their insulin must count toward their deductible and other out-of-pocket requirements, so they are not charged twice for the same medicine",
+    "text": "An excise tax would apply when an insulin price rises faster than inflation: 50% of the extra revenue for smaller spikes, 75% for 15-20% spikes, and 100% for spikes of 20% or more, with exemptions only for verifiable input-cost increases.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "The program is funded by annual fees on insulin manufacturers, apportioned by each company's share of insulin sales, equal to the program's total cost from 2024 through 2028",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "An excise tax would hit manufacturers whose insulin prices rise faster than the inflation index: 50% of the extra revenue for smaller spikes, 75% for spikes of 15–20%, and 100% for spikes of 20% or more, with an exemption process for genuine cost-driven increases",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "The bill shortens market exclusivity for biological drugs from 12 years to 7, which would let cheaper biosimilar competitors reach the market years sooner",
+    "text": "The market exclusivity period for biological drug products would be cut from 12 years to 7 years, allowing competing biosimilar insulins to reach the market sooner.",
     "sources": [
      "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Insulin manufacturers would pay annual fees covering the full cost of the grant program and would owe excise taxes on price-spike revenue, while all biologic drug makers — not just insulin makers — would lose 5 years of market exclusivity under the bill's shortest provision [S2, S3]. States, tribes, and tribal organizations would have to contribute at least $1 of their own for every $3 in federal grant money, and the Treasury would deposit the fees in the general fund [S3].",
-  "who_pays_short": "Insulin and biologic drug manufacturers",
+  "who_pays": "Insulin manufacturers would bear the annual fees and the price-spike excise tax, and would face shorter exclusivity for biological products. States, tribes, and tribal organizations would have to contribute $1 in matching funds for every $3 in federal grant money.",
+  "who_pays_short": "Insulin manufacturers, plus state matching funds",
   "drawbacks": [
    {
-    "text": "The grant program sunsets after 5 years, so it is an emergency bridge rather than a lasting fix for insulin affordability",
+    "text": "The bill excludes prices paid under the insulin card program from the Medicaid Drug Rebate Program's 'best price' and average manufacturer price calculations, which weakens one of the main tools that pushes drug prices down across Medicaid.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "It covers only uninsured people and people in high-deductible plans; insured people whose plans impose insulin copays get no relief",
+    "text": "The grant program sunsets 5 years after enactment, and states must put up non-federal matching funds of at least $1 for every $3 of federal money, which could limit participation by poorer states.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "States, tribes, and tribal organizations must put up at least $1 in non-federal matching funds for every $3 of federal money, which could keep poorer states and tribes from participating",
+    "text": "The excise tax reaches up to 100% of the revenue from a price spike, a penalty steep enough that even supporters would need to defend it against the argument that it could discourage new insulin investment; the bill counters this only by allowing exemptions for documented input-cost increases.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "text": "The exclusivity cut from 12 to 7 years applies to all biological drugs, not only insulin, which industry argues would reduce the incentive to develop new biologic medicines across the board",
+    "text": "The fee only pays for the assistance program itself; it does nothing for insured people whose insulin costs are already above what the card program would cover.",
     "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "The tiered price-spike tax penalizes any increase above the annual inflation allowance, which could push manufacturers toward repeated increases right at the inflation ceiling rather than holding prices steady",
-    "sources": [
-     "S3"
+     "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core design is sound: the people who most often ration insulin — the uninsured and those in high-deductible plans — get immediate free access, and the program is fully funded by the companies selling the product rather than by taxpayers. The honest costs are that it is a five-year stopgap that leaves most insured people's insulin costs untouched, requires a state match that may exclude poorer jurisdictions, and reaches beyond insulin by cutting exclusivity for every biologic drug, the provision most likely to draw an industry challenge that the bill never faced because it never advanced.",
+  "benefit_vs_cost": "For the narrow population it targets - uninsured people and people in high-deductible plans who need insulin - the benefit is direct and immediate, and making manufacturers fund the program is a reasonable design. The carve-out from Medicaid's best-price rules and the 5-year sunset are real weaknesses, but the core trade is straightforward: a working assistance program in exchange for fees and a price-spike penalty on the manufacturers who profit from high insulin prices.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It sat in two House committees and a health subcommittee for about 20 months and never got a hearing, markup, or vote before the Congress ended.",
+   "mechanism": "The bill was referred to two House committees and then to the Energy and Commerce Subcommittee on Health, where it sat with no hearing, no markup, and no vote until the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Rep. Angie Craig introduced the bill on May 9, 2023, joined by Rep. Dean Phillips as its only cosponsor",
+     "text": "Rep. Angie Craig introduced the bill on May 9, 2023, with Rep. Dean Phillips as its sole cosponsor.",
      "sources": [
       "S1",
       "S3",
@@ -97,42 +90,41 @@
      ]
     },
     {
-     "text": "The Speaker referred it to the Energy and Commerce and Ways and Means Committees the day it was introduced, splitting it between jurisdictions that each had to act separately",
-     "sources": [
-      "S1",
-      "S5"
-     ]
-    },
-    {
-     "text": "On May 12, 2023 it was sent to the Energy and Commerce Health Subcommittee, where no markup or vote followed",
+     "text": "The same day, it was referred to the House Energy and Commerce Committee and to the House Ways and Means Committee, splitting its provisions across two committees.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "On December 17, 2024 — more than 19 months later and less than three weeks before the Congress ended — it was re-referred to the same subcommittee, still without any hearing or vote on record",
+     "text": "On May 12, 2023, it was referred to the Subcommittee on Health of Energy and Commerce, and again on December 17, 2024 - the last action of its life.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "The bill expired when the 118th Congress ended on January 3, 2025, leaving the program, fees, price-spike tax, and exclusivity cut unenacted",
+     "text": "No committee vote, hearing on the bill itself, or floor vote ever occurred; the bill's complete action history ends with the subcommittee referral.",
      "sources": [
-      "S1",
-      "S5"
+      "S5",
+      "S1"
+     ]
+    },
+    {
+     "text": "The 118th Congress ended on January 3, 2025, killing the bill; it would have to be reintroduced to move again.",
+     "sources": [
+      "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Insulin and biologic drug manufacturers are better off: they kept the full 12-year exclusivity period, faced no new annual fees, no price-spike excise tax, and no quarterly price reporting. Uninsured and underinsured people who ration insulin gained nothing."
+   "who_came_out_ahead": "Insulin manufacturers are better off because the bill died: they keep the 12-year exclusivity, pay no program fees, and face no excise tax on price increases faster than inflation. Insurers and pharmacies are unaffected, and uninsured diabetics continue to face cash prices for insulin."
   },
-  "who_came_out_ahead_short": "Insulin and biologic drug makers",
+  "who_came_out_ahead_short": "Insulin manufacturers, whose fees and price-spike taxes never took effect",
   "sides": {
    "for": [
     {
      "name": "Rep. Angie Craig",
      "role": "Sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and authored its insulin card program, manufacturer fees, price-spike tax, and exclusivity cut",
+     "what_they_did": "Introduced the bill on May 9, 2023.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -142,9 +134,9 @@
     },
     {
      "name": "Rep. Dean Phillips",
-     "role": "Original cosponsor",
+     "role": "Cosponsor",
      "party": "D",
-     "what_they_did": "Joined the bill at introduction as its only cosponsor",
+     "what_they_did": "Was the bill's only cosponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -155,10 +147,10 @@
    ],
    "against": [
     {
-     "name": "Cathy McMorris Rodgers",
-     "role": "Chair, House Energy and Commerce Committee",
-     "party": "R",
-     "what_they_did": "Never scheduled a markup or vote on the bill, which sat in her committee and then its Health Subcommittee from May 2023 until the Congress ended",
+     "name": "House Energy and Commerce Committee",
+     "role": "Committee of primary referral",
+     "party": null,
+     "what_they_did": "Received the bill on referral and never scheduled it for a markup or vote; its Health Subcommittee held the referral until the Congress ended.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -166,10 +158,10 @@
      ]
     },
     {
-     "name": "Jason Smith",
-     "role": "Chair, House Ways and Means Committee",
-     "party": "R",
-     "what_they_did": "Never acted on the bill, which covered the tax and fee provisions within his committee's jurisdiction",
+     "name": "House Ways and Means Committee",
+     "role": "Committee of additional referral",
+     "party": null,
+     "what_they_did": "Received the bill on referral for the provisions in its jurisdiction and took no further action.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -177,26 +169,27 @@
      ]
     }
    ],
-   "party_line": "mostly_party_line",
-   "party_line_note": "No vote was ever recorded, so no roll-call split exists; both sponsors were Democrats and the Republican-controlled committees never moved the bill, while no Republican signed on."
+   "party_line": "unclear",
+   "party_line_note": "No votes were ever recorded on the bill, so no roll-call split exists; its only two sponsors, Angie Craig and Dean Phillips of Minnesota, were both Democrats."
   },
   "industries": [
    {
-    "industry": "Insulin manufacturers (Eli Lilly, Novo Nordisk, Sanofi)",
+    "industry": "Insulin manufacturers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill charges them an annual fee covering the full cost of the free-insulin program, imposes quarterly price reporting, and taxes up to 100% of revenue from price increases above inflation. The record does not show their position, but the fees and tax come directly out of their revenue.",
+    "note": "They would pay annual fees equal to the program's cost, divided by market share, and an excise tax of 50% to 100% of the revenue from price increases above inflation. The bill does soften this by exempting program prices from Medicaid's best-price rebate calculations.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Biologic drug makers (all biotech and large pharma)",
+    "industry": "Brand-name biologic drug makers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Shortening exclusivity from 12 to 7 years applies to every biological drug, not just insulin, letting biosimilar competitors reach the market years earlier. This hits the entire brand-name biotech industry's patent-protected pricing window.",
+    "note": "Cutting market exclusivity from 12 years to 7 would let biosimilar competitors reach the market sooner, reducing the years of monopoly pricing on biologics including insulin.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
@@ -204,18 +197,17 @@
     "industry": "Pharmacies",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "States would contract with pharmacies to dispense free insulin to card holders and pay them for it, bringing in sales they otherwise might not make from uninsured customers.",
+    "note": "The card program pays pharmacies for filling insulin prescriptions for eligible people at no charge to the patient, bringing them new reimbursed volume.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "High-deductible health plan insurers",
+    "industry": "Health insurers offering high-deductible plans",
     "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "They must credit program payments toward enrollees' deductibles, slightly reducing how much deductible spending their customers absorb, in exchange for a healthier, less rationing-prone risk pool and modest reporting duties.",
+    "note": "They would have to count the program's payments toward members' deductibles, which helps their enrollees but reduces the amount of deductible spending those members bear directly.",
     "sources": [
-     "S2",
      "S3"
     ]
    }
@@ -223,12 +215,12 @@
   "trajectory": null,
   "categories": [
    "healthcare_and_drug_prices",
-   "taxes_on_wealth_and_corporations"
+   "social_safety_net"
   ],
   "scores": {
    "public_stakes": 7,
    "concentrated_stakes": 8,
-   "outcome_against_public": 6,
+   "outcome_against_public": 7,
    "support_mismatch": 2,
    "corruption_relevance": 1,
    "confidence": 0.9

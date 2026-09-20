@@ -1,113 +1,98 @@
 {
  "bill_id": "118-hr3834",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:49:33+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:57:31+00:00",
  "record_fetched_at": "2026-09-20T11:36:50+00:00",
  "record_hash": "3f732f8d34f28526",
  "analysis": {
-  "one_liner": "Slows union elections, widens bargaining units, and makes employer workplace rules harder to challenge.",
-  "headline": "A bill to slow union elections and shield employer workplace rules went nowhere: it drew zero cosponsors, never left the House Education and Workforce Committee, and died when the 118th Congress ended in January 2025.",
+  "one_liner": "Delays union elections by weeks and makes it harder to strike employer workplace rules.",
+  "headline": "The bill drew zero cosponsors, never got a hearing or vote in the House Education and the Workforce Committee, and died when the 118th Congress ended.",
   "direction": "for_concentrated_interests",
-  "plain_summary": "The bill would rewrite the National Labor Relations Act to give employers more time before workers vote on whether to unionize: a hearing could not be held until at least 14 days after a petition is filed, and an election could not be held until at least 20 business days after the National Labor Relations Board orders one [S2][S3]. It would force the Board to bundle most workers into large bargaining units, making a successful vote harder to win, and it would presume most employer handbook rules lawful unless the government proves with clear and convincing evidence that the rule hurts workers more than the employer's justification helps it [S2][S3]. It never advanced beyond committee.",
-  "who_benefits": "Employers with nonunion workforces benefit most. A guaranteed multi-week window before an election gives management time to run an anti-union campaign before employees vote. Requiring all pre-election disputes to be resolved before certification gives employers more opportunities to challenge and delay results. Larger, mixed bargaining units make it harder for small groups of employees to win a vote at all. And presumptively lawful workplace rules would make employer policies that chill organizing very hard to strike down.",
-  "who_benefits_short": "Nonunion employers resisting organizing",
+  "plain_summary": "The bill would rewrite National Labor Relations Board rules for union elections. It would require the board to wait at least 14 days before holding the pre-election hearing and at least 20 business days after ordering an election before actually holding it, and to resolve every hearing challenge before certifying results. It would force the board to consider folding more workers into a bargaining unit unless they are 'sufficiently distinct,' undoing the current practice of allowing smaller units. It would also make it much harder to find that an employer's workplace rule violates labor law, requiring clear and convincing evidence that harm to workers outweighs the employer's justification.",
+  "who_benefits": "Employers facing union organizing drives gain the most. Every waiting period extends the window between a petition and a vote, giving management more time to campaign against the union while workers wait. The bargaining-unit provisions push toward larger, harder-to-organize units, and the handbook provision protects employer work rules from legal challenge unless an employee can meet a clear-and-convincing evidence standard.",
+  "who_benefits_short": "Employers facing union drives",
   "how_it_helps": [
    {
-    "text": "Bars the National Labor Relations Board from holding a pre-election hearing until at least 14 calendar days after a union petition is filed, and from holding an election until at least 20 business days after the Board directs one — a guaranteed campaign window for the employer.",
+    "text": "Bars the board from holding a pre-election hearing until at least 14 days after a union petition is filed and from holding the election until at least 20 business days after it is directed, slowing every unionization campaign [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Requires the Board to rule on every pre-election issue and challenge before certifying an election result, and lets any party raise issues at any point in the hearing — expanding avenues for employers to contest and delay elections.",
+    "text": "Requires the board to rule on all hearing issues and challenges before certifying an election, adding more delay and opportunity for litigation [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Replaces the current standard, under which a proposed unit stands unless excluded workers share an 'overwhelming community of interest,' with a 'sufficient community of interest' test across eight factors — a reversal of the current 'micro-unit' approach that would force larger bargaining units that are harder to organize and win.",
+    "text": "Requires the board to apply a 'sufficient community of interest' analysis and forbids excluding workers from a unit unless their interests are sufficiently distinct, pushing unions toward broader, harder-to-win units [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Presumes facially neutral employer rules, policies, and handbook provisions lawful, allowing them to be struck down only on clear and convincing evidence that their harm to workers' organizing rights outweighs the employer's justification — and bars the Board from ordering rescission of a rule it deems lawful in a given case.",
+    "text": "Makes facially neutral employer rules, policies, and handbook provisions presumptively lawful unless the NLRB General Counsel shows by clear and convincing evidence that harm to workers' rights outweighs the employer's justification [S3].",
     "sources": [
-     "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Employees trying to unionize pay. They would spend more weeks exposed to management pressure before voting, could be diluted into units including many coworkers they don't work alongside, and would face a near-insurmountable evidentiary standard to invalidate employer rules that suppress organizing. The National Labor Relations Board would also bear longer, more complex election processes.",
-  "who_pays_short": "Workers seeking to unionize",
+  "who_pays": "Workers trying to form or join a union. They would wait longer before voting, could be swept into larger units where organizing a majority is harder, and would face a much higher evidentiary bar to overturn employer rules used against them.",
+  "who_pays_short": "Workers trying to organize a union",
   "drawbacks": [
    {
-    "text": "Longer pre-election windows expose employees to weeks of employer pressure campaigns — including mandatory meetings — during the exact period when they are deciding whether to unionize; that is precisely why current rules move quickly from petition to election.",
-    "sources": []
-   },
-   {
-    "text": "Forcing broader bargaining units reverses current law's protection for workers who want to organize with the colleagues they actually work alongside, making a successful union vote substantially harder to achieve.",
+    "text": "Supporters argue quick elections deny employers adequate time to respond, and that the board's practice of deferring some issues until after the vote leaves unresolved questions that fuel litigation; the bill's mandatory timeline and requirement to decide all challenges before certification are the stated fix [S3].",
     "sources": [
-     "S2",
      "S3"
     ]
    },
    {
-    "text": "The bill's stated rationale — that employers deserve time to prepare for a hearing and that elections should be deliberate and well-recorded — is a genuine argument its supporters make; critics respond that the delay itself is the point, because the extended window is when employer pressure happens.",
-    "sources": []
-   },
-   {
-    "text": "The clear-and-convincing standard and the bar on rescinding lawful rules would leave many neutral-sounding policies — on confidentiality, recording, or outside communications — in place even where they function in practice to discourage organizing.",
+    "text": "The costs are borne by workers: lengthened election timelines are widely recognized to give employers more time to campaign against organizing and to take adverse actions against union supporters before the vote, and the handbook provision raises the evidentiary standard for challenging employer rules to 'clear and convincing evidence' [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "Supporters frame this as fairness for employers: more time to prepare a hearing, clearer rules, and units that reflect how businesses actually operate. But the costs fall on the workers the process is supposed to protect. Delay is the single most effective tool an employer has against an organizing drive, and this bill would guarantee more of it. The combined effect — slower elections, larger units, near-unassailable workplace rules — points in one direction, and the bill's design offers little on the other side of the scale for employees.",
+  "benefit_vs_cost": "The bill's benefits flow to employers and its costs to workers' organizing rights; nothing in the text offers workers a compensating gain. The delays it mandates are precisely the period in which employers have the greatest ability to influence the outcome, so the design stacks the timeline in one side's favor.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was referred to the House Education and Workforce Committee the day it was introduced, drew no cosponsors, and the committee never scheduled a markup or vote — so it simply expired when the 118th Congress ended in January 2025.",
+   "mechanism": "The bill was introduced and referred to the House Education and the Workforce Committee, where it sat without a hearing, markup, or floor vote until the 118th Congress ended.",
    "narrative": [
     {
-     "text": "Rep. Tim Walberg introduced the bill on June 5, 2023.",
+     "text": "Representative Tim Walberg introduced the bill on June 5, 2023, and it was referred to the House Committee on Education and the Workforce the same day [S1][S5].",
      "sources": [
       "S1",
       "S5"
      ]
     },
     {
-     "text": "It was referred to the House Committee on Education and the Workforce the same day, and no further action was ever recorded.",
+     "text": "No other member cosponsored the bill, and the action history shows no hearing, no markup, no committee vote, and no floor action [S4][S5].",
      "sources": [
+      "S4",
       "S5"
      ]
     },
     {
-     "text": "The bill attracted zero cosponsors, including none from either party.",
+     "text": "The bill expired when the 118th Congress ended on January 3, 2025, without ever receiving a vote in either chamber [S1].",
      "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "The 118th Congress ended on January 3, 2025 with the bill still sitting in committee, killing it.",
-     "sources": [
-      "S5"
+      "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Workers seeking to unionize are better off than they would have been under the bill, since current law's shorter election timeline, micro-unit flexibility, and standards for policing employer rules remain in place. Employer groups did not get the delays and rule protections they sought — though they also lost nothing they already had."
+   "who_came_out_ahead": "Workers' current organizing rights remain unchanged: nothing about union elections, bargaining units, or employer rules has been altered because the bill never moved. Employers who would have gained longer timelines and rule protections gained nothing, and the National Labor Relations Board's existing procedures stand."
   },
-  "who_came_out_ahead_short": "Workers keep current faster election rules",
+  "who_came_out_ahead_short": "Workers seeking to unionize",
   "sides": {
    "for": [
     {
-     "name": "Rep. Tim Walberg",
-     "role": "House sponsor (R-MI); chairman of the Education and Workforce Subcommittee on Health, Employment, Labor, and Pensions",
+     "name": "Tim Walberg",
+     "role": "U.S. Representative from Michigan",
      "party": "R",
-     "what_they_did": "Introduced the bill and pushed it as part of a package of employer-favorable National Labor Relations Act amendments, though it drew no cosponsors.",
+     "what_they_did": "Sponsored the bill; no other member of either party cosponsored it.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -116,28 +101,16 @@
      ]
     }
    ],
-   "against": [
-    {
-     "name": "House Committee on Education and the Workforce",
-     "role": "Committee with jurisdiction over the bill",
-     "party": null,
-     "what_they_did": "Took no action beyond referral; never scheduled a markup or vote on the bill during the two-year Congress.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S5"
-     ]
-    }
-   ],
+   "against": [],
    "party_line": "unclear",
-   "party_line_note": "No vote was ever taken, so no roll-call exists; the only signal is that the Republican sponsor was joined by zero cosponsors from either party."
+   "party_line_note": "The bill never attracted a single cosponsor from either party and never reached a vote, so no roll call shows how the parties would have lined up; its lone sponsor was a Republican running on a platform of rolling back what the bill calls the 'ambush election rule' [S3][S4]."
   },
   "industries": [
    {
-    "industry": "Nonunion employers (retail, logistics, food service, hotels)",
+    "industry": "Employers facing union organizing drives",
     "effect": "gains",
     "stance_toward_public": "opposed",
-    "note": "The bill would hand these employers a guaranteed multi-week window before any union vote, larger and harder-to-win bargaining units, and presumptively lawful workplace rules — the full toolkit for resisting an organizing drive. Ordinary employees on the other side of that toolkit would lose leverage in exactly the same measure.",
+    "note": "The bill would give these employers weeks of extra time between a union petition and a vote, larger default bargaining units, and a clear-and-convincing evidence standard before their workplace rules can be struck down. Each provision shifts leverage during organizing drives toward management and away from workers.",
     "sources": [
      "S2",
      "S3"
@@ -147,17 +120,7 @@
     "industry": "Labor unions and organizing campaigns",
     "effect": "loses",
     "stance_toward_public": "aligned",
-    "note": "Slower elections, forced mega-units, and protected employer rules would sharply reduce union win rates. Union fortunes here track directly with workers' ability to exercise their legal right to organize.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "industry": "Management-side labor law firms and union-avoidance consultants",
-    "effect": "gains",
-    "stance_toward_public": "opposed",
-    "note": "Longer election windows and mandatory rulings on every pre-election issue mean more hearings, litigation, and consulting engagements billed to employers. The workers funding the organizing drive get none of that benefit.",
+    "note": "Mandatory waiting periods, broader required bargaining units, and delayed certification would slow campaigns and make winning a majority harder. Unions and their members' interest here runs with workers' own interest.",
     "sources": [
      "S2",
      "S3"
@@ -169,12 +132,12 @@
    "wages_and_labor"
   ],
   "scores": {
-   "public_stakes": 7,
-   "concentrated_stakes": 7,
-   "outcome_against_public": 2,
-   "support_mismatch": 1,
+   "public_stakes": 5,
+   "concentrated_stakes": 6,
+   "outcome_against_public": 1,
+   "support_mismatch": 0,
    "corruption_relevance": 1,
-   "confidence": 0.85
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

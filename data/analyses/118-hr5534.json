@@ -1,125 +1,121 @@
 {
  "bill_id": "118-hr5534",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T11:50:08+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:02:05+00:00",
  "record_fetched_at": "2026-09-20T11:10:38+00:00",
  "record_hash": "a42f1d10cd9ffc8a",
  "analysis": {
-  "one_liner": "Bans advertising targeted to individuals' personal data, allowing only contextual ads.",
-  "headline": "The bill never got a hearing or a vote: introduced with one cosponsor, it sat in a House subcommittee from September 2023 until the Congress ended.",
+  "one_liner": "Bans online ads targeted to a person's personal data, allowing only ads based on the content being viewed.",
+  "headline": "The bill was referred to a House Energy and Commerce subcommittee in September 2023 and never received a hearing, markup, or vote before the 118th Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would prohibit companies from deciding who sees an ad based on personal information collected about them — their browsing history, location, devices, or profiles. Ads could still run next to content a person is already viewing (contextual advertising), and geographic targeting to a state, city, or media market would stay allowed. The Federal Trade Commission, state attorneys general, and individuals in court would all be able to enforce the ban, with damages available to individuals and pre-dispute arbitration agreements made unenforceable for these claims.",
-  "who_benefits": "Everyone who uses the internet or connected devices gains a limit on how much of their personal information can be harvested and used to target them with ads. Small advertisers would compete on a more level field against companies with vast data troves.",
-  "who_benefits_short": "Internet users and connected-device owners",
+  "plain_summary": "The bill would prohibit advertisers and the companies that deliver online ads from targeting ads at individuals based on their personal information, including browsing history, contact details, and device identifiers. It would allow ads based on the content a person is currently viewing or searching for, and ads aimed at broad geographic areas like a state or metro area, but not profiling. The Federal Trade Commission, state attorneys general, and individuals could all enforce the ban, and pre-dispute arbitration clauses and class-action waivers would be unenforceable for claims under the bill.",
+  "who_benefits": "Everyone who uses the internet or a connected device: their data — browsing history, contact information, device identifiers — could no longer be used to select which ads they see, limiting the profiling that drives surveillance advertising. The private right of action with statutory damages and access to court (no forced arbitration) gives ordinary users a way to sue violators directly.",
+  "who_benefits_short": "Internet users whose data feeds ad targeting",
   "how_it_helps": [
    {
-    "text": "Bars advertisers and ad intermediaries from targeting ads using personal information — including browsing history, contact details, unique device identifiers, and inferred data [S2].",
+    "text": "The bill bars advertisers and advertising facilitators from targeting ads using personal information, including contact details, unique device identifiers, browsing history, and data inferred from collected data.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Keeps contextual advertising (ads placed next to what a person is already viewing or searched for) legal, and permits targeting by recognized place such as a state, city, or media market, so local businesses can still reach local audiences [S2].",
+    "text": "It preserves contextual advertising — ads shown based on the page or content a person is viewing or searching for — while barring that data from being reused for further targeting, and it permits ads aimed at broad recognized places such as a state, county, congressional district, or designated market area.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Gives the FTC enforcement power — including over common carriers and nonprofits — and lets state attorneys general sue on residents' behalf [S2].",
+    "text": "Enforcement is layered: the FTC treats violations as unfair or deceptive practices and gains authority over common carriers and nonprofits, state attorneys general can sue on behalf of residents, and individuals can sue for $100–$1,000 per negligent violation or $500–$5,000 per willful violation, with attorney's fees available.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Creates a private right of action with damages of $100–$1,000 per negligent violation and $500–$5,000 per willful violation, plus attorney's fees, and voids pre-dispute arbitration agreements and class-action waivers for these claims [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Treats a violation involving a person's personal information as a concrete injury, making it easier to get into court [S2].",
+    "text": "Pre-dispute arbitration agreements and pre-dispute class-action waivers are invalid for claims under the Act, with a court rather than an arbitrator deciding that question, so users can bring claims in court.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Online platforms, ad-tech intermediaries, and data brokers that profit from tracking people and selling targeted ad placement lose their core business model, and large advertisers lose the precision targeting they currently buy.",
-  "who_pays_short": "Ad-tech firms, data brokers, big platforms",
+  "who_pays": "Digital advertising platforms and ad-tech intermediaries lose the core of the targeted-advertising business model, which depends on collecting and processing personal information to select who sees each ad. Data brokers lose demand for the personal information they sell for targeting. Advertisers, including small businesses that use cheap precise targeting, would pay to reach customers through blunter contextual and geographic channels.",
+  "who_pays_short": "Ad platforms, data brokers, and targeted advertisers",
   "drawbacks": [
    {
-    "text": "A blanket ban rather than an opt-out system would also take targeted ads away from small businesses, which use them to reach customers cheaply; they would compete against firms that can afford mass contextual and broadcast advertising [S2].",
+    "text": "Advertisers — including small businesses that rely on inexpensive, precise online targeting to reach customers — would lose their most efficient marketing channel and could face higher costs reaching buyers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Internet services that are funded by advertising could lose revenue, and some of that loss could show up as more paywalls or subscriptions for users — the bill includes no study or transition plan for this [S2].",
+    "text": "The ban is narrower than its title suggests: contextual advertising and place-based targeting (state, county, metro area, congressional district) remain lawful, so a considerable amount of audience selection survives.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The per-violation private damages and the invalidation of arbitration agreements could invite high-volume lawsuits that fall hardest on smaller firms [S2].",
+    "text": "A private right of action with per-violation statutory damages ($100–$5,000), no arbitration, and no class-action waiver could generate substantial litigation against companies over advertising practices.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core trade is real: strong privacy protection for hundreds of millions of internet users versus the end of a targeting model that funds much of the free internet and is a cheap marketing tool for small firms. The bill leans hard toward privacy — its contextual-ad and geographic-targeting carve-outs soften the blow for local commerce, but it offers no transition support for the ad-funded web. It was introduced, never debated, so its design was never tested or amended.",
+  "benefit_vs_cost": "The core benefit is real and broad: it would end the practice of selecting ads for individuals based on their personal data, curbing pervasive profiling of internet users and giving them enforceable court rights rather than arbitration. The costs fall mostly on the ad-tech industry and data brokers, whose business models depend on the prohibited practice, though advertisers that depended on cheap precise targeting — especially small ones — would face higher marketing costs, and free online services funded by targeted ads might shift toward subscriptions, less relevant ads, or reduced services. On balance, the bill asks the industry with the most at stake to absorb a change in how it sells access to consumers.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was referred to the House Energy and Commerce Committee and then to its Innovation, Data, and Commerce Subcommittee in September 2023, and it never got a hearing, a markup, or a floor vote before the Congress ended in January 2025.",
+   "mechanism": "The bill was sent to the House Energy and Commerce Committee and then to its Innovation, Data, and Commerce subcommittee, and it sat there without a hearing, markup, or floor vote until the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Rep. Anna Eshoo introduced the Banning Surveillance Advertising Act on September 18, 2023, joined by Rep. Jan Schakowsky [S1][S2].",
+     "text": "Rep. Anna Eshoo, joined by Rep. Jan Schakowsky, introduced the bill on September 18, 2023, and it was referred to the House Committee on Energy and Commerce the same day.",
+     "sources": [
+      "S1",
+      "S4",
+      "S2"
+     ]
+    },
+    {
+     "text": "Four days later, on September 22, 2023, it was referred to the Subcommittee on Innovation, Data, and Commerce.",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "The action history shows no further activity — no hearing, no markup, no committee or floor vote — through the end of the 118th Congress on January 3, 2025.",
+     "sources": [
+      "S4",
+      "S1"
+     ]
+    },
+    {
+     "text": "The bill's only cosponsor was a House Democrat, and no Senate companion action appears in the record.",
+     "sources": [
+      "S3",
+      "S1"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "Digital ad platforms and data brokers kept their targeted-advertising business model intact, since the prohibition was never acted on. Internet users gained nothing because the profiling ban never advanced."
+  },
+  "who_came_out_ahead_short": "Digital ad platforms and data brokers",
+  "sides": {
+   "for": [
+    {
+     "name": "Rep. Anna Eshoo",
+     "role": "Sponsor (D-CA)",
+     "party": "D",
+     "what_they_did": "Introduced the Banning Surveillance Advertising Act of 2023 in the House.",
+     "direct": true,
+     "evidence": "record",
      "sources": [
       "S1",
       "S2"
      ]
     },
     {
-     "text": "It was referred to the House Committee on Energy and Commerce the same day, and four days later to the Subcommittee on Innovation, Data, and Commerce [S4].",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "Only one additional member cosponsored the bill; no Republican cosponsor ever signed on [S3].",
-     "sources": [
-      "S3"
-     ]
-    },
-    {
-     "text": "No further action was taken: the action history ends at the subcommittee referral, meaning no hearing, no markup, and no floor vote ever occurred [S4].",
-     "sources": [
-      "S4"
-     ]
-    }
-   ],
-   "who_came_out_ahead": "Ad-tech companies, social media platforms, and data brokers kept the targeted-advertising business model and its revenue untouched, and advertisers kept buying precise audience targeting. Internet users kept the same privacy status quo."
-  },
-  "who_came_out_ahead_short": "Ad-tech and platform companies",
-  "sides": {
-   "for": [
-    {
-     "name": "Rep. Anna G. Eshoo",
-     "role": "Sponsor, House Energy and Commerce Committee member",
-     "party": "D",
-     "what_they_did": "Introduced the bill and referred it to her own committee.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
-      "S2",
-      "S4"
-     ]
-    },
-    {
      "name": "Rep. Jan Schakowsky",
-     "role": "Original cosponsor, Ranking Member of the Innovation, Data, and Commerce Subcommittee",
+     "role": "Original cosponsor (D-IL)",
      "party": "D",
-     "what_they_did": "Joined as the bill's original cosponsor; one additional member cosponsored afterward.",
+     "what_they_did": "Joined the bill at introduction as its only cosponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -130,53 +126,56 @@
    ],
    "against": [
     {
-     "name": "Chair Cathy McMorris Rodgers",
-     "role": "Chair, House Energy and Commerce Committee",
-     "party": "R",
-     "what_they_did": "The committee never scheduled a hearing or markup on the bill; it sat untouched after subcommittee referral.",
-     "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
-    },
-    {
      "name": "Subcommittee on Innovation, Data, and Commerce",
-     "role": "Subcommittee with jurisdiction over the bill",
+     "role": "House Energy and Commerce subcommittee where the bill was parked",
      "party": null,
-     "what_they_did": "Held no hearing on the bill after the September 2023 referral.",
+     "what_they_did": "Received the referral on September 22, 2023 and took no further action on the bill for the rest of the Congress — no hearing, markup, or vote.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S4"
      ]
+    },
+    {
+     "name": "House Energy and Commerce Committee",
+     "role": "Committee of referral (Republican-controlled in the 118th Congress)",
+     "party": null,
+     "what_they_did": "Held the bill after its initial referral and never advanced it to the full committee or the House floor.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4",
+      "S1"
+     ]
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "No vote ever occurred, and both the sponsor and all cosponsors were Democrats; no Republican joined, so any floor fate was never tested."
+   "party_line_note": "No floor vote ever occurred, so no roll-call split exists; both the sponsor and the sole cosponsor were House Democrats, and no Republican support appears in the record."
   },
   "industries": [
    {
     "industry": "Digital advertising platforms and ad-tech intermediaries",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Their core model — collecting personal data to decide which individual sees which ad — would be illegal. Their interest in stopping the bill ran directly against the privacy of the people using their services.",
+    "note": "These companies are paid to choose which individual or device sees each ad, and the bill makes that selection based on personal information illegal, removing the profiling that underpins their revenue. Their interest in defeating the bill runs directly against the privacy interest of internet users.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Data brokers and tracking companies",
+    "industry": "Data brokers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Supplying lists, contact information, and device identifiers for ad targeting would be barred, cutting off a major line of business built on personal data.",
+    "note": "Brokers sell personal data used for targeting, and the bill bans supplying contact information, device identifiers, and other personal data for that purpose, cutting off a major market. Their loss would come from users no longer being profiled.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Small businesses and large advertisers",
+    "industry": "Advertisers, including small businesses and e-commerce brands",
     "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "Advertisers would lose the ability to reach specific customers cheaply and precisely, but small advertisers would no longer compete against rivals with vastly larger data operations.",
+    "note": "They lose cheap, precise individual targeting and would rely on contextual and place-based ads instead, which could raise the cost of reaching customers. The same change stops their ads from being delivered through surveillance of the people they are trying to reach.",
     "sources": [
      "S2"
     ]
@@ -184,14 +183,13 @@
   ],
   "trajectory": null,
   "categories": [
-   "consumer_protection_and_finance",
-   "corruption_and_ethics"
+   "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 6,
+   "public_stakes": 7,
    "concentrated_stakes": 8,
-   "outcome_against_public": 7,
-   "support_mismatch": 4,
+   "outcome_against_public": 6,
+   "support_mismatch": 2,
    "corruption_relevance": 2,
    "confidence": 0.9
   }

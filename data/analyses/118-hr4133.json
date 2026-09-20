@@ -1,174 +1,161 @@
 {
  "bill_id": "118-hr4133",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T15:55:33+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:59:32+00:00",
  "record_fetched_at": "2026-09-20T15:44:58+00:00",
  "record_hash": "63f0cbbc440cd45d",
  "analysis": {
-  "one_liner": "Requires private and state-run prisons holding federal detainees to release records under FOIA.",
-  "headline": "The bill never advanced past its committee referral; it was introduced with 13 Democratic cosponsors and received no House vote before the Congress ended.",
+  "one_liner": "Requires private and state prisons holding federal detainees to disclose records under FOIA.",
+  "headline": "The Private Prison Information Act of 2023 was introduced with 13 Democratic cosponsors, was referred to the House Judiciary Committee, and died there without a hearing or vote when the 118th Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "This bill says that records held by private prisons, jails, and detention facilities that house federal prisoners or detainees must be treated like federal agency records under the Freedom of Information Act, the law that lets the public request government documents. Private prison companies and state or local jails holding people for the federal government would have to disclose the same information federal prisons must disclose, unless a standard legal exemption applies. The federal agencies that pay those facilities would have to write the requirement into their contracts within a year.",
-  "who_benefits": "People incarcerated in or detained by private and state/local facilities under federal contracts, their families, journalists, and watchdog groups, who would gain the ability to request records about conditions, medical care, deaths, use of force, and how public money is spent at those facilities. Federal agencies conducting oversight would also get easier access to the records.",
-  "who_benefits_short": "Incarcerated people, their families, journalists, watchdogs",
+  "plain_summary": "This bill says that records held by private prisons, state prisons, and local jails that house federal prisoners under contract with the government must be treated like federal records under the Freedom of Information Act, the law that lets the public request government documents. A federal agency could only withhold such records if it can point to a specific harm that fits a FOIA exemption, or if another law forbids release. Contractors would have to keep records in searchable formats and include compliance as a required term of their contracts.",
+  "who_benefits": "Ordinary people — detainees' families, journalists, watchdog groups, and researchers — gain the right to request records about conditions, staffing, deaths, and complaints at privately run and state or local facilities holding federal prisoners, information currently outside FOIA's reach.",
+  "who_benefits_short": "Families, journalists, and prison watchdogs",
   "how_it_helps": [
    {
-    "text": "Currently, a record held only by a private contractor operating a federal detention facility is generally not subject to FOIA, so the public cannot force its release the way it can with federal Bureau of Prisons records. The bill closes that gap by deeming such records agency records subject to FOIA [S2] [S3].",
+    "text": "The bill makes any record related to a nonfederal prison, correctional, or detention facility holding federal prisoners or detainees a federal agency record subject to FOIA, closing a gap that lets private and state or local facilities escape federal open-records rules.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Facilities could withhold information only where disclosure would cause specific, identifiable harm under an existing FOIA exemption or where disclosure is prohibited by law — the same standard that applies to federal prisons, rather than a looser contractor standard [S3].",
+    "text": "It covers both privately owned or operated facilities and state or local jails that hold federal detainees under contract with a federal agency, so the rule applies across the network of contract detention.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill makes compliance a material term of federal contracts and requires agencies to modify existing contracts within one year, so the disclosure obligation would attach to current facilities, not just new ones [S3].",
+    "text": "A federal agency could not withhold covered records unless it independently foresees a specific identifiable harm protected by a FOIA exemption, or disclosure is prohibited by law — a stricter standard than blanket secrecy.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Records would have to be kept in searchable, reproducible formats so requests can actually be fulfilled, and the bill explicitly leaves state and local open-records laws intact rather than weakening them [S3].",
+    "text": "Contractors must keep records in readily reproducible, searchable formats, and within one year agencies must add compliance as a required term of existing contracts.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Private prison and detention contractors, and state or local jails that incarcerate federal detainees under contract, would bear the cost of maintaining, organizing, and releasing records and responding to FOIA requests. The federal agencies that contract with them would bear the cost of writing regulations and administering the new disclosure obligations.",
-  "who_pays_short": "Private prison contractors and contracting agencies",
+  "who_pays": "Private prison companies and state or local jails holding federal detainees bear the cost of building the record systems and answering public records requests; the cost to taxpayers is minimal.",
+  "who_pays_short": "Private prison companies and local jails",
   "drawbacks": [
    {
-    "text": "Contractors and state or local jails would face real administrative costs: maintaining searchable records, processing public records requests, and in some cases building record-keeping systems they do not have today. Those costs would ultimately flow into contract prices paid by taxpayers, at least at the margin [S3].",
+    "text": "The bill applies FOIA obligations to state and local jails that house federal detainees, not just private companies, which imposes administrative and record-keeping costs on local governments that had no say in the federal contract.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Transparency would not be absolute: agencies could still withhold records under existing FOIA exemptions (such as security and law-enforcement exemptions), so the bill narrows secrecy rather than eliminating it.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill extends beyond private companies to state and local jails holding federal detainees, so a county jail with a small intergovernmental agreement could be pulled into federal FOIA compliance, raising federalism and burden concerns for local governments [S3].",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Supporters of private prisons argue facilities holding federal detainees are already monitored through contract oversight, government audits, and state records laws, so a federal FOIA mandate is a solution in search of a problem and adds compliance costs without clearly improving conditions (a general-knowledge objection; not addressed in the bill text) [S3].",
+    "text": "New compliance obligations for contractors could feed into contract pricing, adding some public cost to the oversight benefit.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit is real but indirect: transparency does not by itself fix prison conditions, but without it, journalists, families, and oversight bodies cannot even see what is happening at facilities where the government has handed custody to a contractor. The main costs are administrative — record-keeping and request-processing — which are modest relative to the size of federal detention contracts, though small county jails holding a handful of federal detainees could feel the burden disproportionately. On balance this is a low-cost, moderate-benefit accountability measure that died before anyone had to weigh it on the merits.",
+  "benefit_vs_cost": "The costs are real but modest: record systems and request-handling at facilities that already operate with public money. The benefit — public access to information about deaths, medical care, and conditions in places holding federal detainees — addresses a genuine accountability gap. The design is straightforward and narrowly targeted at federally contracted detention.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced and sent to the House Judiciary Committee, which never acted on it, so it died when the Congress ended.",
+   "mechanism": "The bill was referred to the House Judiciary Committee the day it was introduced, never got a hearing or a vote, and expired when the 118th Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Rep. Jamie Raskin introduced the Private Prison Information Act of 2023 on June 14, 2023, joined by 10 original cosponsors, and it was referred the same day to the House Committee on the Judiciary [S1] [S3].",
+     "text": "Rep. Jamie Raskin introduced the bill on June 14, 2023, with 10 original cosponsors.",
      "sources": [
       "S1",
-      "S3"
+      "S3",
+      "S5"
      ]
     },
     {
-     "text": "Thirteen members, all Democrats, cosponsored the bill; no Republican signed on [S4].",
+     "text": "The House referred it to the Judiciary Committee on the day of introduction, its only action; no further steps appear in the record for the rest of the Congress.",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "Thirteen House Democrats cosponsored the bill; no Republicans did.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The action history shows only two entries — introduction and referral to Judiciary. No hearing, markup, committee vote, or floor action ever followed, and the bill died when the 118th Congress ended on January 3, 2025 [S1] [S5].",
+     "text": "The bill received no committee vote, no floor vote, and no Senate action before the 118th Congress ended on January 3, 2025, so it did not become law.",
      "sources": [
       "S1",
       "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Private prison and detention contractors, and state and local facilities holding federal detainees, are better off because the bill died: they never had to open their records to public FOIA requests. Members of the Judiciary Committee also avoided a vote on a transparency measure that is hard to oppose publicly."
+   "who_came_out_ahead": "Private prison operators and the state and local jails that hold federal detainees came out ahead: they keep operating without any federal open-records obligation. The public lost a transparency tool, and the 13 cosponsors gained nothing for it."
   },
-  "who_came_out_ahead_short": "Private prison contractors and the committee that stalled it",
+  "who_came_out_ahead_short": "Private prison operators and contract jails",
   "sides": {
    "for": [
     {
      "name": "Rep. Jamie Raskin",
      "role": "U.S. Representative (D-MD), bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and gathered 13 cosponsors, all Democrats",
+     "what_they_did": "Introduced the bill on June 14, 2023.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S4"
+      "S3",
+      "S5"
      ]
     },
     {
-     "name": "Original cosponsors including Reps. Bonamici, Carson, Tlaib, Watson Coleman, and Omar",
-     "role": "House Democrats",
+     "name": "13 of 216 House Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as original cosponsors at introduction",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3"
+      "S4"
      ]
     }
    ],
    "against": [
     {
-     "name": "House Judiciary Committee leadership",
-     "role": "Chair and majority of the House Judiciary Committee (118th Congress)",
-     "party": "R",
-     "what_they_did": "Never scheduled a hearing, markup, or committee vote on the bill after it was referred; the bill received no action for the remainder of the Congress",
+     "name": "House Judiciary Committee",
+     "role": "Committee of referral, chaired by Rep. Jim Jordan (R-OH)",
+     "party": null,
+     "what_they_did": "Received the bill by referral on June 14, 2023, and never scheduled a markup, hearing, or vote on it for the rest of the Congress.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S5"
-     ]
-    },
-    {
-     "name": "House Republican majority",
-     "role": "Majority party controlling House floor scheduling in the 118th Congress",
-     "party": "R",
-     "what_they_did": "Brought no version of the bill to the floor; no Republican cosponsored it",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4",
       "S5"
      ]
     }
    ],
-   "party_line": "party_line",
-   "party_line_note": "All 14 sponsors and cosponsors were Democrats and no Republican signed on; with Republicans controlling the House and the Judiciary Committee, the bill never moved beyond referral [S4] [S5]."
+   "party_line": "mostly_party_line",
+   "party_line_note": "All 13 cosponsors were House Democrats, no Republicans sponsored or cosponsored it, and the Republican-run Judiciary Committee never acted on it."
   },
   "industries": [
    {
-    "industry": "Private prison and detention contractors (e.g. companies operating federal detention facilities under contract)",
+    "industry": "Private prison and detention contractors",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would make their records subject to FOIA, exposing conditions, deaths, use of force, and contract spending to public scrutiny for the first time. Their interest in keeping records internal runs directly against the public's interest in seeing how tax-funded detention is run.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "industry": "State and local jails and correctional systems holding federal detainees under intergovernmental agreements",
-    "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "They would face new federal FOIA obligations and record-keeping costs, but the bill does not override or limit state and local open-records laws, and many already face some public-records obligations under their own state laws.",
+    "note": "Companies like CoreCivic and GEO Group hold federal contracts to detain prisoners and immigrants; the bill would subject their records on conditions, deaths, and staffing to FOIA requests for the first time. Their interest in keeping operations opaque runs against the public's interest in oversight of publicly funded detention.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Federal agencies that contract for detention space (e.g. immigration and federal prison authorities)",
-    "effect": "mixed",
-    "stance_toward_public": "aligned",
-    "note": "They would bear the cost of writing regulations and modifying contracts, but would gain visibility into contractor operations, which strengthens their own oversight of facilities they pay for.",
+    "industry": "State and local jails housing federal detainees",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "These facilities receive federal funds to hold federal prisoners and would face new obligations to produce searchable records and answer FOIA requests. Their interest in limiting disclosure of jail conditions runs against the public's transparency interest, though the bill does not reduce their funding.",
     "sources": [
      "S3"
     ]
@@ -180,8 +167,8 @@
    "other"
   ],
   "scores": {
-   "public_stakes": 5,
-   "concentrated_stakes": 7,
+   "public_stakes": 6,
+   "concentrated_stakes": 5,
    "outcome_against_public": 7,
    "support_mismatch": 4,
    "corruption_relevance": 5,

@@ -1,130 +1,122 @@
 {
  "bill_id": "118-hr3089",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:53:48+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:55:43+00:00",
  "record_fetched_at": "2026-09-20T11:36:25+00:00",
  "record_hash": "4418b7f506be8f1b",
  "analysis": {
-  "one_liner": "Restricts secret gag orders the government puts on tech companies when seizing customers' email and cloud records.",
-  "headline": "The House passed the NDO Fairness Act 412–0, but it died in the Senate Judiciary Committee without ever getting a vote.",
+  "one_liner": "Raises the bar for courts to let the government seize your online records in secret, and forces eventual notice to you.",
+  "headline": "The House passed it 412-0 with no votes against in May 2023, but the Senate never voted, and it died when the 118th Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "Under current law, when federal investigators demand a customer's email, phone, or cloud records, they can get a \"non-disclosure order\" — a gag rule that forbids the company from telling the customer — and can renew it repeatedly without much court scrutiny. This bill raises the bar: a judge would have to make written findings that secrecy is likely needed to protect life, evidence, or witnesses; orders would last at most 90 days at a time; companies could ask a court to lift them; and the customer would get notice and a copy of the seized information once secrecy ends. The Department of Justice would also have to report each year on how often these orders target people, including members of the news media [S2] [S3].",
-  "who_benefits": "Everyday internet users gain: the government would have to convince a judge with written, fact-based findings before it could secretly seize their email, cloud, or phone records and forbid the company from telling them. Once secrecy ends, the person would get notice, a copy of what was demanded, and a chance to see what was handed over [S2] [S3]. Tech and telecom providers also gain new rights to go to court to challenge gag orders they believe are too broad [S3].",
-  "who_benefits_short": "Everyone with an email or cloud account",
+  "plain_summary": "When police want your emails, texts, or cloud files, they send a legal demand to the company holding them. The company is usually allowed to tell you — but the government can ask a judge for a secrecy order that forbids it, sometimes for months. This bill would make those secrecy orders much harder to get: a judge would have to put specific written findings on the record, the order could only last 90 days at a time, and once it expired the government would have to tell you and give you a copy of whatever was handed over. It would also let the company challenge the order in court and would force the Justice Department to report every year on how often it uses this power, including against journalists. The House passed it with no votes against; the Senate never acted.",
+  "who_benefits": "Anyone whose emails, texts, or cloud records the government seeks — they would learn the demand existed once secrecy ended, see exactly what was handed over, and the secrecy itself would require a judge to put specific written findings on the record first. Journalists and people engaged in protected political activity get an annual accounting of how often the government targets them. The companies holding the records (email and cloud providers) gain the right to go to court to challenge a secrecy order and to consult a lawyer about it.",
+  "who_benefits_short": "Anyone targeted by secret records demands",
   "how_it_helps": [
    {
-    "text": "It makes it harder for the government to keep someone from ever learning their records were taken: a judge must issue a written determination based on specific facts that secrecy is needed to prevent danger, flight, evidence destruction, witness intimidation, or serious jeopardy to an investigation, and the order must be narrowly tailored with no less restrictive alternative.",
+    "text": "It raises the standard: a judge can only let the government keep a records demand secret by issuing a written determination, based on specific facts, that secrecy is likely needed to prevent danger to life, flight, evidence destruction, witness intimidation, or serious jeopardy to an investigation.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "It puts a clock on secrecy: orders last at most 90 days, extensions require a fresh written court finding, and the government must tell the court if circumstances materially change so the order can be reassessed.",
+    "text": "It caps the secrecy at 90 days at a time, requires the order to be narrowly tailored with no less restrictive alternative, and requires the government to tell the court if circumstances change.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "It gives targets their day in court after the fact: once an order expires, the government must notify the customer within 5 business days, explain the nature of the inquiry, and provide a copy of the information disclosed (or certify nothing was) if requested within 180 days.",
+    "text": "Once the secrecy order expires, the government must notify the target by at least two methods, tell them what information was handed over, and provide a copy of the disclosed information on request within 180 days.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "It shines light on how often these orders are used, especially against members of the news media and First Amendment activity, through an annual Attorney General report published by the courts.",
+    "text": "It lets the provider that received the order go to court to challenge or modify it, and stay disclosure while the challenge is pending, and it lets the provider share the order with a lawyer.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "It requires the Justice Department to report annually, by judicial district, on how many people were targeted, how many secrecy orders were granted or denied, how many affected news media members or First Amendment activity, and what arrests and convictions resulted.",
     "sources": [
      "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "It lets providers challenge unreasonable orders in court and stay disclosure while the challenge is pending, with a final, appealable decision.",
-    "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "The Department of Justice and other federal investigators bear the cost: they would have to meet a higher bar in court to keep customers from learning their records were seized, and could no longer rely on routinely renewed, open-ended secrecy orders. Providers also take on new paperwork duties, like delivering detailed notice within 5 business days of an order's expiration [S2] [S3].",
+  "who_pays": "Federal law enforcement and prosecutors, who lose the easy ability to keep records demands secret from their targets and must now give notice, written findings, and copies of disclosed information, plus file annual reports. In concrete cases, an investigation where a target would otherwise never learn of the records seizure now ends with the target being notified.",
   "who_pays_short": "Federal prosecutors and investigators",
   "drawbacks": [
    {
-    "text": "Law enforcement's core objection: notice requirements, 90-day limits, and a company's right to challenge orders could tip off targets in sensitive investigations — spies, terrorists, child abusers — before evidence is secured, undermining cases that secrecy is designed to protect.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "The paperwork is real: providers must serve detailed notices by at least two methods within 5 business days of an order's expiration, and the Justice Department must compile district-by-district annual statistics, costs that fall on agencies and companies.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "The bill leaves national-security-related surveillance largely untouched; it covers orders under section 2703 (stored communications), not the broader universe of secret surveillance, so the privacy fix is partial.",
+    "text": "Raising the standard for secrecy could hinder undercover investigations. Law enforcement argues delayed notice is essential when tipping off a target would let evidence be destroyed, witnesses be intimidated, or suspects flee; the bill narrows how easily judges can grant that secrecy and caps each order at 90 days.",
     "sources": [
      "S2",
      "S3"
     ]
+   },
+   {
+    "text": "The bill requires the government to notify the target after the secrecy order expires and to provide a copy of what was disclosed, which reveals the existence of an investigation even when the person investigated was never charged or was cleared.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Giving providers the right to challenge orders in court and to stay disclosure while the challenge is pending adds litigation and delay to cases where prosecutors believe speed matters.",
+    "sources": [
+     "S3"
+    ]
    }
   ],
-  "benefit_vs_cost": "The privacy gains are real and broad — virtually every internet user's records can be seized under a gag order, and this bill would force a judge to justify each one in writing, cap its length, and eventually tell the target what happened. The costs are modest and concentrated: investigators would face extra steps in the small share of cases where secrecy truly matters, and the bill's own 90-day renewal process still lets secrecy continue when a court finds it necessary. It is a targeted fix to one statute rather than a sweeping surveillance overhaul, which limits both its benefit and its downside.",
+  "benefit_vs_cost": "The main benefit is real: today the government can get records about you from a tech company and the company can be ordered never to tell you, under a standard that does not require the judge to write down why. The bill replaces that with specific written findings, short time limits, mandatory notice afterward, a copy of what was taken, and public annual reporting — meaningful privacy protections that also make the government accountable for how often it uses this tool. The cost is honest: investigators argue that secrecy is sometimes essential to keep people alive, keep witnesses safe, or keep evidence from being destroyed, and the bill's tighter written-findings requirement and mandatory expiration notice could complicate some undercover cases, even with the life-safety and flight exceptions preserved. On balance the protections outweigh the costs, since the bill still permits secrecy whenever a judge finds specific danger, but the objection is genuine and not merely procedural.",
   "outcome": {
    "status": "passed_one_chamber_then_stalled",
-   "mechanism": "It sailed through the House 412–0, but after the Senate referred it to the Judiciary Committee in May 2023, no one ever brought it to a vote, and it died there when the Congress ended.",
+   "mechanism": "The House passed it unanimously, but the Senate Judiciary Committee never voted on it before the two-year Congress ended, so it just died.",
    "narrative": [
     {
-     "text": "The bill cleared the House Judiciary Committee by voice vote on May 10, 2023 and was reported with a written committee report, H. Rept. 118-54.",
+     "text": "The bill was introduced May 5, 2023, and cleared the House Judiciary Committee on a voice vote within a week.",
      "sources": [
+      "S1",
       "S5"
      ]
     },
     {
-     "text": "On May 15, 2023, the House passed it under suspension of the rules — a fast-track path requiring a two-thirds majority — by 412–0, with every voting Democrat and Republican in favor.",
+     "text": "On May 15, 2023, the House passed it 412-0 under a fast-track procedure requiring a two-thirds majority, with 200 of 216 Democrats and 212 of 224 Republicans voting yes and no one voting no.",
      "sources": [
-      "S5",
-      "S6"
-     ]
-    },
-    {
-     "text": "The Senate received the bill on May 16, 2023 and referred it to the Judiciary Committee, which took no further action on it before the 118th Congress ended on January 3, 2025.",
-     "sources": [
-      "S3",
+      "S6",
       "S5"
      ]
     },
     {
-     "text": "Because the Senate never voted, the current looser rules for non-disclosure orders under 18 U.S.C. § 2705(b) remain unchanged.",
+     "text": "The Senate received the bill on May 16, 2023, and referred it to the Judiciary Committee, which took no further action for the remaining twenty months of the Congress.",
      "sources": [
-      "S2",
-      "S3"
+      "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Federal investigators and prosecutors are better off, because the current rules — under which secrecy orders are easy to get and can be renewed without strict court findings — stay in place. Internet users gained nothing, and providers gained no new ability to challenge gag orders."
+   "who_came_out_ahead": "Federal investigators are better off, since the looser rules for secretly seizing records and delaying notice to targets remain in place; the tech providers that prefer quietly complying with government demands also keep the status quo."
   },
-  "who_came_out_ahead_short": "Federal investigators, under the status quo",
+  "who_came_out_ahead_short": "Federal investigators; the status quo held",
   "sides": {
    "for": [
     {
-     "name": "Rep. Scott Fitzgerald",
+     "name": "Scott Fitzgerald",
      "role": "U.S. Representative (R-WI), bill sponsor",
      "party": "R",
-     "what_they_did": "Sponsored the bill and moved to suspend the rules and pass it on the House floor.",
+     "what_they_did": "Introduced the bill and moved to suspend the rules and pass it, bringing it to a House vote within ten days of introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S5",
-      "S6"
+      "S5"
      ]
     },
     {
      "name": "House Judiciary Committee",
-     "role": "House Committee on the Judiciary",
+     "role": "House committee",
      "party": null,
-     "what_they_did": "Held a markup, ordered the bill reported by voice vote, and reported it with a written report, sending it to the floor.",
+     "what_they_did": "Held a markup five days after introduction, ordered the bill reported by voice vote, and reported it with a written report.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -132,14 +124,24 @@
      ]
     },
     {
-     "name": "The House of Representatives",
-     "role": "U.S. House of Representatives",
-     "party": null,
-     "what_they_did": "Passed the bill under suspension of the rules, a fast-track path requiring a two-thirds vote, by 412–0.",
+     "name": "200 of 216 House Democrats",
+     "role": "House Democratic Caucus",
+     "party": "D",
+     "what_they_did": "Voted yes on final passage.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S5",
+      "S6"
+     ]
+    },
+    {
+     "name": "212 of 224 House Republicans",
+     "role": "House Republican Conference",
+     "party": "R",
+     "what_they_did": "Voted yes on final passage.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
       "S6"
      ]
     }
@@ -147,37 +149,46 @@
    "against": [
     {
      "name": "Senate Judiciary Committee",
-     "role": "Senate Committee on the Judiciary",
+     "role": "Senate committee where the bill sat",
      "party": null,
-     "what_they_did": "Received the bill on May 16, 2023 and referred it to committee, where it sat without a markup, vote, or floor action through the end of the 118th Congress.",
+     "what_they_did": "Received the bill on May 16, 2023, and referred it to committee, then took no action — no hearing, no markup, no vote — for the rest of the Congress.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
+      "S5"
+     ]
+    },
+    {
+     "name": "Dick Durbin",
+     "role": "Chair, Senate Judiciary Committee",
+     "party": "D",
+     "what_they_did": "As committee chair, never scheduled the bill for consideration in the twenty months after the House passed it.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
       "S5"
      ]
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "The bill split by no party at all: it passed the House 412–0 with all 200 Democrats and all 212 Republicans voting yes, and its only opposition was inaction in the Senate Judiciary Committee."
+   "party_line_note": "The House vote was unanimous: 200 of 216 Democrats and 212 of 224 Republicans voted yes, with zero no votes in either party."
   },
   "industries": [
    {
-    "industry": "Internet, cloud, and telecom providers",
+    "industry": "Email, cloud, and communications providers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "The bill would give providers explicit rights to consult lawyers, ask courts to modify or vacate gag orders, and get a stay of disclosure while a challenge is pending. Their interest in clearer, narrower orders runs alongside their customers' privacy interest.",
+    "note": "The bill gives these companies new tools: the right to go to court to challenge or modify a secrecy order, the ability to pause disclosure while a challenge is pending, and the ability to consult a lawyer about the order. Their interest here runs alongside their customers', since both want fewer unchallengeable secret demands.",
     "sources": [
      "S2",
-     "S3",
-     "S5"
+     "S3"
     ]
    },
    {
     "industry": "Federal law enforcement and prosecutors",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Federal agencies would lose the ease of obtaining and endlessly renewing secrecy orders on customer records. Their interest in indefinite secrecy runs against the public's interest in knowing when their records are seized.",
+    "note": "Investigators lose easy access to long, lightly-scrutinized secrecy orders and must give targets notice and copies of the records after secrecy ends. This is the intended cost: the bill constrains a government power that currently operates largely without the target ever knowing.",
     "sources": [
      "S2",
      "S3"
@@ -186,16 +197,15 @@
   ],
   "trajectory": null,
   "categories": [
-   "other",
-   "consumer_protection_and_finance"
+   "other"
   ],
   "scores": {
-   "public_stakes": 6,
+   "public_stakes": 5,
    "concentrated_stakes": 4,
-   "outcome_against_public": 8,
-   "support_mismatch": 8,
+   "outcome_against_public": 7,
+   "support_mismatch": 7,
    "corruption_relevance": 2,
-   "confidence": 0.95
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

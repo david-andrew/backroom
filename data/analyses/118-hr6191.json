@@ -1,148 +1,131 @@
 {
  "bill_id": "118-hr6191",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:48:13+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:04:58+00:00",
  "record_fetched_at": "2026-09-20T11:38:44+00:00",
  "record_hash": "bbcd15d56afefd42",
  "analysis": {
-  "one_liner": "Imposes an excise tax on large corporations whose CEO pay is more than 50 times worker pay.",
-  "headline": "The bill never advanced past its first referral; no committee vote or House floor vote was ever held in the 118th Congress.",
+  "one_liner": "Taxes large companies whose CEOs make more than 50 times their median worker's pay.",
+  "headline": "The bill was introduced in November 2023 with 12 House Democrats behind it and never received a committee hearing or a vote before the 118th Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would place a tax on very large companies—those with at least $100 million in annual gross receipts and $10 million in annual payroll—if their top executive's pay is more than 50 times the pay of the typical employee. The tax grows with the size of the pay gap, but is capped at 1% of the company's gross receipts. It was introduced in the House in November 2023 and sent to the Ways and Means Committee, which took no further action before Congress ended in January 2025.",
-  "who_benefits": "Ordinary employees at the very largest corporations benefit indirectly: the tax is designed to pressure companies to narrow CEO-to-worker pay gaps, either by raising median worker pay or restraining executive compensation. The revenue from the tax would go to the federal government rather than directly to workers.",
-  "who_benefits_short": "Workers at very large corporations",
+  "plain_summary": "The bill would put a new federal excise tax on very large employers — those with at least $100 million in annual gross receipts and more than $10 million in annual payroll — whose highest-paid employee earns more than 50 times the pay of their median worker. The tax grows with the size of the pay gap but is capped at 1% of the company's gross receipts, so the company cannot deduct it from its income taxes. The goal is to pressure large companies to raise ordinary workers' wages or narrow executive pay.",
+  "who_benefits": "Workers at large companies with extreme pay gaps, who could gain either directly (raises that shrink the gap below 50-to-1 and erase the tax) or indirectly through federal revenue. The bill also targets a rule change meant to stop companies from dodging the measure by replacing employees with contractors.",
+  "who_benefits_short": "Workers at large, unequal companies",
   "how_it_helps": [
    {
-    "text": "Applies only to large employers with at least $100 million in annual gross receipts and $10 million in annual payroll for three consecutive years, so small and midsize businesses are untouched.",
+    "text": "Applies only to employers with at least $100 million in annual gross receipts and over $10 million in annual payroll, measured over three years, so small businesses are untouched.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "The tax rises with the size of the pay disparity: it equals 1% of gross receipts times the amount by which the CEO-to-median-worker pay ratio exceeds 50, capped at 1% of gross receipts.",
+    "text": "The tax applies only to the gap above 50-to-1 between the CEO's average pay over five years and the median wage paid to employees that year, giving companies a direct financial reason to lift median wages.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "The bill directs the Treasury Department to write regulations preventing companies from gaming the ratio, including by replacing employees with contractors.",
+    "text": "The tax is capped at 1% of gross receipts, limiting the maximum exposure for any covered company.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "text": "The tax amount is not deductible from corporate income taxes, and the bill includes joint-and-several liability for companies treated as a single employer under an aggregation rule, to prevent corporate restructuring from evading the tax.",
+    "text": "Companies cannot deduct the tax from their income taxes, and the bill directs the Treasury to write rules against avoidance, including manipulation of the ratio by swapping employees for contractors.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Large corporations—roughly the biggest 1,000 or so firms by size—that pay their chief executives more than 50 times their median worker's pay. The cost falls on the company, not on executives personally, and could be passed to shareholders or, in some cases, workers through reduced compensation budgets.",
-  "who_pays_short": "Large companies with high pay ratios",
+  "who_pays": "Very large companies with high CEO-to-worker pay ratios, and potentially their shareholders, if they choose to keep the pay gap and pay the tax rather than raise wages.",
+  "who_pays_short": "Large corporations with big pay gaps",
   "drawbacks": [
    {
-    "text": "The bill taxes the company rather than paying workers directly: nothing in the bill requires a company to raise median wages; it may instead choose to absorb the tax, trim executive pay, or pass costs to shareholders.",
+    "text": "The tax is modest — capped at 1% of gross receipts — so some large companies may simply absorb the cost rather than raise worker pay, especially since it is not deductible.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The pay ratio could be manipulated by shifting work to contractors or staffing firms; the bill directs Treasury to write anti-avoidance regulations, but the safeguards depend on future rules that did not exist in the bill text.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "The tax applies even when a company's pay ratio is driven by an unusually low-paid median employee rather than an unusually high CEO, so firms with modest executive pay but low-wage workforces could still owe the tax.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Compliance would require each covered firm to compute a five-year average CEO pay figure and a median wage annually, adding tax-compliance work on top of the existing SEC pay-ratio disclosures.",
+    "text": "The bill directs regulators to guard against companies gaming the metric, including by using contractors instead of employees, which acknowledges the measure could otherwise be avoided by restructuring the workforce.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The bill is a blunt instrument: it does not guarantee any worker gets a raise, and a company could pay the tax rather than change its pay structure. But it is deliberately narrow—aimed only at very large firms with extreme pay gaps—and includes anti-avoidance rules for the most predictable workarounds like contractor substitution. The realistic best-case outcome is modest pressure toward either raising median pay or curbing executive compensation at the largest firms; the realistic worst case is a compliance burden with little behavioral change. The bill's practical significance is limited by the fact that it never received any committee or floor action.",
+  "benefit_vs_cost": "The mechanism is a reasonable nudge: it is aimed squarely at very large employers, leaves small business alone, and gives companies an easy out (close the pay gap) that directly benefits workers. Its main weakness is size — a 1%-of-receipts cap may be too small to change behavior at companies where executive pay is worth the tax — and the ratio could be gamed through contractors, which the bill anticipates but relies on future regulations to police.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The bill was referred to the House Ways and Means Committee the day it was introduced and never received a hearing, markup, or vote before the 118th Congress ended.",
+   "mechanism": "It was referred to the House Ways and Means Committee the day it was introduced, and no hearing, markup, or floor vote ever happened before the Congress ended.",
    "narrative": [
     {
-     "text": "Barbara Lee introduced the Curtailing Executive Overcompensation (CEO) Act in the House on November 2, 2023, with six original cosponsors including Ocasio-Cortez, Frost, Norton, Tlaib, Jackson Lee, Jayapal, and Bowman.",
+     "text": "Rep. Barbara Lee introduced the bill on November 2, 2023, with seven original cosponsors.",
      "sources": [
       "S1",
-      "S3"
+      "S3",
+      "S5"
      ]
     },
     {
-     "text": "The bill was referred to the House Committee on Ways and Means on the day of introduction, and the public record shows no further action—not a hearing, not a markup, not a floor vote—for the remainder of the 118th Congress.",
+     "text": "The bill was referred to the House Committee on Ways and Means on the day of introduction; the Ways and Means Committee is the committee that handles tax legislation.",
      "sources": [
-      "S5",
-      "S1"
+      "S5"
      ]
     },
     {
-     "text": "All 11 cosponsors were Democrats; no Republican cosponsored the bill, and no companion measure advanced in either chamber.",
+     "text": "That referral was the last action ever taken on the bill — no committee hearing, markup, or floor vote was held during the remainder of the 118th Congress, which ended January 3, 2025.",
      "sources": [
-      "S4",
-      "S1"
+      "S1",
+      "S5"
+     ]
+    },
+    {
+     "text": "The bill picked up 11 cosponsors, all of them House Democrats.",
+     "sources": [
+      "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "Large corporations with high CEO-to-worker pay ratios benefit, since no tax or disclosure pressure was ever enacted. Their chief executives' compensation levels remain untouched by law. The Ways and Means Committee's inaction also preserved the status quo for its members' large corporate constituents without any recorded vote on the merits."
+   "who_came_out_ahead": "Very large companies with extreme CEO-to-worker pay gaps are better off: they never faced the excise tax or the pressure to raise median wages. No other group gained anything from the bill's death."
   },
-  "who_came_out_ahead_short": "Large corporations with high pay ratios",
+  "who_came_out_ahead_short": "Large corporations with wide pay gaps",
   "sides": {
    "for": [
     {
      "name": "Barbara Lee",
-     "role": "U.S. Representative (CA-12); lead sponsor",
+     "role": "U.S. Representative, lead sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill on November 2, 2023, and assembled a group of 11 Democratic cosponsors.",
+     "what_they_did": "Introduced the bill and steered it to the tax-writing committee.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
       "S3",
-      "S4"
+      "S5"
      ]
     },
     {
-     "name": "Progressive House cosponsors",
-     "role": "Ocasio-Cortez, Frost, Norton, Tlaib, Jackson Lee, Jayapal, Bowman, and others (11 total)",
+     "name": "11 of 216 House Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Cosponsored the bill; all cosponsors were Democrats.",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S4",
-      "S3"
+      "S4"
      ]
     }
    ],
    "against": [
     {
-     "name": "House Ways and Means Committee",
-     "role": "Committee of referral for tax legislation",
-     "party": null,
-     "what_they_did": "Took no action on the bill after referral on November 2, 2023—no hearing, markup, or vote is recorded for the rest of the Congress.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "name": "Jason Smith",
+     "name": "Ways and Means Committee chair",
      "role": "Chair, House Ways and Means Committee",
      "party": "R",
-     "what_they_did": "Never scheduled the bill for committee consideration; the committee's action record for H.R. 6191 ends at referral.",
+     "what_they_did": "Never scheduled a hearing or markup on the bill, leaving it without any committee action after referral.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -150,35 +133,17 @@
      ]
     }
    ],
-   "party_line": "party_line",
-   "party_line_note": "All 11 cosponsors were Democrats, with no Republican support recorded; the bill died in a committee controlled by the House Republican majority."
+   "party_line": "mostly_party_line",
+   "party_line_note": "All 12 supporters were House Democrats, and the Republican-led Ways and Means Committee gave the bill no hearing or vote."
   },
   "industries": [
    {
-    "industry": "Large corporations with high CEO-to-worker pay ratios (retail, tech, hospitality, finance)",
+    "industry": "Large corporations with high CEO-to-worker pay ratios",
     "effect": "loses",
-    "stance_toward_public": "mixed",
-    "note": "These firms would owe an excise tax of up to 1% of gross receipts whenever their executive-to-median-worker pay ratio exceeds 50 to 1. Their interest is to keep the status quo, which conflicts with the bill's aim of narrowing pay gaps—though workers benefit only indirectly, since the bill does not mandate any pay change.",
+    "stance_toward_public": "opposed",
+    "note": "The bill would impose an excise tax on them unless they narrow the gap between CEO pay and their median employee's pay. Their interest in defeating it ran against workers who would benefit from raises or from the tax revenue.",
     "sources": [
      "S2",
-     "S3"
-    ]
-   },
-   {
-    "industry": "Executive compensation consultants and pay-ratio compliance advisors",
-    "effect": "gains",
-    "stance_toward_public": "opposed",
-    "note": "Firms would need to compute and document the new pay disparity factor each year, creating a compliance services market. This cost exists only if the bill passes; it died.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "Staffing and contract-labor firms",
-    "effect": "mixed",
-    "stance_toward_public": "opposed",
-    "note": "The bill explicitly targets contractor substitution as a way to game the pay ratio, signaling that companies might otherwise shift low-wage work to contractors. The bill's regulations would police this practice.",
-    "sources": [
      "S3"
     ]
    }
@@ -189,12 +154,12 @@
    "wages_and_labor"
   ],
   "scores": {
-   "public_stakes": 5,
+   "public_stakes": 6,
    "concentrated_stakes": 7,
-   "outcome_against_public": 7,
+   "outcome_against_public": 8,
    "support_mismatch": 5,
-   "corruption_relevance": 2,
-   "confidence": 0.9
+   "corruption_relevance": 1,
+   "confidence": 0.95
   }
  },
  "unresolved_citations": []

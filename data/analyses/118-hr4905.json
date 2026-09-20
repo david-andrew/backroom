@@ -1,142 +1,124 @@
 {
  "bill_id": "118-hr4905",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:46:47+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:01:01+00:00",
  "record_fetched_at": "2026-09-20T11:37:45+00:00",
  "record_hash": "127fa7e6ed196b69",
  "analysis": {
-  "one_liner": "Requires health insurers to show patients their out-of-pocket costs before care and publish what they pay.",
-  "headline": "The bill never got a vote: introduced with bipartisan sponsorship in July 2023, it sat in House committees and a subcommittee until the Congress ended in January 2025.",
+  "one_liner": "Requires health insurers to publish negotiated prices and give personal cost estimates before care.",
+  "headline": "The bill never received a committee vote or floor action before Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would amend the tax code, the Public Health Service Act, and the employer-benefit law (ERISA) to require group health plans and insurers to tell individuals, on request, what they would pay out of pocket for a specific service — including how far along they are on their deductible and whether prior approval rules apply [S2]. It would also require plans and insurers to publish their negotiated in-network rates and what they actually paid, including for drugs net of rebates, in machine-readable public files every few months, with plain-language instructions and help for people with limited English or disabilities [S2]. Nothing in it would change prices directly; it would force disclosure so people can shop and compare [S2].",
-  "who_benefits": "People covered by employer or other private health plans gain the right to a real-time estimate of what a specific service will cost them — their deductible status, copay, whether prior authorization applies — through a website tool or by phone or paper at no charge [S2]. Researchers, employers, and consumer tools also gain access to quarterly machine-readable files showing negotiated rates, out-of-network payments, and drug prices net of rebates, so they can compare plans and spot wide price differences for the same care [S2]. Plans must post instructions in plain language and provide translations and assistive services for people with limited English proficiency or disabilities [S2].",
-  "who_benefits_short": "People with private health insurance",
+  "plain_summary": "The bill would have written into law that group health plans and insurers must publish the negotiated rates they pay providers, disclose what they actually pay for drugs net of rebates, and give members a self-service tool that tells them their estimated out-of-pocket cost for a specific item or service from a specific provider before they get care. It builds on price transparency rules the agencies adopted in 2020, adding a statute so the requirements could not simply be undone or weakened by a future administration, and it requires the information be available for free without an account, in plain language, including for people with limited English proficiency or disabilities. It was introduced by a Republican with Democratic cosupport, referred to three committees, and never moved again.",
+  "who_benefits": "Insured workers and families who want to know what a procedure or drug will actually cost them before they get it, employers shopping for plans, and researchers or comparison tools that could use the published rate files.",
+  "who_benefits_short": "Insured workers and families",
   "how_it_helps": [
    {
-    "text": "Gives every enrollee a no-cost, real-time estimate of their cost sharing for a specific item or service — in-network rate, deductible progress, copay or coinsurance, and any prior authorization or step-therapy requirement — through a website tool or, at their choice, by paper, phone, or other electronic means",
+    "text": "The bill requires plans to let individuals see, in real time through a free self-service tool, the estimated cost sharing (deductible, copay, coinsurance) they would owe for a specific item or service from a specific provider, including any prior authorization or step-therapy requirements.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires plans to publish their negotiated in-network rates, out-of-network billed and paid amounts, and drug payments net of rebates in machine-readable public files, updated quarterly (monthly for drug data), free and without a login, in a format that lets people compare across plans",
+    "text": "Plans would have to publish, in machine-readable files updated at least quarterly, the negotiated in-network rates for every provider, the average amount paid for each drug net of rebates and discounts, and what they allowed for out-of-network care, all accessible free without a user account and comparable across plans.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Makes plans attest that published price information is complete and accurate, and requires plain-language instructions plus translations and assistive services for people with limited English proficiency and disabilities",
+    "text": "The requirements would be written into the Internal Revenue Code, the Public Health Service Act, and ERISA, giving the 2020 transparency rule the force of statute, and plans must post an attestation that the published information is complete and accurate.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Uses a bipartisan pairing — Republican sponsor Brian Fitzpatrick with Democrat Susie Lee of Nevada as an original cosponsor — and covers employer plans, individual coverage, and self-insured plans through parallel amendments to the tax code, the Public Health Service Act, and ERISA",
+    "text": "The bill directs the three relevant departments to make the information accessible in plain language, with translations and assistive services for people with limited English proficiency or disabilities.",
     "sources": [
-     "S1",
-     "S2",
-     "S3"
+     "S2"
     ]
    }
   ],
-  "who_pays": "Health insurers and employers that sponsor group plans bear the cost of building the real-time cost-sharing tool, publishing and maintaining quarterly machine-readable rate files, and providing translations and assistive services [S2]. Insurers and hospital systems also lose the confidentiality of negotiated rates and net-of-rebate drug payments, which can weaken their bargaining positions; some of the compliance cost could show up in premiums [S2].",
-  "who_pays_short": "Insurers, employers, and hospitals",
+  "who_pays": "Health insurers and employer-sponsored plans bear the cost of building and maintaining the disclosure tools and files, and hospitals, providers, and pharmacy benefit intermediaries whose negotiated rates and net drug payments would become public.",
+  "who_pays_short": "Insurers and employer plans",
   "drawbacks": [
    {
-    "text": "Insurers and employers would shoulder significant compliance costs — real-time tools, quarterly data publication in a usable standard format, attestations, and translation and assistive services — and some of that cost could be passed to customers through premiums",
+    "text": "Compliance costs fall on insurers and employer plans, which maintain the self-service tools and the machine-readable files; smaller employer plan sponsors could face meaningful administrative burdens.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Publishing in-network rates and net-of-rebate drug payments exposes negotiated discounts; providers and hospitals can see what competitors charge, which in some cases lets them demand higher rates, so transparency does not guarantee prices fall",
+    "text": "Disclosure does not by itself lower prices: the machine-readable rate files are large technical datasets that most consumers would not use directly, so the main users would be comparison tools and employers, and savings depend on those intermediaries and on plans and providers actually competing on the newly visible prices.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Much of the disclosure already exists by regulation under the 2020 Transparency in Coverage rule, and the bill expressly leaves that rule in place for earlier plan years — so the practical gain over the status quo is codifying the rules into law and adding features like prior-authorization disclosure and plain-language instructions, not an entirely new right",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Raw machine-readable files listing rates for every provider and billing code are difficult for ordinary consumers to use directly; the bill relies on third parties to turn the data into usable comparisons",
+    "text": "The bill exempts grandfathered health plans from the rate publication requirement and lets the Secretary exclude certain information categories, so coverage of the disclosure mandate is not universal.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit is real but indirect: patients get to see costs before care and researchers get the underlying data, which over time can pressure prices down and expose extreme variation. The costs are compliance burdens on insurers and employers and the risk that publishing negotiated rates sometimes helps providers raise them. On balance a consumer-favorable, low-drama bill — but because a 2020 regulation already requires much of this disclosure, the bill's practical impact is an upgrade and legal permanence rather than a first-of-its-kind right.",
+  "benefit_vs_cost": "The core benefit is real and matches what many consumers say they want: knowing your expected out-of-pocket cost before you get care, and seeing what your insurer actually pays. The main costs are administrative, borne by insurers and large employers, and the consumer-facing benefit depends partly on third-party tools making the raw data usable. On balance a fairly modest, targeted bill whose benefits plausibly outweigh its compliance costs, though it is not a price-control measure and would not force prices down on its own.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The bill was referred to three House committees in July 2023 and then to the Energy and Commerce Subcommittee on Health, where it sat without a hearing or a vote until the Congress ended in January 2025.",
+   "mechanism": "It was referred to three House committees in July 2023, got two subcommittee referrals, and never reached a markup or a floor vote before the Congress ended.",
    "narrative": [
     {
-     "text": "Brian Fitzpatrick (R-PA) introduced the bill on July 26, 2023, joined as original cosponsor by Susie Lee (D-NV), and it was referred to the Energy and Commerce, Education and Workforce, and Ways and Means Committees.",
+     "text": "Rep. Brian Fitzpatrick introduced the bill on July 26, 2023, joined by Rep. Susie Lee of Nevada; two House Democrats cosponsored it.",
      "sources": [
       "S1",
-      "S2",
-      "S4"
-     ]
-    },
-    {
-     "text": "Two days later, on July 28, 2023, it was referred to the Energy and Commerce Subcommittee on Health, a step short of a full committee vote.",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "The bill drew a total of 2 cosponsors, both Democrats, and no further action for over a year.",
-     "sources": [
-      "S3",
-      "S4"
-     ]
-    },
-    {
-     "text": "On December 17, 2024, with weeks left before the Congress ended, it was referred to the Subcommittee on Health again; no hearing, markup, or floor vote ever took place, and the bill died when the 118th Congress ended on January 3, 2025.",
-     "sources": [
-      "S1",
-      "S4"
-     ]
-    }
-   ],
-   "who_came_out_ahead": "Health insurers and employer plan sponsors avoided new statutory disclosure duties and the compliance costs of building real-time cost-sharing tools and publishing negotiated rates; hospitals and provider groups kept the confidentiality of their negotiated prices."
-  },
-  "who_came_out_ahead_short": "Insurers and providers kept price confidentiality",
-  "sides": {
-   "for": [
-    {
-     "name": "Brian Fitzpatrick",
-     "role": "U.S. Representative (R-PA), bill sponsor",
-     "party": "R",
-     "what_they_did": "Introduced the bill on July 26, 2023 and sought consideration in three House committees",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
-      "S2",
-      "S4"
-     ]
-    },
-    {
-     "name": "Susie Lee",
-     "role": "U.S. Representative (D-NV), original cosponsor",
-     "party": "D",
-     "what_they_did": "Joined as an original cosponsor when the bill was introduced",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S2",
       "S3"
      ]
     },
     {
-     "name": "Democratic cosponsors",
-     "role": "2 Democratic cosponsors in the House",
+     "text": "The House referred it to the Energy and Commerce, Education and the Workforce, and Ways and Means committees, with subcommittee referrals in July 2023 and again in December 2024.",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "No committee reported the bill and no chamber voted on it; the full action history ends with the December 2024 subcommittee referral, and the 118th Congress ended on January 3, 2025 without the bill advancing.",
+     "sources": [
+      "S4",
+      "S1"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "Health insurers, hospitals, and other providers benefit from the bill's death: their negotiated rates and net drug payments stay out of any statutory disclosure mandate, and insurers remain free of the requirement to build the personalized cost-estimate tool into law. Because the 2020 transparency rule remains in effect by regulation, much of the rate disclosure already happens, but the added statutory backing and the personalized cost tool died with the bill."
+  },
+  "who_came_out_ahead_short": "Insurers and hospital systems",
+  "sides": {
+   "for": [
+    {
+     "name": "Rep. Brian Fitzpatrick",
+     "role": "Sponsor, House member from Pennsylvania",
+     "party": "R",
+     "what_they_did": "Introduced the Health Insurance Price Transparency Act of 2023 in the House.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "name": "Rep. Susie Lee",
+     "role": "Original Democratic cosponsor, House member from Nevada",
      "party": "D",
-     "what_they_did": "Signed on in support; the bill's only cosponsors were Democrats",
+     "what_they_did": "Joined the Republican sponsor in introducing the bill, making it bipartisan from the start.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "name": "2 of 216 House Democrats",
+     "role": "Democratic cosponsors",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -146,78 +128,44 @@
    ],
    "against": [
     {
-     "name": "Cathy McMorris Rodgers",
-     "role": "Chair, House Energy and Commerce Committee",
+     "name": "House committee chairs (Energy and Commerce, Ways and Means, Education and the Workforce)",
+     "role": "Chairs of the three committees of referral",
      "party": "R",
-     "what_they_did": "Her committee received the bill first but never brought it to a markup or vote; the referral sat at the subcommittee level for the rest of the Congress",
+     "what_they_did": "Never scheduled a markup or brought the bill to a vote in roughly 17 months after referral; the bill's last action was a subcommittee referral in December 2024.",
      "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
-    },
-    {
-     "name": "Jason Smith",
-     "role": "Chair, House Ways and Means Committee",
-     "party": "R",
-     "what_they_did": "His committee, which holds jurisdiction over the tax-code portion of the bill, took no action on it",
-     "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
-    },
-    {
-     "name": "Virginia Foxx",
-     "role": "Chair, House Education and Workforce Committee",
-     "party": "R",
-     "what_they_did": "Her committee, which holds jurisdiction over the ERISA portion of the bill, took no action on it",
-     "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "No vote was ever held; sponsorship was bipartisan, with a Republican sponsor and two Democratic cosponsors, so the bill's fate was a lack of committee action rather than a party-line defeat."
+   "party_line_note": "There were no votes, so no party breakdown exists; sponsorship was bipartisan, a Republican with a Democratic original cosponsor and two Democratic cosponsors, but no committee or floor action ever tested broader support."
   },
   "industries": [
    {
     "industry": "Health insurers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill forces insurers to build real-time cost-sharing tools and publish negotiated in-network rates, out-of-network payments, and net-of-rebate drug prices publicly. That exposure weakens their ability to keep negotiated discounts secret and adds compliance costs that could flow into premiums.",
+    "note": "The bill would force insurers to publish every negotiated provider rate, their net drug payments after rebates, and personalized cost estimates for members. Insurers have argued these disclosures expose competitively sensitive contract terms; the public interest runs the other way, toward shoppers seeing prices before care.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Hospitals and provider groups",
-    "effect": "loses",
+    "industry": "Hospitals and health care providers",
+    "effect": "mixed",
     "stance_toward_public": "opposed",
-    "note": "Quarterly publication of what each plan pays each provider makes their negotiated prices comparable across the market, letting patients and employers spot providers charging far more for the same service and giving them leverage to push rates down.",
+    "note": "Their negotiated rates with every major plan would become public and comparable, which could push payers to demand lower rates while also making it easier for consumers and employers to comparison-shop.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Pharmacy benefit managers and drug pricing intermediaries",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "The bill requires plans to disclose what they actually paid for each drug net of rebates, discounts, and price concessions — the figure PBMs and insurers usually keep confidential — which would expose the spread between list price and net cost.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Employers offering group health plans",
+    "industry": "Employers sponsoring group health plans",
     "effect": "mixed",
     "stance_toward_public": "aligned",
-    "note": "Employers would face compliance costs for plans they sponsor, but they also gain access to published rate data that helps them judge whether insurers' network prices are competitive.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Health data and price-comparison tools",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "Mandated machine-readable files and standardized formats create raw material for consumer comparison websites and analytics firms to build tools on top of.",
+    "note": "Plan sponsors would bear compliance costs for the tools and machine-readable files, but employers as purchasers also gain visibility into what their plans pay providers, which strengthens their negotiating position.",
     "sources": [
      "S2"
     ]
@@ -229,10 +177,10 @@
    "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 5,
-   "concentrated_stakes": 6,
-   "outcome_against_public": 5,
-   "support_mismatch": 3,
+   "public_stakes": 6,
+   "concentrated_stakes": 5,
+   "outcome_against_public": 6,
+   "support_mismatch": 4,
    "corruption_relevance": 2,
    "confidence": 0.85
   }

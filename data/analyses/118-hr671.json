@@ -1,155 +1,185 @@
 {
  "bill_id": "118-hr671",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:35:56+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:07:50+00:00",
  "record_fetched_at": "2026-09-20T11:34:18+00:00",
  "record_hash": "9c474c9f28125a78",
  "analysis": {
-  "one_liner": "Raises Social Security taxes on high earners to fund higher benefits for low-paid and long-retired beneficiaries.",
-  "headline": "The bill never got a vote: it sat in the House Ways and Means Committee from the day it was introduced in January 2023 until a December 2024 subcommittee referral, and the 118th Congress ended without floor action.",
+  "one_liner": "Raises Social Security payroll taxes, especially on high earners, and boosts benefits for low earners, students, and long-time beneficiaries.",
+  "headline": "The bill sat in the House Ways and Means Committee for nearly two years without a hearing or vote, and was sent to a subcommittee only in the session's final week.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would raise the Social Security payroll tax gradually from 6.2% to 6.5% for both workers and employers, and phase out the cap on earnings subject to the tax, so that high earners pay Social Security tax on income above roughly $160,000. The new revenue funds benefit increases: a minimum benefit pegged to the poverty line for people who worked many years at low wages, a gradually larger bonus for people who draw benefits for many years, and continuation of child benefits through age 26 for full-time students.",
-  "who_benefits": "Lifetime low earners, who would be guaranteed a benefit at least at the poverty line after a long career; people who draw Social Security for 16 or more years, whose checks would grow by up to 5% a year to keep up with a long retirement; and children of retired, disabled, or deceased workers in college, whose benefits would continue through age 26. The program's trust fund also gains revenue.",
-  "who_benefits_short": "Low earners, long-retired beneficiaries, and students",
+  "plain_summary": "The bill would raise the Social Security payroll tax gradually from 6.2% to 6.5% for both workers and employers, and would phase out the cap on wages subject to that tax, so people earning above roughly $160,000 would pay Social Security tax on more of their income. The added money would fund a higher minimum benefit for people who worked many years at low wages, a 5% boost for people who have been on Social Security for 16 years or more, and an extension of child benefits to age 26 for full-time students. It was referred to the Ways and Means Committee and never advanced.",
+  "who_benefits": "Lifetime low earners would get a new minimum benefit pegged to the poverty line, scaled up with years worked (including years caring for young children). Beneficiaries who have received benefits for 16 years or more would get a boost of up to 5% of the average benefit. Children of retired, disabled, or deceased workers could keep receiving benefits through age 26 while in full-time college. The phase-out of the taxable earnings cap would also improve the program's long-term finances.",
+  "who_benefits_short": "Low-earning seniors and student children",
   "how_it_helps": [
    {
-    "text": "Sets a new minimum benefit so a worker with 30 or more years in the workforce cannot receive less than the federal poverty guideline, with a lower percentage for shorter careers and credit for up to 5 years spent caring for young children.",
+    "text": "Establishes a new special minimum benefit for lifetime low earners, set as a percentage of the poverty guideline and rising with years worked, counting up to five years of childcare, so a 30-year worker could not be paid less than the poverty line [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Increases monthly benefits by 5% of a benchmark amount for beneficiaries who have been eligible for 16 years, reaching the full increase after 20 years, recognizing that early benefits are eroded by years of lower cost-of-living growth [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Lets children of retired, disabled, or deceased workers receive benefits through age 26 while full-time post-secondary students, instead of cutting off at 19 [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Adds a benefit increase for beneficiaries who have been on the rolls 16 years or longer, rising to 5% of the benefit at 20 years, to protect people whose fixed checks wear thin over long retirements.",
+    "text": "Raises the payroll tax rate to 6.5% (13% for the self-employed) by 2029 and applies it to earnings above the current cap, phasing in over a decade, with benefits calculated to reflect the newly taxed higher earnings [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Extends child benefits for full-time post-secondary students from age 19 to age 26, continuing survivor and disability benefits through college.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Phases out the taxable earnings cap over about a decade and raises the payroll tax rate to 6.5% by 2029, directing the new revenue to benefits and to the program's financing.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Provides that the benefit increases would not count as income for Medicaid and other means-tested programs, so beneficiaries would not lose other aid.",
+    "text": "Bars any benefit increase from being counted as income against eligibility for Medicaid, SNAP, or other means-tested programs, so the raises would not be clawed back [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "The tax increase falls hardest on high earners: the payroll tax rate rises for every covered worker and employer by 0.3 percentage points over six years, and the cap on taxable earnings phases out, so wages above roughly $160,000 become taxable. Self-employed people with high earnings pay the full combined increase, and employers pay a matching share on high salaries, which could pressure wage growth. High earners would receive a new 3% benefit factor on the newly taxed earnings above the old cap, but far less than they pay in.",
-  "who_pays_short": "High earners and their employers",
+  "who_pays": "All workers and their employers would pay a gradually higher payroll tax, from 6.2% to 6.5% on each side by 2029. Workers earning above the taxable maximum (about $160,200 in 2023) would pay Social Security tax on an increasing share of earnings above the cap, reaching all of it by 2034. Self-employed people would pay both sides.",
+  "who_pays_short": "Workers, employers, and high earners",
   "drawbacks": [
    {
-    "text": "The rate increase applies to all covered workers and employers, not only to earnings above the cap: employee and employer rates each rise from 6.2% to 6.5% by 2029, and the self-employment rate rises from 12.4% to 13%.",
+    "text": "The payroll tax increase applies to every worker's wages, not just high earners, so a household earning $50,000 would pay about $150 more per year by 2029, and employers' matching share may partly come out of wages [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Phasing out the earnings cap raises the tax burden on high-income households and on owners of businesses with high self-employment income during their peak-earning years, and economists generally expect part of the employer-side increase to show up as slower wage growth.",
+    "text": "For earnings above the cap, the bill applies only a 3% benefit formula (compared with 90% and 32% below it), so high earners would pay far more in tax than they would get back, weakening the tax-to-benefit link that historically underpins Social Security's political support [S3].",
     "sources": [
-     "S2",
      "S3"
     ]
    },
    {
-    "text": "Earnings above the old cap would earn only a 3% benefit factor, so some of the new revenue goes back out as benefits to affluent retirees rather than entirely to low-income beneficiaries.",
+    "text": "Critics of lifting the earnings cap argue it changes Social Security toward a more redistributive program and could face employer objections to the higher matching tax, though no such opposition is recorded in the bill's history [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit side is well targeted: a poverty-level floor for career low earners and extra support for very long retirements address the most serious gaps in Social Security, and the new 3% benefit factor on high earnings softens the fairness objection that high earners would pay without receiving anything. The cost is a genuine tax increase, spread broadly as a small rate rise and concentrated on six-figure earners through the cap phase-out, with employers paying a matching share. It is a conventional, straightforwardly designed expansion-and-solvency bill rather than a gimmick, but whether the tax increase is worth it is a real values question the bill never got to face on the floor.",
+  "benefit_vs_cost": "The bill trades a modest, broadly shared tax increase (0.3 percentage points per side, phased over six years) for substantially higher benefits aimed at the poorest beneficiaries, plus student benefits through age 26 and a stronger revenue base from high earners. The main cost falls on ordinary workers in the form of a slightly larger paycheck deduction and on employers. The 3% benefit rate on earnings above the cap is a deliberate design choice that makes the bill more redistributive; an honest supporter would acknowledge it asks high earners to pay much more than they will ever receive.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was referred to the House Ways and Means Committee on the day it was introduced, sat there for nearly two years, was sent to the Social Security subcommittee in a December 2024 lame-duck session, and died when the 118th Congress ended in January 2025 without ever reaching the floor.",
+   "mechanism": "It was referred to the House Ways and Means Committee on the day it was introduced, sat there for almost two years with no hearing or markup, and on December 17, 2024 — with days left in the Congress — was referred to its Social Security Subcommittee, where it died.",
    "narrative": [
     {
-     "text": "Rep. Gwen Moore of Wisconsin introduced the bill on January 31, 2023, together with Rep. Jan Schakowsky, and it was referred to the House Committee on Ways and Means the same day.",
-     "sources": [
-      "S3",
-      "S5"
-     ]
-    },
-    {
-     "text": "The committee took no action on the bill for nearly two years; on December 17, 2024, near the end of the Congress, it was referred to the Subcommittee on Social Security.",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "The bill had two cosponsors, both Democrats, and never received a floor vote before the 118th Congress ended on January 3, 2025.",
+     "text": "Rep. Gwen Moore introduced the bill on January 31, 2023, with Rep. Jan Schakowsky as an original cosponsor [S1][S3].",
      "sources": [
       "S1",
+      "S3"
+     ]
+    },
+    {
+     "text": "It was referred to the House Committee on Ways and Means the same day [S1][S5].",
+     "sources": [
+      "S1",
+      "S5"
+     ]
+    },
+    {
+     "text": "The bill gained only two Democratic cosponsors and no Republican support [S4].",
+     "sources": [
       "S4"
+     ]
+    },
+    {
+     "text": "After 22 months with no committee action, it was referred to the Subcommittee on Social Security on December 17, 2024, less than three weeks before the Congress ended [S5].",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "No hearing, markup, or floor vote ever took place in either chamber [S5].",
+     "sources": [
+      "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "High earners above the Social Security wage cap and their employers are better off because the bill died: they keep today's 6.2% rate and the earnings cap, and no low-income beneficiary sees an increase."
+   "who_came_out_ahead": "High earners whose wages above the roughly $160,000 cap would have become taxable, and employers who would have faced the higher matching payroll tax, are better off because the bill never advanced. Workers who would have paid the higher rate are also spared the cost, but the low earners, long-time beneficiaries, and students the bill would have helped gain nothing."
   },
-  "who_came_out_ahead_short": "High earners above the wage cap",
+  "who_came_out_ahead_short": "High earners and employers",
   "sides": {
    "for": [
     {
      "name": "Rep. Gwen Moore",
      "role": "U.S. Representative, WI-4; bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and gathered two cosponsors.",
+     "what_they_did": "Introduced the bill and shepherded it as its sponsor",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3",
-      "S4"
+      "S3"
      ]
     },
     {
      "name": "Rep. Jan Schakowsky",
-     "role": "U.S. Representative, IL-9; original cosponsor",
+     "role": "U.S. Representative, IL-9",
      "party": "D",
-     "what_they_did": "Joined as the bill's original co-sponsor at introduction.",
+     "what_they_did": "Joined as an original cosponsor at introduction",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
+      "S3"
+     ]
+    },
+    {
+     "name": "2 of 216 House Democrats",
+     "role": "Cosponsors",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
       "S4"
      ]
     }
    ],
    "against": [
     {
-     "name": "Rep. Jason Smith",
-     "role": "Chair, House Ways and Means Committee",
+     "name": "House Ways and Means Committee leadership",
+     "role": "Committee with jurisdiction over Social Security",
      "party": "R",
-     "what_they_did": "Never scheduled the bill for committee consideration during nearly two years in which it sat in the committee; it went only to a subcommittee in the final weeks of the Congress.",
+     "what_they_did": "Took no action on the bill for 22 months — no hearing or markup — then referred it to a subcommittee with days left in the Congress",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S5"
      ]
+    },
+    {
+     "name": "House Republican majority",
+     "role": "224 of 435 House members; controlled the committee calendar",
+     "party": "R",
+     "what_they_did": "Never brought the bill to the floor; no Republican cosponsored it",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4",
+      "S5"
+     ]
     }
    ],
-   "party_line": "party_line",
-   "party_line_note": "Both cosponsors were Democrats and the bill drew no Republican support; the Republican-led Ways and Means Committee took no action on it."
+   "party_line": "mostly_party_line",
+   "party_line_note": "All support came from Democrats — the sponsor and two Democratic cosponsors out of 216 — with no Republican cosponsors, and the Republican-controlled Ways and Means Committee never advanced it."
   },
   "industries": [
    {
-    "industry": "High earners above the Social Security wage cap",
+    "industry": "High earners above the payroll tax cap",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "They would pay Social Security tax on earnings above roughly $160,000 plus a higher rate on all earnings, receiving only a 3% benefit factor on the newly taxed income. Blocking the bill preserved the current cap.",
+    "note": "The bill would phase out the taxable earnings cap, applying Social Security tax to wages above roughly $160,200, while giving above-cap earnings only a 3% benefit rate. Their tax burden under the bill funds benefits for others.",
     "sources": [
      "S2",
      "S3"
@@ -158,17 +188,17 @@
    {
     "industry": "Employers",
     "effect": "loses",
-    "stance_toward_public": "mixed",
-    "note": "Employers would pay a matching 0.3-point rate increase on payroll, including on high salaries. The cost is modest per worker but rises with the wage bill, and part of it is generally expected to fall on wages.",
+    "stance_toward_public": "opposed",
+    "note": "Employers' matching Social Security tax would rise from 6.2% to 6.5% by 2029 on all covered wages, and beyond the cap as it phases out. Standard economic analysis treats part of employer payroll taxes as ultimately borne by workers through lower wages.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Self-employed professionals and business owners with high incomes",
+    "industry": "Self-employed workers and small business owners",
     "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "They would pay the full combined rate increase, from 12.4% to 13%, plus tax on self-employment income above the phased-out cap, with no employer to share the cost.",
+    "stance_toward_public": "mixed",
+    "note": "They pay both the employee and employer shares, which would rise from 12.4% to 13.0%, though the phase-out of the cap mostly raises their taxes only above the earnings threshold.",
     "sources": [
      "S3"
     ]
@@ -182,8 +212,8 @@
   "scores": {
    "public_stakes": 7,
    "concentrated_stakes": 7,
-   "outcome_against_public": 9,
-   "support_mismatch": 5,
+   "outcome_against_public": 8,
+   "support_mismatch": 3,
    "corruption_relevance": 1,
    "confidence": 0.9
   }

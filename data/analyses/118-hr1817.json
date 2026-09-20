@@ -1,93 +1,85 @@
 {
  "bill_id": "118-hr1817",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:40:47+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:49:36+00:00",
  "record_fetched_at": "2026-09-20T11:35:24+00:00",
  "record_hash": "d58f9b8f12262879",
  "analysis": {
-  "one_liner": "Bars federal agencies from requiring lenders to guess an applicant's race by appearance or surname.",
-  "headline": "The bill was referred to the House Financial Services Committee on March 27, 2023, with 2 cosponsors, and never received a hearing, a vote, or any further action before the 118th Congress ended on January 3, 2025.",
-  "direction": "mixed",
-  "plain_summary": "The bill would prohibit any federal agency from requiring a lender, when extending credit, to estimate a borrower's race or ethnicity by visually observing the borrower or by their surname. This targets a data-collection method regulators proposed for fair-lending enforcement — guessing a borrower's race when the borrower does not self-identify — which civil-rights enforcers use to spot discrimination in lending, but which critics say amounts to profiling and invades applicants' privacy.",
-  "who_benefits": "Lenders, including banks and small business lenders, gain by avoiding a federal requirement to visually categorize applicants — an administrative and reputational burden. Borrowers also gain a privacy protection: no lender employee would be required to record a guess about their race or ethnicity without their say-so.",
-  "who_benefits_short": "Lenders and loan applicants",
+  "one_liner": "Bars federal agencies from requiring lenders to guess a borrower's race from appearance or surname.",
+  "headline": "The bill was introduced in March 2023, referred to the House Financial Services Committee, and never received a vote before the Congress ended.",
+  "direction": "for_concentrated_interests",
+  "plain_summary": "The bill would prohibit any federal agency from requiring a lender, when extending credit, to estimate a borrower's race or ethnicity by visually observing the person or by their surname. Today, when a borrower declines to state their race or ethnicity on a loan application, federal rules let lenders record an estimate based on visual observation or surname; the bill would take that fallback off the table. Supporters framed it as stopping racial profiling at the loan counter; critics of this kind of bill note that those estimates feed the demographic data used to detect lending discrimination. The bill never advanced past its committee referral.",
+  "who_benefits": "Lenders and loan officers benefit most: they would no longer have to make a visual or surname-based guess about an applicant's race when the applicant declines to self-identify, removing an awkward and disputed compliance task. Borrowers who prefer not to have their race noted at all would also be spared that estimate.",
+  "who_benefits_short": "Lenders and their loan officers",
   "how_it_helps": [
    {
-    "text": "Prohibits any federal agency from requiring a person or entity extending credit to estimate a borrower's race or ethnicity via visual observation or surname [S3].",
+    "text": "The bill states flatly that no federal agency may require anyone extending credit to estimate a borrower's race or ethnicity via visual observation or surname.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "text": "Applicants would no longer face the possibility that a lender employee visually profiles them and records a race or ethnicity they never chose to disclose [S2].",
+    "text": "Under current federal practice, lenders that collect demographic data for fair-lending reporting may use visual observation or surname when an applicant declines to provide race or ethnicity; the bill would eliminate that method, which its sponsor characterized as profiling.",
     "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Lenders would be spared a compliance task that would otherwise be imposed by federal regulation [S3].",
-    "sources": [
+     "S1",
      "S3"
     ]
    }
   ],
-  "who_pays": "Fair-lending enforcement would lose one tool: the ability to compare lending outcomes for people whose race is estimated rather than self-reported, which is how regulators and researchers detect discrimination against minority-owned businesses and communities. Federal regulators' data-collection programs would be constrained.",
-  "who_pays_short": "Fair-lending enforcement and regulators",
+  "who_pays": "The cost falls on fair-lending oversight. When borrowers decline to self-identify, forbidding visual or surname estimates leaves gaps in the demographic data that regulators and civil-rights enforcers use to spot patterns of discrimination in mortgage and credit markets. Those gaps would most affect the communities the data is meant to protect.",
+  "who_pays_short": "Fair-lending enforcement and its data",
   "drawbacks": [
    {
-    "text": "The bill blocks a method regulators had considered for completing fair-lending data when applicants do not self-identify; without it, discrimination in small business and consumer lending can be harder to detect and prove, particularly for minority-owned businesses [S2].",
+    "text": "Demographic data collected under federal fair-lending rules is what lets regulators and researchers detect discrimination in lending; removing the visual-observation and surname fallback when applicants decline to self-identify would make that data less complete and discrimination harder to demonstrate.",
     "sources": [
-     "S2"
+     "S1"
     ]
    },
    {
-    "text": "The bill is narrow: it does not change what lenders may or may not do in deciding loans, and does not itself address lending discrimination — it only removes one federal data-collection requirement [S3].",
+    "text": "The bill is a single provision with no replacement mechanism, so agencies would have no alternative way to fill in missing demographic data when borrowers choose not to answer.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The bill offers a genuine privacy and anti-profiling protection for applicants, but it is a narrow measure whose main practical effect is to relieve lenders of a data-collection duty. The cost — a weaker ability to document lending discrimination through borrower data — falls on enforcement efforts that minority borrowers and communities rely on. Both sides of the ledger are modest.",
+  "benefit_vs_cost": "There is a real point on the supporters' side: asking a loan officer to judge an applicant's race by looking at them is uncomfortable and can feel like profiling, and borrowers who decline to self-identify arguably should have that choice respected. The cost is that the fallback estimates are part of how fair-lending data gets built, and the bill offers no substitute, so discrimination that shows up in demographic patterns would be harder to catch. On balance, a narrow convenience for lenders comes at the expense of the enforcement record that protects borrowers.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was referred to the House Financial Services Committee the day it was introduced and never received a hearing, a markup, or a floor vote before the Congress ended.",
+   "mechanism": "It was referred to the House Financial Services Committee the day it was introduced and died there — no hearing, no markup, no floor vote before the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Representative Roger Williams of Texas introduced the bill on March 27, 2023, joined by Representatives Luetkemeyer and Hill as original cosponsors [S3].",
+     "text": "The bill was introduced on March 27, 2023 by Rep. Roger Williams of Texas, joined by Reps. Blaine Luetkemeyer and French Hill.",
      "sources": [
+      "S1",
       "S3"
      ]
     },
     {
-     "text": "It was referred to the House Committee on Financial Services on the day of introduction, and the complete action history shows no further action of any kind [S5].",
+     "text": "On the same day it was referred to the House Committee on Financial Services.",
      "sources": [
+      "S1",
       "S5"
      ]
     },
     {
-     "text": "The bill drew 2 cosponsors, both Republicans, and never reached the House floor [S4].",
+     "text": "The action history shows no further activity: no hearing, no committee vote, and no floor action before the 118th Congress ended on January 3, 2025.",
      "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "The CRS summary confirms the bill's single provision: prohibiting federal agencies from requiring lenders to estimate race or ethnicity by visual observation or surname [S2].",
-     "sources": [
-      "S2"
+      "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Because the bill died without a vote, federal regulators kept their legal ability to require race and ethnicity data collection from lenders, and lenders did not get the statutory relief the bill offered. Neither side achieved anything; the privacy protection and the enforcement tool both remain exactly as they were."
+   "who_came_out_ahead": "Nothing changed, so the existing fair-lending data rules stayed in place, which is the outcome enforcement advocates preferred. The bill's sponsor and cosponsors lost nothing either, since the requirement they objected to was never the subject of a vote."
   },
-  "who_came_out_ahead_short": "Regulators kept the data-collection tool",
+  "who_came_out_ahead_short": "Status quo held; enforcement rules stayed intact",
   "sides": {
    "for": [
     {
      "name": "Rep. Roger Williams",
-     "role": "U.S. Representative (TX-25); bill sponsor",
+     "role": "Sponsor, H.R. 1817",
      "party": "R",
-     "what_they_did": "Introduced the bill and set its single provision barring agencies from requiring visual or surname-based race estimation in lending.",
+     "what_they_did": "Introduced the bill to bar agencies from requiring visual or surname-based race estimates in lending.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -96,10 +88,10 @@
      ]
     },
     {
-     "name": "Reps. Blaine Luetkemeyer and French Hill",
-     "role": "U.S. Representatives (MO, AR); original cosponsors on the Financial Services Committee",
+     "name": "2 of 224 House Republicans",
+     "role": "Cosponsors (Reps. Blaine Luetkemeyer and French Hill)",
      "party": "R",
-     "what_they_did": "Signed on as original cosponsors when the bill was introduced.",
+     "what_they_did": "Signed on as original cosponsors at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -110,38 +102,27 @@
    ],
    "against": [
     {
-     "name": "Chair of the House Financial Services Committee",
-     "role": "Committee chair with authority to schedule hearings and markups",
-     "party": "R",
-     "what_they_did": "Never scheduled the bill for any committee consideration; after its referral, the bill's action history shows no further steps [S5].",
+     "name": "House Financial Services Committee",
+     "role": "Committee of referral; chair Patrick McHenry (R-NC) never scheduled a hearing or markup",
+     "party": null,
+     "what_they_did": "Held the bill without any hearing, markup, or vote for the rest of the Congress.",
      "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S5"
-     ]
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "There was never a vote, so no roll-call split exists; all three sponsors were Republicans and both cosponsors were Republicans [S4], and no recorded opposition appears in the record — the bill simply died in committee."
+   "party_line_note": "Only Republicans backed the bill — the sponsor plus two cosponsors, all Republicans — and since it never came to a vote, no partisan split was ever recorded."
   },
   "industries": [
    {
-    "industry": "Banks, mortgage lenders, and small business lenders",
+    "industry": "Lenders (banks, mortgage originators, consumer credit providers)",
     "effect": "gains",
     "stance_toward_public": "opposed",
-    "note": "The bill would spare lenders a federal requirement to estimate and record applicants' race or ethnicity — a compliance burden for the industry, but also a data tool used to detect lending discrimination against minority borrowers. The industry's gain would come at the cost of fair-lending enforcement that serves the public [S2][S3].",
+    "note": "If enacted, the bill would spare lenders the task of estimating an applicant's race by appearance or surname when the applicant declines to answer. Its interest runs against the public in this case because those estimates feed the demographic data regulators use to detect lending discrimination, so the lender's relief is the enforcer's blind spot.",
     "sources": [
      "S2",
      "S3"
-    ]
-   },
-   {
-    "industry": "Fair-lending data collection and civil rights monitoring",
-    "effect": "loses",
-    "stance_toward_public": "aligned",
-    "note": "Researchers and enforcers who use borrower demographic data to uncover discrimination in small business and consumer lending would lose one fallback method for completing records when applicants do not self-identify [S2].",
-    "sources": [
-     "S2"
     ]
    }
   ],
@@ -153,7 +134,7 @@
   "scores": {
    "public_stakes": 3,
    "concentrated_stakes": 3,
-   "outcome_against_public": 3,
+   "outcome_against_public": 2,
    "support_mismatch": 2,
    "corruption_relevance": 1,
    "confidence": 0.85

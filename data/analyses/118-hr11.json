@@ -1,202 +1,145 @@
 {
  "bill_id": "118-hr11",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T15:51:10+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:44:25+00:00",
  "record_fetched_at": "2026-09-20T15:40:08+00:00",
  "record_hash": "4aa14b2b3364ca0e",
  "analysis": {
-  "one_liner": "Expands voting access, sets national election standards, and requires disclosure of big political spending.",
-  "headline": "The Freedom to Vote Act never received a committee vote or a floor vote in the 118th Congress, despite 217 Democratic cosponsors.",
+  "one_liner": "Makes it easier to register and vote, requires disclosure of big-money political spending, and limits partisan redistricting.",
+  "headline": "A sweeping voting-rights and campaign-finance bill with 217 Democratic cosponsors was referred to eight House committees and never received a vote before Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would make registering and voting easier nationwide: automatic and same-day registration, online registration, early voting, vote-by-mail, secured drop boxes, and Election Day as a federal holiday. It would set national election-security standards like paper ballots and post-election audits, protect election workers from harassment, ban mid-decade redistricting, and require disclosure of big political spending, including online political ads and anonymous \"dark money\" donations. It would also create an optional small-dollar public funding system for House campaigns.",
-  "who_benefits": "Eligible voters who currently hit barriers: people who move often, work long hours, lack IDs, have disabilities, live far from polling places, or were formerly incarcerated. Election workers gain federal harassment protections. Small donors gain because a matching system amplifies their contributions against big-money campaigns, and all voters gain from disclosure of who funds political ads. States and local election offices gain federal grants to implement the changes.",
-  "who_benefits_short": "Voters facing registration and ballot access barriers",
+  "plain_summary": "This bill would have made it much easier to register and vote: automatic and same-day registration, early voting, vote-by-mail, Election Day as a national holiday, and limits on purging voters from the rolls. It would have required paper ballots and post-election audits, banned redrawing congressional maps mid-decade, created new crimes for interfering with election workers and vote counting, and forced disclosure of large political spending, including online ads and 'dark money' donors. It would also have created an optional public financing system for House candidates built on small donations. The bill never got a vote: it was referred to eight House committees and stayed there until the Congress ended.",
+  "who_benefits": "Voters who face obstacles under current state rules: people who cannot take time off on Election Day (the bill makes it a federal holiday and mandates early and mail voting), voters at risk of being purged, citizens with past felony convictions who regain the vote after serving their sentences, people with disabilities, and voters in states with heavily gerrymandered maps. It also helps small donors and candidates who rely on them, by matching small contributions with public funds and requiring big spenders to disclose who they are.",
+  "who_benefits_short": "Voters, especially those facing access barriers",
   "how_it_helps": [
    {
-    "text": "Automatically registers eligible voters through state motor vehicle agencies unless they decline, and requires online registration, same-day registration, and Internet-based registration updates.",
+    "text": "Requires automatic and same-day voter registration, online registration, early voting, and no-excuse voting by mail with secure drop boxes, so people can register and vote regardless of work schedules or state-specific barriers.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Requires early voting, vote-by-mail, ballot drop boxes, ballot-tracking, and limits on removing voters from the rolls, and makes Election Day a federal public holiday.",
+    "text": "Makes Election Day a federal holiday and restricts removing voters from the rolls, and restores the right to vote to citizens after they finish a felony sentence.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Restores the right to vote in federal elections to citizens who have finished serving a felony sentence, and expands voting access for people with disabilities.",
+    "text": "Requires disclosure of big political spending, expands the ban on foreign money in elections, requires disclaimers on online political ads, and creates an optional small-dollar public funding system for House candidates so candidates can win without wealthy donors.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Bans mid-decade congressional redistricting and sets criteria for drawing districts, and requires post-election audits and paper ballots for federal elections.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Sets election-security standards: voter-verifiable paper ballots, mandatory post-election audits, U.S.-manufactured voting machines, and grants to states for compliant systems.",
+    "text": "Creates new federal crimes for intimidating election workers, interfering with voter registration, and disrupting vote counting or certification.",
     "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Protects election workers and local election administrators: harassment of election workers becomes a federal offense, and administrators get protection from partisan removal.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Requires disclosure of big political money: closes loopholes on foreign-national spending, requires disclaimers and sponsor identification on online political ads, and requires certain tax-exempt organizations to report their large donors.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Creates an optional small-dollar financing program for House candidates with federal matching funds, enhanced support for small donations, and lets candidates use campaign funds for childcare.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Bans mid-decade congressional redistricting and sets criteria for drawing congressional districts, limiting partisan gerrymandering between censuses.",
-    "sources": [
-     "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Taxpayers fund the state implementation grants (the bill authorizes $3 billion for automatic registration in fiscal 2024 plus more in later years) and the small-dollar campaign fund, which is financed by appropriations and by assessments on campaign-finance fines and penalties. States must rework registration, voting, and audit systems to meet federal standards. Large donors, Super PACs, dark-money organizations, and online platforms that run political ads lose the anonymity and freedom from rules they operate under today; platforms also bear compliance costs for ad disclosure.",
-  "who_pays_short": "Taxpayers, large donors, Super PACs, and platforms",
+  "who_pays": "Taxpayers fund the state grants and the optional public financing program for House candidates. State election offices take on new administrative duties. Political advertisers, super PACs, and dark-money groups lose anonymity and some channels of influence, and state legislatures lose the power to set their own registration, voting, and redistricting rules for federal elections.",
+  "who_pays_short": "Taxpayers, states, and big political spenders",
   "drawbacks": [
    {
-    "text": "It is expensive: $3 billion is authorized for fiscal 2024 for automatic registration implementation alone, plus open-ended sums for later years, and a new public campaign-financing program funded by appropriations and assessments on campaign fines.",
+    "text": "The bill would override state election laws on registration, mail voting, early voting, and redistricting, centralizing in Washington decisions that states currently make; opponents argued this exceeds Congress's constitutional role and strips states of control over their own elections.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "It overrides state election rules with national mandates covering registration, early voting, mail ballots, audits, and redistricting, which critics view as a federal takeover of elections that states have historically run; the bill itself relies on the constitutional claim that federal election regulation supersedes inconsistent state rules.",
+    "text": "The alternative campaign funding system for House candidates would use public money to finance campaigns, a recurring objection from taxpayers who oppose subsidizing political campaigns, and the bill authorized $3 billion for state registration systems alone.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "It channels all court challenges to the bill's constitutionality into a single court, the U.S. District Court for the District of Columbia, which concentrates review of a sweeping law in one forum.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Its protections for automatic-registration errors bar prosecution or immigration consequences for people registered by mistake, which opponents could argue weakens accountability; the bill still criminalizes knowing, willful false registration and illegal voting.",
+    "text": "The bill's own terms channel challenges to its constitutionality exclusively through the D.C. federal courts and let any member of Congress intervene, an unusual arrangement designed to protect the law but criticized as forum-shopping.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefits to voters are broad and durable: a national floor for registration and ballot access, hardened election security, and transparency about who pays for political advertising. The costs are real but modest relative to the stakes: several billion dollars in implementation grants and public campaign funds, and a genuine transfer of election rulemaking from states to the federal government that many will oppose on principle. The single-forum judicial review provision is a design choice that invites criticism. On balance, the bill's main trade is taxpayer money and state autonomy for easier voting, safer elections, and disclosed political money.",
+  "benefit_vs_cost": "For ordinary people the bill offers concrete gains: easier registration, more days and ways to vote, protection from purges, safer elections, and disclosure of who funds political ads. The real costs are federalism and money: it overrides state election rules that the bill's opponents defend as appropriate local control, and its public campaign financing and state grants would cost taxpayers billions. An honest supporter would acknowledge that some provisions — like the election-day holiday and mandatory early voting — impose real administrative burdens on small states and local governments, and that nationalizing election rules is a genuine constitutional and political fight, not a technical fix.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The bill sat in eight committees for the rest of the two-year Congress; no committee ever voted on it and the House never voted on it, so it expired when the Congress ended.",
+   "mechanism": "The House leadership referred it to eight committees on the day it was introduced; none of them acted, so the bill died at the end of the Congress without ever coming up for a vote.",
    "narrative": [
     {
-     "text": "Representative John Sarbanes introduced the Freedom to Vote Act on July 18, 2023, joined by Representatives Jeffries, Morelle, and Sewell.",
+     "text": "Representative John Sarbanes introduced the Freedom to Vote Act on July 18, 2023, with 217 Democratic cosponsors — every House Democrat at the time — and no Republican cosponsors.",
      "sources": [
       "S1",
-      "S3",
+      "S4",
       "S5"
      ]
     },
     {
-     "text": "The Speaker referred it to eight committees, with House Administration in the lead, and it was later sent to subcommittees on cybersecurity and on Social Security; that is the last action of any kind in the record.",
+     "text": "The House referred it to eight committees, including House Administration, Judiciary, Oversight, and Ways and Means; the only further actions in the entire 18-month Congress were two routine subcommittee referrals in 2024.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "In its roughly seventeen remaining months, the bill received no markup, no committee vote, and no floor vote in the House.",
+     "text": "No committee held a markup and the House never voted on the bill; it expired when the 118th Congress ended on January 3, 2025.",
      "sources": [
+      "S1",
       "S5"
-     ]
-    },
-    {
-     "text": "The 118th Congress ended on January 3, 2025, and the bill died with it.",
-     "sources": [
-      "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Large donors, Super PACs, and dark-money spenders are better off because the bill died: the current rules letting them spend without disclosure and without small-dollar competition remain in place, as does the ability of state officials to write election rules without federal standards."
+   "who_came_out_ahead": "Large campaign spenders and dark-money organizations, who keep today's rules, plus state officials who prefer that election rules stay in state hands; voters who wanted national registration, mail-voting, and redistricting standards got nothing."
   },
-  "who_came_out_ahead_short": "Big donors and dark-money spenders",
+  "who_came_out_ahead_short": "Big spenders and dark-money groups",
   "sides": {
    "for": [
     {
-     "name": "John Sarbanes",
-     "role": "U.S. Representative (D-MD), bill sponsor",
+     "name": "Rep. John Sarbanes",
+     "role": "Lead sponsor, House",
      "party": "D",
-     "what_they_did": "Introduced the Freedom to Vote Act and assembled the original cosponsorship.",
+     "what_they_did": "Introduced the Freedom to Vote Act in the House on July 18, 2023.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3",
       "S5"
      ]
     },
     {
-     "name": "Hakeem Jeffries",
-     "role": "House Democratic Leader",
+     "name": "217 of 216 House Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Original cosponsor named in the bill's introduction alongside Sarbanes, Morelle, and Sewell.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S3"
-     ]
-    },
-    {
-     "name": "217 House Democrats",
-     "role": "Cosponsors, all Democrats",
-     "party": "D",
-     "what_they_did": "Signed on as cosponsors; no Republican cosponsored the bill.",
+     "what_they_did": "Cosponsored the bill, making it the unified position of the House Democratic caucus.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S4"
      ]
-    },
-    {
-     "name": "Joseph Morelle and Terri Sewell",
-     "role": "U.S. Representatives (D-NY, D-AL), original cosponsors",
-     "party": "D",
-     "what_they_did": "Joined the bill at introduction.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S3"
-     ]
     }
    ],
    "against": [
     {
-     "name": "House Republican committee chairs",
-     "role": "Chairs of the eight committees of referral, led by the Committee on House Administration",
+     "name": "Senate Republicans",
+     "role": "Senate Republican conference",
      "party": "R",
-     "what_they_did": "Never scheduled the bill for a markup or committee vote in any of the eight committees; the action record shows no activity beyond the original referrals and subcommittee assignments.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S5"
-     ]
+     "what_they_did": "As the chamber majority's opposition party with the ability to block election legislation via the 60-vote filibuster threshold, senators of this party had uniformly opposed comparable voting-rights and campaign-finance measures, so companion legislation faced no realistic path even if the House had acted.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
     },
     {
-     "name": "House Republican leadership",
-     "role": "House majority",
-     "party": "R",
-     "what_they_did": "Never brought the bill to the House floor at any point in the 118th Congress; no vote ever occurred.",
+     "name": "House committees (no markup)",
+     "role": "Eight standing committees of the 118th House",
+     "party": null,
+     "what_they_did": "Held the bill without reporting it out; no committee ever advanced it or scheduled consideration.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -205,50 +148,42 @@
     }
    ],
    "party_line": "party_line",
-   "party_line_note": "All 217 cosponsors were Democrats and none were Republicans; with the Republican majority controlling the committees and the floor calendar, the bill never advanced past referral."
+   "party_line_note": "All 217 cosponsors were House Democrats and no Republicans sponsored or cosponsored it, so the bill's support was entirely along party lines."
   },
   "industries": [
    {
-    "industry": "Big-money donors and Super PACs",
+    "industry": "Political advertisers and large campaign donors (including super PACs and foreign-linked spenders)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill treats coordinated spending as a contribution, requires reporting of large campaign disbursements, and creates a small-dollar matching system that competes with big-check fundraising. Its passage would directly reduce the influence of concentrated campaign money.",
+    "note": "Disclosure rules, ad disclaimers, and limits on coordination reduce the ability to spend anonymously and in secret to sway elections; foreign nationals' spending in ballot-measure and online advertising would be banned.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "industry": "Large tax-exempt 'dark money' organizations",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The Spotlight Act would require them to disclose their major donors on tax returns, ending one of the main channels for unattributed political money.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Dark-money nonprofit spenders",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "The Spotlight Act provision would require certain tax-exempt organizations to list their major contributors on their annual returns, ending anonymous political giving through these groups.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "Online platforms and digital political advertisers",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "The Honest Ads provisions would require political ad disclaimers, sponsor-identification notices, and advertiser record-keeping on online platforms, and would extend the foreign-money ban to online political advertising.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "Voting system manufacturers",
-    "effect": "gains",
+    "industry": "State election offices",
+    "effect": "mixed",
     "stance_toward_public": "aligned",
-    "note": "Mandatory voter-verifiable paper ballots and U.S.-manufactured machines would force replacement purchases, and the bill authorizes federal grants to states for compliant paper-ballot systems and security upgrades.",
+    "note": "States would bear the work of implementing automatic registration, audits, and paper ballots, but the bill authorizes billions in federal grants to pay for compliance.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "State election administration",
-    "effect": "entrenched",
+    "industry": "Election technology and voting-machine vendors",
+    "effect": "mixed",
     "stance_toward_public": "aligned",
-    "note": "States keep their role as the operators of elections but gain federal money and permanent federal standards for registration, voting access, audits, and list maintenance; their systems become the funded channel for the new national rules.",
+    "note": "New paper-ballot, audit, and cybersecurity requirements would force system upgrades and purchases, a cost to vendors but new business as well.",
     "sources": [
      "S3"
     ]
@@ -262,10 +197,10 @@
   "scores": {
    "public_stakes": 8,
    "concentrated_stakes": 8,
-   "outcome_against_public": 8,
-   "support_mismatch": 8,
+   "outcome_against_public": 7,
+   "support_mismatch": 7,
    "corruption_relevance": 9,
-   "confidence": 0.9
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

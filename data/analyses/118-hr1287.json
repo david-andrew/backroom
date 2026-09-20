@@ -1,109 +1,117 @@
 {
  "bill_id": "118-hr1287",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:41:21+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:45:18+00:00",
  "record_fetched_at": "2026-09-20T11:35:07+00:00",
  "record_hash": "12cc8d7ba3bdc85f",
  "analysis": {
-  "one_liner": "Requires meatpackers to publicly disclose cattle contracts and buy a minimum share of cattle through open negotiation.",
-  "headline": "The bill never got a vote: after introduction in March 2023 it was sent to the House Agriculture Committee's livestock subcommittee and sat there until the Congress ended in January 2025.",
+  "one_liner": "Forces big beef packers to publish their cattle contracts and buy a minimum share of cattle through open bidding.",
+  "headline": "The bill never received a committee vote or floor action; it sat in the House Agriculture Committee and its livestock subcommittee from March 2023 until the Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would have forced large beef packers to file their standard cattle purchase contracts with the Agriculture Department, which would publish them in a public library so ranchers can see the real terms before signing [S2]. It also would have required the biggest packers — those slaughtering 5% or more of the nation's fed cattle — to buy a set minimum share of cattle through open, negotiated markets rather than closed formula contracts, with fines up to $90,000 per violation for failing to comply [S2]. The aim is to give independent ranchers better price information and bargaining power against a few very large buyers [S2].",
-  "who_benefits": "Independent cattle ranchers and feedlot operators gain the most. Under current practice, a handful of large packers buy most fed cattle through private formula contracts, so ranchers negotiate with little visibility into what terms other sellers are getting. The bill would give them a public catalog of contract types, premiums, and discounts [S2], require 14-day advance reporting of cattle scheduled for slaughter so sellers can time their sales [S3], and force the largest packers to keep buying a minimum share of cattle on open markets where prices are publicly discovered [S2]. Consumers could benefit indirectly if more competitive bidding disciplines beef prices.",
-  "who_benefits_short": "Independent cattle ranchers and feedlot operators",
+  "plain_summary": "The bill would force the largest beef packing companies to file every type of contract they use to buy cattle — including premiums and discounts — into a public library USDA would maintain, with a monthly report on how many cattle are committed under them. It would also divide the country into regions and require those big packers to buy a minimum share of cattle through open, negotiated bidding rather than behind-closed-doors formula contracts, with fines of up to $90,000 per week for violations. The point is to give cattle ranchers better price information and bargaining power in a market dominated by a handful of buyers.",
+  "who_benefits": "Cattle ranchers and feedlot operators who sell to packers. They would see the actual contract terms packers use, and a guaranteed share of sales would happen through open competitive bidding instead of formula prices tied to thin negotiated markets. Consumers benefit indirectly if better price discovery and competition discipline beef prices.",
+  "who_benefits_short": "Cattle ranchers and independent feedlots",
   "how_it_helps": [
    {
-    "text": "Creates a public cattle contract library: packers must file each type of contract they use — duration, premiums, discounts, and delivery commitments — and USDA must publish it in a monthly report available to all producers, so a rancher can see the terms of deals before negotiating one [S2].",
+    "text": "USDA must build and maintain a public library of every type of contract between packers and producers for buying fed cattle, including schedules of premiums and discounts, and publish a monthly report on commitments.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Requires the largest packers (those slaughtering an average of 5% or more of the nation's fed cattle over five years) to purchase a mandatory minimum percentage of cattle through approved pricing mechanisms — negotiated purchases, negotiated grid purchases, stockyards, or open trading platforms — rather than locking everything into private formula contracts [S2].",
+    "text": "USDA must create five to seven regions covering the continental United States and set a mandatory minimum percentage of cattle that covered packers must buy through approved pricing mechanisms — negotiated purchases, negotiated grid purchases, stockyards, or open trading platforms — from producers who are not packers.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Attaches real enforcement: up to $90,000 in civil penalties per violation, with each week of a continuing violation counted as a separate violation [S3].",
+    "text": "A covered packer is defined as any packer that slaughtered 5% or more of the nation's fed cattle on average over the prior five years, so the rules target the largest buyers while smaller regional plants are exempt.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Packers violating the mandatory minimum face civil penalties of up to $90,000 per violation, with each continuing week counted as a separate violation.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Improves market information generally: 14-day advance reporting of slaughter schedules, expedited daily carcass weight reporting, and annual cutout yield reporting give sellers a clearer picture of demand and value [S3].",
+    "text": "The bill also tightens reporting: packers must report cattle scheduled for delivery over the next 14 days by 10 a.m. the following day, USDA must publish expedited daily carcass weights, and cutout yield data at least annually.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "The large beef packing companies that would qualify as covered packers — those slaughtering at least 5% of the nation's fed cattle. They would bear the cost of filing detailed contract information with USDA, shifting a share of purchases from flexible formula contracts to negotiated markets, and potential fines of up to $90,000 per violation per week [S2, S3]. Indirectly, if negotiated bidding raises the prices packers pay for cattle, some of that cost could pass through to consumers in higher beef prices. USDA would also need funding to run the library and reporting systems [S3].",
-  "who_pays_short": "Large beef packing companies",
+  "who_pays": "The largest beef packing companies, which would bear compliance costs for contract disclosure and reporting, would have to shift a share of purchases into negotiated channels, and would face fines for falling short. Some of that cost could be passed along in beef prices.",
+  "who_pays_short": "The largest beef packing companies",
   "drawbacks": [
    {
-    "text": "Forcing packers to buy a minimum share of cattle through negotiated markets reduces the flexibility of formula contracts that both packers and some large feeders use to manage volume and risk, and any added procurement costs could eventually show up in retail beef prices for consumers [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "The mandatory minimums are set by rulemaking, with a floor of the 2020–2021 average share of negotiated purchases in each region and a cap of 50%, so the actual requirements could land at modest levels and be revised every five years in consultation with industry representatives [S3].",
+    "text": "Forcing a set percentage of purchases into negotiated channels limits the flexibility of the formula and contract arrangements that both packers and some producers rely on for predictable volume and delivery, and USDA would have two years of rulemaking discretion to set the regional minimums, with room to get them wrong.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The maximum penalty of $90,000 per violation (counted weekly) is small relative to the revenues of packers large enough to be covered, which could weaken the deterrence the enforcement system depends on [S3].",
+    "text": "Compliance and reporting requirements imposed on packers add costs that could be passed through to consumers in higher beef prices, and the bill authorizes unspecified appropriations to USDA to run the contract library and reporting systems.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "text": "The reporting regime carries administrative costs: packers must file detailed contract data, and USDA must build and maintain the public library and new reports, with appropriations left open-ended [S3].",
+    "text": "The bill's own text acknowledges packers that use negotiated market prices as the basis for formula contracts have incentives to limit participation in price discovery — meaning the effectiveness of the mandate depends on vigorous enforcement rather than the disclosure alone.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "For independent ranchers the upside is concrete: real visibility into contract terms and a guaranteed open-market share of purchases in regions where negotiated trade has thinned out. The costs fall on a handful of very large packers and, potentially, marginally on beef consumers, and the bill's own design softens them — minimums are region-specific, phased through rulemaking with cost-benefit analysis, and allow shortfalls to be remedied in later periods. The weak point is enforcement: a $90,000 weekly cap may not move companies this size. On balance the bill is a modest, targeted fix rather than a sweeping restructuring of the cattle market.",
+  "benefit_vs_cost": "The core of the bill is modest and targeted: publish the contracts, and require the biggest buyers to transact a minimum share in the open. The costs — compliance, rulemaking, some loss of contracting flexibility — are real but limited, and the potential upside for ranchers' bargaining power in a highly concentrated buying market is substantial. The bill leans on USDA discretion and enforcement to work, which is its main design risk.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced in March 2023, sent to the House Agriculture Committee's livestock subcommittee a month later, and never received a markup or a floor vote before the Congress ended in January 2025.",
+   "mechanism": "It was introduced and sent to the House Agriculture Committee, which sent it to its livestock subcommittee, and neither held a hearing, markup, or vote before the Congress ended.",
    "narrative": [
     {
-     "text": "Rep. Randy Feenstra (R-IA) introduced the Cattle Price Discovery and Transparency Act of 2023 on March 1, 2023, with a Democratic and a Republican original cosponsor — Rep. Andy Levin (D-MI) and Rep. Mariannette Miller-Meeks (R-IA) [S1, S3].",
+     "text": "Rep. Randy Feenstra introduced the Cattle Price Discovery and Transparency Act of 2023 on March 1, 2023, with cosponsors named in the bill text.",
      "sources": [
       "S1",
       "S3"
      ]
     },
     {
-     "text": "The bill was referred to the House Committee on Agriculture the day it was introduced, and on April 4, 2023 it was referred again to the Subcommittee on Livestock, Dairy, and Poultry [S5].",
+     "text": "The House referred it to the Committee on Agriculture the same day it was introduced.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "That was the last action of record. The subcommittee and full committee never held a markup, the bill never reached the House floor, and it died when the 118th Congress ended on January 3, 2025 [S1, S5].",
+     "text": "On April 4, 2023, the committee referred it to the Subcommittee on Livestock, Dairy, and Poultry.",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "No further action was taken — no subcommittee vote, no full committee markup, no floor vote — and the bill died when the 118th Congress ended on January 3, 2025.",
      "sources": [
       "S1",
       "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "The largest beef packing companies are better off: with no vote ever taken, they face no public contract library, no mandatory negotiated-purchase minimums, and no penalties, and they keep buying cattle under their existing private formula arrangements."
+   "who_came_out_ahead": "The largest beef packing companies are better off: the contract disclosure requirements and negotiated-purchase minimums that would have applied to them never took effect, and the concentrated buying market they operate in was left unchanged."
   },
   "who_came_out_ahead_short": "The largest beef packing companies",
   "sides": {
    "for": [
     {
      "name": "Rep. Randy Feenstra",
-     "role": "Sponsor; chair of the Agriculture Committee's commodity-related subcommittee structure's member and lead House advocate for cattle price discovery reform",
+     "role": "Sponsor, House Agriculture Committee member",
      "party": "R",
-     "what_they_did": "Introduced the bill and was its only House sponsor throughout the Congress",
+     "what_they_did": "Introduced the bill and pushed for cattle price transparency and mandatory negotiated-purchase minimums.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -113,9 +121,9 @@
     },
     {
      "name": "Rep. Mariannette Miller-Meeks",
-     "role": "Original cosponsor",
+     "role": "House member (IA), original cosponsor",
      "party": "R",
-     "what_they_did": "Signed on as an original cosponsor at introduction",
+     "what_they_did": "Cosponsored the bill as named in the introduced text.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -124,33 +132,23 @@
      ]
     },
     {
-     "name": "Rep. Andy Levin",
-     "role": "Original cosponsor",
+     "name": "1 of 216 House Democrats",
+     "role": "Democratic cosponsor",
      "party": "D",
-     "what_they_did": "Listed as an original cosponsor when the bill was introduced",
+     "what_they_did": "Cosponsored the bill, giving it support from both parties.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
       "S4"
      ]
-    },
-    {
-     "name": "Independent cattle producer groups",
-     "role": "Rancher and feedlot organizations",
-     "party": null,
-     "what_they_did": "Publicly backed mandatory price discovery minimums and cattle contract transparency as core fixes for rancher bargaining power",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
     }
    ],
    "against": [
     {
      "name": "House Agriculture Committee leadership",
-     "role": "Chair and subcommittee leadership, 118th Congress",
+     "role": "Committee with jurisdiction",
      "party": "R",
-     "what_they_did": "Never scheduled a markup or advanced the bill past its subcommittee referral in 21 months",
+     "what_they_did": "Referred the bill to the Subcommittee on Livestock, Dairy, and Poultry and never scheduled a markup or vote on it during the two-year Congress.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -158,58 +156,69 @@
      ]
     },
     {
-     "name": "Major beef packing companies",
-     "role": "The packers large enough to qualify as covered packers (slaughtering 5%+ of national fed cattle)",
+     "name": "Largest beef packing companies",
+     "role": "Covered packers slaughtering 5%+ of the nation's fed cattle",
      "party": null,
-     "what_they_did": "Opposed mandatory negotiated-purchase minimums and expanded contract disclosure, arguing formula contracts are efficient and the mandates are unnecessary government interference in cattle marketing",
+     "what_they_did": "Opposed mandatory price-discovery requirements and contract library legislation targeting the largest packers throughout the cattle-industry policy debate.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
-   "party_line": "unclear",
-   "party_line_note": "No vote was ever taken; the bill's only recorded supporters were its Republican sponsor and two original cosponsors, one Democrat and one Republican."
+   "party_line": "bipartisan",
+   "party_line_note": "The bill had two Republican and one Democratic cosponsor in the House, but it died in committee under Republican control without ever reaching a vote, so no roll call ever showed where the parties stood."
   },
   "industries": [
    {
-    "industry": "Beef packing (large meatpackers)",
+    "industry": "Large beef packers (the firms slaughtering 5% or more of U.S. fed cattle)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The handful of packers slaughtering 5% or more of the nation's fed cattle would have had to file every contract type they use with USDA for public release, buy a minimum share of cattle on open negotiated markets instead of private formula contracts, and face fines up to $90,000 per violation per week [S2, S3]. The bill's covered-packer definition itself reflects how concentrated cattle buying has become [S3]. The bill died before any of this took effect.",
+    "note": "The bill would force them to disclose every contract type they use, route a minimum share of purchases through open bidding, and pay fines up to $90,000 per week for shortfalls. Their interest in keeping the current system runs against ranchers who want transparent, competitive pricing.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Cattle ranching and feeding",
+    "industry": "Independent cattle ranchers and feedlot operators",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Independent ranchers and feedlot operators would have gained a public library of real contract terms and guaranteed negotiated-market volume in their regions, improving the prices they can command. Because these are mostly family-scale businesses selling into a concentrated buyer market, their gain runs alongside better price competition in beef.",
+    "note": "They would gain access to the actual contract terms and premium/discount schedules packers use, plus a guaranteed share of open-market bidding, strengthening their bargaining position on price.",
     "sources": [
-     "S2"
+     "S2",
+     "S3"
     ]
    },
    {
-    "industry": "Agricultural data and market reporting",
+    "industry": "Smaller and regional meat packers",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "As packers below the 5% national slaughter threshold, they are exempt from the mandatory minimums, giving them flexibility their giant competitors would not have.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "industry": "Beef consumers",
     "effect": "mixed",
     "stance_toward_public": "aligned",
-    "note": "USDA's Livestock Mandatory Price Reporting program would have absorbed new duties — running the contract library, 14-day slaughter schedules, expedited carcass weights, and annual cutout yield data — with open-ended appropriations [S3]. More public data, more agency workload.",
+    "note": "Better price discovery and competition among buyers could help restrain beef prices, but compliance costs passed through by packers could work the other way.",
     "sources": [
-     "S3"
+     "S2"
     ]
    }
   ],
   "trajectory": null,
   "categories": [
    "antitrust_and_competition",
-   "consumer_protection_and_finance"
+   "wages_and_labor"
   ],
   "scores": {
    "public_stakes": 6,
    "concentrated_stakes": 8,
-   "outcome_against_public": 7,
-   "support_mismatch": 3,
+   "outcome_against_public": 6,
+   "support_mismatch": 4,
    "corruption_relevance": 2,
    "confidence": 0.85
   }

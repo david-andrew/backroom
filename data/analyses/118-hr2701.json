@@ -1,95 +1,89 @@
 {
  "bill_id": "118-hr2701",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:01:07+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:53:21+00:00",
  "record_fetched_at": "2026-09-20T11:20:50+00:00",
  "record_hash": "091c8a354da42f41",
  "analysis": {
-  "one_liner": "Gives internet users legal rights over their personal data and creates a federal agency to enforce them.",
-  "headline": "The bill never received a hearing or vote: after its introduction it was sent to four House committees, where it sat until the Congress ended.",
+  "one_liner": "Gives Americans enforceable rights to access, correct, delete, and control the personal data companies collect on them.",
+  "headline": "The Online Privacy Act of 2023 died in committee without a single vote: after its April 2023 introduction it sat in four House committees for 21 months with only one cosponsor, until the Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The Online Privacy Act would give people the right to see, correct, download, and delete the personal data companies hold about them, and to demand a human review of decisions made purely by algorithms. It would require companies to get permission before collecting, selling, or using personal data for targeted ads and profiles, ban manipulative consent screens, and outlaw collecting data in ways that discriminate by race, sex, or other protected traits. It would also create a new Digital Privacy Agency to enforce the rules, let state attorneys general and individuals sue violators, and make it a federal crime to post someone's personal information online to threaten or harass them.",
-  "who_benefits": "Everyday internet users gain enforceable rights over their personal information: access, correction, deletion, and portability of their data; consent before companies use their information for behavioral profiling or targeted advertising; notification of data breaches and data-sharing abuses; protection from discriminatory use of data in hiring, housing, credit, and advertising; and a criminal penalty for doxxing. Small businesses are largely exempted, so the burden falls on large data-intensive companies.",
-  "who_benefits_short": "Ordinary internet users",
+  "plain_summary": "The bill would give everyone in the United States legally enforceable rights over their personal data: the right to see what companies hold, correct it, delete it, and take it to a competitor, plus a right to a human review of automated decisions about them. It would require companies to get real consent before collecting or sharing personal information, ban manipulative \"dark pattern\" consent screens and forced arbitration for privacy claims, and ban using personal data to discriminate in jobs, credit, and housing. It would create a new Digital Privacy Agency to enforce the rules, and let state attorneys general and individuals sue violators too.",
+  "who_benefits": "Everyone who uses the internet gains enforceable control over the personal information companies collect, including the contents of their messages. People hit by data-driven discrimination in employment, housing, credit, and insurance get a ban on discriminatory processing, and people targeted by doxxing get a new federal criminal prohibition. Small online businesses get exemptions from most of the individual-rights duties, a nine-month ramp when they grow past the exemption, and the right to reuse approved consent processes, and all users gain because the bill protects their ability to encrypt their messages.",
+  "who_benefits_short": "Everyone who uses the internet",
   "how_it_helps": [
    {
-    "text": "Gives individuals enforceable rights to access, correct, delete, and download the personal information companies hold about them, including what data was collected and which third parties received it [S2][S3].",
+    "text": "Gives individuals rights to access, correct, delete, and port their personal information, and to request human review of decisions made about them by automated systems.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Requires companies to get express consent before collecting, processing, or disclosing personal information, and to obtain separate consent before building behavioral profiles used to personalize content or ads [S2][S3].",
+    "text": "Requires companies to notify people and get consent before using or sharing their personal information in most cases, and bans \"dark patterns\" — design tricks that obscure or subvert a person's ability to understand or refuse a consent request.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Bars companies from using personal data to discriminate by protected class in employment, housing, credit, insurance, health care, and education opportunities [S2][S3].",
+    "text": "Bans processing personal data in ways that discriminate by race, sex, disability, and other protected classes in employment, finance, health care, credit, insurance, housing, and education opportunities.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Creates the Digital Privacy Agency to enforce the law, with penalties enforceable by the agency, state attorneys general, and private individuals, plus whistleblower protections [S2][S3].",
+    "text": "Creates a Digital Privacy Agency to write and enforce the rules, and allows enforcement by the agency, state attorneys general, and individuals in court; the bill also voids predispute arbitration agreements for privacy claims.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Makes it a federal crime, punishable by up to five years in prison, to knowingly publish someone's personal information with intent to threaten, intimidate, harass, or incite violence against them [S3].",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Protects encryption by forbidding companies from preventing users from encrypting their communications or from requiring them to hand over ways to decrypt them [S3].",
+    "text": "Makes it a federal crime, punishable by up to 5 years, to disclose someone's personal information with intent to threaten, intimidate, or harass them (doxxing), and bars companies from blocking or weakening their users' encryption.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Large technology platforms, online advertising companies, and data brokers would bear the cost of compliance: consent systems, deletion and access mechanisms, data minimization, restrictions on selling data and targeted advertising, records of employee access, and a new regulator overseeing them. Some compliance costs could ultimately reach consumers through changes to ad-supported free services.",
-  "who_pays_short": "Big tech platforms and data brokers",
+  "who_pays": "Companies whose business models run on collecting, processing, and selling personal information — advertising-technology firms, data brokers, and large platforms that fund free services with behavioral advertising — would bear compliance costs and lose revenue from targeted advertising. Taxpayers would fund the new Digital Privacy Agency. Companies of all sizes would face the cost of building consent, deletion, and security systems, though firms under 200 employees and $25 million in revenue are exempted from many duties.",
+  "who_pays_short": "Ad-tech firms and data brokers",
   "drawbacks": [
    {
-    "text": "Compliance would be costly and complex for covered companies, requiring new consent systems, access and deletion mechanisms, portability interfaces, and security programs; some of that cost could be passed to consumers through ads or prices [S3].",
+    "text": "Compliance costs fall on companies of every size: even businesses exempt from many duties must still provide notice and consent processes, maintain security policies, and notify users of breaches, and larger firms must build systems for deletion, portability, and public interfaces so users can move their data to competitors.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill creates an entirely new federal agency and moves privacy authority from the FCC, adding government spending and raising concerns about regulatory duplication and overreach [S2][S3].",
+    "text": "The bill creates a private right to sue with a very broad definition of \"privacy harm\" that includes psychological harm such as anxiety and embarrassment, which critics warn could generate substantial litigation against companies, including over practices most consumers would not consider serious.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Requiring affirmative consent for behavioral personalization — the ad-targeting that funds many free online services — could push platforms toward more subscriptions, paywalls, or worse free tiers, a cost that would land partly on users.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Establishing and staffing a new federal agency, the Digital Privacy Agency, with investigation and adjudication powers, would be a permanent addition to federal spending.",
     "sources": [
      "S2",
      "S3"
     ]
-   },
-   {
-    "text": "Restrictions on behavioral personalization and the sale of data would curtail the targeted-advertising model that funds many free online services, and companies could deny service where no non-personalized version is feasible [S3].",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Mandating data portability through public application programming interfaces could create security and engineering risks for platforms and favors companies positioned to exploit competitors' data [S3].",
-    "sources": [
-     "S3"
-    ]
    }
   ],
-  "benefit_vs_cost": "The bill would give ordinary users substantial, enforceable control over their personal data and address real harms like discriminatory ad targeting, doxxing, and opaque algorithmic decisions. The costs fall mainly on large data-intensive companies, with small businesses exempted or given ramp-up time, which limits the economic downside. The most serious legitimate objections are the burden of a new federal agency, the engineering and security demands of mandated data portability, and disruption to ad-supported free services; the bill's breadth makes it genuinely ambitious rather than carefully incremental.",
+  "benefit_vs_cost": "The benefits are real and broadly shared: enforceable data rights, an end to take-it-or-leave-it consent tricks, a ban on data-driven discrimination, and protection for encryption, with enforcement teeth from a dedicated agency, the states, and private lawsuits. The costs are real too — compliance burdens and the loss of ad-targeting revenue that subsidizes free services — but the bill deliberately shields genuinely small businesses with exemptions, a nine-month ramp, and reusable approved consent processes. The sharpest honest objection is the combination of a private right of action with an expansive definition of privacy harm that includes anxiety, which risks turning the statute into a litigation weapon as much as a privacy shield. On balance the design is more protective of ordinary users than of companies, and it died without any of these tradeoffs being tested in debate.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was referred to four House committees on the day it was introduced, none of which ever acted on it, and it died when the Congress ended.",
+   "mechanism": "It was referred to four House committees the day it was introduced; none of them ever held a markup or brought it to a vote, and it expired when the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Rep. Anna Eshoo introduced the Online Privacy Act of 2023 on April 19, 2023, joined by one cosponsor, Rep. Zoe Lofgren [S1][S3][S4].",
+     "text": "Representative Anna Eshoo introduced the Online Privacy Act of 2023 on April 19, 2023, joined by Representative Zoe Lofgren as its only cosponsor.",
      "sources": [
       "S1",
       "S3",
@@ -97,29 +91,35 @@
      ]
     },
     {
-     "text": "The same day, the House referred it to the Energy and Commerce Committee and, in addition, to the Judiciary, House Administration, and Science, Space, and Technology Committees for consideration of provisions in their jurisdiction [S5].",
+     "text": "The same day, the House referred it to four committees — Energy and Commerce, Judiciary, House Administration, and Science, Space, and Technology — which meant any of them could have taken it up.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "No committee hearing, markup, or floor action followed; the bill's action history ends at the referral and it received no vote in either chamber before the 118th Congress ended on January 3, 2025 [S5][S1].",
+     "text": "No committee ever acted: the action history shows no hearings, no markups, no committee vote, and no floor action for the rest of the 118th Congress, which ended January 3, 2025.",
      "sources": [
-      "S5",
-      "S1"
+      "S5"
+     ]
+    },
+    {
+     "text": "The bill therefore never received a vote in either chamber and made no progress beyond its introduction, leaving existing federal privacy law unchanged.",
+     "sources": [
+      "S1",
+      "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Large tech platforms, online advertisers, and data brokers are better off: the restrictions on collecting, selling, and profiling personal data never took effect, and the status quo of largely self-regulated data collection continued."
+   "who_came_out_ahead": "Companies that profit from collecting, processing, and selling personal information — ad-technology firms, data brokers, and ad-funded platforms — came out ahead, because they continue operating under the existing patchwork with no new consent, deletion, or portability obligations and no Digital Privacy Agency looking over their shoulders."
   },
-  "who_came_out_ahead_short": "Tech platforms and data brokers",
+  "who_came_out_ahead_short": "Data brokers and ad-funded tech platforms",
   "sides": {
    "for": [
     {
      "name": "Rep. Anna Eshoo",
-     "role": "U.S. Representative (CA-18); bill sponsor",
+     "role": "U.S. Representative (D-CA); bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the Online Privacy Act of 2023, the most sweeping federal online privacy proposal of the Congress, giving individuals rights over their personal data and creating an enforcement agency.",
+     "what_they_did": "Introduced the Online Privacy Act of 2023 in the House on April 19, 2023.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -129,32 +129,34 @@
     },
     {
      "name": "Rep. Zoe Lofgren",
-     "role": "U.S. Representative (CA-19); cosponsor",
+     "role": "U.S. Representative (D-CA); sole cosponsor",
      "party": "D",
-     "what_they_did": "Cosponsored the bill, the only other member of the House to sign on.",
+     "what_they_did": "Cosponsored the bill at introduction; she was the only cosponsor it ever attracted.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S4",
-      "S3"
+      "S3",
+      "S4"
      ]
     }
    ],
    "against": [
     {
-     "name": "House Energy and Commerce Committee leadership",
-     "role": "Chair of the committee of primary jurisdiction over privacy legislation",
+     "name": "House Energy and Commerce Committee (Chair Cathy McMorris Rodgers)",
+     "role": "Lead committee of referral; never acted",
      "party": "R",
-     "what_they_did": "Never scheduled a hearing or markup of the bill after referral, leaving it to die in committee.",
+     "what_they_did": "Received the referral on April 19, 2023 and never scheduled a markup or committee vote in the remaining 21 months of the Congress.",
      "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
+     "evidence": "record",
+     "sources": [
+      "S5"
+     ]
     },
     {
-     "name": "House Judiciary, House Administration, and Science, Space, and Technology Committees",
-     "role": "Additional committees of referral",
-     "party": null,
-     "what_they_did": "Took no action on the provisions referred to them; the split referral across four committees required any movement to begin in multiple panels at once.",
+     "name": "House Judiciary, House Administration, and Science, Space, and Technology Committees (Chairs Jim Jordan, Bryan Steil, and Frank Lucas)",
+     "role": "Additional committees of referral; never acted",
+     "party": "R",
+     "what_they_did": "Received the referral on April 19, 2023 and took no recorded action on the bill for the rest of the Congress.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -162,25 +164,25 @@
      ]
     }
    ],
-   "party_line": "party_line",
-   "party_line_note": "Both the sponsor and the sole cosponsor were Democrats, and no Republican supported or acted on the bill; it never reached a roll-call vote, so no voting breakdown exists."
+   "party_line": "unclear",
+   "party_line_note": "The bill never drew enough support for a partisan fight to form: its only backing was two Democrats (the sponsor and one cosponsor out of 216 House Democrats), no Republican signed on, and no vote was ever taken in committee or on the floor."
   },
   "industries": [
    {
-    "industry": "Online advertising and data brokers",
+    "industry": "Digital advertising and data brokers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill requires consent before disclosing personal data and restricts disclosing identifiers for advertising purposes, directly cutting into the market for tracking and selling people's data. Its business model depends on the practices the bill restricts, at a cost to users' privacy.",
+    "note": "The bill strikes at the core of their revenue: it requires consent for each category of disclosure, bars selling data without naming the buyer, restricts the identifiers used to link ads across sites and devices, and limits how long data can be kept. These firms profit by trading in information people never knowingly agreed to share, so their interest runs directly against the bill's protections.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Large technology platforms",
-    "effect": "loses",
+    "industry": "Large consumer tech platforms (social media, search, messaging)",
+    "effect": "mixed",
     "stance_toward_public": "opposed",
-    "note": "Platforms would face consent requirements, data minimization, deletion and portability duties, restrictions on profiling, and a dedicated regulator. They profit from collecting and personalizing data that the bill would put under user control.",
+    "note": "Platforms would lose the ability to build behavioral-personalization algorithms without affirmative yearly consent and would face duties to delete data on request and support portability to competitors — cuts into ad-funded business models. At the same time, big firms have the compliance staff to absorb the rules, and the bill lets companies keep transferring data to subsidiaries and affiliates, and to foreign entities under negotiated agreements with the new agency.",
     "sources": [
      "S2",
      "S3"
@@ -188,27 +190,27 @@
    },
    {
     "industry": "Small online businesses",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "Businesses under 200 employees with under $25 million revenue that do not sell data are exempt from most rights and duties, and may adopt larger companies' approved consent processes for free, sparing them compliance costs their bigger competitors would bear.",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "Firms under 200 employees with less than $25 million in revenue that do not sell data or live off targeted ads are exempted from most individual-rights duties, get a nine-month ramp when they outgrow the exemption, and can freely reuse consent processes approved for larger companies. They still face notice-and-consent, security, and breach-notification requirements, so the carve-out softens but does not eliminate their costs.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Privacy and security software providers",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "Mandated privacy-preserving computing, encryption protections, security policies, and breach notification would create demand for tools that help companies comply and protect users' data.",
+    "industry": "Employment, credit, insurance, and housing screening firms",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "These businesses process personal data to decide who gets jobs, credit, insurance, and housing; the bill bans discriminatory processing by protected class and gives people the right to correct inaccurate data and to a human review of automated decisions, directly limiting how these firms operate.",
     "sources": [
+     "S2",
      "S3"
     ]
    }
   ],
   "trajectory": null,
   "categories": [
-   "consumer_protection_and_finance",
-   "other"
+   "consumer_protection_and_finance"
   ],
   "scores": {
    "public_stakes": 7,

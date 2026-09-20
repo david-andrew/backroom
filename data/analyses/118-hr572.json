@@ -1,119 +1,114 @@
 {
  "bill_id": "118-hr572",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:39:12+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:02:30+00:00",
  "record_fetched_at": "2026-09-20T11:34:50+00:00",
  "record_hash": "9f93c853c6b62aef",
  "analysis": {
-  "one_liner": "Lets employers self-report wage violations to the Labor Department, pay back wages, and settle with workers outside of court.",
-  "headline": "The bill never got a vote; it sat in the House Education and Workforce Committee from January 2023 until the Congress ended in January 2025.",
-  "direction": "for_concentrated_interests",
-  "plain_summary": "This bill would bring back the Payroll Audit Independent Determination (PAID) program, a Labor Department program first run as a pilot in 2018. An employer that found it had underpaid workers on minimum wage or overtime could self-audit, report the violation, and pay the back wages owed under a Labor Department-supervised settlement. Workers who accepted the settlement gave up their right to sue for those wages, including liquidated damages, though they could decline and keep their right to sue.",
-  "who_benefits": "Employers that have underpaid workers on minimum wage or overtime. They could resolve violations by paying only the back wages owed, with no extra penalty, no liquidated damages, and no risk of a lawsuit over those violations; their self-audit materials would be shielded from court discovery, and the Labor Department could not use the application against them in an investigation. Some workers would also benefit: they would receive back wages faster than through a lawsuit, and the bill's findings argue the pilot returned more money per hour of enforcement than traditional investigations.",
-  "who_benefits_short": "Employers with wage and hour violations",
+  "one_liner": "Lets employers self-report wage violations, pay back wages to workers, and settle without court.",
+  "headline": "The bill never got a hearing or vote; it sat in the House Education and Workforce Committee from January 2023 until the Congress ended.",
+  "direction": "mixed",
+  "plain_summary": "The bill would recreate a Department of Labor program called PAID. An employer that underpaid workers' minimum wage or overtime could run its own audit, report the violations, and pay workers the unpaid wages under a Labor Department-supervised settlement. Workers who accept get their back pay without going to court, but they give up the right to sue for the extra double damages the law otherwise provides; workers who decline keep their full right to sue. The bill was referred to committee and never moved.",
+  "who_benefits": "Workers owed unpaid minimum wage or overtime who accept a settlement get paid faster and without the cost of a lawsuit. Employers that self-report get certainty: they pay back wages but avoid litigation and the mandatory extra (double) damages a court would add. The bill's own findings cite pilot-program data showing employers' self-audits returned more back wages per case and per enforcement hour than traditional investigations.",
+  "who_benefits_short": "Workers owed unpaid wages, and self-reporting employers",
   "how_it_helps": [
    {
-    "text": "Employers could fix minimum wage and overtime violations by paying back wages through a Labor Department-supervised settlement instead of facing litigation [S2][S3].",
+    "text": "Restores the Payroll Audit Independent Determination program, in which employers submit a self-audit, the Labor Department verifies the calculations of unpaid wages, and the department supervises a settlement paying affected workers.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Workers who accepted a settlement would get their unpaid wages paid in full, and the bill adds retaliation protection for workers who accept or decline a settlement offer [S3].",
+    "text": "Under the pilot program this bill would reestablish, 74 cases between April 2018 and September 2019 paid $4.1 million in back wages to 7,429 employees, with average back wages per case more than four times the average for traditional enforcement.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill's findings cite the 2018 pilot: 74 cases paid $4.1 million in back wages to 7,429 employees, with average back wages per case more than four times the average for traditional compliance actions [S3].",
+    "text": "Workers keep a choice: each affected employee receives a release form explaining the settlement and the right to decline it and preserve the private right to sue.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Workers could decline the settlement and preserve their private right of action in court [S3].",
+    "text": "The bill adds refusing or accepting a settlement offer to the list of actions employers may not retaliate against workers for under the Fair Labor Standards Act.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Workers who accept a settlement. Under the Fair Labor Standards Act, a worker who wins in court can recover liquidated damages equal to the back wages, effectively doubling the award. Under this program, the employer pays only the back wages, and accepting the settlement waives the worker's right to that double recovery and to sue over those violations. Workers whose employer applies and is denied would not be told by the Labor Department that they may have a claim. Employers also bear no fine or penalty beyond the wages they already owed.",
-  "who_pays_short": "Workers settling wage theft claims",
+  "who_pays": "A worker who accepts a settlement collects only the unpaid wages themselves and waives the right to sue for liquidated damages — the extra equal amount a court must add — plus any attorney-fee leverage. If an application is denied, the Labor Department is barred from using the self-audit information in an investigation, from expanding the investigation beyond what the employer reported, from notifying workers of their right to sue, and the submission is shielded from discovery in court without the employer's consent.",
+  "who_pays_short": "Workers settling for single instead of double damages",
   "drawbacks": [
    {
-    "text": "Accepting a settlement waives the worker's right to liquidated damages, which under the Fair Labor Standards Act equal the back wages, so a worker could receive roughly half of what a court judgment might provide [S3].",
+    "text": "Accepting a settlement waives the worker's right to recover liquidated damages — an equal amount on top of back wages that federal law otherwise requires courts to award — so settled workers recover about half of what a successful lawsuit would pay.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The employer defines the scope of the violations: the Labor Department may not expand the investigation or settlement beyond what the employer identified in its own self-audit [S3].",
+    "text": "If the department rejects an employer's application, it may not use the self-audit in any investigation, may not look beyond the violations the employer chose to report, and may not even tell affected workers they have a right to sue over the wage practices at issue.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "If an application is denied, the Labor Department may not use the application information in an investigation, may not tell affected employees of their private right of action, and self-audit materials are exempt from court discovery without the employer's consent [S3].",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "No penalty attaches beyond paying the wages owed, which critics of self-audit programs generally argue weakens the deterrent against wage theft; the bill's own text contains no fines for the violation itself [S3].",
+    "text": "Anything the employer submits to the program is exempt from discovery in federal or state court proceedings unless the employer consents, keeping the paper trail of an admitted violation out of workers' later lawsuits.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The bill does deliver something real: a faster path to back pay for some workers and a compliance-help channel for employers, with a genuine choice for workers to decline and sue. But the core trade favors employers. The program strips out liquidated damages and penalties, lets the employer define the scope of its own violations, and keeps the self-audit hidden from courts and, in denied cases, from the workers themselves. On balance it reads as a liability-reduction mechanism for employers with a worker-payback attached, rather than the reverse.",
+  "benefit_vs_cost": "The program does put money in workers' pockets in cases that traditional enforcement might never reach — the pilot data in the bill's own findings support that. But it does so at a discount: settled workers give up double damages, and the surrounding rules (confidential self-audits, no scope expansion, no notice to workers on denial) tilt the process toward the employer. Whether it is a net gain for workers depends on how many violations the program surfaces that enforcement would otherwise miss.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced and referred to the House Education and Workforce Committee, which never held a markup or brought it to the floor, and it died when the Congress ended.",
+   "mechanism": "It was referred to the House Education and Workforce Committee the day it was introduced and no hearing, markup, or vote ever followed before the Congress ended.",
    "narrative": [
     {
-     "text": "Rep. Elise Stefanik introduced the bill on January 26, 2023, and it was referred to the House Committee on Education and the Workforce [S1][S5].",
+     "text": "Representative Elise Stefanik introduced the bill on January 26, 2023, and it was referred the same day to the House Committee on Education and the Workforce.",
      "sources": [
       "S1",
       "S5"
      ]
     },
     {
-     "text": "Eleven Republicans cosponsored the bill; no Democrat did [S4].",
+     "text": "Eleven House Republicans cosponsored the bill; no Democrat did.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The action history shows no further steps after the referral — no hearing, no markup, no floor vote — through the end of the 118th Congress [S5].",
+     "text": "The action history shows no further action of any kind — no hearing, no markup, no floor vote — through the end of the 118th Congress.",
      "sources": [
       "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Workers with unpaid wage claims are no worse off and keep full court remedies, including liquidated damages; employers who would have used the program to settle cheaply gained nothing."
+   "who_came_out_ahead": "Workers keep the status quo: the full right to sue for back wages plus mandatory double damages, which the bill would have waived in program settlements. Employers' exposure is unchanged too, since no program was created."
   },
-  "who_came_out_ahead_short": "Workers, who kept full court remedies",
+  "who_came_out_ahead_short": "Workers keeping full double-damages rights",
   "sides": {
    "for": [
     {
      "name": "Rep. Elise Stefanik",
-     "role": "Sponsor",
+     "role": "U.S. Representative (NY-21), bill sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill to reestablish the PAID program and recruited eight original Republican cosponsors.",
+     "what_they_did": "Introduced the bill and recruited 11 Republican cosponsors.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3"
+      "S4",
+      "S5"
      ]
     },
     {
-     "name": "11 House Republicans",
+     "name": "11 of 224 House Republicans",
      "role": "Cosponsors",
      "party": "R",
-     "what_they_did": "Cosponsored the bill after introduction.",
+     "what_they_did": "Cosponsored the bill after its introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -123,24 +118,26 @@
    ],
    "against": [
     {
-     "name": "House Committee on Education and the Workforce",
-     "role": "Committee of referral (chaired by Rep. Virginia Foxx, R-NC)",
-     "party": null,
-     "what_they_did": "Took no action on the bill after referral — no hearing or markup was held, and the bill never reached the House floor.",
+     "name": "Chair, House Education and Workforce Committee",
+     "role": "Committee chair with control of the committee calendar",
+     "party": "R",
+     "what_they_did": "Never scheduled a hearing or markup; the bill sat in committee with no action for the rest of the Congress.",
      "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
+     "evidence": "record",
+     "sources": [
+      "S5"
+     ]
     }
    ],
-   "party_line": "mostly_party_line",
-   "party_line_note": "The sponsor and all 11 cosponsors were Republicans, with no Democratic support recorded; the bill stalled in a Republican-chaired committee and never came to a vote."
+   "party_line": "party_line",
+   "party_line_note": "All 12 named supporters were House Republicans and no Democrat signed on; the bill never reached a floor vote, so no roll call exists."
   },
   "industries": [
    {
-    "industry": "Employers with wage and hour violations (restaurants, retail, staffing, and other low-wage industries)",
+    "industry": "Employers with wage-and-hour violations (restaurants, retail, staffing, care work)",
     "effect": "gains",
     "stance_toward_public": "opposed",
-    "note": "The bill would let them resolve minimum wage and overtime violations by paying only the back wages owed, with no liquidated damages, penalty, or litigation risk, and shield the self-audit from discovery. The cost of wage theft to workers — who would forgo the double recovery a court can order — is the flip side of the employer's gain.",
+    "note": "The program would let a violating employer pay back wages while escaping the mandatory double damages and litigation costs of the normal process, and would shield its self-audit from court discovery and from use in future investigations. Workers gain faster payment, but only by giving up the extra damages the law otherwise guarantees.",
     "sources": [
      "S3"
     ]
@@ -148,8 +145,8 @@
    {
     "industry": "Wage-and-hour plaintiffs' attorneys",
     "effect": "loses",
-    "stance_toward_public": "aligned",
-    "note": "Employer settlements outside court, with claims waived on acceptance, would reduce the supply of FLSA cases that fund private enforcement of wage law. The bill's emphasis on avoiding litigation reflects that shift.",
+    "stance_toward_public": "mixed",
+    "note": "Settling violations through the program instead of litigation would reduce FLSA lawsuits and the fee awards that come with them. Workers who settle give up less than they could win in court, so the bars' loss and workers' recovery are partly at odds.",
     "sources": [
      "S3"
     ]
@@ -157,14 +154,13 @@
   ],
   "trajectory": null,
   "categories": [
-   "wages_and_labor",
-   "consumer_protection_and_finance"
+   "wages_and_labor"
   ],
   "scores": {
-   "public_stakes": 6,
+   "public_stakes": 5,
    "concentrated_stakes": 6,
-   "outcome_against_public": 1,
-   "support_mismatch": 3,
+   "outcome_against_public": 3,
+   "support_mismatch": 2,
    "corruption_relevance": 1,
    "confidence": 0.85
   }

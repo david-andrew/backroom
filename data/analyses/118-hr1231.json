@@ -1,108 +1,111 @@
 {
  "bill_id": "118-hr1231",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T11:59:52+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:45:14+00:00",
  "record_fetched_at": "2026-09-20T11:20:32+00:00",
  "record_hash": "a6e20171be811d40",
  "analysis": {
-  "one_liner": "Narrows the legal immunity that shields social media platforms from lawsuits over third-party content.",
-  "headline": "The bill never got a vote: it sat in the House Energy and Commerce Committee from referral in February 2023 until the Congress ended in January 2025.",
+  "one_liner": "Limits the legal shield protecting internet platforms from lawsuits over user-generated content.",
+  "headline": "The SAFE TECH Act never got a hearing or a vote; it sat in the House Energy and Commerce Committee until the 118th Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "Section 230 of the Communications Act gives websites and social media platforms broad immunity from lawsuits over what other people post. This bill would punch holes in that shield: platforms could be sued over paid content or content they helped create, victims of online stalking and harassment, discrimination, and wrongful death could sue, courts could order platforms to remove harmful material, and platforms would have to prove in court that the immunity applies to them. It was introduced by Rep. Kathy Castor with two Democratic cosponsors and never left committee.",
-  "who_benefits": "People harmed online — targets of stalking, harassment, and intimidation; people facing discriminatory conduct on platforms; victims of scams in paid content; civil rights plaintiffs; antitrust enforcers; and families pursuing wrongful death claims — would gain the ability to hold platforms accountable in court.",
+  "plain_summary": "The bill narrows Section 230, the 1996 law that shields websites and social media platforms from lawsuits over content their users post. Under the bill, platforms could be sued in civil rights, antitrust, stalking and harassment, international human rights, and wrongful death cases, and could not claim the shield for paid or platform-funded speech. A platform sued over user content would have to prove in court that the shield actually applies, and courts could order platforms to remove material likely to cause irreparable harm. The bill was referred to committee on the day it was introduced and never moved again.",
+  "who_benefits": "People harmed by content platforms carry or amplify: victims of online harassment and stalking, users facing discriminatory practices (for example, in housing or job ads), competitors claiming anticompetitive conduct, and families bringing wrongful death suits tied to online content. Consumer and civil rights plaintiffs generally regain a path to court that current law largely closes.",
   "who_benefits_short": "Victims of online harassment and discrimination",
   "how_it_helps": [
    {
-    "text": "The bill would remove immunity where a platform 'accepted payment to make the speech available' or created or funded the content, opening paid advertising, sponsored content, and platform-produced material to ordinary liability [S2] [S3].",
+    "text": "Removes platform immunity in civil rights, antitrust, stalking, harassment, and wrongful death cases, letting victims and consumers sue over discriminatory or harmful conduct that current law blocks [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "It would expressly exempt civil rights, antitrust, stalking and harassment, international human rights, and wrongful death claims from the Section 230 shield, allowing victims to sue [S2] [S3].",
+    "text": "Strips the shield when a platform accepts payment to make speech available or creates or funds the speech itself, ending immunity for advertising-driven distribution of harmful content [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "It would let courts issue injunctions ordering platforms to remove or restrict material likely to cause irreparable harm, while protecting platforms from liability for complying with such orders [S2] [S3].",
+    "text": "Requires a platform being sued to prove, as an affirmative defense, that its immunity applies — currently it can often win dismissal without that burden [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "It would make Section 230 an affirmative defense the defendant must prove, shifting the burden from plaintiffs to platforms [S2] [S3].",
+    "text": "Lets courts order a platform to remove or restrict material likely to cause irreparable harm, while protecting the platform from liability for complying with such an order [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Internet platforms and social media companies would bear more lawsuits, litigation costs, and court-ordered content removals; some of those costs would likely be passed to users through tighter moderation and fewer services.",
-  "who_pays_short": "Social media and internet platforms",
+  "who_pays": "Large online platforms — social networks, video sites, marketplaces, and ad-supported services — would face more lawsuits, higher legal defense costs, and more pressure to remove content preemptively. Litigation costs and compliance risk would fall hardest on platforms with the most user content, though any site hosting user speech would be exposed.",
+  "who_pays_short": "Large social media and internet platforms",
   "drawbacks": [
    {
-    "text": "Narrowing Section 230 could push platforms to remove far more material, including lawful and valuable speech, rather than risk litigation — the core criticism that shaped Section 230's original design. The bill's expansion of liability for paid content would also reach advertising-funded services broadly [S2] [S3].",
+    "text": "The bill makes the platform's immunity an affirmative defense it must prove in court [S3], which would push more cases past the early dismissal stage; even weak lawsuits would become costlier to defend, and platforms could respond by removing more legal speech to avoid suits.",
     "sources": [
-     "S2",
      "S3"
     ]
    },
    {
-    "text": "Defendants would bear the burden of proving the immunity applies, raising the cost of defending even strong cases and potentially deterring small platforms and startups that cannot absorb litigation [S2] [S3].",
+    "text": "The exception for speech the platform was paid to carry [S3] reaches far beyond targeted ads — it could strip protection from any monetized hosting, creating litigation exposure for a wide range of websites, not just the largest ones.",
     "sources": [
-     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Plaintiffs could seek injunctions to force removal of material 'likely to cause irreparable harm' [S3], a standard that gives courts significant discretion over online speech and raises concerns about pressure on platforms to take down controversial but lawful content.",
+    "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The bill offers real recourse to people the current law often leaves without remedy — harassment victims, discrimination plaintiffs, and scam targets — and its injunction carve-out is designed to protect platforms that comply with court orders. The trade-off is genuine: broader liability tends to produce aggressive over-removal of user speech and heavier compliance costs that weigh hardest on smaller platforms. Whether the courts could handle the resulting litigation without chilling legitimate online speech is the honest objection to the design.",
+  "benefit_vs_cost": "For victims of online harassment, discriminatory ad targeting, and other platform-enabled harms, current Section 230 law often means there is no lawsuit at all, so regaining access to court is a real and meaningful benefit. The cost is real too: more litigation against platforms, some of it meritless, and likely more aggressive content removal by companies trying to stay out of court. How the courts would apply the new carve-outs is genuinely uncertain. The bill is a targeted rework rather than a wholesale repeal, but it would substantially change the legal position of every site that hosts user content.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was referred to the House Energy and Commerce Committee and its Innovation, Data, and Commerce Subcommittee in early 2023, and the committee never took it up before the 118th Congress ended on January 3, 2025.",
+   "mechanism": "The bill was referred to the House Energy and Commerce Committee the day it was introduced, sent to a subcommittee ten days later, and never received a hearing, markup, or vote before the Congress ended.",
    "narrative": [
     {
-     "text": "Rep. Kathy Castor (D-FL) introduced the SAFE TECH Act on February 28, 2023, with Rep. Andy Levin, and it was referred to the House Committee on Energy and Commerce [S1] [S3] [S5].",
+     "text": "Rep. Kathy Castor introduced the SAFE TECH Act on February 28, 2023, to narrow Section 230's liability shield for internet platforms [S1][S3].",
      "sources": [
       "S1",
-      "S3",
-      "S5"
+      "S3"
      ]
     },
     {
-     "text": "Two Democratic cosponsors joined the bill; no Republican cosponsored [S4].",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "On March 10, 2023, it was referred to the Subcommittee on Innovation, Data, and Commerce, where it remained; there is no record of a markup, hearing action, or floor vote [S5].",
+     "text": "The bill was referred to the House Committee on Energy and Commerce the same day [S5].",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "The bill's only action for the remainder of the 118th Congress was that subcommittee referral — it died at the end of the Congress on January 3, 2025 [S1] [S5].",
+     "text": "On March 10, 2023, it was referred to the Subcommittee on Innovation, Data, and Commerce, where it stayed [S5].",
      "sources": [
-      "S1",
+      "S5"
+     ]
+    },
+    {
+     "text": "The bill drew two cosponsors, both Democrats, and never advanced out of committee; the full action history shows no hearing, no markup, and no floor vote before the 118th Congress ended on January 3, 2025 [S4][S5].",
+     "sources": [
+      "S4",
       "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Internet platforms are better off: they keep the broad Section 230 immunity intact, while harassment victims, discrimination plaintiffs, and people scammed through paid content remain without a path to sue. Supporters of stronger platform accountability gained nothing."
+   "who_came_out_ahead": "Large internet platforms — social networks, video services, and ad-supported sites — keep the broad legal immunity the bill would have narrowed, and no victims of online harassment or discrimination gained a new path to court."
   },
-  "who_came_out_ahead_short": "Internet platforms keeping their legal shield",
+  "who_came_out_ahead_short": "Large social media and internet platforms",
   "sides": {
    "for": [
     {
      "name": "Rep. Kathy Castor",
-     "role": "Sponsor (D-FL)",
+     "role": "Sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill to narrow Section 230's platform immunity for civil rights, victims' rights, and consumer protections.",
+     "what_they_did": "Introduced the bill to narrow Section 230 platform immunity [S1][S3].",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -111,14 +114,13 @@
      ]
     },
     {
-     "name": "Rep. Andy Levin",
-     "role": "Original cosponsor (D-MI)",
+     "name": "Rep. Mike Levin",
+     "role": "Original cosponsor",
      "party": "D",
-     "what_they_did": "Joined as an original cosponsor at introduction.",
+     "what_they_did": "Cosponsored the bill [S4].",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
       "S4"
      ]
     }
@@ -126,68 +128,36 @@
    "against": [
     {
      "name": "House Energy and Commerce Committee",
-     "role": "Committee of referral (118th Congress)",
+     "role": "Committee of referral",
      "party": null,
-     "what_they_did": "Never scheduled a markup or advanced the bill out of committee in nearly two years.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
-      "S5"
-     ]
-    },
-    {
-     "name": "Subcommittee on Innovation, Data, and Commerce",
-     "role": "Subcommittee of referral",
-     "party": null,
-     "what_they_did": "Received the referral on March 10, 2023 and took no further action on record.",
+     "what_they_did": "Referred the bill to the Subcommittee on Innovation, Data, and Commerce and never scheduled a hearing or markup; the bill died in committee [S5].",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S5"
      ]
-    },
-    {
-     "name": "Rep. Cathy McMorris Rodgers",
-     "role": "Chair, House Energy and Commerce Committee",
-     "party": "R",
-     "what_they_did": "As committee chair during the 118th Congress, never brought the bill to a markup or floor consideration.",
-     "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "No vote was ever taken; the only recorded support came from three House Democrats, and the committee that controlled the bill's fate was under Republican leadership, so the partisan shape can only be inferred from the absence of Republican cosponsors."
+   "party_line_note": "Only three Democrats were ever attached to the bill and no Republican cosponsored it; since it never reached a vote, no actual support or opposition split was recorded [S4][S5]."
   },
   "industries": [
    {
     "industry": "Social media and internet platforms",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would strip away much of the Section 230 immunity that protects platforms from lawsuits over third-party content, exposing them to civil rights, antitrust, harassment, and wrongful death suits and court-ordered takedowns. Platforms' interest in preserving that shield runs against users seeking recourse for harms suffered online.",
+    "note": "The bill would strip their Section 230 immunity in civil rights, harassment, antitrust, and wrongful death cases and for paid or funded speech [S2][S3], exposing them to suits they currently avoid. Their interest in keeping the shield runs against victims seeking recourse [S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Advertising-funded online services and ad tech",
+    "industry": "Online advertising services",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The carve-out for content a platform is 'paid to make available' would pull most paid advertising and sponsored content out from under the immunity shield, expanding litigation exposure across the ad-supported internet.",
+    "note": "The bill removes immunity for speech a platform was paid to make available [S3], which targets ad-funded distribution, including targeted ads that have been used to discriminate in housing and employment.",
     "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "industry": "Small platforms and online startups",
-    "effect": "loses",
-    "stance_toward_public": "mixed",
-    "note": "Making Section 230 an affirmative defense the platform must prove would raise litigation costs that fall hardest on small businesses without large legal departments.",
-    "sources": [
-     "S2",
      "S3"
     ]
    }
@@ -195,15 +165,14 @@
   "trajectory": null,
   "categories": [
    "consumer_protection_and_finance",
-   "corruption_and_ethics",
    "other"
   ],
   "scores": {
-   "public_stakes": 6,
+   "public_stakes": 5,
    "concentrated_stakes": 8,
-   "outcome_against_public": 8,
+   "outcome_against_public": 6,
    "support_mismatch": 2,
-   "corruption_relevance": 2,
+   "corruption_relevance": 1,
    "confidence": 0.9
   }
  },

@@ -1,107 +1,95 @@
 {
  "bill_id": "118-hr9223",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:04:55+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:20:01+00:00",
  "record_fetched_at": "2026-09-20T11:22:48+00:00",
  "record_hash": "d4fac10aa89b3622",
  "analysis": {
-  "one_liner": "Bans bankruptcy courts from wiping out lawsuits against companies that never filed for bankruptcy.",
-  "headline": "The bill never received a committee vote or floor action before the 118th Congress ended in January 2025.",
+  "one_liner": "Bars bankruptcy courts from erasing lawsuits against companies and owners who never filed for bankruptcy.",
+  "headline": "Introduced on July 30, 2024 with 6 cosponsors, the bill was referred to the House Judiciary Committee and received no further action before the 118th Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "In recent years, large corporations facing thousands of injury and liability lawsuits have filed for bankruptcy and persuaded the court to also wipe out — or permanently block — claims against related companies, like a parent or sister company, that never went bankrupt themselves. This bill would amend federal bankruptcy law to stop courts from releasing or enjoining the liability of any company other than the one that actually filed for bankruptcy, except with that company's clear, written consent. It would also cap temporary shields against lawsuits at 90 days, let claimants immediately appeal such shields, and let courts dismiss bankruptcy cases where a company deliberately split its assets from its liabilities before filing.",
-  "who_benefits": "Ordinary people with legal claims against large companies — injury victims, asbestos and product-liability claimants, workers, and consumers — would keep their right to sue the companies actually responsible, even after one part of a corporate family files for bankruptcy. Creditors who might otherwise be shortchanged by a corporate restructuring designed to park liabilities in a shell would also gain a stronger remedy, since courts could dismiss cases involving such asset-liability splits.",
-  "who_benefits_short": "Injury victims and creditors",
+  "plain_summary": "In big corporate bankruptcies, courts sometimes wipe out lawsuits that ordinary people hold against a company's owners or affiliates, even though those parties never filed for bankruptcy themselves. This bill would ban that practice unless the person holding the claim agrees in writing, limit temporary holds on those lawsuits to 90 days, and let judges throw out bankruptcies engineered to move assets away from liabilities. It died in committee without ever getting a hearing or vote.",
+  "who_benefits": "People and businesses holding legal claims that bankruptcy plans routinely extinguish — victims of defective products, opioid cases, financial misconduct, and other corporate wrongdoing. Their right to sue the people actually responsible would be protected, and they could not be punished or rewarded for refusing to go along with a release.",
+  "who_benefits_short": "Tort claimants and injury victims",
   "how_it_helps": [
    {
-    "text": "It prohibits bankruptcy courts from discharging or releasing the legal liability of a company that did not file for bankruptcy, so people injured or owed money can keep suing the responsible parties.",
+    "text": "Courts could no longer approve or order the discharge, release, or modification of a non-debtor's liability to someone else unless that person expressly consents in a signed writing — silence or inaction would not count, and a claimant's treatment under a plan could not depend on whether they consented [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It limits temporary injunctions shielding non-bankrupt companies from lawsuits to 90 days unless the claimant expressly consents, ending indefinite legal protection.",
+    "text": "Temporary stays that block claimants from pursuing lawsuits against non-debtors would expire 90 days after the bankruptcy order unless the claimant agrees, and such stays could be appealed immediately [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It gives claimants an immediate right to appeal any order temporarily staying their lawsuit during a bankruptcy.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "It lets courts dismiss a bankruptcy case where the debtor was created or restructured in the previous ten years to separate its assets from its liabilities — the so-called 'Texas two-step' tactic — so a company cannot bury its debts in a hollowed-out shell.",
+    "text": "Courts would have to dismiss a Chapter 11 case if, within the past 10 years, the company was reshaped through a divisional merger that separated its assets from its liabilities and left the liabilities behind — the structure used to move litigation targets into bankruptcy while keeping healthy assets elsewhere [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Large corporations and their affiliates facing mass liability claims would lose a tool they have increasingly used to end lawsuits through bankruptcy: the nondebtor release and the third-party injunction. Companies that have carried out asset-liability splits in the previous ten years would face a new risk that a bankruptcy court dismisses their case.",
-  "who_pays_short": "Corporations facing mass liability lawsuits",
+  "who_pays": "Corporations, their owners, and affiliates facing mass-tort and other lawsuits would lose the ability to obtain court-ordered releases from those claims through a bankruptcy filing, leaving them exposed to litigation and potentially smaller, less coordinated settlements. Restructuring advisers would lose a key product they sell.",
+  "who_pays_short": "Corporate owners facing mass-tort lawsuits",
   "drawbacks": [
    {
-    "text": "Supporters of the current practice argue that some reorganizations are only possible if a bankrupt company can bring along related companies — often a parent or affiliate that agreed to the structure — in a global settlement, and that a hard ban could make some large bankruptcies harder to resolve and reduce the money available to creditors.",
+    "text": "Coordinated bankruptcies can produce larger total payouts than scattered lawsuits: in the Purdue Pharma case, the Sackler family agreed to pay billions in exchange for a release, money that piece-by-piece litigation against their companies might never have recovered. A flat ban removes the tool that made such global settlements possible [S2] (general mechanism, widely reported).",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill restricts courts' flexibility: it bars even a voluntarily negotiated release unless the affected claimant gives express written consent after clear notice, which could slow down settlements that all parties would otherwise accept.",
+    "text": "The bill applies immediately to cases already pending when it takes effect, potentially unwinding restructurers' planning mid-case and adding years of litigation [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The proposed 'Texas two-step' dismissal rule requires a showing of intent or foreseeable effect of splitting assets from liabilities within the prior ten years, which could pull courts into contested factual disputes about ordinary corporate restructurings.",
+    "text": "Defenders of third-party releases argue they are sometimes necessary to complete a reorganization at all, since creditors and other parties may refuse to participate without settling their claims against affiliated parties [S2] (general mechanism).",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit is significant: lawsuits — from asbestos claims to product liability and wage claims — would again be decided against the actual wrongdoers, not erased by a bankruptcy court's order shielding companies that never filed for bankruptcy. The main cost acknowledged by critics of the ban is that some genuinely complicated reorganizations, where a parent company's cooperation is needed to fund a settlement, could become harder to close, potentially reducing recovery for some claimants and raising financing costs for distressed companies. The bill tries to soften this with a 90-day limit on temporary stays, an express-consent exception, and a carve-out for corporate divisions done without intent to shed liabilities, but the core change would end a practice that has become routine in large bankruptcies.",
+  "benefit_vs_cost": "The bill's core purpose — that no one should have their day in court erased without agreeing to it — directly protects people with legitimate claims, and its carve-outs (true consent in writing, no penalty for refusing, 90-day cap on stays) are carefully drawn. The honest trade-off is that some victims may receive less money in total when a coordinated global settlement is blocked and claims are pursued one lawsuit at a time against thinly capitalized entities. Weighing those, the bill's protections for claimants' consent are substantial and its costs fall on parties who created the liability in the first place.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced in the House and referred to the Judiciary Committee, which never acted on it, so the bill died when the Congress ended in January 2025.",
+   "mechanism": "The bill sat in the House Judiciary Committee from the day it was introduced until the Congress ended — no hearing, no markup, no floor vote.",
    "narrative": [
     {
-     "text": "Representative Jerrold Nadler introduced the Nondebtor Release Prohibition Act on July 30, 2024.",
+     "text": "Rep. Jerrold Nadler and five Democratic colleagues introduced the bill on July 30, 2024, and it was referred to the House Committee on the Judiciary [S1][S2][S4].",
      "sources": [
       "S1",
+      "S2",
       "S4"
      ]
     },
     {
-     "text": "It was referred the same day to the House Judiciary Committee, where it stayed with no markup, no vote, and no floor action.",
+     "text": "Six of 216 House Democrats cosponsored the bill; no House Republican did [S3].",
      "sources": [
-      "S1",
-      "S4"
+      "S3"
      ]
     },
     {
-     "text": "The bill was a response to the growing use of bankruptcy by large corporations to get court orders releasing related companies — including parents that never went bankrupt — from legal liability to people harmed by their products.",
-     "sources": [
-      "S2"
-     ]
-    },
-    {
-     "text": "When the 118th Congress ended on January 3, 2025, the bill expired without any action beyond referral.",
+     "text": "The action history shows only introduction and committee referral — no subcommittee action, markup, committee vote, or floor consideration — before the 118th Congress ended on January 3, 2025 [S4].",
      "sources": [
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "Companies that use the bankruptcy system to escape liability to injured people and other creditors kept the existing rules intact, since no restriction on nondebtor releases was enacted."
+   "who_came_out_ahead": "Corporations, their owners, and the restructuring advisers who arrange bankruptcy deals that extinguish lawsuits against non-debtors — the practice the bill would have banned remains available, and the Supreme Court's narrower limits in the Purdue Pharma case do not reach consensual releases or other stay tactics."
   },
-  "who_came_out_ahead_short": "Companies that escape lawsuits via bankruptcy courts",
+  "who_came_out_ahead_short": "Companies and owners facing mass-tort suits",
   "sides": {
    "for": [
     {
      "name": "Rep. Jerrold Nadler",
-     "role": "Sponsor, House Judiciary Committee",
+     "role": "Sponsor; House Judiciary Committee member (Ranking Member of the committee)",
      "party": "D",
-     "what_they_did": "Introduced the bill on July 30, 2024 to ban nonconsensual nondebtor releases in bankruptcy.",
+     "what_they_did": "Introduced the Nondebtor Release Prohibition Act of 2024 and recruited five cosponsors",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -110,10 +98,10 @@
      ]
     },
     {
-     "name": "Reps. Steve Cohen (D-TN), Eleanor Holmes Norton (D-DC), Katie Porter (D-CA), Mark DeSaulnier (D-CA), and Hank Johnson (D-GA)",
-     "role": "Original cosponsors",
+     "name": "6 of 216 House Democrats",
+     "role": "Cosponsors (Reps. Cohen, Norton, Porter, DeSaulnier, and Johnson of Georgia, plus one)",
      "party": "D",
-     "what_they_did": "Joined as original cosponsors at introduction.",
+     "what_they_did": "Cosponsored the bill",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -123,10 +111,10 @@
    ],
    "against": [
     {
-     "name": "House Judiciary Committee",
-     "role": "Committee of referral",
-     "party": null,
-     "what_they_did": "Took no action on the bill after referral — no hearing, markup, or vote — before the Congress ended.",
+     "name": "Rep. Jim Jordan",
+     "role": "Chair, House Judiciary Committee",
+     "party": "R",
+     "what_they_did": "Never scheduled the bill for a hearing or markup after its referral to the committee; the bill's last recorded action is the July 30, 2024 referral",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -134,33 +122,33 @@
      ]
     }
    ],
-   "party_line": "unclear",
-   "party_line_note": "The bill was introduced by six House Democrats and never reached a vote, so no roll-call revealed whether Republicans or additional Democrats would have supported it."
+   "party_line": "mostly_party_line",
+   "party_line_note": "The bill was introduced and cosponsored only by Democrats (sponsor plus 6 of 216 House Democratic cosponsors) and received no recorded Republican support before the committee took no action on it [S1][S3][S4]."
   },
   "industries": [
    {
-    "industry": "Major corporations facing mass-tort and product liability claims (chemical, pharmaceutical, manufacturing, and their parent companies)",
+    "industry": "Bankruptcy restructuring firms and mass-tort defense counsel",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would end the practice of using bankruptcy to obtain court orders wiping out or enjoining lawsuits against non-bankrupt affiliates and parents, leaving them exposed to the full amount of legal claims. This is the concentrated interest that lobbies for the current system's preservation.",
+    "note": "The bill outlaws the non-debtor release and the extended third-party stay, the tools restructuring advisers sell to companies and owners who want mass-tort claims resolved — and cut off — inside a bankruptcy filing. Claimants would keep their right to sue unless they choose to settle [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Corporate restructuring and bankruptcy professionals",
+    "industry": "Private equity firms and parent companies using divisional ('Texas two-step') restructurings",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill narrows the tools restructuring lawyers and financial advisers can offer clients, particularly the 'Texas two-step' divisional merger strategy, reducing demand for this style of high-fee bankruptcy work.",
+    "note": "The bill directs courts to dismiss bankruptcies filed within 10 years of a restructuring that split a company's assets from its liabilities, a strategy used to move litigation targets into bankruptcy while leaving healthy assets protected elsewhere. This removes a key shield for entities trying to ring-fence mass-tort liabilities [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Lenders and distressed-debt investors",
-    "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "Restrictions on nondebtor releases and stays change the expected recovery and risk profile of loans to corporate groups, and some financing that relies on bankruptcy protections could become more expensive or less available.",
+    "industry": "Owners and affiliates of companies facing large tort claims",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "They could no longer obtain court-ordered releases of their personal or affiliate liability without each claimant's express written consent, meaning lawsuits against them survive bankruptcy plans [S2].",
     "sources": [
      "S2"
     ]
@@ -169,16 +157,15 @@
   "trajectory": null,
   "categories": [
    "consumer_protection_and_finance",
-   "social_safety_net",
    "other"
   ],
   "scores": {
-   "public_stakes": 7,
+   "public_stakes": 6,
    "concentrated_stakes": 8,
-   "outcome_against_public": 6,
-   "support_mismatch": 3,
+   "outcome_against_public": 8,
+   "support_mismatch": 4,
    "corruption_relevance": 2,
-   "confidence": 0.85
+   "confidence": 0.8
   }
  },
  "unresolved_citations": []

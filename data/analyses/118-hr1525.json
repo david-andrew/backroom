@@ -1,137 +1,129 @@
 {
  "bill_id": "118-hr1525",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T11:50:05+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:47:12+00:00",
  "record_fetched_at": "2026-09-20T11:10:08+00:00",
  "record_hash": "4d4a429f8d1a646b",
  "analysis": {
-  "one_liner": "Makes federal civil asset forfeiture go through court with higher proof and stops agencies from keeping seized property.",
-  "headline": "A House committee voted 26-0 to advance limits on civil asset forfeiture in June 2023, but the bill never got a floor vote before the Congress ended.",
+  "one_liner": "Raises the bar for the government to keep property it seizes without charging the owner with a crime.",
+  "headline": "A bipartisan House committee voted 26–0 to advance civil asset forfeiture curbs in June 2023, but the bill never got a vote on the House floor before the Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "Under current law, federal agencies can seize cash, cars, and homes through civil asset forfeiture without charging the owner with a crime, and the owner has to prove their property is innocent to get it back. This bill would force every forfeiture through a federal court, raise the government's proof standard from 'preponderance of the evidence' to 'clear and convincing evidence,' provide a lawyer for poor owners whose home is seized, and require a hearing within 14 days when cash is seized on suspicion of 'structuring' bank deposits. It would also stop agencies from keeping the proceeds: forfeited property would go to the Treasury's general fund instead of the Justice Department's forfeiture fund, and the program that lets federal agencies share seizure money with state and local police would be eliminated.",
-  "who_benefits": "Ordinary property owners who have cash, vehicles, or homes seized by federal agencies without being convicted of any crime. Indigent owners facing forfeiture of their primary residence would get appointed counsel. People whose cash is seized over alleged structuring would get a court hearing within 14 days, and the property would be returned unless the court finds probable cause. The changes would also apply to forfeiture cases already pending.",
-  "who_benefits_short": "Owners whose property was seized without charges",
+  "plain_summary": "The bill would make it harder for federal agencies to keep cash, cars, homes, and other property seized through civil asset forfeiture — the process by which the government takes property it suspects is tied to a crime, even if the owner is never charged. It would require courts to oversee every forfeiture, raise the government's proof requirement to \"clear and convincing evidence,\" provide a lawyer to people facing loss of their home, and stop agencies from keeping the proceeds, sending them to the Treasury instead. It also adds protections for people whose cash is seized over alleged \"structuring\" of bank deposits.",
+  "who_benefits": "Property owners who are never charged with a crime but have assets seized, especially low-income people who cannot afford a lawyer, people whose homes are targeted, and people whose cash is seized on suspicion of structuring bank deposits. Ordinary taxpayers also benefit in a small way because forfeiture money would go to the general Treasury fund rather than into law enforcement budgets.",
+  "who_benefits_short": "People whose property is seized",
   "how_it_helps": [
    {
-    "text": "Raises the government's burden of proof in civil forfeiture from a preponderance of the evidence to clear and convincing evidence, and requires the government to show a substantial connection between the property and an offense [S2, S3].",
+    "text": "Requires every federal forfeiture to go through a court rather than letting agencies forfeit property administratively, with no court order of forfeiture allowed except from a federal district court [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Raises the government's burden of proof from 'preponderance of the evidence' to 'clear and convincing evidence' and requires a substantial connection between the property and an actual offense [S2] [S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Ends nonjudicial (administrative) forfeiture: no federal seizing agency could forfeit property on its own, and every forfeiture order would have to come from a United States district court [S2, S3].",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Requires appointed counsel for an indigent owner whose primary residence is subject to a civil forfeiture hearing [S2].",
+    "text": "Requires courts to appoint counsel for an indigent owner whose primary residence faces forfeiture, regardless of whether the owner requests it [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Eliminates statutory authority for equitable sharing and directs forfeiture proceeds into the Treasury general fund instead of the DOJ Assets Forfeiture Fund, removing the financial incentive agencies have to seize property [S2, S3].",
+    "text": "Ends 'equitable sharing' and directs forfeiture proceeds to the Treasury's general fund instead of the DOJ Assets Forfeiture Fund, removing the financial incentive agencies have to seize property [S2] [S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "For cash seized in structuring cases, requires a probable-cause hearing within 14 days of notice and returns the property unless the court finds probable cause, and adds a 'knowingly' requirement to structuring offenses [S2, S3].",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Requires courts to weigh factors like the seriousness of the offense, the property's connection to it, its value, and hardship to the owner before allowing a forfeiture [S2, S3].",
+    "text": "Shortens notice deadlines after a seizure from 60 days to 7, cuts the filing window from 90 days after a claim to 30 days after the seizure, and requires a prompt probable cause hearing for seized cash, which must be returned within 14 days absent probable cause [S2] [S3].",
     "sources": [
      "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Federal law-enforcement agencies, including the Justice Department, which currently draw money and equipment from the DOJ Assets Forfeiture Fund, and state and local police departments that receive 'equitable sharing' payments of federal forfeiture proceeds. Defense counsel appointments for indigent homeowners would add court costs. The strongest objection supporters would have to answer is that the bill weakens a tool used to take proceeds from drug trafficking organizations.",
-  "who_pays_short": "Federal and local law-enforcement agencies",
+  "who_pays": "Federal law enforcement agencies, especially the Department of Justice, would lose a revenue stream: the Assets Forfeiture Fund and sharing arrangements that let state and local police receive a cut of federal forfeitures would be curtailed. Prosecutors argue the higher proof standard and abolition of nonjudicial forfeiture would make it harder to strip assets from drug traffickers and to return proceeds to crime victims.",
+  "who_pays_short": "Federal and local law enforcement budgets",
   "drawbacks": [
    {
-    "text": "Law enforcement argues forfeiture is a key tool for dismantling drug trafficking organizations, and that raising the proof standard, requiring court proceedings, and ending administrative forfeitures would make it harder to strip criminals of illegal proceeds [S2].",
+    "text": "Raising the standard to clear and convincing evidence and banning all nonjudicial forfeiture could make it harder and slower to recover money and property from traffickers and to return it to victims of crime [S2] [S3].",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Sending proceeds to the general Treasury fund removes a funding source that currently pays for some law enforcement operations, which would have to be replaced through appropriations or lost [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Eliminating the DOJ Assets Forfeiture Fund and equitable sharing ends a funding stream that currently pays for some law-enforcement programs and shared grants, shifting costs to regular appropriations [S2, S3].",
+    "text": "Court-appointed counsel and expedited hearings add costs to the federal court system, and the bill does not provide a dedicated funding source for them [S3].",
     "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Appointing counsel for indigent homeowners and running every case through district court adds expenses and time to the forfeiture process [S2, S3].",
-    "sources": [
-     "S2",
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "For property owners the gains are real: they would no longer have to litigate to get back seized property under a low proof standard, and the profit motive behind seizures would be removed. The main cost falls on law enforcement, which loses a revenue stream and a streamlined seizure tool. The bill leaves criminal forfeiture intact, so convicted criminals could still lose property; the changes mainly protect people never charged with a crime. The tradeoff favors owners, though agencies' warnings about slower asset recovery in organized-crime cases are a fair point.",
+  "benefit_vs_cost": "The benefits run to ordinary people: due-process protections against losing homes, cars, and cash without a criminal conviction, and removal of a profit motive that rewards agencies for seizing property. The costs fall on law enforcement budgets and would make some asset-recovery cases harder, a tradeoff defenders of current law consider too steep. On balance the bill addresses a well-documented grievance — people losing property without being charged — while the costs are mostly administrative and budgetary. The obvious design gap is that it raises court costs without funding them.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The House Judiciary Committee voted 26-0 to advance the bill in June 2023, but no further action followed and the bill never reached the House floor before the Congress ended.",
+   "mechanism": "The House Judiciary Committee approved it unanimously in June 2023, but House leadership never brought it up for a floor vote before the Congress ended.",
    "narrative": [
     {
-     "text": "The bill was introduced on March 9, 2023 by Rep. Tim Walberg with original cosponsors from both parties: Reps. Raskin, McClintock, Neguse, Armstrong, and Cardenas [S3, S5].",
+     "text": "Introduced in March 2023 by Rep. Tim Walberg with original cosponsors from both parties, including Jamie Raskin, Tom McClintock, Joe Neguse, Kelly Armstrong, and Tony Cárdenas [S1] [S3].",
      "sources": [
-      "S3",
+      "S1",
+      "S3"
+     ]
+    },
+    {
+     "text": "It drew 18 cosponsors, split evenly between 9 House Democrats and 9 House Republicans [S4].",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "The House Judiciary Committee ordered the bill reported, amended, by a 26–0 vote on June 14, 2023 [S5].",
+     "sources": [
       "S5"
      ]
     },
     {
-     "text": "It was referred to four committees: Judiciary, plus Energy and Commerce, Ways and Means, and Financial Services [S5].",
+     "text": "No further action followed; the bill was never scheduled for a House floor vote and died when the 118th Congress ended on January 3, 2025 [S1] [S5].",
      "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "On June 14, 2023, the House Judiciary Committee held a markup and ordered the bill reported in the nature of a substitute (amended) by a vote of 26-0 [S5].",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "After the committee vote, no further action was taken: the bill was never reported to the floor, never received a House vote, and the 118th Congress ended on January 3, 2025 without either chamber voting on it [S5].",
-     "sources": [
+      "S1",
       "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Federal law-enforcement agencies and state and local police departments that collect forfeiture proceeds under current law; the status quo, where agencies keep what they seize without a conviction, continues."
+   "who_came_out_ahead": "Federal law enforcement agencies keep the current forfeiture system, including the DOJ Assets Forfeiture Fund and equitable sharing payments, and property owners remain subject to the same seizure rules. Members who supported the bill keep a committee vote to point to without ever having to take a recorded floor position that law enforcement groups might oppose."
   },
-  "who_came_out_ahead_short": "Law-enforcement agencies that keep seizure proceeds",
+  "who_came_out_ahead_short": "Agencies that keep forfeiture proceeds",
   "sides": {
    "for": [
     {
-     "name": "Rep. Tim Walberg",
-     "role": "U.S. Representative (MI-05), lead sponsor",
+     "name": "Tim Walberg",
+     "role": "U.S. Representative (R-MI), lead sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill and recruited bipartisan original cosponsors.",
+     "what_they_did": "Introduced the FAIR Act of 2023 in the House.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
-      "S5"
+      "S1",
+      "S3"
      ]
     },
     {
-     "name": "Reps. Jamie Raskin, Tom McClintock, Joe Neguse, Kelly Armstrong, and Tony Cardenas",
-     "role": "Original cosponsors spanning both parties",
+     "name": "Jamie Raskin, Tom McClintock, Joe Neguse, Kelly Armstrong, and Tony Cárdenas",
+     "role": "Original cosponsors in the House, members of both parties",
      "party": "mixed",
-     "what_they_did": "Joined as original cosponsors, giving the bill bipartisan sponsorship.",
+     "what_they_did": "Joined as original cosponsors at introduction, making the bill bipartisan from day one.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -139,10 +131,21 @@
      ]
     },
     {
-     "name": "House Judiciary Committee",
-     "role": "Committee with primary jurisdiction over forfeiture law",
+     "name": "9 of 216 House Democrats and 9 of 224 House Republicans",
+     "role": "Cosponsors",
      "party": null,
-     "what_they_did": "Held a markup on June 14, 2023 and voted 26-0 to order the bill reported amended.",
+     "what_they_did": "Cosponsored the bill, 18 members split evenly across both parties.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "House Judiciary Committee",
+     "role": "Committee of jurisdiction",
+     "party": null,
+     "what_they_did": "Held a markup and voted 26–0 to order the bill reported, amended, on June 14, 2023.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -152,10 +155,10 @@
    ],
    "against": [
     {
-     "name": "House leadership / Office of the Speaker",
-     "role": "Controls which reported bills get floor time",
+     "name": "House Republican leadership",
+     "role": "Speaker and floor schedulers of the 118th Congress",
      "party": "R",
-     "what_they_did": "Never scheduled the bill for a House floor vote after the committee reported it; the action history shows no floor action after June 14, 2023.",
+     "what_they_did": "Never scheduled the bill for a House floor vote after the Judiciary Committee reported it in June 2023.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -163,47 +166,44 @@
      ]
     },
     {
-     "name": "Law-enforcement agencies reliant on forfeiture revenue",
-     "role": "DOJ Assets Forfeiture Fund beneficiaries and state/local police in equitable-sharing programs",
+     "name": "Law enforcement and prosecutors' groups",
+     "role": "National police and district attorney organizations",
      "party": null,
-     "what_they_did": "The bill would have eliminated the funding streams these agencies draw from forfeited property; they are the concentrated interest the status quo protects.",
+     "what_they_did": "Have historically opposed federal civil forfeiture restrictions like the FAIR Act, defending the current evidence standard, administrative forfeiture, and equitable sharing revenue.",
      "direct": false,
-     "evidence": "record",
-     "sources": [
-      "S2",
-      "S3"
-     ]
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "The sponsor was a Republican, the original cosponsors split evenly across both parties, and the Judiciary Committee advanced it 26-0 with no recorded opposition."
+   "party_line_note": "Support was bipartisan at every stage: the six original sponsors split 3–3 between parties, the 18 cosponsors split 9–9, and the Judiciary Committee approved the bill 26–0."
   },
   "industries": [
    {
-    "industry": "Federal law-enforcement agencies (DOJ Assets Forfeiture Fund)",
+    "industry": "Federal law enforcement agencies (DOJ Assets Forfeiture Fund)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill ends these agencies' ability to conduct nonjudicial forfeitures and redirects proceeds from their own fund to the Treasury general fund. Under current law the same agencies that seize property keep the proceeds, which is the financial incentive the bill removes.",
+    "note": "Agencies would lose the ability to forfeit property without a court order, would face a higher proof standard, and could no longer keep or share the proceeds. Because these agencies currently fund themselves partly through what they seize, their financial interest runs directly against property owners' interests.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "State and local police departments receiving equitable-sharing payments",
+    "industry": "State and local police receiving equitable sharing payments",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill eliminates statutory authority for equitable sharing, the program through which local police receive a share of federal forfeiture proceeds. This is the mechanism most criticized for encouraging policing for profit, because local departments can share in federal seizures even when state law would not allow it.",
+    "note": "The bill eliminates statutory authority for equitable sharing, which lets local police partner with federal agencies and receive a share of forfeiture proceeds. Those departments would lose a revenue channel that bypasses state limits on forfeiture.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Courts and court-appointed defense counsel",
+    "industry": "Court-appointed counsel and legal services",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Requiring judicial process for every forfeiture and appointed counsel for indigent homeowners routes more cases through federal courts and expands appointed-representation work. This is a minor effect compared to the bill's core purpose.",
+    "note": "The bill creates a right to appointed counsel in home-forfeiture cases and adds expedited hearings, generating work for defense lawyers and the federal courts.",
     "sources": [
      "S2",
      "S3"
@@ -220,8 +220,8 @@
    "concentrated_stakes": 7,
    "outcome_against_public": 8,
    "support_mismatch": 8,
-   "corruption_relevance": 7,
-   "confidence": 0.9
+   "corruption_relevance": 6,
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

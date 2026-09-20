@@ -1,111 +1,121 @@
 {
  "bill_id": "118-hr14",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T15:49:45+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:46:15+00:00",
  "record_fetched_at": "2026-09-20T15:41:51+00:00",
  "record_hash": "cf85816e38459880",
  "analysis": {
-  "one_liner": "Restores federal pre-approval for states with recent records of voting discrimination before they change election rules.",
-  "headline": "With all 218 cosponsors being Democrats, the bill was referred to the House Judiciary Committee and never received a markup or a floor vote before the 118th Congress ended in January 2025.",
+  "one_liner": "Restores federal pre-approval for voting changes in states with records of discrimination.",
+  "headline": "The bill drew 218 cosponsors — every House Democrat — but never got a hearing, markup, or vote before Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would restore the part of the Voting Rights Act that required certain states to get advance federal approval — from the Justice Department or a federal court — before changing their election rules. It sets a new formula: a state is covered for 10 years if it had enough voting-rights violations in the previous 25 years, and it also requires federal pre-approval for specific changes like stricter voter ID, fewer polling places, and certain redistricting plans in areas with sizable minority populations. It also requires public notice of voting changes and gives the Justice Department new tools to investigate.",
-  "who_benefits": "Voters — especially Black, Latino, Asian American, Native American, and language-minority voters — in states and counties with recent records of voting-rights violations. They would regain a front-end safeguard: election rules that would dilute their vote could be blocked before taking effect, rather than challenged one lawsuit at a time after the fact. Voters everywhere in covered areas would also get new public-notice rights about polling place changes and redistricting.",
-  "who_benefits_short": "Voters in areas with discrimination records",
+  "plain_summary": "This bill would rebuild the part of the Voting Rights Act that the Supreme Court emptied out in 2013: the rule requiring some states and counties to get federal approval before changing their election rules. It sets a new formula — jurisdictions with repeated voting-rights violations over the previous 25 years, or certain fast-changing demographics, must preclear changes like new ID requirements, cut polling places, or redistricting plans. It also requires public notice of voting changes and restores court standards for proving vote dilution.",
+  "who_benefits": "Voters — especially Black, Latino, Asian American, Native, and language-minority voters — in states and counties with recent records of voting discrimination. They would get federal pre-approval screening before restrictive changes took effect, public notice of changes, and clearer court tools to challenge maps and rules that dilute their votes.",
+  "who_benefits_short": "Minority voters in covered states",
   "how_it_helps": [
    {
-    "text": "Creates a new coverage formula so states and counties with 25-year records of voting-rights violations must preclear election changes with the Justice Department or a federal court for 10 years [S2].",
+    "text": "States with 15 or more voting-rights violations in the previous 25 years (or 10 or more, at least one by the state itself, or 3 or more where the state runs the elections) would need Justice Department or court pre-approval for voting changes for 10 years; counties and subdivisions with 3 or more violations would be covered separately.",
     "sources": [
-     "S2"
+     "S2",
+     "S3"
     ]
    },
    {
-    "text": "Requires pre-approval for specific practices, including stricter voter ID or proof-of-citizenship requirements, cuts to polling locations or voting hours, reduced multilingual materials, and certain redistricting changes in jurisdictions where minority groups make up a significant share of the population [S3].",
+    "text": "Even in uncovered states, specific practices would need pre-approval: new or tougher photo ID and proof-of-citizenship rules, cutting or moving polling places or reducing early-voting hours in heavily minority areas, certain redistricting changes, at-large election changes, and reductions in multilingual materials.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Restores the vote-dilution and vote-denial legal standards courts use, and makes it easier for voters to get fast court relief before an election rather than after the ballots are cast [S3].",
+    "text": "States would have to publicly announce voting-rule changes within 48 hours and post polling place resources — locations, machines, and poll workers — before federal elections, so voters are not surprised by last-minute changes.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Requires states and counties to publicly notify voters within 48 hours of changes to voting rules and to disclose polling place resources and demographic data for redistricting changes [S3].",
+    "text": "The bill restores and updates the legal standard for proving vote dilution, lets courts consider a coalition of different minority groups as a protected class, and makes it easier to get early court relief against a voting rule adopted close to an election.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Lets the Justice Department demand documents and written answers from states to investigate voting discrimination before filing suit [S2].",
+    "text": "The Justice Department would gain authority to demand documents and written answers from states during voting-rights investigations, before filing suit.",
     "sources": [
-     "S2"
+     "S2",
+     "S3"
     ]
    }
   ],
-  "who_pays": "States, counties, and other local election authorities — particularly those with records of violations — would bear the cost of federal review before changing election rules, plus new notice and reporting duties. State legislatures and officials would lose the ability to change election laws without federal sign-off. The Justice Department's workload would grow.",
-  "who_pays_short": "State and local election authorities",
+  "who_pays": "State and local election officials in covered jurisdictions, who would bear the cost and delay of submitting changes for federal approval and publishing detailed notices, and any state whose redistricting or election-rule changes would face a federal pre-approval gate.",
+  "who_pays_short": "State and local election officials",
   "drawbacks": [
    {
-    "text": "Federal pre-approval shifts power over election rules from state governments to the Justice Department and a single federal court; critics argue this is an unusual federal intrusion into how states run elections and that a formula keyed to past violations permanently singles out certain states [S3].",
+    "text": "The coverage formula keys off violations accumulated over the previous 25 years rather than current conduct, and in 2013 the Supreme Court struck down the prior formula on just that reasoning — that Congress was treating some states as more suspect than others based on old data — so this design would likely face the same constitutional challenge.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Covered jurisdictions would face real administrative cost and delay: every covered practice — including polling place changes and ID rules — could not be implemented until cleared by the Justice Department or a federal court, and smaller jurisdictions would have to post detailed public notices.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Covered practices cannot take effect until the Justice Department declines to object within 60 days or a court approves them, which can delay election-law changes even when they are ultimately allowed [S3].",
+    "text": "The bill gives the Attorney General broad new power to demand documents and sworn answers from state and local governments before any lawsuit is filed, which opponents view as an oversized federal role in how states run their own elections.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill expands the bases on which a state is deemed 'covered' to include Attorney General objections and settlements — not only final court judgments — which state officials argue can keep a jurisdiction covered based on contested or negotiated outcomes [S3].",
+    "text": "Preclearance decisions run through the Justice Department on a 60-day clock, so the protection's strength would depend heavily on which administration holds that office.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The core benefit is real and large: after the Supreme Court struck down the old coverage formula in 2013, voters could only fight discriminatory election rules through slow, case-by-case lawsuits after the harm occurred, and this bill restores a front-end check targeted at jurisdictions with recent records of violations. The costs are real too — less state control over election administration, federal review delays, and a formula that some states will fairly object to as based on decades-old conduct. On balance the bill is designed to be triggered by documented violations rather than geography alone, which addresses the constitutional problem that sank the old formula, but it would still concentrate significant power over elections in the executive branch.",
+  "benefit_vs_cost": "The core benefit is large: it would put a federal checkpoint in front of election-rule changes in jurisdictions with recent records of discrimination, and require public notice of changes everywhere, which voters can actually use. The costs are real but narrower — administrative burden on election offices and a genuine constitutional risk, since the Supreme Court rejected the last coverage formula for resting on outdated evidence. The strongest honest objection is that Congress wrote the formula to survive that criticism but did not modernize it in a way the Court's current majority is likely to accept, meaning the bill might not survive a legal challenge even if enacted.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced and sent to the House Judiciary Committee on September 19, 2023, and the committee never took it up, so it never came to a vote before the 118th Congress ended.",
+   "mechanism": "It was introduced in September 2023 and referred to the House Judiciary Committee, which never held a markup or sent it to the floor, and it died there when the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "The bill was introduced on September 19, 2023 and referred the same day to the House Committee on the Judiciary [S5].",
+     "text": "Rep. Terri Sewell introduced the John R. Lewis Voting Rights Advancement Act of 2023 in the House on September 19, 2023.",
+     "sources": [
+      "S1",
+      "S5"
+     ]
+    },
+    {
+     "text": "It was referred to the House Committee on the Judiciary the same day, and no further action — no hearing, markup, committee vote, or floor vote — was ever taken.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "No further action — no markup, no committee vote, no floor vote — appears in its action history for the remainder of the 118th Congress [S5].",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "All 218 cosponsors were Democrats, giving the bill support from a numerical majority of the House but no Republican cosponsors [S4].",
+     "text": "The bill ended with 218 cosponsors, all of them House Democrats, and none from the Republican majority that controlled the chamber and its committee schedule.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The 118th Congress ended on January 3, 2025, so the bill died in committee and would need to be reintroduced to advance.",
+     "text": "The bill would restore a preclearance system under which covered states and counties must get Justice Department or court approval before changing voting practices.",
      "sources": [
-      "S1"
+      "S2"
      ]
     }
    ],
-   "who_came_out_ahead": "State legislatures, county election officials, and political actors who want freedom to change election rules without federal pre-approval are better off that the bill never advanced. Voters in covered jurisdictions keep the status quo: no advance federal review, and protection only through lawsuits after a rule takes effect."
+   "who_came_out_ahead": "Incumbent officeholders, state governments, and party organizations that prefer state-level control over election rules came out ahead: the pre-2013 status quo — no federal preclearance, and voting challenges handled case by case in court — stays in place. Because the Supreme Court struck down the old coverage formula in Shelby County v. Holder in 2013, there has been no pre-approval system since, and that remains the law."
   },
-  "who_came_out_ahead_short": "Officials who change election rules unreviewed",
+  "who_came_out_ahead_short": "Officeholders and state election authorities",
   "sides": {
    "for": [
     {
-     "name": "Terri Sewell",
-     "role": "U.S. Representative (D-AL), bill sponsor",
+     "name": "Rep. Terri Sewell",
+     "role": "House sponsor (D-AL)",
      "party": "D",
-     "what_they_did": "Introduced the John R. Lewis Voting Rights Advancement Act and recruited cosponsors.",
+     "what_they_did": "Introduced the bill on September 19, 2023; it was referred to the House Judiciary Committee.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -115,9 +125,9 @@
     },
     {
      "name": "218 House Democrats",
-     "role": "Cosponsors, including the full Democratic leadership slate (Jeffries, Clark, Aguilar, Clyburn, Pelosi and others)",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Cosponsored the bill, giving it support from a numerical majority of the House.",
+     "what_they_did": "Cosponsored the bill; the cosponsor list contained no Republicans.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -127,55 +137,55 @@
    ],
    "against": [
     {
-     "name": "House Judiciary Committee leadership",
-     "role": "Chair of the committee the bill was referred to",
-     "party": "R",
-     "what_they_did": "Never scheduled a markup or committee vote on the bill during the 118th Congress, leaving it without a path to the floor.",
-     "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
-    },
-    {
-     "name": "House Republican majority",
-     "role": "Majority party controlling the House floor and committee agenda",
-     "party": "R",
-     "what_they_did": "Brought no Republican cosponsors to the bill and never scheduled it for a floor vote.",
+     "name": "House Judiciary Committee",
+     "role": "Committee of referral; no chair scheduled a markup or hearing",
+     "party": null,
+     "what_they_did": "Held the bill after referral; no markup, hearing, or committee vote appears in the action history through the end of the Congress.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S4",
       "S5"
      ]
+    },
+    {
+     "name": "House Republican leadership",
+     "role": "Majority party controlling the House floor calendar",
+     "party": "R",
+     "what_they_did": "Never brought the bill to the floor for a vote during the 118th Congress.",
+     "direct": true,
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
    "party_line": "party_line",
-   "party_line_note": "All 218 cosponsors were Democrats and no Republicans signed on; with Republicans controlling the House and its committee agendas, the bill never advanced past the referral."
+   "party_line_note": "All 218 cosponsors were House Democrats and no Republican signed on; with Republicans holding 224 of 435 seats and controlling the committee and floor calendar, the bill had no path it could take without majority-party action."
   },
   "industries": [
    {
-    "industry": "State legislatures and state/local election officials",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "The bill would require pre-approval before changing election rules in covered jurisdictions and impose new public-notice and reporting duties. Their interest in changing election rules without federal review runs against voters' front-end protections against discriminatory rules.",
+    "industry": "State and local election officials",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "Covered jurisdictions would face new federal approval requirements, public notice deadlines, and potential document demands from the Justice Department, adding cost and delay. But where the underlying changes would burden minority voters, the bill's gate runs alongside those voters' interest in accessible elections.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Political parties and campaign organizations operating in covered states",
+    "industry": "Incumbent officeholders and party organizations",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Redistricting plans and election-rule changes that consolidate one party's advantage would face federal preclearance in jurisdictions with violation records, making it harder to lock in district maps drawn to dilute minority voting strength.",
+    "note": "The bill would put federal pre-approval in front of redistricting plans and election-rule changes — tools incumbents and parties use to shape the electorate — in jurisdictions with violation records. Its death leaves their current discretion intact.",
     "sources": [
-     "S3"
+     "S3",
+     "S5"
     ]
    },
    {
-    "industry": "Voting-rights litigators and civil-rights organizations",
+    "industry": "Voting-rights legal organizations",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "The bill adds causes of action, easier preliminary relief, and attorney's-fee coverage, expanding the work available to groups that challenge discriminatory voting rules. Their winning generally means voters keep access to the ballot.",
+    "note": "The bill adds statutory causes of action, restores vote-dilution standards, eases early court relief, and authorizes attorney's fees, expanding the toolkit for groups litigating voting cases.",
     "sources": [
      "S3"
     ]
@@ -183,14 +193,15 @@
   ],
   "trajectory": null,
   "categories": [
-   "voting_and_democracy"
+   "voting_and_democracy",
+   "other"
   ],
   "scores": {
    "public_stakes": 8,
    "concentrated_stakes": 6,
-   "outcome_against_public": 9,
-   "support_mismatch": 9,
-   "corruption_relevance": 2,
+   "outcome_against_public": 7,
+   "support_mismatch": 6,
+   "corruption_relevance": 8,
    "confidence": 0.85
   }
  },

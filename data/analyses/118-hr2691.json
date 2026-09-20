@@ -1,106 +1,110 @@
 {
  "bill_id": "118-hr2691",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T15:53:25+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:51:52+00:00",
  "record_fetched_at": "2026-09-20T15:49:23+00:00",
  "record_hash": "4cb128ed40daf212",
  "analysis": {
-  "one_liner": "Requires hospitals and insurers to publish actual prices and creates real penalties for hiding them.",
-  "headline": "A bipartisan hospital and insurer price transparency bill died in committee without a hearing, markup, or floor vote in the 118th Congress.",
+  "one_liner": "Requires hospitals and health insurers to publish their actual negotiated prices, with fines for hiding them.",
+  "headline": "A bipartisan bill introduced by the House committee's chair and its top Democrat never received a committee vote and died when the 118th Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would force hospitals to post their real prices — including what they negotiated with each insurer and their discounted cash price — in one standard format, and would fine hospitals up to $5 million a year for refusing. It would also require health plans to publish their in-network rates, out-of-network payments, and drug costs every three months in files anyone can download, and to build free tools showing a patient their expected bill before treatment. A federal watchdog would report on whether hospitals and insurers actually comply.",
-  "who_benefits": "Patients deciding on care, uninsured or self-pay patients comparing cash prices, employers shopping for health plans, and researchers studying why care costs what it does. Anyone who has been surprised by a hospital bill would get prices upfront instead of months later.",
-  "who_benefits_short": "Patients, employers, and self-pay consumers",
+  "plain_summary": "The Transparent PRICE Act would write hospital price disclosure into law, requiring hospitals to post what they actually charge — list prices, cash prices, and the rates negotiated with each insurer — in a standard government format, with fines starting at $10 per bed per day and a $5 million minimum for large hospitals that stay out of compliance for a year. It would also require health insurers to publish their negotiated rates and drug payment data every three months, and to offer patients a real-time tool showing what a service will cost them out of pocket before they get it. The bill was referred to the Energy and Commerce Committee on the day it was introduced and never received a markup or a floor vote.",
+  "who_benefits": "Patients and employers. Before getting care, patients could see what a hospital charges an insurer, what it charges cash customers, and what their own out-of-pocket cost would be. Employers buying coverage for workers could compare plans' actual negotiated rates instead of negotiating blind. Uninsured and cash-paying patients would see the discounted cash price they are entitled to. Consumers would also get a public list naming hospitals that refuse to comply.",
+  "who_benefits_short": "Patients, employers, and uninsured cash-payers",
   "how_it_helps": [
    {
-    "text": "Hospitals must publish, free and in plain language, a list of standard charges for at least 300 'shoppable' services — including the gross charge, the discounted cash price, and the exact rate negotiated with each named insurer [S3].",
+    "text": "Hospitals must post, in a consumer-friendly machine-readable format, the gross charge, discounted cash price, and payer-specific negotiated charges for at least 300 shoppable services, described in plain language with billing codes [S2][S3].",
     "sources": [
-     "S3",
-     "S2"
+     "S2",
+     "S3"
     ]
    },
    {
-    "text": "The bill puts the price disclosure rule into statute and requires CMS to create one standard format so prices are comparable across hospitals, plus regularly check that what hospitals post is accurate [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Hospitals that don't fix noncompliance within 90 days face civil monetary penalties — for larger hospitals, at least $5 million for a full year of violations — and CMS must maintain a public, real-time list of compliant and noncompliant hospitals, naming who got warnings or fines [S3].",
+    "text": "Hospitals that fail to comply after notice and a 90-day corrective window face civil fines of $10 per bed per day (up to $300 per day for hospitals with 30 beds or fewer), and hospitals with more than 30 beds that stay out of compliance for a full year face a fine of at least $5 million — far stiffer than the existing rule's enforcement [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Health plans must report every three months their in-network rates, out-of-network payments, and the net amount they pay for each drug (after rebates) in free, machine-readable files, and must run a real-time tool telling patients their expected cost sharing, deductibles met so far, and any prior-authorization or step-therapy requirements [S3].",
+    "text": "The Health and Human Services Secretary must maintain a public, real-time list of hospitals out of compliance — including who got warnings, corrective action requests, or fines — and a list of hospitals in compliance, and must report enforcement activity to Congress each year [S2][S3].",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Health plans must submit their in-network negotiated rates, out-of-network payment amounts, and net-of-rebate drug payment data every three months in comparable machine-readable files that anyone can access free and without an account [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The Government Accountability Office must report on compliance and enforcement and recommend ways to improve transparency for patients, employers, and the public [S2].",
+    "text": "Plans must offer a self-service tool that tells a patient in real time the in-network rate, their cost sharing, how much deductible they have already met, and any prior authorization or step-therapy requirements that apply [S3].",
     "sources": [
-     "S2"
+     "S3"
     ]
    }
   ],
-  "who_pays": "Hospitals, which face compliance costs, public shaming on a CMS noncompliance list, and penalties up to $5 million a year; and health insurers, which must open up their negotiated rates and drug payments to public inspection. Insurers would also bear the cost of building the real-time cost-estimate tools.",
-  "who_pays_short": "Hospitals and health insurers",
+  "who_pays": "Hospitals and health insurers. They bear the cost of building the data systems, posting granular rate data every quarter, and facing fines. The bigger cost is competitive: once negotiated rates are public, hospitals with higher prices and insurers with worse deals can be compared directly, pressuring their pricing. Pharmacy benefit managers' rebate-driven drug pricing would also be exposed, since plans must report what they actually pay for drugs net of rebates.",
+  "who_pays_short": "Hospitals, health insurers, and PBMs",
   "drawbacks": [
    {
-    "text": "Transparency alone does not guarantee lower bills: patients in emergencies or mid-treatment often cannot shop by price, and researchers have found many people never use the existing price files, so the bill's benefits depend on consumers or employers actually acting on the data [S3].",
+    "text": "Compliance is a real burden: hospitals and insurers must publish rates for thousands of items and services in machine-readable formats and update them quarterly, a cost that falls hardest on smaller hospitals [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Hospitals have long argued that publishing every negotiated rate could push some prices up — hospitals with lower rates may use the files to demand more, and the requirement to disclose rates for at least 300 services is a real administrative burden, especially for small rural hospitals, though the bill scales penalties down to $300 a day for hospitals with 30 beds or fewer [S3].",
+    "text": "Publicly posting payer-specific negotiated rates could disrupt price negotiation itself — providers who quietly give better deals may face pressure to raise those rates, and negotiated discounting may shrink, so the net effect on prices is uncertain.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Much of what the bill requires builds on price transparency rules that already existed, so its main additions are enforcement teeth and standardization rather than entirely new disclosure [S2].",
+    "text": "Transparency alone does not guarantee lower bills: patients only benefit if they can act on prices in advance, and the bill relies on enforcement by the Secretary and annual GAO review rather than guaranteeing price reductions.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The public benefit is real but not automatic: knowing prices only saves money if patients, employers, or referees of the market use the information, and emergency care cannot be shopped at all. The costs fall on hospitals and insurers and are mostly one-time compliance work. The strongest version of the bill is its enforcement — most hospital transparency problems since the federal rule took effect have come from lax enforcement, and this bill attacks that directly with a standardized format, audits, named penalties, and a public compliance list.",
+  "benefit_vs_cost": "For ordinary people the potential upside is large and the downside modest — knowing prices before care is genuinely useful and the fines finally give the existing transparency rules teeth. The main honest caveats are the compliance burden on smaller hospitals and the possibility that exposing negotiated discounts changes how rates get negotiated. The bill's fatal weakness was not its design but that it never moved: with the strongest possible committee backing, it still got no vote.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The bill was referred to the House Energy and Commerce Committee the day it was introduced and never received any further action — no hearing, no markup, no floor vote — before the 118th Congress ended.",
+   "mechanism": "It sat in the Energy and Commerce Committee from the day it was introduced until the 118th Congress ended — its sponsor chaired that committee and its only cosponsor was the committee's top Democrat, but no markup or floor vote was ever scheduled.",
    "narrative": [
     {
-     "text": "Representative Cathy McMorris Rodgers introduced the bill on April 18, 2023 together with Representative Frank Pallone, the top Democrat on the committee it went to, making it bipartisan from the start [S3].",
+     "text": "Rep. Cathy McMorris Rodgers (R-WA), chair of the Energy and Commerce Committee, introduced the bill on April 18, 2023 together with Rep. Frank Pallone (D-NJ), the committee's ranking Democrat [S1][S3][S5].",
      "sources": [
-      "S3"
+      "S1",
+      "S3",
+      "S5"
      ]
     },
     {
-     "text": "The House referred it to the Committee on Energy and Commerce on the day of introduction; that was the last action of any kind in the record [S5].",
+     "text": "The bill was referred to the Energy and Commerce Committee the same day, and the committee took no further action on it for the rest of the Congress [S5].",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "The bill ended the 118th Congress with a single cosponsor and no committee or floor vote [S4].",
+     "text": "The bill died at the end of the 118th Congress on January 3, 2025, without ever receiving a committee markup or a floor vote in either chamber [S1][S5].",
      "sources": [
-      "S4"
+      "S1",
+      "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Hospitals and health insurers are better off: their negotiated rates stay out of easy public view, and no standardized format, public compliance list, or multi-million-dollar penalties will come from this bill."
+   "who_came_out_ahead": "Hospitals and health insurers kept the status quo: no statutory requirement to publish negotiated rates, no public compliance lists, and the penalty minimums in the existing rules remained in place rather than rising to $5 million. Patients and employers continued negotiating without seeing prices."
   },
-  "who_came_out_ahead_short": "Hospitals and insurers keep opaque prices",
+  "who_came_out_ahead_short": "Hospitals and insurers kept opaque pricing",
   "sides": {
    "for": [
     {
      "name": "Rep. Cathy McMorris Rodgers",
-     "role": "Sponsor; Chair of the House Energy and Commerce Committee",
+     "role": "Chair, House Energy and Commerce Committee",
      "party": "R",
-     "what_they_did": "Introduced the bill and referred it to her own committee, where no further action followed",
+     "what_they_did": "Introduced the bill and was its lead sponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -111,89 +115,56 @@
     },
     {
      "name": "Rep. Frank Pallone",
-     "role": "Original co-introducer; Ranking Member, House Energy and Commerce Committee",
+     "role": "Ranking Member, House Energy and Commerce Committee",
      "party": "D",
-     "what_they_did": "Joined the Republican chair in introducing the bill, giving it bipartisan sponsorship",
+     "what_they_did": "Joined as the bill's cosponsor at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3"
-     ]
-    },
-    {
-     "name": "Cosponsor (Democratic)",
-     "role": "1 House cosponsor",
-     "party": "D",
-     "what_they_did": "Signed on as the bill's only additional cosponsor",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
+      "S3",
       "S4"
      ]
     }
    ],
-   "against": [
-    {
-     "name": "House Energy and Commerce Committee",
-     "role": "Committee of referral",
-     "party": null,
-     "what_they_did": "Took no recorded action after referral — no hearing, markup, or vote — for the remaining 20 months of the Congress",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "name": "House leadership",
-     "role": "Scheduling authority for House floor action",
-     "party": "R",
-     "what_they_did": "Never scheduled the bill for floor consideration, which it could not have reached without a committee report",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "name": "Hospital and health insurer industry groups",
-     "role": "Regulated industries",
-     "party": null,
-     "what_they_did": "Have broadly opposed mandatory public disclosure of negotiated rates, including through litigation against the underlying federal transparency rule",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
-    }
-   ],
+   "against": [],
    "party_line": "bipartisan",
-   "party_line_note": "The bill was introduced by the Republican chair of the Energy and Commerce Committee together with the committee's top Democrat, and its one recorded cosponsor was also a Democrat; no vote ever occurred to test opposition."
+   "party_line_note": "The bill had bipartisan leadership support — a Republican committee chair and the committee's ranking Democrat — and no recorded opposition, yet it never reached a vote, so no roll-call record exists to break down support by party."
   },
   "industries": [
    {
     "industry": "Hospitals",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Hospitals would have to publish gross charges, discounted cash prices, and every insurer-specific negotiated rate for at least 300 services in one standard format, and face civil penalties — at least $5 million for a year of ongoing violations at larger hospitals — plus being named on a public CMS noncompliance list. Their interest in keeping negotiated rates out of plain view runs directly against patients' interest in knowing prices in advance.",
+    "note": "Hospitals would have had to post their chargemaster prices, discounted cash prices, and per-insurer negotiated rates in a standard format, with a public noncompliance list and fines reaching a $5 million minimum for large hospitals that stay out of compliance for a year. Because hospitals currently earn more where prices are opaque, exposure of negotiated rates runs directly against their financial interest and alongside patients' interest in knowing prices in advance.",
     "sources": [
-     "S3",
-     "S2"
+     "S3"
     ]
    },
    {
     "industry": "Health insurers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Plans would have to disclose their in-network rates, out-of-network payments, and net drug payments every three months in publicly downloadable files, and build real-time tools showing members their expected costs and coverage restrictions. Insurers' negotiated rates are central to how they price coverage, and public disclosure removes a competitive advantage that comes at consumers' expense.",
+    "note": "Insurers would have to publish all in-network negotiated rates and out-of-network payments every three months in comparable public files, and build real-time cost-sharing tools showing patients their actual out-of-pocket cost. Public rate files let employers and patients compare insurers' deals, which pressures the negotiated rates that shape insurer-provider bargaining.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Pharmacy benefit managers and drug supply intermediaries",
+    "industry": "Pharmacy benefit managers and rebate intermediaries",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill requires plans to report what they actually pay for each drug net of rebates, discounts, and price concessions, which would expose the spread between list prices and net prices that intermediaries profit from. The disclosure is indirect but touches the core opacity of the drug pricing chain.",
+    "note": "Plans would have to report what they actually pay for each drug net of rebates, discounts, and price concessions. Because rebate-driven intermediaries profit from the spread between list prices and net prices, mandatory net-price disclosure runs against their interest.",
     "sources": [
+     "S3"
+    ]
+   },
+   {
+    "industry": "Large self-insured employers",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "Employers buying health coverage could see the rates their plans pay every provider, giving them real data for the first time to negotiate lower costs for the coverage they provide workers.",
+    "sources": [
+     "S2",
      "S3"
     ]
    }
@@ -204,11 +175,11 @@
    "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 7,
+   "public_stakes": 6,
    "concentrated_stakes": 7,
-   "outcome_against_public": 7,
-   "support_mismatch": 5,
-   "corruption_relevance": 2,
+   "outcome_against_public": 8,
+   "support_mismatch": 7,
+   "corruption_relevance": 1,
    "confidence": 0.85
   }
  },

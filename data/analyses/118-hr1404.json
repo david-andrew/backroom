@@ -1,104 +1,105 @@
 {
  "bill_id": "118-hr1404",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:39:24+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:46:20+00:00",
  "record_fetched_at": "2026-09-20T11:35:00+00:00",
  "record_hash": "aedffdd62981aae3",
  "analysis": {
-  "one_liner": "Blocks federal facial recognition and biometric surveillance unless Congress explicitly authorizes it.",
-  "headline": "The bill never got a committee hearing or a vote; its only action in two years was referral to two House committees on the day it was introduced.",
+  "one_liner": "Bans federal facial recognition and biometric surveillance unless Congress specifically authorizes it.",
+  "headline": "The bill was referred to two House committees in March 2023 and never received a hearing, markup, or vote before the Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would make it unlawful for any federal agency, employee, or contractor to buy, hold, or use facial recognition or other remote biometric identification tools — face, voice, or gait — in the United States unless Congress later passes a law spelling out exactly who could use such a tool, for what purpose, and under what accuracy, privacy, and due-process safeguards [S2] [S3]. Evidence gathered unlawfully could not be used by the federal government in court, and individuals could sue for damages [S2] [S3]. It would also cut off federal Byrne public-safety grants to state and local governments that use biometric surveillance without a comparable ban of their own [S2] [S3].",
-  "who_benefits": "Ordinary people who would otherwise be scanned, identified, and tracked by government facial recognition systems in public spaces, at airports, and at the border, without ever consenting or knowing it happened. People misidentified by the technology would gain a right to sue for damages.",
-  "who_benefits_short": "Everyone scanned in public spaces",
+  "plain_summary": "The bill would make it unlawful for any federal agency, employee, or contractor to acquire or use facial recognition or other remote biometric surveillance—like face, gait, or voice identification—unless Congress passes a law specifically authorizing that use with accuracy and privacy safeguards attached. It would also cut off federal Byrne public-safety grants to state and local governments that use biometric surveillance without a substantially similar ban, and it would let individuals and state attorneys general sue over violations.",
+  "who_benefits": "Ordinary people who would otherwise be scanned without their knowledge: pedestrians, travelers at airports and border zones, drivers, and people attending protests or houses of worship. People wrongly identified by facial recognition—which has documented higher error rates for women and people with darker skin—would also gain a right to sue for damages.",
+  "who_benefits_short": "Everyone scanned by government cameras",
   "how_it_helps": [
    {
-    "text": "No federal agency or official — including contractors — could acquire, possess, access, or use any biometric surveillance system, or data derived from one, unless Congress passes a specific act authorizing that use with named entities, purposes, accuracy standards, and privacy protections [S2] [S3].",
+    "text": "Bars any federal agency, official, contractor, or subcontractor from acquiring, possessing, or using facial recognition or other remote biometric surveillance in the United States, including airports, ports of entry, and border zones, unless an act of Congress specifically authorizes it with accuracy standards, audit trails, and due-process protections.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Information obtained in violation of the ban could not be used by the federal government in any criminal, civil, or administrative proceeding, and anyone aggrieved by a violation could sue for actual damages, punitive damages, and attorney's fees; state attorneys general could also sue on residents' behalf [S2] [S3].",
+    "text": "Makes information obtained through illegal biometric surveillance inadmissible in any federal proceeding, and gives aggrieved individuals the right to sue for actual and punitive damages plus attorneys' fees, with state attorneys general also able to sue on residents' behalf.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "State and local governments would lose Byrne grant law-enforcement funding unless they adopted substantially similar restrictions, extending the moratorium beyond federal agencies [S2] [S3].",
+    "text": "Withholds federal Byrne public-safety grant money from state and local governments that do not adopt a substantially similar ban, and prohibits federal law enforcement funds from being spent on biometric surveillance systems.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "The ban covers face, voice, and gait recognition everywhere inside U.S. borders, including airports, ports of entry, and border zones [S3].",
+    "text": "Allows NIST to keep testing and researching the technology, and does not preempt stricter state or local laws, so existing stronger protections remain intact.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Federal law enforcement agencies and their technology vendors would lose access to facial recognition and voice-identification tools currently in use, and state and local police departments that keep using the technology would forfeit Byrne grant money.",
-  "who_pays_short": "Surveillance vendors and police agencies",
+  "who_pays": "Facial recognition and biometric surveillance companies lose the government market: federal agencies could not buy or use their systems, and state and local police would have to give up the technology or lose Byrne grant funding. Law enforcement agencies also lose an investigative tool.",
+  "who_pays_short": "Biometric tech vendors and police agencies",
   "drawbacks": [
    {
-    "text": "The bill is a blanket moratorium, not an accuracy standard: it bars all government use of facial recognition and voice identification until Congress affirmatively legislates, which would also foreclose uses its critics consider legitimate, such as identifying criminal suspects, missing children, or unconscious patients [S2] [S3].",
+    "text": "A flat ban removes facial recognition even for uses many people support, such as identifying crime suspects or finding missing persons; law enforcement groups generally argue the technology is a legitimate investigative tool when properly regulated.",
     "sources": [
-     "S2",
+     "S2"
+    ]
+   },
+   {
+    "text": "The only path to future use is a congressional act that meets very detailed requirements—naming the entity, the technology, accuracy rates by gender and skin color, and audit mechanisms—a high bar some would call an impractical substitute for routine regulation.",
+    "sources": [
      "S3"
     ]
    },
    {
-    "text": "Conditioning Byrne grants on adopting a state-level ban ties federal public-safety money to a specific privacy policy, which states that want to keep the technology for policing would experience as a funding penalty [S3].",
+    "text": "Governments that keep using the technology would forfeit Byrne grant funding, reducing money available for other public-safety priorities in those jurisdictions.",
     "sources": [
+     "S2",
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The core trade is real: government facial recognition can help solve crimes and find missing people, but it also lets the government identify and track anyone who walks down a public street, with documented accuracy problems across demographic groups in commercial systems. This bill resolves that trade decisively toward privacy — a ban first, with a narrow, demanding path for Congress to authorize specific uses later. Reasonable people can argue the moratorium is too blunt, but the bill does not hide that choice; it makes authorization deliberately hard, which is the point.",
+  "benefit_vs_cost": "The privacy gain is real and direct: the bill targets government face-scanning of people who never consented, in a technology with documented accuracy problems that fall hardest on women and people of color. The cost is that police lose an investigative tool, though the bill preserves NIST testing and leaves a specific legislative path for authorized uses. The design leans toward prohibition rather than regulation, which is the main good-faith objection.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was referred to the House Judiciary and Oversight Committees the day it was introduced in March 2023, and neither committee ever took it up before the 118th Congress ended in January 2025, so it never reached the House floor.",
+   "mechanism": "It sat in two House committees after referral and died when the 118th Congress ended without a hearing, markup, or vote.",
    "narrative": [
     {
-     "text": "Rep. Pramila Jayapal introduced the bill on March 7, 2023, with 10 original cosponsors, all Democrats [S1] [S3].",
+     "text": "Rep. Pramila Jayapal introduced the Facial Recognition and Biometric Technology Moratorium Act of 2023 on March 7, 2023, with 14 Democratic cosponsors and no Republican support.",
      "sources": [
       "S1",
-      "S3"
-     ]
-    },
-    {
-     "text": "The same day, it was referred to the Committee on the Judiciary and to the Committee on Oversight and Accountability [S5].",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "That referral was the bill's last recorded action; no hearing, markup, or vote followed in the two years remaining in the Congress [S5].",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "Support stayed at 15 House members, all Democrats, with no Republican cosponsors [S4].",
-     "sources": [
+      "S3",
       "S4"
+     ]
+    },
+    {
+     "text": "The bill was referred to the House Judiciary Committee and, in addition, to the House Oversight and Accountability Committee, and the record shows no further action—no hearing, markup, or floor vote—before the Congress ended on January 3, 2025.",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "The bill would have prohibited federal agencies and officials from using facial recognition and other remote biometric surveillance without an explicit act of Congress, and would have conditioned federal Byrne law enforcement grants on state and local governments adopting similar bans.",
+     "sources": [
+      "S2"
      ]
     }
    ],
-   "who_came_out_ahead": "Federal agencies and surveillance technology vendors keep using and selling facial recognition with no new statutory limits, and police departments keep Byrne grant money without adopting restrictions; nobody gained protections."
+   "who_came_out_ahead": "Facial recognition and biometric surveillance vendors keep selling to federal, state, and local governments, and law enforcement agencies keep using the technology without the restrictions or private right of action this bill would have created."
   },
-  "who_came_out_ahead_short": "Surveillance vendors and agencies keep the status quo",
+  "who_came_out_ahead_short": "Biometric surveillance vendors and police agencies",
   "sides": {
    "for": [
     {
-     "name": "Rep. Pramila Jayapal",
-     "role": "Sponsor, H.R. 1404",
+     "name": "Pramila Jayapal",
+     "role": "U.S. Representative, WA-7; bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and recruited 14 cosponsors, all Democrats",
+     "what_they_did": "Introduced the bill and recruited 14 Democratic cosponsors.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -108,60 +109,60 @@
      ]
     },
     {
-     "name": "14 House cosponsors (all Democrats)",
-     "role": "Original cosponsors including Reps. Schakowsky, Pressley, Tlaib, Bush, and others",
+     "name": "14 of 216 House Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Signed on in support at introduction; none advanced the bill in committee",
+     "what_they_did": "Cosponsored the bill; no House Republican did.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
       "S4"
      ]
     }
    ],
    "against": [
     {
-     "name": "House Judiciary Committee",
-     "role": "Referred committee; primary jurisdiction over surveillance and civil-rights legislation",
-     "party": null,
-     "what_they_did": "Received the bill on March 7, 2023 and took no further action — no hearing, markup, or vote — for the rest of the Congress",
+     "name": "House Judiciary Committee (Chair Jim Jordan)",
+     "role": "Primary committee of referral",
+     "party": "R",
+     "what_they_did": "Took no recorded action on the bill after referral—no hearing, markup, or vote in the two years it had jurisdiction.",
      "direct": true,
-     "evidence": "record",
+     "evidence": "widely_reported",
      "sources": [
       "S5"
      ]
     },
     {
-     "name": "House Oversight and Accountability Committee",
-     "role": "Second referred committee",
-     "party": null,
-     "what_they_did": "Received the bill the same day and took no further action before the Congress ended",
+     "name": "House Oversight and Accountability Committee (Chair James Comer)",
+     "role": "Additional committee of referral",
+     "party": "R",
+     "what_they_did": "Took no recorded action on the bill after referral.",
      "direct": true,
-     "evidence": "record",
+     "evidence": "widely_reported",
      "sources": [
       "S5"
      ]
     }
    ],
-   "party_line": "party_line",
-   "party_line_note": "All 15 sponsors and cosponsors were Democrats, and no Republican ever signed on; with Republicans holding the House majority, the bill had no committee champion and was never taken up [S4] [S5]."
+   "party_line": "mostly_party_line",
+   "party_line_note": "All 14 cosponsors were Democrats; no Republican signed on, and the bill died without action in Republican-chaired committees."
   },
   "industries": [
    {
-    "industry": "Facial recognition and biometric surveillance technology vendors",
+    "industry": "Facial recognition and biometric surveillance software vendors",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would close off the government market for face, voice, and gait recognition products — the bill bars federal agencies from buying the systems and cuts Byrne grants to state and local buyers. Its interest in keeping that market open runs against the privacy of the people being scanned [S3].",
+    "note": "The bill cuts off their government market: federal agencies and contractors could not buy or use their systems, and state and local police would have to abandon the technology to keep Byrne grant funding. These companies profit from selling identification of people who never consented, so their interest runs against the privacy of ordinary people.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "industry": "Federal and state law enforcement agencies",
+    "industry": "Federal, state, and local law enforcement agencies",
     "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "Agencies would lose an investigative tool they currently use without statutory limits, and state and local departments would face forfeiture of Byrne public-safety grants unless they adopt equivalent bans [S2] [S3].",
+    "stance_toward_public": "mixed",
+    "note": "Police would lose a surveillance and investigative tool and, at the state and local level, risk Byrne grant funds for continuing to use it. Some agencies argue the tool helps solve crimes; civil-rights groups and people misidentified by the technology argue it harms the public.",
     "sources": [
      "S2",
      "S3"
@@ -170,15 +171,15 @@
   ],
   "trajectory": null,
   "categories": [
-   "consumer_protection_and_finance",
-   "corruption_and_ethics"
+   "other",
+   "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 7,
+   "public_stakes": 6,
    "concentrated_stakes": 4,
-   "outcome_against_public": 5,
-   "support_mismatch": 4,
-   "corruption_relevance": 4,
+   "outcome_against_public": 7,
+   "support_mismatch": 5,
+   "corruption_relevance": 2,
    "confidence": 0.9
   }
  },

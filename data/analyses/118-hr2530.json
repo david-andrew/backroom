@@ -1,157 +1,148 @@
 {
  "bill_id": "118-hr2530",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T11:52:18+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:50:07+00:00",
  "record_fetched_at": "2026-09-20T11:14:28+00:00",
  "record_hash": "f6ae7d55881b2369",
  "analysis": {
-  "one_liner": "Sets minimum nurse-to-patient ratios in every U.S. hospital, with protections for nurses who refuse unsafe assignments.",
-  "headline": "A bill to set federal nurse-to-patient ratios in hospitals drew 99 Democratic cosponsors but died in committee without a hearing or vote over two years.",
+  "one_liner": "Requires hospitals to meet minimum nurse-to-patient staffing ratios and protects nurses who refuse unsafe assignments.",
+  "headline": "The bill drew 98 Democratic cosponsors but never received a hearing or vote, dying in House committees when the 118th Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would require every hospital in the country to staff its units with no more than a set number of patients per nurse — for example, one nurse for every four patients in a medical-surgical unit. Hospitals would have to post their actual staffing levels publicly, keep records for three years, and could be fined up to $25,000 for a first violation. Nurses who believe an assignment is unsafe or understaffed could refuse it without being fired, and Medicare payments to hospitals would be adjusted to cover the added cost of compliance.",
-  "who_benefits": "Hospital patients, who get a guaranteed minimum number of nurses on every unit and shift; registered nurses and licensed practical nurses, who get enforceable workload limits, required breaks, protection from mandatory overtime, and legal protection if they refuse an assignment that would endanger patients; and rural communities, which get extra time (four years instead of two) to meet the ratios.",
-  "who_benefits_short": "Hospital patients and bedside nurses",
+  "plain_summary": "The bill would require every hospital to staff its units with a minimum number of direct-care registered nurses per patient — for example one nurse for every four patients in medical-surgical units and one for every two in intensive care. Hospitals would have to post and record actual staffing for every shift, could not substitute video monitors or mandatory overtime for nurses, and would face federal fines for violations. Nurses could refuse assignments that violate the ratios or that they are not trained for, with protection from retaliation, and Medicare payments to hospitals would be adjusted to cover the added cost.",
+  "who_benefits": "Hospital patients, who would be guaranteed a minimum number of nurses per unit on every shift, and registered and licensed practical nurses, who would get enforceable staffing limits, an end to mandatory overtime for ratio compliance, and legal protection when they refuse an unsafe assignment. Taxpayers who use Medicare would also see hospitals' compliance costs reimbursed through adjusted Medicare payments.",
+  "who_benefits_short": "Hospital patients and nurses",
   "how_it_helps": [
    {
-    "text": "The bill sets unit-by-unit maximum patient loads per registered nurse: one patient in trauma and operating rooms, two in intensive care and burn units, three in emergency rooms and pediatrics, four in medical-surgical units, and up to six in well-baby and postpartum units [S3].",
+    "text": "Sets unit-by-unit maximum patient assignments for direct-care registered nurses, such as 1 nurse to 1 patient in trauma and operating rooms, 1 to 2 in intensive care, 1 to 4 in medical-surgical units, and 1 to 6 in well-baby nurseries, with no averaging across shifts or units.",
     "sources": [
      "S3",
      "S2"
     ]
    },
    {
-    "text": "Hospitals must post actual nurse-to-patient ratios in each unit where patients and staff can see them, keep three years of records open to the public, and undergo federal audits; hospitals that violate the rules can be fined up to $25,000 for a first violation and $50,000 after that, and their names published by HHS [S3].",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Nurses may refuse an assignment that violates the ratios or that they are not trained to perform safely, and hospitals may not fire, discipline, or report them to licensing boards for it; nurses who are retaliated against can sue for reinstatement, back pay, and attorney's fees [S3].",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "The bill bans using mandatory overtime to meet staffing requirements, bans counting video monitors or administrators toward the ratio, and prohibits averaging ratios across shifts to hide short-staffing [S3].",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Medicare payments to hospitals would be increased to cover the net additional cost of meeting the ratios, based on a MedPAC cost study, so the mandate would not simply be an unfunded one [S3].",
+    "text": "Hospitals must post the actual nurse-to-patient ratio in each unit, keep three years of staffing records open to the public and to nurses' unions, and submit staffing plans to HHS for public inspection.",
     "sources": [
      "S3",
      "S2"
     ]
    },
    {
-    "text": "The bill adds stipends to the nurse scholarship program and expands nurse retention grants to include preceptorship and mentorship projects, aimed at easing the nursing shortage [S2].",
+    "text": "Nurses may refuse an assignment that violates the ratios or that they are not trained for without being fired, reported to licensing boards, or otherwise retaliated against, and can sue for reinstatement and lost wages.",
     "sources": [
-     "S2",
+     "S3",
+     "S2"
+    ]
+   },
+   {
+    "text": "Hospitals may not impose mandatory overtime to meet the ratios, may not use video monitors in place of an on-site nurse, and face civil penalties of up to $25,000 for a first knowing violation and $50,000 for repeat violations, with violators named publicly by HHS.",
+    "sources": [
      "S3"
+    ]
+   },
+   {
+    "text": "Medicare payments to hospitals would be adjusted to cover the net additional costs attributable to complying with the ratios, and the bill adds stipends to nursing scholarship programs and expands nurse retention grants.",
+    "sources": [
+     "S3",
+     "S2"
     ]
    }
   ],
-  "who_pays": "Hospitals, which would have to hire substantially more registered nurses, comply with posting and record-keeping rules, and face federal fines and public naming for violations; and federal taxpayers, who fund the Medicare payment adjustments that cover hospitals' added compliance costs.",
-  "who_pays_short": "Hospitals and, via Medicare, taxpayers",
+  "who_pays": "Hospitals bear the cost of hiring enough nurses to meet fixed ratios on every shift, posting notices, keeping records, and potential fines. Because the bill adjusts Medicare payments to cover compliance costs, part of the bill ultimately falls on the federal Medicare program and taxpayers. Rural hospitals get four years instead of two to comply, an acknowledgment that fixed ratios are harder for smaller facilities to meet.",
+  "who_pays_short": "Hospitals, and Medicare budgets",
   "drawbacks": [
    {
-    "text": "The country has a real nursing shortage; a hard ratio requirement can only be met with nurses who must exist. The bill addresses this through recruitment stipends, retention grants, and a congressional report on the nurse supply, but critics could reasonably argue the mandate may outpace the workforce, and the bill does not force states to produce more nurses [S3].",
+    "text": "Fixed numeric ratios leave hospitals little flexibility for unusual shifts, and hospitals would need to hire large numbers of additional registered nurses during an existing national nursing shortage — a bill the sponsors' own text acknowledges would need a federal report on 'ensuring that sufficient numbers of nurses are available.'",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Even with Medicare payment adjustments, the added cost of hiring thousands of nurses would ultimately be borne largely by taxpayers and by hospitals with thin margins, including some rural hospitals already struggling financially; the bill mitigates this by giving rural hospitals four years instead of two to comply [S3].",
+    "text": "The Medicare payment adjustment means the public picks up much of the compliance cost through the Medicare program, so savings claimed from better patient outcomes are not guaranteed to offset the added federal spending.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Fixed numeric ratios are a one-size-fits-all tool: patient needs vary within a unit and across hospitals, which is why the bill requires additional staffing above the minimum based on patient acuity — but that judgment layer adds complexity and enforcement burden [S3].",
+    "text": "Compliance costs fall hardest on rural and financially struggling hospitals, which get a longer phase-in (four years instead of two) precisely because the requirements are harder for them to meet.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The core benefit — patients not lying understaffed and nurses not running themselves into the ground — is backed by the studies Congress itself cites in the bill's findings, including research on California's ratio law showing improved patient outcomes at no additional cost. The real costs are labor: hospitals must hire, and Medicare must pay. The serious practical risk is the nursing shortage; a mandate without enough nurses could strain rural hospitals in particular, which the bill's longer rural timeline partially addresses. On balance this is a well-developed bill whose main cost is money, aimed squarely at patient safety.",
+  "benefit_vs_cost": "The evidence cited in the bill's own findings — including studies of California's ratio law — links better nurse staffing to better patient outcomes and nurse retention, and the whistleblower protections directly address a documented hospital practice of pressuring nurses into unsafe assignments. The serious costs are real but manageable on their face: hospitals lose staffing flexibility, a nursing shortage makes hiring hard, and Medicare picks up much of the tab. The bill was designed with offsets — Medicare payment adjustments, rural phase-ins, emergency exemptions, and state rules left in place if stricter — which makes the case that its benefits outweigh its costs reasonably strong, though the added federal spending is not fully answered by the outcome studies it cites.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was referred to two House committees in April 2023 and then to a health subcommittee, and over nearly two years no hearing, markup, or vote ever happened before the Congress ended.",
+   "mechanism": "The bill was referred to two House committees and then to an Energy and Commerce health subcommittee, and it sat there — no hearing, no markup, no floor vote — until the 118th Congress ended in January 2025 and the bill expired.",
    "narrative": [
     {
-     "text": "The bill was introduced on April 6, 2023 by Rep. Jan Schakowsky and referred to the House Energy and Commerce Committee and the Ways and Means Committee [S5].",
+     "text": "Representative Jan Schakowsky introduced the bill on April 6, 2023, with a long initial list of Democratic cosponsors.",
+     "sources": [
+      "S3",
+      "S5"
+     ]
+    },
+    {
+     "text": "It was referred that day to the House Energy and Commerce Committee and the House Ways and Means Committee, splitting its fate between two committees.",
      "sources": [
       "S5",
       "S1"
      ]
     },
     {
-     "text": "It gathered 98 cosponsors, all Democrats, alongside its Democratic sponsor — 99 members total [S4].",
+     "text": "On April 14, 2023, it was referred to the Energy and Commerce Subcommittee on Health, where subcommittee referral is typically the step before — or instead of — a hearing.",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "The only later action in the entire two-year Congress was a second referral to the same subcommittee on December 17, 2024, weeks before the Congress ended.",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "The bill ended the Congress with 98 cosponsors, all Democrats, none of whom were on the committees that controlled its schedule.",
      "sources": [
       "S4"
      ]
-    },
-    {
-     "text": "On April 14, 2023 it was referred to the Energy and Commerce Subcommittee on Health, and on December 17, 2024 it was referred to that subcommittee again [S5].",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "No further action — no hearing, no subcommittee or committee vote, no floor vote — appears anywhere in the bill's action history before the 118th Congress ended on January 3, 2025 [S5].",
-     "sources": [
-      "S5"
-     ]
     }
    ],
-   "who_came_out_ahead": "Hospitals, which avoided a federal mandate to hire more nurses, post their staffing publicly, and pay federal fines; patients and nurses did not get the ratios or the refusal protections."
+   "who_came_out_ahead": "Hospitals are better off because the bill died: they avoided a federal mandate to hire more nurses per unit, publish shift-by-shift staffing records, and pay fines up to $50,000 per knowing violation. Nurses and hospital patients gained nothing."
   },
-  "who_came_out_ahead_short": "Hospitals; no ratio mandate arrived",
+  "who_came_out_ahead_short": "Hospitals that avoided the staffing mandate",
   "sides": {
    "for": [
     {
-     "name": "Rep. Jan Schakowsky",
-     "role": "Sponsor, House (IL)",
+     "name": "Jan Schakowsky",
+     "role": "House sponsor (IL)",
      "party": "D",
-     "what_they_did": "Introduced the bill on April 6, 2023 and recruited 98 cosponsors",
+     "what_they_did": "Introduced the bill and recruited an initial list of cosponsors.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S1",
-      "S4",
+      "S3",
       "S5"
      ]
     },
     {
-     "name": "98 House cosponsors",
-     "role": "Original cosponsors of H.R. 2530",
+     "name": "98 of 216 House Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as cosponsors, all from the Democratic caucus",
+     "what_they_did": "Cosponsored the bill; no House Republican did.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S4",
-      "S3"
+      "S4"
      ]
-    },
-    {
-     "name": "National Nurses United and nursing organizations",
-     "role": "Nurse union advocates for federal staffing ratios",
-     "party": null,
-     "what_they_did": "Long publicly campaigned for federal nurse-to-patient ratio legislation of this kind",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
     }
    ],
    "against": [
     {
-     "name": "House Energy and Commerce Subcommittee on Health",
-     "role": "Committee of first referral",
-     "party": null,
-     "what_they_did": "Received the referral in April 2023 and again in December 2024, and took no recorded action on the bill in two years",
+     "name": "House Energy and Commerce Committee",
+     "role": "Primary committee of referral, chaired by a Republican",
+     "party": "R",
+     "what_they_did": "Received the bill and sent it to its Health Subcommittee, where it stayed for the rest of the Congress without a hearing or markup; the only further action was a repeat referral in December 2024.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -159,56 +150,56 @@
      ]
     },
     {
-     "name": "Hospital industry (American Hospital Association and for-profit hospital chains)",
-     "role": "Hospitals subject to the mandate",
+     "name": "House Ways and Means Committee",
+     "role": "Second committee of referral, chaired by a Republican",
+     "party": "R",
+     "what_they_did": "Received the bill on introduction and took no recorded action on it for the rest of the Congress.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "name": "American Hospital Association",
+     "role": "Hospital industry trade group",
      "party": null,
-     "what_they_did": "Opposed federal nurse-to-patient ratio mandates, the position the bill would have imposed",
+     "what_they_did": "Has opposed federal one-size-fits-all nurse ratio mandates, arguing they are inflexible and unworkable amid nursing shortages.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
-    },
-    {
-     "name": "House Republican majority",
-     "role": "Majority party controlling committee agendas in the 118th Congress",
-     "party": "R",
-     "what_they_did": "No member supported the bill and committee agendas never advanced it to a vote",
-     "direct": false,
-     "evidence": "record",
-     "sources": [
-      "S4",
-      "S5"
-     ]
     }
    ],
-   "party_line": "mostly_party_line",
-   "party_line_note": "All 99 sponsors and cosponsors were Democrats, with no Republican support recorded, and the bill died in committee in a chamber controlled by Republicans."
+   "party_line": "party_line",
+   "party_line_note": "All 98 cosponsors were Democrats and the sponsor was a Democrat; no Republican cosponsored, and the Republican-led committees never acted on it."
   },
   "industries": [
    {
     "industry": "Hospitals (including for-profit chains)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Hospitals would have had to hire many more registered nurses, post actual staffing levels publicly, keep three years of records, and face fines up to $50,000 per violation — a direct hit to the labor savings that come from running units short-handed. Medicare would have offset compliance costs, but the mandate, audits, and public naming would remain.",
+    "note": "The bill would force hospitals to hire more direct-care registered nurses per unit on every shift, ban averaging and mandatory overtime, open their staffing records to public inspection, and expose them to federal fines and public naming for violations. Industry opposition rests on cost and inflexibility, but the mandate directly targets the practice of running understaffed units to save money.",
     "sources": [
-     "S2",
+     "S3",
+     "S2"
+    ]
+   },
+   {
+    "industry": "Nurse staffing agencies",
+    "effect": "gains",
+    "stance_toward_public": "mixed",
+    "note": "Hospitals needing to meet ratios would likely buy more temporary nurses, raising demand for agencies. The bill conditions this by requiring agency nurses to prove unit competence and receive orientation before assignment.",
+    "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Registered nurses and licensed practical nurses",
+    "industry": "Nursing education and workforce programs",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Bedside nurses would gain enforceable workload caps, guaranteed competence-based assignments, required rest and meal breaks, a ban on mandatory overtime, and the legal right to refuse unsafe assignments without retaliation.",
+    "note": "The bill adds stipends to the federal nursing scholarship program and expands nurse retention grants to preceptorship and mentorship projects, channeling federal money into recruiting and keeping nurses.",
     "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "Temporary and travel nurse staffing agencies",
-    "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "The bill requires agency nurses to prove unit competence and get orientation before assignment, and adequate permanent staffing would reduce hospitals' reliance on costly agency labor. Agencies that benefit from chronic understaffing would face less demand; agencies providing competent, oriented staff would not be shut out.",
-    "sources": [
+     "S2",
      "S3"
     ]
    }
@@ -221,10 +212,10 @@
   "scores": {
    "public_stakes": 7,
    "concentrated_stakes": 7,
-   "outcome_against_public": 7,
-   "support_mismatch": 6,
+   "outcome_against_public": 8,
+   "support_mismatch": 7,
    "corruption_relevance": 1,
-   "confidence": 0.85
+   "confidence": 0.95
   }
  },
  "unresolved_citations": []

@@ -1,100 +1,103 @@
 {
  "bill_id": "118-s1217",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T16:03:00+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:26:47+00:00",
  "record_fetched_at": "2026-09-20T15:40:42+00:00",
  "record_hash": "39b600ddd4a3b063",
  "analysis": {
-  "one_liner": "Bans drug manufacturers from paying rebates to pharmacy benefit managers and insurers.",
-  "headline": "The bill, which would have barred drugmakers from paying rebates to pharmacy benefit managers and insurers, never got a hearing or a vote — it sat in the Senate health committee with zero cosponsors until Congress ended.",
+  "one_liner": "Bans the secret rebates drug manufacturers pay to pharmacy benefit managers and insurers.",
+  "headline": "The bill never got a committee vote; it was introduced in April 2023, referred to the Senate health committee with zero cosponsors, and died when the Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "Drug manufacturers today pay large rebates to pharmacy benefit managers (PBMs) — the middlemen that decide which drugs health plans cover — and to insurers, often to get preferred placement on a plan's drug list. Because patients' out-of-pocket costs are based on the high list price, not the discounted price, those rebates can mean people pay more at the pharmacy counter. This bill would make it illegal for manufacturers to pay those rebates to PBMs or insurance plans, ending the current rebate system entirely.",
-  "who_benefits": "Patients with commercial insurance, especially anyone paying coinsurance based on list price: with rebates banned, discounts would have to flow to the price paid at the pharmacy instead of being pocketed upstream by PBMs and plans. Employers and consumers who pay premiums could also benefit if net prices became the visible price. Independent community pharmacies, which compete against PBM-owned pharmacies on distorted reimbursement rates, would gain as well.",
-  "who_benefits_short": "Patients paying list-price drug copays",
+  "plain_summary": "Today, when you pay for a prescription, the price you see at the pharmacy is often inflated because the drugmaker has already promised a large, hidden rebate to the middleman company — the pharmacy benefit manager — and to your insurer that steers the drug onto their list. This bill would make those hidden payments illegal, and allow discounts only if they are given at the time of purchase, so lower prices reach people when they actually buy the drug. The bill was introduced by Senator Josh Hawley, referred to the Senate health committee, and never moved again.",
+  "who_benefits": "People with private or employer insurance who pay out of pocket at the pharmacy. If rebates must be given as upfront discounts instead of hidden back-end payments, the cash price people see at the counter would no longer need to cover the rebate money flowing to insurers and PBMs — so insured patients, and especially the uninsured who pay full list price, could see cheaper drug costs. Plan sponsors (employers) would also gain a clearer picture of what their drug benefit really costs.",
+  "who_benefits_short": "Patients paying out of pocket for prescriptions",
   "how_it_helps": [
    {
-    "text": "Prohibits drug manufacturers from giving rebates or other payments to PBMs or health insurance plans for any drug covered by an enrollee's plan, ending the current system in which middlemen collect discounts that patients don't see at the counter.",
+    "text": "The bill removes the federal safe harbor that currently protects rebates from drug manufacturers to PBMs — including rebates paid specifically to influence which formulary tier a drug sits on — under the Social Security Act's anti-kickback provisions [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Removes the federal 'safe harbor' that currently protects these rebate arrangements from anti-kickback prosecution, and specifically targets payments meant to influence which tier — or whether — a drug lands on a plan's formulary.",
+    "text": "It directly bars group health plans and health insurers from receiving manufacturer rebates on any covered drug, and requires them to make sure their PBMs do not receive such rebates either, under the Public Health Service Act, ERISA, and the Internal Revenue Code [S3].",
     "sources": [
-     "S2",
      "S3"
     ]
    },
    {
-    "text": "Applies to employer plans under ERISA and the tax code as well as individual and group coverage under the Public Health Service Act, so the ban reaches the vast majority of privately insured Americans, effective January 1, 2025.",
+    "text": "The bill defines 'rebate' as a discount whose terms are fixed in writing at purchase but not paid at purchase — so drugmakers would have to give discounts at the point of sale, where the patient is, rather than through back-end payments to intermediaries [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "PBMs and health insurers lose the rebate revenue that is a core part of their business model, and drug manufacturers lose a tool for buying formulary placement — though some may keep high list prices in exchange. Employers and insurers would have to rebuild drug benefit contracts around upfront discounts instead of rebates.",
-  "who_pays_short": "Pharmacy benefit managers and health insurers",
+  "who_pays": "The three dominant pharmacy benefit managers and the health insurers they are often affiliated with would lose the rebate revenue stream and their central role in the drug-pricing system. Brand-name drug manufacturers would lose rebates as a lever for buying formulary placement and would face pressure to cut list prices; they might respond by raising premiums or reducing discounts elsewhere.",
+  "who_pays_short": "PBMs, health insurers, and drugmakers",
   "drawbacks": [
    {
-    "text": "Rebates currently offset overall plan costs; insurers use them to hold premiums down. Banning them outright could shift that cost back into premiums, meaning some consumers pay more each month even if their pharmacy copays drop.",
+    "text": "The rebate system, whatever its faults, does lower net prices for insurers, and insurers use that savings to offset premiums. Ending back-end rebates could push up monthly premiums even as pharmacy counter prices fall — a tradeoff an honest supporter must acknowledge.",
     "sources": [
-     "S3"
+     "S2"
     ]
    },
    {
-    "text": "The bill bans rebates but does not require manufacturers to cut list prices or pass discounts through at the counter, so there is no guarantee patients see lower out-of-pocket costs rather than simply paying the old high price with no rebate anywhere.",
+    "text": "Patients with high deductibles pay the full price before insurance kicks in; if manufacturers convert rebates to point-of-sale discounts only partly, some patients could pay more upfront than they do today.",
     "sources": [
-     "S2",
-     "S3"
+     "S2"
     ]
    },
    {
-    "text": "Rebates are PBMs' main leverage for negotiating with manufacturers; eliminating them could weaken the bargaining that currently holds net prices down for large employers and plans.",
+    "text": "The bill was written and introduced by a single senator with no cosponsors, and it never received a committee hearing or markup where these design questions could be tested and refined.",
     "sources": [
-     "S2",
-     "S3"
+     "S1",
+     "S4",
+     "S5"
     ]
    }
   ],
-  "benefit_vs_cost": "The bill attacks a real problem — rebates that inflate the prices patients pay at the counter while enriching middlemen — but it is a blunt instrument: it abolishes the rebate system without mandating point-of-sale discounts or list-price reductions, so some of the savings could be absorbed as higher premiums or simply never passed on. A well-designed version would pair the ban with a guarantee that discounts reach the patient at purchase.",
+  "benefit_vs_cost": "The core idea — stop rebates from flowing to middlemen instead of to patients at the counter — targets a real and widely criticized distortion in drug pricing. The main cost is that premiums, not just pharmacy prices, are part of what people pay, and a ban on back-end rebates shifts where the savings show up. On balance this would have been a substantial win for people who pay cash at the pharmacy, but the bill was a one-page starting point with no cosponsors and no committee scrutiny, so its details were never tested.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was referred to the Senate health committee the day it was introduced, never received a hearing, markup, or vote, and died when the 118th Congress ended in January 2025.",
+   "mechanism": "It was introduced in the Senate and referred to the Health, Education, Labor, and Pensions Committee, where it sat until the Congress ended — no hearing, no markup, no vote, and no cosponsors ever signed on [S1][S4][S5].",
    "narrative": [
     {
-     "text": "Senator Josh Hawley introduced the Ending the Prescription Drug Kickback Act on April 19, 2023, with no cosponsors.",
+     "text": "Senator Josh Hawley introduced S. 1217, the Ending the Prescription Drug Kickback Act of 2023, on April 19, 2023 [S1][S2].",
      "sources": [
       "S1",
-      "S3",
+      "S2"
+     ]
+    },
+    {
+     "text": "The same day, the Senate read the bill twice and referred it to the Committee on Health, Education, Labor, and Pensions — the only action the bill ever received [S5].",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "No senator cosponsored the bill [S4].",
+     "sources": [
       "S4"
      ]
     },
     {
-     "text": "The same day, the bill was read twice and referred to the Senate Health, Education, Labor, and Pensions Committee, where it stayed for the rest of the Congress.",
+     "text": "The 118th Congress ended on January 3, 2025 with the bill still in committee; any bill not passed by both chambers dies when a Congress ends [S1].",
      "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "No committee action, floor vote, or cosponsor was ever added; the bill's entire recorded history is two actions, both on the day of introduction.",
-     "sources": [
-      "S4",
-      "S5"
+      "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Pharmacy benefit managers and insurers keep the current rebate system and the revenue that comes with it; drug manufacturers keep using rebates to buy preferred formulary placement. Patients paying list-price copays are where they started."
+   "who_came_out_ahead": "Pharmacy benefit managers and health insurers are better off: the hidden-rebate system that routes manufacturer payments through them stays fully intact, and brand-name drugmakers keep the rebate lever they use to win formulary placement."
   },
-  "who_came_out_ahead_short": "PBMs, insurers, and rebate-paying drugmakers",
+  "who_came_out_ahead_short": "PBMs and health insurers",
   "sides": {
    "for": [
     {
-     "name": "Sen. Josh Hawley",
-     "role": "Sponsor",
+     "name": "Josh Hawley",
+     "role": "U.S. Senator (R-MO), sole sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill and made no recorded follow-up push; it drew zero cosponsors, including none from his own party.",
+     "what_they_did": "Introduced the bill and made no further progress with it; no senator joined him as a cosponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -105,35 +108,24 @@
    ],
    "against": [
     {
-     "name": "Senate Health, Education, Labor, and Pensions Committee",
-     "role": "Committee of referral",
+     "name": "Senate HELP Committee leadership",
+     "role": "Committee where the bill sat without a hearing or markup",
      "party": null,
-     "what_they_did": "Received the bill by referral on the day it was introduced and took no further action — no hearing, no markup, no vote — for the remaining 20 months of the Congress.",
+     "what_they_did": "Never scheduled the bill for committee consideration after its referral on April 19, 2023.",
      "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "name": "Pharmacy benefit managers and health insurers",
-     "role": "Industries the bill would restrict",
-     "party": null,
-     "what_they_did": "No lobbying activity on this bill appears in the provided record, but these industries have the largest financial stake in the rebate system the bill would abolish.",
-     "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "There was never a vote and the sole sponsor recruited no cosponsors from either party, so no partisan split was ever tested."
+   "party_line_note": "No vote was ever taken, so there is no record of how members would have split; the bill had a Republican sponsor and zero cosponsors of either party [S4]."
   },
   "industries": [
    {
-    "industry": "Pharmacy benefit managers (PBMs)",
+    "industry": "Pharmacy benefit managers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Rebate revenue from manufacturers is central to the PBM business model; the bill would ban manufacturers from paying it, including to PBM affiliates and intermediaries. PBMs currently profit from spread between the discounted net price and the higher price patients pay.",
+    "note": "PBMs are the intermediaries that negotiate drug prices for insurers and pharmacies, and manufacturer rebates are a core part of their revenue and their power over which drugs are favored. The bill removes their legal safe harbor for taking those rebates and bars them from receiving them, so their interest ran directly against patients' interest in transparent, lower counter prices.",
     "sources": [
      "S2",
      "S3"
@@ -143,7 +135,7 @@
     "industry": "Health insurers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Insurers directly receive rebates on covered drugs and use them to offset plan costs; the bill bars them from receiving them and from letting their PBM contractors receive them on their behalf.",
+    "note": "Insurers receive manufacturer rebates on covered drugs and use them to offset premiums, but the payments are invisible to patients at the pharmacy counter. The bill would ban plans from receiving these rebates entirely.",
     "sources": [
      "S3"
     ]
@@ -151,34 +143,34 @@
    {
     "industry": "Brand-name drug manufacturers",
     "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "They lose the rebate lever they use to secure favorable formulary placement, but the bill does not force them to lower list prices, so high sticker prices could persist while the middleman cut disappears.",
+    "stance_toward_public": "opposed",
+    "note": "Manufacturers currently pay large rebates to buy favorable formulary placement while keeping list prices high. The bill removes that lever, which pressures them toward lower list prices and upfront discounts — potentially helping uninsured patients most, though they could try to offset losses elsewhere.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Independent community pharmacies",
-    "effect": "gains",
+    "industry": "Community pharmacies",
+    "effect": "mixed",
     "stance_toward_public": "aligned",
-    "note": "Pharmacies are paid based on benchmark prices shaped by the rebate system; removing rebates would make drug pricing more transparent and could improve their reimbursement margins.",
+    "note": "Independent and community pharmacies are squeezed when reimbursement is set against inflated list prices net of PBMs' rebate take. If discounts had to flow at the point of sale, pharmacy reimbursement economics could improve, though the bill does not address this directly.",
     "sources": [
-     "S2"
+     "S3"
     ]
    }
   ],
   "trajectory": null,
   "categories": [
    "healthcare_and_drug_prices",
-   "consumer_protection_and_finance"
+   "corruption_and_ethics"
   ],
   "scores": {
    "public_stakes": 7,
    "concentrated_stakes": 8,
    "outcome_against_public": 7,
    "support_mismatch": 4,
-   "corruption_relevance": 3,
+   "corruption_relevance": 5,
    "confidence": 0.9
   }
  },

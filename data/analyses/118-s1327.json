@@ -1,146 +1,157 @@
 {
  "bill_id": "118-s1327",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:07:36+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:28:44+00:00",
  "record_fetched_at": "2026-09-20T11:23:55+00:00",
  "record_hash": "7e4839e98d6cfee7",
  "analysis": {
-  "one_liner": "Requires credit bureaus to get your permission before selling your credit report to lenders and insurers.",
-  "headline": "The bill never received a vote: it was referred to the Senate Banking Committee and died there when the Congress ended.",
+  "one_liner": "Requires your explicit permission before credit bureaus can share your credit report with anyone.",
+  "headline": "The bill never got a hearing or a vote in the Senate Banking Committee and died when the 118th Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "Today, credit bureaus like Equifax and Experian can sell your credit report to lenders and insurers unless you take action to opt out. This bill would flip that: the bureau would need your affirmative, verified consent before sharing your report for a loan or insurance application, and unsolicited credit and insurance offers could reach you only if you agreed. It would also bar the bureaus from charging consumers fees for managing this consent, require them to take real steps to prevent data breaches of your file, and direct the Government Accountability Office to study what further protections are needed. The bill was referred to the Senate Banking Committee and never received any further action.",
-  "who_benefits": "Ordinary consumers gain control over who can see their credit report: no report could be shared for credit or insurance without their verified consent, they could opt in or out of prescreened offers at any time, and they could not be charged fees for exercising these rights. Their files would also get stronger protection against data breaches.",
-  "who_benefits_short": "Consumers and their personal data",
+  "plain_summary": "Today, credit reporting companies can sell your credit report to lenders, insurers, and marketers unless you tell them to stop. This bill would flip that: nobody could pull your report for a credit or insurance decision, or for unsolicited offers, unless you first gave informed permission and the company verified who you were. It would also ban credit bureaus from charging consumers fees for report-related services and require them to take real steps to prevent data breaches.",
+  "who_benefits": "Ordinary consumers whose credit files are bought and sold without their say-so. Under the bill, your credit report could only be released for a new loan, insurance underwriting, or an unsolicited credit offer if you affirmatively consented and your identity was verified [S2][S3]. You could revoke consent, the process had to be free and accessible by phone or secure electronic means, and bureaus could not charge you any fee for these activities [S3]. Bureaus would also have to use commercially reasonable efforts to prevent unauthorized access to your file, and a GAO study would identify further protections needed [S2][S3].",
+  "who_benefits_short": "Consumers whose credit files are sold",
   "how_it_helps": [
    {
-    "text": "Requires credit bureaus to get a consumer's affirmative, verified consent before sharing that consumer's credit file with lenders or insurers, instead of sharing by default unless the consumer opts out.",
+    "text": "Reverses the default: instead of consumers having to opt out of having their reports shared, credit bureaus would need affirmative, verified consent before sharing a report for credit, insurance underwriting, or unsolicited firm offers [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Lets consumers decide whether their name appears on the lists bureaus sell to companies making unsolicited credit and insurance offers, and to revoke that choice at any time.",
+    "text": "Bans fees: consumer reporting agencies could not charge consumers any fee for activities under the bill, including providing or revoking consent, and bureaus had to offer a secure, cost-free method (toll-free phone or secure electronic means) that takes effect within one business day [S3].",
     "sources": [
-     "S2"
+     "S3"
     ]
    },
    {
-    "text": "Prohibits consumer reporting agencies from charging consumers any fees for these consent-related activities.",
+    "text": "Tightens data security: bureaus must use commercially reasonable efforts to avoid unauthorized access to consumer reports, following Gramm-Leach-Bliley standards, and the GAO must study what further protections are needed for information in consumer files [S2][S3].",
     "sources": [
-     "S2"
+     "S2",
+     "S3"
     ]
    },
    {
-    "text": "Requires credit bureaus to use commercially reasonable efforts to prevent unauthorized access to consumer files, and directs the GAO to study what further protections are needed to keep consumer data secure.",
+    "text": "Cuts unsolicited 'prescreened' credit and insurance offers: a record of inquiries from transactions you did not initiate generally could not be furnished, and your name and address could only appear on marketing lists you elected into [S3].",
     "sources": [
-     "S2"
+     "S3"
     ]
    }
   ],
-  "who_pays": "Credit reporting agencies lose their default right to sell consumer files, and lenders and insurers lose easy access to prescreened prospects, facing new consent requirements and tighter data-security duties.",
-  "who_pays_short": "Credit bureaus and lenders",
+  "who_pays": "Credit reporting agencies like Experian, Equifax, and TransUnion, which would lose the default right to sell consumer reports and marketing lists and would have to build consent-verification systems. Lenders, insurers, and marketers that rely on prescreened lists to find customers would lose that pipeline, and instant credit approvals could get slower when consent must be gathered first [S2][S3].",
+  "who_pays_short": "Credit bureaus, lenders, insurers, marketers",
   "drawbacks": [
    {
-    "text": "Requiring verified consumer consent before every credit pull could slow loan and insurance approvals and add compliance costs that lenders might pass on to borrowers.",
+    "text": "Opt-in consent could slow credit: much of today's lending (pre-approval at a checkout counter, instant insurance quotes) depends on pulling reports without delay; requiring verified consent beforehand could add friction to loans and offers some consumers actually want [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill requires credit and insurance companies to obtain consumer consent for underwriting even for transactions the consumer initiates, a significant operational change for how credit checks have always worked under the opt-out system.",
+    "text": "Compliance costs: bureaus and lenders would have to build consent systems, identity verification, and one-business-day processing, and some of that cost could show up in the price of credit [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "The security mandate is soft: the bill requires 'commercially reasonable efforts' to prevent breaches rather than a hard, enforceable standard, and much of the bill's consumer-protection work is delegated to future CFPB rulemaking [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit to consumers is real: control over who sees their financial data, fewer unsolicited offers, no fees for consent management, and stronger breach-prevention duties. The costs are real too: lenders and insurers would face friction in underwriting, and lenders argue prescreened offers widen access to credit; requiring verified consent before a report can be pulled for a loan could slow approvals and add compliance costs that may be passed on. The bill was never debated, so its practical design was never tested.",
+  "benefit_vs_cost": "For consumers, the upside is real control over who sees their credit file, no fees, and stronger breach protection, at the cost of some friction in getting credit and losing some prescreened offers. The burden falls on a small, concentrated industry that has profited from the current opt-out default, so the trade-off favors ordinary people; the main weakness is that enforcement depends on later regulation and a soft security standard.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The bill was referred to the Senate Banking Committee when introduced, never received a hearing, vote, or floor action, and died when the Congress ended in January 2025.",
+   "mechanism": "The bill was introduced and sent to the Senate Banking Committee, which never considered it, and it expired when the 118th Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "The bill was introduced in the Senate on April 26, 2023, and read twice before being referred to the Committee on Banking, Housing, and Urban Affairs.",
-     "sources": [
-      "S1",
-      "S5"
-     ]
-    },
-    {
-     "text": "No further action was ever recorded: the committee never reported the bill and the full Senate never voted on it.",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "The 118th Congress ended on January 3, 2025, and with it the bill, which would have had to be reintroduced from scratch in the next Congress.",
-     "sources": [
-      "S1"
-     ]
-    }
-   ],
-   "who_came_out_ahead": "The credit bureaus and companies that buy consumer reports continue to operate under the existing opt-out system, selling consumers' credit files without needing their permission. Consumers keep the burden of protecting their own data."
-  },
-  "who_came_out_ahead_short": "Credit bureaus and data buyers",
-  "sides": {
-   "for": [
-    {
-     "name": "Sen. Jack Reed",
-     "role": "U.S. Senator (D-RI), bill sponsor",
-     "party": "D",
-     "what_they_did": "Introduced the bill and secured its referral to the Senate Banking Committee.",
-     "direct": true,
-     "evidence": "record",
+     "text": "Senator Jack Reed introduced the Consumer Credit Control Act of 2023 on April 26, 2023, with Senator Chris Van Hollen as cosponsor [S1][S4].",
      "sources": [
       "S1",
       "S4"
      ]
     },
     {
-     "name": "Sen. Chris Van Hollen",
-     "role": "U.S. Senator (D-MD), cosponsor",
+     "text": "The same day, the Senate read it twice and referred it to the Committee on Banking, Housing, and Urban Affairs; no further action was ever taken on the bill [S5].",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "The committee never held a markup or a vote, and the bill never reached the Senate floor before the Congress ended on January 3, 2025 [S5].",
+     "sources": [
+      "S5"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "Credit bureaus and the lenders, insurers, and marketers that buy prescreened consumer data. Because the bill died, the current opt-out system stays in place and their access to consumer credit files is unchanged."
+  },
+  "who_came_out_ahead_short": "Credit bureaus and data-buying marketers",
+  "sides": {
+   "for": [
+    {
+     "name": "Sen. Jack Reed",
+     "role": "U.S. Senator from Rhode Island",
      "party": "D",
-     "what_they_did": "Co-sponsored the bill at introduction.",
+     "what_they_did": "Introduced the bill and became its sole sponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3"
+      "S4",
+      "S5"
+     ]
+    },
+    {
+     "name": "Sen. Chris Van Hollen",
+     "role": "U.S. Senator from Maryland",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill at introduction.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3",
+      "S4"
      ]
     }
    ],
-   "against": [],
+   "against": [
+    {
+     "name": "Senate Banking, Housing, and Urban Affairs Committee",
+     "role": "Committee of referral (chaired by Sen. Sherrod Brown, D-OH)",
+     "party": null,
+     "what_they_did": "Received the bill on referral and never scheduled a hearing, markup, or vote; it sat there until the Congress ended.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S5"
+     ]
+    }
+   ],
    "party_line": "unclear",
-   "party_line_note": "Both the sponsor and the sole cosponsor were Democrats; the bill never reached a vote, so no roll calls or opposition positions were ever recorded."
+   "party_line_note": "No vote was ever taken; the bill had only two Democratic sponsors and no Republican or additional support, so no partisan split appears in the record."
   },
   "industries": [
    {
-    "industry": "Consumer credit reporting agencies (Equifax, Experian, TransUnion)",
+    "industry": "Consumer reporting agencies (credit bureaus)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The default permission to sell consumers' files to lenders and insurers would become opt-in, free of charge to consumers, with new duties to verify identity, honor consent changes within one business day, and prevent data breaches. Their core business—collecting and furnishing data on ordinary people without asking—would be substantially curtailed.",
+    "note": "Bureaus would lose the default right to sell consumer reports for credit, insurance, and prescreened marketing lists, and would have to build free consent and identity-verification systems. Their data-sale business model depends on the opt-out status quo this bill would have ended [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Banks, credit card issuers, and consumer lenders",
-    "effect": "mixed",
+    "industry": "Lenders, insurers, and marketers using prescreened lists",
+    "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "They could still pull reports with consent for a loan the consumer seeks, but prescreened unsolicited credit offers would require the consumer to opt in first. Firms that rely heavily on prescreen marketing would lose a channel for reaching customers.",
+    "note": "They would lose unsolicited access to consumer files for marketing firm offers, cutting off a major customer-acquisition channel; some consumers would also see fewer pre-approved offers. Legitimate lending would still be possible but only after obtaining consent [S3].",
     "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Insurance companies",
-    "effect": "mixed",
-    "stance_toward_public": "opposed",
-    "note": "Insurance underwriting would likewise require consumer consent, and prescreened insurance offers would be opt-in only. Firms that use credit reports to price policies and mass-market offers would lose access to consumers who never agreed.",
-    "sources": [
-     "S2"
+     "S3"
     ]
    }
   ],
@@ -152,9 +163,9 @@
    "public_stakes": 6,
    "concentrated_stakes": 7,
    "outcome_against_public": 7,
-   "support_mismatch": 4,
+   "support_mismatch": 2,
    "corruption_relevance": 1,
-   "confidence": 0.9
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

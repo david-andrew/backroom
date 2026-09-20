@@ -1,136 +1,125 @@
 {
  "bill_id": "118-hr3899",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:42:55+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T17:58:45+00:00",
  "record_fetched_at": "2026-09-20T11:37:02+00:00",
  "record_hash": "b5f17b1d19b16659",
  "analysis": {
-  "one_liner": "Sends families a fully refundable monthly child tax credit, up to $300 per child.",
-  "headline": "The bill drew 211 House cosponsors, all Democrats, and was referred to the Ways and Means Committee on its introduction day, where no hearing, markup, or vote ever followed before the Congress ended.",
+  "one_liner": "Sends families a fully refundable monthly tax credit of up to $300 per child.",
+  "headline": "The bill had 211 cosponsors — 211 of 216 House Democrats — but never received a hearing, markup, or vote in the Ways and Means Committee before the Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would replace today's child tax credit with a larger, fully refundable one paid monthly: $250 a month for each child age 6 through 17, $300 a month for each child under 6, and a $2,000 payment for the first month of a newborn's life. The full credit would go to families below $150,000 (joint) or $112,500 (single) in income, phase down gradually above that, and disappear only above $400,000 (joint) or $200,000 (single). It also adds a $500 credit for other dependents and directs the Treasury to deliver the credit as monthly payments through an online enrollment portal, with the amounts rising each year with inflation. The bill text contains no tax increases or spending cuts to pay for it.",
-  "who_benefits": "Families with children under 18, most directly those with low and moderate incomes: the credit is fully refundable, so a family owing little or no income tax still receives the full monthly amount, and payments arrive monthly rather than as a once-a-year tax refund. Parents of newborns get an extra-large first-month payment, and families caring for non-child dependents get a $500 credit.",
-  "who_benefits_short": "Families with children, especially low-income ones",
+  "plain_summary": "The American Family Act would replace the existing child tax credit with a new, fully refundable monthly credit: $250 per month for each child age 6 to 17 and $300 per month for each child under 6, sent throughout the year rather than once at tax time. Because the credit is fully refundable, families with little or no income tax bill would still get the full amount. It also adds a $500 credit for other dependents, adjusts the amounts for inflation, and phases down only for higher incomes. The bill was referred to the House Ways and Means Committee on the day it was introduced and never moved again.",
+  "who_benefits": "Families with children, especially low- and middle-income families. Full refundability means the families with the least income — who currently get little or nothing from the child tax credit — would get the full monthly payments, and monthly delivery spreads the money across the year instead of one tax-season lump sum.",
+  "who_benefits_short": "Low- and middle-income families with children",
   "how_it_helps": [
    {
-    "text": "Creates a fully refundable child tax credit of $250 per month for each child age 6 or older and $300 per month (120% of $250) for each child under 6, with the first month of a newborn's life paid at 800% of the $250 rate ($2,000), so the credit goes to families regardless of how much tax they owe.",
+    "text": "Creates a monthly credit of $250 per child age 6 to 17 and $300 per child under 6, paid monthly rather than once a year.",
     "sources": [
-     "S3",
-     "S2"
+     "S2",
+     "S3"
     ]
    },
    {
-    "text": "Replaces the annual-credit structure with a Treasury-run program of monthly advance payments, including a presumptive-eligibility system, automatic enrollment after a birth, an online portal available in multiple languages, and grace periods of 3 to 6 months when a family misses a renewal.",
+    "text": "Makes the credit fully refundable, so families with little or no federal income tax liability receive the full amount — the current credit gives the least to the families with the least income.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Adds a $500 nonrefundable credit for other dependents, such as older teens in school or adult dependents.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The credit phases down with income but never below the equivalent of $2,000 per child per year until household income exceeds $400,000 (joint) or $200,000 (single), and amounts are indexed to inflation starting in 2024.",
+    "text": "Indexes the credit amounts and income thresholds to inflation, and includes protections against payments being garnished by most creditors.",
     "sources": [
      "S3"
-    ]
-   },
-   {
-    "text": "Adds a $500 credit for certain other dependents, such as elderly or disabled relatives cared for by the taxpayer.",
-    "sources": [
-     "S3",
-     "S2"
     ]
    }
   ],
-  "who_pays": "The federal Treasury, and ultimately taxpayers, because the bill text contains no offsetting tax increases or spending cuts; the credit is deficit-financed. High-income households give up part of the credit through the income phase-downs, and a permanent expansion on this scale would increase federal deficits substantially.",
-  "who_pays_short": "Federal taxpayers, through higher deficits",
+  "who_pays": "The bill contains no tax increase or spending cut to offset its cost, so the expense would be carried by federal borrowing — spread across taxpayers generally and future budgets — unless Congress separately passed legislation to pay for it. Households above the income thresholds ($150,000 for married couples, $112,500 for others before phase-downs begin) would receive reduced or no payments.",
+  "who_pays_short": "Federal taxpayers, through deficit borrowing",
   "drawbacks": [
    {
-    "text": "The bill contains no revenue provisions at all — it creates the credit without any tax increase or spending cut to offset it — so a permanent expansion of roughly this scale would add on the order of $100 billion a year to federal deficits.",
+    "text": "The bill has no revenue offset: it creates a large permanent benefit solely by adding to the deficit, leaving the question of who eventually pays for it to future legislation.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Today's child tax credit is worth the most to families that owe income tax, and its refundable portion is tied to earnings; the new fully refundable credit decouples the money from work, an objection its critics have consistently raised and an honest supporter must weigh against the poverty reduction.",
+    "text": "Monthly advance payments are based on prior-year income, so families whose income rises during the year — or who marry or change filing status — can receive too much and owe some of it back at tax time.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Monthly advance payments create recapture risk: a family whose income rises sharply mid-year or whose filing status changes can owe back some of the money it already received.",
+    "text": "Payments phase down for higher-income households, and eligibility depends on annual renewal and documentation rules that could cause some eligible families to miss payments.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit side is large and direct: cash to nearly every family with children, with the biggest gains for families the current credit reaches least. The cost is real and the bill does not address it — no offsets, a permanent open-ended entitlement indexed to inflation. It was also written as a single-party bill with no Republican cosponsors, which both reflected and guaranteed its fate.",
+  "benefit_vs_cost": "The direct benefit to families with children is large and well-targeted: full refundability concentrates the money on families with the least income, and monthly delivery makes it usable for rent, food, and childcare as those bills come due. The serious weakness is the financing — the bill provides a permanent entitlement with no dedicated revenue, so the roughly hundred-billion-dollar-a-year cost would be added to the deficit unless separately offset. An honest case for the bill has to argue that the anti-poverty benefit justifies the borrowing, or that Congress should pair it with revenue measures; the bill itself does not do the latter.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was referred to the House Ways and Means Committee the day it was introduced and sat there, without a hearing, markup, or floor vote, until the Congress ended.",
+   "mechanism": "The bill sat in the House Ways and Means Committee from the day it was introduced until the Congress ended — no hearing, no markup, no floor vote.",
    "narrative": [
     {
-     "text": "The bill was introduced on June 7, 2023, and referred to the House Committee on Ways and Means the same day.",
+     "text": "Rosa DeLauro introduced the American Family Act in the House on June 7, 2023, and it was referred the same day to the House Committee on Ways and Means, which holds jurisdiction over tax credits.",
      "sources": [
       "S1",
       "S5"
      ]
     },
     {
-     "text": "Its only two actions in the entire 118th Congress are the introduction and that committee referral; no hearing, markup, committee vote, or floor action ever occurred.",
+     "text": "211 of the 216 House Democrats signed on as cosponsors — essentially the entire Democratic caucus — along with the sponsor; no Republicans cosponsored.",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "The committee took no further action of any kind: the full action history shows only the introduction and the referral to committee.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "It accumulated 211 cosponsors, all of them Democrats, including the House Democratic leadership, but no Republicans.",
+     "text": "The 118th Congress ended on January 3, 2025, and the bill died in committee without ever reaching the House floor.",
      "sources": [
-      "S4",
-      "S3"
-     ]
-    },
-    {
-     "text": "The 118th Congress ended January 3, 2025, without the committee ever taking up the bill.",
-     "sources": [
-      "S1"
+      "S1",
+      "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "No family gained the monthly payments, because the bill never moved. The federal Treasury was spared the added deficit spending, and families that owe substantial income tax kept the existing credit structure, which pays them more per child than it pays low-income families. The Ways and Means majority also kept a single-party tax bill off the committee agenda without having to vote against it."
+   "who_came_out_ahead": "No industry or interest gained from the bill's death — the status quo simply held. Families with children forwent the monthly payments, and the immediate beneficiaries of inaction were those opposed to expanding deficit-financed spending, since the bill contained no revenue offset for its cost."
   },
-  "who_came_out_ahead_short": "The Treasury spared spending; the agenda-holder",
+  "who_came_out_ahead_short": "Deficit status quo; families lost the payments",
   "sides": {
    "for": [
     {
      "name": "Rosa DeLauro",
-     "role": "Lead sponsor, U.S. Representative (D-CT)",
+     "role": "U.S. Representative (D-CT); bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the American Family Act and recruited 210 cosponsors, continuing her years-long push to make the expanded 2021 child tax credit permanent.",
+     "what_they_did": "Introduced the American Family Act and organized the near-unanimous Democratic sponsorship.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3"
-     ]
-    },
-    {
-     "name": "Suzan DelBene and Ritchie Torres",
-     "role": "Co-lead original cosponsors, U.S. Representatives (D-WA, D-NY)",
-     "party": "D",
-     "what_they_did": "Joined as the first-named cosponsors on the introduction.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S3"
-     ]
-    },
-    {
-     "name": "House Democratic leadership and caucus",
-     "role": "211 cosponsors, including Hakeem Jeffries, Nancy Pelosi, and Steny Hoyer",
-     "party": "D",
-     "what_they_did": "Signed on as cosponsors, including the party's top three House leaders, but the bill never received committee or floor action during their minority.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
       "S3",
+      "S5"
+     ]
+    },
+    {
+     "name": "211 of 216 House Democrats",
+     "role": "House Democratic caucus cosponsors",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill — 211 of the 216 House Democrats then serving, with no Republican cosponsors.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
       "S4"
      ]
     }
@@ -140,45 +129,39 @@
      "name": "Jason Smith",
      "role": "Chair, House Ways and Means Committee",
      "party": "R",
-     "what_they_did": "Never scheduled the bill for a hearing, markup, or committee vote during the two and a half years it sat in his committee.",
+     "what_they_did": "Chaired the committee to which the bill was referred; the committee never held a hearing or markup and the bill never left committee.",
      "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S5"
-     ]
+     "evidence": "widely_reported",
+     "sources": []
     },
     {
      "name": "House Republican majority",
-     "role": "Controlled the House floor and committee agendas in the 118th Congress",
-     "party": "R",
-     "what_they_did": "Allowed no consideration of the bill; no Republican cosponsored it and no floor vote was ever scheduled.",
+     "role": "Held the House majority and controlled the floor agenda in the 118th Congress",
+     "party": null,
+     "what_they_did": "Never brought the bill to the House floor, which it could not have reached without favorable committee action.",
      "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
-      "S4",
-      "S5"
-     ]
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
    "party_line": "party_line",
-   "party_line_note": "All 211 cosponsors were Democrats and none was a Republican, and the bill was referred to a committee chaired by a Republican who took no action on it."
+   "party_line_note": "Support was almost entirely one-sided: 211 of 216 House Democrats cosponsored and no Republican signed on, and with Republicans holding the House majority and the Ways and Means chair, the bill never advanced."
   },
   "industries": [
    {
-    "industry": "High-income households",
+    "industry": "Federal Treasury and future taxpayers",
     "effect": "loses",
     "stance_toward_public": "mixed",
-    "note": "The credit would phase down above $150,000 (joint) and disappear above $400,000 (joint), so wealthy families would lose the largest credits they can currently claim per child. Their broader interest in lower deficits, however, argues the other way, since the bill is deficit-financed.",
+    "note": "The bill creates a permanent monthly child benefit with no tax increase or spending cut to pay for it, so the cost would be financed by borrowing. The same families the bill helps are also part of the taxpaying public that ultimately carries federal debt.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Taxpayer-funded federal budget",
+    "industry": "Higher-income households (above roughly $150,000-$400,000 depending on filing status)",
     "effect": "loses",
     "stance_toward_public": "aligned",
-    "note": "The bill creates a large permanent, inflation-indexed entitlement with no offsets in the bill text; the cost falls on the Treasury and, over time, on taxpayers generally. This is the standard trade-off of any large social spending bill, not a transfer to a private industry.",
+    "note": "The credit phases down and phases out above income thresholds, so affluent households would receive little or nothing while the benefit is concentrated on lower- and middle-income families.",
     "sources": [
      "S3"
     ]
@@ -186,16 +169,15 @@
   ],
   "trajectory": null,
   "categories": [
-   "social_safety_net",
-   "taxes_on_wealth_and_corporations"
+   "social_safety_net"
   ],
   "scores": {
    "public_stakes": 8,
    "concentrated_stakes": 3,
    "outcome_against_public": 8,
-   "support_mismatch": 8,
+   "support_mismatch": 7,
    "corruption_relevance": 1,
-   "confidence": 0.9
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

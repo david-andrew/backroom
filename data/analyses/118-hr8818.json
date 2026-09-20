@@ -1,140 +1,125 @@
 {
  "bill_id": "118-hr8818",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T12:03:38+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T18:18:00+00:00",
  "record_fetched_at": "2026-09-20T11:22:40+00:00",
  "record_hash": "2e37fdf14e32f739",
  "analysis": {
-  "one_liner": "Gives Americans legal rights over their personal data and restricts how companies collect and sell it.",
-  "headline": "A bipartisan House privacy bill backed by the Energy and Commerce chair and the committee's top Democrat never received a committee vote, and died when the 118th Congress ended in January 2025.",
+  "one_liner": "Gives Americans enforceable rights over their personal data and restricts how companies collect, share, and sell it.",
+  "headline": "The bill died in committee at the end of 2024 with no committee vote and no floor vote, despite being sponsored jointly by the chair and top Democrat of the committee that would handle it.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would give people nationwide the right to see, correct, delete, and take with them the personal data companies hold about them. It would require companies to collect only the data they actually need, get clear permission before handling sensitive information like health records, precise location, biometrics, and private messages, and ban the sale of biometric and genetic data outright. It adds special protections for children and teens, requires plain-language privacy policies, and lets the Federal Trade Commission, state attorneys general, and in narrow cases individuals enforce the rules. Small businesses under $40 million in revenue are exempt.",
-  "who_benefits": "Ordinary internet users. Anyone who uses apps, websites, phones, or connected devices would gain enforceable rights over their data, and parents would gain new controls over what companies collect from children and teenagers. People are especially protected on the most sensitive categories: health conditions, precise location, biometric identifiers, genetic data, private messages, and even neural data.",
-  "who_benefits_short": "Everyday internet users and families",
+  "plain_summary": "This bill would give every American the right to see, correct, delete, and export the personal data companies hold on them, and to opt out of targeted advertising. It would require companies to ask permission before collecting sensitive data like health records, genetic information, face scans, and precise location, and it would put new limits on data brokers that buy and sell people's information. It was written together by the Republican chair and the Democratic ranking member of the House committee in charge, but it never got a markup or a vote before the two-year Congress ended.",
+  "who_benefits": "Ordinary internet users and phone owners. The bill would let anyone request the data a company holds about them, get it deleted or corrected, and take it to a competitor. Companies would need clear, specific permission before collecting health information, genetic data, biometrics like face or voice prints, precise location, or data about kids and teens, and refusing could not be harder than agreeing. Data brokers that profit by trading in people's information would face the tightest rules, and the FTC and state attorneys general could enforce the law.",
+  "who_benefits_short": "Everyday internet and app users",
   "how_it_helps": [
    {
-    "text": "Companies could only collect, keep, and share data that is 'necessary, proportionate, and limited' to providing the service a person asked for or another specifically permitted purpose.",
+    "text": "Every individual gets rights to access, correct, delete, and export the data companies hold, with large data holders and data brokers required to respond within 30 days.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Individuals would gain the right to access, correct, delete, and export the data a company holds on them, with responses required within 30 days for large data holders and data brokers and 45 days for others; the first three requests per year are free.",
+    "text": "Companies may only collect data that is necessary for the service a person asked for, and must get affirmative express consent before collecting or transferring sensitive data such as health, genetic, biometric, and precise location information.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Transferring sensitive data to third parties would require the person's clear, affirmative consent, and biometric and genetic information could never be transferred for payment or anything of value.",
+    "text": "Individuals can opt out of targeted advertising, and companies must make saying no at least as easy as saying yes, with no more than one extra step.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Covered entities include common carriers and nonprofits, not just traditional FTC-jurisdiction firms, so telephone and internet carriers are covered alongside websites and apps.",
+    "text": "Data brokers are specially defined and regulated, privacy policies must name every broker a company sells to, and the bill adds privacy protections for children under 13 and teens under 17, including deletion rights for content posted as a minor.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill would require large data holders (roughly $250 million or more in annual revenue with millions of users) to publish easy-to-read privacy policies and keep a public log of every change for ten years.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Enforcement would come from three directions: the FTC, state attorneys general, and private lawsuits in limited circumstances.",
+    "text": "The FTC, state attorneys general, and private individuals can all sue to enforce the rights, and companies cannot force users to waive them or deny service to people who refuse.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Large data companies: social media platforms, advertising-technology firms, and data brokers would bear compliance costs and lose revenue from unrestricted collection and resale of personal data, especially targeted advertising built on tracking people across sites. Some of those costs could reach consumers through prices or ad-supported services.",
-  "who_pays_short": "Big tech, ad-tech, and data brokers",
+  "who_pays": "Companies whose business runs on collecting and monetizing personal data: online advertising networks, data brokers, and large social media platforms. They would face new consent requirements, data minimization limits, security duties, and FTC enforcement. Consumers could also see some of these compliance costs passed on, and advertisers would rely more on context and first-party data than on tracking people across the web.",
+  "who_pays_short": "Data brokers and ad-tracking companies",
   "drawbacks": [
    {
-    "text": "Private lawsuits are limited to a defined 'substantial privacy harm' — financial harm of at least $10,000, or serious physical or mental harm such as injury or highly offensive intrusion. A person whose data was misused in an ordinary way with no provable $10,000 loss could not sue, so most enforcement would depend on the FTC and state attorneys general.",
+    "text": "The bill would preempt state privacy laws, which critics, including California officials, warned could leave residents of states with stronger protections, like California's, worse off than under current law.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill would terminate the FTC's pending rulemaking on commercial surveillance and data security, replacing an in-progress agency process with whatever the statute itself provides.",
+    "text": "The bill would terminate the FTC's ongoing rulemaking on commercial surveillance and data security, trading away a regulatory process already underway in exchange for the statutory framework.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill's 'Relation to other laws' section would set one national standard in place of the current patchwork of state privacy rules; if the federal floor ended up weaker than laws some states have already passed, people in those states could lose protections they have today.",
+    "text": "A private right of action is limited to substantial privacy harms, defined as at least $10,000 in financial harm or specific physical or mental harms, which civil-rights-minded critics said would be too narrow for most people to use in court.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Compliance would be costly for covered companies, and businesses with under $40 million in revenue are fully exempt, which leaves a large slice of the app and website economy outside the rules' reach.",
+    "text": "Businesses below the thresholds, and companies generally, would bear real compliance costs to build consent systems, respond to deletion requests, and rewrite privacy practices in ten languages.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "For individuals, the rights granted are substantial and the direct cost to them is essentially none; the strongest honest objections are design ones, not the goal. Weak private enforcement, the end of the FTC's surveillance rulemaking, and unresolved state preemption mean the bill would rely heavily on federal and state regulators to do its work, and the question of whether it would override stronger state laws like California's was the most contested design issue. The core protections — consent for sensitive data, a ban on selling biometric and genetic data, and real rights to delete and export data — are meaningful and would have applied nationwide.",
+  "benefit_vs_cost": "The core protections are strong and directly address something almost every American experiences: companies gathering and selling personal data with little control by the person it belongs to. The honest tradeoffs are real. Federal preemption could reduce protections in states that currently have stronger laws, the bill ends the FTC's existing surveillance rulemaking, and the private lawsuit right is narrow. Whether the package is a net win depends a lot on how the FTC writes its rules and enforces it. On balance, the rights created here are the kind consumers cannot get in any other single step.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The bill was referred to the House Energy and Commerce Committee the day it was introduced, the committee never scheduled a markup or vote on it, and it died there when the 118th Congress ended on January 3, 2025.",
+   "mechanism": "It was introduced and referred to the House Energy and Commerce Committee in June 2024, and with no markup and no floor vote ever scheduled, it expired when the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "Representative Cathy McMorris Rodgers introduced the American Privacy Rights Act of 2024 on June 25, 2024, joined as original cosponsors by Representatives Frank Pallone, Gus Bilirakis, and Jan Schakowsky — the Energy and Commerce Committee's chair and ranking member among them.",
+     "text": "The bill was introduced on June 25, 2024, with bipartisan sponsorship from the House Energy and Commerce Committee's top two members, Cathy McMorris Rodgers and Frank Pallone, plus Gus Bilirakis and Jan Schakowsky.",
      "sources": [
       "S1",
-      "S2",
-      "S3",
-      "S4"
+      "S2"
      ]
     },
     {
-     "text": "The bill was referred to the House Committee on Energy and Commerce on the day of introduction.",
+     "text": "The same day, it was referred to the House Committee on Energy and Commerce, and that was the only action it ever received.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "No further action was ever taken: no subcommittee or full committee markup, no floor vote, and no Senate companion activity appears in the bill's action history.",
+     "text": "No committee markup, committee vote, or floor vote ever took place, and the bill died when the 118th Congress ended on January 3, 2025.",
      "sources": [
       "S4"
-     ]
-    },
-    {
-     "text": "The 118th Congress ended on January 3, 2025, and the bill expired without a vote.",
-     "sources": [
-      "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Data brokers, advertising-technology companies, and large platforms came out ahead: the data-collection and targeted-advertising practices the bill would have restricted continued unregulated at the federal level, and Americans gained no new privacy rights. Consumers, and regulators who had pushed for a national standard, came out with nothing."
+   "who_came_out_ahead": "Data brokers, online advertisers, and large platforms that profit from personal data are better off, since no national privacy law restricts them, and small businesses avoided new compliance costs. Ordinary Americans gained nothing, because the rights the bill created never took effect."
   },
-  "who_came_out_ahead_short": "Data brokers and ad-tech firms",
+  "who_came_out_ahead_short": "Data brokers and ad-tracking platforms",
   "sides": {
    "for": [
     {
      "name": "Cathy McMorris Rodgers",
      "role": "Chair, House Energy and Commerce Committee",
      "party": "R",
-     "what_they_did": "Introduced the bill and was its lead sponsor; despite chairing the committee of referral, never brought it to a markup or vote.",
+     "what_they_did": "Sponsored the bill and introduced it with bipartisan cosponsors as the committee's top Republican.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
       "S2",
-      "S3",
-      "S4"
+      "S3"
      ]
     },
     {
      "name": "Frank Pallone",
      "role": "Ranking Member, House Energy and Commerce Committee",
      "party": "D",
-     "what_they_did": "Signed on as an original cosponsor, giving the bill bipartisan support from the top of the committee of referral.",
+     "what_they_did": "Cosponsored the bill as the committee's top Democrat, making the effort a joint chair-and-ranking-member project.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -144,9 +129,9 @@
     },
     {
      "name": "Gus Bilirakis",
-     "role": "House Representative (FL), Energy and Commerce member",
+     "role": "House Energy and Commerce subcommittee chair",
      "party": "R",
-     "what_they_did": "Original cosponsor of the bill.",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -155,9 +140,9 @@
     },
     {
      "name": "Jan Schakowsky",
-     "role": "House Representative (IL), Energy and Commerce member",
+     "role": "House Energy and Commerce member",
      "party": "D",
-     "what_they_did": "Original cosponsor of the bill.",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -167,62 +152,69 @@
    ],
    "against": [
     {
-     "name": "House Energy and Commerce Committee",
-     "role": "Committee of referral",
-     "party": null,
-     "what_they_did": "Referred the bill on its introduction date and never scheduled a markup or vote during the remainder of the 118th Congress.",
+     "name": "House Republican leadership",
+     "role": "House Speaker and floor schedulers",
+     "party": "R",
+     "what_they_did": "Never scheduled a markup or a floor vote, leaving the bill to die at the end of the session with only one action on its record.",
      "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
+     "evidence": "widely_reported",
+     "sources": []
     },
     {
-     "name": "Large internet, advertising, and data broker companies",
-     "role": "Opposition to comprehensive federal privacy legislation",
+     "name": "Gavin Newsom",
+     "role": "Governor of California",
+     "party": "D",
+     "what_they_did": "Publicly opposed the bill's preemption of state privacy laws, including California's, and urged changes to protect them.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
+    },
+    {
+     "name": "Online advertising and tech industry",
+     "role": "Ad networks, data brokers, and large platforms",
      "party": null,
-     "what_they_did": "Opposed comprehensive privacy legislation of this kind through lobbying and public objections, and no committee ever moved the bill.",
+     "what_they_did": "Lobbied against a national privacy law that would restrict targeted advertising and the trade in personal data.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "The bill's four named backers split evenly, two Republicans and two Democrats, and included both the chair and ranking member of the committee that would have considered it."
+   "party_line_note": "The bill's sponsor was the committee's Republican chair and its lead cosponsor the committee's Democratic ranking member, with cosponsors from both parties, yet only 3 members signed on total (2 of 216 House Democrats and 1 of 224 House Republicans), and no vote ever separated the parties."
   },
   "industries": [
    {
     "industry": "Data brokers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Data brokers make their principal revenue processing and transferring data they did not collect directly from the people it describes. The bill would subject them to deadlines on deletion and access requests, require companies to disclose by name which data brokers they sell to, and ban transferring data to brokers for many sensitive purposes. People gain control over data that is currently bought and sold without their knowledge.",
+    "note": "The bill defines data brokers, requires privacy policies to name each one a company sells to, and blocks transfers of sensitive data without explicit consent. Their revenue comes from trading in personal information people never agreed to sell.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Digital advertising and ad-tech",
+    "industry": "Online advertising and ad-tech platforms",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Targeted advertising under the bill would be limited to data already collected lawfully, excluded for anyone who opts out, and banned entirely for children and teens, with universal opt-out mechanisms required. This directly constrains the cross-site tracking that funds much of the free internet's advertising business.",
+    "note": "Individuals could opt out of targeted advertising outright, and data collection would be limited to what is necessary for the service requested. That strikes at the cross-site tracking that funds much of the online ad industry.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Large technology platforms and social media companies",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "Companies with $3 billion or more in global revenue and 300 million or more users face heightened duties, and large data holders ($250 million-plus revenue with millions of users) must publish short-form notices and decade-long logs of privacy policy changes. The compliance and liability burden falls on the biggest firms, some of which may pass costs to users through ads or prices.",
+    "industry": "Large social media and tech platforms",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "They would face consent requirements, data minimization, and special duties as large data holders, but federal preemption of state laws would replace the state-by-state patchwork they dislike. On net, the targeted-advertising and tracking restrictions are the bigger cost.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Biometric and genetic data handlers",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "Collecting or processing biometric or genetic information would require affirmative express consent, and transferring it for payment or anything of value would be prohibited outright. Firms built on monetizing faces, voices, fingerprints, or DNA would lose that market.",
+    "industry": "Small online businesses",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "Businesses under $40 million in revenue with limited data holdings are excluded from the bill entirely, sparing them compliance costs while larger competitors absorb the new rules.",
     "sources": [
      "S2"
     ]
@@ -234,12 +226,12 @@
    "other"
   ],
   "scores": {
-   "public_stakes": 8,
+   "public_stakes": 7,
    "concentrated_stakes": 8,
    "outcome_against_public": 8,
    "support_mismatch": 7,
    "corruption_relevance": 2,
-   "confidence": 0.75
+   "confidence": 0.82
   }
  },
  "unresolved_citations": []
