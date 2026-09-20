@@ -67,3 +67,12 @@ def run(congress: int, limit: int | None = None, min_score: int = 12, model_id: 
     shortlist = [s for s in done.values() if s["public_benefit"] + s["concentrated_cost"] >= min_score]
     print(f"  shortlist: {len(shortlist)} bills with combined score >= {min_score}")
     return shortlist
+
+
+def threshold_table(congress: int) -> None:
+    """How many bills each combined-score cutoff would keep; helps pick --min-score."""
+    p = config.TRIAGE_DIR / f"{congress}.json"
+    if not p.exists():
+        return
+    scores = [s["public_benefit"] + s["concentrated_cost"] for s in json.loads(p.read_text())["scores"]]
+    print("  bills kept at each cutoff:", "  ".join(f">={t}:{sum(1 for x in scores if x >= t)}" for t in (10, 12, 14, 16, 18)))

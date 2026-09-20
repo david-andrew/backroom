@@ -36,6 +36,7 @@ def main() -> None:
     t = sub.add_parser("triage"); t.add_argument("congress", type=int); t.add_argument("--limit", type=int)
     t.add_argument("--min-score", type=int, default=12); t.add_argument("--model", default=config.TRIAGE_MODEL)
     t.add_argument("--fetch", action="store_true", help="also fetch + analyze the shortlist")
+    t.add_argument("--top", type=int, default=30, help="how many shortlisted bills to print")
     g = sub.add_parser("glossary"); g.add_argument("--force", action="store_true"); g.add_argument("--model", default=config.TRIAGE_MODEL)
     mm = sub.add_parser("members"); mm.add_argument("--force", action="store_true", help="refetch the member roster")
     sub.add_parser("build")
@@ -44,7 +45,8 @@ def main() -> None:
 
     if args.cmd in ("fetch", "all"):
         client = CongressClient()
-        for s in (getattr(args, "bills", None) or seeds()):
+        # Default: every seed plus every bill triage has already pulled in, so the weekly refresh keeps them current.
+        for s in (getattr(args, "bills", None) or sorted(set(seeds()) | set(fetched_slugs()))):
             bid = BillId.parse(s)
             print(f"fetch {bid.slug}")
             rec = client.fetch_bill(bid, force=args.force)
@@ -62,8 +64,9 @@ def main() -> None:
             print(f"  ! {len(failed)} bill(s) failed: {', '.join(failed)}")
     if args.cmd == "triage":
         shortlist = triage.run(args.congress, limit=args.limit, min_score=args.min_score, model_id=args.model)
-        for s in shortlist[:30]:
+        for s in shortlist[:args.top]:
             print(f"  {s['public_benefit']+s['concentrated_cost']:>2}  {s['bill']:<12} {s['title'][:70]}")
+        triage.threshold_table(args.congress)
         if args.fetch:
             client = CongressClient()
             for s in shortlist:
