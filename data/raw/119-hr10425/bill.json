@@ -1,0 +1,55 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/119/hr/10425/actions?format=json"
+  },
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/119/hr/10425/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/119/hr/10425/cosponsors?format=json"
+  },
+  "introducedDate": "2026-09-16",
+  "latestAction": {
+   "actionDate": "2026-09-16",
+   "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Natural Resources, Agriculture, and Transportation and Infrastructure, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10425",
+  "number": "10425",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "sponsors": [
+   {
+    "bioguideId": "C001117",
+    "district": 6,
+    "firstName": "Sean",
+    "fullName": "Rep. Casten, Sean [D-IL-6]",
+    "isByRequest": "N",
+    "lastName": "Casten",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/C001117?format=json"
+   }
+  ],
+  "title": "To restore and strengthen the obligation of the Environmental Protection Agency to protect human health and the environment, to halt unlawful deregulatory actions, to require enforcement of the Clean Air Act, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/hr/10425/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-17T08:07:29Z",
+  "updateDateIncludingText": "2026-09-17T08:07:29Z"
+ },
+ "request": {
+  "billNumber": "10425",
+  "billType": "hr",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/119/s/1041/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1041/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/1041/cosponsors?format=json"
+  },
+  "introducedDate": "2025-03-13",
+  "latestAction": {
+   "actionDate": "2026-07-21",
+   "actionTime": "19:23:50",
+   "text": "Held at the desk."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1041",
+  "number": "1041",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/1041/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001056",
+    "firstName": "John",
+    "fullName": "Sen. Cornyn, John [R-TX]",
+    "isByRequest": "N",
+    "lastName": "Cornyn",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/C001056?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/119/s/1041/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1041/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/1041/text?format=json"
+  },
+  "title": "Affordable Prescriptions for Patients Act",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/119/s/1041/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "1041",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

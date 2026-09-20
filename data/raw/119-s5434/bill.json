@@ -1,0 +1,54 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/5434/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/5434/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/5434/cosponsors?format=json"
+  },
+  "introducedDate": "2026-09-17",
+  "latestAction": {
+   "actionDate": "2026-09-17",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/5434",
+  "number": "5434",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "sponsors": [
+   {
+    "bioguideId": "W000800",
+    "firstName": "Peter",
+    "fullName": "Sen. Welch, Peter [D-VT]",
+    "isByRequest": "N",
+    "lastName": "Welch",
+    "party": "D",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/W000800?format=json"
+   }
+  ],
+  "title": "A bill to amend title VI of the Public Utility Regulatory Policies Act of 1978 to establish a Federal renewable electricity standard for retail electricity suppliers, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/5434/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-18T10:56:26Z",
+  "updateDateIncludingText": "2026-09-18T10:56:26Z"
+ },
+ "request": {
+  "billNumber": "5434",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

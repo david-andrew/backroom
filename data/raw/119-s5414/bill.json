@@ -1,0 +1,54 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/5414/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/5414/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/5414/cosponsors?format=json"
+  },
+  "introducedDate": "2026-09-16",
+  "latestAction": {
+   "actionDate": "2026-09-16",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/5414",
+  "number": "5414",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "sponsors": [
+   {
+    "bioguideId": "S001194",
+    "firstName": "Brian",
+    "fullName": "Sen. Schatz, Brian [D-HI]",
+    "isByRequest": "N",
+    "lastName": "Schatz",
+    "party": "D",
+    "state": "HI",
+    "url": "https://api.congress.gov/v3/member/S001194?format=json"
+   }
+  ],
+  "title": "A bill to amend the Fair Labor Standards Act of 1938 to enhance penalties for child labor law violations, to assist employers in avoiding such violations, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/5414/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-17T10:56:28Z",
+  "updateDateIncludingText": "2026-09-17T10:56:28Z"
+ },
+ "request": {
+  "billNumber": "5414",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

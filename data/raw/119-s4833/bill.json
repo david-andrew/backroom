@@ -1,0 +1,66 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/4833/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4833/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/119/s/4833/cosponsors?format=json"
+  },
+  "introducedDate": "2026-06-18",
+  "latestAction": {
+   "actionDate": "2026-06-18",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4833",
+  "number": "4833",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000133",
+    "firstName": "Edward",
+    "fullName": "Sen. Markey, Edward J. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "Markey",
+    "middleName": "J.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/M000133?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4833/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4833/text?format=json"
+  },
+  "title": "No Robot Bosses Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/4833/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-07-15T15:32:16Z",
+  "updateDateIncludingText": "2026-07-15T15:32:16Z"
+ },
+ "request": {
+  "billNumber": "4833",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

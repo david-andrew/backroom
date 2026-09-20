@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/4122/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4122/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/4122/cosponsors?format=json"
+  },
+  "introducedDate": "2026-03-17",
+  "latestAction": {
+   "actionDate": "2026-03-17",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4122",
+  "number": "4122",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4122/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000133",
+    "firstName": "Edward",
+    "fullName": "Sen. Markey, Edward J. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "Markey",
+    "middleName": "J.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/M000133?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4122/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4122/text?format=json"
+  },
+  "title": "Equal Tax Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/4122/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-03-31T21:35:34Z",
+  "updateDateIncludingText": "2026-03-31T21:35:34Z"
+ },
+ "request": {
+  "billNumber": "4122",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

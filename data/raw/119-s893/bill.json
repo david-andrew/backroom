@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/893/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/893/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/119/s/893/cosponsors?format=json"
+  },
+  "introducedDate": "2025-03-06",
+  "latestAction": {
+   "actionDate": "2025-03-06",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (Sponsor introductory remarks on measure: CR S1606-1607)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/893",
+  "number": "893",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000145",
+    "firstName": "Alex",
+    "fullName": "Sen. Padilla, Alex [D-CA]",
+    "isByRequest": "N",
+    "lastName": "Padilla",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/P000145?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/119/s/893/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/893/text?format=json"
+  },
+  "title": "Guaranteeing Overtime for Truckers Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/893/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-07-01T11:06:18Z",
+  "updateDateIncludingText": "2025-07-01T11:06:18Z"
+ },
+ "request": {
+  "billNumber": "893",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

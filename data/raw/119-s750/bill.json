@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/750/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/750/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/750/cosponsors?format=json"
+  },
+  "introducedDate": "2025-02-26",
+  "latestAction": {
+   "actionDate": "2025-02-26",
+   "text": "Read twice and referred to the Committee on Finance. (Sponsor introductory remarks on measure: CR S1399-1400)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/750",
+  "number": "750",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/750/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000463",
+    "firstName": "Deb",
+    "fullName": "Sen. Fischer, Deb [R-NE]",
+    "isByRequest": "N",
+    "lastName": "Fischer",
+    "party": "R",
+    "state": "NE",
+    "url": "https://api.congress.gov/v3/member/F000463?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/119/s/750/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/750/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/750/text?format=json"
+  },
+  "title": "Protecting Rural Seniors\u2019 Access to Care Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/750/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T21:57:42Z",
+  "updateDateIncludingText": "2025-12-05T21:57:42Z"
+ },
+ "request": {
+  "billNumber": "750",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

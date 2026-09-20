@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/1820/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1820/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/1820/cosponsors?format=json"
+  },
+  "introducedDate": "2025-05-20",
+  "latestAction": {
+   "actionDate": "2025-05-20",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1820",
+  "number": "1820",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001230",
+    "firstName": "Tammy",
+    "fullName": "Sen. Baldwin, Tammy [D-WI]",
+    "isByRequest": "N",
+    "lastName": "Baldwin",
+    "party": "D",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/B001230?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1820/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1820/text?format=json"
+  },
+  "title": "Protecting Older Workers Against Discrimination Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/1820/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-05-29T15:56:50Z",
+  "updateDateIncludingText": "2025-05-29T15:56:50Z"
+ },
+ "request": {
+  "billNumber": "1820",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

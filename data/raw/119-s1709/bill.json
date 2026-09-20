@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/1709/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1709/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/119/s/1709/cosponsors?format=json"
+  },
+  "introducedDate": "2025-05-12",
+  "latestAction": {
+   "actionDate": "2025-05-12",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (Sponsor introductory remarks on measure: CR S2864)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1709",
+  "number": "1709",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1709/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000145",
+    "firstName": "Alex",
+    "fullName": "Sen. Padilla, Alex [D-CA]",
+    "isByRequest": "N",
+    "lastName": "Padilla",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/P000145?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1709/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1709/text?format=json"
+  },
+  "title": "Nurse Staffing Standards for Hospital Patient Safety and Quality Care Act of 2025",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/1709/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-21T00:21:29Z",
+  "updateDateIncludingText": "2026-01-21T00:21:29Z"
+ },
+ "request": {
+  "billNumber": "1709",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

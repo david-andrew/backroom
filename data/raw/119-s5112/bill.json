@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/5112/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/5112/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/119/s/5112/cosponsors?format=json"
+  },
+  "introducedDate": "2026-07-23",
+  "latestAction": {
+   "actionDate": "2026-07-23",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/5112",
+  "number": "5112",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/5112/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000133",
+    "firstName": "Edward",
+    "fullName": "Sen. Markey, Edward J. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "Markey",
+    "middleName": "J.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/M000133?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/5112/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/5112/text?format=json"
+  },
+  "title": "Health Over Wealth Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/5112/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-05T15:25:47Z",
+  "updateDateIncludingText": "2026-08-05T15:25:47Z"
+ },
+ "request": {
+  "billNumber": "5112",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

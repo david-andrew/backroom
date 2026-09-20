@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/5037/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/5037/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/119/s/5037/cosponsors?format=json"
+  },
+  "introducedDate": "2026-07-21",
+  "latestAction": {
+   "actionDate": "2026-07-21",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/5037",
+  "number": "5037",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000394",
+    "firstName": "Andy",
+    "fullName": "Sen. Kim, Andy [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "Kim",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/K000394?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/5037/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/5037/text?format=json"
+  },
+  "title": "MediKids Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/5037/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-06T11:03:35Z",
+  "updateDateIncludingText": "2026-08-06T11:03:35Z"
+ },
+ "request": {
+  "billNumber": "5037",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

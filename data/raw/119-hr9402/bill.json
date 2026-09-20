@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/119/hr/9402/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/hr/9402/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/119/hr/9402/cosponsors?format=json"
+  },
+  "introducedDate": "2026-06-23",
+  "latestAction": {
+   "actionDate": "2026-06-23",
+   "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on Oversight and Government Reform, and House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9402",
+  "number": "9402",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/9402/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000530",
+    "district": 17,
+    "firstName": "Christopher",
+    "fullName": "Rep. Deluzio, Christopher R. [D-PA-17]",
+    "isByRequest": "N",
+    "lastName": "Deluzio",
+    "middleName": "R.",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/D000530?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/9402/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/9402/text?format=json"
+  },
+  "title": "Stop Spying Bosses Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/hr/9402/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-03T08:06:37Z",
+  "updateDateIncludingText": "2026-09-03T08:06:37Z"
+ },
+ "request": {
+  "billNumber": "9402",
+  "billType": "hr",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime, timezone
 
 from . import config
@@ -60,8 +61,14 @@ def analyze(rec: BillRecord, bill_text: str, model_id: str = config.ANALYSIS_MOD
     analysis = structured_call(model_id, system, user, Analysis, reasoning_effort="high")
 
     valid_ids = {s.id for s in rec.sources}
+    # Models sometimes write "[S3]" or "s3"; normalize before checking.
+    for c in _all_claim_objs(analysis):
+        c.sources = [re.sub(r"[^A-Za-z0-9]", "", x).upper() for x in c.sources]
     bad = sorted({sid for c in _all_claims(analysis) for sid in c if sid not in valid_ids})
     analysis.categories = [c for c in analysis.categories if c in CATEGORIES] or ["other"]
+    # A sitting Congress cannot have killed a bill yet; the model sometimes reaches for a final status anyway.
+    if not rec.congress_ended and analysis.outcome.status in ("never_got_a_vote", "passed_one_chamber_then_stalled", "blocked_from_a_vote", "voted_down"):
+        analysis.outcome.status = "pending"
     # Models sometimes return the string "null"; a closed Congress has no trajectory at all.
     if rec.congress_ended or not analysis.trajectory or analysis.trajectory.strip().lower() in ("null", "none", "n/a"):
         analysis.trajectory = None
@@ -75,6 +82,12 @@ def analyze(rec: BillRecord, bill_text: str, model_id: str = config.ANALYSIS_MOD
         generated_at=datetime.now(timezone.utc).isoformat(timespec="seconds"),
         record_fetched_at=rec.fetched_at, record_hash=rec.content_hash, analysis=analysis, unresolved_citations=bad,
     )
+
+
+def _all_claim_objs(a: Analysis):
+    yield from a.how_it_helps + a.drawbacks + a.outcome.narrative
+    yield from a.sides.for_ + a.sides.against
+    yield from a.industries
 
 
 def _all_claims(a: Analysis):

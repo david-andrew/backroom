@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/3549/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3549/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/3549/cosponsors?format=json"
+  },
+  "introducedDate": "2025-12-17",
+  "latestAction": {
+   "actionDate": "2025-12-17",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3549",
+  "number": "3549",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3549/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001198",
+    "firstName": "Roger",
+    "fullName": "Sen. Marshall, Roger [R-KS]",
+    "isByRequest": "N",
+    "lastName": "Marshall",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/M001198?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3549/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3549/text?format=json"
+  },
+  "title": "PBM FAIR Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/119/s/3549/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-26T13:57:50Z",
+  "updateDateIncludingText": "2026-01-26T13:57:50Z"
+ },
+ "request": {
+  "billNumber": "3549",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

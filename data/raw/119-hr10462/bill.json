@@ -1,0 +1,55 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/119/hr/10462/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/hr/10462/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/10462/cosponsors?format=json"
+  },
+  "introducedDate": "2026-09-16",
+  "latestAction": {
+   "actionDate": "2026-09-16",
+   "text": "Referred to the Committee on Ways and Means, and in addition to the Committees on Energy and Commerce, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10462",
+  "number": "10462",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "sponsors": [
+   {
+    "bioguideId": "S001200",
+    "district": 9,
+    "firstName": "Darren",
+    "fullName": "Rep. Soto, Darren [D-FL-9]",
+    "isByRequest": "N",
+    "lastName": "Soto",
+    "party": "D",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/S001200?format=json"
+   }
+  ],
+  "title": "To amend the Public Health Service Act to establish the Firefighter PFAS Injury Compensation Program, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/hr/10462/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-17T08:07:33Z",
+  "updateDateIncludingText": "2026-09-17T08:07:33Z"
+ },
+ "request": {
+  "billNumber": "10462",
+  "billType": "hr",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

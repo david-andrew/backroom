@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/1879/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1879/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 19,
+   "countIncludingWithdrawnCosponsors": 19,
+   "url": "https://api.congress.gov/v3/bill/119/s/1879/cosponsors?format=json"
+  },
+  "introducedDate": "2025-05-22",
+  "latestAction": {
+   "actionDate": "2025-05-22",
+   "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1879",
+  "number": "1879",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Congress"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000174",
+    "firstName": "Jon",
+    "fullName": "Sen. Ossoff, Jon [D-GA]",
+    "isByRequest": "N",
+    "lastName": "Ossoff",
+    "party": "D",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/O000174?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1879/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1879/text?format=json"
+  },
+  "title": "Ban Congressional Stock Trading Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/1879/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-16T11:03:40Z",
+  "updateDateIncludingText": "2026-09-16T11:03:40Z"
+ },
+ "request": {
+  "billNumber": "1879",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

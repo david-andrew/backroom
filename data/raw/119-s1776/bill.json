@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/1776/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1776/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1776/cosponsors?format=json"
+  },
+  "introducedDate": "2025-05-15",
+  "latestAction": {
+   "actionDate": "2025-05-15",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1776",
+  "number": "1776",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1776/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001075",
+    "firstName": "Bill",
+    "fullName": "Sen. Cassidy, Bill [R-LA]",
+    "isByRequest": "N",
+    "lastName": "Cassidy",
+    "party": "R",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/C001075?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1776/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1776/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1776/text?format=json"
+  },
+  "title": "Medicare Beneficiary Co-Pay Fairness Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/1776/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-15T16:10:02Z",
+  "updateDateIncludingText": "2026-09-15T16:10:02Z"
+ },
+ "request": {
+  "billNumber": "1776",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

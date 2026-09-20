@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/4323/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4323/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/4323/cosponsors?format=json"
+  },
+  "introducedDate": "2026-04-16",
+  "latestAction": {
+   "actionDate": "2026-04-16",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4323",
+  "number": "4323",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000575",
+    "firstName": "James",
+    "fullName": "Sen. Lankford, James [R-OK]",
+    "isByRequest": "N",
+    "lastName": "Lankford",
+    "party": "R",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/L000575?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4323/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4323/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4323/text?format=json"
+  },
+  "title": "Ensuring Access to Lower-Cost Medicines for Seniors Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/4323/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-08T15:33:23Z",
+  "updateDateIncludingText": "2026-08-08T15:33:23Z"
+ },
+ "request": {
+  "billNumber": "4323",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

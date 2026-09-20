@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/119/s/129/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/129/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/119/s/129/cosponsors?format=json"
+  },
+  "introducedDate": "2025-01-16",
+  "latestAction": {
+   "actionDate": "2025-05-26",
+   "actionTime": "09:16:09",
+   "text": "Held at the desk."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/129",
+  "number": "129",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/129/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001098",
+    "firstName": "Ted",
+    "fullName": "Sen. Cruz, Ted [R-TX]",
+    "isByRequest": "N",
+    "lastName": "Cruz",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/C001098?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/119/s/129/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/129/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/129/text?format=json"
+  },
+  "title": "No Tax on Tips Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/119/s/129/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-05-27T08:05:17Z",
+  "updateDateIncludingText": "2026-07-18T20:48:48Z"
+ },
+ "request": {
+  "billNumber": "129",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/119/hr/7920/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/hr/7920/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 12,
+   "countIncludingWithdrawnCosponsors": 12,
+   "url": "https://api.congress.gov/v3/bill/119/hr/7920/cosponsors?format=json"
+  },
+  "introducedDate": "2026-03-12",
+  "latestAction": {
+   "actionDate": "2026-03-12",
+   "text": "Referred to the Committee on Ways and Means, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7920",
+  "number": "7920",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/7920/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001205",
+    "district": 5,
+    "firstName": "Mary Gay",
+    "fullName": "Rep. Scanlon, Mary Gay [D-PA-5]",
+    "isByRequest": "N",
+    "lastName": "Scanlon",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/S001205?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/7920/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/7920/text?format=json"
+  },
+  "title": "Take Back Our Hospitals Act of 2026",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/hr/7920/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-19T23:19:02Z",
+  "updateDateIncludingText": "2026-09-19T23:19:02Z"
+ },
+ "request": {
+  "billNumber": "7920",
+  "billType": "hr",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

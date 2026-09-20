@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/119/hr/7748/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/hr/7748/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/119/hr/7748/cosponsors?format=json"
+  },
+  "introducedDate": "2026-03-02",
+  "latestAction": {
+   "actionDate": "2026-03-03",
+   "text": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7748",
+  "number": "7748",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/7748/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000530",
+    "district": 17,
+    "firstName": "Christopher",
+    "fullName": "Rep. Deluzio, Christopher R. [D-PA-17]",
+    "isByRequest": "N",
+    "lastName": "Deluzio",
+    "middleName": "R.",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/D000530?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/7748/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/7748/text?format=json"
+  },
+  "title": "Railway Safety Act of 2026",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/119/hr/7748/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-07-22T08:08:48Z",
+  "updateDateIncludingText": "2026-07-22T08:08:48Z"
+ },
+ "request": {
+  "billNumber": "7748",
+  "billType": "hr",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

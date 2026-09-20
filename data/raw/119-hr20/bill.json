@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/hr/20/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/20/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 217,
+   "countIncludingWithdrawnCosponsors": 217,
+   "url": "https://api.congress.gov/v3/bill/119/hr/20/cosponsors?format=json"
+  },
+  "introducedDate": "2025-03-05",
+  "latestAction": {
+   "actionDate": "2025-03-05",
+   "text": "Referred to the House Committee on Education and Workforce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/20",
+  "number": "20",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/20/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000185",
+    "district": 3,
+    "firstName": "Robert",
+    "fullName": "Rep. Scott, Robert C. \"Bobby\" [D-VA-3]",
+    "isByRequest": "N",
+    "lastName": "Scott",
+    "middleName": "C. \"Bobby\"",
+    "party": "D",
+    "state": "VA",
+    "url": "https://api.congress.gov/v3/member/S000185?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/119/hr/20/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/20/text?format=json"
+  },
+  "title": "Richard L. Trumka Protecting the Right to Organize Act of 2025",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/hr/20/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-19T23:25:16Z",
+  "updateDateIncludingText": "2026-09-19T23:25:16Z"
+ },
+ "request": {
+  "billNumber": "20",
+  "billType": "hr",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/hr/14/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/14/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 220,
+   "countIncludingWithdrawnCosponsors": 220,
+   "url": "https://api.congress.gov/v3/bill/119/hr/14/cosponsors?format=json"
+  },
+  "introducedDate": "2025-03-05",
+  "latestAction": {
+   "actionDate": "2025-03-05",
+   "text": "Referred to the House Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/14",
+  "number": "14",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/14/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001185",
+    "district": 7,
+    "firstName": "Terri",
+    "fullName": "Rep. Sewell, Terri A. [D-AL-7]",
+    "isByRequest": "N",
+    "lastName": "Sewell",
+    "middleName": "A.",
+    "party": "D",
+    "state": "AL",
+    "url": "https://api.congress.gov/v3/member/S001185?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/14/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/14/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/14/text?format=json"
+  },
+  "title": "John R. Lewis Voting Rights Advancement Act of 2025",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/hr/14/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-19T23:28:58Z",
+  "updateDateIncludingText": "2026-09-19T23:28:58Z"
+ },
+ "request": {
+  "billNumber": "14",
+  "billType": "hr",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

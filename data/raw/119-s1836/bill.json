@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/1836/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1836/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 26,
+   "countIncludingWithdrawnCosponsors": 26,
+   "url": "https://api.congress.gov/v3/bill/119/s/1836/cosponsors?format=json"
+  },
+  "introducedDate": "2025-05-21",
+  "latestAction": {
+   "actionDate": "2025-05-21",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1836",
+  "number": "1836",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000367",
+    "firstName": "Amy",
+    "fullName": "Sen. Klobuchar, Amy [D-MN]",
+    "isByRequest": "N",
+    "lastName": "Klobuchar",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/K000367?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1836/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/1836/text?format=json"
+  },
+  "title": "SMART Prices Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/119/s/1836/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-06-02T14:26:58Z",
+  "updateDateIncludingText": "2026-05-30T16:27:21Z"
+ },
+ "request": {
+  "billNumber": "1836",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

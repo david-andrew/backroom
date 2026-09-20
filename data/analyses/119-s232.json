@@ -1,0 +1,186 @@
+{
+ "bill_id": "119-s232",
+ "model": "z-ai/glm-5.3-flash",
+ "prompt_version": "e569b6c0a8",
+ "generated_at": "2026-09-20T09:15:20+00:00",
+ "record_fetched_at": "2026-09-20T08:14:06+00:00",
+ "record_hash": "60e4a1f64c9cd033",
+ "analysis": {
+  "one_liner": "Bans pricing algorithms trained on competitors' private data and forces disclosure when algorithms set prices.",
+  "headline": "Nine Democratic senators introduced the bill in January 2025, and it has sat in the Senate Judiciary Committee with no hearing, vote, or floor action since.",
+  "direction": "for_working_people",
+  "plain_summary": "The bill makes it illegal to use a pricing algorithm that was trained on private competitor data, on the theory that when many companies feed their sales and pricing data into the same software, the software can quietly steer everyone toward higher prices without any explicit agreement. It also makes it easier to prove a price-fixing case when one company's algorithm is shared across competitors, and it requires large companies to tell customers and workers when an algorithm is setting the price or the pay. A company caught breaking the ban could face daily fines or the full price of everything it sold using the violating algorithm.",
+  "who_benefits": "Consumers and workers. The bill targets pricing tools that pool nonpublic competitor data, which can raise prices on everything from rent to hotel rooms, and it covers pay-setting algorithms, since 'price' is defined to include employee and contractor compensation. It also gives shoppers and workers the right to know when an algorithm is setting their price or their pay.",
+  "who_benefits_short": "Shoppers and gig workers",
+  "how_it_helps": [
+   {
+    "text": "It is unlawful to use or distribute any pricing algorithm that uses, incorporates, or was trained with nonpublic competitor data, enforceable by the FTC or the Justice Department with civil penalties of at least $10,000 per day or the sum of the prices of everything sold with the violating algorithm.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "When a pricing algorithm is distributed to or used by two or more competitors in the same market, the bill creates a presumption that the parties have engaged in illegal price fixing under the Sherman Act, which makes collusion cases much easier to prove.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Companies with $5 million or more in annual revenue must clearly disclose to customers and to workers or contractors that a price or commercial term is set or recommended by a pricing algorithm, including when the algorithm prices different people differently, with a fine of at least $5,000 per day for failing to disclose.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "On written request, regulators can require a company to report within 30 days who built its pricing algorithms, what data they were trained on, and whether the algorithm sets different prices for different customers or different pay for similar workers, certified under penalty of perjury by a senior corporate officer.",
+    "sources": [
+     "S2"
+    ]
+   }
+  ],
+  "who_pays": "Companies that use or sell pricing algorithms trained on competitors' nonpublic data. They face a prohibition taking effect 90 days after enactment, daily civil penalties, joint and several liability when one algorithm connects competitors, and mandatory disclosures with per-day fines. Large firms also bear the cost of the audit reports and disclosure systems.",
+  "who_pays_short": "Pricing-software vendors and large algorithm users",
+  "drawbacks": [
+   {
+    "text": "The ban is broad: it covers any algorithm trained with nonpublic competitor data even if the data is anonymized or aggregated, which could sweep in routine tools like demand-forecasting systems and force companies to rebuild or abandon lawful pricing software.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The bill itself directs the FTC to study the potential benefits and efficiencies of pricing algorithms within two years, an acknowledgment that algorithmic pricing can also lower costs, so a blanket ban may eliminate legitimate savings for consumers.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The statutory presumption of a price-fixing agreement applies when a company's algorithm is used by competitors, even without proof of any human agreement, which critics would call guilt by software rather than proof of collusion.",
+    "sources": [
+     "S2"
+    ]
+   }
+  ],
+  "benefit_vs_cost": "The mechanism the bill targets is real: multiple competitors feeding sales data into the same or mirrored pricing software can produce coordinated high prices without any meeting or email to catch. A ban on training algorithms with competitors' private data, plus easier proof of agreement, is a direct response to that. The cost is that the ban is written broadly — anonymized competitor-derived data counts — so some legitimate, price-lowering tools would be caught, and compliance would be costly. On balance the consumer-protection case is stronger than the overbreadth objection, though a narrower data rule could have targeted the harm more precisely.",
+  "outcome": {
+   "status": "pending",
+   "mechanism": "The bill was introduced and referred to the Senate Judiciary Committee on January 23, 2025, and it has sat there with no hearing, no committee vote, and no floor action since.",
+   "narrative": [
+    {
+     "text": "Klobuchar introduced the Preventing Algorithmic Collusion Act of 2025 on January 23, 2025, joined by eight Democratic cosponsors: Wyden, Durbin, Welch, Hirono, Lujan, Shaheen, Murphy, and Blumenthal.",
+     "sources": [
+      "S2",
+      "S3"
+     ]
+    },
+    {
+     "text": "The same day, the Senate read the bill twice and referred it to the Committee on the Judiciary, where no further action appears in the record.",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "Every sponsor and cosponsor is a Democrat; no Republican has signed on to the bill.",
+     "sources": [
+      "S3"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "So far, the pricing-software industry and the large companies that use algorithmic pricing are better off: the bill has not advanced, so no restrictions or disclosure duties have taken effect."
+  },
+  "who_came_out_ahead_short": "Pricing-software vendors, for now",
+  "sides": {
+   "for": [
+    {
+     "name": "Amy Klobuchar",
+     "role": "U.S. Senator (D-MN), bill sponsor and ranking member of Senate Judiciary antitrust work",
+     "party": "D",
+     "what_they_did": "Introduced the Preventing Algorithmic Collusion Act of 2025 and led its introduction with eight Democratic colleagues.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "name": "Ron Wyden, Dick Durbin, Peter Welch, Mazie Hirono, Ben Ray Lujan, Jeanne Shaheen, Chris Murphy, Richard Blumenthal",
+     "role": "Democratic cosponsors in the Senate",
+     "party": "D",
+     "what_they_did": "Signed on as original cosponsors of the bill at introduction.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S2",
+      "S3"
+     ]
+    }
+   ],
+   "against": [
+    {
+     "name": "Chuck Grassley",
+     "role": "Chair, Senate Judiciary Committee",
+     "party": "R",
+     "what_they_did": "No hearing, markup, or committee vote on the bill has been scheduled or held since its referral in January 2025; as committee chair he controls whether the bill gets any committee action.",
+     "direct": true,
+     "evidence": "widely_reported",
+     "sources": []
+    }
+   ],
+   "party_line": "mostly_party_line",
+   "party_line_note": "All nine original sponsors are Democrats and no Republican has cosponsored, and the Republican-chaired Judiciary Committee has taken no action on the bill."
+  },
+  "industries": [
+   {
+    "industry": "Pricing and revenue-management software vendors",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "These firms sell pricing tools — for hotels, airlines, landlords, and retailers — that are typically trained on competitors' market data. The bill bans algorithms trained with nonpublic competitor data and makes distributors jointly liable when competitors use the same tool, threatening their core product.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Landlords and rental housing platforms",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "Large landlords use shared rent-setting software that draws on market-wide data; under the bill such software would be unlawful if trained on competitors' nonpublic data, and rents could face downward pressure.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Airlines, hotels, and large online retailers",
+    "effect": "mixed",
+    "stance_toward_public": "opposed",
+    "note": "Heavy users of dynamic pricing would have to verify their algorithms' data sources, comply with audit requests, and tell customers when an algorithm sets the price. Some could lose pricing tools that raise revenue at travelers' and shoppers' expense; efficiency benefits could also be lost.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Gig and staffing platforms using pay algorithms",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill defines price to include employee and contractor pay, so platforms that algorithmically set gig workers' pay would face the ban and must disclose algorithmic pay-setting to workers.",
+    "sources": [
+     "S2"
+    ]
+   }
+  ],
+  "trajectory": "The record shows no committee activity since referral, no Republican support, and the Judiciary Committee's calendar is controlled by the opposing party's chair. A nearly identical Klobuchar algorithmic-pricing bill in the last Congress also never reached a vote. Unless majority support develops or the bill is attached to something larger, it will most likely remain in committee and die when this Congress ends in January 2027.",
+  "categories": [
+   "consumer_protection_and_finance",
+   "antitrust_and_competition",
+   "wages_and_labor"
+  ],
+  "scores": {
+   "public_stakes": 7,
+   "concentrated_stakes": 6,
+   "outcome_against_public": 3,
+   "support_mismatch": 4,
+   "corruption_relevance": 1,
+   "confidence": 0.92
+  }
+ },
+ "unresolved_citations": []
+}

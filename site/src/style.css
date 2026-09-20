@@ -319,3 +319,4 @@ main { max-width: 1080px; margin: 0 auto; padding: 1.5rem 1.5rem 4rem; }
 .addr-sugs { position: absolute; z-index: 10; left: 0; right: 0; top: 100%; margin: 2px 0 0; padding: 0.25rem 0; list-style: none; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 6px 20px rgba(0,0,0,0.18); font-family: var(--font-ui); font-size: 0.9rem; }
 .addr-sugs li { padding: 0.45rem 0.7rem; cursor: pointer; }
 .addr-sugs li:hover, .addr-sugs li.hi { background: var(--line); }
+.bill-card h2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }

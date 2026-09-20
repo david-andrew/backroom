@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/5268/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/5268/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/119/s/5268/cosponsors?format=json"
+  },
+  "introducedDate": "2026-08-05",
+  "latestAction": {
+   "actionDate": "2026-08-05",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/5268",
+  "number": "5268",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000574",
+    "firstName": "Ruben",
+    "fullName": "Sen. Gallego, Ruben [D-AZ]",
+    "isByRequest": "N",
+    "lastName": "Gallego",
+    "party": "D",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/G000574?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/5268/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/5268/text?format=json"
+  },
+  "title": "Double the Wage for Overtime Act of 2026",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/5268/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-18T14:20:42Z",
+  "updateDateIncludingText": "2026-08-18T14:20:42Z"
+ },
+ "request": {
+  "billNumber": "5268",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/3930/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3930/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3930/cosponsors?format=json"
+  },
+  "introducedDate": "2026-02-26",
+  "latestAction": {
+   "actionDate": "2026-02-26",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3930",
+  "number": "3930",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001176",
+    "firstName": "Jeff",
+    "fullName": "Sen. Merkley, Jeff [D-OR]",
+    "isByRequest": "N",
+    "lastName": "Merkley",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/M001176?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3930/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3930/text?format=json"
+  },
+  "title": "HOPE (Humans over Private Equity) for Homeownership Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/3930/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-03-18T18:16:13Z",
+  "updateDateIncludingText": "2026-03-18T18:16:13Z"
+ },
+ "request": {
+  "billNumber": "3930",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
