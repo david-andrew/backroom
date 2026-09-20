@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/2254/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/2254/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/2254/cosponsors?format=json"
+  },
+  "introducedDate": "2025-07-10",
+  "latestAction": {
+   "actionDate": "2025-07-10",
+   "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2254",
+  "number": "2254",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000574",
+    "firstName": "Ruben",
+    "fullName": "Sen. Gallego, Ruben [D-AZ]",
+    "isByRequest": "N",
+    "lastName": "Gallego",
+    "party": "D",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/G000574?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/2254/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/2254/text?format=json"
+  },
+  "title": "Click to Cancel Consumer Protection Act of 2025",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/2254/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:03:40Z"
+ },
+ "request": {
+  "billNumber": "2254",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

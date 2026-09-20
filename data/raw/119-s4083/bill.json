@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/4083/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4083/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 20,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/119/s/4083/cosponsors?format=json"
+  },
+  "introducedDate": "2026-03-12",
+  "latestAction": {
+   "actionDate": "2026-03-12",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4083",
+  "number": "4083",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4083/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000128",
+    "firstName": "Chris",
+    "fullName": "Sen. Van Hollen, Chris [D-MD]",
+    "isByRequest": "N",
+    "lastName": "Van Hollen",
+    "party": "D",
+    "state": "MD",
+    "url": "https://api.congress.gov/v3/member/V000128?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4083/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4083/text?format=json"
+  },
+  "title": "Working Americans\u2019 Tax Cut Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/4083/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-05-01T11:03:33Z",
+  "updateDateIncludingText": "2026-05-01T11:03:33Z"
+ },
+ "request": {
+  "billNumber": "4083",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

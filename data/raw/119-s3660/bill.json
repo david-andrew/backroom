@@ -1,0 +1,66 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/3660/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3660/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/119/s/3660/cosponsors?format=json"
+  },
+  "introducedDate": "2026-01-15",
+  "latestAction": {
+   "actionDate": "2026-01-15",
+   "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3660",
+  "number": "3660",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000479",
+    "firstName": "John",
+    "fullName": "Sen. Fetterman, John [D-PA]",
+    "isByRequest": "N",
+    "lastName": "Fetterman",
+    "middleName": "K.",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/F000479?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3660/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3660/text?format=json"
+  },
+  "title": "Credit Card Fairness Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/3660/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-02-26T12:03:17Z",
+  "updateDateIncludingText": "2026-02-26T12:03:17Z"
+ },
+ "request": {
+  "billNumber": "3660",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

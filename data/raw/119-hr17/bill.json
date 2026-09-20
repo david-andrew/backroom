@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/119/hr/17/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/hr/17/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 220,
+   "countIncludingWithdrawnCosponsors": 220,
+   "url": "https://api.congress.gov/v3/bill/119/hr/17/cosponsors?format=json"
+  },
+  "introducedDate": "2025-03-25",
+  "latestAction": {
+   "actionDate": "2025-03-25",
+   "text": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/17",
+  "number": "17",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/17/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000216",
+    "district": 3,
+    "firstName": "Rosa",
+    "fullName": "Rep. DeLauro, Rosa L. [D-CT-3]",
+    "isByRequest": "N",
+    "lastName": "DeLauro",
+    "middleName": "L.",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/D000216?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/119/hr/17/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/hr/17/text?format=json"
+  },
+  "title": "Paycheck Fairness Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/hr/17/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-19T23:34:09Z",
+  "updateDateIncludingText": "2026-09-19T23:34:09Z"
+ },
+ "request": {
+  "billNumber": "17",
+  "billType": "hr",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

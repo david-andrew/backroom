@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/4107/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4107/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/119/s/4107/cosponsors?format=json"
+  },
+  "introducedDate": "2026-03-17",
+  "latestAction": {
+   "actionDate": "2026-03-17",
+   "text": "Read twice and referred to the Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4107",
+  "number": "4107",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000367",
+    "firstName": "Amy",
+    "fullName": "Sen. Klobuchar, Amy [D-MN]",
+    "isByRequest": "N",
+    "lastName": "Klobuchar",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/K000367?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4107/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4107/text?format=json"
+  },
+  "title": "Antitrust Accountability and Transparency Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/4107/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "4107",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

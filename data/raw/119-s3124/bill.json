@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/3124/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3124/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3124/cosponsors?format=json"
+  },
+  "introducedDate": "2025-11-06",
+  "latestAction": {
+   "actionDate": "2025-11-06",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3124",
+  "number": "3124",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000278",
+    "firstName": "Tommy",
+    "fullName": "Sen. Tuberville, Tommy [R-AL]",
+    "isByRequest": "N",
+    "lastName": "Tuberville",
+    "party": "R",
+    "state": "AL",
+    "url": "https://api.congress.gov/v3/member/T000278?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3124/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3124/text?format=json"
+  },
+  "title": "Protection on the Picket Line Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/3124/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-11-19T15:20:38Z",
+  "updateDateIncludingText": "2025-11-19T15:20:38Z"
+ },
+ "request": {
+  "billNumber": "3124",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

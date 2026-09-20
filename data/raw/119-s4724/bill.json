@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/4724/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4724/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/119/s/4724/cosponsors?format=json"
+  },
+  "introducedDate": "2026-06-09",
+  "latestAction": {
+   "actionDate": "2026-06-09",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4724",
+  "number": "4724",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001277",
+    "firstName": "Richard",
+    "fullName": "Sen. Blumenthal, Richard [D-CT]",
+    "isByRequest": "N",
+    "lastName": "Blumenthal",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/B001277?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4724/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/4724/text?format=json"
+  },
+  "title": "No Toxic Chemicals in Food Packaging Act of 2026",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/4724/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-07-15T11:03:24Z",
+  "updateDateIncludingText": "2026-07-15T11:03:24Z"
+ },
+ "request": {
+  "billNumber": "4724",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

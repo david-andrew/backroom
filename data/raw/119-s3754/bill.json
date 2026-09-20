@@ -1,0 +1,66 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/3754/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3754/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/119/s/3754/cosponsors?format=json"
+  },
+  "introducedDate": "2026-01-30",
+  "latestAction": {
+   "actionDate": "2026-01-30",
+   "text": "Read twice and referred to the Committee on Finance. (Sponsor introductory remarks on measure: CR S420-421)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3754",
+  "number": "3754",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000122",
+    "firstName": "John",
+    "fullName": "Sen. Reed, Jack [D-RI]",
+    "isByRequest": "N",
+    "lastName": "Reed",
+    "middleName": "F.",
+    "party": "D",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/R000122?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3754/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3754/text?format=json"
+  },
+  "title": "Affordable Housing and Homeownership Protection Act of 2026",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/3754/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-02-23T16:29:28Z",
+  "updateDateIncludingText": "2026-02-23T16:29:28Z"
+ },
+ "request": {
+  "billNumber": "3754",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

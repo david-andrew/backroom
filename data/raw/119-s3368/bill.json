@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/3368/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3368/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/119/s/3368/cosponsors?format=json"
+  },
+  "introducedDate": "2025-12-04",
+  "latestAction": {
+   "actionDate": "2025-12-04",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3368",
+  "number": "3368",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001303",
+    "firstName": "Lisa",
+    "fullName": "Sen. Blunt Rochester, Lisa [D-DE]",
+    "isByRequest": "N",
+    "lastName": "Blunt Rochester",
+    "party": "D",
+    "state": "DE",
+    "url": "https://api.congress.gov/v3/member/B001303?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3368/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3368/text?format=json"
+  },
+  "title": "Restoring Patient Protections and Affordability Act of 2025",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/3368/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-31T13:48:19Z",
+  "updateDateIncludingText": "2026-01-31T13:48:19Z"
+ },
+ "request": {
+  "billNumber": "3368",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

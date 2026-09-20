@@ -1,0 +1,66 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/3348/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3348/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3348/cosponsors?format=json"
+  },
+  "introducedDate": "2025-12-04",
+  "latestAction": {
+   "actionDate": "2025-12-04",
+   "text": "Read twice and referred to the Committee on the Judiciary. (text: CR S8509-8512)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3348",
+  "number": "3348",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Immigration"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000563",
+    "firstName": "Richard",
+    "fullName": "Sen. Durbin, Richard J. [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Durbin",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000563?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3348/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3348/text?format=json"
+  },
+  "title": "Dream Act of 2025",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/3348/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-29T03:06:16Z",
+  "updateDateIncludingText": "2026-08-29T03:06:16Z"
+ },
+ "request": {
+  "billNumber": "3348",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

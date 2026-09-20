@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/3560/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3560/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/3560/cosponsors?format=json"
+  },
+  "introducedDate": "2025-12-18",
+  "latestAction": {
+   "actionDate": "2025-12-18",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3560",
+  "number": "3560",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001076",
+    "firstName": "Maggie",
+    "fullName": "Sen. Hassan, Margaret Wood [D-NH]",
+    "isByRequest": "N",
+    "lastName": "Hassan",
+    "party": "D",
+    "state": "NH",
+    "url": "https://api.congress.gov/v3/member/H001076?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3560/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/3560/text?format=json"
+  },
+  "title": "Closing the Contraception Coverage Gap Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/3560/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-21T08:03:47Z",
+  "updateDateIncludingText": "2026-01-21T08:03:47Z"
+ },
+ "request": {
+  "billNumber": "3560",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

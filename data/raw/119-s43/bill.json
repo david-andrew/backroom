@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/119/s/43/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/43/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/43/cosponsors?format=json"
+  },
+  "introducedDate": "2025-01-09",
+  "latestAction": {
+   "actionDate": "2025-01-09",
+   "text": "Read twice and referred to the Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/43",
+  "number": "43",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/43/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000273",
+    "firstName": "John",
+    "fullName": "Sen. Hickenlooper, John W. [D-CO]",
+    "isByRequest": "N",
+    "lastName": "Hickenlooper",
+    "middleName": "W.",
+    "party": "D",
+    "state": "CO",
+    "url": "https://api.congress.gov/v3/member/H000273?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/43/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/43/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/43/text?format=json"
+  },
+  "title": "Skinny Labels, Big Savings Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/119/s/43/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "43",
+  "billType": "s",
+  "congress": "119",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
