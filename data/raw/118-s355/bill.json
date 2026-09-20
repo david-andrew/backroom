@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/355/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/355/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/355/cosponsors?format=json"
+  },
+  "introducedDate": "2023-02-09",
+  "latestAction": {
+   "actionDate": "2023-02-09",
+   "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/355",
+  "number": "355",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/355/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000622",
+    "firstName": "Tammy",
+    "fullName": "Sen. Duckworth, Tammy [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Duckworth",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000622?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/355/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/355/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/355/text?format=json"
+  },
+  "title": "Federal Price Gouging Prevention Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/355/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:03:40Z"
+ },
+ "request": {
+  "billNumber": "355",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

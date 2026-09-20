@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/1848/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1848/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/118/s/1848/cosponsors?format=json"
+  },
+  "introducedDate": "2023-06-07",
+  "latestAction": {
+   "actionDate": "2023-06-07",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/1848",
+  "number": "1848",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Education"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1848/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001194",
+    "firstName": "Brian",
+    "fullName": "Sen. Schatz, Brian [D-HI]",
+    "isByRequest": "N",
+    "lastName": "Schatz",
+    "party": "D",
+    "state": "HI",
+    "url": "https://api.congress.gov/v3/member/S001194?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1848/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1848/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1848/text?format=json"
+  },
+  "title": "Debt-Free College Act of 2023",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/1848/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T08:15:38Z",
+  "updateDateIncludingText": "2025-12-05T08:15:38Z"
+ },
+ "request": {
+  "billNumber": "1848",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

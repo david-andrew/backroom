@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/1120/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1120/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1120/cosponsors?format=json"
+  },
+  "introducedDate": "2023-03-30",
+  "latestAction": {
+   "actionDate": "2023-03-30",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/1120",
+  "number": "1120",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001076",
+    "firstName": "Maggie",
+    "fullName": "Sen. Hassan, Margaret Wood [D-NH]",
+    "isByRequest": "N",
+    "lastName": "Hassan",
+    "party": "D",
+    "state": "NH",
+    "url": "https://api.congress.gov/v3/member/H001076?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1120/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1120/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/1120/text?format=json"
+  },
+  "title": "Improved Access to Affordable Medications Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/1120/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:24:17Z"
+ },
+ "request": {
+  "billNumber": "1120",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

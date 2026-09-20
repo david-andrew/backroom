@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/228/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/228/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/118/s/228/cosponsors?format=json"
+  },
+  "introducedDate": "2023-02-02",
+  "latestAction": {
+   "actionDate": "2023-02-02",
+   "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/228",
+  "number": "228",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/228/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000463",
+    "firstName": "Deb",
+    "fullName": "Sen. Fischer, Deb [R-NE]",
+    "isByRequest": "N",
+    "lastName": "Fischer",
+    "party": "R",
+    "state": "NE",
+    "url": "https://api.congress.gov/v3/member/F000463?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/118/s/228/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/228/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/228/text?format=json"
+  },
+  "title": "Cattle Price Discovery and Transparency Act of 2023",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/228/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-09T23:11:38Z",
+  "updateDateIncludingText": "2026-01-09T23:11:38Z"
+ },
+ "request": {
+  "billNumber": "228",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/845/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/845/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/845/cosponsors?format=json"
+  },
+  "introducedDate": "2023-03-16",
+  "latestAction": {
+   "actionDate": "2023-03-16",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/845",
+  "number": "845",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/845/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000367",
+    "firstName": "Amy",
+    "fullName": "Sen. Klobuchar, Amy [D-MN]",
+    "isByRequest": "N",
+    "lastName": "Klobuchar",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/K000367?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/845/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/845/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/845/text?format=json"
+  },
+  "title": "Short on Competition Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/845/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:24:17Z"
+ },
+ "request": {
+  "billNumber": "845",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

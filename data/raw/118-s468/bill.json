@@ -1,0 +1,64 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/468/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/468/committees?format=json"
+  },
+  "congress": 118,
+  "introducedDate": "2023-02-16",
+  "latestAction": {
+   "actionDate": "2023-02-16",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/468",
+  "number": "468",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000393",
+    "firstName": "John",
+    "fullName": "Sen. Kennedy, John [R-LA]",
+    "isByRequest": "N",
+    "lastName": "Kennedy",
+    "party": "R",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/K000393?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/118/s/468/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/468/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/468/text?format=json"
+  },
+  "title": "Hospital Transparency Compliance Enforcement Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/468/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-05-27T14:15:52Z",
+  "updateDateIncludingText": "2025-05-27T14:15:52Z"
+ },
+ "request": {
+  "billNumber": "468",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

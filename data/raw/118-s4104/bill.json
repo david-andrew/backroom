@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/4104/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/4104/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/4104/cosponsors?format=json"
+  },
+  "introducedDate": "2024-04-10",
+  "latestAction": {
+   "actionDate": "2024-04-10",
+   "text": "Read twice and referred to the Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/4104",
+  "number": "4104",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000386",
+    "firstName": "Chuck",
+    "fullName": "Sen. Grassley, Chuck [R-IA]",
+    "isByRequest": "N",
+    "lastName": "Grassley",
+    "party": "R",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/G000386?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/4104/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/4104/text?format=json"
+  },
+  "title": "Protecting Communities and Preserving the Second Amendment Act of 2024",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/4104/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "4104",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

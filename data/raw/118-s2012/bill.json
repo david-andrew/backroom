@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/2012/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2012/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/118/s/2012/cosponsors?format=json"
+  },
+  "introducedDate": "2023-06-15",
+  "latestAction": {
+   "actionDate": "2023-06-15",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/2012",
+  "number": "2012",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/2012/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000141",
+    "firstName": "Ben",
+    "fullName": "Sen. Cardin, Benjamin L. [D-MD]",
+    "isByRequest": "N",
+    "lastName": "Cardin",
+    "party": "D",
+    "state": "MD",
+    "url": "https://api.congress.gov/v3/member/C000141?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/118/s/2012/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2012/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2012/text?format=json"
+  },
+  "title": "Medicare Dental Benefit Act of 2023",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/2012/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T08:25:03Z",
+  "updateDateIncludingText": "2025-12-05T08:25:03Z"
+ },
+ "request": {
+  "billNumber": "2012",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/2052/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2052/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/2052/cosponsors?format=json"
+  },
+  "introducedDate": "2023-06-20",
+  "latestAction": {
+   "actionDate": "2023-06-20",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/2052",
+  "number": "2052",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000464",
+    "firstName": "Jon",
+    "fullName": "Sen. Tester, Jon [D-MT]",
+    "isByRequest": "N",
+    "lastName": "Tester",
+    "party": "D",
+    "state": "MT",
+    "url": "https://api.congress.gov/v3/member/T000464?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2052/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2052/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/2052/text?format=json"
+  },
+  "title": "Protect Patient Access to Pharmacies Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/2052/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2024-07-24T15:21:34Z",
+  "updateDateIncludingText": "2024-07-24T15:21:34Z"
+ },
+ "request": {
+  "billNumber": "2052",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

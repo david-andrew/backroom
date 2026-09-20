@@ -1,0 +1,66 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/5449/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5449/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/5449/cosponsors?format=json"
+  },
+  "introducedDate": "2024-12-05",
+  "latestAction": {
+   "actionDate": "2024-12-05",
+   "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/5449",
+  "number": "5449",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000817",
+    "firstName": "Elizabeth",
+    "fullName": "Sen. Warren, Elizabeth [D-MA]",
+    "isByRequest": "N",
+    "lastName": "Warren",
+    "middleName": "A.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/W000817?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5449/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5449/text?format=json"
+  },
+  "title": "Data Breach Prevention and Compensation Act of 2024",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/5449/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-05T12:47:35Z",
+  "updateDateIncludingText": "2025-08-05T12:47:35Z"
+ },
+ "request": {
+  "billNumber": "5449",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

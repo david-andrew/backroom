@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/74/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/74/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/74/cosponsors?format=json"
+  },
+  "introducedDate": "2023-01-25",
+  "latestAction": {
+   "actionDate": "2023-01-25",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/74",
+  "number": "74",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Families"
+  },
+  "relatedBills": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/118/s/74/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000595",
+    "firstName": "Marco",
+    "fullName": "Sen. Rubio, Marco [R-FL]",
+    "isByRequest": "N",
+    "lastName": "Rubio",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/R000595?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 39,
+   "url": "https://api.congress.gov/v3/bill/118/s/74/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/74/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/74/text?format=json"
+  },
+  "title": "Providing for Life Act of 2023",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/74/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T07:59:14Z",
+  "updateDateIncludingText": "2025-12-05T07:59:14Z"
+ },
+ "request": {
+  "billNumber": "74",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

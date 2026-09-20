@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/5218/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5218/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5218/cosponsors?format=json"
+  },
+  "introducedDate": "2024-09-25",
+  "latestAction": {
+   "actionDate": "2024-09-25",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/5218",
+  "number": "5218",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000779",
+    "firstName": "Ron",
+    "fullName": "Sen. Wyden, Ron [D-OR]",
+    "isByRequest": "N",
+    "lastName": "Wyden",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/W000779?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5218/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5218/text?format=json"
+  },
+  "title": "Health Infrastructure Security and Accountability Act of 2024",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/5218/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2024-12-05T15:35:45Z",
+  "updateDateIncludingText": "2024-12-05T17:27:13Z"
+ },
+ "request": {
+  "billNumber": "5218",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

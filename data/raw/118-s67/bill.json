@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/67/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/67/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/67/cosponsors?format=json"
+  },
+  "introducedDate": "2023-01-25",
+  "latestAction": {
+   "actionDate": "2023-01-25",
+   "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/67",
+  "number": "67",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/67/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001113",
+    "firstName": "Catherine",
+    "fullName": "Sen. Cortez Masto, Catherine [D-NV]",
+    "isByRequest": "N",
+    "lastName": "Cortez Masto",
+    "party": "D",
+    "state": "NV",
+    "url": "https://api.congress.gov/v3/member/C001113?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/118/s/67/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/67/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/67/text?format=json"
+  },
+  "title": "Fair and Transparent Gas Prices Act of 2023",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/67/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:03:40Z"
+ },
+ "request": {
+  "billNumber": "67",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/5524/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5524/committees?format=json"
+  },
+  "congress": 118,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/118/s/5524/cosponsors?format=json"
+  },
+  "introducedDate": "2024-12-12",
+  "latestAction": {
+   "actionDate": "2024-12-12",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/5524",
+  "number": "5524",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001169",
+    "firstName": "Christopher",
+    "fullName": "Sen. Murphy, Christopher [D-CT]",
+    "isByRequest": "N",
+    "lastName": "Murphy",
+    "middleName": "S.",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/M001169?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5524/subjects?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/118/s/5524/text?format=json"
+  },
+  "title": "Parity Enforcement Act of 2024",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/118/s/5524/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:24:17Z"
+ },
+ "request": {
+  "billNumber": "5524",
+  "billType": "s",
+  "congress": "118",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
