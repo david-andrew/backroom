@@ -114,14 +114,15 @@ async def astructured_call(model_id: str, system: str, user: str, out: type[T], 
     raise RuntimeError(f"{model_id} failed to produce valid output: {last_err}")
 
 
-def run_many(calls, concurrency: int = 8):
-    """Run a list of zero-arg coroutine factories with bounded concurrency; returns results or exceptions in order."""
+def run_many(calls, concurrency: int = 8, timeout: float = 240.0):
+    """Run a list of zero-arg coroutine factories with bounded concurrency; returns results or exceptions in order.
+    Each call is capped at `timeout` seconds so one hung connection cannot stall the whole wave."""
     async def go():
         sem = asyncio.Semaphore(concurrency)
         async def one(f):
             async with sem:
                 try:
-                    return await f()
+                    return await asyncio.wait_for(f(), timeout)
                 except Exception as e:  # keep the batch going; caller decides
                     return e
         return await asyncio.gather(*(one(f) for f in calls))
