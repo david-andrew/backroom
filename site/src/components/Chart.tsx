@@ -39,7 +39,8 @@ export function GilensPageChart() {
       <figcaption>
         What people want barely moves Congress unless they are rich. Redrawn from Gilens and Page,{' '}
         <a href="https://doi.org/10.1017/S1537592714001595" target="_blank" rel="noreferrer">“Testing Theories of American Politics” (2014)</a>, Figure 1,
-        which modeled 1,779 policy questions from 1981 to 2002. Later re-analyses and a 2021 review of 25 studies found the same pattern.
+        which modeled 1,779 policy questions from 1981 to 2002. A{' '}
+        <a href="https://doi.org/10.1017/S1537592721002188" target="_blank" rel="noreferrer">2024 systematic review of 25 studies</a> found the same pattern across the literature.
       </figcaption>
     </figure>
   )

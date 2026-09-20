@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'preact/hooks'
+import { useEffect, useRef, useState } from 'preact/hooks'
 import { signal, computed } from '@preact/signals'
-import { members, membersError, loadMembers, districtForAddress } from '../members'
-import type { Member } from '../members'
+import { members, membersError, loadMembers, districtForAddress, districtForPoint, suggestAddresses } from '../members'
+import type { Member, Suggestion } from '../members'
 import { href } from '../router'
 import { PartyDot } from '../components/ui'
 
@@ -25,22 +25,58 @@ export function Members() {
   const [addr, setAddr] = useState('')
   const [busy, setBusy] = useState(false)
   const [note, setNote] = useState<string | null>(null)
+  const [sugs, setSugs] = useState<Suggestion[]>([])
+  const [open, setOpen] = useState(false)
+  const [hi, setHi] = useState(-1)
+  const picked = useRef<Suggestion | null>(null)
+  const abort = useRef<AbortController | null>(null)
+  const timer = useRef<number | undefined>(undefined)
   const data = members.value
   if (membersError.value) return <p class="error">{membersError.value}</p>
   if (!data) return <p class="muted">Loading…</p>
 
   const districts = [...new Set(data.roster.filter(m => m.state === state.value && m.district != null).map(m => m.district as number))].sort((a, b) => a - b)
 
-  async function lookup(e: Event) {
-    e.preventDefault()
-    setBusy(true); setNote(null)
+  function onType(v: string) {
+    setAddr(v); picked.current = null; setHi(-1)
+    clearTimeout(timer.current)
+    if (v.trim().length < 4) { setSugs([]); setOpen(false); return }
+    timer.current = window.setTimeout(async () => {
+      abort.current?.abort()
+      const ac = new AbortController(); abort.current = ac
+      try { const s = await suggestAddresses(v, ac.signal); if (!ac.signal.aborted) { setSugs(s); setOpen(s.length > 0) } }
+      catch { /* aborted or offline: keep typing, Enter still works */ }
+    }, 250)
+  }
+
+  function choose(sg: Suggestion) {
+    picked.current = sg; setAddr(sg.label); setSugs([]); setOpen(false)
+    void lookup()
+  }
+
+  async function lookup(e?: Event) {
+    e?.preventDefault()
+    setOpen(false); setBusy(true); setNote(null)
+    const apply = (r: { state: string; district: number | null }, how: string) => {
+      state.value = r.state; district.value = r.district ?? ''; query.value = ''
+      setNote(`${how} ${r.state}${r.district ? `, district ${r.district}` : ''}.`)
+    }
     try {
       const r = await districtForAddress(addr)
-      if (!r) { setNote('The Census geocoder could not match that address. Try adding city and state, or pick them below.'); return }
-      state.value = r.state; district.value = r.district ?? ''; query.value = ''
-      setNote(`Matched to ${r.state}${r.district ? `, district ${r.district}` : ''}.`)
+      if (r) { apply(r, `Matched ${r.matched} to`); return }
+      const sg = picked.current ?? sugs[0]
+      if (sg) { const p = await districtForPoint(sg.lon, sg.lat); if (p) { apply(p, `Matched "${sg.label}" to`); return } }
+      setNote('Could not match that address. Try adding the city and state, or pick them below.')
     } catch (err) { setNote(`Lookup failed: ${String(err)}. Pick your state and district below.`) }
     finally { setBusy(false) }
+  }
+
+  function onKey(e: KeyboardEvent) {
+    if (!open || !sugs.length) return
+    if (e.key === 'ArrowDown') { e.preventDefault(); setHi(h => Math.min(h + 1, sugs.length - 1)) }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); setHi(h => Math.max(h - 1, 0)) }
+    else if (e.key === 'Enter' && hi >= 0) { e.preventDefault(); choose(sugs[hi]) }
+    else if (e.key === 'Escape') setOpen(false)
   }
 
   return (
@@ -50,8 +86,16 @@ export function Members() {
         <p>Find your two senators and your House member, then see what each one did on the bills tracked here: sponsored, cosponsored, voted, or named as someone who pushed or blocked it.</p>
       </section>
 
-      <form class="filters" onSubmit={lookup}>
-        <input type="text" placeholder="Street address, city, state (sent to the U.S. Census geocoder)" value={addr} onInput={e => setAddr((e.target as HTMLInputElement).value)} style={{ flex: '1 1 320px' }} />
+      <form class="filters addr-form" onSubmit={lookup} autocomplete="off">
+        <div class="addr-box">
+          <input type="text" placeholder="Street address, city, state" value={addr} onInput={e => onType((e.target as HTMLInputElement).value)} onKeyDown={onKey}
+            onFocus={() => sugs.length && setOpen(true)} onBlur={() => setTimeout(() => setOpen(false), 150)} role="combobox" aria-expanded={open} aria-autocomplete="list" />
+          {open && (
+            <ul class="addr-sugs" role="listbox">
+              {sugs.map((sg, i) => <li key={sg.label} role="option" aria-selected={i === hi} class={i === hi ? 'hi' : ''} onMouseDown={() => choose(sg)}>{sg.label}</li>)}
+            </ul>
+          )}
+        </div>
         <button type="submit" class="btn" disabled={busy || !addr.trim()}>{busy ? 'Looking up…' : 'Find my district'}</button>
       </form>
       {note && <p class="muted small">{note}</p>}
@@ -72,7 +116,7 @@ export function Members() {
         {shown.value.map(m => <MemberCard m={m} key={m.id} n={data.involvement[m.id]?.length ?? 0} />)}
       </ul>
       {!shown.value.length && (state.value || query.value) && <p class="muted">No current members match.</p>}
-      <p class="muted small">Roster from Congress.gov, {new Date(data.generated_at).toLocaleDateString()}. Address lookup uses the U.S. Census Bureau geocoder; the address is sent to census.gov and not stored here.</p>
+      <p class="muted small">Roster from Congress.gov, {new Date(data.generated_at).toLocaleDateString()}. Address suggestions come from Photon (OpenStreetMap data) and the district match from the U.S. Census Bureau; what you type is sent to those two services and not stored here.</p>
     </>
   )
 }
