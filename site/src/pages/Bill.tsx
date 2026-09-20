@@ -4,7 +4,7 @@ import { loadBill, ordinal, congressYears, fmtDate } from '../data'
 import { loadGlossary, glossary } from '../glossary'
 import { href } from '../router'
 import type { BillPage, MemberVote, Person, Vote } from '../types'
-import { Claims, IndustryTable, PartyBar, PartyDot, Prose, ScoreGrid, StatusBadge, CategoryChips, DirectionBadge, SidesBlock } from '../components/ui'
+import { Claims, IndustryTable, PartyBar, PartyDot, Prose, StatusBadge, CategoryChips, DirectionBadge, SidesBlock } from '../components/ui'
 
 export function Bill({ id }: { id: string }) {
   const [bill, setBill] = useState<BillPage | null>(null)
@@ -115,11 +115,6 @@ export function Bill({ id }: { id: string }) {
             </>}
           </section>
 
-          <section class="card">
-            <h3>Scores</h3>
-            <ScoreGrid scores={a.scores} />
-            <p class="muted small">Overall {bill.rank_score.toFixed(2)} / 10 · model confidence {(a.scores.confidence * 100).toFixed(0)}%. <a href={href.about}>How scoring works.</a></p>
-          </section>
 
           <section class="card" id="sources">
             <h3>Sources</h3>

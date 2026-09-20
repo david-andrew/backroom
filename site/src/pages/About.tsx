@@ -41,7 +41,7 @@ export function About() {
       </p>
 
       <h2>How the ranking works</h2>
-      <p>Each analyzed bill receives five scores from 0 to 10:</p>
+      <p>Each analyzed bill receives five scores from 0 to 10. They set the default order of the list and the corruption-relevance sort, and are not shown on their own; the record on each page is meant to speak for itself.</p>
       <ul>
         <li><b>Stakes for the public</b>: how much ordinary people stand to gain or lose, in either direction.</li>
         <li><b>Stakes for concentrated interests</b>: how much a specific industry, the wealthiest households, or incumbent officeholders stand to gain or lose.</li>

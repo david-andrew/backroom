@@ -104,7 +104,6 @@ export function Explorer() {
                 <span class="rank">#{i + 1}</span>
                 <span class="bill-number">{b.display} · {ordinal(b.congress)} Congress</span>
                 <DirectionBadge direction={b.direction} />
-                <span class="score" title={`Overall ${b.rank_score} / 10 · corruption relevance ${b.scores.corruption_relevance} / 10`}>{b.rank_score.toFixed(1)}</span>
               </div>
               <h2>{b.title}</h2>
               <p class="one-liner">{b.one_liner}</p>
