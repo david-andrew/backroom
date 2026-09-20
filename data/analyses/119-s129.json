@@ -1,125 +1,127 @@
 {
  "bill_id": "119-s129",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:00:44+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:20:01+00:00",
  "record_fetched_at": "2026-09-20T08:08:26+00:00",
  "record_hash": "07a19b5ae1a59c8b",
  "analysis": {
-  "one_liner": "Lets tipped workers deduct their reported cash tips from federal income tax.",
-  "headline": "The Senate passed the bill unanimously on May 20, 2025, with 8 cosponsors from both parties, but the House has held it at the desk without a vote.",
+  "one_liner": "Lets tipped workers deduct up to $25,000 of reported tips from federal income tax.",
+  "headline": "The Senate passed it unanimously on May 20, 2025, but the House has not voted and the bill sits at the House desk.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would let workers in jobs that customarily get tips deduct up to $25,000 in reported cash tips from their federal taxable income each year, without having to itemize deductions. The break phases out for people who earned above a set threshold (about $160,000) from that employer the year before, and it only counts tips a worker reports to their employer for tax purposes. It also expands an existing business tax credit that reimburses employers for payroll taxes they pay on employee tips, adding salons, barbershops, nail salons, and spas to the list of covered businesses.",
-  "who_benefits": "Tipped workers — servers, bartenders, delivery drivers, hairstylists, and others — who currently pay federal income tax on tips even though the money goes straight into their pockets. A full-time server making $40,000 in reported tips could reduce taxable income substantially, worth thousands of dollars a year. Employers in the beauty industry also gain a new payroll-tax credit.",
-  "who_benefits_short": "Tipped workers like servers and stylists",
+  "plain_summary": "The bill would create a new federal income tax deduction of up to $25,000 for cash tips that workers report to their employer for tax withholding [S2][S3]. It covers people in occupations that customarily received tips before 2024, and it phases out for workers who earned more than $160,000 from that employer the prior year [S2][S3]. It also expands an existing business tax credit — which refunds employers the payroll taxes they pay on their employees' tips — to cover barbers, nail salons, estheticians, and spa workers, not just restaurants [S2][S3]. The deduction would apply to tax years starting after December 31, 2024 [S3].",
+  "who_benefits": "Tipped workers — servers, bartenders, hairstylists, nail techs, valets and similar — who pay federal income tax and whose tips are reported to their employer. A server making $30,000 with $10,000 in reported tips would owe income tax on roughly $20,000 instead of $30,000. Employers in the beauty and spa trades gain a new tax credit for the payroll taxes they pay on their workers' tips. Non-itemizers can claim the deduction, so workers who don't itemize still get it [S3].",
+  "who_benefits_short": "Tipped workers under $160,000",
   "how_it_helps": [
    {
-    "text": "Creates a deduction of up to $25,000 per year for qualified tips, which lowers the federal income tax a tipped worker owes on that income.",
+    "text": "Creates a deduction of up to $25,000 for cash tips that workers report to their employer, available to all taxpayers including those who do not itemize [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "The deduction is available even to workers who take the standard deduction rather than itemizing, so it reaches most tip earners.",
+    "text": "Excludes high earners: workers who made over $160,000 from that employer in the prior year cannot claim the tip deduction [S2][S3].",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "text": "The break is targeted: workers who earned more than a set threshold (about $160,000 in 2025) from the employer cannot claim it, so the benefit is aimed at middle- and lower-income tip earners.",
+    "text": "Requires Treasury to adjust withholding tables so workers see the benefit in their paychecks during the year, not just at filing [S3].",
     "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Extends the existing employer credit for payroll taxes paid on tips to beauty services — barbering and hair care, nail care, esthetics, and spa treatments — reducing those employers' tax bills.",
-    "sources": [
-     "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Federal taxpayers generally, through reduced federal revenue, since income that is currently taxed would no longer be. Workers in non-tipped jobs get no comparable break, and only cash tips that are reported to the employer count.",
-  "who_pays_short": "Federal Treasury and other taxpayers",
+  "who_pays": "The federal Treasury, which would collect less income tax — about the cost of the lost revenue. Workers would still owe payroll taxes (Social Security and Medicare) on their tips. Some low-income workers who owe little or no federal income tax would get little or no benefit, because a deduction lowers taxable income rather than handing back money.",
+  "who_pays_short": "Federal Treasury through lost tax revenue",
   "drawbacks": [
    {
-    "text": "Only cash tips count, and only if the worker reports them to their employer for payroll-tax withholding as the law already requires — so tips left as non-cash items or never reported get no benefit.",
+    "text": "Only tips reported to the employer for withholding count, and the deduction is limited to cash tips — so the size of the benefit depends on what is actually reported [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "High earners are excluded: anyone who made more than the threshold (about $160,000) from that employer in the prior year cannot claim the deduction.",
+    "text": "A deduction helps only people who owe income tax. A tipped worker with very low income gets little or nothing, unlike a refundable credit would [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The expanded employer credit is a direct tax cut for salon and spa owners, layered on top of the worker deduction, and the bill changes how the credit amount is calculated for those businesses.",
+    "text": "Workers still pay Social Security and Medicare taxes on tips; the bill touches income tax only [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The employer payroll-tax credit for tips is extended to beauty and spa businesses, a tax break for employers layered on top of the worker deduction [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Because a deduction reduces taxable income, every dollar deducted is revenue the federal government does not collect, adding to the deficit unless offset elsewhere — a cost that applies to all taxpayers, not just tip earners.",
+    "text": "Making tips tax-free increases their after-tax value, which can reinforce tip-based pay structures rather than wages.",
     "sources": []
    }
   ],
-  "benefit_vs_cost": "For the tipped workers it covers, this is real and immediate relief: several thousand dollars a year for a full-time server or stylist. The design is narrower than the name suggests — cash tips only, reported tips only, high earners excluded — so many gig and delivery workers with mixed or unreported tips benefit less or not at all. The main honest objections are the revenue cost to the Treasury and that the bill singles out tipped workers for a tax break that other low-wage workers doing similar work cannot get. The expanded employer credit is a business tax cut that does nothing directly for workers.",
+  "benefit_vs_cost": "For tipped workers, the benefit is real and immediate: a deduction worth several hundred to a few thousand dollars a year for millions of people, with a high-income cap that keeps it targeted. The main costs are the lost federal revenue and the design quirks — cash-only, reported-tips-only, no help for those who owe little tax, and an employer credit on top. It does nothing about the underlying tipped minimum wage. On balance it is a genuine, if imperfect, tax cut for working people.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The Senate passed it unanimously by voice consent in May 2025 and sent it to the House, where it has been sitting at the desk with no vote scheduled since.",
+   "mechanism": "The Senate passed it unanimously in May 2025, but the House has taken no vote; the bill was received and held at the desk.",
    "narrative": [
     {
-     "text": "The bill was introduced in the Senate on January 16, 2025 and referred to the Finance Committee.",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "The Finance Committee was discharged from the bill on May 20, 2025, allowing the Senate to consider it without a formal markup.",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "The Senate passed the bill without amendment by unanimous consent on May 20, 2025 — no roll-call vote was taken.",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "The House received the bill on May 26, 2025 and held it at the desk; no further House action appears in the record.",
-     "sources": [
-      "S5"
-     ]
-    }
-   ],
-   "who_came_out_ahead": "Nobody has won yet, because the bill has not become law. If the House passes it, tipped workers and beauty-industry employers gain; if it stalls, the status quo — tips fully taxed — continues."
-  },
-  "who_came_out_ahead_short": "Nobody yet — no final vote in the House",
-  "sides": {
-   "for": [
-    {
-     "name": "Sen. Ted Cruz",
-     "role": "Lead sponsor",
-     "party": "R",
-     "what_they_did": "Introduced the bill in January 2025 and got it through the Senate.",
-     "direct": true,
-     "evidence": "record",
+     "text": "Introduced January 16, 2025 by Sen. Ted Cruz and referred to the Senate Finance Committee [S1][S5].",
      "sources": [
       "S1",
       "S5"
      ]
     },
     {
-     "name": "Senate cosponsors",
-     "role": "8 senators (6 Republicans, 2 Democrats)",
+     "text": "The Finance Committee discharged the bill and the Senate passed it without amendment by unanimous consent on May 20, 2025 — no roll-call vote, no recorded opposition [S5].",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "The bill was sent to the House on May 23, received May 26, and held at the desk; the House has taken no further action [S5].",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "Congress is still in session, so the bill could in principle still receive House action before January 2027 [S5].",
+     "sources": [
+      "S5"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "So far, no one has gained or lost much: the Senate passed the bill with no opposition, and the current law taxing tips remains in effect while the House takes no action."
+  },
+  "who_came_out_ahead_short": "No one yet; tip tax persists",
+  "sides": {
+   "for": [
+    {
+     "name": "Sen. Ted Cruz",
+     "role": "U.S. Senator (TX), bill sponsor",
+     "party": "R",
+     "what_they_did": "Introduced the bill and steered it to Senate passage by unanimous consent.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S4",
+      "S5"
+     ]
+    },
+    {
+     "name": "Senate cosponsors (6 of 55 Senate Republicans, 2 of 45 Senate Democrats)",
+     "role": "Cosponsors",
      "party": null,
-     "what_they_did": "Signed on as cosponsors from both parties, giving the bill bipartisan cover.",
+     "what_they_did": "Signed on as cosponsors, giving the bill bipartisan backing from the start.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -127,10 +129,21 @@
      ]
     },
     {
-     "name": "The Senate",
-     "role": "Chamber that passed the bill",
+     "name": "Senate Committee on Finance",
+     "role": "Committee of referral",
      "party": null,
-     "what_they_did": "Discharged the Finance Committee and passed the bill without amendment by unanimous consent on May 20, 2025.",
+     "what_they_did": "Discharged the bill by unanimous consent on May 20, 2025, letting it skip a markup and go straight to the floor.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "name": "The full Senate",
+     "role": "Passed the bill without amendment by unanimous consent on May 20, 2025",
+     "party": null,
+     "what_they_did": "Passed the bill with no recorded votes against it.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -141,9 +154,9 @@
    "against": [
     {
      "name": "House leadership",
-     "role": "Controls House floor scheduling",
+     "role": "Controls the House floor calendar",
      "party": "R",
-     "what_they_did": "Received the bill from the Senate on May 26, 2025 and held it at the desk without scheduling a vote.",
+     "what_they_did": "Received the bill on May 26, 2025 and held it at the desk; no vote has been scheduled [S5]. Widely reported that the House instead adopted a tip-deduction provision inside its larger tax bill, leaving this standalone version unaddressed.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -152,14 +165,14 @@
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "Support crossed party lines from the start — the Senate passed it unanimously, and the 8 cosponsors split 6 Republicans and 2 Democrats."
+   "party_line_note": "The Senate passed the bill by unanimous consent with no recorded opposition, and its 8 cosponsors split 6 Republicans and 2 Democrats; the only delay has been House inaction, not a party fight."
   },
   "industries": [
    {
-    "industry": "Beauty and personal-care services (salons, barbershops, nail salons, spas)",
+    "industry": "Beauty, barbering, nail and spa businesses",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "These businesses win twice: their workers get the new tip deduction, and the employers themselves get a newly expanded credit for the payroll taxes they pay on tips. The employer credit lowers business costs without directly touching workers' pay.",
+    "note": "The bill extends the existing employer tip payroll-tax credit to these establishments, so salon and spa owners get a new tax break alongside their workers' deduction [S2][S3].",
     "sources": [
      "S2",
      "S3"
@@ -169,23 +182,32 @@
     "industry": "Restaurants and food service",
     "effect": "entrenched",
     "stance_toward_public": "mixed",
-    "note": "The bill does not change their existing employer credit, but by making tip income tax-free it strengthens the tipped-wage model in which restaurants pay a lower base wage and customers' tips make up the difference. Servers gain real tax relief at the same time.",
+    "note": "Restaurant employers keep their existing tip payroll-tax credit, and tax-free tips make tip-based pay more attractive, reinforcing a wage system built on customer tips rather than employer wages [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Tipped-service workers",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "Workers in occupations that customarily receive tips get up to $25,000 of income excluded from federal income tax, as long as the tips are reported and they earn under $160,000 from that employer [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    }
   ],
-  "trajectory": "The House has taken no action since holding the bill at the desk in May 2025. A deduction for tips on essentially the same design was enacted in mid-2025 through a larger tax-and-spending law, so the House may treat this standalone bill as redundant and simply let it expire at the end of the Congress — the usual fate for a Senate-passed bill the other chamber never votes on.",
+  "trajectory": "The House has held the bill at its desk since May 26, 2025 with no scheduled vote. A nearly identical tip deduction was included in the large tax law signed in July 2025 (applying through 2028), which is widely reported; that makes House action on this standalone Senate bill unlikely, and it may simply sit until the Congress ends. If the enacted version's provision were ever allowed to lapse, this bill could be revived.",
   "categories": [
-   "wages_and_labor",
-   "other"
+   "taxes_on_wealth_and_corporations",
+   "wages_and_labor"
   ],
   "scores": {
    "public_stakes": 6,
    "concentrated_stakes": 4,
-   "outcome_against_public": 1,
-   "support_mismatch": 2,
+   "outcome_against_public": 2,
+   "support_mismatch": 4,
    "corruption_relevance": 1,
    "confidence": 0.85
   }

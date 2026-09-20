@@ -1,102 +1,114 @@
 {
  "bill_id": "119-hr9536",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:14:05+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:11:32+00:00",
  "record_fetched_at": "2026-09-20T08:13:10+00:00",
  "record_hash": "55b96f98cbfe8cdc",
  "analysis": {
-  "one_liner": "Restricts and caps attorney fees the federal government must pay people who win cases against it.",
-  "headline": "The bill was introduced in June 2026 and sent to the House Judiciary Committee, which has taken no further action; it has two cosponsors and no votes.",
+  "one_liner": "Restricts attorney fee awards for people and groups that win lawsuits against federal agencies.",
+  "headline": "Introduced in late June 2026 with 2 Republican cosponsors, the bill was referred to the House Judiciary Committee and has seen no action since.",
   "direction": "for_concentrated_interests",
-  "plain_summary": "Today, under the Equal Access to Justice Act, an individual, small business, or nonprofit that beats the federal government in an agency case or a lawsuit can make the government pay its attorney fees, as long as the government's position wasn't substantially justified. This bill would shrink that right in several ways: it would limit fee awards to people with a direct financial stake in the case, cap fees at $200,000 per case and three cases per year, make judges cut awards when lawyers did pro bono work, and ban attorney fees in settlements that force an agency to write a rule or issue guidance. Social Security and Veterans Affairs cases are carved out of the caps.",
-  "who_benefits": "If the bill passed, the federal government would save money by paying fewer and smaller fee awards. Industries that prefer fewer citizen lawsuits against agencies, and fewer court-enforced settlements that push agencies to regulate, would also benefit. People who currently use fee-shifting to make challenges affordable would lose that protection, except in Social Security and veterans cases.",
-  "who_benefits_short": "The federal government and regulated industries",
+  "plain_summary": "This bill would sharply limit when someone who wins a lawsuit or case against a federal agency can have their attorney fees paid by the government. Only plaintiffs with a direct monetary stake — a personal injury, property damage, or unpaid benefits — would qualify, awards would be capped at $200,000 per case, and settlements with agencies could no longer include fee payments. It would also require a review of the bill's effects on federally managed forests and rangelands.",
+  "who_benefits": "Industries that face lawsuits from environmental and public interest groups over federal land, logging, mining, and permitting decisions — such as timber and forest products companies — benefit because the groups suing them would mostly lose the ability to recover attorney fees. The federal government also saves money by paying fewer fee awards. Social Security and veterans benefits attorneys are explicitly carved out of the caps, preserving their fee stream.",
+  "who_benefits_short": "Timber, mining, and oil interests",
   "how_it_helps": [
    {
-    "text": "The bill caps fee awards against the government at $200,000 per case and three cases per calendar year, unless the case is a class action or involves Social Security or Veterans Affairs [S2].",
+    "text": "Bars fee awards to any party that lacks a 'direct and personal monetary interest' in the case, such as a personal injury, property damage, or unpaid agency payment — which excludes the nonprofit and public interest organizations that typically sue federal agencies over regulations and land management.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It would deny fee awards to any party without a direct personal monetary interest, such as a person with an injury, property damage, or an unpaid government payment, screening out advocacy organizations suing on broader public grounds [S2].",
+    "text": "Caps fee awards at $200,000 per case and 3 cases per calendar year, unless the case is a class action or involves the Social Security Administration or Department of Veterans Affairs — capping the financial exposure that agencies and the industries they regulate face from fee-shifting suits.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It would bar any settlement or consent decree that produces a regulation or guidance document from including payment of attorney fees or litigation costs, removing a tool courts have used to make agencies follow through on commitments [S2].",
+    "text": "Prohibits any settlement agreement or consent decree that produces a regulation or guidance document from including payment of attorneys' fees or litigation costs, cutting off the 'sue and settle' route where an agency resolves a lawsuit by agreeing to a rule and paying the plaintiff's fees.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It would require judges to reduce or deny fee awards commensurate with pro bono hours, and to reduce awards when a party prolonged or misrepresented the case or acted in bad faith [S2].",
+    "text": "Carves out Social Security and Veterans Affairs cases from the caps entirely, preserving the existing fee arrangements for attorneys representing disability and benefits claimants.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Requires the Interior Secretary to convene a review panel on the bill's effects on federally managed lands, with guaranteed seats for the forest products industry and a rural water utility alongside hunters, anglers, and a wildlife biologist.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Ordinary people and small entities that sue the federal government would bear the cost: attorney fees in a case against the government can easily exceed $200,000, so a capped award leaves the winner paying the difference out of pocket. Public-interest law firms and advocacy groups would lose the fee income that funds their casework, and some cases would become impossible to bring at all.",
-  "who_pays_short": "Citizens and groups that sue the government",
+  "who_pays": "Ordinary citizens and the nonprofits that represent them. Public interest, environmental, civil rights, and watchdog groups would bear litigation costs they can no longer recover from the government even when they win, which would shrink their capacity to challenge agency decisions in court. Individuals with diffuse, non-monetary harms — for example, neighbors of a polluting facility — would also lose fee recovery. The Treasury saves money, but that saving comes from fewer checks on agency power.",
+  "who_pays_short": "Public interest groups and ordinary citizens",
   "drawbacks": [
    {
-    "text": "A $200,000 cap can fall far short of actual legal costs in a complex case against the federal government, meaning a prevailing party wins the case but still owes its own lawyers [S2].",
+    "text": "Fee-shifting under the Equal Access to Justice Act is what makes it financially possible for small nonprofits and ordinary people to challenge the federal government, since losing such a case normally means eating years of legal costs; cutting off recovery for anyone without a direct monetary stake would leave agencies' regulatory and land management decisions largely unchallenged.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Screening out plaintiffs without a direct personal monetary interest would exclude organizations bringing cases on behalf of the public, such as challenges to agency rulemaking, which are often the only check on illegal or arbitrary government action [S2].",
+    "text": "People harmed in ways that don't show up as a direct dollar figure — such as communities affected by pollution or by weakened safety rules — could win their case and still walk away owing their own legal bills.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requiring judges to cut awards based on pro bono hours penalizes lawyers for doing free work and makes it harder to assemble representation for people who could not otherwise afford to sue the government [S2].",
+    "text": "The blanket ban on fees in consent decrees removes a tool agencies use to resolve litigation; settling disputes without paying fees may push more cases into full trials and appeals, which costs the government and taxpayers more, not less.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The strongest good-faith argument for the bill: fee-shifting has been used by repeat litigants and by groups that negotiate consent decrees to make agencies issue rules through backroom settlements rather than public rulemaking, and taxpayers foot the fees. The bill addresses those concerns, but the same provisions would also price ordinary people out of legitimate cases.",
+    "text": "The requirement that courts 'shall' reduce fee awards commensurate with any pro bono hours a lawyer worked could discourage attorneys from volunteering free legal help, since donated hours would directly shrink their paid compensation.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The taxpayer savings are real but modest, and they come at the price of the main mechanism that lets individuals and small businesses afford to challenge the federal government. The carve-outs for Social Security and veterans cases acknowledge how important fee recovery is to ordinary claimants, which underscores what the caps would take away from everyone else.",
+  "benefit_vs_cost": "The bill would save the federal government and regulated industries money on fee awards, and its sponsors frame it as stopping agencies and advocacy groups from trading friendly settlements for fee payments. The cost falls on the public side of the ledger: the fee-recovery system it dismantles is what lets private citizens and small organizations afford to hold federal agencies accountable in court, and this bill removes that mechanism for most of them. An honest supporter would have to concede that the savings come largely from making public enforcement cases financially impossible.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was sent to the House Judiciary Committee when it was introduced, and the committee has not acted on it since.",
+   "mechanism": "The bill was introduced on June 30, 2026, and sent to the House Judiciary Committee, where it has sat without a hearing, a vote, or any other action while the session runs out.",
    "narrative": [
     {
-     "text": "Representative Thomas Tiffany introduced the bill on June 30, 2026, for himself and Representative Harriet Hageman, and it was referred to the House Committee on the Judiciary [S1][S2][S4].",
+     "text": "Rep. Thomas Tiffany introduced the bill on June 30, 2026, joined by Rep. Harriet Hageman as a cosponsor.",
      "sources": [
       "S1",
       "S2",
+      "S3"
+     ]
+    },
+    {
+     "text": "The bill was referred to the House Committee on the Judiciary the same day, its only action in the record.",
+     "sources": [
+      "S1",
       "S4"
      ]
     },
     {
-     "text": "Two Republicans are listed as cosponsors, and no further action, hearing, markup, or vote appears in the bill's history [S3][S4].",
+     "text": "The full action history shows no committee hearing, no markup, no vote, and no further movement after the referral.",
      "sources": [
-      "S3",
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "No one's position has changed yet: the federal government still pays fees under the current rules, and the people and groups that rely on fee-shifting still have it. The bill's supporters have gained nothing so far either."
+   "who_came_out_ahead": "Nothing has changed yet. Public interest and environmental groups keep the current fee rules, and the timber, mining, and energy interests the bill would shield from fee-shifting lawsuits have not gotten that protection."
   },
-  "who_came_out_ahead_short": "No change yet — current fee rules stand",
+  "who_came_out_ahead_short": "No change yet; bill sits in committee",
   "sides": {
    "for": [
     {
      "name": "Rep. Thomas Tiffany",
-     "role": "Sponsor, House of Representatives",
+     "role": "Sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill and referred it to the Judiciary Committee.",
+     "what_they_did": "Introduced the bill on June 30, 2026.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -106,80 +118,82 @@
     },
     {
      "name": "Rep. Harriet Hageman",
-     "role": "Original cosponsor, House of Representatives",
+     "role": "Cosponsor",
      "party": "R",
-     "what_they_did": "Joined the bill as an original cosponsor at introduction.",
+     "what_they_did": "Joined as a cosponsor at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2"
+      "S2",
+      "S3"
      ]
     },
     {
-     "name": "A second House Republican cosponsor",
-     "role": "Cosponsor, House of Representatives",
-     "party": "R",
-     "what_they_did": "Added their name as a cosponsor.",
+     "name": "House Judiciary Committee",
+     "role": "Committee of referral",
+     "party": null,
+     "what_they_did": "Received the referral on June 30, 2026, and has taken no action on the bill since.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3"
+      "S1",
+      "S4"
      ]
     }
    ],
    "against": [],
-   "party_line": "mostly_party_line",
-   "party_line_note": "The bill's three supporters are all Republicans; no Democrat has cosponsored and no opposition has yet been recorded, since the bill has not moved past its referral."
+   "party_line": "unclear",
+   "party_line_note": "No votes have occurred; the only people attached to the bill are a Republican sponsor and 2 Republican cosponsors, with no Democratic support on record."
   },
   "industries": [
    {
-    "industry": "Federal government (as litigation defendant)",
+    "industry": "Forest products and timber",
     "effect": "gains",
     "stance_toward_public": "opposed",
-    "note": "The government would pay fewer and smaller fee awards to parties that beat it in court. Its savings come directly out of the ability of individuals and small businesses to afford challenges to government action.",
+    "note": "The bill's fee restrictions would make it much harder for environmental groups to recover legal costs when they challenge federal logging and land management projects, reducing the litigation risk around timber sales on public land. The bill even reserves a seat for a forest products industry affiliate on the review panel that would assess its effects.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Public-interest law firms and environmental advocacy groups",
+    "industry": "Environmental and public interest law organizations",
     "effect": "loses",
     "stance_toward_public": "aligned",
-    "note": "Fee-shifting under the Equal Access to Justice Act funds much of the casework of groups that challenge agency decisions, and the monetary-interest requirement and caps would cut them out. When their lawsuits succeed, the public usually gains the remedy; their loss is the public's loss of that enforcement channel.",
+    "note": "Groups that sue federal agencies over regulations, pollution, and land decisions generally lack a direct personal monetary interest, so they would be barred from fee recovery and their cases capped or feeless in settlements. These groups are the public's main private check on federal agency decisions, and this bill defunds that work.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Regulated industries (timber, mining, energy and other permit holders)",
+    "industry": "Mining, oil, and gas on federal land",
     "effect": "gains",
     "stance_toward_public": "opposed",
-    "note": "Fewer suits and no fees in settlement agreements mean less legal pressure on agencies to write or enforce rules affecting these industries. The bill's own impact assessment centers on federal forest and rangeland management, where such litigation is concentrated.",
+    "note": "Companies and permittees operating on federally managed lands face frequent lawsuits from conservation groups; capping and restricting fee awards raises those groups' cost of suing, giving operators more room to proceed with fewer legal challenges.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Social Security and veterans disability claimants",
-    "effect": "mixed",
+    "industry": "Social Security and veterans benefits attorneys",
+    "effect": "entrenched",
     "stance_toward_public": "aligned",
-    "note": "The bill exempts Social Security and Veterans Affairs cases from its caps and monetary-interest test, preserving the largest volume of fee awards that go to ordinary claimants — while other agency cases lose that protection.",
+    "note": "The bill explicitly exempts cases involving the Social Security Administration and Department of Veterans Affairs from its caps, preserving the existing fee arrangement for lawyers representing disability and benefits claimants. Claimants with unpaid agency disbursements would also keep qualifying under the new monetary-interest test.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "A bill referred to committee with only two cosponsors and no scheduled hearing or markup rarely reaches the floor. With the 119th Congress ending January 3, 2027, this bill would need the Judiciary Committee to act quickly, and there is no sign of that; the most likely path is that it dies in committee at the end of the session.",
+  "trajectory": "The bill has one sponsor, 2 cosponsors, and no committee action more than a year before the session ends on January 3, 2027. Bills referred to the Judiciary Committee at this stage with this level of support almost never reach the floor; the most likely outcome is that it dies in committee when this Congress ends.",
   "categories": [
-   "other",
-   "environment_and_energy"
+   "environment_and_energy",
+   "other"
   ],
   "scores": {
    "public_stakes": 5,
-   "concentrated_stakes": 6,
+   "concentrated_stakes": 7,
    "outcome_against_public": 1,
    "support_mismatch": 1,
-   "corruption_relevance": 1,
+   "corruption_relevance": 2,
    "confidence": 0.85
   }
  },

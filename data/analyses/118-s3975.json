@@ -1,0 +1,164 @@
+{
+ "bill_id": "118-s3975",
+ "model": "z-ai/glm-5.3-flash",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:12:19+00:00",
+ "record_fetched_at": "2026-09-20T20:01:30+00:00",
+ "record_hash": "c229a6c07b6e28e4",
+ "analysis": {
+  "one_liner": "Requires companies to get consumer consent before using personal data to train AI systems.",
+  "headline": "The bill, which would have let consumers opt in before companies use their data to train AI, was introduced in March 2024, sent to the Senate Commerce Committee, and never received a vote before the Congress ended.",
+  "direction": "for_working_people",
+  "plain_summary": "The bill would have directed the Federal Trade Commission to write rules barring companies from using or selling the personal data they collect to train artificial intelligence systems unless the person first gave clear, informed consent. Consent could not be buried in terms of service or made a condition of using the service, and people could revoke consent and have their data removed from AI training sets. It also required an FTC study on whether 'de-identified' data can really be protected from re-identification, and let states keep stronger privacy laws.",
+  "who_benefits": "Everyday consumers whose browsing, purchases, and personal information are currently swept into AI training datasets without their knowledge or agreement. People who want to say no to having their data used to train AI — or to have their data pulled out of training sets — would gain a legal right to do so.",
+  "who_benefits_short": "Consumers whose data feeds AI training",
+  "how_it_helps": [
+   {
+    "text": "Companies could not use, sell, or transfer personal data collected from users to train AI systems unless the person first received a clear disclosure and gave express informed consent [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Consent could not be inferred from inaction, could not be bundled into a terms-of-service agreement, and services could not be reduced or made conditional on a person refusing to consent [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "People could revoke consent at any time through an easy mechanism, and upon revocation their data would have to be expunged from AI training datasets [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The bill preserved stronger state privacy laws rather than overriding them, and gave the FTC authority to enforce the rules as unfair or deceptive practices [S2].",
+    "sources": [
+     "S2"
+    ]
+   }
+  ],
+  "who_pays": "Companies that collect consumer data and build or train AI systems — large platforms, AI developers, and the advertising businesses built on behavioral data — would bear the cost of consent systems, compliance, and losing free access to user data for training.",
+  "who_pays_short": "Data-harvesting platforms and AI developers",
+  "drawbacks": [
+   {
+    "text": "Requiring opt-in consent for every data use could produce endless consent pop-ups; the bill itself directs the FTC to consider and minimize 'consumer fatigue' toward such disclosures, an acknowledgment of this cost [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Compliance would fall on companies of all sizes, which supporters of lighter regulation argue raises costs for smaller firms while the largest platforms are best able to absorb them [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Enforcement would run only through the FTC; the bill gives individuals no right to sue on their own, so protection depends on one agency's priorities and resources [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Data that companies convert to 'de-identified' form would be exempt, even though the bill's own required FTC study questions whether de-identified data can truly never be re-identified as AI advances [S2].",
+    "sources": [
+     "S2"
+    ]
+   }
+  ],
+  "benefit_vs_cost": "The core benefit is real and broad: a default of consent instead of silent data collection for AI training, with consent that cannot be tricked out of people and a right to revoke. The honest costs are friction and compliance burden, plus an FTC-only enforcement model and a de-identified-data carve-out that leaves openings. The design leans toward the consumer side of the tradeoff, though its effectiveness depends heavily on how the FTC writes the rules.",
+  "outcome": {
+   "status": "never_got_a_vote",
+   "mechanism": "It was introduced and referred to the Senate Commerce Committee, which never acted on it, and the bill died when the 118th Congress ended in January 2025.",
+   "narrative": [
+    {
+     "text": "Sen. Peter Welch introduced the AI CONSENT Act on March 19, 2024, joined by Sen. Ben Ray Lujan as cosponsor [S2][S3].",
+     "sources": [
+      "S2",
+      "S3"
+     ]
+    },
+    {
+     "text": "The bill was read twice and referred to the Committee on Commerce, Science, and Transportation the same day [S4].",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "The committee never held a markup or vote, and no further action appears in the record before the Congress ended on January 3, 2025 [S4].",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "Companies that collect and monetize consumer data to train AI — they kept doing so without asking anyone, and gained a year-plus delay in any consent requirement. Consumers gained nothing but the prospect of the bill being reintroduced."
+  },
+  "who_came_out_ahead_short": "Data-harvesting platforms and AI developers",
+  "sides": {
+   "for": [
+    {
+     "name": "Sen. Peter Welch",
+     "role": "U.S. Senator (VT), bill sponsor",
+     "party": "D",
+     "what_they_did": "Introduced the bill and referred it to the Senate Commerce Committee.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S2",
+      "S4"
+     ]
+    },
+    {
+     "name": "Sen. Ben Ray Lujan",
+     "role": "U.S. Senator (NM), cosponsor",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S2",
+      "S3"
+     ]
+    }
+   ],
+   "against": [],
+   "party_line": "unclear",
+   "party_line_note": "Both sponsors were Democrats and only one other senator signed on; there were no votes and no recorded opposition, so no partisan split can be measured."
+  },
+  "industries": [
+   {
+    "industry": "AI developers and data-driven platforms",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill would end their free ability to train AI on data collected from users, requiring opt-in consent and honoring revocations by expunging data from training sets. Because that business model profits from using personal data without asking, its interest runs against consumers' control of their own data.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Advertising and data brokers",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill would bar selling or transferring covered data to third parties for AI training without consent, cutting off a revenue stream for firms that sell behavioral data. Consumers currently have no say in those transfers.",
+    "sources": [
+     "S2"
+    ]
+   }
+  ],
+  "trajectory": null,
+  "categories": [
+   "consumer_protection_and_finance",
+   "other"
+  ],
+  "scores": {
+   "public_stakes": 6,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 6,
+   "support_mismatch": 2,
+   "corruption_relevance": 1,
+   "confidence": 0.9
+  }
+ },
+ "unresolved_citations": []
+}

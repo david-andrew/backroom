@@ -1,74 +1,98 @@
 {
  "bill_id": "119-s1095",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:53:15+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:17:41+00:00",
  "record_fetched_at": "2026-09-20T08:06:00+00:00",
  "record_hash": "585c53e21f7a733f",
  "analysis": {
-  "one_liner": "Lets the FTC sue drug companies that file baseless FDA petitions to delay generic competition.",
-  "headline": "The Senate Judiciary Committee unanimously reported the bill to the floor in April 2025, and it now sits on the Senate calendar awaiting a vote.",
+  "one_liner": "Lets the FTC fine drug companies that file sham FDA petitions to delay cheaper generic drugs.",
+  "headline": "The bill cleared the Senate Judiciary Committee with bipartisan support in April 2025 and has sat on the Senate calendar without a floor vote since.",
   "direction": "for_working_people",
-  "plain_summary": "Brand-name drug companies sometimes file petitions with the FDA raising supposed safety concerns about a generic competitor — petitions the FDA often finds baseless — because the FDA generally cannot finish approving the generic while a petition is pending, buying the brand-name company extra months of sales without competition. This bill makes filing such petitions to interfere with a competitor an unfair method of competition. The Federal Trade Commission could sue the filer and win civil penalties: the greater of $50,000 per day the FDA spent reviewing the sham petition, or the revenue the company earned from the drug while the petition was pending.",
-  "who_benefits": "Patients who need cheaper generic drugs and biosimilars: removing sham petitions speeds approval of lower-cost competitors, which tend to drive down prices. It also helps generic and biosimilar manufacturers, who currently lose months of market time to petitions the FDA itself has called dilatory.",
-  "who_benefits_short": "Patients paying for prescriptions; generic drug makers",
+  "plain_summary": "Brand-name drug companies sometimes file petitions with the FDA right before a cheaper generic or biosimilar competitor is about to win approval. Even weak petitions can stall approval for months while the FDA reviews them, during which the brand company keeps selling at high prices. This bill makes it an unfair method of competition to file an objectively baseless petition whose real purpose is to delay a competitor, lets the Federal Trade Commission sue the filer, and imposes a fine of up to $50,000 per day the petition was under review — or the brand company's revenue from the drug during that period, if greater.",
+  "who_benefits": "Patients who would buy cheaper generic drugs and biosimilars sooner if sham petitions stopped delaying their approval, and the generic and biosimilar companies that compete with brand-name drugmakers.",
+  "who_benefits_short": "Patients waiting for cheaper generics",
   "how_it_helps": [
    {
-    "text": "The bill makes it an unfair method of competition for a person to submit a 'sham' FDA petition — one that is objectively baseless and that attempts to use the petition process, rather than its outcome, to interfere with a competitor's approval — including a series of such petitions filed against the same application.",
+    "text": "Makes a baseless FDA petition filed to interfere with a competing generic or biosimilar application an unfair method of competition that the FTC can sue over [S2][S3].",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "The FTC may bring a civil action against the filer, and the penalty is the greater of $50,000 for each calendar day the sham petition was under FDA review or the revenue the company earned on the drug during that period, making delay potentially far more expensive than it is profitable.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "If the Secretary of Health and Human Services determines a petition in a series was filed primarily to delay approval and refers it to the FTC, the petition is presumed part of a sham series unless the defendant proves otherwise by a preponderance of the evidence.",
+    "text": "Sets the penalty at the greater of $50,000 for each calendar day the sham petition was under FDA review, or the filer's revenue from the drug during that review period, so delaying cheaper competition stops paying for itself [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill states it does not limit petitions filed in good faith to raise legitimate public health concerns, and leaves all existing antitrust and FTC remedies in place; it applies only to petitions filed on or after enactment.",
+    "text": "Creates a presumption that a petition is part of a sham series when the Health and Human Services Secretary finds it was filed mainly to delay approval and refers it to the FTC, easing the government's path to enforcement [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Brand-name drug manufacturers that file baseless petitions: they face FTC lawsuits and civil penalties sized to the delay's value, and lose a proven tool for stretching out periods without generic competition. There is no general taxpayer cost; the FTC would bear routine enforcement costs.",
-  "who_pays_short": "Brand-name drug manufacturers filing baseless petitions",
+  "who_pays": "Brand-name drugmakers that file petitions to buy time against generic competitors, who would face civil penalties and lawsuits, plus the cost to the FTC of enforcing the new authority.",
+  "who_pays_short": "Brand-name prescription drug companies",
   "drawbacks": [
    {
-    "text": "The bill's penalty is potentially enormous because it can equal a company's entire revenue on a drug during the review period, which critics of such measures argue goes well beyond what is needed to deter sham filings and could produce outsized settlements.",
+    "text": "The penalty is steep enough that some companies may hold back petitions that raise genuine safety or quality concerns, because the line between a legitimate petition and a delaying one is not always clear [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The presumption triggered by an HHS referral is largely shielded from judicial review, and an honest objection is that the threat of large penalties could chill companies from filing petitions raising genuine safety questions about generics and biosimilars, even though the bill is written to protect good-faith petitions.",
+    "text": "Enforcement depends on the FTC choosing to bring cases and on the HHS Secretary making delay findings, so the deterrent only works as well as those agencies choose to use it [S2][S3].",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "text": "The FDA already has authority under the same statute to summarily deny petitions filed to delay, so the bill adds an antitrust enforcement layer rather than fixing the underlying review bottleneck.",
+    "text": "The bill targets petitions aimed at generic and biosimilar competitors, leaving other ways of slowing competitor entry untouched [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The core benefit is straightforward: drug delay tactics that the FDA has repeatedly flagged get a real price attached, and patients reach cheaper generics sooner. The main cost is the risk of over-deterrence — a company facing revenue-sized penalties may stop filing even legitimate safety petitions. The bill tries to manage that by limiting it to objectively baseless filings and shielding good-faith petitions, but enforcement will show whether that line holds. On balance the design is targeted rather than sweeping.",
+  "benefit_vs_cost": "The core trade is a real one: sham petitions have been a documented way to keep cheaper drugs off the market, and a financial penalty that scales with the delay directly removes the payoff from filing one. The honest cost is a possible chilling effect on good-faith safety petitions, though the bill attempts to draw the line at petitions that are objectively baseless and aimed at interfering with a competitor rather than at the outcome of FDA review. On balance, the design targets the abuse narrowly and preserves legitimate petitions.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The Senate Judiciary Committee approved it without amendment and it was placed on the Senate's general calendar in April 2025, where it awaits a floor vote that no one has scheduled.",
+   "mechanism": "The bill won bipartisan approval in the Senate Judiciary Committee, was reported to the floor, and has been waiting on the Senate calendar without a vote since April 2025.",
    "narrative": [
     {
-     "text": "Introduced March 24, 2025 by Senator Klobuchar with six original cosponsors, including Republicans Grassley and Cruz alongside Democrats Durbin, Blumenthal, Welch, and Booker.",
+     "text": "Senator Klobuchar introduced the bill on March 24, 2025, joined by original cosponsors Senators Grassley, Durbin, Blumenthal, Cruz, Welch, and Booker [S1][S3].",
+     "sources": [
+      "S1",
+      "S3"
+     ]
+    },
+    {
+     "text": "The Senate Judiciary Committee ordered it reported favorably without amendment on April 3, and it was reported and placed on the Senate Legislative Calendar under General Orders as Calendar No. 45 on April 10, 2025 [S5].",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "No floor vote has been scheduled since it was placed on the calendar [S5].",
+     "sources": [
+      "S5"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "Brand-name drugmakers, whose petitions continue to delay generic competition with no penalty, are better off with the bill waiting on the calendar than with it on the floor; patients and generic competitors keep waiting for the savings the bill targets."
+  },
+  "who_came_out_ahead_short": "Brand-name drugmakers so far",
+  "sides": {
+   "for": [
+    {
+     "name": "Sen. Amy Klobuchar",
+     "role": "U.S. Senator (MN), lead sponsor",
+     "party": "D",
+     "what_they_did": "Introduced the bill and led it through introduction with six bipartisan cosponsors.",
+     "direct": true,
+     "evidence": "record",
      "sources": [
       "S1",
       "S3",
@@ -76,40 +100,10 @@
      ]
     },
     {
-     "text": "On April 3, 2025 the Judiciary Committee ordered the bill reported favorably without amendment, and on April 10 it was reported and placed on the Senate Legislative Calendar under General Orders as Calendar No. 45 — the list of bills eligible for floor consideration.",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "No floor vote has been scheduled since; the Congress is still in session, so the bill's fate remains open.",
-     "sources": [
-      "S5"
-     ]
-    }
-   ],
-   "who_came_out_ahead": "For now, brand-name drug makers are better off: the bill is stalled on the calendar without a scheduled vote, so the existing ability to file baseless petitions that delay generic approval remains intact and unpenalized."
-  },
-  "who_came_out_ahead_short": "Brand-name drug makers, for now",
-  "sides": {
-   "for": [
-    {
-     "name": "Sen. Amy Klobuchar",
-     "role": "Lead sponsor; Senate Democrat from Minnesota",
-     "party": "D",
-     "what_they_did": "Introduced the Stop STALLING Act to give the FTC authority to penalize sham FDA petitions that delay generic drugs.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
-      "S3"
-     ]
-    },
-    {
      "name": "Sen. Chuck Grassley",
-     "role": "Senate Judiciary Committee member; Republican from Iowa",
+     "role": "U.S. Senator (IA), Chairman of the Senate Judiciary Committee",
      "party": "R",
-     "what_they_did": "Cosponsored the bill and, as reporting member, reported it out of committee without amendment on April 10, 2025.",
+     "what_they_did": "Cosponsored the bill and reported it out of committee without amendment on April 10, 2025.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -118,10 +112,22 @@
      ]
     },
     {
-     "name": "Sens. Durbin, Blumenthal, Welch, Booker, and Cruz",
-     "role": "Original cosponsors (4 Democrats, 1 Republican)",
+     "name": "Sen. Ted Cruz",
+     "role": "U.S. Senator (TX)",
+     "party": "R",
+     "what_they_did": "Cosponsored the bill, one of two Republican cosponsors.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3",
+      "S4"
+     ]
+    },
+    {
+     "name": "4 of 45 Senate Democrats",
+     "role": "Democratic cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as original cosponsors, giving the bill bipartisan backing from the start.",
+     "what_they_did": "Cosponsored the bill (Senators Durbin, Blumenthal, Welch, and Booker).",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -132,70 +138,59 @@
    ],
    "against": [
     {
-     "name": "Senate floor leadership (unnamed in the record)",
-     "role": "Controls the floor schedule",
-     "party": null,
-     "what_they_did": "Has not scheduled the bill for a floor vote in the months since it was placed on the calendar.",
+     "name": "Senate Majority Leader John Thune",
+     "role": "Senate Majority Leader",
+     "party": "R",
+     "what_they_did": "Has not brought the bill up for a Senate floor vote since it was placed on the calendar in April 2025.",
      "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S5"
-     ]
+     "evidence": "widely_reported",
+     "sources": []
     },
     {
      "name": "Brand-name pharmaceutical industry",
-     "role": "Manufacturers of originator drugs that use the FDA citizen-petition process",
+     "role": "Manufacturers of brand-name prescription drugs",
      "party": null,
-     "what_they_did": "Has publicly opposed bills targeting sham citizen petitions in past Congresses, arguing FDA already screens petitions and the measures are unnecessary; no formal opposition to this bill appears in the congressional record.",
+     "what_they_did": "Has a long record of lobbying against legislation penalizing citizen petitions, which its members use to delay generic competitors' FDA approvals.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "The bill had 2 Republican and 4 Democratic cosponsors, and it cleared the Judiciary Committee favorably without amendment; no opposition vote is recorded, and the only obstacle so far is the absence of a scheduled floor vote."
+   "party_line_note": "The bill was introduced with four Democrats and two Republicans as original cosponsors, and the Republican chairman of the Judiciary Committee reported it favorably without amendment; the lack of floor time is the obstacle, not a party split on the record so far."
   },
   "industries": [
    {
     "industry": "Brand-name drug manufacturers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill attaches civil penalties — up to a drug's full revenue during the review period — to baseless FDA petitions used to delay generic approval, removing a tactic that keeps cheaper competitors off the market for months. Patients pay the cost of those delays today.",
+    "note": "These companies file FDA citizen petitions that can delay generic and biosimilar approval for months while they keep selling at brand-name prices. The bill removes that payoff with fines of up to $50,000 per day under review or the filer's drug revenue during the delay.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Generic and biosimilar manufacturers",
+    "industry": "Generic and biosimilar drug makers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Fewer sham petitions means faster FDA decisions on generic applications and earlier market entry, which is also when prices for patients fall.",
+    "note": "Fewer sham petitions means their applications reach approval faster, letting them enter the market and compete sooner. Their gain is the same thing patients gain: cheaper drugs arriving earlier.",
     "sources": [
      "S2",
-     "S3"
-    ]
-   },
-   {
-    "industry": "Federal Trade Commission",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "The bill creates a new civil enforcement tool against sham petitions, adding to the FTC's competition authority.",
-    "sources": [
      "S3"
     ]
    }
   ],
-  "trajectory": "The bill is a repeat of similar measures that cleared the Judiciary Committee in earlier Congresses but never received a Senate floor vote. With bipartisan sponsorship and a favorable committee report in hand, a vote is possible if leadership makes time, but most bills sitting on the general calendar without leadership attention at this stage die when the Congress ends. A House companion moving in parallel would improve its odds.",
+  "trajectory": "The bill has bipartisan sponsorship and a favorable committee report, which puts it in a strong position on paper, but most Senate bills that reach the calendar without being attached to a larger package never get floor time. A realistic path is passage only if leaders fold it into a broader health or drug-pricing package; otherwise it likely waits on the calendar until the Congress ends.",
   "categories": [
-   "antitrust_and_competition",
-   "healthcare_and_drug_prices"
+   "healthcare_and_drug_prices",
+   "antitrust_and_competition"
   ],
   "scores": {
-   "public_stakes": 5,
-   "concentrated_stakes": 7,
+   "public_stakes": 6,
+   "concentrated_stakes": 8,
    "outcome_against_public": 4,
-   "support_mismatch": 4,
+   "support_mismatch": 6,
    "corruption_relevance": 2,
    "confidence": 0.9
   }

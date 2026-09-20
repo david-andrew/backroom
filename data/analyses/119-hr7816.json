@@ -1,111 +1,110 @@
 {
  "bill_id": "119-hr7816",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:47:48+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:49:07+00:00",
  "record_fetched_at": "2026-09-20T08:04:25+00:00",
  "record_hash": "7a672747b9b2c3f6",
  "analysis": {
-  "one_liner": "Requires warrants before the government searches Americans' communications or buys their personal data.",
-  "headline": "Introduced in March 2026 and referred to the House Judiciary and Intelligence committees; no committee or floor action has followed.",
+  "one_liner": "Requires warrants before the government searches Americans' communications or buys their personal data from brokers.",
+  "headline": "Introduced with 7 cosponsors on March 5, 2026, and referred to two House committees, where it has sat without a hearing or vote; it would require warrants for government searches of Americans' communications and ban warrantless purchases of Americans' records from data brokers.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would rewrite parts of the foreign surveillance law so that government agencies cannot search the contents of Americans' phone and internet communications collected under Section 702 without a warrant or a narrow emergency, consent, or cybersecurity exception. It would also make it illegal for law enforcement and intelligence agencies to buy Americans' location records, communication contents, and other personal data from data brokers instead of getting a court order. It would relieve small businesses and building custodians from being forced to help the government intercept communications, and it would give civil-liberties lawyers a bigger role in the secret surveillance court. The trade-off: it extends the underlying bulk-surveillance authority until April 2028.",
-  "who_benefits": "Everyday Americans who use phones, email, and the internet. Today, agencies can search databases of collected communications for an American's messages without a warrant, and police and intelligence agencies can buy location and communication records from data brokers that no court ever reviewed. The bill would end both practices except under narrow exceptions, and would add privacy advocates to the secret court that approves surveillance.",
-  "who_benefits_short": "Everyone who uses a phone or internet",
+  "plain_summary": "This bill would change how the government can spy. It would bar intelligence analysts from searching a large surveillance database for the communications of Americans without a warrant (with narrow exceptions for emergencies, consent, and cyber defense). It would scale back which businesses can be forced to help the government wiretap, and it would make it harder for law enforcement and intelligence agencies to simply buy Americans' location data and records from data brokers instead of getting a court order. It would also extend the underlying surveillance law (Section 702) to 2028, pairing reauthorization with these limits.",
+  "who_benefits": "Ordinary Americans whose phone calls, emails, location data, and browsing records could otherwise be searched or purchased by federal agencies without a warrant. Anyone whose data is collected under FISA's Section 702 program — which sweeps in communications of Americans talking to people overseas — would get a warrant requirement before the government looks for them in that database, and a ban on agencies buying data-broker records that would need a warrant if requested directly.",
+  "who_benefits_short": "Ordinary people's private communications and data",
   "how_it_helps": [
    {
-    "text": "Prohibits any government employee from running a warrantless search for the contents of an American's communications collected under Section 702, with exceptions only for a court warrant, a life-or-death emergency, consent, or limited defensive cybersecurity searches.",
+    "text": "Prohibits federal officers from conducting warrantless queries for the communications of United States persons in information acquired under FISA Section 702, with exceptions only for a court order, an emergency involving imminent death or serious bodily harm, consent, or narrowly scoped defensive cybersecurity searches; information from an unauthorized query cannot be used as evidence in any proceeding.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Makes it illegal for law enforcement and intelligence agencies to buy Americans' communication records, location information, or illegitimately obtained data from a third party like a data broker in exchange for anything of value, and bars evidence obtained that way from being used in court.",
+    "text": "Bars law enforcement agencies and the intelligence community from obtaining customers' records, location information, or illegitimately obtained data from third parties in exchange for anything of value, and blocks such records from being used as evidence; this is the 'Fourth Amendment Is Not For Sale Act' portion of the bill.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires agencies to get a real court order, under the strictest applicable legal standard, before compelling a third party to hand over an American's records.",
+    "text": "Requires a court order, under the most stringent applicable constitutional standard, before the government can compel a third party to hand over covered customer records — closing the pathway of buying from a broker what would require a warrant to demand from a provider directly.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Ends the ability to compel building custodians and other non-provider businesses to assist government surveillance by sunsetting the expanded 'electronic communication service provider' definition on December 31, 2026.",
+    "text": "Sunsets the expanded definition of 'electronic communication service provider' on December 31, 2026, narrowing which businesses (beyond phone and internet companies) can be compelled to serve as conduits for government surveillance, and limits directives to certain providers with new FISA Court review and congressional reporting.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Expands the role of privacy and civil-liberties experts in the Foreign Intelligence Surveillance Court, gives them access to unredacted court records, and lets them petition for review up to the Supreme Court.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Requires the Director of National Intelligence to declassify, to the extent possible, the type of services at issue in secret FISA court opinions, and requires quarterly public reports on directives issued to service providers.",
+    "text": "Requires the Foreign Intelligence Surveillance Court to appoint a friend-of-the-court adviser with privacy and civil liberties expertise in novel or sensitive cases (including cases involving public officials, political organizations, or the news media), and expands that adviser's access to the government's filings and court opinions.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Intelligence and law enforcement agencies would lose warrantless access to Americans' communications and would have to obtain court orders instead of purchasing data. Data brokers would lose government agencies as customers for Americans' personal records. Telecommunications and internet companies would get relief from compelled assistance but face more limited legal immunity when they help the government.",
-  "who_pays_short": "Intelligence agencies and data brokers",
+  "who_pays": "U.S. intelligence agencies and federal law enforcement, which would lose the ability to search the 702 database for Americans' communications without a warrant and could no longer buy location and records data from brokers. Commercial data brokers would lose government agencies as a paying customer. Communications providers would face some new compliance requirements, though many would gain relief from compelled surveillance assistance.",
+  "who_pays_short": "Intelligence agencies, law enforcement, and data brokers",
   "drawbacks": [
    {
-    "text": "The bill extends the underlying Section 702 bulk-surveillance authority until April 20, 2028, keeping the program itself in place longer than it otherwise would expire.",
+    "text": "The warrant requirement carries exceptions: queries without a warrant are still allowed in emergencies, with consent, for certain cybersecurity purposes, and for people already under court-authorized surveillance, and emergency-query information can be used in proceedings arising from the threat that prompted the query.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The warrantless-search ban contains exceptions — emergency, consent, and cybersecurity — and information from emergency queries that are later denied is barred from proceedings, but the annual compliance check is reported to Congress, not the public.",
+    "text": "The bill extends FISA Title VII — the Section 702 surveillance authority — to April 20, 2028, meaning it reauthorizes the underlying program for two more years rather than letting it lapse; opponents of 702 itself would view the trade skeptically.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The data-broker ban only covers records obtained 'in exchange for anything of value' and only certain record types, so data acquired without payment or outside the defined categories may remain obtainable.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "The limits on directives to certain service providers and the sunset of the expanded provider definition take effect December 31, 2026, so the new protections lapse unless Congress renews them.",
+    "text": "The main penalty for violating the new rules is that illegally obtained information cannot be used as evidence, plus internal minimization procedures and agency reporting to Congress; the bill does not create a private right to sue, so enforcement depends on suppression motions and oversight rather than individual remedies.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The privacy gains are substantial and direct: a warrant requirement for searches of Americans' communications and a ban on buying personal data to dodge the Constitution. The main cost is embedded in the bill itself — the extension of the bulk-collection authority to 2028 — which reformers accepted as the price of attaching these restrictions. Whether that trade is worth it depends on how strictly the exceptions are policed, and the bill's own oversight of those exceptions runs only to Congress.",
+  "benefit_vs_cost": "The core trade is real: the bill gives Americans a warrant requirement before the government searches for them in a database that collects their communications, and stops agencies from end-running the Fourth Amendment by purchasing data from brokers. The costs are modest for most people, though national security agencies argue warrant requirements slow threat detection; the bill's own emergency and cybersecurity exceptions are meant to answer that, while the two-year extension of 702 keeps the underlying collection in place.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced and sent to the House Judiciary and Intelligence committees in March 2026, and neither committee has taken it up since.",
+   "mechanism": "The bill was introduced and sent to the House Judiciary and Intelligence committees, where it has not received a hearing, a markup, or a floor vote; Congress is still in session, so its fate is undecided.",
    "narrative": [
     {
-     "text": "Rep. Andy Biggs introduced H.R. 7816 on March 5, 2026, joined by Reps. Crane and Clyde, and seven Republicans total are listed as cosponsors.",
+     "text": "Rep. Andy Biggs (R-AZ), joined by Reps. Eli Crane and Andrew Clyde, introduced the bill on March 5, 2026, and it gathered 7 Republican cosponsors in total.",
+     "sources": [
+      "S2",
+      "S3"
+     ]
+    },
+    {
+     "text": "The bill was referred to the House Judiciary Committee and to the Permanent Select Committee on Intelligence; no further action appears in the record.",
      "sources": [
       "S1",
-      "S2",
-      "S3",
       "S4"
      ]
     },
     {
-     "text": "The bill was referred to the House Judiciary Committee and, in addition, to the Permanent Select Committee on Intelligence; the action history shows no markup, hearing, vote, or other action since the referral.",
+     "text": "The bill would amend FISA to prohibit warrantless queries for the communications of United States persons under Section 702, with exceptions for court orders, emergencies, consent, and certain cybersecurity searches.",
      "sources": [
-      "S4"
+      "S2"
      ]
     },
     {
-     "text": "The bill text contains a warrant requirement for Section 702 queries of Americans' communications, the data-broker purchase ban titled the 'Fourth Amendment Is Not For Sale Act,' and an extension of FISA Title VII authorities to April 20, 2028.",
+     "text": "Title II of the bill, called the Fourth Amendment Is Not For Sale Act, would bar law enforcement and intelligence agencies from buying Americans' customer records, location data, or illegitimately obtained information from third parties, and would bar such records from use as evidence.",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "text": "The bill would also extend the repeal date of FISA Title VII to April 20, 2028, effectively reauthorizing the Section 702 program for two more years alongside the new warrant restrictions.",
      "sources": [
       "S2"
      ]
     }
    ],
-   "who_came_out_ahead": "Because the bill has gone nowhere, intelligence agencies and data brokers keep the current arrangement: warrantless searches of Americans' collected communications and the ability to buy personal data without a court order."
+   "who_came_out_ahead": "So far, no one has lost anything: because no vote has occurred and no law has changed, intelligence agencies continue operating under current warrantless-query rules and data brokers continue selling to the government. If the bill stays buried, those interests are the ones better off."
   },
   "who_came_out_ahead_short": "Intelligence agencies and data brokers, so far",
   "sides": {
@@ -114,30 +113,31 @@
      "name": "Rep. Andy Biggs",
      "role": "U.S. Representative, AZ; bill sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill and sponsored it.",
+     "what_they_did": "Introduced the bill and became its lead sponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S4"
-     ]
-    },
-    {
-     "name": "Reps. Eli Crane and Andrew Clyde",
-     "role": "Original cosponsors named in the bill",
-     "party": "R",
-     "what_they_did": "Joined as original cosponsors at introduction.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
       "S2"
      ]
     },
     {
-     "name": "Five additional House Republicans",
-     "role": "Cosponsors (7 total, all Republican)",
+     "name": "Reps. Eli Crane and Andrew Clyde",
+     "role": "Original cosponsors named at introduction",
      "party": "R",
-     "what_they_did": "Signed on as cosponsors of the bill.",
+     "what_they_did": "Joined as original cosponsors when the bill was introduced.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S2",
+      "S3"
+     ]
+    },
+    {
+     "name": "7 of 223 House Republicans",
+     "role": "Cosponsor bloc",
+     "party": "R",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -145,82 +145,50 @@
      ]
     }
    ],
-   "against": [
-    {
-     "name": "House Judiciary Committee",
-     "role": "Committee of primary referral",
-     "party": null,
-     "what_they_did": "Received the referral in March 2026 and has not held a markup or scheduled any action on the bill.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "name": "House Permanent Select Committee on Intelligence",
-     "role": "Additional committee of referral",
-     "party": null,
-     "what_they_did": "Received the referral in March 2026 and has not taken up the bill; this committee oversees the surveillance programs the bill would restrict.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "name": "FBI and intelligence community leadership",
-     "role": "Opponents of warrant requirements for Section 702 searches",
-     "party": null,
-     "what_they_did": "Publicly opposed warrant requirements for Section 702 queries of Americans during the 2024 reauthorization debate, when a similar House amendment failed by a single vote; the intelligence committees that oversee these programs have not advanced this bill.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
-    }
-   ],
-   "party_line": "mostly_party_line",
-   "party_line_note": "All eight listed supporters are Republicans, with no Democratic cosponsors; however, warrant requirements for FISA searches have historically drawn bipartisan support and bipartisan opposition in the House."
+   "against": [],
+   "party_line": "unclear",
+   "party_line_note": "Every sponsor and cosponsor so far is a House Republican (7 of 223); no Democrat has signed on and no opposition has been recorded, since the bill has not reached a hearing or vote."
   },
   "industries": [
    {
-    "industry": "Data brokers",
+    "industry": "Commercial data brokers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Data brokers make money collecting and reselling Americans' location data, communication records, and device data; agencies buy it because no warrant is needed. The ban would end that government revenue stream, which exists precisely because it lets the state bypass the Fourth Amendment.",
+    "note": "The bill bans law enforcement and intelligence agencies from buying covered customer records, location data, or illegitimately obtained information from third parties, cutting off a paying customer for brokered personal data. It also bars such records from use as evidence, reducing the value of that data to agencies.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Intelligence and law enforcement agencies",
+    "industry": "U.S. intelligence agencies and federal law enforcement",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The FBI, NSA, and other agencies would lose the ability to search Americans' collected communications without a warrant and to purchase personal data from brokers; every restriction in the bill narrows their access to information about United States persons.",
+    "note": "Agencies would need a warrant, an emergency, or consent before querying the 702 database for Americans' communications, and could no longer buy location and records data from brokers as a substitute for a court order. The bill pairs this with a two-year extension of the underlying 702 authority, so the program itself survives.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Telecommunications, internet, and cloud service providers",
+    "industry": "Telecommunications and technology providers",
     "effect": "mixed",
     "stance_toward_public": "aligned",
-    "note": "Providers would gain court review of surveillance directives and relief from compelled assistance after the expanded provider definition sunsets, but Section 207 narrows their civil immunity when they assist the government without a court order, adding legal risk. Their interest in fewer compelled surveillance obligations runs alongside their customers' privacy interests.",
+    "note": "The bill sunsets the expanded definition of electronic communication service provider on December 31, 2026, relieving many businesses beyond telecom carriers of compelled surveillance assistance, while imposing new notification and court-review duties on providers still subject to directives. Most providers gain net flexibility; the public gains privacy.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill has sat untouched in two committees — including the Intelligence committee that oversees the programs it would restrict — since its March 2026 referral, with a small all-Republican cosponsor list and roughly ten months left in the Congress. In the 2024 reauthorization fight, a similar warrant requirement failed on the House floor by one vote despite broad support, and this bill has not reached even a committee vote. The most likely outcome is that it dies without a vote when the 119th Congress ends in January 2027.",
+  "trajectory": "Congress is still in session. With only 7 cosponsors, a dual referral to two powerful committees, and no committee action on record since introduction, the bill is unlikely to get standalone floor time. Its most realistic path — and the reason it extends 702 to 2028 — is being folded into the broader FISA reauthorization fight around the April 2026 expiration of the current Section 702 extension, where surveillance reforms are usually traded against reauthorization.",
   "categories": [
    "corruption_and_ethics",
    "other"
   ],
   "scores": {
-   "public_stakes": 7,
+   "public_stakes": 8,
    "concentrated_stakes": 6,
-   "outcome_against_public": 3,
-   "support_mismatch": 2,
-   "corruption_relevance": 5,
+   "outcome_against_public": 2,
+   "support_mismatch": 1,
+   "corruption_relevance": 4,
    "confidence": 0.85
   }
  },

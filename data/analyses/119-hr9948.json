@@ -1,105 +1,101 @@
 {
  "bill_id": "119-hr9948",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:28:58+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:16:59+00:00",
  "record_fetched_at": "2026-09-20T08:05:10+00:00",
  "record_hash": "6241ba9ec99d64a2",
  "analysis": {
-  "one_liner": "Bans addictive AI chatbot features for minors and funds research and parent outreach.",
-  "headline": "The bill, introduced July 27, 2026 by Rep. Becca Balint with 4 Democratic cosponsors, has gone no further than being referred to two House committees and has not received a hearing or a vote.",
+  "one_liner": "Bans AI chatbots from using addictive design features on users under 18 and funds research on their mental health effects.",
+  "headline": "The bill, introduced with four Democratic cosponsors on July 27, 2026, was referred to two House committees and has had no hearings, markup, or vote since.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would have the President create a task force of health, technology, and law-enforcement agencies, plus clinicians and researchers, to study how AI chatbots affect young people's mental health and publish recommendations. It would ban companies from offering AI chatbots with addictive design features — like pretending to be a real person, building emotional relationships, or pushing users to keep chatting — to anyone under 18, with fines for violations. It would also pay universities to research the problem, pay nonprofits to train parents and teachers on warning signs, and force companies to hand over data to researchers, with penalties up to $10 million for refusing.",
-  "who_benefits": "Parents and children would be the main beneficiaries: companies could no longer legally offer AI chatbots built to form emotional attachments and keep minors chatting, and families would get outreach and training on spotting warning signs. Independent researchers and the public would also gain, because companies would be required to open their data to university researchers studying effects on youth mental health.",
-  "who_benefits_short": "Minors, parents, and independent researchers",
+  "plain_summary": "The bill would create an interagency task force to study how AI chatbots' addictive design features affect young people's mental health, and would have HHS fund university research ($3 million) and outreach to parents and teachers ($5 million). It would force AI chatbot companies to hand over data to researchers, with fines up to $10 million for refusing, and would make it illegal to offer a chatbot with addictive design features — like mimicking a real person, building an emotional bond, or using tricks to keep a user engaged — to anyone under 18, with a $5,000 fine per violation.",
+  "who_benefits": "Minors who use AI chatbots, and their families. The bill aims to shield them from chatbots designed to build emotional attachment and maximize engagement, and would give parents and teachers training to spot warning signs of unhealthy use.",
+  "who_benefits_short": "Minors and their families",
   "how_it_helps": [
    {
-    "text": "It would ban companies from offering AI chatbots with addictive design features to anyone under 18, with civil penalties enforced by the Attorney General [S2].",
+    "text": "Prohibits covered entities from making AI chatbots with addictive design features available to youth, enforceable by the Attorney General with civil penalties and injunctions.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It would create an interagency task force, including HHS, NIST, and FTC officials plus clinicians and academic researchers, to review the evidence and publish public recommendations on reducing mental health risks from youth chatbot use [S2].",
+    "text": "Funds university research on chatbots' effects on youth mental health ($3 million authorized for fiscal years 2027-2032) and outreach grants to nonprofits and community groups to train parents and teachers to recognize warning signs ($5 million).",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It would fund university research on how AI chatbots affect youth mental health ($3 million per year, fiscal 2027-2032) and grant money for nonprofits to train parents and teachers to recognize warning signs ($5 million per year) [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "It would force companies to give researchers access to their data — with identifying information removed — so the effects of chatbots on kids can be studied independently, backed by penalties of up to $10 million for refusal [S2].",
+    "text": "Requires chatbot companies to give researchers access to data on how their products affect young users, with fines up to $10 million per violation for noncompliance, and requires identifiable information to be removed before sharing.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "AI chatbot companies would bear the cost: they would have to remove or restrict addictive design features for users under 18, deploy age checks, and provide data to researchers on penalty of fines up to $10 million per refusal and $5,000 per violation of the youth ban. Taxpayers would fund the grant programs, authorized at $3 million and $5 million per year through fiscal 2032.",
-  "who_pays_short": "AI chatbot companies and taxpayers",
+  "who_pays": "AI chatbot companies, which would face compliance costs, mandatory data sharing, and civil penalties, and would have to build age verification — which collects users' age data, though the bill requires deleting it within 24 hours.",
+  "who_pays_short": "AI chatbot companies",
   "drawbacks": [
    {
-    "text": "The definition of 'addictive design features' is very broad: it covers showing typing bubbles, providing avatars, storing information from past conversations, charging to continue a conversation, conversations lasting more than two hours, and impersonating a real person. Many of these are ordinary features of common software, so a ban limited to youth would push companies to either wall off minors or strip widely used features, and enforcing it against vague categories could be legally contested on commercial-speech grounds the bill itself acknowledges must be balanced [S2].",
+    "text": "The definition of 'addictive design feature' is sweeping: it includes showing typing bubbles, providing avatars, and storing information from previous conversations, so nearly any conversational AI chatbot would be barred from serving minors.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Much of the bill is study rather than protection: the task force makes nonbinding recommendations, meets only once a year by default, and produces a report a year after research ends, so concrete rules would depend on later action by agencies or Congress [S2].",
+    "text": "Enforcing the youth prohibition depends on age verification technology, which requires collecting age data from users — a privacy tradeoff the bill only partly mitigates by limiting data to what is strictly necessary and requiring deletion within 24 hours.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Compliance depends on age verification: the ban applies to chatbots made available to youth, so companies would need to estimate or verify user ages, and the bill only constrains the data collected for verification (minimize what is collected, delete within 24 hours) rather than eliminating the privacy tradeoff of checking who is a minor [S2].",
+    "text": "The task force's recommendations are advisory, the per-violation penalty for offering an addictive chatbot to a minor is modest at $5,000, and enforcement rests entirely on the Attorney General's discretion.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The penalty for offering a prohibited chatbot to a minor is $5,000 per violation, which is small relative to the revenue of the large companies the bill targets and may not deter violations, though the Attorney General can also seek court orders to stop violations [S2].",
+    "text": "The bill's own findings acknowledge that First Amendment protections for commercial speech must be balanced against these restrictions, a tension that could invite legal challenge.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The potential benefit — federal attention, research, and a legal rule aimed at keeping manipulative chatbot features away from minors — is real but modest, and most of the bill is study and recommendations rather than enforceable protection. The ban's broad feature list (avatars, typing indicators, remembered conversations, conversations over two hours) is drawn widely enough that companies would likely comply by cutting off or heavily limiting minors rather than redesigning products, and the $5,000 per-violation penalty is small relative to the size of the companies covered. The strongest version of the bill is the data-access provision, which forces companies to open their products to independent researchers; the weakest is that the core response is a task force that meets once a year.",
+  "benefit_vs_cost": "The real-world effect would be modest: most of the bill is study, grants, and recommendations, and the binding prohibition carries small per-violation fines. The youth protection provision is the substantive piece, but its broad design definitions would effectively ban most AI chatbots from serving minors, and it depends on age verification that collects some user data. The costs fall on chatbot companies; the privacy risk to users is limited but real.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced and sent to the Energy and Commerce and Education and Workforce committees, where it has sat since late July 2026 with no hearing, no vote, and no sign of movement while the congressional session winds down.",
+   "mechanism": "It was introduced with four Democratic cosponsors in late July 2026 and referred to two House committees, where it has sat without a hearing or vote; the session ends in early January 2027.",
    "narrative": [
     {
-     "text": "The complete action history is two entries: introduction on July 27, 2026 and referral to the Committee on Energy and Commerce and the Committee on Education and Workforce the same day [S4].",
+     "text": "Rep. Becca Balint introduced H.R. 9948 on July 27, 2026, joined by Reps. Deluzio, Suozzi, and Watson Coleman.",
+     "sources": [
+      "S2",
+      "S4"
+     ]
+    },
+    {
+     "text": "The bill was referred the same day to the Energy and Commerce Committee and the Education and Workforce Committee.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The bill has 4 cosponsors, all Democrats, roughly two months into the session's remaining time, with no Republican support recorded [S3].",
+     "text": "The bill has four cosponsors, all House Democrats, and no further action has been taken since the referrals.",
      "sources": [
-      "S3"
-     ]
-    },
-    {
-     "text": "If enacted, the bill's most binding provisions would be the prohibition on offering AI chatbots with addictive design features to minors and the requirement that companies grant researchers access to data, with penalties up to $10 million for refusing [S2].",
-     "sources": [
-      "S2"
+      "S3",
+      "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, no one's situation has changed: the AI industry continues operating without the proposed restrictions, and no new research funding or parent training has been funded. If the bill stalls out, the companies that would have been regulated are the ones better off."
+   "who_came_out_ahead": "So far, AI chatbot companies, which face no new restrictions, data-sharing mandates, or penalties while the bill sits in committee with the session winding down."
   },
-  "who_came_out_ahead_short": "No one yet; AI companies if it stalls",
+  "who_came_out_ahead_short": "AI chatbot companies, for now",
   "sides": {
    "for": [
     {
      "name": "Rep. Becca Balint",
-     "role": "U.S. Representative (VT), bill sponsor",
+     "role": "U.S. Representative, Vermont",
      "party": "D",
-     "what_they_did": "Introduced the bill and wrote its provisions: a task force, research and outreach grants, mandatory data access for researchers, and a ban on offering AI chatbots with addictive design features to minors.",
+     "what_they_did": "Sponsored the bill and introduced it on July 27, 2026.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -108,72 +104,90 @@
      ]
     },
     {
-     "name": "Reps. Chris Deluzio, Tom Suozzi, and Bonnie Watson Coleman",
-     "role": "U.S. Representatives (PA, NY, NJ), original cosponsors",
+     "name": "4 of 217 House Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as the bill's only original cosponsors at introduction.",
+     "what_they_did": "Cosponsored the bill (Reps. Deluzio, Suozzi, and Watson Coleman among them).",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
       "S3"
      ]
     }
    ],
-   "against": [],
-   "party_line": "unclear",
-   "party_line_note": "No floor vote has occurred and it is too early to say how the parties line up; so far every sponsor and cosponsor is a Democrat, with no Republican support on record [S3]."
+   "against": [
+    {
+     "name": "Brett Guthrie",
+     "role": "Chair, House Energy and Commerce Committee",
+     "party": "R",
+     "what_they_did": "Committee received the referral in July 2026; no hearing or markup has been scheduled.",
+     "direct": true,
+     "evidence": "widely_reported",
+     "sources": []
+    },
+    {
+     "name": "Tim Walberg",
+     "role": "Chair, House Education and Workforce Committee",
+     "party": "R",
+     "what_they_did": "Committee received the referral in July 2026; no hearing or markup has been scheduled.",
+     "direct": true,
+     "evidence": "widely_reported",
+     "sources": []
+    }
+   ],
+   "party_line": "mostly_party_line",
+   "party_line_note": "All five sponsors and cosponsors are House Democrats; no Republican has signed on, and the bill sits in two committees chaired by Republicans."
   },
   "industries": [
    {
-    "industry": "AI chatbot developers and platforms",
+    "industry": "AI chatbot and generative AI companies",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Companies offering generative AI chatbots would be barred from deploying human-mimicking, emotionally engaging, or retention-driving features for users under 18, would face up to $10 million penalties for refusing researchers data access, and would pay $5,000 per violation of the ban. This hits the consumer AI industry's engagement-driven business model directly, which is why the bill's fate rests with committees where tech-related measures often stall.",
+    "note": "The bill would bar them from offering chatbots with engagement-maximizing features to minors, force them to share user data with academic researchers under threat of fines up to $10 million, and expose them to $5,000 fines per violation of the youth prohibition. Their business depends on keeping users engaged, which runs directly against the bill's goal of limiting youth emotional attachment to chatbots.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Universities and academic researchers",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "Institutions of higher education would receive federal grants to study chatbot effects on youth mental health and would gain legal-backed access to company data for that research.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Nonprofit and community organizations",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "501(c)(3) nonprofits and community groups experienced with parents and teachers would receive outreach grants to train families on warning signs of unhealthy chatbot use.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Mental health professionals",
+    "industry": "Age verification technology providers",
     "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "The youth prohibition effectively requires chatbot makers to deploy age verification, creating demand for these providers. But the bill restricts them to collecting only the data strictly necessary to determine age and requires deletion within 24 hours, limiting their business model.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Mental health nonprofits and community organizations",
+    "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Psychologists, social workers, and psychiatrists would sit on the task force, and best practices would steer youth showing warning signs toward licensed clinicians — professional involvement the bill builds in, though it creates no new revenue stream.",
+    "note": "A $5 million outreach grant program would fund tax-exempt nonprofits and community groups to train parents and teachers to recognize warning signs of harmful chatbot use in young people.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Academic researchers at universities",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "A $3 million grant program would fund university research on chatbots' effects on youth mental health, backed by a legal right to obtain data from chatbot companies.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill sits with two committees and no hearing or markup scheduled, roughly five months before the session ends. Late-introduced single-chamber bills with a handful of same-party cosponsors and no committee action almost never reach the floor, so the most likely path is that it dies in committee when the 119th Congress ends in January 2027, unless a committee takes it up or attaches the ideas to a larger package.",
+  "trajectory": "The bill is roughly five months old with four cosponsors, no Republican support, and no committee action in either of the two committees it was referred to. With the 119th Congress ending January 3, 2027, the most likely path is that it dies in committee at the end of the session without a hearing or vote, and would need to be reintroduced in the next Congress.",
   "categories": [
    "consumer_protection_and_finance",
-   "healthcare_and_drug_prices"
+   "other"
   ],
   "scores": {
    "public_stakes": 5,
-   "concentrated_stakes": 6,
-   "outcome_against_public": 3,
+   "concentrated_stakes": 5,
+   "outcome_against_public": 2,
    "support_mismatch": 1,
    "corruption_relevance": 1,
-   "confidence": 0.9
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

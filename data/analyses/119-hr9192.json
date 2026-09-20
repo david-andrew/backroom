@@ -1,95 +1,114 @@
 {
  "bill_id": "119-hr9192",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:42:49+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:06:02+00:00",
  "record_fetched_at": "2026-09-20T14:31:52+00:00",
  "record_hash": "1e1b9d972fb72049",
  "analysis": {
-  "one_liner": "Requires health plans to cover autoimmune and blood disorder drugs and limits prior authorization to once a year.",
-  "headline": "Introduced June 8, 2026 with one Republican cosponsor and sent to three House committees, where it has had no action since.",
+  "one_liner": "Requires insurance to cover autoimmune and blood disorder drugs and limits repeat prior authorization.",
+  "headline": "The bill has sat in three House committees since its June 2026 introduction with one bipartisan cosponsor and no vote scheduled.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would force group and individual health plans to cover any drug prescribed for an autoimmune disease, hemophilia, or Von Willebrand disease, whether dispensed by a pharmacy or given in a clinic. It would also bar plans from requiring prior authorization—getting the insurer's approval before a drug is covered—more than once every 12 months for these drugs, with narrow exceptions for opioids, sedatives, and drugs under an FDA safety program. The changes would take effect for plan years starting January 1, 2027.",
-  "who_benefits": "People with lupus, rheumatoid arthritis, psoriasis, multiple sclerosis, inflammatory bowel disease, hemophilia, Von Willebrand disease, and similar conditions. Millions of Americans take these drugs, which are often expensive specialty medicines, and today many must get insurer approval repeatedly, sometimes waiting days and going without medication.",
-  "who_benefits_short": "Patients with autoimmune and bleeding disorders",
+  "plain_summary": "This bill would require group and individual health plans to cover drugs prescribed for autoimmune diseases, hemophilia, and Von Willebrand disease, whether dispensed by a pharmacy or given in a doctor's office. It would also stop insurers from requiring prior authorization for those drugs more than once every 12 months, with narrow exceptions for short-term drugs and certain risky medications. Patients on expensive specialty drugs often face repeated approval fights each year; this would make coverage of those drugs automatic and the approval paperwork annual at most.",
+  "who_benefits": "People with autoimmune diseases like rheumatoid arthritis, lupus, and Crohn's disease, and people with hemophilia or Von Willebrand disease, who currently may face prior-authorization requests multiple times per year for the same drug and coverage fights over whether a drug is covered when dispensed by a pharmacy versus given in a clinic. Their families and employers also benefit from fewer interruptions in treatment.",
+  "who_benefits_short": "Autoimmune disease and hemophilia patients",
   "how_it_helps": [
    {
-    "text": "Plans must cover any drug indicated for an autoimmune disease, hemophilia, or Von Willebrand disease, whether from a pharmacy or in a clinical setting.",
+    "text": "Requires all group and individual plans to cover drugs indicated for autoimmune diseases, hemophilia, or Von Willebrand disease, whether dispensed by a pharmacy or furnished incident to another service, closing a common coverage gap between medical and pharmacy benefits.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Plans may not require prior authorization for these drugs more than once in any 12-month period, so patients no longer need fresh approval for ongoing treatment each cycle.",
+    "text": "Bars insurers from requiring prior authorization for these drugs more than once in any 12-month period, so a patient whose drug is approved does not have to re-win approval repeatedly for the same ongoing treatment.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The rules apply to group plans under ERISA and the tax code and to group and individual insurance under the Public Health Service Act, closing the gap where self-insured employer plans are governed separately.",
+    "text": "Carves out narrow exceptions where repeated authorization remains allowed: drugs typically used for 12 months or less, opioids, benzodiazepines, barbiturates, carisoprodol, and drugs subject to an FDA risk management program.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Applies the requirements uniformly across employer plans governed by ERISA, the Internal Revenue Code, and individual and group market plans under the Public Health Service Act, starting with plan years beginning on or after January 1, 2027.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Health insurers and the employers who fund group plans would bear higher drug spending, since they could no longer use repeated prior authorization to slow or block the costliest specialty drugs. Some of that cost would likely flow back into premiums for all enrollees.",
-  "who_pays_short": "Health insurers and employer health plans",
+  "who_pays": "Health plans and insurers bear the cost of covering these drugs without repeated authorization, including expensive biologics and blood-clotting factors that can cost thousands to tens of thousands of dollars per patient per month. Those costs are expected to flow into premiums paid by enrollees and employers. Insurers and pharmacy benefit managers also lose a utilization-management tool. Patients would still pay whatever cost-sharing their plan sets; the bill does not cap deductibles or coinsurance for these drugs.",
+  "who_pays_short": "Insurers, employers, and enrollees through premiums",
   "drawbacks": [
    {
-    "text": "The bill mandates coverage of all indicated autoimmune and blood disorder drugs, which include some of the most expensive biologics in medicine, without any provision to restrain their list prices, so plan and premium costs could rise.",
+    "text": "Requiring coverage of every drug indicated for autoimmune disease, including high-cost biologics, without cost-sharing limits could raise premiums for all enrollees, since the expense of treating a small number of patients on very expensive drugs is spread across everyone in the plan.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It guarantees coverage but says nothing about out-of-pocket costs, deductibles, or co-payments, so a patient may get the drug approved faster and still not be able to afford it.",
+    "text": "Limiting prior authorization to once per year removes a tool insurers use to steer patients to preferred or lower-cost alternatives first, which insurers argue keeps drug spending in check; without it, plans may cover less preferred, higher-priced drugs by default.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Insurers argue prior authorization exists to prevent misuse and steer patients to cheaper alternatives; limiting it to once a year removes that check for drugs patients take indefinitely, even if prescribing patterns change.",
+    "text": "The bill mandates coverage but does not cap patient cost-sharing, so a patient could still owe large deductible or coinsurance amounts for these drugs even after coverage and authorization rules change.",
     "sources": [
      "S2"
+    ]
+   },
+   {
+    "text": "Being referred to three committees, the bill would need coordinated action from Ways and Means, Education and Workforce, and Energy and Commerce to advance, a procedural burden few House bills clear.",
+    "sources": [
+     "S1",
+     "S4"
     ]
    }
   ],
-  "benefit_vs_cost": "For patients whose treatment has been delayed or interrupted by repeated insurer approvals, the benefit is immediate and personal. The honest tradeoff is money: requiring coverage and limiting utilization management for high-cost specialty drugs will add to plan spending, and none of that new cost is offset by drug-price controls or out-of-pocket relief, so part of it lands back on the same people through premiums.",
+  "benefit_vs_cost": "The patient benefit is real and targeted: people with chronic autoimmune diseases and bleeding disorders would no longer face repeated authorization battles for the same ongoing treatment, and coverage would be guaranteed regardless of how the drug is delivered. The costs are also real but familiar from prior federal coverage mandates: higher premiums spread across enrollees, and less insurer control over which costly drugs get used first. The bill is narrow and well-defined rather than sweeping, which limits both sides of the ledger.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced and split among three House committees, none of which has taken it up, so it sits waiting with no hearing or vote scheduled.",
+   "mechanism": "The bill was introduced in June 2026 and referred to three House committees, where it has sat with no hearings, markup, or floor vote scheduled.",
    "narrative": [
     {
-     "text": "Representative Julie Johnson of Texas introduced the bill on June 8, 2026, joined by Representative Mike Lawler, a Republican, as its sole cosponsor.",
+     "text": "Rep. Julie Johnson of Texas introduced the bill on June 8, 2026, joined by Mr. Lawler, making it a bipartisan introduction with one Republican cosponsor.",
      "sources": [
+      "S1",
       "S2",
       "S3"
      ]
     },
     {
-     "text": "The same day, the Speaker referred it to the Committees on Energy and Commerce, Education and Workforce, and Ways and Means, meaning three different committees would each have to act on their piece before the full House could consider it.",
+     "text": "The Speaker referred it to the Committee on Energy and Commerce, and additionally to the Committees on Education and Workforce and Ways and Means, meaning all three would need to act on the parts in their jurisdiction.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "No hearing, markup, or floor action has occurred since the referral, and the bill has just one cosponsor.",
+     "text": "The action history shows no further steps after the referral: no committee markup, no hearing, and no floor vote as of the latest record.",
      "sources": [
-      "S3",
       "S4"
+     ]
+    },
+    {
+     "text": "The bill applies to plan years beginning on or after January 1, 2027, which falls within the current Congress, so it could still move before that date if a committee schedules it.",
+     "sources": [
+      "S2"
      ]
     }
    ],
-   "who_came_out_ahead": "Insurers and pharmacy benefit managers keep their current authority to require repeated prior authorization, because the bill has not advanced. Patients with autoimmune and bleeding disorders continue to face the approval hurdles the bill would have removed."
+   "who_came_out_ahead": "So far, no outcome has been reached; health insurers and pharmacy benefit managers retain the current prior-authorization practices for autoimmune and blood disorder drugs, while patients have gained nothing yet. The bill's own momentum favors its sponsors only in the limited sense that a bipartisan introduction exists on the record."
   },
-  "who_came_out_ahead_short": "Insurers and PBMs keep the status quo",
+  "who_came_out_ahead_short": "Insurers, for now; no one else yet",
   "sides": {
    "for": [
     {
      "name": "Rep. Julie Johnson",
-     "role": "Sponsor, U.S. House of Representatives (TX)",
+     "role": "Sponsor, House Energy and Commerce jurisdiction member",
      "party": "D",
-     "what_they_did": "Introduced the bill to mandate coverage of autoimmune and blood disorder drugs and limit prior authorization to once every 12 months.",
+     "what_they_did": "Introduced the bill requiring coverage and limiting prior authorization for autoimmune and blood disorder drugs.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -99,9 +118,9 @@
     },
     {
      "name": "Rep. Mike Lawler",
-     "role": "Sole cosponsor, U.S. House of Representatives (NY)",
+     "role": "Original Republican cosponsor",
      "party": "R",
-     "what_they_did": "Cosponsored the bill, giving it bipartisan sponsorship at introduction.",
+     "what_they_did": "Joined the bill at introduction as its first and only cosponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -112,14 +131,14 @@
    ],
    "against": [],
    "party_line": "bipartisan",
-   "party_line_note": "A Democratic sponsor and one Republican cosponsor gave it bipartisan backing at introduction, but no one has opposed it on the record because no committee or floor vote has occurred."
+   "party_line_note": "The bill was introduced by one Democrat and one Republican, and the full cosponsor list shows a single Republican, so partisan lines have not yet formed around it either way."
   },
   "industries": [
    {
     "industry": "Health insurers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Insurers would have to cover every indicated autoimmune and blood disorder drug and could require prior authorization only once a year, giving up their main tool for managing spending on the costliest specialty drugs. Their loss of discretion is the patient's gain in access.",
+    "note": "Insurers would lose the ability to demand prior authorization more than once a year for autoimmune and blood disorder drugs and would be required to cover them however they are dispensed. Their cost in premiums is the patient benefit in fewer treatment interruptions.",
     "sources": [
      "S2"
     ]
@@ -128,32 +147,42 @@
     "industry": "Pharmacy benefit managers and utilization-management vendors",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These firms administer prior authorization for insurers; capping it at once a year shrinks the volume of review work and the leverage they hold over prescribing.",
+    "note": "These firms earn fees administering prior-authorization reviews; an annual limit on repeat authorizations for this drug class shrinks that business for millions of chronic-disease patients.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Brand-name biologic and specialty drug makers",
-    "effect": "entrenched",
+    "industry": "Specialty drug and biologic makers",
+    "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "The bill guarantees coverage of drugs indicated for autoimmune and blood disorders, a category dominated by high-priced biologics, without touching their prices. Patients get faster access to these drugs, and the makers get a guaranteed covered market.",
+    "note": "Guaranteed coverage of drugs indicated for autoimmune diseases, hemophilia, and Von Willebrand disease, without repeated authorization, protects the market for expensive biologics and clotting factors. Patients benefit from the same guarantee, though the bill does not restrain drug prices.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Self-insured employers",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "Employers who fund their own plans would face the same coverage mandate and annual authorization limit, raising expected costs, while employees with these conditions get steadier treatment.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill has one cosponsor, three committee referrals, and no scheduled action. Most House bills referred to three committees die without a hearing, and with no clear committee champion, its realistic path is that it ends the Congress without a vote unless it is folded into a broader health package.",
+  "trajectory": "With two sponsors, a referral split across three committees, and no action in the record since June 2026, this bill follows the typical path of late-session single-sponsor health mandates: it would need one committee chair to schedule a markup and then Speaker approval to reach the floor, and none has occurred. Absent a push from committee leadership or a larger vehicle, it is likely to expire at the end of this Congress without a vote.",
   "categories": [
-   "healthcare_and_drug_prices"
+   "healthcare_and_drug_prices",
+   "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 7,
-   "concentrated_stakes": 7,
+   "public_stakes": 6,
+   "concentrated_stakes": 6,
    "outcome_against_public": 3,
    "support_mismatch": 2,
    "corruption_relevance": 1,
-   "confidence": 0.85
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

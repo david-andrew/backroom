@@ -1,215 +1,197 @@
 {
  "bill_id": "119-hr8085",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:18:38+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:59:28+00:00",
  "record_fetched_at": "2026-09-20T07:55:14+00:00",
  "record_hash": "bf462671968bc4d0",
  "analysis": {
-  "one_liner": "Taxes fortunes above $50 million at 2%, and above $1 billion at 3%.",
-  "headline": "A wealth tax on roughly the richest few thousand households has 50 sponsors in the House, every one a Democrat, and has sat in the Ways and Means Committee without a markup or vote since it was referred in March 2026.",
+  "one_liner": "Taxes household wealth above $50 million, rising to 3% on billion-dollar fortunes.",
+  "headline": "Introduced March 25, 2026 with 50 cosponsors, all Democrats, and sent to the Ways and Means Committee, where it has had no further action.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would create a new annual tax on the net value of everything a very rich household owns — stocks, businesses, property, art — not just what they sell in a year. Households would pay 2% on wealth above $50 million and 3% above $1 billion, and the top rate would double to 6% if Congress ever passes a universal government health insurance program. It also pays for beefed-up IRS enforcement to value and audit the largest fortunes.",
-  "who_benefits": "Ordinary taxpayers benefit if the new revenue reduces pressure on other taxes or funds public programs; the bill does not earmark its revenue, but it explicitly doubles its top rate to help pay for a universal health insurance program. Households below $50 million in net worth pay nothing. The IRS also gains a decade-long funding stream for enforcement, taxpayer services, and modernized systems.",
-  "who_benefits_short": "Everyone but the richest few thousand households",
+  "plain_summary": "This bill would create a new annual tax on the net worth — total assets minus debts — of the wealthiest households. Households worth over $50 million would pay 2% a year on their wealth above that line, and anything over $1 billion would be taxed at 3%. The bill also adds $100 billion in IRS funding over ten years and requires the IRS to audit at least 30% of wealth-tax payers each year. It has been referred to the House Ways and Means Committee and has not moved since.",
+  "who_benefits": "Ordinary taxpayers benefit to the extent the new revenue reduces deficits or funds public services — the bill's revenue is not earmarked for any specific program, though it does fund IRS enforcement and taxpayer services directly. If Congress later passes a universal health insurance program that bans duplicate private coverage, the rate on billion-dollar fortunes doubles to 6%, linking the tax to a Medicare-for-All-style expansion.",
+  "who_benefits_short": "Ordinary taxpayers via new revenue",
   "how_it_helps": [
    {
-    "text": "The tax starts only at $50 million in net wealth (2%) and adds a 3% bracket above $1 billion, so no household below that threshold pays anything.",
+    "text": "Imposes an annual 2% tax on each household's net worth above $50 million and 3% above $1 billion, levied on all property wherever located, minus debts owed.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The top rate doubles from 3% to 6% in any year that legislation is in effect establishing comprehensive universal health insurance for all U.S. residents, explicitly tying the wealth tax to financing universal coverage.",
+    "text": "Doubles the top rate to 6% in any year in which a universal health insurance program covering all residents is in effect, tying the wealth tax to a potential Medicare-for-All-style program.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Married couples are treated as one taxpayer, and property hidden in family trusts, gifts to young children, and expatriation schemes are attributed back to the wealthy individual, with a 40% rate applied to people who renounce citizenship to escape the tax.",
+    "text": "Authorizes $100 billion in IRS appropriations for fiscal 2027–2037: $70 billion for enforcement, $10 billion for taxpayer services, and $20 billion for business systems modernization.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The IRS must audit at least 30% of wealth-tax payers every year, and new penalties of 30-50% apply to anyone who undervalues assets by large margins.",
+    "text": "Requires the IRS to audit at least 30% of wealth-tax payers every year, and adds tougher penalties for large valuation understatements, including a 50% penalty for gross valuation misstatements.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill authorizes $70 billion for IRS enforcement, $10 billion for taxpayer services, and $20 billion for systems modernization over fiscal years 2027 through 2037.",
+    "text": "Strengthens disclosure rules to reach assets parked in foreign corporations, partnerships, or trusts, and directs the Treasury to leverage existing foreign-account data for enforcement.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Individuals (and married couples, counted jointly) with net wealth over $50 million — roughly the richest few thousand American households — plus multi-beneficiary trusts, which are taxed as if they were individuals. Wealthy owners of hard-to-value private companies face annual valuation of everything they own and penalties up to 50% for understatements.",
+  "who_pays": "The roughly 0.1% of households with net worth above $50 million, who would pay the new annual tax on top of existing income, capital gains, and estate taxes. Married couples are treated as one taxpayer, and the tax also applies to certain trusts and to covered expatriates renouncing citizenship, who face a 40% rate on their way out.",
   "who_pays_short": "Households worth over $50 million",
   "drawbacks": [
    {
-    "text": "Most billionaire wealth sits in private companies and other assets with no market price; the bill requires the Treasury to invent formulaic valuation methods within 12 months, which would almost certainly generate years of disputes and litigation over values.",
+    "text": "Valuing assets is genuinely hard: the bill requires Treasury to invent new valuation methods for assets that are not publicly traded and lack an easily determined value, including formula-based estimates and retrospective adjustments, which will produce disputes and litigation.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Because the tax is on net value rather than cash income, some wealthy families would be billed on wealth they cannot easily sell; the bill itself anticipates this by letting the Treasury grant payment extensions of up to five years for severe liquidity problems or hardship to an ongoing business.",
+    "text": "The bill itself acknowledges cash-flow problems: it lets the Treasury grant up to 5-year payment extensions to taxpayers with severe liquidity constraints or hardship to ongoing enterprises — a sign that an annual tax on illiquid wealth (like private company stakes) can be hard to pay without selling assets.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill applies a 40% rate to covered expatriates — people who give up U.S. citizenship — showing that wealthy individuals are expected to try leaving the tax system to avoid it, which could push some fortunes and investment offshore.",
+    "text": "Avoidance pressure is built into the design: the bill imposes a 40% rate on covered expatriates and requires anti-avoidance reporting rules, measures responding to the risk that very wealthy people shift assets abroad or renounce citizenship.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The revenue goes into the general fund rather than to any specific program; the only dedicated use contemplated is the higher 6% rate if a universal health program is enacted, which has not passed.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "The plan leans on a ten-year, $100 billion IRS funding authorization to work; if future Congresses decline to appropriate the money, enforcement of a tax this dependent on valuation and auditing could fall short.",
+    "text": "The revenue is not committed to any specific public benefit; the bill raises money without earmarking it, so its practical effect on ordinary people depends on later spending decisions.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The tax falls on roughly the top few thousand households and leaves everyone below $50 million untouched, so the direct cost to ordinary people is nil and the revenue potential is large. The real question is administrability: annually valuing private companies, art, and trusts is genuinely hard, and the bill tries to solve that with new formulaic valuation rules, steep penalties, exit taxes, and a large IRS funding stream. Those design choices are serious but untested; whether they hold up in practice and litigation is the honest open risk.",
+  "benefit_vs_cost": "The potential benefit is large: a tax aimed squarely at the very top of the wealth distribution, with aggressive enforcement and audit requirements built in. The main risks are administrative and practical rather than distributional — valuing private assets is hard, some taxpayers will contest valuations for years, and the bill leaves the revenue uncommitted. On its face, the costs fall almost entirely on households that hold the most wealth.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was referred to the House Ways and Means Committee the day it was introduced, and the committee has taken no action on it since; Congress is still in session, so it is waiting.",
+   "mechanism": "The bill was referred to the House Ways and Means Committee on the day it was introduced and has had no further action; the Congress is still in session, so it could still move, but nothing is scheduled.",
    "narrative": [
     {
-     "text": "Rep. Pramila Jayapal introduced the Ultra-Millionaire Tax Act of 2026 in the House on March 25, 2026, with 49 cosponsors listed on the bill, all Democrats.",
+     "text": "Rep. Pramila Jayapal introduced the Ultra-Millionaire Tax Act of 2026 in the House on March 25, 2026.",
      "sources": [
       "S1",
-      "S2",
+      "S4"
+     ]
+    },
+    {
+     "text": "The bill was referred to the House Committee on Ways and Means the same day, and the public action history shows no markup, hearing, or vote since.",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "The bill has 49 cosponsors in addition to the sponsor — all Democrats, none Republicans.",
+     "sources": [
       "S3"
-     ]
-    },
-    {
-     "text": "The House referred the bill to the Committee on Ways and Means, which handles all tax legislation, on the day of introduction.",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "The committee has held no markup, and the House has taken no further action on the bill since the referral.",
-     "sources": [
-      "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, no one has gained or lost anything — the tax has not been enacted. Ultra-wealthy households continue to pay no federal tax on the accumulated value of their assets, and the bill's fate now rests with a committee controlled by the party with no cosponsors on it."
+   "who_came_out_ahead": "So far, no one has won or lost — the bill is simply sitting in committee. If it stays there, the households it would tax are better off, since a wealth tax above $50 million would otherwise fall on them."
   },
-  "who_came_out_ahead_short": "So far, holders of untaxed great wealth",
+  "who_came_out_ahead_short": "Too early to say; no action yet",
   "sides": {
    "for": [
     {
      "name": "Rep. Pramila Jayapal",
      "role": "Sponsor, H.R. 8085",
      "party": "D",
-     "what_they_did": "Introduced the wealth tax bill in the House.",
+     "what_they_did": "Introduced the Ultra-Millionaire Tax Act of 2026 in the House.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2"
+      "S4"
      ]
     },
     {
-     "name": "49 House cosponsors",
-     "role": "Cosponsors of H.R. 8085",
+     "name": "49 of 217 House Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as cosponsors, including members of House leadership such as Rep. McGovern and prominent progressives such as Reps. Ocasio-Cortez, Tlaib, and Pressley.",
+     "what_they_did": "Cosponsored the bill on introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S3",
-      "S2"
+      "S4"
      ]
     }
    ],
    "against": [
     {
-     "name": "House Committee on Ways and Means (Republican-controlled)",
-     "role": "Committee of referral for all tax bills",
+     "name": "House Ways and Means Committee chair",
+     "role": "Chair of the committee the bill was referred to",
      "party": "R",
-     "what_they_did": "Received the bill on referral and has taken no further action — no markup, no vote, no movement toward the floor.",
+     "what_they_did": "Has not scheduled a markup or any consideration of the bill since its referral.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S4",
-      "S1"
+      "S4"
      ]
-    },
-    {
-     "name": "House Republican conference",
-     "role": "House majority party",
-     "party": "R",
-     "what_they_did": "No Republican member signed on as a cosponsor, and the majority party controls the committee calendar that decides whether tax bills ever get a vote.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
     }
    ],
-   "party_line": "party_line",
-   "party_line_note": "All 49 cosponsors are Democrats and the sponsor is a Democrat; no Republican has signed on, in a House where tax legislation is controlled by a Republican-run Ways and Means Committee."
+   "party_line": "mostly_party_line",
+   "party_line_note": "All 50 supporters (sponsor plus 49 cosponsors) are Democrats; no Republican has signed on, and the committee controlled by the House Republican majority has not acted on the bill."
   },
   "industries": [
    {
-    "industry": "Ultra-high-net-worth households and billionaire family trusts",
+    "industry": "Ultra-wealthy households",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill puts an annual federal tax on the total net value of their assets — 2% above $50 million, 3% above $1 billion — including wealth held in trusts and via gifts to minor children, with a 40% rate for people who renounce citizenship to avoid it. Its interest in the bill runs directly against the public's in the form of the revenue the tax would raise.",
+    "note": "Households worth over $50 million would owe a new annual tax of 2% on wealth above that line and 3% above $1 billion, regardless of income. This is the bill's central cost, falling on roughly the top tenth of one percent of households.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Private wealth management, trust, and estate-planning services",
+    "industry": "Private wealth management, trust, and tax advisory firms",
     "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "Clients would face a new annual tax on everything they own and would need help restructuring trusts, valuing companies, and managing expatriation risk under the bill's 40% exit rate — a mix of lost client wealth and new paid work navigating the rules.",
+    "note": "Ultra-high-net-worth clients would need annual asset valuations, compliance work, and possibly restructuring, generating fee income — but the underlying tax shrinks the fortunes that fee income depends on. Firms that help clients shelter assets abroad would face new reporting rules aimed at exactly that practice.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Valuation, accounting, and tax-advisory firms",
-    "effect": "gains",
-    "stance_toward_public": "mixed",
-    "note": "The bill requires the Treasury to build formulaic valuation methods for assets with no market price and obliges business entities to estimate their own value, creating a large market for valuation and compliance work; the fees would ultimately be borne by taxed families, not the public.",
+    "industry": "Health insurance industry",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill does not establish single-payer health care itself, but it doubles the wealth tax rate to 6% if Congress enacts a universal health program that bans duplicate private coverage — a deterrent structure that private insurers would want to avoid, since it raises the price of Medicare-for-All-style legislation.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "IRS and federal tax administration",
+    "industry": "Internal Revenue Service",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "The bill authorizes $100 billion over eleven years — $70 billion for enforcement, $10 billion for taxpayer services, $20 billion for modernization — plus a mandate to audit at least 30% of wealth-tax payers annually, reversing a decade of shrinking enforcement capacity aimed at the largest fortunes.",
+    "note": "The bill authorizes $100 billion over a decade for enforcement, taxpayer services, and modernization, reversing years of funding pressure on the agency that administers the tax code for everyone.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "With zero Republican cosponsors and the Ways and Means Committee in the opposing party's hands, the bill is very unlikely to get a markup or a floor vote before this Congress ends, much like earlier versions of the Ultra-Millionaire Tax Act in recent Congresses, which also died in committee without a vote.",
+  "trajectory": "Versions of this wealth tax introduced in earlier Congresses never received a committee markup, and the odds are worse now: Republicans hold 223 House seats and chair Ways and Means, and the committee has taken no action since referral. The realistic path is that the bill sits in committee until this Congress ends, with the Democratic cosponsor list potentially growing but the bill never reaching the floor.",
   "categories": [
-   "taxes_on_wealth_and_corporations",
-   "social_safety_net"
+   "taxes_on_wealth_and_corporations"
   ],
   "scores": {
    "public_stakes": 7,
    "concentrated_stakes": 10,
-   "outcome_against_public": 4,
+   "outcome_against_public": 3,
    "support_mismatch": 4,
    "corruption_relevance": 2,
-   "confidence": 0.9
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

@@ -1,105 +1,118 @@
 {
  "bill_id": "119-hr9504",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:50:23+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:10:48+00:00",
  "record_fetched_at": "2026-09-20T08:04:55+00:00",
  "record_hash": "de7628bcb2ab4560",
  "analysis": {
-  "one_liner": "Requires large tax-exempt hospitals to disclose finances, charity care, lobbying, and drug-discount profits to the IRS.",
-  "headline": "The House Ways and Means Committee voted 25–15 on July 1, 2026 to advance a bill requiring tax-exempt hospitals to report detailed finances to the IRS; no House floor vote has occurred yet.",
+  "one_liner": "Requires large tax-exempt hospitals to disclose charity care, finances, and drug-discount profits to the IRS.",
+  "headline": "The House Ways and Means Committee voted 25–15 to advance a bill requiring tax-exempt hospitals to disclose their charity care, finances, and 340B drug-discount margins, but the full House has not voted and the congressional session ends January 3, 2027.",
   "direction": "for_working_people",
-  "plain_summary": "Nonprofit hospitals pay no federal income tax, and in exchange they are supposed to provide financial assistance and serve community health needs. This bill would force them to file detailed reports with the IRS: how much charity care they actually gave, how many assistance applications they granted or denied, what they spend on advertising, lobbying, and administration, how much money they make on each service line, and how much they profit from the federal 340B drug discount program. It would also require the Government Accountability Office to estimate how much tax the 25 highest-revenue hospital systems would pay if they lost their tax exemption. The bill does not raise taxes or penalize anyone; it requires disclosure.",
-  "who_benefits": "Patients and taxpayers. Charity-care patients would gain visibility into how many applications hospitals grant versus deny; taxpayers would finally see, in one place, whether large nonprofit hospitals are earning their exemptions through community benefit or spending it on advertising, lobbying, and administration. The 340B disclosures would show how much profit hospitals capture from a drug discount program meant to help low-income patients.",
-  "who_benefits_short": "Patients and taxpayers",
+  "plain_summary": "The bill would require tax-exempt hospitals to tell the IRS, on their public filings, how much financial assistance they actually gave, how many aid applications they granted or denied, which community health needs they left unaddressed and why, and their audited financials. Hospitals with more than 100 beds or more than $100 million in patient revenue would have to break this down facility by facility and also report profits by service line, advertising spending, and their margins from the 340B drug discount program. It also directs the Government Accountability Office to estimate how much tax the 25 largest tax-exempt hospitals would pay if they lost their exemption.",
+  "who_benefits": "Patients, donors, and taxpayers, who would see — hospital by hospital, and for large systems facility by facility — how much charity care tax-exempt hospitals actually deliver, how many financial-assistance applications they deny, how much they spend on administration and lobbying-adjacent functions versus care, and how much they profit from the 340B drug discount program. Congress would also get data on what the largest tax-exempt hospital systems would owe in taxes if they were not exempt.",
+  "who_benefits_short": "Patients, taxpayers, and hospital donors",
   "how_it_helps": [
    {
-    "text": "Every tax-exempt hospital must report with its IRS return how it is addressing the needs in its community health assessment, which needs it is not addressing and why, its audited financial statements, the value of financial assistance provided, and the number of financial assistance applications received, granted, and denied.",
+    "text": "Requires every tax-exempt hospital to report on its IRS return the value of financial assistance provided and the number of completed aid applications received, granted, and denied, so communities can see whether hospitals are earning their tax exemption.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Large hospitals (more than 100 staffed inpatient beds) must separately report, facility by facility, their spending on their top three community health priorities and on quality improvement versus nonclinical programs, a category the bill defines to include administration, billing, public affairs, government affairs, and lobbying.",
+    "text": "Requires hospitals to describe how they are addressing the health needs identified in their community health needs assessment — and to name the needs they are not addressing and explain why.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "High-revenue hospitals (over $100 million in net patient revenue) must report advertising costs, the revenues and costs of each health service line, and — if they participate in the 340B drug discount program — the number of patients served and their net profit margin on 340B drugs.",
+    "text": "Requires large hospitals (more than 100 staffed beds) and high-revenue hospitals (more than $100 million in net patient revenue) to report separately for each facility they run, so problems at specific hospitals cannot be hidden inside a system-wide average.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The Government Accountability Office must study the cost of the new reporting and estimate how much tax the 25 highest-grossing tax-exempt hospital organizations would owe if they were not tax-exempt, giving Congress the numbers it would need to revisit the exemption itself.",
+    "text": "Requires high-revenue hospitals to disclose revenue and costs for each health service line, allowable and unallowable advertising costs, and spending on nonclinical programming such as administration, billing, government affairs, and lobbying — exposing how much goes to care versus overhead.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Requires high-revenue hospitals that participate in the 340B drug discount program to report how many patients received discounted drugs and their aggregate net 340B payments, making visible the profit hospitals capture from the program.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Directs the GAO to report the compliance costs of the new requirements and to estimate how much tax the 25 largest tax-exempt hospital organizations would pay if their exemption were lifted, giving Congress data for any future debate over taxing them.",
     "sources": [
      "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Large and high-revenue tax-exempt hospital organizations bear the cost of compiling and reporting this information, including facility-level service line accounting and a standardized HHS service-line taxonomy they must map to. Smaller hospitals face only the basic charity-care reporting, and not until three years after enactment.",
-  "who_pays_short": "Large tax-exempt hospital systems",
+  "who_pays": "Tax-exempt hospitals — especially large, high-revenue systems — bear the cost: they must produce audited financial statements, count and value financial assistance, break data down by facility, map their internal service lines to a new federal taxonomy within two years (bearing the burden of proof if they claim a cost center is not a service line), and disclose 340B margins and advertising costs. The Treasury Department absorbs administrative costs, and taxpayers fund the GAO study. Some hospitals may pass compliance costs on through prices.",
+  "who_pays_short": "Large nonprofit hospital systems",
   "drawbacks": [
    {
-    "text": "The reporting burden is real: the bill itself directs the GAO to study the additional cost to hospitals of complying, an acknowledgment that compiling facility-level service line and 340B data will not be free.",
+    "text": "The reporting burden is heavy and technical: high-revenue hospitals must map their internally defined service lines to a standardized federal taxonomy within two years, allocate shared costs among them, and prove their case if they assert a cost center is not a service line — a real accounting and legal cost for hospitals, which the bill itself anticipates by ordering a GAO study of compliance costs.",
     "sources": [
-     "S2",
+     "S3",
+     "S2"
+    ]
+   },
+   {
+    "text": "The bill is disclosure only. It forces hospitals to reveal charity care gaps and 340B profits but does not require them to give more assistance or change 340B practices — the text expressly states it creates no inference about the proper application of the 501(r) charity care rules or the 340B program — so publication alone may not change hospital behavior.",
+    "sources": [
      "S3"
     ]
    },
    {
-    "text": "Transparency alone changes nothing by itself. The bill explicitly states it creates no inference about whether hospitals deserve their tax exemption and imposes no tax or penalty; its benefits to patients depend entirely on Congress, regulators, or the public acting on what is disclosed.",
+    "text": "Compliance costs could be passed on to patients and payers through higher charges, and the government bears added administrative costs; the GAO is directed to measure both before anyone can judge whether the transparency was worth it.",
     "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Honest supporters would acknowledge that money spent on compliance accounting is money not spent on patient care, and that detailed service-line cost allocation across shared staff and facilities is partly a judgment call that hospitals will contest.",
-    "sources": [
-     "S3"
+     "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The costs are administrative and fall on large institutions; the benefit is that the public would finally see, in standardized form, what nonprofit hospitals give back for their tax exemption — including their margins on 340B drugs and their spending on advertising and lobbying. The bill's main weakness is that it stops at disclosure: no penalties, no tax change, and an explicit no-inference clause. Its value depends on what Congress or the public does with the numbers.",
+  "benefit_vs_cost": "This is a genuine but indirect benefit: the bill gives patients, donors, and Congress the data to judge whether tax-exempt hospitals deserve their exemption, without forcing any hospital to change behavior. The main honest cost is the compliance burden — facility-level and service-line accounting to a new federal standard — which the bill wisely exempts from small rural providers (critical access and rural emergency hospitals) and phases in over several years, and which it directs the GAO to measure. A reasonable trade if it leads to real scrutiny of the largest systems; weak if the data is published and nothing follows.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The Ways and Means Committee approved the bill at a markup on July 1, 2026 by a 25–15 vote, but the full House has not voted on it and neither has the Senate.",
+   "mechanism": "The bill cleared committee on a 25–15 vote but has never come up for a vote by the full House, and the current congressional session ends January 3, 2027.",
    "narrative": [
     {
-     "text": "Rep. Gregory Murphy (R-NC) introduced the bill on June 29, 2026 with Rep. Lloyd Smucker as cosponsor, and it was referred to the House Committee on Ways and Means.",
+     "text": "Rep. Greg Murphy (R-NC) introduced the bill on June 29, 2026, with Rep. Lloyd Smucker as cosponsor, and it was referred to the House Ways and Means Committee, which writes tax law.",
      "sources": [
       "S1",
       "S3",
-      "S4"
+      "S4",
+      "S5"
      ]
     },
     {
-     "text": "The committee held a markup session on July 1, 2026 and ordered the bill reported in the nature of a substitute by a vote of 25–15.",
+     "text": "Two days later, on July 1, 2026, the committee held a markup and voted 25–15 to order the bill reported with a substitute version, meaning a rewritten version moved out of committee.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "No further action has been taken as of the provided record; the bill still needs a vote by the full House and the Senate, and the Congress runs through January 3, 2027.",
+     "text": "No further action has been taken: the bill has not received a vote by the full House, and the Congress ends on January 3, 2027.",
      "sources": [
       "S1",
       "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "No final winner yet. Because nothing has become law, large tax-exempt hospital systems remain free of the new reporting; the public's gain so far is only that a transparency bill cleared a powerful committee with a clear majority."
+   "who_came_out_ahead": "No one has won yet. If the bill stalls, large tax-exempt hospital systems come out ahead because they avoid facility-level, service-line, and 340B disclosure of their finances."
   },
-  "who_came_out_ahead_short": "No one yet — bill awaits a floor vote",
+  "who_came_out_ahead_short": "Large tax-exempt hospital systems, if it stalls",
   "sides": {
    "for": [
     {
-     "name": "Rep. Gregory F. Murphy",
-     "role": "Sponsor, H.R. 9504",
+     "name": "Rep. Greg Murphy",
+     "role": "U.S. Representative (R-NC)",
      "party": "R",
-     "what_they_did": "Introduced the bill and brought it through the Ways and Means markup.",
+     "what_they_did": "Introduced the bill, which he described as establishing additional reporting requirements for hospital organizations",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -108,35 +121,35 @@
      ]
     },
     {
-     "name": "House Ways and Means Committee majority",
-     "role": "Committee members who voted to report the bill",
+     "name": "Rep. Lloyd Smucker",
+     "role": "U.S. Representative (R-PA)",
+     "party": "R",
+     "what_they_did": "Cosponsored the bill as its original co-introducer",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3",
+      "S4"
+     ]
+    },
+    {
+     "name": "House Ways and Means Committee",
+     "role": "Committee of jurisdiction over tax law",
      "party": null,
-     "what_they_did": "Voted 25–15 at the July 1, 2026 markup to order the bill reported in the nature of a substitute.",
+     "what_they_did": "Held a markup on July 1, 2026 and voted 25–15 to order the bill reported in the nature of a substitute",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S5"
      ]
-    },
-    {
-     "name": "Rep. Lloyd Smucker",
-     "role": "Cosponsor",
-     "party": "R",
-     "what_they_did": "Cosponsored the bill at introduction.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
-      "S4"
-     ]
     }
    ],
    "against": [
     {
-     "name": "House Ways and Means Committee minority (15 no votes)",
-     "role": "Members who voted against ordering the bill reported",
+     "name": "15 House Ways and Means Committee members",
+     "role": "Committee members voting no in markup",
      "party": null,
-     "what_they_did": "Voted no at the July 1, 2026 markup, though the bill still advanced 25–15.",
+     "what_they_did": "Voted against ordering the bill reported, 15–25",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -145,48 +158,58 @@
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "The record shows a 25–15 committee vote but no party breakdown; the sponsor and the sole cosponsor are both Republicans."
+   "party_line_note": "The record does not break down the 25–15 committee vote by party; the sponsor and its one cosponsor are both Republicans, and no floor vote has occurred."
   },
   "industries": [
    {
-    "industry": "Large tax-exempt hospital systems",
+    "industry": "Large nonprofit hospital systems",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Hospitals with more than 100 staffed beds or over $100 million in net patient revenue would face detailed, facility-level reporting on charity care denials, advertising, lobbying, service line profits, and 340B drug margins, plus compliance costs. Their interest in avoiding this exposure runs against the public's interest in knowing whether they earn their tax exemptions.",
+    "note": "Hospitals with more than 100 staffed beds or more than $100 million in net patient revenue must report their finances, charity care, and service-line profits facility by facility, including how much they spend on administration, advertising, and lobbying versus care. This exposes whether tax-exempt hospitals earn the billions in tax breaks tied to their charitable mission, which is exactly the scrutiny they have an interest in avoiding.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "industry": "Hospitals in the 340B drug discount program",
-    "effect": "mixed",
+    "industry": "340B drug program hospital participants",
+    "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "High-revenue 340B hospitals must disclose how much they receive from payers above the discounted ceiling price for 340B drugs, exposing margins in a program intended to benefit low-income patients. The bill also requires them to report the costs of participating and creates no inference about the program's proper operation.",
+    "note": "High-revenue hospitals must disclose their aggregate net 340B payments — the profit margin they capture between discounted drug prices and what insurers pay — plus the costs of running the program. Disclosure of these margins strengthens arguments for reining in 340B hospital profits, which hospitals benefit from today.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Small, rural, and critical access hospitals",
-    "effect": "mixed",
+    "industry": "Pharmaceutical manufacturers",
+    "effect": "gains",
+    "stance_toward_public": "mixed",
+    "note": "Drug makers supply discounted drugs under 340B and have long argued hospitals pocket the difference; the new hospital-side margin data gives them evidence for that argument. The bill itself changes nothing about drug pricing, so the gain is informational, not financial.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "industry": "Accounting and auditing firms",
+    "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Critical access hospitals, rural emergency hospitals, and hospitals under the size and revenue thresholds are largely spared the heaviest requirements, and smaller hospitals get a three-year delay on the charity-care reporting. Rural facilities avoid most of the compliance burden.",
+    "note": "Hospitals must attach audited financial statements and build new cost-accounting to map service lines to a federal taxonomy — work that flows to audit and consulting firms.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "trajectory": "The bill has cleared committee but has no floor schedule. Bills that make it out of Ways and Means late in a session sometimes reach the floor, often by suspension of the rules (a fast-track procedure reserved for noncontroversial bills that needs two-thirds support); with an unclear partisan split at markup, its path is uncertain, and if the House does not act before January 3, 2027, it dies and must be reintroduced next Congress.",
+  "trajectory": "Bills reported out of committee in the final months of a session rarely reach the floor on their own. Unless House leadership schedules a vote or the provisions are folded into a larger tax bill, H.R. 9504 will likely expire when this Congress ends on January 3, 2027, and would have to be reintroduced next year.",
   "categories": [
    "healthcare_and_drug_prices",
    "taxes_on_wealth_and_corporations"
   ],
   "scores": {
-   "public_stakes": 5,
+   "public_stakes": 4,
    "concentrated_stakes": 6,
    "outcome_against_public": 3,
    "support_mismatch": 2,
-   "corruption_relevance": 3,
+   "corruption_relevance": 2,
    "confidence": 0.85
   }
  },

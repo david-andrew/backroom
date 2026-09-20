@@ -1,100 +1,116 @@
 {
  "bill_id": "119-hr9040",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:18:06+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:07:40+00:00",
  "record_fetched_at": "2026-09-20T07:54:46+00:00",
  "record_hash": "070854bd1c687043",
  "analysis": {
-  "one_liner": "Sets government-set maximum prices for all prescription drugs sold in the United States.",
-  "headline": "The bill never advanced past its introduction: referred to three House committees with zero cosponsors, it received no hearing and no vote before the session ends in January 2027.",
+  "one_liner": "Creates a federal commission to set fair prices for all prescription drugs and enforce them.",
+  "headline": "The bill was introduced on May 26, 2026, sent to three House committees, has zero cosponsors, and has seen no further action.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would create a new Prescription Drug Price Regulatory Commission that recommends a \"fair price\" for every approved prescription drug, which the Secretary of Health and Human Services would publish as a legal ceiling. Manufacturers charging more would face steep civil penalties, FTC and state enforcement, private lawsuits with triple damages, and the possibility of the government licensing their patents to competitors. Prices would be judged partly against what the same drugs cost in six other wealthy countries. The bill was referred to three House committees and never received a hearing, a vote, or a single cosponsor.",
-  "who_benefits": "Patients in the United States, including people on Medicare, Medicaid, private insurance, or paying cash \u2014 every prescription drug they buy would have a government-set ceiling price, backed by penalties, enforcement by the FTC and state attorneys general, and private lawsuits with triple damages for overcharges.",
-  "who_benefits_short": "American patients buying any prescription drug",
+  "plain_summary": "The bill would create a 13-member Prescription Drug Price Regulatory Commission and have the Health and Human Services Department set an annual \"fair price\" for every approved prescription drug sold in the United States — brand drugs, biologics, insulin, and vaccines alike. Selling above that price would become a federal violation enforced by the FTC, state attorneys general, and private lawsuits, and the government could license a drug's patent or invoke the Defense Production Act if a company charged too much or failed to supply enough. So far it has gone nowhere: it was referred to three committees on the day it was introduced and has no cosponsors.",
+  "who_benefits": "Anyone in the United States who fills a prescription. The fair price would apply to every \"fair price eligible individual\" — defined as any individual located in the United States — regardless of insurance status, and would extend to pharmacies, hospitals, and physicians furnishing the drug [S2]. People paying out of pocket for insulin, expensive biologics, or brand-name drugs would see prices set by a formula based on production costs, research costs, cost-effectiveness, and prices in six peer countries (Canada, France, Germany, Italy, Japan, and the UK) [S2]. Patients who depend on scarce drugs would also benefit from supply provisions that let the government license the patent or boost domestic production if a company can't or won't sell at the fair price [S2].",
+  "who_benefits_short": "Everyone who buys prescription drugs",
   "how_it_helps": [
    {
-    "text": "Every prescription drug sold in the U.S. would have a government-published fair price that manufacturers must offer, factoring in production costs, therapeutic value, and prices in Canada, France, Germany, Italy, Japan, and the U.K.",
+    "text": "HHS would establish and publish an annual fair price for every approved prescription drug in the country — including biologics, insulin, and licensed vaccines — set with reference to production costs, research and development costs and returns, cost-effectiveness, demand, and the drug's average price in six comparable countries.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Manufacturers charging above the fair price would face civil penalties equal to 10 times the overcharge per unit, enforceable by the FTC, state attorneys general, and private citizens \u2014 who could recover triple damages or up to $50,000 per violation.",
+    "text": "Charging more than the fair price would be a prohibited act under federal food and drug law, enforced by the FTC, by state attorneys general suing on behalf of residents, and through a private right of action with triple damages or up to $50,000 per violation, plus attorney's fees for prevailing plaintiffs.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "If a patent holder sells above the fair price or fails to meet patient demand, the government could license the patent to other producers; the President could also use Defense Production Act powers to expand domestic supply of a drug in shortage.",
+    "text": "Manufacturers that overcharge would face a civil penalty of 10 times the gap between what they charged and the fair price, per drug per year, giving companies a strong financial reason to comply.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "If a patent holder sells above the fair price or cannot meet patient demand at it, HHS could claim a license to the drug's patent, and the President could use the Defense Production Act to expand domestic production of a drug in short supply.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Pharmaceutical manufacturers, whose revenue from the U.S. market \u2014 the world's most profitable \u2014 would be capped by formulas tied to production costs, research investment, and prices in Canada, France, Germany, Italy, Japan, and the U.K.",
-  "who_pays_short": "Brand-name drug manufacturers",
+  "who_pays": "Prescription drug manufacturers. Their revenue on every drug sold in the US would be capped at the fair price set each year, with civil penalties of 10 times the amount of any overcharge per drug per year, exposure to FTC enforcement, state lawsuits, and private treble-damage suits, and the threat of losing exclusive patent rights through march-in licensing if they overcharge or under-supply [S2]. The bill also authorizes unspecified appropriations to run the new commission [S2].",
+  "who_pays_short": "Prescription drug manufacturers",
   "drawbacks": [
    {
-    "text": "Price controls on every prescription drug could reduce the revenue that funds research into new medicines; the bill itself acknowledges this by requiring the commission to weigh 'the return on investment that would provide adequate incentive to the manufacturer to continue research,' but critics would argue an appointed commission cannot judge that well.",
+    "text": "Capping prices across every drug could reduce the revenue that funds development of new medicines; the bill itself instructs the Commission to weigh 'the return on investment that would provide adequate incentive to the manufacturer to continue research,' an acknowledgment that the cap may press against future innovation.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill exempts the Commission from chapter 10 of title 5 of the U.S. Code (the federal administrative procedure law), reducing transparency and public input into how fair prices are set.",
+    "text": "The bill concentrates enormous power in a 13-member commission — seven appointed by the President, six drawn from federal agencies — whose recommendations would set prices for the entire US drug supply, and the commission is expressly exempted from the standard federal administrative procedures in chapter 10 of title 5 of the US Code, limiting outside scrutiny of how it reaches its decisions.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The Secretary can grant rolling 90-day waivers allowing prices above the fair price, and the fair price can be revised mid-year \u2014 giving agencies substantial discretion over whether the cap actually holds.",
+    "text": "A single nationwide price set annually could misfire for drugs with volatile costs or supply, though the bill does provide for mid-year revisions and 90-day temporary waivers when the Secretary judges them necessary to keep the drug available.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill would let the President use Defense Production Act powers to force domestic drug production, an unusually broad use of wartime economic authorities for ordinary drug supply.",
+    "text": "Private lawsuits with damages of up to $50,000 per violation and treble damages could generate heavy litigation against manufacturers over pricing disputes.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The potential benefit is large: Americans pay far more than residents of peer countries for the same drugs, and a broad price cap with strong enforcement could lower out-of-pocket costs directly. The costs and risks are also real: price controls set below what it costs to develop a new drug could slow the arrival of new medicines, and this design \u2014 a single commission with almost every drug priced at once, using contested value measures, exempt from administrative-law review \u2014 concentrates enormous power in a small appointed body and could produce arbitrary results. And none of it will be tested: the bill never received a hearing or a vote.",
+  "benefit_vs_cost": "If enacted, the benefits to consumers would be very large: prescription drug prices are a leading source of household medical strain, and this bill would cap all of them, not just those covered by Medicare. The main cost is a real one that honest supporters should name — price controls on the entire market could slow investment in new drugs, which is why the bill builds an R&D return factor, revision procedures, and waiver authority into the design. The enforcement machinery (FTC, state AGs, private suits, penalties, march-in) is unusually aggressive, which makes the cap credible but raises the stakes of any mispricing. As introduced, though, the practical benefit is zero: the bill has no cosponsors and no committee action, so the weighing is hypothetical.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was referred to three House committees in May 2026, never received a hearing or a vote, and will die when the congressional session ends in January 2027.",
+   "mechanism": "It was referred to three House committees on the day it was introduced; none has taken it up, and with no cosponsors and no scheduled vote, it is likely to die when this Congress ends in January 2027.",
    "narrative": [
     {
-     "text": "Rep. Brad Sherman introduced H.R. 9040 on May 26, 2026; it was referred to the Energy and Commerce, Judiciary, and Financial Services committees the same day.",
+     "text": "Representative Brad Sherman introduced the Regulate the Price of All Drugs Act in the House on May 26, 2026.",
      "sources": [
       "S1",
       "S4"
      ]
     },
     {
-     "text": "No other member of the House signed on as a cosponsor.",
+     "text": "The same day, the Speaker referred it to the Energy and Commerce, Judiciary, and Financial Services Committees, splitting it across three panels — a step that requires three separate committees to act before the bill can move.",
      "sources": [
-      "S3"
+      "S1",
+      "S4"
      ]
     },
     {
-     "text": "No committee took any further action on the bill \u2014 no hearings, no markup, no vote \u2014 after the referral.",
+     "text": "No committee has held a hearing or markup, no vote has been scheduled, and no member from either party has signed on as a cosponsor.",
      "sources": [
+      "S1",
+      "S3",
+      "S4"
+     ]
+    },
+    {
+     "text": "Congress remains in session until January 3, 2027, so the bill is technically alive, but bills that sit in committee without cosponsors this late in a Congress rarely advance.",
+     "sources": [
+      "S1",
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "Pharmaceutical manufacturers are better off: their pricing power is untouched, and Americans continue paying among the highest drug prices in the world."
+   "who_came_out_ahead": "So far, pharmaceutical manufacturers: no price cap exists, none is on track, and companies continue to set drug prices as before while the bill sits untouched in committee. Consumers have gained nothing yet."
   },
-  "who_came_out_ahead_short": "Drug manufacturers and their pricing power",
+  "who_came_out_ahead_short": "Drug makers, for now — the bill sits untouched",
   "sides": {
    "for": [
     {
      "name": "Rep. Brad Sherman",
      "role": "Sponsor (D-CA)",
      "party": "D",
-     "what_they_did": "Introduced the bill and referred it to three House committees; it was his proposal alone, with no cosponsors.",
+     "what_they_did": "Introduced the bill on May 26, 2026 and is its only sponsor",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -104,61 +120,48 @@
      ]
     }
    ],
-   "against": [
-    {
-     "name": "House committee chairs (Energy and Commerce, Judiciary, Financial Services)",
-     "role": "Chairs of the three committees of referral",
-     "party": "R",
-     "what_they_did": "Never scheduled a hearing or markup on the bill after referral, leaving it to die in committee.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
-    }
-   ],
+   "against": [],
    "party_line": "unclear",
-   "party_line_note": "No votes occurred, but the bill's sole sponsor is a Democrat and it drew zero cosponsors from either party, suggesting little cross-party appetite."
+   "party_line_note": "No votes have occurred, and with zero cosponsors from either party there is no record of partisan support or opposition beyond the sponsor's own action."
   },
   "industries": [
    {
-    "industry": "Pharmaceutical manufacturers",
+    "industry": "Brand-name drug manufacturers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill caps the price of every prescription drug at a government-determined fair price, enforced by civil penalties of 10 times the overcharge, FTC enforcement, state lawsuits, and patent licensing (march-in rights). This would sharply cut pricing power and revenue across the industry.",
+    "note": "The bill would cap the price of every drug they sell in the US, expose them to penalties of 10 times any overcharge, FTC and state enforcement, private treble-damage suits, and loss of patent exclusivity through march-in licensing if they exceed the fair price or under-supply. This is the industry the bill was written to constrain, and the industry's pricing power is what ordinary consumers pay for at the pharmacy counter.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Pharmacies and drug distributors",
-    "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "Pharmacies and dispensers would be required to provide the fair price to patients, which could squeeze margins on dispensing but also pass through lower acquisition costs.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Insurers and employers",
+    "industry": "Health insurers and pharmacy benefit managers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Drug spending is a major driver of insurance premiums; caps on manufacturer prices would reduce the cost pressure that flows into premiums and employer health costs.",
+    "note": "Lower drug prices at the source would reduce what insurers and PBMs pay for the drugs their members use. Their interest here runs alongside patients', though the bill routes the fair price directly to individuals rather than through coverage, so the benefit is not dependent on them.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Pharmacies and drug dispensers",
+    "effect": "mixed",
+    "stance_toward_public": "aligned",
+    "note": "Pharmacies, mail-order services, and other dispensers would be required to furnish drugs at the fair price to eligible individuals, which could squeeze margins on high-priced drugs but also protects them from manufacturer price increases upstream.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The 119th Congress ends January 3, 2027. A bill with zero cosponsors that has received no committee action more than six months after referral will almost certainly die without a hearing or vote, as do the vast majority of introduced bills at this stage.",
+  "trajectory": "The bill sits with three committees and no cosponsors; in the roughly seven months left in this Congress, the most likely outcome is that it never receives a hearing or a vote and expires at the end of the session, requiring reintroduction in the next Congress. Drug price setting bills face well-funded industry opposition and, without bipartisan cosponsors or committee activity, the path to the floor is effectively closed.",
   "categories": [
-   "healthcare_and_drug_prices",
-   "consumer_protection_and_finance"
+   "healthcare_and_drug_prices"
   ],
   "scores": {
    "public_stakes": 9,
-   "concentrated_stakes": 9,
-   "outcome_against_public": 8,
-   "support_mismatch": 6,
+   "concentrated_stakes": 10,
+   "outcome_against_public": 5,
+   "support_mismatch": 2,
    "corruption_relevance": 1,
    "confidence": 0.9
   }

@@ -1,238 +1,179 @@
 {
  "bill_id": "119-s1691",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:44:27+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:24:32+00:00",
  "record_fetched_at": "2026-09-20T14:32:20+00:00",
  "record_hash": "22c6086c705e5cf5",
  "analysis": {
-  "one_liner": "Requires traveler consent before TSA can scan faces at airport security checkpoints.",
-  "headline": "The bill, introduced with five bipartisan cosponsors, has sat in the Senate Commerce Committee since May 2025 with no hearing, markup, or vote.",
+  "one_liner": "Requires consent before TSA uses facial recognition at airport checkpoints and restricts storing or sharing the data.",
+  "headline": "A bipartisan bill to require consent before TSA scans travelers' faces has sat in the Senate Commerce Committee with no action since its May 2025 referral.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would sharply limit the government's use of facial recognition at airport security. The TSA could scan a traveler's face for identity verification only with the traveler's clear, affirmative consent, given before each use. Travelers who decline could not be penalized with extra screening, the TSA could not use the technology to track people or run mass surveillance, and it could not share travelers' biometric data with anyone else. It would also have to delete facial images it collected before the law took effect.",
-  "who_benefits": "Air travelers, including the millions of people who pass through TSA checkpoints each year. Anyone could decline a face scan and instead show a driver's license or passport, without slower or harsher treatment. The bill also protects travelers' biometric data from being stored longer than needed, shared outside TSA, or used to track people beyond the checkpoint, and requires annual public reporting on how well the technology works and whether it shows bias by race, age, or sex.",
-  "who_benefits_short": "Air travelers who decline face scans",
+  "plain_summary": "The bill would limit how the Transportation Security Administration uses facial recognition at airport checkpoints. Travelers would have to be told and give affirmative consent before their face is scanned; anyone who opts out would be verified with a regular photo ID instead, with no penalty or extra screening. It would also bar TSA from sharing travelers' biometric data, set short deadlines for deleting it, prohibit using the technology for wide-scale tracking, and require annual government audits of the technology's accuracy and bias.",
+  "who_benefits": "Every air traveler in the United States. Today, TSA can scan a passenger's face at the checkpoint with little in the way of notice or a genuine choice to decline. The bill would make facial scans strictly opt-in for regular passengers and opt-out for trusted-traveler members, require that opting out carry no penalty or extra screening, forbid sharing biometric data outside TSA, force deletion of previously collected images, and ban the technology from being used for wide-scale tracking (S2, S3). People who fly rarely, lack smartphones, or simply don't want their face in a government database gain the most.",
+  "who_benefits_short": "Air travelers facing TSA face scans",
   "how_it_helps": [
    {
-    "text": "TSA could not collect or process a passenger's biometric information except under narrow, consented conditions, and must verify identity with a standard ID document for any passenger who does not opt in.",
+    "text": "Travelers would get a real choice: regular passengers would be verified with a standard photo ID by default, and TSA could only use facial recognition on them after clear notice and affirmative express consent before each use — standing in line or entering the checkpoint would not count as consent.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Consent must be an affirmative act in response to clear notice — standing in a security line or walking through a checkpoint does not count as agreeing to a face scan.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Travelers who opt out are protected from discriminatory treatment, extra screening, or less favorable screening conditions, and the TSA cannot use the technology to track passengers outside the checkpoint or enable wide-scale surveillance.",
+    "text": "Passengers who decline the face scan could not be subjected to discriminatory treatment, extra screening, or less favorable conditions, and TSA would have to verify them with an approved ID document without collecting any biometric information.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "The TSA could not share biometric information collected through facial recognition with anyone outside the agency, must minimize what it keeps, and must dispose of pre-existing biometric collections that would violate the new rules.",
+    "text": "The bill would stop TSA from sharing biometric data outside the agency, require facial images to be deleted shortly after identity verification (24 hours after scheduled departure for 1:N matching), and force disposal of previously collected images that would violate the new rules.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Trusted traveler program members (Global Entry, PreCheck, SENTRI, NEXUS) must be told how their biometric data will be used at enrollment and renewal, and must be given a real option to opt out of face matching at the checkpoint.",
+    "text": "It would prohibit TSA from using facial recognition to track or identify passengers outside the screening checkpoint or to enable systemic, wide-scale surveillance, and would require annual, publicly released audits of the technology's effectiveness, false-match rates, and racial, ethnic, age, and sex bias.",
     "sources": [
      "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "The Government Accountability Office must report annually to Congress on the technology's effectiveness, its false match rates, and bias by age, race, ethnicity, and sex, with recommendations to protect privacy and civil rights.",
-    "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "The TSA, which would have to rework checkpoint identity verification to accommodate opt-out lanes and would lose the ability to scan every traveler's face by default. Companies that sell facial recognition and biometric identity systems to the government would lose a large and growing market. Security screening lines could see some friction if many travelers opt out, and the TSA argues facial matching speeds processing.",
+  "who_pays": "TSA would bear the cost of maintaining ID-document verification lanes, signage, announcements, and deletion systems for biometric data, and companies that sell facial recognition systems to TSA would lose a growing federal deployment. Travelers bear essentially no direct cost; the bill leaves standard ID checks — the traditional method — fully intact.",
   "who_pays_short": "TSA and biometric screening vendors",
   "drawbacks": [
    {
-    "text": "The bill does not ban facial recognition at checkpoints outright: it lets the TSA keep using it with travelers who consent, so face scanning remains the default experience for anyone who doesn't actively opt out, and people who show up without acceptable ID can still be verified through other biometric means.",
+    "text": "The bill is not a full ban: trusted-traveler (Global Entry, PreCheck) members could still be face-scanned at the checkpoint unless they affirmatively opt out, and TSA could keep test images for up to 90 days under a testing-and-evaluation exception.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "text": "It carves out an exception letting the TSA retain travelers' facial images for up to 90 days for 'testing and evaluation' of the software, which privacy advocates could see as a lingering data-collection foothold.",
+    "text": "It covers only TSA's use of the technology at screening. Airlines' own use of facial recognition for boarding and other airport uses are outside the bill's restrictions, so biometric collection in airports could continue through the private side.",
     "sources": [
-     "S3"
+     "S2"
     ]
    },
    {
-    "text": "Opt-out identity verification relies on human checking of documents, which the TSA has argued is slower than facial matching; if large numbers of travelers decline scans, checkpoint throughput could suffer, and the bill's annual GAO study is partly designed to measure exactly that tradeoff against security and cost.",
+    "text": "TSA and security officials argue facial matching speeds up checkpoint identity checks; requiring a parallel ID-document process and new notification systems could add operating cost and some friction, which the bill addresses only by requiring annual audits of the technology's effect on cost and passenger experience rather than resolving it directly.",
     "sources": [
      "S2",
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The privacy protections are strong and concrete: no more default face scans, no data sharing outside TSA, no off-checkpoint tracking, and deletion of old biometric collections. The main costs are operational — retooling checkpoints for opt-out lanes and possibly slower processing for people who decline — plus a modest testing exception. On balance the bill gives travelers control over their own faces at a low, measurable cost, though it stops short of an outright ban.",
+  "benefit_vs_cost": "The privacy protections are substantial and the cost is modest: identity verification would still happen for every passenger, just with a photo ID rather than a face scan unless the passenger consents. The main honest criticisms are that trusted travelers still face an opt-out (rather than opt-in) system, images can be retained up to 90 days for testing, and the bill leaves airlines' facial-recognition boarding untouched — but compared with the status quo of unconsented biometric collection by a federal agency, the bill would be a clear net gain for travelers.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced on May 8, 2025, read twice, and referred to the Senate Commerce Committee, which has taken no further action on it, so it currently goes nowhere.",
+   "mechanism": "The bill was introduced with bipartisan support in May 2025 and referred to the Senate Commerce Committee, where it has sat without a hearing, a vote, or any further action; Congress is still in session, so it is not yet dead.",
    "narrative": [
     {
-     "text": "Senator Jeff Merkley introduced the bill on May 8, 2025, joined by five cosponsors: Senators Kennedy, Markey, Marshall, Van Hollen, and Daines.",
+     "text": "Senator Jeff Merkley introduced the Traveler Privacy Protection Act of 2025 on May 8, 2025, joined at introduction by five senators from both parties: Republicans John Kennedy, Roger Marshall, and Steve Daines, and Democrats Ed Markey and Chris Van Hollen.",
+     "sources": [
+      "S3",
+      "S4"
+     ]
+    },
+    {
+     "text": "The same day, the Senate read the bill twice and referred it to the Committee on Commerce, Science, and Transportation, where it has remained with no committee markup, hearing, or floor action in the record since.",
      "sources": [
       "S1",
-      "S3"
-     ]
-    },
-    {
-     "text": "The same day, the Senate read the bill twice and referred it to the Committee on Commerce, Science, and Transportation, which is the last action on record.",
-     "sources": [
-      "S5",
-      "S1"
-     ]
-    },
-    {
-     "text": "The bill restricts TSA's use of facial recognition to identity verification at the checkpoint, requires notice and affirmative express consent before each use, and lets travelers opt out and show an approved ID instead with no penalty.",
-     "sources": [
-      "S2",
-      "S3"
-     ]
-    },
-    {
-     "text": "It also bars the TSA from sharing biometric data, limits how long it can store it, prohibits using the technology to track passengers or conduct wide-scale surveillance, and orders the TSA to dispose of biometric collections that would violate the new rules.",
-     "sources": [
-      "S2",
-      "S3"
-     ]
-    },
-    {
-     "text": "The bill requires an annual GAO study of the technology's effectiveness, error rates, and bias, disaggregated by age, race, ethnicity, and sex.",
-     "sources": [
-      "S3"
+      "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "For now, the status quo: TSA keeps scanning travelers' faces by default, and biometric screening vendors keep their government market, because the bill has not moved."
+   "who_came_out_ahead": "So far, the status quo holds: TSA can keep scanning faces at checkpoints under its current rules, and facial recognition vendors keep their federal airport deployments. Travelers have gained nothing yet, though the bipartisan sponsorship keeps the bill technically alive."
   },
-  "who_came_out_ahead_short": "TSA and biometric tech vendors, so far",
+  "who_came_out_ahead_short": "TSA and its biometric vendors, for now",
   "sides": {
    "for": [
     {
      "name": "Sen. Jeff Merkley",
-     "role": "Sponsor, U.S. Senate",
+     "role": "Lead sponsor",
      "party": "D",
-     "what_they_did": "Introduced the Traveler Privacy Protection Act of 2025 to restrict TSA's use of facial recognition at airports.",
+     "what_they_did": "Introduced the bill to restrict TSA's use of facial recognition at airport checkpoints",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
+      "S3"
+     ]
+    },
+    {
+     "name": "Sens. John Kennedy, Roger Marshall, and Steve Daines",
+     "role": "Republican cosponsors",
+     "party": "R",
+     "what_they_did": "Cosponsored the bill at introduction",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
       "S3",
-      "S5"
-     ]
-    },
-    {
-     "name": "Sen. John Kennedy",
-     "role": "Cosponsor, U.S. Senate",
-     "party": "R",
-     "what_they_did": "Cosponsored the bill, one of three Republicans on it.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
-      "S4",
-      "S3"
-     ]
-    },
-    {
-     "name": "Sen. Roger Marshall",
-     "role": "Cosponsor, U.S. Senate",
-     "party": "R",
-     "what_they_did": "Cosponsored the bill.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
-      "S4",
-      "S3"
-     ]
-    },
-    {
-     "name": "Sen. Steve Daines",
-     "role": "Cosponsor, U.S. Senate",
-     "party": "R",
-     "what_they_did": "Cosponsored the bill.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
-      "S4",
-      "S3"
+      "S4"
      ]
     },
     {
      "name": "Sens. Ed Markey and Chris Van Hollen",
-     "role": "Cosponsors, U.S. Senate",
+     "role": "Democratic cosponsors",
      "party": "D",
-     "what_they_did": "Cosponsored the bill.",
+     "what_they_did": "Cosponsored the bill at introduction",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S1",
-      "S4",
-      "S3"
+      "S3",
+      "S4"
      ]
     }
    ],
    "against": [
     {
-     "name": "Transportation Security Administration",
-     "role": "Federal agency operating airport screening",
+     "name": "Senate Commerce, Science, and Transportation Committee leadership",
+     "role": "Committee of referral",
      "party": null,
-     "what_they_did": "Continues expanding facial recognition at checkpoints nationwide and promotes it as faster and more secure; the bill would curb that program, and the committee has taken no action on the bill since referral.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
+     "what_they_did": "Has taken no action on the bill since it was referred on May 8, 2025 — no markup, hearing, or vote appears in the action history",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S5"
+     ]
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "Three of the bill's five cosponsors are Republicans alongside two Democrats, and no votes or stated opposition appear in the record — the obstacle so far is inaction, not a party fight."
+   "party_line_note": "Sponsorship crossed party lines — 3 of 55 Senate Republicans and 2 of 45 Senate Democrats signed on — but the bill has drawn no committee or floor action either way."
   },
   "industries": [
    {
-    "industry": "Facial recognition and biometric identity technology vendors",
+    "industry": "Facial recognition and biometric security vendors",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Government checkpoint deployments are a growing market for these companies. The bill allows face matching only with a traveler's consent, bans sharing the data outside TSA, limits storage, and orders deletion of existing collections — sharply shrinking what they can sell to the government and whose faces they can scan.",
+    "note": "TSA has been deploying face-matching at airport checkpoints, and this bill would make that technology strictly consent-based, cap how long images are kept, bar sharing the data, and require annual bias audits. Vendors would lose a growing federal market if travelers default to photo IDs.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Transportation Security Administration",
-    "effect": "mixed",
+    "industry": "Airlines and airports",
+    "effect": "entrenched",
     "stance_toward_public": "opposed",
-    "note": "The agency loses its default authority to scan every traveler's face and must build opt-out document verification, which it has argued slows screening. It keeps facial recognition for consenting travelers, including trusted traveler program members.",
+    "note": "The bill restricts only TSA's use of facial recognition at screening, leaving airlines' own facial-recognition boarding and other airport uses untouched. That carve-out preserves the private-sector biometric pathway even as the government's is narrowed.",
     "sources": [
-     "S2",
-     "S3"
+     "S2"
     ]
    }
   ],
-  "trajectory": "Most Senate bills die quietly in committee, and this one has seen no action since its May 2025 referral. Its bipartisan sponsorship gives it a path if leadership attaches it to a larger aviation or security reauthorization bill, but as a standalone measure it is unlikely to get floor time on its own.",
+  "trajectory": "The bill has bipartisan sponsorship, which gives it a plausible path in committee, but the overwhelming majority of Senate bills referred to committee never reach the floor, and this one has seen no action in months. Its most realistic route to law would be as a provision attached to a larger aviation or homeland security package; on its own, it is likely to expire with the 119th Congress unless the committee acts.",
   "categories": [
    "other",
    "consumer_protection_and_finance"
   ],
   "scores": {
    "public_stakes": 6,
-   "concentrated_stakes": 4,
-   "outcome_against_public": 3,
+   "concentrated_stakes": 6,
+   "outcome_against_public": 6,
    "support_mismatch": 5,
    "corruption_relevance": 2,
    "confidence": 0.85

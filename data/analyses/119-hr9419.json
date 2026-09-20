@@ -1,176 +1,205 @@
 {
  "bill_id": "119-hr9419",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:13:56+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:10:55+00:00",
  "record_fetched_at": "2026-09-20T08:13:05+00:00",
  "record_hash": "22047eb2f93aa24a",
  "analysis": {
-  "one_liner": "Makes large data centers pay their full grid-upgrade costs and offers tax credits for new generation and water recycling.",
-  "headline": "Introduced in June 2026 with zero cosponsors and referred to two House committees, the bill has had no further action; Congress remains in session through early January 2027.",
+  "one_liner": "Makes giant data centers pay their own power costs and offers tax credits for new generation and water recycling.",
+  "headline": "Introduced in June 2026 with zero cosponsors, the bill was referred to two House committees and no further action appears in the record.",
   "direction": "mixed",
-  "plain_summary": "As data centers strain the power grid, this bill would change federal utility law so that any customer drawing 100 megawatts or more—data centers, mainly—must cover the full cost of the generation, transmission, and distribution upgrades needed to serve it, instead of spreading those costs across everyone's electric bill. It would also give a 30% tax credit to projects that build extra generation capacity shared with homes and farms, and a 30% tax credit for water-recycling systems that keep data centers and factories from draining rivers and aquifers. States and utilities, not the federal government, would work out the details, and states would only be required to consider the new rules, not adopt them.",
-  "who_benefits": "Residential, agricultural, and small-business electric customers, who would be shielded from rising bills caused by data center load growth; communities whose water supplies are protected by recycling projects; and, deliberately, data center and generation developers, who gain a federal framework encouraging their expansion plus substantial tax credits.",
-  "who_benefits_short": "Household electric customers and data center developers",
+  "plain_summary": "The bill writes a federal rule that electric customers using 100 megawatts or more — essentially large data centers — must pay the full cost of any power plant, transmission, or distribution upgrades needed to serve them, and must post money up front before those upgrades are built. To soften the blow and spread the benefit, it offers a 30% tax credit when data centers build extra generating capacity that is contracted out to utilities serving homes, farms, and small businesses, and another 30% credit for water recycling systems at data centers, factories, and municipal water systems. States would have to hold proceedings on the new rule but could ultimately decline to adopt it.",
+  "who_benefits": "Residential, agricultural, and small-business electric customers, who would stop subsidizing grid upgrades triggered by data centers; water users near data centers, since recycled water would replace rivers, streams, and groundwater; electric utilities, which gain required financial assurances from large loads; and data center and power-generation developers, which gain a 30% credit for surplus generation sold to other customers and for water reuse projects.",
+  "who_benefits_short": "Households and small businesses facing data-center-driven power costs",
   "how_it_helps": [
    {
-    "text": "The bill adds a federal standard requiring rates for large-load customers (100 megawatts or more at a single site or campus) to recover the full incremental cost of any generation, transmission, or distribution upgrade needed to serve them, including if they later terminate their contract, and requiring financial assurances before upgrades are built [S2].",
+    "text": "Utilities would have to charge any customer drawing 100 megawatts or more the full incremental cost of the generation, transmission, and distribution upgrades needed to serve it — including if the customer later cancels its contract — and would have to collect financial assurances before building those upgrades, so those costs stop flowing to ordinary ratepayers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It directs utilities to consider mechanisms encouraging large-load customers to build or buy new generation sufficient to serve their own load, with any excess capacity made available through long-term contracts to entities serving residential, agricultural, and small-business customers [S2].",
+    "text": "Utilities would have to consider rate structures that push large-load customers to build new generation dedicated to their own demand, with any surplus capacity offered through long-term contracts to utilities serving residential, agricultural, and small-business customers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It creates a 30% investment tax credit for the portion of new generation capacity that exceeds a covered data center's projected demand (up to 50% of that demand) and is contracted for at least 10 years to load-serving entities, with recapture rules if the data center understates its demand or drops the contract [S2].",
+    "text": "A new 30% investment tax credit would apply to new generation capacity that exceeds a data center's own projected demand (up to 50% of it), provided the surplus is contracted for at least 10 years to utilities serving existing customers — with the credit clawed back if the data center's demand grows or the contract is cut short.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It creates a 30% investment tax credit for water recycling projects, including onsite recycling at data centers and factories, replacing freshwater with municipal recycled water, and building or expanding municipal water recycling systems [S2].",
+    "text": "A second 30% credit would fund water recycling: onsite systems at data centers and industrial facilities, switching industrial users from groundwater and freshwater to municipal recycled water, and building or expanding municipal water recycling systems, which the bill's findings say protects aquifers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill's findings state that new large loads can place upward pressure on power costs and that large-load customers should bear the full incremental cost of infrastructure built primarily for them [S2].",
+    "text": "State regulators would have to open proceedings on the large-load cost rule within one year and decide within two, though states that already have a comparable standard, a pending proceeding, or a legislative vote would be exempt.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Federal taxpayers, who absorb the revenue cost of the two 30% tax credits; data center operators, who would pay more upfront for grid upgrades and financial assurances than they do today; and electric utilities, which face new federal mandates to design rates and run proceedings.",
-  "who_pays_short": "Taxpayers, data center operators, and utilities",
+  "who_pays": "Federal taxpayers, through a 30% investment credit with no dollar cap in the bill text for surplus-generation and water-reuse projects over a 10-year window; state regulators, which must run new proceedings; and data center developers, which would bear full upfront infrastructure costs and post financial assurances, partially offset by the credits.",
+  "who_pays_short": "Taxpayers and data center developers",
   "drawbacks": [
    {
-    "text": "The ratepayer protections are PURPA 'standards,' which states must consider but are not required to adopt; each state regulator or nonregulated utility can complete a proceeding and decline to implement the rules, so protection for household bills depends entirely on where you live [S2].",
+    "text": "The ratepayer protection is not guaranteed: under the federal procedure the bill uses, state regulators must consider the standard and make a determination, but they can decline to adopt it after hearings, so households end up protected only where states choose to act.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The additive-generation requirement uses 'consider' language, and the bill expressly says no state or utility can be forced to mandate physical allocation of generating capacity or a uniform set-aside, weakening the guarantee that data centers will actually add generation for everyone else [S2].",
+    "text": "The two 30% tax credits carry no overall dollar limit or pay-for in the bill, so the full cost to the Treasury is open-ended and would fall on taxpayers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The two 30% tax credits reduce federal revenue, and the generation credit rewards building capacity in excess of a data center's needs, which could subsidize projects that overbuild; verification relies on taxpayer certification, engineering studies, and Treasury guidance [S2].",
+    "text": "The water-reuse credit directly subsidizes private facilities' own water systems — including data centers' onsite recycling for their own operations — so some of the money would cover infrastructure companies would arguably need anyway.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "By design, the bill facilitates data center expansion—an 'all-of-the-above' buildout of power and water infrastructure—so total electricity demand grows faster even in states that decline the standards, still pressuring bills and water supplies there [S2].",
+    "text": "The generation credit is only usable on projects of 100 megawatts or more tied to a large-load campus, a scale only the largest developers can finance, so the subsidy would flow disproportionately to the biggest tech and power companies.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core idea is genuinely pro-consumer: data centers demanding power on the scale of mid-sized cities would have to pay for the infrastructure they cause rather than pushing those costs onto everyone's electric bill. But the strength of that protection is limited—states must consider the standards, not adopt them—and the bill pairs the protection with tax credits and a national policy statement that facilitate more data center construction, so total grid and water stress keeps growing even where the protections are not implemented.",
+  "benefit_vs_cost": "The core idea — making 100-megawatt-plus customers pay the full incremental cost of their own grid upgrades — addresses a real and growing pocketbook problem, and tying the generation credit to capacity actually contracted out to communities is more targeted than a blanket subsidy. But the protections depend on state regulators choosing to adopt them, and the credits are uncapped, last 10 years, and partly subsidize private infrastructure. On balance a reasonably designed bill whose benefits to households are real but conditional, and whose costs to taxpayers are unquantified.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced in late June 2026, referred to the Ways and Means and Energy and Commerce committees, and has had no hearings, markup, or floor action since; it has attracted no cosponsors.",
+   "mechanism": "It was introduced in late June 2026, sent to two House committees, and has sat there ever since — no hearing, no vote, and no cosponsors.",
    "narrative": [
     {
-     "text": "Rep. Michael Baumgartner (R-WA) introduced the bill on June 24, 2026, with no cosponsors [S1][S3][S4].",
+     "text": "Rep. Michael Baumgartner introduced the bill on June 24, 2026.",
      "sources": [
       "S1",
+      "S4"
+     ]
+    },
+    {
+     "text": "The Speaker referred it the same day to both the Ways and Means Committee, which handles tax credits, and the Energy and Commerce Committee, which handles utility law — a dual referral that requires two committees to act.",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "No member of either party signed on as a cosponsor, and no markup, hearing, or floor action appears in the record after the referral.",
+     "sources": [
       "S3",
       "S4"
      ]
     },
     {
-     "text": "The same day, it was referred to the Committee on Ways and Means and, in addition, to the Committee on Energy and Commerce [S4].",
+     "text": "With the 119th Congress scheduled to end on January 3, 2027, the bill has roughly six months of session life left and no visible movement.",
      "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "No further action—no committee vote, hearing on the record, or floor consideration—appears in the action history, and the 119th Congress remains in session until January 3, 2027 [S4][S1].",
-     "sources": [
-      "S4",
       "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, no one: the bill has not advanced, so data center operators and electric customers continue under the existing rules, with infrastructure costs allocated however state regulators currently allow."
+   "who_came_out_ahead": "For now, the existing arrangement continues: states decide case by case whether data centers cover the grid costs they trigger, and large data center developers avoid a uniform federal requirement to pay full incremental infrastructure costs and post financial assurances. Taxpayers are also spared the uncapped credits so far."
   },
-  "who_came_out_ahead_short": "No one yet; the bill sits in committee",
+  "who_came_out_ahead_short": "Data center developers and the status quo",
   "sides": {
    "for": [
     {
      "name": "Rep. Michael Baumgartner",
-     "role": "Sole sponsor of H.R. 9419",
+     "role": "Sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill establishing large-load ratepayer standards and generation and water-reuse tax credits.",
+     "what_they_did": "Introduced the bill on June 24, 2026 and made the case in its findings that large data-center loads should bear their full incremental infrastructure costs rather than blanket restrictions being imposed.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
+      "S2",
       "S4"
      ]
-    },
+    }
+   ],
+   "against": [
     {
-     "name": "House Ways and Means and Energy and Commerce Committees",
-     "role": "Committees of referral",
+     "name": "House Ways and Means Committee",
+     "role": "Committee of referral (tax provisions)",
      "party": null,
-     "what_they_did": "Received the bill on referral; neither committee has acted on it in the record to date.",
+     "what_they_did": "Received the referral on June 24, 2026; no markup, hearing, or vote on the bill appears in the record since.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S4"
      ]
+    },
+    {
+     "name": "House Energy and Commerce Committee",
+     "role": "Committee of referral (utility provisions)",
+     "party": null,
+     "what_they_did": "Received the referral on June 24, 2026; no markup, hearing, or vote on the bill appears in the record since.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "All 440 other voting House members",
+     "role": "House membership",
+     "party": null,
+     "what_they_did": "Not one member of either party signed on as a cosponsor in the months after introduction.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3"
+     ]
     }
    ],
-   "against": [],
    "party_line": "unclear",
-   "party_line_note": "No opposition appears in the record, but no cosponsors from either party signed on, so the bill's level of support is a single Republican sponsor."
+   "party_line_note": "No votes were ever taken and not a single cosponsor from either party signed on, so no partisan split can be measured."
   },
   "industries": [
    {
-    "industry": "Data center and AI computing operators",
-    "effect": "entrenched",
+    "industry": "Data centers and hyperscale cloud companies",
+    "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "The bill makes federal policy out of facilitating data center development and credits excess capacity they build, locking in their growth; at the same time it requires them to pay the full incremental cost of grid upgrades and post financial assurances, ending a practice under which existing customers could absorb some of those costs. Their interest in this bill both supports and constrains what ordinary ratepayers want.",
+    "note": "They would have to pay the full incremental cost of grid upgrades and post financial assurances, but they gain 30% credits for surplus generation and water recycling, plus a federal framework whose stated policy rejects blanket moratoria on data center development.",
     "sources": [
      "S2"
     ]
    },
    {
     "industry": "Electric utilities",
-    "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "Utilities gain guaranteed financial assurances from large customers and a wave of ratepayer-funded generation construction, but lose flexibility to spread large-load upgrade costs across the customer base and must run new federal-standard proceedings.",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "The bill requires large loads to pre-fund upgrades, cutting utilities' stranded-cost risk, and lets utilities earn credits on new generation whose excess capacity is sold to their other customers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Generation project developers",
+    "industry": "Power generation developers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "A new 30% investment tax credit for generation capacity beyond a data center's own need, if contracted for 10+ years to utilities serving homes and farms, directly subsidizes capacity that would serve ordinary customers.",
+    "note": "A new 30% investment credit rewards building generation tied to large-load campuses as long as the surplus capacity is contracted for 10 or more years to utilities serving homes, farms, and small businesses.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Municipal water and water-recycling providers",
+    "industry": "Municipal water and water recycling providers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "The water reuse credit covers building or expanding municipal water recycling systems and replacing freshwater use with recycled water, protecting aquifers and surface water that communities depend on.",
+    "note": "A 30% credit covers building or expanding municipal water recycling systems and switching industrial customers from freshwater to recycled water.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "With zero cosponsors and no committee action months after introduction, the bill is very likely to sit until the 119th Congress ends without a vote. Its best realistic path is having elements folded into a larger energy or tax bill, since stand-alone ratepayer-protection proposals rarely reach the floor without broader support.",
+  "trajectory": "With zero cosponsors, no committee action more than a month after referral, and two committees that would each need to act, the bill is very likely to die quietly at the end of the 119th Congress without ever reaching the floor — the fate of most bills referred to multiple committees with no cosponsors.",
   "categories": [
    "consumer_protection_and_finance",
    "environment_and_energy",
@@ -180,9 +209,9 @@
    "public_stakes": 6,
    "concentrated_stakes": 7,
    "outcome_against_public": 3,
-   "support_mismatch": 2,
-   "corruption_relevance": 2,
-   "confidence": 0.9
+   "support_mismatch": 1,
+   "corruption_relevance": 1,
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

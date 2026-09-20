@@ -1,66 +1,72 @@
 {
  "bill_id": "119-s1243",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:28:28+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:18:00+00:00",
  "record_fetched_at": "2026-09-20T07:58:43+00:00",
  "record_hash": "47cd4780d5d0d351",
  "analysis": {
-  "one_liner": "Imposes a 30% minimum federal tax on households earning over $1 million a year.",
-  "headline": "The bill was introduced with 15 Democratic and Independent cosponsors and referred to the Senate Finance Committee, where it has received no vote or further action.",
+  "one_liner": "Imposes a 30% minimum tax rate on incomes over $1 million.",
+  "headline": "Introduced in April 2025 with 15 Senate cosponsors, the bill was referred to the Senate Finance Committee, which has taken no action on it.",
   "direction": "for_working_people",
-  "plain_summary": "The bill creates a new minimum tax: anyone with yearly income over $1 million would owe at least 30% of their income in federal taxes, after allowing charitable deductions and counting payroll taxes they already paid. The tax phases in just above the $1 million mark and the threshold rises with inflation. The bill's stated purpose is to make sure the highest earners cannot pay lower tax rates than middle-income families, and to cut the deficit by billions of dollars a year.",
-  "who_benefits": "If enacted, the federal Treasury would collect billions more a year from roughly the top fraction of one percent of earners, reducing deficits that otherwise burden everyone. Households earning under $1 million would owe nothing new. The bill also states a goal of spurring broader tax reform that closes loopholes used by the wealthiest taxpayers.",
-  "who_benefits_short": "Federal Treasury and ordinary taxpayers",
+  "plain_summary": "The bill would add a minimum tax on households with income over $1 million a year: they would owe at least 30% of their income after charitable donations, counting regular income tax, payroll tax, and the investment income tax together, and it would phase in starting just above $1 million. The bill says this would cut the deficit by billions of dollars a year and serve as a stepping stone toward broader tax reform. It was referred to the Senate Finance Committee on the day it was introduced and has not moved since.",
+  "who_benefits": "Ordinary taxpayers and the public at large, because the bill would raise billions of dollars a year from the highest-income households, reducing the deficit without raising taxes on anyone earning under $1 million. Middle-income taxpayers would pay nothing new.",
+  "who_benefits_short": "Taxpayers earning under $1 million",
   "how_it_helps": [
    {
-    "text": "The bill imposes a tax equal to 30% of a high earner's adjusted gross income (minus a modified charitable contribution deduction) whenever that exceeds the amount they owe under the regular income tax, the alternative minimum tax, and payroll taxes combined.",
+    "text": "The bill sets a 30% floor on the federal income tax rate for households with income over $1 million a year, counting regular income tax, payroll tax, and the 3.8% net investment income tax together, so households with very high incomes could not fall below that rate.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The tax only applies to taxpayers with adjusted gross income over $1,000,000 ($500,000 for married people filing separately), with the threshold adjusted for inflation after 2025, and it phases in gradually just above that threshold so incomes near $1 million are not hit with a sudden cliff.",
+    "text": "The tax phases in gradually above the $1 million threshold, so a household just over the line pays only a small share of the full tax, and the threshold rises with inflation after 2025.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill's own 'sense of the Senate' section describes it as an interim step that would set a floor on taxes for the highest earners and cut the deficit by billions of dollars a year while broader tax reform is considered.",
+    "text": "The bill preserves the charitable contribution deduction against the minimum tax, so giving to charity does not count against a taxpayer's income.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The bill's own findings section says it would cut the deficit by billions of dollars a year and act as a floor on taxes for the highest-income taxpayers while broader tax reform is debated.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Households with adjusted gross income above $1 million a year — about the top 0.5% of filers — would pay more, most sharply those whose income comes from capital gains, carried interest, and other forms now taxed at lower rates than wages. The tax counts what they already pay in payroll taxes, so it targets people whose total tax rate currently falls below 30%.",
+  "who_pays": "Households with income over $1 million a year, who would owe a new minimum tax equal to the difference between a 30% tax on income after charitable giving and what they currently pay in income and payroll taxes.",
   "who_pays_short": "Households earning over $1 million",
   "drawbacks": [
    {
-    "text": "The bill adds a third parallel tax computation alongside the regular income tax and the existing alternative minimum tax, adding complexity to an already complicated code and creating extra compliance work for high-income filers and their accountants.",
+    "text": "The bill eliminates most itemized deductions and many tax credits (it keeps only the foreign tax credit, the earned income credit, and the child credit) in calculating the minimum tax, which would complicate filing for affected households and could raise their bills in ways beyond the headline 30% rate.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill only partially preserves the charitable contribution deduction against the new minimum tax (the deduction is prorated and zero for non-itemizers), so a good-faith objection is that it could reduce large charitable gifts from the very donors who make most big ones.",
+    "text": "Revenue from the tax, described by the bill as billions per year, is small relative to the federal deficit, so the bill alone does not close budget gaps; the bill itself frames it as an interim step, not a full solution.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Supporters of lower rates on investment income argue a minimum tax that effectively reaches capital gains and carried interest could discourage investment, though the bill text does not address this and the provided sources contain no analysis of economic effects.",
+    "text": "A minimum tax based on income above $1 million adds a parallel calculation to an already complicated tax code, and opponents of minimum-tax designs generally argue that it adds complexity and could affect some taxpayers inconsistently, such as those with large one-time gains.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core tradeoff is straightforward: more revenue from a small, wealthy group versus somewhat higher effective rates on investment income and added tax-complexity. The charitable-deduction treatment is awkwardly designed, but the overall mechanism is simple and targeted. The bigger practical cost is political: with no Republican support, the bill is unlikely to move, so its main real-world effect so far is as a statement of priorities rather than a change in anyone's taxes.",
+  "benefit_vs_cost": "The bill raises money from a small group of very high-income households and asks nothing of everyone else, and it phases in above the threshold to avoid cliff effects. The real drawbacks are complexity in the tax code and relatively modest revenue compared with the deficit, which the bill acknowledges by calling itself an interim step toward broader tax reform. On balance it is a targeted tax increase on millionaires, not a broad reform.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced in the Senate and sent to the Finance Committee, where it has sat without a hearing, a vote, or any further action.",
+   "mechanism": "The bill was introduced and sent to the Senate Finance Committee the same day, and the committee has taken no action on it since.",
    "narrative": [
     {
-     "text": "Sen. Sheldon Whitehouse introduced the bill in the Senate on April 1, 2025, joined by 14 Democratic senators and one Independent (Sen. Bernie Sanders).",
+     "text": "Senator Whitehouse and 14 Democratic-aligned cosponsors introduced the bill on April 1, 2025.",
      "sources": [
       "S1",
       "S2",
@@ -68,115 +74,119 @@
      ]
     },
     {
-     "text": "The Senate read the bill twice and referred it to the Committee on Finance the same day; the action history shows no markup, no committee vote, and no floor action since.",
+     "text": "The Senate read the bill twice and referred it to the Committee on Finance on the day it was introduced; that referral is the last action in the bill's record.",
      "sources": [
+      "S1",
       "S4"
      ]
     },
     {
-     "text": "All 15 cosponsors are Democrats or Independents; no Republican has signed on.",
+     "text": "The bill's tax would apply to tax years beginning after December 31, 2024, and the bill states it would cut the deficit by billions of dollars a year.",
      "sources": [
-      "S3"
+      "S2"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, no one's taxes have changed: the bill has not advanced. Households earning over $1 million are better off in the practical sense that the 30% minimum tax has not moved toward law, and its Senate committee has not taken it up."
+   "who_came_out_ahead": "Households with incomes over $1 million, who currently pay no minimum tax beyond today's rates because the bill has not advanced; ordinary taxpayers get no revenue benefit."
   },
-  "who_came_out_ahead_short": "High earners, since the bill hasn't advanced",
+  "who_came_out_ahead_short": "High-income households, under current tax rules",
   "sides": {
    "for": [
     {
      "name": "Sen. Sheldon Whitehouse",
-     "role": "U.S. Senator (D-RI), bill sponsor",
+     "role": "Sponsor",
      "party": "D",
-     "what_they_did": "Introduced the Paying a Fair Share Act in the Senate and recruited 15 cosponsors.",
+     "what_they_did": "Introduced the Paying a Fair Share Act of 2025 on April 1, 2025, a minimum 30% tax on incomes over $1 million.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
       "S2",
-      "S4"
+      "S3"
      ]
     },
     {
-     "name": "Democratic and Independent cosponsors (Sens. Merkley, Blumenthal, Van Hollen, Durbin, Klobuchar, Reed, Hirono, Sanders, Baldwin, Warren, Booker, Welch, Smith, Markey)",
-     "role": "15 senators cosponsoring the bill",
+     "name": "14 of 45 Senate Democrats",
+     "role": "Original cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as cosponsors, all Democrats or Independents.",
+     "what_they_did": "Signed on as original cosponsors when the bill was introduced.",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S2",
+      "S3"
+     ]
+    },
+    {
+     "name": "Sen. Bernie Sanders",
+     "role": "Independent senator, original cosponsor",
+     "party": "I",
+     "what_they_did": "Signed on as an original cosponsor when the bill was introduced.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S2",
       "S3"
      ]
     }
    ],
    "against": [
     {
-     "name": "Senate Committee on Finance",
-     "role": "Committee with jurisdiction over tax legislation",
+     "name": "Senate Finance Committee",
+     "role": "Committee to which the bill was referred",
      "party": null,
-     "what_they_did": "Received the bill by referral on April 1, 2025 and has taken no further action — no hearing, markup, or committee vote has been scheduled.",
+     "what_they_did": "Received the bill on April 1, 2025 and has taken no further action on it in the public record.",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S1",
       "S4"
-     ]
-    },
-    {
-     "name": "Senate Republicans",
-     "role": "Majority party in the Senate, controlling what reaches the floor",
-     "party": "R",
-     "what_they_did": "No Republican has cosponsored the bill, leaving it without the cross-party support that tax legislation typically needs to advance.",
-     "direct": false,
-     "evidence": "record",
-     "sources": [
-      "S3"
      ]
     }
    ],
    "party_line": "mostly_party_line",
-   "party_line_note": "All 15 cosponsors are Democrats or Independents and there is no recorded Republican support; no roll-call vote has occurred."
+   "party_line_note": "All 15 cosponsors are Democrats or the chamber's independents; no Republican has signed on, and the bill sits in the Finance Committee, which is led by the Republican majority that did not act on it."
   },
   "industries": [
    {
-    "industry": "Households earning over $1 million a year",
+    "industry": "Households with incomes over $1 million a year",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These taxpayers would owe a minimum 30% of income in federal taxes, eliminating the advantage of lower rates on capital gains and other investment income. Their interest in the bill's defeat runs against the deficit reduction everyone else would fund through it.",
+    "note": "The bill would impose a 30% minimum federal tax on their income after charitable giving, closing the gap between their effective tax rate and that of middle-income households. Their interest in stopping the bill runs directly against the revenue benefit to the general public.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Private equity, hedge fund, and venture capital managers",
+    "industry": "Investment fund managers and other high earners whose income comes largely from capital gains and carried interest",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Managers whose income is carried interest taxed at preferential rates would owe the minimum tax on it, erasing much of that advantage. The public pays for the resulting revenue otherwise lost to the Treasury.",
+    "note": "The minimum tax counts payroll taxes and the net investment income tax toward the 30% floor, reducing the advantage of income taxed at lower capital gains rates. These households benefit most from the current system the bill targets.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Charitable sector and large donors",
-    "effect": "mixed",
+    "industry": "Tax preparation and advisory firms serving high-net-worth clients",
+    "effect": "gains",
     "stance_toward_public": "mixed",
-    "note": "The bill allows a charitable deduction against the new minimum tax, but only a prorated one and none for non-itemizers, which could modestly reduce very large charitable gifts while preserving most of the incentive.",
+    "note": "A new parallel minimum tax with its own deductions and credit rules adds planning and compliance work for affected taxpayers, which these firms would be paid to navigate.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill sits in the Senate Finance Committee with no Republican cosponsors and no scheduled action. Similar minimum-tax-on-millionaires proposals in past Congresses died in committee. Unless it is attached to a larger tax or budget bill, it is likely to remain in committee through the 119th Congress.",
+  "trajectory": "Bills referred to the Senate Finance Committee without a hearing or markup rarely move, and this one has the committee's Republican majority to win over first. With a narrower Democratic and independent base of cosponsors than earlier versions of this idea and no scheduled action, the most likely path is that the bill stays in committee unless tax policy becomes a live negotiation where a millionaire minimum tax is traded into a larger package.",
   "categories": [
    "taxes_on_wealth_and_corporations"
   ],
   "scores": {
    "public_stakes": 6,
    "concentrated_stakes": 8,
-   "outcome_against_public": 3,
-   "support_mismatch": 4,
-   "corruption_relevance": 3,
-   "confidence": 0.85
+   "outcome_against_public": 5,
+   "support_mismatch": 3,
+   "corruption_relevance": 1,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

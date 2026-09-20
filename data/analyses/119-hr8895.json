@@ -1,119 +1,157 @@
 {
  "bill_id": "119-hr8895",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:27:21+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:05:47+00:00",
  "record_fetched_at": "2026-09-20T08:04:44+00:00",
  "record_hash": "634a3b0635bb1568",
  "analysis": {
-  "one_liner": "Bans grocery stores and delivery apps from using shoppers' personal data to set individual prices.",
-  "headline": "Introduced in May 2026 with one cosponsor, referred to the House Energy and Commerce Committee, and no vote has been taken.",
+  "one_liner": "Bars big grocery stores and delivery apps from using shoppers' personal data to set individual prices.",
+  "headline": "The bill, backed by just two House members, has sat untouched in the Energy and Commerce Committee since its May 2026 referral, with no hearing or vote.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would stop large grocery stores (15,000 square feet and up) and food delivery services from using a shopper's personal data to raise that shopper's price. It would also require online grocers to tell you when an item's availability changed or when the price depends on weight, require delivery services to get your approval before substituting an item, and let the Federal Trade Commission enforce the rules. It would also order a Labor Department report on whether electronic shelf labels affect grocery-store jobs.",
-  "who_benefits": "Everyday grocery shoppers, especially people who shop online or through delivery apps. The bill would prevent stores from quietly charging one shopper more than another for the same food based on data about them, and it would stop delivery apps from swapping items into an order without the customer's okay.",
-  "who_benefits_short": "Grocery shoppers and delivery customers",
+  "plain_summary": "The bill would stop large grocery stores and food delivery apps from using your personal data to charge you a different, higher price than other shoppers — a practice known as dynamic pricing, which stores are starting to enable through electronic shelf labels. It would also force online grocers to tell you if an item is out of stock or priced by weight, and require delivery apps to ask before swapping out an item you ordered. The Federal Trade Commission would enforce the rules, and the Labor Department would study whether electronic shelf labels cost grocery jobs.",
+  "who_benefits": "Grocery shoppers — especially people who order groceries online or through delivery apps — would gain protection against being charged more than their neighbors for the same food based on their data, location, or shopping habits. Grocery workers could gain indirectly if the Labor Department study on electronic shelf labels leads to scrutiny of job losses.",
+  "who_benefits_short": "Grocery shoppers, especially online and delivery customers",
   "how_it_helps": [
    {
-    "text": "A covered entity — a food retailer of at least 15,000 square feet or a third-party delivery provider — may not use technology that applies a consumer's personal data to engage in dynamic pricing, defined as raising the price of food based on that consumer's data.",
+    "text": "Prohibits food retailers (stores of 15,000 square feet or more) and third-party delivery providers from using any technology that sets prices based on a consumer's personal data, so the price you see can't be quietly raised for you alone.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "When selling groceries online, covered retailers must tell the customer if an item's availability has changed or if the item is weighed to set its price, and delivery providers must get the customer's explicit approval before substituting an item.",
+    "text": "Requires online grocers to disclose to shoppers when an item's availability has changed or when its price is determined by weight, closing common surprises in online ordering.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Violations are treated as unfair or deceptive practices under the Federal Trade Commission Act, so the FTC can enforce the ban with its existing penalties.",
+    "text": "Requires delivery apps to get explicit approval from the customer before substituting a different grocery item for the one ordered.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Enforces all of this through the Federal Trade Commission as an unfair or deceptive practice, giving the agency its standard penalty powers over violators.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Directs the Secretary of Labor to report to Congress within a year on whether grocery stores' adoption of electronic shelf labels — the screens that make per-person pricing technically possible — affects employment.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Large grocery chains and delivery services, which would have to keep prices uniform rather than using personal data to raise individual prices, and would bear the cost of changing pricing systems and online-ordering software. The exception clause also raises the risk that stores shift data-driven price differences into loyalty programs.",
-  "who_pays_short": "Large grocers and delivery apps",
+  "who_pays": "Large grocery chains and delivery services would bear compliance costs and lose the ability to personalize prices — a pricing tool the industry is actively building out through electronic shelf labels. Some administrative costs could trickle to consumers, and the consent-before-substitution rule could slow app operations slightly.",
+  "who_pays_short": "Large grocery chains and delivery apps",
   "drawbacks": [
    {
-    "text": "The ban has large carve-outs: it does not apply to loyalty or membership program benefits, temporary discounts, offers a consumer consented to in exchange for data, or price differences based on objective costs like shipping and taxes — so retailers could still legally charge different prices through loyalty sign-ups and consent flows.",
+    "text": "The exceptions are broad: a retailer can still offer personalized pricing through loyalty or reward programs as long as the consumer voluntarily enrolls or consents to share data — meaning stores could keep much of the practice by routing it through the membership cards most shoppers already carry.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The rules only reach stores of at least 15,000 square feet, so smaller food retailers face no restriction on data-driven pricing.",
+    "text": "It only covers food retailers of at least 15,000 square feet, leaving smaller stores and any business under that threshold free to personalize prices.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Compliance would require changes to pricing and online-ordering systems at thousands of large stores, and some of that cost could show up in prices or fewer features for shoppers.",
+    "text": "It lets retailers charge different prices based on objective costs like shipping or taxes, and allows temporary discounts to retain existing customers, so some price variation remains legal.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Requiring explicit approval before a delivery substitution could delay or complicate online orders, a real friction for shoppers who currently allow substitutions for convenience.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "On the electronic shelf labels that enable the practice, the bill orders a study rather than any restriction, so the underlying technology rollout would continue while research is underway.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core idea — no charging a shopper more for groceries because of their data — is a straightforward consumer protection that most shoppers would want. The main weakness is design: the loyalty-program and consent exceptions leave a wide legal path for the same practice, and the 15,000-square-foot floor exempts smaller stores, so the protection is real but porous.",
+  "benefit_vs_cost": "The core protection — no charging individual shoppers more based on their data — addresses a real and growing practice and is easy to explain. But the bill is leaky: the loyalty-program and consent exceptions leave the industry a wide legal path to the same outcome, the size threshold exempts many retailers, and it restricts nothing about the electronic shelf label hardware itself. A shopper would get real but partial protection; the strongest honest objection is that consent-based exceptions convert a ban into a paperwork rule for a practice most customers already opt into through store cards.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and sent to the House Energy and Commerce Committee, which has not acted on it, so nothing has been voted on yet.",
+   "mechanism": "The bill was introduced and sent to the Energy and Commerce Committee, where it has sat with no hearing, no markup, and no floor action.",
    "narrative": [
     {
-     "text": "Representative Josh Gottheimer introduced the bill on May 19, 2026, with Representative Mike Lawler joining, and it was referred the same day to the House Committee on Energy and Commerce.",
+     "text": "Rep. Josh Gottheimer introduced the bill on May 19, 2026, joined by Rep. Mike Lawler, and it was referred the same day to the House Committee on Energy and Commerce.",
      "sources": [
       "S1",
+      "S2",
       "S4"
      ]
     },
     {
-     "text": "It has one cosponsor, a Republican, and no further action has been taken since the referral.",
+     "text": "That referral is the last action on record: the bill has gained only one Republican cosponsor beyond its original sponsors and has received no hearing, markup, or vote.",
      "sources": [
       "S3",
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, no one has won or lost; large grocers and delivery apps simply continue operating without the proposed pricing restrictions."
+   "who_came_out_ahead": "So far, large grocery chains and delivery apps are better off: because the bill has not moved, they remain free to deploy electronic shelf labels and data-driven pricing without any of the proposed limits."
   },
-  "who_came_out_ahead_short": "No ruling yet; the bill is still parked in committee",
+  "who_came_out_ahead_short": "Grocery chains and delivery apps, for now",
   "sides": {
    "for": [
     {
-     "name": "Josh Gottheimer",
-     "role": "U.S. Representative (NJ), lead sponsor",
+     "name": "Rep. Josh Gottheimer",
+     "role": "Sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and steered it to the House floor",
+     "what_they_did": "Introduced the bill and referred it to Energy and Commerce.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
+      "S2",
       "S4"
      ]
     },
     {
-     "name": "Mike Lawler",
-     "role": "U.S. Representative (NY), sole cosponsor",
+     "name": "Rep. Mike Lawler",
+     "role": "Original cosponsor",
      "party": "R",
-     "what_they_did": "Joined as the bill's only cosponsor, making it a bipartisan pair",
+     "what_they_did": "Joined as the bill's lone Republican cosponsor at introduction, giving it bipartisan sponsorship.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S1",
+      "S2",
       "S3"
      ]
     }
    ],
-   "against": [],
+   "against": [
+    {
+     "name": "House Energy and Commerce Committee leadership",
+     "role": "Committee of referral",
+     "party": "R",
+     "what_they_did": "Has taken no action on the bill since referral — no hearing or markup has been scheduled.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
    "party_line": "bipartisan",
-   "party_line_note": "A Democrat and a Republican introduced it together, but with only two members on board there is no record yet of broad support or organized opposition."
+   "party_line_note": "Sponsorship is bipartisan — one Democrat and one Republican — but the bill has attracted no broader support from either party, with no floor votes on record."
   },
   "industries": [
    {
-    "industry": "Large grocery chains (15,000 sq ft and up)",
+    "industry": "Large grocery retailers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would bar them from using shopper data to raise individual prices and would add disclosure duties for online orders. Shoppers benefit from uniform, transparent prices; the chains lose a data-driven pricing tool.",
+    "note": "The bill would bar stores of 15,000 square feet or more from using shoppers' personal data to set individual prices, blocking the personalized-pricing capability the industry is building through electronic shelf labels — though loyalty-program exceptions would preserve much of the practice.",
     "sources": [
      "S2"
     ]
@@ -122,22 +160,22 @@
     "industry": "Third-party grocery delivery apps",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "They could no longer use personal data for dynamic pricing and would need explicit customer approval before substituting an item in an order. The substitution rule directly addresses a common delivery-app complaint.",
+    "note": "Delivery providers would face the same data-pricing ban plus a new requirement to get explicit customer approval before substituting items, adding operational friction and limiting data-driven pricing.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Grocery technology and electronic shelf label makers",
+    "industry": "Electronic shelf label makers",
     "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "The bill only orders a Labor Department report on whether electronic shelf labels affect grocery employment; it does not ban the labels. Widespread adoption could still proceed.",
+    "stance_toward_public": "opposed",
+    "note": "The bill does not restrict the digital shelf-label hardware that enables per-shopper pricing; it only orders a study of the labels' effect on grocery employment, so sales to grocery chains could continue.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill sits in the Energy and Commerce Committee with a single cosponsor and no committee activity since referral. Most bills at this stage never reach the floor, and without added cosponsors or committee action it is unlikely to become law this session.",
+  "trajectory": "With two sponsors, no cosponsor growth, and no committee action months after referral, the bill follows the pattern of most House bills: it will likely die quietly in the Energy and Commerce Committee when the Congress ends unless its provisions get attached to a larger consumer-protection package.",
   "categories": [
    "consumer_protection_and_finance"
   ],
@@ -147,7 +185,7 @@
    "outcome_against_public": 3,
    "support_mismatch": 1,
    "corruption_relevance": 1,
-   "confidence": 0.9
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

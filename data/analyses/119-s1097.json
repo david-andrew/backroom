@@ -1,98 +1,141 @@
 {
  "bill_id": "119-s1097",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:53:22+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:18:13+00:00",
  "record_fetched_at": "2026-09-20T08:05:56+00:00",
  "record_hash": "c1a953cd937f0d25",
  "analysis": {
-  "one_liner": "Has patent examiners and FDA share drug-approval information to weed out weak drug patents.",
-  "headline": "A bipartisan Senate committee approved the bill with amendments in April 2025, and it now sits on the Senate calendar with no floor vote scheduled.",
+  "one_liner": "Creates a USPTO–FDA task force to share drug-patent information and improve patent review.",
+  "headline": "A bipartisan Senate bill creating a USPTO–FDA task force on drug patents cleared the Judiciary Committee on April 10, 2025 and is waiting on the Senate calendar with no vote scheduled.",
   "direction": "for_working_people",
-  "plain_summary": "This bill creates a standing task force so the Patent Office and the FDA share information about drug and biologic patents and approvals. Patent examiners would learn when a drug approval or labeling change happens, and could see FDA application information that is not public, so they can better judge whether a drug patent deserves to be granted. The goal is fewer patents granted on drugs that don't deserve them, which is one reason generic and cheaper versions of drugs get delayed.",
-  "who_benefits": "Patients and taxpayers benefit indirectly, when fewer weak drug patents are granted and cheaper generic and biosimilar versions can reach the market sooner. Generic and biosimilar manufacturers benefit because they face fewer marginal patents to challenge in court, which is expensive and slow. The Patent Office also gains, since examiners get better information to make accurate decisions.",
-  "who_benefits_short": "Patients waiting for cheaper generics",
+  "plain_summary": "This bill sets up a permanent task force inside the patent office and the FDA so the two agencies share information about drug patents. The idea is that patent examiners often don't know what the FDA knows — when a drug was approved, what's in its label, or what a drug company told the FDA — and better information could stop weak or duplicative patents from being granted. Weak drug patents are one of the tools brand-name drug makers use to delay cheaper generic versions of their drugs, so better patent review could, over time, mean earlier generics and lower prices. The bill also requires the patent office to help the FDA with its role of listing drug patents, and it includes rules to protect drug companies' confidential information during the sharing.",
+  "who_benefits": "Patients who pay for brand-name drugs benefit indirectly and over time: if examiners catch weak or improperly granted drug patents, generic versions can reach the market sooner and at lower prices. Generic drug makers also benefit directly, since fewer blocking patents means more opportunities to enter. The agencies themselves gain a formal coordination structure they currently lack in statute.",
+  "who_benefits_short": "Patients facing high drug prices",
   "how_it_helps": [
    {
-    "text": "The bill establishes an Interagency Task Force on Patents requiring the Patent Office and FDA to share information on how each evaluates applications and on new approvals of patents, drugs, and biologics [S2] [S3].",
+    "text": "Establishes a standing Interagency Task Force on Patents so the two agencies that decide drug patents (USPTO) and approve drugs (FDA) coordinate and share information.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "It creates a process requiring the Patent Office to request FDA information relevant to patent applications, including non-public communications between FDA and drug sponsors, so examiners can check things like whether an invention was on sale before the filing date [S3].",
+    "text": "Requires the USPTO to request and the FDA to provide information that patent examiners can use, including data on drug approvals, label updates, and — where necessary for examiners' duties — FDA communications with drug sponsors that are not publicly disclosed.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill directs the Patent Office to assist FDA in its ministerial role of listing patents, and requires the USPTO Director to report to Congress within four years on how often FDA information is used in patent examinations [S2] [S3].",
+    "text": "The bill's findings state that research shows patent examiners benefit from information held by other federal agencies to assess prior art and the state of science and technology.",
     "sources": [
-     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Has examiners specifically check whether a claimed invention was on sale before the patent's filing date, one of the legal grounds for rejecting a patent.",
+    "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Brand-name drug companies bear the main cost: patents that would previously have been granted may now face tougher examination because examiners will see FDA data that was previously out of their view. Drug sponsors also get new obligations — they must be given 30 days' notice before their confidential FDA information is shared with the Patent Office, and both agencies must build confidentiality protocols. The administrative cost of running the task force falls on the two agencies.",
+  "who_pays": "Brand-name drug makers bear the cost if the bill works as intended: some patents that would otherwise have been granted could be rejected, and their confidential FDA communications become available (with safeguards) to patent examiners. Taxpayers fund the task force through agency staffing, though the bill sets no separate funding.",
   "who_pays_short": "Brand-name drug makers",
   "drawbacks": [
    {
-    "text": "The bill gives drug sponsors a 30-day window to consult before their confidential FDA information is shared with patent examiners, and lets the agencies share confidential records between themselves — a real, if safeguarded, leakage risk that the bill itself requires protocols and remedies for [S3].",
+    "text": "The bill does not change how drug patents are listed at the FDA or challenge any of the patent practices that delay generic entry; it expressly states that the USPTO must not interfere with the FDA's role of listing patents and that the listing function is unchanged.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "It is an information-coordination measure, not a fix for the main drug-patent problems: it does not change how many patents can be listed in FDA's Orange Book, does not limit patent thickets, and does not affect patent term or litigation. Its effect on drug prices will be indirect and slow.",
+    "text": "Before an agency shares confidential information about a drug, the drug's sponsor must be notified and given 30 days to consult, a step that could slow the exchange of information the bill is meant to speed up.",
     "sources": [
-     "S2",
      "S3"
     ]
    },
    {
-    "text": "Better sharing of confidential FDA data with the Patent Office could arguably make examination harder for genuinely novel drugs too, adding uncertainty for all pharmaceutical patents, not just weak ones.",
+    "text": "The bill requires the agencies to enter into 'or update an existing' memorandum of understanding, implying coordination already exists informally; critics could reasonably ask whether writing it into statute will change examination outcomes at all.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "This is a modest, low-cost administrative reform with a plausible but indirect benefit for patients: better patent examination quality, which over time means fewer weak drug patents standing between people and cheaper generics. The drawbacks — confidentiality risk in sharing FDA data and the 30-day sponsor consultation — are addressed with protocols but cannot be eliminated. The honest limitation is scope: this bill works at the Patent Office stage and does nothing about the volume of patents listed with FDA or the litigation tactics that most often delay generics, so it should be judged as a piece of the puzzle, not a drug-price fix.",
+  "benefit_vs_cost": "The bill is modest and low-risk: it does not change any patent standards or drug-approval rules, only how two agencies share information, and it includes confidentiality protections. The benefit to patients is real but indirect and unproven — it depends on whether examiners actually use FDA data to reject weak drug patents — and it does nothing about other common tactics that delay generics, such as patent thicketing or the Orange Book listing process, which the bill expressly leaves intact. An honest supporter would acknowledge that this is an incremental step, not a fix for drug prices.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The Senate Judiciary Committee approved it with amendments and put it on the Senate's calendar of business in April 2025, but no floor vote has been scheduled.",
+   "mechanism": "The bill cleared the Senate Judiciary Committee and was placed on the Senate's calendar, but the Senate has not scheduled a vote on it.",
    "narrative": [
     {
-     "text": "The bill was introduced on March 24, 2025 by Senator Durbin with Senators Tillis, Grassley, Coons, and Welch, and was read twice and referred to the Judiciary Committee [S3] [S5].",
-     "sources": [
-      "S3",
-      "S5"
-     ]
-    },
-    {
-     "text": "On April 3, 2025 the Judiciary Committee ordered the bill reported with amendments favorably, and on April 10 it was reported by Senator Grassley with amendments [S5].",
+     "text": "Introduced March 24, 2025 by Senator Durbin and referred to the Senate Judiciary Committee.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "On April 10, 2025 the bill was placed on the Senate Legislative Calendar under General Orders as Calendar No. 41, where it awaits a floor vote that has not been scheduled [S3] [S5].",
+     "text": "On April 3, 2025 the committee ordered the bill to be reported favorably with amendments.",
      "sources": [
-      "S3",
       "S5"
+     ]
+    },
+    {
+     "text": "On April 10, 2025 the committee, through Chairman Grassley, reported the bill with amendments and it was placed on the Senate Legislative Calendar under General Orders as Calendar No. 41, where the full Senate can take it up but no vote has been scheduled.",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "The reported version directs the two agencies to set up safeguards so confidential drug information is shared only with notice to the drug's sponsor and protection against inadvertent disclosure.",
+     "sources": [
+      "S3"
      ]
     }
    ],
-   "who_came_out_ahead": "No one has won or lost yet — the bill passed committee with bipartisan support but is waiting on the Senate calendar for a floor vote that has not been scheduled. Until that happens, the existing information gap between the Patent Office and FDA continues, which is most useful to brand-name drug makers whose marginal patents face no extra scrutiny."
+   "who_came_out_ahead": "No one has won or lost yet: the bill is sitting on the Senate calendar. Brand-name drug makers keep the current patent system in the meantime, and patients wait for whatever benefit faster, better-examined generic competition would bring."
   },
-  "who_came_out_ahead_short": "Still open — awaiting a Senate floor vote",
+  "who_came_out_ahead_short": "No one yet — bill still waiting",
   "sides": {
    "for": [
     {
-     "name": "Sen. Richard Durbin",
-     "role": "Senate bill sponsor (D-IL)",
+     "name": "Dick Durbin",
+     "role": "U.S. Senator (IL)",
      "party": "D",
-     "what_they_did": "Introduced the bill on March 24, 2025 with a bipartisan group of cosponsors [S3] [S4].",
+     "what_they_did": "Introduced the bill and recruited a bipartisan group of cosponsors.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S3",
+      "S4"
+     ]
+    },
+    {
+     "name": "Chuck Grassley",
+     "role": "Chair, Senate Judiciary Committee",
+     "party": "R",
+     "what_they_did": "Reported the bill out of committee with amendments and placed it on the Senate calendar.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "name": "Senate Judiciary Committee",
+     "role": "Senate committee",
+     "party": null,
+     "what_they_did": "Ordered the bill to be reported favorably with amendments.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "name": "Thom Tillis",
+     "role": "U.S. Senator (NC)",
+     "party": "R",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -101,33 +144,22 @@
      ]
     },
     {
-     "name": "Sen. Chuck Grassley",
-     "role": "Chair report of Senate Judiciary Committee bill; bill cosponsor (R-IA)",
-     "party": "R",
-     "what_they_did": "Cosponsored the bill and, as reported, shepherded it through committee, reporting it with amendments on April 10, 2025 [S3] [S5].",
+     "name": "Christopher Coons",
+     "role": "U.S. Senator (DE)",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S3",
-      "S5"
+      "S4"
      ]
     },
     {
-     "name": "Senate Judiciary Committee",
-     "role": "Committee with jurisdiction",
-     "party": null,
-     "what_they_did": "Ordered the bill reported with amendments favorably on April 3, 2025, then reported it and placed it on the Senate calendar [S5].",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "name": "Sens. Tillis, Coons, and Welch",
-     "role": "Original cosponsors (R-NC, D-DE, D-VT)",
-     "party": null,
-     "what_they_did": "Joined as original cosponsors when the bill was introduced, giving it support from both parties on the patent and judiciary space [S3] [S4].",
+     "name": "Peter Welch",
+     "role": "U.S. Senator (VT)",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -138,50 +170,41 @@
    ],
    "against": [],
    "party_line": "bipartisan",
-   "party_line_note": "The bill's original cosponsors were three Democrats (Durbin, Coons, Welch) and two Republicans (Tillis, Grassley), and it cleared the Judiciary Committee with amendments in April 2025 [S3] [S4] [S5]."
+   "party_line_note": "The sponsor is a Democrat (Durbin) and the cosponsors split two Republicans (Tillis, Grassley) and two Democrats (Coons, Welch); no senator has publicly opposed it in the record."
   },
   "industries": [
    {
-    "industry": "Brand-name drug and biologics manufacturers",
-    "effect": "loses",
+    "industry": "Brand-name drug makers",
+    "effect": "mixed",
     "stance_toward_public": "opposed",
-    "note": "Patent examiners will be able to see FDA approval data and non-public sponsor communications, making it harder to obtain marginal drug patents and easier for examiners to spot claims that lack novelty. Weaker patents are the main tool that delays generic and biosimilar competition, which costs patients money.",
+    "note": "Stronger information-sharing could cost them some improperly granted patents that block generic competitors, but the bill also leaves the FDA patent-listing system untouched, codifies it in statute, and gives sponsors 30 days' notice and consultation before their confidential FDA information is shared. Their interest in longer patent protection runs against cheaper generics.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Generic and biosimilar drug makers",
+    "industry": "Generic drug makers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Better patent examination means fewer dubious patents to work around or challenge in court, a process generic makers often cannot afford. That should mean earlier entry and lower drug prices.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "USPTO and FDA (agencies)",
-    "effect": "mixed",
-    "stance_toward_public": "aligned",
-    "note": "Both agencies take on the work of running a task force, building confidentiality protocols, and processing information-sharing requests, in exchange for better decision-making data on both sides.",
+    "note": "Better-informed patent examination means fewer weak patents standing between their products and the market. Their interest in earlier market entry aligns with patients' interest in lower prices.",
     "sources": [
      "S2",
      "S3"
     ]
    }
   ],
-  "trajectory": "The bill has bipartisan sponsorship and a favorable committee report and now sits on the Senate calendar. Bills at this stage often wait a long time unless the Majority Leader schedules a floor vote; with five bipartisan cosponsors it could plausibly pass by unanimous consent, but it would then need companion action in the House to become law.",
+  "trajectory": "The bill has cleared committee and sits on the Senate calendar, but with no vote scheduled its fate depends on leadership finding floor time. Bipartisan patent bills at this stage often wait through a whole Congress without action unless a senator requests a vote or the bill gets attached to something larger.",
   "categories": [
    "healthcare_and_drug_prices",
-   "antitrust_and_competition"
+   "other"
   ],
   "scores": {
-   "public_stakes": 4,
+   "public_stakes": 3,
    "concentrated_stakes": 5,
    "outcome_against_public": 3,
-   "support_mismatch": 3,
-   "corruption_relevance": 1,
-   "confidence": 0.8
+   "support_mismatch": 2,
+   "corruption_relevance": 2,
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

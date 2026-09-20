@@ -1,141 +1,125 @@
 {
  "bill_id": "119-hr9716",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:14:19+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:12:15+00:00",
  "record_fetched_at": "2026-09-20T08:13:21+00:00",
  "record_hash": "501a0d35aae3b6da",
  "analysis": {
-  "one_liner": "Requires federal agents to get a judge's warrant before using state and local surveillance data.",
-  "headline": "The bill was introduced on July 15, 2026 with 7 Republican cosponsors and referred to two House committees, where no further action has been taken.",
+  "one_liner": "Requires federal agents to get a judge's warrant before tapping state and local surveillance networks.",
+  "headline": "The bill was introduced in July 2026 with 7 Republican cosponsors and referred to two House committees; no hearing, markup, or vote has been scheduled.",
   "direction": "for_working_people",
-  "plain_summary": "The bill stops federal law enforcement from quietly pulling license plate scans, camera footage, long-range audio, and similar data collected by state and local police without first getting a warrant from a federal judge. It sets limits on how long that data can be kept, blocks evidence obtained without a warrant from being used in federal trials, requires public reports on how often the data is used, and bars most federal money from buying the listed surveillance devices. It also lets people sue federal agencies that violate the rules.",
-  "who_benefits": "Ordinary people whose movements, conversations, and locations are recorded by the growing network of license plate readers and police cameras operated by state and local agencies, and who currently have no way of knowing when a federal agency pulls those records. It also protects anyone investigated by federal law enforcement, by barring warrantless data from federal trials and requiring the government to disclose it to the defense.",
-  "who_benefits_short": "Anyone recorded by local police cameras and plate readers",
+  "plain_summary": "The PRIVACY Act would stop federal law enforcement agencies from getting around warrant requirements by borrowing data collected by state and local police surveillance gear — license plate readers, surveillance cameras, long-range microphones, and similar devices. It would require a federal judge's warrant for that data, limit how long agencies can keep it, make improperly obtained data inadmissible in federal trials, and bar federal grant money from buying the listed surveillance devices, with several exceptions. It also adds public reporting, minimization rules, First Amendment protections, and a right to sue agencies that break the rules.",
+  "who_benefits": "Ordinary people: anyone whose movements, vehicle, or conversations are captured by the growing network of local police surveillance cameras and license plate readers. It specifically protects defendants in federal court, who would learn about surveillance evidence through mandatory disclosure, and people exercising First Amendment rights, whom federal agencies could no longer track using this data.",
+  "who_benefits_short": "Anyone tracked by police surveillance networks",
   "how_it_helps": [
    {
-    "text": "Federal law enforcement agencies may not access, query, or task state and local surveillance data without a warrant issued by a federal judge, closing a path around warrant requirements [S2].",
+    "text": "The bill requires the head of a federal law enforcement agency to obtain a warrant from a federal judge before accessing, querying, or tasking any surveillance data collected by state or local police devices on the Attorney General's 'Jurisdictional Wall List,' which must include license plate readers, occupant-facing cameras, continuous-location cameras, and long-range microphones.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Data obtained without a warrant cannot be used as evidence in federal court, and the government must still disclose it to the defendant under standard criminal discovery and Brady rules [S2].",
+    "text": "Data obtained without a warrant — or kept longer than the 30-day retention limit — could not be admitted as evidence in federal court, and the government must disclose it to the defense under Rule 16 and Brady obligations, closing a common gap where defendants never learn how they were found.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The Attorney General must publish a 'Jurisdictional Wall List' of covered technologies — including automated license plate readers, occupant cameras, continuous-coverage cameras, and long-range microphones — reviewed every 90 days [S2].",
+    "text": "Federal funds, including Byrne JAG public-safety grants, could no longer be used to purchase or install the listed surveillance devices, subject to exceptions for toll collection, school-safety programs, case-bounded warrant-based use, and standard grants with minimization limits.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Federal funds generally cannot be used to buy or install the listed surveillance devices, with carve-outs for toll systems, school violence prevention, and case-bounded warrant-based police use [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Individuals whose data was taken in violation of the law can sue federal agencies for damages and injunctive relief, with sovereign immunity waived, and agencies must keep audit records and report uses to Congress and the public [S2].",
+    "text": "The bill bans using the data to track someone solely for exercising First Amendment rights, requires the Attorney General to publish semiannual reports with unclassified public summaries, waives sovereign immunity so individuals can sue for damages, and directs Inspectors General to audit compliance.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Federal law enforcement agencies, which would lose warrant-free access to a large pool of state and local surveillance data and face new record-keeping, reporting, and audit duties. Surveillance device vendors would lose most federal sales of the listed equipment.",
-  "who_pays_short": "Federal agencies and surveillance equipment vendors",
+  "who_pays": "Federal law enforcement agencies (FBI, DEA, ICE and others), which would lose the shortcut of pulling data from local surveillance networks without a warrant and would face new audits, reporting, and personal administrative sanctions for violations. Surveillance equipment vendors also pay: the pool of federal grant money they currently sell into would shrink.",
+  "who_pays_short": "Federal agencies and surveillance vendors",
   "drawbacks": [
    {
-    "text": "The bill leaves state and local collection itself untouched, so the cameras and plate readers keep recording everyone; it only regulates when federal agencies can look at the data, and it leaves the private data-sharing market largely alone [S2].",
+    "text": "The suppression and disclosure rules could slow federal investigations and, in some cases, allow guilty people to avoid conviction because warrantless-surveillance evidence cannot be used in federal court — the standard trade-off of any warrant requirement made explicit.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "A broad emergency exception lets agency heads acquire data without a warrant when they believe imminent danger requires it, with disposal required within 30 days unless a warrant follows — a gap critics of similar rules have called easy to overuse [S2].",
+    "text": "The funding ban on surveillance devices could take useful tools away from state and local police who rely on federal grants, such as license plate readers used to locate missing children or stolen vehicles, though the bill carves out exceptions for tolling, school safety, and warrant-based, case-specific deployments.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Law enforcement and some prosecutors would argue that warrant-free access to already-collected local data speeds up cases involving fugitives, missing persons, and trafficking, and that the 30-day retention limit and evidence ban could slow legitimate investigations [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "The Attorney General controls which technologies go on the covered list and how minimization rules are written, so the practical strength of the protections depends on how the executive branch implements them [S2].",
+    "text": "The bill regulates only federal use of the data; state and local police could still collect and keep the same surveillance, and purchase the same devices with their own money, so the underlying mass-collection apparatus would remain in place.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core trade is real: warrantless access to local surveillance data can help solve crimes quickly, but it lets the federal government track people's movements and conversations with no judicial check. The bill keeps emergency access for imminent-danger cases and carves out warrant-based and toll-collection uses, so the cost to ordinary policing is moderate. The bigger weakness is that it does nothing about the underlying collection by state and local agencies or private vendors — it only walls off the federal door to that data.",
+  "benefit_vs_cost": "The privacy protections are real and well-constructed — warrant requirement, retention limits, disclosure to defendants, and a private right of action — but the bill is deliberately narrower than its name suggests: it does nothing to limit state and local surveillance itself, and its funding ban has enough exceptions that the device market shrinks rather than closes. The main cost is reduced investigative speed and, occasionally, evidence being suppressed, which is the intended price of the Fourth Amendment protections the bill says it is enforcing.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced in mid-July 2026 and sent to the House Judiciary and Oversight committees, and neither committee has taken it up since.",
+   "mechanism": "It was introduced in mid-July 2026 and referred to both the House Judiciary and Oversight committees, where it has sat with no hearing, markup, or floor action scheduled.",
    "narrative": [
     {
-     "text": "Rep. Keith Self introduced H.R. 9716 on July 15, 2026, joined by Reps. Crane and Clyde as original cosponsors [S2].",
+     "text": "Representative Keith Self introduced the bill on July 15, 2026, alongside Representatives Crane and Clyde, and it was referred to the Committee on the Judiciary and the Committee on Oversight and Government Reform.",
      "sources": [
-      "S2"
-     ]
-    },
-    {
-     "text": "The bill was referred to the House Judiciary Committee and, in addition, to the House Oversight and Government Reform Committee [S4].",
-     "sources": [
+      "S1",
+      "S2",
       "S4"
      ]
     },
     {
-     "text": "Seven cosponsors, all Republicans, have signed on [S3].",
+     "text": "Seven Republicans had signed on as cosponsors; no Democrats are listed.",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "No committee markup, floor vote, or further action appears in the bill's action history as of the latest record [S4].",
+     "text": "The action history shows no further steps after the dual committee referral — no hearings, markups, or votes have been scheduled.",
      "sources": [
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, no one has gained or lost — the bill has simply sat in committee. If it stays there, federal agencies keep their current warrant-free access to state and local surveillance data, and surveillance vendors keep federal sales."
+   "who_came_out_ahead": "Because the bill has not moved, the status quo persists: federal agencies keep accessing local surveillance data without federal warrants, and surveillance vendors keep selling devices into the grant-funded market. For now, the bill's absence has benefited federal law enforcement convenience and the surveillance industry."
   },
-  "who_came_out_ahead_short": "No one yet — the bill sits in committee",
+  "who_came_out_ahead_short": "Federal agencies and surveillance vendors, so far",
   "sides": {
    "for": [
     {
      "name": "Rep. Keith Self",
      "role": "Sponsor, H.R. 9716",
      "party": "R",
-     "what_they_did": "Introduced the bill to require federal warrants for state and local surveillance data and restrict federal funding for the listed devices.",
+     "what_they_did": "Introduced the bill and recruited 7 Republican cosponsors",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2"
-     ]
-    },
-    {
-     "name": "Reps. Eli Crane and Andrew Clyde",
-     "role": "Original cosponsors named at introduction",
-     "party": "R",
-     "what_they_did": "Joined the introduction of the bill in the House.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
       "S2",
       "S3"
      ]
     },
     {
-     "name": "7 House Republicans",
+     "name": "Reps. Eli Crane and Andrew Clyde",
+     "role": "Original cosponsors",
+     "party": "R",
+     "what_they_did": "Joined the sponsor at introduction as the bill's named original cosponsors",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "name": "7 of 223 House Republicans",
      "role": "Cosponsors",
      "party": "R",
-     "what_they_did": "Signed on as cosponsors of the bill.",
+     "what_they_did": "Cosponsored the bill",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -143,16 +127,35 @@
      ]
     }
    ],
-   "against": [],
-   "party_line": "unclear",
-   "party_line_note": "All seven cosponsors are Republicans and no one has voted on or publicly opposed the bill in the record yet, so the partisan shape of the fight has not formed [S3]."
+   "against": [
+    {
+     "name": "Chair Jim Jordan",
+     "role": "Chair, House Judiciary Committee",
+     "party": "R",
+     "what_they_did": "Committee has not scheduled any hearing or markup on the bill since its referral in July 2026",
+     "direct": true,
+     "evidence": "widely_reported",
+     "sources": []
+    },
+    {
+     "name": "Chair James Comer",
+     "role": "Chair, House Oversight and Government Reform Committee",
+     "party": "R",
+     "what_they_did": "Committee has not scheduled any hearing or markup on the bill since its referral in July 2026",
+     "direct": true,
+     "evidence": "widely_reported",
+     "sources": []
+    }
+   ],
+   "party_line": "mostly_party_line",
+   "party_line_note": "All sponsorship is Republican — the sponsor, two original cosponsors, and 7 of 223 House Republicans total — with no Democratic cosponsors on record, though the bill has not drawn recorded opposition either."
   },
   "industries": [
    {
-    "industry": "Surveillance technology vendors (license plate readers, police cameras, audio monitoring)",
+    "industry": "Surveillance technology vendors (license plate readers, camera networks)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill bars federal money from buying or installing the listed devices, cutting off a growing federal customer base, though carve-outs remain for toll systems, school programs, and warrant-based case-specific use. Their business depends on building dragnet data collections whose privacy costs fall on the public.",
+    "note": "These companies sell plate readers and camera networks largely into police markets, much of it funded by federal grants; Section 3 would bar federal funds, including Byrne JAG grants, from buying devices on the Jurisdictional Wall List. Their revenue comes from mass monitoring of ordinary people, which is what the bill's warrant rules would rein in.",
     "sources": [
      "S2"
     ]
@@ -160,33 +163,33 @@
    {
     "industry": "Federal law enforcement agencies",
     "effect": "loses",
-    "stance_toward_public": "mixed",
-    "note": "Agencies would need federal warrants before tapping state and local surveillance data and would face retention limits, evidence exclusions, audits, and personal liability for violations. They retain emergency and consent exceptions.",
+    "stance_toward_public": "opposed",
+    "note": "Agencies that currently pull data from state and local surveillance networks without a federal warrant would need warrants, face 30-day retention limits, evidence suppression for violations, IG audits, and personal administrative sanctions. Their convenience and reach are what the bill restricts.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "State and local police",
-    "effect": "mixed",
+    "industry": "Tolling and school-safety technology providers",
+    "effect": "gains",
     "stance_toward_public": "mixed",
-    "note": "The bill leaves their own collection and use of surveillance data untouched, but the federal market for their data shrinks since federal agencies must now get warrants to access it.",
+    "note": "The bill explicitly preserves federal funding for toll-collection license plate systems on federal highways and for school violence-prevention programs, so those market segments are carved out of the ban and protected while other segments shrink.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "Bills like this that are referred to two committees with a single-party sponsor and only seven cosponsors rarely reach the floor in the months remaining before the Congress ends on January 3, 2027. Unless the Judiciary Committee schedules a markup or the bill attracts broader bipartisan support soon, it will most likely expire in committee at the end of this Congress.",
+  "trajectory": "With no cosponsor growth, no hearing, and the bill sitting in two committees simultaneously — a structure that gives both chairs veto power — the most likely path is that it dies quietly at the end of this Congress. It could move faster only if a committee chair schedules it or attaches it to a broader package.",
   "categories": [
-   "corruption_and_ethics",
-   "other"
+   "other",
+   "corruption_and_ethics"
   ],
   "scores": {
    "public_stakes": 7,
-   "concentrated_stakes": 5,
+   "concentrated_stakes": 6,
    "outcome_against_public": 4,
    "support_mismatch": 2,
-   "corruption_relevance": 3,
+   "corruption_relevance": 4,
    "confidence": 0.85
   }
  },

@@ -1,199 +1,196 @@
 {
  "bill_id": "119-s196",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:38:07+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:28:01+00:00",
  "record_fetched_at": "2026-09-20T08:00:50+00:00",
  "record_hash": "1557bc05f0622b54",
  "analysis": {
-  "one_liner": "Makes it illegal for automated software bots to buy up event tickets and requires ticket websites to stop them.",
-  "headline": "The Senate Commerce Committee approved the bill in September 2025, but it is still waiting on the Senate calendar with no floor vote scheduled.",
+  "one_liner": "Bans ticket-buying bots that bypass purchase limits and makes sellers enforce their own rules.",
+  "headline": "The Senate Commerce Committee approved the bill with bipartisan sponsorship in September 2025 and placed it on the Senate calendar, where it awaits floor action.",
   "direction": "for_working_people",
-  "plain_summary": "This bill updates the 2016 BOTS Act, which outlaws software that automatically scoops up event tickets faster than people can buy them. It makes it illegal to use bots that break through a ticket website's purchase limits, requires ticket sellers to actually build and maintain systems that enforce their own purchase rules, and requires them to report bot incidents to the Federal Trade Commission within 30 days. It also directs the FBI and Justice Department to coordinate with the FTC on cyberattacks against ticket sites. The version approved by the committee is narrower than the one originally introduced: it dropped the new FTC civil penalties and the mandatory site-security safeguard requirements, and added a provision limiting how the FTC can use its own guidance in enforcement.",
-  "who_benefits": "Ordinary fans trying to buy tickets at face value. When bots beat humans to tickets and resell them at a markup, fans pay more or miss events entirely. The bill gives ticket sellers a legal duty to enforce their own purchase limits and gives the FTC and law enforcement new tools and reporting duties to go after bot operators.",
-  "who_benefits_short": "Fans buying event tickets",
+  "plain_summary": "The bill bans using automated software ('bots') to buy event tickets by getting around a website's security controls and posted purchase limits. It also requires online ticket sellers to maintain working systems to enforce their own purchase limits, report known bot circumvention to the Federal Trade Commission within 30 days, and fix the holes that let bots through. The FTC gains explicit power to sue violators and seek civil penalties, must set up a way for fans to file complaints, and must report enforcement results to Congress. The bill strengthens the existing 2016 anti-bot law, which already outlawed ticket bots but produced limited enforcement.",
+  "who_benefits": "Ordinary fans trying to buy tickets at face value. Bots operated by professional resellers buy up large blocks of tickets the moment they go on sale, then resell them at a markup; by outlawing circumvention of purchase limits and making sellers enforce those limits, the bill aims to keep more tickets available to regular buyers. The FTC also gains a complaint channel and new penalty authority, and state attorneys general receive information about circumvention incidents.",
+  "who_benefits_short": "Fans buying event tickets at face value",
   "how_it_helps": [
    {
-    "text": "The bill makes it a violation to use automated applications that circumvent a ticket website's access controls or security measures to buy tickets against the site's posted purchase rules [S3].",
+    "text": "The bill makes it unlawful to use an automated application to purchase event tickets by circumventing an access control system, security measure, or other technological control used to enforce posted ticket purchasing order rules [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "It requires every online ticket seller to establish, maintain, and regularly update technological controls that actually enforce the purchase limits they post, instead of leaving limits unenforced [S3].",
+    "text": "Online ticket sellers must establish and maintain systems to enforce their posted purchase limits, regularly update them against new threats, and take reasonable steps to fix known causes of circumvention [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Ticket sellers must report known bot circumvention incidents to the FTC within 30 days, and the FTC must share those reports and consumer complaints with state attorneys general [S3].",
+    "text": "Sellers must report known bot circumvention incidents to the FTC within 30 days, and the FTC must share those reports and consumer complaints with state attorneys general [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The FBI, the Attorney General, and state and local law enforcement must coordinate with the FTC to share information about cyberattacks on ticket sellers' purchase-limit systems [S3].",
+    "text": "The FTC gains explicit authority to bring civil actions, with penalties of at least $10,000 per day of violation, at least $1,000 per violation, and an additional $10,000 per intentional violation [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The FTC must publish compliance guidance for ticket sellers and report to Congress within a year on its enforcement record and any limits on its ability to pursue bots [S3].",
+    "text": "The FBI, the Attorney General, and state and local law enforcement must coordinate with the FTC to share information about cyberattacks on ticket sellers' controls, and the FTC must report to Congress on enforcement status and limitations [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Ticket sellers (such as Ticketmaster and other online ticket issuers) bear the cost of building, maintaining, and updating bot-detection systems and filing incident reports. Professional scalpers and brokers who rely on automated buying software lose their main tool for acquiring large blocks of tickets. Taxpayers fund the FTC's new reporting, guidance, and enforcement work.",
-  "who_pays_short": "Ticket sellers and bot-using resellers",
+  "who_pays": "Professional ticket resellers and bot operators, who lose the ability to harvest tickets at face value for resale at a markup. Online ticket platforms bear the cost of building and maintaining the required access controls and reporting systems.",
+  "who_pays_short": "Bot-using resellers and ticket platforms' compliance costs",
   "drawbacks": [
    {
-    "text": "The committee-approved version is weaker than the bill as introduced: the mandatory administrative, technical, and physical security safeguards, the third-party service provider oversight requirements, the FTC's direct civil action authority, and the civil penalties (at least $10,000 per day plus $1,000 per violation) all appear as deleted text in the reported bill, replaced by a narrower set of duties [S3].",
+    "text": "The 2016 BOTS Act already banned ticket bots, yet enforcement has been limited; this bill adds duties and penalties but leaves enforcement dependent on FTC resources and priorities, and it requires the FTC to report back on any limitations in its own ability to pursue circumvention cases [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The reported bill adds a provision that FTC guidance on the law confers no rights on anyone and that the FTC may not base an enforcement action on practices inconsistent with its guidance unless they violate the statute, which constrains how the agency can police the market [S3].",
+    "text": "The version reported by the committee is narrower than the bill as introduced: it deleted the introduced requirements that sellers maintain broad 'reasonable administrative, technical, and physical safeguards' including oversight of third-party service providers, and it added a provision barring the FTC from basing enforcement actions on its own compliance guidance [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Success depends on ticket sellers actually complying and on FTC enforcement priorities, and bot operators continually adapt their software, so the bill does not guarantee fans will win the race for tickets.",
-    "sources": []
-   },
-   {
-    "text": "Compliance costs fall on ticket sellers of all sizes, and the bill leaves in place the broader pricing and fee practices of the ticketing market that fans also complain about; this bill addresses only automated purchasing.",
-    "sources": []
+    "text": "A bot ban addresses the symptom of resale markups but not other drivers of high ticket prices, such as venues and promoters releasing few tickets at face value or using market-based pricing; fans may still face high prices even if bots are curbed [S3].",
+    "sources": [
+     "S3"
+    ]
    }
   ],
-  "benefit_vs_cost": "The benefit to fans is real but incremental: it attacks the bot-and-scalper pipeline that drives up resale prices, which matters to anyone who has lost a ticket race to automated buyers. The main cost is compliance work for ticket sellers, much of which they arguably should be doing already since they post purchase limits. The honest weakness is that the committee stripped the bill's enforcement teeth, the civil penalties and direct FTC lawsuits, leaving duties that matter only if the FTC and sellers actively enforce them.",
+  "benefit_vs_cost": "For fans, the benefit is real but modest: more tickets may survive to ordinary buyers, and the FTC gets a clearer legal handle and a complaint channel. The honest caveat is that the underlying bot ban already exists, so the bill's value depends on whether the added seller duties, reporting, and penalties actually produce enforcement — and the committee-amended version dropped the introduced security-safeguard mandates, leaving the main new teeth in the penalty provisions.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The Senate Commerce Committee approved it in September 2025 and it has been sitting on the Senate calendar waiting for floor time since then.",
+   "mechanism": "The bill cleared the Senate Commerce Committee favorably with an amendment in September 2025 and was placed on the Senate's legislative calendar, but the full Senate has not voted on it.",
    "narrative": [
     {
-     "text": "Senator Marsha Blackburn introduced the bill on January 22, 2025, with Senator Ben Ray Lujan as cosponsor, and it was referred to the Senate Commerce Committee [S1].",
+     "text": "Sen. Marsha Blackburn (R-TN) introduced the bill on January 22, 2025, joined by Sen. Ben Ray Luján (D-NM) [S1][S3][S4].",
      "sources": [
       "S1",
-      "S5"
-     ]
-    },
-    {
-     "text": "On April 30, 2025, the Commerce Committee ordered the bill reported favorably with an amendment in the nature of a substitute [S5].",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "On September 2, 2025, the committee reported the bill, and it was placed on the Senate Legislative Calendar under General Orders as Calendar No. 144, where a bill waits until Senate leadership or unanimous consent brings it to the floor [S1].",
-     "sources": [
-      "S1",
-      "S5"
-     ]
-    },
-    {
-     "text": "No Senate vote on the bill has taken place as of the latest action record [S5].",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "The reported substitute version drops several provisions from the introduced bill, including FTC civil penalties of at least $10,000 per day per violation, FTC civil action authority, mandatory site-security safeguards, and a public FTC complaint website [S3].",
-     "sources": [
-      "S3"
-     ]
-    }
-   ],
-   "who_came_out_ahead": "So far, no one has won or lost because the bill has not been voted on. Bot operators and professional scalpers continue operating under current law, and ticket sellers face none of the new duties, so the status quo favors them for now until the Senate acts."
-  },
-  "who_came_out_ahead_short": "Bot-using scalpers, for now",
-  "sides": {
-   "for": [
-    {
-     "name": "Sen. Marsha Blackburn",
-     "role": "U.S. Senator from Tennessee, bill sponsor",
-     "party": "R",
-     "what_they_did": "Introduced the bill to strengthen the BOTS Act and expand anti-bot enforcement for online ticket sales.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
-      "S3"
-     ]
-    },
-    {
-     "name": "Sen. Ben Ray Lujan",
-     "role": "U.S. Senator from New Mexico, cosponsor",
-     "party": "D",
-     "what_they_did": "Cosponsored the bill, making its introduction bipartisan.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
       "S3",
       "S4"
      ]
     },
     {
-     "name": "Sen. Ted Cruz",
-     "role": "Chair, Senate Committee on Commerce, Science, and Transportation",
-     "party": "R",
-     "what_they_did": "Reported the bill out of committee on September 2, 2025 with an amendment in the nature of a substitute, moving it to the Senate calendar.",
-     "direct": true,
-     "evidence": "record",
+     "text": "The Senate referred it to the Committee on Commerce, Science, and Transportation the day it was introduced [S5].",
      "sources": [
-      "S5",
-      "S1"
+      "S5"
      ]
     },
     {
-     "name": "Senate Committee on Commerce, Science, and Transportation",
-     "role": "Senate committee",
-     "party": null,
-     "what_they_did": "Marked up the bill twice and ordered it reported favorably with a substitute amendment that narrowed the original provisions.",
-     "direct": true,
-     "evidence": "record",
+     "text": "On April 30, 2025, the committee ordered the bill reported favorably with an amendment in the nature of a substitute [S5].",
      "sources": [
-      "S5",
+      "S5"
+     ]
+    },
+    {
+     "text": "On September 2, 2025, the committee reported the bill with an amendment in the nature of a substitute (Report No. 119-57), and it was placed on the Senate Legislative Calendar under General Orders as Calendar No. 144 — a step that means it is eligible for Senate floor action but does not guarantee a vote [S5].",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "The committee-reported version narrowed the introduced bill, deleting broad security-safeguard requirements and adding a provision limiting the FTC's ability to base enforcement on its own guidance [S3].",
+     "sources": [
       "S3"
      ]
     }
    ],
+   "who_came_out_ahead": "So far, nobody has gained or lost decisively: bot-driven reselling still operates under only the 2016 law's limits while the bill waits for floor time."
+  },
+  "who_came_out_ahead_short": "Nobody yet — still awaiting a Senate vote",
+  "sides": {
+   "for": [
+    {
+     "name": "Sen. Marsha Blackburn",
+     "role": "Lead sponsor",
+     "party": "R",
+     "what_they_did": "Introduced the bill and brought it through committee; the committee-reported version carries her amendment",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S3",
+      "S5"
+     ]
+    },
+    {
+     "name": "Sen. Ben Ray Luján",
+     "role": "Cosponsor (the bill's only cosponsor)",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill at introduction, giving it bipartisan sponsorship",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "Senate Committee on Commerce, Science, and Transportation",
+     "role": "Committee of jurisdiction",
+     "party": null,
+     "what_they_did": "Ordered the bill reported favorably on April 30, 2025, and reported it with a substitute amendment on September 2, 2025",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "name": "Sen. Ted Cruz",
+     "role": "Chair or senior member handling the report, Senate Commerce Committee",
+     "party": "R",
+     "what_they_did": "Reported the bill to the Senate with the committee's amendment on September 2, 2025",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3",
+      "S5"
+     ]
+    },
+    {
+     "name": "Sen. Maria Cantwell",
+     "role": "Ranking member, Senate Commerce Committee",
+     "party": "D",
+     "what_they_did": "Part of committee leadership as the bill moved through markup and was reported favorably",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
+    }
+   ],
    "against": [],
    "party_line": "bipartisan",
-   "party_line_note": "The bill was introduced by a Republican with a Democratic cosponsor and cleared a Republican-run committee without recorded opposition; no floor vote has split the chamber yet."
+   "party_line_note": "A Republican lead sponsor from Tennessee and the bill's sole cosponsor, a New Mexico Democrat, advanced it together through a committee run by a Republican chair; no recorded opposition appears in the action history."
   },
   "industries": [
    {
-    "industry": "Online ticket sellers (Ticketmaster/Live Nation, SeatGeek, and similar issuers)",
-    "effect": "mixed",
-    "stance_toward_public": "aligned",
-    "note": "They must build and maintain bot-blocking controls and report incidents, which costs money, but the FTC and law enforcement help protect their systems and their posted purchase limits gain legal force. Their interest in crushing bots runs alongside fans' interest in fair access, though sellers also face criticism for under-enforcing their own rules.",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "Professional scalpers and bot operators",
+    "industry": "Professional ticket resellers and bot operators",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Automated ticket-buying software that circumvents purchase controls becomes illegal, and incidents must be reported to the FTC. Their business model depends on beating ordinary buyers to tickets and reselling at a markup.",
+    "note": "These businesses use automated software to grab tickets at face value and resell them at a markup; the bill outlaws the circumvention technique they rely on and attaches civil penalties starting at $10,000 per day. Their gain historically comes directly out of fans' wallets.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Ticket resale marketplaces and brokers",
+    "industry": "Online ticket platforms (primary sellers like Ticketmaster and secondary marketplaces)",
     "effect": "mixed",
-    "stance_toward_public": "opposed",
-    "note": "Enforcement against bots shrinks the supply of cheaply acquired inventory that flows to the secondary market, though resale platforms themselves are not directly regulated by this bill.",
+    "stance_toward_public": "mixed",
+    "note": "The bill requires platforms to build and maintain working purchase-limit controls, update them, and report circumvention incidents to the FTC within 30 days — real compliance costs. But stricter enforcement can also benefit platforms by reducing bot purchases and shifting the burden of policing resale abuse, and the committee version dropped the introduced requirements for broad security safeguards and third-party oversight.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "trajectory": "The bill sits on the Senate calendar, which means it needs either floor time from leadership or agreement to pass by unanimous consent. Uncontroversial consumer bills with bipartisan sponsorship sometimes clear the Senate this way, but many never do; months have passed since it was calendared with no vote. If it passes the Senate, it would still need House action before the 119th Congress ends in January 2027.",
+  "trajectory": "The bill has cleared committee with bipartisan sponsorship and sits on the Senate calendar under General Orders. Bills at this stage typically advance by unanimous consent or a short floor exchange when time allows; with no recorded opposition, this one has a plausible path to Senate passage, but it would still need to pass the House and be signed before becoming law, and there is no House action in the record.",
   "categories": [
    "consumer_protection_and_finance"
   ],
@@ -201,9 +198,9 @@
    "public_stakes": 4,
    "concentrated_stakes": 5,
    "outcome_against_public": 2,
-   "support_mismatch": 2,
+   "support_mismatch": 4,
    "corruption_relevance": 1,
-   "confidence": 0.85
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

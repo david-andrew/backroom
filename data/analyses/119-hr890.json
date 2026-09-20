@@ -1,147 +1,144 @@
 {
  "bill_id": "119-hr890",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:38:31+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:06:26+00:00",
  "record_fetched_at": "2026-09-20T08:01:27+00:00",
  "record_hash": "342ecf3e57d97ed3",
  "analysis": {
-  "one_liner": "Makes drugmakers prove each listed patent covers a distinct invention or lose protection once the first expires.",
-  "headline": "The bill was introduced January 31, 2025, referred to the House Judiciary Committee, drew no cosponsors, and has had no action since.",
+  "one_liner": "Makes drug companies prove each patent on a drug covers a distinct invention, curbing duplicate patents that delay cheaper generics.",
+  "headline": "The bill, which would limit duplicate drug patents that can keep cheaper generics off the market, was introduced January 31, 2025 with zero cosponsors and has seen no action beyond referral to the House Judiciary Committee.",
   "direction": "for_working_people",
-  "plain_summary": "The bill targets a drug-industry practice called patent thicketing. When a drugmaker lists many patents covering one drug, it can sue generic or biosimilar competitors over each patent, delaying cheaper versions for years. The bill would shift the burden: the brand-name company would have to prove in court that each additional patent covers a genuinely different invention, or lose patent protection once the first patent expires. It would also order the U.S. Patent and Trademark Office to review whether it is improperly granting multiple overlapping patents on the same drug.",
-  "who_benefits": "Patients who pay brand-name drug prices, and generic and biosimilar manufacturers who want to enter markets sooner. If overlapping patents were cleared away, cheaper copies of drugs could reach the market earlier, lowering prices for consumers, insurers, and government programs like Medicare.",
-  "who_benefits_short": "Patients and generic drug makers",
+  "plain_summary": "The bill targets a tactic where drug companies list many overlapping patents on a single drug, each adding years before a cheaper generic or biosimilar can compete. It says that when a company lists more than one patent on a drug, the company must prove in court that each patent covers a genuinely different invention — otherwise the extra patents expire along with the first one. It also orders the U.S. Patent and Trademark Office to review its procedures for granting multiple patents on the same drug and report its findings to Congress.",
+  "who_benefits": "Consumers who pay for prescription drugs, and generic and biosimilar manufacturers who could enter the market sooner. Limiting overlapping patents would shorten the stretch of time a brand-name drug faces no competition, which is when prices are highest. Employers and insurers that pay for drug coverage would also benefit indirectly from lower prices.",
+  "who_benefits_short": "Consumers and generic drug makers",
   "how_it_helps": [
    {
-    "text": "In patent challenges and infringement suits against generic or biosimilar applicants, the patent owner must prove by a preponderance of the evidence that each listed patent covers a patentably distinct invention; otherwise the patents are treated as disclaimed after the first one expires.",
+    "text": "When a drug company lists multiple patents on one drug, the bill presumes those extra patents end when the first one expires unless the company can prove — by a preponderance of the evidence — that each covers a genuinely distinct invention. This shifts the burden onto patent holders in the very proceedings, including infringement suits against generic challengers, where patent thickets are used to delay competition.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "The bill directs the USPTO to comprehensively review its examination procedures to reduce the improper issuance of patents that improperly extend a drug's exclusivity, and to report findings and recommendations to the House Judiciary Committee within one year of enactment.",
+    "text": "The requirement applies both to proceedings challenging drug patent validity under the FDA approval pathway and to lawsuits brand-name companies file against companies seeking FDA approval for generic or biosimilar versions, which is the main courtroom battleground over generic entry.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "It directs the U.S. Patent and Trademark Office to conduct a comprehensive review of whether its examination procedures are issuing duplicative drug patents, and to report findings and recommendations to the House Judiciary Committee within one year of enactment.",
     "sources": [
      "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Brand-name drug manufacturers, whose strategies of listing many patents on a single drug to block or delay generic and biosimilar competition would carry a real risk of failing in court. Consumers would bear nothing directly.",
-  "who_pays_short": "Brand-name drug manufacturers",
+  "who_pays": "Brand-name pharmaceutical companies would bear the cost: patents they currently stack on a single drug could be disclaimed once the first patent expires, cutting years of exclusive sales at high prices. Some revenue that funds future research would shrink, which is the tradeoff supporters accept to speed up generic competition.",
+  "who_pays_short": "Brand-name drug patent holders",
   "drawbacks": [
    {
-    "text": "Stronger generic competition can lower the expected returns on developing improved versions of existing drugs, an argument the industry makes against measures that weaken patent protection.",
+    "text": "Shifting the burden of proof to the patent holder could sweep up some patents that genuinely do cover distinct inventions, since the company must prove distinctness by a preponderance of the evidence rather than having its patents presumed valid. Critics of such proposals argue this weakens incentives for real follow-on innovation on existing drugs.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill is narrow: it changes the rules only in specific kinds of proceedings — FDA-related patent challenges under the Food, Drug, and Cosmetic Act and the Public Health Service Act, and infringement suits under section 271(e)(2) — and asks USPTO only to study and recommend, not immediately change, its examination practices.",
+    "text": "The USPTO portion of the bill only requires a study and a report — it changes nothing about how the patent office actually examines drug patent applications, so even if enacted, the immediate effect would come mainly through the litigation rule.",
     "sources": [
      "S2",
      "S3"
     ]
+   },
+   {
+    "text": "A company facing the presumption could simply list fewer patents on a drug going forward, changing FDA listing behavior without necessarily slowing generic entry any less — the bill does not address other delay tactics like pay-for-delay settlements.",
+    "sources": [
+     "S2"
+    ]
    }
   ],
-  "benefit_vs_cost": "The main benefit is potentially earlier access to cheaper generic and biosimilar versions of drugs whose patents are largely variations on the same invention. The main cost falls on drug companies' profits, not on patients directly. The bill's design has limits: it relies on litigation to enforce the new burden and only studies, rather than directly reforms, the patent office's granting practices, so its real-world effect would depend on how courts apply it. Still, its costs and benefits both point in a clear direction: lower drug prices at the expense of brand-name industry revenue.",
+  "benefit_vs_cost": "The core idea is a targeted fix for a real problem: courts have documented drug companies layering patents on a single product to stretch exclusivity for years past the original invention. Making the company prove each patent is distinct directly attacks that tactic and would likely speed generic entry for some drugs, at the cost of making it somewhat harder to protect legitimate improvements. The bill is modest in scope — it leaves most patent law untouched and its USPTO section is only a review — so its real-world price impact would be limited to drugs with the most aggressive patent stacking.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill sits in the House Judiciary Committee with no cosponsors and no hearing, markup, or floor action since it was referred there in January 2025.",
+   "mechanism": "The bill was introduced and sent to the House Judiciary Committee, where it has sat with no hearing, no vote, and no movement since January 2025.",
    "narrative": [
     {
-     "text": "Rep. Patrick Ryan introduced the bill in the House on January 31, 2025, and it was referred the same day to the Committee on the Judiciary.",
+     "text": "Rep. Patrick Ryan introduced the bill in the House on January 31, 2025, and it was referred to the House Committee on the Judiciary the same day.",
      "sources": [
       "S1",
-      "S5",
-      "S3"
+      "S5"
      ]
     },
     {
-     "text": "The bill has no cosponsors.",
+     "text": "The bill has no cosponsors — not one other member of either party signed on.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "No further action appears in the bill's history: no committee markup, hearing, or floor vote has been scheduled or taken.",
+     "text": "No further action has been taken: no committee markup, no hearing, and no floor vote appear in the bill's action history.",
      "sources": [
-      "S5",
-      "S1"
-     ]
-    }
-   ],
-   "who_came_out_ahead": "Brand-name drug manufacturers are better off for now: their existing ability to list many patents on a single drug and litigate against generic challengers remains unchanged, and the bill faces long odds with no cosponsors and no committee movement."
-  },
-  "who_came_out_ahead_short": "Brand-name drugmakers",
-  "sides": {
-   "for": [
-    {
-     "name": "Rep. Patrick Ryan",
-     "role": "Sponsor, H.R. 890",
-     "party": "D",
-     "what_they_did": "Introduced the bill and assigned it to the House Judiciary Committee.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
-      "S3",
       "S5"
      ]
     }
    ],
-   "against": [
+   "who_came_out_ahead": "Brand-name drug patent holders are better off, because the current system of stacking multiple patents on a single drug to extend exclusivity remains untouched. Generic drug makers and consumers gain nothing yet, since the bill has not advanced."
+  },
+  "who_came_out_ahead_short": "Brand-name drug patent holders",
+  "sides": {
+   "for": [
     {
-     "name": "House Judiciary Committee leadership",
-     "role": "Holds the bill in committee",
-     "party": "R",
-     "what_they_did": "Has taken no action on the bill — no hearing, markup, or vote — since it was referred on January 31, 2025.",
+     "name": "Rep. Patrick Ryan",
+     "role": "Sponsor",
+     "party": "D",
+     "what_they_did": "Introduced the bill and became its only sponsor; it was referred to the House Judiciary Committee.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S5",
-      "S1"
+      "S1",
+      "S5"
      ]
     }
    ],
+   "against": [],
    "party_line": "unclear",
-   "party_line_note": "No votes have occurred and the sole sponsor is a Democrat with no cosponsors of either party, so the partisan shape of support is unknown."
+   "party_line_note": "There have been no votes and no cosponsors: a single House Democrat introduced the bill and no member of either party joined him."
   },
   "industries": [
    {
-    "industry": "Brand-name drug manufacturers",
+    "industry": "Brand-name drug makers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill targets the practice of listing multiple overlapping patents on one drug and suing generic challengers on each one, which can extend a company's monopoly years beyond the first patent's expiry. The industry's interest in keeping that practice runs directly against patients' interest in lower drug prices.",
+    "note": "The bill would strip years of patent exclusivity from drugs where the company listed multiple patents that are not proven distinct, ending the practice of patent stacking that keeps generics off the market. Industry revenue from extended exclusivity periods would fall.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Generic and biosimilar drug manufacturers",
+    "industry": "Generic and biosimilar manufacturers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Cheaper generic and biosimilar makers would face fewer overlapping patent suits and could enter markets sooner. Their gain comes from the same outcome patients want: earlier, lower-priced versions of drugs.",
+    "note": "Generic and biosimilar companies could enter the market sooner because the presumption of disclaimer shortens the patent protection they would face in infringement suits brought under the FDA approval pathway.",
     "sources": [
      "S2",
      "S3"
     ]
    }
   ],
-  "trajectory": "With zero cosponsors, a Republican-controlled House committee holding it, and no action since referral, the bill is very unlikely to advance in this Congress. It would need a committee hearing and markup before any floor vote — a path single-sponsor patent bills rarely complete.",
+  "trajectory": "With a single sponsor, zero cosponsors, and no committee action nearly a year into the 119th Congress, the bill is all but certain to die in the Judiciary Committee without a vote, as most patent-reform bills do. Its realistic path to any consideration would be being folded into a larger drug-pricing or patent package, which no record suggests is happening.",
   "categories": [
    "healthcare_and_drug_prices",
    "antitrust_and_competition"
   ],
   "scores": {
-   "public_stakes": 7,
+   "public_stakes": 6,
    "concentrated_stakes": 8,
-   "outcome_against_public": 5,
-   "support_mismatch": 2,
-   "corruption_relevance": 2,
-   "confidence": 0.85
+   "outcome_against_public": 4,
+   "support_mismatch": 3,
+   "corruption_relevance": 3,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

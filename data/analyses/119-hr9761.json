@@ -1,101 +1,115 @@
 {
  "bill_id": "119-hr9761",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:14:21+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:13:06+00:00",
  "record_fetched_at": "2026-09-20T08:13:27+00:00",
  "record_hash": "0ced8307386f9883",
  "analysis": {
-  "one_liner": "Requires large multinational companies to publicly report profits and taxes country by country.",
-  "headline": "The bill was introduced in July 2026 with one cosponsor and referred to the House Financial Services Committee, where it has received no further action.",
+  "one_liner": "Requires large multinational companies to publicly report their profits and taxes country by country.",
+  "headline": "The bill, introduced in July 2026 with one cosponsor, has sat in the House Financial Services Committee since the day it was introduced, with no hearing, markup, or vote.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would require large multinational companies that file with the Securities and Exchange Commission to publish, in a public online database, how much revenue and profit they book in each country and how much tax they actually pay there. It covers every subsidiary a company owns, including those registered in tax havens and in U.S. territories with their own tax systems. The goal is to make it visible when a company reports most of its profits in a low-tax country while doing most of its business elsewhere.",
-  "who_benefits": "Ordinary taxpayers and small businesses get a clearer picture of which multinational corporations shift profits into low-tax jurisdictions, which has historically reduced the tax base that funds public services. Investors, journalists, and regulators also gain machine-readable data to compare what companies say publicly with what they report for tax purposes.",
-  "who_benefits_short": "Taxpayers, investors, and small businesses",
+  "plain_summary": "The bill would amend securities law to require large multinational companies that file with the SEC to disclose, on a country-by-country basis, where they book their revenues, profits, employees, and assets, and how much income tax they actually pay in each place, including tax havens. The data would be published online in a machine-readable public format. The point is to make offshore profit-shifting visible to investors, journalists, and tax enforcers instead of buried in global totals.",
+  "who_benefits": "Ordinary taxpayers, who effectively cover the gap when corporations shift profits to low-tax jurisdictions; small domestic businesses that compete against multinationals using offshore structures; investors and journalists who currently cannot see where a company's profits sit versus where its real activity is; and tax authorities, who gain a public roadmap of profit-shifting. Companies that pay taxes where they operate also benefit from a more level field.",
+  "who_benefits_short": "Taxpayers and domestic businesses competing against offshore profit-shifting",
   "how_it_helps": [
    {
-    "text": "Each covered company would have to file a report listing every subsidiary, where it is resident for tax purposes, its revenues, profit before tax, income tax paid, employees, and assets, broken down by tax jurisdiction [S2].",
+    "text": "Covered issuers — companies in multinational groups above a revenue threshold set by the SEC — must file a report listing every subsidiary, its tax jurisdiction of residence and incorporation, and for each jurisdiction the revenues from and outside related-party dealings, pre-tax profit, cash income taxes paid, accrued tax expense, stated capital, accumulated earnings, employee headcount, and tangible assets. [S2] [S1] ",
+    "sources": [
+     "S2",
+     "S1"
+    ]
+   },
+   {
+    "text": "The definition of a tax jurisdiction explicitly includes non-country jurisdictions with fiscal autonomy, which captures tax havens and territories, so shifting profits to a haven is disclosed jurisdiction by jurisdiction rather than hidden in a worldwide total. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The reports must be submitted in a machine-readable format and made available to the public online, so anyone — not just regulators — can search the data [S2].",
+    "text": "The reports must be filed in a machine-readable format prescribed by the SEC and made available to the public online, meaning anyone — not just regulators — can compare where a company books profit against where it pays tax. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill applies to companies that are members of multinational groups with annual revenue above a threshold set by the SEC to conform to U.S. or international country-by-country reporting standards, so it targets the largest global firms [S2].",
+    "text": "The SEC must issue a proposed rule within 270 days of enactment and a final rule within one year, with the requirement taking effect one year after the final rule. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The SEC must issue a proposed rule within 270 days and a final rule within one year of enactment, with reporting taking effect one year after the final rule [S2].",
+    "text": "Filing is due on the deadline for the company's tax return, so the public disclosure is aligned with actual tax payments rather than an accounting construct. [S2]",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Large multinational corporations bear the compliance cost of assembling and filing the country-by-country data, and they lose a degree of financial privacy that currently allows profits to be booked in low-tax jurisdictions without public scrutiny.",
-  "who_pays_short": "Large multinational corporations",
+  "who_pays": "Large multinational companies, which bear the compliance cost of building and publishing jurisdiction-level data, and which lose the obscurity that currently lets profits booked in tax havens go unexamined. Compliance-intensive multinationals that compete against foreign firms facing lighter disclosure may also argue for a relative cost.",
+  "who_pays_short": "Large multinationals using offshore structures",
   "drawbacks": [
    {
-    "text": "Multinational companies would face real compliance costs to collect, standardize, and file detailed financial data for every subsidiary and jurisdiction, and foreign competitors not listed on U.S. exchanges would not face the same requirement [S2].",
+    "text": "Covered companies must collect and report jurisdiction-level data for every subsidiary within a fixed rulemaking timeline, a real compliance cost particularly for complex multinational groups. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Disclosure alone does not change any tax rates or close any loopholes; the bill only makes information public, so its practical effect depends on how regulators, tax authorities, and investors use the data [S2].",
+    "text": "A common objection to public country-by-country reporting is that pre-tax profit does not always line up cleanly with a single jurisdiction's activity, so the published numbers could be read as evidence of tax avoidance where complex group structures, not haven-shifting, explain the figures. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The revenue threshold for which companies are covered is left to the SEC rather than fixed in the bill, which adds uncertainty for businesses and could delay or narrow implementation [S2].",
+    "text": "US-headquartered multinationals would face public tax-geography disclosure that many foreign competitors do not face under their home rules, which critics argue disadvantages them; the bill's conform-to-US-or-international-standards language does not require other countries to match the publicity. [S2]",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The public benefit — visibility into where the world's largest companies book profits and pay taxes — is broad and cheap to deliver, since the data largely already exists for tax authorities under international country-by-country reporting standards. The main costs fall on the multinationals themselves as compliance expenses and on companies whose tax arrangements would become publicly awkward. The honest limitation is that this is a transparency bill, not a tax-collection bill: it exposes profit shifting but does not directly stop it.",
+  "benefit_vs_cost": "The benefit to the public is significant but indirect: disclosure does not by itself change tax law or collect a dollar, but it gives investors, journalists, and tax enforcers the map of profit-shifting that currently does not exist, and it is cheap for the public because companies already must compute much of this data for existing country-by-country tax reporting — the change is making it public rather than confidential. The costs are real compliance burdens for multinationals and a plausible competitive-symmetry argument, but those costs fall on the entities whose conduct the bill is meant to expose. On balance the design is straightforward and the bill's main weakness is not its content but its lack of support.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced and sent to the House Financial Services Committee, where it has sat with no hearing, markup, or floor action, and the current session ends in early January 2027.",
+   "mechanism": "It was introduced and sent to the House Financial Services Committee the same day, and nothing has happened to it since — no hearing, no markup, no vote.",
    "narrative": [
     {
-     "text": "The bill was introduced in the House on July 16, 2026, by Rep. Brittany Pettersen, joined by one cosponsor, and referred the same day to the House Committee on Financial Services [S1] [S2].",
+     "text": "The bill was introduced in the House on July 16, 2026, by Rep. Brittany Pettersen with Del. Eleanor Holmes Norton as an original cosponsor. [S1] [S2]",
      "sources": [
       "S1",
       "S2"
      ]
     },
     {
-     "text": "The complete action history shows only two steps: introduction and committee referral, with no markup, hearing, or vote recorded since [S4].",
+     "text": "It was referred to the House Committee on Financial Services on the day of introduction, and the full action history shows no further action — no hearing, markup, committee vote, or floor action. [S4] [S1]",
      "sources": [
-      "S4"
+      "S4",
+      "S1"
      ]
     },
     {
-     "text": "Congress is still in session until January 3, 2027, but a bill introduced in mid-July of the second session with one cosponsor has not moved in committee [S1] [S4].",
+     "text": "It has one cosponsor, Del. Norton of DC, and no Republican support on the sponsor or cosponsor list. [S3] [S1]",
      "sources": [
-      "S1",
-      "S4"
+      "S3",
+      "S1"
+     ]
+    },
+    {
+     "text": "The 119th Congress runs through January 3, 2027, so the bill is technically alive but has only a short window in which a committee that has taken no action on it would need to move it. [S1]",
+     "sources": [
+      "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Large multinational corporations and jurisdictions that host offshore entities are better off for now, since the disclosure requirement exists only on paper and no committee or floor action has been scheduled that could make it law."
+   "who_came_out_ahead": "Multinationals that shift profits to tax havens are better off for now, since the disclosure that would expose where they book profits and pay taxes has not advanced, and no comparable public reporting requirement has taken its place. Ordinary taxpayers and domestic competitors gain nothing from the bill's inaction."
   },
-  "who_came_out_ahead_short": "Multinationals and tax-haven jurisdictions",
+  "who_came_out_ahead_short": "Multinationals keeping profit-shifting out of public view",
   "sides": {
    "for": [
     {
      "name": "Rep. Brittany Pettersen",
-     "role": "Sponsor, introduced the bill and referred it to committee",
+     "role": "Sponsor, House of Representatives",
      "party": "D",
-     "what_they_did": "Introduced the Disclosure of Tax Havens and Offshoring Act on July 16, 2026",
+     "what_they_did": "Introduced the bill on July 16, 2026, and it was referred to the House Financial Services Committee.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -105,63 +119,76 @@
      ]
     },
     {
-     "name": "Rep. Eleanor Holmes Norton",
-     "role": "Original cosponsor",
+     "name": "Del. Eleanor Holmes Norton",
+     "role": "Original cosponsor, Delegate for the District of Columbia",
      "party": "D",
-     "what_they_did": "Cosponsored the bill at introduction",
+     "what_they_did": "Cosponsored the bill at introduction; the bill's only cosponsor. [S3]",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
-      "S3"
+      "S3",
+      "S1"
      ]
     }
    ],
-   "against": [],
+   "against": [
+    {
+     "name": "House Committee on Financial Services",
+     "role": "Committee of referral; no member of it has acted on the bill",
+     "party": null,
+     "what_they_did": "Received the referral on July 16, 2026, and has taken no action since — no hearing, markup, or vote has been scheduled.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4",
+      "S1"
+     ]
+    }
+   ],
    "party_line": "unclear",
-   "party_line_note": "Both the sponsor and the sole cosponsor are Democrats, but no Republican or industry group has taken a recorded position on the bill, and no vote has occurred."
+   "party_line_note": "No vote has occurred, so no split can be measured; the sponsor and sole cosponsor are both Democrats, and no Republican has signed on. [S3] [S1]"
   },
   "industries": [
    {
-    "industry": "Large multinational corporations",
+    "industry": "Multinational corporations that shift profits to tax havens",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "They would have to publish, country by country, where they book profits and pay taxes, exposing arrangements that shift taxable profit into low-tax jurisdictions. That visibility costs them privacy and reputational leverage, while the public gains information it has never had.",
+    "note": "The bill would force public, jurisdiction-level disclosure of where these companies book profits, pay taxes, and employ people, ending the obscurity that makes haven-shifting invisible in public filings. The industry's interest in keeping this data confidential runs directly against the public's interest in seeing it. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Tax-haven financial services and jurisdictions with fiscal autonomy",
+    "industry": "Offshore financial and tax-haven services (jurisdictions with fiscal autonomy and the service firms that route profits through them)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Their business depends on hosting subsidiaries whose local profits and taxes stay out of public view; mandatory disclosure makes those arrangements visible in a public database. The bill's definition explicitly includes non-country jurisdictions with fiscal autonomy and U.S. territories with their own tax systems [S2].",
+    "note": "The bill's definition of tax jurisdiction explicitly covers non-country jurisdictions with fiscal autonomy, so the flows that pass through these structures would be individually visible rather than aggregated. Public scrutiny of those flows tends to shrink demand for them. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Securities and Exchange Commission",
+    "industry": "Accounting and compliance service firms",
     "effect": "mixed",
     "stance_toward_public": "aligned",
-    "note": "The SEC gains a new disclosure regime to write rules for and enforce within a year of enactment, adding workload but strengthening its dataset on listed multinationals.",
+    "note": "Covered companies would need to produce jurisdiction-level reports in a machine-readable SEC-prescribed format on tax-return deadlines, creating compliance work, though much of the underlying data already exists for confidential tax country-by-country reporting. [S2]",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill has one cosponsor, was introduced in the second half of the session, and has had no committee action. Bills at this stage in a new committee rarely reach a markup or floor vote before the Congress ends, so the most likely path is that it expires in committee unless the sponsor builds cosponsor support quickly; it could be reintroduced in the next Congress.",
+  "trajectory": "With roughly two and a half months left in the 119th Congress, a single sponsor, one cosponsor, and a committee that has taken no action in the months since referral, the most likely path is that the bill expires at the end of this Congress without a hearing or a vote; the sponsor could reintroduce it in the next Congress.",
   "categories": [
-   "taxes_on_wealth_and_corporations",
    "corruption_and_ethics",
+   "taxes_on_wealth_and_corporations",
    "consumer_protection_and_finance"
   ],
   "scores": {
    "public_stakes": 5,
    "concentrated_stakes": 7,
-   "outcome_against_public": 3,
-   "support_mismatch": 1,
-   "corruption_relevance": 3,
+   "outcome_against_public": 4,
+   "support_mismatch": 2,
+   "corruption_relevance": 5,
    "confidence": 0.9
   }
  },

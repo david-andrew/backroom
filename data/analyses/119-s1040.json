@@ -1,123 +1,111 @@
 {
  "bill_id": "119-s1040",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:21:03+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:15:54+00:00",
  "record_fetched_at": "2026-09-20T07:56:22+00:00",
  "record_hash": "32b795e735b341f9",
  "analysis": {
-  "one_liner": "Blocks drugmakers from delaying generic competition by switching patients to a tweaked version of the same drug.",
-  "headline": "The Senate Judiciary Committee unanimously approved the bill in April 2025 and placed it on the Senate calendar, but the Senate has not yet voted on it.",
+  "one_liner": "Bans drugmakers from delaying cheaper generics by switching patients to reformulated versions.",
+  "headline": "The Senate Judiciary Committee approved the bill in April 2025 and placed it on the Senate calendar, but no floor vote has been scheduled since.",
   "direction": "for_working_people",
-  "plain_summary": "When a brand-name drug's patents are about to expire, its maker sometimes pulls it off the market or stops making it and replaces it with a slightly altered, still-patented version — the same drug under a new label, so cheap copies never arrive. This bill defines that tactic as an unfair method of competition under the FTC Act. The Federal Trade Commission could stop a manufacturer mid-switch, and in court cases could force it to hand back profits or pay restitution to people overcharged during the switch. A manufacturer can defend itself by showing a safety, supply, or other genuine reason, and the FTC can still challenge conduct under existing antitrust law.",
-  "who_benefits": "Patients who need drugs that are nearing the end of their patent life. If the bill works as written, cheaper generic and biosimilar versions reach the market on the original schedule instead of being delayed by a reformulated successor, which means lower out-of-pocket costs at the pharmacy. Insurers and government programs that pay drug bills also benefit from the lower prices.",
-  "who_benefits_short": "Patients buying brand-name drugs near patent expiry",
+  "plain_summary": "When a brand-name drug is about to face generic competition, its maker sometimes pulls the original drug off the market and steers patients to a slightly altered version with a later-expiring patent, restarting years without cheaper copies. This tactic is called product hopping. The bill makes product hopping an unfair method of competition under federal antitrust law and lets the Federal Trade Commission sue to stop it and claw back profits. It has cleared the Senate Judiciary Committee with bipartisan support and is waiting for a floor vote.",
+  "who_benefits": "Patients and health plans who pay for brand-name drugs. Product hopping can delay generic competition by years; generics typically sell at a fraction of the brand-name price, so blocking the tactic speeds up price drops. Generic and biosimilar manufacturers also benefit because it becomes harder for brand companies to freeze them out of the market.",
+  "who_benefits_short": "Patients paying brand-name drug prices",
   "how_it_helps": [
    {
-    "text": "The bill makes 'product hopping' — withdrawing or de-marketing a drug as a generic nears approval and selling a reformulated, still-patented follow-on instead — an unfair method of competition that the FTC can enforce [S2] [S3].",
+    "text": "Prohibits product hopping: a brand manufacturer may not withdraw the original drug from the market and sell a reformulated follow-on product with a later-expiring patent in order to block generic or biosimilar competition.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "It creates a presumption that a manufacturer engaged in a prohibited 'hard switch' if, after learning a generic or biosimilar application was filed, it withdrew the original drug and sold a follow-on product [S2] [S3].",
+    "text": "Lets the FTC enforce the ban through administrative proceedings or federal court suits, including stopping the conduct and ordering companies to disgorge unjust profits or pay restitution to those harmed.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "The FTC can sue in federal court to block a switch in progress and seek remedies including disgorgement of unjust profits and restitution to people harmed, with a five-year window [S3].",
+    "text": "Creates a presumption that a hard switch (withdrawing the original drug and selling a follow-on) is anticompetitive once the brand maker has notice that a generic application is pending, with the burden shifting to the company to justify the change.",
     "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Manufacturers can escape liability only by showing they would have acted anyway and had a genuine safety, supply-disruption, or pro-competitive reason, and the FTC may still override that if the anticompetitive effects outweigh the benefits [S3].",
-    "sources": [
+     "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Brand-name drug manufacturers lose a major tool for extending monopoly pricing after their key patents expire. Some reformulation costs that a manufacturer can no longer recover through extended exclusivity could also fall back on it. Patients pay nothing new under the bill; they are on the receiving side of the lower prices it aims to produce.",
+  "who_pays": "Brand-name drug manufacturers, which could lose monopoly revenue they currently extend through patent games, and potentially face FTC suits and disgorgement of profits.",
   "who_pays_short": "Brand-name drug manufacturers",
   "drawbacks": [
    {
-    "text": "The bill's main enforcement tool is the FTC, so its strength depends on which commission holds that the conduct is an 'unfair method of competition' — a moving target across administrations; a differently minded FTC could decline to bring cases [S3].",
+    "text": "The bill does not directly lower any drug price; it removes one specific tactic. Manufacturers can still use other patent strategies, and generic entry depends on many factors outside this bill.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Defining when a reformulation 'impedes competition' and when a manufacturer has a 'legitimate pro-competitive reason' requires case-by-case judgments, and drugmakers argue that some changes are genuinely better medicines or safer products, raising the risk of legitimate improvements being chilled [S3].",
+    "text": "Drugmakers legitimately improve products for safety or quality reasons. The bill tries to separate the two — it excludes changes the FDA requires and lets manufacturers justify conduct with safety or pro-competitive reasons — but drawing that line in practice will be contentious and litigated, and companies may grow cautious about genuinely beneficial reformulations.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill does nothing about the many other ways generic entry is delayed, such as settlement agreements that pay generics to stay off the market, so it targets one tactic rather than the whole problem [S3].",
+    "text": "Enforcement depends entirely on the FTC choosing to bring cases, and remedies are equitable (injunctions, disgorgement, restitution), with no automatic penalties, so deterrence depends on agency priorities.",
     "sources": [
+     "S2",
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit runs directly to patients in the form of earlier access to cheaper copies of expensive drugs, and the cost falls on the brand-name industry's ability to keep monopoly prices after patents lapse. The main honest caveat is enforcement risk: the law is only as strong as the FTC willing to use it, and its definitions will be tested in court. On balance, the bill targets a well-documented, specific delay tactic while leaving genuine safety and product improvements through the exclusion and justification provisions.",
+  "benefit_vs_cost": "The core benefit — faster generic competition and lower drug prices — is real, since generic versions typically sell for far less than brand prices. The main costs are the risk of chilling legitimate product improvements and the practical difficulty of separating innovation from gaming. The bill's exclusions for FDA-required changes and its justification defenses are an attempt to manage that, though the line will be tested in litigation.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill cleared the Senate Judiciary Committee with an amendment in April 2025 and was placed on the Senate's calendar of business, where it sits awaiting a floor vote that the Senate has not yet scheduled.",
+   "mechanism": "The Senate Judiciary Committee approved it in April 2025 and it is sitting on the Senate calendar waiting for a floor vote that has not been scheduled.",
    "narrative": [
     {
-     "text": "Senator Cornyn introduced the bill on March 13, 2025, with Senators Blumenthal, Grassley, and Durbin as original cosponsors, a bipartisan group [S1] [S4] [S5].",
+     "text": "The bill was introduced on March 13, 2025 by Senator Cornyn with Senators Blumenthal, Grassley, and Durbin, giving it sponsorship from both parties.",
      "sources": [
       "S1",
-      "S4",
-      "S5"
+      "S3"
      ]
     },
     {
-     "text": "The Senate Judiciary Committee ordered the bill reported favorably with an amendment on April 3, 2025, and reported it on April 10 [S5].",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "The reported bill was placed on the Senate Legislative Calendar under General Orders on April 10, 2025 (Calendar No. 43) [S3] [S5].",
-     "sources": [
-      "S3",
-      "S5"
-     ]
-    },
-    {
-     "text": "No further floor action has been recorded since the bill was placed on the calendar; Congress remains in session through January 3, 2027 [S5] [S1].",
+     "text": "The Senate Judiciary Committee ordered it reported favorably with an amendment on April 3, 2025, and it was reported and placed on the Senate Legislative Calendar under General Orders (Calendar No. 43) on April 10, 2025.",
      "sources": [
       "S5",
-      "S1"
+      "S3"
+     ]
+    },
+    {
+     "text": "No floor vote or further action has occurred since it was placed on the calendar.",
+     "sources": [
+      "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Brand-name drugmakers are better off so far: the tactic the bill bans remains fully usable while the bill waits on the Senate calendar without a scheduled vote."
+   "who_came_out_ahead": "Brand-name drugmakers, which so far face no new restrictions and can continue the practices the bill would ban while it waits."
   },
   "who_came_out_ahead_short": "Brand-name drugmakers, for now",
   "sides": {
    "for": [
     {
-     "name": "Sen. John Cornyn",
+     "name": "John Cornyn",
      "role": "U.S. Senator (TX), bill sponsor",
      "party": "R",
-     "what_they_did": "Introduced S. 1040 in March 2025",
+     "what_they_did": "Introduced the bill to ban product hopping.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S5"
+      "S3"
      ]
     },
     {
-     "name": "Sen. Chuck Grassley",
-     "role": "Chair, Senate Judiciary Committee",
+     "name": "Chuck Grassley",
+     "role": "U.S. Senator (IA), reported the bill out of the Judiciary Committee",
      "party": "R",
-     "what_they_did": "Reported the bill out of committee with an amendment on April 10, 2025",
+     "what_they_did": "Shepherded the bill through committee and reported it with an amendment in April 2025.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -126,64 +114,76 @@
      ]
     },
     {
-     "name": "Sens. Richard Blumenthal and Dick Durbin",
-     "role": "Democratic cosponsors on the Judiciary Committee",
+     "name": "Richard Blumenthal",
+     "role": "U.S. Senator (CT), original cosponsor",
      "party": "D",
-     "what_they_did": "Original cosponsors; supported the bill through committee",
+     "what_they_did": "Cosponsored the bill at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S1",
-      "S4",
-      "S5"
+      "S3",
+      "S4"
+     ]
+    },
+    {
+     "name": "Richard Durbin",
+     "role": "U.S. Senator (IL), original cosponsor",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill at introduction.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3",
+      "S4"
      ]
     }
    ],
-   "against": [
-    {
-     "name": "Brand-name pharmaceutical manufacturers",
-     "role": "Industry targeted by the prohibition",
-     "party": null,
-     "what_they_did": "Opposed and lobbied against similar product-hopping bans, arguing legitimate reformulations would be swept in",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
-    }
-   ],
+   "against": [],
    "party_line": "bipartisan",
-   "party_line_note": "The bill had a Republican sponsor and chair, two Democratic cosponsors, and cleared the Judiciary Committee with an amendment favorably, with no recorded opposition votes."
+   "party_line_note": "The bill was introduced by a Republican and cosponsored at introduction by two Democrats and one Republican, and cleared the Senate Judiciary Committee with bipartisan support in April 2025."
   },
   "industries": [
    {
     "industry": "Brand-name drug manufacturers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill removes their ability to withdraw a drug as its patent window closes and sell a still-patented reformulation instead, cutting off a core route to extended monopoly pricing. Patients bear that extended-pricing cost today, so the industry's interest runs against theirs.",
+    "note": "Product hopping is a way to extend years of patent-protected revenue by switching patients to reformulated versions just before generics arrive. The bill would let the FTC stop that practice and claw back profits, directly reducing a source of extended monopoly revenue.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Generic and biosimilar drug makers",
+    "industry": "Generic and biosimilar drug manufacturers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Cheaper generics and biosimilars would reach the market on schedule instead of being displaced by reformulated successors; their gain in sales volume is the public's gain in lower prices.",
+    "note": "The bill makes it harder for brand companies to withdraw original drugs or disadvantage them so generics cannot compete, clearing the path for earlier generic and biosimilar entry.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "industry": "Pharmacy benefit managers and health insurers",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "Earlier generic entry lowers the prices payers and plans negotiate, reducing prescription drug costs across the system.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "A bill reported out of committee and placed on the Senate calendar still needs a floor vote, which the majority leader can withhold indefinitely. Bills on patent-life and drug-pricing issues have previously moved as parts of larger packages; absent a negotiated spot on the floor schedule, this bill is likely to sit on the calendar through the end of 2026.",
+  "trajectory": "The bill has bipartisan sponsorship and cleared the Judiciary Committee, but the Senate has taken no floor action in months. Bills sitting on the General Orders calendar frequently stall unless leadership schedules time, and the bill would still need separate action in the House. Its prospects this Congress depend entirely on whether Senate leadership brings it to the floor.",
   "categories": [
    "healthcare_and_drug_prices",
-   "antitrust_and_competition"
+   "antitrust_and_competition",
+   "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 7,
-   "concentrated_stakes": 8,
-   "outcome_against_public": 4,
-   "support_mismatch": 6,
+   "public_stakes": 6,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 3,
+   "support_mismatch": 4,
    "corruption_relevance": 2,
    "confidence": 0.85
   }

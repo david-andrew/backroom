@@ -1,117 +1,117 @@
 {
  "bill_id": "119-s1287",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:43:32+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:18:39+00:00",
  "record_fetched_at": "2026-09-20T14:32:13+00:00",
  "record_hash": "8163c6d547eba6f6",
  "analysis": {
-  "one_liner": "Lets people delete their personal data from every data broker with a single request.",
-  "headline": "Introduced April 2025 with a Republican sponsor and three Democratic cosponsors, then referred to the Senate Commerce Committee, where no vote has been scheduled.",
+  "one_liner": "Lets people delete their personal data from all data brokers with one FTC-run request.",
+  "headline": "Introduced in April 2025 by a Republican senator with three Democratic cosponsors, the bill was referred to the Senate Commerce Committee and has had no hearing, markup, or vote since.",
   "direction": "for_working_people",
-  "plain_summary": "The DELETE Act targets data brokers: companies that buy and sell personal information about people they have no direct relationship with. It would require every data broker to register annually with the Federal Trade Commission and publicly disclose what data it collects, where it gets it, and how to opt out. The FTC would build a central system where a person fills out one free form and every registered broker must delete that person's data and stop collecting it. Brokers would have to check the registry at least every 31 days, delete matching records within 31 days, report their completion rates, and undergo an independent audit every three years. The FTC would enforce the rules under its existing authority against unfair and deceptive practices.",
-  "who_benefits": "Ordinary people whose personal information — addresses, phone numbers, browsing history, health and financial details — is bought and sold by brokers they have never dealt with. Anyone who wants to opt out of the data-trading economy could do it in one step instead of hunting down dozens of separate brokers.",
-  "who_benefits_short": "People whose personal data is traded",
+  "plain_summary": "The DELETE Act would require companies that buy and sell people's personal information without a direct relationship to them to register with the Federal Trade Commission and publicly describe what they collect. It would then build a free government website where a person could submit one request to have every registered data broker delete their information and stop collecting it in the future. Brokers would have to check the system's secure registries at least every 31 days and delete matching records, subject to FTC enforcement and periodic independent audits.",
+  "who_benefits": "Ordinary people, especially those dealing with people-search sites, location-data brokers, and identity-theft or stalking risks. Today, removing your data requires finding dozens of brokers and filing separate opt-outs with each; this bill replaces that with one free request that covers all of them, and cuts off future collection unless you opt back in.",
+  "who_benefits_short": "Anyone whose personal data data brokers sell",
   "how_it_helps": [
    {
-    "text": "A single, free online request through an FTC-run website would trigger deletion of the requester's personal information across every registered data broker, and stop future collection unless the person says otherwise.",
+    "text": "A single submission through an FTC website would trigger deletion of the person's information at every registered data broker and its affiliates, and stop future collection unless the person says otherwise [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Data brokers would have to register with the FTC each year and the FTC would publish their contact information, opt-out methods, and standardized answers about what data they collect and where it comes from in a downloadable, machine-readable format.",
+    "text": "The request would be free to the individual, and brokers would be required to check the FTC's secure registries at least every 31 days and delete any matching personal information within 31 days [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The system would store requests in salted, hashed registries so brokers query coded values rather than receiving lists of raw names and emails, and only registered brokers could query the registries.",
+    "text": "Data brokers would have to register annually with the FTC, and their disclosures about what they collect and how people can opt out would be published in a downloadable, machine-readable format so the public can see who is trading their data [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Brokers would have to delete matching records within 31 days of a registry check, file annual reports on completion rates, and undergo an independent third-party compliance audit every three years, with records kept six years.",
+    "text": "The FTC would enforce the rules the same way it enforces laws against unfair and deceptive practices, and each broker would undergo an independent third-party audit every three years to verify compliance [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The FTC would enforce violations the same way it enforces unfair or deceptive practices, with its full existing powers and penalties.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "State privacy laws that give people stronger protection than this bill would remain in effect; the bill preempts only inconsistent state rules.",
+    "text": "State privacy laws offering greater protection would remain in force, since the bill preempts state law only where it conflicts [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Data brokers and the marketing ecosystem built on their data. The bill is free for individuals; its operating costs are capped at fees brokers pay the FTC. Brokers lose the ability to sell information about anyone who opts out, and the exclusions limit which parts of the industry are covered.",
-  "who_pays_short": "Data brokers and data-driven marketers",
+  "who_pays": "Data brokers and the marketing-data economy that buys from them. They would lose the personal information of anyone who opts out — permanently, covering future collection — and would bear registration, compliance, audit, and annual fee costs, with fees funding the FTC system.",
+  "who_pays_short": "Data brokers and data-marketing firms",
   "drawbacks": [
    {
-    "text": "The bill exempts several categories of data activity, including fraud prevention and identity verification, consumer reporting agencies, news organizations, and firms selling publicly available information used in connection with a person's business or profession, so a meaningful slice of broker activity falls outside the deletion right.",
+    "text": "The centralized system would hold salted, hashed copies of the email addresses, phone numbers, and home addresses of everyone who requests deletion. Hashing and separate salts per registry are required as safeguards, but a breach of that database would be a serious target for attackers, because it would be a verified list of real people's identifiers [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The FTC itself would hold hashed identifiers for everyone who opts in, creating a new database of registrants; the bill acknowledges the FTC cannot confirm the accuracy of broker responses and warns individuals they contact brokers at their own risk.",
+    "text": "The bill carves out several large categories of data handling: consumer reporting agencies, fraud prevention and identity verification, directory assistance, news gathering, and one-time asset-sale transfers are excluded from the definition of data broker, so a significant share of data collection would continue outside the deletion system [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "There is no private right of action in the bill: individuals cannot sue a broker that fails to delete their data. Enforcement depends entirely on FTC rulemaking, its annual completion-rate reports from brokers, and periodic audits.",
+    "text": "The FTC's public registry would carry a disclaimer that it cannot confirm the accuracy of what brokers report, and brokers would not have to disclose information claimed as a trade secret, limiting how much people can actually verify [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Enforcement would rest solely with the FTC; individuals would have no right to sue a broker directly for failing to delete their data [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "For people who opt in, this would be a real, practical remedy for a problem that today requires dozens of separate, often ignored opt-out requests. The design is thoughtful about security — hashed registries, no fee, ongoing audits — but the carve-outs for fraud-prevention and business-use data, the lack of any right to sue, and the security of the FTC's own registry are genuine limits. It is a meaningful fix with real gaps, not a total solution.",
+  "benefit_vs_cost": "The core benefit is real and large for individuals: one free, enforceable deletion request instead of chasing dozens of brokers, with future collection turned off by default. The design risks are manageable but real — the FTC database becomes a sensitive target, the industry carve-outs leave big chunks of data collection untouched, and the public registry is only as accurate as what brokers disclose. On balance, the bill would shift power over personal data from brokers back to the people the data describes.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced in April 2025 and referred to the Senate Commerce Committee, which has taken no further action on it so far this Congress.",
+   "mechanism": "The bill was referred to the Senate Commerce, Science, and Transportation Committee on the day it was introduced in April 2025, and no hearing, markup, or floor vote has been scheduled since.",
    "narrative": [
     {
-     "text": "Sen. Bill Cassidy introduced the bill on April 3, 2025, on behalf of himself, Sen. Jon Ossoff, and Sen. Ben Ray Luján.",
+     "text": "Sen. Bill Cassidy introduced the bill on April 3, 2025, for himself and Democratic Sens. Ossoff and Luján [S2].",
      "sources": [
       "S2"
      ]
     },
     {
-     "text": "The bill was read twice and referred to the Committee on Commerce, Science, and Transportation the day it was introduced.",
+     "text": "The Senate read it twice and referred it to the Committee on Commerce, Science, and Transportation the same day [S4].",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "Three cosponsors, all Democrats, have signed on.",
+     "text": "The cosponsor list shows three Democratic senators and no Republican cosponsors beyond the sponsor, and there have been no further committee or floor actions [S3].",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "No committee markup, vote, or floor action appears in the action history after the referral.",
+     "text": "Congress remains in session, so the bill is still alive but sits in committee with no scheduled action [S1].",
      "sources": [
-      "S4"
+      "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Data brokers and the data-trading market, which keep operating under today's rules while the bill sits without a scheduled vote; no one has gained new deletion rights yet."
+   "who_came_out_ahead": "Data brokers keep selling and trading personal information under the current system, and people still have to opt out with each broker one by one."
   },
-  "who_came_out_ahead_short": "Data brokers, for now",
+  "who_came_out_ahead_short": "Data brokers; opt-outs remain one by one",
   "sides": {
    "for": [
     {
      "name": "Sen. Bill Cassidy",
-     "role": "U.S. Senator, lead sponsor",
+     "role": "U.S. Senator from Louisiana and bill sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill and named its top cosponsors.",
+     "what_they_did": "Introduced the bill in the Senate on April 3, 2025.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -120,83 +120,73 @@
      ]
     },
     {
-     "name": "Sens. Jon Ossoff and Ben Ray Luján",
-     "role": "Cosponsors",
+     "name": "Sen. Jon Ossoff",
+     "role": "U.S. Senator from Georgia and original cosponsor",
      "party": "D",
-     "what_they_did": "Cosponsored the bill alongside its Republican sponsor, giving it bipartisan sponsorship from day one.",
+     "what_they_did": "Joined as an original cosponsor at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
-      "S3"
-     ]
-    }
-   ],
-   "against": [
-    {
-     "name": "Senate Commerce Committee leadership",
-     "role": "Chair, Senate Committee on Commerce, Science, and Transportation",
-     "party": "R",
-     "what_they_did": "The bill has sat in committee since its April 2025 referral with no markup or vote scheduled.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
+      "S2"
      ]
     },
     {
-     "name": "Data broker industry",
-     "role": "Companies whose business is buying and selling personal information",
-     "party": null,
-     "what_they_did": "A mandatory deletion registry strikes at the core of this industry's business model; industry opposition to deletion mandates is widely reported, though nothing appears on the congressional record in this Congress.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
+     "name": "Sen. Ben Ray Luján",
+     "role": "U.S. Senator from New Mexico and original cosponsor",
+     "party": "D",
+     "what_they_did": "Joined as an original cosponsor at introduction.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S2"
+     ]
     }
    ],
-   "party_line": "unclear",
-   "party_line_note": "No votes have occurred. The bill's only record of support is bipartisan: a Republican sponsor with three Democratic cosponsors, with no recorded opposition so far."
+   "against": [],
+   "party_line": "bipartisan",
+   "party_line_note": "The bill has a Republican lead sponsor and its cosponsor list shows three Democratic senators; no committee action or vote has yet produced a party split."
   },
   "industries": [
    {
-    "industry": "Data brokers",
+    "industry": "Data brokers (people-search sites, location-data sellers, marketing data firms)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These companies profit by compiling and selling personal information about people they have no relationship with. The bill would force annual registration, public disclosure of their practices, and mass deletion for anyone who requests it — removing their raw material for opt-in individuals.",
+    "note": "These firms profit by compiling and selling information about people who have no relationship with them. The bill would force them to delete the records of anyone who files one request, permanently stop collecting that data, register publicly, submit to audits, and pay fees — cutting into their core business of reselling personal information. Because their revenue depends on using data that people cannot currently stop them from selling, their interest runs against the people the bill protects.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Digital advertising and marketing analytics",
+    "industry": "Digital advertising and marketing analytics firms that buy third-party data",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Marketers buy targeting data through brokers. If people opt out at scale, the audience data behind much targeted advertising shrinks.",
+    "note": "Their targeting and profiling depend on data flows from brokers. Every deletion request permanently removes a person from that supply, and opt-outs would compound over time, shrinking the audience data available for ad targeting.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Consumer reporting agencies, fraud-prevention and identity-verification firms",
+    "industry": "Consumer reporting agencies and fraud-prevention services",
     "effect": "gains",
     "stance_toward_public": "mixed",
-    "note": "The bill explicitly excludes them from the definition of data broker, so they keep compiling and sharing personal information even after it would be deleted elsewhere — a carve-out some supporters accepted to keep the bill moving.",
+    "note": "The bill explicitly excludes credit-reporting agencies, identity verification, and fraud prevention from its data broker definition, leaving their data practices outside the deletion system while competitors face it. For people, the carve-out preserves fraud checks and credit reports, but it also leaves a major segment of data collection untouched by the one-stop deletion right.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "A nearly identical DELETE Act passed the House in the previous Congress before dying in the Senate, and the reintroduced bill has bipartisan sponsorship. But it has sat in the Commerce Committee for months with no markup scheduled, and Senate bills that go this long without a committee vote rarely reach the floor. Privacy legislation sometimes moves late in a Congress, so it is not dead — the realistic path is waiting for the committee to act or folding the idea into a broader privacy bill.",
+  "trajectory": "Bills referred to the Senate Commerce Committee often go nowhere without a scheduled hearing, and this one has seen no action since its April 2025 introduction. With a Republican sponsor and small Democratic cosponsor list, its path forward would likely require committee consideration and floor time from party leadership; absent that, the most likely outcome is that it stays in committee for the rest of this Congress, as many privacy bills do.",
   "categories": [
-   "consumer_protection_and_finance"
+   "consumer_protection_and_finance",
+   "other"
   ],
   "scores": {
-   "public_stakes": 7,
-   "concentrated_stakes": 8,
-   "outcome_against_public": 5,
-   "support_mismatch": 5,
-   "corruption_relevance": 2,
-   "confidence": 0.85
+   "public_stakes": 6,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 4,
+   "support_mismatch": 4,
+   "corruption_relevance": 1,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

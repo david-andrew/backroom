@@ -1,127 +1,135 @@
 {
  "bill_id": "119-hr8311",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:42:34+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:01:40+00:00",
  "record_fetched_at": "2026-09-20T14:31:43+00:00",
  "record_hash": "4a3e9b2d521ca2d6",
  "analysis": {
-  "one_liner": "Extends do-not-call protections to all phone lines and makes illegal robocallers easier to sue.",
-  "headline": "The bill has sat in the House Energy and Commerce Committee since its April 2026 introduction, with two cosponsors and no hearing, markup, or vote.",
+  "one_liner": "Lets every phone user join the Do Not Call list and sue robocallers $500 per illegal call.",
+  "headline": "The bill was introduced in the House on April 15, 2026 and referred to the Energy and Commerce Committee, where it has sat with no markup, no vote, and just 2 cosponsors.",
   "direction": "for_working_people",
-  "plain_summary": "Under current law, do-not-call protections apply only to residential phone lines, and a person can generally sue over unwanted robocalls only after two calls from the same company within a year, with damages of up to $500 per violation. This bill extends those protections to every phone subscriber, including cell phones, lets a single unwanted call trigger a lawsuit, makes the $500-per-violation penalty mandatory rather than an 'up to' ceiling, and broadens the definition of the auto-dialing equipment the rules apply to. It would also require the FCC to update its rules within 270 days of enactment.",
-  "who_benefits": "Anyone who gets unwanted robocalls, telemarketing calls, or spam texts, which today means nearly everyone with a phone, including people whose cell lines fall outside the current do-not-call rules. People who could now sue after a single violating call, with a guaranteed $500 penalty per call, would have a real financial lever against companies that ignore the rules.",
-  "who_benefits_short": "Everyone who gets unwanted robocalls",
+  "plain_summary": "The bill would expand federal Do Not Call protections so they cover every phone subscriber, not just people with home landlines. It would strip out the allowance that lets a company call someone on the list once every 12 months without penalty, so any call to a listed number would count as a violation carrying $500 in statutory damages. It would also broaden the definition of an \"automatic telephone dialing system\" so that machines dialing from a list of numbers count as robocallers, closing a path companies use to argue their dialers are not covered.",
+  "who_benefits": "Anyone with a phone who is tired of unwanted sales, scam, and debt-collection calls. Cell phone users, who are currently outside the Do Not Call rules because the law only protects 'residential' lines, would gain the most: they could register for the list, and calls to them in violation would carry a private right of action with $500 in statutory damages per call, doubled or tripled if a court finds the violation was willful or knowing.",
+  "who_benefits_short": "Every phone user, especially cell phone owners",
   "how_it_helps": [
    {
-    "text": "Strikes the word 'residential' from the do-not-call provisions of the Communications Act, so the rules cover all telephone subscribers rather than only residential lines [S2].",
+    "text": "The bill strikes the word 'residential' from the Do Not Call rules, so the list and its protections would cover all telephone subscribers, including cell phone and VoIP users, who today fall outside the definition.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Changes the private right of action so a single call in violation of the do-not-call rules can support a lawsuit, replacing the current two-calls-in-12-months threshold [S2].",
+    "text": "It removes the provision that lets a caller make 'more than one telephone call within any 12-month period' to a listed subscriber without violating the rule, replacing it with 'a telephone call' — so a single unwanted call to a listed number would be a violation, and it strikes the 'up to' qualifier on the statutory damages figure.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Removes the words 'up to' from the penalty provision, making the statutory penalty mandatory rather than a discretionary ceiling of up to $500 per violation [S2].",
+    "text": "It expands the private right of action to match the broadened rules, letting individuals sue callers who violate the Do Not Call requirements directly rather than relying only on FCC or FTC enforcement.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Broadens the definition of 'automatic telephone dialing system' to include equipment that dials from a stored list of telephone numbers, closing an avenue robocallers use to argue they are not covered [S2].",
+    "text": "It rewrites the definition of 'automatic telephone dialing system' to include equipment dialing 'a list of telephone numbers' successively 'without human intervention', covering list-based auto-dialers that currently escape the robocall rules because they do not dial random or sequential numbers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires the FCC to revise its regulations within 270 days of enactment to implement the expanded protections [S2].",
+    "text": "The FCC would have 270 days after enactment to rewrite its regulations to implement the expanded rules.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Telemarketers, robocall operations, debt collectors, and other businesses that reach people by automated phone calls would face stricter rules and a much greater risk of lawsuits with guaranteed $500 penalties per call. Companies that call customers with legitimate reminders, such as appointment or payment notices, would also have less margin for error before becoming liable.",
-  "who_pays_short": "Telemarketers and automated-call-heavy businesses",
+  "who_pays": "Companies that profit from high-volume outbound calling: telemarketers, debt collectors, lead generators, and the firms that sell them dialing technology. They would face per-call lawsuits from consumers and would need to scrub calling lists more aggressively or drop automated calling to listed numbers entirely. Some of that compliance cost could be passed along in prices, and the broadened dialer definition could sweep in ordinary business texting and calling tools.",
+  "who_pays_short": "Telemarketers, debt collectors, and dialer vendors",
   "drawbacks": [
    {
-    "text": "Letting a single unwanted call trigger a lawsuit with a mandatory penalty would expose legitimate businesses, such as pharmacies, banks, or doctors' offices making automated appointment or payment reminders, to litigation costs over isolated mistakes [S2].",
+    "text": "The strongest good-faith objection: removing the once-per-12-months allowance and keeping a $500 per-call private right of action creates heavy litigation exposure for legitimate businesses, not just scam operations — a single miskept list could generate thousands of lawsuits, and those costs are partly passed to consumers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Making the $500-per-violation penalty mandatory rather than an 'up to' ceiling removes judicial discretion to reduce damages in low-harm cases, which increases the cost of defending routine calls [S2].",
+    "text": "The broadened definition of an automatic dialing system would cover equipment that dials from stored lists without human intervention, which reaches beyond classic robocallers into widely used customer-contact and texting software that legitimate businesses and nonprofits rely on.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "A broader definition of auto-dialing equipment could sweep in ordinary reminder systems and messaging software, pushing some legitimate communications channels to avoid calling entirely [S2].",
+    "text": "Honest supporters would acknowledge that Do Not Call registration has limited effect on the worst callers — outright scammers already ignore the rules — so the bill's biggest practical gain is giving private litigants a tool against them, at the cost of the litigation burden above.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit to consumers is real: the current rules leave cell phones underprotected and make it easy for callers to violate them repeatedly with little consequence. The cost is that the one-call, mandatory-penalty design is aggressive and could create liability for low-harm legitimate calls. A well-designed version would target predatory robocalling while giving good-faith callers some margin; as written, it leans heavily toward maximum enforcement.",
+  "benefit_vs_cost": "The core change is real: cell phone users, who receive most of today's spam and scam calls, would finally be covered by the Do Not Call list with a per-call lawsuit remedy. The cost is that the per-call damages structure, with no safe harbor for a first call, puts genuine litigation risk on any large outbound caller that makes a list error. A balanced version would pair the expanded coverage with a tiered penalty for first offenses. As written, the enforcement tool is strong and the exposure is broad — a tradeoff that favors consumers over calling businesses.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced in April 2026 and referred to the House Energy and Commerce Committee, where it has received no further action while Congress remains in session [S4].",
+   "mechanism": "It was introduced and referred to the House Energy and Commerce Committee, which has not scheduled any action on it, so it sits there while Congress remains in session.",
    "narrative": [
     {
-     "text": "Rep. Jan Schakowsky introduced the bill on April 15, 2026, for herself and Rep. Mullin [S2].",
+     "text": "Representative Janice Schakowsky introduced the bill in the House on April 15, 2026, with one original cosponsor.",
      "sources": [
       "S2"
      ]
     },
     {
-     "text": "The bill was referred to the House Committee on Energy and Commerce the same day, and the action history shows no hearing, markup, floor vote, or other action since [S4].",
+     "text": "It was referred the same day to the House Committee on Energy and Commerce, the committee with jurisdiction over telephone law.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The bill has two cosponsors, both Democrats [S3].",
+     "text": "The action history shows no further steps since the referral — no subcommittee hearing, no markup, no floor scheduling.",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "The bill has 2 cosponsors, both House Democrats.",
      "sources": [
       "S3"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, no one has changed position: the bill has simply not moved. Telemarketers, robocall operations, and other automated callers are better off with the status quo, since they continue operating under the weaker existing rules while the bill sits untouched in committee."
+   "who_came_out_ahead": "Nobody has lost anything yet, because the bill has not advanced or failed. To the extent there is a status quo winner, it is the outbound-calling industry — telemarketers, debt collectors, and dialer vendors — which remains free of the new liability because the bill has not moved."
   },
-  "who_came_out_ahead_short": "Automated callers; the bill has not moved",
+  "who_came_out_ahead_short": "Telemarketers and debt collectors",
   "sides": {
    "for": [
     {
-     "name": "Jan Schakowsky",
-     "role": "U.S. Representative, sponsor",
+     "name": "Rep. Janice Schakowsky",
+     "role": "Sponsor, House Energy and Commerce Committee member",
      "party": "D",
-     "what_they_did": "Introduced the bill expanding do-not-call coverage and robocall penalties [S2].",
+     "what_they_did": "Introduced the bill and referred it to her committee of jurisdiction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2"
+      "S2",
+      "S4"
      ]
     },
     {
-     "name": "Mullin",
-     "role": "U.S. Representative, cosponsor",
+     "name": "Rep. Mullin",
+     "role": "Original cosponsor",
      "party": "D",
-     "what_they_did": "Joined as an original cosponsor of the bill [S2].",
+     "what_they_did": "Cosponsored the bill at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2"
+      "S2",
+      "S3"
      ]
     },
     {
-     "name": "Two House Democrats",
-     "role": "Cosponsors",
+     "name": "1 additional House Democrat",
+     "role": "Cosponsor",
      "party": "D",
-     "what_they_did": "Signed on as the bill's only cosponsors [S3].",
+     "what_they_did": "Cosponsored the bill after introduction, bringing total cosponsors to 2.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -131,48 +139,57 @@
    ],
    "against": [],
    "party_line": "unclear",
-   "party_line_note": "All three sponsors and cosponsors are Democrats and no member has publicly opposed the bill, but it has not advanced far enough for any vote to reveal where members actually stand."
+   "party_line_note": "No votes have occurred; so far every sponsor and cosponsor is a House Democrat (2 cosponsors of 217), and no Republican has signed on."
   },
   "industries": [
    {
-    "industry": "Telemarketing and robocall operations",
+    "industry": "Telemarketing and outbound call centers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill extends do-not-call coverage to all phone subscribers, lets one violating call trigger a lawsuit, and makes the $500-per-call penalty mandatory. Its business model depends on calling large numbers of consumers who have not invited the contact [S2].",
+    "note": "These businesses make money by calling consumers, including people on the Do Not Call list who currently tolerate one call per entity per year. The bill would make any call to a listed subscriber a violation carrying $500 per call in statutory damages, and would extend the list to cover cell phones, their largest contact channel.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Debt collectors",
+    "industry": "Debt collection",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Collectors rely heavily on automated dialing of consumer cell phones; broader auto-dialer definitions and a one-call right of action would substantially raise their litigation exposure [S2].",
+    "note": "Debt collectors rely heavily on automated dialers to reach consumers, and they are frequent targets of telephone-law lawsuits. A broader dialer definition plus a per-call private right of action with no once-a-year allowance would sharply raise their litigation risk.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Businesses using automated reminders (healthcare, banking, retail)",
-    "effect": "mixed",
-    "stance_toward_public": "aligned",
-    "note": "These firms call their own customers for appointments and account matters and do not oppose the rules on principle, but the bill's one-call lawsuit trigger and mandatory penalty would apply to their legitimate calls as well, giving them reason to worry about isolated errors [S2].",
+    "industry": "Dialer and contact-center software providers",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "Their products dial from stored customer lists without human intervention, which the bill's rewritten definition would classify as automatic telephone dialing systems, exposing their customers to the robocall rules. Vendors would face pressure to redesign equipment or lose sales to regulated users.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Lead generators and marketing data brokers",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "They sell consumer phone lists to callers; a per-call damages regime covering every subscriber makes bad or recycled lists far more expensive, shrinking demand for their product.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "Most House bills never get a hearing or vote, and this one has drawn only two cosponsors in months of sitting on the Energy and Commerce Committee's plate. Without a chairman decision to schedule a markup or bipartisan support, the realistic path is that it dies at the end of the 119th Congress without a floor vote.",
+  "trajectory": "With 2 cosponsors, no hearing, and no committee action since the April referral, the bill looks like most private-member consumer bills: it will probably die in committee when this Congress ends unless the Energy and Commerce Committee elevates robocall enforcement to a priority. Broadening it beyond two sponsors would be the first sign of movement.",
   "categories": [
    "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 7,
-   "concentrated_stakes": 8,
+   "public_stakes": 6,
+   "concentrated_stakes": 6,
    "outcome_against_public": 3,
    "support_mismatch": 2,
-   "corruption_relevance": 1,
-   "confidence": 0.85
+   "corruption_relevance": 2,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

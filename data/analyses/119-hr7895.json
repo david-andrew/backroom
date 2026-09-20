@@ -1,107 +1,112 @@
 {
  "bill_id": "119-hr7895",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:48:21+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T20:53:22+00:00",
  "record_fetched_at": "2026-09-20T08:04:34+00:00",
  "record_hash": "a1697c82ebe4e449",
  "analysis": {
-  "one_liner": "Bans pharmacy benefit managers from paying brokers kickbacks for steering employer drug plans.",
-  "headline": "A House committee voted 34-0 to approve a bill barring pharmacy benefit managers from paying brokers and consultants to win or keep employer drug-plan business; it is waiting for a vote by the full House.",
+  "one_liner": "Bans pharmacy benefit managers from paying kickbacks to win employer drug plan contracts.",
+  "headline": "The House Education and Workforce Committee approved the bill unanimously, 34 to 0, and placed it on the House calendar on July 2, 2026, but the full House has not voted and the bill has no cosponsors.",
   "direction": "for_working_people",
-  "plain_summary": "The bill amends the federal pension law (ERISA) to make it illegal for a pharmacy benefit manager (PBM) — the company that runs a health plan's prescription drug benefit — to pay anyone for getting a plan's business, or for a role in the bidding, market checks, and evaluations that decide which PBM gets hired. Payments a PBM makes to brokers or consultants would be presumed to be kickbacks unless the PBM can show written proof that the money pays for real services at a fair market price. The rule would apply to plan years starting after the bill becomes law.",
-  "who_benefits": "Workers and retirees in employer health plans, and the employers who sponsor them. Hidden PBM payments to brokers inflate what employers and employees pay for prescriptions; banning those payments is meant to lower plan costs.",
-  "who_benefits_short": "Employer health plan members and employers",
+  "plain_summary": "Pharmacy benefit managers (PBMs) are middlemen that run prescription drug plans for employers and insurers. This bill adds a rule to the federal law governing employee benefit plans barring a PBM from paying anyone for the referral, placement, retention, or renewal of plan business, or for shaping how plans are bid out. It also presumes that payments PBMs make to brokers and consultants are kickbacks unless the parties can document in writing that the pay reflects fair market value for real services. The goal is to strip hidden side payments out of drug plan contracting so that what plans and workers pay for medicine reflects actual drug prices.",
+  "who_benefits": "Workers and retirees in employer health plans, and the employers who sponsor those plans, gain the most: the bill targets the side payments that can inflate the cost of drug coverage and are effectively financed through premiums and drug prices. Brokers and consultants who compete on genuine services rather than contingent payments also gain a cleaner market.",
+  "who_benefits_short": "Workers in employer health plans",
   "how_it_helps": [
    {
-    "text": "Prohibits a PBM service provider from paying any compensation, direct or indirect, for the referral, placement, retention, renewal of, or access to a covered plan's business, or for inclusion or participation in a request for proposal, market check, evaluation, or any other contracting process.",
+    "text": "The bill amends ERISA section 408 to prohibit any direct or indirect compensation paid by a PBM to an individual or entity for the referral, recommendation, placement, retention, or renewal of plan business, or for inclusion or participation in the design of a request for proposal, market check, evaluation, or any other contracting process. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Presumes that any compensation a PBM pays to a broker, consultant, advisor, or related entity is a kickback unless the parties show contemporaneous written documentation that it reflects fair market value for bona fide services actually rendered and is not related to plan referral or contracting.",
+    "text": "It prevents PBMs from relabeling kickbacks to evade the ban: compensation is judged by its economic substance and practical operation, not by what the contract calls it. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Sets an economic-substance test: compensation is judged by how the deal actually works, regardless of how the PBM labels it.",
+    "text": "It shifts the burden of proof: payments from a PBM to a broker, consultant, advisor, or related entity are presumed to be for referral or contracting influence unless contemporaneous written documentation shows the pay is fair market value for bona fide services. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Applies to plan years beginning after enactment, so the rule takes effect promptly.",
+    "text": "The rule applies to plan years beginning after enactment, so new contracts would have to comply going forward. [S2]",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Pharmacy benefit managers and the employee-benefits brokers and consultants who receive payments from them for steering plan business. They would lose a revenue channel and take on documentation and compliance burdens.",
-  "who_pays_short": "PBMs and benefits brokers and consultants",
+  "who_pays": "PBM companies lose the ability to pay for contract wins and face new legal exposure on existing payment structures. Benefits brokers and consultants who rely on contingent or volume-based fees lose that compensation stream, and employers bear modest new documentation costs.",
+  "who_pays_short": "PBM firms and benefits brokers",
   "drawbacks": [
    {
-    "text": "The burden is shifted onto brokers and consultants: payments from PBMs are presumed illegal unless backed by contemporaneous written documentation of fair-market-value services, which creates compliance costs and litigation risk for legitimate advisors as well as kickback arrangements.",
+    "text": "The presumption of a kickback for any broker or consultant payment could chill legitimate consulting arrangements, since the parties must produce contemporaneous written documentation proving fair market value for bona fide services or the payment is treated as a prohibited kickback. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill reaches only compensation paid by the PBM service provider to others; it does not directly restrict the manufacturer rebate system in which drug makers pay PBMs for formulary placement, which many critics see as the larger driver of high drug prices.",
+    "text": "The bill reaches only one channel of PBM economics: payments a PBM makes to win or keep plan business. It does not cap what PBMs charge plans, disclose their negotiated prices, or restructure the rebate flows between drug manufacturers and PBMs, so it may not lower drug costs on its own. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "As of the record provided, the bill has zero cosponsors, which may signal limited momentum beyond its committee approval.",
+    "text": "Enforcement depends on plan sponsors and the Labor Department pursuing violations under the ERISA prohibited-transaction framework; the bill creates the rule but no new enforcement funding or private remedy beyond what ERISA already provides. [S2]",
     "sources": [
-     "S3"
+     "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core rule is aimed at a well-documented channel of inflated employer drug costs: PBMs paying brokers to deliver plan business or buying a role in the bidding process. The compliance burden on honest brokers is real but modest — bona fide services at documented fair market value remain lawful — and the presumption can be rebutted with paperwork. The main honest criticism is scope: this is one slice of the PBM cost problem, not the rebates manufacturers pay, so the savings for plan members may be smaller than the full problem warrants.",
+  "benefit_vs_cost": "The core rule is a targeted anti-kickback provision for the drug plan middleman market, and the people it protects — workers and employers paying for drug coverage — far outnumber the firms that lose the fee streams. The main honest costs are compliance and documentation burdens on the broker industry and the risk that the presumption against broker payments sweeps in ordinary services. Its practical impact on what families actually pay at the pharmacy depends on how the largest PBMs restructure their contracts, which the bill does not directly command.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill cleared its House committee with a unanimous 34-0 vote, was reported with an amendment on July 2, and was placed on the Union Calendar — the list of bills eligible for a House floor vote — but the full House has not voted on it, and Congress is still in session.",
+   "mechanism": "The committee approved it unanimously and put it on the House's calendar in July 2026, but no full House vote has been scheduled.",
    "narrative": [
     {
-     "text": "Rep. Rick Allen introduced the bill in the House on March 12, 2026, and it was referred to the Committee on Education and Workforce.",
+     "text": "Rep. Rick Allen (R-GA) introduced the bill on March 12, 2026, and it was referred to the House Committee on Education and Workforce. [S1] [S4]",
      "sources": [
       "S1",
       "S4"
      ]
     },
     {
-     "text": "The committee held a markup on May 21, 2026, and ordered the bill reported as amended by a vote of 34-0.",
+     "text": "The committee held a markup on May 21, 2026, and ordered the bill reported as amended by a bipartisan vote of 34 to 0. [S4]",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The committee reported the amended bill on July 2, 2026, as House Report 119-729, and the bill was placed on the Union Calendar as Calendar No. 634, meaning it is eligible for consideration by the full House but has not yet received one.",
+     "text": "The committee reported the amended bill on July 2, 2026 (H. Rept. 119-729), and it was placed on the Union Calendar, which is where bills wait to be scheduled for a floor vote. [S4]",
      "sources": [
-      "S2",
       "S4"
      ]
     },
     {
-     "text": "The bill has no cosponsors on record.",
+     "text": "The bill has no cosponsors. [S3]",
      "sources": [
       "S3"
      ]
+    },
+    {
+     "text": "As of the latest action record, no further House action has been taken — the bill sits on the calendar awaiting a scheduling decision by House leadership. [S4]",
+     "sources": [
+      "S4"
+     ]
     }
    ],
-   "who_came_out_ahead": "So far, no one has gained a change in the law: PBMs and brokers can continue current payment arrangements until the House votes and a law is enacted. Supporters of lower drug costs have a unanimously committee-approved bill but no scheduled floor vote."
+   "who_came_out_ahead": "No outcome yet. If the bill stays on the calendar without a floor vote, the parties better off are the PBM firms and benefits brokers whose fee arrangements would otherwise be restricted, since the current rules remain in place."
   },
-  "who_came_out_ahead_short": "PBMs and brokers, pending a floor vote",
+  "who_came_out_ahead_short": "Undecided; PBM firms if it stalls",
   "sides": {
    "for": [
     {
      "name": "Rep. Rick W. Allen",
-     "role": "House sponsor (R-GA)",
+     "role": "Sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill and got it through the Education and Workforce Committee as amended.",
+     "what_they_did": "Introduced the bill and shepherded it through committee, where it was amended and reported 34-0.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -113,7 +118,7 @@
      "name": "House Committee on Education and Workforce",
      "role": "Committee of jurisdiction",
      "party": null,
-     "what_they_did": "Held a markup on May 21, 2026, and ordered the bill reported as amended by a 34-0 vote; reported it July 2, 2026.",
+     "what_they_did": "Held a markup, amended the bill, and ordered it reported 34 to 0, then reported it with H. Rept. 119-729.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -121,41 +126,40 @@
      ]
     }
    ],
-   "against": [
-    {
-     "name": "Pharmacy benefit managers and employee-benefits brokers",
-     "role": "Industries targeted by the bill",
-     "party": null,
-     "what_they_did": "No member of Congress is on record against the bill; the industries that would lose the kickback channel have an interest in keeping it from becoming law.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
-    }
-   ],
+   "against": [],
    "party_line": "bipartisan",
-   "party_line_note": "The only recorded vote, in committee, was unanimous at 34-0, with no partisan opposition; the sponsor is a Republican and no cosponsors are recorded."
+   "party_line_note": "The committee approved the bill 34 to 0 with no recorded opposition, and no member has spoken against it in the record; the absence of any floor vote is the remaining obstacle."
   },
   "industries": [
    {
     "industry": "Pharmacy benefit managers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill bars PBMs from paying anyone for winning or keeping an employer plan's business or for a role in the bidding process, and presumes their payments to brokers are kickbacks without documentation. Those payments are a known way employer drug costs get inflated, so the industry's interest here runs against plan members — though the bill regulates PBMs without dislodging them from their gatekeeper role over drug benefits.",
+    "note": "The bill bars PBMs from paying for referrals, contract placement, and influence over bidding processes, and judges payments by substance rather than label, striking at fee structures built into how the largest PBMs win and keep plan business. The cost of those payments ultimately flows into what plans and workers pay for drugs, so the industry's interest runs against the public's here.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Employee-benefits brokers and consultants",
-    "effect": "mixed",
+    "industry": "Benefits brokers and consultants",
+    "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Their compensation from PBMs would be presumed to be a kickback unless documented as bona fide services at fair market value, eliminating undisclosed fees tied to steering plan business. Legitimate, documented advisory work remains lawful, so the loss is limited to the hidden-fee channel.",
+    "note": "Payments PBMs make to brokers and consultants are presumed kickbacks unless documented in writing at fair market value for bona fide services, making contingent and volume-based fee arrangements difficult to maintain. Ordinary consumers may benefit from cleaner advice as a result.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Employers and health plans",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "Plan sponsors gain a contracting process stripped of side payments, which should make PBM pricing more reflective of actual drug costs. That saving is shared with the workers covered by the plans.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill sits on the Union Calendar with unanimous committee support but no cosponsors and no scheduled floor vote. A standalone health-billing bill like this most often gets floor time only when attached to a larger package; unless leadership schedules it or folds it into a broader PBM or health-cost bill, it is likely to remain on the calendar when the 119th Congress ends in January 2027.",
+  "trajectory": "The bill cleared committee unanimously but has no cosponsors and has sat on the Union Calendar since July 2026 with no floor vote scheduled. Most House bills on the calendar never reach the floor unless leadership schedules them, and as a standalone measure late in the session its most realistic paths are attachment to a broader package or stalling until the Congress ends.",
   "categories": [
    "healthcare_and_drug_prices",
    "consumer_protection_and_finance"
@@ -164,9 +168,9 @@
    "public_stakes": 6,
    "concentrated_stakes": 7,
    "outcome_against_public": 3,
-   "support_mismatch": 3,
-   "corruption_relevance": 2,
-   "confidence": 0.85
+   "support_mismatch": 4,
+   "corruption_relevance": 3,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

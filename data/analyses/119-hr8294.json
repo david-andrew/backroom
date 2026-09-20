@@ -1,100 +1,102 @@
 {
  "bill_id": "119-hr8294",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:43:41+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:01:19+00:00",
  "record_fetched_at": "2026-09-20T14:31:46+00:00",
  "record_hash": "16b043930eede4bb",
  "analysis": {
-  "one_liner": "Adds a 10% surtax on individual income above the multi-million-dollar level.",
-  "headline": "The bill was introduced on April 15, 2026 and sent to the House Ways and Means Committee, where it has had no further action; it has a sponsor and 9 cosponsors, all Democrats.",
+  "one_liner": "Adds a 10% surtax on individual income above $2 million, or $1 million for single filers.",
+  "headline": "A bill adding a 10% tax on individual income above $2 million was introduced in April 2026 and has sat in the House Ways and Means Committee without a hearing or a vote.",
   "direction": "for_working_people",
-  "plain_summary": "The Millionaires Surtax Act would add a 10% tax on each dollar of income above $2 million for married couples and $1 million for everyone else, on top of existing taxes. It applies to all types of income, including investment gains, though taxpayers could still subtract their investment interest deductions. It would take effect for tax years starting after December 31, 2026, and the money would go into the general Treasury rather than to any specific program.",
-  "who_benefits": "If it passed, the general public would gain through new federal revenue paid exclusively by households earning over $1 million ($2 million for joint filers) — a group of roughly the top fraction of one percent of taxpayers. That money could fund public priorities or reduce deficits, though the bill itself does not dedicate it to anything. Middle- and lower-income households would owe nothing new under this bill.",
-  "who_benefits_short": "The general public, via new revenue",
+  "plain_summary": "This bill would create a new 10% tax, on top of existing income tax, on each dollar of a person's income above $2 million a year — or above $1 million for people who file taxes singly. It applies to income from any source, including investments, and would start with the 2027 tax year. The bill was introduced on April 15, 2026 and sent to the House Ways and Means Committee, which handles tax bills; no hearing, committee vote, or floor vote has taken place.",
+  "who_benefits": "If it passed, the direct benefit would be fiscal: the federal government would collect roughly 10 cents more on every dollar of income above the $2 million/$1 million thresholds, money that could reduce deficits or fund programs — though this bill itself does not earmark the revenue for anything. Households below the thresholds — the overwhelming majority of Americans — would pay nothing new under it. The bill's practical purpose is to shift more of the tax burden onto very high incomes, whatever Congress later does with the money.",
+  "who_benefits_short": "Everyone except million-dollar earners, if revenue is used for them",
   "how_it_helps": [
    {
-    "text": "Imposes a 10% surtax on modified adjusted gross income above $2 million for joint filers and $1 million for other taxpayers, so only the highest-income households pay it.",
+    "text": "It adds a 10% tax on the portion of a person's income above $2 million ($1 million for single filers), raising revenue from a group that currently pays at ordinary rates on that income like everyone else.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The surtax applies to all income — including capital gains and investment income — rather than only wages, so high earners cannot avoid it by shifting pay into investment income.",
+    "text": "The tax applies to income from any source — wages, investments, and pass-through business income — so high earners cannot escape it by recharacterizing earnings.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The tax would begin with tax years after December 31, 2026, and the revenue it raises would flow to the Treasury for general federal use.",
+    "text": "It takes effect for tax years beginning after December 31, 2026, so it would apply starting with the 2027 tax year if enacted.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Households with income over $2 million (joint) or $1 million (single and other filers) would pay 10 cents of every dollar above those thresholds, in addition to their existing federal taxes. Estates and trusts with high income are also covered. No other taxpayers would pay anything under the bill.",
-  "who_pays_short": "Households earning over $1 million",
+  "who_pays": "A small group of households with adjusted gross income above $2 million ($1 million for single filers) would pay the added 10% on the excess. The bill text also preserves the investment-interest deduction in calculating the surtax base, so investors who borrow to invest get to deduct that interest before the surtax applies — a break skewed toward leveraged investors. Because the bill does not specify a use for the revenue, there is no guaranteed offsetting benefit to anyone.",
+  "who_pays_short": "Households earning over $2 million a year",
   "drawbacks": [
    {
-    "text": "The bill raises revenue but does not dedicate it to any program or tax cut, so ordinary people get no guaranteed direct benefit — the money simply enters the general Treasury.",
+    "text": "The surtax base is 'modified adjusted gross income,' which subtracts investment-interest deductions from income. That carve-out lets investors who borrow to invest shrink the amount the surtax applies to, a break not available to wage earners.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It leaves the investment interest deduction intact, so wealthy investors who borrow heavily to finance investments can shield part of their income from the surtax, which favors leveraged investors over those earning wages.",
+    "text": "The bill does not say what the revenue would be used for. It raises money for the Treasury generally; unless Congress later directs it to specific benefits or deficit reduction, ordinary people see no direct gain.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The $1 million and $2 million thresholds are not indexed to inflation, so over time the tax would reach more taxpayers as incomes rise.",
+    "text": "The $2 million joint / $1 million single thresholds are not indexed for inflation in the bill text, so over time the tax could reach people whose incomes only nominally crossed the line.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It adds a new layer on top of the existing tax code rather than closing loopholes like the carried-interest treatment that lets fund managers pay lower rates, so it does not simplify the system it taxes.",
+    "text": "The surtax is imposed on top of existing taxes, adding a second layer of calculation on very high incomes; critics of surtaxes argue this complicates the code, though the affected group is small.",
     "sources": [
-     "S2"
+     "S1",
+     "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit is straightforward: a large new stream of revenue drawn only from households above $1 million in income, with no effect on anyone earning less. The cost to those taxpayers is real but proportionate — 10% of income above the threshold — and a good-faith objection is that the bill does nothing to direct the money to visible public benefits or to fix the underlying loopholes that let some very high earners pay lower effective rates. As designed it is a clean, targeted revenue measure, not comprehensive tax reform.",
+  "benefit_vs_cost": "The benefit — a meaningful tax increase on a very small group with very high incomes — is real but contingent: the bill never says what the money would fund, so its value to ordinary people depends entirely on how Congress spends it later. The costs are design flaws an honest supporter would acknowledge: the investment-interest carve-out lets the most leveraged investors shrink the base, the thresholds are not indexed for inflation, and the surtax does not address the main ways high earners defer or avoid tax ( unrealized gains, pass-through income). And the biggest caveat is political: with 10 supporters in a chamber run by the other party, the bill has essentially no path forward, so its benefits remain hypothetical.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and referred to the House Ways and Means Committee, and no committee vote or floor action has happened yet.",
+   "mechanism": "It was sent to the tax-writing committee the day it was introduced, and no hearing, markup, or floor vote has been scheduled since.",
    "narrative": [
     {
-     "text": "Rep. Don Beyer introduced the Millionaires Surtax Act on April 15, 2026, with five original cosponsors: Reps. Cohen, Deluzio, Norton, Tlaib, and Davis of Illinois.",
+     "text": "The bill was introduced on April 15, 2026 and referred the same day to the House Committee on Ways and Means, the committee that handles tax legislation.",
      "sources": [
-      "S2"
+      "S1",
+      "S4"
      ]
     },
     {
-     "text": "The same day, the bill was referred to the House Committee on Ways and Means, the committee that handles tax legislation.",
+     "text": "The action history shows no further steps: no hearing, no committee vote, and no floor action.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "Nine additional members had signed on as cosponsors, all Democrats, and the bill has had no committee markup, vote, or floor action since referral.",
+     "text": "As of the latest record, the bill has one sponsor and 9 cosponsors, all Democrats, in a House where Republicans hold 223 of 441 seats.",
      "sources": [
-      "S3",
-      "S4"
+      "S1",
+      "S3"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, no one has gained or lost anything concrete — the bill is sitting in committee. High-income households are spared any new tax as long as it does not advance."
+   "who_came_out_ahead": "So far, no one has had to act: households earning over $2 million keep their current tax treatment, and the bill's supporters have not yet forced the committee to take a position. Nothing is final — the Congress runs through January 2027."
   },
-  "who_came_out_ahead_short": "Nobody yet; the bill sits in committee",
+  "who_came_out_ahead_short": "High earners, so far, keep the status quo",
   "sides": {
    "for": [
     {
-     "name": "Rep. Don Beyer",
-     "role": "Sponsor, House Ways and Means Committee",
+     "name": "Rep. Donald Beyer",
+     "role": "U.S. Representative (D-VA)",
      "party": "D",
-     "what_they_did": "Introduced the bill and recruited 9 cosponsors.",
+     "what_they_did": "Introduced the Millionaires Surtax Act on April 15, 2026.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -103,22 +105,10 @@
      ]
     },
     {
-     "name": "Reps. Cohen, Deluzio, Norton, Tlaib, and Davis of Illinois",
-     "role": "Original cosponsors",
-     "party": "D",
-     "what_they_did": "Signed on as original cosponsors when the bill was introduced.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S2",
-      "S3"
-     ]
-    },
-    {
-     "name": "Nine House Democrats (total cosponsors)",
+     "name": "9 of 217 House Democrats",
      "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Added their names in support of the bill.",
+     "what_they_did": "Cosponsored the bill, including Reps. Cohen, Deluzio, Norton, Tlaib, and Davis of Illinois as original cosponsors.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -128,10 +118,10 @@
    ],
    "against": [
     {
-     "name": "Rep. Jason Smith",
-     "role": "Chair, House Ways and Means Committee",
+     "name": "House Ways and Means Committee (Chair Jason Smith, R-MO)",
+     "role": "Tax-writing committee of the House",
      "party": "R",
-     "what_they_did": "The committee has taken no action on the bill — no markup or vote has been scheduled since its April 15 referral.",
+     "what_they_did": "Received the bill by referral on April 15, 2026; the action record shows no hearing, markup, or vote scheduled since.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -140,48 +130,39 @@
     }
    ],
    "party_line": "mostly_party_line",
-   "party_line_note": "All 10 supporters — the sponsor and 9 cosponsors — are Democrats, and no Republican support appears in the record."
+   "party_line_note": "All 10 supporters are Democrats (the sponsor plus 9 Democratic cosponsors); no Republican has signed on, and the Republican-controlled committee has taken no action."
   },
   "industries": [
    {
-    "industry": "Wealthiest households (incomes over $1 million)",
+    "industry": "Households with income above $2 million ($1 million single)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These taxpayers would owe an extra 10% on every dollar of income above $2 million (joint) or $1 million (other filers), including investment income. Their saving grace is that investment interest remains deductible for surtax purposes.",
+    "note": "These households would pay an added 10% on income above the threshold, on top of existing income tax. That is who the bill is written to tax, and it is who pays if it passes.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Hedge funds, private equity, and investment managers",
-    "effect": "loses",
+    "industry": "Highly leveraged investors (private equity, hedge funds, real estate)",
+    "effect": "mixed",
     "stance_toward_public": "opposed",
-    "note": "Fund managers routinely earn over $1 million, much of it as investment income, so the surtax would reach carried interest and fund profits that currently enjoy lower rates. It does not eliminate the carried-interest break, but it adds a layer of tax on top of it.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Tax accounting and compliance services",
-    "effect": "gains",
-    "stance_toward_public": "mixed",
-    "note": "A new surtax with special rules for nonresident aliens, expatriates, trusts, and estates creates additional tax preparation and planning work for high-income clients.",
+    "note": "The bill's income definition subtracts investment-interest deductions, so investors who borrow to finance investments pay the surtax on a smaller base than pure wage earners at the same income. The carve-out softens the hit while keeping a tax break that ordinary wage earners cannot use.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "A tax bill from a minority-party member with 9 cosponsors rarely reaches the floor. It will most likely stay in the Ways and Means Committee without a markup or vote unless tax legislation moves through the committee and a member attaches it as an amendment; the most realistic outcome is that it dies quietly when this Congress ends on January 3, 2027.",
+  "trajectory": "With a Republican majority and no recorded support from either party's leadership, the bill's likely path is the most common one for a minority-party tax bill: it stays in committee without a hearing or vote and expires when this Congress ends on January 3, 2027, unless supporters find a way to attach it to larger legislation, which a stand-alone surtax rarely achieves.",
   "categories": [
    "taxes_on_wealth_and_corporations"
   ],
   "scores": {
-   "public_stakes": 6,
+   "public_stakes": 5,
    "concentrated_stakes": 8,
-   "outcome_against_public": 2,
-   "support_mismatch": 2,
-   "corruption_relevance": 2,
-   "confidence": 0.85
+   "outcome_against_public": 4,
+   "support_mismatch": 3,
+   "corruption_relevance": 1,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

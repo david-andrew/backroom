@@ -1,107 +1,106 @@
 {
  "bill_id": "119-hr9791",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:14:29+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:14:46+00:00",
  "record_fetched_at": "2026-09-20T08:13:31+00:00",
  "record_hash": "406e50182770f220",
  "analysis": {
-  "one_liner": "Waves FDA registration fees for small medical device makers and charges foreign companies eight times more.",
-  "headline": "The bill, introduced July 20, 2026, has no cosponsors and sits in the House Energy and Commerce Committee with no action taken.",
+  "one_liner": "Waives FDA device registration fees for small U.S. manufacturers and charges foreign-owned companies eight times the fee.",
+  "headline": "Introduced with zero cosponsors, the bill has sat in the House Energy and Commerce Committee without a hearing or vote since July 20, 2026.",
   "direction": "for_concentrated_interests",
-  "plain_summary": "This bill changes how the FDA charges its annual registration fee for medical device establishments. Companies with fewer than 20 full-time employees would get their fee waived entirely for three years, then half off for two more, and the FDA could no longer deny a waiver based on past unpaid fees. Foreign-owned companies would be barred from the waiver and would pay eight times the standard fee. The changes would take effect 90 days after any enactment.",
-  "who_benefits": "Small U.S. medical device makers — those with fewer than 20 full-time employees, counting affiliates — gain the most: a full fee waiver for three years and a 50% discount for the next two. Foreign-owned companies gain nothing; they are excluded from the waiver and would pay 8x the standard registration fee. Larger U.S. device makers are largely unaffected directly, though they may indirectly shoulder more of the FDA's user-fee funding burden.",
-  "who_benefits_short": "Small U.S. medical device manufacturers",
+  "plain_summary": "The bill would rewrite the small-business waiver for the Food and Drug Administration's annual medical-device establishment registration fee. U.S. companies with fewer than 20 full-time-equivalent employees, including affiliates, would automatically get the fee waived entirely for three years and half-waived for two more, and FDA could not deny a waiver because the company skipped the fee in earlier years. Foreign-owned companies would be barred from the waiver and would pay eight times the normal registration fee.",
+  "who_benefits": "Small U.S. medical device manufacturers with fewer than 20 employees gain directly: they would pay nothing for the annual establishment registration fee for three years and half the fee for the next two, with no appeals process for FDA to second-guess eligibility. Domestic device firms also gain indirectly because foreign-owned competitors would pay eight times the registration fee and cannot claim the waiver, raising rivals' costs.",
+  "who_benefits_short": "Small U.S. medical device makers",
   "how_it_helps": [
    {
-    "text": "Qualifying small businesses (under 20 full-time employees including affiliates) would pay 0% of the annual establishment registration fee for three years and 50% for the following two years [S2].",
+    "text": "Redefines a 'small business' as a device company with fewer than 20 full-time-equivalent employees including affiliates, and requires the FDA to grant those establishments a full waiver of the annual registration fee for three years, then a 50% waiver for the following two years.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The FDA could not deny a waiver because the establishment failed to pay the fee in earlier years, removing a prior-payment hurdle [S2].",
+    "text": "Bars FDA from considering whether an establishment paid or skipped the registration fee in any earlier year, and lets establishments prove size with a recent tax return or payroll register submitted 60 days before the fee is due.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Applicants would use Small Business Administration size and affiliation standards and submit a recent tax return or payroll register to prove size, giving clearer, more objective qualification rules [S2].",
+    "text": "Excludes foreign-organized companies from the waiver entirely, including U.S. entities formed just to claim it.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Foreign-organized entities could not apply for the waiver or form a U.S. entity for that purpose, aiming the relief at domestic small firms [S2].",
+    "text": "Imposes a new registration fee on foreign-owned device establishments equal to eight times the standard domestic fee, a cost advantage for U.S.-based competitors.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Foreign-owned device establishments would pay eight times the standard registration fee, a cost that could be passed into device prices. Because FDA device review is largely funded by industry user fees, waiving fees for small firms shifts a modest portion of the funding load onto other fee-paying companies, and reduced fee revenue could marginally affect FDA device-review capacity if not offset elsewhere.",
-  "who_pays_short": "Foreign device companies and the FDA fee pool",
+  "who_pays": "The FDA's medical device user-fee revenue shrinks wherever small firms' registration fees are waived, which under the device user-fee program means less money for the device review program unless offset elsewhere. Foreign-owned device establishments pay eight times the registration fee, a cost likely to flow into device prices. Small firms also take on new paperwork: a tax return or payroll register filed 60 days before the fee deadline, and after the five-year waiver window expires they owe the full fee again.",
+  "who_pays_short": "FDA fee revenue; foreign-owned device makers",
   "drawbacks": [
    {
-    "text": "Foreign companies would face an 8x registration fee, a cost likely to be passed on to buyers of devices and potentially to reduce foreign competition in the U.S. market [S2].",
+    "text": "Every fee waived comes out of the FDA device user-fee pool that funds device review and registration oversight; the 100%-for-three-years, 50%-for-two-years structure is a direct revenue loss, only partly offset by the new 8x fee on foreign companies.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Waiving fees shrinks the user-fee revenue the FDA counts on for device review; unless offset elsewhere, that could modestly slow device reviews that patients wait on [S2].",
+    "text": "FDA may not consider an applicant's past payment history, so an establishment that simply never paid the fee in prior years can still qualify, and the bill replaces the waiver request process with a 'non-reviewability' provision, meaning denied applicants appear to have no appeal.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Eligibility expires after five years of coverage, so the relief is temporary for any given firm, and a company the Secretary determines is not a small business loses eligibility permanently [S2].",
+    "text": "The eightfold fee on foreign-owned establishments would likely be passed through to U.S. hospitals and patients in the price of imported devices.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The relief is temporary: eligibility expires after the five-year coverage period, after which small firms owe the full fee again, creating a cost cliff for businesses that sized themselves around the waiver.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The relief is real but narrow: it lowers a compliance cost for very small device firms, which can matter for startups. The offsetting 8x fee on foreign companies raises costs in the device supply chain and may be passed to buyers, and waived fees modestly drain FDA's device-review funding. On balance it is a small-business relief bill with modest side costs rather than a major consumer measure.",
+  "benefit_vs_cost": "For the small device startups the bill targets, three years of a waived annual registration fee is real but modest money. The offsetting costs are diffuse: less FDA user-fee revenue for device oversight, potentially higher prices on imported devices from the 8x foreign fee, and a hard expiration that returns small firms to the full fee after five years. The anti-gaming provisions (tax-return proof, foreign exclusion, SBA size standards) are sensible, but the ban on considering payment history and the removal of any review process are poorly designed. On balance this is a narrow industry-relief bill, not a measure with large public benefits.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and referred to the House Energy and Commerce Committee, where it has sat with no cosponsors and no further action while Congress remains in session.",
+   "mechanism": "It was introduced in July 2026 and referred to the House Energy and Commerce Committee, where it has sat for weeks with no hearing, no markup, and no vote, and with only a few months left in the session it will likely die there quietly.",
    "narrative": [
     {
-     "text": "Rep. Scott Perry introduced the bill in the House on July 20, 2026 [S1].",
+     "text": "Rep. Scott Perry introduced the bill on July 20, 2026, and it was referred the same day to the House Committee on Energy and Commerce, which holds jurisdiction over FDA law.",
      "sources": [
       "S1",
       "S4"
      ]
     },
     {
-     "text": "The same day, it was referred to the House Committee on Energy and Commerce, which holds the bill as Congress continues its session [S4].",
-     "sources": [
-      "S1",
-      "S4"
-     ]
-    },
-    {
-     "text": "No other members have cosponsored the bill [S3].",
+     "text": "No other member of the House signed on as a cosponsor.",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "No committee action, floor vote, or Senate action appears in the record [S4].",
+     "text": "No further action — no hearing, markup, committee vote, or floor scheduling — appears in the action history after the referral.",
      "sources": [
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "No one has gained or lost yet — the bill is dormant in committee, so current fee rules still apply and no company or consumer has been affected."
+   "who_came_out_ahead": "So far, no one has moved: the current FDA fee rules remain in effect, so small device makers keep paying the registration fee and foreign-owned establishments avoid the eightfold fee. The bill's quiet parking in committee preserves the status quo for FDA's user-fee revenue."
   },
-  "who_came_out_ahead_short": "No one yet — bill dormant in committee",
+  "who_came_out_ahead_short": "Nobody yet — the status quo holds",
   "sides": {
    "for": [
     {
      "name": "Rep. Scott Perry",
-     "role": "Sponsor, U.S. House of Representatives",
+     "role": "U.S. Representative, PA-10; bill sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill on July 20, 2026 and sent it to the Energy and Commerce Committee.",
+     "what_they_did": "Introduced the bill on July 20, 2026 and is its only sponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -110,40 +109,52 @@
      ]
     }
    ],
-   "against": [],
+   "against": [
+    {
+     "name": "House Committee on Energy and Commerce",
+     "role": "Committee of referral for FDA legislation",
+     "party": null,
+     "what_they_did": "Received the referral on July 20, 2026; no hearing, markup, or vote has been scheduled since.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
    "party_line": "unclear",
-   "party_line_note": "No votes have occurred and no cosponsors have signed on, so the partisan shape of support or opposition is not yet visible [S3]."
+   "party_line_note": "Only one member of either party is attached to the bill — its Republican sponsor, with zero cosponsors — and no vote has ever occurred, so there is no partisan pattern to measure."
   },
   "industries": [
    {
-    "industry": "Small U.S. medical device manufacturers",
+    "industry": "Small U.S. medical device manufacturers (under 20 employees)",
     "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "Firms with fewer than 20 employees would pay nothing for three years and half price for two more on their FDA annual registration fee, easing a fixed compliance cost for small startups. Consumers benefit only indirectly, if at all, through the survival of small suppliers.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Foreign-owned device companies",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "They are barred from the waiver and would pay eight times the standard registration fee. That cost would likely flow into device prices or reduce foreign competitors' U.S. presence, which could mean fewer options for patients.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Larger U.S. device manufacturers and the FDA device user-fee pool",
-    "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "Waived small-business fees shrink the user-fee revenue FDA relies on for device reviews; the shortfall, if not offset, spreads across remaining fee payers and can marginally affect review speed that patients depend on.",
+    "note": "They would pay nothing for annual FDA establishment registration for three years and half the fee for two more, with FDA barred from weighing past payment history. The gain comes at the cost of FDA user-fee revenue and expires after five years.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Foreign-owned medical device companies",
+    "effect": "loses",
+    "stance_toward_public": "aligned",
+    "note": "They are excluded from the waiver — even via U.S. subsidiaries formed for that purpose — and would pay eight times the standard registration fee. Because that cost would likely be passed into device prices, their loss tracks a cost to U.S. hospitals and patients too.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "FDA device user-fee program",
+    "effect": "mixed",
+    "stance_toward_public": "aligned",
+    "note": "Waived small-business fees shrink the revenue pool that funds device registration oversight, while the 8x foreign-company fee adds some back. The program's oversight capacity is the swing item for the public.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "With zero cosponsors and no committee action since referral, the bill faces the fate of most first-term House bills: it is likely to die quietly in committee unless the sponsor actively pushes for a hearing or attaches it to a larger FDA user-fee reauthorization package.",
+  "trajectory": "With the 119th Congress ending January 3, 2027 and only weeks elapsed since introduction, a single-sponsor bill with zero cosponsors and no committee action almost never reaches the floor in its first session; unless it gains cosponsors and an Energy and Commerce markup in the remaining months, it will expire when the Congress ends and would need to be reintroduced from scratch.",
   "categories": [
    "healthcare_and_drug_prices",
    "other"
@@ -151,10 +162,10 @@
   "scores": {
    "public_stakes": 2,
    "concentrated_stakes": 4,
-   "outcome_against_public": 2,
+   "outcome_against_public": 1,
    "support_mismatch": 1,
    "corruption_relevance": 1,
-   "confidence": 0.9
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []
