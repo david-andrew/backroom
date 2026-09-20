@@ -10,7 +10,7 @@ export function App() {
   return (
     <>
       <header class="site-header">
-        <a class="brand" href={href.home}><span class="brand-mark">Tabled</span></a>
+        <a class="brand" href={href.home}><span class="brand-mark">Backroom</span></a>
         <nav>
           <a href={href.home} class={r.page === 'home' ? 'active' : ''}>Bills</a>
           <a href={href.about} class={r.page === 'about' ? 'active' : ''}>How this works</a>

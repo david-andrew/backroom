@@ -1,7 +1,7 @@
 import { signal } from '@preact/signals'
 
 export type Theme = 'light' | 'dark'
-const KEY = 'tabled-theme'
+const KEY = 'backroom-theme'
 
 function initial(): Theme {
   const stored = localStorage.getItem(KEY)

@@ -1,6 +1,6 @@
-# Tabled
+# Backroom
 
-Bills that would have helped ordinary people, and what Congress did with them.
+Whose interests is Congress looking out for? A sourced record of bills that help everyday people and bills that serve concentrated power, and what Congress did with each. (Pipeline command is still `tabled`.)
 
 Two parts, no server:
 
