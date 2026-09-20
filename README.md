@@ -70,9 +70,9 @@ One-time setup in the GitHub repo:
 
 1. **Settings > Pages > Source: GitHub Actions.**
 2. **Settings > Secrets and variables > Actions > Secrets:** add `OPENROUTER_API_KEY` and `CONGRESS_API_KEY`.
-3. Optional **Variables:** `BACKROOM_ANALYSIS_MODEL` / `BACKROOM_TRIAGE_MODEL` to override the model slots, and `CUSTOM_DOMAIN` (e.g. `backroom.vote`) once DNS is set up. With `CUSTOM_DOMAIN` unset the site serves at `https://david-andrew.github.io/backroom/`.
+3. Optional **Variables:** `BACKROOM_ANALYSIS_MODEL` / `BACKROOM_TRIAGE_MODEL` to override the model slots. The deploy workflow reads the custom domain from Settings > Pages automatically; `CUSTOM_DOMAIN` only exists as an override. With no custom domain the site serves at `https://david-andrew.github.io/backroom/`.
 
-Custom domain DNS: an `A`/`AAAA` set pointing the apex at GitHub Pages' IPs (or a `CNAME` from `www` to `david-andrew.github.io`), then enter the domain under Settings > Pages and tick "Enforce HTTPS". The deploy workflow writes the `CNAME` file automatically from the variable.
+Custom domain DNS: an `A`/`AAAA` set pointing the apex at GitHub Pages' IPs (or a `CNAME` from `www` to `david-andrew.github.io`), then enter the domain under Settings > Pages and tick "Enforce HTTPS". Re-run `deploy` once after adding the domain; it picks the domain up from Pages settings and writes the `CNAME` file itself.
 
 `refresh` can be run by hand from the Actions tab; tick **force_analyze** after changing a prompt to regenerate every analysis. Triage (`backroom triage <congress>`) is still a manual step until the shortlist threshold has been tuned.
 

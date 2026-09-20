@@ -31,11 +31,16 @@ jobs:
       - name: Build site
         working-directory: site
         env:
-          # Set the CUSTOM_DOMAIN repository variable (Settings > Secrets and variables > Actions > Variables)
-          # once DNS points at GitHub Pages; the site then serves from "/" and a CNAME file is emitted.
+          GH_TOKEN: ${{ github.token }}
+          # Optional override; normally the domain is read from the Pages settings below.
           CUSTOM_DOMAIN: ${{ vars.CUSTOM_DOMAIN }}
         run: |
-          if [ -n "$CUSTOM_DOMAIN" ]; then export BASE_PATH=/; echo "$CUSTOM_DOMAIN" > public/CNAME; else export BASE_PATH=/${{ github.event.repository.name }}/; fi
+          DOMAIN="${CUSTOM_DOMAIN:-$(gh api "repos/${{ github.repository }}/pages" --jq '.cname // empty' 2>/dev/null || true)}"
+          if [ -n "$DOMAIN" ]; then
+            echo "Custom domain: $DOMAIN (serving from /)"; export BASE_PATH=/; echo "$DOMAIN" > public/CNAME
+          else
+            export BASE_PATH=/${{ github.event.repository.name }}/; echo "No custom domain (serving from $BASE_PATH)"
+          fi
           npm ci && npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
