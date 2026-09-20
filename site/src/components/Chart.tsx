@@ -37,7 +37,7 @@ export function GilensPageChart() {
         <text x={x(100) + 10} y={y(0.62) + 4} class="gp-label gp-elite-ink">Wealthiest 10%</text>
       </svg>
       <figcaption>
-        What people want barely moves Congress unless they are rich. Redrawn from Gilens and Page,{' '}
+        Congress rarely does what people want unless they're rich. Redrawn from Gilens and Page,{' '}
         <a href="https://doi.org/10.1017/S1537592714001595" target="_blank" rel="noreferrer">“Testing Theories of American Politics” (2014)</a>, Figure 1,
         which modeled 1,779 policy questions from 1981 to 2002. A{' '}
         <a href="https://doi.org/10.1017/S1537592721002188" target="_blank" rel="noreferrer">2024 systematic review of 25 studies</a> found the same pattern across the literature.
