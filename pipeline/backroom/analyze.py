@@ -109,3 +109,23 @@ def run(slug: str, force: bool = False, model_id: str = config.ANALYSIS_MODEL) -
     if af.unresolved_citations:
         print(f"  ! {slug}: citations not in source list: {af.unresolved_citations}")
     return af
+
+
+def run_all(slugs: list[str], force: bool = False, model_id: str = config.ANALYSIS_MODEL, workers: int | None = None) -> list[str]:
+    """Analyze many bills concurrently (the model call is the slow part). Returns the slugs that failed."""
+    import os
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    workers = workers or int(os.environ.get("BACKROOM_CONCURRENCY", "8"))
+    failed: list[str] = []
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(run, slug, force, model_id): slug for slug in slugs}
+        for fut in as_completed(futures):
+            slug = futures[fut]
+            try:
+                fut.result()
+            except Exception as e:
+                print(f"  ! {slug} failed: {str(e)[:300]}")
+                failed.append(slug)
+    if failed:
+        print(f"  ! {len(failed)} bill(s) failed: {', '.join(failed)}")
+    return failed

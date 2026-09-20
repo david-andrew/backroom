@@ -53,15 +53,7 @@ def main() -> None:
             print(f"  {rec.display}: {rec.title[:80]} | {len(rec.actions)} actions, {len(rec.cosponsors)} cosponsors, {rec.text_chars} chars")
     if args.cmd in ("analyze", "all"):
         model = getattr(args, "model", config.ANALYSIS_MODEL)
-        failed = []
-        for s in (getattr(args, "bills", None) or fetched_slugs()):
-            try:
-                analyze.run(BillId.parse(s).slug, force=args.force, model_id=model)
-            except Exception as e:  # keep going; report at the end
-                print(f"  ! {s} failed: {str(e)[:300]}")
-                failed.append(s)
-        if failed:
-            print(f"  ! {len(failed)} bill(s) failed: {', '.join(failed)}")
+        analyze.run_all([BillId.parse(s).slug for s in (getattr(args, "bills", None) or fetched_slugs())], force=args.force, model_id=model)
     if args.cmd == "triage":
         shortlist = triage.run(args.congress, limit=args.limit, min_score=args.min_score, model_id=args.model)
         for s in shortlist[:args.top]:
@@ -69,10 +61,17 @@ def main() -> None:
         triage.threshold_table(args.congress)
         if args.fetch:
             client = CongressClient()
-            for s in shortlist:
+            slugs = []
+            for i, s in enumerate(shortlist, 1):
                 bid = BillId.parse(s["bill"])
-                client.fetch_bill(bid)
-                analyze.run(bid.slug)
+                try:
+                    client.fetch_bill(bid)
+                    slugs.append(bid.slug)
+                except Exception as e:
+                    print(f"  ! fetch {bid.slug} failed: {str(e)[:200]}")
+                if i % 25 == 0:
+                    print(f"  fetched {i}/{len(shortlist)}")
+            analyze.run_all(slugs)
     if args.cmd == "glossary":
         glossary.run(model_id=args.model, force=args.force)
     if args.cmd in ("build", "all"):
