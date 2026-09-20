@@ -74,7 +74,7 @@ One-time setup in the GitHub repo:
 
 Custom domain DNS: an `A`/`AAAA` set pointing the apex at GitHub Pages' IPs (or a `CNAME` from `www` to `david-andrew.github.io`), then enter the domain under Settings > Pages and tick "Enforce HTTPS". Re-run `deploy` once after adding the domain; it picks the domain up from Pages settings and writes the `CNAME` file itself.
 
-`refresh` can be run by hand from the Actions tab; tick **force_analyze** after changing a prompt to regenerate every analysis. It also runs triage on the sitting Congress (variables `BACKROOM_CONGRESS`, default 119; `BACKROOM_MIN_SCORE`, default 13, for bills that help the public; `BACKROOM_MIN_HARM`, default 12, for bills that serve concentrated interests at the public's expense) so newly introduced bills are picked up. Backfilling an earlier Congress is a manual run: `backroom triage 117 --min-score 13 --fetch`.
+`refresh` can be run by hand from the Actions tab; tick **force_analyze** after changing a prompt to regenerate every analysis. It also runs triage on the sitting Congress (variables `BACKROOM_CONGRESS`, default 119; `BACKROOM_MIN_SCORE`, default 10, for bills that help the public; `BACKROOM_MIN_HARM`, default 10, for bills that serve concentrated interests at the public's expense) so newly introduced bills are picked up. Backfilling an earlier Congress is a manual run: `backroom triage 117 --min-score 10 --min-harm 10 --fetch`.
 
 ## Roadmap
 
