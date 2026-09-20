@@ -57,7 +57,7 @@ def main() -> None:
     if args.cmd == "triage":
         shortlist = triage.run(args.congress, limit=args.limit, min_score=args.min_score, model_id=args.model)
         for s in shortlist[:args.top]:
-            print(f"  {s['public_benefit']+s['concentrated_cost']:>2}  {s['bill']:<12} {s['title'][:70]}")
+            print(f"  help {triage.helps(s):>2} harm {triage.harms(s):>2}  {s['bill']:<12} {s['title'][:70]}")
         triage.threshold_table(args.congress)
         if args.fetch:
             client = CongressClient()

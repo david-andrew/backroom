@@ -81,6 +81,10 @@ Custom domain DNS: an `A`/`AAAA` set pointing the apex at GitHub Pages' IPs (or 
 - **State and local legislatures.** The same pipeline shape (public record in, sourced plain-language analysis out) applies to state bills; the [Open States API](https://docs.openstates.org/) covers all 50 legislatures with bills, sponsors, votes, and text, and city councils increasingly publish through Legistar. The schema would gain a `jurisdiction` field and the member lookup would extend to state legislators via the same Census district layers.
 - **Lobbying disclosures.** Senate LDA filings list the bills each registrant lobbied on; joining them would let "industries affected" cite who actually paid to influence a bill.
 
+## Credits
+
+Link-preview image: "United States Capitol west front edit2" via Wikimedia Commons, public domain (U.S. government work by the Architect of the Capitol).
+
 ## Layout
 
 ```

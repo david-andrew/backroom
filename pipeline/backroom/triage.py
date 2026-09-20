@@ -18,8 +18,10 @@ CONCURRENCY = int(__import__('os').environ.get('BACKROOM_CONCURRENCY', '10'))
 
 class TriageScore(BaseModel):
     bill: str = Field(description="The bill id exactly as given, e.g. '118-s413'")
-    public_benefit: int = Field(ge=0, le=10)
-    concentrated_cost: int = Field(ge=0, le=10)
+    public_benefit: int = Field(ge=0, le=10, description="How much ordinary people would gain")
+    concentrated_cost: int = Field(ge=0, le=10, description="How much a specific industry, the wealthy, or officeholders would lose")
+    concentrated_gain: int = Field(ge=0, le=10, description="How much a specific industry, the wealthy, or officeholders would gain")
+    public_harm: int = Field(ge=0, le=10, description="How much ordinary people would lose")
     reason: str = Field(description="One short clause")
 
 
@@ -38,6 +40,14 @@ def load_summaries(congress: int, client: CongressClient, force: bool = False) -
     p.write_text(json.dumps({"congress": congress, "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "summaries": summ}))
     print(f"  {len(summ)} summaries")
     return summ
+
+
+def helps(s: dict) -> int:
+    return s["public_benefit"] + s["concentrated_cost"]
+
+
+def harms(s: dict) -> int:
+    return s.get("concentrated_gain", 0) + s.get("public_harm", 0)
 
 
 def run(congress: int, limit: int | None = None, min_score: int = 12, model_id: str = config.TRIAGE_MODEL) -> list[dict]:
@@ -65,7 +75,7 @@ def run(congress: int, limit: int | None = None, min_score: int = 12, model_id: 
         out_path.write_text(json.dumps({
             "congress": congress, "model": model_id, "prompt_version": prompt_version(PROMPT),
             "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-            "scores": sorted(done.values(), key=lambda s: -(s["public_benefit"] + s["concentrated_cost"])),
+            "scores": sorted(done.values(), key=lambda s: -max(helps(s), harms(s))),
         }, indent=1))
 
     chunks = [todo[i:i + BATCH] for i in range(0, len(todo), BATCH)]
@@ -95,8 +105,8 @@ def run(congress: int, limit: int | None = None, min_score: int = 12, model_id: 
         save()
         print(f"  scored {min((w + len(group)) * BATCH, len(todo))}/{len(todo)}" + (f"  ({failed} batch(es) failed, will retry next run)" if failed else ""))
 
-    shortlist = [s for s in done.values() if s["public_benefit"] + s["concentrated_cost"] >= min_score]
-    print(f"  shortlist: {len(shortlist)} bills with combined score >= {min_score}")
+    shortlist = [s for s in done.values() if helps(s) >= min_score or harms(s) >= min_score]
+    print(f"  shortlist: {len(shortlist)} bills ({sum(1 for s in shortlist if helps(s) >= min_score)} helpful, {sum(1 for s in shortlist if harms(s) >= min_score)} harmful) at >= {min_score}")
     return shortlist
 
 
@@ -105,5 +115,6 @@ def threshold_table(congress: int) -> None:
     p = config.TRIAGE_DIR / f"{congress}.json"
     if not p.exists():
         return
-    scores = [s["public_benefit"] + s["concentrated_cost"] for s in json.loads(p.read_text())["scores"]]
-    print("  bills kept at each cutoff:", "  ".join(f">={t}:{sum(1 for x in scores if x >= t)}" for t in (10, 12, 14, 16, 18)))
+    all_ = json.loads(p.read_text())["scores"]
+    print("  helpful bills kept at each cutoff:", "  ".join(f">={t}:{sum(1 for x in all_ if helps(x) >= t)}" for t in (10, 12, 14, 16, 18)))
+    print("  harmful bills kept at each cutoff:", "  ".join(f">={t}:{sum(1 for x in all_ if harms(x) >= t)}" for t in (10, 12, 14, 16, 18)))
