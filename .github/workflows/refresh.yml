@@ -1,37 +1,66 @@
 name: refresh
+# Weekly: refetch every tracked bill from Congress.gov, re-analyze the ones whose record changed,
+# refresh the glossary and member roster, commit the data, then deploy.
+# Needs repository secrets OPENROUTER_API_KEY and CONGRESS_API_KEY.
 on:
   schedule:
-    - cron: "17 6 * * 1"   # weekly, Monday 06:17 UTC
+    - cron: "17 6 * * 1"   # Mondays 06:17 UTC
   workflow_dispatch:
+    inputs:
+      force_analyze:
+        description: "Re-run the analysis model on every bill (after a prompt change)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
-      - uses: actions/setup-node@v4
-        with: { node-version: 22 }
-      - name: Refresh facts and analyses
+      - name: Run the pipeline
         working-directory: pipeline
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          BACKROOM_TRIAGE_MODEL: ${{ vars.BACKROOM_TRIAGE_MODEL }}
+          BACKROOM_ANALYSIS_MODEL: ${{ vars.BACKROOM_ANALYSIS_MODEL }}
         run: |
           uv sync
-          uv run backroom fetch --force     # pending bills may have new actions
-          uv run backroom analyze           # only re-analyzes bills whose record changed
-          uv run backroom build
-      - name: Commit data
+          uv run backroom fetch --force
+          uv run backroom analyze ${{ inputs.force_analyze && '--force' || '' }}
+          uv run backroom glossary
+          uv run backroom members --force
+      - name: Commit refreshed data
+        id: commit
         run: |
-          git config user.name "backroom-bot"
-          git config user.email "bot@users.noreply.github.com"
+          git config user.name "backroom-refresh[bot]"
+          git config user.email "backroom-refresh[bot]@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || git commit -m "data: scheduled refresh"
-          git push
-      - name: Build site
-        working-directory: site
-        run: npm ci && npm run build
-      - uses: actions/upload-pages-artifact@v3
-        with: { path: site/dist }
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"; echo "No data changes."
+          else
+            git commit -m "data: scheduled refresh $(date -u +%Y-%m-%d)"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+  # A push made with GITHUB_TOKEN does not trigger other workflows, so deploy explicitly.
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

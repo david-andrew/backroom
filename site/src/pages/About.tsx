@@ -56,6 +56,12 @@ export function About() {
         </p>
       )}
 
+      <h2>Where this is going</h2>
+      <p>
+        Congress is the start. The same approach, public record in and sourced plain-language analysis out, applies to state legislatures and city councils, where the bills that touch rent, wages, policing, and utilities are written and where far fewer people are watching.
+        The pipeline is open source; see the roadmap in the <a href="https://github.com/david-andrew/backroom" target="_blank" rel="noreferrer">repository</a>.
+      </p>
+
       <h2>What this site is not</h2>
       <p>
         It is not a list of every bill, and it is not neutral about which bills matter: the selection criterion is bills that would take something from a powerful group and give it to everyone else.

@@ -1,0 +1,51 @@
+name: deploy
+# Builds the static site from the committed data and publishes it to GitHub Pages.
+# No API keys needed: `backroom build` only reads data/ that the refresh workflow commits.
+on:
+  push:
+    branches: [master]
+    paths: [site/**, data/**, pipeline/**, .github/workflows/deploy.yml]
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: site/package-lock.json }
+      - name: Generate site data from committed analyses
+        working-directory: pipeline
+        run: uv sync && uv run backroom build
+      - name: Build site
+        working-directory: site
+        env:
+          # Set the CUSTOM_DOMAIN repository variable (Settings > Secrets and variables > Actions > Variables)
+          # once DNS points at GitHub Pages; the site then serves from "/" and a CNAME file is emitted.
+          CUSTOM_DOMAIN: ${{ vars.CUSTOM_DOMAIN }}
+        run: |
+          if [ -n "$CUSTOM_DOMAIN" ]; then export BASE_PATH=/; echo "$CUSTOM_DOMAIN" > public/CNAME; else export BASE_PATH=/${{ github.event.repository.name }}/; fi
+          npm ci && npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: site/dist }
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

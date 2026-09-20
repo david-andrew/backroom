@@ -1,5 +1,9 @@
 # Backroom
 
+[![deploy](https://github.com/david-andrew/backroom/actions/workflows/deploy.yml/badge.svg)](https://github.com/david-andrew/backroom/actions/workflows/deploy.yml)
+[![refresh](https://github.com/david-andrew/backroom/actions/workflows/refresh.yml/badge.svg)](https://github.com/david-andrew/backroom/actions/workflows/refresh.yml)
+[![data refreshed](https://img.shields.io/github/last-commit/david-andrew/backroom/master?path=data&label=data%20refreshed)](https://github.com/david-andrew/backroom/commits/master/data)
+
 Whose interests is Congress looking out for? A sourced record of bills that help everyday people and bills that serve concentrated power, and what Congress did with each. (Pipeline command is still `backroom`.)
 
 Two parts, no server:
@@ -52,6 +56,31 @@ Every analysis records the model and a hash of the prompt that produced it. `bac
 - Ranking is deterministic from five model-given scores (`pipeline/backroom/build.py`): stakes for the public, stakes for concentrated interests, how far the outcome went against the public, support-vs-result gap, and corruption relevance. Weights can be re-tuned without re-running any model.
 - Each bill has a `direction`: serves working people, serves concentrated interests, or mixed. Harmful bills that became law rank alongside helpful bills that were buried.
 - "Sides" (who pushed it, who stopped it) may include outside pressure that never appears in the congressional record, marked `widely_reported` with no citation. The site labels these "reported". This is the one place the model is allowed off the record; everything else must cite.
+
+## Deployment
+
+The site is static and lives on GitHub Pages. Two workflows do everything:
+
+| Workflow | Trigger | What it does | Needs |
+|---|---|---|---|
+| `deploy` | every push to `master` | `backroom build` from the committed data, `vite build`, publish to Pages | nothing |
+| `refresh` | Mondays 06:17 UTC, or manually | refetch bills, re-analyze changed ones, refresh glossary and member roster, commit `data/`, then deploy | secrets `OPENROUTER_API_KEY`, `CONGRESS_API_KEY` |
+
+One-time setup in the GitHub repo:
+
+1. **Settings > Pages > Source: GitHub Actions.**
+2. **Settings > Secrets and variables > Actions > Secrets:** add `OPENROUTER_API_KEY` and `CONGRESS_API_KEY`.
+3. Optional **Variables:** `BACKROOM_ANALYSIS_MODEL` / `BACKROOM_TRIAGE_MODEL` to override the model slots, and `CUSTOM_DOMAIN` (e.g. `backroom.vote`) once DNS is set up. With `CUSTOM_DOMAIN` unset the site serves at `https://david-andrew.github.io/backroom/`.
+
+Custom domain DNS: an `A`/`AAAA` set pointing the apex at GitHub Pages' IPs (or a `CNAME` from `www` to `david-andrew.github.io`), then enter the domain under Settings > Pages and tick "Enforce HTTPS". The deploy workflow writes the `CNAME` file automatically from the variable.
+
+`refresh` can be run by hand from the Actions tab; tick **force_analyze** after changing a prompt to regenerate every analysis. Triage (`backroom triage <congress>`) is still a manual step until the shortlist threshold has been tuned.
+
+## Roadmap
+
+- **State and local legislatures.** The same pipeline shape (public record in, sourced plain-language analysis out) applies to state bills; the [Open States API](https://docs.openstates.org/) covers all 50 legislatures with bills, sponsors, votes, and text, and city councils increasingly publish through Legistar. The schema would gain a `jurisdiction` field and the member lookup would extend to state legislators via the same Census district layers.
+- **Automated discovery.** Promote `triage` from a manual command to a scheduled step once the scoring threshold is validated against a hand-checked sample.
+- **Lobbying disclosures.** Senate LDA filings list the bills each registrant lobbied on; joining them would let "industries affected" cite who actually paid to influence a bill.
 
 ## Layout
 
