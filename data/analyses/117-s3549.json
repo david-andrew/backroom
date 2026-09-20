@@ -1,206 +1,221 @@
 {
  "bill_id": "117-s3549",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "62356a386f",
- "generated_at": "2026-09-20T02:39:48+00:00",
- "record_fetched_at": "2026-09-20T00:27:21+00:00",
+ "prompt_version": "e569b6c0a8",
+ "generated_at": "2026-09-20T04:26:29+00:00",
+ "record_fetched_at": "2026-09-20T04:07:48+00:00",
  "record_hash": "739fa20ff63b43fb",
  "analysis": {
-  "one_liner": "Requires farm equipment makers to sell repair parts, manuals, and tools to owners and independent shops.",
-  "headline": "The bill never got a committee vote and died in the Senate Commerce Committee when the 117th Congress ended in January 2023.",
+  "one_liner": "Requires farm equipment makers to sell farmers the parts, tools, and manuals needed to fix their own machines.",
+  "headline": "The bill was introduced with one cosponsor, referred to the Senate Commerce Committee on February 1, 2022, and never received a hearing, a vote, or any further action before the 117th Congress ended.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would have required manufacturers of electronics-enabled farm equipment, such as tractors and combines with onboard computers, to sell repair documentation, parts, software, and tools to equipment owners and independent repair shops on the same terms they give their own authorized dealers. It would also let people bypass digital locks that block repair, put patents and copyrights into the public domain if a manufacturer withholds required items, and let the Federal Trade Commission enforce the rules.",
-  "who_benefits": "Farmers and ranchers who own or lease modern equipment, and independent repair shops. Today, much farm equipment depends on embedded software, and owners often cannot fix a breakdown or even run diagnostics without going to an authorized dealer, which can mean waiting days during planting or harvest. The bill would let them buy the parts and tools to fix machines themselves or at a local shop, and would require free access to service documentation and software tools.",
+  "plain_summary": "The bill would require farm equipment manufacturers to provide equipment owners and independent repair shops with the documentation, parts, software, and tools they need to diagnose, maintain, and repair modern electronics-dependent machinery, on the same favorable terms given to authorized dealers. It would let people bypass software locks for repair purposes, void the manufacturers' copyrights and patents if they stop supplying required items, and put the Federal Trade Commission in charge of enforcement.",
+  "who_benefits": "Farmers and ranchers who own or lease modern equipment, and independent repair shops. A tractor today can depend on embedded software for basic functions, and manufacturers generally restrict access to the diagnostic tools, software, parts, and manuals needed to fix them, which pushes owners toward dealer service at dealer prices and can leave a machine idle during planting or harvest while waiting for an authorized technician. The bill would force manufacturers to sell those repair inputs at no more than their best dealer price, make repair documentation free, bar software \"pairing locks\" that block aftermarket parts, and let owners legally bypass copyright-based software restrictions for repair. [S2] [S3]",
   "who_benefits_short": "Farmers and independent repair shops",
   "how_it_helps": [
    {
-    "text": "Requires manufacturers to offer owners and independent repair shops the parts, tools, documentation, and software needed to diagnose, maintain, or repair equipment on terms no worse than those given to authorized dealers, with documentation and software tools available at no charge [S3].",
+    "text": "Requires manufacturers to offer any owner or independent shop the documentation, parts, software, and tools needed to diagnose, maintain, or repair electronics-enabled farm equipment, on the same terms and at the same lowest price offered to authorized dealers.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Makes repair documentation available free of charge and repair software tools free, offline-capable, and unconditionally usable, so a farmer is not locked out of fixing a machine without an internet connection or manufacturer permission.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Bars manufacturers from requiring parts to be registered, paired, or approved by the manufacturer or a dealer before they will work, and bars imposing unnecessary costs or impediments on repairs [S3].",
+    "text": "Bans requirements that parts be registered, paired, or approved by the manufacturer or a dealer before they will operate, the mechanism that can make an aftermarket or salvaged part useless.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Allows circumvention of copyright-protected digital locks for repair, interoperability, and security research, and permits the trafficking in tools for those purposes, so owners are not blocked by software restrictions [S3].",
+    "text": "Allows owners and independent shops to bypass copyright-protected software locks for diagnosis, maintenance, repair, interoperability, security research, or lawful modification, overriding the portion of copyright law that otherwise makes such circumvention illegal.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Creates a stiff consequence for noncompliance: if a manufacturer stops providing required repair materials, its copyrights and patents on those items fall into the public domain.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Requires that parts be replaceable without damaging the machine using commonly available tools or tools the manufacturer must sell on fair terms.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "If a manufacturer stops supplying a required item to authorized repair providers, any copyright or patent it holds on that item goes into the public domain, and it must require parts be replaceable without damage using commonly available tools [S3].",
+    "text": "Puts the Federal Trade Commission in charge of enforcement, treating violations as unfair or deceptive practices, and requires the agency to write implementing rules.",
     "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Enforcement is assigned to the Federal Trade Commission, treating violations as unfair or deceptive practices [S3].",
-    "sources": [
+     "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Manufacturers of electronics-enabled farm equipment, such as makers of tractors and combines, would lose some control over and revenue from service, parts, and diagnostics, which are a significant profit center. Their authorized dealer networks would face competition from independent shops. Manufacturers argue repair access touches intellectual property, trade secrets, and safety, though the bill explicitly preserves trade secrets except where needed for repair and prohibits modifications that disable safety systems or evade emissions or safety laws [S3].",
+  "who_pays": "Agricultural equipment manufacturers and their dealer networks. They would lose some control over, and revenue from, repair service, diagnostic software, and proprietary parts, and would have to distribute documentation for free. If they stopped supplying required items, they would forfeit copyright and patent protection over those items. The bill's supporters generally argued that any equipment price increase would be small relative to repair savings; the record does not quantify it. [S2] [S3]",
   "who_pays_short": "Farm equipment manufacturers and their dealers",
   "drawbacks": [
    {
-    "text": "Equipment manufacturers would lose a lucrative service and parts business, and opponents argue that forcing disclosure of diagnostic software and repair processes risks exposing trade secrets and intellectual property, even though the bill contains an explicit carve-out that it does not require divulging trade secrets except as needed for repair access [S3].",
+    "text": "Manufacturers have long argued that opening diagnostic software and emissions- and safety-related controls to third parties creates cybersecurity, safety, and equipment-tampering risks. The bill tries to address this: it preserves trade secrets except where needed for repair, and it does not allow deactivating safety notification systems, making permanent changes that violate safety or emissions laws, or evading emissions or copyright law. Critics could still argue those lines are hard to police once circumvention tools circulate.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Safety and emissions risks: allowing owners to modify software could lead to unsafe or non-compliant machines; the bill responds by prohibiting changes that disable safety notifications, bring equipment out of emissions or safety compliance, or violate law, but enforcement of those limits would depend on FTC rulemaking and case-by-case policing [S3].",
+    "text": "The penalty is unusually heavy and arguably poorly targeted: a single failure to supply one item would place that item's copyright and patent into the public domain, potentially surrendering valuable intellectual property over a repair document or component. An honest supporter would acknowledge this remedy goes far beyond typical FTC enforcement.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill's key terms, such as 'fair and reasonable terms', would have to be defined through an FTC rulemaking process, which can take years and invite litigation, delaying any real-world benefit to farmers [S3].",
+    "text": "The bill covers only equipment 'exclusively used by the owner' in the owner's own agricultural operations, and leaves OEM-dealer agreements otherwise intact, so it would not reach every repair situation and would rely on FTC rulemaking to give the fair-and-reasonable terms practical meaning.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit is concrete for farmers: faster, cheaper repairs during narrow planting and harvest windows, and genuine ownership of equipment they have already paid for. The main costs fall on manufacturers and their dealers in the form of reduced service revenue and some exposure of proprietary repair processes, with the bill's trade-secret, safety, and emissions carve-outs addressing the strongest good-faith objections. The design is reasonably careful, though its reliance on FTC rulemaking would have slowed implementation.",
+  "benefit_vs_cost": "For the people it covers, the benefits are concrete and immediate: lower repair bills, faster turnaround during time-critical seasons, and the ability to use independent shops or do the work themselves. The costs fall on a small set of large manufacturers, mostly as lost repair revenue and compliance burden. The real weaknesses are in the design: the public-domain forfeiture penalty is a blunt instrument, and the safety and cybersecurity concerns the industry raises are addressed by carve-outs rather than a tested regime. On balance this is a consumer- and farmer-protective bill whose main cost is a transfer of power (and some revenue) away from a concentrated equipment-manufacturing industry.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The bill was introduced and referred to the Senate Commerce Committee, which never took it up, and it died there when the 117th Congress ended in January 2023.",
+   "mechanism": "It was referred to the Senate Commerce Committee the day it was introduced and the committee never took it up, so it died when the two-year Congress ended in January 2023.",
    "narrative": [
     {
-     "text": "Sen. Jon Tester introduced the bill on February 1, 2022, joined by Sen. Ben Ray Lujan [S1].",
+     "text": "Sen. Jon Tester introduced the Agricultural Right to Repair Act on February 1, 2022, joined by Sen. Ben Ray Lujan as the bill's only cosponsor.",
      "sources": [
-      "S1"
-     ]
-    },
-    {
-     "text": "The same day, the Senate read the bill twice and referred it to the Committee on Commerce, Science, and Transportation [S5].",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "No further action appears in the record: the committee never scheduled a markup or vote, the bill never reached the Senate floor, and the Congress ended on January 3, 2023 [S5].",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "Only one senator cosponsored the bill, so it lacked the broad support needed to force committee action [S4].",
-     "sources": [
+      "S1",
+      "S3",
       "S4"
      ]
-    }
-   ],
-   "who_came_out_ahead": "Farm equipment manufacturers keep their exclusive control over parts, diagnostics, and service, so farmers still depend on authorized dealers for repairs. Independent repair shops remain shut out of much of that work."
-  },
-  "who_came_out_ahead_short": "Farm equipment makers and dealer networks",
-  "sides": {
-   "for": [
+    },
     {
-     "name": "Sen. Jon Tester",
-     "role": "Sponsor",
-     "party": "D",
-     "what_they_did": "Introduced the Agricultural Right to Repair Act on February 1, 2022.",
-     "direct": true,
-     "evidence": "record",
+     "text": "The same day, the bill was read twice and referred to the Committee on Commerce, Science, and Transportation.",
      "sources": [
       "S1",
       "S5"
      ]
     },
     {
-     "name": "Sen. Ben Ray Lujan",
-     "role": "Cosponsor",
+     "text": "That was the last action of any kind: no hearing, no committee vote, no floor debate, and no roll-call vote ever occurred before the 117th Congress ended on January 3, 2023.",
+     "sources": [
+      "S1",
+      "S5"
+     ]
+    },
+    {
+     "text": "Because a bill must pass both chambers and be signed to become law, the bill's complete lack of committee action ended it.",
+     "sources": [
+      "S1",
+      "S5"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "Agricultural equipment manufacturers, whose repair and parts business was protected simply by the bill never moving. Farmers gained nothing; the repair restrictions the bill targeted remain unchanged by federal law."
+  },
+  "who_came_out_ahead_short": "Farm equipment makers kept the repair monopoly",
+  "sides": {
+   "for": [
+    {
+     "name": "Sen. Jon Tester",
+     "role": "U.S. Senator from Montana; bill sponsor",
      "party": "D",
-     "what_they_did": "Joined the bill as its only cosponsor at introduction.",
+     "what_they_did": "Introduced the Agricultural Right to Repair Act on February 1, 2022.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S4",
+      "S1",
       "S3"
+     ]
+    },
+    {
+     "name": "Sen. Ben Ray Lujan",
+     "role": "U.S. Senator from New Mexico; only cosponsor",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill at introduction; no other senators joined.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S4"
      ]
     }
    ],
    "against": [
     {
-     "name": "Senate Committee on Commerce, Science, and Transportation",
+     "name": "Senate Commerce, Science, and Transportation Committee",
      "role": "Committee of referral (chaired by Sen. Maria Cantwell, D-WA)",
-     "party": null,
-     "what_they_did": "Never took up the bill after referral; no markup, no vote, and the bill died at the end of the 117th Congress.",
+     "party": "D",
+     "what_they_did": "Received the referral on February 1, 2022 and took no further action: no hearing, no markup, no vote. The chair never scheduled the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S5"
+      "S5",
+      "S1"
      ]
     },
     {
-     "name": "Farm equipment manufacturers and their trade associations",
-     "role": "Manufacturers of electronics-enabled farm equipment",
+     "name": "Agricultural equipment manufacturers (e.g., John Deere) and dealer networks",
+     "role": "Industry whose repair and parts business the bill targeted",
      "party": null,
-     "what_they_did": "Opposed right-to-repair mandates covering their equipment, arguing repair access threatens intellectual property, cybersecurity, and safety.",
+     "what_they_did": "The record contains no direct congressional action by the industry on this bill; equipment makers were publicly opposing right-to-repair requirements during this period, favoring voluntary commitments instead.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "No vote ever occurred; both sponsors were Democrats and no Republican cosponsored, while the Republican and Democratic members of the Commerce Committee alike never acted on the bill."
+   "party_line_note": "No vote was ever taken, so no partisan split can be measured; both the sponsor (Tester) and the sole cosponsor (Lujan) were Democrats, and the Democratic-run Commerce Committee never acted."
   },
   "industries": [
    {
-    "industry": "Farm equipment manufacturers",
+    "industry": "Agricultural equipment manufacturers (e.g., John Deere, CNH)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill would strip manufacturers of exclusive control over repair parts, diagnostic software, and service manuals, which are a major profit center alongside machine sales. Farmers would be able to fix their own machines instead of returning to dealer-only service.",
+    "note": "The bill strips manufacturers of the power to restrict who can repair their machines and what parts can be used, and of the revenue that comes from routing repairs through authorized dealers at dealer-set prices. Its profit model depends on charging farmers for proprietary parts, software, and service, which is exactly what the bill requires them to share at cost.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "industry": "Authorized farm equipment dealers",
+    "industry": "Equipment dealers and authorized repair networks",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Dealers would lose a captive service market: independent shops and owners could buy parts and tools at the same prices and terms the manufacturer gives dealers. Dealer service revenue would face direct competition.",
+    "note": "Dealers' service departments would face competition from owners and independent shops for the first time on equal terms, since the bill pegs what manufacturers may charge outsiders to their best dealer terms and voids dealer-agreement clauses that would block it.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Independent farm repair shops",
+    "industry": "Independent agricultural equipment repair shops",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Shops would gain access to manuals, diagnostic tools, and parts at dealer-equivalent terms, letting them compete for repair work they are often currently locked out of. This runs alongside farmers' interest in faster, cheaper fixes.",
+    "note": "Independent shops would gain legal access to manuals, diagnostic software, parts, and unlocking tools, letting them compete for repair work they are currently often locked out of.",
     "sources": [
-     "S3"
-    ]
-   },
-   {
-    "industry": "Farmers and ranchers",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "Owners would get repair rights over machines they have bought, cutting repair costs and downtime during time-critical planting and harvest windows.",
-    "sources": [
+     "S2",
      "S3"
     ]
    }
   ],
   "trajectory": null,
   "categories": [
-   "antitrust_and_competition",
-   "consumer_protection_and_finance"
+   "consumer_protection_and_finance",
+   "antitrust_and_competition"
   ],
   "scores": {
    "public_stakes": 6,
    "concentrated_stakes": 7,
-   "outcome_against_public": 7,
-   "support_mismatch": 4,
-   "corruption_relevance": 1,
-   "confidence": 0.85
+   "outcome_against_public": 8,
+   "support_mismatch": 5,
+   "corruption_relevance": 2,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

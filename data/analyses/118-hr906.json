@@ -1,129 +1,150 @@
 {
  "bill_id": "118-hr906",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "62356a386f",
- "generated_at": "2026-09-20T02:43:34+00:00",
- "record_fetched_at": "2026-09-20T00:27:13+00:00",
+ "prompt_version": "e569b6c0a8",
+ "generated_at": "2026-09-20T04:36:14+00:00",
+ "record_fetched_at": "2026-09-20T04:07:48+00:00",
  "record_hash": "6f58bf8a0201a694",
  "analysis": {
-  "one_liner": "Requires carmakers to share vehicle data and repair tools with owners and independent repair shops.",
-  "headline": "A bipartisan right-to-repair bill with 56 cosponsors split evenly between the parties cleared a House subcommittee by voice vote in November 2023, but the full committee never voted on it and it died when the Congress ended on January 3, 2025.",
+  "one_liner": "Requires carmakers to share vehicle repair data, information, and tools with owners and independent repair shops.",
+  "headline": "A bipartisan right-to-repair bill with 56 cosponsors cleared a House subcommittee by voice vote in November 2023, but the full Energy and Commerce Committee never took it up and it died when the Congress ended without any floor vote.",
   "direction": "for_working_people",
-  "plain_summary": "The REPAIR Act would bar car manufacturers from blocking owners, their chosen mechanics, or aftermarket parts makers from accessing the data, software, and repair information needed to fix modern vehicles. It would require manufacturers to share repair data and tools at fair and reasonable cost, stop them from forcing the use of their brand of parts outside warranty and recall work, let owners pick their own towing and repair shop, and give the Federal Trade Commission power to enforce these rules. Today, as cars have turned into computers on wheels, manufacturers can lock repair data behind proprietary systems, steering repairs to dealerships and their own networks.",
-  "who_benefits": "Vehicle owners and lessees, who could get their cars fixed at independent shops or do the work themselves without paying for manufacturer-locked data access or being told they must use brand-name parts. Independent repair shops, tow companies, and aftermarket parts makers also gain, because they get guaranteed access to the diagnostic data and technical information needed to work on newer vehicles.",
+  "plain_summary": "The REPAIR Act would force car and truck manufacturers to let vehicle owners — and the independent shops and parts makers they choose — access the data their vehicles generate about diagnostics, repair, and maintenance, without fees or special manufacturer devices. It would bar manufacturers from blocking compatible aftermarket parts or steering owners to brand-name parts, tools, and dealer service, and it would put the Federal Trade Commission in charge of enforcing those rights, with the National Highway Traffic Safety Administration setting security standards for data access. The bill died in committee and never became law.",
+  "who_benefits": "Vehicle owners and lessees, who could get their cars fixed at any shop, use any qualified parts, and choose their own towing service without manufacturer lock-in. Independent repair shops, independent parts stores, aftermarket parts and tool manufacturers, and remanufacturers would gain access to the repair data and tools that manufacturers currently control, letting them compete for repair work that now flows to dealerships. Drivers in rural areas far from a dealer service center would gain nearby repair options.",
   "who_benefits_short": "Car owners and independent repair shops",
   "how_it_helps": [
    {
-    "text": "Manufacturers must give owners and their designees access to vehicle-generated data without restrictions, fees, licenses, or being forced to use a manufacturer's decryption device [S3].",
+    "text": "Manufacturers could not use technological barriers (like software locks or encryption requiring a manufacturer device) or legal barriers (like contract clauses or waivers) to stop owners, their chosen repair shops, or aftermarket parts makers from accessing vehicle-generated repair data or critical repair information and tools [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Manufacturers must make critical repair information and tools available to owners, independent repair facilities, and aftermarket parts makers at a fair, reasonable, and nondiscriminatory cost [S3].",
+    "text": "Vehicle-generated data would have to be provided to owners and their designees 'without restrictions or limitations (including a fee, license, or requiring use of a device mandated by the motor vehicle manufacturer),' and if a car transmits data wirelessly, the owner could get it directly from the vehicle through a standardized access platform [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Outside of recall and warranty repairs, manufacturers cannot mandate or imply a mandate to use their brand of parts, tools, or equipment, and any brand recommendation must carry a notice that owners can choose what to buy [S3].",
+    "text": "Outside of recalls and warranty repairs, manufacturers could not mandate or imply a mandate to use a particular brand of parts, tools, or equipment, and any recommendation would have to carry a plain-language notice that owners can choose their own parts [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Owners cannot be blocked from using the towing or repair provider of their choice, and contracts that try to waive these rights are void [S3].",
+    "text": "Owners could use the towing or service provider of their choice, and independent facilities could diagnose, repair, and maintain vehicles 'in the same manner as any motor vehicle manufacturer or motor vehicle dealer' [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "If a car uses wireless telematics, manufacturers must make repair data directly and wirelessly available through a standardized access platform, administered by an independent entity not controlled by manufacturers [S3].",
-    "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Violations are enforceable by the Federal Trade Commission, with a complaint process and a five-month deadline for orders [S3].",
+    "text": "The FTC would enforce the law: anyone could file a complaint, the FTC would have to investigate and issue a final order within five months, and contract clauses that try to waive these rights would be void [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Automakers bear the cost of opening their data and repair information systems, and lose some of the repair revenue that comes from steering owners to dealerships. Dealer service departments and manufacturer-authorized repair networks lose business when owners can choose independent shops. Aftermarket data and tool providers pay to build and secure the shared access platform.",
-  "who_pays_short": "Automakers and dealership service departments",
+  "who_pays": "Motor vehicle manufacturers would bear the cost: they would have to open repair data and tools at fair, reasonable, and nondiscriminatory cost, build and secure a wireless standardized access platform, run owner notifications, and comply with FTC and NHTSA rulemaking. They would also lose the leverage that steers out-of-warranty repair revenue to their own parts, tools, and dealer service centers. Consumers could see some of the compliance cost passed into vehicle prices.",
+  "who_pays_short": "Car and truck manufacturers",
   "drawbacks": [
    {
-    "text": "Cybersecurity risk: opening up real-time vehicle data to more parties creates more entry points for attackers, though the bill explicitly allows manufacturers to keep cryptographic protections and directs NHTSA to write security standards [S3].",
+    "text": "Opening real-time, wireless access to vehicle data creates a cybersecurity risk the bill itself acknowledges: it carves out the right of manufacturers to keep 'cryptographic or technological protections necessary to secure vehicle-generated data, safety critical vehicle systems, and vehicles,' and it directs NHTSA to write security standards before the access platform goes live [S3]. Opponents of open telematics access have argued it could be exploited for vehicle theft or tracking.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The bill preempts state laws that impose narrower duties on manufacturers and overrides any state law requiring use of a particular brand of parts or tools, which could roll back state-level repair rules some consumers currently rely on [S3].",
+    "text": "Implementation would be steered largely by industry: the FTC's advisory committee reserves eleven appointed seats for industry sectors — manufacturers, dealer service centers, parts makers, insurers, trucking — against a single seat for consumer rights organizations, and the independent entity administering data access would be built from a 'cross-section of industry stakeholders' [S3].",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Implementation is slow: key rules take up to two years to write, and the most valuable telematics data access only begins a year after the final rule, so owners of cars bought in the meantime get limited immediate benefit [S3].",
+    "text": "Enforcement is complaint-driven and soft: a manufacturer that fixes the specific conduct complained of 'shall be relieved of liability' for that violation, and no private right of action is created — owners depend on FTC action within a five-month order deadline [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Relief would be slow. Data access rules take effect on enactment, but the wireless standardized access platform and its administrator would not be in place until roughly two years after NHTSA and FTC finish their rulemakings [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "The bill would preempt state laws in places — including any state law mandating particular brands of parts or tools — raising the concern that a federal floor could displace stronger state right-to-repair rules [S3].",
     "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "For most drivers the benefits are concrete: lower repair bills, freedom to pick a mechanic or tow service, and no forced purchases of brand-name parts outside warranty work. The real costs fall on automakers and their dealer networks, not on the public. The main design risks are cybersecurity and a two-year wait for full rules, and the preemption clause is a genuine tradeoff since it overrides some state repair laws. On balance a reasonably designed bill whose main cost is borne by the industry that currently holds the data.",
+  "benefit_vs_cost": "The core bargain is strong for drivers: cheaper, more competitive repair options against real but manageable costs for automakers, which already control the security architecture and could retain encryption protections. The honest weaknesses are in the design, not the goal — industry-heavy implementation bodies, complaint-only enforcement with no private lawsuit option, and a multi-year wait for the wireless data platform all soften what the bill delivers. On balance it is a consumer bill with genuine guardrails, weakened at the edges.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It cleared a House subcommittee by voice vote in November 2023, but the full Energy and Commerce Committee never took it up and it died when the 118th Congress ended.",
+   "mechanism": "The bill died in committee: a House subcommittee approved it by voice vote in November 2023, but the full Energy and Commerce Committee never marked it up and it never reached the House floor before the Congress ended in January 2025.",
    "narrative": [
     {
-     "text": "The bill was introduced on February 9, 2023 by Rep. Neal Dunn (R-FL) with bipartisan original cosponsors, and referred to the House Energy and Commerce Committee [S1].",
+     "text": "Rep. Neal Dunn (R-FL) introduced the REPAIR Act on February 9, 2023, with three original cosponsors from both parties — Rep. Brendan Boyle (D-PA), Rep. Warren Davidson (R-OH), and Rep. Marie Gluesenkamp Perez (D-WA) — and it was referred to the House Committee on Energy and Commerce [S1] [S3] [S5].",
      "sources": [
-      "S1"
+      "S1",
+      "S3",
+      "S5"
      ]
     },
     {
-     "text": "It drew 56 cosponsors, split evenly at 28 Democrats and 28 Republicans [S4].",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "On November 2, 2023, the Innovation, Data, and Commerce Subcommittee held a markup and forwarded the bill to the full committee by voice vote [S5].",
+     "text": "It was referred the same week to the Subcommittee on Innovation, Data, and Commerce, where it sat for more than eight months [S5].",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "The full Energy and Commerce Committee never held a markup or vote on the bill, and no floor action ever occurred before the Congress ended on January 3, 2025 [S5].",
+     "text": "On November 2, 2023, the subcommittee held a mark-up session and forwarded the bill to the full committee by voice vote — a step with no recorded opposition [S5].",
      "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "That was the bill's last action. The full Energy and Commerce Committee never held a markup or vote, the bill never received a House floor vote of any kind, and no Senate action ever occurred; the 118th Congress ended on January 3, 2025 with the bill dead [S1] [S5].",
+     "sources": [
+      "S1",
       "S5"
      ]
     }
    ],
-   "who_came_out_ahead": "Automakers keep exclusive control of the vehicle data and repair information that decides where cars can be fixed, and dealership service departments keep the repair business that independent shops never gained access to. Drivers keep paying the resulting higher repair costs."
+   "who_came_out_ahead": "Automakers came out ahead: by letting the bill expire in committee, they kept control of vehicle-generated repair data, critical repair information, and tools, and preserved the flow of repair work and parts sales toward manufacturer channels and dealer service centers."
   },
-  "who_came_out_ahead_short": "Automakers and their dealer service networks",
+  "who_came_out_ahead_short": "Automakers, whose repair data control survives",
   "sides": {
    "for": [
     {
      "name": "Rep. Neal Dunn",
-     "role": "Sponsor, House Energy and Commerce Committee member",
+     "role": "Sponsor (R-FL)",
      "party": "R",
-     "what_they_did": "Introduced the REPAIR Act and led it through the subcommittee process.",
+     "what_they_did": "Introduced the REPAIR Act on February 9, 2023 and pressed it through subcommittee.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3"
+      "S3",
+      "S5"
+     ]
+    },
+    {
+     "name": "House Subcommittee on Innovation, Data, and Commerce",
+     "role": "Subcommittee of Energy and Commerce",
+     "party": null,
+     "what_they_did": "Held a mark-up session on November 2, 2023 and forwarded the bill to the full committee by voice vote — the only recorded vote in the bill's life.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S5"
      ]
     },
     {
      "name": "Reps. Brendan Boyle, Warren Davidson, and Marie Gluesenkamp Perez",
-     "role": "Original bipartisan cosponsors",
-     "party": "mixed",
-     "what_they_did": "Joined Rep. Dunn in introducing the bill across party lines.",
+     "role": "Original cosponsors (D-PA, R-OH, D-WA)",
+     "party": "Mixed",
+     "what_they_did": "Joined as original cosponsors across party lines on introduction day.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -132,9 +153,9 @@
     },
     {
      "name": "56 House cosponsors",
-     "role": "28 Democrats and 28 Republicans",
-     "party": "mixed",
-     "what_they_did": "Signed on as cosponsors, giving the bill evenly split bipartisan support.",
+     "role": "Cosponsors, evenly split 28 Democrats and 28 Republicans",
+     "party": "Mixed",
+     "what_they_did": "Signed on in support, giving the bill unusual bipartisan breadth for the 118th Congress.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -142,21 +163,10 @@
      ]
     },
     {
-     "name": "Innovation, Data, and Commerce Subcommittee",
-     "role": "Subcommittee of House Energy and Commerce",
+     "name": "Aftermarket parts and repair industry (Auto Care Association, SEMA)",
+     "role": "Industry coalition backing right-to-repair",
      "party": null,
-     "what_they_did": "Held a markup on November 2, 2023 and forwarded the bill to the full committee by voice vote.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "name": "Independent repair shops and the aftermarket parts industry",
-     "role": "Aftermarket repair and parts trade groups",
-     "party": null,
-     "what_they_did": "Publicly championed right-to-repair legislation as the industries the bill would open access for.",
+     "what_they_did": "Publicly championed federal right-to-repair legislation for vehicles and backed the bill.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
@@ -164,10 +174,10 @@
    ],
    "against": [
     {
-     "name": "House Energy and Commerce Committee leadership",
-     "role": "Full committee chair",
+     "name": "House Energy and Commerce Committee leadership (Chair Cathy McMorris Rodgers)",
+     "role": "Chair, House Energy and Commerce Committee",
      "party": "R",
-     "what_they_did": "Never scheduled a full committee markup or vote on the bill after the subcommittee forwarded it in November 2023; the bill sat for the remaining year of the Congress and died.",
+     "what_they_did": "Never scheduled a full-committee markup or vote after the subcommittee forwarded the bill in November 2023, letting it sit until the Congress ended.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -175,51 +185,51 @@
      ]
     },
     {
-     "name": "Automakers",
-     "role": "Vehicle manufacturers through their trade association",
+     "name": "Automotive manufacturers (Alliance for Automotive Innovation and member companies)",
+     "role": "Trade group and automakers",
      "party": null,
-     "what_they_did": "Fought right-to-repair requirements in Congress and states, arguing open data access creates cybersecurity and safety risks.",
+     "what_they_did": "Lobbied against mandates to open vehicle-generated data and repair systems to independent shops, arguing cybersecurity and safety risks.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "Support was evenly split, with 28 Republican and 28 Democratic cosponsors, and the subcommittee advanced it on a voice vote; the opposition that mattered was not partisan but the committee leadership's decision never to schedule a full vote."
+   "party_line_note": "Support was evenly bipartisan from the start — 28 Democrats and 28 Republicans among 56 cosponsors, with a bipartisan group of four original sponsors — and the subcommittee advanced it by voice vote; no one ever had to cast a recorded vote against it."
   },
   "industries": [
    {
-    "industry": "Automakers",
+    "industry": "Automobile and light truck manufacturers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill strips manufacturers of exclusive control over vehicle-generated data and critical repair information, requiring them to hand it over at fair cost and ending their ability to steer repairs to their own networks. Their loss is the driver's gain: cheaper, freer repair choices.",
+    "note": "The bill would strip manufacturers of their gatekeeper control over vehicle-generated data, repair software, and tools, and would bar them from steering owners to their own parts and service. Out-of-warranty repair and parts are a major profit stream for automakers and their dealer networks, which is why an industry-wide lobby fought to keep such mandates off the books.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Independent auto repair shops and tow companies",
+    "industry": "Independent auto repair facilities",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Shops get guaranteed access to diagnostic data, software, and repair tools needed for modern vehicles, letting them compete with dealerships on newer cars. Owners get more options and lower prices.",
+    "note": "Shops would get the same diagnostic data, repair procedures, software, and tools as dealers, letting them fix late-model, software-heavy cars they increasingly cannot service. That means more competition and closer, often cheaper repair options for drivers.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Aftermarket parts manufacturers and remanufacturers",
+    "industry": "Aftermarket parts and tool manufacturers and remanufacturers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "The bill bars manufacturers from blocking compatible aftermarket parts and from mandating brand-name parts outside warranty work, expanding the aftermarket's market and keeping repair prices down for owners.",
+    "note": "The bill would prohibit manufacturers from blocking compatible aftermarket parts and from brand mandates in repair manuals, protecting the aftermarket's ability to sell parts that work with modern vehicles.",
     "sources": [
      "S3"
     ]
    },
    {
-    "industry": "Dealership service departments",
+    "industry": "Car dealerships (service departments)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Dealer service centers lose the captive repair revenue that comes from owners having no alternative when independent shops cannot access the data. Consumers' savings come largely out of their margins.",
+    "note": "Dealer service centers would lose a captive share of out-of-warranty repair work as owners gain real choices, though dealers would face new duties to inform buyers of their rights at purchase.",
     "sources": [
      "S3"
     ]
@@ -234,9 +244,9 @@
    "public_stakes": 6,
    "concentrated_stakes": 7,
    "outcome_against_public": 8,
-   "support_mismatch": 7,
-   "corruption_relevance": 2,
-   "confidence": 0.85
+   "support_mismatch": 8,
+   "corruption_relevance": 1,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []
