@@ -1,125 +1,130 @@
 {
  "bill_id": "118-hr5604",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "79e1af7370",
- "generated_at": "2026-09-20T00:29:00+00:00",
+ "prompt_version": "62356a386f",
+ "generated_at": "2026-09-20T02:42:41+00:00",
  "record_fetched_at": "2026-09-20T00:27:25+00:00",
  "record_hash": "43eed757ad13d5c9",
  "analysis": {
   "one_liner": "Requires farm equipment makers to sell repair parts, tools, software, and manuals to owners and independent repair shops.",
-  "headline": "The bill was sent to a House committee in September 2023, never received a hearing or a vote, and died when the term ended.",
+  "headline": "The Agricultural Right to Repair Act never got a vote; it sat in a House subcommittee from September 2023 until the Congress ended in January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would require companies that make tractors, combines, and other farm equipment to sell or give owners and independent repair shops the same parts, tools, manuals, and software the companies give their own dealers. It would also let owners get the data their machines generate and unlock electronic security locks so repairs can be done outside the dealer network. The Federal Trade Commission would write the rules and enforce them.",
-  "who_benefits": "Farmers and ranchers who own or lease equipment, and independent repair shops. Today, when a modern tractor or combine breaks down, owners often cannot fix it themselves or use a local mechanic because the manufacturer restricts diagnostic software, special tools, and parts pairing. The bill would let them repair on their own schedule \u2014 critical during planting and harvest windows \u2014 often at lower cost. It would also send equipment data back to the owner, and it would place manuals, software, and tools no longer offered even to dealers into the public domain so old machines stay fixable.",
+  "plain_summary": "The bill would force manufacturers of tractors, combines, and other farm equipment to share the manuals, parts, diagnostic software, and repair tools they currently keep for themselves and their authorized dealers. Farmers and independent repair shops could then fix their own equipment instead of relying on the manufacturer's network. The Federal Trade Commission would enforce the rules.",
+  "who_benefits": "Farmers and ranchers who own or lease equipment, and independent repair shops. They would get free access to manuals and diagnostic documentation, tools at no charge (owners) or at the best price any authorized dealer gets (shops), parts that cannot be locked to the manufacturer's approval, and the right to bypass digital locks to make repairs. This means faster and cheaper repairs, especially during planting and harvest when downtime is most costly.",
   "who_benefits_short": "Farmers and independent repair shops",
   "how_it_helps": [
    {
-    "text": "Requires manufacturers to make repair documentation, parts, embedded software, firmware, and tools available to any equipment owner or independent repair provider on 'fair and reasonable terms' \u2014 with documentation free of charge and tools free to farmers.",
+    "text": "OEMs must make repair documentation, parts, software, firmware, and tools available to any equipment owner or independent repair provider on fair and reasonable terms, and must share equipment data with the owner or a repair provider the owner authorizes.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Bars manufacturers from locking repairs to their dealer network: parts could not be blocked through 'registration, pairing, or approval' requirements, and owners could not be forced to become authorized dealers to fix their own machines.",
+    "text": "Documentation and repair tools would be free for equipment owners (only actual shipping costs allowed for physical copies), and independent shops would pay no more than the best price and get no worse terms than any authorized dealer.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Lets owners and repair shops bypass electronic security locks and digital rights restrictions specifically to diagnose, maintain, or repair equipment, overriding the copyright law provision that manufacturers otherwise use to stop third-party repairs.",
+    "text": "Parts cannot be conditioned on manufacturer registration, pairing, or approval before they work, and shops cannot be required to become authorized dealers to use a part or tool.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires manufacturers to hand over the data a machine generates, either to the owner or to an independent shop with the owner's authorization.",
+    "text": "The bill overrides the part of copyright law that otherwise makes bypassing digital locks illegal, allowing circumvention for diagnosing, maintaining, upgrading, or repairing farm equipment, for interoperability, and for security research.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Makes the Federal Trade Commission the enforcer, treating a violation like an unfair or deceptive practice, and directs the agency to write the rules.",
+    "text": "Violations are treated as unfair or deceptive practices under the FTC Act, enforced by the Federal Trade Commission, and the FTC must write rules to carry the law out.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Keeps old equipment repairable: when a manufacturer stops offering a part, tool, or documentation even to its dealers, any copyright or patent on it goes into the public domain.",
+    "text": "If a manufacturer stops offering a documentation item, part, software, or tool to its own authorized dealers, any copyright or patent the maker holds on it passes into the public domain.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Farm equipment manufacturers \u2014 companies like John Deere, CNH, and AGCO \u2014 which would lose some of the high-margin service, parts, and software revenue that comes from being the only ones who can fix a machine. The bill tries to soften this by protecting trade secrets (except where needed for repair), leaving authorized-dealer agreements alone, and banning modifications that defeat emissions controls, safety systems, or other laws. Some compliance costs could ultimately show up in equipment prices.",
-  "who_pays_short": "Farm equipment manufacturers",
+  "who_pays": "Farm equipment manufacturers and their authorized dealer networks. Manufacturers would lose the exclusive control over repair parts, software, and service revenue that comes from locking equipment to their own approval systems, and dealers would face competition from independent shops and do-it-yourself owners on parts and repair labor.",
+  "who_pays_short": "Farm equipment makers and dealer networks",
   "drawbacks": [
    {
-    "text": "Manufacturers would lose revenue from being the sole provider of dealer-only repairs, diagnostics, and parts \u2014 money that helps fund engineering, and some of the lost margin could be recovered through higher equipment prices for farmers.",
+    "text": "The bill preserves limits in the name of safety and environmental law: it does not allow permanently disabling safety notification systems, making changes that put equipment out of compliance with safety or emissions rules, or any other illegal modification.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Opening security locks and repair software to anyone raises real cybersecurity and tampering concerns, including the risk that modified equipment could evade emissions controls or disable safety warnings; the bill's answer is a list of prohibitions in Section 6 rather than a technical safeguard, and critics would argue enforcement after the fact is not enough.",
+    "text": "Manufacturers are not required to hand over trade secrets except as needed to supply repair material or processes on fair and reasonable terms, so some technical information could remain out of reach.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The FTC would have to write detailed rules for a technical, fast-changing market, and critics of that approach say one-size-fits-all federal rules could mandate disclosure of sensitive design information even with the bill's trade-secret carve-out.",
+    "text": "Makers of electronics-enabled machinery have argued that opening up firmware and diagnostic software creates risks of tampering, cybersecurity vulnerabilities, and liability when non-factory repairs go wrong; the bill's carve-outs attempt to address this but would still be a major change to how these companies control their products.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core benefit is concrete and time-sensitive: a combine that fails mid-harvest can be fixed in hours by a local mechanic instead of waiting days for a dealer's scheduled visit, and repair bills drop when farmers can do the work themselves. The costs are real but limited \u2014 the bill was drafted to avoid forcing disclosure of trade secrets, to leave dealer contracts intact, and to ban modifications that break emissions or safety rules. The main design weakness is that it leans on FTC rulemaking and after-the-fact prohibitions to handle security risks rather than building them into the requirements. On balance it transfers bargaining power from manufacturers to equipment owners at a modest, mostly commercial cost.",
+  "benefit_vs_cost": "The benefits are concrete and immediate: a farmer waiting on an authorized dealer during harvest loses time and money that independent repair access could save. The costs fall on manufacturers, who would give up a profitable service and parts business and would need to rework how they control equipment software. The bill tries to manage the real safety and emissions risks with explicit limits, though enforcing 'fair and reasonable terms' on proprietary software would inevitably produce disputes. On balance it is a well-aimed consumer and competition bill whose main weakness is the difficulty of policing compliance.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "It was introduced and referred to the House Energy and Commerce Committee, then to a subcommittee, and no one ever brought it up again before the term ran out.",
+   "mechanism": "The bill was introduced and referred to the House Energy and Commerce Committee, which sent it to a subcommittee and then never took it up before the two-year Congress ended.",
    "narrative": [
     {
-     "text": "Rep. Marie Gluesenkamp Perez, a Democrat from a rural Washington district, introduced the Agricultural Right to Repair Act on September 20, 2023.",
+     "text": "Representative Marie Gluesenkamp Perez introduced the bill in the House on September 20, 2023, and it was referred to the House Committee on Energy and Commerce the same day.",
      "sources": [
       "S1",
-      "S2"
+      "S4"
      ]
     },
     {
-     "text": "The same day, the bill was referred to the House Energy and Commerce Committee, which holds jurisdiction over the FTC and most right-to-repair proposals; two days later it was sent to the Subcommittee on Innovation, Data, and Commerce.",
+     "text": "Two days later, on September 22, 2023, it was referred to the Subcommittee on Innovation, Data, and Commerce.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "Nine Democratic colleagues cosponsored the bill, but it received no hearing, no markup, and no floor vote for the rest of the 118th Congress, which ended January 3, 2025.",
+     "text": "Nine members cosponsored the bill, all of them Democrats; no Republican cosponsor is listed.",
      "sources": [
-      "S3",
+      "S3"
+     ]
+    },
+    {
+     "text": "That was the last action of any kind: no subcommittee markup, no full committee vote, no floor vote, and no Senate action ever occurred before the 118th Congress ended on January 3, 2025.",
+     "sources": [
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "Farm equipment manufacturers keep their exclusive control over parts, repair software, and dealer service networks, and the service and parts revenue that comes with it. Farmers gain nothing; they remain dependent on manufacturer dealerships for repairs."
+   "who_came_out_ahead": "Farm equipment manufacturers and their authorized dealer networks are better off, because they keep exclusive control over repair parts, diagnostic software, and service revenue, and farmers still must rely on that network."
   },
-  "who_came_out_ahead_short": "Farm equipment manufacturers",
+  "who_came_out_ahead_short": "Farm equipment makers and their dealers",
   "sides": {
    "for": [
     {
      "name": "Rep. Marie Gluesenkamp Perez",
-     "role": "Sponsor, U.S. House of Representatives",
+     "role": "Sponsor, H.R. 5604",
      "party": "D",
-     "what_they_did": "Introduced the bill and recruited nine cosponsors; represents a rural Washington district where equipment repair access is a live constituent issue.",
+     "what_they_did": "Introduced the Agricultural Right to Repair Act and got it referred to the Energy and Commerce Committee.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2"
+      "S4"
      ]
     },
     {
-     "name": "Nine House Democrats",
+     "name": "9 House Democrats",
      "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as cosponsors; all nine were Democrats, and none was a member whose support moved the bill out of committee.",
+     "what_they_did": "Signed on as cosponsors of the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -129,38 +134,59 @@
    ],
    "against": [
     {
-     "name": "House Energy and Commerce Committee and its Innovation, Data, and Commerce Subcommittee",
-     "role": "Committee of referral",
+     "name": "House Energy and Commerce Committee leadership",
+     "role": "Committee of referral (chaired by a Republican in the 118th Congress)",
      "party": "R",
-     "what_they_did": "Held the bill from September 2023 until the Congress ended without scheduling a hearing or markup, which under House rules prevented any floor vote.",
+     "what_they_did": "Received the bill by referral, routed it to the Innovation, Data, and Commerce Subcommittee, and never scheduled a markup, committee vote, or floor action for it in the 15 months before the Congress ended.",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S1",
       "S4"
      ]
-    },
-    {
-     "name": "Rep. Cathy McMorris Rodgers",
-     "role": "Chair, House Energy and Commerce Committee",
-     "party": "R",
-     "what_they_did": "Led the committee that never took up the bill; no markup was scheduled during her chairmanship.",
-     "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
-    },
-    {
-     "name": "Farm equipment manufacturers (John Deere, CNH, AGCO and their trade associations)",
-     "role": "Industry",
-     "party": null,
-     "what_they_did": "Fought federal right-to-repair legislation as a group, arguing that unrestricted access to software and repair tools creates safety, emissions, and cybersecurity risks; Deere and farm-equipment dealers pushed a voluntary industry agreement instead.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
     }
    ],
-   "party_line": "unclear",
-   "party_line_note": "No vote was ever taken, so the record shows only that all 10 supporters (the sponsor plus 9 cosponsors) were Democrats; right-to-repair proposals have drawn some Republican interest, but none here."
+   "party_line": "mostly_party_line",
+   "party_line_note": "The sponsor and all nine cosponsors were Democrats, and no Republican support or opposition vote is on the record — the bill never advanced far enough to force one."
   },
+  "industries": [
+   {
+    "industry": "Farm equipment manufacturers",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill would end their exclusive control over the manuals, parts, diagnostic software, and unlocking tools for the tractors and combines they sell, cutting into service and parts revenue and forbidding software locks that require manufacturer approval before a part works.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Authorized dealer and service networks",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "Dealers would lose the near-monopoly on farm equipment repair, since owners and independent shops could get the same parts and tools at the same prices and terms dealers get.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Independent agricultural repair shops",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "They would gain legal access to documentation, tools at dealer-equivalent prices, and parts that work without manufacturer pairing, letting them compete for repair work.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Farm and ranch operators",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "Farmers could fix their own equipment or use any shop, with free manuals and tools, reducing downtime and repair costs during critical planting and harvest windows.",
+    "sources": [
+     "S2"
+    ]
+   }
+  ],
   "trajectory": null,
   "categories": [
    "consumer_protection_and_finance",
@@ -170,8 +196,8 @@
    "public_stakes": 6,
    "concentrated_stakes": 7,
    "outcome_against_public": 8,
-   "support_mismatch": 4,
-   "corruption_relevance": 2,
+   "support_mismatch": 5,
+   "corruption_relevance": 3,
    "confidence": 0.85
   }
  },

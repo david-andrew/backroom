@@ -1,111 +1,120 @@
 {
  "bill_id": "119-hr7404",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "79e1af7370",
- "generated_at": "2026-09-20T00:39:32+00:00",
+ "prompt_version": "62356a386f",
+ "generated_at": "2026-09-20T02:56:22+00:00",
  "record_fetched_at": "2026-09-20T00:27:28+00:00",
  "record_hash": "dc35789ba1a444d2",
  "analysis": {
-  "one_liner": "Requires electronics makers to sell parts, tools, and repair manuals to owners and independent shops.",
-  "headline": "The bill has just 2 cosponsors and has sat in the House Energy and Commerce Committee with no hearing or vote since its February 2026 referral.",
+  "one_liner": "Requires electronics makers to sell parts, tools, and manuals to independent repair shops and owners.",
+  "headline": "The Fair Repair Act, introduced February 5, 2026 with two cosponsors, sits in the House Energy and Commerce Committee with no action since its referral.",
   "direction": "for_working_people",
-  "plain_summary": "The Fair Repair Act would require makers of digital electronics — phones, laptops, appliances, and anything else that runs on digital electronics — to sell spare parts, repair tools, and service manuals to device owners and independent repair shops on the same terms they give their own authorized repair networks. It would also ban software tricks like \"parts pairing,\" where a manufacturer programs a device to reject or downgrade a working replacement part that didn't come from the factory. The Federal Trade Commission and state attorneys general would enforce the rules. The bill excludes motor vehicles, medical devices, and several other categories, and shields manufacturers from liability for damage caused by independent repairs.",
-  "who_benefits": "Owners of phones, laptops, tablets, appliances, and other digital electronics gain the right to fix their own devices or take them to any local shop, with access to the same parts, tools, and manuals the manufacturer gives its authorized dealers. Independent repair businesses gain access to parts and documentation at terms no worse than authorized dealers get, which lets them compete on price and turnaround time. The bill defines \"fair and reasonable terms\" as the best price and conditions the manufacturer offers anyone, so independent shops could not be priced out. Consumers who currently face the choice of an expensive manufacturer repair or buying a new device would see more repair options and more competition.",
+  "plain_summary": "The bill would require makers of digital electronic equipment — phones, laptops, appliances, and similar products — to sell repair parts, tools, and documentation to independent repair shops and device owners on terms no worse than they give their own authorized repair networks. It would also ban \"parts pairing,\" the software practice of rejecting or degrading third-party replacement parts and flashing warning messages about them. The Federal Trade Commission and state attorneys general could enforce these rules.",
+  "who_benefits": "Owners of electronics — households that would otherwise pay manufacturer-set repair prices or replace devices outright — plus independent repair shops, which gain access to the same parts, tools, and manuals that authorized networks get. Cheaper repairs also mean devices stay in use longer, cutting e-waste.",
   "who_benefits_short": "Device owners and independent repair shops",
   "how_it_helps": [
    {
-    "text": "Manufacturers must make documentation, parts, and tools — including updates — available to owners and independent repair providers on terms equivalent to the best terms they give their own authorized repair network [S2].",
+    "text": "OEMs must make documentation, parts, and tools available to independent repair providers and owners on terms equivalent to the best terms they offer their own authorized repair networks, including software updates.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill bans parts pairing and similar software locks that keep a working replacement part from functioning, degrade device performance after an independent repair, or trigger false warnings and extra repair fees [S2].",
+    "text": "The bill bans parts pairing and similar mechanisms that block functional third-party parts, degrade device performance after an independent repair, display non-dismissible warnings about non-manufacturer parts, or limit who can buy parts or perform repairs.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The Federal Trade Commission would enforce the requirements as unfair or deceptive practices, and every state attorney general could sue violators in federal or state court to stop them, win civil penalties, and recover money for state residents [S2].",
+    "text": "If a device has a security lock, the manufacturer must provide what is needed to disable and reset it during repair, so security features cannot be used to lock owners out of fixing their own property.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Manufacturers cannot escape the rules through contracts — any arrangement with authorized repair providers that tries to waive the manufacturer's obligations under the act is void [S2].",
+    "text": "Both the FTC and state attorneys general can enforce the requirements, with states able to seek penalties, damages, and restitution for their residents.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Electronics manufacturers — makers of phones, computers, appliances, and other digital devices — would have to sell parts, tools, and manuals at prices and terms at least as favorable as those given to their authorized dealers, ending practices like parts pairing that steer repairs into their own channels. They would lose some repair revenue and some of the advantage that pushes customers toward buying new devices instead of fixing old ones, and would bear the cost of publishing documentation and distributing parts more widely. Consumers doing their own repairs or using independent shops would bear the risk when a repair goes wrong, because the bill blocks manufacturers from being liable for damage or data breaches caused by independent repair work.",
-  "who_pays_short": "Phone, computer, and appliance manufacturers",
+  "who_pays": "Electronics manufacturers, who would lose pricing power over repair parts and services, and their authorized repair networks, which would no longer be the exclusive channel for parts and repairs. Some of that cost could be passed to buyers through higher device prices, though repair competition would push the other way.",
+  "who_pays_short": "Electronics manufacturers and their authorized repair networks",
   "drawbacks": [
    {
-    "text": "The bill shields manufacturers from liability for damage, injury, data loss, or data breaches that result from work done by independent repair providers or owners, and requires no warranty on independent repairs — so if a third-party repair goes badly, the device owner generally has little recourse against the maker [S2].",
+    "text": "The bill expressly exempts motor vehicles, motor vehicle equipment, medical devices, off-road and non-road vehicles (including aircraft, motorcycles, boats, and ATVs), and safety communications equipment, so repair restrictions on those products — including hospital equipment and farm-adjacent machinery — would be untouched.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Large categories are carved out entirely: motor vehicles, medical devices, off-road and non-road vehicles such as motorcycles, boats, aircraft, and ATVs, and emergency communications equipment are all excluded, so owners of those products get no new repair rights [S2].",
+    "text": "Manufacturers are freed from liability for damage, data loss, privacy breaches, or improper use of personal data arising from repairs done by independent shops or owners, shifting the risk of a bad repair onto the person who chose it.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The manufacturer's duty to open up security locks applies only 'as necessary' and the bill preserves trade secrets, which leaves room for manufacturers to argue that security-sensitive tools and documentation cannot be shared with independent shops — a real constraint on how much repair access this actually creates [S2].",
+    "text": "Requiring manufacturers to hand over tools that disable security locks, even with reset requirements, draws a good-faith objection that wider access to security-critical tools could be abused.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The trade-secret carve-out — manufacturers need not divulge trade secrets beyond what is necessary to supply parts, tools, and documentation — leaves room for disputes over what must actually be shared.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core benefit is real and broad: almost every device an ordinary household owns would become cheaper and easier to fix, and small repair shops would get a fair shot at the parts and manuals they need. The bill is not badly designed — it has genuine enforcement power through the FTC and state attorneys general, and it closes the contract loophole manufacturers otherwise use. But the liability shield is a serious concession: owners who choose independent repair take on the risk themselves, and the exclusions for cars, medical devices, and farm-adjacent equipment leave out some of the products where repair costs bite hardest. On balance it would help working people, with costs concentrated on manufacturers, though the help is narrower than the bill's title suggests.",
+  "benefit_vs_cost": "The core benefit is real and straightforward: people who own a device would be able to fix it — or have it fixed affordably — instead of being steered into manufacturer-priced repairs or forced replacement. The honest costs are the liability shield for manufacturers and the risk questions around security-lock tools, both of which fall on the repair side rather than the manufacturer side. The biggest design weakness is what was left out: cars, medical devices, and most vehicles are exempt, so the bill covers consumer electronics but not the categories where repair restrictions most often strand people.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was referred to the House Energy and Commerce Committee in February 2026 and has stayed there with no hearing, markup, or floor vote.",
+   "mechanism": "The bill was introduced on February 5, 2026 and referred to the House Energy and Commerce Committee, where it has sat with no hearings, no markup, and no vote.",
    "narrative": [
     {
-     "text": "Representative Joseph Morelle of New York introduced the Fair Repair Act on February 5, 2026, joined by Representative Perez; it was referred to the House Committee on Energy and Commerce the same day [S1].",
-     "sources": [
-      "S1"
-     ]
-    },
-    {
-     "text": "The bill has exactly 2 cosponsors, both Democrats, and no further action has been taken since the referral — no committee hearing, markup, or vote appears in the action history [S3].",
-     "sources": [
-      "S3"
-     ]
-    },
-    {
-     "text": "Congress runs through January 3, 2027, so the bill is still technically alive, but it currently has no committee activity and no path to the floor [S1].",
-     "sources": [
-      "S1"
-     ]
-    }
-   ],
-   "who_came_out_ahead": "Electronics manufacturers are ahead so far: with the bill parked in committee, no repair-access or anti-parts-pairing rules have taken effect, and manufacturers continue to control who can buy parts and perform repairs. Device owners continue to face the current repair options and prices."
-  },
-  "who_came_out_ahead_short": "Electronics manufacturers, so far",
-  "sides": {
-   "for": [
-    {
-     "name": "Rep. Joseph Morelle",
-     "role": "Sponsor",
-     "party": "D",
-     "what_they_did": "Introduced the Fair Repair Act on February 5, 2026",
-     "direct": true,
-     "evidence": "record",
+     "text": "Rep. Joseph Morelle (D-NY), joined by Ms. Perez, introduced the Fair Repair Act in the House on February 5, 2026.",
      "sources": [
       "S1",
       "S2"
      ]
     },
     {
-     "name": "Rep. Perez",
+     "text": "The bill was referred the same day to the House Committee on Energy and Commerce, which has jurisdiction over consumer protection matters.",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "The bill has two cosponsors, both Democrats, and no further action has been taken since the referral.",
+     "sources": [
+      "S3",
+      "S4"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "So far, device manufacturers — they keep the current repair restrictions and pricing power, because the bill has not advanced anywhere it could become law."
+  },
+  "who_came_out_ahead_short": "Electronics manufacturers, so far",
+  "sides": {
+   "for": [
+    {
+     "name": "Rep. Joseph Morelle",
+     "role": "Sponsor, House of Representatives",
+     "party": "D",
+     "what_they_did": "Introduced the Fair Repair Act and referred it to the Energy and Commerce Committee.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S2",
+      "S4"
+     ]
+    },
+    {
+     "name": "Rep. Marie Gluesenkamp Perez",
      "role": "Original cosponsor",
      "party": "D",
-     "what_they_did": "Joined as a cosponsor at introduction",
+     "what_they_did": "Joined as an original cosponsor when the bill was introduced.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -116,19 +125,68 @@
    ],
    "against": [
     {
-     "name": "Digital electronics manufacturers and industry groups",
-     "role": "Device makers such as phone and computer manufacturers",
+     "name": "House Committee on Energy and Commerce",
+     "role": "Committee of referral",
      "party": null,
-     "what_they_did": "Industry groups representing device makers have opposed federal right-to-repair bills like this one in past Congresses, arguing that third-party repair threatens safety and data security",
+     "what_they_did": "Has taken no action on the bill — no hearing, markup, or vote — since it was referred on February 5, 2026.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "Consumer electronics manufacturers",
+     "role": "Major device makers (Apple, Samsung, and peers)",
+     "party": null,
+     "what_they_did": "Have a long, well-documented record of opposing right-to-repair legislation at the state and federal level, fighting mandates to share parts, tools, and diagnostic software.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "unclear",
-   "party_line_note": "Both the sponsor and the bill's only 2 cosponsors are Democrats, but no votes have been held, so the partisan shape of support and opposition is not yet known."
+   "party_line_note": "The only support on record is two Democratic cosponsors with no votes or public Republican positions, so the partisan shape is not yet established."
   },
-  "trajectory": "Almost certainly stays in committee. Bills referred to Energy and Commerce with only a handful of cosponsors and no scheduled hearing rarely reach the floor, and previous versions of the Fair Repair Act in earlier Congresses never got a vote. Unless committee leadership schedules action or the bill attracts many more cosponsors this session, it will die when the 119th Congress ends on January 3, 2027, and would need to be reintroduced.",
+  "industries": [
+   {
+    "industry": "Consumer electronics and appliance manufacturers",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill forces them to sell parts, tools, and repair documentation at their best authorized-repair terms and bans parts pairing that rejects or degrades third-party parts, cutting into high-margin repair and parts revenue and weakening the pressure to replace rather than repair devices.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Independent repair shops",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "They get guaranteed access to the same parts, tools, manuals, and updates as manufacturer-authorized networks, and are freed from warning-message workarounds for third-party parts.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Manufacturer-authorized repair networks",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "They lose their exclusive position as the channel with full parts and tool access, though the bill leaves their warranty and recall arrangements with OEMs intact.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Motor vehicle, medical device, and off-road vehicle makers",
+    "effect": "entrenched",
+    "stance_toward_public": "opposed",
+    "note": "The bill explicitly exempts them, leaving their existing repair restrictions — dealership service monopolies, locked-down medical equipment — fully in place.",
+    "sources": [
+     "S2"
+    ]
+   }
+  ],
+  "trajectory": "With only two cosponsors, no committee action, and no hearing scheduled, the likely path is that the bill stalls in the Energy and Commerce Committee and never reaches a House vote before this Congress ends on January 3, 2027 — the fate of most right-to-repair bills in Washington, even as states keep passing their own repair laws.",
   "categories": [
    "consumer_protection_and_finance",
    "antitrust_and_competition"
@@ -136,7 +194,7 @@
   "scores": {
    "public_stakes": 6,
    "concentrated_stakes": 7,
-   "outcome_against_public": 3,
+   "outcome_against_public": 2,
    "support_mismatch": 2,
    "corruption_relevance": 2,
    "confidence": 0.85

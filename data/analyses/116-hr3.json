@@ -1,180 +1,169 @@
 {
  "bill_id": "116-hr3",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "79e1af7370",
- "generated_at": "2026-09-19T23:55:58+00:00",
+ "prompt_version": "62356a386f",
+ "generated_at": "2026-09-20T02:38:38+00:00",
  "record_fetched_at": "2026-09-19T23:54:44+00:00",
  "record_hash": "0b1f88215ef50acf",
  "analysis": {
-  "one_liner": "Lets Medicare negotiate prices for the most expensive brand-name drugs and adds dental, vision, and hearing coverage.",
-  "headline": "The House passed the drug price negotiation bill 230 to 192, but the Senate never brought it up for a vote before Congress ended.",
+  "one_liner": "Requires Medicare to negotiate prices for the costliest brand-name drugs and caps seniors' out-of-pocket drug costs.",
+  "headline": "The House passed the bill 230-192 on December 12, 2019, but the Senate never voted on it, and it expired when that Congress ended in January 2021.",
   "direction": "for_working_people",
-  "plain_summary": "Current law forbids the government from negotiating what Medicare pays for prescription drugs. This bill would change that: the government would negotiate maximum prices for the costliest brand-name drugs that face no generic competition — 25 in the first year, growing to 50 — with the price capped at roughly what other wealthy countries pay. It would also penalize manufacturers whose prices rise faster than inflation, cap seniors' yearly drug out-of-pocket costs, add dental, vision, and hearing coverage to Medicare, and fund research and opioid programs with the savings. It passed the House on December 12, 2019, 230-192, but the Senate never voted on it, and it died when that Congress ended in January 2021.",
-  "who_benefits": "Seniors and people with disabilities on Medicare, who would pay less for expensive brand-name drugs and get a hard limit on yearly out-of-pocket drug costs. Low-income Medicare beneficiaries would qualify for more premium and cost-sharing help, and all beneficiaries would gain dental, vision, and hearing coverage. People with private insurance would get the negotiated prices too, unless their insurer opted out. Savings would also accrue to the federal Medicare program.",
-  "who_benefits_short": "Medicare beneficiaries and people with drug coverage",
+  "plain_summary": "The bill would have let the Department of Health and Human Services negotiate maximum prices for insulin and up to 50 single-source brand-name drugs with no generic competition, capping those prices at 120% of what the same drugs cost in six other wealthy countries. It would also have forced drug makers to pay rebates when Medicare drug prices rise faster than inflation, capped Medicare beneficiaries' yearly out-of-pocket drug costs, and added dental, vision, and hearing coverage to Medicare. The House passed it, but the Senate never took it up.",
+  "who_benefits": "Medicare beneficiaries would pay less for the most expensive brand-name drugs, have their annual out-of-pocket drug spending capped, and gain dental, vision, and hearing coverage. Low-income beneficiaries would qualify for more help with premiums and cost-sharing, and the negotiated prices could flow through to people with private insurance unless their plan opts out.",
+  "who_benefits_short": "Seniors and people with drug coverage",
   "how_it_helps": [
    {
-    "text": "Under current law the government is prohibited from negotiating Medicare drug prices; the bill would require HHS to negotiate maximum prices for insulin and for at least 25 (rising to 50) single-source brand-name drugs that lack generic competition and rank among the costliest nationwide.",
+    "text": "HHS must negotiate maximum fair prices for insulin products and, starting in 2023, at least 25 brand-name drugs without generic competition drawn from the 125 highest-spending drugs nationally and under Medicare, rising to at least 50 drugs in 2024. Current law prohibits HHS from negotiating drug prices.",
     "sources": [
-     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "The negotiated price may not exceed 120% of the average price in Australia, Canada, France, Germany, Japan, and the United Kingdom — or, where that data is unavailable, 85% of the U.S. average manufacturer price. Manufacturers that refuse to negotiate face an excise tax that escalates from 65% to 95% of sales, and those that break their agreements face civil penalties of up to ten times the overcharge.",
+    "sources": [
      "S3",
      "S4"
     ]
    },
    {
-    "text": "The negotiated price could not exceed 120% of the average price in six other wealthy countries (Australia, Canada, France, Germany, Japan, the UK), or 85% of the U.S. list price where international data is unavailable.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "Manufacturers would owe rebates to Medicare for covered drugs costing $100 or more whose prices rise faster than inflation, and would face civil penalties for noncompliance.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "text": "The bill would lower Medicare's annual out-of-pocket drug spending threshold and eliminate cost-sharing above it, and allow some beneficiaries to spread out their payments.",
+    "text": "Drug manufacturers must pay rebates to Medicare for drugs costing $100 or more whose prices rise faster than inflation, and must report price increases at least 30 days before they take effect.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Medicare would be expanded to cover dental and oral health care, hearing aids and hearing treatment, and eyeglasses and vision services.",
+    "text": "Medicare beneficiaries' annual out-of-pocket drug spending threshold is reduced and cost-sharing above it eliminated, low-income beneficiaries get expanded premium and cost-sharing subsidies, and Medicare gains dental (including dentures), hearing (including hearing aids), and vision (including eyeglasses) coverage.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Savings would fund NIH and FDA innovation projects, an Opioid Epidemic Response Fund, community health centers, and expanded subsidies for low-income beneficiaries.",
+    "text": "The negotiated maximum prices apply automatically to private group and individual health plans unless the insurer affirmatively opts out, and plans that opt out must disclose it publicly; federal employee health coverage cannot contract with carriers that opt out.",
     "sources": [
-     "S3"
-    ]
-   },
-   {
-    "text": "Manufacturers that refuse to negotiate face an excise tax on sales that starts at 65% of the sale and escalates to 95%, plus civil monetary penalties of up to ten times the gap between the price charged and the negotiated maximum.",
-    "sources": [
+     "S3",
      "S4"
     ]
    }
   ],
-  "who_pays": "Pharmaceutical manufacturers bear the cost: lower prices on their most profitable single-source drugs, inflation rebates on Medicare sales, price-increase disclosure requirements, and an escalating excise tax (up to 95% of sales) and penalties if they refuse to negotiate. Insurers and pharmacy middlemen also face new reporting and anti-spread-pricing rules in Medicaid.",
-  "who_pays_short": "Pharmaceutical manufacturers",
+  "who_pays": "Brand-name drug manufacturers bear the cost: lower prices on their biggest-selling drugs, rebates when prices outpace inflation, and steep excise taxes if they refuse to negotiate. Taxpayers fund the new Medicare dental, vision, and hearing benefit and expanded NIH, FDA, opioid, and community health center funding. Pharmacy benefit managers lose the spread-pricing practice banned in Medicaid.",
+  "who_pays_short": "Brand-name drug manufacturers",
   "drawbacks": [
    {
-    "text": "The bill's price caps apply only to the most expensive single-source drugs, and even the cap — 120% of the average foreign price — would still allow prices well above what other wealthy countries pay.",
-    "sources": [
-     "S3",
-     "S4"
-    ]
-   },
-   {
-    "text": "Critics in the House argued that price negotiation could reduce the development of new drugs; Rep. Upton's motion to recommit would have delayed the bill's effective date until HHS certified that implementation was not projected to result in fewer new drug applications for unmet medical needs and life-saving cures. The motion failed 196-226.",
+    "text": "Opponents argued that capping prices on top-selling drugs could reduce the development of new medicines. An amendment offered on the House floor would have delayed the bill's effective date until HHS certified that implementation was not projected to reduce new drug applications for unmet medical needs and lifesaving cures; it failed 196-226.",
     "sources": [
      "S6",
      "S7"
     ]
    },
    {
-    "text": "Private insurers may simply opt out of the negotiated prices, and plans that opt out must be publicly listed, limiting how far the savings extend beyond Medicare.",
+    "text": "The negotiation program covers only drugs that are among the 125 highest-spending nationally or under Medicare, have no generic competition, and are single-source — so most prescription drugs would be unaffected.",
     "sources": [
-     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "The bill creates substantial new federal spending: a new Medicare dental, vision, and hearing benefit, guaranteed-issue rights for Medigap policies, expanded low-income subsidies, and added NIH, FDA, opioid, and community health center funding through the late 2020s.",
+    "sources": [
      "S3"
     ]
    }
   ],
-  "benefit_vs_cost": "For people who take expensive brand-name drugs, the gains are direct and large: lower prices, a hard cap on yearly out-of-pocket costs, and new Medicare dental, vision, and hearing benefits. The cost falls almost entirely on an industry whose U.S. prices for these drugs run far above what the same drugs cost in other developed countries. The genuine trade-off is innovation: tighter prices on the biggest-selling drugs could shrink the revenue that funds research on new medicines. The bill tries to limit that by targeting only drugs without generic competition and by funding NIH and FDA research with the savings, but the concern is legitimate and was the core argument against it.",
+  "benefit_vs_cost": "For Medicare beneficiaries and people with drug coverage, the benefits are large and direct: lower prices on the biggest-selling brand-name drugs, a hard cap on yearly out-of-pocket drug costs, and new dental, vision, and hearing coverage. The costs fall mainly on brand-name drug makers in the form of lower revenue, and on taxpayers for the new benefits. The strongest good-faith objection — that lower returns could mean fewer new cures — is contested and was not tested, since the bill never became law. The bill's main design limitation is that its price negotiation reaches only a narrow slice of drugs: those with the highest spending and no generic competition.",
   "outcome": {
    "status": "passed_one_chamber_then_stalled",
-   "mechanism": "The House passed the bill 230-192 on December 12, 2019, but the Senate never voted on it — it sat on the Senate calendar until the Congress ended in January 2021.",
+   "mechanism": "The House passed it 230-192, but the Senate never voted on it — the bill sat on the Senate calendar from September 2020 until that Congress ended in January 2021.",
    "narrative": [
     {
-     "text": "The bill was introduced September 19, 2019, and referred to three committees; the Energy and Commerce Committee ordered it reported 30-22, and Ways and Means and Education and Labor also reported it in December.",
-     "sources": [
-      "S6"
-     ]
-    },
-    {
-     "text": "On December 12, 2019, the House defeated a motion to recommit (a Republican-led change to delay the bill's effective date) by 196-226, then passed the bill 230-192.",
+     "text": "The House passed H.R. 3 on December 12, 2019, by a vote of 230-192: all 228 voting Democrats in favor, 2 of 193 Republicans in favor, and the chamber's Independent opposed.",
      "sources": [
       "S6",
-      "S7",
       "S8"
      ]
     },
     {
-     "text": "The House vote split almost entirely by party: 228 of 229 Democrats voted yes and only 2 of 193 Republicans did.",
+     "text": "Before final passage, a Republican motion to recommit — which would have delayed the bill until HHS certified it would not reduce new drug applications — failed 196-226, with 193 of 193 voting Republicans supporting it and 3 Democrats crossing over.",
      "sources": [
-      "S8"
+      "S6",
+      "S7"
      ]
     },
     {
-     "text": "The Senate received the bill on December 16, 2019, read it twice, and placed it on the Senate calendar in September 2020 — but never debated or voted on it before the 116th Congress ended on January 3, 2021.",
+     "text": "The Senate received the bill on December 16, 2019; it was read twice and placed on the Senate Legislative Calendar under General Orders (Calendar No. 521) on September 8, 2020, where it remained with no vote ever scheduled before the Congress ended on January 3, 2021.",
      "sources": [
       "S1",
+      "S6",
+      "S4"
+     ]
+    },
+    {
+     "text": "The bill had 106 cosponsors, all Democrats.",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "Three House committees — Energy and Commerce, Ways and Means, and Education and Labor — all reported the bill, with Energy and Commerce advancing it on a 30-22 vote and 24-17 vote during markup.",
+     "sources": [
       "S6"
      ]
     }
    ],
-   "who_came_out_ahead": "Drug manufacturers came out ahead: their prices on the most profitable single-source drugs stay un-negotiated, the inflation rebates never took effect, and the escalating excise tax and penalties never applied. The Senate chamber that never voted set the outcome."
+   "who_came_out_ahead": "Brand-name drug manufacturers came out ahead: Medicare remains barred from negotiating drug prices, and no inflation rebates, international price caps, or out-of-pocket cap took effect. Senate Republicans who opposed the bill also benefited, having stopped it without ever having to vote on it."
   },
-  "who_came_out_ahead_short": "Drug manufacturers kept un-negotiated prices",
+  "who_came_out_ahead_short": "Brand-name drug makers",
   "sides": {
    "for": [
     {
      "name": "Frank Pallone",
-     "role": "House Energy and Commerce Committee Chairman; bill sponsor",
+     "role": "Chair, House Energy and Commerce Committee",
      "party": "D",
-     "what_they_did": "Sponsored the bill and led it through committee, which ordered it reported 30-22.",
+     "what_they_did": "Sponsored the bill and led it through committee markup, where it was ordered reported on 30-22 and 24-17 votes before being reported amended in December 2019.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S5",
       "S6"
      ]
     },
     {
-     "name": "House Democratic caucus",
-     "role": "House majority",
+     "name": "House Democrats",
+     "role": "228 House members",
      "party": "D",
-     "what_they_did": "Gave the bill all 228 of its yes votes — every voting Democrat supported it — and brought it to the floor under a rule with four hours of debate.",
+     "what_they_did": "Supplied all 228 votes for passage on December 12, 2019; not a single voting Democrat opposed the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S6",
       "S8"
      ]
     },
     {
-     "name": "106 House cosponsors",
-     "role": "Cosponsors",
-     "party": "D",
-     "what_they_did": "All 106 cosponsors were Democrats.",
+     "name": "Ways and Means and Education and Labor Committees",
+     "role": "House committees with jurisdiction",
+     "party": null,
+     "what_they_did": "Marked up and reported the bill in December 2019, allowing floor consideration.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S5"
+      "S6"
      ]
     }
    ],
    "against": [
     {
-     "name": "Senate Majority Leader Mitch McConnell",
+     "name": "Mitch McConnell",
      "role": "Senate Majority Leader",
      "party": "R",
-     "what_they_did": "Never brought the House-passed bill to the Senate floor for debate or a vote; it sat on the Senate calendar from September 2020 until the Congress ended.",
+     "what_they_did": "Never scheduled a vote on H.R. 3 after the House passed it; the bill was placed on the Senate calendar in September 2020 and died there when the Congress ended.",
      "direct": true,
      "evidence": "widely_reported",
      "sources": []
     },
     {
-     "name": "191 House Republicans",
-     "role": "House Republican caucus",
+     "name": "House Republicans",
+     "role": "191 of 193 voting House Republicans",
      "party": "R",
-     "what_they_did": "Voted against passage 191-2, and offered a motion to recommit that would have delayed the bill until HHS certified it would not reduce development of new drugs.",
+     "what_they_did": "Voted against passage, and all 193 voted for the motion to recommit that would have delayed the bill pending a finding that it would not reduce new drug development.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -183,23 +172,84 @@
      ]
     },
     {
+     "name": "Fred Upton",
+     "role": "House Republican from Michigan",
+     "party": "R",
+     "what_they_did": "Moved to recommit the bill with instructions to delay its effective date until HHS certified implementation would not result in fewer new drug applications; the motion failed 196-226.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S6",
+      "S7"
+     ]
+    },
+    {
      "name": "Pharmaceutical industry",
-     "role": "Drug manufacturers and their trade groups",
+     "role": "Brand-name drug makers and their trade association",
      "party": null,
-     "what_they_did": "Ran a large-scale campaign against the bill, arguing government price-setting would reduce investment in new medicines.",
+     "what_they_did": "Ran a major public campaign against government negotiation of Medicare drug prices during the debate over the bill.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
-   "party_line": "party_line",
-   "party_line_note": "The House passage vote was almost perfectly partisan: 228 of 229 voting Democrats voted yes, while only 2 of 193 Republicans did; the Senate, then controlled by Republicans, never voted."
+   "party_line": "mostly_party_line",
+   "party_line_note": "The House vote was 228-0 among Democrats for passage and 2-191 among Republicans against, with the chamber's Independent also opposed; the bill then died in a Senate controlled by Republicans without a vote."
   },
+  "industries": [
+   {
+    "industry": "Brand-name drug manufacturers",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill forces them to negotiate maximum prices on their biggest-selling drugs, capped at 120% of prices in six other countries, pay rebates when prices outpace inflation, and face an excise tax rising to 95% of sales if they refuse to negotiate. Their core revenue stream from unregulated U.S. pricing was directly at stake.",
+    "sources": [
+     "S3",
+     "S4"
+    ]
+   },
+   {
+    "industry": "Pharmacy benefit managers",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill requires pass-through pricing models and prohibits spread pricing — keeping the difference between what Medicaid pays and what the PBM pays the pharmacy — in Medicaid drug payment arrangements.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "industry": "Health insurers",
+    "effect": "mixed",
+    "stance_toward_public": "aligned",
+    "note": "Private plans automatically get the negotiated maximum prices and must cap related cost-sharing, lowering plan drug costs — unless they affirmatively opt out and disclose it. Federal employee plans cannot contract with carriers that opt out.",
+    "sources": [
+     "S3",
+     "S4"
+    ]
+   },
+   {
+    "industry": "Generic and biosimilar manufacturers",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "A drug leaves the negotiation program once two competing generics or biosimilars reach the market, and the bill temporarily raises Medicare Part B payment for certain biosimilars, encouraging cheaper competition.",
+    "sources": [
+     "S3",
+     "S4"
+    ]
+   },
+   {
+    "industry": "Medical research institutions (NIH, FDA grantees)",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "The bill funds NIH and FDA innovation projects through the late 2020s and creates an Opioid Epidemic Response Fund, channeling some of the federal savings into public health programs.",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
   "trajectory": null,
   "categories": [
    "healthcare_and_drug_prices",
-   "social_safety_net",
-   "taxes_on_wealth_and_corporations"
+   "social_safety_net"
   ],
   "scores": {
    "public_stakes": 9,
@@ -207,7 +257,7 @@
    "outcome_against_public": 8,
    "support_mismatch": 7,
    "corruption_relevance": 2,
-   "confidence": 0.85
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

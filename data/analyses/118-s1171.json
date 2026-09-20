@@ -1,86 +1,94 @@
 {
  "bill_id": "118-s1171",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "79e1af7370",
- "generated_at": "2026-09-19T23:39:38+00:00",
- "record_fetched_at": "2026-09-19T22:17:59+00:00",
+ "prompt_version": "62356a386f",
+ "generated_at": "2026-09-20T02:47:17+00:00",
+ "record_fetched_at": "2026-09-19T23:54:43+00:00",
  "record_hash": "36967eb188c7ab97",
  "analysis": {
-  "one_liner": "Bans members of Congress and their families from owning or trading individual stocks.",
-  "headline": "The Senate committee approved the bill and placed it on the Senate calendar in December 2024, but no senator ever voted on it before the 118th Congress ended on January 3, 2025.",
+  "one_liner": "Bans members of Congress, the president, and vice president from owning or trading individual stocks.",
+  "headline": "A Senate committee sent the congressional stock-trading ban to the floor calendar in December 2024, but the full Senate never voted on it before the Congress ended on January 3, 2025.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would bar members of Congress, and in a later version the President, Vice President, and their spouses and dependent children too, from buying or selling individual stocks, commodities, futures, and (in the later version) digital assets. Anyone holding those investments would have to sell them or, in the original draft, put them in a blind trust the official cannot control, with fines for failing to comply. Diversified mutual funds, index-style ETFs, and Treasury bonds would remain allowed. The bill would also fine officials $500 for each late financial-transaction report under the existing STOCK Act and require financial disclosures to be posted online in a searchable format.",
-  "who_benefits": "The public at large. Members of Congress vote on laws, subsidies, and contracts that move specific companies' stock prices; barring them and their families from holding those companies' shares removes a direct personal stake in what they legislate. Honest members who hold only diversified funds also benefit from rules that apply to everyone. The searchable disclosure database would let journalists and voters see officials' finances more easily.",
-  "who_benefits_short": "Ordinary citizens who want conflict-free lawmaking",
+  "plain_summary": "The bill would make it illegal for members of Congress, the president, the vice president, and their spouses and young children to buy or hold individual stocks, commodities, futures, or crypto. They would have to sell those holdings within a set window, or everything could go only into broad, diversified index funds. Members who break the rules would owe fines equal to a month's salary or 10 percent of the un-divested asset each month, and the bill would also make congressional financial disclosures searchable online with a $500 fine for late trade reports. A Senate committee approved it and put it on the calendar, but the full Senate never took it up.",
+  "who_benefits": "Ordinary citizens, who currently live under conflict-of-interest rules set by people who may personally hold stock in the companies those rules affect. The bill removes the ability of the people writing laws — from drug prices to defense contracts to crypto regulation — to personally profit from those laws through their own or their family's portfolios. It would also make members' financial dealings searchable by anyone online, with real fines for hiding trades.",
+  "who_benefits_short": "Ordinary citizens and public trust",
   "how_it_helps": [
    {
-    "text": "Prohibits members of Congress and their spouses and dependent children from buying covered investments immediately and from selling them 90 days after enactment, and requires existing holdings to be divested or placed in a qualified blind trust within 120 days, with civil penalties of at least a month's pay or 10% of the un-divested asset for noncompliance.",
+    "text": "Prohibits covered officials from buying or holding individual stocks, commodities, futures, or digital assets; new purchases are banned immediately upon enactment and existing holdings must be sold or fully divested within 120 days of the effective date.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "Excludes diversified mutual funds, diversified exchange-traded funds, and Treasury securities, so officials could still invest broadly without picking individual companies.",
+    "text": "Allows only diversified mutual funds or ETFs, Treasury securities, and a list of specified holdings — so lawmakers can still invest broadly without betting on companies whose fate their own votes control.",
     "sources": [
-     "S2",
      "S3"
     ]
    },
    {
-    "text": "Requires the House and Senate ethics offices to publish certifications, trust agreements, federal payments received, and granted extensions online, and requires financial disclosures to be filed electronically in a searchable, downloadable format.",
+    "text": "Eliminates the qualified blind trust escape hatch: existing blind trusts must be emptied and dissolved, and no new ones may be maintained after 180 days past the effective date.",
     "sources": [
-     "S2",
      "S3"
     ]
    },
    {
-    "text": "Adds a $500 fine for each failure to file a periodic transaction report required by the STOCK Act, replacing the current system where late filings carry no meaningful penalty.",
+    "text": "Imposes civil penalties of a month's salary or 10 percent of the noncompliant asset's value each 30 days a violation continues, and requires the ethics offices to publish certifications, trust documents, extensions, and penalties online.",
     "sources": [
-     "S2",
      "S3"
     ]
    },
    {
-    "text": "The committee-approved version extended the ban to the President and Vice President and added digital assets to the list of banned investments.",
+    "text": "Requires $500 fines for failing to file required trade reports under the STOCK Act, and requires financial disclosure forms to be posted online in searchable, downloadable, API-accessible formats.",
     "sources": [
+     "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Members of Congress, the President, and the Vice President whose families hold individual stocks, commodities, or futures would have to sell those holdings within the bill's deadlines, potentially realizing taxable gains, and would lose the ability to trade during their terms. Spouses working in finance or on corporate boards would keep some exemptions but lose flexibility over household portfolios.",
-  "who_pays_short": "Stock-holding federal officeholders and their spouses",
+  "who_pays": "Members of Congress, the president, the vice president, and their spouses and dependent children, who would have to sell individual stocks and related investments and move the money into diversified funds; spouses with securities from their own jobs or corporate board seats are carved out. Wealth-management and trust firms would lose the blind-trust administration business this bill phases out, while members who choose to comply would bear transition costs and some tax friction on divestiture.",
+  "who_pays_short": "Members of Congress and their spouses",
   "drawbacks": [
    {
-    "text": "The bill exempts securities a spouse receives as compensation from their primary employer or from corporate board service, so a conflict of interest can survive through a spouse's own work rather than through the member's family investments.",
+    "text": "The ban is delayed: the divestiture requirement applies on and after March 31, 2027, so officials' existing portfolios would remain untouched for well over two years after enactment.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "The original version allowed compliance through qualified blind trusts, a mechanism with a long record of leaking knowledge of holdings to the beneficiary; the committee-reported version tightened this by requiring divestment and eventually phasing out blind trusts, but only starting March 31, 2027, leaving a multi-year gap.",
+    "text": "The spouse carve-out is broad: a spouse's compensation from their own job or corporate board service — including stock and dividend reinvestment in that same security — is excluded, which critics could use to keep significant individual-stock exposure in the family.",
     "sources": [
      "S3"
     ]
    },
    {
-    "text": "Enforcement relies on the same ethics offices that police members today, with penalties set at roughly a month's pay or 10% of the un-divested asset per 30-day period, which for a wealthy member can be small relative to total assets.",
+    "text": "Some members and good-faith observers argue the ban could deter candidates of modest means from running for office, since the fines reach a full month's salary per violation, and that a broad index-fund-only rule is one size fits all for small business owners and family farmers (the bill does include limited exceptions for those).",
     "sources": [
      "S3"
     ]
-   },
-   {
-    "text": "Critics of stock-trading bans argue the rules, including limits on what a member's spouse may own, would deter wealthy people with sophisticated finances from serving in public office and raise questions about how far the government can regulate a spouse's independent career.",
-    "sources": []
    }
   ],
-  "benefit_vs_cost": "The core benefit, removing officials' personal stakes in the companies they regulate and legislate, is significant and the costs are real but manageable, since diversified index funds remain fully allowed. The design is not airtight: the spouse-employment carve-out leaves a channel for conflicts, the committee version does not start until March 2027, and penalties may not bite hardest against the wealthiest violators. On balance it is a serious, workable conflict-of-interest reform with some deliberate-looking exceptions.",
+  "benefit_vs_cost": "The core benefit — lawmakers cannot personally trade on laws they write — is large and durable, and the committee-reported version strengthened it by extending coverage to the president and vice president, adding crypto, and closing the blind-trust escape hatch. The real weaknesses are timing and loopholes: a March 2027 effective date and a wide carve-out for a spouse's own-employer stock. Those flaws trim the bill's value but do not change its central effect.",
   "outcome": {
    "status": "never_got_a_vote",
-   "mechanism": "The Senate committee approved the bill and placed it on the Senate calendar ready for a floor vote in December 2024, but the Senate never voted on it and the 118th Congress ended on January 3, 2025, killing the bill.",
+   "mechanism": "The Senate Homeland Security committee approved it and placed it on the Senate's calendar of bills awaiting action, but the chamber never voted on it before the two-year Congress ended.",
    "narrative": [
     {
-     "text": "Senator Jeff Merkley introduced the bill on April 17, 2023 with 24 original cosponsors, and it was read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+     "text": "Senator Jeff Merkley introduced the bill on April 17, 2023, joined by 23 cosponsors — all Democrats or independents; no Republican signed on.",
+     "sources": [
+      "S1",
+      "S4"
+     ]
+    },
+    {
+     "text": "The bill was referred to the Senate Committee on Homeland Security and Governmental Affairs, which ordered it reported favorably with a substitute amendment on July 24, 2024.",
+     "sources": [
+      "S1",
+      "S5"
+     ]
+    },
+    {
+     "text": "On December 19, 2024, the committee reported the bill with an amendment in the nature of a substitute (Senate Report 118-309), and it was placed on the Senate calendar under General Orders as Calendar No. 729.",
      "sources": [
       "S1",
       "S3",
@@ -88,61 +96,34 @@
      ]
     },
     {
-     "text": "The committee ordered the bill reported favorably on July 24, 2024, and formally reported it on December 19, 2024, with an amendment in the nature of a substitute.",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "The substitute amendment expanded the ban to the President and Vice President, added digital assets, replaced the blind-trust compliance path with mandatory divestment and a phaseout of existing blind trusts, and set the main effective date at March 31, 2027.",
+     "text": "The committee substitute broadened the ban: it added the president and vice president, added digital assets like crypto to the prohibited holdings, eliminated qualified blind trusts as a compliance route, and set the divestiture deadline at March 31, 2027.",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "On December 19, 2024 the bill was placed on the Senate Legislative Calendar under General Orders (Calendar No. 729), which made it available for a floor vote.",
+     "text": "The bill sat on the Senate calendar for the final two weeks of the session; the full Senate never debated or voted on it, and the 118th Congress ended on January 3, 2025, killing the bill.",
      "sources": [
+      "S1",
       "S5"
-     ]
-    },
-    {
-     "text": "No floor vote ever occurred, and the 118th Congress ended on January 3, 2025 without the Senate or the House passing the bill; all bills die when a Congress ends.",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "All 23 cosponsors were Democrats or independents; no Republican senator signed on.",
-     "sources": [
-      "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "Members of Congress who own and trade individual stocks came out ahead: the rules never took effect, so they keep the ability to hold and trade individual companies' shares while voting on legislation affecting those same companies. The searchable disclosure improvements were also never enacted, leaving the status quo in place."
+   "who_came_out_ahead": "Members of Congress and their families, whose ability to hold and trade individual stocks while writing the laws that move those stocks remains unchanged. No new ban took effect for anyone."
   },
-  "who_came_out_ahead_short": "Members who own and trade individual stocks",
+  "who_came_out_ahead_short": "Members of Congress keeping their portfolios",
   "sides": {
    "for": [
     {
      "name": "Sen. Jeff Merkley",
-     "role": "Sponsor (D-OR)",
+     "role": "Sponsor, S. 1171",
      "party": "D",
-     "what_they_did": "Introduced S. 1171 on April 17, 2023 and recruited an initial bloc of two dozen cosponsors.",
+     "what_they_did": "Introduced the bill to ban congressional stock trading and ownership and built a bloc of 23 cosponsors behind it.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3"
-     ]
-    },
-    {
-     "name": "23 Senate cosponsors",
-     "role": "Cosponsors (21 Democrats, 2 independents)",
-     "party": "D",
-     "what_they_did": "Signed onto the bill, giving it the support needed for committee action.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
+      "S3",
       "S4"
      ]
     },
@@ -150,46 +131,91 @@
      "name": "Sen. Gary Peters",
      "role": "Chair, Senate Homeland Security and Governmental Affairs Committee",
      "party": "D",
-     "what_they_did": "His committee ordered the bill reported favorably in July 2024 and formally reported it with a substitute amendment on December 19, 2024, moving it to the Senate calendar.",
+     "what_they_did": "Brought the bill through markup, reported it favorably with a strengthened substitute amendment, and placed it on the Senate calendar in December 2024.",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S1",
+      "S3",
       "S5"
+     ]
+    },
+    {
+     "name": "23 Democratic and independent cosponsors",
+     "role": "Cosponsors, including Sens. Brown, Warren, Sanders, Tester, Fetterman, and King",
+     "party": "D",
+     "what_they_did": "Signed onto the bill, giving it unanimous backing within the Senate's Democratic caucus (including one Republican-caucus independent, Sen. King).",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
      ]
     }
    ],
    "against": [
     {
-     "name": "Sen. Chuck Schumer",
-     "role": "Senate Majority Leader",
+     "name": "Senate floor leadership",
+     "role": "Majority Leader controlling the Senate calendar",
      "party": "D",
-     "what_they_did": "Never brought the bill to the Senate floor for a vote, despite it sitting ready on the Senate calendar after committee approval in December 2024.",
+     "what_they_did": "Never scheduled the bill for a floor vote despite it sitting on the calendar through the final weeks of the Congress.",
      "direct": true,
      "evidence": "widely_reported",
      "sources": []
     },
     {
-     "name": "House leaders of both parties",
-     "role": "House leadership, 118th Congress",
-     "party": null,
-     "what_they_did": "Never brought any congressional stock-trading ban to the House floor during the 118th Congress, so the bill had no path even if the Senate had acted.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
+     "name": "Senate Republicans",
+     "role": "Senate minority caucus",
+     "party": "R",
+     "what_they_did": "Provided no cosponsors to the bill, leaving it entirely within the Democratic and independent caucuses.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
     }
    ],
    "party_line": "mostly_party_line",
-   "party_line_note": "All 23 cosponsors were Democrats or independents and no Republican senator signed on, though stock-trading bans enjoy broad public support across party lines and a version of the idea had backers in both chambers."
+   "party_line_note": "All 23 cosponsors were Democrats or independents, and no Republican signed on; the committee's favorable report and the calendar placement were under Democratic control, but the Senate as a whole never voted."
   },
+  "industries": [
+   {
+    "industry": "Members of Congress and their families",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill would force them to sell individual stocks, crypto, and similar holdings and to dissolve blind trusts, with monthly fines of a month's pay or 10 percent of the asset for noncompliance. This is the concentrated interest the bill directly targets, and its inaction means nothing changed for them.",
+    "sources": [
+     "S3",
+     "S2"
+    ]
+   },
+   {
+    "industry": "The president and vice president (and their families)",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The committee substitute extended the ownership and trading ban to the White House, closing a gap in earlier versions. Under the bill as reported they would face the same divestiture rules as members of Congress.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "industry": "Wealth-management, brokerage, and trust administration firms",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "The bill phases out qualified blind trusts, which would eliminate blind-trust administration revenue, but it steers officials' money into diversified mutual funds and ETFs, where index-fund managers would be the default home for divested portfolios.",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
   "trajectory": null,
   "categories": [
    "corruption_and_ethics",
-   "other"
+   "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 6,
-   "concentrated_stakes": 8,
-   "outcome_against_public": 9,
+   "public_stakes": 7,
+   "concentrated_stakes": 9,
+   "outcome_against_public": 8,
    "support_mismatch": 7,
    "corruption_relevance": 10,
    "confidence": 0.85
