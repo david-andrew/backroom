@@ -2,6 +2,7 @@
 validated into a pydantic model. Retries once with the validation error."""
 from __future__ import annotations
 
+import asyncio
 import hashlib
 import json
 from typing import TypeVar
@@ -88,3 +89,40 @@ def structured_call(model_id: str, system: str, user: str, out: type[T], *, reas
         messages.append({"role": "assistant", "content": f"(previous attempt was invalid: {last_err})"})
         messages.append({"role": "user", "content": "Call `submit` again with a valid payload."})
     raise RuntimeError(f"{model_id} failed to produce valid output: {last_err}")
+
+
+async def astructured_call(model_id: str, system: str, user: str, out: type[T], *, reasoning_effort: str | None = None) -> T:
+    """Async twin of structured_call, for fan-out over many independent prompts."""
+    model = OpenRouterModel(model_id, api_key=config.openrouter_api_key(), reasoning_effort=reasoning_effort)  # type: ignore[arg-type]
+    tool = _submit_tool(out)
+    messages = [{"role": "system", "content": system}, {"role": "user", "content": user}]
+    last_err: Exception | None = None
+    for attempt in range(2):
+        resp = await model.acomplete(messages, tools=[tool], tool_choice={"type": "function", "function": {"name": "submit"}})
+        if not isinstance(resp, TokiToolsResponse) or not resp.tool_calls:
+            last_err = RuntimeError(f"model returned no tool call: {str(resp)[:300]}")
+        else:
+            args = resp.tool_calls[0].function.arguments
+            if isinstance(args, str):
+                args = json.loads(args)
+            try:
+                return out.model_validate(_unwrap_json_strings(args))
+            except ValidationError as e:
+                last_err = e
+        messages.append({"role": "assistant", "content": f"(previous attempt was invalid: {last_err})"})
+        messages.append({"role": "user", "content": "Call `submit` again with a valid payload."})
+    raise RuntimeError(f"{model_id} failed to produce valid output: {last_err}")
+
+
+def run_many(calls, concurrency: int = 8):
+    """Run a list of zero-arg coroutine factories with bounded concurrency; returns results or exceptions in order."""
+    async def go():
+        sem = asyncio.Semaphore(concurrency)
+        async def one(f):
+            async with sem:
+                try:
+                    return await f()
+                except Exception as e:  # keep the batch going; caller decides
+                    return e
+        return await asyncio.gather(*(one(f) for f in calls))
+    return asyncio.run(go())
