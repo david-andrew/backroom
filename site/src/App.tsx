@@ -5,6 +5,7 @@ import { Bill } from './pages/Bill'
 import { About } from './pages/About'
 import { Members } from './pages/Members'
 import { MemberPage } from './pages/Member'
+import { PromptPage } from './pages/Prompt'
 
 export function App() {
   const r = route.value
@@ -28,6 +29,7 @@ export function App() {
         {r.page === 'about' && <About />}
         {r.page === 'members' && <Members />}
         {r.page === 'member' && <MemberPage id={r.id} key={r.id} />}
+        {r.page === 'prompt' && <PromptPage hash={r.hash} key={r.hash} />}
       </main>
       <footer class="site-footer">
         Facts come from Congress.gov, the Senate, and the House Clerk. Interpretation is model-written from those sources and every claim links back to them.

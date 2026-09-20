@@ -126,7 +126,7 @@ export function Bill({ id }: { id: string }) {
 
           <section class="card provenance">
             <h3>Provenance</h3>
-            <p class="small">Facts fetched {fmtDate(bill.meta.record_fetched_at)}. Interpretation written {fmtDate(bill.meta.generated_at)} by <code>{bill.meta.model}</code>, prompt <code>{bill.meta.prompt_version}</code>.</p>
+            <p class="small">Facts fetched {fmtDate(bill.meta.record_fetched_at)}. Interpretation written {fmtDate(bill.meta.generated_at)} by <code>{bill.meta.model}</code>, prompt <a href={href.prompt(bill.meta.prompt_version)}><code>{bill.meta.prompt_version}</code></a>.</p>
             {bill.meta.unresolved_citations.length > 0 && <p class="small warn">Citations the model used that are not in the source list: {bill.meta.unresolved_citations.join(', ')}.</p>}
           </section>
         </aside>

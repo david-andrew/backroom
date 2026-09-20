@@ -25,12 +25,39 @@ def rank_score(s) -> float:
     return round(raw * (0.5 + 0.5 * s.confidence), 2)
 
 
+def publish_prompts(hashes_in_use: set[str]) -> None:
+    """Write the exact text of every prompt version an analysis references, recovered from git history."""
+    import hashlib, subprocess
+    out = config.SITE_DATA_DIR / "prompts"
+    out.mkdir(parents=True, exist_ok=True)
+    rel = "pipeline/prompts/analyze.md"
+    found: dict[str, tuple[str, str, str]] = {}  # hash -> (text, commit, date)
+    cur = (config.PROMPTS_DIR / "analyze.md").read_text()
+    found[hashlib.sha256(cur.encode()).hexdigest()[:10]] = (cur, "working-tree", "")
+    try:
+        log = subprocess.run(["git", "log", "--format=%H %cs", "--", rel], cwd=config.REPO_ROOT, capture_output=True, text=True, check=True).stdout.split()
+        for sha, date in zip(log[0::2], log[1::2]):
+            text = subprocess.run(["git", "show", f"{sha}:{rel}"], cwd=config.REPO_ROOT, capture_output=True, text=True).stdout
+            h = hashlib.sha256(text.encode()).hexdigest()[:10]
+            if h in hashes_in_use and (h not in found or found[h][1] == "working-tree"):
+                found[h] = (text, sha, date)
+    except Exception as e:
+        print(f"  ! could not read prompt history from git: {e}")
+    missing = hashes_in_use - set(found)
+    for h, (text, sha, date) in found.items():
+        if h in hashes_in_use:
+            (out / f"{h}.json").write_text(json.dumps({"hash": h, "file": rel, "commit": sha, "date": date, "text": text}))
+    print(f"  prompts published: {len(hashes_in_use & set(found))} version(s)" + (f"; not recoverable: {sorted(missing)}" if missing else ""))
+
+
 def run() -> None:
     out_bills = config.SITE_DATA_DIR / "bills"
     out_bills.mkdir(parents=True, exist_ok=True)
     index = []
+    prompt_hashes: set[str] = set()
     for af_path in sorted(config.ANALYSES_DIR.glob("*.json")):
         af = AnalysisFile.model_validate_json(af_path.read_text())
+        prompt_hashes.add(af.prompt_version)
         rec_path = config.RAW_DIR / af.bill_id / "record.json"
         if not rec_path.exists():
             print(f"  ! {af.bill_id}: analysis without record, skipping")
@@ -83,6 +110,7 @@ def run() -> None:
             "updated_at": g["updated_at"],
             "terms": [{k: e[k] for k in ("term", "aliases", "definition", "source")} for e in g["terms"]],
         }))
+    publish_prompts(prompt_hashes)
     index.sort(key=lambda b: -b["rank_score"])
     (config.SITE_DATA_DIR / "index.json").write_text(json.dumps({
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
