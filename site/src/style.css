@@ -22,6 +22,8 @@
   --elite-bg: #ece0f5;
   --mixed: #6b6b6b;
   --mixed-bg: #e9e6df;
+  --chart-people: #2e7a3f;
+  --chart-elite: #7a3aa8;
   --meter: #1c1b18;
   --radius: 8px;
   --font: ui-serif, Georgia, "Times New Roman", serif;
@@ -49,6 +51,8 @@
     --elite-bg: #2f2140;
     --mixed: #a5a29a;
     --mixed-bg: #2a2924;
+    --chart-people: #5aa869;
+    --chart-elite: #a86fd0;
   }
 
 * { box-sizing: border-box; }
@@ -227,3 +231,30 @@ main { max-width: 1080px; margin: 0 auto; padding: 1.5rem 1.5rem 4rem; }
 .votesplit-bar .nay-seg { opacity: 0.45; }
 .votesplit-bar .seg-gap { width: 2px; background: var(--bg); flex: none; }
 .votesplit-parties { margin-top: 0.25rem; font-family: var(--font-ui); }
+
+/* Gilens & Page chart */
+.gp-chart { margin: 1.2rem 0 0.6rem; max-width: 760px; }
+.gp-chart svg { width: 100%; height: auto; display: block; font-family: var(--font-ui); }
+.gp-grid { stroke: var(--line); stroke-width: 1; }
+.gp-tick { fill: var(--ink-3); font-size: 11px; }
+.gp-axis { fill: var(--ink-2); font-size: 12px; }
+.gp-line { fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.gp-line.gp-people, .gp-dot.gp-people { stroke: var(--chart-people); }
+.gp-line.gp-elite, .gp-dot.gp-elite { stroke: var(--chart-elite); }
+.gp-dot { fill: var(--bg); stroke-width: 2.5; }
+.gp-label { font-size: 12.5px; font-weight: 600; fill: var(--ink); }
+.gp-chart figcaption { font-family: var(--font-ui); font-size: 0.82rem; color: var(--ink-2); margin-top: 0.4rem; max-width: 70ch; }
+
+/* glossary tooltips */
+.term { border-bottom: 1px dotted var(--ink-3); cursor: help; position: relative; }
+.term:hover { border-bottom-color: var(--accent); }
+.term .tip {
+  display: none; position: absolute; left: 0; top: 1.5em; z-index: 10; width: 300px; max-width: 80vw;
+  background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.18); padding: 0.6rem 0.8rem; font-family: var(--font-ui); font-size: 0.82rem; line-height: 1.45;
+  font-weight: 400; text-align: left; white-space: normal;
+}
+.term:hover .tip, .term.open .tip { display: block; }
+.tip b { display: block; margin-bottom: 0.2rem; }
+.tip-def { display: block; }
+.tip-src { display: block; margin-top: 0.4rem; font-size: 0.75rem; color: var(--ink-2); }

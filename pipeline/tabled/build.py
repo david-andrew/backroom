@@ -74,6 +74,13 @@ def run() -> None:
             "status": a.outcome.status, "categories": a.categories,
             "scores": a.scores.model_dump(), "rank_score": score, "congress_ended": rec.congress_ended,
         })
+    gl = config.DATA_DIR / "glossary.json"
+    if gl.exists():
+        g = json.loads(gl.read_text())
+        (config.SITE_DATA_DIR / "glossary.json").write_text(json.dumps({
+            "updated_at": g["updated_at"],
+            "terms": [{k: e[k] for k in ("term", "aliases", "definition", "source")} for e in g["terms"]],
+        }))
     index.sort(key=lambda b: -b["rank_score"])
     (config.SITE_DATA_DIR / "index.json").write_text(json.dumps({
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),

@@ -3,6 +3,7 @@
   tabled fetch [bill ...]      fetch + cache Congress.gov data (default: seeds.json)
   tabled analyze [bill ...]    run the analysis model (default: every fetched bill)
   tabled triage CONGRESS       score every bill in a Congress with the triage model
+  tabled glossary              list uncommon terms, define them from Wikipedia
   tabled build                 write site/public/data
   tabled all                   fetch + analyze + build for the seeds
 """
@@ -11,7 +12,7 @@ from __future__ import annotations
 import argparse
 import json
 
-from . import analyze, build, config, triage
+from . import analyze, build, config, glossary, triage
 from .congress import CongressClient
 from .schema import BillId
 
@@ -34,6 +35,7 @@ def main() -> None:
     t = sub.add_parser("triage"); t.add_argument("congress", type=int); t.add_argument("--limit", type=int)
     t.add_argument("--min-score", type=int, default=12); t.add_argument("--model", default=config.TRIAGE_MODEL)
     t.add_argument("--fetch", action="store_true", help="also fetch + analyze the shortlist")
+    g = sub.add_parser("glossary"); g.add_argument("--force", action="store_true"); g.add_argument("--model", default=config.TRIAGE_MODEL)
     sub.add_parser("build")
     al = sub.add_parser("all"); al.add_argument("--force", action="store_true")
     args = ap.parse_args()
@@ -66,6 +68,8 @@ def main() -> None:
                 bid = BillId.parse(s["bill"])
                 client.fetch_bill(bid)
                 analyze.run(bid.slug)
+    if args.cmd == "glossary":
+        glossary.run(model_id=args.model, force=args.force)
     if args.cmd in ("build", "all"):
         build.run()
 

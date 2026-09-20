@@ -5,6 +5,7 @@ import { href } from '../router'
 import { CATEGORY_LABEL, DEAD, PENDING } from '../types'
 import type { IndexBill } from '../types'
 import { CategoryChips, DirectionBadge, PartyBar, PartyLineBadge, StatusBadge } from '../components/ui'
+import { GilensPageChart } from '../components/Chart'
 
 const q = signal('')
 const cat = signal<string>('')
@@ -55,9 +56,9 @@ export function Explorer() {
     <>
       <section class="intro">
         <h1>Whose interests is Congress looking out for?</h1>
+        <GilensPageChart />
         <p>
-          Bills that would help everyday working people mostly die quietly. Bills that serve concentrated wealth and power tend to find a way through.
-          Each entry below shows what a bill does, who gains, who pays, what Congress did with it, and who came out ahead. Every claim links to the record.
+          Each entry below is one case: what a bill does, who gains, who pays, what Congress did with it, and who came out ahead. Every claim links to the record.
           <a href={href.about}> How the ranking works.</a>
         </p>
         <p class="stats">

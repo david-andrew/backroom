@@ -1,4 +1,6 @@
 import type { Actor, Claim, Direction, PartyLine, Scores, Sides, Source, Status, Vote } from '../types'
+import { findTerm, termPattern } from '../glossary'
+import { Term } from './Term'
 import { CATEGORY_LABEL, DEAD, DIRECTION_LABEL, PARTY_LINE_LABEL, STATUS_LABEL } from '../types'
 
 export function StatusBadge({ status }: { status: Status }) {
@@ -82,6 +84,25 @@ export function Cite({ ids, sources }: { ids: string[]; sources: Source[] }) {
   )
 }
 
+/** Wrap glossary terms in a tooltip. */
+export function withTerms(text: string) {
+  const re = termPattern.value
+  if (!re) return text
+  const out: (string | preact.JSX.Element)[] = []
+  const seen = new Set<string>()  // underline each term once per block, not every occurrence
+  let last = 0
+  for (const m of text.matchAll(re)) {
+    const t = findTerm(m[1])
+    if (!t || seen.has(t.term)) continue
+    seen.add(t.term)
+    out.push(text.slice(last, m.index))
+    out.push(<Term key={m.index} text={m[0]} term={t} />)
+    last = m.index! + m[0].length
+  }
+  out.push(text.slice(last))
+  return out
+}
+
 /** Prose that may contain inline "[S3]" markers; renders them as citation links. */
 export function Prose({ text, sources }: { text: string; sources: Source[] }) {
   const parts = text.split(/(\[S\d+\](?:\s*\[S\d+\])*)/g)
@@ -91,7 +112,7 @@ export function Prose({ text, sources }: { text: string; sources: Source[] }) {
         const ids = [...part.matchAll(/S\d+/g)].map(m => m[0])
         return ids.length && /^\s*(\[S\d+\]\s*)+$/.test(part)
           ? <Cite key={i} ids={ids} sources={sources} />
-          : <span key={i}>{part.replace(/\s+([.,;:])/g, '$1')}</span>
+          : <span key={i}>{withTerms(part.replace(/\s+([.,;:])/g, '$1'))}</span>
       })}
     </>
   )
@@ -100,7 +121,7 @@ export function Prose({ text, sources }: { text: string; sources: Source[] }) {
 export function Claims({ claims, sources }: { claims: Claim[]; sources: Source[] }) {
   return (
     <ul class="claims">
-      {claims.map((c, i) => <li key={i}>{c.text}<Cite ids={c.sources} sources={sources} /></li>)}
+      {claims.map((c, i) => <li key={i}><Prose text={c.text} sources={sources} /><Cite ids={c.sources} sources={sources} /></li>)}
     </ul>
   )
 }

@@ -62,6 +62,9 @@ def analyze(rec: BillRecord, bill_text: str, model_id: str = config.ANALYSIS_MOD
     valid_ids = {s.id for s in rec.sources}
     bad = sorted({sid for c in _all_claims(analysis) for sid in c if sid not in valid_ids})
     analysis.categories = [c for c in analysis.categories if c in CATEGORIES] or ["other"]
+    # Models sometimes return the string "null"; a closed Congress has no trajectory at all.
+    if rec.congress_ended or not analysis.trajectory or analysis.trajectory.strip().lower() in ("null", "none", "n/a"):
+        analysis.trajectory = None
     # An actor without sources must be labeled as outside the record; enforce it.
     for k in analysis.sides.for_ + analysis.sides.against:
         if not k.sources:

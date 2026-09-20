@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'preact/hooks'
 import { loadBill, ordinal, congressYears, fmtDate } from '../data'
+import { loadGlossary, glossary } from '../glossary'
 import { href } from '../router'
 import type { BillPage, Vote } from '../types'
 import { Claims, PartyBar, Prose, ScoreGrid, StatusBadge, CategoryChips, DirectionBadge, SidesBlock } from '../components/ui'
@@ -7,7 +8,8 @@ import { Claims, PartyBar, Prose, ScoreGrid, StatusBadge, CategoryChips, Directi
 export function Bill({ id }: { id: string }) {
   const [bill, setBill] = useState<BillPage | null>(null)
   const [err, setErr] = useState<string | null>(null)
-  useEffect(() => { loadBill(id).then(setBill, e => setErr(String(e))) }, [id])
+  useEffect(() => { loadGlossary(); loadBill(id).then(setBill, e => setErr(String(e))) }, [id])
+  void glossary.value  // re-render once terms arrive
   if (err) return <p class="error">{err}</p>
   if (!bill) return <p class="muted">Loading…</p>
 
@@ -22,8 +24,8 @@ export function Bill({ id }: { id: string }) {
       <header class="bill-header">
         <p class="bill-number">{bill.display} · {ordinal(bill.congress)} Congress ({congressYears(bill.congress)}) · introduced {fmtDate(bill.introduced)}</p>
         <h1>{bill.title}</h1>
-        <p class="one-liner">{a.one_liner}</p>
-        <p class="headline"><StatusBadge status={a.outcome.status} /> {a.headline}</p>
+        <p class="one-liner"><Prose text={a.one_liner} sources={S} /></p>
+        <p class="headline"><StatusBadge status={a.outcome.status} /> <Prose text={a.headline} sources={S} /></p>
         <p class="badges"><DirectionBadge direction={a.direction} /> <CategoryChips categories={a.categories} /></p>
       </header>
 

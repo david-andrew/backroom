@@ -288,6 +288,10 @@ def _strip_html(s: str) -> str:
 def _best_title(bill: dict, titles: list[dict]) -> str:
     """Prefer the popular short title ("One Big Beautiful Bill Act") over the official long one."""
     official = bill.get("title", "")
+    # Congress.gov's "Display Title" is what its own pages show; it survives shell-bill renames (H.R. 3590 -> ACA).
+    display = next((t["title"] for t in titles if (t.get("titleType") or "") == "Display Title" and t.get("title")), None)
+    if display and len(display) <= 90:
+        return display
     shorts = [t for t in titles if "short title" in (t.get("titleType") or "").lower() and t.get("title")]
     # Whole-bill short titles first (portion-specific ones carry a billTextVersionCode + chamber "portion" marker in the type).
     whole = [t for t in shorts if "portion" not in (t.get("titleType") or "").lower()]
