@@ -1,11 +1,13 @@
 import { signal } from '@preact/signals'
 
-export type Route = { page: 'home' } | { page: 'bill'; id: string } | { page: 'about' }
+export type Route = { page: 'home' } | { page: 'bill'; id: string } | { page: 'about' } | { page: 'members'; q: string } | { page: 'member'; id: string }
 
 function parse(): Route {
   const h = location.hash.replace(/^#\/?/, '')
   if (h.startsWith('bill/')) return { page: 'bill', id: h.slice(5) }
   if (h === 'about') return { page: 'about' }
+  if (h.startsWith('member/')) return { page: 'member', id: h.slice(7) }
+  if (h.startsWith('members')) return { page: 'members', q: h.slice(7).replace(/^\?/, '') }
   return { page: 'home' }
 }
 
@@ -19,4 +21,6 @@ export const href = {
   home: '#/',
   about: '#/about',
   bill: (id: string) => `#/bill/${id}`,
+  members: '#/members',
+  member: (id: string) => `#/member/${id}`,
 }

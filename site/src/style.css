@@ -277,3 +277,37 @@ main { max-width: 1080px; margin: 0 auto; padding: 1.5rem 1.5rem 4rem; }
 .st-badge.st-opposed { color: var(--dead); background: var(--dead-bg); }
 .st-badge.st-aligned { color: var(--enacted); background: var(--enacted-bg); }
 .st-badge.st-mixed { color: var(--ink-3); background: transparent; border: 1px solid var(--line); }
+
+/* expandables, member pages */
+.expand { margin-top: 0.4rem; font-family: var(--font-ui); font-size: 0.85rem; }
+.expand summary { cursor: pointer; color: var(--ink-2); }
+.expand summary:hover { color: var(--ink); }
+.people li { margin: 0.15rem 0; }
+.mini-search { font: inherit; font-size: 0.85rem; padding: 0.3rem 0.5rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--ink); margin: 0.5rem 0; width: 100%; max-width: 320px; }
+.vote-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+.vote-group h4 { margin: 0.4rem 0 0.2rem; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.vote-group.cast-yea h4 { color: var(--enacted); } .vote-group.cast-nay h4 { color: var(--dead); }
+.btn { font: inherit; font-size: 0.9rem; padding: 0.45rem 0.9rem; border: 1px solid var(--ink-3); border-radius: var(--radius); background: var(--surface); color: var(--ink); cursor: pointer; }
+.btn:disabled { opacity: 0.5; cursor: default; }
+.member-list { list-style: none; padding: 0; margin: 1rem 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.8rem; }
+.member-card a { display: flex; gap: 0.8rem; align-items: center; padding: 0.7rem 0.9rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); text-decoration: none; }
+.member-card a:hover { border-color: var(--ink-3); }
+.member-card img, .member-photo-empty { width: 56px; height: 70px; object-fit: cover; border-radius: 4px; background: var(--line); flex: none; }
+.member-body { display: flex; flex-direction: column; gap: 0.1rem; font-family: var(--font-ui); }
+.member-name { font-weight: 600; font-family: var(--font); font-size: 1.05rem; }
+.member-header { display: flex; gap: 1.2rem; align-items: center; margin: 0.5rem 0 1rem; }
+.member-header img { width: 96px; height: 120px; object-fit: cover; border-radius: 6px; }
+.member-header h1 { margin: 0 0 0.2rem; }
+.member-tally { max-width: 68ch; }
+.inv-list { list-style: none; padding: 0; margin: 0; }
+.inv { padding: 0.7rem 1rem; margin: 0.6rem 0; background: var(--surface); border: 1px solid var(--line); border-left-width: 4px; border-radius: var(--radius); }
+.inv.dir-for_working_people { border-left-color: var(--people); } .inv.dir-for_concentrated_interests { border-left-color: var(--elite); } .inv.dir-mixed { border-left-color: var(--mixed); }
+.inv-head { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+.inv-head a { text-decoration: none; }
+.inv-items { list-style: none; padding: 0; margin: 0.4rem 0 0; font-family: var(--font-ui); font-size: 0.88rem; }
+.inv-items li { margin: 0.2rem 0; }
+.role { font-weight: 600; }
+.role-sponsor, .role-cosponsor, .role-for, .cast-yea.role { color: var(--enacted); }
+.role-against, .cast-nay.role { color: var(--dead); }
+.cast-present.role, .cast-not_voting.role { color: var(--ink-3); }
+.inv-items li.procedural { opacity: 0.7; }

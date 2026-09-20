@@ -50,6 +50,7 @@ def run() -> None:
             "introduced": rec.introduced, "origin_chamber": rec.origin_chamber,
             "policy_area": rec.policy_area, "subjects": rec.subjects,
             "sponsors": [p.model_dump() for p in rec.sponsors],
+            "cosponsors": [p.model_dump() for p in rec.cosponsors],
             "cosponsor_count": len(rec.cosponsors), "cosponsor_party_counts": rec.cosponsor_party_counts,
             "committees": [c.model_dump() for c in rec.committees],
             "actions": [a_.model_dump() for a_ in rec.actions],

@@ -3,6 +3,8 @@ import { theme, toggleTheme } from './theme'
 import { Explorer } from './pages/Explorer'
 import { Bill } from './pages/Bill'
 import { About } from './pages/About'
+import { Members } from './pages/Members'
+import { MemberPage } from './pages/Member'
 
 export function App() {
   const r = route.value
@@ -13,6 +15,7 @@ export function App() {
         <a class="brand" href={href.home}><span class="brand-mark">Backroom</span></a>
         <nav>
           <a href={href.home} class={r.page === 'home' ? 'active' : ''}>Bills</a>
+          <a href={href.members} class={r.page === 'members' || r.page === 'member' ? 'active' : ''}>Your representatives</a>
           <a href={href.about} class={r.page === 'about' ? 'active' : ''}>How this works</a>
           <button class="theme-toggle" onClick={toggleTheme} aria-label={dark ? 'Switch to light mode' : 'Switch to dark mode'} title={dark ? 'Light mode' : 'Dark mode'}>
             {dark ? <SunIcon /> : <MoonIcon />}
@@ -23,6 +26,8 @@ export function App() {
         {r.page === 'home' && <Explorer />}
         {r.page === 'bill' && <Bill id={r.id} key={r.id} />}
         {r.page === 'about' && <About />}
+        {r.page === 'members' && <Members />}
+        {r.page === 'member' && <MemberPage id={r.id} key={r.id} />}
       </main>
       <footer class="site-footer">
         Facts come from Congress.gov, the Senate, and the House Clerk. Interpretation is model-written from those sources and every claim links back to them.

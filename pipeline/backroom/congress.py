@@ -58,11 +58,11 @@ class CongressClient:
         p.write_text(json.dumps(data, indent=1))
         return data
 
-    def _paged(self, path: str, key: str, limit: int = 250) -> list[dict]:
+    def _paged(self, path: str, key: str, limit: int = 250, params: dict[str, Any] | None = None) -> list[dict]:
         out: list[dict] = []
         offset = 0
         while True:
-            data = self._get(path, {"limit": limit, "offset": offset})
+            data = self._get(path, {"limit": limit, "offset": offset, **(params or {})})
             items = data.get(key) or []
             out.extend(items)
             nxt = (data.get("pagination") or {}).get("next")
@@ -230,11 +230,14 @@ def fetch_tally(http: httpx.Client, v: RecordedVote) -> dict:
         r.raise_for_status()
         root = ET.fromstring(r.text)
         by_party: dict[str, dict[str, int]] = {}
+        members = []
         for m in root.iter("member"):
             party = (m.findtext("party") or "?").strip()
             cast = (m.findtext("vote_cast") or "").strip().lower()
             if cast in ("yea", "nay"):
                 by_party.setdefault(party, {"yea": 0, "nay": 0})[cast] += 1
+            members.append({"name": f"{m.findtext('first_name', '').strip()} {m.findtext('last_name', '').strip()}".strip(),
+                            "party": party, "state": (m.findtext("state") or "").strip(), "cast": _cast(cast)})
         yea, nay = int(root.findtext("count/yeas") or 0), int(root.findtext("count/nays") or 0)
         # The Vice President breaks ties; count/yeas and the member list exclude that vote.
         tb = (root.findtext("tie_breaker/tie_breaker_vote") or "").strip().lower()
@@ -245,7 +248,7 @@ def fetch_tally(http: httpx.Client, v: RecordedVote) -> dict:
             "question": (root.findtext("question") or root.findtext("vote_question_text") or "").strip() or None,
             "result": (root.findtext("vote_result") or "").strip() or None,
             "yea": yea, "nay": nay,
-            "by_party": by_party,
+            "by_party": by_party, "members": members,
         }
     # House
     year = v.date[:4]
@@ -253,6 +256,7 @@ def fetch_tally(http: httpx.Client, v: RecordedVote) -> dict:
     r.raise_for_status()
     root = ET.fromstring(r.text)
     by_party = {}
+    members = []
     for m in root.iter("recorded-vote"):
         leg = m.find("legislator")
         party = (leg.get("party") if leg is not None else "?") or "?"
@@ -260,13 +264,24 @@ def fetch_tally(http: httpx.Client, v: RecordedVote) -> dict:
         if cast in ("yea", "nay", "aye", "no"):
             k = "yea" if cast in ("yea", "aye") else "nay"
             by_party.setdefault(party, {"yea": 0, "nay": 0})[k] += 1
+        if leg is not None:
+            members.append({"name": (leg.get("unaccented-name") or leg.text or "").strip(), "party": party,
+                            "state": leg.get("state") or "", "cast": _cast(cast), "bioguide_id": leg.get("name-id")})
     yea = sum(p["yea"] for p in by_party.values())
     nay = sum(p["nay"] for p in by_party.values())
     return {
         "question": (root.findtext(".//vote-question") or "").strip() or None,
         "result": (root.findtext(".//vote-result") or "").strip() or None,
-        "yea": yea, "nay": nay, "by_party": by_party,
+        "yea": yea, "nay": nay, "by_party": by_party, "members": members,
     }
+
+
+def _cast(c: str) -> str:
+    c = c.lower()
+    if c in ("yea", "aye"): return "yea"
+    if c in ("nay", "no"): return "nay"
+    if c == "present": return "present"
+    return "not_voting"
 
 
 def _person(s: dict) -> Person:
@@ -285,22 +300,30 @@ def _strip_html(s: str) -> str:
     return s.strip()
 
 
+STAGE_RANK = ["enacted", "passed senate", "passed house", "placed on senate calendar", "reported", "introduced"]
+
+
 def _best_title(bill: dict, titles: list[dict]) -> str:
-    """Prefer the popular short title ("One Big Beautiful Bill Act") over the official long one."""
+    """Prefer the whole-bill short title from the latest legislative stage; the popular title is the tiebreak.
+
+    'Display Title' is the formal 'An act to...' form for enacted bills, so it is only a fallback."""
     official = bill.get("title", "")
-    # Congress.gov's "Display Title" is what its own pages show; it survives shell-bill renames (H.R. 3590 -> ACA).
-    display = next((t["title"] for t in titles if (t.get("titleType") or "") == "Display Title" and t.get("title")), None)
-    if display and len(display) <= 90:
-        return display
-    shorts = [t for t in titles if "short title" in (t.get("titleType") or "").lower() and t.get("title")]
-    # Whole-bill short titles first (portion-specific ones carry a billTextVersionCode + chamber "portion" marker in the type).
-    whole = [t for t in shorts if "portion" not in (t.get("titleType") or "").lower()]
-    pool = whole or shorts
-    if not pool:
-        return official
-    # Newest text version tends to be listed first; among ties prefer the shortest.
-    pool.sort(key=lambda t: (t.get("titleTypeCode") or 0, len(t["title"])))
-    return pool[0]["title"]
+    whole = [t for t in titles if t.get("title") and "portion" not in (t.get("titleType") or "").lower()]
+    shorts = [t for t in whole if "short title" in (t.get("titleType") or "").lower()]
+
+    def stage(t: dict) -> int:
+        tt = (t.get("titleType") or "").lower()
+        return next((i for i, k in enumerate(STAGE_RANK) if k in tt), len(STAGE_RANK))
+
+    if shorts:
+        shorts.sort(key=lambda t: (stage(t), len(t["title"])))
+        return shorts[0]["title"]
+    popular = next((t["title"] for t in whole if (t.get("titleType") or "") == "Popular Titles"), None)
+    display = next((t["title"] for t in whole if (t.get("titleType") or "") == "Display Title"), None)
+    for cand in (popular, display):
+        if cand and len(cand) <= 90:
+            return cand
+    return official
 
 
 def _short_title(bill: dict) -> str | None:

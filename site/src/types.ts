@@ -55,8 +55,10 @@ export type Stance = 'aligned' | 'opposed' | 'mixed'
 export interface IndustryEffect { industry: string; effect: IndustryEffectKind; stance_toward_public: Stance; note: string; sources: string[] }
 export interface IndustryBrief { industry: string; effect: IndustryEffectKind; stance: Stance }
 export interface Sides { for: Actor[]; against: Actor[]; party_line: PartyLine; party_line_note: string }
+export interface MemberVote { name: string; party: string; state: string; cast: 'yea' | 'nay' | 'present' | 'not_voting'; bioguide_id?: string | null }
 export interface Vote {
   chamber: string; date: string; roll_number: number; url: string
+  members: MemberVote[]
   question: string | null; result: string | null; yea: number | null; nay: number | null
   by_party: Record<string, { yea: number; nay: number }> | null
 }
@@ -89,7 +91,7 @@ export interface BillPage {
   id: string; display: string; congress: number; title: string
   introduced: string | null; origin_chamber: string | null
   policy_area: string | null; subjects: string[]
-  sponsors: Person[]; cosponsor_count: number; cosponsor_party_counts: Record<string, number>
+  sponsors: Person[]; cosponsors: Person[]; cosponsor_count: number; cosponsor_party_counts: Record<string, number>
   committees: { name: string; chamber: string; activities: string[] }[]
   actions: Action[]; votes: Vote[]
   congress_gov_url: string; text_url: string | null; congress_ended: boolean

@@ -42,6 +42,14 @@ class Person(BaseModel):
     state: str | None = None
 
 
+class MemberVote(BaseModel):
+    name: str
+    party: str
+    state: str
+    cast: Literal["yea", "nay", "present", "not_voting"]
+    bioguide_id: str | None = None   # House XML carries it; Senate votes are matched later by name+state
+
+
 class RecordedVote(BaseModel):
     chamber: str
     date: str
@@ -54,6 +62,7 @@ class RecordedVote(BaseModel):
     nay: int | None = None
     # party -> {"yea": n, "nay": n}
     by_party: dict[str, dict[str, int]] | None = None
+    members: list[MemberVote] = Field(default_factory=list)
 
 
 class Action(BaseModel):

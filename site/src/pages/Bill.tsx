@@ -1,14 +1,15 @@
 import { useEffect, useState } from 'preact/hooks'
+import { loadMembers, memberForVote, memberById } from '../members'
 import { loadBill, ordinal, congressYears, fmtDate } from '../data'
 import { loadGlossary, glossary } from '../glossary'
 import { href } from '../router'
-import type { BillPage, Vote } from '../types'
-import { Claims, IndustryTable, PartyBar, Prose, ScoreGrid, StatusBadge, CategoryChips, DirectionBadge, SidesBlock } from '../components/ui'
+import type { BillPage, MemberVote, Person, Vote } from '../types'
+import { Claims, IndustryTable, PartyBar, PartyDot, Prose, ScoreGrid, StatusBadge, CategoryChips, DirectionBadge, SidesBlock } from '../components/ui'
 
 export function Bill({ id }: { id: string }) {
   const [bill, setBill] = useState<BillPage | null>(null)
   const [err, setErr] = useState<string | null>(null)
-  useEffect(() => { loadGlossary(); loadBill(id).then(setBill, e => setErr(String(e))) }, [id])
+  useEffect(() => { loadGlossary(); loadMembers(); loadBill(id).then(setBill, e => setErr(String(e))) }, [id])
   void glossary.value  // re-render once terms arrive
   if (err) return <p class="error">{err}</p>
   if (!bill) return <p class="muted">Loading…</p>
@@ -100,6 +101,14 @@ export function Bill({ id }: { id: string }) {
             <h3>{bill.cosponsor_count} cosponsors</h3>
             <PartyBar counts={bill.cosponsor_party_counts} width={120} />
             <p class="muted small">{Object.entries(bill.cosponsor_party_counts).map(([k, v]) => `${k}: ${v}`).join(' · ') || 'none'}</p>
+            {bill.cosponsors.length > 0 && (
+              <details class="expand">
+                <summary>Show all {bill.cosponsors.length}</summary>
+                <ul class="plain small people">
+                  {[...bill.cosponsors].sort((a, b) => (a.party ?? '').localeCompare(b.party ?? '') || a.name.localeCompare(b.name)).map(p => <li key={p.bioguide_id}><PersonLink p={p} /></li>)}
+                </ul>
+              </details>
+            )}
             {bill.committees.length > 0 && <>
               <h3>Committees</h3>
               <ul class="plain small">{bill.committees.map(c => <li key={c.name}>{c.name} <span class="muted">— {c.activities.join(', ')}</span></li>)}</ul>
@@ -145,6 +154,7 @@ function VoteRow({ v }: { v: Vote }) {
           {v.result && <span class="muted"> · {v.result}</span>}
         </div>
       )}
+      {v.members.length > 0 && <MemberVotes v={v} />}
       {parties.length > 0 && (
         <table class="party-table">
           <thead><tr><th></th>{parties.map(([p]) => <th key={p}>{p}</th>)}</tr></thead>
@@ -155,5 +165,41 @@ function VoteRow({ v }: { v: Vote }) {
         </table>
       )}
     </div>
+  )
+}
+
+function PersonLink({ p }: { p: Person }) {
+  const current = memberById(p.bioguide_id)
+  const label = <><PartyDot party={p.party} /> {p.name} <span class="muted">({p.state})</span></>
+  return current ? <a href={href.member(p.bioguide_id)}>{label}</a> : <a href={`https://bioguide.congress.gov/search/bio/${p.bioguide_id}`} target="_blank" rel="noreferrer" title="Former member">{label}</a>
+}
+
+function MemberVotes({ v }: { v: Vote }) {
+  const [q, setQ] = useState('')
+  const groups: [string, MemberVote[]][] = [['yea', []], ['nay', []], ['present', []], ['not_voting', []]]
+  for (const m of v.members) groups.find(g => g[0] === m.cast)![1].push(m)
+  const needle = q.trim().toLowerCase()
+  const label: Record<string, string> = { yea: 'Voted yes', nay: 'Voted no', present: 'Present', not_voting: 'Did not vote' }
+  return (
+    <details class="expand">
+      <summary>Show how each member voted ({v.members.length})</summary>
+      <input type="search" class="mini-search" placeholder="Filter by name or state" value={q} onInput={e => setQ((e.target as HTMLInputElement).value)} />
+      <div class="vote-groups">
+        {groups.filter(g => g[1].length).map(([cast, list]) => (
+          <div key={cast} class={`vote-group cast-${cast}`}>
+            <h4>{label[cast]} <span class="muted">({list.length})</span></h4>
+            <ul class="plain small people">
+              {list.filter(m => !needle || `${m.name} ${m.state}`.toLowerCase().includes(needle))
+                .sort((a, b) => a.party.localeCompare(b.party) || a.name.localeCompare(b.name))
+                .map((m, i) => {
+                  const cur = memberForVote(m)
+                  const body = <><PartyDot party={m.party} /> {m.name} <span class="muted">({m.state})</span></>
+                  return <li key={i}>{cur ? <a href={href.member(cur.id)}>{body}</a> : body}</li>
+                })}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </details>
   )
 }

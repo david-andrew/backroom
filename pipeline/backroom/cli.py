@@ -4,7 +4,8 @@
   backroom analyze [bill ...]    run the analysis model (default: every fetched bill)
   backroom triage CONGRESS       score every bill in a Congress with the triage model
   backroom glossary              list uncommon terms, define them from Wikipedia
-  backroom build                 write site/public/data
+  backroom members             fetch current members, index their roles on tracked bills
+  backroom build                 write site/public/data (also rebuilds the members index)
   backroom all                   fetch + analyze + build for the seeds
 """
 from __future__ import annotations
@@ -12,7 +13,7 @@ from __future__ import annotations
 import argparse
 import json
 
-from . import analyze, build, config, glossary, triage
+from . import analyze, build, config, glossary, members, triage
 from .congress import CongressClient
 from .schema import BillId
 
@@ -36,6 +37,7 @@ def main() -> None:
     t.add_argument("--min-score", type=int, default=12); t.add_argument("--model", default=config.TRIAGE_MODEL)
     t.add_argument("--fetch", action="store_true", help="also fetch + analyze the shortlist")
     g = sub.add_parser("glossary"); g.add_argument("--force", action="store_true"); g.add_argument("--model", default=config.TRIAGE_MODEL)
+    mm = sub.add_parser("members"); mm.add_argument("--force", action="store_true", help="refetch the member roster")
     sub.add_parser("build")
     al = sub.add_parser("all"); al.add_argument("--force", action="store_true")
     args = ap.parse_args()
@@ -72,6 +74,9 @@ def main() -> None:
         glossary.run(model_id=args.model, force=args.force)
     if args.cmd in ("build", "all"):
         build.run()
+        members.run()
+    if args.cmd == "members":
+        members.run(force=args.force)
 
 
 if __name__ == "__main__":
