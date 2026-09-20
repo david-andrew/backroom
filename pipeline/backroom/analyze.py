@@ -82,6 +82,10 @@ def analyze(rec: BillRecord, bill_text: str, model_id: str = config.ANALYSIS_MOD
     # A sitting Congress cannot have killed a bill yet; the model sometimes reaches for a final status anyway.
     if not rec.congress_ended and analysis.outcome.status in ("never_got_a_vote", "passed_one_chamber_then_stalled", "blocked_from_a_vote", "voted_down"):
         analysis.outcome.status = "pending"
+    # Party blocs are named as a share of the caucus, deterministically, whatever the model wrote.
+    sizes = caucus.load().get(str(rec.congress), {})
+    for k in analysis.sides.for_ + analysis.sides.against:
+        k.name = bloc_with_denominator(k.name, sizes)
     # Models sometimes return the string "null"; a closed Congress has no trajectory at all.
     if rec.congress_ended or not analysis.trajectory or analysis.trajectory.strip().lower() in ("null", "none", "n/a"):
         analysis.trajectory = None
@@ -95,6 +99,20 @@ def analyze(rec: BillRecord, bill_text: str, model_id: str = config.ANALYSIS_MOD
         generated_at=datetime.now(timezone.utc).isoformat(timespec="seconds"),
         record_fetched_at=rec.fetched_at, record_hash=rec.content_hash, analysis=analysis, unresolved_citations=bad,
     )
+
+
+_PARTY = {"democrat": "D", "democratic": "D", "republican": "R", "independent": "I"}
+_BLOC = re.compile(r"(?<!of )\b(\d+)\s+(House|Senate)\s+(Democrat(?:ic|s)?|Republican(?:s)?|Independent(?:s)?)\b", re.I)
+
+
+def bloc_with_denominator(name: str, sizes: dict[str, dict[str, int]]) -> str:
+    """'114 House Democrats' -> '114 of 216 House Democrats' using the caucus sizes derived from roll calls."""
+    def sub(m: re.Match) -> str:
+        n, chamber, party = m.group(1), m.group(2), m.group(3)
+        code = _PARTY.get(party.lower().rstrip("s"), None) or _PARTY.get(party.lower(), None)
+        total = sizes.get(chamber.title(), {}).get(code) if code else None
+        return f"{n} of {total} {chamber} {party}" if total and int(n) <= total else m.group(0)
+    return _BLOC.sub(sub, name)
 
 
 def _all_claim_objs(a: Analysis):
