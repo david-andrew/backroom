@@ -50,7 +50,8 @@ def harms(s: dict) -> int:
     return s.get("concentrated_gain", 0) + s.get("public_harm", 0)
 
 
-def run(congress: int, limit: int | None = None, min_score: int = 12, model_id: str = config.TRIAGE_MODEL) -> list[dict]:
+def run(congress: int, limit: int | None = None, min_score: int = 12, model_id: str = config.TRIAGE_MODEL, min_harm: int | None = None) -> list[dict]:
+    min_harm = min_score if min_harm is None else min_harm
     client = CongressClient()
     bills = client.list_bills(congress, limit=limit)
     summaries = load_summaries(congress, client)
@@ -105,8 +106,8 @@ def run(congress: int, limit: int | None = None, min_score: int = 12, model_id: 
         save()
         print(f"  scored {min((w + len(group)) * BATCH, len(todo))}/{len(todo)}" + (f"  ({failed} batch(es) failed, will retry next run)" if failed else ""))
 
-    shortlist = [s for s in done.values() if helps(s) >= min_score or harms(s) >= min_score]
-    print(f"  shortlist: {len(shortlist)} bills ({sum(1 for s in shortlist if helps(s) >= min_score)} helpful, {sum(1 for s in shortlist if harms(s) >= min_score)} harmful) at >= {min_score}")
+    shortlist = [s for s in done.values() if helps(s) >= min_score or harms(s) >= min_harm]
+    print(f"  shortlist: {len(shortlist)} bills ({sum(1 for s in shortlist if helps(s) >= min_score)} helpful at >= {min_score}, {sum(1 for s in shortlist if harms(s) >= min_harm)} harmful at >= {min_harm})")
     return shortlist
 
 

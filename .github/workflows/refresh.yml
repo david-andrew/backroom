@@ -42,7 +42,7 @@ jobs:
           # Discover new bills in the sitting Congress: score every title+summary (cached, so only new bills cost anything),
           # then fetch and analyze whatever clears the cutoff. Two passes so timed-out batches get filled.
           uv run backroom triage ${{ vars.BACKROOM_CONGRESS || '119' }} --top 0
-          uv run backroom triage ${{ vars.BACKROOM_CONGRESS || '119' }} --min-score ${{ vars.BACKROOM_MIN_SCORE || '13' }} --top 0 --fetch
+          uv run backroom triage ${{ vars.BACKROOM_CONGRESS || '119' }} --min-score ${{ vars.BACKROOM_MIN_SCORE || '13' }} --min-harm ${{ vars.BACKROOM_MIN_HARM || '12' }} --top 0 --fetch
           uv run backroom analyze ${{ inputs.force_analyze && '--force' || '' }}
           uv run backroom glossary
           uv run backroom members --force
