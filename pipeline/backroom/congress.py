@@ -92,7 +92,8 @@ class CongressClient:
     def list_summaries(self, congress: int, types: tuple[str, ...] = ("hr", "s")) -> dict[str, str]:
         """slug -> first sentence or two of the latest CRS summary, for every bill in a Congress that has one.
         The summaries endpoint only returns results with a date window; one page holds 250."""
-        start = f"{1789 + 2 * (congress - 1)}-01-03T00:00:00Z"
+        # Window filters on the summary update date, which for older Congresses is years after they ended (CRS re-processed its archive).
+        start = "1970-01-01T00:00:00Z"
         end = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         out: dict[str, str] = {}
         for t in types:
