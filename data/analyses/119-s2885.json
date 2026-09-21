@@ -1,214 +1,233 @@
 {
  "bill_id": "119-s2885",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:57:01+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:45:23+00:00",
  "record_fetched_at": "2026-09-20T08:06:51+00:00",
  "record_hash": "a94bc2dee489cf18",
  "analysis": {
-  "one_liner": "Requires states to draw congressional maps with independent citizen commissions and bans mid-decade redistricting.",
-  "headline": "Introduced in September 2025 with four senators behind it, the bill went straight to the Senate Judiciary Committee and has had no hearing, no vote, and no further action since.",
+  "one_liner": "Requires states to draw congressional districts through independent citizens' commissions and bans mid-decade remapping.",
+  "headline": "Introduced September 18, 2025 with three cosponsors, the bill was referred the same day to the Senate Judiciary Committee, where it has sat with no hearing, markup, or vote.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would require every state to draw its congressional districts through a 15-member citizen commission selected by public application, with rules barring maps drawn to favor either political party, and it would ban states from redrawing maps between decennial censuses except when a court orders it. States that already use qualifying independent commissions, plus Iowa's nonpartisan staff model, could keep their own systems. The federal government would pay states $150,000 per House seat to run the commissions, and federal courts would draw the maps themselves if a state misses its deadline.",
-  "who_benefits": "Voters, especially in states where one party draws itself lopsided majorities, and ordinary citizens, who could apply to serve as commissioners. The bill also strengthens protections for racial and language minority communities by building Voting Rights Act compliance and public transparency requirements directly into the map-drawing rules.",
-  "who_benefits_short": "Voters in gerrymandered states",
+  "plain_summary": "The bill would require every state to draw its congressional districts through a 15-member independent citizens' commission instead of legislators, ban redrawing maps between censuses unless a court orders it, and set rules: equal population, compliance with the Voting Rights Act, keeping communities of interest together, and no maps drawn to favor a political party. States whose existing commissions already meet these standards, plus Iowa, are exempt. The bill was referred to the Senate Judiciary Committee and has not moved since.",
+  "who_benefits": "Voters in states where legislators currently draw their own congressional lines: maps could no longer be engineered to protect incumbents or maximize one party's seats, communities could not be split for political gain, and the process would be open to the public with hearings, livestreamed meetings, and published data. The bill also gives any citizen the right to sue over a noncompliant map, with cases heard on an expedited basis, and authorizes federal payments of $150,000 per House seat to help states pay for running commissions.",
+  "who_benefits_short": "Voters in legislator-drawn-map states",
   "how_it_helps": [
    {
-    "text": "Replaces legislature-drawn congressional maps with a 15-member independent commission chosen through a public application process, random selection, and approval rules that require support from members of both major parties and independents.",
+    "text": "Ends legislator-drawn congressional maps: any congressional redistricting must follow a plan enacted by an independent state redistricting commission, or a court-drawn plan if the commission's plan fails.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Bans states from redistricting again between decennial censuses, with exceptions only when a court requires it, which prevents parties from rewriting maps mid-decade to lock in an advantage.",
+    "text": "Bans mid-decade redistricting — once a state is redistricted after a census, it cannot redraw maps again until the next apportionment unless a court requires it, directly targeting the practice of parties remapping between censuses to lock in seats.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Sets ranked, uniform criteria for maps: equal population, compliance with the Voting Rights Act including coalition districts, keeping communities of interest together, and a prohibition on maps drawn with the intent or effect of materially favoring one party, enforced through a court test with a rebuttable presumption.",
+    "text": "Sets ranked criteria for every map: equal population, Voting Rights Act compliance (including coalition districts where two protected groups can together elect their candidates of choice), preservation of communities of interest, and a prohibition on maps that materially favor or disfavor a political party, with a rebuttable presumption of violation when modeled results show more than 7% or one seat of partisan advantage across recent elections.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires an open process: public hearings before and after draft maps, a public website with all commission records and live-streamed meetings, and the right of any citizen to submit maps and comments for the commission to consider.",
+    "text": "Makes the process public: commissions must hold at least six hearings, livestream meetings, post all data, software, draft maps, and public comments online, and accept maps submitted by any resident.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Gives any aggrieved citizen a private right of action in federal court, lets the Attorney General sue to enforce the law, and requires a three-judge federal court to draw the map itself if a state fails to enact a plan by its deadline.",
+    "text": "Gives citizens a private right of action to challenge noncompliant maps, with the Attorney General also empowered to sue, cases heard by three-judge courts on an expedited docket, and automatic stays of suspect plans once a challenge is filed.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Appropriates federal money — $150,000 per congressional seat, subject to future appropriations — so states can fund the commissions rather than bearing the full cost themselves.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Party leaders and incumbent legislators of both parties, who lose the power to draw their own district lines, along with the professional map-drawing and political-data operations that gerrymandering supports. Taxpayers fund the commission grants, though the cost is modest.",
-  "who_pays_short": "Party leaders and incumbent legislators",
+  "who_pays": "State legislators and party leaders lose the power to draw congressional districts that protect their majorities — the core cost of the bill. Taxpayers (federal) bear the cost of commission payments, which are authorized at $150,000 per seat but depend on future appropriations; states must build the nonpartisan agencies, selection pools, and select committees the bill requires; and federal courts take on enforcement and, where commissions deadlock, map-drawing itself.",
+  "who_pays_short": "Legislators and parties that draw maps",
   "drawbacks": [
    {
-    "text": "The bill rests on Congress's power over the 'time, place and manner' of elections and the Fourteenth Amendment, and its command that every state adopt a commission would almost certainly face constitutional challenges; the bill itself includes a severability clause acknowledging that parts could be struck down.",
+    "text": "The commission selection process is elaborate and can deadlock: if the state's Select Committee on Redistricting rejects the candidate pool three times, map-drawing falls to a three-judge federal court instead — so a state could end up with court-drawn maps rather than citizen-drawn ones.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The commission-selection machinery is complex: a nonpartisan agency builds a 36-person pool, a legislator-appointed select committee must approve it, and if the pool is rejected three times the map is drawn by a federal court instead — meaning a broken process hands map drawing from citizens to judges.",
+    "text": "The rules are not uniform: states whose existing commissions meet the bill's criteria, and Iowa's nonpartisan-agency system, are exempt, so the change would apply unevenly across the country.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The mid-decade redistricting ban locks in the maps states are using now, however those maps were drawn; it prevents new gerrymanders but does not by itself force states to redraw existing ones until the 2030 census.",
+    "text": "All partisan-fairness litigation must be filed in the District of Columbia and appeals go only to the D.C. Circuit, concentrating every map challenge in a single venue.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The funding depends on future congressional appropriations; without them, states must absorb the cost of building and operating the commissions.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "A good-faith objection: commissioners would be unelected citizens, insulated from voters, and the bill overrides state constitutional map-drawing arrangements by national mandate — the bill itself concedes federal courts have left partisan-gerrymandering enforcement to Congress, so its constitutional footing would likely be litigated.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The bill does not touch redistricting for state and local offices, so gerrymandering would continue at those levels.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core trade is real: taking map drawing away from the politicians who win or lose by it, in exchange for a slower, more bureaucratic and possibly litigated process with courts as the backstop. The transparency and conflict-of-interest rules are unusually thorough. The main honest objections are legal uncertainty about whether Congress can dictate state commission structures, and the fact that a mid-decade ban freezes whatever maps already exist, flaws included.",
+  "benefit_vs_cost": "The core exchange is straightforward: ordinary voters give up nothing they currently control — legislators, not voters, draw congressional maps today — and gain a citizen commission, enforceable fairness criteria, and a ban on mid-decade remapping. The real costs fall on incumbents and party organizations that lose map-drawing power. The bill's weak points are its complexity: a multi-stage selection process that can deadlock into court-drawn maps, carve-outs for existing commission states and Iowa, and an enforcement design that funnels everything through D.C. courts. Those are design flaws, not reasons the reform fails on its own terms, but they mean implementation would be contested from day one.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill went to the Senate Judiciary Committee the day it was introduced and, more than two months later, has not received a hearing, a markup, or a vote.",
+   "mechanism": "The bill was introduced and sent to the Senate Judiciary Committee, where it has sat without a hearing, markup, or vote since September 2025.",
    "narrative": [
     {
-     "text": "Senator Alex Padilla introduced the Redistricting Reform Act of 2025 on September 18, 2025; it was read twice and referred to the Senate Judiciary Committee the same day.",
+     "text": "Senator Alex Padilla introduced the Redistricting Reform Act of 2025 on September 18, 2025, joined at introduction by Senators Warnock, King, and Schiff.",
      "sources": [
-      "S1",
+      "S2",
       "S4"
      ]
     },
     {
-     "text": "The bill has three cosponsors: Senators Raphael Warnock (D-GA), Adam Schiff (D-CA), and Angus King (I-ME).",
+     "text": "The Senate read the bill twice and referred it to the Committee on the Judiciary the same day; the action record shows no further activity.",
      "sources": [
-      "S3"
+      "S4"
      ]
     },
     {
-     "text": "The complete action history shows no action after the referral to Judiciary — no hearing, no committee vote, and no floor action.",
+     "text": "Three senators are listed as cosponsors — two Democrats and one Independent — and no action has followed the referral.",
      "sources": [
+      "S3",
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "Because the bill has not moved, the officeholders and party organizations that currently control congressional map drawing keep that power, and any mid-decade redistricting underway in 2025 continues under existing rules with no federal commission requirement or ban to stop it."
+   "who_came_out_ahead": "So far, no one has had to give up anything: legislators and party officials retain their existing power to draw and redraw congressional maps while the bill sits untouched in committee."
   },
-  "who_came_out_ahead_short": "Incumbents who still draw the maps",
+  "who_came_out_ahead_short": "Incumbents who keep drawing their own districts",
   "sides": {
    "for": [
     {
      "name": "Sen. Alex Padilla",
-     "role": "U.S. Senator (CA), bill sponsor",
+     "role": "U.S. Senator (CA)",
      "party": "D",
-     "what_they_did": "Introduced the Redistricting Reform Act of 2025 and referred it to the Judiciary Committee.",
+     "what_they_did": "Introduced the Redistricting Reform Act of 2025 and became its lead sponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
+      "S2",
       "S4"
      ]
     },
     {
-     "name": "Sen. Adam Schiff",
-     "role": "U.S. Senator (CA), original cosponsor",
+     "name": "Sen. Raphael Warnock",
+     "role": "U.S. Senator (GA)",
      "party": "D",
      "what_they_did": "Signed on as an original cosponsor at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3"
-     ]
-    },
-    {
-     "name": "Sen. Raphael Warnock",
-     "role": "U.S. Senator (GA), cosponsor",
-     "party": "D",
-     "what_they_did": "Signed on as a cosponsor.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
+      "S2",
       "S3"
      ]
     },
     {
      "name": "Sen. Angus King",
-     "role": "U.S. Senator (ME), cosponsor",
+     "role": "U.S. Senator (ME)",
      "party": "I",
-     "what_they_did": "Signed on as a cosponsor.",
+     "what_they_did": "Signed on as an original cosponsor at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S2",
+      "S3"
+     ]
+    },
+    {
+     "name": "Sen. Adam Schiff",
+     "role": "U.S. Senator (CA)",
+     "party": "D",
+     "what_they_did": "Signed on as an original cosponsor at introduction.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S2",
       "S3"
      ]
     }
    ],
    "against": [
     {
-     "name": "Senate Judiciary Committee",
-     "role": "Committee of referral",
-     "party": null,
-     "what_they_did": "Received the bill on referral and has taken no further action — no hearing or committee vote has been scheduled.",
+     "name": "Senate Judiciary Committee (Chair Chuck Grassley)",
+     "role": "Committee of referral, chaired by a Republican",
+     "party": "R",
+     "what_they_did": "Received the bill by referral on September 18, 2025 and has taken no action since — no hearing, markup, or vote appears in the record.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S1",
       "S4"
      ]
-    },
-    {
-     "name": "Sen. Chuck Grassley",
-     "role": "Chair, Senate Judiciary Committee",
-     "party": "R",
-     "what_they_did": "As committee chair, controls whether the bill gets a hearing; none has been scheduled.",
-     "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
     }
    ],
-   "party_line": "mostly_party_line",
-   "party_line_note": "All four named supporters are Democrats or an Independent who caucuses with Democrats; no Republican senator has cosponsored, and the Republican-run committee has not acted on it."
+   "party_line": "unclear",
+   "party_line_note": "No vote has occurred, but every original sponsor is a Democrat or the independent from Maine, there are no Republican cosponsors, and the bill sits in a Republican-chaired committee that has not acted."
   },
   "industries": [
    {
-    "industry": "Incumbent members of Congress and state legislators (both parties)",
+    "industry": "Incumbent legislators and party officials (state and federal)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill takes away legislators' power to draw their own congressional districts, the power that protects safe seats and shapes House majorities. Their interest in keeping it runs directly against the voters' interest in fair maps.",
+    "note": "These officeholders currently hold the power to draw congressional districts, which the bill transfers to citizen commissions and strips of mid-decade redrawing. Their interest in the current system runs directly against voters', since the maps they draw decide who can realistically defeat them.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Political map-drawing consultants and political data firms",
+    "industry": "Political map-drawing consultants and operatives",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Gerrymandering is a paid specialty — modeling, mapping software, and expert testimony. Commissions with publicly disclosed staff and a ban on partisan-favoring maps shrink that market; the bill also requires commission employees and vendors to disclose ten years of political spending.",
+    "note": "Parties currently hire specialists to engineer district lines; the bill replaces that with randomly selected citizen commissioners, publicly vetted staff, and disclosure of political spending by anyone who works for the commission.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "State governments (redistricting administration)",
-    "effect": "gains",
+    "industry": "States with existing independent commissions",
+    "effect": "entrenched",
     "stance_toward_public": "aligned",
-    "note": "States would receive $150,000 per House seat from the Election Assistance Commission to establish and run their commissions, though no state with a single House seat would be paid.",
+    "note": "States that already draw congressional maps through commissions meeting the bill's criteria are grandfathered in, locking in their existing systems rather than forcing changes.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "With no Republican cosponsors and a Republican-run Senate agenda, the bill is unlikely to get a committee hearing, let alone a floor vote, before the 119th Congress ends in January 2027. It arrived during the national fight over mid-decade redistricting, so its odds could change only if pressure for a federal redistricting rule grows sharply; similar commission proposals have historically died at this same referral stage.",
+  "trajectory": "With no Republican cosponsors and the bill parked in the Judiciary Committee of a Senate majority from the other party, the realistic path is the one most redistricting reform bills take: no hearing, no markup, and no floor vote before this Congress ends. It would need a decision by Senate leadership to move, which nothing in the record suggests is coming.",
   "categories": [
    "voting_and_democracy",
    "corruption_and_ethics"
   ],
   "scores": {
    "public_stakes": 7,
-   "concentrated_stakes": 9,
+   "concentrated_stakes": 7,
    "outcome_against_public": 4,
    "support_mismatch": 3,
-   "corruption_relevance": 9,
-   "confidence": 0.85
+   "corruption_relevance": 8,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

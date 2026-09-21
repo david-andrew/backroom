@@ -1,105 +1,125 @@
 {
  "bill_id": "119-s2165",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:46:45+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:32:47+00:00",
  "record_fetched_at": "2026-09-20T14:32:28+00:00",
  "record_hash": "3f6988d7e4cb6d15",
  "analysis": {
-  "one_liner": "Makes it a federal crime to share downloadable blueprints for 3D-printing a gun online.",
-  "headline": "The bill, which would make it a federal crime to share downloadable gun blueprints online, has sat in the Senate Judiciary Committee since June 2025 with no action.",
+  "one_liner": "Makes it a federal crime to share digital files that let 3D printers produce firearms.",
+  "headline": "The bill banning distribution of 3D-printed gun files was introduced in June 2025 with 23 Senate cosponsors and has sat in the Judiciary Committee with no vote ever taken.",
   "direction": "for_working_people",
-  "plain_summary": "The bill adds a new federal crime: anyone who intentionally distributes, over the internet, digital files (such as CAD files) that can automatically program a 3D printer to make a firearm or finish one from an unfinished frame or receiver would be breaking the law. It is aimed at the spread of undetectable, untraceable homemade guns — guns that carry no serial numbers, can be largely plastic, and can be made by people who failed or never took a background check. The bill was introduced in June 2025 and referred to the Senate Judiciary Committee, where it has remained ever since.",
-  "who_benefits": "Ordinary people who ride public transit, send children to school, or live in communities affected by gun violence benefit from fewer untraceable, undetectable plastic guns. Law enforcement also benefits: guns with serial numbers can be traced to solve crimes, while 3D-printed guns cannot. People legally barred from buying guns — felons, domestic abusers — are the ones who lose a workaround.",
-  "who_benefits_short": "Communities exposed to gun violence",
+  "plain_summary": "The bill adds a new federal crime: it would be illegal to distribute over the internet digital files — CAD files or other code — that can automatically program a 3D printer to make a gun or finish an unfinished gun frame or receiver [S2]. The bill's findings argue this closes a gap that lets people who failed background checks, felons, and domestic abusers build untraceable, serial-number-free guns at home, and even undetectable plastic guns that can pass through metal detectors [S2]. The bill was referred to the Senate Judiciary Committee on June 25, 2025 and has taken no further step since [S4].",
+  "who_benefits": "Ordinary people would gain from a rule that keeps digital gun-making files out of general circulation: people prohibited from owning guns — felons and domestic abusers — would find it harder to build untraceable, serial-number-free weapons, and travelers would face lower risk of undetectable plastic guns passing through airport security [S2]. Law enforcement would also benefit, because investigations rely on tracing recovered guns by their serial numbers, which 3D-printed guns lack [S2].",
+  "who_benefits_short": "Communities affected by gun violence and police investigators",
   "how_it_helps": [
    {
-    "text": "It makes it a federal crime to distribute, online, digital files that can automatically program a 3D printer to produce a firearm or complete one from an unfinished frame or receiver.",
+    "text": "The bill makes it a federal crime to distribute CAD files or code that can automatically program a 3D printer to produce a firearm or finish an unfinished frame or receiver [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It addresses the fact that 3D-printed guns have no serial numbers, so they cannot be traced by law enforcement when used in crimes.",
+    "text": "It closes a loophole in the background-check system: the bill's findings describe the 2013 Santa Monica College shooter, who failed a licensed dealer's background check and then built his own gun, killing five people [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It responds to the risk that plastic 3D-printed guns could evade metal detectors at airports and other security checkpoints.",
+    "text": "It preserves firearms tracing, which the bill notes relied on more than 639,295 trace requests processed by the ATF in 2024 and depends on serial numbers that homemade 3D-printed guns do not carry [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It targets access by people legally barred from owning guns — such as felons and domestic abusers — since 3D printing bypasses the background-check system entirely.",
+    "text": "It addresses the airport-security risk that plastic guns pass through metal detectors, a scenario the bill's findings flag for airplanes and other crowded places [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Anyone who wants to share or download printable gun blueprints online, and makers of 3D printer plans who would face federal criminal liability for distributing gun files. Gun-rights advocates argue the restriction also touches free-speech interests in publishing computer code.",
-  "who_pays_short": "Anyone sharing printable gun files",
+  "who_pays": "The people who would pay are those who distribute or want access to 3D-printable gun files, who would face criminal liability for sharing them online [S2]. The broader public cost is minimal, though the ban would be hard to enforce since files, once shared, can be copied and hosted outside U.S. reach [S2].",
+  "who_pays_short": "People sharing or seeking 3D-printable gun files",
   "drawbacks": [
    {
-    "text": "Restricting the online distribution of digital files raises free-speech concerns, since the same CAD files are expressive computer code; the bill's findings argue the restriction targets untraceable firearms rather than protected speech, but courts weigh such speech claims seriously.",
+    "text": "The ban only covers internet distribution. Files already posted can be copied, hosted on foreign websites, or shared privately, so enforcement would be difficult and a person determined to print a gun could still obtain plans from outside U.S. jurisdiction [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The ban covers internet and World Wide Web distribution only, so files could still be shared offline or through other channels, limiting how much it reduces access to printable gun plans.",
+    "text": "Criminalizing the distribution of digital files raises a First Amendment question, because courts have sometimes treated code as protected speech; the bill's own findings acknowledge this concern and argue the ban targets the guns, not the programming [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The bill does nothing about the tens of thousands of untraceable guns already made by other means, such as unfinished receivers, one example of which was used in the 2013 Santa Monica College shooting that killed five people [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The main benefit is preventing untraceable, possibly undetectable guns from spreading while background checks and traceability still work; the main cost is real tension with free-speech concerns about restricting publication of digital files, and the practical reality that determined users could share files by other means or abroad. A one-sentence ban is simple but narrow, and it does nothing about files already in circulation.",
+  "benefit_vs_cost": "The benefit is real but targeted: it closes a specific gap — untraceable, potentially undetectable plastic guns — that undercuts background checks, serial-number tracing, and security screening, all systems that protect ordinary people every day [S2]. The costs an honest supporter must acknowledge are significant: the ban only covers internet distribution, and once files exist online, copies can move through foreign sites and private channels that a U.S. statute cannot reach, so a determined person could still get them [S2]. There is also an unresolved free-speech question about criminalizing the sharing of digital files, which the bill itself anticipates and argues against [S2]. On balance, the bill is a modest, well-aimed rule rather than a cure, and its main practical limits are enforcement and constitutional, not design flaws in what it prohibits.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced in June 2025 and referred to the Senate Judiciary Committee, where it has sat with no hearings, no vote, and no floor action.",
+   "mechanism": "The bill was introduced and sent to the Senate Judiciary Committee, where it has remained without a hearing, a vote, or any other action.",
    "narrative": [
     {
-     "text": "The Senate introduced the bill on June 25, 2025 and, the same day, read it twice and referred it to the Judiciary Committee.",
+     "text": "The bill was introduced on June 25, 2025, read twice, and referred to the Committee on the Judiciary [S4].",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "No further action appears in the record: the bill has not received a hearing, a committee vote, or a floor vote.",
+     "text": "No further action appears in the record: no hearing, no committee vote, and no floor action since the June 25 referral [S4].",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "All 23 cosponsors are Democrats or allied independents, so the bill lacked the Republican support needed to move in a Senate that typically requires 60 votes to advance most legislation.",
+     "text": "Twenty-three senators cosponsored the bill — 22 of 45 Senate Democrats and 1 of 2 Senate Independents — with no Republican cosponsors [S3].",
      "sources": [
       "S3"
      ]
     }
    ],
-   "who_came_out_ahead": "For now, no one has gained a final result; the practical effect of the stall is that online distribution of printable gun blueprints remains unrestricted, which serves those who host or share those files and anyone who obtains guns through them."
+   "who_came_out_ahead": "No one has definitively won yet, but as things stand the people who distribute 3D-printable gun files keep the status quo, and a bill with no path forward leaves the loophole it targets open."
   },
-  "who_came_out_ahead_short": "Distributors of printable gun blueprints",
+  "who_came_out_ahead_short": "So far, no one — the bill has simply stalled",
   "sides": {
    "for": [
     {
      "name": "Sen. Edward Markey",
-     "role": "U.S. Senator (D-MA), lead sponsor",
+     "role": "U.S. Senator from Massachusetts, bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and recruited 22 Senate Democrats plus one independent to cosponsor it.",
+     "what_they_did": "Introduced the 3D Printed Gun Safety Act of 2025 on June 25, 2025 and led the effort to ban distributing 3D-printable gun files [S1, S2].",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3"
+      "S2"
      ]
     },
     {
-     "name": "Senate Judiciary Committee",
-     "role": "Committee of referral",
+     "name": "23 of 47 Senate Democrats and Independents",
+     "role": "Cosponsors, including Sens. Schumer, Durbin, Warren, Sanders, Booker, and Klobuchar",
      "party": null,
-     "what_they_did": "Received the bill by referral on June 25, 2025 and has taken no action on it since; its chair controls whether the bill gets a hearing or a vote.",
+     "what_they_did": "Cosponsored the bill at introduction — 22 of 45 Senate Democrats and 1 of 2 Senate Independents [S2, S3].",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S2",
+      "S3"
+     ]
+    }
+   ],
+   "against": [
+    {
+     "name": "Senate Judiciary Committee",
+     "role": "Committee with jurisdiction over the bill",
+     "party": null,
+     "what_they_did": "Received the referral on June 25, 2025 and has taken no further action on the bill — no hearing, no markup, no vote [S4].",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -107,60 +127,58 @@
      ]
     },
     {
-     "name": "Senate Majority Leader John Thune",
-     "role": "Senate Majority Leader",
+     "name": "Senate Republicans",
+     "role": "55-seat Senate majority",
      "party": "R",
-     "what_they_did": "Controls which bills reach the Senate floor; has not brought the bill up for consideration (widely reported, standard floor-control role).",
-     "direct": true,
+     "what_they_did": "No Republican senator cosponsored the bill, leaving it without support from the majority party that controls the chamber's calendar.",
+     "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
-   "against": [],
    "party_line": "party_line",
-   "party_line_note": "All 23 cosponsors are Democrats or allied independents — 22 Democrats and 1 Independent — and no Republican senators signed on, leaving the bill with no identified support on the Republican side of the Senate [S3]."
+   "party_line_note": "All 23 cosponsors are Democrats or independents — 22 of 45 Senate Democrats and 1 of 2 independents — and no Republican has signed on, in a Senate where Republicans hold 55 seats [S3]."
   },
   "industries": [
    {
-    "industry": "3D printing and digital file-sharing communities",
-    "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "The bill criminalizes distributing firearm CAD files online, restricting what members of these communities can share. Ordinary printer users and makers who never touch firearms are not directly restricted, but the speech interest is theirs.",
+    "industry": "Licensed firearms manufacturers",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "The bill leaves the regulated, serial-numbered gun market untouched while removing untraceable 3D-printed guns that compete with it and undermine the tracing system the licensed market operates under [S2]. Its interest here runs alongside the public's, though the industry bears no new rules from this bill.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Unlicensed ghost-gun sellers and file distributors",
+    "industry": "Distributors of downloadable 3D-printable gun files",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Anyone distributing printable-gun blueprints online would face federal criminal liability. This is the bill's intended target.",
+    "note": "Websites and individuals who share CAD files and code for printing guns would face a new federal crime for internet distribution [S2]. This is the bill's only direct target.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Licensed firearms dealers and manufacturers",
+    "industry": "3D printer makers and the maker/hobbyist community",
     "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "The bill does not restrict licensed sales, and its findings say untraceable guns interfere with lawful commerce in firearms, so established licensed dealers have little at stake either way.",
+    "note": "The bill does not restrict printers or general 3D printing; only files made to produce firearms are covered, so most users are unaffected. A small minority who share or want firearm files would be affected [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "With no Republican cosponsors, no committee action five months after introduction, and a Senate that generally requires 60 votes to advance most bills, the bill is very unlikely to get a hearing or a floor vote in this Congress; the most likely path is that it dies in committee at the end of the 119th Congress, as similar versions have in past sessions.",
+  "trajectory": "With the 119th Congress in session through January 2027, the bill remains technically alive, but the record gives it a poor path: it has sat untouched in committee since its June 25, 2025 referral [S4], it has no Republican cosponsors in a chamber where Republicans hold 55 seats [S3], and similar 3D-printed gun bills introduced in earlier Congresses died in committee without a vote. The most likely outcome is that it never reaches the Senate floor.",
   "categories": [
-   "consumer_protection_and_finance",
    "other"
   ],
   "scores": {
    "public_stakes": 6,
-   "concentrated_stakes": 4,
-   "outcome_against_public": 5,
-   "support_mismatch": 3,
+   "concentrated_stakes": 3,
+   "outcome_against_public": 4,
+   "support_mismatch": 4,
    "corruption_relevance": 1,
-   "confidence": 0.85
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

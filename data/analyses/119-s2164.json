@@ -1,119 +1,140 @@
 {
  "bill_id": "119-s2164",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:56:53+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:35:13+00:00",
  "record_fetched_at": "2026-09-20T08:06:29+00:00",
  "record_hash": "414b028507a6a865",
  "analysis": {
-  "one_liner": "Requires large companies to test and report the harms of AI systems that decide jobs, loans, housing, and healthcare.",
-  "headline": "The bill was introduced in June 2025 and referred to the Senate Commerce Committee, where it has received no further action.",
+  "one_liner": "Requires large companies to study and report on the AI systems they use for major life decisions.",
+  "headline": "The bill would require large companies to test and report on the AI systems they use for hiring, lending, housing and other major decisions, but it has sat without action in the Senate Commerce Committee since its referral in June 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill directs the Federal Trade Commission to write rules requiring companies above certain size thresholds to study any automated system they use to make critical decisions about people — in hiring, lending, housing, healthcare, education, utilities, and similar areas. Companies would have to test for biased or inaccurate results, consult outside stakeholders, try to fix identified harms, and file summary reports with the FTC, which would publish some information in a public, searchable repository. The FTC and state attorneys general could enforce the rules, and existing state laws would not be overridden.",
-  "who_benefits": "Ordinary people whose lives are shaped by automated systems — job applicants screened by algorithms, renters and borrowers scored by software, patients triaged by AI tools — gain a right to know these systems are tested for bias and error, plus a public registry of where such systems are used and how to contest decisions.",
-  "who_benefits_short": "People judged by automated decision systems",
+  "plain_summary": "The bill would direct the Federal Trade Commission to write rules requiring large companies to perform ongoing \"impact assessments\" of the automated decision systems they use in choices that shape people's lives — jobs, credit, housing, healthcare, education, utilities and insurance. Companies would have to test whether those systems perform worse for people by race, sex, age, disability and other traits, consult affected stakeholders, report annually to the FTC, and provide ways for consumers to contest decisions. The FTC would publish a public, searchable repository of these systems, and both the FTC and state attorneys general could enforce the rules.",
+  "who_benefits": "Consumers whose lives are shaped by algorithmic decisions — job applicants screened by hiring software, renters and buyers scored by tenant-screening and mortgage models, patients whose care is triaged by algorithms — would gain the right to know when such systems are used, to contest or appeal decisions, and to benefit from required bias testing. Groups that research and advocate on civil rights and consumer issues would gain access to a public, searchable database of these systems. The FTC itself would gain a new Bureau of Technology with at least 50 specialists plus 25 enforcement staff to understand and police the technology.",
+  "who_benefits_short": "Consumers facing AI-driven decisions on jobs, credit, housing",
   "how_it_helps": [
    {
-    "text": "Requires large companies to test whether their automated systems perform differently for people of different races, sexes, ages, disabilities, or incomes, and to document any negative impact and how they plan to fix it.",
+    "text": "Requires companies to test their automated systems for differential performance by race, sex, age, disability, socioeconomic status and other traits, and to document and try to fix negative impacts before and after deployment.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Covers decisions across nine major areas of life: education, employment, utilities, family planning, financial services, healthcare, housing, legal services, and other similarly consequential matters.",
+    "text": "Covers the decisions that matter most in daily life: employment, financial services, housing, healthcare, education, essential utilities, family planning and legal services.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Directs the FTC to build a public, searchable repository of the automated decision systems in use, so consumers and researchers can see who is using what and how to contest a decision.",
+    "text": "Gives consumers notice and an escape hatch: covered entities must assess whether they provide clear notice, an opt-out mechanism, and a way to contest, correct or appeal a decision.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires companies to provide ways for consumers to contest, correct, appeal, or opt out of automated decisions, and to consult independent outside advocates and impacted communities.",
+    "text": "Creates a public, searchable FTC repository of automated decision systems so consumers and researchers can see who is using what, and how to seek recourse.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Lets state attorneys general sue on residents' behalf and bars the bill from overriding stronger state laws.",
+    "text": "Gives the FTC real enforcement teeth under the FTC Act and lets state attorneys general sue violators, while explicitly preserving stronger state and local laws.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Requires companies to consult employees, civil-rights and consumer advocates, and affected communities when building and assessing these systems, and to document which recommendations they ignored.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Larger companies that use or sell automated decision systems bear the cost of impact assessments, annual reporting, and potential FTC enforcement, and compliance costs may be passed to consumers.",
-  "who_pays_short": "Large companies using AI decision systems",
+  "who_pays": "Large companies — generally those with over $50 million in annual receipts or data on more than 1 million consumers — plus the firms that sell them AI decision systems (thresholds of $5 million for vendors) would bear the cost of impact assessments, ongoing testing, documentation, stakeholder consultation and annual reporting. Some of those compliance costs would likely be passed on to consumers through prices. The FTC would also need appropriations for the new technology bureau and enforcement staff.",
+  "who_pays_short": "Large corporations and AI system vendors",
   "drawbacks": [
    {
-    "text": "The full impact assessments stay private: the bill only requires a summary report to the FTC, and it explicitly says companies need not disclose their assessments to the Commission or the public beyond that summary, limiting outside scrutiny.",
+    "text": "Compliance is expensive and broad: companies must perform detailed, ongoing assessments, consult outside stakeholders, keep documentation for years beyond deployment, and file annual reports — costs that large firms would partly pass to consumers through higher prices.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The rules would take effect two years after being finalized, so real accountability could be several years away even if enacted, and the bill covers only larger companies, leaving small firms' automated systems unassessed.",
+    "text": "The public sees only a slice. The full impact assessments stay private; only a summary subset goes to the FTC and the public repository, so the most detailed evidence of bias or harm would remain confidential.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Enforcement runs through the FTC and state attorneys general rather than individual lawsuits, so harmed consumers cannot sue directly under the bill.",
+    "text": "It bans nothing on its own. The actual requirements hinge on FTC rulemaking due within two years, and the rules would not take effect until two years after that — meaning relief could be four or more years away and could be reshaped by a future administration.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Companies can simply document that compliance was infeasible: the bill expressly lets them explain away requirements they could not meet, including missing information from vendors or clients.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit — forcing companies to find and fix biased or broken AI before it decides people's livelihoods — addresses a growing, largely invisible harm, and the bill is carefully scoped to large companies. The costs are real but modest: compliance paperwork, and the risk that assessments become a checkbox exercise whose findings stay secret. On balance the public gains more than it loses, though a stronger bill would require public disclosure of key findings rather than private filings.",
+  "benefit_vs_cost": "The transparency and bias-testing requirements would give ordinary people their first systematic window into the automated systems that screen them for jobs, homes and credit, and the costs fall mainly on large corporations rather than small businesses, which the bill largely exempts through its size thresholds. The design is honest but cautious: it does not prohibit any practice outright, keeps the most detailed assessments confidential, and relies on a slow FTC rulemaking process that a future administration could weaken. On balance the benefits to consumers are real but deferred, and the cost is a compliance burden concentrated on exactly the large firms whose systems reach the most people.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and sent to the Senate Commerce Committee, which has not taken it up, so nothing has happened beyond that.",
+   "mechanism": "It was introduced in June 2025 and sent to the Senate Commerce Committee, which has taken no action on it since.",
    "narrative": [
     {
-     "text": "Wyden and seven Democratic colleagues introduced the bill on June 25, 2025.",
+     "text": "Sen. Ron Wyden introduced the bill on June 25, 2025, joined by seven Democratic colleagues: Sens. Warren, Booker, Heinrich, Lujan, Merkley, Hirono and Schatz.",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "text": "The same day, the Senate read it twice and referred it to the Committee on Commerce, Science, and Transportation.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The same day, the Senate read it twice and referred it to the Committee on Commerce, Science, and Transportation, its only action since.",
+     "text": "No committee hearing, markup, or floor vote has been scheduled or held; the action history shows nothing after the referral.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "No committee markup, floor vote, or House action appears in the record.",
+     "text": "With Republicans holding 55 of 100 Senate seats and chairing the Commerce Committee, the bill has no obvious path to the floor in this Congress.",
      "sources": [
       "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Companies using automated decision systems are better off so far: no testing, reporting, or FTC oversight obligations have been imposed, and existing systems continue operating without documented scrutiny."
+   "who_came_out_ahead": "Large companies that build and deploy automated decision systems — in hiring, lending, housing screening, healthcare and insurance — are better off so far, because no federal assessment, reporting or bias-testing requirements have been imposed while the bill sits untouched."
   },
-  "who_came_out_ahead_short": "Companies using automated decision systems",
+  "who_came_out_ahead_short": "Large firms using AI for major decisions",
   "sides": {
    "for": [
     {
-     "name": "Sen. Ron Wyden",
-     "role": "U.S. Senator (OR), lead sponsor",
+     "name": "Ron Wyden",
+     "role": "U.S. Senator (D-OR)",
      "party": "D",
-     "what_they_did": "Introduced the bill and its impact-assessment framework for automated decision systems.",
+     "what_they_did": "Introduced the Algorithmic Accountability Act of 2025 and sponsored it.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S1"
+      "S1",
+      "S2"
      ]
     },
     {
-     "name": "Sens. Warren, Booker, Heinrich, Lujan, Merkley, Hirono, and Schatz",
-     "role": "Democratic cosponsors (7)",
+     "name": "7 of 45 Senate Democrats",
+     "role": "Cosponsors",
      "party": "D",
-     "what_they_did": "Cosponsored the bill at introduction, giving it a seven-senator Democratic base of support.",
+     "what_they_did": "Cosponsored the bill at introduction: Sens. Warren, Booker, Heinrich, Lujan, Merkley, Hirono and Schatz.",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S2",
       "S3"
      ]
     }
@@ -121,60 +142,77 @@
    "against": [
     {
      "name": "Senate Committee on Commerce, Science, and Transportation",
-     "role": "Senate committee",
+     "role": "Committee of referral",
      "party": null,
-     "what_they_did": "Received the referral on June 25, 2025 and has taken no further action on the bill, keeping it from any floor consideration.",
+     "what_they_did": "Received the bill on referral in June 2025 and has taken no further action — no hearing, markup, or vote.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S4"
      ]
+    },
+    {
+     "name": "Ted Cruz",
+     "role": "Chair, Senate Committee on Commerce, Science, and Transportation",
+     "party": "R",
+     "what_they_did": "As committee chair, controls whether the bill receives a hearing or markup; none has been scheduled.",
+     "direct": true,
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
-   "party_line": "party_line",
-   "party_line_note": "All eight sponsors and cosponsors are Democrats; no Republican support appears in the record."
+   "party_line": "mostly_party_line",
+   "party_line_note": "All eight supporters are Democrats (the sponsor plus 7 of 45 Senate Democrats), no Republican has signed on, and the Republican-led Commerce Committee has not acted on the bill; no roll-call votes have occurred."
   },
   "industries": [
    {
-    "industry": "Tech platforms and AI developers",
+    "industry": "Large tech platforms and AI system developers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "They would face a new, ongoing duty to test and report on systems that decide hiring, lending, housing, and other critical outcomes, plus FTC enforcement for failures. Small companies below the size thresholds are exempt.",
+    "note": "The bill's core targets — companies with over $50 million in receipts or data on 1 million-plus consumers, and vendors selling automated decision systems — would face mandatory bias testing, documentation, annual FTC reporting and a public repository exposing their tools. Their interest in keeping these systems unexamined runs against consumers' interest in transparency and recourse.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Credit scoring, HR screening, and tenant-screening data brokers",
-    "effect": "mixed",
+    "industry": "Algorithmic hiring, tenant-screening, credit and insurance scoring firms",
+    "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Their products would face documented testing for discriminatory performance and public listing in an FTC repository. That raises costs but could also legitimize their use where systems pass review.",
+    "note": "These deployers of automated decisions in employment, housing, lending and insurance sit squarely in 'critical decisions' and would have to test for discriminatory performance, provide opt-outs and appeals, and mitigate harms. Many profit from opaque models, so transparency cuts into their business model even as it could shield firms that document diligence.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "AI auditing and compliance services",
+    "industry": "Independent AI auditing and compliance services",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "A new market for independent assessment, testing, and documentation work would arise from the bill's requirements.",
+    "note": "The bill would create sustained demand for impact assessments, bias audits and documentation work, a new compliance market whose growth depends on accountability actually happening.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Federal Trade Commission (regulator)",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "The FTC would gain a new Bureau of Technology with at least 50 specialists, 25 additional enforcement staff, rulemaking authority and enforcement powers over automated decision systems.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "Most bills referred to a Senate committee without bipartisan cosponsors or a markup never reach the floor; unless the Commerce Committee acts, this bill is likely to die at the end of the 119th Congress without a vote.",
+  "trajectory": "With no action in the Republican-led Senate Commerce Committee more than a year out from the 2026 midterms, the bill is very unlikely to get a hearing or a vote; its realistic paths are expiring when the 119th Congress ends in January 2027 or a narrow provision surviving inside a larger package. Wyden has introduced similar versions in past Congresses and would likely reintroduce it.",
   "categories": [
-   "consumer_protection_and_finance",
-   "other"
+   "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 7,
+   "public_stakes": 6,
    "concentrated_stakes": 7,
-   "outcome_against_public": 7,
-   "support_mismatch": 5,
-   "corruption_relevance": 1,
-   "confidence": 0.9
+   "outcome_against_public": 5,
+   "support_mismatch": 3,
+   "corruption_relevance": 2,
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

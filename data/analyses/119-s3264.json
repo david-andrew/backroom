@@ -1,132 +1,136 @@
 {
  "bill_id": "119-s3264",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:51:38+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:46:50+00:00",
  "record_fetched_at": "2026-09-20T14:32:47+00:00",
  "record_hash": "9e254a613f00d237",
  "analysis": {
-  "one_liner": "Lets states waive Affordable Care Act rules and turn insurance subsidies into health savings accounts.",
-  "headline": "The bill, introduced by Senator Rick Scott with two Republican cosponsors, has sat in the Senate Finance Committee without a hearing or vote since November 2025.",
+  "one_liner": "Lets states opt out of ACA insurance rules and turn federal health subsidies into health savings accounts.",
+  "headline": "Rick Scott's bill to let states replace ACA exchange rules with health savings accounts has sat untouched in the Senate Finance Committee since its November 2025 introduction, with only two cosponsors.",
   "direction": "mixed",
-  "plain_summary": "The bill would let states waive core Affordable Care Act rules — including the list of benefits every plan must cover and the cost-sharing reductions that lower out-of-pocket costs for lower-income enrollees — provided the state maintains a high-risk insurance pool. Federal subsidies would instead be paid as cash into \"Trump Health Freedom Accounts\" (a type of health savings account), with amounts capped at a national average premium rather than the state's actual prices. It would also let insurers sell plans across waiver states, expand a small-business insurance tax credit, bar using the account money for abortion services or a long list of procedures defined as gender transition care, and tighten hospital price transparency requirements.",
-  "who_benefits": "Healthy, younger enrollees in states that take a waiver could buy cheaper plans that don't have to cover the ACA's full benefit list, and eligible residents who enroll through an exchange would see their federal subsidy dollars deposited as cash into a Trump Health Freedom Account they can use for premiums and medical bills. Small employers in waiver states would get a 50% insurance tax credit with no phaseout, no two-year expiration, no wage rule, and eligibility doubled to 50 employees. Insurers would gain freedom to design narrower plans, sell them across all waiver states, and offer child-only plans; banks and financial firms would administer the new accounts.",
-  "who_benefits_short": "Healthy enrollees, small employers, insurers, HSA providers",
+  "plain_summary": "This bill creates a new kind of waiver: a state's governor or legislature could notify the federal government to drop most Affordable Care Act insurance-market rules, as long as the state keeps a program to cover high-risk patients. Federal subsidy money that would have gone to insurance premiums instead gets deposited into a new kind of health savings account the resident can use to buy coverage. States could also let private companies run their own plan-selling websites, and small employers in waiver states would get a bigger, simpler tax credit for offering insurance.",
+  "who_benefits": "Residents of states that opt in get their federal health subsidies as cash in a health savings account they can spend flexibly, rather than only as help paying premiums. Small employers get a 50% tax credit, no phase-out, no two-year limit, and can count up to 50 employees. Health insurers gain freedom to sell less comprehensive plans, and financial firms gain a new class of health savings accounts to administer.",
+  "who_benefits_short": "Waiver-state residents, small employers, insurers, HSA providers",
   "how_it_helps": [
    {
-    "text": "Residents of waiver states who enroll through an exchange would receive the premium tax credit and cost-sharing reduction money they would otherwise get deposited directly into a health savings account, paid monthly, quarterly, or in a lump sum, and usable to buy health insurance or pay medical bills.",
+    "text": "A state's governor or a majority of its legislature could notify the federal government to waive ACA exchange requirements and premium tax credit rules, provided the state maintains a program to mitigate risk to premiums, such as a high-risk pool.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "States could waive the ACA's market rules (Parts 1 and 2 of subtitle D), the cost-sharing reduction program, and the premium tax credit and individual mandate, while a separate subsection locks in pre-existing condition protections, guaranteed issue, guaranteed renewability, and the ban on annual and lifetime limits under title XXVII of the Public Health Service Act.",
+    "text": "Residents of waiver states would receive the subsidy money they would otherwise get as premium tax credits and cost-sharing reductions deposited into 'Trump Health Freedom Accounts' — health savings accounts they can use to buy health plans.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Small employers in waiver states would get a 50% health insurance tax credit with no phaseout, no cap on how long it lasts, no average-wage requirement, and eligibility expanded to 50 employees, applying to any state-authorized plan rather than only exchange plans.",
+    "text": "The bill preserves the ACA's core consumer protections in waiver states, including guaranteed issue, no pre-existing condition denials, community rating, a ban on annual and lifetime dollar limits, rescission limits, and a medical loss ratio requirement.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Health plans authorized in any waiver state could be sold on the exchanges or private 'commercial platforms' of every other waiver state, and states could let private companies run their marketplaces using the federal exchange's technology.",
+    "text": "Small employers in waiver states would get a 50% insurance tax credit with no income-based phase-out, a 50-employee threshold, no time limit, and seasonal workers counted as employees.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Hospitals and insurers would have to disclose actual prices rather than estimates, in a standardized, comparable format, with updated enforcement, and providers would have to publicly report outcomes data.",
+    "text": "The bill requires federal regulators to update price transparency rules within 90 days to demand actual prices rather than estimates, standardized and comparable pricing data, and public reporting of provider outcomes.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Sicker and older residents of waiver states would bear the gap between a fixed subsidy — calculated from a national average silver premium, not their state's actual prices — and what coverage really costs where they live, and plans would no longer have to cover the ACA's essential benefits, so comprehensive coverage could shrink or disappear from their market. Taxpayers would fund the account deposits and the expanded, unlimited small-employer credit. People who need abortion services or any procedure on the bill's long defined list of gender transition care — which includes vasectomy, tubal ligation, and sterilization — could not use their own federal subsidy dollars to pay for them.",
-  "who_pays_short": "Sicker, older enrollees in waiver states",
+  "who_pays": "Residents who need comprehensive coverage could pay more or get less, because states may drop essential-health-benefit requirements and plans can be skinnier; the HSA money is capped at the national average silver-plan premium, so people in high-cost states may not get enough to cover a comparable plan. Account funds cannot pay for abortion or gender-transition care, which is defined to include vasectomy, hysterectomy, mastectomy, tubal ligation, and sterilization. Federal taxpayers continue funding the subsidies under a new name.",
+  "who_pays_short": "Sicker enrollees and people needing restricted services",
   "drawbacks": [
    {
-    "text": "Subsidy amounts would be based on the national average premium for a silver plan among non-waiver states, so residents of high-premium states could receive substantially less help than they do today, and the money would have to cover both premiums and out-of-pocket costs from a single account.",
+    "text": "States can waive essential health benefit rules, so plans sold in waiver states may cover far less than plans sold today; the bill preserves sections of the Public Health Service Act on pre-existing conditions and rating but not the essential health benefits provision.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "States could waive the essential health benefit rules, meaning plans would no longer have to cover required categories such as prescription drugs, maternity care, or mental health treatment — people needing comprehensive coverage could be left with thinner options or none.",
+    "text": "Subsidy deposits are calculated from the national average annual premium for a silver benchmark plan among non-waiver states, so a resident in a high-premium state could receive less money than their coverage actually costs.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The ban on using account funds for the defined 'gender transition procedures' sweeps in vasectomy, tubal ligation, and sterilization generally, so common reproductive health care could not be paid for with these federal dollars, alongside a blanket ban on abortion services.",
+    "text": "Trump Health Freedom Accounts cannot be used to pay for abortion services or gender transition procedures, and the bill's definition of gender transition procedures sweeps in vasectomy, hysterectomy, mastectomy, tubal ligation, and sterilization, subject to narrow exceptions.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "A waiver lasts indefinitely — it continues until the state that requested it opts out — and the condition attached to it, an 'invisible high-risk insurance pool,' is undefined, with no standard for how much risk the state must absorb or how it keeps premiums affordable for sick enrollees.",
+    "text": "If healthier people shift to cheaper, less comprehensive plans while the ACA's community-rating and guaranteed-issue rules stay in place, premiums for those who remain in more comprehensive plans could rise — the same dynamic that made pre-ACA high-risk pools expensive.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill text contains no estimates of what the account deposits and the unlimited small-employer credit would cost the Treasury, and no analysis of how many people would end up with less coverage than they have under current law.",
+    "text": "The waiver condition that a state maintain 'an invisible high-risk insurance pool or another program designed to mitigate risk' is loosely defined, giving states wide room over how well sick residents are actually protected.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The price transparency provisions — actual prices, standardized and comparable, with outcomes reporting — are a real gain for consumers that both parties have supported in some form. The core redesign is riskier: it converts income-based subsidies that adjust to local premiums into fixed cash accounts and lets states drop the benefit requirements that make insurance comprehensive. That combination tends to favor people who are young, healthy, and higher-income, while sicker, older, and lower-income enrollees — especially in high-premium states — would likely get less workable coverage. The account-use bans and the unlimited small-employer credit are major policy choices attached with no cost or coverage analysis anywhere in the record, so the trade-offs cannot be assessed from the bill itself.",
+  "benefit_vs_cost": "For people who want a cheaper plan and a flexible account, the bill offers real choice, and it strengthens the small-business credit and price transparency in ways that could help many people. But the bargain trades away comprehensiveness: skinnier plans and a fixed, nationally averaged subsidy deposit mean people with real medical needs — and anyone in an expensive insurance market — could end up underinsured, and the sweeping list of restricted services limits how the money can be spent. Whether this helps or hurts a given household depends heavily on their health and their state's choices, and the bill gives states few standards to hold them to.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced in the Senate and referred to the Finance Committee, where it has had no hearing, vote, or other action so far.",
+   "mechanism": "The bill was introduced on November 20, 2025, read twice, and sent to the Senate Finance Committee, which has taken no action on it since.",
    "narrative": [
     {
-     "text": "Senator Rick Scott of Florida introduced the bill on November 20, 2025, with two Republican cosponsors.",
+     "text": "Senator Rick Scott of Florida introduced S. 3264, the More Affordable Care Act, on November 20, 2025; the Senate read it twice and referred it to the Committee on Finance the same day.",
      "sources": [
       "S1",
-      "S3",
       "S4"
      ]
     },
     {
-     "text": "The same day, the Senate read it twice and referred it to the Committee on Finance, which handles tax and health legislation.",
+     "text": "Two Republican senators have cosponsored the bill; no Democrat has.",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "text": "No further action — no hearing, markup, or vote — has been scheduled or recorded since the referral.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "No further action appears in the record — no hearing, no committee vote, no floor action — and Congress remains in session until January 2027.",
+     "text": "The bill's core would let a governor or state legislature waive ACA exchange requirements in exchange for redirecting subsidy dollars into health savings accounts, while preserving the ACA's pre-existing condition and rating protections.",
      "sources": [
-      "S4"
+      "S2"
      ]
     }
    ],
-   "who_came_out_ahead": "No one yet: the bill has only been referred to committee, so current Affordable Care Act rules and subsidies still apply unchanged."
+   "who_came_out_ahead": "Nothing has changed: current law still governs ACA coverage everywhere, so no group has gained or lost yet. The only party ahead so far is the status quo."
   },
-  "who_came_out_ahead_short": "No one yet; current rules still apply",
+  "who_came_out_ahead_short": "Nobody yet — no action taken",
   "sides": {
    "for": [
     {
      "name": "Sen. Rick Scott",
-     "role": "U.S. Senator from Florida",
+     "role": "Sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill, which bears his health freedom waiver and 'Trump Health Freedom Accounts' design.",
+     "what_they_did": "Introduced the bill on November 20, 2025.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2",
       "S4"
      ]
     },
     {
-     "name": "Two Republican senators",
+     "name": "2 of 55 Senate Republicans",
      "role": "Cosponsors",
      "party": "R",
-     "what_they_did": "Signed on as the bill's only cosponsors.",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -134,69 +138,71 @@
      ]
     }
    ],
-   "against": [],
-   "party_line": "unclear",
-   "party_line_note": "No one has voted on the bill; all three senators attached to it are Republicans, and no opponent has acted on it in the record."
+   "against": [
+    {
+     "name": "Senate Finance Committee",
+     "role": "Committee to which the bill was referred",
+     "party": null,
+     "what_they_did": "Received the bill on November 20, 2025 and has not scheduled a hearing, markup, or vote.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
+   "party_line": "mostly_party_line",
+   "party_line_note": "All three sponsors are Republican senators — 2 of 55 in the caucus have signed on — and no Democrat has cosponsored; no vote has occurred, so the partisan shape is only beginning to show."
   },
   "industries": [
    {
     "industry": "Health insurers",
     "effect": "gains",
-    "stance_toward_public": "mixed",
-    "note": "In waiver states, insurers could sell plans that skip the ACA's required benefits, offer child-only plans, and sell state-authorized plans across all waiver states. Some consumers would get cheaper options, but the plans would cover less, and the burden of sick enrollees would shift to whatever 'invisible high-risk pool' a state sets up.",
+    "stance_toward_public": "opposed",
+    "note": "In waiver states, insurers could sell plans free of essential-health-benefit requirements and could reach buyers through private commercial platforms in every waiver state, attracting healthier, lower-cost customers. The ACA's guaranteed-issue and pre-existing condition rules would still apply, but skinnier plans tend to shift costs toward people who need real care.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Banks and health savings account administrators",
+    "industry": "Health savings account administrators and banks",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "The bill creates a new class of federally funded accounts and requires subsidy deposits into them, generating a new book of accounts to administer. Enrollees keep the money, but a new financial intermediary stands between them and their coverage.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Small employers",
-    "effect": "gains",
-    "stance_toward_public": "aligned",
-    "note": "In waiver states, small employers could claim a 50% insurance tax credit with no phaseout, no two-year limit, no wage rule, and eligibility expanded from 25 to 50 employees — a much richer benefit than current law.",
+    "note": "The bill creates a new class of federally funded health savings accounts, with monthly, quarterly, or lump-sum deposits, creating new accounts for financial firms to administer.",
     "sources": [
      "S2"
     ]
    },
    {
     "industry": "Hospitals and health care providers",
-    "effect": "mixed",
+    "effect": "loses",
     "stance_toward_public": "aligned",
-    "note": "Providers would face new requirements to publish actual prices in a standardized format, face updated enforcement for compliance, and publicly report outcomes data. Patients gain visibility into prices; providers lose pricing opacity and take on compliance costs.",
+    "note": "Within 90 days of enactment, regulators would have to require disclosure of actual prices rather than estimates, standardize pricing so hospitals and plans are comparable, and publish provider outcomes data — more disclosure and compliance burden, aimed at making prices visible to patients.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Providers of gender-affirming and reproductive care",
+    "industry": "Abortion and gender-affirming care providers",
     "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "Account funds could not pay for abortion services or for the bill's long defined list of 'gender transition procedures,' which includes vasectomy, tubal ligation, and sterilization. Patients using these accounts could not spend their own federal subsidy dollars on those services.",
+    "stance_toward_public": "mixed",
+    "note": "Funds in the new accounts could not pay for abortion services or gender transition care, restricting which services the redirected federal money can purchase.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill is two days old in a committee that takes up only a small share of referred bills. With a single sponsor, two cosponsors, and no hearing or committee action on the record, its likely path is to sit in the Senate Finance Committee unless the chairman or Senate leadership chooses to move it; most bills at this stage never reach a floor vote before the Congress ends.",
+  "trajectory": "The bill has sat untouched in the Senate Finance Committee since its referral, with only two cosponsors and no hearing scheduled. Most bills referred to Finance never reach a floor vote, and this one's realistic path forward would be as a provision attached to larger health or tax legislation; on its own, it is likely to expire at the end of the Congress.",
   "categories": [
-   "healthcare_and_drug_prices",
-   "consumer_protection_and_finance"
+   "healthcare_and_drug_prices"
   ],
   "scores": {
-   "public_stakes": 7,
-   "concentrated_stakes": 7,
+   "public_stakes": 6,
+   "concentrated_stakes": 5,
    "outcome_against_public": 1,
    "support_mismatch": 1,
    "corruption_relevance": 1,
-   "confidence": 0.85
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

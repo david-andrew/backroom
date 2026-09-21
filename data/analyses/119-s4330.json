@@ -1,100 +1,123 @@
 {
  "bill_id": "119-s4330",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:21:28+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T22:17:10+00:00",
  "record_fetched_at": "2026-09-20T08:16:26+00:00",
  "record_hash": "25ecf688535b2ddd",
  "analysis": {
-  "one_liner": "Ends the tax break that lets fund managers pay a lower capital gains rate on their pay.",
-  "headline": "The bill was introduced in April 2026 with 14 Senate cosponsors, all Democrats or independents, and was referred to the Senate Finance Committee, where it has sat without a hearing or vote.",
+  "one_liner": "Taxes private equity and hedge fund managers' profit shares as ordinary income instead of at lower capital gains rates.",
+  "headline": "A bill from Sen. Wyden with 14 Senate cosponsors to tax investment fund managers' profit shares as ordinary income was referred to the Senate Finance Committee in April 2026 and has sat there since with no hearing, markup, or vote.",
   "direction": "for_working_people",
-  "plain_summary": "When investment fund managers (at private equity, hedge funds, and real estate firms) make money for their investors, their cut of the profits\u2014called \"carried interest\"\u2014is currently taxed at the lower capital gains rate instead of as regular salary income. This bill would tax that pay as ordinary income, just like a worker's paycheck. It would also make managers pay tax sooner on the value of their fund stakes when those stakes are handed to them, and close workarounds like borrowing against the stake instead of taking taxable income. It went to the Senate Finance Committee and has not moved since.",
-  "who_benefits": "Ordinary taxpayers, in two ways: the richest fund managers would pay ordinary income tax rates on pay that is currently taxed at the 20% capital gains rate, and the revenue raised (billions of dollars a year) reduces the tax burden others must carry. Also anyone who believes tax rules should treat pay for work the same regardless of what kind of firm pays it.",
-  "who_benefits_short": "Ordinary taxpayers and wage earners",
+  "plain_summary": "The bill would close the carried interest loophole, which lets managers of private equity, hedge fund, and real estate partnerships pay lower capital gains tax rates on the share of fund profits they receive as compensation for managing other people's money. It would instead tax those profit shares as ordinary income, charge managers income tax on the fair market value of a profit share when they receive it, and apply a minimum ordinary-income charge to performance-based allocations each year. It also repeals the existing three-year holding rule that only partially limited the loophole.",
+  "who_benefits": "Ordinary taxpayers, especially wage earners, who already pay ordinary income tax rates on their compensation. Fund managers' profit shares are compensation for a service, and this bill would tax them on the same basis, restoring revenue to the Treasury and removing a tax advantage available almost exclusively to high-earning investment managers.",
+  "who_benefits_short": "Wage earners and ordinary taxpayers",
   "how_it_helps": [
    {
-    "text": "It taxes performance-based fund manager compensation as ordinary income (up to 37%) rather than at the 20% capital gains rate, closing the gap that makes carried interest a special privilege.",
+    "text": "Treats performance-based partnership interests held by investment managers as generating ordinary income up to a minimum amount set by the fund's invested capital and a statutory rate, so profit shares are taxed like work income rather than like investment gains.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It would raise an estimated tens of billions of dollars over a decade from a small group of the highest-paid investment managers, revenue that could otherwise come from ordinary taxpayers.",
+    "text": "Requires a manager who receives a partnership interest for services to pay tax on its fair market value at the time it is received, closing the gap between how fund managers and ordinary employees are taxed on compensation.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It closes known workarounds: taxes manager interests when transferred, covers synthetic contracts tied to fund profits, and blocks the common tactic of managers borrowing against their stake to avoid tax (the 'applicable loan' rule).",
+    "text": "Repeals Section 1061 of the tax code, the three-year holding rule enacted in 2017 that left the carried interest advantage largely intact.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The definition of covered activity explicitly includes investing in securities, commodities, and real estate held for rental or investment, so the rules reach private equity, hedge fund, venture capital, and real estate fund managers rather than one industry alone, and it directs the Treasury to write anti-abuse rules against restructurings, undervaluation, and tiered entities.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "A small, very wealthy group: partners at private equity, venture capital, hedge fund, and real estate investment firms who receive \"carried interest\" as their main compensation. Some funds would restructure how managers are paid; some of the cost could trickle to fund investors through fees.",
-  "who_pays_short": "Top fund managers at PE and hedge funds",
+  "who_pays": "Fund managers at private equity, hedge fund, venture capital, and real estate investment firms, who would pay ordinary income tax rates (top rate 37%, plus Medicare taxes) on profit shares instead of the 20% long-term capital gains rate, and who would owe a minimum charge each year based on the size of the fund they manage.",
+  "who_pays_short": "Private equity and hedge fund managers",
   "drawbacks": [
    {
-    "text": "Fund managers argue the change would raise taxes on the people who run private equity, venture capital, and real estate funds, potentially shrinking investment in businesses and apartment buildings that depend on those funds.",
+    "text": "The minimum charge is based on the fund's invested capital and the manager's profit percentage rather than the manager's actual profits in that year, so a manager could owe ordinary income tax even in a year when the fund loses money.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The rules are complicated: they rely on annual 'deemed compensation' calculations and extensive Treasury regulations to close workarounds like paying managers through loans, and regulators and tax attorneys would need years to sort out the details.",
+    "text": "The bill is complex: it requires partnerships to compute and report a 'deemed compensation amount' for each covered partner each year, using valuations, measurement dates, and anti-abuse rules that the Treasury would have to spell out in regulations, creating significant compliance costs.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Because it covers real estate held for rental or investment as well as securities, higher taxes on fund managers could raise the cost of capital for the companies, startups, and rental properties those funds finance — the standard objection the investment industry has raised to every carried-interest bill.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefit\u2014ending a tax preference available almost exclusively to the wealthiest fund managers\u2014is real but conditional: the bill has no House sponsor and sits in committee with no action, so its benefit today is hypothetical. The cost is the acknowledged risk that private equity and venture capital fund managers, who structure their pay this way, would owe more tax or change their fund terms; supporters argue that is precisely the point, that managers should pay ordinary income rates on pay for managing other people's money. The main design weakness is complexity: the deemed-compensation formula is intricate and heavily dependent on Treasury regulations, and determined fund managers have historically adapted to similar reforms.",
+  "benefit_vs_cost": "The bill addresses a real inequity: income earned by managing other people's money is currently taxed at investment-gains rates even though it is compensation for a service, a break ordinary workers managing no one's money but their own cannot get. The cost falls on a small, very high-earning group. The design is blunt — the minimum charge applies based on fund size whether or not the fund profits, and the compliance burden is real — but those costs weigh against a fairness gain for everyone who pays ordinary rates on their own labor.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and referred to the Senate Finance Committee, where it received no hearing, no vote, and no floor action before Congress's term runs out.",
+   "mechanism": "The bill was introduced and sent to the Senate Finance Committee, where it has sat with no hearing, markup, or vote; the Congress does not end until January 2027, so it is not formally dead yet.",
    "narrative": [
     {
-     "text": "Introduced in the Senate on April 16, 2026, and read twice, then referred to the Finance Committee\u2014the committee that handles all tax legislation.",
+     "text": "Sen. Ron Wyden introduced the bill on April 16, 2026, with 13 Senate cosponsors; it was read twice and referred to the Committee on Finance, the committee that handles tax legislation.",
      "sources": [
       "S1",
       "S4"
      ]
     },
     {
-     "text": "No further action is recorded: no hearing, no committee vote, and no floor consideration.",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "All 14 cosponsors are Democrats or independents; no Republican signed on, and Democrats hold neither a Senate floor majority large enough nor a chamber where they control the agenda in this Congress.",
+     "text": "The bill's 14 cosponsors are all Democrats and independents; no Republican signed on.",
      "sources": [
       "S3"
      ]
+    },
+    {
+     "text": "No further action has been taken: the action history shows nothing after the referral to Finance, no hearing, no markup, and no floor vote.",
+     "sources": [
+      "S4"
+     ]
     }
    ],
-   "who_came_out_ahead": "Fund managers and the private equity industry, which keeps paying lower capital-gains rates on its performance compensation because the bill never advanced."
+   "who_came_out_ahead": "Fund managers at private equity, hedge fund, and real estate firms are better off, because the current tax treatment of their profit shares — lower capital gains rates on compensation — remains untouched. So do the clients those firms advise, at least in the short term."
   },
-  "who_came_out_ahead_short": "Fund managers keep their tax break",
+  "who_came_out_ahead_short": "Private equity and hedge fund managers",
   "sides": {
    "for": [
     {
-     "name": "Sen. Ron Wyden",
-     "role": "Lead sponsor, Ranking Member of Senate Finance",
+     "name": "Ron Wyden",
+     "role": "U.S. Senator (D-OR), bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill to end the carried interest tax preference.",
+     "what_they_did": "Introduced the bill and assembled 14 cosponsors; the bill was referred to the Finance Committee.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2"
+      "S4"
      ]
     },
     {
-     "name": "14 Democratic and independent Senate cosponsors",
-     "role": "Cosponsors including Warren, Sanders, Whitehouse, King",
-     "party": null,
-     "what_they_did": "Signed on as cosponsors of the bill.",
+     "name": "12 of 45 Senate Democrats",
+     "role": "Cosponsors",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "name": "2 of 2 Senate independents",
+     "role": "Cosponsors (Angus King of Maine and Bernie Sanders of Vermont)",
+     "party": "I",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -104,69 +127,86 @@
    ],
    "against": [
     {
-     "name": "Private equity, venture capital, and hedge fund industry",
-     "role": "Financial services industry",
-     "party": null,
-     "what_they_did": "The industry has long opposed carried interest repeal and historically lobbied against similar proposals, which have repeatedly failed to advance in past Congresses.",
-     "direct": false,
+     "name": "Mike Crapo",
+     "role": "Chair, Senate Finance Committee",
+     "party": "R",
+     "what_they_did": "Did not schedule a hearing or markup on the bill in the months after it was referred to his committee.",
+     "direct": true,
      "evidence": "widely_reported",
      "sources": []
     },
     {
-     "name": "Senate Finance Committee (no action taken)",
-     "role": "Committee of jurisdiction",
-     "party": null,
-     "what_they_did": "The committee took no recorded action on the bill\u2014hearing, markup, or report\u2014after it was referred on April 16, 2026.",
-     "direct": false,
+     "name": "55 of 55 Senate Republicans",
+     "role": "Senate Republican conference",
+     "party": "R",
+     "what_they_did": "None cosponsored the bill, and the Republican majority took no action to bring it to the floor.",
+     "direct": true,
      "evidence": "record",
      "sources": [
+      "S3",
       "S4"
      ]
+    },
+    {
+     "name": "Private equity and investment fund industry groups",
+     "role": "Industry lobby",
+     "party": null,
+     "what_they_did": "Have long campaigned against carried-interest tax increases, arguing they would reduce investment; the industry's past lobbying helped sink similar proposals, including one dropped from the 2017 tax law.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
    "party_line": "party_line",
-   "party_line_note": "All 14 cosponsors are Democrats or independents; no Republican has signed on, and the bill went nowhere in the committee that would handle it."
+   "party_line_note": "Support is entirely Democratic: 12 of 45 Senate Democrats and both independents cosponsored, while none of the 55 Republicans did, and the Republican-run Finance Committee has taken no action on the bill."
   },
   "industries": [
    {
-    "industry": "Private equity and venture capital fund managers",
+    "industry": "Private equity fund managers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Their signature pay arrangement\u2014taxing carried interest at capital gains rates\u2014would be taxed as ordinary income, a multimillion-dollar annual tax increase for many top managers.",
-    "sources": [
-     "S2",
-     "S1"
-    ]
-   },
-   {
-    "industry": "Hedge funds and real estate investment funds",
-    "effect": "mixed",
-    "stance_toward_public": "opposed",
-    "note": "Managers of funds investing in securities, commodities, or rental real estate are covered by the bill's definitions, though the narrow carve-out protects managers running operating businesses like restaurants or manufacturers.",
+    "note": "Managers' carried interest — the share of fund profits they take as compensation — would be taxed at ordinary income rates up to a minimum charge based on fund size, instead of the 20% capital gains rate. Their lower-rate tax advantage over ordinary wage earners is what the bill removes.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Ordinary taxpayers",
+    "industry": "Hedge fund managers",
     "effect": "loses",
-    "stance_toward_public": "aligned",
-    "note": "Wait\u2014ordinary taxpayers benefit here: they stop effectively subsidizing the capital gains rate for fund-manager pay and shoulder a smaller share of federal revenue.",
+    "stance_toward_public": "opposed",
+    "note": "Performance fees would face the same ordinary-income and minimum-charge treatment, and managers selling their interest early would owe tax on years they have not yet worked under the 10-year recapture rule.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Real estate investment partnerships",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "Real estate held for rental or investment is a 'specified asset', so real estate fund sponsors' profit interests are covered, closing a route that earlier carried-interest bills left open.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Venture capital investors",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "Venture partners' carried interest in startup funds would be taxed as compensation, which the industry argues would make it harder to raise and deploy risk capital into new companies.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "Bills to end the carried interest preference have been introduced repeatedly for a decade and none has ever reached the Senate floor, partly because a handful of Democratic moderates have joined Republicans in resisting them. With no Republican cosponsors, no Finance Committee action, and a divided Congress, the bill will almost certainly die when this Congress ends in January 2027 unless it is attached to a larger tax bill.",
+  "trajectory": "With no Republican cosponsors, no committee action since April 2026, and a Republican chair and Senate majority controlling the calendar, the bill is very unlikely to get a markup or floor vote before the 119th Congress ends in January 2027. Its only realistic paths are a committee hearing if leadership chooses one, or provisions surviving inside a much larger tax bill — both long shots with the current makeup of the Senate.",
   "categories": [
-   "taxes_on_wealth_and_corporations",
-   "corruption_and_ethics"
+   "taxes_on_wealth_and_corporations"
   ],
   "scores": {
-   "public_stakes": 6,
-   "concentrated_stakes": 9,
-   "outcome_against_public": 8,
-   "support_mismatch": 6,
+   "public_stakes": 4,
+   "concentrated_stakes": 8,
+   "outcome_against_public": 7,
+   "support_mismatch": 5,
    "corruption_relevance": 2,
    "confidence": 0.85
   }

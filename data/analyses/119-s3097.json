@@ -1,233 +1,218 @@
 {
  "bill_id": "119-s3097",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:48:47+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:47:48+00:00",
  "record_fetched_at": "2026-09-20T14:32:50+00:00",
  "record_hash": "2dc6d1e3534223f9",
  "analysis": {
-  "one_liner": "Extends HIPAA-style privacy protections to health data held by apps, wearables, and data brokers.",
-  "headline": "The Senate health committee approved the bill favorably in August 2026 and placed it on the Senate calendar, but no floor vote has been held.",
+  "one_liner": "Extends HIPAA-style privacy rules to health data held by apps, wearables, and data brokers.",
+  "headline": "The Senate health committee reported the bill favorably on July 30, 2026, and it has sat on the Senate calendar since August 4, 2026 without a floor vote.",
   "direction": "for_working_people",
-  "plain_summary": "Today's federal health privacy law (HIPAA) covers hospitals, insurers, and their contractors — but not the many companies outside the health system that collect health data: period-tracking apps, fitness wearables, health websites, and data brokers who buy and sell it. The bill directs HHS and the FTC to write rules, within 18 months, giving people control over that data: companies would need written permission to sell or market it, could not pass it to the government without a warrant or subpoena, could not keep it longer than needed, and could not use it to investigate someone for seeking health care. It also sets stricter national standards for 'de-identified' data and makes re-identifying it a punishable violation.",
-  "who_benefits": "Anyone whose health information lives outside a hospital or insurance company — users of fitness trackers, period and symptom apps, telehealth services, and health-related websites. The bill gives them rights they currently lack: notice, access, deletion within 30 days, portability between apps, breach notification, and consent before their data is sold. It also protects the privacy of people seeking sensitive care, since companies could not hand health data to the government without compulsory legal process.",
+  "plain_summary": "The bill extends HIPAA-style privacy, security, and breach-notification rules to health data that federal law currently does not cover — information held by health apps, fitness trackers, wellness devices, and data brokers. Companies would need your written permission before selling, licensing, or marketing your health data, you would gain rights to access, correct, delete, and move your data, and the data could not be used to investigate or punish anyone for seeking or providing health care. Enforcement would fall to the health department and the FTC through civil penalties.",
+  "who_benefits": "Anyone whose health data lives outside HIPAA today: users of period-tracking, fitness, mental health, and telehealth apps, wearable-device owners, and people whose searches and location reveal health interests. They would gain consent rights before their data is sold, rights to access and delete it, protection from data being handed to the government without a warrant or subpoena, and protection from data being used against them for obtaining health care.",
   "who_benefits_short": "Users of health apps and wearables",
   "how_it_helps": [
    {
-    "text": "Companies that determine how health data is used (including data brokers) must follow privacy, security, and breach-notification rules at least as strong as HIPAA's.",
+    "text": "Closes the HIPAA gap: companies outside the health system that decide how health information is used — including data brokers — would have to follow privacy, security, and breach notification standards at least as strong as HIPAA's, within 18 months of enactment.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Selling, licensing, transferring, or marketing a person's health data requires that person's written authorization, and companies may not keep data longer than needed or collect beyond a HIPAA-style 'minimum necessary' limit.",
+    "text": "Requires the individual's written authorization before any sale, licensing, transfer, or marketing of their health data, and lets them revoke that authorization.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Companies may not sell or transfer health data to any government entity except when compelled by warrant, subpoena, or court order.",
+    "text": "Gives individuals enforceable rights to a privacy notice, access, amendment, deletion within 30 days of request, and portability of their data between apps and devices.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The rules may not authorize using health data to investigate or impose liability on someone for seeking, obtaining, providing, or facilitating health care.",
+    "text": "Bars companies from collecting or keeping more health data than needed, and from selling or transferring it to any government entity except under a warrant, subpoena, or court order.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Individuals gain rights to notice, access, amendment, deletion (within 30 days), and portability of their health data, including precise location data that reveals they sought a health service.",
+    "text": "Prohibits using or disclosing health data to investigate or impose liability on anyone for seeking, obtaining, providing, or facilitating health care — a protection relevant to reproductive and other contested care.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "HHS must set a single national de-identification standard stricter than current practice — ruling out the loose 'safe harbor' method, requiring contracts not to re-identify data, and accounting for AI-driven re-identification — with violations subject to civil penalties.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Apps generating wellness data (step counts, medication compliance) must tell users in plain language that the data is not HIPAA-protected and offer an opt-out before collecting it.",
+    "text": "Tightens de-identification: data could only be stripped of identity through a stricter expert-determination process, recipients must contractually agree never to re-identify it, and re-identification itself becomes a violation carrying civil penalties.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Data brokers, digital health and wellness app companies, and advertisers who currently buy, sell, and target people using health data outside HIPAA. They face compliance costs, consent requirements, and restrictions on selling data or handing it to law enforcement voluntarily. Health providers and insurers, already covered by HIPAA, see little change.",
-  "who_pays_short": "Data brokers and health app companies",
+  "who_pays": "Data brokers, health and wellness app makers, wearable-device companies, and advertisers that currently buy and sell health-related data would bear compliance costs and lose revenue from unauthorized sale of that data. Health systems and record vendors are mostly already covered by HIPAA and would see little new burden; one section actually lets them charge fees when a patient sends records to a third party the patient chose.",
+  "who_pays_short": "Data brokers, health apps, and ad tech",
   "drawbacks": [
    {
-    "text": "The bill applies HIPAA's preemption rule to its new requirements, which could override stricter state health-privacy laws in states that have gone further than federal law.",
+    "text": "None of the protections exist until HHS and the FTC write the rules — up to 18 months after enactment — and the real strength of the law would depend on how those agencies draft and enforce them.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Enforcement rests with HHS and the FTC through civil penalties; the text provides no private right of action, so individuals could not sue violators themselves.",
+    "text": "The bill gives enforcement to HHS and the FTC through civil penalties and an agreement dividing responsibility between them; it does not give individuals a right to sue violators themselves, so wronged consumers would depend on two federal agencies to act.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Protections arrive slowly: regulations are due 18 months after enactment and de-identification standards after a year, leaving the current gap in protection open in the meantime.",
+    "text": "When a patient directs their electronic health record to a third party they designate, providers may condition the transfer on that recipient paying fees in advance and accepting binding terms, which could add costs or friction for patients using outside services — though the bill bars this from amounting to unlawful information blocking.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Compliance costs for app makers and data companies may be passed to consumers, and a national floor could reduce the regulatory patchwork some firms actually prefer to navigate state by state.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "The bill preserves a rule allowing providers to charge fees, under state law, when transmitting records to certain third parties an individual designates, which can add cost to moving one's own records.",
+    "text": "Data already governed by other regimes — financial data under Gramm-Leach-Bliley, substance-use treatment records, student records, regulated research — is carved out of the new definition, leaving those regimes in place rather than strengthening them.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "For ordinary people the bill closes a real and growing hole: HIPAA simply does not cover most consumer health apps and data brokers, so health data collected outside a doctor's office can currently be sold with little restriction. The main honest concerns are that preemption could undo stronger state laws, that there is no right to sue, and that rulemaking delays mean protection is years away even if it passes. The core privacy gains outweigh the compliance costs, which fall mainly on firms profiting from the current gap.",
+  "benefit_vs_cost": "The public benefit is real and large: health data held by apps and brokers is among the most sensitive data sold today, and the bill would bring it under consent, minimization, and breach rules at least as strict as HIPAA's. The main weaknesses are structural, not substantive — protections hinge on future rulemaking and on HHS and FTC enforcement rather than private lawsuits, and the fee provision for third-party record transfers modestly shifts costs onto patients' chosen services. On balance, a well-designed privacy upgrade whose practical value depends on vigorous implementation.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The Senate health committee approved it and placed it on the Senate's waiting list for floor business, but no vote has been scheduled with the session ending in January 2027.",
+   "mechanism": "It cleared the Senate health committee with a substitute amendment and now sits on the Senate calendar waiting for a floor vote that no one has scheduled.",
    "narrative": [
     {
-     "text": "Sen. Bill Cassidy introduced the bill on November 4, 2025, and it was read twice and referred to the Health, Education, Labor, and Pensions Committee.",
+     "text": "Senator Bill Cassidy introduced the bill on November 4, 2025; it was read twice and referred to the Senate Committee on Health, Education, Labor, and Pensions, which he chairs.",
      "sources": [
+      "S1",
       "S4"
      ]
     },
     {
-     "text": "On July 30, 2026, the HELP Committee ordered the bill reported favorably with an amendment in the nature of a substitute, and it was reported on August 4, 2026.",
+     "text": "On July 30, 2026, the committee ordered the bill reported favorably with an amendment in the nature of a substitute — meaning it approved a rewritten version — and on August 4, 2026 Cassidy reported it and it was placed on the Senate Legislative Calendar under General Orders as Calendar No. 538.",
      "sources": [
-      "S4"
+      "S4",
+      "S2"
      ]
     },
     {
-     "text": "The committee substitute strengthened the bill relative to the version introduced: it changed the standard from 'commensurate with' to 'at least equivalent to' HIPAA protections, added a ban on using health data to investigate someone for obtaining health care, added precise health-related geolocation to the covered data, explicitly covered data brokers, required written authorization for any sale or marketing of health data, barred transfers to government without compulsory process, and tightened the de-identification standard.",
+     "text": "The rewrite strengthened the original: it added the written-authorization requirement for any sale or marketing of health data, a 30-day deletion right, restrictions on transfers to government, the bar on using health data to investigate people for obtaining care, and a ban on re-identifying de-identified data, while dropping earlier provisions on wellness-data notices and a study on paying patients for their data.",
      "sources": [
       "S2"
      ]
     },
     {
-     "text": "On August 4, 2026, the bill was placed on the Senate Legislative Calendar under General Orders as Calendar No. 538, where it awaits floor time.",
+     "text": "No floor vote has occurred; with the Congress running through January 3, 2027, the bill's fate now depends on Senate leadership finding time for it.",
      "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "No floor vote, amendment, or further Senate action has occurred since it was placed on the calendar, and the 119th Congress ends January 3, 2027.",
-     "sources": [
+      "S1",
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "So far the bill has moved steadily toward the floor, which favors consumers; but until a vote happens, data brokers, wellness apps, and advertisers continue operating under the current looser rules, which they benefit from every day the bill waits."
+   "who_came_out_ahead": "Nothing has changed yet, so no one has gained or lost; if the bill stalls on the calendar, data brokers and health-data sellers keep operating under today's far weaker rules."
   },
-  "who_came_out_ahead_short": "Data brokers and ad-tech, for now",
+  "who_came_out_ahead_short": "Undetermined; data sellers keep the status quo",
   "sides": {
    "for": [
     {
      "name": "Sen. Bill Cassidy",
-     "role": "U.S. Senator from Louisiana; Chair, Senate HELP Committee",
+     "role": "Chair, Senate Committee on Health, Education, Labor, and Pensions; bill sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill and, as committee chair, brought it through markup and reported it favorably with a strengthening substitute amendment.",
+     "what_they_did": "Introduced the bill, and as committee chairman reported it favorably on August 4, 2026 with a substitute amendment that strengthened its privacy protections.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
+      "S1",
       "S4"
      ]
     },
     {
-     "name": "Democratic cosponsor",
-     "role": "Senate cosponsor",
+     "name": "Senate Committee on Health, Education, Labor, and Pensions",
+     "role": "Committee of jurisdiction",
+     "party": null,
+     "what_they_did": "Ordered the bill reported favorably with an amendment in the nature of a substitute on July 30, 2026, advancing it to the Senate calendar.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "1 of 45 Senate Democrats",
+     "role": "Cosponsor",
      "party": "D",
-     "what_they_did": "Signed on as the bill's one cosponsor, giving it bipartisan sponsorship.",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S3"
      ]
-    },
-    {
-     "name": "Senate HELP Committee",
-     "role": "Committee of jurisdiction",
-     "party": null,
-     "what_they_did": "Ordered the bill reported favorably with an amendment in the nature of a substitute on July 30, 2026.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
     }
    ],
    "against": [],
    "party_line": "unclear",
-   "party_line_note": "The bill has a Republican sponsor and one Democratic cosponsor and cleared committee without a recorded floor vote, so no party split is visible in the record yet."
+   "party_line_note": "The Republican committee chairman sponsored the bill and one Democratic senator cosponsored it, and the committee advanced it without a recorded vote, so no partisan split is visible in the record yet."
   },
   "industries": [
    {
     "industry": "Data brokers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill defines data brokers as regulated entities and requires their written authorization to sell health data, bars them from transferring it to governments without compulsory process, and subjects them to breach and minimization rules. Their current business model of trading health data collected from other sources would be directly restricted.",
+    "note": "The bill names data brokers in its definitions and bars them and any regulated entity from selling, licensing, or transferring health data without the individual's written authorization, or to the government without compulsory process. Their core business of trading health-related data without consent is directly targeted.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Digital health and wellness app makers",
-    "effect": "mixed",
-    "stance_toward_public": "opposed",
-    "note": "They must obtain authorization to sell or market user health data, offer opt-outs for wellness data collection, honor deletion within 30 days, and meet security and breach rules — real compliance costs. But a single national standard replacing a patchwork of state laws can simplify operations, which is why the effect is not purely negative.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Digital advertising and ad-tech",
+    "industry": "Health, wellness, and fitness app and wearable makers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Precise geolocation showing that someone sought a health service becomes covered health data, and uses without written authorization are restricted, cutting off targeting of consumers based on sensitive health signals.",
+    "note": "Data from step counters, period trackers, symptom checkers, and telehealth apps would suddenly carry HIPAA-grade consent, minimization, deletion, and breach-notification duties. Companies lose the ability to monetize this data freely, though they gain one predictable national standard.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "AI and machine learning developers using health data",
-    "effect": "mixed",
+    "industry": "Ad tech and marketers",
+    "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "HHS must write rules on how the minimum-necessary standard applies to training AI models, and de-identification gets stricter with a penalty for re-identification — limiting access to the large health datasets these firms want. Research and interoperability pathways are preserved, so access is narrowed rather than eliminated.",
+    "note": "Health-related targeting data — including precise geolocation suggesting someone sought a health service — would require written authorization before any marketing use, cutting off a lucrative data stream.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Hospitals, insurers, and their contractors",
+    "industry": "Health AI developers",
     "effect": "mixed",
-    "stance_toward_public": "opposed",
-    "note": "As HIPAA covered entities and business associates they are largely carved out of the new regime for protected health information, though the bill retains a provision letting providers charge fees to third parties when transmitting a patient's records at the patient's direction.",
+    "stance_toward_public": "mixed",
+    "note": "New rules would govern how much health data AI and machine-learning models may use and require minimum-necessary practices for training data, but developers also gain a clear national framework and standards for privacy-preserving techniques instead of uncertainty.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Hospitals and health record vendors",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "They are already HIPAA-covered, so the new regime barely touches them, and one section lets them charge advance fees and set binding terms when a patient sends records to a patient-designated third party — a small gain that can add costs for patients using outside services.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill sits on the Senate calendar with favorable bipartisan committee action but no scheduled floor time and a session ending January 3, 2027. Bills at this stage typically die at adjournment unless leadership allocates floor time or the bill is folded into a larger package, such as a health or data-privacy vehicle; without a visible coalition of senators pressing for time, passage odds are low.",
+  "trajectory": "A bill reported to the Senate calendar in August of the second year of a Congress rarely gets floor time on its own; unless leadership schedules a vote or it moves by unanimous consent or rides on a larger package, it will likely die when the 119th Congress ends on January 3, 2027 and have to start over next Congress. Its favorable committee report and bipartisan sponsorship give it a plausible, but not strong, path.",
   "categories": [
    "consumer_protection_and_finance",
    "other"
   ],
   "scores": {
-   "public_stakes": 7,
+   "public_stakes": 6,
    "concentrated_stakes": 7,
-   "outcome_against_public": 2,
-   "support_mismatch": 2,
-   "corruption_relevance": 2,
+   "outcome_against_public": 3,
+   "support_mismatch": 3,
+   "corruption_relevance": 1,
    "confidence": 0.85
   }
  },

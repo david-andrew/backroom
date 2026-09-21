@@ -1,95 +1,107 @@
 {
  "bill_id": "119-s5384",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:00:12+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T22:30:00+00:00",
  "record_fetched_at": "2026-09-20T08:08:11+00:00",
  "record_hash": "3111f8c1a9737de0",
  "analysis": {
-  "one_liner": "Requires overtime pay after 32 hours a week, phasing the standard workweek down from 40 to 32 hours.",
-  "headline": "Senator Sanders introduced the bill in September 2026 with no cosponsors, and it has sat in the Senate labor committee without a hearing, amendment, or vote since.",
+  "one_liner": "Requires overtime pay after 32 hours a week instead of 40, phased in over four years.",
+  "headline": "Senator Sanders introduced the bill with zero cosponsors, and it has sat in the Senate labor committee with no hearing or vote since September 2026.",
   "direction": "for_working_people",
-  "plain_summary": "The bill rewrites the federal overtime law so employers must pay time-and-a-half for hours worked beyond 32 in a week, stepping down from 38 to 36 to 34 to 32 over about four years. Workers who work more than 8 hours in a day would earn premium pay, and more than 12 hours in a day would earn double pay. It also forbids employers from cutting someone's pay or benefits to offset the new overtime costs. If companies respond by keeping hours at or below 32, many workers would get a shorter week at roughly the same pay; if companies instead cap hours, some workers might lose the chance to work extra hours at premium rates.",
-  "who_benefits": "Hourly workers who put in long weeks. Anyone working more than 32 hours would either get overtime pay for the extra hours or, if employers shift to 32-hour schedules, keep similar pay while working less. Workers pulling 12-hour shifts would earn double time beyond that point. The bill bars employers from cutting existing pay or benefits to make up the difference.",
-  "who_benefits_short": "Hourly workers who work long weeks",
+  "plain_summary": "This bill would cut the standard workweek from 40 hours to 32. Employers would owe time-and-a-half pay for hours beyond 32 in a week (double time past 12 hours in a day), with the new threshold phased in over about four years. It also bars employers from cutting a worker's weekly pay or benefits because of the change, so many workers would keep the same paycheck while working fewer hours.",
+  "who_benefits": "Hourly workers who regularly put in long weeks. Anyone working past 32 hours would either earn overtime premiums or, because the bill forbids pay cuts, work fewer hours at the same weekly pay. Workers on long shifts would get time-and-a-half after 8 hours in a day and double time after 12. Roughly 3.5 years after passage, the 32-hour standard would be fully in effect.",
+  "who_benefits_short": "Hourly workers putting in long weeks",
   "how_it_helps": [
    {
-    "text": "Amends the Fair Labor Standards Act so overtime (time-and-a-half) is owed for any workweek over 32 hours, down from 40, phased in as 38, 36, 34, then 32 over roughly four years.",
+    "text": "Lowers the overtime threshold from 40 hours a week to 32, so time worked beyond 32 hours must be paid at one-and-a-half times the regular rate.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Adds a new daily overtime rule: time-and-a-half after 8 hours in a workday and double pay after 12 hours.",
+    "text": "Adds daily overtime on top of weekly overtime: one-and-a-half times pay after 8 hours in a workday and double pay after 12 hours.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Bars employers from reducing an affected employee's total compensation rate, regular rate, or benefits because of the new 32-hour threshold.",
+    "text": "Phases the lower threshold in over roughly four years for workers covered by the amended provision: 38 hours the first year, then 36, then 34, then 32.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Applies the same 32-hour overtime rule to the FLSA's hospital/health-care hours provision, which today lets such employers average hours over two weeks.",
+    "text": "Bars employers from reducing a covered worker's total weekly compensation or benefits because the worker is newly covered by the overtime rules, meaning workers keep their weekly pay even if their scheduled hours shrink.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Applies the 32-hour standard to the special hospital workweek rule, which currently allows longer schedules over a two-week period.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Employers in industries that rely on long weekly hours, such as health care, logistics, retail, and manufacturing, would pay overtime after 32 hours or hire more staff. Consumers could see some of those costs passed through in prices, and some workers might see employer-set caps on overtime hours.",
-  "who_pays_short": "Employers using long weekly hours",
+  "who_pays": "Employers that rely on long hours from hourly staff — retail stores, restaurants, hospitals, nursing homes, manufacturers, and warehouses — would owe premium pay for hours past 32 a week (or past 8 a day) or restructure schedules and hire more staff. Some of that cost would likely show up in prices, and small businesses with thin margins would feel it most. Workers who want more than 32 hours would need their employer to pay the premium.",
+  "who_pays_short": "Employers using long hourly shifts",
   "drawbacks": [
    {
-    "text": "Businesses that run on long shifts would face sharply higher labor costs or the need to hire more workers, and critics argue many would cap employees' hours below the extra-pay threshold, so workers who want or need more income could lose access to overtime shifts.",
-    "sources": [
-     "S1"
-    ]
-   },
-   {
-    "text": "The bill requires only that employers not reduce the compensation rate, not that take-home pay stay whole if hours are cut, so a worker moved to a 32-hour schedule could see smaller paychecks if no new overtime hours replace the lost ones.",
+    "text": "The costs fall on employers, who would either pay premium wages for hours past 32, cap workers' hours, or hire more staff; many would pass some of it to customers through higher prices.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The change would be one of the largest rewrites of federal overtime rules since the 1930s, and the short phase-in gives employers limited time to adjust schedules.",
+    "text": "The new daily rule (overtime after 8 hours in a day, double time after 12) would force changes to scheduling in industries like healthcare and food service that depend on long shifts, and could lead employers to spread hours across more part-time workers.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Workers who want or need more than 32 hours of work would find employers far more reluctant to schedule them, since every extra hour now carries a 50% or 100% pay premium.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "If employers respond by paying the premium, the bill is a direct raise for millions of long-hours workers; if they respond by capping hours at 32, it is closer to a shorter week whose pay effect depends on the company. The anti-cutback provision protects the pay rate but not total weekly income, so the real-world result would vary a lot by industry. It is a major pro-worker change with a real but hard-to-predict cost side for employers and consumers.",
+  "benefit_vs_cost": "For hourly workers, the upside is real and concrete: premium pay for long weeks and days, plus a legal guarantee that weekly pay cannot be cut when hours are reduced. The costs are genuine too — higher labor bills for employers in sectors that run long shifts, likely some price increases, and less scheduling flexibility for workers who want extra hours. The multi-year phase-in softens the shock for employers. The honest tradeoff is a shift of income and time toward hourly workers, paid for mainly by the businesses that employ them and, in part, by consumers.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced, read twice, and sent to the Senate labor committee, where it has sat with no further action; Congress is still in session, so it is technically alive but moving nowhere.",
+   "mechanism": "The bill was referred to the Senate labor committee and has had no hearing, vote, or cosponsors since.",
    "narrative": [
     {
-     "text": "Senator Sanders introduced the bill on September 14, 2026, and it was read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+     "text": "Senator Sanders introduced the bill in the Senate on September 14, 2026, where it was read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
      "sources": [
       "S1",
       "S4"
      ]
     },
     {
-     "text": "No other action has been taken: no hearing, no committee vote, no floor vote, and the official cosponsor list shows zero cosponsors.",
+     "text": "No senator from either party signed on as a cosponsor.",
      "sources": [
-      "S3",
+      "S3"
+     ]
+    },
+    {
+     "text": "The committee has taken no further action — no markup, hearing vote, or floor schedule appears in the record — and the congressional session ends January 3, 2027.",
+     "sources": [
+      "S1",
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "No outcome has occurred yet, so no one has gained or lost; employers have so far avoided any new overtime obligation, and the bill's backers have not moved it forward."
+   "who_came_out_ahead": "Employers that depend on long hourly workweeks are better off so far, because the bill has gone nowhere and the overtime costs it would impose have never come close to a vote. Hourly workers have gained nothing, but also lost nothing beyond the status quo."
   },
-  "who_came_out_ahead_short": "No one yet; nothing has happened",
+  "who_came_out_ahead_short": "Employers that rely on long hours",
   "sides": {
    "for": [
     {
-     "name": "Bernie Sanders",
-     "role": "U.S. Senator (independent, caucuses with Democrats); bill's only sponsor",
+     "name": "Sen. Bernie Sanders",
+     "role": "U.S. Senator from Vermont",
      "party": "I",
-     "what_they_did": "Introduced the Thirty-Two Hour Workweek Act and referred it to the HELP Committee.",
+     "what_they_did": "Sole sponsor; introduced the bill and got it referred to the HELP Committee.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -98,57 +110,71 @@
      ]
     }
    ],
-   "against": [],
+   "against": [
+    {
+     "name": "Senate Health, Education, Labor, and Pensions Committee",
+     "role": "Committee of referral",
+     "party": null,
+     "what_they_did": "Received the bill by referral and has taken no further action — no hearing, markup, or vote in the record.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "Every other sitting senator",
+     "role": "Senate (55 Republicans, 45 Democrats, 2 Independents)",
+     "party": null,
+     "what_they_did": "None signed on as a cosponsor.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3"
+     ]
+    }
+   ],
    "party_line": "unclear",
-   "party_line_note": "With no cosponsors, no votes, and no recorded opposition yet, the partisan shape of the fight has not formed; similar overtime proposals have generally drawn support from progressive Democrats and resistance from business groups and most Republicans."
+   "party_line_note": "There have been no votes, and no senator from either party joined as a cosponsor, so the partisan shape is untested — though the absence of even one cosponsor suggests no appetite in either caucus."
   },
   "industries": [
    {
-    "industry": "Health care providers (hospitals, nursing homes)",
+    "industry": "Retail, restaurants, and warehousing",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Staffing models built on 12-hour and long weekly shifts would trigger daily and weekly overtime much sooner, raising labor costs or forcing shorter shifts and more hiring. The bill would also remove the special rule that currently lets these employers average hours over two weeks. Patients could benefit from less fatigued staff or pay through higher costs.",
+    "note": "These employers run long hourly shifts and would owe premium pay past 32 hours a week or 8 hours a day, or else restructure staffing. Their interest in stopping the bill runs directly against the wage gain for their workers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Logistics, warehousing, and trucking",
+    "industry": "Hospitals and nursing homes",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These industries rely heavily on long weekly hours; overtime after 32 hours would raise costs or require expanding headcount. Workers could gain either premium pay or shorter weeks.",
+    "note": "The bill tightens the special hospital workweek rule and adds daily overtime, hitting sectors that depend on 12-hour and overnight shifts. Resistance here means keeping long-shift staffing arrangements that the bill would make much more expensive.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Retail, restaurants, and hospitality",
+    "industry": "Small businesses generally",
     "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "A large share of the workforce in these sectors works 40-plus hours; the new threshold would convert many routine hours into overtime or force schedule cuts.",
+    "stance_toward_public": "mixed",
+    "note": "Small employers with thin margins would bear the same premium-pay rules as large ones, with less ability to absorb or restructure around them.",
     "sources": [
-     "S1"
-    ]
-   },
-   {
-    "industry": "Manufacturing",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "Plants running extended shifts would face higher overtime costs or need to add crews; some might cap hours to avoid the premium.",
-    "sources": [
-     "S1"
+     "S2"
     ]
    }
   ],
-  "trajectory": "With zero cosponsors and no committee action since its September 2026 introduction, the bill is very unlikely to get a hearing or vote before this Congress ends; the realistic path is that it dies in committee unless it attracts substantial new support.",
+  "trajectory": "With roughly three and a half months left in the session, zero cosponsors, and no committee action of any kind, the bill is almost certain to expire in committee without a hearing or vote. Similar workweek bills Sanders has introduced in past congresses never advanced, and nothing in this record suggests a different path.",
   "categories": [
    "wages_and_labor"
   ],
   "scores": {
-   "public_stakes": 7,
-   "concentrated_stakes": 6,
-   "outcome_against_public": 3,
-   "support_mismatch": 4,
+   "public_stakes": 8,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 5,
+   "support_mismatch": 1,
    "corruption_relevance": 1,
    "confidence": 0.9
   }

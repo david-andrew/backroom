@@ -1,112 +1,95 @@
 {
  "bill_id": "119-s5040",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:59:22+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T22:24:26+00:00",
  "record_fetched_at": "2026-09-20T08:07:53+00:00",
  "record_hash": "1b81b02e408c3177",
  "analysis": {
-  "one_liner": "Bars new retirement contributions by people with over $10 million already saved and forces faster withdrawals.",
-  "headline": "Introduced in July 2026 with no cosponsors and referred to the Senate Finance Committee, where it has sat without a hearing or vote.",
+  "one_liner": "Bars high earners from adding to retirement accounts above $10 million and speeds up required withdrawals.",
+  "headline": "Wyden's bill to limit retirement tax breaks for taxpayers with more than $10 million in retirement savings was referred to the Senate Finance Committee in July 2026 and has seen no action since.",
   "direction": "for_working_people",
-  "plain_summary": "This bill says that once someone has more than $10 million across their retirement accounts, and their income is above roughly $400,000–$450,000 a year, they can no longer put new money into retirement accounts, which get special tax treatment. Starting in 2034, people with balances above $10 million would also have to pull out half of whatever they have over that cap each year — with Roth accounts drained first — and those forced withdrawals would be subject to 37 percent federal withholding. Retirement accounts are the biggest legal tax shelter available, and a small number of households have accumulated eight- and nine-figure balances inside them; this bill would end the unlimited version of that shelter.",
-  "who_benefits": "Ordinary taxpayers benefit indirectly: the tax subsidy for retirement saving is currently unlimited for the wealthiest savers, so people with $10 million-plus balances can shelter enormous sums from tax for decades. Closing that open-ended shelter makes the tax system somewhat fairer and preserves the accounts' tax advantages for the savers they were designed for. Savers affected by the bill also gain some flexibility — the bill lets them withdraw the excess amounts without the usual 10 percent early-withdrawal penalty.",
-  "who_benefits_short": "Middle-income retirement savers and general taxpayers",
+  "plain_summary": "The bill would stop taxpayers earning roughly $400,000 or more from making any new tax-advantaged retirement contributions once their combined retirement balances pass $10 million. It would also force those account holders to withdraw money faster than the usual rules require, so their savings are taxed and spent rather than compounding tax-free indefinitely. It applies to 401(k)s, 403(b)s, government 457 plans, IRAs, and Roth accounts.",
+  "who_benefits": "Ordinary taxpayers in a general sense: the bill ends an open-ended tax shelter that today can let the wealthiest households pass tens of millions of dollars through tax-advantaged accounts, and it returns some of that deferred tax to the Treasury. It affects a small number of very high earners directly.",
+  "who_benefits_short": "Ordinary taxpayers, indirectly",
   "how_it_helps": [
    {
-    "text": "Once a taxpayer has more than $10 million in vested retirement balances, the bill prohibits any further tax-favored contributions to retirement plans by or on their behalf.",
+    "text": "Taxpayers with modified adjusted gross income over roughly $400,000-$450,000 (indexed) could make no further contributions to any retirement plan once their aggregate balances exceed $10 million.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The contribution ban applies to people whose income was above $225,000 (single), $400,000 (most others), or $450,000 (married filing jointly) in the prior year.",
+    "text": "Once balances exceed $10 million, required minimum distributions would be increased by 50 percent of the excess over $10 million, forcing faster drawdown and taxation of the savings; once balances exceed $20 million, even Roth money would be included in the required drawdown (though Roth withdrawals would remain tax-free).",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Starting in 2034, people with balances over $10 million must distribute at least half of the amount above $10 million each year, with Roth IRA and designated Roth account balances drawn down first; these accelerated distributions are exempt from the 10 percent early-withdrawal penalty.",
+    "text": "The contribution cap takes effect for tax years after 2026, and the accelerated distribution rules take effect for tax years after 2033, giving planners and account holders long notice.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Distributions made to satisfy the accelerated requirement are treated as nonperiodic distributions subject to 37 percent withholding, and no election can reduce that withholding, except for qualified Roth distributions.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "The income thresholds and the $10 million balance cap are indexed to inflation after 2027.",
+    "text": "Distributions forced by the new rule would be subject to 37 percent withholding (rather than the usual 10 percent) so the tax is actually collected at the source.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "The direct cost falls on households with retirement balances above $10 million and high incomes: they lose the ability to keep adding tax-deferred money, and starting in 2034 they must draw down and pay tax on half of their excess balance each year. Plan administrators, employers, and financial firms would bear new compliance duties — plans must allow these mandatory withdrawals on demand, and withholding agents must apply the 37 percent rate.",
-  "who_pays_short": "Households with $10M+ retirement balances",
+  "who_pays": "Households with more than $10 million in combined retirement savings and annual income over roughly $400,000. They lose the ability to keep contributing to tax-advantaged accounts and must draw down their balances faster, paying income tax on the withdrawals sooner than they otherwise would.",
+  "who_pays_short": "Households with $10M+ retirement accounts",
   "drawbacks": [
    {
-    "text": "The Roth-first drawdown rule breaks the long-standing promise that Roth accounts are never taxed again: money someone already paid tax on and moved into a Roth would be forced out first, which critics would call a retroactive change to settled rules.",
+    "text": "The bill is narrow: it touches only taxpayers with very large balances, so it raises relatively little revenue compared with broader retirement or tax reforms, and the bill text itself contains no revenue estimate.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "A 37 percent withholding rate on the forced distributions, with no election to lower it, creates a large up-front cash-flow hit that affected taxpayers would only reconcile at filing time.",
+    "text": "It is technically complex. It layers new definitions, excise taxes, and allocation rules on top of existing law, and it includes a special carve-out for employee stock ownership plans holding untraded employer stock — a sign of the compliance headaches and tailored exceptions that large account holders' advisers would work with.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The compliance load is real: qualified plans, 403(b) custodial and annuity contracts, and governmental 457 plans must all add on-demand distribution rights, and administrators must value and aggregate balances across every plan a person holds — the bill itself needed special rules for ESOPs and non-readily-tradable employer stock to avoid trapping people.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "An honest supporter would acknowledge the revenue comes from a very small number of households, so the bill is more about tax fairness at the top than about funding anything specific — the bill text directs the revenue to no new program.",
+    "text": "Forcing drawdowns of Roth money (funded with after-tax dollars) accelerates withdrawals of tax-free savings, which high earners would see as penalizing savings made under rules that previously had no such requirement, since the accelerated distribution rules only start after 2033.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The policy is well-targeted at a genuine loophole — unlimited tax-sheltered accumulation for the very wealthy — and it carefully exempts rollovers, inheritances, and divorce transfers so people are not penalized for events they didn't choose. The Roth-first sequencing and 37 percent withholding are blunt and would be the fair points of dispute for the affected households. On balance, the design is more careful than typical tax provisions aimed at the wealthy, though its value to ordinary people depends entirely on whether the revenue and fairness principle are actually pursued.",
+  "benefit_vs_cost": "The benefit is genuine but modest: it closes a real shelter that lets the wealthiest few compound retirement savings tax-free indefinitely, at little to no cost to anyone earning under roughly $400,000. The cost is added complexity and a late effective date, and it does nothing about the broader gap between households with and without workplace retirement plans. On balance a fair, narrow measure — if it ever moved.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and sent to the Senate Finance Committee, where it has sat with no hearing, no markup, and no vote scheduled.",
+   "mechanism": "It was introduced in the Senate on July 21, 2026 and referred to the Finance Committee, which has taken no action on it since.",
    "narrative": [
     {
-     "text": "Sen. Ron Wyden introduced the bill on July 21, 2026, and it was read twice and referred to the Senate Committee on Finance.",
+     "text": "Senator Wyden introduced the bill on July 21, 2026; it was read twice and referred to the Committee on Finance, with no cosponsors listed and no further action recorded.",
      "sources": [
       "S1",
+      "S3",
       "S4"
      ]
     },
     {
-     "text": "The bill has no cosponsors.",
-     "sources": [
-      "S3"
-     ]
-    },
-    {
-     "text": "As of the latest action record, the Finance Committee has taken no further action on the bill.",
+     "text": "The Finance Committee is chaired by a Republican in this Congress, and no markup or floor action has occurred since the referral.",
      "sources": [
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, no one has changed position: households with mega retirement balances keep today's unlimited shelter, and the bill's prospects rest entirely on whether the Finance Committee acts before the Congress ends."
+   "who_came_out_ahead": "So far, households with mega retirement accounts — the bill sits untouched in committee with no cosponsors."
   },
-  "who_came_out_ahead_short": "High-balance savers, so far",
+  "who_came_out_ahead_short": "Households with $10M+ retirement accounts",
   "sides": {
    "for": [
     {
      "name": "Ron Wyden",
-     "role": "U.S. Senator (D-OR), sole sponsor",
+     "role": "U.S. Senator (D-OR), bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and referred it to the Senate Finance Committee, of which he has been a senior member and former ranking member.",
+     "what_they_did": "Introduced the bill and saw it referred to the Finance Committee, where he has served as a senior member and former chair.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -115,46 +98,48 @@
      ]
     }
    ],
-   "against": [],
+   "against": [
+    {
+     "name": "Mike Crapo",
+     "role": "Chair, Senate Finance Committee",
+     "party": "R",
+     "what_they_did": "Took no recorded action on the bill after it was referred to the committee; no markup was scheduled.",
+     "direct": true,
+     "evidence": "widely_reported",
+     "sources": []
+    }
+   ],
    "party_line": "unclear",
-   "party_line_note": "No votes have occurred and there are no cosponsors, so the partisan shape is unknown; the only recorded action is a single Democratic sponsor."
+   "party_line_note": "No votes or committee action exist to show a split; the bill has a single Democratic sponsor and zero cosponsors from either party."
   },
   "industries": [
    {
-    "industry": "High-net-worth households with $10M+ retirement balances",
+    "industry": "Wealthy households with $10M+ retirement balances",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These households lose the ability to keep piling money into tax-sheltered accounts and, from 2034, must draw down and pay tax on half of anything above $10 million each year. Their interest in keeping the current rules runs against the general taxpayer's interest in a tax system where the largest balances are not permanently sheltered.",
+    "note": "They would lose unlimited tax-advantaged compounding and be forced to draw down and pay tax on balances sooner. The cost falls on a small group with the largest concentrated tax benefit.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Wealth and asset management firms",
+    "industry": "Wealth management and retirement plan administration",
     "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "Firms managing mega-balance accounts would lose some of the incentive to funnel unlimited deferrals into their products, but the bill creates new administrative work (on-demand distribution rights, cross-plan valuation, 37 percent withholding) that firms would handle for fees.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Employers and plan administrators",
-    "effect": "mixed",
-    "stance_toward_public": "aligned",
-    "note": "Plans must amend to allow these withdrawals on request and aggregate balances for compliance, adding cost — but the burden falls on servicing high-income mega-accounts, not on ordinary participants, who are untouched by the thresholds.",
+    "note": "The rules would create new compliance and allocation work for plans and advisers, while forced withdrawals would move some assets from tax-advantaged accounts to taxable ones, changing — not necessarily shrinking — managed assets.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "A single-sponsor bill with no cosponsors, introduced in late July of an election-year Congress and sitting in the Finance Committee, is unlikely to move: most bills at this stage never get a hearing. It would realistically advance only if attached to a broader tax package, as similar retirement-balance limits have been in past Democratic tax proposals.",
+  "trajectory": "The bill is in the Senate Finance Committee with no cosponsors and no scheduled action, with the Congress ending in January 2027. Bills at this stage — a lone sponsor, no committee markup — almost never become law, and the odds here are effectively nil in the remaining weeks of the session.",
   "categories": [
-   "taxes_on_wealth_and_corporations"
+   "taxes_on_wealth_and_corporations",
+   "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 3,
-   "concentrated_stakes": 7,
+   "public_stakes": 4,
+   "concentrated_stakes": 8,
    "outcome_against_public": 2,
    "support_mismatch": 1,
    "corruption_relevance": 2,

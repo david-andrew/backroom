@@ -1,198 +1,219 @@
 {
  "bill_id": "119-s4831",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:59:40+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T22:21:42+00:00",
  "record_fetched_at": "2026-09-20T08:07:48+00:00",
  "record_hash": "7d12790284f093da",
  "analysis": {
-  "one_liner": "Restricts how employers can surveil, collect, and sell data on their workers.",
-  "headline": "Introduced in the Senate on June 18, 2026 with 8 Democratic and independent sponsors, then referred to the Senate labor committee, where no further action has been taken.",
+  "one_liner": "Bans employers from secretly surveilling workers' union activity, off-duty life, and health, and requires disclosure of all monitoring.",
+  "headline": "The bill was referred to the Senate HELP Committee on June 18, 2026, and no hearing, markup, or vote has been scheduled since.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would sharply limit what employers can do with workplace surveillance. It would ban monitoring aimed at identifying union activity, political or religious views, health conditions, or whistleblowers; bar collecting data while workers are off duty or in sensitive areas like restrooms and break rooms; and prohibit selling worker data to third parties. It would also require employers to disclose what data they collect and how it affects decisions about hiring, firing, and pay, let workers see and correct their own data, create a new Worker Protection and Technology Division at the Labor Department to enforce the rules, and give workers and unions the right to sue violators with statutory damages.",
-  "who_benefits": "Workers at employers with 11 or more employees, including applicants and remote workers, and the unions that represent them. They would gain limits on keystroke, biometric, location, and off-duty monitoring, the right to know what data their boss collects and correct errors in it, and the right to sue without being forced into arbitration.",
-  "who_benefits_short": "Workers and their unions",
+  "plain_summary": "The bill would bar employers with 11 or more workers from collecting or using worker data to track union organizing, whistleblowing, off-duty activity, political or religious views, or health conditions unrelated to the job, and from monitoring workers in restrooms, break rooms, lactation or prayer rooms, or their own homes. It would require employers to tell workers exactly what data is collected, how, and how it feeds hiring, firing, discipline, and performance decisions. Workers would get the right to see and correct their data, employers could not sell worker data or hand it to third parties, and a new Labor Department division would enforce the rules, backed by worker lawsuits with damages up to $40,000 per violation and a ban on forced arbitration of those claims.",
+  "who_benefits": "Workers at covered employers (11 or more workers) and job applicants, plus labor unions, whose organizing activity would be protected from data-driven detection.",
+  "who_benefits_short": "Workers and job applicants at covered employers",
   "how_it_helps": [
    {
-    "text": "Bans using employee data to identify or monitor workers' union activity, political or religious views, health status, immigration status, or plans to report the employer for breaking the law [S2]",
+    "text": "Prohibits using worker data to identify or monitor people who have or intend to join or assist a labor organization, or to engage in protected concerted activity.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Prohibits collecting data on off-duty workers, including in restrooms, locker rooms, lactation rooms, and workers' homes, and prohibits selling or licensing worker data to any third party [S2]",
+    "text": "Bars collection of worker data while off-duty in break rooms, restrooms, locker rooms, lactation or prayer rooms, or the worker's own home or remote work location.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires employers to disclose in plain language what worker data they collect, how, how often, who has access, and how it feeds work-related decisions; workers can obtain their data within 30 days and have errors corrected, and can demand reconsideration of a work decision based on wrong data [S2]",
+    "text": "Bans employers from selling or licensing worker data and from transferring it to third parties, and requires opt-in consent plus cybersecurity protections before transfer to a service provider.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Creates a Worker Protection and Technology Division within the Labor Department with an Administrator, technologist staff, and advisory boards including labor representatives, to investigate complaints and issue orders [S2]",
+    "text": "Requires employers to disclose what data is collected, how, how often, who has access, and how it affects decisions on hiring, firing, discipline, scheduling, wages, and promotion — and gives workers a right to review, correct, and request reconsideration of data-driven work decisions.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Gives workers and unions a private right to sue for violations with statutory damages (up to $40,000 for repeated data-minimization violations and up to $100,000 for willful retaliation), attorney's fees, and protection from retaliation for exercising these rights; predispute arbitration and class-action waivers would be unenforceable for these claims, and state attorneys general and privacy regulators could also sue [S2]",
+    "text": "Prohibits retaliation against workers who exercise these rights or complain, and makes predispute arbitration agreements and class-action waivers unenforceable for claims under the bill.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Creates a Worker Protection and Technology Division in the Department of Labor with advisory boards including labor representatives, and a private right of action with statutory damages of $5,000–$20,000 per violation of the data rules ($10,000–$40,000 for willful or repeated violations).",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Employers with 11 or more employees, who face compliance, disclosure, and data-deletion duties and new litigation exposure, and the worker-surveillance technology industry, whose products would be restricted or banned.",
-  "who_pays_short": "Employers and surveillance-tech vendors",
+  "who_pays": "Employers with 11 or more workers and the vendors that sell employee-monitoring and workforce-analytics tools, which face collection limits, disclosure duties, data-sale bans, and lawsuit exposure.",
+  "who_pays_short": "Employers and worker-surveillance vendors",
   "drawbacks": [
    {
-    "text": "The threshold applies to employers with just 11 workers, so small businesses would bear disclosure, recordkeeping, and data-deletion costs for ordinary human-resources information along with large corporations [S2]",
+    "text": "The definition of employee data is sweeping — covering routine HR files, productivity metrics, communications, device usage, and online activity — and the 11-employee threshold captures many small employers, so compliance and recordkeeping costs would be substantial even for firms with modest surveillance programs.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The definition of employee data is extremely broad, covering everything from productivity metrics to IP addresses, and the private right of action carries statutory damages of $5,000 to $40,000 per violation, which could produce lawsuits over routine recordkeeping and administrative slips rather than serious surveillance [S2]",
+    "text": "The bill's permissible-use standard requires data collection to be 'strictly necessary' and the 'least invasive means' available, which could force employers to abandon productivity, quality, and safety monitoring tools that many businesses and some workers view as legitimate.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Restrictions on collecting data 'related to' union or protected activity, and bans on off-duty monitoring including at home, could be difficult to apply where remote work blends personal and work devices and where employers must lawfully respond to workplace disputes [S2]",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "The 'least invasive means' and 'strictly necessary' standards for permissible data collection are subjective and would require case-by-case interpretation by a newly created regulator [S2]",
+    "text": "Statutory damages per worker, a private right of action, and attorney-fee awards create substantial litigation exposure, and the honest cost of strong data rules is that some disputes will be settled by lawsuits rather than fixes.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core protections target documented practices — productivity scoring, biometric tracking, off-duty social-media monitoring, algorithmic firing — that workers currently have little power to see or contest, so the benefits are real. But the bill is drafted very broadly: an 11-employee threshold, an all-encompassing data definition, and high statutory damages would impose significant compliance and litigation costs on employers of every size, and some of that cost would fall on small businesses handling ordinary HR files. A narrower version targeting the worst surveillance practices would preserve most of the benefit at a fraction of the cost.",
+  "benefit_vs_cost": "The worker protections are real and targeted: union-spying, restroom and home monitoring, and sale of worker data are practices most people would not accept if disclosed. The bill is carefully structured — it preserves stronger state laws, keeps routine performance assessment legal, and deletes data on a timeline. The main honest objections are cost and breadth: the data definitions are broad enough to sweep in ordinary HR practices at small firms, and the damages-plus-fees structure will produce litigation. On balance, the protections for workers outweigh the compliance burden, though a narrower data definition and a higher employee threshold would reduce the cost.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced and referred to the Senate Health, Education, Labor, and Pensions Committee; no hearing, markup, or vote has been scheduled, and the Congress runs through January 3, 2027.",
+   "mechanism": "The bill was introduced and sent to the Senate labor committee on June 18, 2026, where it has sat with no hearing, markup, or vote — the typical path for a bill introduced with no opposition-party support in the closing months of a Congress.",
    "narrative": [
     {
-     "text": "Senator Edward Markey introduced the bill on June 18, 2026, joined by seven Democratic and independent colleagues: Schatz, Sanders, Baldwin, Warren, Blumenthal, Fetterman, and Booker [S1][S4]",
+     "text": "Sen. Edward Markey introduced the Stop Spying Bosses Act on June 18, 2026, joined by seven original cosponsors — six Senate Democrats and one Independent, Sen. Bernie Sanders.",
+     "sources": [
+      "S1",
+      "S2",
+      "S3"
+     ]
+    },
+    {
+     "text": "The Senate read the bill twice and referred it to the Committee on Health, Education, Labor, and Pensions the same day; the full action history shows no further action — no hearing, markup, committee vote, or floor action.",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "The 119th Congress runs until January 3, 2027, so the bill remains technically alive, but no vote has occurred and none is scheduled.",
      "sources": [
       "S1",
       "S4"
      ]
-    },
-    {
-     "text": "The Senate read the bill twice and referred it to the Committee on Health, Education, Labor, and Pensions on the day of introduction; the action history shows no further steps [S4]",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "No Republican senator has cosponsored the bill, and the committee it sits in is chaired by the opposing party [S3]",
-     "sources": [
-      "S3"
-     ]
     }
    ],
-   "who_came_out_ahead": "So far, no one has moved: the practices the bill would restrict — including selling worker data and monitoring union activity — remain legal at the federal level, and the employers and vendors that rely on them face no new obligations."
+   "who_came_out_ahead": "So far, employers that monitor workers and the vendors selling workforce-surveillance tools are better off, because the bill has not advanced and the practices it targets remain unregulated at the federal level."
   },
   "who_came_out_ahead_short": "Employers and surveillance vendors, so far",
   "sides": {
    "for": [
     {
      "name": "Sen. Edward Markey",
-     "role": "Lead sponsor",
+     "role": "U.S. Senator from Massachusetts; bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and shepherded it to introduction with seven colleagues",
+     "what_they_did": "Introduced the Stop Spying Bosses Act in the Senate and sought cosponsors.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S4"
+      "S2"
      ]
     },
     {
-     "name": "Sens. Schatz, Sanders, Baldwin, Warren, Blumenthal, Fetterman, and Booker",
-     "role": "Original cosponsors (6 Democrats, 1 independent)",
+     "name": "6 of 45 Senate Democrats",
+     "role": "Senate Democratic cosponsors (Schatz, Baldwin, Warren, Blumenthal, Fetterman, Booker)",
      "party": "D",
-     "what_they_did": "Joined as original cosponsors at introduction, giving the bill its full 8-sponsor bloc",
+     "what_they_did": "Cosponsored the bill at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
-      "S2"
+      "S3"
+     ]
+    },
+    {
+     "name": "Bernie Sanders",
+     "role": "U.S. Senator from Vermont",
+     "party": "I",
+     "what_they_did": "Cosponsored the bill at introduction.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3"
      ]
     }
    ],
    "against": [
     {
-     "name": "Sen. Bill Cassidy",
-     "role": "Chair, Senate Health, Education, Labor, and Pensions Committee",
-     "party": "R",
-     "what_they_did": "As chair of the committee to which the bill was referred, has taken no action to schedule a hearing or markup; the bill has sat without a calendar slot since referral",
+     "name": "Senate Committee on Health, Education, Labor, and Pensions",
+     "role": "Committee of referral",
+     "party": null,
+     "what_they_did": "Received the bill on June 18, 2026, and took no further action — no hearing, markup, or committee vote is recorded.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S4"
      ]
+    },
+    {
+     "name": "55 of 55 Senate Republicans",
+     "role": "Senate majority caucus",
+     "party": "R",
+     "what_they_did": "None of the 55 Senate Republicans cosponsored the bill, and the majority has not scheduled floor time for it.",
+     "direct": true,
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
    "party_line": "party_line",
-   "party_line_note": "All 8 sponsors are Democrats or an independent who caucuses with Democrats; no Republican has cosponsored, and the bill was referred to a committee chaired by a Republican."
+   "party_line_note": "All eight initial supporters are Senate Democrats or the independent who caucuses with Democrats; none of the 55 Senate Republicans has cosponsored, and no vote has yet been held."
   },
   "industries": [
    {
-    "industry": "Employee-monitoring and workplace-surveillance technology vendors",
+    "industry": "Employee-monitoring and workforce-analytics vendors",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill bans or tightly restricts their core products: productivity and behavior scoring, biometric tracking, off-duty monitoring, and sale of worker data. Their revenue currently comes from charging employers to watch workers, so their interest runs against the workers being watched [S2]",
+    "note": "These firms sell productivity tracking, keystroke and location monitoring, and algorithmic management tools, and some buy or resell worker data. The bill bans selling worker data, requires opt-in consent for transfers, restricts what can be collected, and mandates disclosure — directly shrinking a growing market.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Gig platforms and algorithmic-management employers",
+    "industry": "Large employers using algorithmic management",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Companies that rate, rank, and deactivate workers by automated systems would have to disclose the data behind those decisions and let workers correct it and demand reconsideration, and could no longer enforce arbitration clauses for these claims [S2]",
+    "note": "Employers with 11 or more workers face collection limits, plain-language disclosure duties, workers' rights to see and correct their data, and lawsuit exposure with damages up to $40,000 per violation. Their interest in continuous productivity and behavior tracking runs against workers' privacy in this bill.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "HR data brokers and employee-data resellers",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "The bill prohibits selling or licensing employee data to third parties and requires opt-in consent for transfers even to service providers, cutting off a market in worker information [S2]",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Labor organizations",
+    "industry": "Labor unions and worker advocates",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Unions gain a private right to sue over surveillance aimed at organizing activity and would hold seats on the new Labor Advisory Board at the Labor Department [S2]",
+    "note": "The bill makes it illegal to use data collection to identify or monitor union organizing or protected concerted activity, and gives unions standing to sue over violations. Unions also hold seats on the new division's advisory boards.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Employment arbitration providers",
+    "effect": "loses",
+    "stance_toward_public": "mixed",
+    "note": "The bill voids predispute arbitration agreements and class-action waivers for claims under the Act, moving worker-surveillance disputes from private arbitration into open court.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "With only Democratic sponsorship, a Republican-controlled Senate, and no hearing scheduled after referral, the bill's realistic path is to sit in committee for the rest of the Congress. Its best chance would be having provisions attached to a larger, must-pass package, which is uncommon for a bill at this stage.",
+  "trajectory": "Introduced with no Republican support roughly six months before the Congress ends, with no committee action and no scheduled hearing or markup, the bill is very unlikely to advance further in the 119th Congress; the realistic path is reintroduction in the next Congress.",
   "categories": [
    "wages_and_labor",
-   "other"
+   "consumer_protection_and_finance"
   ],
   "scores": {
    "public_stakes": 7,
-   "concentrated_stakes": 6,
-   "outcome_against_public": 2,
-   "support_mismatch": 3,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 5,
+   "support_mismatch": 4,
    "corruption_relevance": 1,
-   "confidence": 0.9
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

@@ -1,199 +1,201 @@
 {
  "bill_id": "119-s4833",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:23:04+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T22:23:43+00:00",
  "record_fetched_at": "2026-09-20T08:16:48+00:00",
  "record_hash": "365fb6d8a4123fa7",
  "analysis": {
-  "one_liner": "Restricts employers from letting algorithms make or dominate hiring, firing, pay, and scheduling decisions about workers.",
-  "headline": "The bill was introduced in June 2026 and referred to the Senate labor committee, where it has sat without a hearing, a vote, or any further action.",
+  "one_liner": "Bars employers from relying mainly on algorithms to hire, fire, schedule, or manage workers, and requires human review and disclosure.",
+  "headline": "Introduced in June 2026 by Senator Markey with 6 cosponsors, the bill has sat in the Senate labor committee with no action since its referral.",
   "direction": "for_working_people",
-  "plain_summary": "This bill would put limits on employers that use software and artificial intelligence to make decisions about workers. It would stop employers from relying mainly on an automated system to hire, fire, discipline, schedule, or set pay, and require them to tell workers how the system works and give them a way to appeal. Workers could opt out and ask to be evaluated or managed by a human. It would also require companies that build and use workplace AI to test it for bias and other harms before deploying it, report annually on its effects, and face fines and lawsuits if they violate the rules.",
-  "who_benefits": "Workers and job applicants at employers with 11 or more workers, including gig and contract workers performing work for remuneration. They would get the right to a human decision-maker instead of an algorithm, a plain-language explanation of how automated systems evaluate them, at least 7 days' notice before an algorithm-driven firing or discipline, an appeals process, protection from retaliation, and the ability to sue or join a class action instead of being forced into arbitration [S2]. Unions would gain a say, since employers must bargain over decisions to implement such systems [S2].",
-  "who_benefits_short": "Workers and job applicants",
+  "plain_summary": "The No Robot Bosses Act would stop employers with 11 or more workers from relying predominantly on automated systems to make work decisions like hiring, firing, discipline, scheduling, and pay. Workers and applicants could always opt for a human decision-maker, employers would have to explain what data the systems use and how they work, and any adverse action would require 7 days' advance notice. The bill would also create a Fairness and Transparency Office at the Labor Department, give workers and unions the right to sue with statutory damages of $5,000 to $40,000 per violation, and ban forced arbitration and class-action waivers for these claims.",
+  "who_benefits": "Workers and job applicants at employers with 11 or more workers — including gig workers and contractors paid for their work, plus federal and state public employees — who would gain a right to a human decision instead of an opaque algorithm for hiring, firing, scheduling, discipline, and productivity monitoring, 7 days' notice before adverse actions, whistleblower protection for refusing to follow a system's output, and the ability to sue in court rather than forced arbitration. Labor unions and worker advocacy organizations gain standing to sue on workers' behalf, seats on four new advisory boards, and a mandatory duty on employers to bargain over workplace AI.",
+  "who_benefits_short": "Workers and job applicants facing algorithmic management",
   "how_it_helps": [
    {
-    "text": "Employers could no longer rely predominantly on an automated decision system to hire, fire, discipline, schedule, or set pay — a human decision-maker would have to be in the loop [S2].",
+    "text": "Employers could no longer rely predominantly on an automated decision system for any work-related decision, and workers could opt out of being managed by an algorithm in favor of a human manager; applicants could opt out of having their application screened by AI and get human review instead.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Workers and applicants could opt out of being managed or screened by an algorithm and request a human instead, including when a third-party vendor does the screening [S2].",
+    "text": "Workers would get plain-language disclosures about what data these systems collect, what they measure, and how to appeal their output, plus at least 7 days' notice before an adverse action like firing, demotion, or cut hours — and employers could never use a system in a way that interferes with organizing or other rights under labor and civil rights laws.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Before any adverse action taken with help from an algorithm — firing, discipline, demotion, cut hours, worse schedules — the employer must disclose how the system works and give the worker at least 7 days' notice [S2].",
+    "text": "Developers and employers would have to run predeployment evaluations and annual impact assessments covering risks to workers' privacy, safety, dignity, wages, and collective bargaining, certify before deployment that the system is unlikely to harm workers' rights, and publish summaries of those reports.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Developers and employers must test workplace AI for discrimination and risks to workers' rights before deploying it, reassess it every year, and publish a summary; an oversight office at the Department of Labor receives the reports and can investigate [S2].",
+    "text": "Workers could sue in federal court with statutory damages of $5,000–$20,000 per violation ($10,000–$40,000 for willful or repeated violations), could not be forced into predispute arbitration or to waive class actions for these claims, and would be protected from retaliation for complaining or for refusing to follow a system's output; state attorneys general could also sue.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill bans forced arbitration and class-action waivers for these claims, lets workers sue with attorney's fees, and protects workers who refuse to follow an algorithm's output when exercising their own judgment [S2].",
+    "text": "A new Fairness and Transparency Office in the Labor Department's Wage and Hour Division would investigate complaints, with advisory boards that include labor representatives, funded at $100 million a year for fiscal years 2027 through 2036.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Employers using automated decision systems for hiring, management, or scheduling — large retailers, logistics and warehouse operators, gig platforms, and the vendors selling them such systems — would bear the cost of disclosures, predeployment evaluations, annual impact assessments, training, and potential statutory damages of up to $40,000 per violation [S2]. Some of that compliance cost could be passed to consumers or slow adoption of management software [S2].",
-  "who_pays_short": "Large employers and AI vendors",
+  "who_pays": "Employers using or selling algorithmic management tools — large employers with 11 or more workers, gig platforms, and the software vendors whose systems they buy — bear the cost of evaluations, disclosures, annual impact assessments, 10-year record retention, per-worker statutory damages, and litigation without forced arbitration. Public agencies and state governments are covered too, and states effectively waive sovereign immunity as a condition of accepting federal financial assistance. Taxpayers fund the new Labor Department office at up to $100 million a year for a decade.",
+  "who_pays_short": "Employers, HR software vendors, and taxpayers",
   "drawbacks": [
    {
-    "text": "Employers would face real compliance costs: predeployment evaluations, annual impact assessments, published summaries, 10-year record retention, and training for anyone operating the systems [S2].",
+    "text": "The compliance burden falls on employers with as few as 11 workers, who must conduct predeployment evaluations, train system operators, provide detailed disclosures, file annual impact assessments, and retain records for 10 years — costs that fall hardest on small and mid-sized firms relative to large ones.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Small employers are exempt — the rules only cover employers with 11 or more covered individuals, so workers at the smallest businesses get no protection [S2].",
+    "text": "Per-worker statutory damages of $5,000–$20,000 ($10,000–$40,000 willful), state attorney general suits with penalties up to $50,000–$100,000, and the invalidation of predispute arbitration and class-action waivers could drive substantial litigation costs, and courts may presume an entire automated system is one inseparable practice in discrimination cases, making employer defenses harder.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Companies may redact trade secrets from the public summaries of their evaluations, so the public record of how an algorithm works would not always be complete [S2].",
+    "text": "The definition of an automated decision system is broad — any software that produces a prediction, score, ranking, recommendation, or evaluation — so ordinary tools beyond headline AI could be swept in, and the 7-day notice requirement before adverse work actions could slow routine personnel decisions.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Opponents of workplace AI rules generally argue that disclosure, testing, and certification requirements slow down technology adoption and add legal exposure; this bill imposes both on any employer using automated hiring or management tools, and adds statutory damages of $5,000-$20,000 per violation (up to $40,000 for willful or repeat violations) [S2].",
+    "text": "It authorizes up to $1 billion in new federal spending over ten years to staff and run the new office.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The benefits — a human in the loop, explanations, appeals, and enforceable penalties for algorithmic firing and scheduling — directly address documented harms of workplace AI. The costs are real: employers selling to consumers or governments may face higher costs and slower decisions, and some firms might hire fewer workers or shift hiring abroad to avoid the rules. The bill's design mitigates the classic transparency-burden objection by letting companies redact trade secrets [S2], and by phasing in assessments for systems built before enactment. The main honest criticism is enforcement scope: a 7-day notice requirement before an adverse action helps, but companies could still time automated decisions to squeeze workers within legal limits, and small employers with 10 or fewer workers are exempt [S2].",
+  "benefit_vs_cost": "The worker protections are substantial and target a real, growing practice — automated firing, scheduling, and productivity surveillance — and the notice, opt-out, and appeal rights are the kind of thing workers cannot easily get on their own. The costs are real too: a low 11-employee threshold, broad definitions, and per-worker statutory damages impose compliance and litigation exposure on many employers, and honest supporters would acknowledge the bill was introduced with no Republican support and no chance of narrowing those edges through committee. On balance the bill is designed to shift power from employers to workers, and its main flaw is less its substance than its one-sided path — it was never written to survive negotiation.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced and referred to the Senate Health, Education, Labor, and Pensions Committee, and with no further action on the record it sits there while Congress remains in session.",
+   "mechanism": "It was introduced in June 2026 and referred to the Senate labor committee, where it has sat without a hearing, markup, or vote, and the current Congress ends January 3, 2027.",
    "narrative": [
     {
-     "text": "Senator Markey introduced the No Robot Bosses Act on June 18, 2026, joined by six other senators, all Democrats or independents who caucus with Democrats [S1][S3].",
+     "text": "Senator Markey introduced the bill on June 18, 2026, joined by six original cosponsors — Senators Schatz, Sanders, Baldwin, Warren, Blumenthal, and Fetterman.",
      "sources": [
       "S1",
-      "S4"
+      "S2",
+      "S3"
      ]
     },
     {
-     "text": "The same day, the Senate read it twice and referred it to the Committee on Health, Education, Labor, and Pensions; that referral is the last action in the record [S4].",
+     "text": "The Senate read it twice and referred it the same day to the Committee on Health, Education, Labor, and Pensions, which has taken no action since.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The bill would bar employers from relying predominantly on an automated decision system for hiring, firing, discipline, scheduling, or pay decisions, require disclosure of how such systems work, and give workers a right to opt out of algorithmic management and application screening in favor of a human [S2].",
+     "text": "With the 119th Congress set to end on January 3, 2027, a bill with no committee action after referral faces the standard fate of most bills: expiring without a vote and needing to be reintroduced.",
      "sources": [
-      "S2"
-     ]
-    },
-    {
-     "text": "It would require developers and employers to run and publish predeployment and annual impact assessments of workplace AI, create a Fairness and Transparency Office at the Department of Labor to enforce the rules, and ban predispute arbitration and class-action waivers for claims under the bill [S2].",
-     "sources": [
-      "S2"
-     ]
-    },
-    {
-     "text": "Enforcement includes a private right of action with statutory damages from $5,000 to $40,000 per violation, whistleblower protection for workers who refuse to follow an algorithm's output, and enforcement by state attorneys general [S2].",
-     "sources": [
-      "S2"
+      "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Employers using or selling algorithmic management tools are better off so far: no committee action means no obligations have been imposed, and they keep operating under current law."
+   "who_came_out_ahead": "Employers using algorithmic management tools and the software vendors that sell them are better off so far, because the disclosure, opt-out, and lawsuit rights the bill would create have not advanced and the current Congress will end before it could."
   },
-  "who_came_out_ahead_short": "Employers using algorithmic management",
+  "who_came_out_ahead_short": "Employers and workforce-AI vendors, for now",
   "sides": {
    "for": [
     {
      "name": "Sen. Edward Markey",
-     "role": "U.S. Senator (MA), lead sponsor",
+     "role": "Lead sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and it was read twice and referred to the HELP Committee [S1].",
+     "what_they_did": "Introduced the bill and recruited six original cosponsors",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S1"
+      "S1",
+      "S2",
+      "S3"
      ]
     },
     {
-     "name": "Sens. Schatz, Sanders, Baldwin, Warren, Blumenthal, and Fetterman",
-     "role": "Cosponsors (5 Democrats, 1 independent)",
-     "party": "D/I",
-     "what_they_did": "Original cosponsors of the bill [S3].",
+     "name": "5 of 45 Senate Democrats",
+     "role": "Cosponsors (Sens. Schatz, Baldwin, Warren, Blumenthal, Fetterman)",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill at introduction",
      "direct": true,
      "evidence": "record",
      "sources": [
+      "S2",
+      "S3"
+     ]
+    },
+    {
+     "name": "Sen. Bernie Sanders",
+     "role": "Cosponsor",
+     "party": "I",
+     "what_they_did": "Cosponsored the bill at introduction",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S2",
       "S3"
      ]
     }
    ],
    "against": [
     {
-     "name": "Senate HELP Committee",
-     "role": "Senate committee of jurisdiction",
-     "party": null,
-     "what_they_did": "Has taken no action on the bill since it was referred; no hearing, markup, or vote appears in the record [S4].",
+     "name": "Sen. Bill Cassidy",
+     "role": "Chair, Senate Health, Education, Labor, and Pensions Committee",
+     "party": "R",
+     "what_they_did": "Has not scheduled a hearing or markup; the bill has sat without action since its referral on June 18, 2026",
      "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S4"
-     ]
+     "evidence": "widely_reported",
+     "sources": []
     }
    ],
-   "party_line": "party_line",
-   "party_line_note": "All seven sponsors and cosponsors are Democrats or independents who caucus with Democrats; no Republican support appears in the record, and the bill sits in a Senate committee with no action [S3][S4]."
+   "party_line": "unclear",
+   "party_line_note": "All seven initial sponsors are Democrats or allied independents, with no Republican support on record, and no committee or floor vote has occurred yet to measure a partisan split."
   },
   "industries": [
    {
-    "industry": "Employers using algorithmic management and AI hiring tools (retail, logistics, gig platforms, staffing, large service chains)",
+    "industry": "Workforce AI and HR software developers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "They would have to keep a human in the loop, disclose how their systems work, run predeployment and annual assessments, and face statutory damages and lawsuits when the software drives firings or discipline. Their interest in keeping cheap, opaque algorithmic management runs against workers' interest in appealable, human-reviewed decisions.",
+    "note": "Companies selling hiring, scheduling, and productivity-monitoring systems would face mandatory predeployment evaluations, published reports, safety certifications, a ban on selling for uses outside their stated purpose, and per-worker statutory damages — their core business model of opaque workplace algorithms is what the bill regulates. Their trade secrets could be redacted from public summaries, but the disclosure and liability framework would raise the cost of selling these tools.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Vendors of workplace AI and automated decision systems (HR tech, scheduling and productivity-scoring software)",
+    "industry": "Algorithmically managed large employers (gig platforms, warehouse, retail, and staffing chains)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Developers would face predeployment evaluations, usage limits, and shared legal responsibility for how employers use their products, including a ban on knowingly selling them for uses outside the tested purposes. Their interest in unregulated sales runs against workers' interest in tested systems.",
+    "note": "These employers could no longer rely predominantly on algorithms for hiring, firing, discipline, scheduling, or pay, would have to give workers a human manager on request and 7 days' notice before adverse actions, and would have to bargain with unions over implementing workplace AI — a direct constraint on management-by-app practices that set schedules, quotas, and terminations with no human in the loop.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "HR departments and human managers",
-    "effect": "entrenched",
-    "stance_toward_public": "mixed",
-    "note": "The bill does not ban workplace AI; it channels decisions through it with human oversight, mandatory training, and documentation, effectively institutionalizing automated decision systems as a permanent part of management under new rules.",
+    "industry": "Labor unions and worker advocacy organizations",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "Unions gain standing to sue on behalf of workers, guaranteed seats on all four new advisory boards, and an employer duty to bargain over the decision to implement automated systems — new leverage over workplace technology.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "Bills of this type typically stall in committee without a hearing or markup. With no Republican cosponsors, no committee action in the record, and the 119th Congress ending in January 2027, the most likely path is that the bill dies in committee without a floor vote unless the sponsor uses it to build a record or attaches provisions to a larger package.",
+  "trajectory": "With no Republican support and a Senate majority and committee chair from the other party, the bill is very unlikely to get a markup or floor vote before the 119th Congress ends on January 3, 2027; the realistic path is that it dies at the end of the Congress and would need to be reintroduced in the next one.",
   "categories": [
    "wages_and_labor",
-   "consumer_protection_and_finance"
+   "other"
   ],
   "scores": {
    "public_stakes": 7,
    "concentrated_stakes": 7,
-   "outcome_against_public": 4,
-   "support_mismatch": 4,
-   "corruption_relevance": 2,
-   "confidence": 0.85
+   "outcome_against_public": 6,
+   "support_mismatch": 3,
+   "corruption_relevance": 1,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []

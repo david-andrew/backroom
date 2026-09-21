@@ -1,185 +1,200 @@
 {
  "bill_id": "119-s232",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:15:20+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:35:43+00:00",
  "record_fetched_at": "2026-09-20T08:14:06+00:00",
  "record_hash": "60e4a1f64c9cd033",
  "analysis": {
-  "one_liner": "Bans pricing algorithms trained on competitors' private data and forces disclosure when algorithms set prices.",
-  "headline": "Nine Democratic senators introduced the bill in January 2025, and it has sat in the Senate Judiciary Committee with no hearing, vote, or floor action since.",
+  "one_liner": "Bans pricing algorithms trained on competitors' secret data and requires companies to disclose when algorithms set prices or pay.",
+  "headline": "The bill, introduced with 9 Senate Democrats, has sat in the Senate Judiciary Committee without a hearing or vote since January 2025.",
   "direction": "for_working_people",
-  "plain_summary": "The bill makes it illegal to use a pricing algorithm that was trained on private competitor data, on the theory that when many companies feed their sales and pricing data into the same software, the software can quietly steer everyone toward higher prices without any explicit agreement. It also makes it easier to prove a price-fixing case when one company's algorithm is shared across competitors, and it requires large companies to tell customers and workers when an algorithm is setting the price or the pay. A company caught breaking the ban could face daily fines or the full price of everything it sold using the violating algorithm.",
-  "who_benefits": "Consumers and workers. The bill targets pricing tools that pool nonpublic competitor data, which can raise prices on everything from rent to hotel rooms, and it covers pay-setting algorithms, since 'price' is defined to include employee and contractor compensation. It also gives shoppers and workers the right to know when an algorithm is setting their price or their pay.",
-  "who_benefits_short": "Shoppers and gig workers",
+  "plain_summary": "The bill makes it illegal to use or sell a pricing algorithm that is trained on competitors' nonpublic data — the kind of shared data that lets software quietly nudge many companies toward the same higher prices. It creates a presumption of illegal price-fixing when one pricing tool is used by multiple competitors in the same market, with penalties that can reach thousands of dollars per day or the full price of everything sold with the algorithm. Companies with $5 million or more in revenue would have to tell customers, workers, and contractors when an algorithm sets their price or pay, including when that algorithm charges different people different prices. The FTC and Justice Department could demand audits of any pricing algorithm, and the FTC would publish a two-year study on how widely these tools are used.",
+  "who_benefits": "Consumers and workers. When many competitors feed their private pricing data into the same software, prices across hotels, rentals, and other markets can climb together without any explicit agreement; banning that data-sharing targets the mechanism behind those price increases. Workers are covered too, because the bill defines 'price' to include pay for employees and contractors, so the same rules reach algorithmic wage-setting. Businesses competing on their own merits also benefit from a rule that stops rivals from coordinating through shared software.",
+  "who_benefits_short": "Consumers, workers, and independent competitors",
   "how_it_helps": [
    {
-    "text": "It is unlawful to use or distribute any pricing algorithm that uses, incorporates, or was trained with nonpublic competitor data, enforceable by the FTC or the Justice Department with civil penalties of at least $10,000 per day or the sum of the prices of everything sold with the violating algorithm.",
+    "text": "Makes it unlawful to use or distribute any pricing algorithm that uses, incorporates, or was trained with nonpublic competitor data, with civil penalties of at least $10,000 per day (inflation-adjusted) or the full price of every product or service sold using the algorithm in violation. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "When a pricing algorithm is distributed to or used by two or more competitors in the same market, the bill creates a presumption that the parties have engaged in illegal price fixing under the Sherman Act, which makes collusion cases much easier to prove.",
+    "text": "Creates a presumption of an illegal agreement under the Sherman Act when a pricing algorithm is distributed to or used by two or more competitors in the same market, making it far easier to prove algorithmic price-fixing, with joint and several liability for distributors that knew the tool used competitor data. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Companies with $5 million or more in annual revenue must clearly disclose to customers and to workers or contractors that a price or commercial term is set or recommended by a pricing algorithm, including when the algorithm prices different people differently, with a fine of at least $5,000 per day for failing to disclose.",
+    "text": "Requires companies with $5 million or more in annual revenue to disclose to customers before purchase, and to employees and contractors, when an algorithm sets or recommends their price or pay — including when it charges different customers or pays different workers different amounts for the same thing. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "On written request, regulators can require a company to report within 30 days who built its pricing algorithms, what data they were trained on, and whether the algorithm sets different prices for different customers or different pay for similar workers, certified under penalty of perjury by a senior corporate officer.",
+    "text": "Lets the Justice Department and FTC demand a certified report, under penalty of perjury by senior officers, explaining how any pricing algorithm works, what data trains it, and whether it discriminates among customers or workers. [S2]",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Requires the FTC to study and publish findings within two years on how prevalent pricing algorithms are, how often they produce price or wage discrimination, and what sectors may need more oversight. [S2]",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Companies that use or sell pricing algorithms trained on competitors' nonpublic data. They face a prohibition taking effect 90 days after enactment, daily civil penalties, joint and several liability when one algorithm connects competitors, and mandatory disclosures with per-day fines. Large firms also bear the cost of the audit reports and disclosure systems.",
-  "who_pays_short": "Pricing-software vendors and large algorithm users",
+  "who_pays": "Companies that sell pricing software and large businesses that rely on it — hotels, landlords, airlines, e-commerce sellers, and platforms that use algorithmic pricing or pay-setting — would bear compliance costs, disclosure obligations, and new legal exposure. Some efficiency gains from algorithmic pricing (faster matching of supply and demand) could be lost when tools rely on pooled competitor data.",
+  "who_pays_short": "Pricing software vendors and big algorithmic-price users",
   "drawbacks": [
    {
-    "text": "The ban is broad: it covers any algorithm trained with nonpublic competitor data even if the data is anonymized or aggregated, which could sweep in routine tools like demand-forecasting systems and force companies to rebuild or abandon lawful pricing software.",
+    "text": "The ban is broad: it prohibits any algorithm trained with nonpublic competitor data, and the bill's own FTC study is tasked with weighing 'potential benefits or efficiencies of pricing algorithms,' an acknowledgment that these tools can also lower prices or improve matching; a sweeping ban could sacrifice some of those gains. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill itself directs the FTC to study the potential benefits and efficiencies of pricing algorithms within two years, an acknowledgment that algorithmic pricing can also lower costs, so a blanket ban may eliminate legitimate savings for consumers.",
+    "text": "The definitions reach far beyond classic price-fixing — 'price' includes employee and contractor pay, and 'nonpublic data' includes anonymized data — so ordinary business tools that learn from aggregated market information could face penalties of $10,000 or more per day, a compliance burden that falls hardest on mid-sized firms near the $5 million disclosure threshold. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The statutory presumption of a price-fixing agreement applies when a company's algorithm is used by competitors, even without proof of any human agreement, which critics would call guilt by software rather than proof of collusion.",
+    "text": "The presumption of an agreement and joint-and-several liability could expose software distributors and their customers to Sherman Act damages even without proof of intent to fix prices, raising the risk of costly litigation over legitimate pricing tools. [S2]",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The mechanism the bill targets is real: multiple competitors feeding sales data into the same or mirrored pricing software can produce coordinated high prices without any meeting or email to catch. A ban on training algorithms with competitors' private data, plus easier proof of agreement, is a direct response to that. The cost is that the ban is written broadly — anonymized competitor-derived data counts — so some legitimate, price-lowering tools would be caught, and compliance would be costly. On balance the consumer-protection case is stronger than the overbreadth objection, though a narrower data rule could have targeted the harm more precisely.",
+  "benefit_vs_cost": "The core target is real: software that pools competitors' private data can push many supposedly independent companies toward the same higher prices or lower pay, which current antitrust law struggles to reach because there is no paper agreement. The bill attacks that gap directly and adds transparency for consumers and workers. The trade-off is overbreadth — the definitions could sweep in legitimate tools that use aggregated or anonymized market data, and the penalty structure is aggressive. A carefully drafted version could capture the harm while sparing efficient uses; as written, some legitimate pricing software would likely be caught.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and referred to the Senate Judiciary Committee on January 23, 2025, and it has sat there with no hearing, no committee vote, and no floor action since.",
+   "mechanism": "It was introduced in January 2025 and referred to the Senate Judiciary Committee, which has taken no further action on it.",
    "narrative": [
     {
-     "text": "Klobuchar introduced the Preventing Algorithmic Collusion Act of 2025 on January 23, 2025, joined by eight Democratic cosponsors: Wyden, Durbin, Welch, Hirono, Lujan, Shaheen, Murphy, and Blumenthal.",
+     "text": "Sen. Amy Klobuchar introduced the bill on January 23, 2025, joined by eight other Senate Democrats as cosponsors. [S2]",
      "sources": [
       "S2",
       "S3"
      ]
     },
     {
-     "text": "The same day, the Senate read the bill twice and referred it to the Committee on the Judiciary, where no further action appears in the record.",
+     "text": "The Senate read it twice and referred it to the Committee on the Judiciary the same day. [S4]",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "Every sponsor and cosponsor is a Democrat; no Republican has signed on to the bill.",
+     "text": "No further action — no hearing, no markup, no floor vote — appears in the bill's action history since the referral. [S4]",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "text": "All nine sponsors and cosponsors are Senate Democrats; no Republican has signed on. [S3]",
      "sources": [
       "S3"
      ]
     }
    ],
-   "who_came_out_ahead": "So far, the pricing-software industry and the large companies that use algorithmic pricing are better off: the bill has not advanced, so no restrictions or disclosure duties have taken effect."
+   "who_came_out_ahead": "Companies that sell and rely on algorithmic pricing tools, and any businesses that benefit from competitors' data flowing into shared pricing software, are better off so far, since the restrictions never advanced. Consumers and workers continue to pay prices and accept pay rates set by tools the bill would have restricted."
   },
-  "who_came_out_ahead_short": "Pricing-software vendors, for now",
+  "who_came_out_ahead_short": "Algorithmic pricing vendors and their business customers",
   "sides": {
    "for": [
     {
-     "name": "Amy Klobuchar",
-     "role": "U.S. Senator (D-MN), bill sponsor and ranking member of Senate Judiciary antitrust work",
+     "name": "Sen. Amy Klobuchar",
+     "role": "U.S. Senator (MN), bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the Preventing Algorithmic Collusion Act of 2025 and led its introduction with eight Democratic colleagues.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
-      "S2"
-     ]
-    },
-    {
-     "name": "Ron Wyden, Dick Durbin, Peter Welch, Mazie Hirono, Ben Ray Lujan, Jeanne Shaheen, Chris Murphy, Richard Blumenthal",
-     "role": "Democratic cosponsors in the Senate",
-     "party": "D",
-     "what_they_did": "Signed on as original cosponsors of the bill at introduction.",
+     "what_they_did": "Introduced the bill and led its introduction in the Senate.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S2",
-      "S3"
+      "S1"
+     ]
+    },
+    {
+     "name": "8 of 45 Senate Democrats",
+     "role": "Cosponsors (Wyden, Durbin, Welch, Hirono, Lujan, Shaheen, Murphy, Blumenthal)",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill at introduction.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3",
+      "S2"
      ]
     }
    ],
    "against": [
     {
-     "name": "Chuck Grassley",
-     "role": "Chair, Senate Judiciary Committee",
-     "party": "R",
-     "what_they_did": "No hearing, markup, or committee vote on the bill has been scheduled or held since its referral in January 2025; as committee chair he controls whether the bill gets any committee action.",
+     "name": "Senate Judiciary Committee",
+     "role": "Committee of referral, chaired by a Republican",
+     "party": null,
+     "what_they_did": "Received the bill on referral in January 2025 and has held it since, with no hearing, markup, or vote scheduled.",
      "direct": true,
-     "evidence": "widely_reported",
-     "sources": []
+     "evidence": "record",
+     "sources": [
+      "S4",
+      "S1"
+     ]
     }
    ],
-   "party_line": "mostly_party_line",
-   "party_line_note": "All nine original sponsors are Democrats and no Republican has cosponsored, and the Republican-chaired Judiciary Committee has taken no action on the bill."
+   "party_line": "party_line",
+   "party_line_note": "All nine sponsors and cosponsors are Senate Democrats, with no Republican support recorded; the bill sits in a committee controlled by the Republican majority. [S3] [S4]"
   },
   "industries": [
    {
-    "industry": "Pricing and revenue-management software vendors",
+    "industry": "Pricing software and revenue-management vendors",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These firms sell pricing tools — for hotels, airlines, landlords, and retailers — that are typically trained on competitors' market data. The bill bans algorithms trained with nonpublic competitor data and makes distributors jointly liable when competitors use the same tool, threatening their core product.",
+    "note": "These firms sell or license the pricing algorithms the bill would regulate; distributing a tool trained on competitors' nonpublic data could trigger penalties and joint liability for Sherman Act violations. Their business depends on the data-pooling the bill bans. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Landlords and rental housing platforms",
+    "industry": "Hotels, airlines, and short-term rental operators",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Large landlords use shared rent-setting software that draws on market-wide data; under the bill such software would be unlawful if trained on competitors' nonpublic data, and rents could face downward pressure.",
+    "note": "Heavy users of algorithmic revenue-management pricing; they would face disclosure duties to customers, audit demands, and legal exposure if their tools rely on pooled competitor data. The bill targets pricing practices in exactly these markets. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Airlines, hotels, and large online retailers",
-    "effect": "mixed",
+    "industry": "Landlords and property managers",
+    "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Heavy users of dynamic pricing would have to verify their algorithms' data sources, comply with audit requests, and tell customers when an algorithm sets the price. Some could lose pricing tools that raise revenue at travelers' and shoppers' expense; efficiency benefits could also be lost.",
+    "note": "Rent-setting software has drawn scrutiny for coordinating rents across competing properties; the bill would make using tools trained on other landlords' nonpublic data unlawful and require disclosure that an algorithm set the rent. [S2]",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Gig and staffing platforms using pay algorithms",
+    "industry": "Gig platforms and large employers using pay algorithms",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill defines price to include employee and contractor pay, so platforms that algorithmically set gig workers' pay would face the ban and must disclose algorithmic pay-setting to workers.",
+    "note": "Because the bill defines 'price' to include employee and contractor pay, algorithmic wage-setting tools would be covered, with disclosure duties to workers and penalties for tools trained on competitors' data. [S2]",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The record shows no committee activity since referral, no Republican support, and the Judiciary Committee's calendar is controlled by the opposing party's chair. A nearly identical Klobuchar algorithmic-pricing bill in the last Congress also never reached a vote. Unless majority support develops or the bill is attached to something larger, it will most likely remain in committee and die when this Congress ends in January 2027.",
+  "trajectory": "With no Republican cosponsors and no committee action in roughly a year, the bill is unlikely to get a hearing or markup in the Republican-led Judiciary Committee this Congress. Most single-party antitrust bills introduced in the Senate die in committee without a vote, and this one shows every sign of following that path unless it picks up bipartisan support.",
   "categories": [
-   "consumer_protection_and_finance",
    "antitrust_and_competition",
+   "consumer_protection_and_finance",
    "wages_and_labor"
   ],
   "scores": {
    "public_stakes": 7,
-   "concentrated_stakes": 6,
-   "outcome_against_public": 3,
-   "support_mismatch": 4,
-   "corruption_relevance": 1,
-   "confidence": 0.92
+   "concentrated_stakes": 8,
+   "outcome_against_public": 2,
+   "support_mismatch": 5,
+   "corruption_relevance": 2,
+   "confidence": 0.8
   }
  },
  "unresolved_citations": []

@@ -1,144 +1,118 @@
 {
  "bill_id": "119-s2999",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:48:29+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:45:11+00:00",
  "record_fetched_at": "2026-09-20T14:32:42+00:00",
  "record_hash": "6f6e67789b8a9abe",
  "analysis": {
-  "one_liner": "Insures up to $10 million in noninterest-bearing business checking accounts at banks other than the largest.",
-  "headline": "The Senate Banking Committee held a hearing in February 2026 on a bipartisan bill to insure up to $10 million of business transaction accounts, but it has not received a floor vote.",
+  "one_liner": "Extends federal deposit insurance to cover up to $10 million in business checking accounts at banks and credit unions.",
+  "headline": "The Senate Banking Committee held a hearing on the bill in February 2026, but the full Senate has not voted on it.",
   "direction": "mixed",
-  "plain_summary": "When a bank fails, the FDIC guarantees each depositor only up to a standard limit. This bill would add a separate guarantee of up to $10 million for checking accounts that pay no interest — the accounts businesses, nonprofits, and local governments use for payroll and operating expenses. The coverage would apply at banks and credit unions, but not at the subsidiaries of the biggest global systemically important banks or foreign bank branches. New premiums to fund the coverage would phase in over ten years, and banks with $10 billion or less in assets would be exempt from special assessments during that period.",
-  "who_benefits": "Businesses, nonprofits, and local governments holding large noninterest-bearing transaction accounts would keep access to payroll and operating funds even if their bank fails, instead of losing everything above the standard insurance limit. Community and regional banks would gain, because large transaction depositors would have a reason to keep those deposits at banks that can offer the coverage — which excludes the largest banks.",
-  "who_benefits_short": "Small businesses, nonprofits, and community banks",
+  "plain_summary": "Today the FDIC insures bank deposits up to $250,000 per depositor. This bill would add a separate guarantee of up to $10 million for noninterest-bearing transaction accounts — the checking-style accounts businesses use for payroll, rent, and operations — at banks and credit unions. Big Wall Street banks and foreign bank branches are excluded from offering it, and smaller banks and credit unions would not have to pay any special assessment to cover the new insurance during a ten-year phase-in period.",
+  "who_benefits": "Businesses, nonprofits, municipalities, and other organizations that keep large no-interest checking accounts gain the most: today they can lose everything above $250,000 if their bank fails, and this would insure up to $10 million of those balances. Community banks and credit unions also gain a tool to attract and keep large depositors, and they would be temporarily spared any new assessments to fund the coverage. Ordinary households gain little directly, since their deposits are already insured up to $250,000 — though the bill aims to prevent the kind of contagion where a mid-sized bank failure wipes out local employers' payroll accounts.",
+  "who_benefits_short": "Businesses with large operating accounts",
   "how_it_helps": [
    {
-    "text": "The FDIC would insure the net amount, up to $10 million per depositor, held in noninterest-bearing transaction accounts at insured banks, with deposits across subsidiaries of one holding company counted together against the limit.",
+    "text": "It would guarantee up to $10 million per depositor in noninterest-bearing transaction accounts at banks and credit unions, so a payroll or operating account would be fully covered even if the institution failed.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Credit unions would get parallel coverage: the NCUA would insure up to $10 million in noninterest-bearing transaction accounts per member.",
+    "text": "It phases the new coverage in over ten years under an FDIC-written plan, giving the insurance funds time to absorb the added exposure.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The coverage excludes subsidiaries of global systemically important bank holding companies and insured branches of foreign banks, steering the insured large-balance business away from the biggest institutions.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "During a ten-year transition, the FDIC would publish a plan for gradually folding the new coverage into its assessment base, and banks with total assets of $10 billion or less would not have to pay special assessments tied to the new coverage.",
+    "text": "It bars regulators from letting banks or third parties structure accounts to evade the limits, and excludes the largest systemically important banks and foreign bank branches from offering the extra coverage.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "The FDIC's Deposit Insurance Fund — funded by bank premiums and backed ultimately by taxpayers — would absorb added loss risk on accounts it now insures for free of the standard limit, and full premiums would not apply for ten years. Banks above the $10 billion asset threshold would pay higher assessments during the phase-in, costs that banks generally pass along to customers. Insuring large business balances also makes it easier for banks to rely on big, flighty deposits without paying the full price of that risk.",
-  "who_pays_short": "FDIC insurance fund and mid-size banks' customers",
+  "who_pays": "The cost of the expanded insurance would eventually fall on the FDIC and credit union insurance funds, which are funded by bank assessments — and ultimately backstopped by taxpayers. During the transition, small banks and credit unions would be exempt from paying assessments tied to the new coverage, pushing more of the cost toward larger banks and the funds themselves.",
+  "who_pays_short": "Bank insurance funds and, ultimately, taxpayers",
   "drawbacks": [
    {
-    "text": "The bill extends insurance to large balances while delaying the premiums that would fund it: banks with $10 billion or less in assets pay no special assessments for the new coverage during the ten-year transition, shifting the cost of the added risk onto the insurance fund and the banks that do pay.",
+    "text": "Extending insurance to accounts of up to $10 million shifts the risk of large-account failures onto the FDIC's insurance funds, which are funded by banks and, in a crisis, ultimately backstopped by the government — a cost that could fall on taxpayers or be passed to bank customers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Blanket insurance on large transaction accounts reduces the discipline that large uninsured depositors normally impose on banks; if big operating deposits are fully protected, depositors have less reason to prefer well-managed banks, and losses in a failure fall on the fund rather than on the large depositors.",
+    "text": "The additional coverage applies only to accounts that pay no interest, so ordinary households gain little: the standard $250,000 per-depositor limit already covers nearly all personal deposits, and banks have an incentive to keep the expanded coverage tier low- or no-interest.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The $10 million coverage applies only to accounts that pay no interest, so the benefit goes to entities that keep large operating balances — businesses, nonprofits, governments — rather than to typical household savers, and the exclusion of the largest banks means coverage depends on where a business banks.",
+    "text": "Community banks and credit unions are temporarily shielded from any increase in assessments to cover the new insurance during the transition, meaning the largest depositors get protection while the smaller institutions' share of the cost is deferred for years.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core idea has real value: in the 2023 regional bank failures, operating accounts holding payrolls froze above the insurance limit, and guaranteeing those accounts would protect workers' paychecks and local governments from a bank collapse they did nothing to cause. But the design carries a genuine cost: it socializes the risk of large business deposits through the insurance fund while letting small banks defer the premiums for a decade, and it dulls the market pressure that uninsured deposits put on bank management. A well-built version would pair the coverage with full, immediate risk-based premiums.",
+  "benefit_vs_cost": "The upside for ordinary households is small because their deposits are already insured up to $250,000; the real beneficiaries are businesses, nonprofits, and governments with large checking balances, plus community banks that get the added coverage without paying special assessments during the transition. The cost — added risk borne by the FDIC's insurance funds, which are ultimately backstopped by the banking system and taxpayers — is real but was moderated here by capping coverage at $10 million, phasing it in over ten years, and excluding the largest Wall Street banks. It is a reasonably targeted design, though its main work is protecting business operating accounts rather than people.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced in October 2025, referred to the Senate Banking Committee, and the committee held a hearing on it in February 2026; no markup or floor vote has happened and the Congress is still in session.",
+   "mechanism": "The bill was introduced and referred to the Senate Banking Committee, which held a hearing on it in February 2026, but the Senate has not taken it up for a vote.",
    "narrative": [
     {
-     "text": "Sen. Bill Hagerty introduced the Main Street Depositor Protection Act on October 9, 2025, joined by Sen. Angela Alsobrooks as cosponsor.",
+     "text": "Sen. Hagerty introduced the Main Street Depositor Protection Act on October 9, 2025, with Sen. Alsobrooks as an original cosponsor.",
      "sources": [
       "S1",
-      "S2",
       "S4"
      ]
     },
     {
-     "text": "The bill was read twice and referred to the Senate Committee on Banking, Housing, and Urban Affairs the day it was introduced.",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "The committee held a hearing on the bill on February 5, 2026 — the only committee action recorded since referral.",
+     "text": "The same day, the Senate read the bill twice and referred it to the Committee on Banking, Housing, and Urban Affairs.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The bill text would amend the Federal Deposit Insurance Act to insure up to $10 million per depositor in noninterest-bearing transaction accounts, exclude subsidiaries of global systemically important bank holding companies and foreign bank branches, and extend parallel coverage to credit unions.",
-     "sources": [
-      "S2"
-     ]
-    },
-    {
-     "text": "During a ten-year transition, the FDIC and NCUA would publish plans to phase the new coverage into their assessment bases, and banks with $10 billion or less in assets would be exempt from special assessments tied to the new coverage.",
-     "sources": [
-      "S2"
-     ]
-    },
-    {
-     "text": "No vote has been scheduled in the Senate or the House.",
+     "text": "On February 5, 2026, the Banking Committee held hearings on the bill; it has not been reported out of committee or voted on by the Senate.",
      "sources": [
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "No outcome yet: nothing has changed, so large transaction depositors remain insured only up to the standard limit and the insurance fund's exposure is unchanged. If the bill dies in committee, the status quo continues — which leaves payroll-account risk with businesses and leaves the assessment holiday that small banks would have received off the table."
+   "who_came_out_ahead": "So far no one has won or lost; the bill sits in committee. If it never advances, large banks and existing deposit arrangements keep the status quo, while businesses with big checking balances go without the extra protection."
   },
-  "who_came_out_ahead_short": "No one yet; bill awaits committee action",
+  "who_came_out_ahead_short": "No one yet — the bill sits in committee",
   "sides": {
    "for": [
     {
      "name": "Sen. Bill Hagerty",
-     "role": "Sponsor",
+     "role": "U.S. Senator (R-TN), bill sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill to extend FDIC insurance to $10 million for noninterest-bearing transaction accounts.",
+     "what_they_did": "Introduced the bill and pressed for a Senate Banking Committee hearing on it.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2",
-      "S4"
+      "S3"
      ]
     },
     {
      "name": "Sen. Angela Alsobrooks",
-     "role": "Cosponsor",
+     "role": "U.S. Senator (D-MD), original cosponsor",
      "party": "D",
-     "what_they_did": "Joined as the bill's cosponsor, giving it bipartisan sponsorship from introduction.",
+     "what_they_did": "Joined as the bill's original Democratic cosponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
+      "S1",
       "S3"
      ]
     },
     {
      "name": "Senate Committee on Banking, Housing, and Urban Affairs",
-     "role": "Committee of referral",
+     "role": "Senate committee of jurisdiction",
      "party": null,
-     "what_they_did": "Received the referral and held a hearing on the bill on February 5, 2026; has not scheduled a markup or vote.",
+     "what_they_did": "Held hearings on the bill on February 5, 2026, its only committee action to date.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -148,56 +122,56 @@
    ],
    "against": [],
    "party_line": "bipartisan",
-   "party_line_note": "The sponsorship is bipartisan — one Republican sponsor and one Democratic cosponsor — and no recorded opposition or vote has occurred yet."
+   "party_line_note": "The bill is sponsored by a Republican senator with a Democratic original cosponsor; no opposing votes or statements appear in the record."
   },
   "industries": [
    {
-    "industry": "Community and regional banks (non-GSIB)",
+    "industry": "Community banks and credit unions",
     "effect": "gains",
     "stance_toward_public": "mixed",
-    "note": "These banks could offer $10 million coverage on large business transaction accounts, attracting deposits that would otherwise sit with the biggest banks — and banks with $10 billion or less in assets pay no special assessments for the new coverage during the ten-year transition. The coverage does protect their small-business depositors, but the deferred premiums shift the cost of the added risk onto the insurance fund.",
+    "note": "They get a new tool to attract large business deposits and are explicitly shielded from any special assessments to pay for the expanded coverage during the transition period.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Global systemically important banks",
+    "industry": "Globally systemically important banks and foreign bank branches",
     "effect": "loses",
-    "stance_toward_public": "mixed",
-    "note": "Subsidiaries of the largest globally systemically important bank holding companies are barred from offering the new coverage, so large transaction depositors have an incentive to move operating funds to smaller banks. Their loss is a competitive one rather than a direct public cost.",
+    "stance_toward_public": "aligned",
+    "note": "The bill bars these large institutions and foreign bank branches from offering the new $10 million coverage, directing the benefit toward smaller lenders.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Credit unions",
+    "industry": "FDIC and NCUA insurance funds",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "The funds take on additional insurance exposure for large accounts, but the $10 million cap, aggregation rules, and ten-year phase-in limit that exposure.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Large business depositors (payroll, operating, and government accounts)",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Credit unions get parallel authority to insure up to $10 million in members' noninterest-bearing transaction accounts, with the NCUA board authorized to regulate to keep the share insurance fund well-capitalized.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "FDIC Deposit Insurance Fund (banking industry assessment base and its taxpayer backstop)",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "The fund takes on loss exposure on accounts up to $10 million without full premiums for ten years, and the fund is ultimately backstopped by taxpayers. That added tail risk is borne by the system rather than by the large depositors who benefit.",
+    "note": "Businesses, municipalities, and nonprofits holding large no-interest checking balances gain certainty that their funds are fully covered in a bank failure.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "With one hearing and a single bipartisan cosponsor, the realistic path is that the bill sits in committee unless the Banking Committee schedules a markup; standalone deposit-insurance bills rarely reach the floor on their own. The most plausible advance would be attachment to a broader banking or financial-regulation package, especially if regional-bank stability resurfaces as a live concern.",
+  "trajectory": "The bill has one hearing and a single cosponsor; most Senate banking bills at this stage never reach the floor unless the committee chairman advances them or they attach to a larger package. Its odds this Congress are low, though a bank-failure scare or community bank lobby support could revive it.",
   "categories": [
    "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 5,
-   "concentrated_stakes": 7,
-   "outcome_against_public": 1,
-   "support_mismatch": 2,
-   "corruption_relevance": 2,
+   "public_stakes": 4,
+   "concentrated_stakes": 6,
+   "outcome_against_public": 2,
+   "support_mismatch": 3,
+   "corruption_relevance": 1,
    "confidence": 0.85
   }
  },

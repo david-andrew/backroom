@@ -1,68 +1,75 @@
 {
  "bill_id": "119-s536",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:28:02+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T22:28:52+00:00",
  "record_fetched_at": "2026-09-20T07:58:36+00:00",
  "record_hash": "14f276f36fe62a27",
  "analysis": {
-  "one_liner": "Imposes a $1,000 tax on every electric vehicle sale, plus $550 on heavy battery modules, to fund highways.",
-  "headline": "The bill has sat in the Senate Finance Committee since February 2025 with no action beyond its referral.",
+  "one_liner": "Adds a $1,000 fee to electric vehicle sales to fund highways.",
+  "headline": "Introduced in February 2025 and referred to the Senate Finance Committee, the bill has received no further action from the committee.",
   "direction": "mixed",
-  "plain_summary": "The bill would add a new federal excise tax of $1,000 on the sale of every electric vehicle and $550 on any battery module weighing more than 1,000 pounds, starting with sales after December 31, 2025. Gas-electric hybrids would be exempt. All the money collected would go to the Highway Trust Fund, the pot of gas-tax money that pays for roads. The argument behind it is that electric vehicle owners don't buy gasoline, so they don't pay the gas taxes that fund the roads they drive on; the bill makes them pay into road funding at the point of purchase instead.",
-  "who_benefits": "The Highway Trust Fund and road programs gain a new revenue stream. Indirectly, oil and gas companies and makers of conventional hybrids gain, because a $1,000-plus penalty makes battery-powered cars more expensive relative to the alternatives.",
-  "who_benefits_short": "Road funding, oil companies, hybrid makers",
+  "plain_summary": "The bill creates a new federal excise tax: $1,000 on the sale of every electric vehicle and $550 on the sale of a large battery module meant for an electric vehicle. The money collected would be transferred to the Highway Trust Fund, the pot of gas-tax money that pays for roads and bridges. The stated idea is that electric vehicle owners use the roads but pay little or nothing in federal gasoline taxes, so they should contribute to road upkeep at purchase. Hybrid vehicles that also burn gasoline would be exempt, and the tax would apply to sales after the end of 2025.",
+  "who_benefits": "If it passed, the Highway Trust Fund and everyone who relies on federally funded roads would gain a new revenue stream, and owners of gasoline-powered vehicles would see electric vehicles become relatively more expensive compared to their cars. Oil and gas producers and traditional gasoline-vehicle makers would gain indirectly, because the tax raises the cost of the competing technology.",
+  "who_benefits_short": "Road users and gasoline-vehicle owners",
   "how_it_helps": [
    {
-    "text": "The bill routes every dollar of the new excise taxes to the Highway Trust Fund, which pays for surface transportation programs and is currently funded mainly by gasoline taxes that electric vehicle owners never pay.",
+    "text": "The bill imposes a $1,000 excise tax on each electric vehicle sold and a $550 excise tax on battery modules weighing over 1,000 pounds intended for electric vehicles, effective for sales after December 31, 2025.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "text": "The tax applies at sale: $1,000 per electric vehicle and an additional $550 for each battery module weighing over 1,000 pounds, so owners of large electric trucks with heavy batteries would pay the most.",
+    "text": "All money collected under the new taxes must be transferred to the Highway Trust Fund, which finances surface transportation programs, so the revenue is earmarked for roads rather than general spending.",
     "sources": [
+     "S2",
      "S3"
     ]
    },
    {
-    "text": "Hybrid vehicles are explicitly exempt, so drivers who still buy some gasoline keep paying the gas tax and would not owe the new charge.",
+    "text": "The tax targets a genuine gap in road funding: federal highway money comes chiefly from the gasoline tax, and battery-electric vehicles pay little or none of it, so the bill makes new EV buyers contribute at the point of sale.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Hybrids that combine a gasoline engine with a rechargeable battery are exempt, so the tax falls only on fully battery-powered vehicles.",
     "sources": [
      "S2",
      "S3"
     ]
    }
   ],
-  "who_pays": "Buyers of electric vehicles pay the tax, rolled into the sticker price. Electric vehicle manufacturers and battery makers bear reduced demand, with the heaviest hit being makers of large-battery trucks that would owe both the vehicle tax and the battery-module tax.",
-  "who_pays_short": "Electric vehicle buyers and manufacturers",
+  "who_pays": "Buyers of new electric vehicles, who would pay $1,000 more per vehicle at purchase (the tax is imposed on the manufacturer or importer but passed on in the vehicle's price), and buyers of large EV battery modules, who would pay $550. Electric vehicle and battery manufacturers would face reduced demand and a new tax liability on each sale.",
+  "who_pays_short": "New electric vehicle buyers and EV makers",
   "drawbacks": [
    {
-    "text": "A one-time $1,000 tax at purchase is far larger than what a typical driver owes in gas taxes in any single year, so the charge is much heavier than a true per-mile user fee would be, and it falls entirely on buyers of one technology.",
+    "text": "A flat $1,000 fee at purchase charges every EV buyer the same regardless of how many miles they drive, unlike a per-mile charge or a gasoline-tax-equivalent, so a low-mileage EV owner could pay far more than the gas taxes they avoided while a high-mileage one pays less than they should — a poorly matched substitute for the per-gallon tax it replaces.",
     "sources": [
-     "S3"
+     "S2"
     ]
    },
    {
-    "text": "Buyers of large electric pickups and SUVs can be taxed twice under the bill, once on the vehicle and again on each battery module over 1,000 pounds, while big fuel-burning trucks that wear the roads the most pay no new charge.",
+    "text": "The tax raises the price of electric vehicles, the cleaner alternative to gasoline cars, and would likely slow EV adoption, working against emissions and air-quality goals.",
     "sources": [
-     "S3"
+     "S2"
     ]
    },
    {
-    "text": "By raising the price of electric vehicles, the bill slows the shift away from gasoline, which works against air-quality and fuel-cost savings that come with electrification.",
+    "text": "A one-time purchase fee does not fix the Highway Trust Fund's underlying problem, which is that gas-tax revenue erodes as vehicles become more efficient and as electrification spreads; the fund would still face a shortfall, making this a partial and one-shot patch.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "There is a legitimate fairness question here: electric vehicle drivers use public roads without contributing the gas taxes that maintain them. But this bill answers it with the bluntest possible tool, a large one-time sales tax that overshoots what any individual driver would owe in fuel taxes and doubles down on the heaviest electric vehicles. A per-mile charge or a fuel-equivalent rate would match costs to use far more closely. The net effect for most ordinary buyers is a $1,000-plus price increase on the cars, with road funding as the offsetting benefit.",
+  "benefit_vs_cost": "The fairness argument behind the bill is real: electric vehicle owners use the roads but pay almost none of the federal gasoline tax that funds them. But the bill's fix is blunt. A flat $1,000 hit at purchase bears no relationship to how much road a buyer actually uses, it falls on the cleaner vehicle technology at the moment federal policy has been encouraging people to buy it, and it does little for the Highway Trust Fund's long-term revenue problem. A per-mile fee or an electricity-based equivalent would match road use far better.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced and sent to the Senate Finance Committee in February 2025 and has had no hearings, markup, or vote since.",
+   "mechanism": "The bill was introduced and sent to the Senate Finance Committee, which has taken no action on it since.",
    "narrative": [
     {
-     "text": "Senator Deb Fischer introduced the Fair SHARE Act of 2025 in the Senate on February 12, 2025, joined by Senators Pete Ricketts and Cynthia Lummis.",
+     "text": "Senator Deb Fischer introduced the Fair SHARE Act of 2025 on February 12, 2025, joined by Senators Pete Ricketts and Cynthia Lummis.",
      "sources": [
       "S1",
       "S3",
@@ -70,124 +77,115 @@
      ]
     },
     {
-     "text": "The bill was read twice and referred to the Committee on Finance the same day, and the public action record shows no further steps since that referral.",
+     "text": "The bill was read twice and referred to the Senate Committee on Finance the same day, and no further action — no hearing, markup, or vote — appears in the record since then.",
      "sources": [
       "S5"
      ]
     },
     {
-     "text": "The Congressional Research Service summary describes the bill as imposing a $1,000 excise tax on electric vehicle sales and a $550 tax on battery modules over 1,000 pounds, with collections transferred to the Highway Trust Fund.",
+     "text": "The bill's cosponsor list shows two cosponsors, both Senate Republicans, in a chamber with 55 Republicans and 47 Democrats or independents.",
      "sources": [
-      "S2"
+      "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "Nobody yet, because nothing has happened; if the bill stays buried, electric vehicle buyers and makers are better off, while the oil and gas industry keeps the status quo advantage over plug-in cars."
+   "who_came_out_ahead": "Nothing has changed yet: electric vehicle buyers pay no new fee and the Highway Trust Fund gets no new revenue. The status quo, under which EV buyers contribute little to road funding but also pay no new tax, is preserved for now."
   },
-  "who_came_out_ahead_short": "Nobody yet; EV buyers avoid the tax for now",
+  "who_came_out_ahead_short": "EV buyers pay nothing yet; status quo holds",
   "sides": {
    "for": [
     {
      "name": "Sen. Deb Fischer",
-     "role": "U.S. Senator from Nebraska",
+     "role": "U.S. Senator from Nebraska; bill sponsor",
      "party": "R",
-     "what_they_did": "Introduced the bill and referred it to the Senate Finance Committee.",
+     "what_they_did": "Introduced the bill in the Senate on February 12, 2025.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S3"
+      "S5"
      ]
     },
     {
      "name": "Sen. Pete Ricketts",
-     "role": "U.S. Senator from Nebraska",
+     "role": "U.S. Senator from Nebraska; cosponsor",
      "party": "R",
      "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
       "S4"
      ]
     },
     {
      "name": "Sen. Cynthia Lummis",
-     "role": "U.S. Senator from Wyoming",
+     "role": "U.S. Senator from Wyoming; cosponsor",
      "party": "R",
      "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S3",
       "S4"
      ]
     }
    ],
-   "against": [],
+   "against": [
+    {
+     "name": "Senate Finance Committee leadership",
+     "role": "Chair of the committee the bill was referred to",
+     "party": "R",
+     "what_they_did": "Has not scheduled a hearing, markup, or vote on the bill since it was referred on February 12, 2025.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S5"
+     ]
+    }
+   ],
    "party_line": "party_line",
-   "party_line_note": "All three sponsors and cosponsors are Republicans; no Democrat has signed on and no opponent appears in the record because the bill has never moved."
+   "party_line_note": "Every sponsor and both cosponsors are Senate Republicans (2 of 55 Republican senators signed on); no Democrat has joined, and no vote has occurred to test broader support."
   },
   "industries": [
    {
-    "industry": "Electric vehicle manufacturers",
+    "industry": "Electric vehicle and battery manufacturers",
     "effect": "loses",
     "stance_toward_public": "aligned",
-    "note": "A $1,000 charge on every sale, plus $550 on heavy battery modules, would raise prices and cut demand for their cars. Their interest in blocking the bill lines up with buyers who would pay the tax.",
+    "note": "The bill taxes each EV sale $1,000 and large battery modules $550, raising the price of their products and likely cutting sales. Their loss is shared by the ordinary buyers who pay the tax, so their interests run together here.",
     "sources": [
      "S2",
      "S3"
     ]
    },
    {
-    "industry": "Oil and gas",
+    "industry": "Oil and gas producers",
     "effect": "gains",
     "stance_toward_public": "opposed",
-    "note": "By making gasoline-free cars more expensive, the tax slows the shift away from gasoline, protecting demand for the fuel. The industry's gain comes at the price electric vehicle buyers pay.",
+    "note": "By making electric vehicles $1,000 more expensive, the bill keeps gasoline-powered vehicles relatively cheaper, protecting gasoline demand. The industry's relative gain comes out of EV buyers' pockets.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Hybrid and conventional vehicle makers",
-    "effect": "gains",
-    "stance_toward_public": "opposed",
-    "note": "Hybrids are explicitly exempt from the tax, giving plug-in hybrids and gas cars a $1,000 price advantage over battery-electric models at the showroom.",
-    "sources": [
-     "S2",
-     "S3"
-    ]
-   },
-   {
-    "industry": "Highway construction and road programs",
+    "industry": "Highway and road construction contractors",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "The Highway Trust Fund, which is chronically short of revenue, would receive a dedicated new stream from the tax. Better-funded road repair is a genuine public benefit, though paid for by a narrow group of buyers.",
+    "note": "New tax revenue must flow into the Highway Trust Fund, which finances road and bridge work, creating a modest additional stream of funded projects.",
     "sources": [
      "S2",
-     "S3"
-    ]
-   },
-   {
-    "industry": "Battery manufacturers",
-    "effect": "loses",
-    "stance_toward_public": "aligned",
-    "note": "The $550 charge on battery modules over 1,000 pounds falls on the makers and importers of the large battery packs used in electric trucks and long-range cars, pushing their costs into vehicle prices.",
-    "sources": [
      "S3"
     ]
    }
   ],
-  "trajectory": "The bill has had no movement in the Senate Finance Committee since its February 2025 referral, has only three Republican backers, and no Democratic cosponsor. Tax bills of this kind rarely reach the floor without committee action and broader support, so the realistic path is that it stalls in committee for the rest of this Congress.",
+  "trajectory": "With only two cosponsors, no Democratic support, and no committee action more than a year after introduction, the bill looks unlikely to advance. Bills that sit in the Finance Committee without a markup at this stage of a Congress rarely reach the floor; the most realistic path to any action would be if a highway funding or tax package picked up the idea, which has not happened.",
   "categories": [
    "environment_and_energy",
    "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 5,
+   "public_stakes": 4,
    "concentrated_stakes": 6,
-   "outcome_against_public": 3,
-   "support_mismatch": 1,
+   "outcome_against_public": 1,
+   "support_mismatch": 2,
    "corruption_relevance": 1,
    "confidence": 0.9
   }

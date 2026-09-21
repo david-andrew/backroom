@@ -1,91 +1,96 @@
 {
  "bill_id": "119-s2620",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:47:47+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:41:21+00:00",
  "record_fetched_at": "2026-09-20T14:32:37+00:00",
  "record_hash": "57ee99cedc094c8d",
  "analysis": {
-  "one_liner": "Limits brand-name drug makers to a single patent that can delay generic drug approval.",
-  "headline": "The bill, introduced by Sen. Durbin with one Republican cosponsor, has sat in the Senate health committee since July 2025 with no further action.",
+  "one_liner": "Limits brand drug companies to one patent-based delay of a generic competitor's approval.",
+  "headline": "The bill has gone no further than introduction: it was referred to the Senate health committee on July 31, 2025, and no hearing or vote has been scheduled.",
   "direction": "for_working_people",
-  "plain_summary": "When a company wants to sell a cheaper copy of a brand-name drug, the brand company can sue over patent claims and automatically freeze the FDA's approval of the generic for 30 months. Today that freeze can be triggered repeatedly, once per patent, and brands often list many patents. This bill would let a brand company pick only one patent that can ever trigger the freeze, making it harder to stretch out a drug's monopoly years past what its patents legitimately cover — a practice known as 'evergreening.'",
-  "who_benefits": "People who take prescription drugs, especially those paying full price before their insurance deductible, would get cheaper generic versions sooner. Generic drug makers also gain a clearer path to market.",
-  "who_benefits_short": "Patients waiting for cheaper generics",
+  "plain_summary": "When a generic drug company tries to bring a cheaper copy of a brand-name drug to market, the brand can sue over its patents — and each patent suit can freeze the FDA's approval of the generic for up to 30 months while the case is decided. Filing suits on patent after patent can stretch that freeze out for years. This bill would let a brand-name drug maker pick only one patent that can trigger that 30-month delay, and the choice would be locked in. That would make it harder to stall cheap generic drugs through repeated patent litigation.",
+  "who_benefits": "Patients who need brand-name drugs would benefit if the bill passes: generics reaching the market sooner generally means lower prices at the pharmacy. Generic drug makers also gain, since their approvals would be frozen less often and less predictably by brand patent suits.",
+  "who_benefits_short": "Patients who need prescription drugs",
   "how_it_helps": [
    {
-    "text": "Under current law, a brand-name drug maker's patent lawsuit against a generic applicant triggers an automatic 30-month FDA approval stay, and because the stay can attach to any of the many patents listed for a drug, brands can stack or sequence delays that keep a cheaper copy off the market for years [S2].",
+    "text": "It caps the automatic 30-month FDA approval delay for generics at litigation over a single patent chosen by the brand, instead of a stay for every patent asserted.",
     "sources": [
-     "S2"
+     "S2",
+     "S3"
     ]
    },
    {
-    "text": "The bill requires the brand company, at the time it lists patents with the FDA, to select a single 'covered patent,' and the selection cannot be changed, so only lawsuits over that one patent can trigger the 30-month stay for drugs approved after enactment [S3].",
+    "text": "The chosen patent cannot be changed or amended later, closing a route brand firms could use to add new stays as a generic nears approval.",
+    "sources": [
+     "S2"
+    ]
+   }
+  ],
+  "who_pays": "Brand-name pharmaceutical companies would bear the cost, losing a legal tool that extends the period they can sell a drug without generic competition and keep prices high.",
+  "who_pays_short": "Brand-name drug manufacturers",
+  "drawbacks": [
+   {
+    "text": "The 30-month stay exists to give patent holders a window to enforce legitimate patents; restricting it to one patent could let generic firms challenge weakly protected patents in parallel and reach market before a brand's secondary patents are fully litigated.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "The bill only applies to drugs approved after enactment, so patients on existing brand drugs see no change until new approvals accumulate under the rule.",
     "sources": [
      "S3"
     ]
    }
   ],
-  "who_pays": "Brand-name drug companies, which would lose a tool for extending monopoly pricing past their core patents. Any reduction in extended monopoly revenue is the cost of the bill.",
-  "who_pays_short": "Brand-name pharmaceutical companies",
-  "drawbacks": [
-   {
-    "text": "The bill addresses only the 30-month stay mechanism; other delay tactics, such as citizen petitions and patent settlements that keep generics out, are untouched, so it is a partial fix [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "A brand company holding several genuinely distinct patents loses the ability to enforce all of them through the stay process, which pharma companies could argue weakens protection for drugs with multiple legitimate inventions — the trade-off behind faster generics.",
-    "sources": []
-   }
-  ],
-  "benefit_vs_cost": "The benefit is concrete: faster access to lower-cost generics for a drug class where delay tactics are well documented. The cost falls on brand-name manufacturers' extended monopoly revenue, which is precisely what the bill targets. The main limitation is that it narrows one delay pathway rather than all of them, so its real-world speed-up depends on brands not finding workarounds.",
+  "benefit_vs_cost": "The benefit — earlier generic competition on drugs where brand firms stack patent suits — could be large for patients paying brand-name prices. The cost is a genuine trade-off: brand firms would keep full patent rights but lose the leverage of multiple sequential 30-month stays, which some argue protects legitimate patent enforcement. The design is narrow and targeted rather than sweeping, which limits both its benefit and its risk.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced in July 2025 and referred to the Senate health committee, where it has sat with no hearings, no vote, and no floor action since.",
+   "mechanism": "It was introduced and referred to the Senate HELP Committee, where it sat with no hearing, markup, or vote.",
    "narrative": [
     {
-     "text": "Sen. Durbin introduced the REMEDY Act on July 31, 2025, joined by Sen. Cassidy as the bill's sole cosponsor, making it a two-senator bipartisan effort [S1].",
-     "sources": [
-      "S1"
-     ]
-    },
-    {
-     "text": "The same day, the Senate read the bill twice and referred it to the Committee on Health, Education, Labor, and Pensions; the action history shows no further steps [S5].",
-     "sources": [
-      "S5"
-     ]
-    },
-    {
-     "text": "The bill applies its one-patent rule only to drugs approved after enactment, leaving the existing process in place for drugs already on the market [S3].",
-     "sources": [
-      "S3"
-     ]
-    }
-   ],
-   "who_came_out_ahead": "Brand-name drug makers are better off so far: with the bill stalled in committee, the current system allowing a 30-month FDA approval delay per patent remains intact."
-  },
-  "who_came_out_ahead_short": "Brand-name drug makers, for now",
-  "sides": {
-   "for": [
-    {
-     "name": "Sen. Richard Durbin",
-     "role": "Sponsor, U.S. Senate",
-     "party": "D",
-     "what_they_did": "Introduced the bill and referred it to the HELP Committee.",
-     "direct": true,
-     "evidence": "record",
+     "text": "The bill was introduced on July 31, 2025 and read twice before being referred to the Senate Health, Education, Labor, and Pensions Committee.",
      "sources": [
       "S1",
       "S5"
      ]
     },
     {
+     "text": "No further action has been taken: no hearing, no markup, no floor vote, and no companion action in the House appears in the record.",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "It carries a single Republican cosponsor, Sen. Cassidy, alongside Democratic sponsor Sen. Durbin.",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "Brand-name drug makers are better off so far: as long as the bill sits in committee, they keep the ability to delay generic competition with multiple patent suits. Patients paying brand prices gain nothing until it moves."
+  },
+  "who_came_out_ahead_short": "Brand-name drug makers, so far",
+  "sides": {
+   "for": [
+    {
+     "name": "Sen. Richard Durbin",
+     "role": "U.S. Senator (D-IL), bill sponsor",
+     "party": "D",
+     "what_they_did": "Introduced the bill and brought it to the Senate.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S3"
+     ]
+    },
+    {
      "name": "Sen. Bill Cassidy",
-     "role": "Cosponsor, U.S. Senate",
+     "role": "U.S. Senator (R-LA), cosponsor and ranking member of the Senate health committee",
      "party": "R",
-     "what_they_did": "Cosponsored the bill as its only additional Senate supporter.",
+     "what_they_did": "Cosponsored the bill, giving it bipartisan sponsorship in the committee that would consider it.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -96,14 +101,14 @@
    ],
    "against": [],
    "party_line": "bipartisan",
-   "party_line_note": "The bill has one Democrat (sponsor Durbin) and one Republican (cosponsor Cassidy); no one has opposed it on the record, and no vote has occurred."
+   "party_line_note": "The bill has one Democratic sponsor and one Republican cosponsor — both also in the relevant committee — but no floor vote has occurred to test broader partisan support."
   },
   "industries": [
    {
-    "industry": "Brand-name pharmaceutical manufacturers",
+    "industry": "Brand-name drug makers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill limits them to one patent that can trigger the automatic 30-month FDA approval freeze, shrinking a key tool for extending monopoly pricing on drugs past their primary patents. Their gain comes from charging patients and insurers higher prices for longer.",
+    "note": "They would lose the ability to trigger a 30-month FDA approval delay for each of a drug's many patents, which has been used to keep generics off the market for years at a time.",
     "sources": [
      "S2",
      "S3"
@@ -113,24 +118,32 @@
     "industry": "Generic drug manufacturers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "With fewer patent-lawsuit delay freezes, generic companies can get FDA approval and reach the market sooner. Their interest in earlier entry runs alongside patients' interest in lower prices.",
+    "note": "Faster, more predictable generic approvals would reduce the litigation risk of bringing low-cost copies to market.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Pharmacy benefit managers and insurers",
+    "effect": "entrenched",
+    "stance_toward_public": "mixed",
+    "note": "Unaffected directly, but they benefit from cheaper generics through lower drug costs; no provision touches their role.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "With only two senators behind it, no committee action since referral, and no hearing scheduled, the bill is likely to die quietly in the HELP Committee this Congress, as do most bills at this stage.",
+  "trajectory": "The bill sits in the HELP Committee with no scheduled hearing or markup. Bipartisan patent bills in this area have historically struggled against pharmaceutical industry resistance, and with only two sponsors so far, the most likely path is that it remains dormant in committee for the rest of the Congress unless the committee leadership chooses to take it up.",
   "categories": [
-   "healthcare_and_drug_prices",
-   "consumer_protection_and_finance"
+   "healthcare_and_drug_prices"
   ],
   "scores": {
-   "public_stakes": 6,
-   "concentrated_stakes": 7,
-   "outcome_against_public": 2,
-   "support_mismatch": 2,
-   "corruption_relevance": 1,
-   "confidence": 0.9
+   "public_stakes": 7,
+   "concentrated_stakes": 8,
+   "outcome_against_public": 4,
+   "support_mismatch": 4,
+   "corruption_relevance": 2,
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

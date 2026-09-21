@@ -1,112 +1,118 @@
 {
  "bill_id": "119-s3387",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:20:23+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:50:01+00:00",
  "record_fetched_at": "2026-09-20T08:15:59+00:00",
  "record_hash": "0bca7d2df0f4744b",
  "analysis": {
-  "one_liner": "Bans companies from using personal data and surveillance to charge different people different prices for the same product.",
-  "headline": "The bill was introduced and referred to the Senate Commerce Committee, where it has not received a hearing or a vote.",
+  "one_liner": "Bans companies from using surveillance data to charge different shoppers different prices for the same thing.",
+  "headline": "The One Fair Price Act was introduced in the Senate on December 8, 2025 and referred to the Commerce Committee, with 4 of 45 Senate Democrats cosponsoring; no further action has been taken [S4].",
   "direction": "for_working_people",
-  "plain_summary": "The bill would make it unlawful for a company to use \"surveillance data\"—information about a person's behavior, biometrics, or personal characteristics, including data the company bought—to charge that person a different price for the same product than it charges others. It allows legitimate discounts (senior, veteran, student, loyalty programs) and price differences based on real, disclosed costs, but forbids hidden profiling-based pricing. The FTC and state attorneys general could enforce it, and individuals could sue for at least $3,000 per violation, with pre-dispute arbitration clauses voided for these claims. Airlines and ticket agents are expressly covered, and the bill says federal aviation law does not shield them.",
-  "who_benefits": "Consumers, especially lower-income shoppers who are most likely to be identified as willing to pay more, would get predictable prices and a legal remedy—$3,000 per violation or actual damages, whichever is greater, with attorney's fees available—when companies use data like browsing history, location, or income signals to set individual prices. Honest sellers who charge everyone the same also gain a more level playing field.",
-  "who_benefits_short": "Everyday consumers, especially price-sensitive shoppers",
+  "plain_summary": "Companies increasingly use personal data—browsing history, location, device type—to decide what price to show each shopper, a practice often called surveillance pricing. This bill would make it illegal to charge different people different prices for the same or substantially similar product based on that data. It keeps normal discounts (senior, military, teacher, loyalty programs) legal, and it lets the Federal Trade Commission, state attorneys general, and individual consumers enforce the rule, with penalties starting at $3,000 per violation.",
+  "who_benefits": "Everyday consumers who shop online or use apps, especially people whose data suggests they can be charged more—frequent buyers, loyal customers, people in pricier neighborhoods, or anyone whose device type or browsing history marks them as less price-sensitive. The bill also gives individuals a new way to sue, even voiding pre-dispute arbitration agreements and class-action waivers for these claims.",
+  "who_benefits_short": "Online shoppers and app users",
   "how_it_helps": [
    {
-    "text": "It makes it unlawful to charge different prices to different consumers for the same product when the difference is informed by surveillance data about the individual.",
+    "text": "Prohibits offering or charging different prices to different consumers for the same or a substantially similar product when informed by surveillance data—personal information, behavior, or biometrics [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It lets consumers sue violators directly for at least $3,000 per violation (trebled for willful conduct), and it makes pre-dispute arbitration agreements and class-action waivers unenforceable for those claims, so consumers cannot be forced into private arbitration.",
+    "text": "Preserves ordinary discounts—teachers, military, veterans, seniors, students, and knowingly enrolled loyalty programs—as long as eligibility rules are clearly disclosed and loyalty data isn't reused for profiling or individualized pricing [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It gives state attorneys general enforcement power and requires that cost-based price differences and eligibility for discounts be clearly disclosed to shoppers before purchase.",
+    "text": "Gives consumers a private right of action with a minimum $3,000 recovery per violation, triple damages for willful violations, attorney's fees, and a rule making pre-dispute arbitration agreements and class-action waivers unenforceable for these claims [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It extends the ban to airlines and ticket agents and clarifies that federal aviation law does not preempt consumer claims over surveillance-based pricing.",
+    "text": "Adds air carriers, foreign air carriers, and ticket agents explicitly, and clarifies that federal aviation law does not preempt these claims or block state attorneys general [S2].",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Lets the FTC enforce against not just ordinary companies but also common carriers, nonprofits, and airlines, which normal FTC jurisdiction does not reach [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Online retailers, airlines, hotels, and any business that uses personal data to tailor prices would lose that practice and face FTC, state, and private lawsuits. Companies selling pricing-optimization and behavioral-data tools would lose a market, since firms whose main business is determining prices are excluded from small-business protections.",
-  "who_pays_short": "Data-driven retailers and pricing software firms",
+  "who_pays": "Retailers, e-commerce platforms, airlines, ticket sellers, and any business that uses customer data to individualize prices would have to abandon that practice and could face lawsuits with $3,000-per-violation minimums and easy-to-meet burden-shifting rules. Data brokers and ad-tech firms lose a market for selling data used to set prices. Insurance and credit products are exempt [S2].",
+  "who_pays_short": "Data-driven retailers, airlines, ticket sellers",
   "drawbacks": [
    {
-    "text": "The bill would force sellers to move away from individualized pricing toward uniform or disclosed pricing, which the bill's own required small-business study (Sec. 2(e)) implicitly acknowledges could impose compliance costs and constrain pricing practices small firms use.",
+    "text": "Cost-based price differences are only allowed if disclosed to the consumer before purchase, which would force companies to explain logistics-related pricing variations—and arguably ban some legitimate price variation that benefits shoppers [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The private right of action presumes a violation whenever two consumers see different prices for the same product, putting the burden on the business to prove the difference was not surveillance-based (Sec. 2(d)(3)); critics would argue this presumption invites litigation over ordinary price differences like coupons, timing, and channel.",
+    "text": "The presumption that a seller is violating the law whenever two shoppers see different prices for the same product puts the burden on businesses to prove innocence, and small businesses without compliance departments could face real exposure, which is why the bill requires a Regulatory Flexibility Act review and an SBA small-business impact study [S2].",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Insurance and credit products are entirely excluded from the ban (Sec. 2(a)(3)), leaving untouched two areas where data-driven pricing can raise costs most—car, home, and health insurance rates and loan pricing.",
+    "text": "Defining what counts as the same or a substantially similar product, and tracing whether a price was partly informed by data, could generate years of litigation over ambiguous cases [S2].",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The bill targets a real and growing practice—using browsing history, location, and other data to charge individuals different prices—and its private right of action with an unreachable-arbitration clause and attorney's fees gives consumers tools most privacy laws lack. The honest objections: it could force sellers toward a single posted price and away from legitimate individualized discounts, and the broad prima facie presumption shifts a heavy burden onto businesses, which the bill's own SBA study provision acknowledges could burden small firms. But the safe harbors for costs and disclosed discounts blunt the biggest compliance concerns, and the consumer-side gains (predictable prices, no hidden profiling) are substantial.",
+  "benefit_vs_cost": "The core protection—no charging individuals more because of what your data says about them—addresses a practice most shoppers find unfair and that is hard to detect without a law like this. The main cost is compliance and litigation risk, especially for small sellers, and the presumption-of-violation structure is aggressive. The bill excludes insurance and credit, so the sectors where risk-based pricing is most entrenched are untouched. On balance it is a meaningful consumer protection with a blunt enforcement design.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced in the Senate and sent to the Commerce Committee, which has taken no action on it, so nothing has happened yet.",
+   "mechanism": "It was introduced and referred to the Senate Commerce Committee on the same day in December 2025, and has not moved since.",
    "narrative": [
     {
-     "text": "Sen. Ruben Gallego introduced the One Fair Price Act of 2025 on December 8, 2025.",
+     "text": "Sen. Ruben Gallego introduced S. 3387, the One Fair Price Act of 2025, on December 8, 2025 [S1].",
      "sources": [
       "S1",
       "S4"
      ]
     },
     {
-     "text": "The Senate read it twice and referred it to the Committee on Commerce, Science, and Transportation the same day; no further action appears in the record.",
+     "text": "The bill was read twice and referred to the Committee on Commerce, Science, and Transportation; that referral is the only action on record [S2,S4].",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "It has four cosponsors, all Democrats.",
+     "text": "Four of 45 Senate Democrats cosponsored the bill; no Republicans have [S3].",
      "sources": [
       "S3"
      ]
     }
    ],
-   "who_came_out_ahead": "Because nothing has happened, no one has gained or lost yet; the outcome currently favors companies that use personal data for individualized pricing, since the bill has not advanced."
+   "who_came_out_ahead": "No outcome yet—companies using surveillance pricing continue under current law while the bill sits in committee."
   },
-  "who_came_out_ahead_short": "No one yet; bill is stalled",
+  "who_came_out_ahead_short": "Undecided; bill sits in committee",
   "sides": {
    "for": [
     {
      "name": "Sen. Ruben Gallego",
-     "role": "U.S. Senator (AZ), sponsor",
+     "role": "U.S. Senator from Arizona; bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill, which was read twice and referred to the Senate Commerce Committee.",
+     "what_they_did": "Introduced the One Fair Price Act and referred it to the Senate Commerce Committee.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2"
+      "S4"
      ]
     },
     {
-     "name": "Four Democratic senators (cosponsors)",
-     "role": "Cosponsors",
+     "name": "4 of 45 Senate Democrats",
+     "role": "Original cosponsors",
      "party": "D",
-     "what_they_did": "Signed on as original cosponsors after introduction.",
+     "what_they_did": "Cosponsored the bill.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -115,59 +121,58 @@
     }
    ],
    "against": [],
-   "party_line": "party_line",
-   "party_line_note": "The sponsor and all four cosponsors are Democrats, and the bill has not yet attracted Republican support."
+   "party_line": "unclear",
+   "party_line_note": "Only Democrats have sponsored or cosponsored so far; no Republican has signed on and no vote has occurred, so the partisan shape of a floor fight is unknown."
   },
   "industries": [
    {
-    "industry": "Online retailers, airlines, hotels, and other e-commerce sellers using dynamic/personalized pricing",
+    "industry": "Data brokers and ad-tech firms",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "They would have to abandon individualized pricing based on surveillance data and disclose the basis for any cost-based price differences. Airlines are explicitly covered by a new prohibition added to aviation law.",
+    "note": "The bill bans using purchased surveillance data to set individualized prices, removing a market for behavioral data tied to pricing. Their business depends on charging through data consumers never knowingly sold.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Data brokers and adtech firms selling behavioral data for pricing",
-    "effect": "loses",
+    "industry": "E-commerce retailers and online platforms",
+    "effect": "mixed",
     "stance_toward_public": "opposed",
-    "note": "The bill defines surveillance data to include data 'gathered, purchased, or otherwise acquired,' cutting off demand for behavioral data used to set individual prices.",
+    "note": "They would have to stop testing different prices on different shoppers, ending a tool for extracting the maximum each customer will pay; consumers keep more of their surplus. Loyalty discounts remain legal if disclosed.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Pricing-optimization software vendors",
+    "industry": "Airlines and ticket sellers",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Firms that build individualized pricing tools face a much smaller legal market, and small businesses in that line of work are expressly carved out of small-business protections.",
+    "note": "Section 3 expressly applies the ban to air carriers, foreign air carriers, and ticket agents and ensures these claims are not preempted, closing a gap left when the Senate stalled an FAA-related provision on surveillance pricing. Ticket prices informed by passenger data would be off-limits.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Arbitration industry and firms relying on arbitration clauses",
-    "effect": "loses",
-    "stance_toward_public": "aligned",
-    "note": "Pre-dispute arbitration agreements and class-action waivers are unenforceable for claims under the bill, opening these disputes to court and class action.",
+    "industry": "Insurance and consumer credit",
+    "effect": "entrenched",
+    "stance_toward_public": "opposed",
+    "note": "The bill expressly exempts the business of insurance and credit products, leaving risk-based pricing built on personal data untouched in the sectors where it is most pervasive.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "The bill sits in the Senate Commerce Committee with four cosponsors and no hearing or markup scheduled. Most consumer-protection bills introduced late in a session die quietly in committee; its chances would depend on the committee scheduling a hearing and on broader momentum around data-privacy or pricing legislation.",
+  "trajectory": "Roughly 90% of Senate bills die in committee, and this one has just one committee referral, four cosponsors, and no Republican support in a 55-55 Republican-controlled Senate; it is unlikely to get floor time in this Congress unless it attaches to a larger moving vehicle.",
   "categories": [
-   "consumer_protection_and_finance",
-   "corruption_and_ethics"
+   "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 7,
-   "concentrated_stakes": 8,
-   "outcome_against_public": 6,
+   "public_stakes": 6,
+   "concentrated_stakes": 6,
+   "outcome_against_public": 3,
    "support_mismatch": 3,
    "corruption_relevance": 2,
-   "confidence": 0.85
+   "confidence": 0.92
   }
  },
  "unresolved_citations": []

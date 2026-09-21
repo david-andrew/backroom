@@ -1,185 +1,197 @@
 {
  "bill_id": "119-s3754",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:52:23+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T22:02:04+00:00",
  "record_fetched_at": "2026-09-20T14:33:33+00:00",
  "record_hash": "8f1de20d6dbb89a4",
  "analysis": {
-  "one_liner": "Imposes a tax of 1% to 5% on the price of single-family homes bought by investors who own many homes, and sends the money to affordable-housing funds.",
-  "headline": "Ten Democratic senators introduced the bill in January 2026, but the Senate Finance Committee has taken no action on it since it was referred there the day it was introduced.",
+  "one_liner": "Imposes a new federal tax on big investors buying single-family homes.",
+  "headline": "The bill, introduced with 9 Democratic cosponsors, has sat in the Senate Finance Committee since its January 2026 referral with no hearing, no vote, and no floor action.",
   "direction": "for_working_people",
-  "plain_summary": "The bill creates a new federal tax on companies and individuals that buy single-family homes while already owning large numbers of them: 1% of the purchase price for investors owning 16 to 25 homes, 3% for those owning 26 to 100, and 5% for those owning more than 100. Small owners, ordinary families buying their own homes, nonprofits, states, public housing authorities, land banks, and community land trusts are exempt, and homes newly built by the buyer don't count. The money raised goes 65% to the federal Housing Trust Fund and 35% to the Capital Magnet Fund, which finance affordable housing.",
-  "who_benefits": "Ordinary families trying to buy their first home, who would face less competition from large investors bidding up prices on existing houses. Renters and low-income households would benefit from the added funding for affordable housing construction through the Housing Trust Fund and Capital Magnet Fund. Residents of small states would gain from a new funding formula that replaces a flat minimum with a proportional share.",
-  "who_benefits_short": "First-time homebuyers and renters",
+  "plain_summary": "This bill puts a tax on corporations and other large investors each time they buy an existing single-family home: 1% for investors owning 16 to 25 homes, 3% for those owning 26 to 100, and 5% for those owning more than 100. It does not touch people buying their own home, or nonprofits and governments building affordable housing. The money raised — 65% — would go to the federal Housing Trust Fund and 35% to the Capital Magnet Fund, which finance affordable housing. The bill has been referred to the Senate Finance Committee and has seen no further action.",
+  "who_benefits": "First-time and ordinary homebuyers who compete against deep-pocketed investors at the closing table, and renters in markets where corporate landlords have bought up housing stock. The tax raises the cost to large investors of outbidding families for existing homes, and its revenue funds affordable housing construction.",
+  "who_benefits_short": "Homebuyers outbid by corporate investors",
   "how_it_helps": [
    {
-    "text": "The tax applies only to investors who already own more than 15 single-family homes, with rates rising from 1% to 5% as their holdings grow, aiming to make it more expensive for large investors to outbid families for existing houses.",
+    "text": "The tax applies only to investors — 1% of purchase price for investors owning 16-25 homes, 3% for 26-100, and 5% for more than 100 — and never to individuals buying a principal residence.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Sixty-five percent of the revenue goes to the Housing Trust Fund and 35% to the Capital Magnet Fund, both of which finance affordable housing construction and preservation.",
+    "text": "The bill aggregates related companies as a single investor, so splitting a portfolio across LLCs does not dodge the tax, and it taxes purchases made through related parties.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill counts homes owned indirectly through related companies and family members, making it harder for large investors to stay under the ownership thresholds by splitting up their portfolios.",
+    "text": "65% of the revenue goes to the Housing Trust Fund and 35% to the Capital Magnet Fund, which finance affordable housing, with an exception for nonprofits, states, public housing authorities, land banks, and community land trusts.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "It replaces a flat $3 million small-state minimum in the Housing Trust Fund with a proportional share, which directs more money to smaller states.",
+    "text": "New construction is excluded from the tax, steering investors toward adding housing supply rather than buying up existing homes.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Large single-family landlords and investment firms that buy existing homes, who would pay a 1% to 5% tax on each purchase. Some of the cost could be passed through in the form of lower prices offered to sellers or higher rents if investors shrink the rental supply.",
-  "who_pays_short": "Large corporate single-family landlords",
+  "who_pays": "Corporate and large-scale investors who buy existing single-family homes, including REITs, private equity firms, and single-family rental companies. To the extent the tax discourages their purchases, they also lose acquisitions; some of the tax could be passed to renters through higher rents if investors still buy.",
+  "who_pays_short": "Corporate landlords and big home investors",
   "drawbacks": [
    {
-    "text": "The tax may not be enough to change behavior: a 1% tax on investors owning 16 to 25 homes is modest, and large investors could absorb a 5% cost or shift toward build-to-rent new construction, which the bill exempts from the tax.",
+    "text": "The tax also reaches mid-sized investors owning just 16 homes, which could include smaller local landlords, and if investors keep buying, the cost may be passed through to renters in higher rents.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "If taxed investors buy fewer homes but also build or keep fewer rentals, some renters could face higher rents or fewer available rental houses in markets where large landlords supply most single-family rentals.",
+    "text": "In markets where large investors supply rental housing, discouraging their purchases does not add homes to the for-sale market on its own — the revenue-to-Housing-Trust-Fund mechanism, not the tax, is what builds anything.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The threshold exempts any investor owning 15 or fewer homes, so the smallest investor-landlords would pay nothing even while competing with first-time buyers.",
+    "text": "The tax is modest relative to home prices (1-5%), so it may raise costs for investors without meaningfully changing who wins home purchases in hot markets.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "For ordinary buyers, the upside is potentially meaningful in markets where institutional investors are active bidders, and the housing-fund revenue is a direct add-on. The main risk is that the tax is small enough to be absorbed by the largest players and that exempting new construction simply steers investor money toward build-to-rent rather than reducing investor ownership overall. The bill does nothing to force sales of existing investor-owned homes; it only taxes future purchases.",
+  "benefit_vs_cost": "The direct benefit to buyers is real but modest — a 1-5% purchase tax is a speed bump, not a wall, for investors who outbid families with cash. The stronger part is the dedicated revenue stream for affordable housing. The main risk is that costs are passed to renters rather than changing investor behavior.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and sent to the Senate Finance Committee the same day, and the committee has not scheduled any action on it so far this Congress.",
+   "mechanism": "The bill was introduced and sent to the Senate Finance Committee, where it has sat without a hearing, a vote, or any floor action since late January 2026.",
    "narrative": [
     {
-     "text": "Sen. Jack Reed introduced the bill on January 30, 2026, joined by nine Democratic senators as cosponsors and original sponsors.",
+     "text": "Senator Jack Reed introduced the bill on January 30, 2026, with nine Democratic cosponsors, and it was read twice and referred to the Committee on Finance.",
      "sources": [
       "S1",
-      "S2",
-      "S3"
+      "S4"
      ]
     },
     {
-     "text": "The Senate read the bill twice and referred it to the Committee on Finance, where tax legislation is considered; the sponsor's remarks appeared in the Congressional Record.",
+     "text": "The Senate Finance Committee has taken no further action on the bill — no markup, no hearing, no committee vote — and it has never reached the Senate floor.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The action history shows no markup, no committee vote, and no floor action since the referral.",
+     "text": "All nine cosponsors are Democrats; no Republican has signed on, and the Senate Finance Committee is chaired by a Republican in a chamber Republicans control with 55 seats.",
      "sources": [
-      "S4"
+      "S3",
+      "S1"
      ]
     }
    ],
-   "who_came_out_ahead": "Large investors in single-family rentals are better off so far, since no purchase tax has advanced; affordable-housing advocates and homebuyers have gained nothing yet but the bill is still alive on paper."
+   "who_came_out_ahead": "So far, institutional buyers of single-family homes: no tax has been enacted, and they continue purchasing homes without the new 1-5% levy while the bill waits in committee."
   },
-  "who_came_out_ahead_short": "Large single-family investors, so far",
+  "who_came_out_ahead_short": "Large investors in single-family homes",
   "sides": {
    "for": [
     {
      "name": "Sen. Jack Reed",
      "role": "U.S. Senator from Rhode Island, bill sponsor",
      "party": "D",
-     "what_they_did": "Introduced the bill and delivered introductory remarks in the Senate.",
+     "what_they_did": "Introduced the bill and its tax on large investor home purchases.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S4"
+      "S2"
      ]
     },
     {
-     "name": "Nine Democratic senators (Smith, Blumenthal, Klobuchar, Baldwin, Whitehouse, Kim, Gallego, Murphy, Slotkin)",
-     "role": "Original cosponsors",
+     "name": "9 of 45 Senate Democrats",
+     "role": "Cosponsors of the bill",
      "party": "D",
-     "what_they_did": "Signed on as cosponsors at introduction, giving the bill a full slate of Democratic Senate support from day one.",
+     "what_they_did": "Cosponsored the bill (Sens. Smith, Blumenthal, Klobuchar, Baldwin, Whitehouse, Kim, Gallego, Murphy, and Slotkin).",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
-      "S3"
+      "S3",
+      "S2"
      ]
     }
    ],
    "against": [
     {
      "name": "Senate Finance Committee",
-     "role": "Committee with jurisdiction over tax legislation",
+     "role": "Committee of referral, chaired by a Republican",
      "party": null,
-     "what_they_did": "Received the bill by referral on the day of introduction and has not scheduled a markup, vote, or any further action.",
+     "what_they_did": "Received the bill on referral on January 30, 2026 and has taken no action on it since — no markup, hearing, or vote.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S4"
      ]
+    },
+    {
+     "name": "Senate Republicans",
+     "role": "Majority party controlling the chamber and its schedule (55 of 100 seats)",
+     "party": "R",
+     "what_they_did": "No Republican cosponsored the bill, and the majority has not brought it to the floor.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3",
+      "S1"
+     ]
     }
    ],
    "party_line": "party_line",
-   "party_line_note": "All ten sponsors and cosponsors are Democrats, and no Republican senator has signed on; the bill sits in a committee chaired by a Republican."
+   "party_line_note": "Sponsorship is entirely Democratic — 10 of 45 Senate Democrats — with no Republican cosponsors in a chamber where Republicans hold 55 seats and control the committee calendar."
   },
   "industries": [
    {
-    "industry": "Institutional single-family rental investors",
+    "industry": "Institutional single-family rental investors and corporate landlords",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Companies owning more than 100 homes would pay 5% of the price of every existing home they buy, directly targeting the business model of buying houses to rent. Their gain comes at the cost of higher purchase prices for ordinary buyers, so the bill's effect runs against the public's interest in affordable ownership.",
+    "note": "The bill taxes every existing home they buy at 1-5% of the purchase price, directly raising their cost of acquiring the homes that families bid on. These investors profit by outbidding ordinary buyers and converting owner-occupied homes to rentals.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Mid-sized single-family landlords",
+    "industry": "Private equity and REITs with housing portfolios",
     "effect": "loses",
-    "stance_toward_public": "mixed",
-    "note": "Landlords owning 16 to 25 homes would pay a 1% purchase tax, and those with 26 to 100 homes would pay 3%. Many are small businesses rather than institutions, though in hot markets they compete with families for the same houses.",
+    "stance_toward_public": "opposed",
+    "note": "Aggregation rules treat related companies and family holdings as one investor, closing the common structure-splitting route around ownership thresholds. Their model of assembling large scattered-site home portfolios gets more expensive.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Homebuilders",
+    "industry": "Single-family homebuilders",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Newly built homes are exempt from the ownership count and the purchase tax, so investor demand that shifts from existing houses to build-to-rent construction flows to builders. This exemption is intended to push capital toward adding housing supply rather than bidding up existing stock.",
+    "note": "Newly built homes are excluded from the tax, tilting investor capital toward construction rather than buying up existing homes. This adds supply instead of just reshuffling ownership of the same houses.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Nonprofit and public affordable housing (community land trusts, land banks, housing authorities)",
+    "industry": "Affordable housing nonprofits, land banks, and community land trusts",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "These organizations are exempt from the tax, and 100% of the revenue raised goes to the Housing Trust Fund and the Capital Magnet Fund, which fund affordable housing.",
+    "note": "They are exempt from the tax and are the intended beneficiaries of its revenue — 65% to the Housing Trust Fund and 35% to the Capital Magnet Fund — which finance affordable housing they build and manage.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "Standalone tax bills introduced in the minority party's name rarely reach the floor, and the Finance Committee has shown no activity on this one. Unless the committee schedules a markup or the bill is folded into a larger tax package, it will likely sit without action for the rest of the Congress, as similar investor-purchase-tax proposals in previous Congresses have.",
+  "trajectory": "The bill has a single Democratic sponsor, all-Democratic cosponsors, and has sat untouched in the Republican-chaired Finance Committee since January 2026. Absent Republican support or a leadership decision to prioritize it, the most likely path is that it dies in committee at the end of this Congress, as most first-term housing tax bills do.",
   "categories": [
    "housing",
    "taxes_on_wealth_and_corporations"
   ],
   "scores": {
-   "public_stakes": 7,
-   "concentrated_stakes": 8,
-   "outcome_against_public": 5,
-   "support_mismatch": 5,
+   "public_stakes": 6,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 2,
+   "support_mismatch": 3,
    "corruption_relevance": 2,
    "confidence": 0.9
   }

@@ -1,215 +1,219 @@
 {
  "bill_id": "119-s2153",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:00:32+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:31:52+00:00",
  "record_fetched_at": "2026-09-20T08:08:19+00:00",
  "record_hash": "9eb3d7ea48d0e9c2",
  "analysis": {
-  "one_liner": "Bars dominant app stores from forcing developers to use their payment systems and locks out rival stores.",
-  "headline": "The Open App Markets Act, reintroduced with bipartisan sponsorship in June 2025, sits untouched in the Senate Judiciary Committee with no action beyond referral.",
+  "one_liner": "Bars dominant app stores from forcing developers onto their payment systems or blocking rival app stores.",
+  "headline": "Introduced in June 2025 with bipartisan sponsorship and sent to the Senate Judiciary Committee, where no vote or further action has been taken.",
   "direction": "for_working_people",
-  "plain_summary": "This bill targets the two companies that control the phone app stores most Americans use. It would forbid them from forcing app makers to use their payment systems, which currently take a cut of up to 30% of many in-app purchases, and would require them to let people install apps and rival app stores from outside their official stores. It would also stop the store owner from secretly using data about a competitor's app to build a competing one, and from ranking its own apps above rivals in search results. Enforcement would fall to the FTC, the Justice Department, state attorneys general, and app developers themselves, who could sue for triple damages.",
-  "who_benefits": "App developers and their customers. Developers keep a bigger share of what users pay them and get new ways to reach customers, such as telling users about cheaper prices on their own website. Consumers get more places to buy apps, potentially lower prices, and the ability to delete preinstalled apps. Smaller app stores and payment companies gain the right to compete on iPhones and Android phones.",
-  "who_benefits_short": "App developers and consumers",
+  "plain_summary": "The bill targets the two companies that control nearly all app distribution on smartphones in the United States. It would stop them from forcing app makers to use their built-in payment systems, from punishing developers who offer cheaper prices elsewhere, and from blocking users from installing rival app stores. It also stops the platform owner from copying features of other companies' apps using data collected from its store, and lets developers sue for triple damages if they are harmed.",
+  "who_benefits": "App developers, especially smaller ones, who keep more of their sales instead of paying the platform's cut, and consumers, who benefit when developers can offer cheaper payment options and the platforms can no longer bury competing apps in search results.",
+  "who_benefits_short": "Small app developers and app buyers",
   "how_it_helps": [
    {
-    "text": "Prohibits covered companies (those running an app store with more than 50 million U.S. users that also control the operating system) from requiring developers to use their in-app payment system as a condition of distribution [S2].",
+    "text": "Covered companies can no longer require developers to use their own in-app payment system as a condition of distribution, opening the door to cheaper payment options.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Requires the store owner to let users set third-party apps and app stores as defaults, install them outside the official store, and hide or delete preinstalled apps [S2].",
+    "text": "Users gain the right to install third-party apps and app stores, set defaults, and delete preinstalled apps from the platform owner.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Bars using nonpublic data collected about a developer's app to compete with that app, and bars unreasonably ranking the company's own apps above rivals in store search results [S2].",
+    "text": "The platform owner cannot use nonpublic data collected from other companies' apps to build competing products, and cannot rank its own apps ahead of rivals in search results.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Lets developers communicate directly with their users about prices and offers, and gives developers injured by violations the right to sue for threefold damages plus attorney's fees [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Gives the FTC independent litigation authority to bring its own civil actions, and lets state attorneys general sue on behalf of residents [S2].",
+    "text": "Developers harmed by violations can sue in federal court for threefold damages plus attorney's fees, and state attorneys general and the FTC can enforce the law.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Apple and Google, whose app stores would lose much of their power to take a percentage of in-app purchases and to channel all app distribution through their own stores. Their revenue from app store commissions and their control over which apps phone users can install would shrink.",
-  "who_pays_short": "Apple's and Google's app store businesses",
+  "who_pays": "Apple and Google, which own the two dominant app stores and collect a commission on most in-app sales, would lose a major revenue stream; consumers could face some added risk if app review is loosened, though the bill contains security and privacy exceptions.",
+  "who_pays_short": "Apple and Google's app store commissions",
   "drawbacks": [
    {
-    "text": "Allowing installation of apps and app stores from outside the official stores raises real fraud and security risks; the bill responds with a privacy-and-security exception but only enforces it if the company proves, by a preponderance of the evidence, that restrictions are consistent and narrowly tailored, which could mean years of litigation over each case [S2].",
+    "text": "Critics, including Apple, argue that allowing apps to be installed outside the official store and enabling rival app stores would expose users to more malware, scams, and privacy risks; the bill responds with security and fraud exceptions, but whether those hold up would depend on court tests.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill makes the store owner certify under penalty of perjury that security actions are not pretextual, adding legal exposure that companies say could make them over-restrict apps to be safe [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Critics of the approach argue that breaking the single-store model benefits large developers with their own customer bases more than small ones, since big companies can more easily run their own distribution and payments [S2].",
+    "text": "The bill does not directly cap app store commissions, so any savings for developers and consumers depend on competition actually materializing, and the platform owners can still defend restrictive practices by proving in court that they are necessary for privacy, security, or antifraud purposes.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The main benefit is money: cutting the mandatory commission on in-app purchases and opening distribution would lower costs for developers, some of which would likely reach consumers through lower prices, and users would gain real choice over what they install. The main cost is a genuine one: the curated, single-store model is part of how phones stay safe from malware, and opening it up will lead to some fraud and disputes over what security measures are legitimate. The bill tries to manage that with a security exception, but its effectiveness depends on how courts apply it. On balance the bill shifts money and control from two very large companies toward developers and consumers, with a manageable but real security trade-off.",
+  "benefit_vs_cost": "The upside is real: app store commissions run up to 30% on in-app purchases, and loosening that grip could lower prices for digital goods and let smaller developers keep more revenue. The main honest cost is security risk from loosened distribution controls, which the bill tries to manage through narrow exceptions but cannot fully eliminate. On balance this is a competition bill with clear consumer upside and a manageable, though real, downside.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and referred to the Senate Judiciary Committee in June 2025, and nothing has happened to it since; Congress is still in session, so it is waiting.",
+   "mechanism": "It was sent to the Senate Judiciary Committee the day it was introduced, and the record shows no committee vote or other action since.",
    "narrative": [
     {
-     "text": "Senator Marsha Blackburn introduced the bill on June 24, 2025, joined by Senators Blumenthal, Lee, Klobuchar, and Durbin [S2].",
+     "text": "Senator Marsha Blackburn introduced the bill on June 24, 2025, joined by four senators from both parties: Richard Blumenthal, Mike Lee, Amy Klobuchar, and Dick Durbin.",
      "sources": [
       "S2"
      ]
     },
     {
-     "text": "The Senate read it twice and referred it to the Committee on the Judiciary the same day [S4].",
+     "text": "The bill was read twice and referred to the Senate Judiciary Committee on the day it was introduced.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The committee has taken no further recorded action; there are no markup, hearing, or vote entries in the action history [S4].",
+     "text": "No further action appears in the record: no committee vote, no floor action, and no additional cosponsors beyond the original five are listed.",
      "sources": [
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "Apple and Google, whose app store businesses face no new restrictions while the bill waits in committee; the companies have spent heavily lobbying against earlier versions of this bill."
+   "who_came_out_ahead": "So far, Apple and Google. While the bill sits without action, they keep collecting commissions on app sales that the bill would subject to competition, and nothing has changed for developers or consumers."
   },
-  "who_came_out_ahead_short": "Apple and Google's app store status quo",
+  "who_came_out_ahead_short": "Apple and Google, for now",
   "sides": {
    "for": [
     {
      "name": "Marsha Blackburn",
      "role": "U.S. Senator from Tennessee, lead sponsor",
      "party": "R",
-     "what_they_did": "Introduced the Open App Markets Act and recruited four cosponsors from both parties.",
+     "what_they_did": "Introduced the bill and it was referred to the Judiciary Committee.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2",
-      "S3"
-     ]
-    },
-    {
-     "name": "Richard Durbin",
-     "role": "U.S. Senator from Illinois, Senate Democratic whip",
-     "party": "D",
-     "what_they_did": "Original cosponsor of the bill.",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S2",
-      "S3"
+      "S4"
      ]
     },
     {
      "name": "Amy Klobuchar",
-     "role": "U.S. Senator from Minnesota",
+     "role": "U.S. Senator from Minnesota, cosponsor",
      "party": "D",
-     "what_they_did": "Original cosponsor of the bill.",
+     "what_they_did": "Cosponsored the bill at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
+      "S3"
+     ]
+    },
+    {
+     "name": "Dick Durbin",
+     "role": "U.S. Senator from Illinois, cosponsor",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill at introduction.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
       "S3"
      ]
     },
     {
      "name": "Richard Blumenthal",
-     "role": "U.S. Senator from Connecticut",
+     "role": "U.S. Senator from Connecticut, cosponsor",
      "party": "D",
-     "what_they_did": "Original cosponsor of the bill.",
+     "what_they_did": "Cosponsored the bill at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
       "S3"
      ]
     },
     {
      "name": "Mike Lee",
-     "role": "U.S. Senator from Utah",
+     "role": "U.S. Senator from Utah, cosponsor",
      "party": "R",
-     "what_they_did": "Original cosponsor of the bill.",
+     "what_they_did": "Cosponsored the bill at introduction.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
       "S3"
      ]
     }
    ],
-   "against": [],
+   "against": [
+    {
+     "name": "Apple",
+     "role": "Operator of the iPhone App Store and iOS, the bill's largest covered company",
+     "party": null,
+     "what_they_did": "Opposed the similar prior version of this bill, arguing it would weaken app security and privacy, and campaigned against it.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
+    },
+    {
+     "name": "Google",
+     "role": "Operator of the Google Play Store and Android, the other main covered company",
+     "party": null,
+     "what_they_did": "Opposed the similar prior version of this bill and lobbied against it.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
+    },
+    {
+     "name": "Chuck Grassley",
+     "role": "Chair, Senate Judiciary Committee",
+     "party": "R",
+     "what_they_did": "As chair of the committee to which the bill was referred, has taken no action on it; the record shows only the referral with no committee vote scheduled.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
    "party_line": "bipartisan",
-   "party_line_note": "Sponsorship is genuinely mixed: a Republican lead sponsor with three Democrats and one additional Republican cosigning the same bill."
+   "party_line_note": "The bill was introduced by a Republican and drew five cosponsors split evenly between the parties (3 of 45 Senate Democrats and 2 of 55 Senate Republicans), so support does not follow party lines."
   },
   "industries": [
    {
-    "industry": "Mobile app stores (Apple App Store, Google Play)",
+    "industry": "Apple and Google (mobile operating systems and app stores)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill strips the two dominant stores of their power to require their own payment systems and take a cut of in-app purchases, and to be the only channel for installing apps. Their gain has come from charging developers up to 30% on purchases, a cost passed into app prices and subscriptions that consumers pay.",
+    "note": "The two companies collect commissions of up to 30% on most in-app purchases because they are the only practical way to reach smartphone users. The bill would force their payment systems and stores to compete, which is exactly the revenue at stake.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Mobile operating system providers (Apple, Google)",
-    "effect": "loses",
-    "stance_toward_public": "opposed",
-    "note": "Beyond payments, the bill forces the operating system owners to allow rival app stores, sideloading, deletion of preinstalled apps, and equal access to system interfaces, reducing their control over the phone itself.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "App developers",
+    "industry": "Small and independent app developers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Developers keep more of their revenue, gain direct customer communication and alternative distribution, and can sue for treble damages when the rules are violated.",
+    "note": "Developers would keep more of their revenue by choosing payment providers and would gain the right to sue for triple damages. Their interest in lower platform fees runs directly alongside consumers' interest in lower prices.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Third-party app stores and alternative payment providers",
+    "industry": "Alternative payment processors and third-party app stores",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Companies currently barred or heavily restricted from distributing apps or processing payments on iPhones and Android would be allowed to compete.",
+    "note": "The bill creates space for rival payment systems and app stores to operate on iOS and Android, which the current rules largely block.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "This is the third Congress in a row an Open App Markets Act has been introduced. Earlier versions advanced through Senate Judiciary but never reached the floor. With the bill sitting in committee with no scheduled action and opposition from two of the most well-resourced lobby operations in Washington, the realistic path is a possible committee hearing at best and, more likely, no floor vote before the Congress ends.",
+  "trajectory": "The bill's prospects look poor. A nearly identical version in a previous Congress cleared the Senate Judiciary Committee in 2022 but never received a Senate floor vote. With no committee action scheduled and only original cosponsors so far, the most likely path is that the bill stays in the Judiciary Committee without a vote unless its sponsors push for a markup and build a larger cosponsor list.",
   "categories": [
    "antitrust_and_competition",
    "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 6,
-   "concentrated_stakes": 8,
-   "outcome_against_public": 3,
-   "support_mismatch": 5,
-   "corruption_relevance": 1,
+   "public_stakes": 5,
+   "concentrated_stakes": 9,
+   "outcome_against_public": 4,
+   "support_mismatch": 4,
+   "corruption_relevance": 2,
    "confidence": 0.85
   }
  },

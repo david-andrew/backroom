@@ -1,265 +1,180 @@
 {
  "bill_id": "119-s3623",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:02:57+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T22:00:39+00:00",
  "record_fetched_at": "2026-09-20T08:07:07+00:00",
  "record_hash": "7064bc7d0e3ccfcf",
  "analysis": {
-  "one_liner": "Lets merchants route credit card payments over competing networks to cut swipe fees.",
-  "headline": "Six senators from both parties back the bill, but since its January 2026 referral to the Senate Banking Committee no hearing, markup, or vote has been scheduled.",
+  "one_liner": "Requires large credit-card-issuing banks to let merchants route transactions over competing card networks instead of only Visa or Mastercard.",
+  "headline": "The bill has not moved: introduced January 13, 2026, it was read twice and referred to the Senate Banking Committee, where no action has been taken since.",
   "direction": "for_working_people",
-  "plain_summary": "The bill tells the Federal Reserve to write rules, within a year, that stop the biggest card-issuing banks from locking credit card transactions onto one or two networks that Visa and Mastercard dominate. Merchants who accept credit cards could then choose a cheaper network to process each sale, instead of paying the fee the dominant networks set. It applies only to banks with more than $100 billion in assets, and it would create a public list of card networks that pose national security risks or are owned by foreign state entities.",
-  "who_benefits": "Merchants large and small who pay a fee on every credit card sale would gain the right to route those sales over whichever network charges less, instead of being locked into the one or two largest networks. Consumers benefit indirectly and only if merchants pass some of the savings into lower prices. Community banks and credit unions are explicitly left out of the rules.",
-  "who_benefits_short": "Merchants paying credit card swipe fees",
+  "plain_summary": "The bill would amend the Electronic Fund Transfer Act to require the Federal Reserve to write rules barring large card issuers and networks from locking credit card processing to one or two dominant networks. Issuers with more than $100 billion in assets would have to enable competing networks on their cards, and merchants would gain the right to route transactions over those networks without penalties. Cards from networks that own their own issuer (such as American Express-style models) and networks flagged as national security risks would be exempt.",
+  "who_benefits": "Merchants and small businesses that accept credit cards would gain the right to route transactions over cheaper competing networks, and if savings are passed through, consumers could see lower prices. Rival payment networks would gain access to transactions currently locked to the dominant networks.",
+  "who_benefits_short": "Merchants and small businesses",
   "how_it_helps": [
    {
-    "text": "Bars issuers and networks from restricting a credit card transaction to a single network, or to two networks if they are the two largest by card share, or to networks that are affiliated with each other or with the issuer — so merchants get a real choice of processing network [S2].",
+    "text": "It would bar large issuers from restricting a credit card's processing to a single network or to the two largest networks by market share, forcing cards to enable smaller competing networks.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Prohibits card networks and issuers from penalizing or disadvantaging any merchant for choosing a different network, or for failing to route a set volume of transactions to a particular network [S2].",
+    "text": "It would prohibit card issuers and networks from penalizing merchants for routing transactions to a qualifying network, or from locking in security technology that rival networks cannot use.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Also bars contracts that force merchants to use authentication or tokenization security technology that only certain networks can handle, and prohibits blocking other networks from processing transactions with that technology [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Applies only to card issuers with more than $100 billion in assets together with their affiliates, leaving community banks, credit unions, and smaller issuers untouched [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Requires a public, regularly updated list of payment networks the Federal Reserve and Treasury determine pose a national security risk or are owned, operated, or sponsored by a foreign state entity [S2].",
+    "text": "It would create a Federal Reserve-maintained public list of card networks deemed national security risks or owned by foreign state entities, which are excluded from routing options.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Visa, Mastercard, and the biggest card-issuing banks lose revenue: they currently collect a fee on every credit transaction and control which network it runs on, and the bill opens both to competition. Cardholders may bear part of the cost indirectly if banks respond by trimming rewards programs or adding fees, as happened in similar fights.",
-  "who_pays_short": "Visa, Mastercard, and big card banks",
+  "who_pays": "Large card-issuing banks and the dominant card networks would lose interchange and processing revenue, and banks argue cardholders could lose rewards or face new fees if banks recoup that income.",
+  "who_pays_short": "Large banks and card networks",
   "drawbacks": [
    {
-    "text": "Nothing in the bill requires merchants to pass their savings to shoppers, so consumers may see little of the benefit — after a similar fee cap on debit cards in 2010, studies found banks offset lost fees with new account fees and cut rewards (general knowledge).",
-    "sources": []
-   },
-   {
-    "text": "Cardholders could see credit card rewards reduced, since banks and networks say swipe-fee revenue funds those programs (general knowledge, and the mechanism the bill regulates).",
+    "text": "Opponents argue that weaker network competition requirements could reduce card security and rewards, because banks might offset lost swipe-fee revenue by raising card fees, cutting rewards programs, or tightening credit standards — costs that would fall on cardholders.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The rules exempt three-party payment systems — cards issued by the network itself, such as American Express and Discover — leaving a meaningful share of the market unchanged [S2].",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "The bill strips the Consumer Financial Protection Bureau of any authority to enforce the new requirements, narrowing who can hold issuers and networks to the rules [S2].",
+    "text": "The bill imposes a one-size-fits-all routing mandate on issuers above $100 billion in assets; some community-bank and issuer concerns center on implementation costs and on the Federal Reserve picking which two networks qualify by market share, a determination that must be revisited every three years.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core idea — competition in what is effectively a two-network tollbooth on everyday purchases — is sound and long-debated, and the bill is targeted at the largest issuers rather than community banks. The honest weakness is distribution: the guaranteed winners are merchants, not necessarily shoppers, and banks have historically recouped similar losses from cardholders through rewards cuts and new fees. The carve-out for three-party systems like American Express and the removal of CFPB enforcement further narrow what the bill actually delivers.",
+  "benefit_vs_cost": "The potential benefit — lower card-processing costs for merchants, with some chance of pass-through to prices — comes with real uncertainties: banks could raise fees or tighten credit to replace lost swipe-fee revenue, and the security of routing less-secure network alternatives through every large bank's cards would need to work in practice. The bill's fate so far is procedural, not substantive: it has simply not moved in committee.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced on January 13, 2026, sent to the Senate Banking Committee, and nothing has happened to it since.",
+   "mechanism": "It was introduced and referred to the Senate Banking Committee, where it has sat with no hearing, vote, or further action since.",
    "narrative": [
     {
-     "text": "Senator Roger Marshall introduced the bill in the Senate on January 13, 2026, and it was read twice and referred to the Committee on Banking, Housing, and Urban Affairs [S4].",
+     "text": "The bill was introduced on January 13, 2026 by Senator Marshall, joined by Senators Durbin and Welch, and immediately referred to the Banking, Housing, and Urban Affairs Committee.",
+     "sources": [
+      "S1",
+      "S4"
+     ]
+    },
+    {
+     "text": "Its only actions to date are introduction, reading twice, and the committee referral; no markup, vote, or floor action has occurred.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The action history shows no hearing, no committee markup, and no vote since that referral [S4].",
-     "sources": [
-      "S4"
-     ]
-    },
-    {
-     "text": "The bill has five cosponsors: two Democrats, two Republicans, and one Independent [S3].",
+     "text": "It has five cosponsors split across both parties: two Senate Democrats, two Senate Republicans, and one Independent.",
      "sources": [
       "S3"
      ]
-    },
-    {
-     "text": "The bill would require the Federal Reserve, within one year of enactment, to bar large card issuers and networks from restricting credit card routing to one network, to affiliated networks, or to the two largest networks by card share [S2].",
-     "sources": [
-      "S2"
-     ]
-    },
-    {
-     "text": "It covers only issuers with more than $100 billion in assets and exempts three-party payment systems, where the card issuer is itself the network [S2].",
-     "sources": [
-      "S2"
-     ]
-    },
-    {
-     "text": "It would bar penalties on merchants for routing choices, prohibit exclusive security-technology requirements, and create a public list of networks posing national security risks or owned by foreign state entities [S2].",
-     "sources": [
-      "S2"
-     ]
-    },
-    {
-     "text": "It removes the Consumer Financial Protection Bureau's authority to enforce the section or the Federal Reserve's regulations under it [S2].",
-     "sources": [
-      "S2"
-     ]
     }
    ],
-   "who_came_out_ahead": "Because nothing has happened yet, the current arrangement is what stands: Visa and Mastercard keep their routing dominance and the largest banks keep collecting the existing swipe fees, while merchants keep paying them."
+   "who_came_out_ahead": "Visa, Mastercard, and the large banks that issue their cards are better off so far, since the bill has not advanced toward a vote."
   },
-  "who_came_out_ahead_short": "Card networks and big banks, for now",
+  "who_came_out_ahead_short": "Visa, Mastercard, and large card-issuing banks",
   "sides": {
    "for": [
     {
-     "name": "Roger Marshall",
-     "role": "U.S. Senator (KS), bill sponsor",
+     "name": "Sen. Roger Marshall",
+     "role": "U.S. Senator (R-KS)",
      "party": "R",
-     "what_they_did": "Introduced the Credit Card Competition Act of 2026 and brought it to the Senate floor for introduction [S1].",
+     "what_they_did": "Introduced the bill on January 13, 2026.",
      "direct": true,
      "evidence": "record",
      "sources": [
       "S1",
-      "S2"
-     ]
-    },
-    {
-     "name": "Dick Durbin",
-     "role": "U.S. Senator (IL), original cosponsor and lead sponsor of earlier versions of this bill",
-     "party": "D",
-     "what_they_did": "Joined the bill at introduction, continuing his long-running push to open card routing to competition [S2].",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S2",
-      "S3"
-     ]
-    },
-    {
-     "name": "Peter Welch",
-     "role": "U.S. Senator (VT), original cosponsor",
-     "party": "D",
-     "what_they_did": "Joined the bill at introduction [S2].",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S2",
-      "S3"
-     ]
-    },
-    {
-     "name": "Merchant and retail industry groups",
-     "role": "Retail trade coalition backing the bill (outside Congress)",
-     "party": null,
-     "what_they_did": "Have publicly campaigned for versions of this bill in recent Congresses, arguing merchants pay billions in avoidable swipe fees.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
-    }
-   ],
-   "against": [
-    {
-     "name": "Senate Committee on Banking, Housing, and Urban Affairs",
-     "role": "Committee to which the bill was referred",
-     "party": null,
-     "what_they_did": "Received the bill on January 13, 2026 and has taken no further action — no hearing, markup, or vote appears in the record [S4].",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
       "S4"
      ]
     },
     {
-     "name": "Visa",
-     "role": "Dominant credit card network",
+     "name": "Sen. Richard Durbin",
+     "role": "U.S. Senator (D-IL)",
+     "party": "D",
+     "what_they_did": "Original cosponsor of the bill at introduction.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "name": "Sen. Peter Welch",
+     "role": "U.S. Senator (D-VT)",
+     "party": "D",
+     "what_they_did": "Original cosponsor of the bill at introduction.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "against": [
+    {
+     "name": "Visa and Mastercard",
+     "role": "Dominant credit card networks",
      "party": null,
-     "what_they_did": "Has lobbied against prior versions of this bill, arguing routing mandates would shift costs to consumers and weaken fraud protections.",
+     "what_they_did": "Opposed prior versions of this legislation through industry campaigns and lobbying, arguing it would reduce card security and rewards.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     },
     {
-     "name": "Mastercard",
-     "role": "Dominant credit card network",
+     "name": "Large credit-card-issuing banks",
+     "role": "Banks with over $100 billion in assets",
      "party": null,
-     "what_they_did": "Has lobbied against prior versions of this bill alongside Visa and the banking industry.",
-     "direct": false,
-     "evidence": "widely_reported",
-     "sources": []
-    },
-    {
-     "name": "Bank trade groups and the Electronic Payments Coalition",
-     "role": "Industry coalition of card-issuing banks and payment networks",
-     "party": null,
-     "what_they_did": "Have opposed and lobbied against prior versions of this bill, warning that reduced interchange revenue would be recovered from cardholders.",
+     "what_they_did": "Lobbied against the bill, which they say would cut into interchange fee revenue that funds card rewards.",
      "direct": false,
      "evidence": "widely_reported",
      "sources": []
     }
    ],
    "party_line": "bipartisan",
-   "party_line_note": "A Republican senator sponsored the bill and its five cosponsors split two Democrats, two Republicans, and one Independent [S3]."
+   "party_line_note": "The bill's five cosponsors split across parties — two Senate Democrats, two Senate Republicans, and one Independent — with bipartisan sponsorship from Marshall, Durbin, and Welch at introduction."
   },
   "industries": [
    {
-    "industry": "Credit card networks (Visa and Mastercard)",
+    "industry": "Visa and Mastercard (card networks)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "Visa and Mastercard dominate credit card routing, and the bill would bar issuers from restricting transactions to the two largest networks, opening their fee stream and routing control to competition. Their fee on every sale is a cost merchants and, ultimately, shoppers bear.",
+    "note": "The bill would end their near-exclusive routing on large banks' credit cards by forcing merchants to be able to route over competing networks, directly threatening the interchange-driven fee income that flows through the two dominant networks.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Large card-issuing banks (over $100 billion in assets)",
+    "industry": "Large banks issuing credit cards (over $100 billion in assets)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The biggest banks collect swipe-fee revenue on credit transactions and would lose it to the extent merchants route over cheaper networks. Smaller issuers are explicitly exempt, so the cost falls on the largest institutions.",
+    "note": "Covered issuers would lose control over which networks process their cards, threatening interchange revenue that funds card rewards and other bank income.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Merchants and retailers, including small businesses",
+    "industry": "Merchants and retailers",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Every business that accepts credit cards pays a fee per sale; the bill gives them the right to route sales over whichever network charges less and bars penalties for doing so.",
+    "note": "Retailers pay the swipe fees on credit card transactions and would gain routing choice, which they argue leads to lower fees and, potentially, lower consumer prices.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Community banks and credit unions",
-    "effect": "mixed",
-    "stance_toward_public": "mixed",
-    "note": "They are exempt from the routing rules, protecting their interchange revenue. Networks and banks argue competition on large-issuer cards could still reshape the card economics (rewards, fraud tools) that the whole system shares.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Three-party payment systems (American Express, Discover)",
-    "effect": "entrenched",
-    "stance_toward_public": "mixed",
-    "note": "The bill expressly exempts cards where the issuer is the network, so American Express and Discover keep their closed-loop model and fee structure untouched by the new competition rules.",
+    "industry": "Smaller and alternative payment card networks",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "Networks other than the two dominant ones would gain access to routing on cards they are currently locked out of by issuer contracts.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "Earlier versions of this bill in the 2022 and 2023 Congresses drew large retail-industry backing and committee hearings but never received a Senate floor vote, and Senate Banking has historically declined to advance it. With only six total sponsors, no committee action in the months since referral, and the card networks and banking industry lobbying hard against it, the most likely path is that the bill sits in committee for the rest of the 119th Congress without a vote.",
+  "trajectory": "With no committee action since its January 2026 referral and only five cosponsors, the bill faces long odds: most bills referred to the Senate Banking Committee without a scheduled markup die quietly at the end of the Congress. Similar versions of this legislation failed to reach the floor in prior Congresses despite merchant-group support.",
   "categories": [
    "consumer_protection_and_finance",
    "antitrust_and_competition"
@@ -267,9 +182,9 @@
   "scores": {
    "public_stakes": 6,
    "concentrated_stakes": 8,
-   "outcome_against_public": 2,
-   "support_mismatch": 2,
-   "corruption_relevance": 1,
+   "outcome_against_public": 6,
+   "support_mismatch": 3,
+   "corruption_relevance": 2,
    "confidence": 0.85
   }
  },

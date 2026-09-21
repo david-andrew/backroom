@@ -1,113 +1,107 @@
 {
  "bill_id": "119-s4401",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T09:21:20+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T22:17:38+00:00",
  "record_fetched_at": "2026-09-20T08:16:33+00:00",
  "record_hash": "f27135edaf807b49",
  "analysis": {
-  "one_liner": "Requires food delivery apps to show all fees upfront and bar personalized fee formulas.",
-  "headline": "The bill has sat in the Senate Commerce Committee since its introduction in April 2026, with no cosponsors and no committee action.",
+  "one_liner": "Requires delivery apps to show full prices and fees upfront and bans fees based on personal data.",
+  "headline": "The bill, introduced in April 2026, would force delivery apps to display all fees clearly and stop setting fees using personal data, but it has no cosponsors and has not moved past the Senate Commerce Committee.",
   "direction": "for_working_people",
-  "plain_summary": "The PRICE Act would force third-party delivery platforms like DoorDash, Uber Eats, and Grubhub to show the restaurant's own price and any delivery fees on every item, keep a running total of the full order cost on screen, and explain each fee before payment. It also bans fee formulas that secretly vary based on what the platform thinks an individual user is willing to pay, or on backroom terms the platform negotiated with a restaurant. The FTC and state attorneys general would enforce the rules.",
-  "who_benefits": "People who order food and goods through delivery apps, who today often see a menu price that differs from the restaurant's in-store price and encounter fees whose size and basis are unclear until checkout. The bill guarantees the in-store price is displayed, fees are itemized and explained, and the running total includes everything before you commit.",
-  "who_benefits_short": "Delivery app customers",
+  "plain_summary": "The PRICE Act would set pricing rules for third-party delivery platforms like DoorDash, Uber Eats, Grubhub, and Instacart. Apps would have to show the restaurant's own price and any delivery fee as you shop, display a running total of everything you will be charged, and explain each fee before you pay. It would also bar platforms from setting fees based on data about you — like your past purchases or how price-sensitive the app thinks you are — and from building fees on secret deals with restaurants. The Federal Trade Commission and state attorneys general would enforce the rules.",
+  "who_benefits": "Anyone who orders food, groceries, or goods through delivery apps. They would see the true cost of an order as they build it, instead of discovering service fees, delivery fees, and other charges at checkout. The ban on personalized pricing would also protect people the algorithms currently charge more, and the ban on arrangement-based fees would make prices comparable across restaurants. Restaurants could also benefit, since customers would see the menu price the restaurant actually charges rather than a marked-up app price.",
+  "who_benefits_short": "Delivery-app customers",
   "how_it_helps": [
    {
-    "text": "Platforms must prominently display the retail establishment's own price for each item (excluding taxes) and any delivery fee the platform adds, whenever the user selects an item.",
+    "text": "Delivery platforms would have to show the restaurant's own price for each item and any delivery fee the moment you select the item, and display a running total — items, taxes, and fees — throughout the order, so there are no surprise charges at checkout.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Throughout the ordering process, the platform must show a running total of everything charged so far, including items, taxes, and fees.",
+    "text": "Delivery fees could only be figured from the order's price and delivery factors like distance, and could not change once you start your order. Fees could not be set using proxies for your personal characteristics, such as inferred price sensitivity, past buying behavior, or willingness to pay — in other words, no charging you more because the app's data says you'll tolerate it.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Before asking for payment, the platform must clearly explain each delivery fee, what it is for, the amount, which item it relates to, and whether it is refundable.",
+    "text": "Before payment, the app must explain every fee in a clear and non-misleading way — what it is for, how much it is, and whether it is refundable — and fees could not be based on behind-the-scenes deals between the platform and the restaurant.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Delivery fees must be set by a fixed methodology chosen before the user starts an order, based only on the order price and delivery factors like distance, and may not use proxies for a user's price sensitivity, purchasing history, or willingness to pay, or terms of deals between the platform and the restaurant.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "text": "Violations are treated as unfair or deceptive practices under the FTC Act, and state attorneys general can sue on behalf of their residents for injunctions, restitution, or damages.",
+    "text": "The rules would be enforceable by the Federal Trade Commission as an unfair or deceptive practice, and by state attorneys general, who could sue on behalf of residents to stop violations and win restitution or damages for customers.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Third-party delivery platforms bear the cost of rebuilding their fee and display systems and lose the ability to charge individually tailored or opaque fees; some of that cost could be passed to customers as higher flat fees, and platforms argue upfront price display can make orders look more expensive and reduce sales.",
-  "who_pays_short": "Delivery platforms and their investors",
+  "who_pays": "Third-party delivery platforms. They would carry the cost of changing their apps and pricing systems, would lose the ability to earn more from customers their data shows will pay more, and would face FTC enforcement and state lawsuits for violations. Some of that cost could show up as somewhat higher base fees, though the bill requires those fees to be disclosed.",
+  "who_pays_short": "DoorDash, Uber Eats, Grubhub, Instacart",
   "drawbacks": [
    {
-    "text": "The bill bans fee formulas that rely on a user's prior purchasing behavior or willingness to pay; platforms and some economists argue personalized pricing can lower prices for price-sensitive customers, so a uniform methodology could mean higher fees for some users than under the current system.",
+    "text": "The bill requires honesty about fees but does not cap them. A platform could still charge a very large delivery fee as long as it is disclosed upfront and calculated from the order price and distance, so the total cost of delivery could stay just as high.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Compliance costs for platforms, and the requirement to display the restaurant's in-store price alongside platform fees, may make orders appear costlier and could reduce order volume, which affects restaurants and delivery couriers who depend on that volume.",
+    "text": "Platforms would need to rebuild pricing and checkout systems to meet the display and fee-methodology rules within 90 days of enactment, on top of FTC rulemaking, and violators face FTC penalties and state attorney general lawsuits — real compliance costs for the industry.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Fee formulas may not incorporate any factor related to arrangements negotiated between the platform and a restaurant, which limits how platforms can pass along or recover the commissions restaurants pay them.",
+    "text": "The rule that a fee methodology is fixed once you pick a restaurant, and based only on order price and delivery distance, could limit features some customers like, such as promotions or price breaks that vary during an order, though the bill does allow tips to work as before.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core benefit is concrete and ordinary: you see the true, all-in price of your order as you build it, with each fee explained, and fees can't be quietly tailored to what the app thinks you'll tolerate. The costs are real but modest: platforms face compliance work, some customers who benefited from tailored discounts or fees may pay more, and order volumes could dip. On balance this is a straightforward consumer-transparency rule of the kind states and the FTC have separately pursued, with costs concentrated on a few large platforms.",
+  "benefit_vs_cost": "For customers, the upside is real but moderate: honest, complete pricing on delivery orders and a prohibition on charging people more based on their personal data. The compliance burden falls on large platforms that already price orders digitally, so the cost is modest for them. The biggest limitation is that the bill targets how fees are shown and calculated, not how large they are — so it fixes surprise fees, not necessarily expensive delivery.",
   "outcome": {
    "status": "pending",
-   "mechanism": "It was introduced in the Senate in April 2026, read twice, and referred to the Commerce Committee, where it has sat with no cosponsors and no further action while Congress remains in session.",
+   "mechanism": "It was introduced and sent to the Senate Commerce Committee, where it has sat with no cosponsors and no committee action so far.",
    "narrative": [
     {
-     "text": "Sen. Ben Ray Luján introduced S. 4401, the PRICE Act, on April 27, 2026.",
+     "text": "Senator Ben Ray Luján introduced the PRICE Act in the Senate on April 27, 2026.",
      "sources": [
       "S1",
       "S4"
      ]
     },
     {
-     "text": "The bill was read twice and referred to the Senate Committee on Commerce, Science, and Transportation; no further action appears in its history.",
+     "text": "The same day, the bill was read twice and referred to the Senate Committee on Commerce, Science, and Transportation, which is where the bill now sits.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "The bill has no cosponsors.",
+     "text": "No senator has signed on as a cosponsor, and the committee has held no markup, hearing, or vote on the bill in the record so far.",
      "sources": [
-      "S3"
+      "S3",
+      "S4"
      ]
     },
     {
-     "text": "Congress remains in session until January 3, 2027, so the bill is technically alive but has made no movement since referral.",
+     "text": "The bill text lays out pricing, disclosure, and anti-personalized-pricing rules for delivery platforms, with FTC and state attorney general enforcement.",
      "sources": [
-      "S1",
-      "S4"
+      "S2"
      ]
     }
    ],
-   "who_came_out_ahead": "With no vote and no movement, delivery platforms keep operating under current pricing practices for now; nothing has changed for consumers yet."
+   "who_came_out_ahead": "The major delivery platforms are better off so far: none of the bill's disclosure and pricing restrictions apply, and fee and personalized-pricing practices continue as they are."
   },
-  "who_came_out_ahead_short": "Delivery platforms, so far",
+  "who_came_out_ahead_short": "Major delivery platforms, for now",
   "sides": {
    "for": [
     {
      "name": "Sen. Ben Ray Luján",
-     "role": "U.S. Senator from New Mexico and the bill's sole sponsor",
+     "role": "U.S. Senator from New Mexico (sponsor)",
      "party": "D",
-     "what_they_did": "Introduced the PRICE Act and referred it to the Senate Commerce Committee.",
+     "what_they_did": "Introduced the bill and got it referred to the Senate Commerce Committee.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -118,38 +112,47 @@
    ],
    "against": [],
    "party_line": "unclear",
-   "party_line_note": "No votes have occurred and no opponent has acted on the record; the bill has a single Democratic sponsor and no cosponsors of either party, so its partisan shape is unknown."
+   "party_line_note": "There are no cosponsors and no votes yet, so no partisan pattern has formed around the bill."
   },
   "industries": [
    {
-    "industry": "Third-party delivery platforms (e.g., DoorDash, Uber Eats, Grubhub)",
+    "industry": "Third-party delivery platforms (DoorDash, Uber Eats, Grubhub, Instacart)",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "The bill makes it unlawful to operate a delivery platform without itemized, explained fees, a running all-in price total, and a fixed fee methodology that cannot be tailored to a user's inferred willingness to pay. This directly targets the opaque and personalized fee structures through which these platforms earn money on top of restaurant prices.",
+    "note": "These apps make much of their money from fees stacked on top of restaurant prices and from pricing that varies with what their data says a customer will pay. The bill would force fee transparency, ban data-driven and deal-based fee setting, and expose them to FTC and state enforcement.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Restaurants and other retail establishments",
-    "effect": "mixed",
+    "industry": "Restaurants and retail shops",
+    "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "The bill requires platforms to display the establishment's own in-store price, which protects restaurants from having their menu prices marked up invisibly. But the ban on fee formulas tied to platform-restaurant arrangements restricts how platforms can account for the commissions restaurants pay, which could shift negotiation dynamics.",
+    "note": "Customers would see the price the restaurant itself charges, not a marked-up app price, which could make ordering through apps more attractive and keep platforms' cut of restaurant prices from feeding opaque fees. Restaurants lose nothing under the bill's rules, which apply to the platforms.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Data analytics and pricing-optimization vendors",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "Businesses that supply personalized-pricing tools — models built on purchase history and inferred willingness to pay — would lose a use case, since the bill bans fee methods that rely on proxies for user characteristics.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "A single-sponsor bill with no cosponsors that has sat in committee since April 2026 is unlikely to reach the Senate floor this Congress; the realistic path is that it dies at the end of the session unless Luján attracts cosponsors or the committee schedules a markup.",
+  "trajectory": "The bill has the early profile of most private member's bills: one sponsor, zero cosponsors, and a referral to the Senate Commerce Committee with no scheduled hearing or markup. Unless it attracts cosponsors and committee attention — or is folded into a larger package such as a junk-fee or Federal Trade Commission reauthorization bill — it is likely to sit in committee and expire when this Congress ends in January 2027.",
   "categories": [
    "consumer_protection_and_finance"
   ],
   "scores": {
    "public_stakes": 5,
-   "concentrated_stakes": 6,
-   "outcome_against_public": 3,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 4,
    "support_mismatch": 1,
-   "corruption_relevance": 1,
+   "corruption_relevance": 2,
    "confidence": 0.9
   }
  },

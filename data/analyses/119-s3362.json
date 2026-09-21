@@ -1,117 +1,136 @@
 {
  "bill_id": "119-s3362",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T14:49:45+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:48:51+00:00",
  "record_fetched_at": "2026-09-20T14:33:00+00:00",
  "record_hash": "2fff9a9f17d31339",
  "analysis": {
-  "one_liner": "Lets anyone put 401(k)-sized amounts in tax-free health accounts and spend them on insurance, vitamins, and gym fees.",
-  "headline": "A single senator introduced the bill in December 2025; it has zero cosponsors and has sat in the Senate Finance Committee without a hearing, markup, or vote.",
-  "direction": "for_concentrated_interests",
-  "plain_summary": "The bill would raise health savings account (HSA) contribution limits to the same level as 401(k) retirement plans, drop the rule that a person must be enrolled in a high-deductible health plan to have an HSA, and let account money pay for health insurance premiums, direct primary care, vitamins, dietary supplements, gym memberships, and fitness trackers — all tax-free. It would also let new 'health marketplace pools' — groups of individuals and small employers banded together — count as an 'employer' under federal benefits law, so they can buy group-style health plans, including plans that cover nothing but prescription drugs. The bill was referred to the Senate Finance Committee the day it was introduced and has had no action since [S2][S4].",
-  "who_benefits": "Higher-income households with thousands of dollars of spare cash to shelter in an HSA gain the largest tax deductions — the contribution limit rises to roughly 401(k) levels (over $23,000 per year, plus a catch-up for those 50 and older). Healthy self-employed people and small employers gain access to group-style plans through the new marketplace pools. Health insurers gain new enrollment channels, and makers of vitamins, supplements, gym memberships, and fitness trackers gain a tax-free customer base [S2].",
-  "who_benefits_short": "High earners, insurers, supplement and fitness sellers",
+  "one_liner": "Greatly raises tax-free health savings account limits and lets new pools sell group health plans.",
+  "headline": "Senator Rand Paul introduced the bill on December 4, 2025; it has zero cosponsors and no committee action since referral, so it has not received a hearing or a vote.",
+  "direction": "mixed",
+  "plain_summary": "The bill would let anyone put much more money into a health savings account — tying the annual limit to the same cap as 401(k)-style plans — and would drop the rule that you must be enrolled in a high-deductible insurance plan to contribute. HSA dollars could then pay for health insurance premiums, direct primary care fees, vitamins, dietary supplements, gym memberships, and fitness trackers, and the accounts would get bankruptcy protection like retirement funds. A second title would let member-run \"health marketplace pools\" be treated as employers under federal benefits law so they can offer group health plans, including plans that cover only prescription drugs.",
+  "who_benefits": "Households with cash to save — especially higher earners, who get the largest tax deductions for the biggest contributions — plus self-employed people and small firms that could join a pool to buy group-rate coverage. Insurers, direct primary care practices, and the vitamin, supplement, gym, and fitness-tracker businesses also gain a new stream of pre-tax customer spending.",
+  "who_benefits_short": "Savers who can shelter income, especially high earners",
   "how_it_helps": [
    {
-    "text": "Raises annual HSA contribution limits to the same dollar amount as 401(k) plans, with an additional catch-up contribution for people 50 and older — a far larger limit than today's HSA caps [S2].",
+    "text": "Removes the requirement that a person be enrolled in a high-deductible health plan to contribute to an HSA, by striking the eligibility subsections of the tax code's HSA provision.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Removes the requirement that a person be enrolled in a high-deductible health plan to contribute to an HSA, so anyone with taxable income can fund one, and lets account money pay for health insurance premiums and direct primary care arrangements [S2].",
+    "text": "Raises the annual HSA contribution limit to the same cap that applies to 401(k)-style employee plans, with an additional catch-up amount for people 50 and older.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Makes vitamins, dietary supplements, gym memberships, and wearable fitness trackers 'qualified medical expenses' that can be paid from an HSA tax-free [S2].",
+    "text": "Allows HSA funds to pay for health insurance premiums and for direct primary care service arrangements, and extends qualified-expense treatment to a dependent child up to age 27.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Lets 'health marketplace pools' of individuals and small employers be treated as an employer under ERISA, so they can offer group health plans — including plans that cover prescription or over-the-counter drugs as the only benefit [S2].",
+    "text": "Allows HSA funds to be spent on vitamins, dietary supplements, gym memberships, and wearable fitness trackers as 'qualified wellness expenses.'",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Adds bankruptcy protections for HSAs equal to retirement accounts and lets account holders roll over balances to children, parents, or grandparents [S2].",
+    "text": "Gives health savings accounts the same protection from creditors in bankruptcy that retirement accounts receive.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Lets medical expenses incurred in the year an account is opened (or the preceding year, under a narrow rule) count as qualified expenses, so new account holders are not penalized for timing.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Amends federal benefits law so that an entity meeting the requirements is deemed an 'employer' and can offer group health plans — including drug-only coverage 'notwithstanding any other provision of law' — to its members and their employers' employees.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Bars health marketplace pools from conditioning membership on health status and requires enrollment rules applied consistently to all members.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Federal taxpayers, through lost revenue: every dollar deducted into an HSA and spent tax-free — including on gym memberships and supplements — is revenue the Treasury does not collect. If healthier people move into narrow pool plans or drug-only coverage, the cost of covering the sick in broader insurance pools can rise. People with chronic conditions benefit least from a savings-based system because they spend rather than save [S2].",
-  "who_pays_short": "Federal Treasury and sicker insurance enrollees",
+  "who_pays": "The federal treasury bears the revenue cost of larger deductions and of subsidized spending on items like gym memberships and vitamins, since the bill text contains no funding offsets. If pool plans offer thin drug-only coverage, members with expensive conditions could end up with worse protection, and ERISA treatment can displace some state insurance rules that would otherwise apply.",
+  "who_pays_short": "Federal revenue; sicker members of pool plans",
   "drawbacks": [
    {
-    "text": "Tax deductions are worth most to people in high tax brackets who can set aside tens of thousands of dollars a year; a family living paycheck to paycheck gets little or nothing from the same deduction [S2].",
+    "text": "The tax benefit scales with income and savings capacity: households able to shelter the largest contributions capture the biggest deductions, so the revenue cost concentrates its benefit at the top while everyone shares the deficit cost.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The bill removes any link between the accounts and actual health coverage — a person can contribute tax-free without holding any insurance — and the new marketplace pools may offer plans covering nothing but drugs, which could pull healthier people out of broad insurance risk pools and raise premiums for those who remain [S2].",
+    "text": "Allowing HSA money to pay insurance premiums converts a savings account into a pre-tax funnel for premiums, shrinking the account balance available for actual medical bills and deepening the subsidy for people who already have coverage.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Letting gym memberships, vitamins, and dietary supplements count as tax-free medical spending converts general consumer purchases into a federal tax subsidy with no requirement of medical necessity [S2].",
+    "text": "Spending HSA dollars on vitamins, supplements, gym memberships, and fitness trackers subsidizes purchases of debatable medical value and adds revenue cost with no corresponding health guarantee.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The marketplace-pool language keeps insurers' ability to underwrite and exclude or limit coverage for individuals, subject to existing federal portability rules, meaning these new group-style plans would not necessarily cover everyone at the same price [S2].",
+    "text": "Health marketplace pools may offer coverage where a prescription or nonprescription drug plan is the only benefit, 'notwithstanding any other provision of law,' which could leave members with chronic conditions carrying more of their own drug costs.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The bill text contains no revenue offsets to pay for the expanded deductions.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "There is real help here for self-employed people and small employers who want cheaper, pooled coverage, and for savers who want flexibility. But the tax benefit scales with income: a top-bracket household sheltering the full new limit saves several thousand dollars a year, while a household that cannot spare the cash saves nothing. The cost — forgone federal revenue and thinner, pricier risk pools for the sick — falls on everyone else. On balance the bill's largest and most certain beneficiaries are higher-income households and the industries whose products become tax-advantaged.",
+  "benefit_vs_cost": "For people who can save, the bill is a real, if regressive, tax benefit: dropping the high-deductible-plan requirement opens HSAs to millions of workers with ordinary insurance, and letting savings cover premiums and family rollovers adds flexibility. But the largest deductions flow to those who can shelter the most, the wellness-expansion provisions reward spending that is not clearly medical, and the pool title's allowance for drug-only plans and its lack of revenue offsets are genuine design weaknesses an honest supporter would have to acknowledge.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was read twice and referred to the Senate Finance Committee on the day it was introduced, and no hearing, markup, or vote has been scheduled since.",
+   "mechanism": "The bill was introduced on December 4, 2025, read twice, and referred to the Senate Finance Committee, where it has sat with no hearing or vote so far.",
    "narrative": [
     {
-     "text": "Rand Paul (R-KY) introduced S. 3362 in the Senate on December 4, 2025 [S1].",
+     "text": "Senator Rand Paul introduced S. 3362 in the Senate on December 4, 2025, and it was read twice and referred to the Committee on Finance.",
      "sources": [
-      "S1"
-     ]
-    },
-    {
-     "text": "The same day, the bill was read twice and referred to the Committee on Finance [S4].",
-     "sources": [
+      "S1",
       "S4"
      ]
     },
     {
-     "text": "No senator has cosponsored the bill [S3].",
+     "text": "The bill has zero cosponsors, according to the Congress.gov cosponsor list.",
      "sources": [
       "S3"
      ]
     },
     {
-     "text": "The Finance Committee has taken no further action on the bill, and no vote has occurred [S4].",
+     "text": "No further action beyond the referral appears in the bill's action history, and the Congress remains in session until January 2027.",
      "sources": [
       "S4"
      ]
     }
    ],
-   "who_came_out_ahead": "Nothing has changed yet: because the bill has not advanced, the current tax treatment of health spending and the current insurance market rules remain in place, and no one has gained. If it ever moved, the biggest winners would be high-income households able to shelter the new larger amounts, followed by insurers and the supplement and fitness industries."
+   "who_came_out_ahead": "No one yet; the bill has only been referred to committee and nothing about the status quo has changed."
   },
-  "who_came_out_ahead_short": "Nobody yet — the bill has not advanced",
+  "who_came_out_ahead_short": "No one yet; nothing has changed",
   "sides": {
    "for": [
     {
-     "name": "Rand Paul",
-     "role": "U.S. Senator from Kentucky; introduced the bill",
+     "name": "Sen. Rand Paul",
+     "role": "U.S. Senator, Kentucky",
      "party": "R",
-     "what_they_did": "Sponsored and introduced S. 3362 in the Senate, sending it to the Finance Committee",
+     "what_they_did": "Introduced the bill and referred it to the Senate Finance Committee as its sole sponsor.",
      "direct": true,
      "evidence": "record",
      "sources": [
@@ -122,41 +141,32 @@
    ],
    "against": [],
    "party_line": "unclear",
-   "party_line_note": "No votes have occurred; the bill's only recorded support is its single Republican sponsor, with zero cosponsors from either party [S3]."
+   "party_line_note": "One Republican introduced the bill and no one from either party has signed on or opposed it on the record."
   },
   "industries": [
    {
     "industry": "Health insurers",
     "effect": "gains",
     "stance_toward_public": "mixed",
-    "note": "The bill opens new sales channels: HSA money may pay premiums, and 'health marketplace pools' can buy group coverage through insurers, including drug-only plans. Insurers gain customers whether the plans are broad or narrow, though narrow plans can raise costs for everyone else's coverage.",
+    "note": "HSA dollars could pay premiums directly, giving insurers a steadier stream of pre-tax revenue and making customers less price-sensitive; insurers may also contract with the new marketplace pools. Drug-only pool plans, however, could shift costs onto members with expensive conditions.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Highest-income households",
+    "industry": "High-income households",
     "effect": "gains",
     "stance_toward_public": "opposed",
-    "note": "Contribution limits rise to 401(k) levels with no coverage requirement, so a top-bracket household can shelter over $23,000 a year tax-free. The forgone revenue is borne by all federal taxpayers, and households unable to spare cash get nothing.",
+    "note": "Raising the contribution limit to the 401(k)-style cap creates a much larger tax shelter for those able to contribute the maximum, with the biggest deductions going to the highest earners and the revenue cost shared by all taxpayers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Dietary supplement and vitamin makers",
+    "industry": "Vitamin, supplement, gym, and fitness-tracker businesses",
     "effect": "gains",
-    "stance_toward_public": "mixed",
-    "note": "Their products become tax-free 'qualified medical expenses,' effectively a federal subsidy on their sales. Buyers gain the same deduction, but the Treasury loses revenue on spending with no medical-necessity requirement.",
-    "sources": [
-     "S2"
-    ]
-   },
-   {
-    "industry": "Gyms and wearable fitness tracker makers",
-    "effect": "gains",
-    "stance_toward_public": "mixed",
-    "note": "Membership and device purchases become tax-deductible medical spending. Ordinary buyers share the benefit, but general consumer goods are being reclassified as health care at public cost.",
+    "stance_toward_public": "aligned",
+    "note": "The bill designates their products as tax-advantaged 'qualified wellness expenses' purchasable with HSA funds, creating a new pre-tax customer base.",
     "sources": [
      "S2"
     ]
@@ -165,24 +175,34 @@
     "industry": "Direct primary care practices",
     "effect": "gains",
     "stance_toward_public": "aligned",
-    "note": "Patients may pay fixed periodic fees for primary care from an HSA pre-tax, putting more money into subscription-style primary care practices. Patients who use these arrangements gain tax-free treatment of routine care.",
+    "note": "HSA funds could pay direct primary care membership fees, opening a pre-tax payment channel for these practices.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Small businesses and association groups",
+    "effect": "gains",
+    "stance_toward_public": "aligned",
+    "note": "The marketplace-pool title lets member-run pools offer group health coverage — including to members' employees — potentially at better rates than individuals can buy on their own, though plan quality would vary.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "With a single sponsor, zero cosponsors, and no committee action since referral, the bill is very likely to sit without a hearing until this Congress ends in January 2027, as do most bills referred to committee with no co-sponsorship.",
+  "trajectory": "With a single sponsor, zero cosponsors, and no committee action two sessions into the 119th Congress, the bill is unlikely to receive a hearing or a vote in the Senate Finance Committee; most single-sponsor bills referred to committee never advance.",
   "categories": [
    "healthcare_and_drug_prices",
-   "taxes_on_wealth_and_corporations"
+   "taxes_on_wealth_and_corporations",
+   "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 5,
+   "public_stakes": 6,
    "concentrated_stakes": 7,
    "outcome_against_public": 1,
-   "support_mismatch": 1,
+   "support_mismatch": 2,
    "corruption_relevance": 1,
-   "confidence": 0.9
+   "confidence": 0.85
   }
  },
  "unresolved_citations": []

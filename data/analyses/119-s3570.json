@@ -1,164 +1,230 @@
 {
  "bill_id": "119-s3570",
  "model": "z-ai/glm-5.3-flash",
- "prompt_version": "e569b6c0a8",
- "generated_at": "2026-09-20T08:57:21+00:00",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-20T21:58:56+00:00",
  "record_fetched_at": "2026-09-20T08:07:01+00:00",
  "record_hash": "80d3e7127f6629b0",
  "analysis": {
-  "one_liner": "Imposes duties of care, loyalty, and confidentiality on online companies that collect personal data.",
-  "headline": "The Data Care Act of 2025 was introduced in the Senate on December 18, 2025, backed by 12 Democrats and 2 Independents, and was referred to the Senate Commerce Committee, where it has received no hearing or vote.",
+  "one_liner": "Imposes duties of care, loyalty, and confidentiality on companies handling people's online data.",
+  "headline": "Introduced in December 2025 with 14 Senate cosponsors — all Democrats or independents — the bill sits in the Senate Commerce Committee with no hearing, markup, or vote taken since referral.",
   "direction": "for_working_people",
-  "plain_summary": "The bill would require any online service that collects data identifying its users to act like a fiduciary toward that data. Companies would have to reasonably secure the data, tell users promptly when sensitive data is breached, refrain from using data in ways that foreseeably harm users, and only share or sell data to companies that sign on to the same duties. The Federal Trade Commission and state attorneys general would enforce the rules.",
-  "who_benefits": "Everyone who uses the internet. Today, online companies can collect, share, and monetize personal data with almost no federal privacy rules beyond sector-specific laws like HIPAA. This bill would put users' personal information — health data, precise location, financial details, private messages — under enforceable duties that the company cannot waive in its terms of service, and it would let every state attorney general sue on residents' behalf.",
-  "who_benefits_short": "Internet users whose data is collected and sold",
+  "plain_summary": "The bill would treat the companies that collect your online data like fiduciaries: they would have to secure it, tell you quickly if sensitive data is breached, and could not use or sell it in ways that hurt you. The Federal Trade Commission and state attorneys general would enforce the rules, with penalties that scale by the number of days out of compliance or users harmed. The bill also covers nonprofits and phone and cable companies, which the FTC normally cannot police.",
+  "who_benefits": "Everyone who uses the internet. The bill gives legal duties to the platforms, apps, and services that collect data linked to you — including health data, precise location, biometrics, and private messages. It requires them to secure that data, notify you of breaches of sensitive information, and stops them from selling or sharing your data with outside firms unless those firms agree to the same duties and can be audited. State attorneys general could sue violators and collect penalties that grow with the number of users harmed, and the rights could not be signed away in a terms-of-service agreement.",
+  "who_benefits_short": "Internet users and their personal data",
   "how_it_helps": [
    {
-    "text": "Requires online providers to reasonably secure personal data and promptly notify users of breaches involving sensitive data such as Social Security numbers, financial accounts, health information, biometrics, and precise location [S2].",
+    "text": "Requires online service providers to reasonably secure individual identifying data and to promptly inform users of any breach involving their sensitive data, such as health records, precise location, financial account numbers, or biometric identifiers.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Bars companies from using personal data in ways that benefit the company to the user's detriment and cause foreseeable physical or financial harm, or that would be highly offensive to a reasonable user [S2].",
+    "text": "Bars providers from using personal data, or data derived from it, in any way that benefits the provider to the user's detriment and causes foreseeable material physical or financial harm, or that would be unexpected and highly offensive to a reasonable user.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Prohibits selling or sharing personal data except with companies that contractually assume the same duties, and requires regular audits of those companies' data practices [S2].",
+    "text": "Prohibits selling or sharing personal data with anyone else unless that person signs a contract imposing the same duties of care, loyalty, and confidentiality — and the provider audits that person's data practices on a regular basis.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "Lets state attorneys general sue violators on behalf of residents, with penalties scaled to the number of days of noncompliance or the number of harmed users, and makes the rights unwaivable by contract [S2].",
+    "text": "Enforcement runs through the FTC as an unfair or deceptive practice and through state attorneys general, who can win civil penalties calculated per day of noncompliance or per user harmed; the bill extends FTC authority to nonprofits and common carriers, which the FTC Act normally does not cover.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "The new rights and remedies cannot be waived or limited by contract, so a click-through terms-of-service agreement cannot strip them away.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "who_pays": "Online companies that profit from collecting and monetizing user data — large platforms, advertising technology firms, and data brokers above all — would bear compliance costs and lose revenue from unrestricted data sharing. Some costs could eventually reach users as advertising-supported services adjust their business models.",
-  "who_pays_short": "Data-driven online platforms and advertising companies",
+  "who_pays": "Online companies that monetize personal data — advertising-driven platforms, data brokers, and app networks — would bear compliance costs, audit obligations, restrictions on selling or sharing data, and penalty exposure from FTC and state attorney general lawsuits. Some of those costs could reach users through higher prices, more paywalls, or fewer free ad-supported services.",
+  "who_pays_short": "Data-driven platforms and data brokers",
   "drawbacks": [
    {
-    "text": "The 'online service provider' definition is very broad — any business that collects data linkable to a user over the internet — so small websites and apps could face real compliance costs, though the FTC may exempt categories of providers based on size, complexity, and the sensitivity of data handled [S2].",
+    "text": "Individuals cannot sue on their own; enforcement depends entirely on the FTC and state attorneys general, so a person whose data was misused has no personal day-in-court remedy under this bill.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "The duty of loyalty standard — barring uses that benefit the company to a user's 'detriment' — is broad and would be defined through FTC rulemaking and enforcement, creating uncertainty for businesses about which common practices (personalized ads, A/B testing, targeted promotions) are allowed [S2].",
+    "text": "State civil penalties apply only to providers that 'knowingly or repeatedly' violated the duties, so a first-time careless violator faces FTC remedies but not the per-user state penalty.",
     "sources": [
      "S2"
     ]
    },
    {
-    "text": "There is no private right of action: individual users could not sue on their own; enforcement runs only through the FTC and state attorneys general, so remedies depend on government prosecutors' priorities [S2].",
+    "text": "The FTC can exempt categories of providers based on their size, complexity, and the costs and benefits of applying the duties, which could leave smaller firms outside the protections while the largest data collectors remain fully covered.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Standards like 'unexpected and highly offensive' and 'detriment' are broad, and the audit and data-segregation obligations would impose real compliance costs; critics would argue those costs get passed to users and that legal uncertainty chills product development.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "benefit_vs_cost": "The core bargain is straightforward: consumers gain enforceable protections over data that today is largely governed by whatever a company's terms of service say, while data-driven companies bear compliance costs and lose some flexibility to monetize user information. The bill is deliberately built to allow flexibility — the FTC can tailor rules, exempt small providers, and expand breach-notification duties — and it leaves existing privacy laws untouched. Its main weakness is that without a private right of action, protection depends on FTC and state attorney general enforcement. On balance, it is a meaningful consumer protection with a real but manageable compliance cost, and its principal burden falls on companies whose revenue depends on extensive data collection.",
+  "benefit_vs_cost": "The benefits are broad and concrete: breach notification for sensitive data, a legal backstop against selling personal data to unchecked third parties, and penalties that scale with the number of people harmed. The main honest criticisms are structural — no private right of action and regulator discretion to exempt small firms — plus genuine compliance costs for data-dependent businesses. On balance this is a consumer-protection bill whose costs fall mostly on companies whose revenue depends on unrestrained data collection, not on the people whose data it is.",
   "outcome": {
    "status": "pending",
-   "mechanism": "The bill was introduced and referred to the Senate Commerce Committee on December 18, 2025; the committee has not held a hearing, marked it up, or sent it to the floor, and nothing has happened since.",
+   "mechanism": "It was referred to the Senate Commerce Committee on the day it was introduced and no committee or floor action has been taken since.",
    "narrative": [
     {
-     "text": "Sen. Brian Schatz introduced the Data Care Act of 2025 on December 18, 2025, joined by 14 cosponsors — 12 Democrats and 2 Independents [S1][S3].",
+     "text": "Sen. Brian Schatz introduced the Data Care Act of 2025 in the Senate on December 18, 2025.",
      "sources": [
       "S1",
-      "S3"
+      "S2",
+      "S4"
      ]
     },
     {
-     "text": "The bill was read twice and referred to the Committee on Commerce, Science, and Transportation, which is its only action to date [S4].",
+     "text": "The bill was read twice and referred to the Committee on Commerce, Science, and Transportation the same day.",
      "sources": [
       "S4"
      ]
     },
     {
-     "text": "No Republican senators have cosponsored the bill, and the Senate remains in session, so the bill could still move if the committee acts on it [S3].",
+     "text": "Fourteen senators cosponsored the bill — 12 of the 45 Senate Democrats and both Senate independents (Angus King and Bernie Sanders); no Republican has signed on.",
      "sources": [
-      "S3"
-     ]
-    }
-   ],
-   "who_came_out_ahead": "No one has won or lost yet. Online companies continue to collect and monetize user data under existing law, because the bill has not advanced beyond referral to committee."
-  },
-  "who_came_out_ahead_short": "Nothing has happened yet; platforms keep current rules",
-  "sides": {
-   "for": [
-    {
-     "name": "Sen. Brian Schatz",
-     "role": "Lead sponsor (D-HI)",
-     "party": "D",
-     "what_they_did": "Introduced the bill and organized 14 cosponsors, all from his own caucus",
-     "direct": true,
-     "evidence": "record",
-     "sources": [
-      "S1",
       "S3"
      ]
     },
     {
-     "name": "Sen. Tammy Baldwin, Sen. Cory Booker, Sen. Tammy Duckworth, Sen. Dick Durbin, Sen. Angus King, Sen. Ed Markey group, Sen. Chris Murphy, Sen. Jeff Merkley, Sen. Bernie Sanders, Sen. Tina Smith, Sen. Peter Welch, Sen. Elizabeth Warren and others",
-     "role": "Original cosponsors",
-     "party": "D/I",
-     "what_they_did": "Signed on as original cosponsors when the bill was introduced",
+     "text": "The full action history shows no hearing, markup, committee vote, or floor action after the referral to committee.",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "As of now, the online platforms and data brokers that profit from unrestricted collection and resale of personal data are better off: the status quo continues while the bill waits in committee with no scheduled action."
+  },
+  "who_came_out_ahead_short": "Platforms and data brokers, for now",
+  "sides": {
+   "for": [
+    {
+     "name": "Sen. Brian Schatz",
+     "role": "U.S. Senator from Hawaii; bill sponsor",
+     "party": "D",
+     "what_they_did": "Introduced the Data Care Act of 2025 and recruited 14 cosponsors.",
      "direct": true,
      "evidence": "record",
      "sources": [
-      "S2",
+      "S1",
+      "S4"
+     ]
+    },
+    {
+     "name": "12 of 45 Senate Democrats",
+     "role": "Democratic cosponsors",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "name": "2 of 2 Senate independents",
+     "role": "Independent cosponsors (Sen. King and Sen. Sanders)",
+     "party": "I",
+     "what_they_did": "Cosponsored the bill.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
       "S3"
      ]
     }
    ],
-   "against": [],
-   "party_line": "party_line",
-   "party_line_note": "All 15 sponsors and cosponsors are Democrats or Independents; no Republican has signed on, so the bill's path likely runs through partisan negotiation that has not yet begun."
+   "against": [
+    {
+     "name": "Sen. Ted Cruz",
+     "role": "Chair, Senate Committee on Commerce, Science, and Transportation",
+     "party": "R",
+     "what_they_did": "Has not scheduled a hearing or markup on the bill; the committee has taken no action since the referral.",
+     "direct": true,
+     "evidence": "widely_reported",
+     "sources": []
+    },
+    {
+     "name": "Sen. John Thune",
+     "role": "Senate Majority Leader",
+     "party": "R",
+     "what_they_did": "Has not brought the bill to the Senate floor for a vote.",
+     "direct": true,
+     "evidence": "widely_reported",
+     "sources": []
+    }
+   ],
+   "party_line": "mostly_party_line",
+   "party_line_note": "Every cosponsor is a Democrat or independent (12 of 45 Senate Democrats plus both independents); none of the 55 Senate Republicans has signed on, and the Republican-controlled committee and floor schedule have left the bill untouched since referral."
   },
   "industries": [
    {
-    "industry": "Online platforms and advertising technology (data-driven internet companies)",
-    "effect": "loses",
+    "industry": "Advertising-driven online platforms (search, social media, app networks)",
+    "effect": "mixed",
     "stance_toward_public": "opposed",
-    "note": "The bill directly targets the business of collecting and monetizing user data: it bars selling or sharing personal data except under contracts that carry the same duties, and restricts uses that benefit the company to users' detriment. Data-driven ad targeting and data brokerage revenue are the main things constrained, and the constraint is the point — that is where consumer privacy gains come from.",
+    "note": "These companies would have to secure the personal data they collect, notify users of sensitive-data breaches, and stop selling or sharing data with firms that do not take on the same duties — constraints aimed squarely at the behavioral-advertising business model. They keep operating under the law, but their freedom to monetize data against users' interests ends.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Data brokers and secondary data markets",
+    "industry": "Data brokers and data analytics firms",
     "effect": "loses",
     "stance_toward_public": "opposed",
-    "note": "These firms exist to trade individual identifying data; the duty of confidentiality and mandatory downstream contracts sharply limit what they can lawfully buy, sell, and share. Consumers gain because their data moves under enforceable duties rather than freely between intermediaries.",
+    "note": "The bill bars providers from selling or transferring personal data unless the buyer contracts to the same care, loyalty, and confidentiality duties and submits to regular audits, and state attorneys general can pursue penalties per user harmed. Their resale-and-profiling model depends on data moving without those strings.",
     "sources": [
      "S2"
     ]
    },
    {
-    "industry": "Small websites, apps, and online merchants",
+    "industry": "Telecom and cable companies (common carriers)",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "The bill expressly extends FTC enforcement to common carriers, closing a long-standing jurisdictional gap that has shielded broadband and wireless providers from FTC privacy policing.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Nonprofit organizations handling user data",
+    "effect": "loses",
+    "stance_toward_public": "aligned",
+    "note": "The bill covers nonprofits that collect personal data, which the FTC Act generally does not reach, closing another enforcement gap.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "industry": "Small online businesses and startups",
     "effect": "mixed",
     "stance_toward_public": "mixed",
-    "note": "The bill covers any online business that collects linkable user data, so small operators face compliance costs, though they could also benefit from stronger security expectations across the services they use. The FTC may exempt categories of providers based on size and the sensitivity of data they handle, which would ease the burden.",
+    "note": "The FTC may exempt providers by size after weighing privacy risk against compliance costs, so the smallest firms may escape the duties — relief for them, but a protection gap for their users.",
     "sources": [
      "S2"
     ]
    }
   ],
-  "trajectory": "A bill at this stage — introduced days before the end of the first session, with no hearing or markup scheduled and no Republican cosponsors — historically has a very low chance of becoming law. Its realistic path would require the Senate Commerce Committee to take it up in the second session and bipartisan negotiation to begin; until that happens, it is likely to sit in committee like most referred bills.",
+  "trajectory": "The bill has no Republican cosponsors, and the Senate Commerce Committee has taken no action in the weeks since referral. The most likely path is that it sits in committee without a hearing or vote until the 119th Congress ends, as prior versions of this proposal have done; movement would require the committee chair to schedule action or a bipartisan cosponsor to change the calculus.",
   "categories": [
    "consumer_protection_and_finance"
   ],
   "scores": {
-   "public_stakes": 7,
-   "concentrated_stakes": 8,
-   "outcome_against_public": 1,
-   "support_mismatch": 2,
-   "corruption_relevance": 2,
-   "confidence": 0.85
+   "public_stakes": 6,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 4,
+   "support_mismatch": 3,
+   "corruption_relevance": 1,
+   "confidence": 0.9
   }
  },
  "unresolved_citations": []
