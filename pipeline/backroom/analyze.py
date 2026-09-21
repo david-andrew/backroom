@@ -82,7 +82,7 @@ def analyze(rec: BillRecord, bill_text: str, model_id: str = config.ANALYSIS_MOD
     # A closed Congress has no pending bills: absent any passage, law, or veto action, it simply never got a vote.
     if rec.congress_ended and analysis.outcome.status == "pending":
         acts = " ".join(a.text for a in rec.actions).lower()
-        if not re.search(r"passed|became public law|vetoed|agreed to", acts):
+        if not re.search(r"\bpassed\b|on passage|became public law|vetoed|cloture", acts):
             analysis.outcome.status = "never_got_a_vote"
     # A sitting Congress cannot have killed a bill yet; the model sometimes reaches for a final status anyway.
     if not rec.congress_ended and analysis.outcome.status in ("never_got_a_vote", "passed_one_chamber_then_stalled", "blocked_from_a_vote", "voted_down"):
