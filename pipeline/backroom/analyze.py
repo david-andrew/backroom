@@ -191,7 +191,8 @@ def run_all(slugs: list[str], force: bool = False, model_id: str = config.ANALYS
         for ln in lines:
             if ln.startswith(("=", ">")):
                 print("  " + ln, flush=True)
-        err = next((ln for ln in lines if ln.startswith("!")), None)
+        # Citation warnings are advisory (lint surfaces them); only real failures count.
+        err = next((ln for ln in lines if ln.startswith("!") and "citations not in source list" not in ln), None)
         if r.returncode != 0 or err:
             return slug, (err or f"exit {r.returncode}: {out[-300:]}")
         return slug, None
