@@ -40,14 +40,21 @@ class CongressClient:
 
     def _get(self, path: str, params: dict[str, Any] | None = None) -> dict:
         params = {"format": "json", "api_key": self.api_key, **(params or {})}
-        for attempt in range(4):
-            r = self.http.get(f"{API}/{path.lstrip('/')}", params=params)
-            if r.status_code == 429:
+        last: Exception | None = None
+        for attempt in range(6):
+            try:
+                r = self.http.get(f"{API}/{path.lstrip('/')}", params=params)
+            except (httpx.TransportError, httpx.RemoteProtocolError) as e:  # dropped connection, timeout: retry
+                last = e
+                time.sleep(5 * (attempt + 1))
+                continue
+            if r.status_code == 429 or r.status_code >= 500:
+                last = RuntimeError(f"HTTP {r.status_code}")
                 time.sleep(15 * (attempt + 1))
                 continue
             r.raise_for_status()
             return r.json()
-        raise RuntimeError(f"rate limited on {path}")
+        raise RuntimeError(f"giving up on {path}: {last}")
 
     def _cached(self, slug: str, name: str, fetch, force: bool = False):
         p = self.cache_dir / slug / f"{name}.json"
