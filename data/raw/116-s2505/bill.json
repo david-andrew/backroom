@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/2505/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2505/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 20,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/116/s/2505/cosponsors?format=json"
+  },
+  "introducedDate": "2019-09-18",
+  "latestAction": {
+   "actionDate": "2019-09-18",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/2505",
+  "number": "2505",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001267",
+    "firstName": "Michael",
+    "fullName": "Sen. Bennet, Michael F. [D-CO]",
+    "isByRequest": "N",
+    "lastName": "Bennet",
+    "party": "D",
+    "state": "CO",
+    "url": "https://api.congress.gov/v3/member/B001267?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 26,
+   "url": "https://api.congress.gov/v3/bill/116/s/2505/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2505/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2505/text?format=json"
+  },
+  "title": "Clean Air, Healthy Kids Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/2505/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:09:59Z"
+ },
+ "request": {
+  "billNumber": "2505",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/681/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/681/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/681/cosponsors?format=json"
+  },
+  "introducedDate": "2019-03-06",
+  "latestAction": {
+   "actionDate": "2019-03-06",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/681",
+  "number": "681",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Education"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/681/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000779",
+    "firstName": "Ron",
+    "fullName": "Sen. Wyden, Ron [D-OR]",
+    "isByRequest": "N",
+    "lastName": "Wyden",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/W000779?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/116/s/681/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/681/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/681/text?format=json"
+  },
+  "title": "Student Right to Know Before You Go Act of 2019",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/681/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T20:05:04Z",
+  "updateDateIncludingText": "2025-12-05T20:05:04Z"
+ },
+ "request": {
+  "billNumber": "681",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

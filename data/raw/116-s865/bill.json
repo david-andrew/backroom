@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/865/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/865/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/865/cosponsors?format=json"
+  },
+  "introducedDate": "2019-03-25",
+  "latestAction": {
+   "actionDate": "2019-03-25",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/865",
+  "number": "865",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001198",
+    "firstName": "Dan",
+    "fullName": "Sen. Sullivan, Dan [R-AK]",
+    "isByRequest": "N",
+    "lastName": "Sullivan",
+    "party": "R",
+    "state": "AK",
+    "url": "https://api.congress.gov/v3/member/S001198?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/116/s/865/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/865/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/865/text?format=json"
+  },
+  "title": "Spill Response and Prevention Surety Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/865/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-03T02:53:33Z",
+  "updateDateIncludingText": "2025-01-03T02:53:33Z"
+ },
+ "request": {
+  "billNumber": "865",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

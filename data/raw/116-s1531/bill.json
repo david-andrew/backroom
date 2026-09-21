@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/1531/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/1531/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/116/s/1531/cosponsors?format=json"
+  },
+  "introducedDate": "2019-05-16",
+  "latestAction": {
+   "actionDate": "2019-05-16",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/1531",
+  "number": "1531",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001075",
+    "firstName": "Bill",
+    "fullName": "Sen. Cassidy, Bill [R-LA]",
+    "isByRequest": "N",
+    "lastName": "Cassidy",
+    "party": "R",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/C001075?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/116/s/1531/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/1531/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/1531/text?format=json"
+  },
+  "title": "STOP Surprise Medical Bills Act of 2019",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/116/s/1531/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:24:17Z"
+ },
+ "request": {
+  "billNumber": "1531",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

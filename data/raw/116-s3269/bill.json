@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/3269/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/3269/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 33,
+   "countIncludingWithdrawnCosponsors": 33,
+   "url": "https://api.congress.gov/v3/bill/116/s/3269/cosponsors?format=json"
+  },
+  "introducedDate": "2020-02-11",
+  "latestAction": {
+   "actionDate": "2020-02-11",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/3269",
+  "number": "3269",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000174",
+    "firstName": "Thomas",
+    "fullName": "Sen. Carper, Thomas R. [D-DE]",
+    "isByRequest": "N",
+    "lastName": "Carper",
+    "middleName": "R.",
+    "party": "D",
+    "state": "DE",
+    "url": "https://api.congress.gov/v3/member/C000174?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/116/s/3269/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/3269/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/3269/text?format=json"
+  },
+  "title": "Clean Economy Act of 2020",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/3269/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:12:22Z"
+ },
+ "request": {
+  "billNumber": "3269",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/1209/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/1209/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/116/s/1209/cosponsors?format=json"
+  },
+  "introducedDate": "2019-04-11",
+  "latestAction": {
+   "actionDate": "2019-04-11",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/1209",
+  "number": "1209",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/1209/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001075",
+    "firstName": "Bill",
+    "fullName": "Sen. Cassidy, Bill [R-LA]",
+    "isByRequest": "N",
+    "lastName": "Cassidy",
+    "party": "R",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/C001075?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/116/s/1209/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/1209/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/1209/text?format=json"
+  },
+  "title": "REMEDY Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/116/s/1209/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T19:22:57Z",
+  "updateDateIncludingText": "2025-12-05T19:22:57Z"
+ },
+ "request": {
+  "billNumber": "1209",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

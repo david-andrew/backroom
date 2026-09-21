@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/2199/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2199/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/2199/cosponsors?format=json"
+  },
+  "introducedDate": "2019-07-22",
+  "latestAction": {
+   "actionDate": "2019-07-22",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/2199",
+  "number": "2199",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2199/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001181",
+    "firstName": "Jeanne",
+    "fullName": "Sen. Shaheen, Jeanne [D-NH]",
+    "isByRequest": "N",
+    "lastName": "Shaheen",
+    "party": "D",
+    "state": "NH",
+    "url": "https://api.congress.gov/v3/member/S001181?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/116/s/2199/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2199/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2199/text?format=json"
+  },
+  "title": "Insulin Price Reduction Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/2199/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T21:05:03Z",
+  "updateDateIncludingText": "2025-12-05T21:05:03Z"
+ },
+ "request": {
+  "billNumber": "2199",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

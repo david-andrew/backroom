@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/219/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/219/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/219/cosponsors?format=json"
+  },
+  "introducedDate": "2019-01-24",
+  "latestAction": {
+   "actionDate": "2019-01-24",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/219",
+  "number": "219",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/219/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000944",
+    "firstName": "Sherrod",
+    "fullName": "Sen. Brown, Sherrod [D-OH]",
+    "isByRequest": "N",
+    "lastName": "Brown",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/B000944?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/116/s/219/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/219/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/219/text?format=json"
+  },
+  "title": "Corporate Freeloader Fee Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/219/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-03T01:25:06Z",
+  "updateDateIncludingText": "2025-01-03T01:25:06Z"
+ },
+ "request": {
+  "billNumber": "219",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

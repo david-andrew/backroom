@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/690/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/690/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 37,
+   "countIncludingWithdrawnCosponsors": 37,
+   "url": "https://api.congress.gov/v3/bill/116/s/690/cosponsors?format=json"
+  },
+  "introducedDate": "2019-03-06",
+  "latestAction": {
+   "actionDate": "2019-03-06",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/690",
+  "number": "690",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/690/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001267",
+    "firstName": "Michael",
+    "fullName": "Sen. Bennet, Michael F. [D-CO]",
+    "isByRequest": "N",
+    "lastName": "Bennet",
+    "party": "D",
+    "state": "CO",
+    "url": "https://api.congress.gov/v3/member/B001267?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/116/s/690/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/690/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/690/text?format=json"
+  },
+  "title": "American Family Act of 2019",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/690/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-13T18:22:43Z",
+  "updateDateIncludingText": "2026-01-13T18:22:43Z"
+ },
+ "request": {
+  "billNumber": "690",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

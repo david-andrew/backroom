@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/2101/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2101/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/116/s/2101/cosponsors?format=json"
+  },
+  "introducedDate": "2019-07-11",
+  "latestAction": {
+   "actionDate": "2019-07-11",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/2101",
+  "number": "2101",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/2101/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001111",
+    "firstName": "Patty",
+    "fullName": "Sen. Murray, Patty [D-WA]",
+    "isByRequest": "N",
+    "lastName": "Murray",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/M001111?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/116/s/2101/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2101/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2101/text?format=json"
+  },
+  "title": "Wage Theft Prevention and Wage Recovery Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/2101/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-20T16:38:39Z",
+  "updateDateIncludingText": "2026-01-20T16:38:39Z"
+ },
+ "request": {
+  "billNumber": "2101",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

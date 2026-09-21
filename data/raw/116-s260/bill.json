@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/260/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/260/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/116/s/260/cosponsors?format=json"
+  },
+  "introducedDate": "2019-01-29",
+  "latestAction": {
+   "actionDate": "2019-01-29",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/260",
+  "number": "260",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/260/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001070",
+    "firstName": "Bob",
+    "fullName": "Sen. Casey, Robert P., Jr. [D-PA]",
+    "isByRequest": "N",
+    "lastName": "Casey",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/C001070?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/116/s/260/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/260/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/260/text?format=json"
+  },
+  "title": "Transformation to Competitive Employment Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/260/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T18:18:18Z",
+  "updateDateIncludingText": "2025-12-05T18:18:18Z"
+ },
+ "request": {
+  "billNumber": "260",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

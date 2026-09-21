@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/120/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/120/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 35,
+   "countIncludingWithdrawnCosponsors": 35,
+   "url": "https://api.congress.gov/v3/bill/116/s/120/cosponsors?format=json"
+  },
+  "introducedDate": "2019-01-15",
+  "latestAction": {
+   "actionDate": "2019-01-15",
+   "text": "Read twice and referred to the Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/120",
+  "number": "120",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/120/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000367",
+    "firstName": "Amy",
+    "fullName": "Sen. Klobuchar, Amy [D-MN]",
+    "isByRequest": "N",
+    "lastName": "Klobuchar",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/K000367?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/116/s/120/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/120/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/120/text?format=json"
+  },
+  "title": "Protecting Domestic Violence and Stalking Victims Act of 2019",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/120/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "120",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/4490/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/4490/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/4490/cosponsors?format=json"
+  },
+  "introducedDate": "2020-08-06",
+  "latestAction": {
+   "actionDate": "2020-08-06",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/4490",
+  "number": "4490",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/4490/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000033",
+    "firstName": "Bernard",
+    "fullName": "Sen. Sanders, Bernard [I-VT]",
+    "isByRequest": "N",
+    "lastName": "Sanders",
+    "party": "I",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/S000033?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/116/s/4490/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/4490/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/4490/text?format=json"
+  },
+  "title": "Make Billionaires Pay Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/4490/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-20T19:53:13Z",
+  "updateDateIncludingText": "2026-01-20T19:53:13Z"
+ },
+ "request": {
+  "billNumber": "4490",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

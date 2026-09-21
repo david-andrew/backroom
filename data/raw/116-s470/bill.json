@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/470/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/470/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 20,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/116/s/470/cosponsors?format=json"
+  },
+  "introducedDate": "2019-02-13",
+  "latestAction": {
+   "actionDate": "2019-02-13",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/470",
+  "number": "470",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/470/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000770",
+    "firstName": "Debbie",
+    "fullName": "Sen. Stabenow, Debbie [D-MI]",
+    "isByRequest": "N",
+    "lastName": "Stabenow",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/S000770?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/116/s/470/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/470/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/470/text?format=json"
+  },
+  "title": "Medicare at 50 Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/470/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-03T01:27:48Z",
+  "updateDateIncludingText": "2025-01-03T01:27:48Z"
+ },
+ "request": {
+  "billNumber": "470",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

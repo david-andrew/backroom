@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/97/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/97/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/116/s/97/cosponsors?format=json"
+  },
+  "introducedDate": "2019-01-10",
+  "latestAction": {
+   "actionDate": "2019-01-10",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/97",
+  "number": "97",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/116/s/97/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000033",
+    "firstName": "Bernard",
+    "fullName": "Sen. Sanders, Bernard [I-VT]",
+    "isByRequest": "N",
+    "lastName": "Sanders",
+    "party": "I",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/S000033?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/116/s/97/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/97/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/97/text?format=json"
+  },
+  "title": "Affordable and Safe Prescription Drug Importation Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/97/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T16:20:47Z",
+  "updateDateIncludingText": "2025-12-05T16:20:47Z"
+ },
+ "request": {
+  "billNumber": "97",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/378/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/378/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/116/s/378/cosponsors?format=json"
+  },
+  "introducedDate": "2019-02-07",
+  "latestAction": {
+   "actionDate": "2019-02-07",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/378",
+  "number": "378",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/378/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000944",
+    "firstName": "Sherrod",
+    "fullName": "Sen. Brown, Sherrod [D-OH]",
+    "isByRequest": "N",
+    "lastName": "Brown",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/B000944?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/116/s/378/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/378/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/378/text?format=json"
+  },
+  "title": "Stop Price Gouging Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/378/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-20T17:11:03Z",
+  "updateDateIncludingText": "2026-01-20T17:11:03Z"
+ },
+ "request": {
+  "billNumber": "378",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

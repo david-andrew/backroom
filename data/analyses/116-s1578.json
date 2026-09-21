@@ -1,0 +1,197 @@
+{
+ "bill_id": "116-s1578",
+ "model": "z-ai/glm-5.3-flash",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-21T11:55:57+00:00",
+ "record_fetched_at": "2026-09-21T10:35:33+00:00",
+ "record_hash": "cedde7b94e9c9346",
+ "analysis": {
+  "one_liner": "Lets internet users send a legal do-not-track signal that websites must honor.",
+  "headline": "The bill was introduced with bipartisan sponsorship in May 2019 but never received a committee hearing or a vote before the Congress ended.",
+  "direction": "for_working_people",
+  "plain_summary": "The bill would have required the Federal Trade Commission to create a downloadable Do Not Track program that automatically tells every website a person visits not to collect their data. Sites that received the signal could no longer gather information beyond what they need to run the site, target ads at the user, or share the user's data with outside companies without clear consent. Violations would carry civil penalties, and state attorneys general could sue.",
+  "who_benefits": "Ordinary internet users. Anyone browsing the web or using a phone app could, with one setting, stop websites and third-party trackers from harvesting their data for advertising profiles. Consumers whose devices send the signal could not be denied service or given worse service for opting out.",
+  "who_benefits_short": "Everyday internet users",
+  "how_it_helps": [
+   {
+    "text": "The FTC must designate a do-not-track signal and make a simple downloadable program that sends it to every site and app a device connects to [S2][S3].",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Sites that receive the signal may only collect data necessary to operate the service, may not use collected data for targeted advertising, and may not share it with third parties without express consent [S2][S3].",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Third-party programs like ad trackers and login buttons could only collect de-identified engagement data and could not build profiles of users [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Operators may not deny users access or give them inferior service because their device sent the do-not-track signal [S2][S3].",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Violations carry civil penalties, up to $1,000 per affected user per day for willful violations, and state attorneys general can sue on behalf of residents [S3].",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
+  "who_pays": "Online advertisers, data brokers, and websites that fund free services through advertising. Sites could still run ads, but ads could no longer be targeted based on profiles of users who opt out, and the industry's business model of collecting and selling behavioral data would shrink. Sites would also bear costs to detect the signal and limit their data practices.",
+  "who_pays_short": "Ad-tech firms and data-driven websites",
+  "drawbacks": [
+   {
+    "text": "The bill takes effect six months after enactment, giving the FTC a very short window to build a nationwide tracking-preference system and giving companies little time to re-engineer data practices [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "A 'complementary services' exception lets a company collect extra data across websites and apps it owns and brands as complementary, which favors large platforms with many properties over smaller competitors and could let big firms keep assembling user profiles internally [S3].",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Much of the free internet is funded by advertising; sharply limiting data collection for users who opt out could pressure the ad-supported model, though contextual advertising — ads based on page content rather than personal profiles — remains allowed [S3].",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
+  "benefit_vs_cost": "The core protection is real and straightforward: users get a working, legally enforceable off switch for data harvesting, something a browser setting alone has never provided because the industry was free to ignore it. The trade-offs are modest but genuine — a rushed six-month rollout, and an exception for large platforms' own services that advantages them against rivals. On balance the bill's main effects run toward consumer privacy and against the behavioral-advertising data trade.",
+  "outcome": {
+   "status": "never_got_a_vote",
+   "mechanism": "It was introduced and sent to the Senate Commerce Committee, which never acted on it, and the bill died there when the two-year Congress ended.",
+   "narrative": [
+    {
+     "text": "Senator Josh Hawley introduced the Do Not Track Act on May 21, 2019, with two Democratic cosponsors [S1][S4].",
+     "sources": [
+      "S1",
+      "S4"
+     ]
+    },
+    {
+     "text": "The Senate read the bill twice and referred it to the Committee on Commerce, Science, and Transportation on the day it was introduced [S5].",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "text": "No further action appears in the record — no hearing, no committee vote, no floor action — through the end of the 116th Congress [S5].",
+     "sources": [
+      "S5"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "Online advertising networks, data brokers, and the large platforms whose revenue depends on harvesting user data are better off because the bill never advanced; ordinary internet users never got the enforceable opt-out it offered."
+  },
+  "who_came_out_ahead_short": "Ad-tech and data-harvesting firms",
+  "sides": {
+   "for": [
+    {
+     "name": "Sen. Josh Hawley",
+     "role": "U.S. Senator (MO), bill sponsor",
+     "party": "R",
+     "what_they_did": "Introduced the Do Not Track Act on May 21, 2019",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S5"
+     ]
+    },
+    {
+     "name": "2 Democratic senators",
+     "role": "Cosponsors of S. 1578",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
+   "against": [
+    {
+     "name": "Senate Committee on Commerce, Science, and Transportation",
+     "role": "Committee of jurisdiction",
+     "party": null,
+     "what_they_did": "Referred the bill on the day of introduction and took no further action on it for the rest of the Congress",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S5"
+     ]
+    },
+    {
+     "name": "Digital advertising and data-broker industry",
+     "role": "Industry dependent on behavioral data collection",
+     "party": null,
+     "what_they_did": "Opposed do-not-track mandates that would curb the collection of consumer data for targeted advertising",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
+    }
+   ],
+   "party_line": "unclear",
+   "party_line_note": "Sponsorship was bipartisan — a Republican lead sponsor with two Democratic cosponsors — but there were no votes or committee actions to show where the parties lined up."
+  },
+  "industries": [
+   {
+    "industry": "Online ad networks and data brokers",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "These companies profit by tracking people across websites and building profiles for targeted ads. The bill would make it unlawful to collect that data once a user sends the do-not-track signal, cutting off a large share of their raw material.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "industry": "Large tech platforms and social media",
+    "effect": "mixed",
+    "stance_toward_public": "opposed",
+    "note": "Platforms would lose the ability to target ads at opted-out users and share their data with third parties. But the bill's exception for a company's own 'complementary' sites and apps lets large multi-service platforms keep collecting data across their properties — an edge over smaller competitors. Their interest in keeping the data economy intact runs against users' privacy.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "industry": "Websites and app operators generally",
+    "effect": "mixed",
+    "stance_toward_public": "opposed",
+    "note": "Every commercial site or app would have to detect the signal, limit collection, and show notices about its data practices, adding compliance costs. In exchange, users who opt out remain fully served, since refusing access or downgrading service for them is unlawful.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   }
+  ],
+  "trajectory": null,
+  "categories": [
+   "consumer_protection_and_finance",
+   "corruption_and_ethics"
+  ],
+  "scores": {
+   "public_stakes": 7,
+   "concentrated_stakes": 8,
+   "outcome_against_public": 7,
+   "support_mismatch": 4,
+   "corruption_relevance": 2,
+   "confidence": 0.85
+  }
+ },
+ "unresolved_citations": []
+}

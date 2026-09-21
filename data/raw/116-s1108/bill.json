@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/1108/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/1108/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/1108/cosponsors?format=json"
+  },
+  "introducedDate": "2019-04-10",
+  "latestAction": {
+   "actionDate": "2019-04-10",
+   "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation. (Sponsor introductory remarks on measure: CR S2389)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/1108",
+  "number": "1108",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/1108/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000779",
+    "firstName": "Ron",
+    "fullName": "Sen. Wyden, Ron [D-OR]",
+    "isByRequest": "N",
+    "lastName": "Wyden",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/W000779?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/116/s/1108/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/1108/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/1108/text?format=json"
+  },
+  "title": "Algorithmic Accountability Act of 2019",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/1108/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:03:40Z"
+ },
+ "request": {
+  "billNumber": "1108",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

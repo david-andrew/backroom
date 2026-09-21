@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/2205/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2205/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/116/s/2205/cosponsors?format=json"
+  },
+  "introducedDate": "2019-07-23",
+  "latestAction": {
+   "actionDate": "2019-07-23",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/2205",
+  "number": "2205",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001070",
+    "firstName": "Bob",
+    "fullName": "Sen. Casey, Robert P., Jr. [D-PA]",
+    "isByRequest": "N",
+    "lastName": "Casey",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/C001070?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 25,
+   "url": "https://api.congress.gov/v3/bill/116/s/2205/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2205/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2205/text?format=json"
+  },
+  "title": "Black Lung Benefits Improvement Act of 2019",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/2205/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:24:17Z"
+ },
+ "request": {
+  "billNumber": "2205",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

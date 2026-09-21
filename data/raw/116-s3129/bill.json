@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/3129/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/3129/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/116/s/3129/cosponsors?format=json"
+  },
+  "introducedDate": "2019-12-19",
+  "latestAction": {
+   "actionDate": "2019-12-19",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/3129",
+  "number": "3129",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/116/s/3129/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000880",
+    "firstName": "Mike",
+    "fullName": "Sen. Crapo, Mike [R-ID]",
+    "isByRequest": "N",
+    "lastName": "Crapo",
+    "party": "R",
+    "state": "ID",
+    "url": "https://api.congress.gov/v3/member/C000880?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 31,
+   "url": "https://api.congress.gov/v3/bill/116/s/3129/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/3129/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/3129/text?format=json"
+  },
+  "title": "Lower Costs, More Cures Act of 2019",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/3129/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-03T03:19:19Z",
+  "updateDateIncludingText": "2025-01-03T03:19:19Z"
+ },
+ "request": {
+  "billNumber": "3129",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

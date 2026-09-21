@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/3749/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/3749/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 12,
+   "countIncludingWithdrawnCosponsors": 12,
+   "url": "https://api.congress.gov/v3/bill/116/s/3749/cosponsors?format=json"
+  },
+  "introducedDate": "2020-05-14",
+  "latestAction": {
+   "actionDate": "2020-05-14",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/3749",
+  "number": "3749",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/3749/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001277",
+    "firstName": "Richard",
+    "fullName": "Sen. Blumenthal, Richard [D-CT]",
+    "isByRequest": "N",
+    "lastName": "Blumenthal",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/B001277?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/116/s/3749/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/3749/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/3749/text?format=json"
+  },
+  "title": "Public Health Emergency Privacy Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/3749/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-10T00:31:51Z",
+  "updateDateIncludingText": "2025-12-10T00:31:51Z"
+ },
+ "request": {
+  "billNumber": "3749",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

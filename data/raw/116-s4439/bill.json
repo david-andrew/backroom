@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/4439/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/4439/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/116/s/4439/cosponsors?format=json"
+  },
+  "introducedDate": "2020-08-05",
+  "latestAction": {
+   "actionDate": "2020-08-05",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/4439",
+  "number": "4439",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/4439/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001203",
+    "firstName": "Tina",
+    "fullName": "Sen. Smith, Tina [D-MN]",
+    "isByRequest": "N",
+    "lastName": "Smith",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/S001203?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/116/s/4439/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/4439/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/4439/text?format=json"
+  },
+  "title": "MMAPPP Act of 2020",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/116/s/4439/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-10T21:07:49Z",
+  "updateDateIncludingText": "2026-01-10T21:07:49Z"
+ },
+ "request": {
+  "billNumber": "4439",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

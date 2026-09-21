@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/116/s/603/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/603/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/603/cosponsors?format=json"
+  },
+  "introducedDate": "2019-02-28",
+  "latestAction": {
+   "actionDate": "2019-03-27",
+   "text": "Committee on Banking, Housing, and Urban Affairs. Hearings held. Hearings printed: S.Hrg. 116-92."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/603",
+  "number": "603",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/603/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000605",
+    "firstName": "Mike",
+    "fullName": "Sen. Rounds, Mike [R-SD]",
+    "isByRequest": "N",
+    "lastName": "Rounds",
+    "party": "R",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/R000605?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/116/s/603/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/603/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/603/text?format=json"
+  },
+  "title": "Financial Stability Oversight Council Improvement Act of 2019",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/603/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T18:39:15Z",
+  "updateDateIncludingText": "2025-12-05T18:39:15Z"
+ },
+ "request": {
+  "billNumber": "603",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

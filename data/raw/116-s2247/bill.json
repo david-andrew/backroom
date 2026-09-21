@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/2247/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2247/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/116/s/2247/cosponsors?format=json"
+  },
+  "introducedDate": "2019-07-24",
+  "latestAction": {
+   "actionDate": "2019-07-24",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/2247",
+  "number": "2247",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000393",
+    "firstName": "John",
+    "fullName": "Sen. Kennedy, John [R-LA]",
+    "isByRequest": "N",
+    "lastName": "Kennedy",
+    "middleName": "Neely",
+    "party": "R",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/K000393?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/116/s/2247/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2247/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/2247/text?format=json"
+  },
+  "title": "Phair Relief Act of 2019",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/2247/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-03T03:08:30Z",
+  "updateDateIncludingText": "2025-01-03T03:08:30Z"
+ },
+ "request": {
+  "billNumber": "2247",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

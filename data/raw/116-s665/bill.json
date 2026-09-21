@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/116/s/665/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/665/committees?format=json"
+  },
+  "congress": 116,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/116/s/665/cosponsors?format=json"
+  },
+  "introducedDate": "2019-03-05",
+  "latestAction": {
+   "actionDate": "2019-03-05",
+   "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/116th-congress/senate-bill/665",
+  "number": "665",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/665/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000555",
+    "firstName": "Kirsten",
+    "fullName": "Sen. Gillibrand, Kirsten E. [D-NY]",
+    "isByRequest": "N",
+    "lastName": "Gillibrand",
+    "middleName": "E.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/G000555?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/116/s/665/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/665/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/116/s/665/text?format=json"
+  },
+  "title": "Stop Underrides Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/116/s/665/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:03:40Z"
+ },
+ "request": {
+  "billNumber": "665",
+  "billType": "s",
+  "congress": "116",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
