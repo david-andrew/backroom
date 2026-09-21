@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/1113/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1113/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/115/s/1113/cosponsors?format=json"
+  },
+  "introducedDate": "2017-05-11",
+  "latestAction": {
+   "actionDate": "2017-05-11",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (Sponsor introductory remarks on measure: CR S2918-2919)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/1113",
+  "number": "1113",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000062",
+    "firstName": "Dianne",
+    "fullName": "Sen. Feinstein, Dianne [D-CA]",
+    "isByRequest": "N",
+    "lastName": "Feinstein",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/F000062?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/115/s/1113/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1113/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1113/text?format=json"
+  },
+  "title": "Personal Care Products Safety Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/1113/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-11T16:32:57Z",
+  "updateDateIncludingText": "2025-08-11T16:32:57Z"
+ },
+ "request": {
+  "billNumber": "1113",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

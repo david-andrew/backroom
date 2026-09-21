@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/851/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/851/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/851/cosponsors?format=json"
+  },
+  "introducedDate": "2017-04-05",
+  "latestAction": {
+   "actionDate": "2017-04-05",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/851",
+  "number": "851",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/851/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000802",
+    "firstName": "Sheldon",
+    "fullName": "Sen. Whitehouse, Sheldon [D-RI]",
+    "isByRequest": "N",
+    "lastName": "Whitehouse",
+    "party": "D",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/W000802?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 33,
+   "url": "https://api.congress.gov/v3/bill/115/s/851/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/851/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/851/text?format=json"
+  },
+  "title": "Stop Tax Haven Abuse Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/851/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-10T03:59:37Z",
+  "updateDateIncludingText": "2026-01-10T03:59:37Z"
+ },
+ "request": {
+  "billNumber": "851",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

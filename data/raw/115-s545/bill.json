@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/545/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/545/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/115/s/545/cosponsors?format=json"
+  },
+  "introducedDate": "2017-03-07",
+  "latestAction": {
+   "actionDate": "2017-03-07",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/545",
+  "number": "545",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/545/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000603",
+    "firstName": "Rand",
+    "fullName": "Sen. Paul, Rand [R-KY]",
+    "isByRequest": "N",
+    "lastName": "Paul",
+    "party": "R",
+    "state": "KY",
+    "url": "https://api.congress.gov/v3/member/P000603?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/545/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/545/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/545/text?format=json"
+  },
+  "title": "National Right-to-Work Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/545/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-11T16:32:08Z",
+  "updateDateIncludingText": "2025-08-11T16:32:08Z"
+ },
+ "request": {
+  "billNumber": "545",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/348/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/348/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/348/cosponsors?format=json"
+  },
+  "introducedDate": "2017-02-09",
+  "latestAction": {
+   "actionDate": "2017-02-09",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/348",
+  "number": "348",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/348/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000457",
+    "firstName": "Al",
+    "fullName": "Sen. Franken, Al [D-MN]",
+    "isByRequest": "N",
+    "lastName": "Franken",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/F000457?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/115/s/348/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/348/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/348/text?format=json"
+  },
+  "title": "Prescription Drug and Health Improvement Act of 2017",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/348/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-11T16:31:51Z",
+  "updateDateIncludingText": "2025-08-11T16:31:51Z"
+ },
+ "request": {
+  "billNumber": "348",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

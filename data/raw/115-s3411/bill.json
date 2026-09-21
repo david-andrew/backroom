@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/3411/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3411/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 14,
+   "url": "https://api.congress.gov/v3/bill/115/s/3411/cosponsors?format=json"
+  },
+  "introducedDate": "2018-09-05",
+  "latestAction": {
+   "actionDate": "2018-09-05",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/3411",
+  "number": "3411",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/115/s/3411/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001203",
+    "firstName": "Tina",
+    "fullName": "Sen. Smith, Tina [D-MN]",
+    "isByRequest": "N",
+    "lastName": "Smith",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/S001203?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3411/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3411/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3411/text?format=json"
+  },
+  "title": "Affordable Medications Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/3411/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-22T02:12:05Z",
+  "updateDateIncludingText": "2026-01-22T02:12:05Z"
+ },
+ "request": {
+  "billNumber": "3411",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

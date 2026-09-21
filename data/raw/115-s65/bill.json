@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/65/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/65/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 32,
+   "countIncludingWithdrawnCosponsors": 32,
+   "url": "https://api.congress.gov/v3/bill/115/s/65/cosponsors?format=json"
+  },
+  "introducedDate": "2017-01-09",
+  "latestAction": {
+   "actionDate": "2017-01-09",
+   "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/65",
+  "number": "65",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/115/s/65/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000817",
+    "firstName": "Elizabeth",
+    "fullName": "Sen. Warren, Elizabeth [D-MA]",
+    "isByRequest": "N",
+    "lastName": "Warren",
+    "middleName": "A.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/W000817?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/115/s/65/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/65/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/65/text?format=json"
+  },
+  "title": "Presidential Conflicts of Interest Act of 2017",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/65/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-22T01:23:17Z",
+  "updateDateIncludingText": "2026-01-22T01:23:17Z"
+ },
+ "request": {
+  "billNumber": "65",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

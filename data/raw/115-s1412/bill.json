@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/1412/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1412/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/115/s/1412/cosponsors?format=json"
+  },
+  "introducedDate": "2017-06-22",
+  "latestAction": {
+   "actionDate": "2017-06-22",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/1412",
+  "number": "1412",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Education"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/1412/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001277",
+    "firstName": "Richard",
+    "fullName": "Sen. Blumenthal, Richard [D-CT]",
+    "isByRequest": "N",
+    "lastName": "Blumenthal",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/B001277?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/115/s/1412/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1412/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1412/text?format=json"
+  },
+  "title": "Strengthening Loan Forgiveness for Public Servants Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/1412/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T15:38:37Z",
+  "updateDateIncludingText": "2025-12-05T15:38:37Z"
+ },
+ "request": {
+  "billNumber": "1412",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/3303/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3303/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/115/s/3303/cosponsors?format=json"
+  },
+  "introducedDate": "2018-07-31",
+  "latestAction": {
+   "actionDate": "2018-08-16",
+   "text": "Committee on Environment and Public Works. Hearings held. Hearings printed: S.Hrg. 115-344."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/3303",
+  "number": "3303",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/3303/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001261",
+    "firstName": "John",
+    "fullName": "Sen. Barrasso, John [R-WY]",
+    "isByRequest": "N",
+    "lastName": "Barrasso",
+    "party": "R",
+    "state": "WY",
+    "url": "https://api.congress.gov/v3/member/B001261?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/115/s/3303/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3303/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3303/text?format=json"
+  },
+  "title": "Water Quality Certification Improvement Act of 2018",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/3303/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:16:43Z"
+ },
+ "request": {
+  "billNumber": "3303",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

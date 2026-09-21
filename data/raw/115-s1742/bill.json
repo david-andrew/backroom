@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/1742/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1742/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 21,
+   "countIncludingWithdrawnCosponsors": 21,
+   "url": "https://api.congress.gov/v3/bill/115/s/1742/cosponsors?format=json"
+  },
+  "introducedDate": "2017-08-03",
+  "latestAction": {
+   "actionDate": "2017-08-03",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/1742",
+  "number": "1742",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000770",
+    "firstName": "Debbie",
+    "fullName": "Sen. Stabenow, Debbie [D-MI]",
+    "isByRequest": "N",
+    "lastName": "Stabenow",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/S000770?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1742/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1742/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1742/text?format=json"
+  },
+  "title": "Medicare at 55 Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/1742/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-11T16:34:00Z",
+  "updateDateIncludingText": "2025-08-11T16:34:00Z"
+ },
+ "request": {
+  "billNumber": "1742",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

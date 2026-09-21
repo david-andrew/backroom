@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/519/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/519/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/519/cosponsors?format=json"
+  },
+  "introducedDate": "2017-03-02",
+  "latestAction": {
+   "actionDate": "2017-03-02",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/519",
+  "number": "519",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000555",
+    "firstName": "Kirsten",
+    "fullName": "Sen. Gillibrand, Kirsten E. [D-NY]",
+    "isByRequest": "N",
+    "lastName": "Gillibrand",
+    "middleName": "E.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/G000555?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/115/s/519/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/519/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/519/text?format=json"
+  },
+  "title": "A bill to amend the Safe Water Drinking Act to require the Administrator of the Environmental Protection Agency to establish maximum contaminant levels for certain contaminants, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/519/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:12:22Z"
+ },
+ "request": {
+  "billNumber": "519",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

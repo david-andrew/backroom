@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/1263/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1263/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 12,
+   "countIncludingWithdrawnCosponsors": 12,
+   "url": "https://api.congress.gov/v3/bill/115/s/1263/cosponsors?format=json"
+  },
+  "introducedDate": "2017-05-25",
+  "latestAction": {
+   "actionDate": "2017-05-25",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/1263",
+  "number": "1263",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/1263/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001288",
+    "firstName": "Cory",
+    "fullName": "Sen. Booker, Cory A. [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "Booker",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/B001288?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/115/s/1263/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1263/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1263/text?format=json"
+  },
+  "title": "Atlantic Seismic Airgun Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/1263/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:09:59Z"
+ },
+ "request": {
+  "billNumber": "1263",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

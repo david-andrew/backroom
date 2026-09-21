@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/31/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/31/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/115/s/31/cosponsors?format=json"
+  },
+  "introducedDate": "2017-01-04",
+  "latestAction": {
+   "actionDate": "2017-01-04",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources. (Sponsor introductory remarks on measure: CR S61-62)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/31",
+  "number": "31",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/31/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000062",
+    "firstName": "Dianne",
+    "fullName": "Sen. Feinstein, Dianne [D-CA]",
+    "isByRequest": "N",
+    "lastName": "Feinstein",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/F000062?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/115/s/31/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/31/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/31/text?format=json"
+  },
+  "title": "West Coast Ocean Protection Act of 2017",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/31/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:09:59Z"
+ },
+ "request": {
+  "billNumber": "31",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

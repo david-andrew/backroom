@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/665/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/665/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/115/s/665/cosponsors?format=json"
+  },
+  "introducedDate": "2017-03-15",
+  "latestAction": {
+   "actionDate": "2017-03-15",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/665",
+  "number": "665",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001075",
+    "firstName": "Bill",
+    "fullName": "Sen. Cassidy, Bill [R-LA]",
+    "isByRequest": "N",
+    "lastName": "Cassidy",
+    "party": "R",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/C001075?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/115/s/665/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/665/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/665/text?format=json"
+  },
+  "title": "Unleashing American Energy Act of 2017",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/665/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:09:59Z"
+ },
+ "request": {
+  "billNumber": "665",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

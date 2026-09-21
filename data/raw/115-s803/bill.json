@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/803/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/803/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/803/cosponsors?format=json"
+  },
+  "introducedDate": "2017-04-03",
+  "latestAction": {
+   "actionDate": "2017-04-03",
+   "text": "Read twice and referred to the Committee on Finance. (Sponsor introductory remarks on measure: CR S2176-2177)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/803",
+  "number": "803",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/803/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000122",
+    "firstName": "John",
+    "fullName": "Sen. Reed, Jack [D-RI]",
+    "isByRequest": "N",
+    "lastName": "Reed",
+    "middleName": "F.",
+    "party": "D",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/R000122?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/115/s/803/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/803/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/803/text?format=json"
+  },
+  "title": "Government Settlement Transparency and Reform Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/803/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-11T16:32:29Z",
+  "updateDateIncludingText": "2025-08-11T16:32:29Z"
+ },
+ "request": {
+  "billNumber": "803",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

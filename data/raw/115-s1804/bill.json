@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/1804/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1804/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/115/s/1804/cosponsors?format=json"
+  },
+  "introducedDate": "2017-09-13",
+  "latestAction": {
+   "actionDate": "2017-09-13",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/1804",
+  "number": "1804",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000033",
+    "firstName": "Bernard",
+    "fullName": "Sen. Sanders, Bernard [I-VT]",
+    "isByRequest": "N",
+    "lastName": "Sanders",
+    "party": "I",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/S000033?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 50,
+   "url": "https://api.congress.gov/v3/bill/115/s/1804/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1804/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1804/text?format=json"
+  },
+  "title": "Medicare for All Act of 2017",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/1804/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-11T16:34:06Z",
+  "updateDateIncludingText": "2025-08-11T16:34:06Z"
+ },
+ "request": {
+  "billNumber": "1804",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

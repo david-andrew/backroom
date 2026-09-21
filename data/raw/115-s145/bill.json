@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/145/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/145/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/145/cosponsors?format=json"
+  },
+  "introducedDate": "2017-01-12",
+  "latestAction": {
+   "actionDate": "2017-01-12",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/145",
+  "number": "145",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/145/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001041",
+    "firstName": "Dean",
+    "fullName": "Sen. Heller, Dean [R-NV]",
+    "isByRequest": "N",
+    "lastName": "Heller",
+    "party": "R",
+    "state": "NV",
+    "url": "https://api.congress.gov/v3/member/H001041?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/115/s/145/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/145/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/145/text?format=json"
+  },
+  "title": "National Strategic and Critical Minerals Production Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/145/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:09:59Z"
+ },
+ "request": {
+  "billNumber": "145",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

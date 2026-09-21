@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/1401/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1401/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/1401/cosponsors?format=json"
+  },
+  "introducedDate": "2017-06-21",
+  "latestAction": {
+   "actionDate": "2017-06-21",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/1401",
+  "number": "1401",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1401/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000622",
+    "firstName": "Tammy",
+    "fullName": "Sen. Duckworth, Tammy [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Duckworth",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000622?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/115/s/1401/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1401/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1401/text?format=json"
+  },
+  "title": "Get the Lead Out of Schools Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/1401/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:12:22Z"
+ },
+ "request": {
+  "billNumber": "1401",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

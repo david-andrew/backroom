@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/3742/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3742/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/115/s/3742/cosponsors?format=json"
+  },
+  "introducedDate": "2018-12-12",
+  "latestAction": {
+   "actionDate": "2018-12-12",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/3742",
+  "number": "3742",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/3742/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001203",
+    "firstName": "Tina",
+    "fullName": "Sen. Smith, Tina [D-MN]",
+    "isByRequest": "N",
+    "lastName": "Smith",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/S001203?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/115/s/3742/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3742/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3742/text?format=json"
+  },
+  "title": "Cancer Drug Parity Act of 2018",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/3742/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T17:07:12Z",
+  "updateDateIncludingText": "2025-12-05T17:07:12Z"
+ },
+ "request": {
+  "billNumber": "3742",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

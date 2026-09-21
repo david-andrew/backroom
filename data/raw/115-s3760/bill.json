@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/3760/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3760/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/3760/cosponsors?format=json"
+  },
+  "introducedDate": "2018-12-17",
+  "latestAction": {
+   "actionDate": "2018-12-17",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/3760",
+  "number": "3760",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000603",
+    "firstName": "Rand",
+    "fullName": "Sen. Paul, Rand [R-KY]",
+    "isByRequest": "N",
+    "lastName": "Paul",
+    "party": "R",
+    "state": "KY",
+    "url": "https://api.congress.gov/v3/member/P000603?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/115/s/3760/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3760/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3760/text?format=json"
+  },
+  "title": "Defense of Environment and Property Act of 2018",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/3760/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:12:22Z"
+ },
+ "request": {
+  "billNumber": "3760",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

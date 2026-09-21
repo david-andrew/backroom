@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/194/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/194/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/115/s/194/cosponsors?format=json"
+  },
+  "introducedDate": "2017-01-23",
+  "latestAction": {
+   "actionDate": "2017-01-23",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/194",
+  "number": "194",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/194/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000802",
+    "firstName": "Sheldon",
+    "fullName": "Sen. Whitehouse, Sheldon [D-RI]",
+    "isByRequest": "N",
+    "lastName": "Whitehouse",
+    "party": "D",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/W000802?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/115/s/194/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/194/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/194/text?format=json"
+  },
+  "title": "CHOICE Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/115/s/194/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T18:59:55Z",
+  "updateDateIncludingText": "2025-12-05T18:59:55Z"
+ },
+ "request": {
+  "billNumber": "194",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

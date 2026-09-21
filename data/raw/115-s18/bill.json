@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/18/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/18/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/115/s/18/cosponsors?format=json"
+  },
+  "introducedDate": "2017-01-03",
+  "latestAction": {
+   "actionDate": "2017-01-03",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/18",
+  "number": "18",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/18/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000934",
+    "firstName": "Jerry",
+    "fullName": "Sen. Moran, Jerry [R-KS]",
+    "isByRequest": "N",
+    "lastName": "Moran",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/M000934?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/115/s/18/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/18/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/18/text?format=json"
+  },
+  "title": "Fair Tax Act of 2017",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/18/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-14T19:30:35Z",
+  "updateDateIncludingText": "2026-01-14T19:30:35Z"
+ },
+ "request": {
+  "billNumber": "18",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

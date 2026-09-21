@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/263/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/263/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/115/s/263/cosponsors?format=json"
+  },
+  "introducedDate": "2017-02-01",
+  "latestAction": {
+   "actionDate": "2017-05-23",
+   "text": "Committee on Environment and Public Works Subcommittee on Clean Air and Nuclear Safety. Hearings held. With printed Hearing: S.Hrg. 115-103."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/263",
+  "number": "263",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/263/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001047",
+    "firstName": "Shelley",
+    "fullName": "Sen. Capito, Shelley Moore [R-WV]",
+    "isByRequest": "N",
+    "lastName": "Capito",
+    "middleName": "Moore",
+    "party": "R",
+    "state": "WV",
+    "url": "https://api.congress.gov/v3/member/C001047?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/115/s/263/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/263/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/263/text?format=json"
+  },
+  "title": "Ozone Standards Implementation Act of 2017",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/263/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:12:22Z"
+ },
+ "request": {
+  "billNumber": "263",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

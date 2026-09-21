@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/41/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/41/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/115/s/41/cosponsors?format=json"
+  },
+  "introducedDate": "2017-01-05",
+  "latestAction": {
+   "actionDate": "2017-01-05",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/41",
+  "number": "41",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/115/s/41/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000367",
+    "firstName": "Amy",
+    "fullName": "Sen. Klobuchar, Amy [D-MN]",
+    "isByRequest": "N",
+    "lastName": "Klobuchar",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/K000367?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/115/s/41/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/41/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/41/text?format=json"
+  },
+  "title": "Medicare Prescription Drug Price Negotiation Act of 2017",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/41/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T14:23:34Z",
+  "updateDateIncludingText": "2025-12-05T14:23:34Z"
+ },
+ "request": {
+  "billNumber": "41",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

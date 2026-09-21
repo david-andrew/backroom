@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/2011/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/2011/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/115/s/2011/cosponsors?format=json"
+  },
+  "introducedDate": "2017-10-25",
+  "latestAction": {
+   "actionDate": "2017-10-25",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/2011",
+  "number": "2011",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/2011/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000033",
+    "firstName": "Bernard",
+    "fullName": "Sen. Sanders, Bernard [I-VT]",
+    "isByRequest": "N",
+    "lastName": "Sanders",
+    "party": "I",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/S000033?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/115/s/2011/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/2011/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/2011/text?format=json"
+  },
+  "title": "Medicare Drug Price Negotiation Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/2011/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-22T00:34:03Z",
+  "updateDateIncludingText": "2026-01-22T00:34:03Z"
+ },
+ "request": {
+  "billNumber": "2011",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

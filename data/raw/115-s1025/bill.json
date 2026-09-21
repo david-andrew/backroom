@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/1025/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1025/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1025/cosponsors?format=json"
+  },
+  "introducedDate": "2017-05-03",
+  "latestAction": {
+   "actionDate": "2017-05-03",
+   "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/1025",
+  "number": "1025",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1025/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000444",
+    "firstName": "JEFF",
+    "fullName": "Sen. Flake, Jeff [R-AZ]",
+    "isByRequest": "N",
+    "lastName": "FLAKE",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/F000444?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/1025/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1025/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1025/text?format=json"
+  },
+  "title": "AFFIRM Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/115/s/1025/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T15:29:26Z",
+  "updateDateIncludingText": "2025-12-05T15:29:26Z"
+ },
+ "request": {
+  "billNumber": "1025",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

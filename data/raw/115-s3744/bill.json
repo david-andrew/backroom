@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/3744/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3744/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 14,
+   "url": "https://api.congress.gov/v3/bill/115/s/3744/cosponsors?format=json"
+  },
+  "introducedDate": "2018-12-12",
+  "latestAction": {
+   "actionDate": "2018-12-12",
+   "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/3744",
+  "number": "3744",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3744/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001194",
+    "firstName": "Brian",
+    "fullName": "Sen. Schatz, Brian [D-HI]",
+    "isByRequest": "N",
+    "lastName": "Schatz",
+    "party": "D",
+    "state": "HI",
+    "url": "https://api.congress.gov/v3/member/S001194?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/115/s/3744/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3744/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/3744/text?format=json"
+  },
+  "title": "Data Care Act of 2018",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/3744/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:03:40Z"
+ },
+ "request": {
+  "billNumber": "3744",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

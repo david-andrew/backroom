@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/205/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/205/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 37,
+   "countIncludingWithdrawnCosponsors": 37,
+   "url": "https://api.congress.gov/v3/bill/115/s/205/cosponsors?format=json"
+  },
+  "introducedDate": "2017-01-24",
+  "latestAction": {
+   "actionDate": "2017-01-24",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/205",
+  "number": "205",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/115/s/205/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000250",
+    "firstName": "John",
+    "fullName": "Sen. Thune, John [R-SD]",
+    "isByRequest": "N",
+    "lastName": "Thune",
+    "middleName": "R.",
+    "party": "R",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/T000250?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/205/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/205/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/205/text?format=json"
+  },
+  "title": "Death Tax Repeal Act of 2017",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/205/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-11T16:31:38Z",
+  "updateDateIncludingText": "2025-08-11T16:31:38Z"
+ },
+ "request": {
+  "billNumber": "205",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

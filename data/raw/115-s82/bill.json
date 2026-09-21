@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/82/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/82/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/115/s/82/cosponsors?format=json"
+  },
+  "introducedDate": "2017-01-10",
+  "latestAction": {
+   "actionDate": "2017-01-10",
+   "text": "Read twice and referred to the Committee on Finance. (Sponsor introductory remarks on measure: CR S206-207)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/82",
+  "number": "82",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/82/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000122",
+    "firstName": "John",
+    "fullName": "Sen. Reed, Jack [D-RI]",
+    "isByRequest": "N",
+    "lastName": "Reed",
+    "middleName": "F.",
+    "party": "D",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/R000122?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/115/s/82/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/82/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/82/text?format=json"
+  },
+  "title": "Stop Subsidizing Multimillion Dollar Corporate Bonuses Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/82/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T16:46:45Z",
+  "updateDateIncludingText": "2025-12-05T16:46:45Z"
+ },
+ "request": {
+  "billNumber": "82",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

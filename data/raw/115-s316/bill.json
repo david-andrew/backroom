@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/316/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/316/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/316/cosponsors?format=json"
+  },
+  "introducedDate": "2017-02-06",
+  "latestAction": {
+   "actionDate": "2017-02-06",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/316",
+  "number": "316",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/316/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000338",
+    "firstName": "ORRIN",
+    "fullName": "Sen. Hatch, Orrin G. [R-UT]",
+    "isByRequest": "N",
+    "lastName": "HATCH",
+    "middleName": "GRANT",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/H000338?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/115/s/316/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/316/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/316/text?format=json"
+  },
+  "title": "Protecting States' Rights to Promote American Energy Security Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/316/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:09:59Z"
+ },
+ "request": {
+  "billNumber": "316",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/1194/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1194/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/1194/cosponsors?format=json"
+  },
+  "introducedDate": "2017-05-22",
+  "latestAction": {
+   "actionDate": "2017-05-22",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/1194",
+  "number": "1194",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1194/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001070",
+    "firstName": "Bob",
+    "fullName": "Sen. Casey, Robert P., Jr. [D-PA]",
+    "isByRequest": "N",
+    "lastName": "Casey",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/C001070?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/115/s/1194/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1194/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/1194/text?format=json"
+  },
+  "title": "Medical Nutrition Equity Act of 2017",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/1194/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-21T16:44:20Z",
+  "updateDateIncludingText": "2026-01-21T16:44:20Z"
+ },
+ "request": {
+  "billNumber": "1194",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

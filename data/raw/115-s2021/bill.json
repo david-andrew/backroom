@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/2021/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/2021/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/2021/cosponsors?format=json"
+  },
+  "introducedDate": "2017-10-26",
+  "latestAction": {
+   "actionDate": "2017-10-26",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/2021",
+  "number": "2021",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/115/s/2021/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001098",
+    "firstName": "Ted",
+    "fullName": "Sen. Cruz, Ted [R-TX]",
+    "isByRequest": "N",
+    "lastName": "Cruz",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/C001098?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/115/s/2021/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/2021/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/2021/text?format=json"
+  },
+  "title": "Health Care Choice Act of 2017",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/2021/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-21T21:18:57Z",
+  "updateDateIncludingText": "2026-01-21T21:18:57Z"
+ },
+ "request": {
+  "billNumber": "2021",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

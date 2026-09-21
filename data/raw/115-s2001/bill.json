@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/2001/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/2001/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 20,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/115/s/2001/cosponsors?format=json"
+  },
+  "introducedDate": "2017-10-24",
+  "latestAction": {
+   "actionDate": "2017-10-24",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/2001",
+  "number": "2001",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/2001/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001194",
+    "firstName": "Brian",
+    "fullName": "Sen. Schatz, Brian [D-HI]",
+    "isByRequest": "N",
+    "lastName": "Schatz",
+    "party": "D",
+    "state": "HI",
+    "url": "https://api.congress.gov/v3/member/S001194?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/115/s/2001/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/2001/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/2001/text?format=json"
+  },
+  "title": "State Public Option Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/2001/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-10T04:55:17Z",
+  "updateDateIncludingText": "2026-01-10T04:55:17Z"
+ },
+ "request": {
+  "billNumber": "2001",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

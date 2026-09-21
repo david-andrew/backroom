@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/115/s/252/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/252/committees?format=json"
+  },
+  "congress": 115,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/115/s/252/cosponsors?format=json"
+  },
+  "introducedDate": "2017-02-01",
+  "latestAction": {
+   "actionDate": "2017-02-01",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/115th-congress/senate-bill/252",
+  "number": "252",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/115/s/252/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000032",
+    "firstName": "CLARENCE",
+    "fullName": "Sen. Nelson, Bill [D-FL]",
+    "isByRequest": "N",
+    "lastName": "NELSON",
+    "middleName": "WILLIAM",
+    "party": "D",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/N000032?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/115/s/252/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/252/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/115/s/252/text?format=json"
+  },
+  "title": "Medicare Drug Savings Act of 2017",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/115/s/252/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-11T16:31:43Z",
+  "updateDateIncludingText": "2025-08-11T16:31:43Z"
+ },
+ "request": {
+  "billNumber": "252",
+  "billType": "s",
+  "congress": "115",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
