@@ -103,6 +103,7 @@ def analyze(rec: BillRecord, bill_text: str, model_id: str = config.ANALYSIS_MOD
 
 _PARTY = {"democrat": "D", "democratic": "D", "republican": "R", "independent": "I"}
 _BLOC = re.compile(r"(?<!of )\b(\d+)\s+(House|Senate)\s+(Democrat(?:ic|s)?|Republican(?:s)?|Independent(?:s)?)\b", re.I)
+_BLOC_OF = re.compile(r"\b(\d+) of (\d+)\s+(House|Senate)\s+(Democrat(?:ic|s)?|Republican(?:s)?|Independent(?:s)?)\b", re.I)
 
 
 def bloc_with_denominator(name: str, sizes: dict[str, dict[str, int]]) -> str:
@@ -112,7 +113,15 @@ def bloc_with_denominator(name: str, sizes: dict[str, dict[str, int]]) -> str:
         code = _PARTY.get(party.lower().rstrip("s"), None) or _PARTY.get(party.lower(), None)
         total = sizes.get(chamber.title(), {}).get(code) if code else None
         return f"{n} of {total} {chamber} {party}" if total and int(n) <= total else m.group(0)
-    return _BLOC.sub(sub, name)
+    def fix_of(m: re.Match) -> str:
+        n, given, chamber, party = int(m.group(1)), int(m.group(2)), m.group(3), m.group(4)
+        code = _PARTY.get(party.lower().rstrip("s"), None) or _PARTY.get(party.lower(), None)
+        total = sizes.get(chamber.title(), {}).get(code) if code else None
+        # The model's denominator is usually from memory; snap to the record when it is within a few seats.
+        if total and abs(total - given) <= 8 and n <= total:
+            return f"{n} of {total} {chamber} {party}"
+        return m.group(0)
+    return _BLOC.sub(sub, _BLOC_OF.sub(fix_of, name))
 
 
 def _all_claim_objs(a: Analysis):

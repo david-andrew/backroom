@@ -37,6 +37,9 @@ export interface IndexBill {
   scores: Scores
   rank_score: number
   congress_ended: boolean
+  companions: string[]
+  lineage: string[]
+  primary: boolean
 }
 
 export interface Index {
@@ -97,9 +100,11 @@ export interface BillPage {
   actions: Action[]; votes: Vote[]
   congress_gov_url: string; text_url: string | null; congress_ended: boolean
   sources: Source[]
+  companions: string[]
+  lineage: string[]
   analysis: Analysis
   rank_score: number
-  meta: { model: string; prompt_version: string; generated_at: string; record_fetched_at: string; unresolved_citations: string[] }
+  meta: { model: string; prompt_version: string; generated_at: string; record_fetched_at: string; unresolved_citations: string[]; lint: string[] }
 }
 
 export const STATUS_LABEL: Record<Status, string> = {

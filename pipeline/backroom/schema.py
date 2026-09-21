@@ -89,6 +89,12 @@ class Source(BaseModel):
     excerpt: str | None = None
 
 
+class RelatedBill(BaseModel):
+    id: str            # slug of the other bill
+    title: str
+    relationship: str  # "Identical bill", "Related bill", "Reintroduction of", ...
+
+
 class BillRecord(BaseModel):
     id: str
     congress: int
@@ -114,7 +120,8 @@ class BillRecord(BaseModel):
     congress_ended: bool
     sources: list[Source] = Field(default_factory=list)
     fetched_at: str
-    content_hash: str = ""   # hash of everything above except fetched_at; analyses key on this
+    content_hash: str = ""   # hash of everything above except fetched_at and related; analyses key on this
+    related: list[RelatedBill] = Field(default_factory=list)
 
 
 # ---- model output -----------------------------------------------------------

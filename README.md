@@ -38,6 +38,15 @@ cd ../site && npm run dev       # http://localhost:5173
 
 Bills are addressed as `<congress>-<type><number>`, e.g. `118-s413`, `116-hr582`.
 
+## Quality checks
+
+Two layers, both automated:
+
+- `backroom lint` runs free consistency rules on every analysis against its record (outcome vs. actions, headline tallies vs. recorded votes, party blocs vs. caucus size, citations resolve). Warnings appear on the bill page's provenance block and in `data/lint.json`.
+- `backroom audit --n 15` has a stronger model (default Claude Sonnet 5) re-read a sample of analyses against the full record, lint-flagged bills first, and report factual errors. `--fix` regenerates any analysis judged "major" with that model. Reports live in `data/audit/`. The weekly refresh runs both; `BACKROOM_AUDIT_N` sets the sample size.
+
+Companion bills (House and Senate versions in the same Congress) are grouped from Congress.gov's related-bill data plus exact short-title matches; the site shows one card per group by default. Reintroductions in other Congresses are linked from each bill page.
+
 ## Models
 
 Two slots, set in `.env` (OpenRouter ids):

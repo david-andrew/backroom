@@ -30,6 +30,14 @@ export function Bill({ id }: { id: string }) {
         <p class="badges"><DirectionBadge direction={a.direction} /> <CategoryChips categories={a.categories} /></p>
       </header>
 
+      {(bill.companions.length > 0 || bill.lineage.length > 0) && (
+        <p class="related small">
+          {bill.companions.length > 0 && <span><b>Companion bill{bill.companions.length > 1 ? 's' : ''}:</b> {bill.companions.map((c, i) => <span key={c}>{i > 0 ? ', ' : ''}<a href={href.bill(c)}>{c.replace(/^(\d+)-(hr|s|hjres|sjres)(\d+)$/, (_, cg, t, n) => `${t === 'hr' ? 'H.R.' : t === 's' ? 'S.' : t.toUpperCase()} ${n} (${ordinal(Number(cg))})`)}</a></span>)}</span>}
+          {bill.companions.length > 0 && bill.lineage.length > 0 && ' · '}
+          {bill.lineage.length > 0 && <span><b>Other Congresses:</b> {bill.lineage.map((c, i) => <span key={c}>{i > 0 ? ', ' : ''}<a href={href.bill(c)}>{c.replace(/^(\d+)-(hr|s|hjres|sjres)(\d+)$/, (_, cg, t, n) => `${t === 'hr' ? 'H.R.' : t === 's' ? 'S.' : t.toUpperCase()} ${n} (${ordinal(Number(cg))})`)}</a></span>)}</span>}
+        </p>
+      )}
+
       <SidesBlock sides={a.sides} sources={S} votes={votes} />
 
       <div class="bill-grid">
@@ -128,6 +136,12 @@ export function Bill({ id }: { id: string }) {
             <h3>Provenance</h3>
             <p class="small">Facts fetched {fmtDate(bill.meta.record_fetched_at)}. Interpretation written {fmtDate(bill.meta.generated_at)} by <code>{bill.meta.model}</code>, prompt <a href={href.prompt(bill.meta.prompt_version)}><code>{bill.meta.prompt_version}</code></a>.</p>
             {bill.meta.unresolved_citations.length > 0 && <p class="small warn">Citations the model used that are not in the source list: {bill.meta.unresolved_citations.join(', ')}.</p>}
+            {(bill.meta.lint?.length ?? 0) > 0 && (
+              <details class="expand warn-details">
+                <summary class="warn">{bill.meta.lint.length} automatic check{bill.meta.lint.length > 1 ? 's' : ''} flagged this page</summary>
+                <ul class="small">{bill.meta.lint.map((w, i) => <li key={i}>{w}</li>)}</ul>
+              </details>
+            )}
           </section>
         </aside>
       </div>

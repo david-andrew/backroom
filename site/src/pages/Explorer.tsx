@@ -13,11 +13,13 @@ const fate = signal<'' | 'dead' | 'pending' | 'enacted'>('')
 const dir = signal<'' | 'for_working_people' | 'for_concentrated_interests'>('')
 const congress = signal<number | ''>('')
 const sort = signal<'rank' | 'corruption' | 'newest' | 'oldest' | 'support'>('rank')
+const showAll = signal(false)
 
 const filtered = computed<IndexBill[]>(() => {
   const all = index.value?.bills ?? []
   const needle = q.value.trim().toLowerCase()
   let out = all.filter(b => {
+    if (!showAll.value && b.primary === false) return false
     if (cat.value && !b.categories.includes(cat.value)) return false
     if (fate.value === 'dead' && !DEAD.includes(b.status)) return false
     if (fate.value === 'pending' && !PENDING.includes(b.status)) return false
@@ -39,6 +41,11 @@ const filtered = computed<IndexBill[]>(() => {
   }
   return out
 })
+
+function displayOf(bills: IndexBill[], id: string): string {
+  const b = bills.find(x => x.id === id)
+  return b ? `${b.display} (${b.origin_chamber ?? ''})` : id
+}
 
 export function Explorer() {
   useEffect(() => { loadIndex() }, [])
@@ -94,6 +101,7 @@ export function Explorer() {
           <option value="oldest">Sort: oldest</option>
           <option value="support">Sort: most cosponsors</option>
         </select>
+        <label class="check"><input type="checkbox" checked={showAll.value} onChange={e => (showAll.value = (e.target as HTMLInputElement).checked)} /> show House and Senate versions separately</label>
       </section>
 
       <ol class="bill-list">
@@ -108,6 +116,7 @@ export function Explorer() {
               <h2>{b.title}</h2>
               <p class="one-liner">{b.one_liner}</p>
               <p class="headline"><StatusBadge status={b.status} /> {b.headline}</p>
+              {b.companions.length > 0 && <p class="companions muted small">Also introduced as {b.companions.map(c => displayOf(idx.bills, c)).join(', ')}</p>}
               <dl class="card-facts">
                 <div><dt>{b.direction === 'for_concentrated_interests' ? 'Serves' : 'Would help'}</dt><dd>{b.who_benefits_short}</dd></div>
                 <div><dt>Would cost</dt><dd>{b.who_pays_short}</dd></div>

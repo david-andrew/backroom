@@ -35,6 +35,13 @@ export function About() {
         In the "who was for it, who was against it" block the model may name such an actor when it is widely and credibly reported. Those entries are marked <b>reported</b> and carry no citation, so you can weigh them accordingly.
       </p>
 
+      <h2>How mistakes are caught</h2>
+      <p>
+        Every analysis is checked against its record by a set of automatic rules: the stated outcome must match the recorded actions, vote tallies in the headline must match a recorded vote, party blocs must fit the caucus, and every citation must resolve.
+        Pages that fail a check say so in their provenance block. On top of that, a stronger model re-reads a sample of analyses each week against the full record and reports factual errors; analyses it judges wrong are regenerated.
+        The audit reports are committed to the repository alongside the data.
+      </p>
+
       <h2>How bills are found</h2>
       <p>
         Every bill introduced in a Congress is scored from its title by a fast, inexpensive model on two questions: how much it would help ordinary people, and how much it would cost a concentrated interest. The highest-scoring bills get the full treatment above.

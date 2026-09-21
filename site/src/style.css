@@ -321,3 +321,8 @@ main { max-width: 1080px; margin: 0 auto; padding: 1.5rem 1.5rem 4rem; }
 .addr-sugs li:hover, .addr-sugs li.hi { background: var(--line); }
 .bill-card h2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .prompt-text { white-space: pre-wrap; font-family: var(--font-mono); font-size: 0.82rem; line-height: 1.5; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem; }
+
+.check { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.85rem; color: var(--ink-2); }
+.companions { margin: -0.3rem 0 0.5rem; }
+.related { margin: 0.6rem 0 0; font-family: var(--font-ui); }
+.warn-details summary { cursor: pointer; }

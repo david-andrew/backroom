@@ -11,18 +11,26 @@ CAUCUS_FILE = config.DATA_DIR / "caucus.json"
 
 
 def compute() -> dict[str, dict[str, dict[str, int]]]:
-    seen: dict[tuple[int, str], dict[str, set[str]]] = {}
+    """Party counts from the most recent roll call we hold for each (Congress, chamber). A roll call lists every
+    sitting member, voting or not, so this is a clean snapshot; a union over the whole Congress would double-count
+    seats that changed hands."""
+    latest: dict[tuple[int, str], tuple[str, dict[str, int]]] = {}
     for rec_path in config.RAW_DIR.glob("*/record.json"):
         rec = BillRecord.model_validate_json(rec_path.read_text())
         for act in rec.actions:
             for v in act.votes:
-                bucket = seen.setdefault((rec.congress, v.chamber), {})
-                for m in v.members:
-                    key = m.bioguide_id or f"{m.name}|{m.state}"
-                    bucket.setdefault(m.party, set()).add(key)
+                if not v.members:
+                    continue
+                key = (rec.congress, v.chamber)
+                if key not in latest or v.date > latest[key][0]:
+                    counts: dict[str, int] = {}
+                    for m in v.members:
+                        counts[m.party] = counts.get(m.party, 0) + 1
+                    counts.pop("VP", None)
+                    latest[key] = (v.date, counts)
     out: dict[str, dict[str, dict[str, int]]] = {}
-    for (congress, chamber), parties in seen.items():
-        out.setdefault(str(congress), {})[chamber] = {p: len(ids) for p, ids in sorted(parties.items()) if p != "VP"}
+    for (congress, chamber), (_, counts) in latest.items():
+        out.setdefault(str(congress), {})[chamber] = dict(sorted(counts.items()))
     return out
 
 

@@ -46,6 +46,8 @@ jobs:
           uv run backroom analyze ${{ inputs.force_analyze && '--force' || '' }}
           uv run backroom glossary
           uv run backroom members --force
+          uv run backroom lint
+          uv run backroom audit --n ${{ vars.BACKROOM_AUDIT_N || '15' }} --fix
       - name: Commit refreshed data
         id: commit
         run: |

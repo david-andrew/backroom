@@ -20,7 +20,7 @@ import httpx
 
 from . import config
 from .schema import (
-    Action, BillId, BillRecord, Committee, Person, RecordedVote, Source,
+    Action, BillId, BillRecord, Committee, Person, RecordedVote, RelatedBill, Source,
 )
 
 API = "https://api.congress.gov/v3"
@@ -116,6 +116,7 @@ class CongressClient:
         subjects_raw = self._cached(slug, "subjects", lambda: self._get(f"{base}/subjects"), force).get("subjects", {})
         committees_raw = c("committees", "committees", "committees")["committees"]
         text_raw = c("text", "text", "textVersions")["textVersions"]
+        related_raw = c("relatedbills", "relatedbills", "relatedBills")["relatedBills"]
         titles_raw = c("titles", "titles", "titles")["titles"]
 
         text_url, text = self._bill_text(slug, text_raw, force)
@@ -156,10 +157,13 @@ class CongressClient:
             text_url=text_url, text_chars=len(text),
             congress_gov_url=url,
             congress_ended=config.congress_end_date(bid.congress) <= today,
+            related=[RelatedBill(id=f"{r['congress']}-{r['type'].lower()}{r['number']}", title=r.get("title", ""),
+                                 relationship="; ".join(d.get("type", "") for d in r.get("relationshipDetails", [])))
+                     for r in related_raw if r.get("congress") and r.get("type") and r.get("number")],
             fetched_at=datetime.now(timezone.utc).isoformat(timespec="seconds"),
         )
         rec.sources = build_sources(rec)
-        rec.content_hash = hashlib.sha256(rec.model_dump_json(exclude={"fetched_at", "content_hash"}).encode()).hexdigest()[:16]
+        rec.content_hash = hashlib.sha256(rec.model_dump_json(exclude={"fetched_at", "content_hash", "related"}).encode()).hexdigest()[:16]
         (self.cache_dir / slug / "record.json").write_text(rec.model_dump_json(indent=1))
         return rec
 
