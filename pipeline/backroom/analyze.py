@@ -156,19 +156,43 @@ def run(slug: str, force: bool = False, model_id: str = config.ANALYSIS_MODEL) -
 
 
 def run_all(slugs: list[str], force: bool = False, model_id: str = config.ANALYSIS_MODEL, workers: int | None = None) -> list[str]:
-    """Analyze many bills concurrently (the model call is the slow part). Returns the slugs that failed."""
+    """Analyze many bills concurrently, each in its own subprocess with a hard wall-clock limit.
+
+    Twice a long run froze with no open sockets and no timeout firing, somewhere inside the HTTP client. A
+    subprocess can be killed no matter where it is stuck, so the batch always finishes. Returns failed slugs."""
     import os
+    import subprocess
+    import sys
     from concurrent.futures import ThreadPoolExecutor, as_completed
     workers = workers or int(os.environ.get("BACKROOM_CONCURRENCY", "8"))
+    limit = int(os.environ.get("BACKROOM_BILL_TIMEOUT", "900"))
+    if os.environ.get("BACKROOM_CHILD"):  # already isolated; run in-process
+        for slug in slugs:
+            run(slug, force, model_id)
+        return []
+
+    def one(slug: str) -> tuple[str, str | None]:
+        cmd = [sys.executable, "-m", "backroom.cli", "analyze", slug, "--model", model_id] + (["--force"] if force else [])
+        try:
+            r = subprocess.run(cmd, capture_output=True, text=True, timeout=limit, env={**os.environ, "BACKROOM_CHILD": "1"})
+        except subprocess.TimeoutExpired:
+            return slug, f"killed after {limit}s"
+        out = r.stdout + r.stderr
+        lines = [ln.strip() for ln in out.splitlines() if ln.strip()]
+        for ln in lines:
+            if ln.startswith(("=", ">")):
+                print("  " + ln, flush=True)
+        err = next((ln for ln in lines if ln.startswith("!")), None)
+        if r.returncode != 0 or err:
+            return slug, (err or f"exit {r.returncode}: {out[-300:]}")
+        return slug, None
+
     failed: list[str] = []
     with ThreadPoolExecutor(max_workers=workers) as pool:
-        futures = {pool.submit(run, slug, force, model_id): slug for slug in slugs}
-        for fut in as_completed(futures):
-            slug = futures[fut]
-            try:
-                fut.result()
-            except Exception as e:
-                print(f"  ! {slug} failed: {str(e)[:300]}")
+        for fut in as_completed({pool.submit(one, s): s for s in slugs}):
+            slug, err = fut.result()
+            if err:
+                print(f"  ! {slug} failed: {err[:300]}", flush=True)
                 failed.append(slug)
     if failed:
         print(f"  ! {len(failed)} bill(s) failed: {', '.join(failed)}")
