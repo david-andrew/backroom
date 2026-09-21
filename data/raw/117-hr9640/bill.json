@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9640/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9640/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9640/cosponsors?format=json"
+  },
+  "introducedDate": "2022-12-21",
+  "latestAction": {
+   "actionDate": "2022-12-22",
+   "text": "Received in the Senate."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/house-bill/9640",
+  "number": "9640",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9640/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000015",
+    "district": 1,
+    "firstName": "RICHARD",
+    "fullName": "Rep. Neal, Richard E. [D-MA-1]",
+    "isByRequest": "N",
+    "lastName": "NEAL",
+    "middleName": "E.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/N000015?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9640/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9640/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9640/text?format=json"
+  },
+  "title": "Presidential Tax Filings and Audit Transparency Act of 2022",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9640/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T15:05:08Z",
+  "updateDateIncludingText": "2025-04-07T15:05:08Z"
+ },
+ "request": {
+  "billNumber": "9640",
+  "billType": "hr",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

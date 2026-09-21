@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/1627/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1627/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/1627/cosponsors?format=json"
+  },
+  "introducedDate": "2021-05-13",
+  "latestAction": {
+   "actionDate": "2021-05-13",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/1627",
+  "number": "1627",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/1627/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001095",
+    "firstName": "Tom",
+    "fullName": "Sen. Cotton, Tom [R-AR]",
+    "isByRequest": "N",
+    "lastName": "Cotton",
+    "party": "R",
+    "state": "AR",
+    "url": "https://api.congress.gov/v3/member/C001095?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/1627/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1627/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1627/text?format=json"
+  },
+  "title": "Estate Tax Rate Reduction Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/1627/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-10T01:19:05Z",
+  "updateDateIncludingText": "2026-01-10T01:19:05Z"
+ },
+ "request": {
+  "billNumber": "1627",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/53/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/53/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 37,
+   "countIncludingWithdrawnCosponsors": 37,
+   "url": "https://api.congress.gov/v3/bill/117/s/53/cosponsors?format=json"
+  },
+  "introducedDate": "2021-01-26",
+  "latestAction": {
+   "actionDate": "2021-01-26",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/53",
+  "number": "53",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/53/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000033",
+    "firstName": "Bernard",
+    "fullName": "Sen. Sanders, Bernard [I-VT]",
+    "isByRequest": "N",
+    "lastName": "Sanders",
+    "party": "I",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/S000033?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/117/s/53/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/53/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/53/text?format=json"
+  },
+  "title": "Raise the Wage Act of 2021",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/53/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T10:20:29Z",
+  "updateDateIncludingText": "2025-12-05T10:20:29Z"
+ },
+ "request": {
+  "billNumber": "53",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

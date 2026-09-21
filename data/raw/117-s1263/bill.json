@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/1263/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1263/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/117/s/1263/cosponsors?format=json"
+  },
+  "introducedDate": "2021-04-21",
+  "latestAction": {
+   "actionDate": "2021-04-21",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/1263",
+  "number": "1263",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Education"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1263/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001194",
+    "firstName": "Brian",
+    "fullName": "Sen. Schatz, Brian [D-HI]",
+    "isByRequest": "N",
+    "lastName": "Schatz",
+    "party": "D",
+    "state": "HI",
+    "url": "https://api.congress.gov/v3/member/S001194?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/117/s/1263/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1263/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1263/text?format=json"
+  },
+  "title": "Debt-Free College Act of 2021",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/1263/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-21T03:26:56Z",
+  "updateDateIncludingText": "2026-01-21T03:26:56Z"
+ },
+ "request": {
+  "billNumber": "1263",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

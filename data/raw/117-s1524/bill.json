@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/1524/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1524/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/117/s/1524/cosponsors?format=json"
+  },
+  "introducedDate": "2021-04-29",
+  "latestAction": {
+   "actionDate": "2021-04-29",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/1524",
+  "number": "1524",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/1524/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001310",
+    "firstName": "Mike",
+    "fullName": "Sen. Braun, Mike [R-IN]",
+    "isByRequest": "N",
+    "lastName": "Braun",
+    "party": "R",
+    "state": "IN",
+    "url": "https://api.congress.gov/v3/member/B001310?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/117/s/1524/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1524/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1524/text?format=json"
+  },
+  "title": "Health Care PRICE Transparency Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/117/s/1524/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T10:57:28Z",
+  "updateDateIncludingText": "2025-12-05T10:57:28Z"
+ },
+ "request": {
+  "billNumber": "1524",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

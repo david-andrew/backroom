@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/510/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/510/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/117/s/510/cosponsors?format=json"
+  },
+  "introducedDate": "2021-03-01",
+  "latestAction": {
+   "actionDate": "2021-03-01",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/510",
+  "number": "510",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/510/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000817",
+    "firstName": "Elizabeth",
+    "fullName": "Sen. Warren, Elizabeth [D-MA]",
+    "isByRequest": "N",
+    "lastName": "Warren",
+    "middleName": "A.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/W000817?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/117/s/510/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/510/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/510/text?format=json"
+  },
+  "title": "Ultra-Millionaire Tax Act of 2021",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/510/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T11:17:44Z",
+  "updateDateIncludingText": "2025-12-05T11:17:44Z"
+ },
+ "request": {
+  "billNumber": "510",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

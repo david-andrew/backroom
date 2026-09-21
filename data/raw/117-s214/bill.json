@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/214/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/214/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/214/cosponsors?format=json"
+  },
+  "introducedDate": "2021-02-03",
+  "latestAction": {
+   "actionDate": "2021-02-03",
+   "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/214",
+  "number": "214",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/214/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001176",
+    "firstName": "Jeff",
+    "fullName": "Sen. Merkley, Jeff [D-OR]",
+    "isByRequest": "N",
+    "lastName": "Merkley",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/M001176?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/117/s/214/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/214/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/214/text?format=json"
+  },
+  "title": "Medical Debt Relief Act of 2021",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/214/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T11:02:00Z",
+  "updateDateIncludingText": "2025-12-05T11:02:00Z"
+ },
+ "request": {
+  "billNumber": "214",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

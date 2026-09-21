@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/317/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/317/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/317/cosponsors?format=json"
+  },
+  "introducedDate": "2021-02-12",
+  "latestAction": {
+   "actionDate": "2021-02-12",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/317",
+  "number": "317",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/317/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001288",
+    "firstName": "Cory",
+    "fullName": "Sen. Booker, Cory A. [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "Booker",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/B001288?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/117/s/317/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/317/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/317/text?format=json"
+  },
+  "title": "Quality Care for Nursing Home Residents and Workers During COVID\u201319 Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/317/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-03T04:46:20Z",
+  "updateDateIncludingText": "2025-01-03T04:46:20Z"
+ },
+ "request": {
+  "billNumber": "317",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

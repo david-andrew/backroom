@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/386/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/386/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/117/s/386/cosponsors?format=json"
+  },
+  "introducedDate": "2021-02-23",
+  "latestAction": {
+   "actionDate": "2021-02-23",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/386",
+  "number": "386",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/117/s/386/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001267",
+    "firstName": "Michael",
+    "fullName": "Sen. Bennet, Michael F. [D-CO]",
+    "isByRequest": "N",
+    "lastName": "Bennet",
+    "party": "D",
+    "state": "CO",
+    "url": "https://api.congress.gov/v3/member/B001267?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 31,
+   "url": "https://api.congress.gov/v3/bill/117/s/386/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/386/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/386/text?format=json"
+  },
+  "title": "Medicare-X Choice Act of 2021",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/386/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T10:24:16Z",
+  "updateDateIncludingText": "2025-12-05T10:24:16Z"
+ },
+ "request": {
+  "billNumber": "386",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

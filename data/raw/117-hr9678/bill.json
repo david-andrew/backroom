@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9678/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9678/committees?format=json"
+  },
+  "congress": 117,
+  "introducedDate": "2022-12-22",
+  "latestAction": {
+   "actionDate": "2022-12-22",
+   "text": "Referred to the Committee on Agriculture, and in addition to the Committees on Ways and Means, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/house-bill/9678",
+  "number": "9678",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9678/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000297",
+    "district": 13,
+    "firstName": "Adriano",
+    "fullName": "Rep. Espaillat, Adriano [D-NY-13]",
+    "isByRequest": "N",
+    "lastName": "Espaillat",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/E000297?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9678/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9678/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9678/text?format=json"
+  },
+  "title": "Earth Act of 2022",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9678/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-03T08:07:34Z",
+  "updateDateIncludingText": "2025-01-03T08:07:34Z"
+ },
+ "request": {
+  "billNumber": "9678",
+  "billType": "hr",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

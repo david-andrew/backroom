@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/117/s/4356/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/4356/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/4356/cosponsors?format=json"
+  },
+  "introducedDate": "2022-06-07",
+  "latestAction": {
+   "actionDate": "2022-11-15",
+   "text": "Committee on Banking, Housing, and Urban Affairs. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/4356",
+  "number": "4356",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000571",
+    "firstName": "Cynthia",
+    "fullName": "Sen. Lummis, Cynthia M. [R-WY]",
+    "isByRequest": "N",
+    "lastName": "Lummis",
+    "middleName": "M.",
+    "party": "R",
+    "state": "WY",
+    "url": "https://api.congress.gov/v3/member/L000571?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/117/s/4356/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/4356/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/4356/text?format=json"
+  },
+  "title": "Lummis-Gillibrand Responsible Financial Innovation Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/4356/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-05-27T10:56:38Z",
+  "updateDateIncludingText": "2026-05-27T10:56:38Z"
+ },
+ "request": {
+  "billNumber": "4356",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/315/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/315/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/315/cosponsors?format=json"
+  },
+  "introducedDate": "2021-02-12",
+  "latestAction": {
+   "actionDate": "2021-02-12",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/315",
+  "number": "315",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/315/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001277",
+    "firstName": "Richard",
+    "fullName": "Sen. Blumenthal, Richard [D-CT]",
+    "isByRequest": "N",
+    "lastName": "Blumenthal",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/B001277?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 31,
+   "url": "https://api.congress.gov/v3/bill/117/s/315/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/315/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/315/text?format=json"
+  },
+  "title": "Quality Care for Nursing Home Residents Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/315/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-07T15:03:50Z",
+  "updateDateIncludingText": "2025-04-07T15:03:50Z"
+ },
+ "request": {
+  "billNumber": "315",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

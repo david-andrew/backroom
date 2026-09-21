@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/3700/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/3700/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 36,
+   "countIncludingWithdrawnCosponsors": 36,
+   "url": "https://api.congress.gov/v3/bill/117/s/3700/cosponsors?format=json"
+  },
+  "introducedDate": "2022-02-17",
+  "latestAction": {
+   "actionDate": "2022-02-17",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/3700",
+  "number": "3700",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/3700/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000790",
+    "firstName": "Raphael",
+    "fullName": "Sen. Warnock, Raphael G. [D-GA]",
+    "isByRequest": "N",
+    "lastName": "Warnock",
+    "middleName": "G.",
+    "party": "D",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/W000790?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/117/s/3700/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/3700/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/3700/text?format=json"
+  },
+  "title": "Affordable Insulin Now Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/3700/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-03T07:41:39Z",
+  "updateDateIncludingText": "2025-01-03T07:41:39Z"
+ },
+ "request": {
+  "billNumber": "3700",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

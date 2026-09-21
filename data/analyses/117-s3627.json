@@ -1,0 +1,186 @@
+{
+ "bill_id": "117-s3627",
+ "model": "z-ai/glm-5.3-flash",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-21T07:22:52+00:00",
+ "record_fetched_at": "2026-09-21T05:18:09+00:00",
+ "record_hash": "160039758bf3ab2d",
+ "analysis": {
+  "one_liner": "Lets people delete their personal data from all data brokers with one free FTC request.",
+  "headline": "The bill never received a committee vote or any floor action before the 117th Congress ended in January 2023, despite bipartisan sponsorship.",
+  "direction": "for_working_people",
+  "plain_summary": "The DELETE Act would require companies that buy and sell personal data about people they have no direct relationship with (data brokers) to register with the Federal Trade Commission. It would then create a free, one-stop system where a person can submit a single request to have every registered data broker delete their personal information within 31 days. People who opt out would go on a 'do not track' list that registered data brokers could not collect against. The FTC would enforce the rules under its existing consumer-protection authority [S2] [S3].",
+  "who_benefits": "Anyone whose personal information sits in data brokers' files — names, addresses, browsing history, geolocation, financial identifiers, and inferences about them. Today, removing that data means finding and contacting each broker individually; the bill replaces that with one free request.",
+  "who_benefits_short": "Ordinary internet users",
+  "how_it_helps": [
+   {
+    "text": "Creates a single, free FTC website where one submission triggers deletion of a person's data across all registered data brokers and their affiliates within 31 days.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Adds people who opt out to a do-not-track list, barring registered data brokers from collecting their personal information again unless the person asks for it.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Forces data brokers to register publicly and disclose what they collect and from where, in a downloadable public format, so people can finally see who is trading in their data.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Requires each data broker to submit to an independent third-party audit of its deletion and suppression practices every three years.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Enforces violations through the FTC's unfair-or-deceptive-practices authority, letting the agency penalize brokers that fail to delete or that re-collect suppressed data.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   }
+  ],
+  "who_pays": "The data broker industry, whose business model is trading in personal information about people who never signed up with them. Brokers would bear compliance costs — registration, deletion within 31 days, audits, and a small annual fee — and would lose the ability to monetize anyone who opts out.",
+  "who_pays_short": "Data broker companies",
+  "drawbacks": [
+   {
+    "text": "The FTC's one-stop system requires hashing (cryptographically scrambling) every person's submitted identifiers into federal registries, creating a new government-held collection of contact data that must itself be secured; the bill addresses this by requiring safeguards, but the risk is inherent to the design.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Data brokers would pay a subscription fee capped at 1 percent of the system's annual operating cost, so taxpayers would effectively fund the bulk of building and running the FTC's database and registries.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Enforcement runs entirely through the FTC; individuals get no private right to sue a broker that fails to delete their data, so protection depends on agency resources and priorities.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "The do-not-track protections apply only to data brokers that register; the law's broad exclusions (for example, data handled under credit, health, or financial laws, or fraud-prevention uses) leave some information flows outside the deletion system.",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
+  "benefit_vs_cost": "The core benefit — ending the burden on individuals to chase dozens of data brokers one at a time — is real and the design is fairly careful: hashed identifiers instead of raw data, narrow exclusions for fraud prevention and legal process, and third-party audits. The main honest costs are that taxpayers cover most of the system's funding, individuals cannot sue on their own, and a centralized registry is itself a security responsibility for the FTC. On balance the bill trades a modest public cost for a substantial consumer right.",
+  "outcome": {
+   "status": "never_got_a_vote",
+   "mechanism": "It was introduced and sent to the Senate Commerce Committee in February 2022 and sat there without a hearing, markup, or floor vote until the 117th Congress ended in January 2023, at which point it died.",
+   "narrative": [
+    {
+     "text": "Senator Bill Cassidy (R-LA) introduced the DELETE Act on February 10, 2022, with Senator Jon Ossoff (D-GA) as cosponsor.",
+     "sources": [
+      "S1",
+      "S3",
+      "S4"
+     ]
+    },
+    {
+     "text": "The same day, the bill was read twice and referred to the Committee on Commerce, Science, and Transportation.",
+     "sources": [
+      "S1",
+      "S5"
+     ]
+    },
+    {
+     "text": "No further action — no hearing, no committee vote, no floor vote — was taken before the 117th Congress ended on January 3, 2023.",
+     "sources": [
+      "S5"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "Data brokers are better off: they keep selling and trading personal information about people with no direct relationship, and consumers still have no single way to have their data deleted."
+  },
+  "who_came_out_ahead_short": "Data brokers keep trading your data",
+  "sides": {
+   "for": [
+    {
+     "name": "Sen. Bill Cassidy",
+     "role": "Lead sponsor",
+     "party": "R",
+     "what_they_did": "Introduced the DELETE Act to create a one-stop FTC deletion system for data brokers.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S3"
+     ]
+    },
+    {
+     "name": "Sen. Jon Ossoff",
+     "role": "Cosponsor",
+     "party": "D",
+     "what_they_did": "Cosponsored the bill, making it a bipartisan effort.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
+   "against": [
+    {
+     "name": "Senate Committee on Commerce, Science, and Transportation (Chair Maria Cantwell)",
+     "role": "Committee of referral",
+     "party": "D",
+     "what_they_did": "Took no action after referral — no hearing, no markup, and no committee vote — letting the bill expire with the Congress.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S5"
+     ]
+    }
+   ],
+   "party_line": "bipartisan",
+   "party_line_note": "A Republican senator (Cassidy) sponsored the bill and one Democratic senator (Ossoff) cosponsored it; the record shows no opposition votes or statements, only committee inaction."
+  },
+  "industries": [
+   {
+    "industry": "Data brokers",
+    "effect": "loses",
+    "stance_toward_public": "opposed",
+    "note": "These companies profit by collecting and selling personal information about people who have no direct relationship with them. The bill would make their files deletable on a single consumer request and bar them from re-collecting data on anyone who opts out, striking at their core business.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "industry": "Digital advertising and marketing",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "Marketers buy data broker feeds for targeted ads; deletion and do-not-track requests would shrink those feeds. Some firms would benefit, though, from cleaner data and from the bill's public registry of who sells what.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   }
+  ],
+  "trajectory": null,
+  "categories": [
+   "consumer_protection_and_finance"
+  ],
+  "scores": {
+   "public_stakes": 7,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 7,
+   "support_mismatch": 6,
+   "corruption_relevance": 2,
+   "confidence": 0.92
+  }
+ },
+ "unresolved_citations": []
+}

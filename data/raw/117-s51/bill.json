@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/51/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/51/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 45,
+   "countIncludingWithdrawnCosponsors": 45,
+   "url": "https://api.congress.gov/v3/bill/117/s/51/cosponsors?format=json"
+  },
+  "introducedDate": "2021-01-26",
+  "latestAction": {
+   "actionDate": "2021-06-22",
+   "text": "Committee on Homeland Security and Governmental Affairs. Hearings held. Hearings printed: S.Hrg. 117-481."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/51",
+  "number": "51",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/51/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000174",
+    "firstName": "Thomas",
+    "fullName": "Sen. Carper, Thomas R. [D-DE]",
+    "isByRequest": "N",
+    "lastName": "Carper",
+    "middleName": "R.",
+    "party": "D",
+    "state": "DE",
+    "url": "https://api.congress.gov/v3/member/C000174?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/117/s/51/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/51/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/51/text?format=json"
+  },
+  "title": "Washington, D.C. Admission Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/51/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-05-30T10:56:43Z",
+  "updateDateIncludingText": "2026-05-30T10:56:43Z"
+ },
+ "request": {
+  "billNumber": "51",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

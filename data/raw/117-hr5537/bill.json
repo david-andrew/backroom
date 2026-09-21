@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/117/hr/5537/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/5537/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/117/hr/5537/cosponsors?format=json"
+  },
+  "introducedDate": "2021-10-08",
+  "latestAction": {
+   "actionDate": "2021-10-11",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/house-bill/5537",
+  "number": "5537",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001145",
+    "district": 9,
+    "firstName": "JANICE",
+    "fullName": "Rep. Schakowsky, Janice D. [D-IL-9]",
+    "isByRequest": "N",
+    "lastName": "SCHAKOWSKY",
+    "middleName": "D.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/S001145?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/5537/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/5537/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/5537/text?format=json"
+  },
+  "title": "Toxic-Free Beauty Act of 2021",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/hr/5537/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-03T07:31:19Z",
+  "updateDateIncludingText": "2025-01-03T07:31:19Z"
+ },
+ "request": {
+  "billNumber": "5537",
+  "billType": "hr",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

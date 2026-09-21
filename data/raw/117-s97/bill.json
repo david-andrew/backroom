@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/97/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/97/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/117/s/97/cosponsors?format=json"
+  },
+  "introducedDate": "2021-01-28",
+  "latestAction": {
+   "actionDate": "2021-01-28",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/97",
+  "number": "97",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/97/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000141",
+    "firstName": "Ben",
+    "fullName": "Sen. Cardin, Benjamin L. [D-MD]",
+    "isByRequest": "N",
+    "lastName": "Cardin",
+    "party": "D",
+    "state": "MD",
+    "url": "https://api.congress.gov/v3/member/C000141?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/117/s/97/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/97/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/97/text?format=json"
+  },
+  "title": "Medicare Dental Benefit Act of 2021",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/97/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-21T09:52:18Z",
+  "updateDateIncludingText": "2026-01-21T09:52:18Z"
+ },
+ "request": {
+  "billNumber": "97",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

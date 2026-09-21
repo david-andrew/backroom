@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/1314/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1314/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/117/s/1314/cosponsors?format=json"
+  },
+  "introducedDate": "2021-04-22",
+  "latestAction": {
+   "actionDate": "2021-04-22",
+   "text": "Read twice and referred to the Committee on Finance. (text: CR S2170-2171)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/1314",
+  "number": "1314",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/117/s/1314/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000563",
+    "firstName": "Richard",
+    "fullName": "Sen. Durbin, Richard J. [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Durbin",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000563?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/117/s/1314/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1314/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1314/text?format=json"
+  },
+  "title": "Tobacco Tax Equity Act of 2021",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/1314/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T10:20:45Z",
+  "updateDateIncludingText": "2025-12-05T10:20:45Z"
+ },
+ "request": {
+  "billNumber": "1314",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

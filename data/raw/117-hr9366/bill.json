@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9366/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9366/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9366/cosponsors?format=json"
+  },
+  "introducedDate": "2022-11-30",
+  "latestAction": {
+   "actionDate": "2022-12-01",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/house-bill/9366",
+  "number": "9366",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000552",
+    "district": 1,
+    "firstName": "Louie",
+    "fullName": "Rep. Gohmert, Louie [R-TX-1]",
+    "isByRequest": "N",
+    "lastName": "Gohmert",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/G000552?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9366/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9366/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9366/text?format=json"
+  },
+  "title": "To amend titles III and XXI of the Public Health Service Act to hold vaccine manufacturers liable for injuries caused by vaccines subject to a public mandate, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/hr/9366/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-05T14:30:09Z",
+  "updateDateIncludingText": "2024-02-05T14:30:09Z"
+ },
+ "request": {
+  "billNumber": "9366",
+  "billType": "hr",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

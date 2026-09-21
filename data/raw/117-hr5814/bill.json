@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/hr/5814/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/5814/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/117/hr/5814/cosponsors?format=json"
+  },
+  "introducedDate": "2021-11-02",
+  "latestAction": {
+   "actionDate": "2021-11-02",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/house-bill/5814",
+  "number": "5814",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000032",
+    "district": 19,
+    "firstName": "Byron",
+    "fullName": "Rep. Donalds, Byron [R-FL-19]",
+    "isByRequest": "N",
+    "lastName": "Donalds",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/D000032?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/5814/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/5814/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/hr/5814/text?format=json"
+  },
+  "title": "Prohibiting Unrealized Capital Gains Taxation Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/hr/5814/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-03T07:33:47Z",
+  "updateDateIncludingText": "2025-01-03T07:33:47Z"
+ },
+ "request": {
+  "billNumber": "5814",
+  "billType": "hr",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

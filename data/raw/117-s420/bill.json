@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/117/s/420/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/420/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 46,
+   "countIncludingWithdrawnCosponsors": 46,
+   "url": "https://api.congress.gov/v3/bill/117/s/420/cosponsors?format=json"
+  },
+  "introducedDate": "2021-02-24",
+  "latestAction": {
+   "actionDate": "2022-06-22",
+   "text": "Committee on Banking, Housing, and Urban Affairs. Hearings held. Hearings printed: S.Hrg. 117-848."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/420",
+  "number": "420",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/420/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001111",
+    "firstName": "Patty",
+    "fullName": "Sen. Murray, Patty [D-WA]",
+    "isByRequest": "N",
+    "lastName": "Murray",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/M001111?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/117/s/420/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/420/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/420/text?format=json"
+  },
+  "title": "Protecting the Right to Organize Act of 2021",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/420/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:08:35Z",
+  "updateDateIncludingText": "2026-09-08T18:09:25Z"
+ },
+ "request": {
+  "billNumber": "420",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

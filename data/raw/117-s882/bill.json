@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/882/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/882/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/882/cosponsors?format=json"
+  },
+  "introducedDate": "2021-03-22",
+  "latestAction": {
+   "actionDate": "2021-03-22",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/882",
+  "number": "882",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/882/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000577",
+    "firstName": "Mike",
+    "fullName": "Sen. Lee, Mike [R-UT]",
+    "isByRequest": "N",
+    "lastName": "Lee",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/L000577?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/117/s/882/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/882/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/882/text?format=json"
+  },
+  "title": "Protecting American Jobs Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/882/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T10:44:34Z",
+  "updateDateIncludingText": "2025-12-05T10:44:34Z"
+ },
+ "request": {
+  "billNumber": "882",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

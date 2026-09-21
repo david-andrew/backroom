@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/1090/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1090/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/117/s/1090/cosponsors?format=json"
+  },
+  "introducedDate": "2021-04-13",
+  "latestAction": {
+   "actionDate": "2021-04-13",
+   "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/1090",
+  "number": "1090",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/1090/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001098",
+    "firstName": "Ted",
+    "fullName": "Sen. Cruz, Ted [R-TX]",
+    "isByRequest": "N",
+    "lastName": "Cruz",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/C001098?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/117/s/1090/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1090/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/1090/text?format=json"
+  },
+  "title": "Repeal CFPB Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/1090/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-06T02:16:50Z",
+  "updateDateIncludingText": "2025-12-06T02:16:50Z"
+ },
+ "request": {
+  "billNumber": "1090",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

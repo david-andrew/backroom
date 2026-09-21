@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/117/s/4130/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/4130/committees?format=json"
+  },
+  "congress": 117,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/117/s/4130/cosponsors?format=json"
+  },
+  "introducedDate": "2022-05-03",
+  "latestAction": {
+   "actionDate": "2022-05-03",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/117th-congress/senate-bill/4130",
+  "number": "4130",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/4130/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000575",
+    "firstName": "James",
+    "fullName": "Sen. Lankford, James [R-OK]",
+    "isByRequest": "N",
+    "lastName": "Lankford",
+    "party": "R",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/L000575?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/117/s/4130/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/4130/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/117/s/4130/text?format=json"
+  },
+  "title": "Patient Access to Higher Quality Health Care Act of 2022",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/117/s/4130/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T10:31:04Z",
+  "updateDateIncludingText": "2025-12-05T10:31:04Z"
+ },
+ "request": {
+  "billNumber": "4130",
+  "billType": "s",
+  "congress": "117",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
