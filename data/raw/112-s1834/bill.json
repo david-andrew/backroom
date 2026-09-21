@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/1834/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1834/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1834/cosponsors?format=json"
+  },
+  "introducedDate": "2011-11-09",
+  "latestAction": {
+   "actionDate": "2011-11-15",
+   "text": "Committee on Banking, Housing, and Urban Affairs. Hearings held. Hearings printed: S.Hrg. 112-408."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/1834",
+  "number": "1834",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Housing and Community Development"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001071",
+    "firstName": "Bob",
+    "fullName": "Sen. Corker, Bob [R-TN]",
+    "isByRequest": "N",
+    "lastName": "Corker",
+    "party": "R",
+    "state": "TN",
+    "url": "https://api.congress.gov/v3/member/C001071?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/112/s/1834/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1834/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1834/text?format=json"
+  },
+  "title": "Residential Mortgage Market Privatization and Standardization Act of 2011",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/1834/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T14:22:56Z",
+  "updateDateIncludingText": "2025-08-14T14:22:56Z"
+ },
+ "request": {
+  "billNumber": "1834",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

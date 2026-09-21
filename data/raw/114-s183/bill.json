@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/114/s/183/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/183/committees?format=json"
+  },
+  "congress": 114,
+  "cosponsors": {
+   "count": 39,
+   "countIncludingWithdrawnCosponsors": 39,
+   "url": "https://api.congress.gov/v3/bill/114/s/183/cosponsors?format=json"
+  },
+  "introducedDate": "2015-01-16",
+  "latestAction": {
+   "actionDate": "2015-01-16",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/114th-congress/senate-bill/183",
+  "number": "183",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/183/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001261",
+    "firstName": "John",
+    "fullName": "Sen. Barrasso, John [R-WY]",
+    "isByRequest": "N",
+    "lastName": "Barrasso",
+    "party": "R",
+    "state": "WY",
+    "url": "https://api.congress.gov/v3/member/B001261?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/114/s/183/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/183/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/183/text?format=json"
+  },
+  "title": "Jobs and Premium Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/114/s/183/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-12T14:12:10Z",
+  "updateDateIncludingText": "2025-08-12T14:12:10Z"
+ },
+ "request": {
+  "billNumber": "183",
+  "billType": "s",
+  "congress": "114",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

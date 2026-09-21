@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/868/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/868/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/112/s/868/cosponsors?format=json"
+  },
+  "introducedDate": "2011-05-03",
+  "latestAction": {
+   "actionDate": "2011-05-03",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/868",
+  "number": "868",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/868/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000338",
+    "firstName": "ORRIN",
+    "fullName": "Sen. Hatch, Orrin G. [R-UT]",
+    "isByRequest": "N",
+    "lastName": "HATCH",
+    "middleName": "GRANT",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/H000338?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/112/s/868/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/868/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/868/text?format=json"
+  },
+  "title": "State Flexibility Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/868/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T17:24:56Z",
+  "updateDateIncludingText": "2025-12-05T17:24:56Z"
+ },
+ "request": {
+  "billNumber": "868",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

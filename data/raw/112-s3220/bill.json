@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/112/s/3220/actions?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 37,
+   "countIncludingWithdrawnCosponsors": 37,
+   "url": "https://api.congress.gov/v3/bill/112/s/3220/cosponsors?format=json"
+  },
+  "introducedDate": "2012-05-22",
+  "latestAction": {
+   "actionDate": "2012-06-05",
+   "text": "Motion to proceed to consideration of measure withdrawn in Senate. (consideration: CR S3714)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/3220",
+  "number": "3220",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/3220/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000702",
+    "firstName": "BARBARA",
+    "fullName": "Sen. Mikulski, Barbara A. [D-MD]",
+    "isByRequest": "N",
+    "lastName": "MIKULSKI",
+    "middleName": "ANN",
+    "party": "D",
+    "state": "MD",
+    "url": "https://api.congress.gov/v3/member/M000702?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/112/s/3220/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/3220/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/3220/text?format=json"
+  },
+  "title": "Paycheck Fairness Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/3220/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T13:48:31Z",
+  "updateDateIncludingText": "2025-12-05T13:48:31Z"
+ },
+ "request": {
+  "billNumber": "3220",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

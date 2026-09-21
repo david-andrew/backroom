@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/136/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/136/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/112/s/136/cosponsors?format=json"
+  },
+  "introducedDate": "2011-01-25",
+  "latestAction": {
+   "actionDate": "2011-01-25",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text of measure as introduced: CR S204)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/136",
+  "number": "136",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000062",
+    "firstName": "Dianne",
+    "fullName": "Sen. Feinstein, Dianne [D-CA]",
+    "isByRequest": "N",
+    "lastName": "Feinstein",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/F000062?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/112/s/136/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/136/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/136/text?format=json"
+  },
+  "title": "Ban Poisonous Additives Act of 2011",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/136/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T14:20:59Z",
+  "updateDateIncludingText": "2025-08-14T14:20:59Z"
+ },
+ "request": {
+  "billNumber": "136",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

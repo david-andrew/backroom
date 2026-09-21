@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/114/s/1042/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/1042/committees?format=json"
+  },
+  "congress": 114,
+  "cosponsors": {
+   "count": 12,
+   "countIncludingWithdrawnCosponsors": 12,
+   "url": "https://api.congress.gov/v3/bill/114/s/1042/cosponsors?format=json"
+  },
+  "introducedDate": "2015-04-22",
+  "latestAction": {
+   "actionDate": "2015-04-22",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/114th-congress/senate-bill/1042",
+  "number": "1042",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/114/s/1042/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000639",
+    "firstName": "Robert",
+    "fullName": "Sen. Menendez, Robert [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "Menendez",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/M000639?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/114/s/1042/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/1042/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/1042/text?format=json"
+  },
+  "title": "COAST Anti-Drilling Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/114/s/1042/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:09:59Z"
+ },
+ "request": {
+  "billNumber": "1042",
+  "billType": "s",
+  "congress": "114",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/987/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/987/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 17,
+   "countIncludingWithdrawnCosponsors": 17,
+   "url": "https://api.congress.gov/v3/bill/112/s/987/cosponsors?format=json"
+  },
+  "introducedDate": "2011-05-12",
+  "latestAction": {
+   "actionDate": "2011-10-13",
+   "text": "Committee on the Judiciary. Hearings held. Hearings printed: S.Hrg. 112-177."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/987",
+  "number": "987",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Law"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/987/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000457",
+    "firstName": "Al",
+    "fullName": "Sen. Franken, Al [D-MN]",
+    "isByRequest": "N",
+    "lastName": "Franken",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/F000457?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/112/s/987/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/987/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/987/text?format=json"
+  },
+  "title": "Arbitration Fairness Act of 2011",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/987/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "987",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

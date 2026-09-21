@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/712/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/712/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 28,
+   "countIncludingWithdrawnCosponsors": 28,
+   "url": "https://api.congress.gov/v3/bill/112/s/712/cosponsors?format=json"
+  },
+  "introducedDate": "2011-03-31",
+  "latestAction": {
+   "actionDate": "2011-03-31",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/712",
+  "number": "712",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/712/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000595",
+    "firstName": "James",
+    "fullName": "Sen. DeMint, Jim [R-SC]",
+    "isByRequest": "N",
+    "lastName": "DeMint",
+    "middleName": "W.",
+    "party": "R",
+    "state": "SC",
+    "url": "https://api.congress.gov/v3/member/D000595?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/112/s/712/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/712/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/712/text?format=json"
+  },
+  "title": "Financial Takeover Repeal Act of 2011",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/712/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T14:20:36Z",
+  "updateDateIncludingText": "2025-08-14T14:20:36Z"
+ },
+ "request": {
+  "billNumber": "712",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

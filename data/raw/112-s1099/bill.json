@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/1099/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1099/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/1099/cosponsors?format=json"
+  },
+  "introducedDate": "2011-05-26",
+  "latestAction": {
+   "actionDate": "2011-05-26",
+   "text": "Read twice and referred to the Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/1099",
+  "number": "1099",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/112/s/1099/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000575",
+    "firstName": "Roy",
+    "fullName": "Sen. Blunt, Roy [R-MO]",
+    "isByRequest": "N",
+    "lastName": "Blunt",
+    "party": "R",
+    "state": "MO",
+    "url": "https://api.congress.gov/v3/member/B000575?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/112/s/1099/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1099/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1099/text?format=json"
+  },
+  "title": "Help Efficient, Accessible, Low-cost, Timely Healthcare (HEALTH) Act of 2011",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/1099/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:58:05Z"
+ },
+ "request": {
+  "billNumber": "1099",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

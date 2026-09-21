@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/114/s/751/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/751/committees?format=json"
+  },
+  "congress": 114,
+  "cosponsors": {
+   "count": 27,
+   "countIncludingWithdrawnCosponsors": 27,
+   "url": "https://api.congress.gov/v3/bill/114/s/751/cosponsors?format=json"
+  },
+  "introducedDate": "2015-03-17",
+  "latestAction": {
+   "actionDate": "2015-06-03",
+   "text": "Committee on Environment and Public Works. Hearings held. Hearings printed: S.Hrg. 114-47."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/114th-congress/senate-bill/751",
+  "number": "751",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/751/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000250",
+    "firstName": "John",
+    "fullName": "Sen. Thune, John [R-SD]",
+    "isByRequest": "N",
+    "lastName": "Thune",
+    "middleName": "R.",
+    "party": "R",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/T000250?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/114/s/751/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/751/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/751/text?format=json"
+  },
+  "title": "CASE Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/114/s/751/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:16:31Z"
+ },
+ "request": {
+  "billNumber": "751",
+  "billType": "s",
+  "congress": "114",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

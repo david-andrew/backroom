@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/hr/123/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/hr/123/committees?format=json"
+  },
+  "congress": 112,
+  "constitutionalAuthorityStatementText": "<pre>\nFrom the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]\nBy Mr. GINGREY of Georgia:\nH.R. 123.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8, Clause 1 of the Constitution that\nstates, ``The Congress shall have Power to lay and collect\nTaxes . . .''\nAmendment XVI of the Constitution that states, ``The\nCongress shall have power to lay and collect taxes on incomes\n. . .''\n[Page H45]\n</pre>",
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/112/hr/123/cosponsors?format=json"
+  },
+  "introducedDate": "2011-01-05",
+  "latestAction": {
+   "actionDate": "2011-01-05",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/house-bill/123",
+  "number": "123",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/hr/123/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000550",
+    "district": 11,
+    "firstName": "Phil",
+    "fullName": "Rep. Gingrey, Phil [R-GA-11]",
+    "isByRequest": "N",
+    "lastName": "Gingrey",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/G000550?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/112/hr/123/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/hr/123/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/hr/123/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to make certain tax relief permanent, and to repeal the estate tax.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/hr/123/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-03T01:32:52Z",
+  "updateDateIncludingText": "2025-01-03T01:32:52Z"
+ },
+ "request": {
+  "billNumber": "123",
+  "billType": "hr",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

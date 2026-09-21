@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/112/s/1544/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1544/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/112/s/1544/cosponsors?format=json"
+  },
+  "introducedDate": "2011-09-12",
+  "latestAction": {
+   "actionDate": "2012-03-06",
+   "text": "Committee on Banking, Housing, and Urban Affairs. Hearings held. Hearings printed: S.Hrg. 112-482."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/1544",
+  "number": "1544",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1544/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000464",
+    "firstName": "Jon",
+    "fullName": "Sen. Tester, Jon [D-MT]",
+    "isByRequest": "N",
+    "lastName": "Tester",
+    "party": "D",
+    "state": "MT",
+    "url": "https://api.congress.gov/v3/member/T000464?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/112/s/1544/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1544/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1544/text?format=json"
+  },
+  "title": "Small Company Capital Formation Act of 2011",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/1544/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-10T18:30:45Z",
+  "updateDateIncludingText": "2026-01-10T18:30:45Z"
+ },
+ "request": {
+  "billNumber": "1544",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/587/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/587/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/112/s/587/cosponsors?format=json"
+  },
+  "introducedDate": "2011-03-15",
+  "latestAction": {
+   "actionDate": "2011-04-12",
+   "text": "Committee on Environment and Public Works. Hearings held with the Subcommittee on Water and Wildlife. Hearings printed: S.Hrg. 112-901."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/587",
+  "number": "587",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/587/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001070",
+    "firstName": "Bob",
+    "fullName": "Sen. Casey, Robert P., Jr. [D-PA]",
+    "isByRequest": "N",
+    "lastName": "Casey",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/C001070?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/112/s/587/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/587/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/587/text?format=json"
+  },
+  "title": "FRAC Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/112/s/587/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:12:22Z"
+ },
+ "request": {
+  "billNumber": "587",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

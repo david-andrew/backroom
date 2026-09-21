@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/3048/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/3048/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/3048/cosponsors?format=json"
+  },
+  "introducedDate": "2012-05-09",
+  "latestAction": {
+   "actionDate": "2012-05-09",
+   "text": "Committee on Banking, Housing, and Urban Affairs. Hearings held. Hearings printed: S.Hrg. 112-679."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/3048",
+  "number": "3048",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/3048/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000944",
+    "firstName": "Sherrod",
+    "fullName": "Sen. Brown, Sherrod [D-OH]",
+    "isByRequest": "N",
+    "lastName": "Brown",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/B000944?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/112/s/3048/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/3048/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/3048/text?format=json"
+  },
+  "title": "SAFE Banking Act of 2012",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/112/s/3048/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T20:24:26Z",
+  "updateDateIncludingText": "2025-12-05T20:24:26Z"
+ },
+ "request": {
+  "billNumber": "3048",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

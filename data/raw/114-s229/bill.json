@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/114/s/229/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/229/committees?format=json"
+  },
+  "congress": 114,
+  "cosponsors": {
+   "count": 42,
+   "countIncludingWithdrawnCosponsors": 42,
+   "url": "https://api.congress.gov/v3/bill/114/s/229/cosponsors?format=json"
+  },
+  "introducedDate": "2015-01-21",
+  "latestAction": {
+   "actionDate": "2015-01-21",
+   "text": "Read twice and referred to the Committee on Rules and Administration. (Sponsor introductory remarks on measure: CR S349-350; text of measure as introduced: CR S350-352)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/114th-congress/senate-bill/229",
+  "number": "229",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/114/s/229/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000802",
+    "firstName": "Sheldon",
+    "fullName": "Sen. Whitehouse, Sheldon [D-RI]",
+    "isByRequest": "N",
+    "lastName": "Whitehouse",
+    "party": "D",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/W000802?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/114/s/229/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/229/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/229/text?format=json"
+  },
+  "title": "DISCLOSE Act of 2015",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/114/s/229/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-12T14:12:54Z",
+  "updateDateIncludingText": "2025-08-12T14:12:54Z"
+ },
+ "request": {
+  "billNumber": "229",
+  "billType": "s",
+  "congress": "114",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/114/s/640/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/640/committees?format=json"
+  },
+  "congress": 114,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/114/s/640/cosponsors?format=json"
+  },
+  "introducedDate": "2015-03-03",
+  "latestAction": {
+   "actionDate": "2015-06-03",
+   "text": "Committee on Environment and Public Works. Hearings held. Hearings printed: S.Hrg. 114-47."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/114th-congress/senate-bill/640",
+  "number": "640",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/640/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000444",
+    "firstName": "JEFF",
+    "fullName": "Sen. Flake, Jeff [R-AZ]",
+    "isByRequest": "N",
+    "lastName": "FLAKE",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/F000444?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/114/s/640/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/640/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/640/text?format=json"
+  },
+  "title": "ORDEAL Act of 2015",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/114/s/640/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:16:31Z"
+ },
+ "request": {
+  "billNumber": "640",
+  "billType": "s",
+  "congress": "114",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

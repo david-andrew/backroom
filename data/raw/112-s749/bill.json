@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/749/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/749/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 12,
+   "countIncludingWithdrawnCosponsors": 12,
+   "url": "https://api.congress.gov/v3/bill/112/s/749/cosponsors?format=json"
+  },
+  "introducedDate": "2011-04-06",
+  "latestAction": {
+   "actionDate": "2011-04-12",
+   "text": "Committee on the Judiciary Subcommittee on the Constitution, Civil Rights and Human Rights. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/749",
+  "number": "749",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000563",
+    "firstName": "Richard",
+    "fullName": "Sen. Durbin, Richard J. [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Durbin",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000563?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/112/s/749/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/749/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/749/text?format=json"
+  },
+  "title": "Fair Elections Revenue Act of 2011",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/749/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T14:17:49Z",
+  "updateDateIncludingText": "2025-08-14T14:17:49Z"
+ },
+ "request": {
+  "billNumber": "749",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

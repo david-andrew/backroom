@@ -1,0 +1,293 @@
+{
+ "bill_id": "112-s968",
+ "model": "z-ai/glm-5.3-flash",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-21T21:19:30+00:00",
+ "record_fetched_at": "2026-09-21T20:23:27+00:00",
+ "record_hash": "471f5945730703f2",
+ "analysis": {
+  "one_liner": "Lets courts order ad networks, payment firms, and search engines to cut off websites accused of piracy.",
+  "headline": "Despite 41 bipartisan cosponsors and unanimous committee approval, the Senate never voted: the bill's cloture motion was withdrawn in January 2012 after a nationwide internet protest and the Congress ended with the bill dead.",
+  "direction": "for_concentrated_interests",
+  "plain_summary": "The PROTECT IP Act would let the Justice Department and copyright and trademark owners go to court against websites 'dedicated to infringing activities.' Courts could then order payment processors, advertising networks, search engines, and domain name system operators to stop serving those sites, cutting off their US revenue and making them hard to find. The stated targets were foreign 'rogue' piracy sites, including pharmacies selling counterfeit or prescription drugs. The bill advanced quickly through the Judiciary Committee in 2011 but collapsed in January 2012 after a coordinated online protest, and no vote was ever held.",
+  "who_benefits": "Copyright and trademark owners — movie studios, record labels, publishers, and brand manufacturers — would gain new court tools to cut advertising and payment revenue off from piracy sites. Pharmaceutical makers would gain from immunity for companies that refuse service to sites selling counterfeit or prescription drugs without valid prescriptions. Payment processors, ad networks, and domain registries that comply with court orders would get sweeping immunity from liability.",
+  "who_benefits_short": "Studios, labels, publishers, and brand makers",
+  "how_it_helps": [
+   {
+    "text": "Gives the Attorney General and private intellectual property owners the right to sue the owners and operators of websites 'dedicated to infringing activities' and, when no US-addressable defendant exists, to sue the domain name itself.",
+    "sources": [
+     "S3",
+     "S4"
+    ]
+   },
+   {
+    "text": "Allows courts to order financial transaction providers and internet advertising services to stop processing payments and serving ads to the site, and to order search engines and other information location tools to remove or stop linking to it.",
+    "sources": [
+     "S3",
+     "S4"
+    ]
+   },
+   {
+    "text": "Allows the Attorney General, for sites registered overseas, to order nonauthoritative domain name system servers to stop resolving the domain name to its IP address, making the site unreachable for users of those servers.",
+    "sources": [
+     "S4"
+    ]
+   },
+   {
+    "text": "Grants broad immunity from liability to payment providers, ad networks, domain registries, and search engines that comply with orders, or that in good faith refuse service to sites they believe are dedicated to infringement — including sites distributing counterfeit, adulterated, or no-prescription medication.",
+    "sources": [
+     "S3",
+     "S4"
+    ]
+   }
+  ],
+  "who_pays": "Internet users would bear the risk of overblocking — lawful sites could be cut off if a court found them 'dedicated' to infringement, and ordinary users of filtered DNS servers would find sites unreachable with little recourse. Web companies, startups, search engines, ad networks, payment processors, and domain operators would bear compliance costs and the legal risk of being sued for not acting fast enough.",
+  "who_pays_short": "Internet users and web companies",
+  "drawbacks": [
+   {
+    "text": "The 'Internet site dedicated to infringing activities' standard sweeps in lawful content: a site with substantial legitimate use could be deemed dedicated to infringement, and then cut off from ads, payments, and search traffic before the site operator gets a full hearing.",
+    "sources": [
+     "S4"
+    ]
+   },
+   {
+    "text": "Private intellectual property owners — not just the government — could commence these actions and enforce orders against payment and advertising companies, opening the door to aggressive takedown campaigns against competitors and lawful platforms.",
+    "sources": [
+     "S3",
+     "S4"
+    ]
+   },
+   {
+    "text": "Requiring domain name system servers to stop resolving domains, as section 3 requires for foreign sites, interferes with the internet's core address system; the bill itself directs a Commerce Department study of the effect on the security and reliability of the domain name system, including DNSSEC.",
+    "sources": [
+     "S4"
+    ]
+   },
+   {
+    "text": "Blocking domains does not remove infringing content: sites can reappear at new domains or use servers outside the filtered system, which the bill's own 'related actions' provision anticipates as sites get 'reconstituted' elsewhere.",
+    "sources": [
+     "S4"
+    ]
+   }
+  ],
+  "benefit_vs_cost": "The bill targets a real problem — foreign piracy sites and rogue online pharmacies — but its remedies run through the internet's basic infrastructure and reach companies and users who are not accused of anything. The private right of action, the loose 'dedicated to infringing activities' definition, and mandated DNS filtering create a real risk of cutting off lawful speech and lawful businesses, and the technical fixes are trivially bypassed. The costs fall on the open internet; the gains accrue to rights holders. A narrower bill focused on counterfeit-drug sites and ad/payment revenue would have carried far less risk.",
+  "outcome": {
+   "status": "never_got_a_vote",
+   "mechanism": "The bill cleared the Judiciary Committee and sat on the Senate calendar, but after a massive online protest in January 2012 the Senate withdrew its cloture motion by unanimous consent and never took the bill up again.",
+   "narrative": [
+    {
+     "text": "The bill was introduced on May 12, 2011 by Senator Leahy with 15 original cosponsors and referred to the Judiciary Committee.",
+     "sources": [
+      "S4",
+      "S6"
+     ]
+    },
+    {
+     "text": "The Judiciary Committee ordered it reported favorably with an amendment on May 26, 2011, and it was placed on the Senate Legislative Calendar under General Orders, Calendar No. 70; hearings were held June 22 and a written report was filed July 22, 2011.",
+     "sources": [
+      "S3",
+      "S6"
+     ]
+    },
+    {
+     "text": "By the end, the bill had 41 cosponsors — 17 Republicans, 23 Democrats, and 1 Independent — with the two parties' floor leaders, Leahy (D) and Hatch (R), among the original backers.",
+     "sources": [
+      "S4",
+      "S5"
+     ]
+    },
+    {
+     "text": "A motion to proceed to the bill was made and a cloture motion was presented on December 17, 2011 — cloture being the 60-vote step needed to move the bill to the floor.",
+     "sources": [
+      "S6"
+     ]
+    },
+    {
+     "text": "On January 23, 2012, the cloture motion was withdrawn by unanimous consent; no vote on the motion to proceed or the bill itself was ever held, and the bill died when the 112th Congress ended on January 3, 2013.",
+     "sources": [
+      "S6",
+      "S1"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "Internet users and the web companies that fought the bill came out ahead: the enforcement regime was never created. Content industries lost the bill they had lobbied for."
+  },
+  "who_came_out_ahead_short": "Internet users and web companies",
+  "sides": {
+   "for": [
+    {
+     "name": "Sen. Patrick Leahy",
+     "role": "Senate Judiciary Committee Chairman; bill sponsor",
+     "party": "D",
+     "what_they_did": "Introduced the bill, steered it through committee markup, report, and hearings, and filed the cloture motion to bring it to the floor.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S4",
+      "S5",
+      "S6"
+     ]
+    },
+    {
+     "name": "Sen. Orrin Hatch",
+     "role": "Original cosponsor; senior Judiciary Republican",
+     "party": "R",
+     "what_they_did": "Joined as an original cosponsor, giving the bill top-tier bipartisan sponsorship.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "name": "41 Senate cosponsors",
+     "role": "17 Republicans, 23 Democrats, 1 Independent",
+     "party": null,
+     "what_they_did": "Cosponsored the bill, supporting it to the Judiciary Committee and onto the Senate calendar.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S5",
+      "S1"
+     ]
+    },
+    {
+     "name": "Motion picture and recording industries",
+     "role": "Major copyright holders (MPAA, RIAA)",
+     "party": null,
+     "what_they_did": "Lobbied intensively for the bill as the leading enforcement tool against foreign piracy sites.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
+    },
+    {
+     "name": "Pharmaceutical manufacturers and the US Chamber of Commerce",
+     "role": "Brand and drug makers",
+     "party": null,
+     "what_they_did": "Backed the bill, citing counterfeit goods and rogue online drug sales.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
+    }
+   ],
+   "against": [
+    {
+     "name": "Online protest (Wikipedia, Reddit, Google, and millions of users)",
+     "role": "Internet users and web platforms",
+     "party": null,
+     "what_they_did": "Wikipedia blacked out its site for a day, Reddit went dark, and millions of users contacted Congress, driving cosponsors to withdraw support.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
+    },
+    {
+     "name": "Sen. Ron Wyden",
+     "role": "Senator (D-OR)",
+     "party": "D",
+     "what_they_did": "Placed a hold on the bill and led Senate opposition from the start.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
+    },
+    {
+     "name": "Sen. Marco Rubio",
+     "role": "Senator (R-FL); original cosponsor",
+     "party": "R",
+     "what_they_did": "Withdrew his support days before the scheduled cloture vote, urging the Majority Leader to pull the bill.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
+    },
+    {
+     "name": "Sen. Roy Blunt",
+     "role": "Senator (R-MO); cosponsor",
+     "party": "R",
+     "what_they_did": "Withdrew his support in the January 2012 backlash.",
+     "direct": false,
+     "evidence": "widely_reported",
+     "sources": []
+    },
+    {
+     "name": "Senate Majority Leader Harry Reid",
+     "role": "Senate Majority Leader (D-NV)",
+     "party": "D",
+     "what_they_did": "Scheduled the cloture vote for January 24, 2012, then postponed it as support collapsed; the cloture motion was withdrawn by unanimous consent on January 23.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S6"
+     ]
+    },
+    {
+     "name": "Senate (by unanimous consent)",
+     "role": "The full Senate",
+     "party": null,
+     "what_they_did": "Withdrew the cloture motion by unanimous consent on January 23, 2012, ending the attempt to bring the bill to the floor.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S6"
+     ]
+    }
+   ],
+   "party_line": "bipartisan",
+   "party_line_note": "Support was bipartisan at both ends — the original sponsors included Leahy, Hatch, Schumer, and Graham, and the 41 cosponsors split 23 Democrats / 17 Republicans / 1 Independent — but the opposition that killed it was also bipartisan, with the two highest-profile reversals coming from cosponsor Republicans Rubio and Blunt and the protest cutting across party lines."
+  },
+  "industries": [
+   {
+    "industry": "Motion picture and recording industries",
+    "effect": "gains",
+    "stance_toward_public": "opposed",
+    "note": "The bill gives studios and labels court orders to cut off piracy sites' advertising and payment revenue and to remove them from search. Its enforcement regime also puts lawful, user-generated platforms at risk, a cost paid by internet users rather than by the rights holders.",
+    "sources": [
+     "S3",
+     "S4"
+    ]
+   },
+   {
+    "industry": "Internet companies (search engines, ad networks, payment processors)",
+    "effect": "loses",
+    "stance_toward_public": "aligned",
+    "note": "The bill makes these companies enforceable arms of copyright enforcement: they must comply with orders, face injunction suits if they 'knowingly and willfully' fail, and absorb compliance costs — all while gaining immunity if they cut off a site they merely believe is infringing. Their interest in avoiding this burden aligned with users' interest in an uncensored web.",
+    "sources": [
+     "S3",
+     "S4"
+    ]
+   },
+   {
+    "industry": "Pharmaceutical manufacturers",
+    "effect": "gains",
+    "stance_toward_public": "mixed",
+    "note": "The bill grants immunity to any company that refuses service to sites distributing counterfeit, adulterated, or no-prescription medication, cracking down on rogue online pharmacies. This is the bill's most consumer-protective element, though it also entrenches brand-drug enforcement at the expense of online sellers.",
+    "sources": [
+     "S4"
+    ]
+   },
+   {
+    "industry": "Domain registries and registrars",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "They are protected by immunity for complying with orders or refusing service to health-endangering sites, but foreign-registered domains face the bill's in rem actions and US-based operators face compliance duties.",
+    "sources": [
+     "S3",
+     "S4"
+    ]
+   }
+  ],
+  "trajectory": null,
+  "categories": [
+   "consumer_protection_and_finance",
+   "other"
+  ],
+  "scores": {
+   "public_stakes": 6,
+   "concentrated_stakes": 8,
+   "outcome_against_public": 1,
+   "support_mismatch": 7,
+   "corruption_relevance": 2,
+   "confidence": 0.75
+  }
+ },
+ "unresolved_citations": []
+}

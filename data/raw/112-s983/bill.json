@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/983/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/983/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/983/cosponsors?format=json"
+  },
+  "introducedDate": "2011-05-12",
+  "latestAction": {
+   "actionDate": "2011-05-12",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/983",
+  "number": "983",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/983/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000032",
+    "firstName": "CLARENCE",
+    "fullName": "Sen. Nelson, Bill [D-FL]",
+    "isByRequest": "N",
+    "lastName": "NELSON",
+    "middleName": "WILLIAM",
+    "party": "D",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/N000032?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/112/s/983/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/983/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/983/text?format=json"
+  },
+  "title": "A bill to amend the Internal Revenue Code of 1986 to disallow a deduction for amounts paid or incurred by a responsible party relating to a discharge of oil.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/983/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T20:26:25Z",
+  "updateDateIncludingText": "2025-12-05T20:26:25Z"
+ },
+ "request": {
+  "billNumber": "983",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

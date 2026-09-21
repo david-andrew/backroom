@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/58/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/58/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/58/cosponsors?format=json"
+  },
+  "introducedDate": "2011-01-25",
+  "latestAction": {
+   "actionDate": "2011-01-25",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/58",
+  "number": "58",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/58/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "I000025",
+    "firstName": "DANIEL",
+    "fullName": "Sen. Inouye, Daniel K. [D-HI]",
+    "isByRequest": "N",
+    "lastName": "INOUYE",
+    "middleName": "KEN",
+    "party": "D",
+    "state": "HI",
+    "url": "https://api.congress.gov/v3/member/I000025?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/112/s/58/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/58/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/58/text?format=json"
+  },
+  "title": "Registered Nurse Safe Staffing Act of 2011",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/58/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T16:07:53Z",
+  "updateDateIncludingText": "2025-12-05T16:07:53Z"
+ },
+ "request": {
+  "billNumber": "58",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

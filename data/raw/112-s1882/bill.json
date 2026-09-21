@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/1882/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1882/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 12,
+   "countIncludingWithdrawnCosponsors": 12,
+   "url": "https://api.congress.gov/v3/bill/112/s/1882/cosponsors?format=json"
+  },
+  "introducedDate": "2011-11-16",
+  "latestAction": {
+   "actionDate": "2011-11-16",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text of measure as introduced: CR S7616-7617)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/1882",
+  "number": "1882",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000468",
+    "firstName": "JESSE",
+    "fullName": "Sen. Bingaman, Jeff [D-NM]",
+    "isByRequest": "N",
+    "lastName": "BINGAMAN",
+    "middleName": "FRANCIS",
+    "party": "D",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/B000468?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/112/s/1882/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1882/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1882/text?format=json"
+  },
+  "title": "FAIR Generics Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/112/s/1882/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T14:17:24Z",
+  "updateDateIncludingText": "2025-08-14T14:17:24Z"
+ },
+ "request": {
+  "billNumber": "1882",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/319/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/319/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 21,
+   "countIncludingWithdrawnCosponsors": 21,
+   "url": "https://api.congress.gov/v3/bill/112/s/319/cosponsors?format=json"
+  },
+  "introducedDate": "2011-02-10",
+  "latestAction": {
+   "actionDate": "2011-02-10",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/319",
+  "number": "319",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000663",
+    "firstName": "Olympia",
+    "fullName": "Sen. Snowe, Olympia J. [R-ME]",
+    "isByRequest": "N",
+    "lastName": "Snowe",
+    "middleName": "J.",
+    "party": "R",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/S000663?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 38,
+   "url": "https://api.congress.gov/v3/bill/112/s/319/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/319/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/319/text?format=json"
+  },
+  "title": "Pharmaceutical Market Access and Drug Safety Act of 2011",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/319/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T14:19:20Z",
+  "updateDateIncludingText": "2025-08-14T14:19:20Z"
+ },
+ "request": {
+  "billNumber": "319",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

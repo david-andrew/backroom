@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/45/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/45/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/112/s/45/cosponsors?format=json"
+  },
+  "introducedDate": "2011-01-25",
+  "latestAction": {
+   "actionDate": "2011-01-25",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/45",
+  "number": "45",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/45/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000802",
+    "firstName": "Sheldon",
+    "fullName": "Sen. Whitehouse, Sheldon [D-RI]",
+    "isByRequest": "N",
+    "lastName": "Whitehouse",
+    "party": "D",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/W000802?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/112/s/45/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/45/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/45/text?format=json"
+  },
+  "title": "Offshoring Prevention Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/45/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T15:45:32Z",
+  "updateDateIncludingText": "2025-12-05T15:45:32Z"
+ },
+ "request": {
+  "billNumber": "45",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

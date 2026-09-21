@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/74/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/74/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/74/cosponsors?format=json"
+  },
+  "introducedDate": "2011-01-25",
+  "latestAction": {
+   "actionDate": "2011-01-25",
+   "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation. (text of measure as introduced: CR S183-185)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/74",
+  "number": "74",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000127",
+    "firstName": "Maria",
+    "fullName": "Sen. Cantwell, Maria [D-WA]",
+    "isByRequest": "N",
+    "lastName": "Cantwell",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/C000127?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/112/s/74/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/74/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/74/text?format=json"
+  },
+  "title": "Internet Freedom, Broadband Promotion, and Consumer Protection Act of 2011",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/74/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:05:41Z"
+ },
+ "request": {
+  "billNumber": "74",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/114/s/155/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/155/committees?format=json"
+  },
+  "congress": 114,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/114/s/155/cosponsors?format=json"
+  },
+  "introducedDate": "2015-01-13",
+  "latestAction": {
+   "actionDate": "2015-01-13",
+   "text": "Read twice and referred to the Committee on Finance. (Sponsor introductory remarks on measure: CR S552-553)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/114th-congress/senate-bill/155",
+  "number": "155",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/114/s/155/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000934",
+    "firstName": "Jerry",
+    "fullName": "Sen. Moran, Jerry [R-KS]",
+    "isByRequest": "N",
+    "lastName": "Moran",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/M000934?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/114/s/155/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/155/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/155/text?format=json"
+  },
+  "title": "Fair Tax Act of 2015",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/114/s/155/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-13T16:12:29Z",
+  "updateDateIncludingText": "2026-01-13T16:12:29Z"
+ },
+ "request": {
+  "billNumber": "155",
+  "billType": "s",
+  "congress": "114",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

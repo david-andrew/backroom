@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/2075/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/2075/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/2075/cosponsors?format=json"
+  },
+  "introducedDate": "2012-02-07",
+  "latestAction": {
+   "actionDate": "2012-02-07",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/2075",
+  "number": "2075",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/2075/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000261",
+    "firstName": "CARL",
+    "fullName": "Sen. Levin, Carl [D-MI]",
+    "isByRequest": "N",
+    "lastName": "LEVIN",
+    "middleName": "MILTON",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/L000261?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/112/s/2075/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/2075/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/2075/text?format=json"
+  },
+  "title": "CUT Loopholes Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/112/s/2075/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T14:20:37Z",
+  "updateDateIncludingText": "2025-08-14T14:20:37Z"
+ },
+ "request": {
+  "billNumber": "2075",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

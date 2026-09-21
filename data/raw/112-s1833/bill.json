@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/1833/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1833/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/112/s/1833/cosponsors?format=json"
+  },
+  "introducedDate": "2011-11-09",
+  "latestAction": {
+   "actionDate": "2011-11-09",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/1833",
+  "number": "1833",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001183",
+    "firstName": "Joseph",
+    "fullName": "Sen. Manchin, Joe, III [D-WV]",
+    "isByRequest": "N",
+    "lastName": "Manchin",
+    "party": "D",
+    "state": "WV",
+    "url": "https://api.congress.gov/v3/member/M001183?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/112/s/1833/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1833/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1833/text?format=json"
+  },
+  "title": "Fair Compliance Act of 2011",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/1833/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:16:45Z"
+ },
+ "request": {
+  "billNumber": "1833",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

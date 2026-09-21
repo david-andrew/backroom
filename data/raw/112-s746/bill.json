@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/746/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/746/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/112/s/746/cosponsors?format=json"
+  },
+  "introducedDate": "2011-04-06",
+  "latestAction": {
+   "actionDate": "2011-04-06",
+   "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/746",
+  "number": "746",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/746/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000320",
+    "firstName": "Richard",
+    "fullName": "Sen. Shelby, Richard C. [R-AL]",
+    "isByRequest": "N",
+    "lastName": "Shelby",
+    "middleName": "C.",
+    "party": "R",
+    "state": "AL",
+    "url": "https://api.congress.gov/v3/member/S000320?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/112/s/746/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/746/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/746/text?format=json"
+  },
+  "title": "Dodd-Frank Repeal Act of 2011",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/746/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T14:18:59Z",
+  "updateDateIncludingText": "2025-08-14T14:18:59Z"
+ },
+ "request": {
+  "billNumber": "746",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

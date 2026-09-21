@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/114/s/490/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/490/committees?format=json"
+  },
+  "congress": 114,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/114/s/490/cosponsors?format=json"
+  },
+  "introducedDate": "2015-02-12",
+  "latestAction": {
+   "actionDate": "2015-02-12",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/114th-congress/senate-bill/490",
+  "number": "490",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/114/s/490/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "I000024",
+    "firstName": "Jim",
+    "fullName": "Sen. Inhofe, James M. [R-OK]",
+    "isByRequest": "N",
+    "lastName": "Inhofe",
+    "party": "R",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/I000024?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/114/s/490/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/490/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/490/text?format=json"
+  },
+  "title": "Federal Land Freedom Act of 2015",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/114/s/490/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:09:59Z"
+ },
+ "request": {
+  "billNumber": "490",
+  "billType": "s",
+  "congress": "114",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

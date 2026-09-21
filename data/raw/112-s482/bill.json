@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/482/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/482/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 44,
+   "countIncludingWithdrawnCosponsors": 44,
+   "url": "https://api.congress.gov/v3/bill/112/s/482/cosponsors?format=json"
+  },
+  "introducedDate": "2011-03-03",
+  "latestAction": {
+   "actionDate": "2011-03-10",
+   "text": "Sponsor introductory remarks on measure. (CR S1517-1518)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/482",
+  "number": "482",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/112/s/482/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "I000024",
+    "firstName": "Jim",
+    "fullName": "Sen. Inhofe, James M. [R-OK]",
+    "isByRequest": "N",
+    "lastName": "Inhofe",
+    "party": "R",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/I000024?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/112/s/482/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/482/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/482/text?format=json"
+  },
+  "title": "Energy Tax Prevention Act of 2011",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/482/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:26Z"
+ },
+ "request": {
+  "billNumber": "482",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

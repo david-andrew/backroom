@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/112/s/2041/actions?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 45,
+   "countIncludingWithdrawnCosponsors": 45,
+   "url": "https://api.congress.gov/v3/bill/112/s/2041/cosponsors?format=json"
+  },
+  "introducedDate": "2012-01-30",
+  "latestAction": {
+   "actionDate": "2012-02-07",
+   "text": "Sponsor introductory remarks on measure. (CR S366-367)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/2041",
+  "number": "2041",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/2041/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001061",
+    "firstName": "John",
+    "fullName": "Sen. Hoeven, John [R-ND]",
+    "isByRequest": "N",
+    "lastName": "Hoeven",
+    "party": "R",
+    "state": "ND",
+    "url": "https://api.congress.gov/v3/member/H001061?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/112/s/2041/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/2041/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/2041/text?format=json"
+  },
+  "title": "A bill to approve the Keystone XL pipeline project and provide for environmental protection and government oversight.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/2041/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2021-12-20T15:54:50Z",
+  "updateDateIncludingText": "2021-12-20T15:54:50Z"
+ },
+ "request": {
+  "billNumber": "2041",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

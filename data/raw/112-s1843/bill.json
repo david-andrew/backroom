@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/1843/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1843/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 33,
+   "countIncludingWithdrawnCosponsors": 33,
+   "url": "https://api.congress.gov/v3/bill/112/s/1843/cosponsors?format=json"
+  },
+  "introducedDate": "2011-11-10",
+  "latestAction": {
+   "actionDate": "2011-11-10",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/1843",
+  "number": "1843",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1843/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "I000055",
+    "firstName": "Johnny",
+    "fullName": "Sen. Isakson, Johnny [R-GA]",
+    "isByRequest": "N",
+    "lastName": "Isakson",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/I000055?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/1843/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1843/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1843/text?format=json"
+  },
+  "title": "Representation Fairness Restoration Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/1843/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T14:19:53Z",
+  "updateDateIncludingText": "2025-08-14T14:19:53Z"
+ },
+ "request": {
+  "billNumber": "1843",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/1331/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1331/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1331/cosponsors?format=json"
+  },
+  "introducedDate": "2011-07-06",
+  "latestAction": {
+   "actionDate": "2011-07-06",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/1331",
+  "number": "1331",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000803",
+    "firstName": "James",
+    "fullName": "Sen. Webb, Jim [D-VA]",
+    "isByRequest": "N",
+    "lastName": "Webb",
+    "middleName": "H. \"Jim\"",
+    "party": "D",
+    "state": "VA",
+    "url": "https://api.congress.gov/v3/member/W000803?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/112/s/1331/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1331/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1331/text?format=json"
+  },
+  "title": "Virginia Outer Continental Shelf Energy Production Act of 2011",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/1331/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:18:00Z"
+ },
+ "request": {
+  "billNumber": "1331",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

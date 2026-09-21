@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/520/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/520/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 19,
+   "countIncludingWithdrawnCosponsors": 19,
+   "url": "https://api.congress.gov/v3/bill/112/s/520/cosponsors?format=json"
+  },
+  "introducedDate": "2011-03-09",
+  "latestAction": {
+   "actionDate": "2011-03-09",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/520",
+  "number": "520",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/112/s/520/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000560",
+    "firstName": "TOM",
+    "fullName": "Sen. Coburn, Tom [R-OK]",
+    "isByRequest": "N",
+    "lastName": "COBURN",
+    "party": "R",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/C000560?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/112/s/520/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/520/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/520/text?format=json"
+  },
+  "title": "Volumetric Ethanol Excise Tax Credit Repeal Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/520/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T20:21:23Z",
+  "updateDateIncludingText": "2025-12-05T20:21:23Z"
+ },
+ "request": {
+  "billNumber": "520",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

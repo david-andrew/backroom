@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/114/s/725/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/725/committees?format=json"
+  },
+  "congress": 114,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/114/s/725/cosponsors?format=json"
+  },
+  "introducedDate": "2015-03-12",
+  "latestAction": {
+   "actionDate": "2015-03-12",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/114th-congress/senate-bill/725",
+  "number": "725",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/725/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000711",
+    "firstName": "BARBARA",
+    "fullName": "Sen. Boxer, Barbara [D-CA]",
+    "isByRequest": "N",
+    "lastName": "BOXER",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/B000711?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/114/s/725/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/725/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/725/text?format=json"
+  },
+  "title": "Alan Reinstein and Trevor Schaefer Toxic Chemical Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/114/s/725/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:12:22Z"
+ },
+ "request": {
+  "billNumber": "725",
+  "billType": "s",
+  "congress": "114",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

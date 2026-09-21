@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/112/s/258/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/258/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/112/s/258/cosponsors?format=json"
+  },
+  "introducedDate": "2011-02-02",
+  "latestAction": {
+   "actionDate": "2011-02-02",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/258",
+  "number": "258",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/258/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000639",
+    "firstName": "Robert",
+    "fullName": "Sen. Menendez, Robert [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "Menendez",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/M000639?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/112/s/258/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/258/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/258/text?format=json"
+  },
+  "title": "Close Big Oil Tax Loopholes Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/258/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T14:18:26Z",
+  "updateDateIncludingText": "2025-08-14T14:18:26Z"
+ },
+ "request": {
+  "billNumber": "258",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

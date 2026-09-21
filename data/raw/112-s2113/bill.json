@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/2113/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/2113/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/2113/cosponsors?format=json"
+  },
+  "introducedDate": "2012-02-15",
+  "latestAction": {
+   "actionDate": "2012-02-15",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/2113",
+  "number": "2113",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001049",
+    "firstName": "Kay",
+    "fullName": "Sen. Hagan, Kay R. [D-NC]",
+    "isByRequest": "N",
+    "lastName": "Hagan",
+    "middleName": "R.",
+    "party": "D",
+    "state": "NC",
+    "url": "https://api.congress.gov/v3/member/H001049?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/112/s/2113/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/2113/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/2113/text?format=json"
+  },
+  "title": "TREAT Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/112/s/2113/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T14:21:44Z",
+  "updateDateIncludingText": "2025-08-14T14:21:44Z"
+ },
+ "request": {
+  "billNumber": "2113",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

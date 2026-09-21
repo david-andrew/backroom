@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/114/s/785/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/785/committees?format=json"
+  },
+  "congress": 114,
+  "cosponsors": {
+   "count": 12,
+   "countIncludingWithdrawnCosponsors": 12,
+   "url": "https://api.congress.gov/v3/bill/114/s/785/cosponsors?format=json"
+  },
+  "introducedDate": "2015-03-18",
+  "latestAction": {
+   "actionDate": "2015-03-18",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/114th-congress/senate-bill/785",
+  "number": "785",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/114/s/785/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001070",
+    "firstName": "Bob",
+    "fullName": "Sen. Casey, Robert P., Jr. [D-PA]",
+    "isByRequest": "N",
+    "lastName": "Casey",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/C001070?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/114/s/785/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/785/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/114/s/785/text?format=json"
+  },
+  "title": "FRAC Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/114/s/785/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:12:22Z"
+ },
+ "request": {
+  "billNumber": "785",
+  "billType": "s",
+  "congress": "114",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

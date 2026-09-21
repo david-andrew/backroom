@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/1538/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1538/committees?format=json"
+  },
+  "congress": 112,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/112/s/1538/cosponsors?format=json"
+  },
+  "introducedDate": "2011-09-12",
+  "latestAction": {
+   "actionDate": "2011-09-12",
+   "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/112th-congress/senate-bill/1538",
+  "number": "1538",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/1538/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001035",
+    "firstName": "Susan",
+    "fullName": "Sen. Collins, Susan M. [R-ME]",
+    "isByRequest": "N",
+    "lastName": "Collins",
+    "middleName": "M.",
+    "party": "R",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/C001035?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/112/s/1538/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1538/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/112/s/1538/text?format=json"
+  },
+  "title": "Regulatory Time-Out Act of 2011",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/112/s/1538/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T14:21:52Z",
+  "updateDateIncludingText": "2025-08-14T14:21:52Z"
+ },
+ "request": {
+  "billNumber": "1538",
+  "billType": "s",
+  "congress": "112",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
