@@ -1,0 +1,483 @@
+{
+ "run_at": "2026-09-21T030118Z",
+ "judge": "anthropic/claude-sonnet-5",
+ "results": [
+  {
+   "bill": "118-hr7520",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "sides.for[0].sources",
+     "severity": "minor",
+     "problem": "Cites source id S13 which does not exist in the provided source list (only S1-S8 are defined).",
+     "record_shows": "Only sources S1 through S8 are listed; there is no S13. The claim about Pallone's introductory remarks is supported by the action history entry dated 2024-03-13, which should be cited as S7, not a nonexistent S13."
+    },
+    {
+     "field": "who_benefits",
+     "severity": "minor",
+     "problem": "States 'The FTC would enforce the ban [S5]' as if this were a notable point, which is fine, but the broader who_benefits framing implies certainty about espionage/fraud harms ('a channel long used for spying, identity theft, and targeted scams against Americans') that is asserted without a citation supporting the historical claim beyond the bill text itself.",
+     "record_shows": "The bill text (S5) and CRS summaries (S2-S4) describe the prohibition but do not themselves document a history of spying, identity theft, or scams; this is an inference not directly stated in the cited sources."
+    },
+    {
+     "field": "drawbacks[3]",
+     "severity": "minor",
+     "problem": "Claims the bill's Senate stall 'suggests it was never prioritized by Senate leadership despite having the votes to likely pass,' which is speculative framing presented as an inference from the record.",
+     "record_shows": "The action history only shows referral to the Senate Commerce Committee with no further action; the record does not establish why the bill stalled or that it 'likely' had the votes to pass the Senate."
+    },
+    {
+     "field": "outcome.who_came_out_ahead",
+     "severity": "minor",
+     "problem": "The statement 'Americans gained no new protection from this bill' is a strong absolute claim consistent with the stalled outcome, but slightly overstates certainty since the bill could still theoretically be reintroduced or acted on retroactively; this is a minor framing nitpick rather than a factual error.",
+     "record_shows": "The record confirms the Congress ended without Senate action, supporting the substance of the claim, though the phrasing is slightly more definitive than the record's neutral procedural facts."
+    }
+   ],
+   "note": "The analysis is largely accurate and well-supported by the record, with only minor citation and framing issues (notably an invented source id S13 and some speculative editorializing in the drawbacks section)."
+  },
+  {
+   "bill": "119-hr3898",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "sides.for[2].name",
+     "severity": "minor",
+     "problem": "States '215 of 223 House Republicans' but the party sizes given are R 218 total, and the roll call shows 220 Republicans voting (215 yea, 1 nay, presumably 4 not voting/present). Using 223 as denominator is inconsistent with both the stated caucus size (218) and the vote-based denominator (220) used elsewhere in the same analysis (e.g., party_line_note uses 220).",
+     "record_shows": "Party sizes: House R 218. Vote breakdown given in record: R: 215 yea, 1 nay of 220. The analysis itself elsewhere correctly uses 220 as the denominator, making the 223 figure in sides.for[2].name inconsistent."
+    },
+    {
+     "field": "sides.against[0].name",
+     "severity": "minor",
+     "problem": "States '204 of 216 House Democrats' but the record's vote breakdown lists Democrats as 'of 213' (204 nay of 213), and the stated House Democratic caucus size is 212 (+1 independent). Using 216 as a denominator does not match either figure.",
+     "record_shows": "Party sizes: House D 212, I 1. Vote breakdown given in record: D: 6 yea, 204 nay of 213. The correct denominator should be 213 (per the vote data) or 212 (per caucus size), not 216."
+    },
+    {
+     "field": "sides.for[2].what_they_did",
+     "severity": "minor",
+     "problem": "Says 'Voted yes on final passage, 215\u20131' which restates the roll call tally correctly, but the entity label above it ('215 of 223 House Republicans') uses an unsupported denominator of 223, creating an internal inconsistency between the name and the vote tally cited.",
+     "record_shows": "Roll call 330 shows R: 215 yea, 1 nay of 220, not 223."
+    },
+    {
+     "field": "who_came_out_ahead",
+     "severity": "minor",
+     "problem": "Declares industries 'better off so far' based only on House passage, which is a reasonable framing since the bill has not concluded, but the phrase 'better off so far' combined with 'winners' framing risks overstating certainty of outcome for a bill still pending in the Senate with an uncertain trajectory noted elsewhere in the analysis.",
+     "record_shows": "The bill has passed only the House and been referred to Senate EPW Committee with no further action; final outcome is undetermined, which the analysis itself acknowledges in 'trajectory' and 'outcome.status: pending'."
+    }
+   ],
+   "note": "The analysis is largely accurate and well-supported by the record, but contains minor internal inconsistencies in the denominators used for House Republican and Democrat vote/caucus blocs."
+  },
+  {
+   "bill": "119-s5438",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "categories",
+     "severity": "minor",
+     "problem": "The bill is categorized under 'consumer_protection_and_finance' in addition to 'environment_and_energy', but nothing in the bill text or summary relates to consumer protection or finance.",
+     "record_shows": "The bill is solely about ratifying federal approvals for the Coastal Plain oil and gas leasing program; policy area is listed as None, and the subject matter is entirely environmental/energy/legal in nature."
+    },
+    {
+     "field": "plain_summary",
+     "severity": "minor",
+     "problem": "States 'The program itself was created in the 2017 tax law, which ordered lease sales in the refuge's coastal plain,' which is an added historical fact not present in the provided record.",
+     "record_shows": "The record (bill text, action history, sources) does not mention the 2017 tax law or its role in creating the leasing program; this is outside information not sourced to S1-S3."
+    },
+    {
+     "field": "scores.concentrated_stakes",
+     "severity": "minor",
+     "problem": "A score of 7 is asserted without clear grounding, though plausible given the subject matter; not verifiable against the record but not unreasonable.",
+     "record_shows": "The record provides no data to verify a specific numeric stakes score; this is a judgment call, not a factual record mismatch."
+    }
+   ],
+   "note": "The analysis is largely accurate and well-supported by the sparse record, with only minor issues around an unsupported historical claim and a questionable category tag."
+  },
+  {
+   "bill": "119-hr10369",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "major",
+   "issues": [
+    {
+     "field": "sides.for[1].name and sides.for[2].name",
+     "severity": "major",
+     "problem": "The analysis states '2 of 217 House Democrats' and '2 of 223 House Republicans', but the record gives party sizes as House: D 212, R 218.",
+     "record_shows": "Party sizes are D 212, I 1, R 218. The correct denominators should be '2 of 212 House Democrats' and '2 of 218 House Republicans'."
+    },
+    {
+     "field": "sides.against",
+     "severity": "minor",
+     "problem": "No opposition is listed, which seems consistent with the record, but the analysis doesn't caveat that lack of listed opposition simply reflects no floor/committee action yet rather than confirmed absence of opposition.",
+     "record_shows": "The record shows only introduction and referral; no votes or debate have occurred, so opposition can't be assessed either way."
+    },
+    {
+     "field": "drawbacks[1]",
+     "severity": "minor",
+     "problem": "The claim about rebates and industry pushback is asserted without a source, labeled with an empty sources array, but presented as if it reflects a known industry position.",
+     "record_shows": "No source in the record supports this specific claim about PBM industry arguments; it is speculative framing not tied to S1-S3."
+    },
+    {
+     "field": "scores.confidence",
+     "severity": "minor",
+     "problem": "A confidence of 0.45 seems arbitrary given the straightforward, well-documented status of the bill (introduced and referred, no other action).",
+     "record_shows": "The action history is clear and unambiguous, warranting higher confidence in the outcome/status determination even if bill text specifics are unknown."
+    }
+   ],
+   "note": "The analysis is largely accurate on status and process but miscalculates the House party-size denominators used for cosponsor fractions."
+  },
+  {
+   "bill": "119-hr2312",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "sides.against[0].name / party_line_note",
+     "severity": "minor",
+     "problem": "The analysis states '209 of 217 House Democrats' but the record specifies 213 House Democrats voting on the MTR (vote metadata says D: 209 yea, 0 nay of 213), and the cover sheet gives party sizes as D 212, I 1. Using '217' as the denominator is inconsistent with the given denominators.",
+     "record_shows": "The vote record explicitly states 'D: 209 yea, 0 nay of 213' and party sizes given are House: D 212, I 1, R 218."
+    },
+    {
+     "field": "sides.for[1].name",
+     "severity": "minor",
+     "problem": "States '6 of 223 House Republicans' as cosponsors, but the denominator should be 218 per the given party sizes, not 223.",
+     "record_shows": "Party sizes given: House R 218. Cosponsors section also states '6 R: 6 of 218 House R'."
+    },
+    {
+     "field": "outcome.narrative[2]",
+     "severity": "minor",
+     "problem": "Describes the closed rule as applying only to H.R. 2312, but the rule (H. Res. 988) covered five bills together, with only H.R. 2988 under a structured rule and the other four (including H.R. 2312) under a closed rule.",
+     "record_shows": "Action history: 'Rule provides for consideration of H.R. 2988, H.R. 2262, H.R. 2270, H.R. 2312 and H.R. 4366... H.R. 2988 under a structured rule, and H.R. 2262, H.R. 2270, H.R. 2312, and H.R. 4366 under a closed rule.'"
+    },
+    {
+     "field": "trajectory",
+     "severity": "minor",
+     "problem": "Claims the MTR vote showed 'only a 6-vote margin' suggesting the majority lacks comfortable passage votes, but the MTR failing 209-215 (Republicans unanimously opposing recommittal) is a fairly strong party-line result, not necessarily indicative of weak support for final passage; this is speculative framing beyond what the record supports.",
+     "record_shows": "The vote was a clean party-line 209 D yes vs 215 R no, with no crossover votes reported, which does not straightforwardly indicate a lack of passage votes."
+    }
+   ],
+   "note": "The analysis is largely accurate and well-supported by the record, with only minor inconsistencies in party-size denominators and a slightly loose characterization of the closed rule and vote-margin implications."
+  },
+  {
+   "bill": "118-s2228",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "narrative[0]",
+     "severity": "minor",
+     "problem": "States cosponsors include '1 of 48 Senate Democrats'",
+     "record_shows": "Party sizes given are Senate D 47, so it should be 1 of 47 Senate Democrats, not 48."
+    },
+    {
+     "field": "sides.against[0]",
+     "severity": "major",
+     "problem": "Labeled '112 of 216 House Democrats' but the party size denominator given in the record is 211 House Democrats, and the vote breakdown listed is 'D: 79 yea, 112 nay of 211'.",
+     "record_shows": "House Democrats total 211 per the record; vote breakdown is of 211, not 216."
+    },
+    {
+     "field": "sides.for[1] and narrative[2]",
+     "severity": "minor",
+     "problem": "Cite '178 of 220 House Republicans' voted yes, which matches the record's vote breakdown (178 yea, 13 nay of 220), so this is consistent \u2014 no issue.",
+     "record_shows": "Matches record."
+    }
+   ],
+   "note": "The analysis is largely accurate and well-supported, but contains a factual slip citing 48 Senate Democrats (should be 47) and an inconsistent denominator of 216 House Democrats in the 'against' bloc (should be 211, matching the vote breakdown given elsewhere in the same analysis)."
+  },
+  {
+   "bill": "119-s146",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "major",
+   "issues": [
+    {
+     "field": "outcome.narrative[0]",
+     "severity": "major",
+     "problem": "States cosponsors were '11 of 45 Senate Democrats and 10 of 55 Senate Republicans' but the Senate has 53 Republicans, not 55.",
+     "record_shows": "Party sizes given: Senate: D 45, I 2, R 53. Cosponsors: 10 of 53 Senate R."
+    },
+    {
+     "field": "sides.for[1].role",
+     "severity": "major",
+     "problem": "Role text says '11 of 45 Senate Democrats and 10 of 55 Senate Republicans' repeating the wrong denominator of 55 for Republicans.",
+     "record_shows": "Senate R total is 53, so it should be 10 of 53 Senate Republicans."
+    },
+    {
+     "field": "sides.against[0].name",
+     "severity": "minor",
+     "problem": "Labeled as '2 of 223 House Republicans' but the record shows House R total is 220, not 223.",
+     "record_shows": "House roll call vote breakdown: R: 207 yea, 2 nay of 220. Party sizes given: House: R 218 (also inconsistent with 220 used elsewhere in the analysis, but 223 is wrong either way)."
+    },
+    {
+     "field": "outcome.mechanism",
+     "severity": "minor",
+     "problem": "Says House passed '409-2' without noting the vote required a 2/3 majority under suspension of the rules, which is mentioned elsewhere but the mechanism summary omits the procedural nuance (minor since it's covered in narrative).",
+     "record_shows": "Action history notes suspension of the rules vote requiring 2/3, which is included in narrative but not in the mechanism summary."
+    },
+    {
+     "field": "sides.for",
+     "severity": "minor",
+     "problem": "Melania Trump is included as a supporter with 'widely_reported' evidence and no sources, which is plausible but unverifiable from the record; while allowed under labeling rules, it adds an actor not in the official record and could be seen as embellishment.",
+     "record_shows": "No mention of Melania Trump's involvement in the action history, sponsor list, or CRS summary."
+    },
+    {
+     "field": "outcome.who_came_out_ahead",
+     "severity": "minor",
+     "problem": "Declares clear 'winners' for a bill that has already become law, which is consistent with the record, but the framing 'No concentrated interest defeated the bill' is speculative and not directly supported by the record.",
+     "record_shows": "The record shows only vote tallies and passage; it does not document whether any concentrated interest opposed the bill."
+    }
+   ],
+   "note": "The analysis is largely accurate on outcome, mechanism, and bill content, but contains a clear arithmetic error repeating '55 Senate Republicans' instead of 53, and a mismatched House Republican denominator, both of which should be corrected against the record's own numbers."
+  },
+  {
+   "bill": "119-hr8803",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "outcome.who_came_out_ahead",
+     "severity": "minor",
+     "problem": "States 'the largest oil companies are better off' as a definitive framing, but this is a plausible but somewhat speculative characterization of a pending bill with no market/legislative outcome yet; the bill has not been defeated, just stalled, so declaring a 'winner' overstates certainty.",
+     "record_shows": "The record only shows the bill was introduced and referred to committee with no cosponsors and no further action; there is no market or legislative outcome establishing that oil companies are 'better off' as a result of this specific bill's stall (they simply continue under status quo law)."
+    },
+    {
+     "field": "drawbacks[1]",
+     "severity": "minor",
+     "problem": "Claims 'the tax automatically ends once oil falls below the (inflating) threshold' implying rate itself is inflation adjusted per barrel threshold, but text shows the inflation adjustment is oddly worded and applies to the $75 threshold used in the rate calculation, which is consistent, so this is not clearly wrong but somewhat overstates precision on a confusingly drafted provision.",
+     "record_shows": "Section 5896(c)(2) inflation adjustment language is garbled/ambiguous in the bill text itself (referencing 'paragraph (1)(B)(ii)' which doesn't exist as written), making the analysis's confident description of how the inflation adjustment works less certain than presented."
+    },
+    {
+     "field": "sides.against[0]",
+     "severity": "minor",
+     "problem": "Labeling the Ways and Means Committee as an 'against' side actor for merely receiving a referral and not acting is a characterization choice; committees routinely sit on many bills without it reflecting active opposition.",
+     "record_shows": "The action history only shows a routine referral with no recorded opposition, hearing, or statement from the committee."
+    }
+   ],
+   "note": "The analysis accurately reflects the bill's provisions, status, and lack of cosponsors, with only minor overstatements in framing the 'who came out ahead' narrative and committee opposition given the bill is still pending with no substantive action."
+  },
+  {
+   "bill": "118-hr157",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "sides.for[1].name",
+     "severity": "major",
+     "problem": "The analysis states '1 of 216 House Democrats' as the cosponsor bloc, but the record shows House had 211 Democrats in the 118th Congress, and only 1 Democrat cosponsored.",
+     "record_shows": "Party sizes: House D 211, R 220. Cosponsors: 1 D: 1 of 211 House D. The correct denominator is 211, not 216."
+    },
+    {
+     "field": "outcome.who_came_out_ahead",
+     "severity": "minor",
+     "problem": "Declares 'incumbent officeholders and the two major parties' as clear winners of a bill that simply died in committee without any vote or debate, which somewhat overstates a definitive outcome from mere inaction.",
+     "record_shows": "The action history shows only referral to committees with no further action; no vote, debate, or explicit rejection occurred, so framing it as parties/incumbents 'coming out ahead' presumes intent/awareness not evidenced in the record."
+    },
+    {
+     "field": "sides.against",
+     "severity": "minor",
+     "problem": "Names Rep. Bryan Steil and Rep. Jim Jordan as opposing actors who 'never scheduled committee consideration,' but this is speculative attribution of agency/opposition based on inaction, marked as widely_reported without a citation.",
+     "record_shows": "The action history only shows referral to committees; no record indicates that Steil or Jordan personally decided not to schedule action or opposed the bill."
+    }
+   ],
+   "note": "The analysis is largely accurate and well-supported by the record, but contains a minor factual error in the Democratic caucus denominator and some speculative framing about committee chairs and the bill's \"winners\" that outruns what the record actually shows."
+  },
+  {
+   "bill": "118-s2501",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "sides.for[1].name",
+     "severity": "major",
+     "problem": "The analysis states '24 of 48 Senate Democrats' as the denominator for cosponsors, but the record explicitly states Senate party sizes as D 47, I 4, R 49.",
+     "record_shows": "Party sizes in this Congress: Senate D 47, I 4, R 49. So it should be '24 of 47 Senate Democrats,' not '24 of 48.'"
+    },
+    {
+     "field": "narrative[0].text",
+     "severity": "minor",
+     "problem": "States 'with 18 original cosponsors' but the bill text lists 18 named original cosponsors (Padilla through Wyden), which matches, so this is likely correct \u2014 but worth double-checking count.",
+     "record_shows": "The bill text lists 18 cosponsors introduced alongside Brown (Padilla, Cortez Masto, Sanders, Blumenthal, Booker, Feinstein, Gillibrand, Hirono, Lujan, Markey, Menendez, Merkley, Murray, Reed, Schatz, Van Hollen, Warren, Wyden) - this appears accurate, flagged only for verification."
+    },
+    {
+     "field": "party_line_note",
+     "severity": "major",
+     "problem": "Repeats the same denominator error: '24 of 48 Senate Democrats' should be based on 47 Senate Democrats per the record's stated party breakdown.",
+     "record_shows": "Party sizes: Senate D 47, I 4, R 49 \u2014 denominator should be 47, not 48."
+    }
+   ],
+   "note": "The analysis is largely accurate and well-supported by the record, but it incorrectly uses '48' instead of '47' as the denominator for Senate Democrats when describing cosponsors."
+  },
+  {
+   "bill": "118-s5579",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "sides.against[0].what_they_did",
+     "severity": "minor",
+     "problem": "Characterizes the Commerce Committee as an 'against' actor that opposed the bill, implying deliberate inaction, but the record shows no evidence the committee took any position or made any decision \u2014 it simply never acted before the Congress ended, which is the default outcome for the vast majority of referred bills.",
+     "record_shows": "The action history only shows referral to the Committee on Commerce, Science, and Transportation with no further actions listed [S4]."
+    },
+    {
+     "field": "party_line_note / cosponsors",
+     "severity": "minor",
+     "problem": "Describes Sen. Merkley as the 'sole cosponsor' with party 'D', which matches the record, but the cosponsor count denominator note ('1 of 47 Senate D') is not explicitly surfaced in the analysis text for context on how narrow bipartisan support was.",
+     "record_shows": "Metadata confirms 1 Democratic cosponsor out of 47 Senate Democrats, which the analysis does not explicitly frame despite discussing 'bipartisan' support."
+    },
+    {
+     "field": "scores.outcome_against_public",
+     "severity": "minor",
+     "problem": "A score of 7 (fairly high) for 'outcome against public' is asserted without much justification given the bill was a fairly minor, narrow, single-sponsor-driven proposal that never had any momentum (only 1 cosponsor, no hearing) \u2014 this seems like a subjective/opinion score not strictly checkable against the record but worth flagging as potentially overstated.",
+     "record_shows": "The record shows minimal legislative activity and support (1 cosponsor, immediate referral, no further action), suggesting the bill was unlikely to pass regardless of outcome framing."
+    }
+   ],
+   "note": "The analysis is largely accurate and well-supported by the record (correct status, mechanism, sponsor/cosponsor details, and bill provisions), with only minor framing issues around characterizing the committee as an active opposing actor and some unexplained subjective scoring."
+  },
+  {
+   "bill": "119-hr4811",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "sides.against",
+     "severity": "major",
+     "problem": "The analysis names 'House Judiciary Committee leadership' and other committees as 'against' actors who 'never scheduled a hearing' or 'took no action,' framing committee inaction as active opposition by identifiable named actors.",
+     "record_shows": "The action history only shows referral to four committees on 2025-07-29 with no further action. The record does not identify any committee leadership by name or show they made an affirmative decision not to act; inaction on a bill introduced just months ago is routine and does not establish opposition."
+    },
+    {
+     "field": "outcome.who_came_out_ahead",
+     "severity": "minor",
+     "problem": "States law enforcement and intelligence agencies 'came out ahead' from a bill still pending with no committee action, implying a concluded contest.",
+     "record_shows": "The bill has had no committee or floor action beyond referral; declaring any side as having 'come out ahead' presumes an outcome the record doesn't yet show, though the analysis does hedge with 'so far.'"
+    },
+    {
+     "field": "categories",
+     "severity": "minor",
+     "problem": "Categories listed are 'consumer_protection_and_finance' and 'corruption_and_ethics,' neither of which closely matches the bill's actual policy area.",
+     "record_shows": "The bill's stated policy area is 'Crime and Law Enforcement,' and the CRS summary describes a surveillance/privacy regulatory framework, not a finance or corruption-focused bill."
+    },
+    {
+     "field": "who_pays",
+     "severity": "minor",
+     "problem": "Claims 'simulator makers would face a new testing and certification regime' as a cost, which somewhat overstates the burden compared to the bill's actual requirement.",
+     "record_shows": "The bill only requires that the specific device model be 'inspected by a third party that is an accredited testing laboratory' as part of the warrant application disclosure \u2014 a certification tied to law enforcement's warrant application, not a manufacturer-facing licensing regime."
+    },
+    {
+     "field": "party_line_note",
+     "severity": "minor",
+     "problem": "States 'with only two supporters,' but the sponsor plus one cosponsor totals two named individuals, which is accurate, though calling this 'untested' parties' positions is speculative framing not stated in the record.",
+     "record_shows": "Record shows only sponsor Lieu and cosponsor McClintock; characterizing party positions as 'untested' is an inference not directly supported by the record."
+    }
+   ],
+   "note": "The analysis is largely accurate and well-sourced but overstates committee inaction as active 'opposition' by named actors and mischaracterizes the bill's policy category."
+  },
+  {
+   "bill": "119-hr1319",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "sides.for[1].name",
+     "severity": "minor",
+     "problem": "States '23 of 223 House Republicans' but the record lists House R as 218, making the denominator inconsistent with the given party sizes.",
+     "record_shows": "Party sizes given: House R 218. Cosponsors: 23 R: 23 of 218 House R."
+    },
+    {
+     "field": "sides.for[2]",
+     "severity": "minor",
+     "problem": "Names 'Gig-economy platforms' as a supporting side under widely_reported evidence without specific named companies or citations, which is a fairly generic/unverifiable claim.",
+     "record_shows": "No source in the record documents specific gig-platform lobbying for this bill; it's an inference, appropriately flagged as widely_reported but still speculative."
+    },
+    {
+     "field": "outcome.mechanism",
+     "severity": "minor",
+     "problem": "Says 'formally reported it to the floor in February 2026, where it now sits on the House calendar awaiting action' which is accurate, but doesn't mention the amendment (Reported Amended) explicitly, which is a minor omission given the bill text shows it was reported with an amendment in the nature of a substitute.",
+     "record_shows": "Action history: 'Reported (Amended) by the Committee on Education and Workforce. H. Rept. 119-505.' and bill text shows 'Reported with an amendment, committed to the Committee of the Whole House on the State of the Union.'"
+    }
+   ],
+   "note": "The analysis is largely accurate and well-supported by the record, with only minor imprecision in the cosponsor denominator and some speculative but appropriately-labeled claims about gig platforms."
+  },
+  {
+   "bill": "119-s1941",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "how_it_helps[2]",
+     "severity": "minor",
+     "problem": "States the prior authorization ban applies only to 'participating state Medicaid programs' on 'hepatitis C screening and treatment under the program'",
+     "record_shows": "Sec. 4(b)(3)(A)(iii) requires ANY participating State Medicaid or CHIP agency or State/local correctional system to agree not to impose prior authorization requirements for screening and treatment - it's broader than just Medicaid programs and includes correctional systems too"
+    },
+    {
+     "field": "how_it_helps[1]",
+     "severity": "minor",
+     "problem": "Claims the subscription model 'was pioneered in Louisiana and Washington state and sharply cut the price per cure' as if this is documented in the bill text",
+     "record_shows": "The bill text (S3) does not mention Louisiana or Washington state subscription models; this is an outside factual claim not supported by the cited source, though it may be true it should not be cited to S3"
+    },
+    {
+     "field": "sides.for",
+     "severity": "minor",
+     "problem": "Describes Cassidy as having 'authored the subscription purchasing design modeled on his state's hepatitis C program' as if this is confirmed by the record",
+     "record_shows": "S1 and S3 (bill text and bill page) do not state this biographical/legislative history detail about Cassidy modeling the bill on a Louisiana program; this is an unsupported claim attributed to sources that don't contain it"
+    },
+    {
+     "field": "headline/who_pays_short",
+     "severity": "minor",
+     "problem": "States 'about $9.8 billion' as the total spending figure",
+     "record_shows": "The bill appropriates $5,500,000,000 (Sec 4(d)) plus $4,283,000,000 (Sec 6(a)) plus a $25,000,000 transfer to Bureau of Prisons carved out of the $4.283B (not additional) - summing to $9.783 billion, which rounds to $9.8B; this is essentially correct but the analysis doesn't clarify the BOP transfer is a subset of the $4.283B, which is a minor precision issue"
+    },
+    {
+     "field": "outcome.mechanism",
+     "severity": "minor",
+     "problem": "States committee 'has sat with no hearing, no markup, and no vote' which is accurate per the action history, but frames absence of action as if confirmed pattern rather than simply the latest action on record",
+     "record_shows": "The action history only lists introduction and referral on 2025-06-04; the analysis's characterization is consistent with this but adds interpretive framing not explicitly in the record"
+    }
+   ],
+   "note": "The analysis is largely accurate on outcome, tallies, and bill mechanics, with only minor unsupported embellishments (e.g., the Louisiana/Washington state origin claim and Cassidy's personal motivation) attributed to sources that don't actually contain them."
+  },
+  {
+   "bill": "118-s5152",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "sides.against[1]",
+     "severity": "minor",
+     "problem": "Labeled '1 of 48 Senate Democrats' as being 'against' the bill, but the record shows there are 47 Senate Democrats (per the party sizes given: 'Senate: D 47, I 4, R 49'), not 48.",
+     "record_shows": "Party sizes state Senate D 47, I 4, R 49. Cosponsor line also says '1 of 47 Senate D'. The 'against' entry should use 47, not 48."
+    },
+    {
+     "field": "sides.party_line_note",
+     "severity": "minor",
+     "problem": "States 'the bill's only support was two Democrats' which is consistent with the record, but combined with the '1 of 48 Senate Democrats' framing elsewhere creates an internal inconsistency in denominators used across the analysis.",
+     "record_shows": "Cosponsors section says '1 D: 1 of 47 Senate D', confirming 47 as the correct denominator."
+    },
+    {
+     "field": "outcome.who_came_out_ahead",
+     "severity": "minor",
+     "problem": "Declares definitive 'winners' (companies) from a bill that simply died in committee without any recorded opposition or lobbying evidence in the provided record; this is an inference beyond what the record establishes, though plausible.",
+     "record_shows": "The record only shows introduction, referral, and no further action \u2014 it does not name any company or industry actor opposing the bill or benefiting from its failure."
+    },
+    {
+     "field": "sides.against[0]",
+     "severity": "minor",
+     "problem": "Names 'Sen. Maria Cantwell (D-WA)' as chair of the Commerce Committee without this being explicitly stated in the provided record/sources.",
+     "record_shows": "The record lists only 'Senate: Commerce, Science, and Transportation Committee \u2014 Referred To' with no chair identified; this is likely true but not sourced in the given record."
+    }
+   ],
+   "note": "The analysis is largely accurate and well-supported by the record, with only minor inconsistencies in the Senate Democrat denominator (47 vs 48) and some unsourced but plausible inferential claims (committee chair, definitive 'winners')."
+  }
+ ]
+}

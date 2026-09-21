@@ -72,6 +72,15 @@ def _unwrap_json_strings(node):
     return node
 
 
+def _unwrap_wrapper(args, out: type[BaseModel]):
+    """Some models nest the payload under a single key named after the schema ({"Analysis": {...}})."""
+    if isinstance(args, dict) and len(args) == 1:
+        (k, v), = args.items()
+        if isinstance(v, dict) and k.lower() in (out.__name__.lower(), "result", "payload", "data") and not (set(out.model_fields) & set(args)):
+            return v
+    return args
+
+
 def structured_call(model_id: str, system: str, user: str, out: type[T], *, reasoning_effort: str | None = None) -> T:
     model = OpenRouterModel(model_id, api_key=config.openrouter_api_key(), reasoning_effort=reasoning_effort)  # type: ignore[arg-type]
     tool = _submit_tool(out)
@@ -86,7 +95,7 @@ def structured_call(model_id: str, system: str, user: str, out: type[T], *, reas
             if isinstance(args, str):
                 args = json.loads(args)
             try:
-                return out.model_validate(_unwrap_json_strings(args))
+                return out.model_validate(_unwrap_wrapper(_unwrap_json_strings(args), out))
             except ValidationError as e:
                 last_err = e
         # feed the error back once
@@ -110,7 +119,7 @@ async def astructured_call(model_id: str, system: str, user: str, out: type[T], 
             if isinstance(args, str):
                 args = json.loads(args)
             try:
-                return out.model_validate(_unwrap_json_strings(args))
+                return out.model_validate(_unwrap_wrapper(_unwrap_json_strings(args), out))
             except ValidationError as e:
                 last_err = e
         messages.append({"role": "assistant", "content": f"(previous attempt was invalid: {last_err})"})

@@ -1,0 +1,150 @@
+{
+ "run_at": "2026-09-21T025839Z",
+ "judge": "anthropic/claude-sonnet-5",
+ "results": [
+  {
+   "bill": "119-s146",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "sides.for[2].name",
+     "severity": "minor",
+     "problem": "The analysis labels the House vote total as '409 of 433 voting House members,' but the record shows the vote breakdown as 202 D (of 213) and 207 R (of 220), plus 2 R nay votes, totaling 411 voting members (202+0+207+2), not 433.",
+     "record_shows": "House roll 104 409-2: D 202 yea, 0 nay of 213; R 207 yea, 2 nay of 220 \u2014 total voting = 411, not 433."
+    },
+    {
+     "field": "sides.against[0].name",
+     "severity": "minor",
+     "problem": "Labeled as '2 of 223 House Republicans' but the record's vote breakdown shows R 207 yea, 2 nay of 220 (total R who voted = 209, not 223, and the party has 223 members total per the denominators given, but only 220 recorded voting in this roll call).",
+     "record_shows": "House roll 104 409-2: R: 207 yea, 2 nay of 220 (party size overall is 223 per header denominators, but only 220 R voted in this roll call)."
+    },
+    {
+     "field": "sides.for[4]",
+     "severity": "minor",
+     "problem": "Melania Trump's involvement is included as 'widely_reported' with no sources cited, which is allowed per rules but the claim of hosting 'an event highlighting the harm to teens' is oddly specific and unverified beyond general public knowledge; flagging for scrutiny though technically permissible under widely_reported label.",
+     "record_shows": "No entry in the action history or CRS summary corroborates a specific event hosted by the First Lady; this is asserted only as widely_reported without further detail."
+    },
+    {
+     "field": "outcome.who_came_out_ahead",
+     "severity": "minor",
+     "problem": "Statement claims 'No concentrated interest defeated the bill' which is a reasonable framing, but pairs it with naming platforms and publishers as the 'losing side,' which slightly conflates cost-bearing with losing, though this is a matter of interpretation rather than clear factual error.",
+     "record_shows": "The bill outcome (Public Law 119-12) does not itself identify winners/losers; this is an inference, appropriately hedged, but borderline framing rather than strict record fact."
+    }
+   ],
+   "note": "The analysis is largely accurate and well-supported by the record, with only minor imprecision in vote totals and framing of 'against' bloc size."
+  },
+  {
+   "bill": "119-hr10364",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "headline",
+     "severity": "minor",
+     "problem": "States 'about three weeks left before the Congress ends in January 2027' from the vantage of introduction in mid-September 2026.",
+     "record_shows": "From September 14, 2026 to January 3, 2027 is roughly three and a half months, not three weeks; the narrative section later correctly says 'roughly three and a half months.'"
+    },
+    {
+     "field": "plain_summary",
+     "severity": "minor",
+     "problem": "Compares the bill to SOPA and calls it 'the same basic approach' without the record confirming this characterization beyond the bill's short title/purpose language.",
+     "record_shows": "The record only provides the bill's title (procedures for blocking access to foreign online locations engaged in copyright piracy) and CRS-style short description; the detailed comparison to SOPA's specific mechanisms (DNS blocking, ad/payment cutoffs) is not confirmed by any cited source, though it is plausible commentary."
+    },
+    {
+     "field": "who_pays",
+     "severity": "minor",
+     "problem": "Asserts internet users have 'no meaningful chance to contest' a block, and that ISPs/search engines/ad networks/payment companies bear compliance costs, without textual support.",
+     "record_shows": "No bill text or CRS summary is provided in the record detailing due-process procedures or which companies are covered; this is inferred from the title alone, not confirmed by source S1's actual content."
+    },
+    {
+     "field": "drawbacks",
+     "severity": "minor",
+     "problem": "Claims the bill's mechanism 'raises the same concerns that sank SOPA in 2012: interference with the internet's domain name system' as if this were a specific feature of this bill.",
+     "record_shows": "The record does not contain any bill text describing DNS-level blocking; this is speculative extrapolation from the SOPA analogy rather than something drawn from S1's actual content (which is just the title/metadata)."
+    },
+    {
+     "field": "industries",
+     "severity": "minor",
+     "problem": "Lists 'search engines, ad networks, and payment processors' as entities that 'would be ordered to block or stop serving designated foreign sites,' presented as a specific provision of the bill.",
+     "record_shows": "The provided record (title and metadata only) does not specify which categories of intermediaries would be covered; this level of detail is not verifiable from S1 as cited."
+    },
+    {
+     "field": "categories",
+     "severity": "minor",
+     "problem": "Categorizes the bill under 'consumer_protection_and_finance' and 'other'.",
+     "record_shows": "The bill is about copyright/IP enforcement and internet regulation; 'consumer_protection_and_finance' is an odd fit given the record shows no financial regulation content, only a copyright enforcement mechanism."
+    }
+   ],
+   "note": "The analysis is directionally sound and outcome facts (status, dates, cosponsors, committee referral) match the record, but several specific claims about the bill's mechanics (DNS blocking, named categories of intermediaries, contestability) go beyond what the sparse record (title/metadata only, no bill text or CRS summary) actually supports."
+  },
+  {
+   "bill": "119-s2298",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "major",
+   "issues": [
+    {
+     "field": "sides.against[0]",
+     "severity": "major",
+     "problem": "The analysis names Bill Cassidy specifically as 'Chair, Senate Health, Education, Labor, and Pensions Committee' and asserts he personally 'has not scheduled the bill for any committee hearing, markup, or vote,' treating this as a direct, record-supported claim (evidence: 'record').",
+     "record_shows": "The record only shows the bill was referred to the HELP Committee with no further action listed in the action history [S4]. There is no committee chair identified in the provided record/metadata, and no action or statement attributed to Bill Cassidy individually. This is an inference/assumption presented as directly evidenced fact."
+    },
+    {
+     "field": "sides.for[2]",
+     "severity": "minor",
+     "problem": "Lists Bernie Sanders as a distinct 'side' entry with evidence marked 'record' and cites S2 (bill text) alongside S3, but he is just one of 27 cosponsors already captured in the '26 of 45 Senate Democrats' entry structure (he's actually an Independent, correctly labeled, but singling him out while omitting other cosponsors is inconsistent and the bill text S2 doesn't itself list him as cosponsor in a way that needs citing separately from S3).",
+     "record_shows": "Sanders is one of 27 cosponsors listed in the bill text preamble and S3; citing S2 for his cosponsorship is redundant/slightly odd sourcing but not factually wrong."
+    },
+    {
+     "field": "who_came_out_ahead_short / who_came_out_ahead",
+     "severity": "minor",
+     "problem": "Declares 'Employers avoiding a heat standard, for now' and states 'the status quo holds' as a definitive framing of who is 'ahead' for a bill that is still pending with no resolution.",
+     "record_shows": "The bill is pending in committee with no final outcome; while the narrative caveats 'not final while Congress is in session,' naming a clear 'winner' for an unresolved bill is borderline inconsistent with guidance to avoid declaring winners before conclusion."
+    },
+    {
+     "field": "drawbacks[2]",
+     "severity": "minor",
+     "problem": "Claims 'a handful of states that already have their own heat standards' and describes overlapping requirements, which is plausible/widely known but not sourced from the bill text or provided record.",
+     "record_shows": "The bill text only references state plans approved under section 18(c) of the OSH Act as a feasibility presumption; it does not itself enumerate or confirm which states have heat standards, so this claim, while likely true, isn't directly supported by cited source S2."
+    }
+   ],
+   "note": "The analysis is largely accurate on outcome, provisions, and cosponsor math, but overstates record support by attributing specific inaction to a named, unsourced committee chair (Bill Cassidy) and slightly overreaches on 'who came out ahead' framing for a still-pending bill."
+  },
+  {
+   "bill": "118-hr2384",
+   "analysis_model": "z-ai/glm-5.3-flash",
+   "prompt_version": "359123c1c5",
+   "verdict": "minor",
+   "issues": [
+    {
+     "field": "sides.for[3].name",
+     "severity": "minor",
+     "problem": "States '11 of 224 House Republicans' but the record explicitly gives House Republican size as 226, not 224.",
+     "record_shows": "Party sizes: House R 226; Cosponsors: 11 R: 11 of 226 House R"
+    },
+    {
+     "field": "outcome.who_came_out_ahead",
+     "severity": "minor",
+     "problem": "Claims 'Landowners and environmental plaintiffs are better off... because the bill never advanced' and frames a clear winner/loser narrative for a bill that never received any votes or debate.",
+     "record_shows": "The bill was simply referred to committee/subcommittee and saw no further action; there's no indication of any active dispute being 'won' by opponents, just legislative inaction. This framing slightly overstates a concluded contest for a bill that was never engaged with by opponents in any recorded way beyond referral."
+    },
+    {
+     "field": "sides.against[0]",
+     "severity": "minor",
+     "problem": "Naming Cathy McMorris Rodgers as 'against' the bill based solely on committee referral and inaction is speculative; the record shows no explicit opposition or statement from her, only procedural referral.",
+     "record_shows": "Action history shows only 'Referred to the House Committee on Energy and Commerce' and subcommittee referral; no record of the Chair taking any position or action against the bill."
+    },
+    {
+     "field": "industries[0].note",
+     "severity": "minor",
+     "problem": "Asserts the Mountain Valley Pipeline as an example fitting the bill's eligibility window, which is not stated in the bill text or CRS summary.",
+     "record_shows": "Neither S2 nor S3 mention the Mountain Valley Pipeline; this is an inference not directly supported by the cited sources."
+    }
+   ],
+   "note": "The analysis is largely accurate and well-supported by the record, with only minor imprecisions in cosponsor denominator, speculative framing of 'who came out ahead' and the opposition side, and an uncited example project."
+  }
+ ]
+}
