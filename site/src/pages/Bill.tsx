@@ -163,7 +163,12 @@ function VoteRow({ v }: { v: Vote }) {
           {v.result && <span class="muted"> · {v.result}</span>}
         </div>
       )}
-      {v.members.length > 0 && <MemberVotes v={v} />}
+      {v.members.length > 0 ? <MemberVotes v={v} /> : (
+        <p class="muted small no-members">
+          The clerks did not publish a member-by-member record for this vote, so only the totals are available.{' '}
+          <a href={v.url} target="_blank" rel="noreferrer">See the official record</a>.
+        </p>
+      )}
       {parties.length > 0 && (
         <table class="party-table">
           <thead><tr><th></th>{parties.map(([p]) => <th key={p}>{p}</th>)}</tr></thead>
