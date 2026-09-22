@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3918/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3918/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3918/cosponsors?format=json"
+  },
+  "introducedDate": "2005-09-27",
+  "latestAction": {
+   "actionDate": "2005-11-08",
+   "text": "Sponsor introductory remarks on measure. (CR H10017-10022)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/3918",
+  "number": "3918",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000263",
+    "district": 5,
+    "firstName": "JOHN",
+    "fullName": "Rep. Peterson, John E. [R-PA-5]",
+    "isByRequest": "N",
+    "lastName": "PETERSON",
+    "middleName": "E.",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/P000263?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3918/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3918/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3918/text?format=json"
+  },
+  "title": "Outer Continental Shelf Energy Relief Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3918/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:58:49Z",
+  "updateDateIncludingText": "2025-08-15T17:58:49Z"
+ },
+ "request": {
+  "billNumber": "3918",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4392/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4392/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4392/cosponsors?format=json"
+  },
+  "introducedDate": "2005-11-18",
+  "latestAction": {
+   "actionDate": "2005-11-18",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/4392",
+  "number": "4392",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Foreign Trade and International Finance"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "A000357",
+    "district": 1,
+    "firstName": "THOMAS",
+    "fullName": "Rep. Allen, Thomas H. [D-ME-1]",
+    "isByRequest": "N",
+    "lastName": "ALLEN",
+    "middleName": "H.",
+    "party": "D",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/A000357?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4392/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4392/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4392/text?format=json"
+  },
+  "title": "To provide for the importation of pharmaceutical products under a compulsory license as provided for under the World Trade Organization.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4392/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:56:18Z",
+  "updateDateIncludingText": "2025-01-02T16:56:18Z"
+ },
+ "request": {
+  "billNumber": "4392",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

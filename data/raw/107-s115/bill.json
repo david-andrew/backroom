@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/115/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/115/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/107/s/115/cosponsors?format=json"
+  },
+  "introducedDate": "2001-01-22",
+  "latestAction": {
+   "actionDate": "2001-01-22",
+   "text": "Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S387)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/115",
+  "number": "115",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000061",
+    "firstName": "RUSSELL",
+    "fullName": "Sen. Feingold, Russell D. [D-WI]",
+    "isByRequest": "N",
+    "lastName": "FEINGOLD",
+    "middleName": "D.",
+    "party": "D",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/F000061?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/107/s/115/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/115/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/115/text?format=json"
+  },
+  "title": "Elimination of Double Subsidies for the Hardrock Mining Industry Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/115/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-19T17:28:09Z",
+  "updateDateIncludingText": "2025-08-19T17:28:09Z"
+ },
+ "request": {
+  "billNumber": "115",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

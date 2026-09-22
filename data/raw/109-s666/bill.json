@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/666/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/666/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 28,
+   "countIncludingWithdrawnCosponsors": 28,
+   "url": "https://api.congress.gov/v3/bill/109/s/666/cosponsors?format=json"
+  },
+  "introducedDate": "2005-03-17",
+  "latestAction": {
+   "actionDate": "2005-03-17",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text of measure as introduced: CR S3037-3053)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/666",
+  "number": "666",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/666/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000294",
+    "firstName": "MICHAEL",
+    "fullName": "Sen. DeWine, Mike [R-OH]",
+    "isByRequest": "N",
+    "lastName": "DEWINE",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/D000294?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 107,
+   "url": "https://api.congress.gov/v3/bill/109/s/666/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/666/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/666/text?format=json"
+  },
+  "title": "Family Smoking Prevention and Tobacco Control Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/666/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-15T17:59:29Z",
+  "updateDateIncludingText": "2025-08-15T17:59:29Z"
+ },
+ "request": {
+  "billNumber": "666",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

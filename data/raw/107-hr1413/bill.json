@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1413/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1413/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 173,
+   "countIncludingWithdrawnCosponsors": 173,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1413/cosponsors?format=json"
+  },
+  "introducedDate": "2001-04-04",
+  "latestAction": {
+   "actionDate": "2001-04-16",
+   "text": "Referred to the Subcommittee on Environment and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/1413",
+  "number": "1413",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000215",
+    "district": 29,
+    "firstName": "HENRY",
+    "fullName": "Rep. Waxman, Henry A. [D-CA-29]",
+    "isByRequest": "N",
+    "lastName": "WAXMAN",
+    "middleName": "A.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/W000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1413/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1413/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1413/text?format=json"
+  },
+  "title": "Get Arsenic Out of Our Drinking Water Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1413/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:32:25Z",
+  "updateDateIncludingText": "2025-08-19T17:32:25Z"
+ },
+ "request": {
+  "billNumber": "1413",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

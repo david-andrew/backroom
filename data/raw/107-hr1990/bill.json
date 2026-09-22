@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1990/actions?format=json"
+  },
+  "committees": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1990/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 94,
+   "countIncludingWithdrawnCosponsors": 109,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1990/cosponsors?format=json"
+  },
+  "introducedDate": "2001-05-24",
+  "latestAction": {
+   "actionDate": "2001-07-25",
+   "text": "Referred to the Subcommittee on Select Education."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/1990",
+  "number": "1990",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Families"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000725",
+    "district": 7,
+    "firstName": "GEORGE",
+    "fullName": "Rep. Miller, George [D-CA-7]",
+    "isByRequest": "N",
+    "lastName": "MILLER",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/M000725?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 280,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1990/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1990/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1990/text?format=json"
+  },
+  "title": "Leave No Child Behind Act of 2001",
+  "titles": {
+   "count": 36,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1990/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "1990",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

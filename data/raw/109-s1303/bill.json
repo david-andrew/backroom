@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/s/1303/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1303/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/109/s/1303/cosponsors?format=json"
+  },
+  "introducedDate": "2005-06-23",
+  "latestAction": {
+   "actionDate": "2006-07-27",
+   "text": "Sponsor introductory remarks on measure. (CR S8379)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/1303",
+  "number": "1303",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1303/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000361",
+    "firstName": "JAY",
+    "fullName": "Sen. Rockefeller, John D., IV [D-WV]",
+    "isByRequest": "N",
+    "lastName": "ROCKEFELLER",
+    "party": "D",
+    "state": "WV",
+    "url": "https://api.congress.gov/v3/member/R000361?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 37,
+   "url": "https://api.congress.gov/v3/bill/109/s/1303/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1303/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1303/text?format=json"
+  },
+  "title": "MediKids Health Insurance Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/1303/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T19:36:30Z",
+  "updateDateIncludingText": "2025-12-05T19:36:30Z"
+ },
+ "request": {
+  "billNumber": "1303",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

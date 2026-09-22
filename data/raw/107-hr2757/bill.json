@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2757/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2757/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 21,
+   "countIncludingWithdrawnCosponsors": 21,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2757/cosponsors?format=json"
+  },
+  "introducedDate": "2001-08-02",
+  "latestAction": {
+   "actionDate": "2001-08-16",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/2757",
+  "number": "2757",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000213",
+    "district": 36,
+    "firstName": "JANE",
+    "fullName": "Rep. Harman, Jane [D-CA-36]",
+    "isByRequest": "N",
+    "lastName": "HARMAN",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/H000213?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2757/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2757/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2757/text?format=json"
+  },
+  "title": "To provide for the refund of certain overcharges for electricity in the Western States, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2757/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-15T18:51:50Z",
+  "updateDateIncludingText": "2025-01-15T18:51:50Z"
+ },
+ "request": {
+  "billNumber": "2757",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

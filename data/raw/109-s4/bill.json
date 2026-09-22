@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/s/4/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/4/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/109/s/4/cosponsors?format=json"
+  },
+  "introducedDate": "2005-07-27",
+  "latestAction": {
+   "actionDate": "2005-07-27",
+   "text": "Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S9160-9182)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/4",
+  "number": "4",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/4/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000439",
+    "firstName": "WILLIAM",
+    "fullName": "Sen. Frist, William H. [R-TN]",
+    "isByRequest": "N",
+    "lastName": "FRIST",
+    "middleName": "H.",
+    "party": "R",
+    "state": "TN",
+    "url": "https://api.congress.gov/v3/member/F000439?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 74,
+   "url": "https://api.congress.gov/v3/bill/109/s/4/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/4/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/4/text?format=json"
+  },
+  "title": "Healthy America Act of 2005",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/109/s/4/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-15T17:59:53Z",
+  "updateDateIncludingText": "2025-08-15T17:59:53Z"
+ },
+ "request": {
+  "billNumber": "4",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

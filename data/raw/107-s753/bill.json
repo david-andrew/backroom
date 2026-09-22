@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/753/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/753/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 20,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/107/s/753/cosponsors?format=json"
+  },
+  "introducedDate": "2001-04-06",
+  "latestAction": {
+   "actionDate": "2001-04-06",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/753",
+  "number": "753",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Foreign Trade and International Finance"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000780",
+    "firstName": "JOHN",
+    "fullName": "Sen. Breaux, John B. [D-LA]",
+    "isByRequest": "N",
+    "lastName": "BREAUX",
+    "middleName": "BERLINGER",
+    "party": "D",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/B000780?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/107/s/753/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/753/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/753/text?format=json"
+  },
+  "title": "A bill to amend the Harmonized Tariff Schedule of the United States to prevent circumvention of the sugar tariff-rate quotas.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/s/753/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T18:59:41Z",
+  "updateDateIncludingText": "2025-01-14T19:03:15Z"
+ },
+ "request": {
+  "billNumber": "753",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

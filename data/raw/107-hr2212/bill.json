@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2212/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2212/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 21,
+   "countIncludingWithdrawnCosponsors": 21,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2212/cosponsors?format=json"
+  },
+  "introducedDate": "2001-06-19",
+  "latestAction": {
+   "actionDate": "2001-06-19",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/2212",
+  "number": "2212",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000462",
+    "district": 12,
+    "firstName": "PATRICK",
+    "fullName": "Rep. Tiberi, Patrick J. [R-OH-12]",
+    "isByRequest": "N",
+    "lastName": "TIBERI",
+    "middleName": "J.",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/T000462?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2212/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2212/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2212/text?format=json"
+  },
+  "title": "To make the income tax rate reductions in the Economic Growth and Tax Relief Reconciliation Act of 2001 permanent.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2212/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:47:08Z",
+  "updateDateIncludingText": "2025-01-02T16:47:08Z"
+ },
+ "request": {
+  "billNumber": "2212",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

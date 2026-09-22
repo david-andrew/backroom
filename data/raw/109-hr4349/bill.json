@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4349/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4349/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 18,
+   "countIncludingWithdrawnCosponsors": 18,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4349/cosponsors?format=json"
+  },
+  "introducedDate": "2005-11-16",
+  "latestAction": {
+   "actionDate": "2005-12-02",
+   "text": "Referred to the Subcommittee on Health, for a period to be subsequently determined by the Chairman."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/4349",
+  "number": "4349",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000627",
+    "district": 22,
+    "firstName": "MAURICE",
+    "fullName": "Rep. Hinchey, Maurice D. [D-NY-22]",
+    "isByRequest": "N",
+    "lastName": "HINCHEY",
+    "middleName": "D.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/H000627?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 46,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4349/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4349/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4349/text?format=json"
+  },
+  "title": "Patient Safety Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4349/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T18:00:57Z",
+  "updateDateIncludingText": "2025-08-15T18:00:57Z"
+ },
+ "request": {
+  "billNumber": "4349",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

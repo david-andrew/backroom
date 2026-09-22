@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3099/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3099/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 40,
+   "countIncludingWithdrawnCosponsors": 40,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3099/cosponsors?format=json"
+  },
+  "introducedDate": "2005-06-28",
+  "latestAction": {
+   "actionDate": "2005-07-29",
+   "text": "Referred to the Subcommittee on Telecommunications and the Internet, for a period to be subsequently determined by the Chairman."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/3099",
+  "number": "3099",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000266",
+    "district": 6,
+    "firstName": "JOHN",
+    "fullName": "Rep. Tierney, John F. [D-MA-6]",
+    "isByRequest": "N",
+    "lastName": "TIERNEY",
+    "middleName": "F.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/T000266?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 43,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3099/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3099/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3099/text?format=json"
+  },
+  "title": "Clean Money, Clean Elections Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3099/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T18:02:50Z",
+  "updateDateIncludingText": "2025-08-15T18:02:50Z"
+ },
+ "request": {
+  "billNumber": "3099",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

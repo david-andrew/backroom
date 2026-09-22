@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/s/1524/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1524/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 17,
+   "countIncludingWithdrawnCosponsors": 17,
+   "url": "https://api.congress.gov/v3/bill/109/s/1524/cosponsors?format=json"
+  },
+  "introducedDate": "2005-07-28",
+  "latestAction": {
+   "actionDate": "2005-07-28",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/1524",
+  "number": "1524",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000880",
+    "firstName": "Mike",
+    "fullName": "Sen. Crapo, Mike [R-ID]",
+    "isByRequest": "N",
+    "lastName": "Crapo",
+    "party": "R",
+    "state": "ID",
+    "url": "https://api.congress.gov/v3/member/C000880?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/109/s/1524/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1524/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1524/text?format=json"
+  },
+  "title": "A bill to repeal the sunset on the reduction of capital gains rates for individuals and on the taxation of dividends of individuals at capital gain rates.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/s/1524/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T18:59:41Z",
+  "updateDateIncludingText": "2025-01-14T19:01:59Z"
+ },
+ "request": {
+  "billNumber": "1524",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

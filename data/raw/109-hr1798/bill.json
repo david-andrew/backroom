@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1798/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1798/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1798/cosponsors?format=json"
+  },
+  "introducedDate": "2005-04-21",
+  "latestAction": {
+   "actionDate": "2005-04-26",
+   "text": "Executive Comment Requested from Interior."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/1798",
+  "number": "1798",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1798/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000034",
+    "district": 6,
+    "firstName": "FRANK",
+    "fullName": "Rep. Pallone, Frank, Jr. [D-NJ-6]",
+    "isByRequest": "N",
+    "lastName": "PALLONE",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/P000034?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1798/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1798/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1798/text?format=json"
+  },
+  "title": "COAST Anti-Drilling Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1798/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T14:02:16Z",
+  "updateDateIncludingText": "2025-12-05T14:02:16Z"
+ },
+ "request": {
+  "billNumber": "1798",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

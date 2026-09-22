@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3378/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3378/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3378/cosponsors?format=json"
+  },
+  "introducedDate": "2005-07-21",
+  "latestAction": {
+   "actionDate": "2005-08-05",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/3378",
+  "number": "3378",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3378/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001229",
+    "district": 3,
+    "firstName": "BRIAN",
+    "fullName": "Rep. Baird, Brian [D-WA-3]",
+    "isByRequest": "N",
+    "lastName": "BAIRD",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/B001229?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 72,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3378/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3378/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3378/text?format=json"
+  },
+  "title": "Comprehensive Medical Malpractice Reform Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3378/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T20:15:05Z",
+  "updateDateIncludingText": "2025-12-05T20:15:05Z"
+ },
+ "request": {
+  "billNumber": "3378",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

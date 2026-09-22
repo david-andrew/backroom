@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/96/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/96/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/96/cosponsors?format=json"
+  },
+  "introducedDate": "2001-01-22",
+  "latestAction": {
+   "actionDate": "2001-01-22",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text of measure as introduced: CR S362-365)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/96",
+  "number": "96",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000305",
+    "firstName": "HERBERT",
+    "fullName": "Sen. Kohl, Herb [D-WI]",
+    "isByRequest": "N",
+    "lastName": "KOHL",
+    "middleName": "H.",
+    "party": "D",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/K000305?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 75,
+   "url": "https://api.congress.gov/v3/bill/107/s/96/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/96/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/96/text?format=json"
+  },
+  "title": "Traveling Sales Crew Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/96/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-19T17:28:42Z",
+  "updateDateIncludingText": "2025-08-19T17:28:42Z"
+ },
+ "request": {
+  "billNumber": "96",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

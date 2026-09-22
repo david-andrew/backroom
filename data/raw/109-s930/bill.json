@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/930/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/930/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/109/s/930/cosponsors?format=json"
+  },
+  "introducedDate": "2005-04-27",
+  "latestAction": {
+   "actionDate": "2005-04-27",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/930",
+  "number": "930",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/930/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000386",
+    "firstName": "Charles",
+    "fullName": "Sen. Grassley, Chuck [R-IA]",
+    "isByRequest": "N",
+    "lastName": "Grassley",
+    "middleName": "E.",
+    "party": "R",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/G000386?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 33,
+   "url": "https://api.congress.gov/v3/bill/109/s/930/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/930/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/930/text?format=json"
+  },
+  "title": "Food and Drug Administration Safety Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/930/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T20:54:15Z",
+  "updateDateIncludingText": "2025-12-05T20:54:15Z"
+ },
+ "request": {
+  "billNumber": "930",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

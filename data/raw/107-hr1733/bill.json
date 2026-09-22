@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1733/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1733/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 66,
+   "countIncludingWithdrawnCosponsors": 66,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1733/cosponsors?format=json"
+  },
+  "introducedDate": "2001-05-03",
+  "latestAction": {
+   "actionDate": "2001-05-15",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/1733",
+  "number": "1733",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1733/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000810",
+    "district": 13,
+    "firstName": "PETE",
+    "fullName": "Rep. Stark, Fortney Pete [D-CA-13]",
+    "isByRequest": "N",
+    "lastName": "STARK",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/S000810?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 38,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1733/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1733/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1733/text?format=json"
+  },
+  "title": "MediKids Health Insurance Act of 2002",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1733/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:32:59Z",
+  "updateDateIncludingText": "2025-08-19T17:32:59Z"
+ },
+ "request": {
+  "billNumber": "1733",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

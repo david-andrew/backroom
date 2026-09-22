@@ -1,0 +1,79 @@
+{
+ "bill": {
+  "actions": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/107/s/812/actions?format=json"
+  },
+  "amendments": {
+   "count": 39,
+   "url": "https://api.congress.gov/v3/bill/107/s/812/amendments?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/812/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 12,
+   "countIncludingWithdrawnCosponsors": 12,
+   "url": "https://api.congress.gov/v3/bill/107/s/812/cosponsors?format=json"
+  },
+  "introducedDate": "2001-05-01",
+  "latestAction": {
+   "actionDate": "2002-09-04",
+   "actionTime": "20:01:27",
+   "text": "Held at the desk."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/812",
+  "number": "812",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/812/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000148",
+    "firstName": "Charles",
+    "fullName": "Sen. Schumer, Charles E. [D-NY]",
+    "isByRequest": "N",
+    "lastName": "Schumer",
+    "middleName": "E.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/S000148?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 25,
+   "url": "https://api.congress.gov/v3/bill/107/s/812/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/s/812/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/812/text?format=json"
+  },
+  "title": "Greater Access to Affordable Pharmaceuticals Act of 2002",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/107/s/812/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:24:17Z"
+ },
+ "request": {
+  "billNumber": "812",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

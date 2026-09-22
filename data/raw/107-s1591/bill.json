@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/s/1591/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/1591/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/1591/cosponsors?format=json"
+  },
+  "introducedDate": "2001-10-30",
+  "latestAction": {
+   "actionDate": "2001-10-30",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/1591",
+  "number": "1591",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000126",
+    "firstName": "GEORGE",
+    "fullName": "Sen. Voinovich, George V. [R-OH]",
+    "isByRequest": "N",
+    "lastName": "VOINOVICH",
+    "middleName": "V.",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/V000126?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 43,
+   "url": "https://api.congress.gov/v3/bill/107/s/1591/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/1591/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/1591/text?format=json"
+  },
+  "title": "Nuclear Safety and Promotion Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/1591/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:13:04Z"
+ },
+ "request": {
+  "billNumber": "1591",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

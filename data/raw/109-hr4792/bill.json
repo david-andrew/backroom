@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4792/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4792/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4792/cosponsors?format=json"
+  },
+  "introducedDate": "2006-02-16",
+  "latestAction": {
+   "actionDate": "2006-02-17",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/4792",
+  "number": "4792",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4792/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000560",
+    "district": 2,
+    "firstName": "RICK",
+    "fullName": "Rep. Larsen, Rick [D-WA-2]",
+    "isByRequest": "N",
+    "lastName": "LARSEN",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/L000560?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 57,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4792/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4792/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4792/text?format=json"
+  },
+  "title": "Fix Medicare Part D Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4792/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-01-10T15:50:30Z",
+  "updateDateIncludingText": "2026-01-10T15:50:30Z"
+ },
+ "request": {
+  "billNumber": "4792",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

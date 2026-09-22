@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/1099/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1099/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/109/s/1099/cosponsors?format=json"
+  },
+  "introducedDate": "2005-05-23",
+  "latestAction": {
+   "actionDate": "2005-05-23",
+   "text": "Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S5782-5784)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/1099",
+  "number": "1099",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/s/1099/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000320",
+    "firstName": "Richard",
+    "fullName": "Sen. Shelby, Richard C. [R-AL]",
+    "isByRequest": "N",
+    "lastName": "Shelby",
+    "middleName": "C.",
+    "party": "R",
+    "state": "AL",
+    "url": "https://api.congress.gov/v3/member/S000320?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 41,
+   "url": "https://api.congress.gov/v3/bill/109/s/1099/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1099/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1099/text?format=json"
+  },
+  "title": "Tax Simplification Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/1099/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-15T18:00:24Z",
+  "updateDateIncludingText": "2025-08-15T18:00:24Z"
+ },
+ "request": {
+  "billNumber": "1099",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/142/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/142/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/107/s/142/cosponsors?format=json"
+  },
+  "introducedDate": "2001-01-22",
+  "latestAction": {
+   "actionDate": "2001-03-20",
+   "text": "Sponsor introductory remarks on measure. (CR S2575-2576)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/142",
+  "number": "142",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000177",
+    "firstName": "TIM",
+    "fullName": "Sen. Johnson, Tim [D-SD]",
+    "isByRequest": "N",
+    "lastName": "JOHNSON",
+    "party": "D",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/J000177?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/107/s/142/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/142/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/142/text?format=json"
+  },
+  "title": "A bill to amend the Packers and Stockyards Act, 1921, to make unlawful for a packer to own, feed, or control livestock intended for slaughter.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/s/142/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T16:41:20Z",
+  "updateDateIncludingText": "2025-01-14T16:41:38Z"
+ },
+ "request": {
+  "billNumber": "142",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3811/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3811/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3811/cosponsors?format=json"
+  },
+  "introducedDate": "2005-09-15",
+  "latestAction": {
+   "actionDate": "2005-10-18",
+   "text": "Sponsor introductory remarks on measure. (CR H8894-8896)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/3811",
+  "number": "3811",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000592",
+    "district": 2,
+    "firstName": "Ted",
+    "fullName": "Rep. Poe, Ted [R-TX-2]",
+    "isByRequest": "N",
+    "lastName": "Poe",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/P000592?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3811/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3811/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3811/text?format=json"
+  },
+  "title": "To terminate the effect of laws prohibiting the spending of appropriated funds to conduct oil and natural gas leasing and preleasing activities for any area of the Outer Continental Shelf, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3811/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:55:14Z",
+  "updateDateIncludingText": "2025-01-02T16:55:14Z"
+ },
+ "request": {
+  "billNumber": "3811",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

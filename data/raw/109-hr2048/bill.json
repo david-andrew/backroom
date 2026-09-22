@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2048/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2048/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 98,
+   "countIncludingWithdrawnCosponsors": 107,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2048/cosponsors?format=json"
+  },
+  "introducedDate": "2005-05-03",
+  "latestAction": {
+   "actionDate": "2006-05-25",
+   "text": "Forwarded by Subcommittee to Full Committee (Amended) by the Yeas and Nays: 14 - 13 ."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/2048",
+  "number": "2048",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000213",
+    "district": 6,
+    "firstName": "JOE",
+    "fullName": "Rep. Barton, Joe [R-TX-6]",
+    "isByRequest": "N",
+    "lastName": "BARTON",
+    "middleName": "L.",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/B000213?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2048/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2048/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2048/text?format=json"
+  },
+  "title": "Motor Vehicle Owners' Right to Repair Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2048/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T18:01:49Z",
+  "updateDateIncludingText": "2025-08-15T18:01:49Z"
+ },
+ "request": {
+  "billNumber": "2048",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

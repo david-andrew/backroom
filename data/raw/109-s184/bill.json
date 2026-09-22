@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/s/184/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/184/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/109/s/184/cosponsors?format=json"
+  },
+  "introducedDate": "2005-01-26",
+  "latestAction": {
+   "actionDate": "2005-01-26",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/184",
+  "number": "184",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/184/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000445",
+    "firstName": "Judd",
+    "fullName": "Sen. Gregg, Judd [R-NH]",
+    "isByRequest": "N",
+    "lastName": "Gregg",
+    "party": "R",
+    "state": "NH",
+    "url": "https://api.congress.gov/v3/member/G000445?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 82,
+   "url": "https://api.congress.gov/v3/bill/109/s/184/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/184/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/184/text?format=json"
+  },
+  "title": "Safe IMPORT Act of 2005",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/s/184/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-15T17:59:47Z",
+  "updateDateIncludingText": "2025-08-15T17:59:47Z"
+ },
+ "request": {
+  "billNumber": "184",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

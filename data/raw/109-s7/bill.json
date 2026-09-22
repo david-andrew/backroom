@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/s/7/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/7/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/109/s/7/cosponsors?format=json"
+  },
+  "introducedDate": "2005-01-24",
+  "latestAction": {
+   "actionDate": "2005-01-24",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/7",
+  "number": "7",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000352",
+    "firstName": "Jon",
+    "fullName": "Sen. Kyl, Jon [R-AZ]",
+    "isByRequest": "N",
+    "lastName": "Kyl",
+    "middleName": "Llewellyn",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/K000352?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/109/s/7/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/7/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/7/text?format=json"
+  },
+  "title": "Jobs and Growth Tax Relief Act of 2005",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/s/7/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-15T17:57:58Z",
+  "updateDateIncludingText": "2025-08-15T17:57:58Z"
+ },
+ "request": {
+  "billNumber": "7",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

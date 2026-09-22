@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/2508/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/2508/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/2508/cosponsors?format=json"
+  },
+  "introducedDate": "2002-05-13",
+  "latestAction": {
+   "actionDate": "2002-05-13",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/2508",
+  "number": "2508",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000105",
+    "firstName": "EDWARD",
+    "fullName": "Sen. Kennedy, Edward M. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "KENNEDY",
+    "middleName": "MOORE",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/K000105?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/107/s/2508/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/2508/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/2508/text?format=json"
+  },
+  "title": "Preservation of Antibiotics for Human Treatment Act of 2002",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/2508/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-02-10T13:37:26Z",
+  "updateDateIncludingText": "2026-02-10T13:37:26Z"
+ },
+ "request": {
+  "billNumber": "2508",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

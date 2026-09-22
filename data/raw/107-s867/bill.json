@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/s/867/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/867/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/867/cosponsors?format=json"
+  },
+  "introducedDate": "2001-05-10",
+  "latestAction": {
+   "actionDate": "2001-05-10",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/867",
+  "number": "867",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000705",
+    "firstName": "KENT",
+    "fullName": "Sen. Conrad, Kent [D-ND]",
+    "isByRequest": "N",
+    "lastName": "CONRAD",
+    "party": "D",
+    "state": "ND",
+    "url": "https://api.congress.gov/v3/member/C000705?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/107/s/867/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/867/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/867/text?format=json"
+  },
+  "title": "Estate Tax Reform Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/867/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-19T17:28:15Z",
+  "updateDateIncludingText": "2025-08-19T17:28:15Z"
+ },
+ "request": {
+  "billNumber": "867",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

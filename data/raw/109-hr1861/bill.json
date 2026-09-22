@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1861/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1861/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 45,
+   "countIncludingWithdrawnCosponsors": 45,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1861/cosponsors?format=json"
+  },
+  "introducedDate": "2005-04-26",
+  "latestAction": {
+   "actionDate": "2005-05-13",
+   "text": "Referred to the Subcommittee on Commerce, Trade and Consumer Protection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/1861",
+  "number": "1861",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001162",
+    "district": 13,
+    "firstName": "Allyson",
+    "fullName": "Rep. Schwartz, Allyson Y. [D-PA-13]",
+    "isByRequest": "N",
+    "lastName": "Schwartz",
+    "middleName": "Y.",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/S001162?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1861/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1861/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1861/text?format=json"
+  },
+  "title": "Katie Elise and Meghan Agnes Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1861/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:59:04Z",
+  "updateDateIncludingText": "2025-08-15T17:59:04Z"
+ },
+ "request": {
+  "billNumber": "1861",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2059/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2059/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2059/cosponsors?format=json"
+  },
+  "introducedDate": "2005-05-03",
+  "latestAction": {
+   "actionDate": "2005-05-10",
+   "text": "Executive Comment Requested from Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/2059",
+  "number": "2059",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000034",
+    "district": 6,
+    "firstName": "FRANK",
+    "fullName": "Rep. Pallone, Frank, Jr. [D-NJ-6]",
+    "isByRequest": "N",
+    "lastName": "PALLONE",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/P000034?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2059/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2059/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2059/text?format=json"
+  },
+  "title": "To prohibit the commercial harvesting of Atlantic striped bass in the coastal waters and the exclusive economic zone.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2059/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-02-10T13:35:20Z",
+  "updateDateIncludingText": "2026-02-10T13:35:20Z"
+ },
+ "request": {
+  "billNumber": "2059",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

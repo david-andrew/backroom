@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/841/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/841/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 18,
+   "countIncludingWithdrawnCosponsors": 18,
+   "url": "https://api.congress.gov/v3/bill/109/s/841/cosponsors?format=json"
+  },
+  "introducedDate": "2005-04-19",
+  "latestAction": {
+   "actionDate": "2005-04-19",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/841",
+  "number": "841",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001041",
+    "firstName": "HILLARY",
+    "fullName": "Sen. Clinton, Hillary Rodham [D-NY]",
+    "isByRequest": "N",
+    "lastName": "CLINTON",
+    "middleName": "R",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/C001041?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 55,
+   "url": "https://api.congress.gov/v3/bill/109/s/841/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/841/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/841/text?format=json"
+  },
+  "title": "Paycheck Fairness Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/841/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-15T17:57:34Z",
+  "updateDateIncludingText": "2025-08-15T17:57:34Z"
+ },
+ "request": {
+  "billNumber": "841",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

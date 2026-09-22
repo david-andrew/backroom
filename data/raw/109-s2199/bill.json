@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/s/2199/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/2199/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 61,
+   "countIncludingWithdrawnCosponsors": 61,
+   "url": "https://api.congress.gov/v3/bill/109/s/2199/cosponsors?format=json"
+  },
+  "introducedDate": "2006-01-26",
+  "latestAction": {
+   "actionDate": "2006-09-26",
+   "text": "Sponsor introductory remarks on measure. (CR S10127)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/2199",
+  "number": "2199",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000407",
+    "firstName": "PETE",
+    "fullName": "Sen. Domenici, Pete V. [R-NM]",
+    "isByRequest": "N",
+    "lastName": "DOMENICI",
+    "middleName": "VICHI",
+    "party": "R",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/D000407?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 35,
+   "url": "https://api.congress.gov/v3/bill/109/s/2199/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/2199/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/2199/text?format=json"
+  },
+  "title": "PACE-Finance Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/s/2199/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-15T18:02:00Z",
+  "updateDateIncludingText": "2025-08-15T18:02:00Z"
+ },
+ "request": {
+  "billNumber": "2199",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

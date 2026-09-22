@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/107/hr/235/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/235/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/235/cosponsors?format=json"
+  },
+  "introducedDate": "2001-01-06",
+  "latestAction": {
+   "actionDate": "2001-06-18",
+   "text": "Referred to the Subcommittee on Energy and Air Quality, for a period to be subsequently determined by the Chairman."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/235",
+  "number": "235",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000163",
+    "district": 4,
+    "firstName": "MICHAEL",
+    "fullName": "Rep. Oxley, Michael G. [R-OH-4]",
+    "isByRequest": "N",
+    "lastName": "OXLEY",
+    "middleName": "G.",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/O000163?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/107/hr/235/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/235/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/235/text?format=json"
+  },
+  "title": "To require the Federal Communications Commission to eliminate from its regulations the restrictions on the cross-ownership of broadcasting stations and newspapers.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/235/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-15T18:51:50Z",
+  "updateDateIncludingText": "2025-01-15T18:51:50Z"
+ },
+ "request": {
+  "billNumber": "235",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

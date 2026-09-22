@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/109/hr/550/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/550/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 222,
+   "countIncludingWithdrawnCosponsors": 222,
+   "url": "https://api.congress.gov/v3/bill/109/hr/550/cosponsors?format=json"
+  },
+  "introducedDate": "2005-02-02",
+  "latestAction": {
+   "actionDate": "2006-04-06",
+   "text": "Sponsor introductory remarks on measure. (CR H1567)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/550",
+  "number": "550",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001032",
+    "district": 12,
+    "firstName": "RUSH",
+    "fullName": "Rep. Holt, Rush [D-NJ-12]",
+    "isByRequest": "N",
+    "lastName": "HOLT",
+    "middleName": "D.",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/H001032?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 51,
+   "url": "https://api.congress.gov/v3/bill/109/hr/550/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/550/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/550/text?format=json"
+  },
+  "title": "Voter Confidence and Increased Accessibility Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/550/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:59:51Z",
+  "updateDateIncludingText": "2025-08-15T17:59:51Z"
+ },
+ "request": {
+  "billNumber": "550",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

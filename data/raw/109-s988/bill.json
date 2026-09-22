@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/s/988/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/988/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/109/s/988/cosponsors?format=json"
+  },
+  "introducedDate": "2005-05-10",
+  "latestAction": {
+   "actionDate": "2005-05-10",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/988",
+  "number": "988",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001141",
+    "firstName": "Jeff",
+    "fullName": "Sen. Sessions, Jeff [R-AL]",
+    "isByRequest": "N",
+    "lastName": "Sessions",
+    "party": "R",
+    "state": "AL",
+    "url": "https://api.congress.gov/v3/member/S001141?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/109/s/988/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/988/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/988/text?format=json"
+  },
+  "title": "Jobs Protection and Estate Tax Reform Act of 2005",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/s/988/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-15T18:00:33Z",
+  "updateDateIncludingText": "2025-08-15T18:00:33Z"
+ },
+ "request": {
+  "billNumber": "988",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

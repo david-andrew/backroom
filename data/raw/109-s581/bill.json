@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/s/581/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/581/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/581/cosponsors?format=json"
+  },
+  "introducedDate": "2005-03-09",
+  "latestAction": {
+   "actionDate": "2005-03-09",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/581",
+  "number": "581",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/581/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000359",
+    "firstName": "Lindsey",
+    "fullName": "Sen. Graham, Lindsey [R-SC]",
+    "isByRequest": "N",
+    "lastName": "Graham",
+    "party": "R",
+    "state": "SC",
+    "url": "https://api.congress.gov/v3/member/G000359?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/109/s/581/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/581/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/581/text?format=json"
+  },
+  "title": "Medicare Prescription Drug Cost Containment Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/581/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-15T17:59:30Z",
+  "updateDateIncludingText": "2025-08-15T17:59:30Z"
+ },
+ "request": {
+  "billNumber": "581",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

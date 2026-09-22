@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/109/s/779/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/779/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/109/s/779/cosponsors?format=json"
+  },
+  "introducedDate": "2005-04-13",
+  "latestAction": {
+   "actionDate": "2006-02-01",
+   "text": "Sponsor introductory remarks on measure."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/779",
+  "number": "779",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000432",
+    "firstName": "BYRON",
+    "fullName": "Sen. Dorgan, Byron L. [D-ND]",
+    "isByRequest": "N",
+    "lastName": "DORGAN",
+    "middleName": "LESLIE",
+    "party": "D",
+    "state": "ND",
+    "url": "https://api.congress.gov/v3/member/D000432?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/109/s/779/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/779/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/779/text?format=json"
+  },
+  "title": "A bill to amend the Internal Revenue Code of 1986 to treat controlled foreign corporations established in tax havens as domestic corporations.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/s/779/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-07T14:47:43Z",
+  "updateDateIncludingText": "2025-04-07T14:47:43Z"
+ },
+ "request": {
+  "billNumber": "779",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

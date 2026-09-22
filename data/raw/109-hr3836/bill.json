@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3836/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3836/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 36,
+   "countIncludingWithdrawnCosponsors": 36,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3836/cosponsors?format=json"
+  },
+  "introducedDate": "2005-09-20",
+  "latestAction": {
+   "actionDate": "2005-10-07",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/3836",
+  "number": "3836",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000275",
+    "district": 3,
+    "firstName": "JOHN",
+    "fullName": "Rep. Shadegg, John B. [R-AZ-3]",
+    "isByRequest": "N",
+    "lastName": "SHADEGG",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/S000275?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 45,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3836/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3836/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3836/text?format=json"
+  },
+  "title": "Fuel Supply Improvement Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3836/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T18:01:22Z",
+  "updateDateIncludingText": "2025-08-15T18:01:22Z"
+ },
+ "request": {
+  "billNumber": "3836",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

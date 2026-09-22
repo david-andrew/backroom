@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2133/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2133/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 19,
+   "countIncludingWithdrawnCosponsors": 19,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2133/cosponsors?format=json"
+  },
+  "introducedDate": "2005-05-05",
+  "latestAction": {
+   "actionDate": "2005-09-21",
+   "text": "Sponsor introductory remarks on measure. (CR E1908)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/2133",
+  "number": "2133",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001230",
+    "district": 2,
+    "firstName": "Tammy",
+    "fullName": "Rep. Baldwin, Tammy [D-WI-2]",
+    "isByRequest": "N",
+    "lastName": "Baldwin",
+    "party": "D",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/B001230?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 172,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2133/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2133/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2133/text?format=json"
+  },
+  "title": "Health Security for All Americans Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2133/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:57:45Z",
+  "updateDateIncludingText": "2025-08-15T17:57:45Z"
+ },
+ "request": {
+  "billNumber": "2133",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

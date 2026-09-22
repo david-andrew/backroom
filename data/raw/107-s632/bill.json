@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/632/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/632/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/632/cosponsors?format=json"
+  },
+  "introducedDate": "2001-03-27",
+  "latestAction": {
+   "actionDate": "2001-03-27",
+   "text": "Read twice and referred to the Committee on Environment and Public Works. (text of measure as introduced: CR S3000)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/632",
+  "number": "632",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000032",
+    "firstName": "CLARENCE",
+    "fullName": "Sen. Nelson, Bill [D-FL]",
+    "isByRequest": "N",
+    "lastName": "NELSON",
+    "middleName": "WILLIAM",
+    "party": "D",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/N000032?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/107/s/632/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/632/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/632/text?format=json"
+  },
+  "title": "Arsenic Reduction in Drinking Water Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/632/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:13:01Z"
+ },
+ "request": {
+  "billNumber": "632",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

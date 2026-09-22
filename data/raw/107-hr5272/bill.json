@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5272/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5272/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 20,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5272/cosponsors?format=json"
+  },
+  "introducedDate": "2002-07-26",
+  "latestAction": {
+   "actionDate": "2002-07-29",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/5272",
+  "number": "5272",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000944",
+    "district": 13,
+    "firstName": "Sherrod",
+    "fullName": "Rep. Brown, Sherrod [D-OH-13]",
+    "isByRequest": "N",
+    "lastName": "Brown",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/B000944?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 29,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5272/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5272/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5272/text?format=json"
+  },
+  "title": "Prescription Drug Fair Competition Act of 2002",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5272/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:31:39Z",
+  "updateDateIncludingText": "2025-08-19T17:31:39Z"
+ },
+ "request": {
+  "billNumber": "5272",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

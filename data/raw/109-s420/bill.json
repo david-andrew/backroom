@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/420/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/420/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/109/s/420/cosponsors?format=json"
+  },
+  "introducedDate": "2005-02-17",
+  "latestAction": {
+   "actionDate": "2005-02-17",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/420",
+  "number": "420",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/420/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000352",
+    "firstName": "Jon",
+    "fullName": "Sen. Kyl, Jon [R-AZ]",
+    "isByRequest": "N",
+    "lastName": "Kyl",
+    "middleName": "Llewellyn",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/K000352?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/109/s/420/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/420/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/420/text?format=json"
+  },
+  "title": "Death Tax Repeal Permanency Act of 2005",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/s/420/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-15T17:59:58Z",
+  "updateDateIncludingText": "2025-08-15T17:59:58Z"
+ },
+ "request": {
+  "billNumber": "420",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

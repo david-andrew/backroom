@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/107/hr/184/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/184/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 58,
+   "countIncludingWithdrawnCosponsors": 58,
+   "url": "https://api.congress.gov/v3/bill/107/hr/184/cosponsors?format=json"
+  },
+  "introducedDate": "2001-01-03",
+  "latestAction": {
+   "actionDate": "2001-03-02",
+   "text": "Referred to the Subcommittee on Financial Institutions and Consumer Credit."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/184",
+  "number": "184",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000480",
+    "district": 28,
+    "firstName": "LOUISE",
+    "fullName": "Rep. Slaughter, Louise McIntosh [D-NY-28]",
+    "isByRequest": "N",
+    "lastName": "SLAUGHTER",
+    "middleName": "M.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/S000480?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/107/hr/184/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/184/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/184/text?format=json"
+  },
+  "title": "College Student Credit Card Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/184/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:28:15Z",
+  "updateDateIncludingText": "2025-08-19T17:28:15Z"
+ },
+ "request": {
+  "billNumber": "184",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

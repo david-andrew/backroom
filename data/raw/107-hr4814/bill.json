@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4814/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4814/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 38,
+   "countIncludingWithdrawnCosponsors": 38,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4814/cosponsors?format=json"
+  },
+  "introducedDate": "2002-05-22",
+  "latestAction": {
+   "actionDate": "2002-06-04",
+   "text": "Referred to the Subcommittee on Farm Commodities and Risk Management."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/4814",
+  "number": "4814",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000336",
+    "district": 10,
+    "firstName": "DENNIS",
+    "fullName": "Rep. Kucinich, Dennis J. [D-OH-10]",
+    "isByRequest": "N",
+    "lastName": "KUCINICH",
+    "middleName": "J.",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/K000336?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4814/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4814/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4814/text?format=json"
+  },
+  "title": "Genetically Engineered Food Right to Know Act ",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4814/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:28:34Z",
+  "updateDateIncludingText": "2025-08-19T17:28:34Z"
+ },
+ "request": {
+  "billNumber": "4814",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

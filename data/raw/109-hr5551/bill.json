@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5551/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5551/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5551/cosponsors?format=json"
+  },
+  "introducedDate": "2006-06-07",
+  "latestAction": {
+   "actionDate": "2006-06-07",
+   "text": "Referred to the House Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/5551",
+  "number": "5551",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000574",
+    "district": 1,
+    "firstName": "Rick",
+    "fullName": "Rep. Renzi, Rick [R-AZ-1]",
+    "isByRequest": "N",
+    "lastName": "Renzi",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/R000574?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5551/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5551/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5551/text?format=json"
+  },
+  "title": "Firearms Transfer Improvement Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5551/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:57:21Z",
+  "updateDateIncludingText": "2025-08-15T17:57:21Z"
+ },
+ "request": {
+  "billNumber": "5551",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1500/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1500/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1500/cosponsors?format=json"
+  },
+  "introducedDate": "2005-04-06",
+  "latestAction": {
+   "actionDate": "2005-04-06",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/1500",
+  "number": "1500",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000492",
+    "district": 26,
+    "firstName": "DAVID",
+    "fullName": "Rep. Dreier, David [R-CA-26]",
+    "isByRequest": "N",
+    "lastName": "DREIER",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/D000492?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1500/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1500/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1500/text?format=json"
+  },
+  "title": "Investment Tax Simplification Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1500/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T18:02:38Z",
+  "updateDateIncludingText": "2025-08-15T18:02:38Z"
+ },
+ "request": {
+  "billNumber": "1500",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

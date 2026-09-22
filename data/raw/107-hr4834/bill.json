@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4834/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4834/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4834/cosponsors?format=json"
+  },
+  "introducedDate": "2002-05-23",
+  "latestAction": {
+   "actionDate": "2002-06-05",
+   "text": "Executive Comment Requested from USDA."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/4834",
+  "number": "4834",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000081",
+    "district": 2,
+    "firstName": "JOHN",
+    "fullName": "Rep. Baldacci, John Elias [D-ME-2]",
+    "isByRequest": "N",
+    "lastName": "BALDACCI",
+    "middleName": "ELIAS",
+    "party": "D",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/B000081?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4834/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4834/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4834/text?format=json"
+  },
+  "title": "Safe and Fair Enforcement and Recall for Meat and Poultry Act of 2002",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4834/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:32:44Z",
+  "updateDateIncludingText": "2025-08-19T17:32:44Z"
+ },
+ "request": {
+  "billNumber": "4834",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

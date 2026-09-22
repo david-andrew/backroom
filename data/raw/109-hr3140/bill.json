@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3140/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3140/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3140/cosponsors?format=json"
+  },
+  "introducedDate": "2005-06-30",
+  "latestAction": {
+   "actionDate": "2005-06-30",
+   "text": "Referred to the House Committee on Financial Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/3140",
+  "number": "3140",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001253",
+    "district": 8,
+    "firstName": "Melissa",
+    "fullName": "Rep. Bean, Melissa L. [D-IL-8]",
+    "isByRequest": "N",
+    "lastName": "Bean",
+    "middleName": "L.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/B001253?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 43,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3140/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3140/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3140/text?format=json"
+  },
+  "title": "Consumer Data Security and Notification Act of 2005",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3140/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:57:22Z",
+  "updateDateIncludingText": "2025-08-15T17:57:22Z"
+ },
+ "request": {
+  "billNumber": "3140",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

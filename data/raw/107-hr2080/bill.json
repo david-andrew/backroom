@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2080/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2080/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2080/cosponsors?format=json"
+  },
+  "introducedDate": "2001-06-06",
+  "latestAction": {
+   "actionDate": "2001-06-06",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/2080",
+  "number": "2080",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000404",
+    "district": 7,
+    "firstName": "JIM",
+    "fullName": "Rep. McDermott, Jim [D-WA-7]",
+    "isByRequest": "N",
+    "lastName": "MCDERMOTT",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/M000404?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2080/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2080/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2080/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to deny accelerated depreciation for electric generating facilities having excess profits in order to prevent taxpayers operating such facilities from having both excess profits and tax incentives.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2080/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:46:47Z",
+  "updateDateIncludingText": "2025-01-02T16:46:47Z"
+ },
+ "request": {
+  "billNumber": "2080",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

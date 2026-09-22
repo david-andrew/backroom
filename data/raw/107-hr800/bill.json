@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/800/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/800/committees?format=json"
+  },
+  "congress": 107,
+  "introducedDate": "2001-02-28",
+  "latestAction": {
+   "actionDate": "2001-02-28",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/800",
+  "number": "800",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000106",
+    "district": 1,
+    "firstName": "JOE",
+    "fullName": "Rep. Scarborough, Joe [R-FL-1]",
+    "isByRequest": "N",
+    "lastName": "SCARBOROUGH",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/S000106?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/107/hr/800/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/800/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/800/text?format=json"
+  },
+  "title": "Capital Gains Sunset Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/800/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:29:40Z",
+  "updateDateIncludingText": "2025-08-19T17:29:40Z"
+ },
+ "request": {
+  "billNumber": "800",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

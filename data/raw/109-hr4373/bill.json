@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4373/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4373/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4373/cosponsors?format=json"
+  },
+  "introducedDate": "2005-11-17",
+  "latestAction": {
+   "actionDate": "2005-11-29",
+   "text": "Referred to the Subcommittee on Economic Security, Infrastructure Protection, and Cybersecurity."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/4373",
+  "number": "4373",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000133",
+    "district": 7,
+    "firstName": "Edward",
+    "fullName": "Rep. Markey, Edward J. [D-MA-7]",
+    "isByRequest": "N",
+    "lastName": "Markey",
+    "middleName": "J.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/M000133?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4373/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4373/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4373/text?format=json"
+  },
+  "title": "Safe Skies Cargo Inspection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4373/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:57:05Z",
+  "updateDateIncludingText": "2025-08-15T17:57:05Z"
+ },
+ "request": {
+  "billNumber": "4373",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/624/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/624/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/624/cosponsors?format=json"
+  },
+  "introducedDate": "2001-03-27",
+  "latestAction": {
+   "actionDate": "2001-03-27",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text of measure as introduced: CR S2990-2992)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/624",
+  "number": "624",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000445",
+    "firstName": "Judd",
+    "fullName": "Sen. Gregg, Judd [R-NH]",
+    "isByRequest": "N",
+    "lastName": "Gregg",
+    "party": "R",
+    "state": "NH",
+    "url": "https://api.congress.gov/v3/member/G000445?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/107/s/624/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/624/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/624/text?format=json"
+  },
+  "title": "Workplace Flexibility Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/624/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-02-10T13:37:26Z",
+  "updateDateIncludingText": "2026-02-10T13:37:26Z"
+ },
+ "request": {
+  "billNumber": "624",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

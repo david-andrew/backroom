@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/109/hr/6258/actions?format=json"
+  },
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/6258/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/6258/cosponsors?format=json"
+  },
+  "introducedDate": "2006-09-29",
+  "latestAction": {
+   "actionDate": "2006-11-02",
+   "text": "Referred to the Subcommittee on Employer-Employee Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/6258",
+  "number": "6258",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000244",
+    "district": 5,
+    "firstName": "F.",
+    "fullName": "Rep. Sensenbrenner, F. James, Jr. [R-WI-5]",
+    "isByRequest": "N",
+    "lastName": "SENSENBRENNER",
+    "middleName": "JAMES",
+    "party": "R",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/S000244?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/109/hr/6258/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/6258/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/6258/text?format=json"
+  },
+  "title": "Americans with Disabilities Act Restoration Act of 2006",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/6258/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "6258",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

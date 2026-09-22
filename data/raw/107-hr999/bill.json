@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/107/hr/999/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/999/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/999/cosponsors?format=json"
+  },
+  "introducedDate": "2001-03-13",
+  "latestAction": {
+   "actionDate": "2001-03-14",
+   "text": "Referred to the Subcommittee on Railroads."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/999",
+  "number": "999",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000422",
+    "firstName": "EARL",
+    "fullName": "Rep. Pomeroy, Earl [D-ND-At Large]",
+    "isByRequest": "N",
+    "lastName": "POMEROY",
+    "party": "D",
+    "state": "ND",
+    "url": "https://api.congress.gov/v3/member/P000422?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/107/hr/999/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/999/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/999/text?format=json"
+  },
+  "title": "Rail Merger Reform and Customer Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/999/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:28:40Z",
+  "updateDateIncludingText": "2025-08-19T17:28:40Z"
+ },
+ "request": {
+  "billNumber": "999",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

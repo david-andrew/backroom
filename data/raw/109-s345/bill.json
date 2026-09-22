@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/s/345/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/345/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/109/s/345/cosponsors?format=json"
+  },
+  "introducedDate": "2005-02-10",
+  "latestAction": {
+   "actionDate": "2005-09-27",
+   "text": "Sponsor introductory remarks on measure. (CR S10525-10526)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/345",
+  "number": "345",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/s/345/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000563",
+    "firstName": "Richard",
+    "fullName": "Sen. Durbin, Richard J. [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Durbin",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000563?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/109/s/345/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/345/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/345/text?format=json"
+  },
+  "title": "Medicare Prescription Drug Savings and Choice Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/345/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-10T15:45:16Z",
+  "updateDateIncludingText": "2026-01-10T15:45:16Z"
+ },
+ "request": {
+  "billNumber": "345",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

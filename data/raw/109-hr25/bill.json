@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/25/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/25/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 58,
+   "countIncludingWithdrawnCosponsors": 59,
+   "url": "https://api.congress.gov/v3/bill/109/hr/25/cosponsors?format=json"
+  },
+  "introducedDate": "2005-01-04",
+  "latestAction": {
+   "actionDate": "2005-11-01",
+   "text": "Sponsor introductory remarks on measure. (CR H9439)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/25",
+  "number": "25",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/25/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000321",
+    "district": 7,
+    "firstName": "JOHN",
+    "fullName": "Rep. Linder, John [R-GA-7]",
+    "isByRequest": "N",
+    "lastName": "LINDER",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/L000321?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 64,
+   "url": "https://api.congress.gov/v3/bill/109/hr/25/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/25/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/25/text?format=json"
+  },
+  "title": "Fair Tax Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/25/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:57:16Z",
+  "updateDateIncludingText": "2025-08-15T17:57:16Z"
+ },
+ "request": {
+  "billNumber": "25",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

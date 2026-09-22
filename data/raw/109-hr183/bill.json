@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/183/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/183/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/183/cosponsors?format=json"
+  },
+  "introducedDate": "2005-01-04",
+  "latestAction": {
+   "actionDate": "2005-01-04",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/183",
+  "number": "183",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/183/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000373",
+    "district": 16,
+    "firstName": "JOSEPH",
+    "fullName": "Rep. Pitts, Joseph R. [R-PA-16]",
+    "isByRequest": "N",
+    "lastName": "PITTS",
+    "middleName": "R.",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/P000373?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/109/hr/183/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/183/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/183/text?format=json"
+  },
+  "title": "To make the repeal of the estate tax permanent.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/183/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:35:05Z"
+ },
+ "request": {
+  "billNumber": "183",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

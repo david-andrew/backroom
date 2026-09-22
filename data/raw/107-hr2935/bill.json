@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2935/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2935/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2935/cosponsors?format=json"
+  },
+  "introducedDate": "2001-09-21",
+  "latestAction": {
+   "actionDate": "2001-09-21",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/2935",
+  "number": "2935",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000339",
+    "district": 4,
+    "firstName": "BARNEY",
+    "fullName": "Rep. Frank, Barney [D-MA-4]",
+    "isByRequest": "N",
+    "lastName": "FRANK",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/F000339?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2935/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2935/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2935/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to increase the highest rate of income tax imposed on individual taxpayers to 39.6 percent, and to deposit the amounts received as a result of such increase into the Social Security trust funds.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2935/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:48:34Z",
+  "updateDateIncludingText": "2025-01-02T16:48:34Z"
+ },
+ "request": {
+  "billNumber": "2935",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

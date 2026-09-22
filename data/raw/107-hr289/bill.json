@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/107/hr/289/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/289/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/289/cosponsors?format=json"
+  },
+  "introducedDate": "2001-01-30",
+  "latestAction": {
+   "actionDate": "2001-01-30",
+   "text": "Referred to the House Committee on House Administration."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/289",
+  "number": "289",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000797",
+    "district": 2,
+    "firstName": "PATSY",
+    "fullName": "Rep. Mink, Patsy T. [D-HI-2]",
+    "isByRequest": "N",
+    "lastName": "MINK",
+    "middleName": "T.",
+    "party": "D",
+    "state": "HI",
+    "url": "https://api.congress.gov/v3/member/M000797?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/107/hr/289/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/289/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/289/text?format=json"
+  },
+  "title": "To amend the Federal Election Campaign Act of 1971 to prohibit the use of soft money to influence any campaign for election for Federal office.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/289/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T13:41:45Z",
+  "updateDateIncludingText": "2025-04-07T13:41:45Z"
+ },
+ "request": {
+  "billNumber": "289",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

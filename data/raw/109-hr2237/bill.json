@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2237/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2237/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2237/cosponsors?format=json"
+  },
+  "introducedDate": "2005-05-10",
+  "latestAction": {
+   "actionDate": "2005-06-15",
+   "text": "Sponsor introductory remarks on measure. (CR H4490-4491)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/2237",
+  "number": "2237",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000034",
+    "district": 6,
+    "firstName": "FRANK",
+    "fullName": "Rep. Pallone, Frank, Jr. [D-NJ-6]",
+    "isByRequest": "N",
+    "lastName": "PALLONE",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/P000034?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 57,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2237/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2237/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2237/text?format=json"
+  },
+  "title": "Chemical Security Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2237/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T18:01:13Z",
+  "updateDateIncludingText": "2025-08-15T18:01:13Z"
+ },
+ "request": {
+  "billNumber": "2237",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

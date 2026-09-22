@@ -1,0 +1,66 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/1761/actions?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/109/s/1761/cosponsors?format=json"
+  },
+  "introducedDate": "2005-09-22",
+  "latestAction": {
+   "actionDate": "2005-09-26",
+   "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 222."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/1761",
+  "number": "1761",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000250",
+    "firstName": "John",
+    "fullName": "Sen. Thune, John [R-SD]",
+    "isByRequest": "N",
+    "lastName": "Thune",
+    "middleName": "R.",
+    "party": "R",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/T000250?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/109/s/1761/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1761/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1761/text?format=json"
+  },
+  "title": "Gulf Coast Recovery Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/1761/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-15T17:58:13Z",
+  "updateDateIncludingText": "2025-08-15T17:58:13Z"
+ },
+ "request": {
+  "billNumber": "1761",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

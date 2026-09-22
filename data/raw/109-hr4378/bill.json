@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4378/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4378/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4378/cosponsors?format=json"
+  },
+  "introducedDate": "2005-11-17",
+  "latestAction": {
+   "actionDate": "2006-02-06",
+   "text": "Referred to the Subcommittee on Immigration, Border Security, and Claims."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/4378",
+  "number": "4378",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Immigration"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000096",
+    "district": 8,
+    "firstName": "WILLIAM",
+    "fullName": "Rep. Pascrell, Bill, Jr. [D-NJ-8]",
+    "isByRequest": "N",
+    "lastName": "PASCRELL",
+    "middleName": "J.",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/P000096?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 34,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4378/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4378/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4378/text?format=json"
+  },
+  "title": "Defend the American Dream Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4378/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:57:19Z",
+  "updateDateIncludingText": "2025-08-15T17:57:19Z"
+ },
+ "request": {
+  "billNumber": "4378",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

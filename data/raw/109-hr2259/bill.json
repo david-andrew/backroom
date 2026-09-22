@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2259/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2259/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 62,
+   "countIncludingWithdrawnCosponsors": 62,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2259/cosponsors?format=json"
+  },
+  "introducedDate": "2005-05-11",
+  "latestAction": {
+   "actionDate": "2005-05-31",
+   "text": "Referred to the Subcommittee on Employer-Employee Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/2259",
+  "number": "2259",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2259/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000355",
+    "district": 15,
+    "firstName": "JOHN",
+    "fullName": "Rep. Dingell, John D. [D-MI-15]",
+    "isByRequest": "N",
+    "lastName": "DINGELL",
+    "middleName": "D.",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/D000355?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 136,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2259/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2259/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2259/text?format=json"
+  },
+  "title": "Patients' Bill of Rights Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2259/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "2259",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

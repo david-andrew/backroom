@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/109/s/22/actions?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 19,
+   "countIncludingWithdrawnCosponsors": 19,
+   "url": "https://api.congress.gov/v3/bill/109/s/22/cosponsors?format=json"
+  },
+  "introducedDate": "2006-05-03",
+  "latestAction": {
+   "actionDate": "2006-05-08",
+   "text": "Cloture on the motion to proceed not invoked in Senate by Yea-Nay Vote. 48 - 42. Record Vote Number: 115. (consideration: CR S4146; text: CR S4146)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/22",
+  "number": "22",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Law"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/s/22/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000194",
+    "firstName": "JOHN",
+    "fullName": "Sen. Ensign, John [R-NV]",
+    "isByRequest": "N",
+    "lastName": "ENSIGN",
+    "party": "R",
+    "state": "NV",
+    "url": "https://api.congress.gov/v3/member/E000194?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/109/s/22/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/22/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/22/text?format=json"
+  },
+  "title": "MCAP Act",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/109/s/22/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T13:08:22Z",
+  "updateDateIncludingText": "2025-12-05T13:08:22Z"
+ },
+ "request": {
+  "billNumber": "22",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4023/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4023/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4023/cosponsors?format=json"
+  },
+  "introducedDate": "2002-03-20",
+  "latestAction": {
+   "actionDate": "2002-03-20",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/4023",
+  "number": "4023",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Social Welfare"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000249",
+    "district": 5,
+    "firstName": "ROBERT",
+    "fullName": "Rep. Matsui, Robert T. [D-CA-5]",
+    "isByRequest": "N",
+    "lastName": "MATSUI",
+    "middleName": "T.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/M000249?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4023/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4023/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4023/text?format=json"
+  },
+  "title": "To enact into law Reform Model 2 as set forth in the report of the President's Commission to Strengthen Social Security.",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4023/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:50:46Z",
+  "updateDateIncludingText": "2025-01-02T16:50:46Z"
+ },
+ "request": {
+  "billNumber": "4023",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

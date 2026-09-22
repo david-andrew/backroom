@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1837/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1837/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1837/cosponsors?format=json"
+  },
+  "introducedDate": "2005-04-26",
+  "latestAction": {
+   "actionDate": "2005-05-03",
+   "text": "Executive Comment Requested from Interior."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/1837",
+  "number": "1837",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000444",
+    "district": 6,
+    "firstName": "JEFF",
+    "fullName": "Rep. Flake, Jeff [R-AZ-6]",
+    "isByRequest": "N",
+    "lastName": "FLAKE",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/F000444?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1837/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1837/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1837/text?format=json"
+  },
+  "title": "To amend the Endangered Species Act of 1973 to establish limitations on the designation of critical habitat, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1837/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T13:32:55Z",
+  "updateDateIncludingText": "2024-02-07T13:34:24Z"
+ },
+ "request": {
+  "billNumber": "1837",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/s/18/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/18/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/109/s/18/cosponsors?format=json"
+  },
+  "introducedDate": "2005-01-24",
+  "latestAction": {
+   "actionDate": "2005-01-24",
+   "text": "Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S207-208)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/18",
+  "number": "18",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/18/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000596",
+    "firstName": "MARK",
+    "fullName": "Sen. Dayton, Mark [D-MN]",
+    "isByRequest": "N",
+    "lastName": "DAYTON",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/D000596?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/109/s/18/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/18/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/18/text?format=json"
+  },
+  "title": "Meeting Our Responsibility to Medicare Beneficiaries Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/18/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-15T17:58:44Z",
+  "updateDateIncludingText": "2025-08-15T17:58:44Z"
+ },
+ "request": {
+  "billNumber": "18",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/809/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/809/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 122,
+   "countIncludingWithdrawnCosponsors": 122,
+   "url": "https://api.congress.gov/v3/bill/109/hr/809/cosponsors?format=json"
+  },
+  "introducedDate": "2005-02-15",
+  "latestAction": {
+   "actionDate": "2005-02-15",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/809",
+  "number": "809",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001046",
+    "district": 7,
+    "firstName": "ERIC",
+    "fullName": "Rep. Cantor, Eric [R-VA-7]",
+    "isByRequest": "N",
+    "lastName": "CANTOR",
+    "party": "R",
+    "state": "VA",
+    "url": "https://api.congress.gov/v3/member/C001046?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/109/hr/809/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/809/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/809/text?format=json"
+  },
+  "title": "To make permanent the individual income tax rates for capital gains and dividends.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/809/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:35:11Z"
+ },
+ "request": {
+  "billNumber": "809",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

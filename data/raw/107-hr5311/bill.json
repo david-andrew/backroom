@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5311/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5311/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 31,
+   "countIncludingWithdrawnCosponsors": 31,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5311/cosponsors?format=json"
+  },
+  "introducedDate": "2002-07-26",
+  "latestAction": {
+   "actionDate": "2002-07-29",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/5311",
+  "number": "5311",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000250",
+    "firstName": "John",
+    "fullName": "Rep. Thune, John [R-SD-At Large]",
+    "isByRequest": "N",
+    "lastName": "Thune",
+    "middleName": "R.",
+    "party": "R",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/T000250?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5311/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5311/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5311/text?format=json"
+  },
+  "title": "Prescription Drug Affordability Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5311/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:30:53Z",
+  "updateDateIncludingText": "2025-08-19T17:30:53Z"
+ },
+ "request": {
+  "billNumber": "5311",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

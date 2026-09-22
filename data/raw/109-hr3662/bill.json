@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3662/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3662/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 18,
+   "countIncludingWithdrawnCosponsors": 18,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3662/cosponsors?format=json"
+  },
+  "introducedDate": "2005-09-06",
+  "latestAction": {
+   "actionDate": "2005-09-19",
+   "text": "Referred to the Subcommittee on Commercial and Administrative Law."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/3662",
+  "number": "3662",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000480",
+    "district": 28,
+    "firstName": "LOUISE",
+    "fullName": "Rep. Slaughter, Louise McIntosh [D-NY-28]",
+    "isByRequest": "N",
+    "lastName": "SLAUGHTER",
+    "middleName": "M.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/S000480?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3662/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3662/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3662/text?format=json"
+  },
+  "title": "Financial Safeguards for Hurricane Survivors Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3662/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:57:03Z",
+  "updateDateIncludingText": "2025-08-15T17:57:03Z"
+ },
+ "request": {
+  "billNumber": "3662",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

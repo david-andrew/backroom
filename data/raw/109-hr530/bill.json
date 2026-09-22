@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/109/hr/530/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/530/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/109/hr/530/cosponsors?format=json"
+  },
+  "introducedDate": "2005-02-02",
+  "latestAction": {
+   "actionDate": "2005-07-12",
+   "text": "Sponsor introductory remarks on measure. (CR H5644)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/530",
+  "number": "530",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Social Welfare"
+  },
+  "relatedBills": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/109/hr/530/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000174",
+    "district": 3,
+    "firstName": "SAM",
+    "fullName": "Rep. Johnson, Sam [R-TX-3]",
+    "isByRequest": "N",
+    "lastName": "JOHNSON",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/J000174?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 49,
+   "url": "https://api.congress.gov/v3/bill/109/hr/530/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/530/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/530/text?format=json"
+  },
+  "title": "Individual Social Security Investment Program Act of 2005",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/530/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:57:21Z",
+  "updateDateIncludingText": "2025-08-15T17:57:21Z"
+ },
+ "request": {
+  "billNumber": "530",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

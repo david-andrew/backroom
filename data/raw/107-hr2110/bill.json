@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2110/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2110/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2110/cosponsors?format=json"
+  },
+  "introducedDate": "2001-06-07",
+  "latestAction": {
+   "actionDate": "2001-06-20",
+   "text": "Referred to the Subcommittee on Social Security."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/2110",
+  "number": "2110",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Social Welfare"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000265",
+    "district": 6,
+    "firstName": "TOM",
+    "fullName": "Rep. Petri, Thomas E. [R-WI-6]",
+    "isByRequest": "N",
+    "lastName": "PETRI",
+    "party": "R",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/P000265?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 61,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2110/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2110/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2110/text?format=json"
+  },
+  "title": "Retirement Security Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2110/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:28:08Z",
+  "updateDateIncludingText": "2025-08-19T17:28:08Z"
+ },
+ "request": {
+  "billNumber": "2110",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

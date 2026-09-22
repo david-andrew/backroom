@@ -1,0 +1,80 @@
+{
+ "bill": {
+  "actions": {
+   "count": 36,
+   "url": "https://api.congress.gov/v3/bill/109/s/397/actions?format=json"
+  },
+  "amendments": {
+   "count": 37,
+   "url": "https://api.congress.gov/v3/bill/109/s/397/amendments?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 61,
+   "countIncludingWithdrawnCosponsors": 61,
+   "url": "https://api.congress.gov/v3/bill/109/s/397/cosponsors?format=json"
+  },
+  "introducedDate": "2005-02-16",
+  "latestAction": {
+   "actionDate": "2005-10-26",
+   "text": "Became Public Law No: 109-92."
+  },
+  "laws": [
+   {
+    "number": "109-92",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/397",
+  "number": "397",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Law"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/s/397/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000858",
+    "firstName": "LARRY",
+    "fullName": "Sen. Craig, Larry E. [R-ID]",
+    "isByRequest": "N",
+    "lastName": "CRAIG",
+    "middleName": "EDWIN",
+    "party": "R",
+    "state": "ID",
+    "url": "https://api.congress.gov/v3/member/C000858?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 33,
+   "url": "https://api.congress.gov/v3/bill/109/s/397/subjects?format=json"
+  },
+  "summaries": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/s/397/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/s/397/text?format=json"
+  },
+  "title": "Protection of Lawful Commerce in Arms Act",
+  "titles": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/109/s/397/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-03-09T19:27:31Z",
+  "updateDateIncludingText": "2026-03-09T19:27:31Z"
+ },
+ "request": {
+  "billNumber": "397",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

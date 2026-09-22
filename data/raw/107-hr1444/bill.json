@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1444/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1444/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 73,
+   "countIncludingWithdrawnCosponsors": 73,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1444/cosponsors?format=json"
+  },
+  "introducedDate": "2001-04-04",
+  "latestAction": {
+   "actionDate": "2001-04-04",
+   "text": "Referred to the Committee on House Administration, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/1444",
+  "number": "1444",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000429",
+    "district": 4,
+    "firstName": "JOHN",
+    "fullName": "Rep. Doolittle, John T. [R-CA-4]",
+    "isByRequest": "N",
+    "lastName": "DOOLITTLE",
+    "middleName": "T.",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/D000429?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 35,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1444/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1444/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1444/text?format=json"
+  },
+  "title": "Citizen Legislature and Political Freedom Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1444/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-02-10T13:37:26Z",
+  "updateDateIncludingText": "2026-02-10T13:37:26Z"
+ },
+ "request": {
+  "billNumber": "1444",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

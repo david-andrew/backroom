@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4030/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4030/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 14,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4030/cosponsors?format=json"
+  },
+  "introducedDate": "2002-03-20",
+  "latestAction": {
+   "actionDate": "2002-04-02",
+   "text": "Referred to the Subcommittee on Health, for a period to be subsequently determined by the Chairman."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/4030",
+  "number": "4030",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000071",
+    "district": 4,
+    "firstName": "DAVE",
+    "fullName": "Rep. Camp, Dave [R-MI-4]",
+    "isByRequest": "N",
+    "lastName": "CAMP",
+    "party": "R",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/C000071?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4030/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4030/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4030/text?format=json"
+  },
+  "title": "Medicare and Medicaid Nursing Facility Quality Improvement Act of 2002",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/4030/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:31:54Z",
+  "updateDateIncludingText": "2025-08-19T17:31:54Z"
+ },
+ "request": {
+  "billNumber": "4030",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

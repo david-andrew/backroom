@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3449/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3449/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 14,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3449/cosponsors?format=json"
+  },
+  "introducedDate": "2005-07-27",
+  "latestAction": {
+   "actionDate": "2005-08-24",
+   "text": "Referred to the Subcommittee on Financial Institutions and Consumer Credit."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/3449",
+  "number": "3449",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000087",
+    "district": 14,
+    "firstName": "CAROLYN",
+    "fullName": "Rep. Maloney, Carolyn B. [D-NY-14]",
+    "isByRequest": "N",
+    "lastName": "MALONEY",
+    "middleName": "B.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/M000087?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3449/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3449/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3449/text?format=json"
+  },
+  "title": "Consumer Overdraft Protection Fair Practices Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/3449/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:59:39Z",
+  "updateDateIncludingText": "2025-08-15T17:59:39Z"
+ },
+ "request": {
+  "billNumber": "3449",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

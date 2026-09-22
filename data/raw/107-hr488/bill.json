@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/107/hr/488/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/488/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 153,
+   "countIncludingWithdrawnCosponsors": 153,
+   "url": "https://api.congress.gov/v3/bill/107/hr/488/cosponsors?format=json"
+  },
+  "introducedDate": "2001-02-06",
+  "latestAction": {
+   "actionDate": "2001-02-15",
+   "text": "Executive Comment Requested from USDA, Interior."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/488",
+  "number": "488",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001144",
+    "district": 4,
+    "firstName": "CHRISTOPHER",
+    "fullName": "Rep. Shays, Christopher [R-CT-4]",
+    "isByRequest": "N",
+    "lastName": "SHAYS",
+    "party": "R",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/S001144?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 92,
+   "url": "https://api.congress.gov/v3/bill/107/hr/488/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/488/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/488/text?format=json"
+  },
+  "title": "Northern Rockies Ecosystem Protection Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/488/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:32:45Z",
+  "updateDateIncludingText": "2025-08-19T17:32:45Z"
+ },
+ "request": {
+  "billNumber": "488",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

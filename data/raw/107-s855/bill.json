@@ -1,0 +1,64 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/855/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/855/committees?format=json"
+  },
+  "congress": 107,
+  "introducedDate": "2001-05-09",
+  "latestAction": {
+   "actionDate": "2001-05-09",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/855",
+  "number": "855",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000711",
+    "firstName": "BARBARA",
+    "fullName": "Sen. Boxer, Barbara [D-CA]",
+    "isByRequest": "N",
+    "lastName": "BOXER",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/B000711?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 64,
+   "url": "https://api.congress.gov/v3/bill/107/s/855/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/855/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/855/text?format=json"
+  },
+  "title": "Children's Environmental Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/855/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:13:01Z"
+ },
+ "request": {
+  "billNumber": "855",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

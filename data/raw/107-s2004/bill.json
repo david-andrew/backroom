@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/2004/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/2004/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/107/s/2004/cosponsors?format=json"
+  },
+  "introducedDate": "2002-03-08",
+  "latestAction": {
+   "actionDate": "2002-03-08",
+   "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/2004",
+  "number": "2004",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000388",
+    "firstName": "CHRISTOPHER",
+    "fullName": "Sen. Dodd, Christopher J. [D-CT]",
+    "isByRequest": "N",
+    "lastName": "DODD",
+    "middleName": "JOHN",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/D000388?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 68,
+   "url": "https://api.congress.gov/v3/bill/107/s/2004/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/2004/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/2004/text?format=json"
+  },
+  "title": "Investor Confidence in Public Accounting Act of 2002",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/2004/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-19T17:31:24Z",
+  "updateDateIncludingText": "2025-08-19T17:31:24Z"
+ },
+ "request": {
+  "billNumber": "2004",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

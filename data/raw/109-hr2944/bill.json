@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2944/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2944/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2944/cosponsors?format=json"
+  },
+  "introducedDate": "2005-06-16",
+  "latestAction": {
+   "actionDate": "2005-07-01",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/2944",
+  "number": "2944",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000324",
+    "district": 23,
+    "firstName": "ALCEE",
+    "fullName": "Rep. Hastings, Alcee L. [D-FL-23]",
+    "isByRequest": "N",
+    "lastName": "HASTINGS",
+    "middleName": "L.",
+    "party": "D",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/H000324?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 36,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2944/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2944/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2944/text?format=json"
+  },
+  "title": "Gross Overcharging Undermines Gasoline Economics Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2944/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:58:46Z",
+  "updateDateIncludingText": "2025-08-15T17:58:46Z"
+ },
+ "request": {
+  "billNumber": "2944",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

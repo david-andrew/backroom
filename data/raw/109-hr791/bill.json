@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/109/hr/791/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/791/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 102,
+   "countIncludingWithdrawnCosponsors": 102,
+   "url": "https://api.congress.gov/v3/bill/109/hr/791/cosponsors?format=json"
+  },
+  "introducedDate": "2005-02-14",
+  "latestAction": {
+   "actionDate": "2005-02-25",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/791",
+  "number": "791",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/791/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000810",
+    "district": 13,
+    "firstName": "PETE",
+    "fullName": "Rep. Stark, Fortney Pete [D-CA-13]",
+    "isByRequest": "N",
+    "lastName": "STARK",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/S000810?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 33,
+   "url": "https://api.congress.gov/v3/bill/109/hr/791/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/791/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/791/text?format=json"
+  },
+  "title": "Safe Nursing and Patient Care Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/791/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T18:00:13Z",
+  "updateDateIncludingText": "2025-08-15T18:00:13Z"
+ },
+ "request": {
+  "billNumber": "791",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

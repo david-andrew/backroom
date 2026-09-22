@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/97/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/97/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 75,
+   "countIncludingWithdrawnCosponsors": 75,
+   "url": "https://api.congress.gov/v3/bill/109/hr/97/cosponsors?format=json"
+  },
+  "introducedDate": "2005-01-04",
+  "latestAction": {
+   "actionDate": "2005-04-04",
+   "text": "Referred to the Subcommittee on Economic Opportunity."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/97",
+  "number": "97",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Armed Forces and National Security"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000546",
+    "district": 6,
+    "firstName": "SAM",
+    "fullName": "Rep. Graves, Sam [R-MO-6]",
+    "isByRequest": "N",
+    "lastName": "GRAVES",
+    "party": "R",
+    "state": "MO",
+    "url": "https://api.congress.gov/v3/member/G000546?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/109/hr/97/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/97/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/97/text?format=json"
+  },
+  "title": "Servicemembers Anti-Predatory Lending Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/97/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T18:00:44Z",
+  "updateDateIncludingText": "2025-08-15T18:00:44Z"
+ },
+ "request": {
+  "billNumber": "97",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

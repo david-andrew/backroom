@@ -1,0 +1,66 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2200/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2200/committees?format=json"
+  },
+  "congress": 109,
+  "introducedDate": "2005-05-05",
+  "latestAction": {
+   "actionDate": "2005-05-23",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/2200",
+  "number": "2200",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000576",
+    "district": 2,
+    "firstName": "C. A.",
+    "fullName": "Rep. Ruppersberger, C. A. Dutch [D-MD-2]",
+    "isByRequest": "N",
+    "lastName": "Ruppersberger",
+    "middleName": "Dutch",
+    "party": "D",
+    "state": "MD",
+    "url": "https://api.congress.gov/v3/member/R000576?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2200/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2200/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2200/text?format=json"
+  },
+  "title": "Prescription Drug Price Fairness Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/2200/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T18:00:58Z",
+  "updateDateIncludingText": "2025-08-15T18:00:58Z"
+ },
+ "request": {
+  "billNumber": "2200",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

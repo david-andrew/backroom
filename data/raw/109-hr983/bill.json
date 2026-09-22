@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/983/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/983/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 36,
+   "countIncludingWithdrawnCosponsors": 36,
+   "url": "https://api.congress.gov/v3/bill/109/hr/983/cosponsors?format=json"
+  },
+  "introducedDate": "2005-02-17",
+  "latestAction": {
+   "actionDate": "2005-03-22",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/983",
+  "number": "983",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "U000039",
+    "district": 3,
+    "firstName": "TOM",
+    "fullName": "Rep. Udall, Tom [D-NM-3]",
+    "isByRequest": "N",
+    "lastName": "UDALL",
+    "party": "D",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/U000039?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 65,
+   "url": "https://api.congress.gov/v3/bill/109/hr/983/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/983/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/983/text?format=json"
+  },
+  "title": "To amend title VI of the Public Utility Regulatory Policies Act of 1978 to establish a Federal renewable energy portfolio standard for certain retail electric utilities, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/983/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-15T18:51:50Z",
+  "updateDateIncludingText": "2025-01-15T18:51:50Z"
+ },
+ "request": {
+  "billNumber": "983",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

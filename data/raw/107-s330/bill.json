@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/330/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/330/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/330/cosponsors?format=json"
+  },
+  "introducedDate": "2001-02-14",
+  "latestAction": {
+   "actionDate": "2001-02-14",
+   "text": "Read twice and referred to the Committee on the Judiciary. (text of measure as introduced:  CR S1404-1406)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/330",
+  "number": "330",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000317",
+    "firstName": "ROBERT",
+    "fullName": "Sen. Torricelli, Robert G. [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "TORRICELLI",
+    "middleName": "G.",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/T000317?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 41,
+   "url": "https://api.congress.gov/v3/bill/107/s/330/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/330/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/330/text?format=json"
+  },
+  "title": "Firearms Safety and Consumer Protection Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/330/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:52:40Z"
+ },
+ "request": {
+  "billNumber": "330",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

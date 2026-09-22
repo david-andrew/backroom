@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5500/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5500/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5500/cosponsors?format=json"
+  },
+  "introducedDate": "2006-05-25",
+  "latestAction": {
+   "actionDate": "2006-06-05",
+   "text": "Referred to the Subcommittee on Commerce, Trade and Consumer Protection, for a period to be subsequently determined by the Chairman ."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/5500",
+  "number": "5500",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000361",
+    "district": 8,
+    "firstName": "RIC",
+    "fullName": "Rep. Keller, Ric [R-FL-8]",
+    "isByRequest": "N",
+    "lastName": "KELLER",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/K000361?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5500/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5500/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5500/text?format=json"
+  },
+  "title": "Innocent Sellers Fairness Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5500/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:58:45Z",
+  "updateDateIncludingText": "2025-08-15T17:58:45Z"
+ },
+ "request": {
+  "billNumber": "5500",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

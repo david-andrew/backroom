@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4341/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4341/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 191,
+   "countIncludingWithdrawnCosponsors": 192,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4341/cosponsors?format=json"
+  },
+  "introducedDate": "2005-11-16",
+  "latestAction": {
+   "actionDate": "2005-12-08",
+   "text": "Sponsor introductory remarks on measure. (CR E2211)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/4341",
+  "number": "4341",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000067",
+    "district": 4,
+    "firstName": "RALPH",
+    "fullName": "Rep. Hall, Ralph M. [R-TX-4]",
+    "isByRequest": "N",
+    "lastName": "HALL",
+    "middleName": "M.",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/H000067?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4341/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4341/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4341/text?format=json"
+  },
+  "title": "To amend the Comprehensive Environmental Response Compensation and Liability Act of 1980 (\"Superfund\") to provide that manure is not considered a hazardous substance or pollutant or contaminant under that Act, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/4341/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T13:32:23Z",
+  "updateDateIncludingText": "2025-04-07T13:32:23Z"
+ },
+ "request": {
+  "billNumber": "4341",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

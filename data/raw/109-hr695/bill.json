@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/695/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/695/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/695/cosponsors?format=json"
+  },
+  "introducedDate": "2005-02-09",
+  "latestAction": {
+   "actionDate": "2005-02-09",
+   "text": "Referred to the House Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/695",
+  "number": "695",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/695/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000714",
+    "district": 14,
+    "firstName": "JOHN",
+    "fullName": "Rep. Conyers, John, Jr. [D-MI-14]",
+    "isByRequest": "N",
+    "lastName": "CONYERS",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/C000714?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/109/hr/695/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/695/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/695/text?format=json"
+  },
+  "title": "NOPEC",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/695/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T14:16:27Z",
+  "updateDateIncludingText": "2025-12-05T14:16:27Z"
+ },
+ "request": {
+  "billNumber": "695",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

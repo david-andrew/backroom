@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/6401/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/6401/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/6401/cosponsors?format=json"
+  },
+  "introducedDate": "2006-12-06",
+  "latestAction": {
+   "actionDate": "2006-12-14",
+   "text": "Referred to the Subcommittee on Energy and Mineral Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/6401",
+  "number": "6401",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001161",
+    "district": 3,
+    "firstName": "Charlie",
+    "fullName": "Rep. Melancon, Charlie [D-LA-3]",
+    "isByRequest": "N",
+    "lastName": "Melancon",
+    "party": "D",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/M001161?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 29,
+   "url": "https://api.congress.gov/v3/bill/109/hr/6401/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/6401/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/6401/text?format=json"
+  },
+  "title": "To promote the fair production of oil and gas on the Outer Continental Shelf.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/6401/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T13:32:55Z",
+  "updateDateIncludingText": "2024-02-07T13:34:40Z"
+ },
+ "request": {
+  "billNumber": "6401",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/s/2724/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/2724/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/109/s/2724/cosponsors?format=json"
+  },
+  "introducedDate": "2006-05-04",
+  "latestAction": {
+   "actionDate": "2006-05-04",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/2724",
+  "number": "2724",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000174",
+    "firstName": "Thomas",
+    "fullName": "Sen. Carper, Thomas R. [D-DE]",
+    "isByRequest": "N",
+    "lastName": "Carper",
+    "middleName": "R.",
+    "party": "D",
+    "state": "DE",
+    "url": "https://api.congress.gov/v3/member/C000174?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/109/s/2724/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/2724/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/2724/text?format=json"
+  },
+  "title": "Clean Air Planning Act of 2006",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/2724/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:12:57Z"
+ },
+ "request": {
+  "billNumber": "2724",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

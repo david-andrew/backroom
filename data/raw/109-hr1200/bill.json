@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1200/actions?format=json"
+  },
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1200/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 62,
+   "countIncludingWithdrawnCosponsors": 62,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1200/cosponsors?format=json"
+  },
+  "introducedDate": "2005-03-09",
+  "latestAction": {
+   "actionDate": "2005-04-06",
+   "text": "Referred to the Subcommittee on Military Personnel."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/1200",
+  "number": "1200",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000404",
+    "district": 7,
+    "firstName": "JIM",
+    "fullName": "Rep. McDermott, Jim [D-WA-7]",
+    "isByRequest": "N",
+    "lastName": "MCDERMOTT",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/M000404?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 189,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1200/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1200/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1200/text?format=json"
+  },
+  "title": "American Health Security Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1200/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:59:00Z",
+  "updateDateIncludingText": "2025-08-15T17:59:00Z"
+ },
+ "request": {
+  "billNumber": "1200",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

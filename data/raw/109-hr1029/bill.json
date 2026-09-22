@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1029/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1029/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 85,
+   "countIncludingWithdrawnCosponsors": 85,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1029/cosponsors?format=json"
+  },
+  "introducedDate": "2005-03-01",
+  "latestAction": {
+   "actionDate": "2005-03-24",
+   "text": "Referred to the Subcommittee on 21st Century Competitiveness."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/1029",
+  "number": "1029",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Education"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000793",
+    "district": 1,
+    "firstName": "DAVID",
+    "fullName": "Rep. Wu, David [D-OR-1]",
+    "isByRequest": "N",
+    "lastName": "WU",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/W000793?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1029/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1029/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1029/text?format=json"
+  },
+  "title": "Student Loan Fairness Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1029/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:44:53Z",
+  "updateDateIncludingText": "2026-03-23T12:44:53Z"
+ },
+ "request": {
+  "billNumber": "1029",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

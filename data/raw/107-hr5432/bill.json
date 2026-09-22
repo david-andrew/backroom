@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5432/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5432/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5432/cosponsors?format=json"
+  },
+  "introducedDate": "2002-09-24",
+  "latestAction": {
+   "actionDate": "2002-09-24",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/5432",
+  "number": "5432",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000249",
+    "district": 5,
+    "firstName": "ROBERT",
+    "fullName": "Rep. Matsui, Robert T. [D-CA-5]",
+    "isByRequest": "N",
+    "lastName": "MATSUI",
+    "middleName": "T.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/M000249?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5432/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5432/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5432/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to require the same holding period for company stock acquired upon exercise of options as is applicable to company stock in its 401(k) plan, to require disclosure to shareholders of the amount of corporate perks provided to retired executives, and to provide parity for secured retirement benefits between the rank and file and executives.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5432/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:53:18Z",
+  "updateDateIncludingText": "2025-01-02T16:53:18Z"
+ },
+ "request": {
+  "billNumber": "5432",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

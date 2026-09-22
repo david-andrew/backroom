@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/107/hr/3807/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/3807/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/107/hr/3807/cosponsors?format=json"
+  },
+  "introducedDate": "2002-02-27",
+  "latestAction": {
+   "actionDate": "2002-04-15",
+   "text": "Referred to the Subcommittee on Financial Institutions and Consumer Credit."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/3807",
+  "number": "3807",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000284",
+    "district": 11,
+    "firstName": "STEPHANIE",
+    "fullName": "Rep. Jones, Stephanie Tubbs [D-OH-11]",
+    "isByRequest": "N",
+    "lastName": "JONES",
+    "middleName": "TUBBS",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/J000284?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 45,
+   "url": "https://api.congress.gov/v3/bill/107/hr/3807/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/3807/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/3807/text?format=json"
+  },
+  "title": "Predatory Mortgage Lending Practices Reduction Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/107/hr/3807/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:29:53Z",
+  "updateDateIncludingText": "2025-08-19T17:29:53Z"
+ },
+ "request": {
+  "billNumber": "3807",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

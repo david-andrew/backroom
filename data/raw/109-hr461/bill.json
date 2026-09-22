@@ -1,0 +1,79 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/461/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/461/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/109/hr/461/cosponsors?format=json"
+  },
+  "introducedDate": "2005-02-01",
+  "latestAction": {
+   "actionDate": "2005-02-01",
+   "text": "Referred to the House Committee on Financial Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/461",
+  "notes": [
+   {
+    "text": "For further action, see S.418, which became Public Law 109-290 on 9/29/2006."
+   }
+  ],
+  "number": "461",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/109/hr/461/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000287",
+    "district": 5,
+    "firstName": "Rahm",
+    "fullName": "Rep. Emanuel, Rahm [D-IL-5]",
+    "isByRequest": "N",
+    "lastName": "Emanuel",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/E000287?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 60,
+   "url": "https://api.congress.gov/v3/bill/109/hr/461/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/461/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/461/text?format=json"
+  },
+  "title": "Military Personnel Financial Services Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/461/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T19:32:15Z",
+  "updateDateIncludingText": "2025-12-05T19:32:15Z"
+ },
+ "request": {
+  "billNumber": "461",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

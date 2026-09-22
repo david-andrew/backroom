@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2274/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2274/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 35,
+   "countIncludingWithdrawnCosponsors": 35,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2274/cosponsors?format=json"
+  },
+  "introducedDate": "2001-06-21",
+  "latestAction": {
+   "actionDate": "2001-07-06",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/2274",
+  "number": "2274",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000215",
+    "district": 14,
+    "firstName": "ANNA",
+    "fullName": "Rep. Eshoo, Anna G. [D-CA-14]",
+    "isByRequest": "N",
+    "lastName": "ESHOO",
+    "middleName": "G.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/E000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2274/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2274/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2274/text?format=json"
+  },
+  "title": "Electricity Gouging Relief Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2274/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:29:42Z",
+  "updateDateIncludingText": "2025-08-19T17:29:42Z"
+ },
+ "request": {
+  "billNumber": "2274",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

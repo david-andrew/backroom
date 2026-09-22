@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/908/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/908/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/107/s/908/cosponsors?format=json"
+  },
+  "introducedDate": "2001-05-17",
+  "latestAction": {
+   "actionDate": "2001-05-17",
+   "text": "Read twice and referred to the Committee on Governmental Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/908",
+  "number": "908",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Congress"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000953",
+    "firstName": "SAM",
+    "fullName": "Sen. Brownback, Sam [R-KS]",
+    "isByRequest": "N",
+    "lastName": "BROWNBACK",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/B000953?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/107/s/908/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/908/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/908/text?format=json"
+  },
+  "title": "Congressional Responsibility Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/908/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-19T17:31:16Z",
+  "updateDateIncludingText": "2025-08-19T17:31:16Z"
+ },
+ "request": {
+  "billNumber": "908",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

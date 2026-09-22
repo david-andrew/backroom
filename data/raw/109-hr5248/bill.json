@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5248/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5248/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 34,
+   "countIncludingWithdrawnCosponsors": 34,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5248/cosponsors?format=json"
+  },
+  "introducedDate": "2006-04-27",
+  "latestAction": {
+   "actionDate": "2006-05-10",
+   "text": "Sponsor introductory remarks on measure. (CR H2343)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/5248",
+  "number": "5248",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001045",
+    "district": 1,
+    "firstName": "BART",
+    "fullName": "Rep. Stupak, Bart [D-MI-1]",
+    "isByRequest": "N",
+    "lastName": "STUPAK",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/S001045?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 34,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5248/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5248/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5248/text?format=json"
+  },
+  "title": "Prevent Unfair Manipulation of Prices Act of 2006",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/5248/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T17:57:09Z",
+  "updateDateIncludingText": "2025-08-15T17:57:09Z"
+ },
+ "request": {
+  "billNumber": "5248",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

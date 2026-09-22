@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/1735/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1735/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 31,
+   "countIncludingWithdrawnCosponsors": 31,
+   "url": "https://api.congress.gov/v3/bill/109/s/1735/cosponsors?format=json"
+  },
+  "introducedDate": "2005-09-20",
+  "latestAction": {
+   "actionDate": "2005-09-20",
+   "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/1735",
+  "number": "1735",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000127",
+    "firstName": "Maria",
+    "fullName": "Sen. Cantwell, Maria [D-WA]",
+    "isByRequest": "N",
+    "lastName": "Cantwell",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/C000127?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 50,
+   "url": "https://api.congress.gov/v3/bill/109/s/1735/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1735/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1735/text?format=json"
+  },
+  "title": "Energy Emergency Consumer Protection Act of 2005",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/s/1735/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:04:15Z"
+ },
+ "request": {
+  "billNumber": "1735",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/33/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/33/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/109/s/33/cosponsors?format=json"
+  },
+  "introducedDate": "2005-01-24",
+  "latestAction": {
+   "actionDate": "2005-01-24",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources. (text of measure as introduced: CR S225)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/33",
+  "number": "33",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/33/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000127",
+    "firstName": "Maria",
+    "fullName": "Sen. Cantwell, Maria [D-WA]",
+    "isByRequest": "N",
+    "lastName": "Cantwell",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/C000127?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/109/s/33/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/33/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/33/text?format=json"
+  },
+  "title": "Electricity Needs Rules and Oversight Now (ENRON) Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/33/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:10:46Z"
+ },
+ "request": {
+  "billNumber": "33",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/109/s/1525/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1525/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/109/s/1525/cosponsors?format=json"
+  },
+  "introducedDate": "2005-07-28",
+  "latestAction": {
+   "actionDate": "2006-06-20",
+   "text": "Committee on the Judiciary. Hearings held. Hearings printed: S.Hrg. 109-557."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/senate-bill/1525",
+  "number": "1525",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000174",
+    "firstName": "Patrick",
+    "fullName": "Sen. Leahy, Patrick J. [D-VT]",
+    "isByRequest": "N",
+    "lastName": "Leahy",
+    "party": "D",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/L000174?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/109/s/1525/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1525/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/s/1525/text?format=json"
+  },
+  "title": "Medical Malpractice Insurance Antitrust Act of 2005",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/s/1525/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "1525",
+  "billType": "s",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

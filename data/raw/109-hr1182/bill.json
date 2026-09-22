@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1182/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1182/committees?format=json"
+  },
+  "congress": 109,
+  "cosponsors": {
+   "count": 67,
+   "countIncludingWithdrawnCosponsors": 67,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1182/cosponsors?format=json"
+  },
+  "introducedDate": "2005-03-09",
+  "latestAction": {
+   "actionDate": "2005-05-13",
+   "text": "Referred to the Subcommittee on Housing and Community Opportunity."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/109th-congress/house-bill/1182",
+  "number": "1182",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001154",
+    "district": 13,
+    "firstName": "Brad",
+    "fullName": "Rep. Miller, Brad [D-NC-13]",
+    "isByRequest": "N",
+    "lastName": "Miller",
+    "party": "D",
+    "state": "NC",
+    "url": "https://api.congress.gov/v3/member/M001154?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 31,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1182/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1182/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1182/text?format=json"
+  },
+  "title": "Prohibit Predatory Lending Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/109/hr/1182/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-15T18:00:53Z",
+  "updateDateIncludingText": "2025-08-15T18:00:53Z"
+ },
+ "request": {
+  "billNumber": "1182",
+  "billType": "hr",
+  "congress": "109",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

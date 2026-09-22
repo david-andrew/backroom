@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/107/hr/105/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/105/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/107/hr/105/cosponsors?format=json"
+  },
+  "introducedDate": "2001-01-03",
+  "latestAction": {
+   "actionDate": "2001-02-12",
+   "text": "Referred to the Subcommittee on Commercial and Administrative Law."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/105",
+  "number": "105",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Congress"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/105/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000413",
+    "district": 6,
+    "firstName": "J.",
+    "fullName": "Rep. Hayworth, J. D. [R-AZ-6]",
+    "isByRequest": "N",
+    "lastName": "HAYWORTH",
+    "middleName": "D.",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/H000413?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/107/hr/105/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/105/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/105/text?format=json"
+  },
+  "title": "Congressional Responsibility Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/105/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:32:28Z",
+  "updateDateIncludingText": "2025-08-19T17:32:28Z"
+ },
+ "request": {
+  "billNumber": "105",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

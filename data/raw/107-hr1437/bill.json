@@ -1,0 +1,85 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1437/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1437/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1437/cosponsors?format=json"
+  },
+  "introducedDate": "2001-04-04",
+  "latestAction": {
+   "actionDate": "2001-08-13",
+   "text": "See H.R.1836."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/1437",
+  "notes": [
+   {
+    "links": [
+     {
+      "name": "H.R. 1836",
+      "url": "https://www.congress.gov/bill/107th-congress/house-bill/1836"
+     }
+    ],
+    "text": "For further action, see H.R. 1836, which became Public Law 107-16 on 6/7/2001."
+   }
+  ],
+  "number": "1437",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1437/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000640",
+    "district": 3,
+    "firstName": "MAC",
+    "fullName": "Rep. Collins, Mac [R-GA-3]",
+    "isByRequest": "N",
+    "lastName": "COLLINS",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/C000640?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1437/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1437/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1437/text?format=json"
+  },
+  "title": "Estate Tax Relief Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1437/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:29:29Z",
+  "updateDateIncludingText": "2025-08-19T17:29:29Z"
+ },
+ "request": {
+  "billNumber": "1437",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
