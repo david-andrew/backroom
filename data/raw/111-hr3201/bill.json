@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3201/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3201/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3201/cosponsors?format=json"
+  },
+  "introducedDate": "2009-07-14",
+  "latestAction": {
+   "actionDate": "2009-07-17",
+   "text": "Referred to the Subcommittee on Energy and Mineral Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/3201",
+  "number": "3201",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000564",
+    "district": 5,
+    "firstName": "Doug",
+    "fullName": "Rep. Lamborn, Doug [R-CO-5]",
+    "isByRequest": "N",
+    "lastName": "Lamborn",
+    "party": "R",
+    "state": "CO",
+    "url": "https://api.congress.gov/v3/member/L000564?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3201/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3201/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3201/text?format=json"
+  },
+  "title": "Locatable Mineral Royalty and Reclamation Act of 2009",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3201/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:16:15Z",
+  "updateDateIncludingText": "2025-08-14T16:16:15Z"
+ },
+ "request": {
+  "billNumber": "3201",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

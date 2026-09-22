@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5634/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5634/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5634/cosponsors?format=json"
+  },
+  "introducedDate": "2010-06-29",
+  "latestAction": {
+   "actionDate": "2010-07-02",
+   "text": "Referred to the Subcommittee on Energy and Mineral Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5634",
+  "number": "5634",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "I000026",
+    "district": 1,
+    "firstName": "JAY",
+    "fullName": "Rep. Inslee, Jay [D-WA-1]",
+    "isByRequest": "N",
+    "lastName": "INSLEE",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/I000026?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5634/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5634/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5634/text?format=json"
+  },
+  "title": "Offshore Drilling Safety Improvement Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5634/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:17:21Z",
+  "updateDateIncludingText": "2025-08-14T16:17:21Z"
+ },
+ "request": {
+  "billNumber": "5634",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

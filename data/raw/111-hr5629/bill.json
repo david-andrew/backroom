@@ -1,0 +1,77 @@
+{
+ "bill": {
+  "actions": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5629/actions?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "H. Rept. 111-567",
+    "url": "https://api.congress.gov/v3/committee-report/111/HRPT/567?format=json"
+   }
+  ],
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5629/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5629/cosponsors?format=json"
+  },
+  "introducedDate": "2010-06-29",
+  "latestAction": {
+   "actionDate": "2010-07-27",
+   "text": "Placed on the Union Calendar, Calendar No. 326."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5629",
+  "number": "5629",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000006",
+    "district": 8,
+    "firstName": "JAMES",
+    "fullName": "Rep. Oberstar, James L. [D-MN-8]",
+    "isByRequest": "N",
+    "lastName": "OBERSTAR",
+    "middleName": "L.",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/O000006?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 26,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5629/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5629/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5629/text?format=json"
+  },
+  "title": "Oil Spill Accountability and Environmental Protection Act of 2010",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5629/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T15:36:28Z",
+  "updateDateIncludingText": "2025-04-07T15:36:28Z"
+ },
+ "request": {
+  "billNumber": "5629",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

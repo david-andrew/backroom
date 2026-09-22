@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/3164/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3164/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/111/s/3164/cosponsors?format=json"
+  },
+  "introducedDate": "2010-03-25",
+  "latestAction": {
+   "actionDate": "2010-03-25",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/3164",
+  "number": "3164",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/3164/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000123",
+    "firstName": "FRANK",
+    "fullName": "Sen. Lautenberg, Frank R. [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "LAUTENBERG",
+    "middleName": "R.",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/L000123?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/s/3164/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3164/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3164/text?format=json"
+  },
+  "title": "Polluter Pays Restoration Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/3164/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T14:56:59Z",
+  "updateDateIncludingText": "2025-12-05T14:56:59Z"
+ },
+ "request": {
+  "billNumber": "3164",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

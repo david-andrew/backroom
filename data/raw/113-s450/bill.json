@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/450/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/450/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/113/s/450/cosponsors?format=json"
+  },
+  "introducedDate": "2013-03-05",
+  "latestAction": {
+   "actionDate": "2013-03-05",
+   "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/450",
+  "number": "450",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000320",
+    "firstName": "Richard",
+    "fullName": "Sen. Shelby, Richard C. [R-AL]",
+    "isByRequest": "N",
+    "lastName": "Shelby",
+    "middleName": "C.",
+    "party": "R",
+    "state": "AL",
+    "url": "https://api.congress.gov/v3/member/S000320?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/113/s/450/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/450/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/450/text?format=json"
+  },
+  "title": "Financial Regulatory Responsibility Act of 2013",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/450/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-12T18:37:25Z",
+  "updateDateIncludingText": "2025-08-12T18:37:25Z"
+ },
+ "request": {
+  "billNumber": "450",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

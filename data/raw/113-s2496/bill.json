@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/2496/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/2496/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 38,
+   "countIncludingWithdrawnCosponsors": 38,
+   "url": "https://api.congress.gov/v3/bill/113/s/2496/cosponsors?format=json"
+  },
+  "introducedDate": "2014-06-19",
+  "latestAction": {
+   "actionDate": "2014-07-09",
+   "text": "Sponsor introductory remarks on measure. (CR S4294-4296)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/2496",
+  "number": "2496",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/2496/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001261",
+    "firstName": "John",
+    "fullName": "Sen. Barrasso, John [R-WY]",
+    "isByRequest": "N",
+    "lastName": "Barrasso",
+    "party": "R",
+    "state": "WY",
+    "url": "https://api.congress.gov/v3/member/B001261?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/113/s/2496/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/2496/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/2496/text?format=json"
+  },
+  "title": "Protecting Water and Property Rights Act of 2014",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/2496/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:12:22Z"
+ },
+ "request": {
+  "billNumber": "2496",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

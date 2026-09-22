@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2292/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2292/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2292/cosponsors?format=json"
+  },
+  "introducedDate": "2009-05-06",
+  "latestAction": {
+   "actionDate": "2009-06-04",
+   "text": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/2292",
+  "number": "2292",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000460",
+    "district": 1,
+    "firstName": "MIKE",
+    "fullName": "Rep. Thompson, Mike [D-CA-1]",
+    "isByRequest": "N",
+    "lastName": "THOMPSON",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/T000460?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2292/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2292/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2292/text?format=json"
+  },
+  "title": "Healthy Kids for Healthy Futures Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2292/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "2292",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

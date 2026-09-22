@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/3601/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3601/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/3601/cosponsors?format=json"
+  },
+  "introducedDate": "2010-07-15",
+  "latestAction": {
+   "actionDate": "2010-07-15",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/3601",
+  "number": "3601",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/3601/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001176",
+    "firstName": "Jeff",
+    "fullName": "Sen. Merkley, Jeff [D-OR]",
+    "isByRequest": "N",
+    "lastName": "Merkley",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/M001176?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 43,
+   "url": "https://api.congress.gov/v3/bill/111/s/3601/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3601/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3601/text?format=json"
+  },
+  "title": "Oil Independence for a Stronger America Act of 2010",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/3601/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T16:19:59Z",
+  "updateDateIncludingText": "2025-08-14T16:19:59Z"
+ },
+ "request": {
+  "billNumber": "3601",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

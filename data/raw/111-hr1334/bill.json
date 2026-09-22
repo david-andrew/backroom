@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1334/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1334/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1334/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-05",
+  "latestAction": {
+   "actionDate": "2009-03-05",
+   "text": "Referred to House Education and Labor"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1334",
+  "number": "1334",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000535",
+    "district": 4,
+    "firstName": "LUIS",
+    "fullName": "Rep. Gutierrez, Luis V. [D-IL-4]",
+    "isByRequest": "N",
+    "lastName": "GUTIERREZ",
+    "middleName": "V.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/G000535?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1334/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1334/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1334/text?format=json"
+  },
+  "title": "Federal Living Wage Responsibility Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1334/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:30Z",
+  "updateDateIncludingText": "2025-08-14T16:15:30Z"
+ },
+ "request": {
+  "billNumber": "1334",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

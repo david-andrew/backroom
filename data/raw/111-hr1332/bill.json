@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1332/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1332/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1332/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-05",
+  "latestAction": {
+   "actionDate": "2009-04-23",
+   "text": "Executive Comment Requested from HHS, USDA."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1332",
+  "number": "1332",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1332/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001059",
+    "district": 20,
+    "firstName": "Jim",
+    "fullName": "Rep. Costa, Jim [D-CA-20]",
+    "isByRequest": "N",
+    "lastName": "Costa",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/C001059?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1332/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1332/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1332/text?format=json"
+  },
+  "title": "Safe FEAST Act of 2009",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1332/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:22Z",
+  "updateDateIncludingText": "2025-08-14T16:15:22Z"
+ },
+ "request": {
+  "billNumber": "1332",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

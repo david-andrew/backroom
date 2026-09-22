@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1846/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1846/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1846/cosponsors?format=json"
+  },
+  "introducedDate": "2009-04-01",
+  "latestAction": {
+   "actionDate": "2009-04-01",
+   "text": "Referred to the House Committee on Financial Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1846",
+  "number": "1846",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001234",
+    "district": 43,
+    "firstName": "JOE",
+    "fullName": "Rep. Baca, Joe [D-CA-43]",
+    "isByRequest": "N",
+    "lastName": "BACA",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/B001234?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1846/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1846/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1846/text?format=json"
+  },
+  "title": "C.L.E.A.R. Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1846/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:37Z",
+  "updateDateIncludingText": "2025-08-14T16:15:37Z"
+ },
+ "request": {
+  "billNumber": "1846",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

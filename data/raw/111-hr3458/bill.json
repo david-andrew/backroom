@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3458/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3458/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 27,
+   "countIncludingWithdrawnCosponsors": 27,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3458/cosponsors?format=json"
+  },
+  "introducedDate": "2009-07-31",
+  "latestAction": {
+   "actionDate": "2009-09-08",
+   "text": "Referred to the Subcommittee on Commerce, Trade and Consumer Protection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/3458",
+  "number": "3458",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000133",
+    "district": 7,
+    "firstName": "Edward",
+    "fullName": "Rep. Markey, Edward J. [D-MA-7]",
+    "isByRequest": "N",
+    "lastName": "Markey",
+    "middleName": "J.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/M000133?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3458/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3458/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3458/text?format=json"
+  },
+  "title": "Internet Freedom Preservation Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3458/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:16:22Z",
+  "updateDateIncludingText": "2025-08-14T16:16:22Z"
+ },
+ "request": {
+  "billNumber": "3458",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

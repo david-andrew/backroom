@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4572/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4572/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 17,
+   "countIncludingWithdrawnCosponsors": 17,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4572/cosponsors?format=json"
+  },
+  "introducedDate": "2010-02-02",
+  "latestAction": {
+   "actionDate": "2010-02-03",
+   "text": "Referred to the Subcommittee on Energy and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/4572",
+  "number": "4572",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4572/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000465",
+    "district": 4,
+    "firstName": "IKE",
+    "fullName": "Rep. Skelton, Ike [D-MO-4]",
+    "isByRequest": "N",
+    "lastName": "SKELTON",
+    "party": "D",
+    "state": "MO",
+    "url": "https://api.congress.gov/v3/member/S000465?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4572/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4572/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4572/text?format=json"
+  },
+  "title": "To amend the Clean Air Act relating to greenhouse gases, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4572/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-15T18:51:50Z",
+  "updateDateIncludingText": "2025-01-15T18:51:50Z"
+ },
+ "request": {
+  "billNumber": "4572",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

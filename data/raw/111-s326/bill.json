@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/326/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/326/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 19,
+   "countIncludingWithdrawnCosponsors": 19,
+   "url": "https://api.congress.gov/v3/bill/111/s/326/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-26",
+  "latestAction": {
+   "actionDate": "2009-01-26",
+   "text": "Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S838-843)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/326",
+  "number": "326",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/326/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000355",
+    "firstName": "Mitch",
+    "fullName": "Sen. McConnell, Mitch [R-KY]",
+    "isByRequest": "N",
+    "lastName": "McConnell",
+    "party": "R",
+    "state": "KY",
+    "url": "https://api.congress.gov/v3/member/M000355?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/s/326/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/326/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/326/text?format=json"
+  },
+  "title": "Kids First Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/326/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T16:51:30Z",
+  "updateDateIncludingText": "2025-12-05T16:51:30Z"
+ },
+ "request": {
+  "billNumber": "326",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5808/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5808/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 129,
+   "countIncludingWithdrawnCosponsors": 129,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5808/cosponsors?format=json"
+  },
+  "introducedDate": "2010-07-21",
+  "latestAction": {
+   "actionDate": "2010-07-21",
+   "text": "Referred to the House Committee on Energy and Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5808",
+  "number": "5808",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000738",
+    "district": 6,
+    "firstName": "LYNN",
+    "fullName": "Rep. Woolsey, Lynn C. [D-CA-6]",
+    "isByRequest": "N",
+    "lastName": "WOOLSEY",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/W000738?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5808/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5808/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5808/text?format=json"
+  },
+  "title": "To amend the Patient Protection and Affordable Care Act to establish a public health insurance option.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5808/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:32:05Z",
+  "updateDateIncludingText": "2025-01-02T16:32:05Z"
+ },
+ "request": {
+  "billNumber": "5808",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

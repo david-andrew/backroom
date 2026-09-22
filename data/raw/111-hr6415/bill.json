@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6415/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6415/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 26,
+   "countIncludingWithdrawnCosponsors": 26,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6415/cosponsors?format=json"
+  },
+  "introducedDate": "2010-11-17",
+  "latestAction": {
+   "actionDate": "2010-11-17",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/6415",
+  "number": "6415",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6415/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000587",
+    "district": 6,
+    "firstName": "MIKE",
+    "fullName": "Rep. Pence, Mike [R-IN-6]",
+    "isByRequest": "N",
+    "lastName": "PENCE",
+    "party": "R",
+    "state": "IN",
+    "url": "https://api.congress.gov/v3/member/P000587?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6415/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6415/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6415/text?format=json"
+  },
+  "title": "Tax Relief Certainty Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6415/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T15:19:38Z",
+  "updateDateIncludingText": "2025-12-05T15:19:38Z"
+ },
+ "request": {
+  "billNumber": "6415",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

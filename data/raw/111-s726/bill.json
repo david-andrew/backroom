@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/726/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/726/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/111/s/726/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-26",
+  "latestAction": {
+   "actionDate": "2009-03-26",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/726",
+  "number": "726",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/726/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000148",
+    "firstName": "Charles",
+    "fullName": "Sen. Schumer, Charles E. [D-NY]",
+    "isByRequest": "N",
+    "lastName": "Schumer",
+    "middleName": "E.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/S000148?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/111/s/726/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/726/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/726/text?format=json"
+  },
+  "title": "Promoting Innovation and Access to Life-Saving Medicine Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/726/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T20:15:29Z",
+  "updateDateIncludingText": "2025-12-05T20:15:29Z"
+ },
+ "request": {
+  "billNumber": "726",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

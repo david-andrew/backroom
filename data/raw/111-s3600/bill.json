@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/3600/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3600/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/3600/cosponsors?format=json"
+  },
+  "introducedDate": "2010-07-15",
+  "latestAction": {
+   "actionDate": "2010-07-15",
+   "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/3600",
+  "number": "3600",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/3600/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000361",
+    "firstName": "JAY",
+    "fullName": "Sen. Rockefeller, John D., IV [D-WV]",
+    "isByRequest": "N",
+    "lastName": "ROCKEFELLER",
+    "party": "D",
+    "state": "WV",
+    "url": "https://api.congress.gov/v3/member/R000361?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/111/s/3600/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3600/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3600/text?format=json"
+  },
+  "title": "Fairness in Admiralty and Maritime Law Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/3600/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:04:51Z"
+ },
+ "request": {
+  "billNumber": "3600",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/205/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/205/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 94,
+   "countIncludingWithdrawnCosponsors": 94,
+   "url": "https://api.congress.gov/v3/bill/111/hr/205/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-06",
+  "latestAction": {
+   "actionDate": "2009-01-06",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/205",
+  "number": "205",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/205/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000238",
+    "district": 13,
+    "firstName": "WILLIAM",
+    "fullName": "Rep. Thornberry, Mac [R-TX-13]",
+    "isByRequest": "N",
+    "lastName": "THORNBERRY",
+    "middleName": "M.",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/T000238?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/205/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/205/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/205/text?format=json"
+  },
+  "title": "Death Tax Repeal Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/205/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:00Z",
+  "updateDateIncludingText": "2025-08-14T16:15:00Z"
+ },
+ "request": {
+  "billNumber": "205",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

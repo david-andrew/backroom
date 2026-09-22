@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1862/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1862/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1862/cosponsors?format=json"
+  },
+  "introducedDate": "2009-04-01",
+  "latestAction": {
+   "actionDate": "2009-04-02",
+   "text": "Referred to the Subcommittee on Energy and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1862",
+  "number": "1862",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000128",
+    "district": 8,
+    "firstName": "Chris",
+    "fullName": "Rep. Van Hollen, Chris [D-MD-8]",
+    "isByRequest": "N",
+    "lastName": "Van Hollen",
+    "party": "D",
+    "state": "MD",
+    "url": "https://api.congress.gov/v3/member/V000128?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1862/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1862/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1862/text?format=json"
+  },
+  "title": "Cap and Dividend Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1862/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:36Z",
+  "updateDateIncludingText": "2025-08-14T16:15:36Z"
+ },
+ "request": {
+  "billNumber": "1862",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

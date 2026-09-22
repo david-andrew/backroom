@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4115/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4115/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 36,
+   "countIncludingWithdrawnCosponsors": 36,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4115/cosponsors?format=json"
+  },
+  "introducedDate": "2009-11-19",
+  "latestAction": {
+   "actionDate": "2009-12-16",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/4115",
+  "number": "4115",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000002",
+    "district": 8,
+    "firstName": "JERROLD",
+    "fullName": "Rep. Nadler, Jerrold [D-NY-8]",
+    "isByRequest": "N",
+    "lastName": "NADLER",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/N000002?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4115/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4115/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4115/text?format=json"
+  },
+  "title": "Open Access to Courts Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4115/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:16:43Z",
+  "updateDateIncludingText": "2025-08-14T16:16:43Z"
+ },
+ "request": {
+  "billNumber": "4115",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

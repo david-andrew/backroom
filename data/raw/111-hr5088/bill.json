@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5088/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5088/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5088/cosponsors?format=json"
+  },
+  "introducedDate": "2010-04-21",
+  "latestAction": {
+   "actionDate": "2010-04-22",
+   "text": "Referred to the Subcommittee on Water Resources and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5088",
+  "number": "5088",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000006",
+    "district": 8,
+    "firstName": "JAMES",
+    "fullName": "Rep. Oberstar, James L. [D-MN-8]",
+    "isByRequest": "N",
+    "lastName": "OBERSTAR",
+    "middleName": "L.",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/O000006?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5088/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5088/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5088/text?format=json"
+  },
+  "title": "America's Commitment to Clean Water Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5088/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:17:05Z",
+  "updateDateIncludingText": "2025-08-14T16:17:05Z"
+ },
+ "request": {
+  "billNumber": "5088",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

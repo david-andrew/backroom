@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/740/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/740/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 19,
+   "countIncludingWithdrawnCosponsors": 19,
+   "url": "https://api.congress.gov/v3/bill/113/s/740/cosponsors?format=json"
+  },
+  "introducedDate": "2013-04-16",
+  "latestAction": {
+   "actionDate": "2013-04-16",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/740",
+  "number": "740",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/740/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000361",
+    "firstName": "JAY",
+    "fullName": "Sen. Rockefeller, John D., IV [D-WV]",
+    "isByRequest": "N",
+    "lastName": "ROCKEFELLER",
+    "party": "D",
+    "state": "WV",
+    "url": "https://api.congress.gov/v3/member/R000361?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/113/s/740/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/740/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/740/text?format=json"
+  },
+  "title": "Medicare Drug Savings Act of 2013",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/740/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T14:30:18Z",
+  "updateDateIncludingText": "2025-12-05T14:30:18Z"
+ },
+ "request": {
+  "billNumber": "740",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

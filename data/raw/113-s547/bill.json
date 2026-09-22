@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/547/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/547/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/113/s/547/cosponsors?format=json"
+  },
+  "introducedDate": "2013-03-13",
+  "latestAction": {
+   "actionDate": "2013-03-13",
+   "text": "Read twice and referred to the Committee on the Budget."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/547",
+  "number": "547",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Economics and Public Finance"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/547/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000285",
+    "firstName": "MICHAEL",
+    "fullName": "Sen. Enzi, Michael B. [R-WY]",
+    "isByRequest": "N",
+    "lastName": "ENZI",
+    "middleName": "B.",
+    "party": "R",
+    "state": "WY",
+    "url": "https://api.congress.gov/v3/member/E000285?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/113/s/547/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/547/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/547/text?format=json"
+  },
+  "title": "One Percent Spending Reduction Act of 2013",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/547/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T17:06:33Z",
+  "updateDateIncludingText": "2025-12-05T17:06:33Z"
+ },
+ "request": {
+  "billNumber": "547",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

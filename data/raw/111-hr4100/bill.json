@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4100/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4100/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 39,
+   "countIncludingWithdrawnCosponsors": 39,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4100/cosponsors?format=json"
+  },
+  "introducedDate": "2009-11-18",
+  "latestAction": {
+   "actionDate": "2009-11-18",
+   "text": "Referred to House Appropriations"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/4100",
+  "number": "4100",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001262",
+    "district": 10,
+    "firstName": "Paul",
+    "fullName": "Rep. Broun, Paul C. [R-GA-10]",
+    "isByRequest": "N",
+    "lastName": "Broun",
+    "middleName": "C.",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/B001262?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4100/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4100/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4100/text?format=json"
+  },
+  "title": "Jumpstarting Our Business Sector Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4100/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:16:33Z",
+  "updateDateIncludingText": "2025-08-14T16:16:33Z"
+ },
+ "request": {
+  "billNumber": "4100",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

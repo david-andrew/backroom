@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/540/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/540/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/111/s/540/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-05",
+  "latestAction": {
+   "actionDate": "2009-08-04",
+   "text": "Committee on Health, Education, Labor, and Pensions. Hearings held. Hearings printed: S.Hrg. 111-1031."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/540",
+  "number": "540",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/540/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000105",
+    "firstName": "EDWARD",
+    "fullName": "Sen. Kennedy, Edward M. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "KENNEDY",
+    "middleName": "MOORE",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/K000105?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/s/540/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/540/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/540/text?format=json"
+  },
+  "title": "Medical Device Safety Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/540/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T18:43:12Z",
+  "updateDateIncludingText": "2025-12-05T18:43:12Z"
+ },
+ "request": {
+  "billNumber": "540",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

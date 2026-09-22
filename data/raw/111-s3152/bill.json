@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/3152/actions?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/111/s/3152/cosponsors?format=json"
+  },
+  "introducedDate": "2010-03-23",
+  "latestAction": {
+   "actionDate": "2010-03-23",
+   "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 332."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/3152",
+  "number": "3152",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/s/3152/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000595",
+    "firstName": "James",
+    "fullName": "Sen. DeMint, Jim [R-SC]",
+    "isByRequest": "N",
+    "lastName": "DeMint",
+    "middleName": "W.",
+    "party": "R",
+    "state": "SC",
+    "url": "https://api.congress.gov/v3/member/D000595?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/s/3152/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3152/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3152/text?format=json"
+  },
+  "title": "A bill to repeal the Patient Protection and Affordable Care Act.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/3152/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2017-12-13T22:15:32Z",
+  "updateDateIncludingText": "2023-01-10T16:06:26Z"
+ },
+ "request": {
+  "billNumber": "3152",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

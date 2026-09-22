@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/1215/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1215/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/113/s/1215/cosponsors?format=json"
+  },
+  "introducedDate": "2013-06-24",
+  "latestAction": {
+   "actionDate": "2013-06-24",
+   "text": "Read twice and referred to the Committee on the Judiciary. (text of measure as introduced: CR S5020-5027)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/1215",
+  "number": "1215",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Armed Forces and National Security"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1215/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000174",
+    "firstName": "Patrick",
+    "fullName": "Sen. Leahy, Patrick J. [D-VT]",
+    "isByRequest": "N",
+    "lastName": "Leahy",
+    "party": "D",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/L000174?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/113/s/1215/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1215/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1215/text?format=json"
+  },
+  "title": "FISA Accountability and Privacy Protection Act of 2013",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/1215/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "1215",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

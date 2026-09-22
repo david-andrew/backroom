@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/887/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/887/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/887/cosponsors?format=json"
+  },
+  "introducedDate": "2009-04-23",
+  "latestAction": {
+   "actionDate": "2009-04-23",
+   "text": "Read twice and referred to the Committee on the Judiciary. (text of measure as introduced: CR S4689-4693)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/887",
+  "number": "887",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Immigration"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/887/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000563",
+    "firstName": "Richard",
+    "fullName": "Sen. Durbin, Richard J. [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Durbin",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000563?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/111/s/887/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/887/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/887/text?format=json"
+  },
+  "title": "H-1B and L-1 Visa Reform Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/887/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:52:58Z"
+ },
+ "request": {
+  "billNumber": "887",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

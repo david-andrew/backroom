@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/1549/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1549/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/1549/cosponsors?format=json"
+  },
+  "introducedDate": "2009-07-30",
+  "latestAction": {
+   "actionDate": "2009-07-30",
+   "text": "Read twice and referred to the Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/1549",
+  "number": "1549",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Immigration"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000639",
+    "firstName": "Robert",
+    "fullName": "Sen. Menendez, Robert [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "Menendez",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/M000639?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/111/s/1549/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1549/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1549/text?format=json"
+  },
+  "title": "Protect Citizens and Residents from Unlawful Detention Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/1549/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:52:59Z"
+ },
+ "request": {
+  "billNumber": "1549",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

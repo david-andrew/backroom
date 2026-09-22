@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/243/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/243/committees?format=json"
+  },
+  "congress": 111,
+  "introducedDate": "2009-01-07",
+  "latestAction": {
+   "actionDate": "2009-03-16",
+   "text": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/243",
+  "number": "243",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000410",
+    "district": 29,
+    "firstName": "GENE",
+    "fullName": "Rep. Green, Gene [D-TX-29]",
+    "isByRequest": "N",
+    "lastName": "GREEN",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/G000410?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/243/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/243/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/243/text?format=json"
+  },
+  "title": "Labor Relations First Contract Negotiations Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/243/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "243",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

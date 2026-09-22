@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/3245/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3245/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/3245/cosponsors?format=json"
+  },
+  "introducedDate": "2010-04-22",
+  "latestAction": {
+   "actionDate": "2010-04-22",
+   "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/3245",
+  "number": "3245",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001049",
+    "firstName": "Kay",
+    "fullName": "Sen. Hagan, Kay R. [D-NC]",
+    "isByRequest": "N",
+    "lastName": "Hagan",
+    "middleName": "R.",
+    "party": "D",
+    "state": "NC",
+    "url": "https://api.congress.gov/v3/member/H001049?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/s/3245/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3245/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3245/text?format=json"
+  },
+  "title": "Payday Lending Limitation Act of 2010",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/3245/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T16:19:49Z",
+  "updateDateIncludingText": "2025-08-14T16:19:49Z"
+ },
+ "request": {
+  "billNumber": "3245",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

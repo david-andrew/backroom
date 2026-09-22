@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/330/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/330/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/111/s/330/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-27",
+  "latestAction": {
+   "actionDate": "2009-01-27",
+   "text": "Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S895-896)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/330",
+  "number": "330",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/330/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000563",
+    "firstName": "Richard",
+    "fullName": "Sen. Durbin, Richard J. [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Durbin",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000563?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/s/330/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/330/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/330/text?format=json"
+  },
+  "title": "Medicare Prescription Drug Savings and Choice Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/330/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-10T16:14:16Z",
+  "updateDateIncludingText": "2026-01-10T16:14:16Z"
+ },
+ "request": {
+  "billNumber": "330",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

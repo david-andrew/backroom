@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2900/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2900/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 32,
+   "countIncludingWithdrawnCosponsors": 32,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2900/cosponsors?format=json"
+  },
+  "introducedDate": "2009-06-16",
+  "latestAction": {
+   "actionDate": "2009-06-16",
+   "text": "Referred to the House Committee on Education and Labor."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/2900",
+  "number": "2900",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000362",
+    "district": 5,
+    "firstName": "Steve",
+    "fullName": "Rep. King, Steve [R-IA-5]",
+    "isByRequest": "N",
+    "lastName": "King",
+    "party": "R",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/K000362?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2900/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2900/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2900/text?format=json"
+  },
+  "title": "Davis-Bacon Repeal Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2900/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:16:03Z",
+  "updateDateIncludingText": "2025-08-14T16:16:03Z"
+ },
+ "request": {
+  "billNumber": "2900",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

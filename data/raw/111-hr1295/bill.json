@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1295/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1295/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 31,
+   "countIncludingWithdrawnCosponsors": 31,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1295/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-04",
+  "latestAction": {
+   "actionDate": "2009-08-19",
+   "text": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1295",
+  "number": "1295",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Housing and Community Development"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001232",
+    "district": 13,
+    "firstName": "JUDY",
+    "fullName": "Rep. Biggert, Judy [R-IL-13]",
+    "isByRequest": "N",
+    "lastName": "BIGGERT",
+    "party": "R",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/B001232?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 31,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1295/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1295/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1295/text?format=json"
+  },
+  "title": "Fairness in Housing Recovery Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1295/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:28Z",
+  "updateDateIncludingText": "2025-08-14T16:15:28Z"
+ },
+ "request": {
+  "billNumber": "1295",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

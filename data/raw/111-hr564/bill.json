@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/564/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/564/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 34,
+   "countIncludingWithdrawnCosponsors": 34,
+   "url": "https://api.congress.gov/v3/bill/111/hr/564/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-15",
+  "latestAction": {
+   "actionDate": "2009-01-15",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/564",
+  "number": "564",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/564/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000574",
+    "district": 3,
+    "firstName": "EARL",
+    "fullName": "Rep. Blumenauer, Earl [D-OR-3]",
+    "isByRequest": "N",
+    "lastName": "BLUMENAUER",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/B000574?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/564/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/564/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/564/text?format=json"
+  },
+  "title": "Superfund Reinvestment Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/564/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T14:56:58Z",
+  "updateDateIncludingText": "2025-12-05T14:56:58Z"
+ },
+ "request": {
+  "billNumber": "564",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

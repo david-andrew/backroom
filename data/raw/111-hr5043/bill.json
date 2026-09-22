@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5043/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5043/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5043/cosponsors?format=json"
+  },
+  "introducedDate": "2010-04-15",
+  "latestAction": {
+   "actionDate": "2010-09-15",
+   "text": "Forwarded by Subcommittee to Full Committee by the Yeas and Nays: 6 - 3 ."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5043",
+  "number": "5043",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001068",
+    "district": 9,
+    "firstName": "Steve",
+    "fullName": "Rep. Cohen, Steve [D-TN-9]",
+    "isByRequest": "N",
+    "lastName": "Cohen",
+    "party": "D",
+    "state": "TN",
+    "url": "https://api.congress.gov/v3/member/C001068?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5043/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5043/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5043/text?format=json"
+  },
+  "title": "Private Student Loan Bankruptcy Fairness Act of 2010",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5043/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:17:06Z",
+  "updateDateIncludingText": "2025-08-14T16:17:06Z"
+ },
+ "request": {
+  "billNumber": "5043",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

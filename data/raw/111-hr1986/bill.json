@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1986/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1986/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1986/cosponsors?format=json"
+  },
+  "introducedDate": "2009-04-21",
+  "latestAction": {
+   "actionDate": "2009-04-21",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1986",
+  "number": "1986",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001074",
+    "district": 1,
+    "firstName": "Travis",
+    "fullName": "Rep. Childers, Travis [D-MS-1]",
+    "isByRequest": "N",
+    "lastName": "Childers",
+    "party": "D",
+    "state": "MS",
+    "url": "https://api.congress.gov/v3/member/C001074?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1986/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1986/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1986/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 and the Economic Growth and Tax Relief Reconciliation Act of 2001 to restore the estate tax, increase the estate tax unified credit to an exclusion equivalent of $4,000,000, reduce the maximum estate tax rate to 40 percent, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1986/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:24:19Z",
+  "updateDateIncludingText": "2025-01-02T16:24:19Z"
+ },
+ "request": {
+  "billNumber": "1986",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1936/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1936/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1936/cosponsors?format=json"
+  },
+  "introducedDate": "2009-04-02",
+  "latestAction": {
+   "actionDate": "2009-04-21",
+   "text": "Referred to the Subcommittee on Energy and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1936",
+  "number": "1936",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000480",
+    "district": 18,
+    "firstName": "NITA",
+    "fullName": "Rep. Lowey, Nita M. [D-NY-18]",
+    "isByRequest": "N",
+    "lastName": "LOWEY",
+    "middleName": "M.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/L000480?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1936/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1936/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1936/text?format=json"
+  },
+  "title": "Nuclear Power Licensing Reform Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1936/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:41Z",
+  "updateDateIncludingText": "2025-08-14T16:15:41Z"
+ },
+ "request": {
+  "billNumber": "1936",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

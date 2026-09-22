@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1310/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1310/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 172,
+   "countIncludingWithdrawnCosponsors": 172,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1310/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-04",
+  "latestAction": {
+   "actionDate": "2009-03-06",
+   "text": "Referred to the Subcommittee on Water Resources and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1310",
+  "number": "1310",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000034",
+    "district": 6,
+    "firstName": "FRANK",
+    "fullName": "Rep. Pallone, Frank, Jr. [D-NJ-6]",
+    "isByRequest": "N",
+    "lastName": "PALLONE",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/P000034?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1310/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1310/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1310/text?format=json"
+  },
+  "title": "Clean Water Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1310/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:21Z",
+  "updateDateIncludingText": "2025-08-14T16:15:21Z"
+ },
+ "request": {
+  "billNumber": "1310",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1572/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1572/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1572/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-17",
+  "latestAction": {
+   "actionDate": "2009-03-17",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1572",
+  "number": "1572",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1572/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000460",
+    "district": 1,
+    "firstName": "MIKE",
+    "fullName": "Rep. Thompson, Mike [D-CA-1]",
+    "isByRequest": "N",
+    "lastName": "THOMPSON",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/T000460?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1572/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1572/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1572/text?format=json"
+  },
+  "title": "Taxpayer Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1572/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:29Z",
+  "updateDateIncludingText": "2025-08-14T16:15:29Z"
+ },
+ "request": {
+  "billNumber": "1572",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

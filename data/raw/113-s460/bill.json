@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/460/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/460/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 33,
+   "countIncludingWithdrawnCosponsors": 33,
+   "url": "https://api.congress.gov/v3/bill/113/s/460/cosponsors?format=json"
+  },
+  "introducedDate": "2013-03-05",
+  "latestAction": {
+   "actionDate": "2013-03-05",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text of measure as introduced: CR S1132)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/460",
+  "number": "460",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/113/s/460/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000206",
+    "firstName": "THOMAS",
+    "fullName": "Sen. Harkin, Tom [D-IA]",
+    "isByRequest": "N",
+    "lastName": "HARKIN",
+    "middleName": "RICHARD",
+    "party": "D",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/H000206?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/113/s/460/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/460/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/460/text?format=json"
+  },
+  "title": "Fair Minimum Wage Act of 2013",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/460/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T15:10:11Z",
+  "updateDateIncludingText": "2025-12-05T15:10:11Z"
+ },
+ "request": {
+  "billNumber": "460",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4489/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4489/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4489/cosponsors?format=json"
+  },
+  "introducedDate": "2010-01-21",
+  "latestAction": {
+   "actionDate": "2010-03-24",
+   "text": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote ."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/4489",
+  "number": "4489",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000562",
+    "district": 9,
+    "firstName": "Stephen",
+    "fullName": "Rep. Lynch, Stephen F. [D-MA-9]",
+    "isByRequest": "N",
+    "lastName": "Lynch",
+    "middleName": "F.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/L000562?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4489/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4489/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4489/text?format=json"
+  },
+  "title": "FEHBP Prescription Drug Integrity, Transparency, and Cost Savings Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4489/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:16:52Z",
+  "updateDateIncludingText": "2025-08-14T16:16:52Z"
+ },
+ "request": {
+  "billNumber": "4489",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

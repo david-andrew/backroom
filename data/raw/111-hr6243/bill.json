@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6243/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6243/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6243/cosponsors?format=json"
+  },
+  "introducedDate": "2010-09-29",
+  "latestAction": {
+   "actionDate": "2010-09-29",
+   "text": "Referred to the House Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/6243",
+  "number": "6243",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000544",
+    "district": 20,
+    "firstName": "CHARLES",
+    "fullName": "Rep. Gonzalez, Charles A. [D-TX-20]",
+    "isByRequest": "N",
+    "lastName": "GONZALEZ",
+    "middleName": "A.",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/G000544?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6243/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6243/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6243/text?format=json"
+  },
+  "title": "American Fuel Protection Act of 2010",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6243/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:17:41Z",
+  "updateDateIncludingText": "2025-08-14T16:17:41Z"
+ },
+ "request": {
+  "billNumber": "6243",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

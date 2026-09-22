@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/812/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/812/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/111/hr/812/cosponsors?format=json"
+  },
+  "introducedDate": "2009-02-03",
+  "latestAction": {
+   "actionDate": "2009-07-23",
+   "text": "Referred to the Subcommittee on Commercial and Administrative Law."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/812",
+  "number": "812",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001254",
+    "district": 2,
+    "firstName": "Dan",
+    "fullName": "Rep. Boren, Dan [D-OK-2]",
+    "isByRequest": "N",
+    "lastName": "Boren",
+    "party": "D",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/B001254?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/111/hr/812/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/812/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/812/text?format=json"
+  },
+  "title": "Commonsense Consumption Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/812/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:08Z",
+  "updateDateIncludingText": "2025-08-14T16:15:08Z"
+ },
+ "request": {
+  "billNumber": "812",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1468/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1468/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1468/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-12",
+  "latestAction": {
+   "actionDate": "2009-03-12",
+   "text": "Referred to the House Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1468",
+  "number": "1468",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001248",
+    "district": 26,
+    "firstName": "Michael",
+    "fullName": "Rep. Burgess, Michael C. [R-TX-26]",
+    "isByRequest": "N",
+    "lastName": "Burgess",
+    "middleName": "C.",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/B001248?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1468/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1468/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1468/text?format=json"
+  },
+  "title": "Medical Justice Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1468/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:32Z",
+  "updateDateIncludingText": "2025-08-14T16:15:32Z"
+ },
+ "request": {
+  "billNumber": "1468",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

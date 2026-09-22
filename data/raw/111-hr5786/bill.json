@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5786/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5786/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5786/cosponsors?format=json"
+  },
+  "introducedDate": "2010-07-20",
+  "latestAction": {
+   "actionDate": "2010-07-20",
+   "text": "Referred to House Education and Labor"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5786",
+  "number": "5786",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001145",
+    "district": 9,
+    "firstName": "JANICE",
+    "fullName": "Rep. Schakowsky, Janice D. [D-IL-9]",
+    "isByRequest": "N",
+    "lastName": "SCHAKOWSKY",
+    "middleName": "D.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/S001145?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5786/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5786/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5786/text?format=json"
+  },
+  "title": "Safe Cosmetics Act of 2010",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5786/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:17:26Z",
+  "updateDateIncludingText": "2025-08-14T16:17:26Z"
+ },
+ "request": {
+  "billNumber": "5786",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

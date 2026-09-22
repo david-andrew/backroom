@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4650/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4650/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4650/cosponsors?format=json"
+  },
+  "introducedDate": "2010-02-23",
+  "latestAction": {
+   "actionDate": "2010-02-23",
+   "text": "Referred to House Intelligence (Permanent)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/4650",
+  "number": "4650",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Armed Forces and National Security"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4650/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001145",
+    "district": 9,
+    "firstName": "JANICE",
+    "fullName": "Rep. Schakowsky, Janice D. [D-IL-9]",
+    "isByRequest": "N",
+    "lastName": "SCHAKOWSKY",
+    "middleName": "D.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/S001145?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4650/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4650/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4650/text?format=json"
+  },
+  "title": "Stop Outsourcing Security Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4650/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T18:45:42Z",
+  "updateDateIncludingText": "2025-12-05T18:45:42Z"
+ },
+ "request": {
+  "billNumber": "4650",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1603/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1603/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 14,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1603/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-18",
+  "latestAction": {
+   "actionDate": "2009-03-18",
+   "text": "Referred to the House Committee on Financial Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1603",
+  "number": "1603",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000801",
+    "district": 6,
+    "firstName": "Charles",
+    "fullName": "Rep. Wilson, Charles A. [D-OH-6]",
+    "isByRequest": "N",
+    "lastName": "Wilson",
+    "middleName": "A.",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/W000801?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1603/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1603/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1603/text?format=json"
+  },
+  "title": "TARP Wage Accountability Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1603/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:35Z",
+  "updateDateIncludingText": "2025-08-14T16:15:35Z"
+ },
+ "request": {
+  "billNumber": "1603",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/498/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/498/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/111/hr/498/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-14",
+  "latestAction": {
+   "actionDate": "2009-01-14",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/498",
+  "number": "498",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001167",
+    "district": 5,
+    "firstName": "Harry",
+    "fullName": "Rep. Mitchell, Harry E. [D-AZ-5]",
+    "isByRequest": "N",
+    "lastName": "Mitchell",
+    "middleName": "E.",
+    "party": "D",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/M001167?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/498/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/498/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/498/text?format=json"
+  },
+  "title": "Capital Gains and Estate Tax Relief Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/498/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:04Z",
+  "updateDateIncludingText": "2025-08-14T16:15:04Z"
+ },
+ "request": {
+  "billNumber": "498",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

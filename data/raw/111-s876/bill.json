@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/876/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/876/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/876/cosponsors?format=json"
+  },
+  "introducedDate": "2009-04-23",
+  "latestAction": {
+   "actionDate": "2009-04-23",
+   "text": "Read twice and referred to the Committee on the Judiciary. (text of measure as introduced: CR S4678-4679)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/876",
+  "number": "876",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000709",
+    "firstName": "ARLEN",
+    "fullName": "Sen. Specter, Arlen [R-PA]",
+    "isByRequest": "N",
+    "lastName": "SPECTER",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/S000709?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/s/876/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/876/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/876/text?format=json"
+  },
+  "title": "A bill to provide for the substitution of the United States in certain civil actions relating to electronic service providers and FISA.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/876/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:52:58Z"
+ },
+ "request": {
+  "billNumber": "876",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

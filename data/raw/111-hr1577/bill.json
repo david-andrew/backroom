@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1577/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1577/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 49,
+   "countIncludingWithdrawnCosponsors": 49,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1577/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-18",
+  "latestAction": {
+   "actionDate": "2009-03-18",
+   "text": "Referred to the House Committee on Financial Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1577",
+  "number": "1577",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000594",
+    "district": 3,
+    "firstName": "Erik",
+    "fullName": "Rep. Paulsen, Erik [R-MN-3]",
+    "isByRequest": "N",
+    "lastName": "Paulsen",
+    "party": "R",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/P000594?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1577/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1577/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1577/text?format=json"
+  },
+  "title": "To require the Secretary of the Treasury to pursue every legal means to stay or recoup certain incentive bonus payments and retention payments made by American International Group, Inc. to its executives and employees, and to require the Secretary's approval of such payments by any financial institution who receives.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1577/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T15:36:36Z",
+  "updateDateIncludingText": "2025-04-07T15:36:36Z"
+ },
+ "request": {
+  "billNumber": "1577",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

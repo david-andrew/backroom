@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4626/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4626/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 73,
+   "countIncludingWithdrawnCosponsors": 73,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4626/cosponsors?format=json"
+  },
+  "introducedDate": "2010-02-22",
+  "latestAction": {
+   "actionDate": "2010-03-01",
+   "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 277."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/4626",
+  "number": "4626",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4626/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000600",
+    "district": 5,
+    "firstName": "Thomas",
+    "fullName": "Rep. Perriello, Thomas S.P. [D-VA-5]",
+    "isByRequest": "N",
+    "lastName": "Perriello",
+    "middleName": "S.P.",
+    "party": "D",
+    "state": "VA",
+    "url": "https://api.congress.gov/v3/member/P000600?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4626/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4626/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4626/text?format=json"
+  },
+  "title": "Health Insurance Industry Fair Competition Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4626/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T15:36:42Z",
+  "updateDateIncludingText": "2025-04-07T15:36:42Z"
+ },
+ "request": {
+  "billNumber": "4626",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

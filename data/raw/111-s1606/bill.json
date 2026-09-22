@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/1606/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1606/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/111/s/1606/cosponsors?format=json"
+  },
+  "introducedDate": "2009-08-06",
+  "latestAction": {
+   "actionDate": "2009-08-06",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/1606",
+  "number": "1606",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Law"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1606/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000802",
+    "firstName": "Sheldon",
+    "fullName": "Sen. Whitehouse, Sheldon [D-RI]",
+    "isByRequest": "N",
+    "lastName": "Whitehouse",
+    "party": "D",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/W000802?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/111/s/1606/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1606/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1606/text?format=json"
+  },
+  "title": "Foreign Manufacturers Legal Accountability Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/1606/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T16:19:01Z",
+  "updateDateIncludingText": "2025-08-14T16:19:01Z"
+ },
+ "request": {
+  "billNumber": "1606",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

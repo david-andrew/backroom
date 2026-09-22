@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1086/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1086/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 72,
+   "countIncludingWithdrawnCosponsors": 72,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1086/cosponsors?format=json"
+  },
+  "introducedDate": "2009-02-13",
+  "latestAction": {
+   "actionDate": "2009-02-23",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1086",
+  "number": "1086",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1086/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000550",
+    "district": 11,
+    "firstName": "Phil",
+    "fullName": "Rep. Gingrey, Phil [R-GA-11]",
+    "isByRequest": "N",
+    "lastName": "Gingrey",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/G000550?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1086/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1086/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1086/text?format=json"
+  },
+  "title": "Help Efficient, Accessible, Low-cost, Timely Healthcare (HEALTH) Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1086/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:18Z",
+  "updateDateIncludingText": "2025-08-14T16:15:18Z"
+ },
+ "request": {
+  "billNumber": "1086",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

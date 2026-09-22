@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5159/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5159/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5159/cosponsors?format=json"
+  },
+  "introducedDate": "2010-04-28",
+  "latestAction": {
+   "actionDate": "2010-04-28",
+   "text": "Referred to the House Committee on Financial Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5159",
+  "number": "5159",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5159/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001154",
+    "district": 13,
+    "firstName": "Brad",
+    "fullName": "Rep. Miller, Brad [D-NC-13]",
+    "isByRequest": "N",
+    "lastName": "Miller",
+    "party": "D",
+    "state": "NC",
+    "url": "https://api.congress.gov/v3/member/M001154?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5159/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5159/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5159/text?format=json"
+  },
+  "title": "SAFE Banking Act of 2010",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5159/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T20:19:17Z",
+  "updateDateIncludingText": "2025-12-05T20:19:17Z"
+ },
+ "request": {
+  "billNumber": "5159",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

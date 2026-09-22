@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5698/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5698/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5698/cosponsors?format=json"
+  },
+  "introducedDate": "2010-07-01",
+  "latestAction": {
+   "actionDate": "2010-07-08",
+   "text": "Referred to the Subcommittee on Energy and Mineral Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5698",
+  "number": "5698",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001161",
+    "district": 3,
+    "firstName": "Charlie",
+    "fullName": "Rep. Melancon, Charlie [D-LA-3]",
+    "isByRequest": "N",
+    "lastName": "Melancon",
+    "party": "D",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/M001161?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5698/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5698/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5698/text?format=json"
+  },
+  "title": "To amend the Oil Pollution Act of 1990 and the Outer Continental Shelf Lands Act to protect employees from retaliation for notifying government officials of violations of those Acts, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5698/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:31:45Z",
+  "updateDateIncludingText": "2025-01-02T16:31:45Z"
+ },
+ "request": {
+  "billNumber": "5698",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

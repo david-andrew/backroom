@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3799/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3799/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3799/cosponsors?format=json"
+  },
+  "introducedDate": "2009-10-13",
+  "latestAction": {
+   "actionDate": "2009-11-16",
+   "text": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/3799",
+  "number": "3799",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3799/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000288",
+    "district": 4,
+    "firstName": "Henry",
+    "fullName": "Rep. Johnson, Henry C. \"Hank,\" Jr. [D-GA-4]",
+    "isByRequest": "N",
+    "lastName": "Johnson",
+    "middleName": "C. \"Hank\"",
+    "party": "D",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/J000288?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3799/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3799/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3799/text?format=json"
+  },
+  "title": "Affordable Access to Prescription Medications Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3799/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "3799",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

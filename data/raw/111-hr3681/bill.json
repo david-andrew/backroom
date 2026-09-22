@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3681/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3681/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3681/cosponsors?format=json"
+  },
+  "introducedDate": "2009-09-30",
+  "latestAction": {
+   "actionDate": "2009-10-01",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/3681",
+  "number": "3681",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3681/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000288",
+    "district": 5,
+    "firstName": "Keith",
+    "fullName": "Rep. Ellison, Keith [D-MN-5]",
+    "isByRequest": "N",
+    "lastName": "Ellison",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/E000288?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3681/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3681/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3681/text?format=json"
+  },
+  "title": "Fairness in Health Insurance Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3681/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-04T07:56:20Z",
+  "updateDateIncludingText": "2025-12-04T07:56:20Z"
+ },
+ "request": {
+  "billNumber": "3681",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

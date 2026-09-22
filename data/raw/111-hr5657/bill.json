@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5657/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5657/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5657/cosponsors?format=json"
+  },
+  "introducedDate": "2010-06-30",
+  "latestAction": {
+   "actionDate": "2010-07-06",
+   "text": "Referred to the Subcommittee on Energy and Mineral Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5657",
+  "number": "5657",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "Q000023",
+    "district": 5,
+    "firstName": "Mike",
+    "fullName": "Rep. Quigley, Mike [D-IL-5]",
+    "isByRequest": "N",
+    "lastName": "Quigley",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/Q000023?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5657/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5657/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5657/text?format=json"
+  },
+  "title": "To amend the Outer Continental Shelf Lands Act to ensure that protection of the marine and coastal environment is of primary importance in making areas of the outer Continental Shelf available for leasing, exploration, and development rather than expeditious development of oil and gas resources, to prohibit oil and gas leasing, exploration, and development in important ecological areas of the outer Continental Shelf, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5657/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:31:44Z",
+  "updateDateIncludingText": "2025-01-02T16:31:44Z"
+ },
+ "request": {
+  "billNumber": "5657",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

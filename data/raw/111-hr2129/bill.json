@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2129/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2129/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 41,
+   "countIncludingWithdrawnCosponsors": 41,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2129/cosponsors?format=json"
+  },
+  "introducedDate": "2009-04-27",
+  "latestAction": {
+   "actionDate": "2009-06-04",
+   "text": "Referred to the Subcommittee on Healthy Families and Communities."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/2129",
+  "number": "2129",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001045",
+    "district": 1,
+    "firstName": "BART",
+    "fullName": "Rep. Stupak, Bart [D-MI-1]",
+    "isByRequest": "N",
+    "lastName": "STUPAK",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/S001045?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2129/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2129/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2129/text?format=json"
+  },
+  "title": "Federal Price Gouging Prevention Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2129/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:49Z",
+  "updateDateIncludingText": "2025-08-14T16:15:49Z"
+ },
+ "request": {
+  "billNumber": "2129",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

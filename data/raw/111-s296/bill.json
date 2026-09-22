@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/296/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/296/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/111/s/296/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-22",
+  "latestAction": {
+   "actionDate": "2009-01-22",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/296",
+  "number": "296",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/296/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000286",
+    "firstName": "SAXBY",
+    "fullName": "Sen. Chambliss, Saxby [R-GA]",
+    "isByRequest": "N",
+    "lastName": "CHAMBLISS",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/C000286?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/111/s/296/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/296/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/296/text?format=json"
+  },
+  "title": "Fair Tax Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/296/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-14T19:31:08Z",
+  "updateDateIncludingText": "2026-01-14T19:31:08Z"
+ },
+ "request": {
+  "billNumber": "296",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

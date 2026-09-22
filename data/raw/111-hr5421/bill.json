@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5421/actions?format=json"
+  },
+  "committees": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5421/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5421/cosponsors?format=json"
+  },
+  "introducedDate": "2010-05-27",
+  "latestAction": {
+   "actionDate": "2010-06-29",
+   "text": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5421",
+  "number": "5421",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5421/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001262",
+    "district": 10,
+    "firstName": "Paul",
+    "fullName": "Rep. Broun, Paul C. [R-GA-10]",
+    "isByRequest": "N",
+    "lastName": "Broun",
+    "middleName": "C.",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/B001262?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5421/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5421/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5421/text?format=json"
+  },
+  "title": "To repeal the Patient Protection and Affordable Care Act and the Health Care and Education Reconciliation Act of 2010, repeal the 7.5 percent threshold on the deduction for medical expenses, provide for increased funding for high-risk pools, allow acquiring health insurance across State lines, and allow for the creation of association health plans.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5421/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "5421",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

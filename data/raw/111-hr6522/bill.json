@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6522/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6522/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6522/cosponsors?format=json"
+  },
+  "introducedDate": "2010-12-15",
+  "latestAction": {
+   "actionDate": "2010-12-15",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/6522",
+  "number": "6522",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6522/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001256",
+    "district": 6,
+    "firstName": "Michele",
+    "fullName": "Rep. Bachmann, Michele [R-MN-6]",
+    "isByRequest": "N",
+    "lastName": "Bachmann",
+    "party": "R",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/B001256?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6522/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6522/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6522/text?format=json"
+  },
+  "title": "End Tax Uncertainty Act of 2010",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6522/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-06T16:23:03Z",
+  "updateDateIncludingText": "2025-12-06T16:23:03Z"
+ },
+ "request": {
+  "billNumber": "6522",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/25/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/25/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 65,
+   "countIncludingWithdrawnCosponsors": 65,
+   "url": "https://api.congress.gov/v3/bill/111/hr/25/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-06",
+  "latestAction": {
+   "actionDate": "2009-01-06",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/25",
+  "number": "25",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/25/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000321",
+    "district": 7,
+    "firstName": "JOHN",
+    "fullName": "Rep. Linder, John [R-GA-7]",
+    "isByRequest": "N",
+    "lastName": "LINDER",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/L000321?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/111/hr/25/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/25/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/25/text?format=json"
+  },
+  "title": "Fair Tax Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/25/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-01-14T19:30:47Z",
+  "updateDateIncludingText": "2026-01-14T19:30:47Z"
+ },
+ "request": {
+  "billNumber": "25",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

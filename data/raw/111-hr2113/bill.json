@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2113/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2113/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 17,
+   "countIncludingWithdrawnCosponsors": 17,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2113/cosponsors?format=json"
+  },
+  "introducedDate": "2009-04-27",
+  "latestAction": {
+   "actionDate": "2009-06-04",
+   "text": "Referred to the Subcommittee on Workforce Protections."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/2113",
+  "number": "2113",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001040",
+    "district": 17,
+    "firstName": "Phil",
+    "fullName": "Rep. Hare, Phil [D-IL-17]",
+    "isByRequest": "N",
+    "lastName": "Hare",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/H001040?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2113/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2113/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2113/text?format=json"
+  },
+  "title": "Corporate Injury, Illness, and Fatality Reporting Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2113/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "2113",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

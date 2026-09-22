@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/99/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/99/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/99/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-06",
+  "latestAction": {
+   "actionDate": "2009-01-06",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/99",
+  "number": "99",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000492",
+    "district": 26,
+    "firstName": "DAVID",
+    "fullName": "Rep. Dreier, David [R-CA-26]",
+    "isByRequest": "N",
+    "lastName": "DREIER",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/D000492?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/111/hr/99/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/99/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/99/text?format=json"
+  },
+  "title": "Fair and Simple Tax Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/99/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:14:55Z",
+  "updateDateIncludingText": "2025-08-14T16:14:55Z"
+ },
+ "request": {
+  "billNumber": "99",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

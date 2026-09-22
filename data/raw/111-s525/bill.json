@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/525/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/525/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 29,
+   "countIncludingWithdrawnCosponsors": 29,
+   "url": "https://api.congress.gov/v3/bill/111/s/525/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-04",
+  "latestAction": {
+   "actionDate": "2009-03-05",
+   "text": "Sponsor introductory remarks on measure. (CR S2780-2781)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/525",
+  "number": "525",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/525/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000432",
+    "firstName": "BYRON",
+    "fullName": "Sen. Dorgan, Byron L. [D-ND]",
+    "isByRequest": "N",
+    "lastName": "DORGAN",
+    "middleName": "LESLIE",
+    "party": "D",
+    "state": "ND",
+    "url": "https://api.congress.gov/v3/member/D000432?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 37,
+   "url": "https://api.congress.gov/v3/bill/111/s/525/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/525/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/525/text?format=json"
+  },
+  "title": "Pharmaceutical Market Access and Drug Safety Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/525/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-10T16:15:11Z",
+  "updateDateIncludingText": "2026-01-10T16:15:11Z"
+ },
+ "request": {
+  "billNumber": "525",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

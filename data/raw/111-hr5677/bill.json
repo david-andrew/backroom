@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5677/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5677/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5677/cosponsors?format=json"
+  },
+  "introducedDate": "2010-07-01",
+  "latestAction": {
+   "actionDate": "2010-07-07",
+   "text": "Referred to the Subcommittee on Energy and Mineral Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5677",
+  "number": "5677",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "Y000031",
+    "district": 10,
+    "firstName": "C. W.",
+    "fullName": "Rep. Young, C. W. Bill [R-FL-10]",
+    "isByRequest": "N",
+    "lastName": "Young",
+    "middleName": "Bill",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/Y000031?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5677/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5677/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5677/text?format=json"
+  },
+  "title": "SAFEGUARDS Act of 2010",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5677/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:17:25Z",
+  "updateDateIncludingText": "2025-08-14T16:17:25Z"
+ },
+ "request": {
+  "billNumber": "5677",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

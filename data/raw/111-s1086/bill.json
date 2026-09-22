@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/1086/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1086/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/1086/cosponsors?format=json"
+  },
+  "introducedDate": "2009-05-20",
+  "latestAction": {
+   "actionDate": "2009-05-20",
+   "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry. (text of measure as introduced: CR S5703)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/1086",
+  "number": "1086",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000285",
+    "firstName": "MICHAEL",
+    "fullName": "Sen. Enzi, Michael B. [R-WY]",
+    "isByRequest": "N",
+    "lastName": "ENZI",
+    "middleName": "B.",
+    "party": "R",
+    "state": "WY",
+    "url": "https://api.congress.gov/v3/member/E000285?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/s/1086/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1086/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1086/text?format=json"
+  },
+  "title": "Livestock Marketing Fairness Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/1086/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T16:18:41Z",
+  "updateDateIncludingText": "2025-08-14T16:18:41Z"
+ },
+ "request": {
+  "billNumber": "1086",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

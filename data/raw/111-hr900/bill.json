@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/900/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/900/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 21,
+   "countIncludingWithdrawnCosponsors": 21,
+   "url": "https://api.congress.gov/v3/bill/111/hr/900/cosponsors?format=json"
+  },
+  "introducedDate": "2009-02-04",
+  "latestAction": {
+   "actionDate": "2009-07-23",
+   "text": "Referred to the Subcommittee on Courts and Competition Policy."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/900",
+  "number": "900",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000275",
+    "district": 3,
+    "firstName": "JOHN",
+    "fullName": "Rep. Shadegg, John B. [R-AZ-3]",
+    "isByRequest": "N",
+    "lastName": "SHADEGG",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/S000275?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/111/hr/900/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/900/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/900/text?format=json"
+  },
+  "title": "To establish procedures for causes and claims relating to the leasing of Federal lands (including submerged lands) for the exploration, development, production, processing, or transmission of oil, natural gas, or any other source or form of energy, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/900/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T14:52:25Z",
+  "updateDateIncludingText": "2025-04-07T14:52:25Z"
+ },
+ "request": {
+  "billNumber": "900",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

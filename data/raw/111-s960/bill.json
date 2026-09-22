@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/960/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/960/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/960/cosponsors?format=json"
+  },
+  "introducedDate": "2009-05-01",
+  "latestAction": {
+   "actionDate": "2009-05-01",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/960",
+  "number": "960",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000361",
+    "firstName": "JAY",
+    "fullName": "Sen. Rockefeller, John D., IV [D-WV]",
+    "isByRequest": "N",
+    "lastName": "ROCKEFELLER",
+    "party": "D",
+    "state": "WV",
+    "url": "https://api.congress.gov/v3/member/R000361?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/111/s/960/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/960/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/960/text?format=json"
+  },
+  "title": "Medicare Early Access Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/960/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T16:18:35Z",
+  "updateDateIncludingText": "2025-08-14T16:18:35Z"
+ },
+ "request": {
+  "billNumber": "960",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

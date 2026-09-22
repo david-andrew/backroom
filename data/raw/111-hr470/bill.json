@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/470/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/470/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 87,
+   "countIncludingWithdrawnCosponsors": 87,
+   "url": "https://api.congress.gov/v3/bill/111/hr/470/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-13",
+  "latestAction": {
+   "actionDate": "2009-01-13",
+   "text": "Referred to House Appropriations"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/470",
+  "number": "470",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000548",
+    "district": 5,
+    "firstName": "Scott",
+    "fullName": "Rep. Garrett, Scott [R-NJ-5]",
+    "isByRequest": "N",
+    "lastName": "Garrett",
+    "party": "R",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/G000548?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/111/hr/470/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/470/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/470/text?format=json"
+  },
+  "title": "Economic Recovery and Middle-Class Tax Relief Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/470/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:00Z",
+  "updateDateIncludingText": "2025-08-14T16:15:00Z"
+ },
+ "request": {
+  "billNumber": "470",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

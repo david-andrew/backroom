@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4191/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4191/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 31,
+   "countIncludingWithdrawnCosponsors": 32,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4191/cosponsors?format=json"
+  },
+  "introducedDate": "2009-12-03",
+  "latestAction": {
+   "actionDate": "2009-12-03",
+   "text": "Referred to House Budget"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/4191",
+  "number": "4191",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000191",
+    "district": 4,
+    "firstName": "PETER",
+    "fullName": "Rep. DeFazio, Peter A. [D-OR-4]",
+    "isByRequest": "N",
+    "lastName": "DEFAZIO",
+    "middleName": "A.",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/D000191?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4191/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4191/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4191/text?format=json"
+  },
+  "title": "Let Wall Street Pay for the Restoration of Main Street Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4191/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-08T19:31:27Z",
+  "updateDateIncludingText": "2026-09-08T19:31:45Z"
+ },
+ "request": {
+  "billNumber": "4191",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

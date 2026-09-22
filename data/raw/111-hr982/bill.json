@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/982/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/982/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 116,
+   "countIncludingWithdrawnCosponsors": 116,
+   "url": "https://api.congress.gov/v3/bill/111/hr/982/cosponsors?format=json"
+  },
+  "introducedDate": "2009-02-11",
+  "latestAction": {
+   "actionDate": "2009-02-11",
+   "text": "Referred to House Rules"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/982",
+  "number": "982",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000289",
+    "district": 6,
+    "firstName": "ROBERT",
+    "fullName": "Rep. Goodlatte, Bob [R-VA-6]",
+    "isByRequest": "N",
+    "lastName": "GOODLATTE",
+    "middleName": "W.",
+    "party": "R",
+    "state": "VA",
+    "url": "https://api.congress.gov/v3/member/G000289?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/111/hr/982/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/982/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/982/text?format=json"
+  },
+  "title": "Tax Code Termination Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/982/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:13Z",
+  "updateDateIncludingText": "2025-08-14T16:15:13Z"
+ },
+ "request": {
+  "billNumber": "982",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

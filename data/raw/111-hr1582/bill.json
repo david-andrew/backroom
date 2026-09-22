@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1582/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1582/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 40,
+   "countIncludingWithdrawnCosponsors": 40,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1582/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-18",
+  "latestAction": {
+   "actionDate": "2009-03-18",
+   "text": "Referred to the House Committee on Financial Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1582",
+  "number": "1582",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000553",
+    "district": 14,
+    "firstName": "STEVEN",
+    "fullName": "Rep. LaTourette, Steven C. [R-OH-14]",
+    "isByRequest": "N",
+    "lastName": "LATOURETTE",
+    "middleName": "C.",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/L000553?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1582/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1582/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1582/text?format=json"
+  },
+  "title": "Executive Bonus Repeal Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1582/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:27Z",
+  "updateDateIncludingText": "2025-08-14T16:15:27Z"
+ },
+ "request": {
+  "billNumber": "1582",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

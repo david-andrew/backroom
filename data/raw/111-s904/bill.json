@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/904/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/904/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/111/s/904/cosponsors?format=json"
+  },
+  "introducedDate": "2009-04-28",
+  "latestAction": {
+   "actionDate": "2010-03-11",
+   "text": "Committee on Health, Education, Labor, and Pensions. Hearings held. Hearings printed: S.Hrg. 111-1135."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/904",
+  "number": "904",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/904/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000206",
+    "firstName": "THOMAS",
+    "fullName": "Sen. Harkin, Tom [D-IA]",
+    "isByRequest": "N",
+    "lastName": "HARKIN",
+    "middleName": "RICHARD",
+    "party": "D",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/H000206?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/111/s/904/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/904/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/904/text?format=json"
+  },
+  "title": "Fair Pay Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/904/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T16:29:22Z",
+  "updateDateIncludingText": "2025-12-05T16:29:22Z"
+ },
+ "request": {
+  "billNumber": "904",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

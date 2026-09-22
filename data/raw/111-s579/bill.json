@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/579/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/579/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/579/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-12",
+  "latestAction": {
+   "actionDate": "2009-03-12",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/579",
+  "number": "579",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001135",
+    "firstName": "Richard",
+    "fullName": "Sen. Burr, Richard [R-NC]",
+    "isByRequest": "N",
+    "lastName": "Burr",
+    "middleName": "Mauze",
+    "party": "R",
+    "state": "NC",
+    "url": "https://api.congress.gov/v3/member/B001135?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 31,
+   "url": "https://api.congress.gov/v3/bill/111/s/579/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/579/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/579/text?format=json"
+  },
+  "title": "Federal Tobacco Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/579/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T16:18:30Z",
+  "updateDateIncludingText": "2025-08-14T16:18:30Z"
+ },
+ "request": {
+  "billNumber": "579",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

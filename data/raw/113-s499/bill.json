@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/499/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/499/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/499/cosponsors?format=json"
+  },
+  "introducedDate": "2013-03-07",
+  "latestAction": {
+   "actionDate": "2013-03-07",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/499",
+  "number": "499",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000127",
+    "firstName": "David",
+    "fullName": "Sen. Vitter, David [R-LA]",
+    "isByRequest": "N",
+    "lastName": "Vitter",
+    "party": "R",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/V000127?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/113/s/499/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/499/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/499/text?format=json"
+  },
+  "title": "Patient Choice Restoration Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/499/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-12T18:39:48Z",
+  "updateDateIncludingText": "2025-08-12T18:39:48Z"
+ },
+ "request": {
+  "billNumber": "499",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

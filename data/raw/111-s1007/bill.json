@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/s/1007/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/1007/committees?format=json"
+  },
+  "congress": 111,
+  "introducedDate": "2009-05-07",
+  "latestAction": {
+   "actionDate": "2009-06-02",
+   "text": "Referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/1007",
+  "number": "1007",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000563",
+    "firstName": "Richard",
+    "fullName": "Sen. Durbin, Richard J. [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Durbin",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000563?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/s/1007/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1007/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/1007/text?format=json"
+  },
+  "title": "Excessive Pay Capped Deduction Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/1007/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T16:18:43Z",
+  "updateDateIncludingText": "2025-08-14T16:18:43Z"
+ },
+ "request": {
+  "billNumber": "1007",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

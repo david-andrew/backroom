@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/163/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/163/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/163/cosponsors?format=json"
+  },
+  "introducedDate": "2013-01-28",
+  "latestAction": {
+   "actionDate": "2013-01-28",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/163",
+  "number": "163",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/113/s/163/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000127",
+    "firstName": "David",
+    "fullName": "Sen. Vitter, David [R-LA]",
+    "isByRequest": "N",
+    "lastName": "Vitter",
+    "party": "R",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/V000127?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/113/s/163/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/163/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/163/text?format=json"
+  },
+  "title": "A bill to prohibit any regulation regarding carbon dioxide or other greenhouse gas emissions reduction in the United States until China, India, and Russia implement similar reductions.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/163/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:12:46Z"
+ },
+ "request": {
+  "billNumber": "163",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

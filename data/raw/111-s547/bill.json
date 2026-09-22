@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/547/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/547/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/111/s/547/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-09",
+  "latestAction": {
+   "actionDate": "2009-03-09",
+   "text": "Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S2911)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/547",
+  "number": "547",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/547/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000468",
+    "firstName": "JESSE",
+    "fullName": "Sen. Bingaman, Jeff [D-NM]",
+    "isByRequest": "N",
+    "lastName": "BINGAMAN",
+    "middleName": "FRANCIS",
+    "party": "D",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/B000468?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/s/547/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/547/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/547/text?format=json"
+  },
+  "title": "Drug Rebate Equalization Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/547/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T16:18:26Z",
+  "updateDateIncludingText": "2025-08-14T16:18:26Z"
+ },
+ "request": {
+  "billNumber": "547",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

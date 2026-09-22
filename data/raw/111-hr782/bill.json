@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/782/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/782/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/111/hr/782/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-28",
+  "latestAction": {
+   "actionDate": "2009-01-28",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/782",
+  "number": "782",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000570",
+    "district": 1,
+    "firstName": "PAUL",
+    "fullName": "Rep. Ryan, Paul [R-WI-1]",
+    "isByRequest": "N",
+    "lastName": "RYAN",
+    "party": "R",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/R000570?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/782/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/782/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/782/text?format=json"
+  },
+  "title": "Taxpayer Choice Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/782/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:07Z",
+  "updateDateIncludingText": "2025-08-14T16:15:07Z"
+ },
+ "request": {
+  "billNumber": "782",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

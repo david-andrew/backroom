@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5615/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5615/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5615/cosponsors?format=json"
+  },
+  "introducedDate": "2010-06-28",
+  "latestAction": {
+   "actionDate": "2010-06-28",
+   "text": "Referred to House Appropriations"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5615",
+  "number": "5615",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000461",
+    "district": 50,
+    "firstName": "BRIAN",
+    "fullName": "Rep. Bilbray, Brian P. [R-CA-50]",
+    "isByRequest": "N",
+    "lastName": "BILBRAY",
+    "middleName": "P.",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/B000461?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5615/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5615/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5615/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to repeal the medical device tax, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5615/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:31:46Z",
+  "updateDateIncludingText": "2025-01-02T16:31:46Z"
+ },
+ "request": {
+  "billNumber": "5615",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

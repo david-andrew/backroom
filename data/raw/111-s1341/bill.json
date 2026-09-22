@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/1341/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1341/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/111/s/1341/cosponsors?format=json"
+  },
+  "introducedDate": "2009-06-24",
+  "latestAction": {
+   "actionDate": "2009-06-24",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/1341",
+  "number": "1341",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1341/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000639",
+    "firstName": "Robert",
+    "fullName": "Sen. Menendez, Robert [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "Menendez",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/M000639?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/111/s/1341/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1341/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1341/text?format=json"
+  },
+  "title": "Close the SILO/LILO Loophole Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/1341/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T16:18:53Z",
+  "updateDateIncludingText": "2025-08-14T16:18:53Z"
+ },
+ "request": {
+  "billNumber": "1341",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

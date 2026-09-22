@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1558/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1558/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 71,
+   "countIncludingWithdrawnCosponsors": 71,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1558/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-17",
+  "latestAction": {
+   "actionDate": "2009-05-14",
+   "text": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1558",
+  "number": "1558",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1558/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001069",
+    "district": 2,
+    "firstName": "Joe",
+    "fullName": "Rep. Courtney, Joe [D-CT-2]",
+    "isByRequest": "N",
+    "lastName": "Courtney",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/C001069?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1558/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1558/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1558/text?format=json"
+  },
+  "title": "Preexisting Condition Patient Protection Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1558/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "1558",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

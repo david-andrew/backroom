@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/3254/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3254/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/111/s/3254/cosponsors?format=json"
+  },
+  "introducedDate": "2010-04-22",
+  "latestAction": {
+   "actionDate": "2010-06-17",
+   "text": "Committee on Health, Education, Labor, and Pensions. Hearings held. Hearings printed: S.Hrg. 111-1146."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/3254",
+  "number": "3254",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3254/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000944",
+    "firstName": "Sherrod",
+    "fullName": "Sen. Brown, Sherrod [D-OH]",
+    "isByRequest": "N",
+    "lastName": "Brown",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/B000944?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/111/s/3254/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3254/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3254/text?format=json"
+  },
+  "title": "Employee Misclassification Prevention Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/3254/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T16:27:18Z",
+  "updateDateIncludingText": "2025-12-05T16:27:18Z"
+ },
+ "request": {
+  "billNumber": "3254",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

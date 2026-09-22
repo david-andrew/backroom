@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/113/s/150/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/150/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/113/s/150/cosponsors?format=json"
+  },
+  "introducedDate": "2013-01-24",
+  "latestAction": {
+   "actionDate": "2013-03-14",
+   "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 27."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/150",
+  "number": "150",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/150/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000062",
+    "firstName": "Dianne",
+    "fullName": "Sen. Feinstein, Dianne [D-CA]",
+    "isByRequest": "N",
+    "lastName": "Feinstein",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/F000062?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/113/s/150/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/150/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/150/text?format=json"
+  },
+  "title": "Assault Weapons Ban of 2013",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/113/s/150/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:52:27Z"
+ },
+ "request": {
+  "billNumber": "150",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

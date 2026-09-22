@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2327/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2327/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 19,
+   "countIncludingWithdrawnCosponsors": 19,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2327/cosponsors?format=json"
+  },
+  "introducedDate": "2009-05-07",
+  "latestAction": {
+   "actionDate": "2009-05-07",
+   "text": "Referred to the House Committee on Financial Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/2327",
+  "number": "2327",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001036",
+    "district": 5,
+    "firstName": "Jeb",
+    "fullName": "Rep. Hensarling, Jeb [R-TX-5]",
+    "isByRequest": "N",
+    "lastName": "Hensarling",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/H001036?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2327/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2327/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2327/text?format=json"
+  },
+  "title": "Protection of Consumer Credit and Consumer Choice Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2327/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:52Z",
+  "updateDateIncludingText": "2025-08-14T16:15:52Z"
+ },
+ "request": {
+  "billNumber": "2327",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

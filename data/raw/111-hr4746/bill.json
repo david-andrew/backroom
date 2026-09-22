@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4746/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4746/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 76,
+   "countIncludingWithdrawnCosponsors": 76,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4746/cosponsors?format=json"
+  },
+  "introducedDate": "2010-03-03",
+  "latestAction": {
+   "actionDate": "2010-03-03",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/4746",
+  "number": "4746",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4746/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000182",
+    "district": 19,
+    "firstName": "Randy",
+    "fullName": "Rep. Neugebauer, Randy [R-TX-19]",
+    "isByRequest": "N",
+    "lastName": "Neugebauer",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/N000182?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4746/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4746/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4746/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to prevent pending tax increases, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4746/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:29:32Z",
+  "updateDateIncludingText": "2025-01-02T16:29:32Z"
+ },
+ "request": {
+  "billNumber": "4746",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

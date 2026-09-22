@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/77/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/77/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/77/cosponsors?format=json"
+  },
+  "introducedDate": "2013-01-23",
+  "latestAction": {
+   "actionDate": "2013-01-23",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/77",
+  "number": "77",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000457",
+    "firstName": "Al",
+    "fullName": "Sen. Franken, Al [D-MN]",
+    "isByRequest": "N",
+    "lastName": "Franken",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/F000457?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/113/s/77/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/77/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/77/text?format=json"
+  },
+  "title": "Prescription Drug and Health Improvement Act of 2013",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/77/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-12T18:36:41Z",
+  "updateDateIncludingText": "2025-08-12T18:36:41Z"
+ },
+ "request": {
+  "billNumber": "77",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

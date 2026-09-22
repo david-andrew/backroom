@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1725/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1725/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1725/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-25",
+  "latestAction": {
+   "actionDate": "2009-03-27",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1725",
+  "number": "1725",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000128",
+    "district": 8,
+    "firstName": "Chris",
+    "fullName": "Rep. Van Hollen, Chris [D-MD-8]",
+    "isByRequest": "N",
+    "lastName": "Van Hollen",
+    "party": "D",
+    "state": "MD",
+    "url": "https://api.congress.gov/v3/member/V000128?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1725/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1725/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1725/text?format=json"
+  },
+  "title": "Voluntary State Discount Prescription Drug Plan Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1725/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:39Z",
+  "updateDateIncludingText": "2025-08-14T16:15:39Z"
+ },
+ "request": {
+  "billNumber": "1725",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

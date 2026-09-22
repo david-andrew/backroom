@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1135/actions?format=json"
+  },
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1135/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1135/cosponsors?format=json"
+  },
+  "introducedDate": "2009-02-23",
+  "latestAction": {
+   "actionDate": "2009-02-24",
+   "text": "Referred to the Subcommittee on Commerce, Trade and Consumer Protection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1135",
+  "number": "1135",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1135/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001154",
+    "district": 9,
+    "firstName": "Bill",
+    "fullName": "Rep. Shuster, Bill [R-PA-9]",
+    "isByRequest": "N",
+    "lastName": "Shuster",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/S001154?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1135/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1135/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1135/text?format=json"
+  },
+  "title": "BUSES Act of 2009",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1135/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:24Z",
+  "updateDateIncludingText": "2025-08-14T16:15:24Z"
+ },
+ "request": {
+  "billNumber": "1135",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

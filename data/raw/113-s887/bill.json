@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/887/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/887/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/887/cosponsors?format=json"
+  },
+  "introducedDate": "2013-05-07",
+  "latestAction": {
+   "actionDate": "2013-05-07",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/887",
+  "number": "887",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000603",
+    "firstName": "Rand",
+    "fullName": "Sen. Paul, Rand [R-KY]",
+    "isByRequest": "N",
+    "lastName": "Paul",
+    "party": "R",
+    "state": "KY",
+    "url": "https://api.congress.gov/v3/member/P000603?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/113/s/887/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/887/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/887/text?format=json"
+  },
+  "title": "A bill to repeal the violation of sovereign nations' laws and privacy matters",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/887/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-07T15:10:39Z",
+  "updateDateIncludingText": "2025-04-07T15:10:39Z"
+ },
+ "request": {
+  "billNumber": "887",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

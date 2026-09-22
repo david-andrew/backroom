@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4942/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4942/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4942/cosponsors?format=json"
+  },
+  "introducedDate": "2010-03-25",
+  "latestAction": {
+   "actionDate": "2010-04-01",
+   "text": "Referred to the Subcommittee on Energy and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/4942",
+  "number": "4942",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000289",
+    "district": 6,
+    "firstName": "ROBERT",
+    "fullName": "Rep. Goodlatte, Bob [R-VA-6]",
+    "isByRequest": "N",
+    "lastName": "GOODLATTE",
+    "middleName": "W.",
+    "party": "R",
+    "state": "VA",
+    "url": "https://api.congress.gov/v3/member/G000289?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4942/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4942/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4942/text?format=json"
+  },
+  "title": "VA Energy Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4942/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:16:57Z",
+  "updateDateIncludingText": "2025-08-14T16:16:57Z"
+ },
+ "request": {
+  "billNumber": "4942",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

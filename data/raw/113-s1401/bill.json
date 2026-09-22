@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/1401/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1401/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/113/s/1401/cosponsors?format=json"
+  },
+  "introducedDate": "2013-07-31",
+  "latestAction": {
+   "actionDate": "2013-07-31",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/1401",
+  "number": "1401",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/113/s/1401/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001061",
+    "firstName": "John",
+    "fullName": "Sen. Hoeven, John [R-ND]",
+    "isByRequest": "N",
+    "lastName": "Hoeven",
+    "party": "R",
+    "state": "ND",
+    "url": "https://api.congress.gov/v3/member/H001061?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 59,
+   "url": "https://api.congress.gov/v3/bill/113/s/1401/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1401/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1401/text?format=json"
+  },
+  "title": "Domestic Energy and Jobs Act",
+  "titles": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/113/s/1401/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:09:59Z"
+ },
+ "request": {
+  "billNumber": "1401",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

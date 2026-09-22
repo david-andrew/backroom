@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5820/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5820/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 38,
+   "countIncludingWithdrawnCosponsors": 40,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5820/cosponsors?format=json"
+  },
+  "introducedDate": "2010-07-22",
+  "latestAction": {
+   "actionDate": "2010-07-29",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5820",
+  "number": "5820",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000515",
+    "district": 1,
+    "firstName": "BOBBY",
+    "fullName": "Rep. Rush, Bobby L. [D-IL-1]",
+    "isByRequest": "N",
+    "lastName": "RUSH",
+    "middleName": "L.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/R000515?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5820/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5820/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5820/text?format=json"
+  },
+  "title": "Toxic Chemicals Safety Act of 2010",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5820/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:17:23Z",
+  "updateDateIncludingText": "2025-08-14T16:17:23Z"
+ },
+ "request": {
+  "billNumber": "5820",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

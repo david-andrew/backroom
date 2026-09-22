@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/1778/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1778/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/1778/cosponsors?format=json"
+  },
+  "introducedDate": "2009-10-14",
+  "latestAction": {
+   "actionDate": "2009-10-14",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/1778",
+  "number": "1778",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001181",
+    "firstName": "Jeanne",
+    "fullName": "Sen. Shaheen, Jeanne [D-NH]",
+    "isByRequest": "N",
+    "lastName": "Shaheen",
+    "party": "D",
+    "state": "NH",
+    "url": "https://api.congress.gov/v3/member/S001181?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/s/1778/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1778/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1778/text?format=json"
+  },
+  "title": "Access to Affordable Medicines Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/1778/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T16:19:05Z",
+  "updateDateIncludingText": "2025-08-14T16:19:05Z"
+ },
+ "request": {
+  "billNumber": "1778",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

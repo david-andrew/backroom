@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4300/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4300/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 72,
+   "countIncludingWithdrawnCosponsors": 72,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4300/cosponsors?format=json"
+  },
+  "introducedDate": "2009-12-11",
+  "latestAction": {
+   "actionDate": "2009-12-11",
+   "text": "Referred to House Rules"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/4300",
+  "number": "4300",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000266",
+    "district": 6,
+    "firstName": "JOHN",
+    "fullName": "Rep. Tierney, John F. [D-MA-6]",
+    "isByRequest": "N",
+    "lastName": "TIERNEY",
+    "middleName": "F.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/T000266?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4300/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4300/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4300/text?format=json"
+  },
+  "title": "Restoring America's Commitment to Consumers Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4300/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:16:43Z",
+  "updateDateIncludingText": "2025-08-14T16:16:43Z"
+ },
+ "request": {
+  "billNumber": "4300",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

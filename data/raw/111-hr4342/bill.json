@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4342/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4342/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4342/cosponsors?format=json"
+  },
+  "introducedDate": "2009-12-16",
+  "latestAction": {
+   "actionDate": "2009-12-16",
+   "text": "Referred to the House Committee on Financial Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/4342",
+  "number": "4342",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4342/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001147",
+    "district": 11,
+    "firstName": "Thaddeus",
+    "fullName": "Rep. McCotter, Thaddeus G. [R-MI-11]",
+    "isByRequest": "N",
+    "lastName": "McCotter",
+    "middleName": "G.",
+    "party": "R",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/M001147?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4342/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4342/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4342/text?format=json"
+  },
+  "title": "Taxpayers' Assets Recoupment Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4342/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:16:43Z",
+  "updateDateIncludingText": "2025-08-14T16:16:43Z"
+ },
+ "request": {
+  "billNumber": "4342",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

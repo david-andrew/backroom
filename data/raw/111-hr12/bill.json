@@ -1,0 +1,93 @@
+{
+ "bill": {
+  "actions": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/111/hr/12/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/12/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 200,
+   "countIncludingWithdrawnCosponsors": 200,
+   "url": "https://api.congress.gov/v3/bill/111/hr/12/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-06",
+  "latestAction": {
+   "actionDate": "2009-03-06",
+   "text": "Referred to the Subcommittee on Workforce Protections."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/12",
+  "notes": [
+   {
+    "links": [
+     {
+      "name": "H.R. 11",
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/11"
+     },
+     {
+      "name": "H.R. 12",
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/12"
+     },
+     {
+      "name": "H.Res. 5",
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/5"
+     }
+    ],
+    "text": "Pursuant to the provisions of H.Res. 5, the text of H.R. 12 as passed by the House will be appended to the end of H.R. 11 as new matter."
+   }
+  ],
+  "number": "12",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/12/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000216",
+    "district": 3,
+    "firstName": "ROSA",
+    "fullName": "Rep. DeLauro, Rosa L. [D-CT-3]",
+    "isByRequest": "N",
+    "lastName": "DELAURO",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/D000216?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/111/hr/12/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/12/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/12/text?format=json"
+  },
+  "title": "Paycheck Fairness Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/12/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "12",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

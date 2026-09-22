@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1123/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1123/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1123/cosponsors?format=json"
+  },
+  "introducedDate": "2009-02-23",
+  "latestAction": {
+   "actionDate": "2009-02-23",
+   "text": "Referred to the House Committee on Financial Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1123",
+  "number": "1123",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Housing and Community Development"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000009",
+    "district": 9,
+    "firstName": "MARCY",
+    "fullName": "Rep. Kaptur, Marcy [D-OH-9]",
+    "isByRequest": "N",
+    "lastName": "KAPTUR",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/K000009?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1123/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1123/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1123/text?format=json"
+  },
+  "title": "Produce the Note Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1123/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:20Z",
+  "updateDateIncludingText": "2025-08-14T16:15:20Z"
+ },
+ "request": {
+  "billNumber": "1123",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

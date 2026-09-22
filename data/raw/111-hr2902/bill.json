@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2902/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2902/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2902/cosponsors?format=json"
+  },
+  "introducedDate": "2009-06-16",
+  "latestAction": {
+   "actionDate": "2009-06-17",
+   "text": "Referred to the Subcommittee on Commerce, Trade and Consumer Protection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/2902",
+  "number": "2902",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001173",
+    "district": 29,
+    "firstName": "Eric",
+    "fullName": "Rep. Massa, Eric J. J. [D-NY-29]",
+    "isByRequest": "N",
+    "lastName": "Massa",
+    "middleName": "J. J.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/M001173?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2902/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2902/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2902/text?format=json"
+  },
+  "title": "Broadband Internet Fairness Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2902/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:16:01Z",
+  "updateDateIncludingText": "2025-08-14T16:16:01Z"
+ },
+ "request": {
+  "billNumber": "2902",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

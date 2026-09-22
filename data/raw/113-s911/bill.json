@@ -1,0 +1,64 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/911/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/911/committees?format=json"
+  },
+  "congress": 113,
+  "introducedDate": "2013-05-09",
+  "latestAction": {
+   "actionDate": "2013-05-09",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/911",
+  "number": "911",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000603",
+    "firstName": "Rand",
+    "fullName": "Sen. Paul, Rand [R-KY]",
+    "isByRequest": "N",
+    "lastName": "Paul",
+    "party": "R",
+    "state": "KY",
+    "url": "https://api.congress.gov/v3/member/P000603?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/113/s/911/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/911/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/911/text?format=json"
+  },
+  "title": "Emergency Transportation Safety Fund Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/911/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-12T18:39:03Z",
+  "updateDateIncludingText": "2025-08-12T18:39:03Z"
+ },
+ "request": {
+  "billNumber": "911",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

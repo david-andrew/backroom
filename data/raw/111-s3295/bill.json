@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/3295/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3295/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 49,
+   "countIncludingWithdrawnCosponsors": 49,
+   "url": "https://api.congress.gov/v3/bill/111/s/3295/cosponsors?format=json"
+  },
+  "introducedDate": "2010-04-30",
+  "latestAction": {
+   "actionDate": "2010-05-03",
+   "text": "Sponsor introductory remarks on measure. (CR S3029-3031)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/3295",
+  "number": "3295",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3295/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000148",
+    "firstName": "Charles",
+    "fullName": "Sen. Schumer, Charles E. [D-NY]",
+    "isByRequest": "N",
+    "lastName": "Schumer",
+    "middleName": "E.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/S000148?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/111/s/3295/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3295/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3295/text?format=json"
+  },
+  "title": "DISCLOSE Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/s/3295/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T16:19:55Z",
+  "updateDateIncludingText": "2025-08-14T16:19:55Z"
+ },
+ "request": {
+  "billNumber": "3295",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

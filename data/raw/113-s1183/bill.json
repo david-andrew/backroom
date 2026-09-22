@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/1183/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1183/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 38,
+   "countIncludingWithdrawnCosponsors": 38,
+   "url": "https://api.congress.gov/v3/bill/113/s/1183/cosponsors?format=json"
+  },
+  "introducedDate": "2013-06-19",
+  "latestAction": {
+   "actionDate": "2013-06-19",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/1183",
+  "number": "1183",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1183/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000250",
+    "firstName": "John",
+    "fullName": "Sen. Thune, John [R-SD]",
+    "isByRequest": "N",
+    "lastName": "Thune",
+    "middleName": "R.",
+    "party": "R",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/T000250?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/1183/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1183/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1183/text?format=json"
+  },
+  "title": "Death Tax Repeal Act of 2013",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/1183/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T14:30:24Z",
+  "updateDateIncludingText": "2025-12-05T14:30:24Z"
+ },
+ "request": {
+  "billNumber": "1183",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

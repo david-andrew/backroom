@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/802/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/802/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/113/s/802/cosponsors?format=json"
+  },
+  "introducedDate": "2013-04-24",
+  "latestAction": {
+   "actionDate": "2013-04-24",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/802",
+  "number": "802",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/802/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001049",
+    "firstName": "Kay",
+    "fullName": "Sen. Hagan, Kay R. [D-NC]",
+    "isByRequest": "N",
+    "lastName": "Hagan",
+    "middleName": "R.",
+    "party": "D",
+    "state": "NC",
+    "url": "https://api.congress.gov/v3/member/H001049?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/113/s/802/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/802/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/802/text?format=json"
+  },
+  "title": "Sensible Environmental Protection Act of 2013",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/802/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:12:48Z"
+ },
+ "request": {
+  "billNumber": "802",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

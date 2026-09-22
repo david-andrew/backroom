@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/2868/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/2868/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/113/s/2868/cosponsors?format=json"
+  },
+  "introducedDate": "2014-09-18",
+  "latestAction": {
+   "actionDate": "2014-09-18",
+   "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/2868",
+  "number": "2868",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000122",
+    "firstName": "John",
+    "fullName": "Sen. Reed, Jack [D-RI]",
+    "isByRequest": "N",
+    "lastName": "Reed",
+    "middleName": "F.",
+    "party": "D",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/R000122?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/113/s/2868/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/2868/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/2868/text?format=json"
+  },
+  "title": "A bill to establish a statute of limitations for certain actions of the Securities and Exchange Commission, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/2868/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T18:20:21Z",
+  "updateDateIncludingText": "2025-01-14T18:20:21Z"
+ },
+ "request": {
+  "billNumber": "2868",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

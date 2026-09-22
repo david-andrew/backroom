@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2382/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2382/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 21,
+   "countIncludingWithdrawnCosponsors": 21,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2382/cosponsors?format=json"
+  },
+  "introducedDate": "2009-05-13",
+  "latestAction": {
+   "actionDate": "2009-10-08",
+   "text": "Committee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/2382",
+  "number": "2382",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000800",
+    "firstName": "Peter",
+    "fullName": "Rep. Welch, Peter [D-VT-At Large]",
+    "isByRequest": "N",
+    "lastName": "Welch",
+    "party": "D",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/W000800?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2382/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2382/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2382/text?format=json"
+  },
+  "title": "Credit Card Interchange Fees Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2382/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:51Z",
+  "updateDateIncludingText": "2025-08-14T16:15:51Z"
+ },
+ "request": {
+  "billNumber": "2382",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

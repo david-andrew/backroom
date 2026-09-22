@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4789/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4789/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 82,
+   "countIncludingWithdrawnCosponsors": 82,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4789/cosponsors?format=json"
+  },
+  "introducedDate": "2010-03-09",
+  "latestAction": {
+   "actionDate": "2010-03-18",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/4789",
+  "number": "4789",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000556",
+    "district": 8,
+    "firstName": "Alan",
+    "fullName": "Rep. Grayson, Alan [D-FL-8]",
+    "isByRequest": "N",
+    "lastName": "Grayson",
+    "party": "D",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/G000556?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4789/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4789/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4789/text?format=json"
+  },
+  "title": "Public Option Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4789/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:17:00Z",
+  "updateDateIncludingText": "2025-08-14T16:17:00Z"
+ },
+ "request": {
+  "billNumber": "4789",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

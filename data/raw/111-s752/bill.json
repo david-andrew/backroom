@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/752/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/752/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/111/s/752/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-31",
+  "latestAction": {
+   "actionDate": "2009-03-31",
+   "text": "Read twice and referred to the Committee on Rules and Administration. (text of measure as introduced: CR S4074-4080)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/752",
+  "number": "752",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/752/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000563",
+    "firstName": "Richard",
+    "fullName": "Sen. Durbin, Richard J. [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Durbin",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000563?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/111/s/752/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/752/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/752/text?format=json"
+  },
+  "title": "Fair Elections Now Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/752/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-06T04:37:23Z",
+  "updateDateIncludingText": "2025-12-06T04:37:23Z"
+ },
+ "request": {
+  "billNumber": "752",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/759/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/759/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/111/hr/759/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-28",
+  "latestAction": {
+   "actionDate": "2009-02-02",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/759",
+  "number": "759",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000355",
+    "district": 15,
+    "firstName": "JOHN",
+    "fullName": "Rep. Dingell, John D. [D-MI-15]",
+    "isByRequest": "N",
+    "lastName": "DINGELL",
+    "middleName": "D.",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/D000355?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/111/hr/759/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/759/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/759/text?format=json"
+  },
+  "title": "Food and Drug Administration Globalization Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/759/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:11Z",
+  "updateDateIncludingText": "2025-08-14T16:15:11Z"
+ },
+ "request": {
+  "billNumber": "759",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

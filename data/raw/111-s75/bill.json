@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/75/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/75/committees?format=json"
+  },
+  "congress": 111,
+  "introducedDate": "2009-01-06",
+  "latestAction": {
+   "actionDate": "2009-01-06",
+   "text": "Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S74)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/75",
+  "number": "75",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000305",
+    "firstName": "HERBERT",
+    "fullName": "Sen. Kohl, Herb [D-WI]",
+    "isByRequest": "N",
+    "lastName": "KOHL",
+    "middleName": "H.",
+    "party": "D",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/K000305?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/75/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/75/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/75/text?format=json"
+  },
+  "title": "Generics First Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/75/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T16:18:11Z",
+  "updateDateIncludingText": "2025-08-14T16:18:11Z"
+ },
+ "request": {
+  "billNumber": "75",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

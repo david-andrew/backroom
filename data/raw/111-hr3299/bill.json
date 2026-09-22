@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3299/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3299/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3299/cosponsors?format=json"
+  },
+  "introducedDate": "2009-07-22",
+  "latestAction": {
+   "actionDate": "2009-07-22",
+   "text": "Referred to House Ways and Means"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/3299",
+  "number": "3299",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000009",
+    "district": 9,
+    "firstName": "MARCY",
+    "fullName": "Rep. Kaptur, Marcy [D-OH-9]",
+    "isByRequest": "N",
+    "lastName": "KAPTUR",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/K000009?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3299/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3299/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3299/text?format=json"
+  },
+  "title": "Seed Availability and Competition Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3299/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:16:17Z",
+  "updateDateIncludingText": "2025-08-14T16:16:17Z"
+ },
+ "request": {
+  "billNumber": "3299",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/1659/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1659/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/113/s/1659/cosponsors?format=json"
+  },
+  "introducedDate": "2013-11-06",
+  "latestAction": {
+   "actionDate": "2013-11-07",
+   "text": "Sponsor introductory remarks on measure. (CR S7912-7913)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/1659",
+  "number": "1659",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Education"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1659/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000563",
+    "firstName": "Richard",
+    "fullName": "Sen. Durbin, Richard J. [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Durbin",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000563?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/113/s/1659/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1659/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1659/text?format=json"
+  },
+  "title": "POST Act of 2013",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/113/s/1659/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T15:24:26Z",
+  "updateDateIncludingText": "2025-12-05T15:24:26Z"
+ },
+ "request": {
+  "billNumber": "1659",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

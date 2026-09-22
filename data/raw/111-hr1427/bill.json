@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1427/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1427/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 17,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1427/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-11",
+  "latestAction": {
+   "actionDate": "2009-03-12",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1427",
+  "number": "1427",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1427/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000215",
+    "district": 30,
+    "firstName": "HENRY",
+    "fullName": "Rep. Waxman, Henry A. [D-CA-30]",
+    "isByRequest": "N",
+    "lastName": "WAXMAN",
+    "middleName": "A.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/W000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1427/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1427/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1427/text?format=json"
+  },
+  "title": "Promoting Innovation and Access to Life-Saving Medicine Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1427/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T20:10:08Z",
+  "updateDateIncludingText": "2025-12-05T20:10:08Z"
+ },
+ "request": {
+  "billNumber": "1427",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

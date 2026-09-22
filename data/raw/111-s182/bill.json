@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/s/182/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/182/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 42,
+   "countIncludingWithdrawnCosponsors": 42,
+   "url": "https://api.congress.gov/v3/bill/111/s/182/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-08",
+  "latestAction": {
+   "actionDate": "2010-03-11",
+   "text": "Committee on Health, Education, Labor, and Pensions. Hearings held. Hearings printed: S.Hrg. 111-1135."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/182",
+  "number": "182",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/182/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001041",
+    "firstName": "HILLARY",
+    "fullName": "Sen. Clinton, Hillary Rodham [D-NY]",
+    "isByRequest": "N",
+    "lastName": "CLINTON",
+    "middleName": "R",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/C001041?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/111/s/182/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/182/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/182/text?format=json"
+  },
+  "title": "Paycheck Fairness Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/182/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T13:48:30Z",
+  "updateDateIncludingText": "2025-12-05T13:48:30Z"
+ },
+ "request": {
+  "billNumber": "182",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

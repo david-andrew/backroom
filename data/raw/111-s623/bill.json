@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/623/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/623/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/111/s/623/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-17",
+  "latestAction": {
+   "actionDate": "2009-03-17",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text of measure as introduced: CR S3183-3185)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/623",
+  "number": "623",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/623/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000361",
+    "firstName": "JAY",
+    "fullName": "Sen. Rockefeller, John D., IV [D-WV]",
+    "isByRequest": "N",
+    "lastName": "ROCKEFELLER",
+    "party": "D",
+    "state": "WV",
+    "url": "https://api.congress.gov/v3/member/R000361?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/s/623/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/623/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/623/text?format=json"
+  },
+  "title": "Pre-existing Condition Patient Protection Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/623/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T16:18:31Z",
+  "updateDateIncludingText": "2025-08-14T16:18:31Z"
+ },
+ "request": {
+  "billNumber": "623",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

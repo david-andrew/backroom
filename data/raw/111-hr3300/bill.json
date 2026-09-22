@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3300/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3300/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3300/cosponsors?format=json"
+  },
+  "introducedDate": "2009-07-22",
+  "latestAction": {
+   "actionDate": "2010-06-22",
+   "text": "Referred to the Subcommittee on General Farm Commodities and Risk Management."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/3300",
+  "number": "3300",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001174",
+    "district": 13,
+    "firstName": "Michael",
+    "fullName": "Rep. McMahon, Michael E. [D-NY-13]",
+    "isByRequest": "N",
+    "lastName": "McMahon",
+    "middleName": "E.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/M001174?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3300/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3300/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3300/text?format=json"
+  },
+  "title": "Derivative Trading Accountability and Disclosure Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3300/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:16:12Z",
+  "updateDateIncludingText": "2025-08-14T16:16:12Z"
+ },
+ "request": {
+  "billNumber": "3300",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

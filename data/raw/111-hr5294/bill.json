@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5294/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5294/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5294/cosponsors?format=json"
+  },
+  "introducedDate": "2010-05-13",
+  "latestAction": {
+   "actionDate": "2010-05-13",
+   "text": "Referred to the House Committee on Energy and Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5294",
+  "number": "5294",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000571",
+    "firstName": "DENNY",
+    "fullName": "Rep. Rehberg, Denny [R-MT-At Large]",
+    "isByRequest": "N",
+    "lastName": "REHBERG",
+    "party": "R",
+    "state": "MT",
+    "url": "https://api.congress.gov/v3/member/R000571?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5294/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5294/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5294/text?format=json"
+  },
+  "title": "LEASE Act of 2010",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5294/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:17:15Z",
+  "updateDateIncludingText": "2025-08-14T16:17:15Z"
+ },
+ "request": {
+  "billNumber": "5294",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

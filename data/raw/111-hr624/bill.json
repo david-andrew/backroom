@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/624/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/624/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 36,
+   "countIncludingWithdrawnCosponsors": 36,
+   "url": "https://api.congress.gov/v3/bill/111/hr/624/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-21",
+  "latestAction": {
+   "actionDate": "2009-01-22",
+   "text": "Referred to the Subcommittee on Aviation."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/624",
+  "number": "624",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/624/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000460",
+    "district": 1,
+    "firstName": "MIKE",
+    "fullName": "Rep. Thompson, Mike [D-CA-1]",
+    "isByRequest": "N",
+    "lastName": "THOMPSON",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/T000460?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/624/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/624/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/624/text?format=json"
+  },
+  "title": "Airline Passenger Bill of Rights Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/624/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T21:10:19Z",
+  "updateDateIncludingText": "2025-12-05T21:10:19Z"
+ },
+ "request": {
+  "billNumber": "624",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

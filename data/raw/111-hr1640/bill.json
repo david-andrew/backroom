@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1640/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1640/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 18,
+   "countIncludingWithdrawnCosponsors": 18,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1640/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-19",
+  "latestAction": {
+   "actionDate": "2009-03-19",
+   "text": "Referred to the House Committee on Financial Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1640",
+  "number": "1640",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1640/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000627",
+    "district": 22,
+    "firstName": "MAURICE",
+    "fullName": "Rep. Hinchey, Maurice D. [D-NY-22]",
+    "isByRequest": "N",
+    "lastName": "HINCHEY",
+    "middleName": "D.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/H000627?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1640/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1640/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1640/text?format=json"
+  },
+  "title": "Interest Rate Reduction Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1640/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T19:32:08Z",
+  "updateDateIncludingText": "2025-12-05T19:32:08Z"
+ },
+ "request": {
+  "billNumber": "1640",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

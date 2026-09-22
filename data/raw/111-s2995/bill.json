@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/2995/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/2995/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/111/s/2995/cosponsors?format=json"
+  },
+  "introducedDate": "2010-02-04",
+  "latestAction": {
+   "actionDate": "2010-03-04",
+   "text": "Committee on Environment and Public Works Senate Subcommittee on Clean Air and Nuclear Safety. Hearings held. With printed Hearing: S.Hrg. 111-1228."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/2995",
+  "number": "2995",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000174",
+    "firstName": "Thomas",
+    "fullName": "Sen. Carper, Thomas R. [D-DE]",
+    "isByRequest": "N",
+    "lastName": "Carper",
+    "middleName": "R.",
+    "party": "D",
+    "state": "DE",
+    "url": "https://api.congress.gov/v3/member/C000174?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/111/s/2995/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/2995/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/2995/text?format=json"
+  },
+  "title": "Clean Air Act Amendments of 2010",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/2995/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:13:20Z"
+ },
+ "request": {
+  "billNumber": "2995",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

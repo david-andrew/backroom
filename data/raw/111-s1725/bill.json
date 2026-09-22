@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/1725/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1725/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/1725/cosponsors?format=json"
+  },
+  "introducedDate": "2009-09-29",
+  "latestAction": {
+   "actionDate": "2009-09-29",
+   "text": "Read twice and referred to the Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/1725",
+  "number": "1725",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Armed Forces and National Security"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000388",
+    "firstName": "CHRISTOPHER",
+    "fullName": "Sen. Dodd, Christopher J. [D-CT]",
+    "isByRequest": "N",
+    "lastName": "DODD",
+    "middleName": "JOHN",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/D000388?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/s/1725/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1725/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/1725/text?format=json"
+  },
+  "title": "Retroactive Immunity Repeal Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/1725/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:53:02Z"
+ },
+ "request": {
+  "billNumber": "1725",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

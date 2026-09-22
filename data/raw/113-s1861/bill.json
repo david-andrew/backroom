@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/1861/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1861/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/1861/cosponsors?format=json"
+  },
+  "introducedDate": "2013-12-19",
+  "latestAction": {
+   "actionDate": "2013-12-19",
+   "text": "Read twice and referred to the Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/1861",
+  "number": "1861",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1861/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001056",
+    "firstName": "John",
+    "fullName": "Sen. Cornyn, John [R-TX]",
+    "isByRequest": "N",
+    "lastName": "Cornyn",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/C001056?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/113/s/1861/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1861/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1861/text?format=json"
+  },
+  "title": "Taxpayer Protection and Responsible Resolution Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/1861/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "1861",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/687/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/687/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/111/hr/687/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-26",
+  "latestAction": {
+   "actionDate": "2009-01-27",
+   "text": "Referred to the Subcommittee on Highways and Transit."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/687",
+  "number": "687",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000450",
+    "district": 5,
+    "firstName": "Virginia",
+    "fullName": "Rep. Foxx, Virginia [R-NC-5]",
+    "isByRequest": "N",
+    "lastName": "Foxx",
+    "party": "R",
+    "state": "NC",
+    "url": "https://api.congress.gov/v3/member/F000450?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/687/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/687/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/687/text?format=json"
+  },
+  "title": "Highway Trust Fund Reform Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/687/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:12Z",
+  "updateDateIncludingText": "2025-08-14T16:15:12Z"
+ },
+ "request": {
+  "billNumber": "687",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

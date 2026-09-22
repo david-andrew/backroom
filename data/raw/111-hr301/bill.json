@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/301/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/301/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 47,
+   "countIncludingWithdrawnCosponsors": 47,
+   "url": "https://api.congress.gov/v3/bill/111/hr/301/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-08",
+  "latestAction": {
+   "actionDate": "2009-01-13",
+   "text": "Sponsor introductory remarks on measure. (CR H187-188)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/301",
+  "number": "301",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/301/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000182",
+    "district": 19,
+    "firstName": "Randy",
+    "fullName": "Rep. Neugebauer, Randy [R-TX-19]",
+    "isByRequest": "N",
+    "lastName": "Neugebauer",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/N000182?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/111/hr/301/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/301/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/301/text?format=json"
+  },
+  "title": "Economic Growth Through Tax Stimulus Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/301/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:00Z",
+  "updateDateIncludingText": "2025-08-14T16:15:00Z"
+ },
+ "request": {
+  "billNumber": "301",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

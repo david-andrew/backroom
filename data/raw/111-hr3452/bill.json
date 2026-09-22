@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3452/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3452/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3452/cosponsors?format=json"
+  },
+  "introducedDate": "2009-07-31",
+  "latestAction": {
+   "actionDate": "2009-07-31",
+   "text": "Referred to House Financial Services"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/3452",
+  "number": "3452",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3452/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000009",
+    "district": 9,
+    "firstName": "MARCY",
+    "fullName": "Rep. Kaptur, Marcy [D-OH-9]",
+    "isByRequest": "N",
+    "lastName": "KAPTUR",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/K000009?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3452/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3452/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3452/text?format=json"
+  },
+  "title": "Recoupment of Wall Street Bonus Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3452/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-11-28T19:08:15Z",
+  "updateDateIncludingText": "2025-11-28T19:08:15Z"
+ },
+ "request": {
+  "billNumber": "3452",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

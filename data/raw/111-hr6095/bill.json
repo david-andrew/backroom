@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6095/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6095/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6095/cosponsors?format=json"
+  },
+  "introducedDate": "2010-08-10",
+  "latestAction": {
+   "actionDate": "2010-08-10",
+   "text": "Referred to House Ways and Means"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/6095",
+  "number": "6095",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000355",
+    "district": 15,
+    "firstName": "JOHN",
+    "fullName": "Rep. Dingell, John D. [D-MI-15]",
+    "isByRequest": "N",
+    "lastName": "DINGELL",
+    "middleName": "D.",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/D000355?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6095/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6095/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6095/text?format=json"
+  },
+  "title": "To amend title XVIII of the Social Security Act to preserve integrated care for durable medical equipment under the competitive bidding program for qualified hospital-related DME entities.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6095/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:32:52Z",
+  "updateDateIncludingText": "2025-01-02T16:32:52Z"
+ },
+ "request": {
+  "billNumber": "6095",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

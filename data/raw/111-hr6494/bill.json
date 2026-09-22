@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6494/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6494/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6494/cosponsors?format=json"
+  },
+  "introducedDate": "2010-12-02",
+  "latestAction": {
+   "actionDate": "2010-12-22",
+   "text": "Read twice and referred to the Committee on Armed Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/6494",
+  "number": "6494",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Armed Forces and National Security"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000074",
+    "district": 4,
+    "firstName": "GENE",
+    "fullName": "Rep. Taylor, Gene [D-MS-4]",
+    "isByRequest": "N",
+    "lastName": "TAYLOR",
+    "party": "D",
+    "state": "MS",
+    "url": "https://api.congress.gov/v3/member/T000074?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6494/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6494/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6494/text?format=json"
+  },
+  "title": "To amend the National Defense Authorization Act for Fiscal Year 2010 to improve the Littoral Combat Ship program of the Navy.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6494/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-06-06T14:17:56Z",
+  "updateDateIncludingText": "2025-06-06T14:17:56Z"
+ },
+ "request": {
+  "billNumber": "6494",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1549/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1549/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 127,
+   "countIncludingWithdrawnCosponsors": 128,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1549/cosponsors?format=json"
+  },
+  "introducedDate": "2009-03-17",
+  "latestAction": {
+   "actionDate": "2009-07-13",
+   "text": "Committee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/1549",
+  "number": "1549",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1549/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000480",
+    "district": 28,
+    "firstName": "LOUISE",
+    "fullName": "Rep. Slaughter, Louise McIntosh [D-NY-28]",
+    "isByRequest": "N",
+    "lastName": "SLAUGHTER",
+    "middleName": "M.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/S000480?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1549/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1549/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1549/text?format=json"
+  },
+  "title": "Preservation of Antibiotics for Medical Treatment Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/1549/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T17:25:10Z",
+  "updateDateIncludingText": "2025-12-05T17:25:10Z"
+ },
+ "request": {
+  "billNumber": "1549",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

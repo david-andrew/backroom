@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2712/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2712/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 14,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2712/cosponsors?format=json"
+  },
+  "introducedDate": "2009-06-04",
+  "latestAction": {
+   "actionDate": "2009-06-04",
+   "text": "Referred to House Armed Services"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/2712",
+  "number": "2712",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2712/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001062",
+    "district": 11,
+    "firstName": "K.",
+    "fullName": "Rep. Conaway, K. Michael [R-TX-11]",
+    "isByRequest": "N",
+    "lastName": "Conaway",
+    "middleName": "Michael",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/C001062?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2712/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2712/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2712/text?format=json"
+  },
+  "title": "Detainee Photographic Records Protection Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/2712/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T16:53:56Z",
+  "updateDateIncludingText": "2025-12-05T16:53:56Z"
+ },
+ "request": {
+  "billNumber": "2712",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

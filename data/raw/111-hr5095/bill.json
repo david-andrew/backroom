@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5095/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5095/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 40,
+   "countIncludingWithdrawnCosponsors": 40,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5095/cosponsors?format=json"
+  },
+  "introducedDate": "2010-04-21",
+  "latestAction": {
+   "actionDate": "2010-04-21",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5095",
+  "number": "5095",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000594",
+    "district": 3,
+    "firstName": "Erik",
+    "fullName": "Rep. Paulsen, Erik [R-MN-3]",
+    "isByRequest": "N",
+    "lastName": "Paulsen",
+    "party": "R",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/P000594?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5095/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5095/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5095/text?format=json"
+  },
+  "title": "Protect Medical Innovation Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5095/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:17:08Z",
+  "updateDateIncludingText": "2025-08-14T16:17:08Z"
+ },
+ "request": {
+  "billNumber": "5095",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

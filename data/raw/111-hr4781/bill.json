@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4781/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4781/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4781/cosponsors?format=json"
+  },
+  "introducedDate": "2010-03-04",
+  "latestAction": {
+   "actionDate": "2010-03-04",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/4781",
+  "number": "4781",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000260",
+    "district": 4,
+    "firstName": "TODD",
+    "fullName": "Rep. Tiahrt, Todd [R-KS-4]",
+    "isByRequest": "N",
+    "lastName": "TIAHRT",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/T000260?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4781/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4781/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4781/text?format=json"
+  },
+  "title": "Keeping American Businesses Competitive Act of 2010",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/4781/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:17:00Z",
+  "updateDateIncludingText": "2025-08-14T16:17:00Z"
+ },
+ "request": {
+  "billNumber": "4781",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

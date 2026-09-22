@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/3047/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3047/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/111/s/3047/cosponsors?format=json"
+  },
+  "introducedDate": "2010-02-25",
+  "latestAction": {
+   "actionDate": "2010-02-25",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/3047",
+  "number": "3047",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "I000055",
+    "firstName": "Johnny",
+    "fullName": "Sen. Isakson, Johnny [R-GA]",
+    "isByRequest": "N",
+    "lastName": "Isakson",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/I000055?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/111/s/3047/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3047/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/3047/text?format=json"
+  },
+  "title": "Tax Code Termination Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/3047/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T16:19:40Z",
+  "updateDateIncludingText": "2025-08-14T16:19:40Z"
+ },
+ "request": {
+  "billNumber": "3047",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

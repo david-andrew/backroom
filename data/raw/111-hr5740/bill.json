@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5740/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5740/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5740/cosponsors?format=json"
+  },
+  "introducedDate": "2010-07-14",
+  "latestAction": {
+   "actionDate": "2010-07-14",
+   "text": "Referred to the House Committee on Energy and Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/5740",
+  "number": "5740",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000326",
+    "district": 10,
+    "firstName": "EDOLPHUS",
+    "fullName": "Rep. Towns, Edolphus [D-NY-10]",
+    "isByRequest": "N",
+    "lastName": "TOWNS",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/T000326?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5740/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5740/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5740/text?format=json"
+  },
+  "title": "To provide for the mandatory recall of adulterated or misbranded drugs.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/5740/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:31:27Z",
+  "updateDateIncludingText": "2025-01-02T16:31:27Z"
+ },
+ "request": {
+  "billNumber": "5740",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/122/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/122/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/113/s/122/cosponsors?format=json"
+  },
+  "introducedDate": "2013-01-23",
+  "latestAction": {
+   "actionDate": "2013-01-23",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/122",
+  "number": "122",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000286",
+    "firstName": "SAXBY",
+    "fullName": "Sen. Chambliss, Saxby [R-GA]",
+    "isByRequest": "N",
+    "lastName": "CHAMBLISS",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/C000286?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/113/s/122/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/122/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/122/text?format=json"
+  },
+  "title": "Fair Tax Act of 2013",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/122/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-12T18:37:52Z",
+  "updateDateIncludingText": "2025-08-12T18:37:52Z"
+ },
+ "request": {
+  "billNumber": "122",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

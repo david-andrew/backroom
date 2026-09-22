@@ -1,0 +1,64 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/100/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/100/committees?format=json"
+  },
+  "congress": 113,
+  "introducedDate": "2013-01-23",
+  "latestAction": {
+   "actionDate": "2013-01-23",
+   "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/100",
+  "number": "100",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000127",
+    "firstName": "David",
+    "fullName": "Sen. Vitter, David [R-LA]",
+    "isByRequest": "N",
+    "lastName": "Vitter",
+    "party": "R",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/V000127?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/113/s/100/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/100/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/100/text?format=json"
+  },
+  "title": "Terminating the Expansion of Too-Big-To-Fail Act of 2013",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/100/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-12T18:37:29Z",
+  "updateDateIncludingText": "2025-08-12T18:37:29Z"
+ },
+ "request": {
+  "billNumber": "100",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

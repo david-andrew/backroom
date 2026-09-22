@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/113/s/1234/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1234/committees?format=json"
+  },
+  "congress": 113,
+  "cosponsors": {
+   "count": 18,
+   "countIncludingWithdrawnCosponsors": 18,
+   "url": "https://api.congress.gov/v3/bill/113/s/1234/cosponsors?format=json"
+  },
+  "introducedDate": "2013-06-26",
+  "latestAction": {
+   "actionDate": "2013-06-26",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/113th-congress/senate-bill/1234",
+  "number": "1234",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1234/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "I000024",
+    "firstName": "Jim",
+    "fullName": "Sen. Inhofe, James M. [R-OK]",
+    "isByRequest": "N",
+    "lastName": "Inhofe",
+    "party": "R",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/I000024?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/113/s/1234/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1234/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/113/s/1234/text?format=json"
+  },
+  "title": "Fracturing Regulations are Effective in State Hands Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/113/s/1234/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:09:59Z"
+ },
+ "request": {
+  "billNumber": "1234",
+  "billType": "s",
+  "congress": "113",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

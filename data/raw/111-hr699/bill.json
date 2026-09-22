@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/111/hr/699/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/699/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 39,
+   "countIncludingWithdrawnCosponsors": 39,
+   "url": "https://api.congress.gov/v3/bill/111/hr/699/cosponsors?format=json"
+  },
+  "introducedDate": "2009-01-27",
+  "latestAction": {
+   "actionDate": "2009-02-26",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/699",
+  "number": "699",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000011",
+    "district": 3,
+    "firstName": "NICK",
+    "fullName": "Rep. Rahall, Nick J., II [D-WV-3]",
+    "isByRequest": "N",
+    "lastName": "RAHALL",
+    "middleName": "J.",
+    "party": "D",
+    "state": "WV",
+    "url": "https://api.congress.gov/v3/member/R000011?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/111/hr/699/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/699/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/699/text?format=json"
+  },
+  "title": "Hardrock Mining and Reclamation Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/699/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:15:11Z",
+  "updateDateIncludingText": "2025-08-14T16:15:11Z"
+ },
+ "request": {
+  "billNumber": "699",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

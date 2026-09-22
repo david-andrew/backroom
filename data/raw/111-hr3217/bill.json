@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3217/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3217/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 28,
+   "countIncludingWithdrawnCosponsors": 28,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3217/cosponsors?format=json"
+  },
+  "introducedDate": "2009-07-14",
+  "latestAction": {
+   "actionDate": "2009-07-15",
+   "text": "Referred to the Subcommittee on Commerce, Trade and Consumer Protection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/3217",
+  "number": "3217",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3217/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000275",
+    "district": 3,
+    "firstName": "JOHN",
+    "fullName": "Rep. Shadegg, John B. [R-AZ-3]",
+    "isByRequest": "N",
+    "lastName": "SHADEGG",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/S000275?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3217/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3217/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3217/text?format=json"
+  },
+  "title": "Health Care Choice Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/3217/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T16:16:16Z",
+  "updateDateIncludingText": "2025-08-14T16:16:16Z"
+ },
+ "request": {
+  "billNumber": "3217",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

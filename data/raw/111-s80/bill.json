@@ -1,0 +1,64 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/s/80/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/80/committees?format=json"
+  },
+  "congress": 111,
+  "introducedDate": "2009-01-06",
+  "latestAction": {
+   "actionDate": "2009-01-06",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/senate-bill/80",
+  "number": "80",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000127",
+    "firstName": "David",
+    "fullName": "Sen. Vitter, David [R-LA]",
+    "isByRequest": "N",
+    "lastName": "Vitter",
+    "party": "R",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/V000127?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/111/s/80/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/80/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/s/80/text?format=json"
+  },
+  "title": "Pharmaceutical Market Access Act of 2009",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/s/80/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T16:18:07Z",
+  "updateDateIncludingText": "2025-08-14T16:18:07Z"
+ },
+ "request": {
+  "billNumber": "80",
+  "billType": "s",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

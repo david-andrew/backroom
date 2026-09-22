@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6126/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6126/committees?format=json"
+  },
+  "congress": 111,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6126/cosponsors?format=json"
+  },
+  "introducedDate": "2010-09-15",
+  "latestAction": {
+   "actionDate": "2010-09-15",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/111th-congress/house-bill/6126",
+  "number": "6126",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000559",
+    "district": 10,
+    "firstName": "John",
+    "fullName": "Rep. Garamendi, John [D-CA-10]",
+    "isByRequest": "N",
+    "lastName": "Garamendi",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/G000559?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6126/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6126/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6126/text?format=json"
+  },
+  "title": "To provide for 100 percent expensing for capital property placed in service on or after September 8, 2010, and before 2012.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/111/hr/6126/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:32:40Z",
+  "updateDateIncludingText": "2025-01-02T16:32:40Z"
+ },
+ "request": {
+  "billNumber": "6126",
+  "billType": "hr",
+  "congress": "111",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
