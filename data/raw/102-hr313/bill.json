@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/313/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/313/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/313/cosponsors?format=json"
+  },
+  "introducedDate": "1991-01-03",
+  "latestAction": {
+   "actionDate": "1991-01-03",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/313",
+  "number": "313",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000873",
+    "district": 13,
+    "firstName": "PHILIP",
+    "fullName": "Rep. Crane, Philip M. [R-IL-12]",
+    "isByRequest": "N",
+    "lastName": "CRANE",
+    "middleName": "M.",
+    "party": "R",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/C000873?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 26,
+   "url": "https://api.congress.gov/v3/bill/102/hr/313/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/313/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/313/text?format=json"
+  },
+  "title": "Crane Tithe Tax Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/313/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:15:40Z",
+  "updateDateIncludingText": "2025-08-26T15:15:40Z"
+ },
+ "request": {
+  "billNumber": "313",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

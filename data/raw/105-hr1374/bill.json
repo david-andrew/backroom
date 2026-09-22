@@ -1,0 +1,66 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1374/actions?format=json"
+  },
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1374/committees?format=json"
+  },
+  "congress": 105,
+  "introducedDate": "1997-04-17",
+  "latestAction": {
+   "actionDate": "1997-04-29",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/1374",
+  "number": "1374",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000222",
+    "district": 9,
+    "firstName": "RONALD",
+    "fullName": "Rep. Dellums, Ronald V. [D-CA-9]",
+    "isByRequest": "N",
+    "lastName": "DELLUMS",
+    "middleName": "V.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/D000222?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 161,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1374/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1374/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1374/text?format=json"
+  },
+  "title": "Josephine Butler United States Health Service Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1374/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-08T19:31:27Z",
+  "updateDateIncludingText": "2026-09-08T19:32:00Z"
+ },
+ "request": {
+  "billNumber": "1374",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

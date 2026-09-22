@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/604/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/604/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/105/hr/604/cosponsors?format=json"
+  },
+  "introducedDate": "1997-02-05",
+  "latestAction": {
+   "actionDate": "1997-03-05",
+   "text": "Referred to the Subcommittee on Courts and Intellectual Property."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/604",
+  "number": "604",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000021",
+    "district": 23,
+    "firstName": "ELTON",
+    "fullName": "Rep. Gallegly, Elton [R-CA-23]",
+    "isByRequest": "N",
+    "lastName": "GALLEGLY",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/G000021?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/105/hr/604/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/604/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/604/text?format=json"
+  },
+  "title": "Copyright Term Extension Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/604/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:13:16Z",
+  "updateDateIncludingText": "2025-08-21T16:13:16Z"
+ },
+ "request": {
+  "billNumber": "604",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

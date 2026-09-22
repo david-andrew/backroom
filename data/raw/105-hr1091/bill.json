@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1091/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1091/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1091/cosponsors?format=json"
+  },
+  "introducedDate": "1997-03-18",
+  "latestAction": {
+   "actionDate": "1997-03-18",
+   "text": "Referred to the House Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/1091",
+  "number": "1091",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001044",
+    "district": 3,
+    "firstName": "BOB",
+    "fullName": "Rep. Stump, Bob [R-AZ-3]",
+    "isByRequest": "N",
+    "lastName": "STUMP",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/S001044?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1091/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1091/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1091/text?format=json"
+  },
+  "title": "Health Care Liability Reform Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1091/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:12:15Z",
+  "updateDateIncludingText": "2025-08-21T16:12:15Z"
+ },
+ "request": {
+  "billNumber": "1091",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

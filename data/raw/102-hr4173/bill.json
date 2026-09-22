@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4173/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4173/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4173/cosponsors?format=json"
+  },
+  "introducedDate": "1992-02-05",
+  "latestAction": {
+   "actionDate": "1992-02-13",
+   "text": "Referred to the Subcommittee on Trade."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/4173",
+  "number": "4173",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Foreign Trade and International Finance"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000342",
+    "district": 5,
+    "firstName": "WILLIAM",
+    "fullName": "Rep. Lipinski, William O. [D-IL-5]",
+    "isByRequest": "N",
+    "lastName": "LIPINSKI",
+    "middleName": "O.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/L000342?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4173/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4173/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4173/text?format=json"
+  },
+  "title": "Rebuild the American Automobile Industry Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4173/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:15:36Z",
+  "updateDateIncludingText": "2025-08-26T15:15:36Z"
+ },
+ "request": {
+  "billNumber": "4173",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

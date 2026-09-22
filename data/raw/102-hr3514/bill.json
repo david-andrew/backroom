@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3514/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3514/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3514/cosponsors?format=json"
+  },
+  "introducedDate": "1991-10-08",
+  "latestAction": {
+   "actionDate": "1991-10-08",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/3514",
+  "number": "3514",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000873",
+    "district": 13,
+    "firstName": "PHILIP",
+    "fullName": "Rep. Crane, Philip M. [R-IL-12]",
+    "isByRequest": "N",
+    "lastName": "CRANE",
+    "middleName": "M.",
+    "party": "R",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/C000873?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3514/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3514/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3514/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to provide for a maximum long-term capital gains rate of 15 percent and indexing of certain capital assets, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3514/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:41:36Z"
+ },
+ "request": {
+  "billNumber": "3514",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

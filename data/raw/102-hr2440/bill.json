@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2440/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2440/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2440/cosponsors?format=json"
+  },
+  "introducedDate": "1991-05-22",
+  "latestAction": {
+   "actionDate": "1991-10-09",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/2440",
+  "number": "2440",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000148",
+    "district": 10,
+    "firstName": "Charles",
+    "fullName": "Rep. Schumer, Charles E. [D-NY-10]",
+    "isByRequest": "N",
+    "lastName": "Schumer",
+    "middleName": "E.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/S000148?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2440/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2440/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2440/text?format=json"
+  },
+  "title": "Credit and Charge Card Disclosure Amendments of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2440/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:14:10Z",
+  "updateDateIncludingText": "2025-08-26T15:14:10Z"
+ },
+ "request": {
+  "billNumber": "2440",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/3239/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/3239/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/3239/cosponsors?format=json"
+  },
+  "introducedDate": "1990-10-24",
+  "latestAction": {
+   "actionDate": "1990-10-24",
+   "text": "Read twice and referred to the Committee on Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/3239",
+  "number": "3239",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/3239/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000401",
+    "firstName": "ROBERT",
+    "fullName": "Sen. Dole, Robert J. [R-KS]",
+    "isByRequest": "Y",
+    "lastName": "DOLE",
+    "middleName": "JOSEPH",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/D000401?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/101/s/3239/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/3239/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/3239/text?format=json"
+  },
+  "title": "Civil Rights Act of 1990",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/3239/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:54:30Z"
+ },
+ "request": {
+  "billNumber": "3239",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

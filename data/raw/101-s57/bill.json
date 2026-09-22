@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/57/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/57/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/57/cosponsors?format=json"
+  },
+  "introducedDate": "1989-01-25",
+  "latestAction": {
+   "actionDate": "1989-01-25",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/57",
+  "number": "57",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000148",
+    "firstName": "JOHN",
+    "fullName": "Sen. Kerry, John F. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "KERRY",
+    "middleName": "FORBES",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/K000148?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 34,
+   "url": "https://api.congress.gov/v3/bill/101/s/57/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/57/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/57/text?format=json"
+  },
+  "title": "A bill to amend the Clean Air Act to control certain sources of sulfur dioxide and oxides of nitrogen to reduce acid deposition, and for other purposes.",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/57/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:44Z"
+ },
+ "request": {
+  "billNumber": "57",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

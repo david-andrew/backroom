@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3905/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3905/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 12,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3905/cosponsors?format=json"
+  },
+  "introducedDate": "1998-05-20",
+  "latestAction": {
+   "actionDate": "1998-05-20",
+   "text": "Referred to the House Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/3905",
+  "number": "3905",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001022",
+    "district": 6,
+    "firstName": "HENRY",
+    "fullName": "Rep. Hyde, Henry J. [R-IL-6]",
+    "isByRequest": "N",
+    "lastName": "HYDE",
+    "middleName": "J.",
+    "party": "R",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/H001022?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 64,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3905/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3905/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3905/text?format=json"
+  },
+  "title": "Fairness in Asbestos Compensation Act of 1998",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3905/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:11:35Z",
+  "updateDateIncludingText": "2025-08-21T16:11:35Z"
+ },
+ "request": {
+  "billNumber": "3905",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/645/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/645/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 26,
+   "countIncludingWithdrawnCosponsors": 26,
+   "url": "https://api.congress.gov/v3/bill/102/s/645/cosponsors?format=json"
+  },
+  "introducedDate": "1991-03-13",
+  "latestAction": {
+   "actionDate": "1991-09-19",
+   "text": "Committee on Commerce. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/645",
+  "number": "645",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/645/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000017",
+    "firstName": "NANCY",
+    "fullName": "Sen. Kassebaum, Nancy Landon [R-KS]",
+    "isByRequest": "N",
+    "lastName": "KASSEBAUM",
+    "middleName": "LANDON",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/K000017?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/102/s/645/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/645/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/645/text?format=json"
+  },
+  "title": "General Aviation Accident Liability Standards Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/645/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:03:40Z"
+ },
+ "request": {
+  "billNumber": "645",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

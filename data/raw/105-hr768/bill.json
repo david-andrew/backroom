@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/768/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/768/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 40,
+   "countIncludingWithdrawnCosponsors": 40,
+   "url": "https://api.congress.gov/v3/bill/105/hr/768/cosponsors?format=json"
+  },
+  "introducedDate": "1997-02-13",
+  "latestAction": {
+   "actionDate": "1997-02-24",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/768",
+  "number": "768",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000552",
+    "district": 18,
+    "firstName": "RAY",
+    "fullName": "Rep. LaHood, Ray [R-IL-18]",
+    "isByRequest": "N",
+    "lastName": "LAHOOD",
+    "party": "R",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/L000552?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/105/hr/768/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/768/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/768/text?format=json"
+  },
+  "title": "To restrict the Food and Drug Administration from penalizing retailers for face-to-face tobacco sales that are in accordance with State law.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/768/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "768",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/101/hr/467/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/467/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 152,
+   "countIncludingWithdrawnCosponsors": 152,
+   "url": "https://api.congress.gov/v3/bill/101/hr/467/cosponsors?format=json"
+  },
+  "introducedDate": "1989-01-04",
+  "latestAction": {
+   "actionDate": "1990-09-10",
+   "text": "Placed on the Union Calendar, Calendar No. 431."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/467",
+  "number": "467",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000059",
+    "district": 19,
+    "firstName": "EDWARD",
+    "fullName": "Rep. Feighan, Edward F. [D-OH-19]",
+    "isByRequest": "N",
+    "lastName": "FEIGHAN",
+    "middleName": "F.",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/F000059?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/101/hr/467/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/467/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/467/text?format=json"
+  },
+  "title": "Brady Handgun Violence Prevention Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/467/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2021-07-01T13:23:55Z",
+  "updateDateIncludingText": "2021-07-01T13:23:55Z"
+ },
+ "request": {
+  "billNumber": "467",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

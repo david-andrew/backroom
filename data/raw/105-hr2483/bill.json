@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2483/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2483/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 90,
+   "countIncludingWithdrawnCosponsors": 90,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2483/cosponsors?format=json"
+  },
+  "introducedDate": "1997-09-16",
+  "latestAction": {
+   "actionDate": "1997-09-26",
+   "text": "Sponsor introductory remarks on measure. (CR H8038-8040)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/2483",
+  "number": "2483",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2483/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000148",
+    "district": 27,
+    "firstName": "BILL",
+    "fullName": "Rep. Paxon, Bill [R-NY-27]",
+    "isByRequest": "N",
+    "lastName": "PAXON",
+    "party": "R",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/P000148?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2483/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2483/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2483/text?format=json"
+  },
+  "title": "To terminate the taxes imposed by the Internal Revenue Code of 1986 other than Social Security and railroad retirement-related taxes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2483/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:41:17Z"
+ },
+ "request": {
+  "billNumber": "2483",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

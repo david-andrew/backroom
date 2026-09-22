@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/102/s/1081/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1081/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/102/s/1081/cosponsors?format=json"
+  },
+  "introducedDate": "1991-05-15",
+  "latestAction": {
+   "actionDate": "1991-07-18",
+   "text": "Subcommittee on Environmental Protection. Hearings concluded. Hearings printed: S.Hrg. 102-325."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/1081",
+  "number": "1081",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000243",
+    "firstName": "MAX",
+    "fullName": "Sen. Baucus, Max [D-MT]",
+    "isByRequest": "N",
+    "lastName": "BAUCUS",
+    "middleName": "SIEBEN",
+    "party": "D",
+    "state": "MT",
+    "url": "https://api.congress.gov/v3/member/B000243?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 73,
+   "url": "https://api.congress.gov/v3/bill/102/s/1081/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1081/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1081/text?format=json"
+  },
+  "title": "Water Pollution Prevention and Control Act of 1991",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/s/1081/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:59Z"
+ },
+ "request": {
+  "billNumber": "1081",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

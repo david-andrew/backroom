@@ -1,0 +1,84 @@
+{
+ "bill": {
+  "actions": {
+   "count": 85,
+   "url": "https://api.congress.gov/v3/bill/101/s/933/actions?format=json"
+  },
+  "amendments": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/101/s/933/amendments?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/933/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 63,
+   "countIncludingWithdrawnCosponsors": 63,
+   "url": "https://api.congress.gov/v3/bill/101/s/933/cosponsors?format=json"
+  },
+  "introducedDate": "1989-05-09",
+  "latestAction": {
+   "actionDate": "1990-07-26",
+   "text": "Became Public Law No: 101-336."
+  },
+  "laws": [
+   {
+    "number": "101-336",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/933",
+  "number": "933",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "relatedBills": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/s/933/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000206",
+    "firstName": "THOMAS",
+    "fullName": "Sen. Harkin, Tom [D-IA]",
+    "isByRequest": "N",
+    "lastName": "HARKIN",
+    "middleName": "RICHARD",
+    "party": "D",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/H000206?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 43,
+   "url": "https://api.congress.gov/v3/bill/101/s/933/subjects?format=json"
+  },
+  "summaries": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/s/933/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/s/933/text?format=json"
+  },
+  "title": "Americans with Disabilities Act of 1990",
+  "titles": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/s/933/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:26:43Z"
+ },
+ "request": {
+  "billNumber": "933",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

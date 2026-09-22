@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5681/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5681/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 46,
+   "countIncludingWithdrawnCosponsors": 46,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5681/cosponsors?format=json"
+  },
+  "introducedDate": "1992-07-23",
+  "latestAction": {
+   "actionDate": "1992-07-23",
+   "text": "Referred to the Subcommittee on Human Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/5681",
+  "number": "5681",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "A000226",
+    "district": 5,
+    "firstName": "CHESTER",
+    "fullName": "Rep. Atkins, Chester G. [D-MA-5]",
+    "isByRequest": "N",
+    "lastName": "ATKINS",
+    "middleName": "G.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/A000226?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5681/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5681/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5681/text?format=json"
+  },
+  "title": "To increase the number of weeks for which emergency unemployment compensation is payable, and for other purposes.",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5681/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:42:06Z"
+ },
+ "request": {
+  "billNumber": "5681",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

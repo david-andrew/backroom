@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/2341/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2341/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/102/s/2341/cosponsors?format=json"
+  },
+  "introducedDate": "1992-03-11",
+  "latestAction": {
+   "actionDate": "1992-03-19",
+   "text": "Subcommittee on Housing and Urban Affairs. Hearings held. Hearings printed: S.Hrg. 102-618."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/2341",
+  "number": "2341",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Housing and Community Development"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000877",
+    "firstName": "ALAN",
+    "fullName": "Sen. Cranston, Alan [D-CA]",
+    "isByRequest": "N",
+    "lastName": "CRANSTON",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/C000877?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 35,
+   "url": "https://api.congress.gov/v3/bill/102/s/2341/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2341/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2341/text?format=json"
+  },
+  "title": "Residential Lead-Based Paint Hazard Reduction Act of 1992",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/2341/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T15:16:08Z",
+  "updateDateIncludingText": "2025-08-26T15:16:08Z"
+ },
+ "request": {
+  "billNumber": "2341",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

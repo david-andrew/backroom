@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/75/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/75/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/105/s/75/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-21",
+  "latestAction": {
+   "actionDate": "1997-04-10",
+   "text": "Committee on Finance. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/75",
+  "number": "75",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/75/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000352",
+    "firstName": "Jon",
+    "fullName": "Sen. Kyl, Jon [R-AZ]",
+    "isByRequest": "N",
+    "lastName": "Kyl",
+    "middleName": "Llewellyn",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/K000352?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/75/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/75/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/75/text?format=json"
+  },
+  "title": "Family Heritage Preservation Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/75/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T16:11:15Z",
+  "updateDateIncludingText": "2025-08-21T16:11:15Z"
+ },
+ "request": {
+  "billNumber": "75",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

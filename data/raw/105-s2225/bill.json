@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/2225/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2225/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2225/cosponsors?format=json"
+  },
+  "introducedDate": "1998-06-25",
+  "latestAction": {
+   "actionDate": "1998-06-25",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/2225",
+  "number": "2225",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000352",
+    "firstName": "DANIEL",
+    "fullName": "Sen. Graham, Bob [D-FL]",
+    "isByRequest": "N",
+    "lastName": "GRAHAM",
+    "middleName": "ROBERT",
+    "party": "D",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/G000352?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 41,
+   "url": "https://api.congress.gov/v3/bill/105/s/2225/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2225/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2225/text?format=json"
+  },
+  "title": "Florida Coast Protection Act of 1998",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/2225/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:13:43Z"
+ },
+ "request": {
+  "billNumber": "2225",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3456/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3456/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3456/cosponsors?format=json"
+  },
+  "introducedDate": "1998-03-12",
+  "latestAction": {
+   "actionDate": "1998-03-17",
+   "text": "Referred to the Subcommittee on Social Security."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/3456",
+  "number": "3456",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Social Welfare"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000016",
+    "district": 12,
+    "firstName": "JOHN",
+    "fullName": "Rep. Kasich, John R. [R-OH-12]",
+    "isByRequest": "N",
+    "lastName": "KASICH",
+    "middleName": "R.",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/K000016?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3456/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3456/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3456/text?format=json"
+  },
+  "title": "Personal Retirement Savings Account Act of 1998",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3456/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:12:44Z",
+  "updateDateIncludingText": "2025-08-21T16:12:44Z"
+ },
+ "request": {
+  "billNumber": "3456",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

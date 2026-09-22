@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/s/345/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/345/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/101/s/345/cosponsors?format=json"
+  },
+  "introducedDate": "1989-02-02",
+  "latestAction": {
+   "actionDate": "1989-07-13",
+   "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 154."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/345",
+  "number": "345",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/345/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000388",
+    "firstName": "CHRISTOPHER",
+    "fullName": "Sen. Dodd, Christopher J. [D-CT]",
+    "isByRequest": "N",
+    "lastName": "DODD",
+    "middleName": "JOHN",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/D000388?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/101/s/345/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/345/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/345/text?format=json"
+  },
+  "title": "Family and Medical Leave Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/345/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:24:48Z",
+  "updateDateIncludingText": "2025-08-26T17:24:48Z"
+ },
+ "request": {
+  "billNumber": "345",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

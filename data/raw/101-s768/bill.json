@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/101/s/768/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/768/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/768/cosponsors?format=json"
+  },
+  "introducedDate": "1989-04-12",
+  "latestAction": {
+   "actionDate": "1989-11-20",
+   "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 409."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/768",
+  "number": "768",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000105",
+    "firstName": "EDWARD",
+    "fullName": "Sen. Kennedy, Edward M. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "KENNEDY",
+    "middleName": "MOORE",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/K000105?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/101/s/768/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/768/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/768/text?format=json"
+  },
+  "title": "Basic Health Benefits for All Americans Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/768/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:26:49Z"
+ },
+ "request": {
+  "billNumber": "768",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

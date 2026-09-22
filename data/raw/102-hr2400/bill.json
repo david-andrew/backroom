@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2400/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2400/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2400/cosponsors?format=json"
+  },
+  "introducedDate": "1991-05-20",
+  "latestAction": {
+   "actionDate": "1991-11-21",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/2400",
+  "number": "2400",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000184",
+    "district": 1,
+    "firstName": "LINDSAY",
+    "fullName": "Rep. Thomas, Lindsay [D-GA-1]",
+    "isByRequest": "N",
+    "lastName": "THOMAS",
+    "party": "D",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/T000184?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2400/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2400/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2400/text?format=json"
+  },
+  "title": "Wetlands Stewardship Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2400/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:14:25Z",
+  "updateDateIncludingText": "2025-08-26T15:14:25Z"
+ },
+ "request": {
+  "billNumber": "2400",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

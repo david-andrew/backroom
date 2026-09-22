@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/hr/647/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/647/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/647/cosponsors?format=json"
+  },
+  "introducedDate": "1997-02-06",
+  "latestAction": {
+   "actionDate": "1997-02-26",
+   "text": "Sponsor introductory remarks on measure. (CR E317-318)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/647",
+  "number": "647",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000265",
+    "district": 6,
+    "firstName": "TOM",
+    "fullName": "Rep. Petri, Thomas E. [R-WI-6]",
+    "isByRequest": "N",
+    "lastName": "PETRI",
+    "party": "R",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/P000265?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/105/hr/647/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/647/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/647/text?format=json"
+  },
+  "title": "White Collar Reform Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/647/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "647",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

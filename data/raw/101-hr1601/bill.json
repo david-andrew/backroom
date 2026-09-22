@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1601/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1601/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 20,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1601/cosponsors?format=json"
+  },
+  "introducedDate": "1989-03-23",
+  "latestAction": {
+   "actionDate": "1989-03-23",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/1601",
+  "number": "1601",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "A000215",
+    "district": 7,
+    "firstName": "BILL",
+    "fullName": "Rep. Archer, Bill [R-TX-7]",
+    "isByRequest": "N",
+    "lastName": "ARCHER",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/A000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1601/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1601/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1601/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to provide for a maximum long-term capital gains rate of 15 percent.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1601/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:42:12Z"
+ },
+ "request": {
+  "billNumber": "1601",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

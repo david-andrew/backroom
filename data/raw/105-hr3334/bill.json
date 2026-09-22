@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3334/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3334/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3334/cosponsors?format=json"
+  },
+  "introducedDate": "1998-03-04",
+  "latestAction": {
+   "actionDate": "1998-06-18",
+   "text": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/3334",
+  "number": "3334",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000238",
+    "district": 13,
+    "firstName": "WILLIAM",
+    "fullName": "Rep. Thornberry, Mac [R-TX-13]",
+    "isByRequest": "N",
+    "lastName": "THORNBERRY",
+    "middleName": "M.",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/T000238?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 37,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3334/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3334/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3334/text?format=json"
+  },
+  "title": "Royalty Enhancement Act of 1998",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3334/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:13:49Z",
+  "updateDateIncludingText": "2025-08-21T16:13:49Z"
+ },
+ "request": {
+  "billNumber": "3334",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

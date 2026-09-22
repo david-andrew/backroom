@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2687/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2687/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2687/cosponsors?format=json"
+  },
+  "introducedDate": "1991-06-19",
+  "latestAction": {
+   "actionDate": "1991-07-01",
+   "text": "Referred to the Subcommittee on Water, Power and Offshore Energy Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/2687",
+  "number": "2687",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Water Resources Development"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000044",
+    "district": 39,
+    "firstName": "WILLIAM",
+    "fullName": "Rep. Dannemeyer, William E. [R-CA-39]",
+    "isByRequest": "N",
+    "lastName": "DANNEMEYER",
+    "middleName": "E.",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/D000044?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2687/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2687/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2687/text?format=json"
+  },
+  "title": "Abundant Water Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2687/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:14:42Z",
+  "updateDateIncludingText": "2025-08-26T15:14:42Z"
+ },
+ "request": {
+  "billNumber": "2687",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

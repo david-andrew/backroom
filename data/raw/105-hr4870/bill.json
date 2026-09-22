@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4870/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4870/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4870/cosponsors?format=json"
+  },
+  "introducedDate": "1998-10-20",
+  "latestAction": {
+   "actionDate": "1998-11-06",
+   "text": "Referred to the Subcommittee on Finance and Hazardous Materials, for a period to be subsequently determined by the Chairman."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/4870",
+  "number": "4870",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000169",
+    "district": 1,
+    "firstName": "JIM",
+    "fullName": "Rep. Leach, James A. [R-IA-1]",
+    "isByRequest": "N",
+    "lastName": "LEACH",
+    "party": "R",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/L000169?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 177,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4870/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4870/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4870/text?format=json"
+  },
+  "title": "Financial Services Act of 1998",
+  "titles": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4870/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:12:47Z",
+  "updateDateIncludingText": "2025-08-21T16:12:47Z"
+ },
+ "request": {
+  "billNumber": "4870",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/333/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/333/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/333/cosponsors?format=json"
+  },
+  "introducedDate": "1989-02-02",
+  "latestAction": {
+   "actionDate": "1989-05-19",
+   "text": "Subcommittee on Environmental Protection. Hearings held. Hearings printed: S.Hrg. 101-120."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/333",
+  "number": "333",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000174",
+    "firstName": "Patrick",
+    "fullName": "Sen. Leahy, Patrick J. [D-VT]",
+    "isByRequest": "N",
+    "lastName": "Leahy",
+    "party": "D",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/L000174?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 52,
+   "url": "https://api.congress.gov/v3/bill/101/s/333/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/333/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/333/text?format=json"
+  },
+  "title": "Global Environmental Protection Act of 1989",
+  "titles": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/101/s/333/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:44Z"
+ },
+ "request": {
+  "billNumber": "333",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

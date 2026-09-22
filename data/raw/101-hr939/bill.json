@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/101/hr/939/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/939/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 21,
+   "countIncludingWithdrawnCosponsors": 21,
+   "url": "https://api.congress.gov/v3/bill/101/hr/939/cosponsors?format=json"
+  },
+  "introducedDate": "1989-02-09",
+  "latestAction": {
+   "actionDate": "1989-06-29",
+   "text": "Ordered to be Reported (Amended)."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/939",
+  "number": "939",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000810",
+    "district": 9,
+    "firstName": "PETE",
+    "fullName": "Rep. Stark, Fortney Pete [D-CA-9]",
+    "isByRequest": "N",
+    "lastName": "STARK",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/S000810?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/939/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/939/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/939/text?format=json"
+  },
+  "title": "Ethics in Patient Referrals Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/939/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "939",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

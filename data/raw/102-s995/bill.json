@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/995/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/995/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/102/s/995/cosponsors?format=json"
+  },
+  "introducedDate": "1991-05-07",
+  "latestAction": {
+   "actionDate": "1991-05-07",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/995",
+  "number": "995",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/995/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000321",
+    "firstName": "ALBERT",
+    "fullName": "Sen. Gore, Albert, Jr. [D-TN]",
+    "isByRequest": "N",
+    "lastName": "GORE",
+    "middleName": "ARNOLD",
+    "party": "D",
+    "state": "TN",
+    "url": "https://api.congress.gov/v3/member/G000321?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/102/s/995/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/995/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/995/text?format=json"
+  },
+  "title": "Working Family Tax Relief Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/995/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T15:16:55Z",
+  "updateDateIncludingText": "2025-08-26T15:16:55Z"
+ },
+ "request": {
+  "billNumber": "995",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

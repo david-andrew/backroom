@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/311/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/311/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/105/s/311/cosponsors?format=json"
+  },
+  "introducedDate": "1997-02-12",
+  "latestAction": {
+   "actionDate": "1997-02-12",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/311",
+  "number": "311",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000352",
+    "firstName": "DANIEL",
+    "fullName": "Sen. Graham, Bob [D-FL]",
+    "isByRequest": "N",
+    "lastName": "GRAHAM",
+    "middleName": "ROBERT",
+    "party": "D",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/G000352?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/105/s/311/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/311/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/311/text?format=json"
+  },
+  "title": "Medicare Preventive Benefit Improvement Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/311/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T16:14:40Z",
+  "updateDateIncludingText": "2025-08-21T16:14:40Z"
+ },
+ "request": {
+  "billNumber": "311",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

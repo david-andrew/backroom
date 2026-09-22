@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3938/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3938/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3938/cosponsors?format=json"
+  },
+  "introducedDate": "1991-11-26",
+  "latestAction": {
+   "actionDate": "1991-11-26",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/3938",
+  "number": "3938",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000156",
+    "district": 2,
+    "firstName": "WAYNE",
+    "fullName": "Rep. Owens, Wayne [D-UT-2]",
+    "isByRequest": "N",
+    "lastName": "OWENS",
+    "party": "D",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/O000156?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3938/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3938/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3938/text?format=json"
+  },
+  "title": "Health Care Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3938/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:15:10Z",
+  "updateDateIncludingText": "2025-08-26T15:15:10Z"
+ },
+ "request": {
+  "billNumber": "3938",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

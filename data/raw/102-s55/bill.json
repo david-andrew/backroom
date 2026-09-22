@@ -1,0 +1,78 @@
+{
+ "bill": {
+  "actions": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/102/s/55/actions?format=json"
+  },
+  "amendments": {
+   "count": 552,
+   "url": "https://api.congress.gov/v3/bill/102/s/55/amendments?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/55/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 36,
+   "countIncludingWithdrawnCosponsors": 36,
+   "url": "https://api.congress.gov/v3/bill/102/s/55/cosponsors?format=json"
+  },
+  "introducedDate": "1991-01-14",
+  "latestAction": {
+   "actionDate": "1992-06-16",
+   "text": "Second cloture motion on the committee substitute as modified not invoked in Senate by Yea-Nay Vote. 57-42. Record Vote No: 121."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/55",
+  "number": "55",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/s/55/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000678",
+    "firstName": "HOWARD",
+    "fullName": "Sen. Metzenbaum, Howard M. [D-OH]",
+    "isByRequest": "N",
+    "lastName": "METZENBAUM",
+    "middleName": "MORTON",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/M000678?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/102/s/55/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/55/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/55/text?format=json"
+  },
+  "title": "A bill to amend the National Labor Relations Act and the Railway Labor Act to prevent discrimination based on participation in labor disputes.",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/s/55/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:26:51Z"
+ },
+ "request": {
+  "billNumber": "55",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

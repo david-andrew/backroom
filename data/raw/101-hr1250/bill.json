@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1250/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1250/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 18,
+   "countIncludingWithdrawnCosponsors": 18,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1250/cosponsors?format=json"
+  },
+  "introducedDate": "1989-03-02",
+  "latestAction": {
+   "actionDate": "1989-07-25",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/1250",
+  "number": "1250",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000508",
+    "district": 1,
+    "firstName": "THOMAS",
+    "fullName": "Rep. Luken, Thomas A. [D-OH-1]",
+    "isByRequest": "N",
+    "lastName": "LUKEN",
+    "middleName": "A.",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/L000508?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1250/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1250/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1250/text?format=json"
+  },
+  "title": "Protect Our Children from Cigarettes Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1250/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1250",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2666/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2666/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2666/cosponsors?format=json"
+  },
+  "introducedDate": "1991-06-18",
+  "latestAction": {
+   "actionDate": "1991-08-13",
+   "text": "Referred to the Subcommittee on Energy and Power."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/2666",
+  "number": "2666",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000132",
+    "district": 3,
+    "firstName": "RICHARD",
+    "fullName": "Rep. Gephardt, Richard A. [D-MO-3]",
+    "isByRequest": "N",
+    "lastName": "GEPHARDT",
+    "middleName": "A.",
+    "party": "D",
+    "state": "MO",
+    "url": "https://api.congress.gov/v3/member/G000132?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2666/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2666/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2666/text?format=json"
+  },
+  "title": "Energy Security and Price Stability Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2666/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:14:27Z",
+  "updateDateIncludingText": "2025-08-26T15:14:27Z"
+ },
+ "request": {
+  "billNumber": "2666",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

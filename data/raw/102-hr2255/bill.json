@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2255/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2255/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 33,
+   "countIncludingWithdrawnCosponsors": 33,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2255/cosponsors?format=json"
+  },
+  "introducedDate": "1991-05-08",
+  "latestAction": {
+   "actionDate": "1991-10-31",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/2255",
+  "number": "2255",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2255/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000657",
+    "district": 9,
+    "firstName": "RICK",
+    "fullName": "Rep. Boucher, Rick [D-VA-9]",
+    "isByRequest": "N",
+    "lastName": "BOUCHER",
+    "party": "D",
+    "state": "VA",
+    "url": "https://api.congress.gov/v3/member/B000657?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2255/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2255/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2255/text?format=json"
+  },
+  "title": "To extend the patent term of certain products.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2255/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-16T12:12:20Z",
+  "updateDateIncludingText": "2025-01-16T12:12:50Z"
+ },
+ "request": {
+  "billNumber": "2255",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/114/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/114/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/105/s/114/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-21",
+  "latestAction": {
+   "actionDate": "1997-01-21",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/114",
+  "number": "114",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "I000025",
+    "firstName": "DANIEL",
+    "fullName": "Sen. Inouye, Daniel K. [D-HI]",
+    "isByRequest": "N",
+    "lastName": "INOUYE",
+    "middleName": "KEN",
+    "party": "D",
+    "state": "HI",
+    "url": "https://api.congress.gov/v3/member/I000025?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/105/s/114/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/114/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/114/text?format=json"
+  },
+  "title": "A bill to repeal the reduction in the deductible portion of expenses for business meals and entertainment.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/114/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T18:59:41Z",
+  "updateDateIncludingText": "2025-01-14T19:08:18Z"
+ },
+ "request": {
+  "billNumber": "114",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

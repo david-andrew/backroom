@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/3387/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/3387/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/3387/cosponsors?format=json"
+  },
+  "introducedDate": "1992-10-08",
+  "latestAction": {
+   "actionDate": "1992-10-08",
+   "text": "Read twice and referred to the Committee on Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/3387",
+  "number": "3387",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000338",
+    "firstName": "ORRIN",
+    "fullName": "Sen. Hatch, Orrin G. [R-UT]",
+    "isByRequest": "N",
+    "lastName": "HATCH",
+    "middleName": "GRANT",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/H000338?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/102/s/3387/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/3387/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/3387/text?format=json"
+  },
+  "title": "Health Care Liability Reform and Quality of Care Improvement Act of 1992",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/3387/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:54:43Z"
+ },
+ "request": {
+  "billNumber": "3387",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

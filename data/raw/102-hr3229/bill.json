@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3229/actions?format=json"
+  },
+  "committees": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3229/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3229/cosponsors?format=json"
+  },
+  "introducedDate": "1991-08-02",
+  "latestAction": {
+   "actionDate": "1992-04-23",
+   "text": "Referred to the Subcommittee on Administrative Law and Governmental Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/3229",
+  "number": "3229",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000222",
+    "district": 8,
+    "firstName": "RONALD",
+    "fullName": "Rep. Dellums, Ronald V. [D-CA-8]",
+    "isByRequest": "N",
+    "lastName": "DELLUMS",
+    "middleName": "V.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/D000222?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 78,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3229/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3229/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3229/text?format=json"
+  },
+  "title": "U.S. Health Service Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3229/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "3229",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

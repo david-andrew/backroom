@@ -1,0 +1,66 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/218/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/218/committees?format=json"
+  },
+  "congress": 102,
+  "introducedDate": "1991-01-03",
+  "latestAction": {
+   "actionDate": "1991-02-08",
+   "text": "Referred to the Subcommittee on Labor Standards."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/218",
+  "number": "218",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000148",
+    "district": 10,
+    "firstName": "Charles",
+    "fullName": "Rep. Schumer, Charles E. [D-NY-10]",
+    "isByRequest": "N",
+    "lastName": "Schumer",
+    "middleName": "E.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/S000148?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/102/hr/218/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/218/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/218/text?format=json"
+  },
+  "title": "Sweatshops Prevention Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/218/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:18:06Z",
+  "updateDateIncludingText": "2025-08-26T15:18:06Z"
+ },
+ "request": {
+  "billNumber": "218",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

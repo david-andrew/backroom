@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/953/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/953/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/953/cosponsors?format=json"
+  },
+  "introducedDate": "1997-06-24",
+  "latestAction": {
+   "actionDate": "1997-06-24",
+   "text": "Read twice and referred to the Committee on Governmental Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/953",
+  "number": "953",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000320",
+    "firstName": "Richard",
+    "fullName": "Sen. Shelby, Richard C. [R-AL]",
+    "isByRequest": "N",
+    "lastName": "Shelby",
+    "middleName": "C.",
+    "party": "R",
+    "state": "AL",
+    "url": "https://api.congress.gov/v3/member/S000320?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 41,
+   "url": "https://api.congress.gov/v3/bill/105/s/953/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/953/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/953/text?format=json"
+  },
+  "title": "Private Property Owners' Bill of Rights",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/953/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T16:12:28Z",
+  "updateDateIncludingText": "2025-08-21T16:12:28Z"
+ },
+ "request": {
+  "billNumber": "953",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

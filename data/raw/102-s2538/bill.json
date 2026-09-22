@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/2538/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2538/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/102/s/2538/cosponsors?format=json"
+  },
+  "introducedDate": "1992-04-07",
+  "latestAction": {
+   "actionDate": "1992-06-30",
+   "text": "Subcommittee on National Ocean Policy Study. Hearings held. Hearings printed: S.Hrg. 102-927."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/2538",
+  "number": "2538",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000725",
+    "firstName": "ERNEST",
+    "fullName": "Sen. Hollings, Ernest F. [D-SC]",
+    "isByRequest": "N",
+    "lastName": "HOLLINGS",
+    "middleName": "FREDERICK",
+    "party": "D",
+    "state": "SC",
+    "url": "https://api.congress.gov/v3/member/H000725?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 38,
+   "url": "https://api.congress.gov/v3/bill/102/s/2538/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2538/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2538/text?format=json"
+  },
+  "title": "Consumer Seafood Safety Act of 1992",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/2538/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:06:17Z"
+ },
+ "request": {
+  "billNumber": "2538",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

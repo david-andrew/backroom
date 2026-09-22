@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/s/1635/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1635/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1635/cosponsors?format=json"
+  },
+  "introducedDate": "1998-02-12",
+  "latestAction": {
+   "actionDate": "1998-07-10",
+   "text": "Sponsor introductory remarks on measure. (CR S7919)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/1635",
+  "number": "1635",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "A000109",
+    "firstName": "A.",
+    "fullName": "Sen. Allard, Wayne [R-CO]",
+    "isByRequest": "N",
+    "lastName": "ALLARD",
+    "middleName": "WAYNE",
+    "party": "R",
+    "state": "CO",
+    "url": "https://api.congress.gov/v3/member/A000109?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 25,
+   "url": "https://api.congress.gov/v3/bill/105/s/1635/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1635/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1635/text?format=json"
+  },
+  "title": "A bill to amend the Internal Revenue Code of 1986 to reduce the maximum capital gains rates, to index capital assets for inflation, and to repeal the Federal estate and gift taxes and the tax on generation-skipping transfers.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/1635/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-07T15:32:49Z",
+  "updateDateIncludingText": "2025-04-07T15:32:49Z"
+ },
+ "request": {
+  "billNumber": "1635",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

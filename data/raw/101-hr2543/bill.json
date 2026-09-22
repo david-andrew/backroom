@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2543/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2543/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2543/cosponsors?format=json"
+  },
+  "introducedDate": "1989-06-05",
+  "latestAction": {
+   "actionDate": "1989-07-12",
+   "text": "Referred to the Subcommittee on Labor Standards."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2543",
+  "number": "2543",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000215",
+    "district": 1,
+    "firstName": "TIMOTHY",
+    "fullName": "Rep. Penny, Timothy J. [D-MN-1]",
+    "isByRequest": "N",
+    "lastName": "PENNY",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/P000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2543/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2543/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2543/text?format=json"
+  },
+  "title": "To amend the Fair Labor Standards Act of 1938 to increase the minimum wage and to amend the Internal Revenue Code of 1986 to increase the amount of the earned income tax credit for taxpayers with school age or preschool age children.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2543/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-07-21T19:44:15Z",
+  "updateDateIncludingText": "2025-07-21T19:47:12Z"
+ },
+ "request": {
+  "billNumber": "2543",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

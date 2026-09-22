@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3100/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3100/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 107,
+   "countIncludingWithdrawnCosponsors": 107,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3100/cosponsors?format=json"
+  },
+  "introducedDate": "1998-01-27",
+  "latestAction": {
+   "actionDate": "1998-02-13",
+   "text": "Referred to the Subcommittee on Workforce Protections."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/3100",
+  "number": "3100",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000619",
+    "district": 10,
+    "firstName": "DAVID",
+    "fullName": "Rep. Bonior, David E. [D-MI-10]",
+    "isByRequest": "N",
+    "lastName": "BONIOR",
+    "middleName": "E.",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/B000619?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3100/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3100/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3100/text?format=json"
+  },
+  "title": "American Family Fair Minimum Wage Act of 1998",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3100/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "3100",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

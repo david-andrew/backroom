@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1040/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1040/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1040/cosponsors?format=json"
+  },
+  "introducedDate": "1997-03-12",
+  "latestAction": {
+   "actionDate": "1997-03-12",
+   "text": "Referred to House Budget"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/1040",
+  "number": "1040",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Economics and Public Finance"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1040/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "A000217",
+    "district": 26,
+    "firstName": "DICK",
+    "fullName": "Rep. Armey, Richard K. [R-TX-26]",
+    "isByRequest": "N",
+    "lastName": "ARMEY",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/A000217?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 57,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1040/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1040/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1040/text?format=json"
+  },
+  "title": "Freedom and Fairness Restoration Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1040/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-08T19:31:27Z",
+  "updateDateIncludingText": "2026-09-08T19:32:03Z"
+ },
+ "request": {
+  "billNumber": "1040",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

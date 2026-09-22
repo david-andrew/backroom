@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/89/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/89/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 26,
+   "countIncludingWithdrawnCosponsors": 26,
+   "url": "https://api.congress.gov/v3/bill/105/s/89/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-21",
+  "latestAction": {
+   "actionDate": "1998-05-21",
+   "text": "Committee on Labor and Human Resources. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/89",
+  "number": "89",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000663",
+    "firstName": "Olympia",
+    "fullName": "Sen. Snowe, Olympia J. [R-ME]",
+    "isByRequest": "N",
+    "lastName": "Snowe",
+    "middleName": "J.",
+    "party": "R",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/S000663?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 29,
+   "url": "https://api.congress.gov/v3/bill/105/s/89/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/89/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/89/text?format=json"
+  },
+  "title": "Genetic Information Nondiscrimination in Health Insurance Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/89/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T16:12:43Z",
+  "updateDateIncludingText": "2025-08-21T16:12:43Z"
+ },
+ "request": {
+  "billNumber": "89",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

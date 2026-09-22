@@ -1,0 +1,84 @@
+{
+ "bill": {
+  "actions": {
+   "count": 91,
+   "url": "https://api.congress.gov/v3/bill/102/s/543/actions?format=json"
+  },
+  "amendments": {
+   "count": 42,
+   "url": "https://api.congress.gov/v3/bill/102/s/543/amendments?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/543/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/543/cosponsors?format=json"
+  },
+  "introducedDate": "1991-03-05",
+  "latestAction": {
+   "actionDate": "1991-12-19",
+   "text": "Became Public Law No: 102-242."
+  },
+  "laws": [
+   {
+    "number": "102-242",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/543",
+  "number": "543",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/102/s/543/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000249",
+    "firstName": "DONALD",
+    "fullName": "Sen. Riegle, Donald W., Jr. [D-MI]",
+    "isByRequest": "N",
+    "lastName": "RIEGLE",
+    "middleName": "WAYNE",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/R000249?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 120,
+   "url": "https://api.congress.gov/v3/bill/102/s/543/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/543/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/102/s/543/text?format=json"
+  },
+  "title": "Federal Deposit Insurance Corporation Improvement Act of 1991",
+  "titles": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/102/s/543/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T18:20:21Z",
+  "updateDateIncludingText": "2025-01-14T18:21:52Z"
+ },
+ "request": {
+  "billNumber": "543",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

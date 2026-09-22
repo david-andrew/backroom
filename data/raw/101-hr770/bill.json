@@ -1,0 +1,80 @@
+{
+ "bill": {
+  "actions": {
+   "count": 81,
+   "url": "https://api.congress.gov/v3/bill/101/hr/770/actions?format=json"
+  },
+  "amendments": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/770/amendments?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/770/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 151,
+   "countIncludingWithdrawnCosponsors": 151,
+   "url": "https://api.congress.gov/v3/bill/101/hr/770/cosponsors?format=json"
+  },
+  "introducedDate": "1989-02-02",
+  "latestAction": {
+   "actionDate": "1990-07-25",
+   "actionTime": "12:53:07",
+   "text": "REFERRAL OF MESSAGE AND PAPERS - The veto message and the bill, together with the accompanying papers, were referred to the Committee on Education and Labor and the Committee on Post Office and Civil Service."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/770",
+  "number": "770",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/770/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000488",
+    "district": 1,
+    "firstName": "WILLIAM",
+    "fullName": "Rep. Clay, William (Bill) [D-MO-1]",
+    "isByRequest": "N",
+    "lastName": "CLAY",
+    "middleName": "L.",
+    "party": "D",
+    "state": "MO",
+    "url": "https://api.congress.gov/v3/member/C000488?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/101/hr/770/subjects?format=json"
+  },
+  "summaries": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/770/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/770/text?format=json"
+  },
+  "title": "Family and Medical Leave Act of 1990",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/770/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:48:07Z"
+ },
+ "request": {
+  "billNumber": "770",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

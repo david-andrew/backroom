@@ -1,0 +1,80 @@
+{
+ "bill": {
+  "actions": {
+   "count": 95,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2273/actions?format=json"
+  },
+  "amendments": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2273/amendments?format=json"
+  },
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2273/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 250,
+   "countIncludingWithdrawnCosponsors": 253,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2273/cosponsors?format=json"
+  },
+  "introducedDate": "1989-05-09",
+  "latestAction": {
+   "actionDate": "1990-05-22",
+   "actionTime": "15:05:30",
+   "text": "Laid on the table. See S. 933 for further action."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2273",
+  "number": "2273",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "relatedBills": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2273/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000581",
+    "district": 15,
+    "firstName": "ANTHONY",
+    "fullName": "Rep. Coelho, Anthony Lee [D-CA-15]",
+    "isByRequest": "N",
+    "lastName": "COELHO",
+    "middleName": "LEE",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/C000581?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 34,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2273/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2273/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2273/text?format=json"
+  },
+  "title": "Americans with Disabilities Act of 1990",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2273/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-07-21T19:44:15Z",
+  "updateDateIncludingText": "2025-07-21T19:44:15Z"
+ },
+ "request": {
+  "billNumber": "2273",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

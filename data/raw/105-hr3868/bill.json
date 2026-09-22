@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3868/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3868/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 110,
+   "countIncludingWithdrawnCosponsors": 110,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3868/cosponsors?format=json"
+  },
+  "introducedDate": "1998-05-14",
+  "latestAction": {
+   "actionDate": "1998-05-26",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/3868",
+  "number": "3868",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000172",
+    "district": 1,
+    "firstName": "JAMES",
+    "fullName": "Rep. Hansen, James V. [R-UT-1]",
+    "isByRequest": "N",
+    "lastName": "HANSEN",
+    "middleName": "V.",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/H000172?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 134,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3868/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3868/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3868/text?format=json"
+  },
+  "title": "Bipartisan NO Tobacco for Kids Act of 1998",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3868/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "3868",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

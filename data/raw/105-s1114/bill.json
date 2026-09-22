@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/1114/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1114/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 12,
+   "countIncludingWithdrawnCosponsors": 12,
+   "url": "https://api.congress.gov/v3/bill/105/s/1114/cosponsors?format=json"
+  },
+  "introducedDate": "1997-07-31",
+  "latestAction": {
+   "actionDate": "1997-07-31",
+   "text": "Read twice and referred to the Committee on Labor and Human Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/1114",
+  "number": "1114",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000072",
+    "firstName": "JAMES",
+    "fullName": "Sen. Jeffords, James M. [R-VT]",
+    "isByRequest": "N",
+    "lastName": "JEFFORDS",
+    "middleName": "MERRILL",
+    "party": "R",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/J000072?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/105/s/1114/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1114/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1114/text?format=json"
+  },
+  "title": "Lifetime Caps Discrimination Prevention Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/1114/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T16:11:47Z",
+  "updateDateIncludingText": "2025-08-21T16:11:47Z"
+ },
+ "request": {
+  "billNumber": "1114",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

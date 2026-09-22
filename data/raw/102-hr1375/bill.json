@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1375/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1375/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 77,
+   "countIncludingWithdrawnCosponsors": 77,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1375/cosponsors?format=json"
+  },
+  "introducedDate": "1991-03-12",
+  "latestAction": {
+   "actionDate": "1991-04-16",
+   "text": "Referred to the Subcommittee on Civil and Constitutional Rights."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/1375",
+  "number": "1375",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000692",
+    "district": 18,
+    "firstName": "ROBERT",
+    "fullName": "Rep. Michel, Robert H. [R-IL-18]",
+    "isByRequest": "N",
+    "lastName": "MICHEL",
+    "middleName": "HENRY",
+    "party": "R",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/M000692?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1375/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1375/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1375/text?format=json"
+  },
+  "title": "Civil Rights Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1375/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:14:18Z",
+  "updateDateIncludingText": "2025-08-26T15:14:18Z"
+ },
+ "request": {
+  "billNumber": "1375",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

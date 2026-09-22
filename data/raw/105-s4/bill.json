@@ -1,0 +1,83 @@
+{
+ "bill": {
+  "actions": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/105/s/4/actions?format=json"
+  },
+  "amendments": {
+   "count": 52,
+   "url": "https://api.congress.gov/v3/bill/105/s/4/amendments?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "S. Rept. 105-11",
+    "url": "https://api.congress.gov/v3/committee-report/105/SRPT/11?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/4/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 42,
+   "countIncludingWithdrawnCosponsors": 42,
+   "url": "https://api.congress.gov/v3/bill/105/s/4/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-21",
+  "latestAction": {
+   "actionDate": "1997-06-04",
+   "text": "Second cloture on the modified committee amendment not invoked in Senate by Yea-Nay Vote. 51-47. Record Vote No: 93. (consideration: CR S5291)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/4",
+  "number": "4",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/4/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "A000356",
+    "firstName": "JOHN",
+    "fullName": "Sen. Ashcroft, John [R-MO]",
+    "isByRequest": "N",
+    "lastName": "ASHCROFT",
+    "party": "R",
+    "state": "MO",
+    "url": "https://api.congress.gov/v3/member/A000356?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/105/s/4/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/4/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/4/text?format=json"
+  },
+  "title": "Family Friendly Workplace Act",
+  "titles": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/105/s/4/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:24:17Z"
+ },
+ "request": {
+  "billNumber": "4",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

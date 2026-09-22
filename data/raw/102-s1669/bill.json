@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/s/1669/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1669/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1669/cosponsors?format=json"
+  },
+  "introducedDate": "1991-08-02",
+  "latestAction": {
+   "actionDate": "1991-09-30",
+   "text": "Subcommittee on Health for Families (Finance). Hearings concluded. Hearings printed: S.Hrg. 102-462."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/1669",
+  "number": "1669",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000423",
+    "firstName": "PAUL",
+    "fullName": "Sen. Simon, Paul [D-IL]",
+    "isByRequest": "N",
+    "lastName": "SIMON",
+    "middleName": "MARTIN",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/S000423?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 58,
+   "url": "https://api.congress.gov/v3/bill/102/s/1669/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1669/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1669/text?format=json"
+  },
+  "title": "Improvements to the HealthAmerica Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/1669/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T15:14:43Z",
+  "updateDateIncludingText": "2025-08-26T15:14:43Z"
+ },
+ "request": {
+  "billNumber": "1669",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

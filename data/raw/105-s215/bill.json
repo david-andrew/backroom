@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/215/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/215/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/215/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-28",
+  "latestAction": {
+   "actionDate": "1997-01-28",
+   "text": "Read twice and referred to the Committee on Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/215",
+  "number": "215",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/215/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000072",
+    "firstName": "JAMES",
+    "fullName": "Sen. Jeffords, James M. [R-VT]",
+    "isByRequest": "N",
+    "lastName": "JEFFORDS",
+    "middleName": "MERRILL",
+    "party": "R",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/J000072?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 25,
+   "url": "https://api.congress.gov/v3/bill/105/s/215/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/215/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/215/text?format=json"
+  },
+  "title": "National Beverage Container Reuse and Recycling Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/215/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:06:02Z"
+ },
+ "request": {
+  "billNumber": "215",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

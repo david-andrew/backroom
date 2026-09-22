@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2909/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2909/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2909/cosponsors?format=json"
+  },
+  "introducedDate": "1997-11-07",
+  "latestAction": {
+   "actionDate": "1997-11-20",
+   "text": "Referred to the Subcommittee on Energy and Power."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/2909",
+  "number": "2909",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000034",
+    "district": 6,
+    "firstName": "FRANK",
+    "fullName": "Rep. Pallone, Frank, Jr. [D-NJ-6]",
+    "isByRequest": "N",
+    "lastName": "PALLONE",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/P000034?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 25,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2909/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2909/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2909/text?format=json"
+  },
+  "title": "To amend the Federal Power Act to establish requirements regarding the operation of certain electric generating facilities, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2909/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T15:24:09Z",
+  "updateDateIncludingText": "2025-04-07T15:24:09Z"
+ },
+ "request": {
+  "billNumber": "2909",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

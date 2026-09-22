@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/105/hr/459/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/459/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 26,
+   "countIncludingWithdrawnCosponsors": 26,
+   "url": "https://api.congress.gov/v3/bill/105/hr/459/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-21",
+  "latestAction": {
+   "actionDate": "1997-01-27",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/459",
+  "number": "459",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000560",
+    "district": 2,
+    "firstName": "TOM",
+    "fullName": "Rep. Coburn, Tom [R-OK-2]",
+    "isByRequest": "N",
+    "lastName": "COBURN",
+    "party": "R",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/C000560?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/105/hr/459/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/459/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/459/text?format=json"
+  },
+  "title": "Senior Citizens' Access to Health Care Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/459/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "459",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

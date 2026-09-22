@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1425/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1425/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 71,
+   "countIncludingWithdrawnCosponsors": 71,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1425/cosponsors?format=json"
+  },
+  "introducedDate": "1997-04-23",
+  "latestAction": {
+   "actionDate": "1997-05-05",
+   "text": "Executive Comment Requested from USDA, Interior."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/1425",
+  "number": "1425",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001144",
+    "district": 4,
+    "firstName": "CHRISTOPHER",
+    "fullName": "Rep. Shays, Christopher [R-CT-4]",
+    "isByRequest": "N",
+    "lastName": "SHAYS",
+    "party": "R",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/S001144?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 82,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1425/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1425/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1425/text?format=json"
+  },
+  "title": "Northern Rockies Ecosystem Protection Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1425/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:12:26Z",
+  "updateDateIncludingText": "2025-08-21T16:12:26Z"
+ },
+ "request": {
+  "billNumber": "1425",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

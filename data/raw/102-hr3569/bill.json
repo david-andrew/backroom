@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3569/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3569/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3569/cosponsors?format=json"
+  },
+  "introducedDate": "1991-10-16",
+  "latestAction": {
+   "actionDate": "1991-10-16",
+   "text": "Referred to the House Committee on House Administration."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/3569",
+  "number": "3569",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000163",
+    "district": 6,
+    "firstName": "NANCY",
+    "fullName": "Rep. Johnson, Nancy L. [R-CT-6]",
+    "isByRequest": "N",
+    "lastName": "JOHNSON",
+    "middleName": "L.",
+    "party": "R",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/J000163?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3569/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3569/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3569/text?format=json"
+  },
+  "title": "Citizens Election Campaign Reform Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3569/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:18:15Z",
+  "updateDateIncludingText": "2025-08-26T15:18:15Z"
+ },
+ "request": {
+  "billNumber": "3569",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

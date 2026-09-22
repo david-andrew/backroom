@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/249/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/249/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/105/hr/249/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-07",
+  "latestAction": {
+   "actionDate": "1997-01-07",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/249",
+  "number": "249",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/249/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000373",
+    "district": 16,
+    "firstName": "JOSEPH",
+    "fullName": "Rep. Pitts, Joseph R. [R-PA-16]",
+    "isByRequest": "N",
+    "lastName": "PITTS",
+    "middleName": "R.",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/P000373?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/249/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/249/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/249/text?format=json"
+  },
+  "title": "To repeal the Federal estate and gift taxes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/249/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:40:56Z"
+ },
+ "request": {
+  "billNumber": "249",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

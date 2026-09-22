@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/685/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/685/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 21,
+   "countIncludingWithdrawnCosponsors": 21,
+   "url": "https://api.congress.gov/v3/bill/105/hr/685/cosponsors?format=json"
+  },
+  "introducedDate": "1997-02-11",
+  "latestAction": {
+   "actionDate": "1997-03-14",
+   "text": "Referred to the Subcommittee on Workforce Protections."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/685",
+  "number": "685",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000085",
+    "district": 1,
+    "firstName": "JOHN",
+    "fullName": "Rep. Olver, John W. [D-MA-1]",
+    "isByRequest": "N",
+    "lastName": "OLVER",
+    "middleName": "W.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/O000085?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/685/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/685/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/685/text?format=json"
+  },
+  "title": "Fair Wage Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/685/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "685",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

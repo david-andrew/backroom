@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4905/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4905/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4905/cosponsors?format=json"
+  },
+  "introducedDate": "1992-04-09",
+  "latestAction": {
+   "actionDate": "1992-05-01",
+   "text": "Referred to the Subcommittee on Transportation and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/4905",
+  "number": "4905",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000031",
+    "district": 11,
+    "firstName": "DENNIS",
+    "fullName": "Rep. Eckart, Dennis E. [D-OH-11]",
+    "isByRequest": "N",
+    "lastName": "ECKART",
+    "middleName": "E.",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/E000031?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 26,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4905/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4905/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4905/text?format=json"
+  },
+  "title": "Oil and Natural Gas Exploration and Production Waste Management Improvement Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4905/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:14:28Z",
+  "updateDateIncludingText": "2025-08-26T15:14:28Z"
+ },
+ "request": {
+  "billNumber": "4905",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

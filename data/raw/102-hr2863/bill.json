@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2863/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2863/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2863/cosponsors?format=json"
+  },
+  "introducedDate": "1991-07-10",
+  "latestAction": {
+   "actionDate": "1991-07-10",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/2863",
+  "number": "2863",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000189",
+    "district": 1,
+    "firstName": "JOHN",
+    "fullName": "Rep. Rhodes, John J., III [R-AZ-1]",
+    "isByRequest": "N",
+    "lastName": "RHODES",
+    "middleName": "J",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/R000189?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2863/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2863/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2863/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to provide for the indexing of the basis of certain assets.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2863/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:42:19Z"
+ },
+ "request": {
+  "billNumber": "2863",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

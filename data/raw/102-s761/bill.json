@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/761/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/761/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/102/s/761/cosponsors?format=json"
+  },
+  "introducedDate": "1991-03-21",
+  "latestAction": {
+   "actionDate": "1991-03-21",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/761",
+  "number": "761",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000304",
+    "firstName": "JOSEPH",
+    "fullName": "Sen. Lieberman, Joseph I. [D-CT]",
+    "isByRequest": "N",
+    "lastName": "LIEBERMAN",
+    "middleName": "I.",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/L000304?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/102/s/761/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/761/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/761/text?format=json"
+  },
+  "title": "Hazardous Pollution Prevention Planning Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/761/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:28Z"
+ },
+ "request": {
+  "billNumber": "761",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

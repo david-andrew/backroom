@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1443/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1443/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 48,
+   "countIncludingWithdrawnCosponsors": 49,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1443/cosponsors?format=json"
+  },
+  "introducedDate": "1991-03-14",
+  "latestAction": {
+   "actionDate": "1991-04-08",
+   "text": "Referred to the Subcommittee on Transportation and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/1443",
+  "number": "1443",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000110",
+    "district": 8,
+    "firstName": "JOSEPH",
+    "fullName": "Rep. Kennedy, Joseph P., II [D-MA-8]",
+    "isByRequest": "N",
+    "lastName": "KENNEDY",
+    "middleName": "P.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/K000110?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1443/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1443/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1443/text?format=json"
+  },
+  "title": "To require health warnings to be included in alcoholic beverage advertisements, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1443/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1443",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

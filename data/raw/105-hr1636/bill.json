@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1636/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1636/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 147,
+   "countIncludingWithdrawnCosponsors": 148,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1636/cosponsors?format=json"
+  },
+  "introducedDate": "1997-05-15",
+  "latestAction": {
+   "actionDate": "1997-05-29",
+   "text": "Referred to the Subcommittee on Finance and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/1636",
+  "number": "1636",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000215",
+    "district": 29,
+    "firstName": "HENRY",
+    "fullName": "Rep. Waxman, Henry A. [D-CA-29]",
+    "isByRequest": "N",
+    "lastName": "WAXMAN",
+    "middleName": "A.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/W000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 52,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1636/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1636/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1636/text?format=json"
+  },
+  "title": "Children's Environmental Protection and Right to Know Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1636/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:11:24Z",
+  "updateDateIncludingText": "2025-08-21T16:11:24Z"
+ },
+ "request": {
+  "billNumber": "1636",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3205/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3205/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3205/cosponsors?format=json"
+  },
+  "introducedDate": "1991-08-02",
+  "latestAction": {
+   "actionDate": "1992-03-02",
+   "text": "Referred to the Subcommittee on Labor-Management Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/3205",
+  "number": "3205",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3205/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000458",
+    "district": 8,
+    "firstName": "DANIEL",
+    "fullName": "Rep. Rostenkowski, Dan [D-IL-8]",
+    "isByRequest": "N",
+    "lastName": "ROSTENKOWSKI",
+    "middleName": "DAVI",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/R000458?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 65,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3205/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3205/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3205/text?format=json"
+  },
+  "title": "Health Insurance Coverage and Cost Containment Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3205/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "3205",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

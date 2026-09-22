@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1602/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1602/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1602/cosponsors?format=json"
+  },
+  "introducedDate": "1991-03-22",
+  "latestAction": {
+   "actionDate": "1992-10-05",
+   "text": "Placed on the Union Calendar, Calendar No. 571."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/1602",
+  "number": "1602",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000410",
+    "district": 26,
+    "firstName": "HOWARD",
+    "fullName": "Rep. Berman, Howard L. [D-CA-26]",
+    "isByRequest": "N",
+    "lastName": "BERMAN",
+    "middleName": "L.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/B000410?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1602/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1602/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1602/text?format=json"
+  },
+  "title": "Health Insurance Claims Fairness Act of 1992",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1602/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:48:10Z"
+ },
+ "request": {
+  "billNumber": "1602",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

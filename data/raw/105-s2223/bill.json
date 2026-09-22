@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/2223/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2223/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 18,
+   "countIncludingWithdrawnCosponsors": 18,
+   "url": "https://api.congress.gov/v3/bill/105/s/2223/cosponsors?format=json"
+  },
+  "introducedDate": "1998-06-25",
+  "latestAction": {
+   "actionDate": "1998-10-13",
+   "text": "Referred to Subcommittee on Oversight and Courts."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/2223",
+  "number": "2223",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000367",
+    "firstName": "ROD",
+    "fullName": "Sen. Grams, Rod [R-MN]",
+    "isByRequest": "N",
+    "lastName": "GRAMS",
+    "party": "R",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/G000367?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/105/s/2223/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2223/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2223/text?format=json"
+  },
+  "title": "Mortgage Litigation Reform Act of 1998",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/2223/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:54:09Z"
+ },
+ "request": {
+  "billNumber": "2223",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

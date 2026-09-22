@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1300/actions?format=json"
+  },
+  "committees": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1300/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 72,
+   "countIncludingWithdrawnCosponsors": 78,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1300/cosponsors?format=json"
+  },
+  "introducedDate": "1991-03-06",
+  "latestAction": {
+   "actionDate": "1991-03-25",
+   "text": "Referred to the Subcommittee on Health and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/1300",
+  "number": "1300",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000543",
+    "district": 3,
+    "firstName": "MARTIN",
+    "fullName": "Rep. Russo, Martin A. [D-IL-3]",
+    "isByRequest": "N",
+    "lastName": "RUSSO",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/R000543?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1300/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1300/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1300/text?format=json"
+  },
+  "title": "Universal Health Care Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1300/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1300",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

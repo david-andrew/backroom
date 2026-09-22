@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/154/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/154/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/154/cosponsors?format=json"
+  },
+  "introducedDate": "1991-01-14",
+  "latestAction": {
+   "actionDate": "1991-01-14",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/154",
+  "number": "154",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000102",
+    "firstName": "DONALD",
+    "fullName": "Sen. Nickles, Don [R-OK]",
+    "isByRequest": "N",
+    "lastName": "NICKLES",
+    "middleName": "LEE",
+    "party": "R",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/N000102?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/102/s/154/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/154/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/154/text?format=json"
+  },
+  "title": "Domestic Petroleum Security Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/154/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T15:13:49Z",
+  "updateDateIncludingText": "2025-08-26T15:13:49Z"
+ },
+ "request": {
+  "billNumber": "154",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

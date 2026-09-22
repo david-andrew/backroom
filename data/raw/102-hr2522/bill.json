@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2522/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2522/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2522/cosponsors?format=json"
+  },
+  "introducedDate": "1991-06-04",
+  "latestAction": {
+   "actionDate": "1991-06-17",
+   "text": "Referred to the Subcommittee on Telecommunications and Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/2522",
+  "number": "2522",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2522/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000997",
+    "district": 5,
+    "firstName": "JOHN",
+    "fullName": "Rep. Bryant, John W. [D-TX-5]",
+    "isByRequest": "N",
+    "lastName": "BRYANT",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/B000997?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2522/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2522/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2522/text?format=json"
+  },
+  "title": "Corporate Pay Responsibility Act",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2522/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:16:33Z",
+  "updateDateIncludingText": "2025-08-26T15:16:33Z"
+ },
+ "request": {
+  "billNumber": "2522",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

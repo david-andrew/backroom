@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/s/249/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/249/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 26,
+   "countIncludingWithdrawnCosponsors": 26,
+   "url": "https://api.congress.gov/v3/bill/105/s/249/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-30",
+  "latestAction": {
+   "actionDate": "1998-05-14",
+   "text": "Sponsor introductory remarks on measure. (CR S4875-4876)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/249",
+  "number": "249",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/249/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000018",
+    "firstName": "ALFONSE",
+    "fullName": "Sen. D'Amato, Alfonse [R-NY]",
+    "isByRequest": "N",
+    "lastName": "D'AMATO",
+    "middleName": "MARCELLO",
+    "party": "R",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/D000018?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/105/s/249/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/249/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/249/text?format=json"
+  },
+  "title": "Women's Health and Cancer Rights Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/249/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T16:11:37Z",
+  "updateDateIncludingText": "2025-08-21T16:11:37Z"
+ },
+ "request": {
+  "billNumber": "249",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

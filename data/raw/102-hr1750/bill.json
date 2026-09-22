@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1750/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1750/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1750/cosponsors?format=json"
+  },
+  "introducedDate": "1991-04-11",
+  "latestAction": {
+   "actionDate": "1991-04-26",
+   "text": "Referred to the Subcommittee on Transportation and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/1750",
+  "number": "1750",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000124",
+    "district": 8,
+    "firstName": "JAMES",
+    "fullName": "Rep. Scheuer, James H. [D-NY-8]",
+    "isByRequest": "N",
+    "lastName": "SCHEUER",
+    "middleName": "H.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/S000124?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 48,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1750/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1750/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1750/text?format=json"
+  },
+  "title": "Lead Exposure Reduction Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1750/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1750",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

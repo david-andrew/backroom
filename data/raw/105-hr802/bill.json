@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/802/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/802/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/105/hr/802/cosponsors?format=json"
+  },
+  "introducedDate": "1997-02-13",
+  "latestAction": {
+   "actionDate": "1997-02-24",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/802",
+  "number": "802",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000238",
+    "district": 13,
+    "firstName": "WILLIAM",
+    "fullName": "Rep. Thornberry, Mac [R-TX-13]",
+    "isByRequest": "N",
+    "lastName": "THORNBERRY",
+    "middleName": "M.",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/T000238?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/802/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/802/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/802/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to repeal the estate and gift taxes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/802/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:40:57Z"
+ },
+ "request": {
+  "billNumber": "802",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5500/actions?format=json"
+  },
+  "committees": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5500/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5500/cosponsors?format=json"
+  },
+  "introducedDate": "1992-06-25",
+  "latestAction": {
+   "actionDate": "1992-07-24",
+   "text": "Referred to the Subcommittee on Health and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/5500",
+  "number": "5500",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000714",
+    "district": 1,
+    "firstName": "JOHN",
+    "fullName": "Rep. Conyers, John, Jr. [D-MI-1]",
+    "isByRequest": "N",
+    "lastName": "CONYERS",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/C000714?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 90,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5500/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5500/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5500/text?format=json"
+  },
+  "title": "Health Care for Every American Act of 1992",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5500/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "5500",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

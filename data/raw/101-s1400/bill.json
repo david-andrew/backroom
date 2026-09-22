@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/101/s/1400/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1400/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 34,
+   "countIncludingWithdrawnCosponsors": 34,
+   "url": "https://api.congress.gov/v3/bill/101/s/1400/cosponsors?format=json"
+  },
+  "introducedDate": "1989-07-25",
+  "latestAction": {
+   "actionDate": "1990-08-30",
+   "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 807."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1400",
+  "number": "1400",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000019",
+    "firstName": "ROBERT",
+    "fullName": "Sen. Kasten, Robert W., Jr. [R-WI]",
+    "isByRequest": "N",
+    "lastName": "KASTEN",
+    "middleName": "WALTER",
+    "party": "R",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/K000019?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 33,
+   "url": "https://api.congress.gov/v3/bill/101/s/1400/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1400/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1400/text?format=json"
+  },
+  "title": "Product Liability Reform Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/1400/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:03:40Z"
+ },
+ "request": {
+  "billNumber": "1400",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

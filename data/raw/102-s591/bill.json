@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/102/s/591/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/591/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/102/s/591/cosponsors?format=json"
+  },
+  "introducedDate": "1991-03-07",
+  "latestAction": {
+   "actionDate": "1992-12-22",
+   "text": "Referred to the Subcommittee on Transportation and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/591",
+  "number": "591",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000993",
+    "firstName": "RICHARD",
+    "fullName": "Sen. Bryan, Richard H. [D-NV]",
+    "isByRequest": "N",
+    "lastName": "BRYAN",
+    "middleName": "H.",
+    "party": "D",
+    "state": "NV",
+    "url": "https://api.congress.gov/v3/member/B000993?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/102/s/591/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/591/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/s/591/text?format=json"
+  },
+  "title": "Highway Fatality and Injury Reduction Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/591/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:03:40Z"
+ },
+ "request": {
+  "billNumber": "591",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

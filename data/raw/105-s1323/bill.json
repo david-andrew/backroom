@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/1323/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1323/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1323/cosponsors?format=json"
+  },
+  "introducedDate": "1997-10-28",
+  "latestAction": {
+   "actionDate": "1998-04-02",
+   "text": "Committee on Agriculture, Nutrition, and Forestry. Hearings held. Hearings printed: S.Hrg. 105-953."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/1323",
+  "number": "1323",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000206",
+    "firstName": "THOMAS",
+    "fullName": "Sen. Harkin, Tom [D-IA]",
+    "isByRequest": "N",
+    "lastName": "HARKIN",
+    "middleName": "RICHARD",
+    "party": "D",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/H000206?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 35,
+   "url": "https://api.congress.gov/v3/bill/105/s/1323/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1323/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1323/text?format=json"
+  },
+  "title": "Animal Agriculture Reform Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/1323/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T16:11:48Z",
+  "updateDateIncludingText": "2025-08-21T16:11:48Z"
+ },
+ "request": {
+  "billNumber": "1323",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

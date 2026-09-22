@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3009/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3009/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 31,
+   "countIncludingWithdrawnCosponsors": 31,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3009/cosponsors?format=json"
+  },
+  "introducedDate": "1997-11-09",
+  "latestAction": {
+   "actionDate": "1997-12-10",
+   "text": "Referred to the Subcommittee on Employer-Employee Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/3009",
+  "number": "3009",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000034",
+    "district": 6,
+    "firstName": "FRANK",
+    "fullName": "Rep. Pallone, Frank, Jr. [D-NJ-6]",
+    "isByRequest": "N",
+    "lastName": "PALLONE",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/P000034?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 77,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3009/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3009/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3009/text?format=json"
+  },
+  "title": "Health Care Consumer Protection Act of 1997",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3009/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "3009",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3122/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3122/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3122/cosponsors?format=json"
+  },
+  "introducedDate": "1991-07-31",
+  "latestAction": {
+   "actionDate": "1992-06-24",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/3122",
+  "number": "3122",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000997",
+    "district": 5,
+    "firstName": "JOHN",
+    "fullName": "Rep. Bryant, John W. [D-TX-5]",
+    "isByRequest": "N",
+    "lastName": "BRYANT",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/B000997?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3122/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3122/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3122/text?format=json"
+  },
+  "title": "To amend chapter 1 of title 9 of the United States Code to permit each party to a sales and service contract to accept or reject arbitration as a means of settling disputes under the contract.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3122/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2021-06-02T14:38:48Z",
+  "updateDateIncludingText": "2021-06-02T14:38:48Z"
+ },
+ "request": {
+  "billNumber": "3122",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/2571/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2571/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/102/s/2571/cosponsors?format=json"
+  },
+  "introducedDate": "1992-04-09",
+  "latestAction": {
+   "actionDate": "1992-06-23",
+   "text": "Subcommittee on Medicare and Long-Term Care. Hearings held. Hearings printed: S.Hrg. 102-1040."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/2571",
+  "number": "2571",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000811",
+    "firstName": "GEORGE",
+    "fullName": "Sen. Mitchell, George J. [D-ME]",
+    "isByRequest": "N",
+    "lastName": "MITCHELL",
+    "middleName": "JOHN",
+    "party": "D",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/M000811?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 72,
+   "url": "https://api.congress.gov/v3/bill/102/s/2571/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2571/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2571/text?format=json"
+  },
+  "title": "Long-Term Care Family Security Act of 1992",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/s/2571/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T15:13:43Z",
+  "updateDateIncludingText": "2025-08-26T15:13:43Z"
+ },
+ "request": {
+  "billNumber": "2571",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

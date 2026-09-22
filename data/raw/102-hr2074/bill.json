@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2074/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2074/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2074/cosponsors?format=json"
+  },
+  "introducedDate": "1991-04-24",
+  "latestAction": {
+   "actionDate": "1991-05-22",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/2074",
+  "number": "2074",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000006",
+    "district": 8,
+    "firstName": "JAMES",
+    "fullName": "Rep. Oberstar, James L. [D-MN-8]",
+    "isByRequest": "N",
+    "lastName": "OBERSTAR",
+    "middleName": "L.",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/O000006?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2074/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2074/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2074/text?format=json"
+  },
+  "title": "Airline Competition Enhancement Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2074/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:15:27Z",
+  "updateDateIncludingText": "2025-08-26T15:15:27Z"
+ },
+ "request": {
+  "billNumber": "2074",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

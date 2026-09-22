@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/1343/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1343/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/1343/cosponsors?format=json"
+  },
+  "introducedDate": "1997-10-29",
+  "latestAction": {
+   "actionDate": "1998-02-12",
+   "text": "Sponsor introductory remarks on measure. (CR S744)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/1343",
+  "number": "1343",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1343/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000123",
+    "firstName": "FRANK",
+    "fullName": "Sen. Lautenberg, Frank R. [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "LAUTENBERG",
+    "middleName": "R.",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/L000123?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 80,
+   "url": "https://api.congress.gov/v3/bill/105/s/1343/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1343/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1343/text?format=json"
+  },
+  "title": "Public Health and Education Resource (PHAER) Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/1343/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T16:12:54Z",
+  "updateDateIncludingText": "2025-08-21T16:12:54Z"
+ },
+ "request": {
+  "billNumber": "1343",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

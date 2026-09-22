@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3232/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3232/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3232/cosponsors?format=json"
+  },
+  "introducedDate": "1998-02-12",
+  "latestAction": {
+   "actionDate": "1998-02-26",
+   "text": "Referred to the Subcommittee on Water Resources and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/3232",
+  "number": "3232",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000725",
+    "district": 7,
+    "firstName": "GEORGE",
+    "fullName": "Rep. Miller, George [D-CA-7]",
+    "isByRequest": "N",
+    "lastName": "MILLER",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/M000725?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 43,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3232/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3232/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3232/text?format=json"
+  },
+  "title": "Farm Sustainability and Animal Feedlot Enforcement Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3232/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:13:07Z",
+  "updateDateIncludingText": "2025-08-21T16:13:07Z"
+ },
+ "request": {
+  "billNumber": "3232",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

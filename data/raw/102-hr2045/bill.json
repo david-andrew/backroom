@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2045/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2045/committees?format=json"
+  },
+  "congress": 102,
+  "introducedDate": "1991-04-24",
+  "latestAction": {
+   "actionDate": "1991-04-29",
+   "text": "Referred to the Subcommittee on Legislation and National Security."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/2045",
+  "number": "2045",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000714",
+    "district": 1,
+    "firstName": "JOHN",
+    "fullName": "Rep. Conyers, John, Jr. [D-MI-1]",
+    "isByRequest": "N",
+    "lastName": "CONYERS",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/C000714?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2045/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2045/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2045/text?format=json"
+  },
+  "title": "Human Genome Privacy Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2045/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:17:04Z",
+  "updateDateIncludingText": "2025-08-26T15:17:04Z"
+ },
+ "request": {
+  "billNumber": "2045",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

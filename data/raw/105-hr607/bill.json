@@ -1,0 +1,85 @@
+{
+ "bill": {
+  "actions": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/105/hr/607/actions?format=json"
+  },
+  "amendments": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/607/amendments?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "H. Rept. 105-55",
+    "url": "https://api.congress.gov/v3/committee-report/105/HRPT/55?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/607/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 33,
+   "countIncludingWithdrawnCosponsors": 33,
+   "url": "https://api.congress.gov/v3/bill/105/hr/607/cosponsors?format=json"
+  },
+  "introducedDate": "1997-02-05",
+  "latestAction": {
+   "actionDate": "1998-01-27",
+   "text": "Message on Senate action sent to the House."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/607",
+  "number": "607",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/607/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000172",
+    "district": 1,
+    "firstName": "JAMES",
+    "fullName": "Rep. Hansen, James V. [R-UT-1]",
+    "isByRequest": "N",
+    "lastName": "HANSEN",
+    "middleName": "V.",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/H000172?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 80,
+   "url": "https://api.congress.gov/v3/bill/105/hr/607/subjects?format=json"
+  },
+  "summaries": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/607/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/hr/607/text?format=json"
+  },
+  "title": "An Act to amend the National Housing Act to prevent the funding of unnecessary or excessive costs for obtaining a home equity conversion mortgage, to require automatic cancellation and notice of cancellation rights with respect to private mortgage insurance required as a condition for entering into a residential mortagage transaction, to abolish the Thrift Depositor Protection Oversight Board, and for other purposes.",
+  "titles": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/105/hr/607/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T15:23:38Z",
+  "updateDateIncludingText": "2025-04-07T15:23:38Z"
+ },
+ "request": {
+  "billNumber": "607",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

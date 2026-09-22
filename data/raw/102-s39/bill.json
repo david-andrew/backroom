@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/102/s/39/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/39/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/102/s/39/cosponsors?format=json"
+  },
+  "introducedDate": "1991-01-14",
+  "latestAction": {
+   "actionDate": "1991-11-25",
+   "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 370."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/39",
+  "number": "39",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000460",
+    "firstName": "WILLIAM",
+    "fullName": "Sen. Roth Jr., William V. [R-DE]",
+    "isByRequest": "N",
+    "lastName": "ROTH",
+    "middleName": "VICTOR",
+    "party": "R",
+    "state": "DE",
+    "url": "https://api.congress.gov/v3/member/R000460?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/s/39/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/39/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/39/text?format=json"
+  },
+  "title": "A bill to amend the National Wildlife Refuge Administration Act.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/39/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:12:22Z"
+ },
+ "request": {
+  "billNumber": "39",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3253/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3253/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 86,
+   "countIncludingWithdrawnCosponsors": 86,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3253/cosponsors?format=json"
+  },
+  "introducedDate": "1991-08-02",
+  "latestAction": {
+   "actionDate": "1991-08-27",
+   "text": "Referred to the Subcommittee on Transportation and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/3253",
+  "number": "3253",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000319",
+    "district": 8,
+    "firstName": "PETER",
+    "fullName": "Rep. Kostmayer, Peter H. [D-PA-8]",
+    "isByRequest": "N",
+    "lastName": "KOSTMAYER",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/K000319?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3253/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3253/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3253/text?format=json"
+  },
+  "title": "Pollution Prevention, Community Recycling, and Incinerator Control Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3253/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:16:34Z",
+  "updateDateIncludingText": "2025-08-26T15:16:34Z"
+ },
+ "request": {
+  "billNumber": "3253",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

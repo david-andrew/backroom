@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/1915/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1915/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/1915/cosponsors?format=json"
+  },
+  "introducedDate": "1998-04-02",
+  "latestAction": {
+   "actionDate": "1998-04-02",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/1915",
+  "number": "1915",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1915/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000174",
+    "firstName": "Patrick",
+    "fullName": "Sen. Leahy, Patrick J. [D-VT]",
+    "isByRequest": "N",
+    "lastName": "Leahy",
+    "party": "D",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/L000174?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 80,
+   "url": "https://api.congress.gov/v3/bill/105/s/1915/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1915/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1915/text?format=json"
+  },
+  "title": "Omnibus Mercury Emissions Reduction Act of 1998",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/1915/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:30Z"
+ },
+ "request": {
+  "billNumber": "1915",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

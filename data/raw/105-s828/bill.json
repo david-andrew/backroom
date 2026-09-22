@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/828/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/828/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/828/cosponsors?format=json"
+  },
+  "introducedDate": "1997-06-03",
+  "latestAction": {
+   "actionDate": "1998-03-11",
+   "text": "Sponsor introductory remarks on measure. (CR S1720-1722)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/828",
+  "number": "828",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/828/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000563",
+    "firstName": "Richard",
+    "fullName": "Sen. Durbin, Richard J. [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Durbin",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000563?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/105/s/828/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/828/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/828/text?format=json"
+  },
+  "title": "NO Tobacco for Kids Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/828/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:05:51Z"
+ },
+ "request": {
+  "billNumber": "828",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

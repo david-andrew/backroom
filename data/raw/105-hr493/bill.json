@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/105/hr/493/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/493/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 46,
+   "countIncludingWithdrawnCosponsors": 46,
+   "url": "https://api.congress.gov/v3/bill/105/hr/493/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-21",
+  "latestAction": {
+   "actionDate": "1997-02-03",
+   "text": "Referred to the Subcommittee on Government Management, Information and Technology."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/493",
+  "number": "493",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001144",
+    "district": 4,
+    "firstName": "CHRISTOPHER",
+    "fullName": "Rep. Shays, Christopher [R-CT-4]",
+    "isByRequest": "N",
+    "lastName": "SHAYS",
+    "party": "R",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/S001144?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 75,
+   "url": "https://api.congress.gov/v3/bill/105/hr/493/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/493/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/493/text?format=json"
+  },
+  "title": "Bipartisan Campaign Reform Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/493/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:17:56Z",
+  "updateDateIncludingText": "2026-03-23T12:17:56Z"
+ },
+ "request": {
+  "billNumber": "493",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

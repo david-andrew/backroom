@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/31/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/31/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/105/s/31/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-21",
+  "latestAction": {
+   "actionDate": "1997-01-21",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/31",
+  "number": "31",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000504",
+    "firstName": "RICHARD",
+    "fullName": "Sen. Lugar, Richard G. [R-IN]",
+    "isByRequest": "N",
+    "lastName": "LUGAR",
+    "middleName": "GREEN",
+    "party": "R",
+    "state": "IN",
+    "url": "https://api.congress.gov/v3/member/L000504?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/s/31/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/31/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/31/text?format=json"
+  },
+  "title": "Estate and Gift Tax Phase-Out Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/31/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T16:13:24Z",
+  "updateDateIncludingText": "2025-08-21T16:13:24Z"
+ },
+ "request": {
+  "billNumber": "31",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

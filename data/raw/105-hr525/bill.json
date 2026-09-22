@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/525/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/525/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/105/hr/525/cosponsors?format=json"
+  },
+  "introducedDate": "1997-02-04",
+  "latestAction": {
+   "actionDate": "1997-02-04",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/525",
+  "number": "525",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000873",
+    "district": 8,
+    "firstName": "PHILIP",
+    "fullName": "Rep. Crane, Philip M. [R-IL-8]",
+    "isByRequest": "N",
+    "lastName": "CRANE",
+    "middleName": "M.",
+    "party": "R",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/C000873?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/525/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/525/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/525/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to repeal the estate and gift taxes and the tax on generation skipping transfers.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/525/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:40:57Z"
+ },
+ "request": {
+  "billNumber": "525",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

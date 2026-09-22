@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4646/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4646/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 64,
+   "countIncludingWithdrawnCosponsors": 64,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4646/cosponsors?format=json"
+  },
+  "introducedDate": "1998-09-26",
+  "latestAction": {
+   "actionDate": "1998-09-30",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/4646",
+  "number": "4646",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000424",
+    "district": 2,
+    "firstName": "JIM",
+    "fullName": "Rep. Turner, Jim [D-TX-2]",
+    "isByRequest": "N",
+    "lastName": "TURNER",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/T000424?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4646/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4646/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4646/text?format=json"
+  },
+  "title": "To provide for substantial reductions in the price of prescription drugs for Medicare beneficiaries.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4646/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "4646",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

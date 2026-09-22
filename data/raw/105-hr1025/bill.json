@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1025/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1025/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1025/cosponsors?format=json"
+  },
+  "introducedDate": "1997-03-11",
+  "latestAction": {
+   "actionDate": "1997-03-18",
+   "text": "Sponsor introductory remarks on measure. (CR E495)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/1025",
+  "number": "1025",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000797",
+    "district": 2,
+    "firstName": "PATSY",
+    "fullName": "Rep. Mink, Patsy T. [D-HI-2]",
+    "isByRequest": "N",
+    "lastName": "MINK",
+    "middleName": "T.",
+    "party": "D",
+    "state": "HI",
+    "url": "https://api.congress.gov/v3/member/M000797?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1025/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1025/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1025/text?format=json"
+  },
+  "title": "To amend the Federal Election Campaign Act of 1971 to prohibit the use of soft money to influence any campaign for election for Federal office.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1025/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T11:39:48Z",
+  "updateDateIncludingText": "2024-02-07T11:40:42Z"
+ },
+ "request": {
+  "billNumber": "1025",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

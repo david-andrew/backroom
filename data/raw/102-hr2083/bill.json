@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2083/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2083/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 97,
+   "countIncludingWithdrawnCosponsors": 97,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2083/cosponsors?format=json"
+  },
+  "introducedDate": "1991-04-24",
+  "latestAction": {
+   "actionDate": "1992-07-06",
+   "text": "Executive Comment Received from Justice."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/2083",
+  "number": "2083",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2083/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001139",
+    "district": 2,
+    "firstName": "MICHAEL",
+    "fullName": "Rep. Synar, Mike [D-OK-2]",
+    "isByRequest": "N",
+    "lastName": "SYNAR",
+    "middleName": "LYNN",
+    "party": "D",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/S001139?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 26,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2083/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2083/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2083/text?format=json"
+  },
+  "title": "Circle of Poison Prevention Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2083/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2083",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

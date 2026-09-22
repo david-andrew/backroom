@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1106/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1106/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1106/cosponsors?format=json"
+  },
+  "introducedDate": "1991-02-25",
+  "latestAction": {
+   "actionDate": "1991-06-07",
+   "text": "Referred to the Subcommittee on Postal Operations and Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/1106",
+  "number": "1106",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000873",
+    "district": 13,
+    "firstName": "PHILIP",
+    "fullName": "Rep. Crane, Philip M. [R-IL-12]",
+    "isByRequest": "N",
+    "lastName": "CRANE",
+    "middleName": "M.",
+    "party": "R",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/C000873?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1106/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1106/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1106/text?format=json"
+  },
+  "title": "To provide for the privatization of the United States Postal Service.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1106/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-06T20:04:02Z",
+  "updateDateIncludingText": "2024-02-06T20:04:40Z"
+ },
+ "request": {
+  "billNumber": "1106",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

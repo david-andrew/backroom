@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1121/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1121/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1121/cosponsors?format=json"
+  },
+  "introducedDate": "1997-03-19",
+  "latestAction": {
+   "actionDate": "1997-03-28",
+   "text": "Referred to the Subcommittee on Financial Institutions and Consumer Credit."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/1121",
+  "number": "1121",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000583",
+    "district": 14,
+    "firstName": "RON",
+    "fullName": "Rep. Paul, Ron [R-TX-14]",
+    "isByRequest": "N",
+    "lastName": "PAUL",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/P000583?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1121/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1121/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1121/text?format=json"
+  },
+  "title": "Financial Freedom Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1121/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:14:10Z",
+  "updateDateIncludingText": "2025-08-21T16:14:10Z"
+ },
+ "request": {
+  "billNumber": "1121",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/102/s/611/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/611/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/102/s/611/cosponsors?format=json"
+  },
+  "introducedDate": "1991-03-12",
+  "latestAction": {
+   "actionDate": "1991-11-22",
+   "text": "Indefinitely postponed by Senate by Unanimous Consent."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/611",
+  "number": "611",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/611/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000401",
+    "firstName": "ROBERT",
+    "fullName": "Sen. Dole, Robert J. [R-KS]",
+    "isByRequest": "N",
+    "lastName": "DOLE",
+    "middleName": "JOSEPH",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/D000401?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/102/s/611/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/611/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/611/text?format=json"
+  },
+  "title": "Civil Rights Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/611/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T15:16:14Z",
+  "updateDateIncludingText": "2025-08-26T15:16:14Z"
+ },
+ "request": {
+  "billNumber": "611",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

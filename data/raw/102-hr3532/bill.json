@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3532/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3532/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 19,
+   "countIncludingWithdrawnCosponsors": 19,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3532/cosponsors?format=json"
+  },
+  "introducedDate": "1991-10-09",
+  "latestAction": {
+   "actionDate": "1991-10-11",
+   "text": "Referred to the Subcommittee on Government Information, Justice and Agriculture."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/3532",
+  "number": "3532",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Congress"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000589",
+    "district": 8,
+    "firstName": "JOHN",
+    "fullName": "Rep. Boehner, John A. [R-OH-8]",
+    "isByRequest": "N",
+    "lastName": "BOEHNER",
+    "middleName": "A.",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/B000589?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3532/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3532/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3532/text?format=json"
+  },
+  "title": "To amend title 5, United States Code, to require disclosure of information by the Congress.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3532/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-02-04T16:54:13Z",
+  "updateDateIncludingText": "2025-02-04T16:59:28Z"
+ },
+ "request": {
+  "billNumber": "3532",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

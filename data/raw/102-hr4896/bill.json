@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4896/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4896/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4896/cosponsors?format=json"
+  },
+  "introducedDate": "1992-04-09",
+  "latestAction": {
+   "actionDate": "1992-04-09",
+   "text": "Referred to the House Committee on Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/4896",
+  "number": "4896",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000488",
+    "district": 1,
+    "firstName": "WILLIAM",
+    "fullName": "Rep. Clay, William (Bill) [D-MO-1]",
+    "isByRequest": "N",
+    "lastName": "CLAY",
+    "middleName": "L.",
+    "party": "D",
+    "state": "MO",
+    "url": "https://api.congress.gov/v3/member/C000488?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4896/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4896/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4896/text?format=json"
+  },
+  "title": "To extend the patent term of certain products.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4896/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2021-06-02T14:52:40Z",
+  "updateDateIncludingText": "2021-06-02T14:52:40Z"
+ },
+ "request": {
+  "billNumber": "4896",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

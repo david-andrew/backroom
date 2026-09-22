@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2121/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2121/committees?format=json"
+  },
+  "congress": 102,
+  "introducedDate": "1991-04-29",
+  "latestAction": {
+   "actionDate": "1992-03-12",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/2121",
+  "number": "2121",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000810",
+    "district": 9,
+    "firstName": "PETE",
+    "fullName": "Rep. Stark, Fortney Pete [D-CA-9]",
+    "isByRequest": "N",
+    "lastName": "STARK",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/S000810?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2121/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2121/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2121/text?format=json"
+  },
+  "title": "Health Insurance Reform Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2121/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:15:27Z",
+  "updateDateIncludingText": "2025-08-26T15:15:27Z"
+ },
+ "request": {
+  "billNumber": "2121",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

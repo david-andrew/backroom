@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4490/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4490/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4490/cosponsors?format=json"
+  },
+  "introducedDate": "1992-03-18",
+  "latestAction": {
+   "actionDate": "1992-04-10",
+   "text": "Referred to the Subcommittee on Health and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/4490",
+  "number": "4490",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4490/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000432",
+    "firstName": "BYRON",
+    "fullName": "Sen. Dorgan, Byron L. [D-ND]",
+    "isByRequest": "N",
+    "lastName": "DORGAN",
+    "middleName": "LESLIE",
+    "party": "D",
+    "state": "ND",
+    "url": "https://api.congress.gov/v3/member/D000432?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4490/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4490/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4490/text?format=json"
+  },
+  "title": "Prescription Drug Cost Containment Act of 1992",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4490/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "4490",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

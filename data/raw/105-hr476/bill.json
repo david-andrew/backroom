@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/476/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/476/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 64,
+   "countIncludingWithdrawnCosponsors": 64,
+   "url": "https://api.congress.gov/v3/bill/105/hr/476/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-21",
+  "latestAction": {
+   "actionDate": "1997-01-28",
+   "text": "Referred to the Subcommittee on Crime."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/476",
+  "number": "476",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000535",
+    "district": 4,
+    "firstName": "LUIS",
+    "fullName": "Rep. Gutierrez, Luis V. [D-IL-4]",
+    "isByRequest": "N",
+    "lastName": "GUTIERREZ",
+    "middleName": "V.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/G000535?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/476/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/476/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/476/text?format=json"
+  },
+  "title": "To prohibit the possession or transfer of non-sporting handguns.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/476/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2021-04-21T21:11:04Z",
+  "updateDateIncludingText": "2021-04-21T21:11:04Z"
+ },
+ "request": {
+  "billNumber": "476",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

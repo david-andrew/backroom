@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/369/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/369/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/102/hr/369/cosponsors?format=json"
+  },
+  "introducedDate": "1991-01-03",
+  "latestAction": {
+   "actionDate": "1991-01-03",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/369",
+  "number": "369",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000432",
+    "district": 6,
+    "firstName": "BOB",
+    "fullName": "Rep. McEwen, Bob [R-OH-6]",
+    "isByRequest": "N",
+    "lastName": "MCEWEN",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/M000432?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/102/hr/369/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/369/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/369/text?format=json"
+  },
+  "title": "Economic Growth and Venture Capital Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/369/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:14:45Z",
+  "updateDateIncludingText": "2025-08-26T15:14:45Z"
+ },
+ "request": {
+  "billNumber": "369",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/102/hr/842/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/842/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 138,
+   "countIncludingWithdrawnCosponsors": 139,
+   "url": "https://api.congress.gov/v3/bill/102/hr/842/cosponsors?format=json"
+  },
+  "introducedDate": "1991-02-06",
+  "latestAction": {
+   "actionDate": "1992-05-07",
+   "text": "See H.R.4899."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/842",
+  "number": "842",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/842/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000265",
+    "district": 5,
+    "firstName": "JIM",
+    "fullName": "Rep. Jontz, Jim [D-IN-5]",
+    "isByRequest": "N",
+    "lastName": "JONTZ",
+    "party": "D",
+    "state": "IN",
+    "url": "https://api.congress.gov/v3/member/J000265?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/102/hr/842/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/842/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/842/text?format=json"
+  },
+  "title": "Ancient Forest Protection Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/842/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:18:14Z",
+  "updateDateIncludingText": "2025-08-26T15:18:14Z"
+ },
+ "request": {
+  "billNumber": "842",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

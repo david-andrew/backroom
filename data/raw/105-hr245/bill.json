@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/245/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/245/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/245/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-07",
+  "latestAction": {
+   "actionDate": "1997-03-06",
+   "text": "Sponsor introductory remarks on measure. (CR H781-782)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/245",
+  "number": "245",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000049",
+    "district": 12,
+    "firstName": "MICHAEL",
+    "fullName": "Rep. Pappas, Michael [R-NJ-12]",
+    "isByRequest": "N",
+    "lastName": "PAPPAS",
+    "party": "R",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/P000049?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/105/hr/245/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/245/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/245/text?format=json"
+  },
+  "title": "Small Business-Family Farm and Investment Fairness Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/245/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:11:46Z",
+  "updateDateIncludingText": "2025-08-21T16:11:46Z"
+ },
+ "request": {
+  "billNumber": "245",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

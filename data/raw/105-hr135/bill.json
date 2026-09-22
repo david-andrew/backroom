@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/105/hr/135/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/135/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 224,
+   "countIncludingWithdrawnCosponsors": 224,
+   "url": "https://api.congress.gov/v3/bill/105/hr/135/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-07",
+  "latestAction": {
+   "actionDate": "1997-01-31",
+   "text": "Referred to the Subcommittee on Employer-Employee Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/135",
+  "number": "135",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/135/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000216",
+    "district": 3,
+    "firstName": "ROSA",
+    "fullName": "Rep. DeLauro, Rosa L. [D-CT-3]",
+    "isByRequest": "N",
+    "lastName": "DELAURO",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/D000216?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/105/hr/135/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/135/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/135/text?format=json"
+  },
+  "title": "Breast Cancer Patient Protection Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/135/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "135",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

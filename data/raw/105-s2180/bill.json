@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/s/2180/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2180/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 64,
+   "countIncludingWithdrawnCosponsors": 64,
+   "url": "https://api.congress.gov/v3/bill/105/s/2180/cosponsors?format=json"
+  },
+  "introducedDate": "1998-06-16",
+  "latestAction": {
+   "actionDate": "1998-10-21",
+   "text": "Sponsor introductory remarks on measure. (CR S12843-12844)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/2180",
+  "number": "2180",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000447",
+    "firstName": "CHESTER",
+    "fullName": "Sen. Lott, Trent [R-MS]",
+    "isByRequest": "N",
+    "lastName": "LOTT",
+    "middleName": "TRENT",
+    "party": "R",
+    "state": "MS",
+    "url": "https://api.congress.gov/v3/member/L000447?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/105/s/2180/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2180/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2180/text?format=json"
+  },
+  "title": "Superfund Recycling Equity Act of 1998",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/2180/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:20Z"
+ },
+ "request": {
+  "billNumber": "2180",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

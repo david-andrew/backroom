@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3429/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3429/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3429/cosponsors?format=json"
+  },
+  "introducedDate": "1991-09-26",
+  "latestAction": {
+   "actionDate": "1991-10-10",
+   "text": "Referred to the Subcommittee on Water Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/3429",
+  "number": "3429",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000034",
+    "district": 3,
+    "firstName": "FRANK",
+    "fullName": "Rep. Pallone, Frank, Jr. [D-NJ-3]",
+    "isByRequest": "N",
+    "lastName": "PALLONE",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/P000034?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3429/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3429/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3429/text?format=json"
+  },
+  "title": "Clean Water Enforcement and Compliance Improvement Amendments Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3429/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:14:38Z",
+  "updateDateIncludingText": "2025-08-26T15:14:38Z"
+ },
+ "request": {
+  "billNumber": "3429",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

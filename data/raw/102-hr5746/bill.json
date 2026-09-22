@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5746/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5746/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 28,
+   "countIncludingWithdrawnCosponsors": 28,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5746/cosponsors?format=json"
+  },
+  "introducedDate": "1992-07-31",
+  "latestAction": {
+   "actionDate": "1992-08-26",
+   "text": "Referred to the Subcommittee on Health and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/5746",
+  "number": "5746",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000229",
+    "district": 3,
+    "firstName": "BILL",
+    "fullName": "Rep. Richardson, Bill [D-NM-3]",
+    "isByRequest": "N",
+    "lastName": "RICHARDSON",
+    "party": "D",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/R000229?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5746/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5746/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5746/text?format=json"
+  },
+  "title": "Health Choices Freedom Act of 1992",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5746/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "5746",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

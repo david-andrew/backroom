@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/458/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/458/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/458/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-21",
+  "latestAction": {
+   "actionDate": "1997-01-21",
+   "text": "Referred to the House Committee on House Oversight."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/458",
+  "number": "458",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000503",
+    "district": 5,
+    "firstName": "BOB",
+    "fullName": "Rep. Clement, Bob [D-TN-5]",
+    "isByRequest": "N",
+    "lastName": "CLEMENT",
+    "party": "D",
+    "state": "TN",
+    "url": "https://api.congress.gov/v3/member/C000503?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/105/hr/458/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/458/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/458/text?format=json"
+  },
+  "title": "Campaign Truth and Fairness Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/458/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:13:30Z",
+  "updateDateIncludingText": "2025-08-21T16:13:30Z"
+ },
+ "request": {
+  "billNumber": "458",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

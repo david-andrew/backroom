@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1325/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1325/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1325/cosponsors?format=json"
+  },
+  "introducedDate": "1997-04-15",
+  "latestAction": {
+   "actionDate": "1997-04-15",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/1325",
+  "number": "1325",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1325/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000109",
+    "district": 6,
+    "firstName": "DAN",
+    "fullName": "Rep. Schaefer, Dan [R-CO-6]",
+    "isByRequest": "N",
+    "lastName": "SCHAEFER",
+    "party": "R",
+    "state": "CO",
+    "url": "https://api.congress.gov/v3/member/S000109?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 121,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1325/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1325/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1325/text?format=json"
+  },
+  "title": "National Retail Sales Tax Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1325/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:14:34Z",
+  "updateDateIncludingText": "2025-08-21T16:14:34Z"
+ },
+ "request": {
+  "billNumber": "1325",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/736/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/736/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/736/cosponsors?format=json"
+  },
+  "introducedDate": "1997-02-12",
+  "latestAction": {
+   "actionDate": "1997-02-12",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/736",
+  "number": "736",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/736/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001044",
+    "district": 3,
+    "firstName": "BOB",
+    "fullName": "Rep. Stump, Bob [R-AZ-3]",
+    "isByRequest": "N",
+    "lastName": "STUMP",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/S001044?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/736/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/736/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/736/text?format=json"
+  },
+  "title": "To repeal the Federal estate and gift taxes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/736/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:40:56Z"
+ },
+ "request": {
+  "billNumber": "736",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

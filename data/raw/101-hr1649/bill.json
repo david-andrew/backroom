@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1649/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1649/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 48,
+   "countIncludingWithdrawnCosponsors": 48,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1649/cosponsors?format=json"
+  },
+  "introducedDate": "1989-03-23",
+  "latestAction": {
+   "actionDate": "1990-07-20",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/1649",
+  "number": "1649",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000044",
+    "district": 18,
+    "firstName": "DOUG",
+    "fullName": "Rep. Walgren, Doug [D-PA-18]",
+    "isByRequest": "N",
+    "lastName": "WALGREN",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/W000044?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1649/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1649/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1649/text?format=json"
+  },
+  "title": "To amend title XIX of the Social Security Act to require nursing facilities participating in the medicaid program to pay, on a phased-in basis, nursing personnel at a rate at least equal to the mean rate paid nursing personnel employed outside nursing facilities.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1649/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:42:39Z"
+ },
+ "request": {
+  "billNumber": "1649",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2966/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2966/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 136,
+   "countIncludingWithdrawnCosponsors": 137,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2966/cosponsors?format=json"
+  },
+  "introducedDate": "1991-07-22",
+  "latestAction": {
+   "actionDate": "1992-08-11",
+   "text": "Forwarded by Subcommittee to Full Committee."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/2966",
+  "number": "2966",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001139",
+    "district": 2,
+    "firstName": "MICHAEL",
+    "fullName": "Rep. Synar, Mike [D-OK-2]",
+    "isByRequest": "N",
+    "lastName": "SYNAR",
+    "middleName": "LYNN",
+    "party": "D",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/S001139?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2966/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2966/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2966/text?format=json"
+  },
+  "title": "Petroleum Marketing Competition Enhancement Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2966/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:17:27Z",
+  "updateDateIncludingText": "2025-08-26T15:17:27Z"
+ },
+ "request": {
+  "billNumber": "2966",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

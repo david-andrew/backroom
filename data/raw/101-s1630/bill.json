@@ -1,0 +1,84 @@
+{
+ "bill": {
+  "actions": {
+   "count": 114,
+   "url": "https://api.congress.gov/v3/bill/101/s/1630/actions?format=json"
+  },
+  "amendments": {
+   "count": 180,
+   "url": "https://api.congress.gov/v3/bill/101/s/1630/amendments?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1630/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/101/s/1630/cosponsors?format=json"
+  },
+  "introducedDate": "1989-09-14",
+  "latestAction": {
+   "actionDate": "1990-11-15",
+   "text": "Became Public Law No: 101-549."
+  },
+  "laws": [
+   {
+    "number": "101-549",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1630",
+  "number": "1630",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1630/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000243",
+    "firstName": "MAX",
+    "fullName": "Sen. Baucus, Max [D-MT]",
+    "isByRequest": "N",
+    "lastName": "BAUCUS",
+    "middleName": "SIEBEN",
+    "party": "D",
+    "state": "MT",
+    "url": "https://api.congress.gov/v3/member/B000243?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 237,
+   "url": "https://api.congress.gov/v3/bill/101/s/1630/subjects?format=json"
+  },
+  "summaries": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/s/1630/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/s/1630/text?format=json"
+  },
+  "title": "Clean Air Act Amendments of 1990",
+  "titles": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/s/1630/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:12:22Z"
+ },
+ "request": {
+  "billNumber": "1630",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

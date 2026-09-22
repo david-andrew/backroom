@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1340/actions?format=json"
+  },
+  "committees": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1340/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1340/cosponsors?format=json"
+  },
+  "introducedDate": "1997-04-15",
+  "latestAction": {
+   "actionDate": "1997-04-28",
+   "text": "Referred to the Subcommittee on Risk Management and Specialty Crops."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/1340",
+  "number": "1340",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000108",
+    "district": 1,
+    "firstName": "PETER",
+    "fullName": "Rep. Visclosky, Peter J. [D-IN-1]",
+    "isByRequest": "N",
+    "lastName": "VISCLOSKY",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IN",
+    "url": "https://api.congress.gov/v3/member/V000108?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 175,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1340/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1340/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1340/text?format=json"
+  },
+  "title": "Corporate Responsibility Act of 1997",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1340/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-08T19:31:27Z",
+  "updateDateIncludingText": "2026-09-08T19:31:59Z"
+ },
+ "request": {
+  "billNumber": "1340",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

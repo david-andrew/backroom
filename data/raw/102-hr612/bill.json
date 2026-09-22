@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/102/hr/612/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/612/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 17,
+   "countIncludingWithdrawnCosponsors": 17,
+   "url": "https://api.congress.gov/v3/bill/102/hr/612/cosponsors?format=json"
+  },
+  "introducedDate": "1991-01-23",
+  "latestAction": {
+   "actionDate": "1991-04-25",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/612",
+  "number": "612",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000240",
+    "district": 4,
+    "firstName": "DAN",
+    "fullName": "Rep. Glickman, Dan [D-KS-4]",
+    "isByRequest": "N",
+    "lastName": "GLICKMAN",
+    "party": "D",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/G000240?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/102/hr/612/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/612/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/612/text?format=json"
+  },
+  "title": "Motor Vehicle Fuel Conservation Act of 1991",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/612/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:17:03Z",
+  "updateDateIncludingText": "2025-08-26T15:17:03Z"
+ },
+ "request": {
+  "billNumber": "612",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

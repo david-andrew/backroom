@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/s/1530/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1530/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/1530/cosponsors?format=json"
+  },
+  "introducedDate": "1997-11-13",
+  "latestAction": {
+   "actionDate": "1998-02-10",
+   "text": "Senate Committee on Judiciary. Hearings held prior to introduction and/or referral. Hearings printed: S.Hrg. 105-541."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/1530",
+  "number": "1530",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000338",
+    "firstName": "ORRIN",
+    "fullName": "Sen. Hatch, Orrin G. [R-UT]",
+    "isByRequest": "N",
+    "lastName": "HATCH",
+    "middleName": "GRANT",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/H000338?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 200,
+   "url": "https://api.congress.gov/v3/bill/105/s/1530/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1530/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/1530/text?format=json"
+  },
+  "title": "PROTECT Act",
+  "titles": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/105/s/1530/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "1530",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

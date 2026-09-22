@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4627/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4627/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 53,
+   "countIncludingWithdrawnCosponsors": 53,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4627/cosponsors?format=json"
+  },
+  "introducedDate": "1998-09-25",
+  "latestAction": {
+   "actionDate": "1998-10-11",
+   "text": "Sponsor introductory remarks on measure. (CR E2061)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/4627",
+  "number": "4627",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "A000357",
+    "district": 1,
+    "firstName": "THOMAS",
+    "fullName": "Rep. Allen, Thomas H. [D-ME-1]",
+    "isByRequest": "N",
+    "lastName": "ALLEN",
+    "middleName": "H.",
+    "party": "D",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/A000357?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4627/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4627/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4627/text?format=json"
+  },
+  "title": "Prescription Drug Fairness for Seniors Act of 1998",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/4627/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "4627",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/2513/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2513/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/2513/cosponsors?format=json"
+  },
+  "introducedDate": "1992-04-02",
+  "latestAction": {
+   "actionDate": "1992-06-17",
+   "text": "Committee on Finance. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/2513",
+  "number": "2513",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000064",
+    "firstName": "THOMAS",
+    "fullName": "Sen. Daschle, Thomas A. [D-SD]",
+    "isByRequest": "N",
+    "lastName": "DASCHLE",
+    "middleName": "ANDREW",
+    "party": "D",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/D000064?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 66,
+   "url": "https://api.congress.gov/v3/bill/102/s/2513/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2513/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2513/text?format=json"
+  },
+  "title": "American Health Security Plan",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/s/2513/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T15:15:04Z",
+  "updateDateIncludingText": "2025-08-26T15:15:04Z"
+ },
+ "request": {
+  "billNumber": "2513",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

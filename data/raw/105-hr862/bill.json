@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/hr/862/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/862/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/862/cosponsors?format=json"
+  },
+  "introducedDate": "1997-02-27",
+  "latestAction": {
+   "actionDate": "1997-03-03",
+   "text": "Sponsor introductory remarks on measure. (CR E360-361)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/862",
+  "number": "862",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/862/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000400",
+    "district": 25,
+    "firstName": "KEN",
+    "fullName": "Rep. Bentsen, Ken [D-TX-25]",
+    "isByRequest": "N",
+    "lastName": "BENTSEN",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/B000400?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/105/hr/862/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/862/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/862/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to provide a decrease in the maximum rate of tax on capital gains which is based on the length of time the taxpayer held the capital asset.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/862/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:40:59Z"
+ },
+ "request": {
+  "billNumber": "862",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

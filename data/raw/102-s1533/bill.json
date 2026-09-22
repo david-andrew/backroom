@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/1533/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1533/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 14,
+   "url": "https://api.congress.gov/v3/bill/102/s/1533/cosponsors?format=json"
+  },
+  "introducedDate": "1991-07-23",
+  "latestAction": {
+   "actionDate": "1991-10-02",
+   "text": "Subcommittee on Securities. Hearings held. Hearings printed: S.Hrg. 102-410."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/1533",
+  "number": "1533",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000993",
+    "firstName": "RICHARD",
+    "fullName": "Sen. Bryan, Richard H. [D-NV]",
+    "isByRequest": "N",
+    "lastName": "BRYAN",
+    "middleName": "H.",
+    "party": "D",
+    "state": "NV",
+    "url": "https://api.congress.gov/v3/member/B000993?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/102/s/1533/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1533/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1533/text?format=json"
+  },
+  "title": "Securities Investor Protection Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/1533/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T15:14:37Z",
+  "updateDateIncludingText": "2025-08-26T15:14:37Z"
+ },
+ "request": {
+  "billNumber": "1533",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/2201/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2201/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 29,
+   "countIncludingWithdrawnCosponsors": 29,
+   "url": "https://api.congress.gov/v3/bill/105/s/2201/cosponsors?format=json"
+  },
+  "introducedDate": "1998-06-22",
+  "latestAction": {
+   "actionDate": "1998-06-22",
+   "text": "Read twice and referred to the Committee on Labor and Human Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/2201",
+  "number": "2201",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000317",
+    "firstName": "ROBERT",
+    "fullName": "Sen. Torricelli, Robert G. [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "TORRICELLI",
+    "middleName": "G.",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/T000317?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/105/s/2201/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2201/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2201/text?format=json"
+  },
+  "title": "A bill to delay the effective date of the final rule promulgated by the Secretary of Health and Human Services regarding the Organ Procurement and Transplantation Network.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/2201/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:26:20Z"
+ },
+ "request": {
+  "billNumber": "2201",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

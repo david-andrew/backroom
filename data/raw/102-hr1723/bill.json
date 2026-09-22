@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1723/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1723/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 52,
+   "countIncludingWithdrawnCosponsors": 52,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1723/cosponsors?format=json"
+  },
+  "introducedDate": "1991-04-11",
+  "latestAction": {
+   "actionDate": "1991-04-22",
+   "text": "Referred to the Subcommittee on Commerce, Consumer Protection and Competitiveness."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/1723",
+  "number": "1723",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000120",
+    "district": 2,
+    "firstName": "SAMUEL",
+    "fullName": "Rep. Gejdenson, Sam [D-CT-2]",
+    "isByRequest": "N",
+    "lastName": "GEJDENSON",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/G000120?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1723/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1723/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1723/text?format=json"
+  },
+  "title": "Toy Safety and Child Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1723/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:16:53Z",
+  "updateDateIncludingText": "2025-08-26T15:16:53Z"
+ },
+ "request": {
+  "billNumber": "1723",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

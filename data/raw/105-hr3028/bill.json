@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3028/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3028/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 31,
+   "countIncludingWithdrawnCosponsors": 31,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3028/cosponsors?format=json"
+  },
+  "introducedDate": "1997-11-12",
+  "latestAction": {
+   "actionDate": "1998-04-29",
+   "text": "Sponsor introductory remarks on measure. (CR E698)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/3028",
+  "number": "3028",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3028/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000216",
+    "district": 3,
+    "firstName": "ROSA",
+    "fullName": "Rep. DeLauro, Rosa L. [D-CT-3]",
+    "isByRequest": "N",
+    "lastName": "DELAURO",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/D000216?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 143,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3028/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3028/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3028/text?format=json"
+  },
+  "title": "Healthy and Smoke Free Children Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3028/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "3028",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

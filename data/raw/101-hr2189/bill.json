@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2189/actions?format=json"
+  },
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2189/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2189/cosponsors?format=json"
+  },
+  "introducedDate": "1989-05-02",
+  "latestAction": {
+   "actionDate": "1989-06-22",
+   "text": "Executive Comment Requested from FEC."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2189",
+  "number": "2189",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000170",
+    "district": 13,
+    "firstName": "DONALD",
+    "fullName": "Rep. Pease, Donald J. [D-OH-13]",
+    "isByRequest": "N",
+    "lastName": "PEASE",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/P000170?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2189/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2189/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2189/text?format=json"
+  },
+  "title": "To provide for comprehensive campaign reform with respect to elections for the House of Representatives, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2189/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:41:57Z"
+ },
+ "request": {
+  "billNumber": "2189",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4234/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4234/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4234/cosponsors?format=json"
+  },
+  "introducedDate": "1992-02-18",
+  "latestAction": {
+   "actionDate": "1992-03-31",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/4234",
+  "number": "4234",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000556",
+    "district": 32,
+    "firstName": "JOHN",
+    "fullName": "Rep. LaFalce, John J. [D-NY-32]",
+    "isByRequest": "N",
+    "lastName": "LAFALCE",
+    "middleName": "J.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/L000556?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4234/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4234/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4234/text?format=json"
+  },
+  "title": "Credit Availability Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4234/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:18:04Z",
+  "updateDateIncludingText": "2025-08-26T15:18:04Z"
+ },
+ "request": {
+  "billNumber": "4234",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

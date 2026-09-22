@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/1260/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1260/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/1260/cosponsors?format=json"
+  },
+  "introducedDate": "1991-06-11",
+  "latestAction": {
+   "actionDate": "1991-07-29",
+   "text": "Referred to Subcommittee on Constitution."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/1260",
+  "number": "1260",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000811",
+    "firstName": "GEORGE",
+    "fullName": "Sen. Mitchell, George J. [D-ME]",
+    "isByRequest": "N",
+    "lastName": "MITCHELL",
+    "middleName": "JOHN",
+    "party": "D",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/M000811?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/102/s/1260/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1260/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1260/text?format=json"
+  },
+  "title": "Brady Handgun Violence Prevention Act",
+  "titles": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/102/s/1260/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:54:59Z"
+ },
+ "request": {
+  "billNumber": "1260",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/105/hr/586/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/586/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 302,
+   "countIncludingWithdrawnCosponsors": 303,
+   "url": "https://api.congress.gov/v3/bill/105/hr/586/cosponsors?format=json"
+  },
+  "introducedDate": "1997-02-05",
+  "latestAction": {
+   "actionDate": "1998-03-31",
+   "text": "Sponsor introductory remarks on measure. (CR H1847-1850)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/586",
+  "number": "586",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000041",
+    "district": 4,
+    "firstName": "GREG",
+    "fullName": "Rep. Ganske, Greg [R-IA-4]",
+    "isByRequest": "N",
+    "lastName": "GANSKE",
+    "party": "R",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/G000041?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/105/hr/586/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/586/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/586/text?format=json"
+  },
+  "title": "Patient Right to Know Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/586/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "586",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

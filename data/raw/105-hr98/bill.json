@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/hr/98/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/98/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/105/hr/98/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-07",
+  "latestAction": {
+   "actionDate": "1997-01-22",
+   "text": "Referred to the Subcommittee on Telecommunications, Trade, and Consumer Protection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/98",
+  "number": "98",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000087",
+    "district": 4,
+    "firstName": "BRUCE",
+    "fullName": "Rep. Vento, Bruce F. [D-MN-4]",
+    "isByRequest": "N",
+    "lastName": "VENTO",
+    "middleName": "F.",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/V000087?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/105/hr/98/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/98/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/98/text?format=json"
+  },
+  "title": "Consumer Internet Privacy Protection Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/98/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:12:18Z",
+  "updateDateIncludingText": "2025-08-21T16:12:18Z"
+ },
+ "request": {
+  "billNumber": "98",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

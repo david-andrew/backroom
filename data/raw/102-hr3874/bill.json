@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3874/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3874/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3874/cosponsors?format=json"
+  },
+  "introducedDate": "1991-11-22",
+  "latestAction": {
+   "actionDate": "1991-11-22",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/3874",
+  "number": "3874",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000373",
+    "district": 28,
+    "firstName": "JULIAN",
+    "fullName": "Rep. Dixon, Julian C. [D-CA-28]",
+    "isByRequest": "N",
+    "lastName": "DIXON",
+    "middleName": "C.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/D000373?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3874/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3874/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3874/text?format=json"
+  },
+  "title": "Low-Income Housing Revitalization Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3874/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:16:51Z",
+  "updateDateIncludingText": "2025-08-26T15:16:51Z"
+ },
+ "request": {
+  "billNumber": "3874",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

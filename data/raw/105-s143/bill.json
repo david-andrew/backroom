@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/143/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/143/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/105/s/143/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-21",
+  "latestAction": {
+   "actionDate": "1997-01-21",
+   "text": "Read twice and referred to the Committee on Labor and Human Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/143",
+  "number": "143",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/143/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000064",
+    "firstName": "THOMAS",
+    "fullName": "Sen. Daschle, Thomas A. [D-SD]",
+    "isByRequest": "N",
+    "lastName": "DASCHLE",
+    "middleName": "ANDREW",
+    "party": "D",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/D000064?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/105/s/143/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/143/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/143/text?format=json"
+  },
+  "title": "Breast Cancer Patient Protection Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/143/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T16:12:57Z",
+  "updateDateIncludingText": "2025-08-21T16:12:57Z"
+ },
+ "request": {
+  "billNumber": "143",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

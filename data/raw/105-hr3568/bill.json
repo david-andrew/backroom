@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3568/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3568/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 26,
+   "countIncludingWithdrawnCosponsors": 26,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3568/cosponsors?format=json"
+  },
+  "introducedDate": "1998-03-26",
+  "latestAction": {
+   "actionDate": "1998-06-05",
+   "text": "Sponsor introductory remarks on measure. (CR E1044)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/3568",
+  "number": "3568",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000465",
+    "district": 5,
+    "firstName": "MARGE",
+    "fullName": "Rep. Roukema, Marge [R-NJ-5]",
+    "isByRequest": "N",
+    "lastName": "ROUKEMA",
+    "party": "R",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/R000465?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3568/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3568/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3568/text?format=json"
+  },
+  "title": "Mental Health and Substance Abuse Parity Amendments of 1998",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3568/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "3568",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

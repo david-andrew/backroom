@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/918/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/918/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/918/cosponsors?format=json"
+  },
+  "introducedDate": "1997-06-17",
+  "latestAction": {
+   "actionDate": "1997-06-17",
+   "text": "Read twice and referred to the Committee on Rules and Administration."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/918",
+  "number": "918",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000148",
+    "firstName": "JOHN",
+    "fullName": "Sen. Kerry, John F. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "KERRY",
+    "middleName": "FORBES",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/K000148?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 49,
+   "url": "https://api.congress.gov/v3/bill/105/s/918/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/918/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/918/text?format=json"
+  },
+  "title": "Clean Money, Clean Elections Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/918/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T16:13:15Z",
+  "updateDateIncludingText": "2025-08-21T16:13:15Z"
+ },
+ "request": {
+  "billNumber": "918",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

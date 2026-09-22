@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/1414/actions?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/1414/cosponsors?format=json"
+  },
+  "introducedDate": "1997-11-07",
+  "latestAction": {
+   "actionDate": "1997-11-08",
+   "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 286."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/1414",
+  "number": "1414",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1414/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000303",
+    "firstName": "JOHN",
+    "fullName": "Sen. McCain, John [R-AZ]",
+    "isByRequest": "N",
+    "lastName": "MCCAIN",
+    "middleName": "SIDNEY",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/M000303?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 166,
+   "url": "https://api.congress.gov/v3/bill/105/s/1414/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1414/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/1414/text?format=json"
+  },
+  "title": "Universal Tobacco Settlement Act",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/s/1414/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T16:12:06Z",
+  "updateDateIncludingText": "2025-08-21T16:12:06Z"
+ },
+ "request": {
+  "billNumber": "1414",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

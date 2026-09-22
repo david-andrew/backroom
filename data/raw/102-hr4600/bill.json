@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4600/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4600/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4600/cosponsors?format=json"
+  },
+  "introducedDate": "1992-03-26",
+  "latestAction": {
+   "actionDate": "1992-03-31",
+   "text": "Referred to the Subcommittee on Peanuts and Tobacco."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/4600",
+  "number": "4600",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000059",
+    "district": 18,
+    "firstName": "RICK",
+    "fullName": "Rep. Santorum, Rick [R-PA-18]",
+    "isByRequest": "N",
+    "lastName": "SANTORUM",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/S000059?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4600/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4600/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4600/text?format=json"
+  },
+  "title": "To eliminate the tobacco price support program.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4600/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-05T11:45:06Z",
+  "updateDateIncludingText": "2024-02-05T11:46:06Z"
+ },
+ "request": {
+  "billNumber": "4600",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

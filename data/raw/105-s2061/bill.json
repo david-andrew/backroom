@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/2061/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2061/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/105/s/2061/cosponsors?format=json"
+  },
+  "introducedDate": "1998-05-11",
+  "latestAction": {
+   "actionDate": "1998-05-11",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/2061",
+  "number": "2061",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000352",
+    "firstName": "DANIEL",
+    "fullName": "Sen. Graham, Bob [D-FL]",
+    "isByRequest": "N",
+    "lastName": "GRAHAM",
+    "middleName": "ROBERT",
+    "party": "D",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/G000352?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/s/2061/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2061/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2061/text?format=json"
+  },
+  "title": "A bill to amend title XIX of the Social Security Act to prohibit transfers or discharges of residents of nursing facilities.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/2061/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T18:59:41Z",
+  "updateDateIncludingText": "2025-01-14T19:08:00Z"
+ },
+ "request": {
+  "billNumber": "2061",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

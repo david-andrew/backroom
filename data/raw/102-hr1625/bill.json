@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1625/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1625/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1625/cosponsors?format=json"
+  },
+  "introducedDate": "1991-03-22",
+  "latestAction": {
+   "actionDate": "1991-04-01",
+   "text": "Referred to the Subcommittee on Consumer Affairs and Coinage."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/1625",
+  "number": "1625",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000110",
+    "district": 8,
+    "firstName": "JOSEPH",
+    "fullName": "Rep. Kennedy, Joseph P., II [D-MA-8]",
+    "isByRequest": "N",
+    "lastName": "KENNEDY",
+    "middleName": "P.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/K000110?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1625/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1625/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1625/text?format=json"
+  },
+  "title": "Regional Antidiscrimination and Credit Card Disclosure Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1625/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:14:37Z",
+  "updateDateIncludingText": "2025-08-26T15:14:37Z"
+ },
+ "request": {
+  "billNumber": "1625",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

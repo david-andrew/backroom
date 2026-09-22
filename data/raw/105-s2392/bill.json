@@ -1,0 +1,84 @@
+{
+ "bill": {
+  "actions": {
+   "count": 25,
+   "url": "https://api.congress.gov/v3/bill/105/s/2392/actions?format=json"
+  },
+  "amendments": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/2392/amendments?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/2392/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/105/s/2392/cosponsors?format=json"
+  },
+  "introducedDate": "1998-07-30",
+  "latestAction": {
+   "actionDate": "1998-10-19",
+   "text": "Became Public Law No: 105-271."
+  },
+  "laws": [
+   {
+    "number": "105-271",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/2392",
+  "number": "2392",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Law"
+  },
+  "relatedBills": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/2392/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000382",
+    "firstName": "ROBERT",
+    "fullName": "Sen. Bennett, Robert F. [R-UT]",
+    "isByRequest": "Y",
+    "lastName": "BENNETT",
+    "middleName": "F.",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/B000382?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/105/s/2392/subjects?format=json"
+  },
+  "summaries": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/2392/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/s/2392/text?format=json"
+  },
+  "title": "Year 2000 Information and Readiness Disclosure Act",
+  "titles": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/105/s/2392/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "2392",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

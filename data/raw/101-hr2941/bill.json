@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2941/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2941/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2941/cosponsors?format=json"
+  },
+  "introducedDate": "1989-07-20",
+  "latestAction": {
+   "actionDate": "1989-07-25",
+   "text": "Referred to the Subcommittee on Civil and Constitutional Rights."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2941",
+  "number": "2941",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000809",
+    "district": 12,
+    "firstName": "JAMES",
+    "fullName": "Rep. Courter, Jim [R-NJ-12]",
+    "isByRequest": "N",
+    "lastName": "COURTER",
+    "middleName": "ANDREW",
+    "party": "R",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/C000809?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2941/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2941/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2941/text?format=json"
+  },
+  "title": "Civil Rights Enforcement Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2941/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:25:25Z",
+  "updateDateIncludingText": "2025-08-26T17:25:25Z"
+ },
+ "request": {
+  "billNumber": "2941",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

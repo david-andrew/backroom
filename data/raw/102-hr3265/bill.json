@@ -1,0 +1,66 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3265/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3265/committees?format=json"
+  },
+  "congress": 102,
+  "introducedDate": "1991-08-02",
+  "latestAction": {
+   "actionDate": "1991-09-13",
+   "text": "Referred to the Subcommittee on Commerce, Consumer Protection and Competitiveness."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/3265",
+  "number": "3265",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001120",
+    "district": 12,
+    "firstName": "JOHN",
+    "fullName": "Rep. Murtha, John P. [D-PA-12]",
+    "isByRequest": "N",
+    "lastName": "MURTHA",
+    "middleName": "P.",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/M001120?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 74,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3265/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3265/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3265/text?format=json"
+  },
+  "title": "National Energy Resources Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3265/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:14:03Z",
+  "updateDateIncludingText": "2025-08-26T15:14:03Z"
+ },
+ "request": {
+  "billNumber": "3265",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

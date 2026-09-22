@@ -1,0 +1,88 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/105/s/981/actions?format=json"
+  },
+  "amendments": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/981/amendments?format=json"
+  },
+  "cboCostEstimates": [
+   {
+    "description": "Cost estimate for the bill as ordered reported by the Senate Committee on Governmental Affairs on March 10, 1998",
+    "pubDate": "1998-04-24T04:00:00Z",
+    "title": "S. 981, Regulatory Improvement Act of 1998",
+    "url": "https://www.cbo.gov/publication/10753"
+   }
+  ],
+  "committeeReports": [
+   {
+    "citation": "S. Rept. 105-188",
+    "url": "https://api.congress.gov/v3/committee-report/105/SRPT/188?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/981/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/105/s/981/cosponsors?format=json"
+  },
+  "introducedDate": "1997-06-27",
+  "latestAction": {
+   "actionDate": "1998-05-22",
+   "text": "Star Print ordered on Senate Report 105-188."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/981",
+  "number": "981",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000261",
+    "firstName": "CARL",
+    "fullName": "Sen. Levin, Carl [D-MI]",
+    "isByRequest": "N",
+    "lastName": "LEVIN",
+    "middleName": "MILTON",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/L000261?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/105/s/981/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/981/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/981/text?format=json"
+  },
+  "title": "Regulatory Improvement Act of 1998",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/981/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-07T15:33:26Z",
+  "updateDateIncludingText": "2025-04-07T15:33:26Z"
+ },
+ "request": {
+  "billNumber": "981",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

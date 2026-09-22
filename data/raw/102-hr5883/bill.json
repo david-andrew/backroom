@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5883/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5883/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5883/cosponsors?format=json"
+  },
+  "introducedDate": "1992-08-12",
+  "latestAction": {
+   "actionDate": "1992-10-09",
+   "text": "Referred to the Subcommittee on Labor Standards."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/5883",
+  "number": "5883",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000005",
+    "district": 5,
+    "firstName": "MARTIN",
+    "fullName": "Rep. Sabo, Martin Olav [D-MN-5]",
+    "isByRequest": "N",
+    "lastName": "SABO",
+    "middleName": "OLAV",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/S000005?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5883/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5883/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5883/text?format=json"
+  },
+  "title": "Minimum Wage Amendments of 1992",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5883/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:14:57Z",
+  "updateDateIncludingText": "2025-08-26T15:14:57Z"
+ },
+ "request": {
+  "billNumber": "5883",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

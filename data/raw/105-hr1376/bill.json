@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1376/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1376/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 103,
+   "countIncludingWithdrawnCosponsors": 103,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1376/cosponsors?format=json"
+  },
+  "introducedDate": "1997-04-17",
+  "latestAction": {
+   "actionDate": "1997-05-08",
+   "text": "Referred to the Subcommittee on Military Installations and Facilities."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/1376",
+  "number": "1376",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000215",
+    "district": 14,
+    "firstName": "ANNA",
+    "fullName": "Rep. Eshoo, Anna G. [D-CA-14]",
+    "isByRequest": "N",
+    "lastName": "ESHOO",
+    "middleName": "G.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/E000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 88,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1376/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1376/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1376/text?format=json"
+  },
+  "title": "Act to Save America's Forests",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1376/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:13:16Z",
+  "updateDateIncludingText": "2025-08-21T16:13:16Z"
+ },
+ "request": {
+  "billNumber": "1376",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

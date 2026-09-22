@@ -1,0 +1,84 @@
+{
+ "bill": {
+  "actions": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/105/s/505/actions?format=json"
+  },
+  "amendments": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/505/amendments?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/505/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/105/s/505/cosponsors?format=json"
+  },
+  "introducedDate": "1997-03-20",
+  "latestAction": {
+   "actionDate": "1998-10-27",
+   "text": "Became Public Law No: 105-298."
+  },
+  "laws": [
+   {
+    "number": "105-298",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/505",
+  "number": "505",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "relatedBills": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/505/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000338",
+    "firstName": "ORRIN",
+    "fullName": "Sen. Hatch, Orrin G. [R-UT]",
+    "isByRequest": "N",
+    "lastName": "HATCH",
+    "middleName": "GRANT",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/H000338?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 38,
+   "url": "https://api.congress.gov/v3/bill/105/s/505/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/505/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/505/text?format=json"
+  },
+  "title": "Sonny Bono Copyright Term Extension Act",
+  "titles": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/105/s/505/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:54:05Z"
+ },
+ "request": {
+  "billNumber": "505",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

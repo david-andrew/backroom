@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3258/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3258/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3258/cosponsors?format=json"
+  },
+  "introducedDate": "1998-02-25",
+  "latestAction": {
+   "actionDate": "1998-03-03",
+   "text": "Referred to the Subcommittee on Telecommunications, Trade, and Consumer Protection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/3258",
+  "number": "3258",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000133",
+    "district": 7,
+    "firstName": "Edward",
+    "fullName": "Rep. Markey, Edward J. [D-MA-7]",
+    "isByRequest": "N",
+    "lastName": "Markey",
+    "middleName": "J.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/M000133?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3258/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3258/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3258/text?format=json"
+  },
+  "title": "Cable Consumer Protection Act of 1998",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3258/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:12:09Z",
+  "updateDateIncludingText": "2025-08-21T16:12:09Z"
+ },
+ "request": {
+  "billNumber": "3258",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

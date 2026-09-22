@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/366/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/366/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/105/hr/366/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-07",
+  "latestAction": {
+   "actionDate": "1997-01-22",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/366",
+  "number": "366",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000350",
+    "district": 17,
+    "firstName": "JAMES",
+    "fullName": "Rep. Traficant, James A., Jr. [D-OH-17]",
+    "isByRequest": "N",
+    "lastName": "TRAFICANT",
+    "middleName": "A.",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/T000350?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 37,
+   "url": "https://api.congress.gov/v3/bill/105/hr/366/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/366/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/366/text?format=json"
+  },
+  "title": "Breast Implant Accountability Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/366/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "366",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

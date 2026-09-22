@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2406/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2406/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 17,
+   "countIncludingWithdrawnCosponsors": 18,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2406/cosponsors?format=json"
+  },
+  "introducedDate": "1989-05-18",
+  "latestAction": {
+   "actionDate": "1989-05-23",
+   "text": "Referred to the Subcommittee on Forests, Family Farms, and Energy."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2406",
+  "number": "2406",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000997",
+    "district": 5,
+    "firstName": "JOHN",
+    "fullName": "Rep. Bryant, John W. [D-TX-5]",
+    "isByRequest": "N",
+    "lastName": "BRYANT",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/B000997?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2406/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2406/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2406/text?format=json"
+  },
+  "title": "Clearcutting Restraint Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2406/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:28:17Z",
+  "updateDateIncludingText": "2025-08-26T17:28:17Z"
+ },
+ "request": {
+  "billNumber": "2406",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

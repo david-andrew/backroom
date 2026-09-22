@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/6196/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/6196/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 50,
+   "countIncludingWithdrawnCosponsors": 50,
+   "url": "https://api.congress.gov/v3/bill/102/hr/6196/cosponsors?format=json"
+  },
+  "introducedDate": "1992-10-06",
+  "latestAction": {
+   "actionDate": "1992-10-06",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/6196",
+  "number": "6196",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000830",
+    "district": 40,
+    "firstName": "CHRISTOPHER",
+    "fullName": "Rep. Cox, Christopher [R-CA-40]",
+    "isByRequest": "N",
+    "lastName": "COX",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/C000830?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 75,
+   "url": "https://api.congress.gov/v3/bill/102/hr/6196/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/6196/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/6196/text?format=json"
+  },
+  "title": "Tax Fairness Restoration and Economic Growth Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/6196/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:13:58Z",
+  "updateDateIncludingText": "2025-08-26T15:13:58Z"
+ },
+ "request": {
+  "billNumber": "6196",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

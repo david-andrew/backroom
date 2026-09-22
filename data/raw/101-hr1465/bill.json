@@ -1,0 +1,85 @@
+{
+ "bill": {
+  "actions": {
+   "count": 127,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1465/actions?format=json"
+  },
+  "amendments": {
+   "count": 33,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1465/amendments?format=json"
+  },
+  "committees": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1465/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 79,
+   "countIncludingWithdrawnCosponsors": 79,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1465/cosponsors?format=json"
+  },
+  "introducedDate": "1989-03-16",
+  "latestAction": {
+   "actionDate": "1990-08-18",
+   "text": "Became Public Law No: 101-380."
+  },
+  "laws": [
+   {
+    "number": "101-380",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/1465",
+  "number": "1465",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1465/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000256",
+    "district": 1,
+    "firstName": "Walter",
+    "fullName": "Rep. Jones, Walter B. [D-NC-1]",
+    "isByRequest": "N",
+    "lastName": "Jones",
+    "middleName": "B.",
+    "party": "D",
+    "state": "NC",
+    "url": "https://api.congress.gov/v3/member/J000256?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 87,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1465/subjects?format=json"
+  },
+  "summaries": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1465/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1465/text?format=json"
+  },
+  "title": "Oil Pollution Act of 1990",
+  "titles": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1465/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:02:17Z",
+  "updateDateIncludingText": "2024-02-07T16:02:17Z"
+ },
+ "request": {
+  "billNumber": "1465",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

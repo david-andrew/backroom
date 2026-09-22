@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/105/hr/762/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/762/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/105/hr/762/cosponsors?format=json"
+  },
+  "introducedDate": "1997-02-13",
+  "latestAction": {
+   "actionDate": "1997-03-07",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/762",
+  "number": "762",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000172",
+    "district": 1,
+    "firstName": "JAMES",
+    "fullName": "Rep. Hansen, James V. [R-UT-1]",
+    "isByRequest": "N",
+    "lastName": "HANSEN",
+    "middleName": "V.",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/H000172?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 44,
+   "url": "https://api.congress.gov/v3/bill/105/hr/762/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/762/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/762/text?format=json"
+  },
+  "title": "Youth Protection From Tobacco Addiction Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/762/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "762",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

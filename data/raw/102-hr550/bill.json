@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/550/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/550/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/102/hr/550/cosponsors?format=json"
+  },
+  "introducedDate": "1991-01-16",
+  "latestAction": {
+   "actionDate": "1992-07-23",
+   "text": "For Further Action See H.R.4850."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/550",
+  "number": "550",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/550/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001144",
+    "district": 4,
+    "firstName": "CHRISTOPHER",
+    "fullName": "Rep. Shays, Christopher [R-CT-4]",
+    "isByRequest": "N",
+    "lastName": "SHAYS",
+    "party": "R",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/S001144?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/102/hr/550/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/550/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/550/text?format=json"
+  },
+  "title": "Cable Consumer Protection Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/550/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:14:34Z",
+  "updateDateIncludingText": "2025-08-26T15:14:34Z"
+ },
+ "request": {
+  "billNumber": "550",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/102/s/279/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/279/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 36,
+   "countIncludingWithdrawnCosponsors": 36,
+   "url": "https://api.congress.gov/v3/bill/102/s/279/cosponsors?format=json"
+  },
+  "introducedDate": "1991-01-29",
+  "latestAction": {
+   "actionDate": "1991-05-07",
+   "text": "Star Print ordered on S. 279."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/279",
+  "number": "279",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000993",
+    "firstName": "RICHARD",
+    "fullName": "Sen. Bryan, Richard H. [D-NV]",
+    "isByRequest": "N",
+    "lastName": "BRYAN",
+    "middleName": "H.",
+    "party": "D",
+    "state": "NV",
+    "url": "https://api.congress.gov/v3/member/B000993?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/102/s/279/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/279/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/279/text?format=json"
+  },
+  "title": "Motor Vehicle Fuel Efficiency Act",
+  "titles": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/102/s/279/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:03:40Z"
+ },
+ "request": {
+  "billNumber": "279",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/101/s/406/actions?format=json"
+  },
+  "amendments": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/s/406/amendments?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/406/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/406/cosponsors?format=json"
+  },
+  "introducedDate": "1989-02-09",
+  "latestAction": {
+   "actionDate": "1989-11-16",
+   "text": "Committee on Energy and Natural Resources. Hearings concluded. Hearings printed: S.Hrg. 101-538."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/406",
+  "number": "406",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000189",
+    "firstName": "JOHN",
+    "fullName": "Sen. Johnston, J. Bennett [D-LA]",
+    "isByRequest": "N",
+    "lastName": "JOHNSTON",
+    "middleName": "BENNETT",
+    "party": "D",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/J000189?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/101/s/406/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/406/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/406/text?format=json"
+  },
+  "title": "Arctic Coastal Plain Competitive Oil and Gas Leasing Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/406/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:14:43Z"
+ },
+ "request": {
+  "billNumber": "406",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

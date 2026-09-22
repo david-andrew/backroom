@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3060/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3060/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3060/cosponsors?format=json"
+  },
+  "introducedDate": "1997-11-13",
+  "latestAction": {
+   "actionDate": "1997-12-13",
+   "text": "Referred to the Subcommittee on Financial Institutions and Consumer Credit."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/3060",
+  "number": "3060",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000110",
+    "district": 8,
+    "firstName": "JOSEPH",
+    "fullName": "Rep. Kennedy, Joseph P., II [D-MA-8]",
+    "isByRequest": "N",
+    "lastName": "KENNEDY",
+    "middleName": "P.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/K000110?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 33,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3060/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3060/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3060/text?format=json"
+  },
+  "title": "Rent-To-Own Reform Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3060/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:15:00Z",
+  "updateDateIncludingText": "2025-08-21T16:15:00Z"
+ },
+ "request": {
+  "billNumber": "3060",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

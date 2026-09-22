@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2501/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2501/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2501/cosponsors?format=json"
+  },
+  "introducedDate": "1991-05-30",
+  "latestAction": {
+   "actionDate": "1991-11-13",
+   "text": "Subcommittee Consideration and Mark-up Session Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/2501",
+  "number": "2501",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2501/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000265",
+    "district": 5,
+    "firstName": "JIM",
+    "fullName": "Rep. Jontz, Jim [D-IN-5]",
+    "isByRequest": "N",
+    "lastName": "JONTZ",
+    "party": "D",
+    "state": "IN",
+    "url": "https://api.congress.gov/v3/member/J000265?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2501/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2501/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2501/text?format=json"
+  },
+  "title": "National Forest Timber Sales Cost Recovery Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2501/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:15:30Z",
+  "updateDateIncludingText": "2025-08-26T15:15:30Z"
+ },
+ "request": {
+  "billNumber": "2501",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

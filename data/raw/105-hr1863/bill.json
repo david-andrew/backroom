@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1863/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1863/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 42,
+   "countIncludingWithdrawnCosponsors": 42,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1863/cosponsors?format=json"
+  },
+  "introducedDate": "1997-06-11",
+  "latestAction": {
+   "actionDate": "1997-06-18",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/1863",
+  "number": "1863",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000081",
+    "district": 18,
+    "firstName": "BOB",
+    "fullName": "Rep. Ney, Robert W. [R-OH-18]",
+    "isByRequest": "N",
+    "lastName": "NEY",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/N000081?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1863/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1863/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1863/text?format=json"
+  },
+  "title": "Job Protection Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1863/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1863",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

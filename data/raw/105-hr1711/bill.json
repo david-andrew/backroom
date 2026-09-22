@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1711/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1711/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 94,
+   "countIncludingWithdrawnCosponsors": 94,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1711/cosponsors?format=json"
+  },
+  "introducedDate": "1997-05-22",
+  "latestAction": {
+   "actionDate": "1997-06-17",
+   "text": "Referred to the Subcommittee on Workforce Protections."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/1711",
+  "number": "1711",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000213",
+    "district": 6,
+    "firstName": "JOE",
+    "fullName": "Rep. Barton, Joe [R-TX-6]",
+    "isByRequest": "N",
+    "lastName": "BARTON",
+    "middleName": "L.",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/B000213?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1711/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1711/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1711/text?format=json"
+  },
+  "title": "Small Business Remediation Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/1711/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1711",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

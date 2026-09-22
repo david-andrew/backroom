@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/s/1490/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1490/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/101/s/1490/cosponsors?format=json"
+  },
+  "introducedDate": "1989-08-03",
+  "latestAction": {
+   "actionDate": "1989-10-05",
+   "text": "Subcommittee on Environmental Protection. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1490",
+  "number": "1490",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000269",
+    "firstName": "JOHN",
+    "fullName": "Sen. Chafee, John H. [R-RI]",
+    "isByRequest": "N",
+    "lastName": "CHAFEE",
+    "middleName": "HUBBARD",
+    "party": "R",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/C000269?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 53,
+   "url": "https://api.congress.gov/v3/bill/101/s/1490/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1490/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1490/text?format=json"
+  },
+  "title": "Clean Air Act Amendments of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1490/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:50Z"
+ },
+ "request": {
+  "billNumber": "1490",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

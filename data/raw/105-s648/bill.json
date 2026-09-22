@@ -1,0 +1,84 @@
+{
+ "bill": {
+  "actions": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/105/s/648/actions?format=json"
+  },
+  "amendments": {
+   "count": 43,
+   "url": "https://api.congress.gov/v3/bill/105/s/648/amendments?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "S. Rept. 105-32",
+    "url": "https://api.congress.gov/v3/committee-report/105/SRPT/32?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/648/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/105/s/648/cosponsors?format=json"
+  },
+  "introducedDate": "1997-04-24",
+  "latestAction": {
+   "actionDate": "1998-07-09",
+   "text": "Returned to the Calendar. Calendar No. 90. (consideration: CR S7913)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/648",
+  "number": "648",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/648/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000333",
+    "firstName": "THOMAS",
+    "fullName": "Sen. Gorton, Slade [R-WA]",
+    "isByRequest": "N",
+    "lastName": "GORTON",
+    "middleName": "SLADE",
+    "party": "R",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/G000333?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 46,
+   "url": "https://api.congress.gov/v3/bill/105/s/648/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/648/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/648/text?format=json"
+  },
+  "title": "Product Liability Reform Act of 1997",
+  "titles": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/105/s/648/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:03:40Z"
+ },
+ "request": {
+  "billNumber": "648",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

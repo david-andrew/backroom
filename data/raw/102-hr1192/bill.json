@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1192/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1192/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 19,
+   "countIncludingWithdrawnCosponsors": 19,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1192/cosponsors?format=json"
+  },
+  "introducedDate": "1991-02-28",
+  "latestAction": {
+   "actionDate": "1991-03-21",
+   "text": "Referred to the Subcommittee on Health and Safety."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/1192",
+  "number": "1192",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000090",
+    "district": 11,
+    "firstName": "TOM",
+    "fullName": "Rep. Lantos, Tom [D-CA-11]",
+    "isByRequest": "N",
+    "lastName": "LANTOS",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/L000090?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1192/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1192/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1192/text?format=json"
+  },
+  "title": "OSHA Criminal Penalty Reform Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1192/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:13:56Z",
+  "updateDateIncludingText": "2025-08-26T15:13:56Z"
+ },
+ "request": {
+  "billNumber": "1192",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

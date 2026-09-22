@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5005/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5005/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5005/cosponsors?format=json"
+  },
+  "introducedDate": "1992-04-28",
+  "latestAction": {
+   "actionDate": "1992-04-30",
+   "text": "Referred to the Subcommittee on Legislation and National Security."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/5005",
+  "number": "5005",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000350",
+    "district": 17,
+    "firstName": "JAMES",
+    "fullName": "Rep. Traficant, James A., Jr. [D-OH-17]",
+    "isByRequest": "N",
+    "lastName": "TRAFICANT",
+    "middleName": "A.",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/T000350?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5005/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5005/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5005/text?format=json"
+  },
+  "title": "To exempt any person operating a trade or business in the State of Ohio from all Federal laws and regulations applying with regard to such trade or business.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5005/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-02-04T16:54:13Z",
+  "updateDateIncludingText": "2025-02-04T16:59:28Z"
+ },
+ "request": {
+  "billNumber": "5005",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

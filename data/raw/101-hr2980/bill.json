@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2980/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2980/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2980/cosponsors?format=json"
+  },
+  "introducedDate": "1989-07-24",
+  "latestAction": {
+   "actionDate": "1989-08-08",
+   "text": "Referred to the Subcommittee on Health and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2980",
+  "number": "2980",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000485",
+    "district": 25,
+    "firstName": "EDWARD",
+    "fullName": "Rep. Roybal, Edward R. [D-CA-25]",
+    "isByRequest": "N",
+    "lastName": "ROYBAL",
+    "middleName": "R.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/R000485?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 90,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2980/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2980/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2980/text?format=json"
+  },
+  "title": "USHealth Program Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2980/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2980",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/501/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/501/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/501/cosponsors?format=json"
+  },
+  "introducedDate": "1997-03-20",
+  "latestAction": {
+   "actionDate": "1997-03-20",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/501",
+  "number": "501",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/501/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000019",
+    "firstName": "CONNIE",
+    "fullName": "Sen. Mack, Connie, III [R-FL]",
+    "isByRequest": "N",
+    "lastName": "MACK",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/M000019?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/105/s/501/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/501/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/501/text?format=json"
+  },
+  "title": "Return Capital To The American People Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/501/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T16:14:02Z",
+  "updateDateIncludingText": "2025-08-21T16:14:02Z"
+ },
+ "request": {
+  "billNumber": "501",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

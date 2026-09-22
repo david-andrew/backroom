@@ -1,0 +1,80 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/105/s/295/actions?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "S. Rept. 105-12",
+    "url": "https://api.congress.gov/v3/committee-report/105/SRPT/12?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/295/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/105/s/295/cosponsors?format=json"
+  },
+  "introducedDate": "1997-02-10",
+  "latestAction": {
+   "actionDate": "1997-04-02",
+   "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 33."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/295",
+  "number": "295",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/295/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000072",
+    "firstName": "JAMES",
+    "fullName": "Sen. Jeffords, James M. [R-VT]",
+    "isByRequest": "N",
+    "lastName": "JEFFORDS",
+    "middleName": "MERRILL",
+    "party": "R",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/J000072?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/s/295/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/295/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/s/295/text?format=json"
+  },
+  "title": "Teamwork for Employees and Managers Act of 1997",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/s/295/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:26:25Z"
+ },
+ "request": {
+  "billNumber": "295",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

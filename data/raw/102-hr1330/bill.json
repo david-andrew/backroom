@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1330/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1330/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 174,
+   "countIncludingWithdrawnCosponsors": 181,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1330/cosponsors?format=json"
+  },
+  "introducedDate": "1991-03-07",
+  "latestAction": {
+   "actionDate": "1992-05-21",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/1330",
+  "number": "1330",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000390",
+    "district": 7,
+    "firstName": "JIMMY",
+    "fullName": "Rep. Hayes, James A. [D-LA-7]",
+    "isByRequest": "N",
+    "lastName": "HAYES",
+    "party": "D",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/H000390?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1330/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1330/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1330/text?format=json"
+  },
+  "title": "Comprehensive Wetlands Conservation and Management Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1330/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:14:50Z",
+  "updateDateIncludingText": "2025-08-26T15:14:50Z"
+ },
+ "request": {
+  "billNumber": "1330",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

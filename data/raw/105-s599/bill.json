@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/599/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/599/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/599/cosponsors?format=json"
+  },
+  "introducedDate": "1997-04-16",
+  "latestAction": {
+   "actionDate": "1997-04-16",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/599",
+  "number": "599",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000711",
+    "firstName": "BARBARA",
+    "fullName": "Sen. Boxer, Barbara [D-CA]",
+    "isByRequest": "N",
+    "lastName": "BOXER",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/B000711?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 53,
+   "url": "https://api.congress.gov/v3/bill/105/s/599/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/599/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/599/text?format=json"
+  },
+  "title": "Children's Environmental Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/599/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:14Z"
+ },
+ "request": {
+  "billNumber": "599",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

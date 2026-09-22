@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3000/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3000/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 43,
+   "countIncludingWithdrawnCosponsors": 45,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3000/cosponsors?format=json"
+  },
+  "introducedDate": "1997-11-09",
+  "latestAction": {
+   "actionDate": "1998-06-22",
+   "text": "See H.R.2727."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/3000",
+  "number": "3000",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3000/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000163",
+    "district": 4,
+    "firstName": "MICHAEL",
+    "fullName": "Rep. Oxley, Michael G. [R-OH-4]",
+    "isByRequest": "N",
+    "lastName": "OXLEY",
+    "middleName": "G.",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/O000163?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 177,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3000/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3000/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3000/text?format=json"
+  },
+  "title": "Superfund Reform Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/3000/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:14:44Z",
+  "updateDateIncludingText": "2025-08-21T16:14:44Z"
+ },
+ "request": {
+  "billNumber": "3000",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

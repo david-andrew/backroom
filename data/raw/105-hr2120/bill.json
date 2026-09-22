@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2120/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2120/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 29,
+   "countIncludingWithdrawnCosponsors": 29,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2120/cosponsors?format=json"
+  },
+  "introducedDate": "1997-07-09",
+  "latestAction": {
+   "actionDate": "1997-07-18",
+   "text": "Referred to the Subcommittee on Telecommunications, Trade, and Consumer Protection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/2120",
+  "number": "2120",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000191",
+    "district": 4,
+    "firstName": "PETER",
+    "fullName": "Rep. DeFazio, Peter A. [D-OR-4]",
+    "isByRequest": "N",
+    "lastName": "DEFAZIO",
+    "middleName": "A.",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/D000191?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2120/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2120/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2120/text?format=json"
+  },
+  "title": "Telephone Consumer Slamming Prevention Act of 1997",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2120/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:12:17Z",
+  "updateDateIncludingText": "2025-08-21T16:12:17Z"
+ },
+ "request": {
+  "billNumber": "2120",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

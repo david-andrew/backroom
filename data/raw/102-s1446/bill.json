@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/1446/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1446/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1446/cosponsors?format=json"
+  },
+  "introducedDate": "1991-07-11",
+  "latestAction": {
+   "actionDate": "1991-07-11",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/1446",
+  "number": "1446",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000146",
+    "firstName": "J.",
+    "fullName": "Sen. Kerrey, J. Robert [D-NE]",
+    "isByRequest": "N",
+    "lastName": "KERREY",
+    "middleName": "ROBERT",
+    "party": "D",
+    "state": "NE",
+    "url": "https://api.congress.gov/v3/member/K000146?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 68,
+   "url": "https://api.congress.gov/v3/bill/102/s/1446/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1446/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1446/text?format=json"
+  },
+  "title": "Health USA Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/1446/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T15:13:41Z",
+  "updateDateIncludingText": "2025-08-26T15:13:41Z"
+ },
+ "request": {
+  "billNumber": "1446",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

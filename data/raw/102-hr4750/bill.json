@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4750/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4750/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 146,
+   "countIncludingWithdrawnCosponsors": 148,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4750/cosponsors?format=json"
+  },
+  "introducedDate": "1992-04-02",
+  "latestAction": {
+   "actionDate": "1992-04-10",
+   "text": "Referred to the Subcommittee on Energy and Power."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/4750",
+  "number": "4750",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000215",
+    "district": 24,
+    "firstName": "HENRY",
+    "fullName": "Rep. Waxman, Henry A. [D-CA-24]",
+    "isByRequest": "N",
+    "lastName": "WAXMAN",
+    "middleName": "A.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/W000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4750/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4750/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4750/text?format=json"
+  },
+  "title": "Global Climate Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4750/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:14:58Z",
+  "updateDateIncludingText": "2025-08-26T15:14:58Z"
+ },
+ "request": {
+  "billNumber": "4750",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

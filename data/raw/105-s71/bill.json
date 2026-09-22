@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/71/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/71/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/105/s/71/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-21",
+  "latestAction": {
+   "actionDate": "1998-06-10",
+   "text": "Sponsor introductory remarks on measure. (CR S6033)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/71",
+  "number": "71",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000064",
+    "firstName": "THOMAS",
+    "fullName": "Sen. Daschle, Thomas A. [D-SD]",
+    "isByRequest": "N",
+    "lastName": "DASCHLE",
+    "middleName": "ANDREW",
+    "party": "D",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/D000064?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 40,
+   "url": "https://api.congress.gov/v3/bill/105/s/71/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/71/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/71/text?format=json"
+  },
+  "title": "Paycheck Fairness Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/71/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T16:14:27Z",
+  "updateDateIncludingText": "2025-08-21T16:14:27Z"
+ },
+ "request": {
+  "billNumber": "71",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4230/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4230/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 14,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4230/cosponsors?format=json"
+  },
+  "introducedDate": "1992-02-14",
+  "latestAction": {
+   "actionDate": "1992-09-10",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/4230",
+  "number": "4230",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000268",
+    "district": 7,
+    "firstName": "CURT",
+    "fullName": "Rep. Weldon, Curt [R-PA-7]",
+    "isByRequest": "N",
+    "lastName": "WELDON",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/W000268?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4230/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4230/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4230/text?format=json"
+  },
+  "title": "Automotive Buyers Right to Know Act of 1992",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/4230/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:13:45Z",
+  "updateDateIncludingText": "2025-08-26T15:13:45Z"
+ },
+ "request": {
+  "billNumber": "4230",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

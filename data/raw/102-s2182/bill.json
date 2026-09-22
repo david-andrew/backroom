@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/2182/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2182/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2182/cosponsors?format=json"
+  },
+  "introducedDate": "1992-02-04",
+  "latestAction": {
+   "actionDate": "1992-03-18",
+   "text": "Referred to Subcommittee on Nutrition and Investigations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/2182",
+  "number": "2182",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000185",
+    "firstName": "DENNIS",
+    "fullName": "Sen. DeConcini, Dennis [D-AZ]",
+    "isByRequest": "N",
+    "lastName": "DECONCINI",
+    "middleName": "WEBSTER",
+    "party": "D",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/D000185?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/102/s/2182/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2182/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2182/text?format=json"
+  },
+  "title": "A bill to amend the Child Nutrition Act of 1966 to make the special supplemental food program for women, infants, and children (WIC) and entitlement program, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/2182/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T16:41:20Z",
+  "updateDateIncludingText": "2025-01-14T16:42:22Z"
+ },
+ "request": {
+  "billNumber": "2182",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

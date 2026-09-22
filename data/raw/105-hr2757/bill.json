@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2757/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2757/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2757/cosponsors?format=json"
+  },
+  "introducedDate": "1997-10-29",
+  "latestAction": {
+   "actionDate": "1997-11-09",
+   "text": "Referred to the Subcommittee on Telecommunications, Trade, and Consumer Protection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/2757",
+  "number": "2757",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000191",
+    "district": 4,
+    "firstName": "PETER",
+    "fullName": "Rep. DeFazio, Peter A. [D-OR-4]",
+    "isByRequest": "N",
+    "lastName": "DEFAZIO",
+    "middleName": "A.",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/D000191?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2757/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2757/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2757/text?format=json"
+  },
+  "title": "Cable Rate Moratorium Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2757/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:11:59Z",
+  "updateDateIncludingText": "2025-08-21T16:11:59Z"
+ },
+ "request": {
+  "billNumber": "2757",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

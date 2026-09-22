@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/1837/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1837/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1837/cosponsors?format=json"
+  },
+  "introducedDate": "1991-10-17",
+  "latestAction": {
+   "actionDate": "1991-10-23",
+   "text": "Referred to Subcommittee on Courts and Administrative Practice."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/1837",
+  "number": "1837",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000146",
+    "firstName": "HARRY",
+    "fullName": "Sen. Reid, Harry [D-NV]",
+    "isByRequest": "N",
+    "lastName": "REID",
+    "middleName": "M.",
+    "party": "D",
+    "state": "NV",
+    "url": "https://api.congress.gov/v3/member/R000146?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/102/s/1837/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1837/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1837/text?format=json"
+  },
+  "title": "A bill to repeal a provision of Federal tort claim law relating to contractor liability for injury or loss of property arising out of atomic weapons testing programs, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/1837/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:54:34Z"
+ },
+ "request": {
+  "billNumber": "1837",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/2017/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2017/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2017/cosponsors?format=json"
+  },
+  "introducedDate": "1991-11-22",
+  "latestAction": {
+   "actionDate": "1991-11-22",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/2017",
+  "number": "2017",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000423",
+    "firstName": "PAUL",
+    "fullName": "Sen. Simon, Paul [D-IL]",
+    "isByRequest": "N",
+    "lastName": "SIMON",
+    "middleName": "MARTIN",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/S000423?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/102/s/2017/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2017/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/2017/text?format=json"
+  },
+  "title": "Long-Term Care Family Protection Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/2017/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T15:15:46Z",
+  "updateDateIncludingText": "2025-08-26T15:15:46Z"
+ },
+ "request": {
+  "billNumber": "2017",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/105/s/644/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/644/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/105/s/644/cosponsors?format=json"
+  },
+  "introducedDate": "1997-04-24",
+  "latestAction": {
+   "actionDate": "1998-03-24",
+   "text": "Committee on Labor and Human Resources. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/644",
+  "number": "644",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/644/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000018",
+    "firstName": "ALFONSE",
+    "fullName": "Sen. D'Amato, Alfonse [R-NY]",
+    "isByRequest": "N",
+    "lastName": "D'AMATO",
+    "middleName": "MARCELLO",
+    "party": "R",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/D000018?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 56,
+   "url": "https://api.congress.gov/v3/bill/105/s/644/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/644/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/644/text?format=json"
+  },
+  "title": "Patient Access to Responsible Care Act of 1997",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/644/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T16:14:50Z",
+  "updateDateIncludingText": "2025-08-21T16:14:50Z"
+ },
+ "request": {
+  "billNumber": "644",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "bill": {
+  "actions": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/101/s/686/actions?format=json"
+  },
+  "amendments": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/101/s/686/amendments?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/686/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/101/s/686/cosponsors?format=json"
+  },
+  "introducedDate": "1989-04-04",
+  "latestAction": {
+   "actionDate": "1989-11-19",
+   "text": "Senate passed companion measure H.R. 1465 in lieu of this measure by Voice Vote."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/686",
+  "notes": [
+   {
+    "links": [
+     {
+      "name": "H.R. 1465",
+      "url": "https://www.congress.gov/bill/101st-congress/house-bill/1465"
+     },
+     {
+      "name": "S. 686",
+      "url": "https://www.congress.gov/bill/101st-congress/senate-bill/686"
+     }
+    ],
+    "text": "On 11/19/1989, the Senate incorporated S. 686 in H.R. 1465 as an\r\namendment and passed H.R. 1465 in lieu of S. 686."
+   }
+  ],
+  "number": "686",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/101/s/686/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000811",
+    "firstName": "GEORGE",
+    "fullName": "Sen. Mitchell, George J. [D-ME]",
+    "isByRequest": "N",
+    "lastName": "MITCHELL",
+    "middleName": "JOHN",
+    "party": "D",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/M000811?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 59,
+   "url": "https://api.congress.gov/v3/bill/101/s/686/subjects?format=json"
+  },
+  "summaries": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/686/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/686/text?format=json"
+  },
+  "title": "Oil Pollution Liability and Compensation Act of 1989",
+  "titles": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/s/686/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:12:22Z"
+ },
+ "request": {
+  "billNumber": "686",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

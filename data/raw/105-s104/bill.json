@@ -1,0 +1,85 @@
+{
+ "bill": {
+  "actions": {
+   "count": 34,
+   "url": "https://api.congress.gov/v3/bill/105/s/104/actions?format=json"
+  },
+  "amendments": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/105/s/104/amendments?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "S. Rept. 105-10",
+    "url": "https://api.congress.gov/v3/committee-report/105/SRPT/10?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/s/104/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/105/s/104/cosponsors?format=json"
+  },
+  "introducedDate": "1997-01-21",
+  "latestAction": {
+   "actionDate": "1998-03-05",
+   "actionTime": "15:20:22",
+   "text": "Pursuant to the provisions of H. Res. 379, papers are returned to the Senate. (consideration: CR H878-879)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/senate-bill/104",
+  "number": "104",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/104/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001085",
+    "firstName": "FRANK",
+    "fullName": "Sen. Murkowski, Frank H. [R-AK]",
+    "isByRequest": "N",
+    "lastName": "MURKOWSKI",
+    "middleName": "HUGHES",
+    "party": "R",
+    "state": "AK",
+    "url": "https://api.congress.gov/v3/member/M001085?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 128,
+   "url": "https://api.congress.gov/v3/bill/105/s/104/subjects?format=json"
+  },
+  "summaries": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/s/104/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/s/104/text?format=json"
+  },
+  "title": "Nuclear Waste Policy Act of 1997",
+  "titles": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/105/s/104/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:13:53Z"
+ },
+ "request": {
+  "billNumber": "104",
+  "billType": "s",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

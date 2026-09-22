@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1751/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1751/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 42,
+   "countIncludingWithdrawnCosponsors": 42,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1751/cosponsors?format=json"
+  },
+  "introducedDate": "1991-04-11",
+  "latestAction": {
+   "actionDate": "1991-06-06",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/1751",
+  "number": "1751",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000303",
+    "district": 15,
+    "firstName": "E.",
+    "fullName": "Rep. Shaw, E. Clay, Jr. [R-FL-15]",
+    "isByRequest": "N",
+    "lastName": "SHAW",
+    "middleName": "CLAY",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/S000303?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1751/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1751/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1751/text?format=json"
+  },
+  "title": "Fair Credit Reporting Amendments of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1751/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:15:17Z",
+  "updateDateIncludingText": "2025-08-26T15:15:17Z"
+ },
+ "request": {
+  "billNumber": "1751",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

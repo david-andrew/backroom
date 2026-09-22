@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1916/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1916/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 52,
+   "countIncludingWithdrawnCosponsors": 53,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1916/cosponsors?format=json"
+  },
+  "introducedDate": "1991-04-17",
+  "latestAction": {
+   "actionDate": "1992-07-23",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/1916",
+  "number": "1916",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000779",
+    "district": 3,
+    "firstName": "Ron",
+    "fullName": "Rep. Wyden, Ron [D-OR-3]",
+    "isByRequest": "N",
+    "lastName": "Wyden",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/W000779?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1916/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1916/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1916/text?format=json"
+  },
+  "title": "Long-Term Care Insurance Consumer Protection Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1916/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:42:52Z"
+ },
+ "request": {
+  "billNumber": "1916",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

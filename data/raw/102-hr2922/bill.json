@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2922/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2922/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 47,
+   "countIncludingWithdrawnCosponsors": 47,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2922/cosponsors?format=json"
+  },
+  "introducedDate": "1991-07-17",
+  "latestAction": {
+   "actionDate": "1992-07-01",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/2922",
+  "number": "2922",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000141",
+    "district": 3,
+    "firstName": "Ben",
+    "fullName": "Rep. Cardin, Benjamin L. [D-MD-3]",
+    "isByRequest": "N",
+    "lastName": "Cardin",
+    "party": "D",
+    "state": "MD",
+    "url": "https://api.congress.gov/v3/member/C000141?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2922/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2922/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2922/text?format=json"
+  },
+  "title": "Lead-Based Paint Hazard Abatement Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2922/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2922",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

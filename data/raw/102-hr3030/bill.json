@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3030/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3030/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 159,
+   "countIncludingWithdrawnCosponsors": 162,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3030/cosponsors?format=json"
+  },
+  "introducedDate": "1991-07-25",
+  "latestAction": {
+   "actionDate": "1991-10-09",
+   "text": "Executive Comment Received from Justice."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/3030",
+  "number": "3030",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000481",
+    "district": 8,
+    "firstName": "J.",
+    "fullName": "Rep. Rowland, J. Roy [D-GA-8]",
+    "isByRequest": "N",
+    "lastName": "ROWLAND",
+    "middleName": "ROY",
+    "party": "D",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/R000481?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3030/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3030/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3030/text?format=json"
+  },
+  "title": "Fairness in Product Liability Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3030/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:13:49Z",
+  "updateDateIncludingText": "2025-08-26T15:13:49Z"
+ },
+ "request": {
+  "billNumber": "3030",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

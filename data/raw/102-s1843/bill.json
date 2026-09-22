@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/1843/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1843/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/102/s/1843/cosponsors?format=json"
+  },
+  "introducedDate": "1991-10-22",
+  "latestAction": {
+   "actionDate": "1991-10-22",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/1843",
+  "number": "1843",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000123",
+    "firstName": "FRANK",
+    "fullName": "Sen. Lautenberg, Frank R. [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "LAUTENBERG",
+    "middleName": "R.",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/L000123?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/102/s/1843/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1843/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/1843/text?format=json"
+  },
+  "title": "Clean Water Enforcement and Compliance Improvement Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/1843/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:43Z"
+ },
+ "request": {
+  "billNumber": "1843",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3509/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3509/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 54,
+   "countIncludingWithdrawnCosponsors": 54,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3509/cosponsors?format=json"
+  },
+  "introducedDate": "1991-10-03",
+  "latestAction": {
+   "actionDate": "1991-10-18",
+   "text": "Referred to the Subcommittee on Transportation and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/3509",
+  "number": "3509",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000682",
+    "district": 3,
+    "firstName": "HOWARD",
+    "fullName": "Rep. Wolpe, Howard E. [D-MI-3]",
+    "isByRequest": "N",
+    "lastName": "WOLPE",
+    "middleName": "ELIOT",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/W000682?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3509/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3509/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3509/text?format=json"
+  },
+  "title": "Solid Waste Metals Reduction Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3509/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:15:32Z",
+  "updateDateIncludingText": "2025-08-26T15:15:32Z"
+ },
+ "request": {
+  "billNumber": "3509",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

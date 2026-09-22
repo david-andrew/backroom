@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3769/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3769/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3769/cosponsors?format=json"
+  },
+  "introducedDate": "1991-11-14",
+  "latestAction": {
+   "actionDate": "1991-11-19",
+   "text": "Referred to the Subcommittee on Consumer Affairs and Coinage."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/3769",
+  "number": "3769",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "A000212",
+    "district": 7,
+    "firstName": "FRANK",
+    "fullName": "Rep. Annunzio, Frank [D-IL-11]",
+    "isByRequest": "N",
+    "lastName": "ANNUNZIO",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/A000212?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3769/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3769/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3769/text?format=json"
+  },
+  "title": "To impose a ceiling on credit card interest rates.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/3769/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-06T19:38:08Z",
+  "updateDateIncludingText": "2024-02-06T19:40:56Z"
+ },
+ "request": {
+  "billNumber": "3769",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

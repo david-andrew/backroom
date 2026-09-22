@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2490/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2490/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 92,
+   "countIncludingWithdrawnCosponsors": 93,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2490/cosponsors?format=json"
+  },
+  "introducedDate": "1997-09-17",
+  "latestAction": {
+   "actionDate": "1997-09-17",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/2490",
+  "number": "2490",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2490/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000096",
+    "district": 1,
+    "firstName": "STEVE",
+    "fullName": "Rep. Largent, Steve [R-OK-1]",
+    "isByRequest": "N",
+    "lastName": "LARGENT",
+    "party": "R",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/L000096?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 29,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2490/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2490/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2490/text?format=json"
+  },
+  "title": "To terminate the Internal Revenue Code of 1986.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/2490/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:41:17Z"
+ },
+ "request": {
+  "billNumber": "2490",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

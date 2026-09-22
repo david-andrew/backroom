@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5828/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5828/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 20,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5828/cosponsors?format=json"
+  },
+  "introducedDate": "1992-08-11",
+  "latestAction": {
+   "actionDate": "1992-09-14",
+   "text": "Referred to the Subcommittee on Telecommunications and Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/5828",
+  "number": "5828",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000058",
+    "district": 3,
+    "firstName": "W.",
+    "fullName": "Rep. Tauzin, W. J. (Billy) [D-LA-3]",
+    "isByRequest": "N",
+    "lastName": "TAUZIN",
+    "middleName": "J.",
+    "party": "D",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/T000058?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5828/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5828/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5828/text?format=json"
+  },
+  "title": "Securities Private Enforcement Reform Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/5828/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T15:18:17Z",
+  "updateDateIncludingText": "2025-08-26T15:18:17Z"
+ },
+ "request": {
+  "billNumber": "5828",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

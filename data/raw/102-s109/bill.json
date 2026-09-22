@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/s/109/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/109/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/102/s/109/cosponsors?format=json"
+  },
+  "introducedDate": "1991-01-14",
+  "latestAction": {
+   "actionDate": "1991-01-14",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/senate-bill/109",
+  "number": "109",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001085",
+    "firstName": "FRANK",
+    "fullName": "Sen. Murkowski, Frank H. [R-AK]",
+    "isByRequest": "N",
+    "lastName": "MURKOWSKI",
+    "middleName": "HUGHES",
+    "party": "R",
+    "state": "AK",
+    "url": "https://api.congress.gov/v3/member/M001085?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/102/s/109/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/109/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/s/109/text?format=json"
+  },
+  "title": "Arctic Coastal Plain Public Lands Leasing Act of 1991",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/s/109/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:13:46Z"
+ },
+ "request": {
+  "billNumber": "109",
+  "billType": "s",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

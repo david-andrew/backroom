@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/105/hr/788/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/788/committees?format=json"
+  },
+  "congress": 105,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/105/hr/788/cosponsors?format=json"
+  },
+  "introducedDate": "1997-02-13",
+  "latestAction": {
+   "actionDate": "1997-03-05",
+   "text": "Referred to the Subcommittee on Crime."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/105th-congress/house-bill/788",
+  "number": "788",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000159",
+    "district": 11,
+    "firstName": "MAJOR",
+    "fullName": "Rep. Owens, Major R. [D-NY-11]",
+    "isByRequest": "N",
+    "lastName": "OWENS",
+    "middleName": "R.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/O000159?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 40,
+   "url": "https://api.congress.gov/v3/bill/105/hr/788/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/788/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/105/hr/788/text?format=json"
+  },
+  "title": "Firearms Safety and Violence Prevention Act of 1997",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/105/hr/788/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T16:13:30Z",
+  "updateDateIncludingText": "2025-08-21T16:13:30Z"
+ },
+ "request": {
+  "billNumber": "788",
+  "billType": "hr",
+  "congress": "105",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

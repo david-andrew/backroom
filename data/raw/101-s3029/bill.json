@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/3029/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/3029/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/3029/cosponsors?format=json"
+  },
+  "introducedDate": "1990-09-12",
+  "latestAction": {
+   "actionDate": "1990-09-12",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/3029",
+  "number": "3029",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000556",
+    "district": 4,
+    "firstName": "DAVID",
+    "fullName": "Sen. Pryor, David H. [D-AR]",
+    "isByRequest": "N",
+    "lastName": "PRYOR",
+    "middleName": "HAMPTON",
+    "party": "D",
+    "state": "AR",
+    "url": "https://api.congress.gov/v3/member/P000556?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/101/s/3029/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/3029/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/3029/text?format=json"
+  },
+  "title": "Medicaid Anti-Discriminatory Drug Price and Patient Benefit Restoration Act of 1990",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/3029/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:27:32Z",
+  "updateDateIncludingText": "2025-08-26T17:27:32Z"
+ },
+ "request": {
+  "billNumber": "3029",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

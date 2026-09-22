@@ -1,0 +1,79 @@
+{
+ "bill": {
+  "actions": {
+   "count": 44,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1/actions?format=json"
+  },
+  "amendments": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1/amendments?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 175,
+   "countIncludingWithdrawnCosponsors": 175,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1/cosponsors?format=json"
+  },
+  "introducedDate": "1991-01-03",
+  "latestAction": {
+   "actionDate": "1991-11-22",
+   "text": "Indefinitely postponed by Senate by Unanimous Consent."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/1",
+  "number": "1",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000880",
+    "district": 9,
+    "firstName": "JACK",
+    "fullName": "Rep. Brooks, Jack B. [D-TX-9]",
+    "isByRequest": "N",
+    "lastName": "BROOKS",
+    "middleName": "BASCOM",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/B000880?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 47,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1/subjects?format=json"
+  },
+  "summaries": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1/text?format=json"
+  },
+  "title": "Civil Rights and Women's Equity in Employment Act of 1991",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/1/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-07-21T19:44:15Z",
+  "updateDateIncludingText": "2025-07-21T19:46:51Z"
+ },
+ "request": {
+  "billNumber": "1",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

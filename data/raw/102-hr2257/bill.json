@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2257/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2257/committees?format=json"
+  },
+  "congress": 102,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2257/cosponsors?format=json"
+  },
+  "introducedDate": "1991-05-08",
+  "latestAction": {
+   "actionDate": "1991-05-08",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/102th-congress/house-bill/2257",
+  "number": "2257",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000044",
+    "district": 39,
+    "firstName": "WILLIAM",
+    "fullName": "Rep. Dannemeyer, William E. [R-CA-39]",
+    "isByRequest": "N",
+    "lastName": "DANNEMEYER",
+    "middleName": "E.",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/D000044?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2257/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2257/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2257/text?format=json"
+  },
+  "title": "To repeal the tax increases contained in the Revenue Reconciliation Act of 1990.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/102/hr/2257/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:40:54Z"
+ },
+ "request": {
+  "billNumber": "2257",
+  "billType": "hr",
+  "congress": "102",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
