@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2211/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2211/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 18,
+   "countIncludingWithdrawnCosponsors": 18,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2211/cosponsors?format=json"
+  },
+  "introducedDate": "1995-08-04",
+  "latestAction": {
+   "actionDate": "1995-08-17",
+   "text": "Referred to the Subcommittee on Commerce, Trade, and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/2211",
+  "number": "2211",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000229",
+    "district": 3,
+    "firstName": "BILL",
+    "fullName": "Rep. Richardson, Bill [D-NM-3]",
+    "isByRequest": "N",
+    "lastName": "RICHARDSON",
+    "party": "D",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/R000229?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 58,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2211/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2211/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2211/text?format=json"
+  },
+  "title": "Dioxin Reduction and Incinerator Alternatives Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2211/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2211",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

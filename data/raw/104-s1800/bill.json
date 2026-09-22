@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/s/1800/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/1800/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/104/s/1800/cosponsors?format=json"
+  },
+  "introducedDate": "1996-05-23",
+  "latestAction": {
+   "actionDate": "1996-07-11",
+   "text": "Committee on Banking. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/1800",
+  "number": "1800",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000018",
+    "firstName": "ALFONSE",
+    "fullName": "Sen. D'Amato, Alfonse [R-NY]",
+    "isByRequest": "N",
+    "lastName": "D'AMATO",
+    "middleName": "MARCELLO",
+    "party": "R",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/D000018?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/104/s/1800/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/1800/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/1800/text?format=json"
+  },
+  "title": "Fair ATM Fees for Consumers Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/1800/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T20:17:09Z",
+  "updateDateIncludingText": "2025-08-21T20:17:09Z"
+ },
+ "request": {
+  "billNumber": "1800",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

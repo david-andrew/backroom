@@ -1,0 +1,93 @@
+{
+ "bill": {
+  "actions": {
+   "count": 64,
+   "url": "https://api.congress.gov/v3/bill/104/s/1316/actions?format=json"
+  },
+  "amendments": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/104/s/1316/amendments?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "S. Rept. 104-169",
+    "url": "https://api.congress.gov/v3/committee-report/104/SRPT/169?format=json"
+   },
+   {
+    "citation": "H. Rept. 104-741",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/741?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/1316/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 40,
+   "countIncludingWithdrawnCosponsors": 40,
+   "url": "https://api.congress.gov/v3/bill/104/s/1316/cosponsors?format=json"
+  },
+  "introducedDate": "1995-10-12",
+  "latestAction": {
+   "actionDate": "1996-08-06",
+   "text": "Became Public Law No: 104-182."
+  },
+  "laws": [
+   {
+    "number": "104-182",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/1316",
+  "number": "1316",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/1316/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000088",
+    "firstName": "DIRK",
+    "fullName": "Sen. Kempthorne, Dirk [R-ID]",
+    "isByRequest": "N",
+    "lastName": "KEMPTHORNE",
+    "party": "R",
+    "state": "ID",
+    "url": "https://api.congress.gov/v3/member/K000088?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 200,
+   "url": "https://api.congress.gov/v3/bill/104/s/1316/subjects?format=json"
+  },
+  "summaries": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/s/1316/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/s/1316/text?format=json"
+  },
+  "title": "Safe Drinking Water Act Amendments of 1996",
+  "titles": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/104/s/1316/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:23Z"
+ },
+ "request": {
+  "billNumber": "1316",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1780/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1780/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1780/cosponsors?format=json"
+  },
+  "introducedDate": "1995-06-07",
+  "latestAction": {
+   "actionDate": "1995-06-07",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1780",
+  "number": "1780",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001143",
+    "district": 4,
+    "firstName": "MARK",
+    "fullName": "Rep. Souder, Mark E. [R-IN-4]",
+    "isByRequest": "N",
+    "lastName": "SOUDER",
+    "middleName": "EDWARD",
+    "party": "R",
+    "state": "IN",
+    "url": "https://api.congress.gov/v3/member/S001143?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1780/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1780/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1780/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to impose a flat tax only on the earned income of individuals and on business taxable income, and for other purposes.",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1780/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T15:28:16Z",
+  "updateDateIncludingText": "2025-04-07T15:28:16Z"
+ },
+ "request": {
+  "billNumber": "1780",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

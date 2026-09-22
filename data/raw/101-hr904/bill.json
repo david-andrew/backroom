@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/101/hr/904/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/904/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 249,
+   "countIncludingWithdrawnCosponsors": 249,
+   "url": "https://api.congress.gov/v3/bill/101/hr/904/cosponsors?format=json"
+  },
+  "introducedDate": "1989-02-07",
+  "latestAction": {
+   "actionDate": "1989-08-01",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/904",
+  "number": "904",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Foreign Trade and International Finance"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/904/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001120",
+    "district": 12,
+    "firstName": "JOHN",
+    "fullName": "Rep. Murtha, John P. [D-PA-12]",
+    "isByRequest": "N",
+    "lastName": "MURTHA",
+    "middleName": "P.",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/M001120?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/904/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/904/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/904/text?format=json"
+  },
+  "title": "Steel Import Stabilization Extension Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/904/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:24:34Z",
+  "updateDateIncludingText": "2025-08-26T17:24:34Z"
+ },
+ "request": {
+  "billNumber": "904",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/2121/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/2121/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/104/s/2121/cosponsors?format=json"
+  },
+  "introducedDate": "1996-09-25",
+  "latestAction": {
+   "actionDate": "1996-09-25",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/2121",
+  "number": "2121",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000352",
+    "firstName": "DANIEL",
+    "fullName": "Sen. Graham, Bob [D-FL]",
+    "isByRequest": "N",
+    "lastName": "GRAHAM",
+    "middleName": "ROBERT",
+    "party": "D",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/G000352?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/104/s/2121/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/2121/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/2121/text?format=json"
+  },
+  "title": "Medicare Access to Emergency Medical Care Act of 1996",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/2121/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T20:16:30Z",
+  "updateDateIncludingText": "2025-08-21T20:16:30Z"
+ },
+ "request": {
+  "billNumber": "2121",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

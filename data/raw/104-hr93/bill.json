@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/93/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/93/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/93/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-04",
+  "latestAction": {
+   "actionDate": "1995-01-04",
+   "text": "Referred to the House Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/93",
+  "number": "93",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000244",
+    "district": 9,
+    "firstName": "F.",
+    "fullName": "Rep. Sensenbrenner, F. James, Jr. [R-WI-9]",
+    "isByRequest": "N",
+    "lastName": "SENSENBRENNER",
+    "middleName": "JAMES",
+    "party": "R",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/S000244?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/93/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/93/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/93/text?format=json"
+  },
+  "title": "To provide that the prevailing party in a tort action is entitled to recover attorneys' fees from the nonprevailing party.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/93/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T17:33:58Z",
+  "updateDateIncludingText": "2025-01-02T17:33:58Z"
+ },
+ "request": {
+  "billNumber": "93",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

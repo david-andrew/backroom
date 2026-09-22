@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1016/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1016/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1016/cosponsors?format=json"
+  },
+  "introducedDate": "1995-02-22",
+  "latestAction": {
+   "actionDate": "1995-03-10",
+   "text": "Referred to the Subcommittee on Housing and Community Opportunity."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1016",
+  "number": "1016",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Housing and Community Development"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000159",
+    "district": 11,
+    "firstName": "MAJOR",
+    "fullName": "Rep. Owens, Major R. [D-NY-11]",
+    "isByRequest": "N",
+    "lastName": "OWENS",
+    "middleName": "R.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/O000159?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 55,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1016/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1016/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1016/text?format=json"
+  },
+  "title": "Federal Housing Trust Fund Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1016/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:15:38Z",
+  "updateDateIncludingText": "2025-08-21T20:15:38Z"
+ },
+ "request": {
+  "billNumber": "1016",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

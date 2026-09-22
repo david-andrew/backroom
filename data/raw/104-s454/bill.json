@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/104/s/454/actions?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "S. Rept. 104-83",
+    "url": "https://api.congress.gov/v3/committee-report/104/SRPT/83?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/454/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/454/cosponsors?format=json"
+  },
+  "introducedDate": "1995-02-16",
+  "latestAction": {
+   "actionDate": "1995-05-16",
+   "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 110."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/454",
+  "number": "454",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000355",
+    "firstName": "Mitch",
+    "fullName": "Sen. McConnell, Mitch [R-KY]",
+    "isByRequest": "N",
+    "lastName": "McConnell",
+    "party": "R",
+    "state": "KY",
+    "url": "https://api.congress.gov/v3/member/M000355?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 60,
+   "url": "https://api.congress.gov/v3/bill/104/s/454/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/454/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/454/text?format=json"
+  },
+  "title": "Health Care Liability Reform and Quality Assurance Act of 1995",
+  "titles": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/s/454/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:24:17Z"
+ },
+ "request": {
+  "billNumber": "454",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

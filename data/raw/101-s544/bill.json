@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/544/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/544/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/544/cosponsors?format=json"
+  },
+  "introducedDate": "1989-03-08",
+  "latestAction": {
+   "actionDate": "1989-03-17",
+   "text": "Committee on Judiciary. Hearings held. Hearings printed: S.Hrg. 101-548."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/544",
+  "number": "544",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000678",
+    "firstName": "HOWARD",
+    "fullName": "Sen. Metzenbaum, Howard M. [D-OH]",
+    "isByRequest": "N",
+    "lastName": "METZENBAUM",
+    "middleName": "MORTON",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/M000678?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/101/s/544/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/544/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/544/text?format=json"
+  },
+  "title": "A bill to limit the modification of collective bargaining agreements subject to the Railway Labor Act.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/544/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "544",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

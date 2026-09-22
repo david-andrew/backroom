@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/2031/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/2031/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/104/s/2031/cosponsors?format=json"
+  },
+  "introducedDate": "1996-08-02",
+  "latestAction": {
+   "actionDate": "1996-08-02",
+   "text": "Read twice and referred to the Committee on Labor and Human Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/2031",
+  "number": "2031",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000407",
+    "firstName": "PETE",
+    "fullName": "Sen. Domenici, Pete V. [R-NM]",
+    "isByRequest": "N",
+    "lastName": "DOMENICI",
+    "middleName": "VICHI",
+    "party": "R",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/D000407?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/104/s/2031/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/2031/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/2031/text?format=json"
+  },
+  "title": "Mental Health Parity Act of 1996",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/2031/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T20:14:18Z",
+  "updateDateIncludingText": "2025-08-21T20:14:18Z"
+ },
+ "request": {
+  "billNumber": "2031",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

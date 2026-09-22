@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2962/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2962/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2962/cosponsors?format=json"
+  },
+  "introducedDate": "1996-02-06",
+  "latestAction": {
+   "actionDate": "1996-02-06",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/2962",
+  "number": "2962",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000466",
+    "district": 15,
+    "firstName": "PAUL",
+    "fullName": "Rep. McHale, Paul [D-PA-15]",
+    "isByRequest": "N",
+    "lastName": "MCHALE",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/M000466?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2962/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2962/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2962/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to disallow deductions for advertising expenses for tobacco products.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2962/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T17:37:48Z",
+  "updateDateIncludingText": "2025-01-02T17:37:48Z"
+ },
+ "request": {
+  "billNumber": "2962",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

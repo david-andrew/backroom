@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/2248/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2248/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/2248/cosponsors?format=json"
+  },
+  "introducedDate": "1990-03-07",
+  "latestAction": {
+   "actionDate": "1990-03-07",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/2248",
+  "number": "2248",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000092",
+    "firstName": "MALCOLM",
+    "fullName": "Sen. Wallop, Malcolm [R-WY]",
+    "isByRequest": "N",
+    "lastName": "WALLOP",
+    "party": "R",
+    "state": "WY",
+    "url": "https://api.congress.gov/v3/member/W000092?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/2248/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2248/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2248/text?format=json"
+  },
+  "title": "A bill to repeal the Asbestos Hazard Emergency Response Act of 1986 and amendments made by such Act, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/2248/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:46Z"
+ },
+ "request": {
+  "billNumber": "2248",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

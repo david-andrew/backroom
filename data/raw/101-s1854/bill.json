@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1854/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1854/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1854/cosponsors?format=json"
+  },
+  "introducedDate": "1989-11-08",
+  "latestAction": {
+   "actionDate": "1989-11-08",
+   "text": "Read twice and referred to the Committee on Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1854",
+  "number": "1854",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000678",
+    "firstName": "HOWARD",
+    "fullName": "Sen. Metzenbaum, Howard M. [D-OH]",
+    "isByRequest": "N",
+    "lastName": "METZENBAUM",
+    "middleName": "MORTON",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/M000678?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/101/s/1854/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1854/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1854/text?format=json"
+  },
+  "title": "Airline Reregulation Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1854/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:06:37Z"
+ },
+ "request": {
+  "billNumber": "1854",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

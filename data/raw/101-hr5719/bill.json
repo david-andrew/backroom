@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5719/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5719/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5719/cosponsors?format=json"
+  },
+  "introducedDate": "1990-09-26",
+  "latestAction": {
+   "actionDate": "1990-10-08",
+   "text": "Referred to the Subcommittee on Transportation and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/5719",
+  "number": "5719",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000307",
+    "district": 4,
+    "firstName": "JOSEPH",
+    "fullName": "Rep. Kolter, Joseph P. [D-PA-4]",
+    "isByRequest": "N",
+    "lastName": "KOLTER",
+    "middleName": "P.",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/K000307?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5719/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5719/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5719/text?format=json"
+  },
+  "title": "To require generators of hazardous waste to treat or dispose of their waste at the site on which the waste was generated.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5719/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-05T14:30:09Z",
+  "updateDateIncludingText": "2024-02-05T14:36:21Z"
+ },
+ "request": {
+  "billNumber": "5719",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

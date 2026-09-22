@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/s/1001/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/1001/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 19,
+   "countIncludingWithdrawnCosponsors": 19,
+   "url": "https://api.congress.gov/v3/bill/104/s/1001/cosponsors?format=json"
+  },
+  "introducedDate": "1995-06-29",
+  "latestAction": {
+   "actionDate": "1995-07-21",
+   "text": "Sponsor introductory remarks on measure. (CR S10488-10489)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/1001",
+  "number": "1001",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000236",
+    "firstName": "JOHN",
+    "fullName": "Sen. Glenn, John H., Jr. [D-OH]",
+    "isByRequest": "N",
+    "lastName": "GLENN",
+    "middleName": "HERSCHEL",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/G000236?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 36,
+   "url": "https://api.congress.gov/v3/bill/104/s/1001/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/1001/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/1001/text?format=json"
+  },
+  "title": "Regulatory Procedures Reform Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/1001/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T20:15:08Z",
+  "updateDateIncludingText": "2025-08-21T20:15:08Z"
+ },
+ "request": {
+  "billNumber": "1001",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2173/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2173/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2173/cosponsors?format=json"
+  },
+  "introducedDate": "1995-08-02",
+  "latestAction": {
+   "actionDate": "1995-08-14",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/2173",
+  "number": "2173",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000810",
+    "district": 13,
+    "firstName": "PETE",
+    "fullName": "Rep. Stark, Fortney Pete [D-CA-13]",
+    "isByRequest": "N",
+    "lastName": "STARK",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/S000810?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2173/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2173/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2173/text?format=json"
+  },
+  "title": "Medicare Physician Ownership and Referral Amendments of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2173/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2173",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

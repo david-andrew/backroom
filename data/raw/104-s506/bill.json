@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/s/506/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/506/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 14,
+   "url": "https://api.congress.gov/v3/bill/104/s/506/cosponsors?format=json"
+  },
+  "introducedDate": "1995-03-07",
+  "latestAction": {
+   "actionDate": "1995-03-30",
+   "text": "Subcommittee on Forests and Public Lands. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/506",
+  "number": "506",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000858",
+    "firstName": "LARRY",
+    "fullName": "Sen. Craig, Larry E. [R-ID]",
+    "isByRequest": "N",
+    "lastName": "CRAIG",
+    "middleName": "EDWIN",
+    "party": "R",
+    "state": "ID",
+    "url": "https://api.congress.gov/v3/member/C000858?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 66,
+   "url": "https://api.congress.gov/v3/bill/104/s/506/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/506/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/506/text?format=json"
+  },
+  "title": "Mining Law Reform Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/506/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:14:05Z"
+ },
+ "request": {
+  "billNumber": "506",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

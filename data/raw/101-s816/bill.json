@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/816/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/816/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/101/s/816/cosponsors?format=json"
+  },
+  "introducedDate": "1989-04-18",
+  "latestAction": {
+   "actionDate": "1989-10-19",
+   "text": "Subcommittee on Environmental Protection. Approved for full committee consideration with amendments favorably."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/816",
+  "number": "816",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/816/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000566",
+    "firstName": "DAVID",
+    "fullName": "Sen. Durenberger, Dave [R-MN]",
+    "isByRequest": "N",
+    "lastName": "DURENBERGER",
+    "middleName": "FERDINAND",
+    "party": "R",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/D000566?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/101/s/816/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/816/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/816/text?format=json"
+  },
+  "title": "Toxics Release Prevention Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/816/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:58Z"
+ },
+ "request": {
+  "billNumber": "816",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

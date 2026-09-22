@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2295/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2295/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2295/cosponsors?format=json"
+  },
+  "introducedDate": "1989-05-09",
+  "latestAction": {
+   "actionDate": "1989-05-15",
+   "text": "Referred to the Subcommittee on Administrative Law and Governmental Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2295",
+  "number": "2295",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Law"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2295/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000124",
+    "district": 2,
+    "firstName": "BARBARA",
+    "fullName": "Rep. Vucanovich, Barbara F. [R-NV-2]",
+    "isByRequest": "N",
+    "lastName": "VUCANOVICH",
+    "middleName": "F.",
+    "party": "R",
+    "state": "NV",
+    "url": "https://api.congress.gov/v3/member/V000124?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2295/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2295/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2295/text?format=json"
+  },
+  "title": "Radiation Victims Fair Treatment Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2295/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:27:38Z",
+  "updateDateIncludingText": "2025-08-26T17:27:38Z"
+ },
+ "request": {
+  "billNumber": "2295",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

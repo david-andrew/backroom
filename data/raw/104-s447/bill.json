@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/447/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/447/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/104/s/447/cosponsors?format=json"
+  },
+  "introducedDate": "1995-02-16",
+  "latestAction": {
+   "actionDate": "1995-02-16",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/447",
+  "number": "447",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/447/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "I000024",
+    "firstName": "Jim",
+    "fullName": "Sen. Inhofe, James M. [R-OK]",
+    "isByRequest": "N",
+    "lastName": "Inhofe",
+    "party": "R",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/I000024?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/104/s/447/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/447/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/447/text?format=json"
+  },
+  "title": "Domestic Oil and Gas Production Tax Incentive Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/447/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T20:17:11Z",
+  "updateDateIncludingText": "2025-08-21T20:17:11Z"
+ },
+ "request": {
+  "billNumber": "447",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

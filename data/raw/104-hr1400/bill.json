@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1400/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1400/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 37,
+   "countIncludingWithdrawnCosponsors": 37,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1400/cosponsors?format=json"
+  },
+  "introducedDate": "1995-04-05",
+  "latestAction": {
+   "actionDate": "1995-04-19",
+   "text": "Referred to the Subcommittee on Water Resources and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1400",
+  "number": "1400",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000229",
+    "district": 3,
+    "firstName": "BILL",
+    "fullName": "Rep. Richardson, Bill [D-NM-3]",
+    "isByRequest": "N",
+    "lastName": "RICHARDSON",
+    "party": "D",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/R000229?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1400/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1400/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1400/text?format=json"
+  },
+  "title": "Chlorine Zero Discharge Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1400/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:15:30Z",
+  "updateDateIncludingText": "2025-08-21T20:15:30Z"
+ },
+ "request": {
+  "billNumber": "1400",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "bill": {
+  "actions": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/104/s/1028/actions?format=json"
+  },
+  "amendments": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/104/s/1028/amendments?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "S. Rept. 104-156",
+    "url": "https://api.congress.gov/v3/committee-report/104/SRPT/156?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/1028/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 66,
+   "countIncludingWithdrawnCosponsors": 66,
+   "url": "https://api.congress.gov/v3/bill/104/s/1028/cosponsors?format=json"
+  },
+  "introducedDate": "1995-07-13",
+  "latestAction": {
+   "actionDate": "1996-04-23",
+   "text": "Senate passed companion measure H.R. 3103 in lieu of this measure by Yea-Nay Vote. 100-0. Record Vote No: 78."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/1028",
+  "number": "1028",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/104/s/1028/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000017",
+    "firstName": "NANCY",
+    "fullName": "Sen. Kassebaum, Nancy Landon [R-KS]",
+    "isByRequest": "N",
+    "lastName": "KASSEBAUM",
+    "middleName": "LANDON",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/K000017?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 157,
+   "url": "https://api.congress.gov/v3/bill/104/s/1028/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/1028/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/1028/text?format=json"
+  },
+  "title": "Health Insurance Reform Act of 1995",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/s/1028/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:24:17Z"
+ },
+ "request": {
+  "billNumber": "1028",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/203/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/203/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/203/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-11",
+  "latestAction": {
+   "actionDate": "1995-01-11",
+   "text": "Read twice and referred to the Committee on Labor and Human Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/203",
+  "number": "203",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000105",
+    "firstName": "EDWARD",
+    "fullName": "Sen. Kennedy, Edward M. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "KENNEDY",
+    "middleName": "MOORE",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/K000105?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/s/203/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/203/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/203/text?format=json"
+  },
+  "title": "American Family Fair Minimum Wage Act of 1995",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/s/203/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T20:14:24Z",
+  "updateDateIncludingText": "2025-08-21T20:14:24Z"
+ },
+ "request": {
+  "billNumber": "203",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

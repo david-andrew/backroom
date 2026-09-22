@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/101/s/1245/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1245/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 32,
+   "countIncludingWithdrawnCosponsors": 32,
+   "url": "https://api.congress.gov/v3/bill/101/s/1245/cosponsors?format=json"
+  },
+  "introducedDate": "1989-06-22",
+  "latestAction": {
+   "actionDate": "1990-07-10",
+   "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 679."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1245",
+  "number": "1245",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000811",
+    "firstName": "GEORGE",
+    "fullName": "Sen. Mitchell, George J. [D-ME]",
+    "isByRequest": "N",
+    "lastName": "MITCHELL",
+    "middleName": "JOHN",
+    "party": "D",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/M000811?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/101/s/1245/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1245/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/1245/text?format=json"
+  },
+  "title": "Fish Safety Act of 1990",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/1245/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:06:34Z"
+ },
+ "request": {
+  "billNumber": "1245",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

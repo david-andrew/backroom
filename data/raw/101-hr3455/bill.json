@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3455/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3455/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3455/cosponsors?format=json"
+  },
+  "introducedDate": "1989-10-12",
+  "latestAction": {
+   "actionDate": "1989-11-13",
+   "text": "Referred to the Subcommittee on Employment Opportunities."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/3455",
+  "number": "3455",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000100",
+    "district": 12,
+    "firstName": "TOM",
+    "fullName": "Rep. Campbell, Tom [R-CA-12]",
+    "isByRequest": "N",
+    "lastName": "CAMPBELL",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/C000100?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3455/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3455/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3455/text?format=json"
+  },
+  "title": "Civil Rights Restoration Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3455/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:29:25Z",
+  "updateDateIncludingText": "2025-08-26T17:29:25Z"
+ },
+ "request": {
+  "billNumber": "3455",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

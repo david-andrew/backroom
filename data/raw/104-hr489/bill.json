@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/489/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/489/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 28,
+   "countIncludingWithdrawnCosponsors": 28,
+   "url": "https://api.congress.gov/v3/bill/104/hr/489/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-11",
+  "latestAction": {
+   "actionDate": "1995-01-25",
+   "text": "For Further Action See H.R.925."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/489",
+  "number": "489",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/489/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000583",
+    "district": 21,
+    "firstName": "LAMAR",
+    "fullName": "Rep. Smith, Lamar [R-TX-21]",
+    "isByRequest": "N",
+    "lastName": "SMITH",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/S000583?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/104/hr/489/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/489/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/489/text?format=json"
+  },
+  "title": "Property Rights Litigation Relief Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/489/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:16:21Z",
+  "updateDateIncludingText": "2025-08-21T20:16:21Z"
+ },
+ "request": {
+  "billNumber": "489",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

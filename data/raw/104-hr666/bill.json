@@ -1,0 +1,79 @@
+{
+ "bill": {
+  "actions": {
+   "count": 31,
+   "url": "https://api.congress.gov/v3/bill/104/hr/666/actions?format=json"
+  },
+  "amendments": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/hr/666/amendments?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "H. Rept. 104-17",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/17?format=json"
+   }
+  ],
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/666/committees?format=json"
+  },
+  "congress": 104,
+  "introducedDate": "1995-01-25",
+  "latestAction": {
+   "actionDate": "1995-02-09",
+   "text": "Received in the Senate and read twice and referred to the Committee on Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/666",
+  "number": "666",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/666/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000350",
+    "district": 8,
+    "firstName": "BILL",
+    "fullName": "Rep. McCollum, Bill [R-FL-8]",
+    "isByRequest": "N",
+    "lastName": "MCCOLLUM",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/M000350?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/hr/666/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/666/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/666/text?format=json"
+  },
+  "title": "Exclusionary Rule Reform Act of 1995",
+  "titles": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/hr/666/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:54:25Z"
+ },
+ "request": {
+  "billNumber": "666",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1050/actions?format=json"
+  },
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1050/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 29,
+   "countIncludingWithdrawnCosponsors": 29,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1050/cosponsors?format=json"
+  },
+  "introducedDate": "1995-02-24",
+  "latestAction": {
+   "actionDate": "1995-04-27",
+   "text": "Referred to the Subcommittee on the Legislative and Budget Process."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1050",
+  "number": "1050",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Economics and Public Finance"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000222",
+    "district": 9,
+    "firstName": "RONALD",
+    "fullName": "Rep. Dellums, Ronald V. [D-CA-9]",
+    "isByRequest": "N",
+    "lastName": "DELLUMS",
+    "middleName": "V.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/D000222?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 95,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1050/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1050/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1050/text?format=json"
+  },
+  "title": "Living Wage, Jobs For All Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1050/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-08T19:31:27Z",
+  "updateDateIncludingText": "2026-09-08T19:32:06Z"
+ },
+ "request": {
+  "billNumber": "1050",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "bill_id": "104-hr537",
+ "model": "z-ai/glm-5.3-flash",
+ "prompt_version": "359123c1c5",
+ "generated_at": "2026-09-22T23:24:28+00:00",
+ "record_fetched_at": "2026-09-22T22:18:26+00:00",
+ "record_hash": "ca0a8c81a2e6ae22",
+ "analysis": {
+  "one_liner": "Adjusts the tax basis of stocks and business assets for inflation so investors owe tax only on real gains.",
+  "headline": "The bill was referred to the House Ways and Means Committee, attracted no cosponsors, and died without ever receiving a vote.",
+  "direction": "for_concentrated_interests",
+  "plain_summary": "The bill would have changed capital gains taxation so that, when an individual sells a stock or a piece of business property held more than a year, the original purchase price is multiplied by an inflation ratio based on the consumer price index. Only the gain above inflation would be taxed. It would have applied to assets bought starting in 1995, passed the benefit through mutual funds and real estate trusts to their investors, and let people holding easily traded securities reset their basis by treating them as sold and rebought on the last business day of 1994.",
+  "who_benefits": "Individual investors who sell appreciated stock or business property they have held more than a year, since the inflation-adjusted purchase price shrinks their taxable gain. Mutual fund and real estate investment trust shareholders get the same adjustment passed through to them. The benefit scales with the size of the asset, so it flows mainly to households that own substantial investments.",
+  "who_benefits_short": "Investors holding stocks and business property",
+  "how_it_helps": [
+   {
+    "text": "Replaces the ordinary purchase price with an inflation-indexed basis, based on the consumer price index, when figuring taxable gain on corporate stock and tangible business property held more than one year.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "text": "Extends the same adjustment through regulated investment companies (mutual funds) and real estate investment trusts, so their shareholders receive the benefit proportionally.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "Lets non-corporate taxpayers holding readily tradable securities on January 1, 1995 elect to treat them as sold and reacquired at the closing market price, resetting their basis so future gains qualify for indexing.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   }
+  ],
+  "who_pays": "The federal treasury, because indexed basis reduces taxable gain and therefore federal income tax revenue on long-held assets. The revenue gap would ultimately be borne by other taxpayers or added to deficits.",
+  "who_pays_short": "Federal taxpayers through lost revenue",
+  "drawbacks": [
+   {
+    "text": "The tax saving grows with the size of the holding period and the asset, so the benefit concentrates on households with large stock portfolios and business property rather than ordinary wage earners.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "The bill adds real complexity: taxpayers would have to compute a consumer price index ratio for each asset, with special rules for short sales, partnerships, trusts, and related-party transfers.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "text": "By carving out mutual funds and real estate trusts with preferential pass-through ratios and letting trusts rely on a good-faith valuation every three years, it creates complicated distinctions between investors that are hard to police.",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
+  "benefit_vs_cost": "The tax relief is real but skewed: it eliminates tax on gains that only reflect inflation, which is a genuine fairness argument for anyone who held an asset for decades, yet the dollars saved go overwhelmingly to the biggest holders of stock and business property. The Treasury loses revenue and every taxpayer has to navigate a more complicated code. The bill did include guardrails — it excluded corporations, tightened depreciation recapture on real estate, and gave the Treasury power to disallow transfers arranged just to inflate the adjustment.",
+  "outcome": {
+   "status": "never_got_a_vote",
+   "mechanism": "It was sent to the House tax-writing committee the day it was introduced, sat there for the rest of the two-year Congress, and never came up for a vote.",
+   "narrative": [
+    {
+     "text": "Rep. James P. Moran introduced the bill in the House on January 17, 1995.",
+     "sources": [
+      "S1",
+      "S5"
+     ]
+    },
+    {
+     "text": "The same day, it was referred to the House Committee on Ways and Means, which has jurisdiction over tax legislation.",
+     "sources": [
+      "S1",
+      "S5"
+     ]
+    },
+    {
+     "text": "No further action was ever taken, and the bill had no cosponsors.",
+     "sources": [
+      "S4",
+      "S5"
+     ]
+    },
+    {
+     "text": "The 104th Congress ended on January 3, 1997, with the bill still in committee.",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "who_came_out_ahead": "Nobody gained much either way: the federal Treasury kept the capital gains revenue that indexing would have given up, and investors saw no change in their tax treatment."
+  },
+  "who_came_out_ahead_short": "The Treasury; investors saw no change",
+  "sides": {
+   "for": [
+    {
+     "name": "Rep. James P. Moran",
+     "role": "Sponsor, U.S. House of Representatives (VA-8)",
+     "party": "D",
+     "what_they_did": "Introduced the indexing bill and referred it to Ways and Means; it drew no cosponsors.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S4",
+      "S5"
+     ]
+    }
+   ],
+   "against": [
+    {
+     "name": "House Ways and Means Committee",
+     "role": "Standing committee with jurisdiction over tax legislation",
+     "party": null,
+     "what_they_did": "Took no action on the bill after the referral; it never received a markup or a floor vote.",
+     "direct": true,
+     "evidence": "record",
+     "sources": [
+      "S1",
+      "S5"
+     ]
+    }
+   ],
+   "party_line": "unclear",
+   "party_line_note": "A single Democrat sponsored the bill with no cosponsors of either party and no recorded votes, so no partisan pattern is visible in the record."
+  },
+  "industries": [
+   {
+    "industry": "Individual investors in stocks and business assets",
+    "effect": "gains",
+    "stance_toward_public": "opposed",
+    "note": "Indexing would have cut their tax bills on long-held assets, with the largest savings going to the largest portfolios. The revenue forgone is the public's cost.",
+    "sources": [
+     "S2",
+     "S3"
+    ]
+   },
+   {
+    "industry": "Mutual funds and regulated investment companies",
+    "effect": "gains",
+    "stance_toward_public": "mixed",
+    "note": "The bill would have let funds apply the indexing adjustment and pass it through to shareholders, making their products more attractive. Corporate shareholders were expressly excluded from the benefit.",
+    "sources": [
+     "S3"
+    ]
+   },
+   {
+    "industry": "Real estate investors and REITs",
+    "effect": "mixed",
+    "stance_toward_public": "mixed",
+    "note": "REIT investors would have received indexing through pass-through rules, but the bill also requires sellers of depreciable real estate to recapture the entire depreciation amount as ordinary income, a tax increase that partly offsets the indexing benefit. Net lease property was excluded from indexing.",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
+  "trajectory": null,
+  "categories": [
+   "taxes_on_wealth_and_corporations"
+  ],
+  "scores": {
+   "public_stakes": 3,
+   "concentrated_stakes": 7,
+   "outcome_against_public": 2,
+   "support_mismatch": 1,
+   "corruption_relevance": 1,
+   "confidence": 0.85
+  }
+ },
+ "unresolved_citations": []
+}

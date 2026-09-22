@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/101/s/865/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/865/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/101/s/865/cosponsors?format=json"
+  },
+  "introducedDate": "1989-04-19",
+  "latestAction": {
+   "actionDate": "1990-03-20",
+   "text": "Star Print ordered on Report 101-251."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/865",
+  "number": "865",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000678",
+    "firstName": "HOWARD",
+    "fullName": "Sen. Metzenbaum, Howard M. [D-OH]",
+    "isByRequest": "N",
+    "lastName": "METZENBAUM",
+    "middleName": "MORTON",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/M000678?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/s/865/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/865/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/865/text?format=json"
+  },
+  "title": "Consumer Protection Against Price-Fixing Act of 1989",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/865/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:54:59Z"
+ },
+ "request": {
+  "billNumber": "865",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/104/hr/690/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/690/committees?format=json"
+  },
+  "congress": 104,
+  "introducedDate": "1995-01-25",
+  "latestAction": {
+   "actionDate": "1995-02-21",
+   "text": "Referred to the Subcommittee Commerce, Trade, and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/690",
+  "number": "690",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "Z000008",
+    "district": 12,
+    "firstName": "DICK",
+    "fullName": "Rep. Zimmer, Dick [R-NJ-12]",
+    "isByRequest": "N",
+    "lastName": "ZIMMER",
+    "party": "R",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/Z000008?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 40,
+   "url": "https://api.congress.gov/v3/bill/104/hr/690/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/690/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/690/text?format=json"
+  },
+  "title": "Risk Assessment and Cost-Benefit Analysis Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/690/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "690",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

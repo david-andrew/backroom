@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/s/1883/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1883/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 19,
+   "countIncludingWithdrawnCosponsors": 19,
+   "url": "https://api.congress.gov/v3/bill/101/s/1883/cosponsors?format=json"
+  },
+  "introducedDate": "1989-11-15",
+  "latestAction": {
+   "actionDate": "1990-05-16",
+   "text": "Committee on Labor and Human Resources. Ordered favorably reported an original bill (S. 2795) in lieu of this measure."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1883",
+  "number": "1883",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000105",
+    "firstName": "EDWARD",
+    "fullName": "Sen. Kennedy, Edward M. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "KENNEDY",
+    "middleName": "MOORE",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/K000105?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 33,
+   "url": "https://api.congress.gov/v3/bill/101/s/1883/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1883/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1883/text?format=json"
+  },
+  "title": "Tobacco Product Education and Health Protection Act of 1990",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1883/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:27:40Z",
+  "updateDateIncludingText": "2025-08-26T17:27:40Z"
+ },
+ "request": {
+  "billNumber": "1883",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

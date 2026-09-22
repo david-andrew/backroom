@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1454/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1454/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1454/cosponsors?format=json"
+  },
+  "introducedDate": "1995-04-06",
+  "latestAction": {
+   "actionDate": "1995-04-27",
+   "text": "Referred to the Subcommittee on Commerce, Trade, and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1454",
+  "number": "1454",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000810",
+    "district": 13,
+    "firstName": "PETE",
+    "fullName": "Rep. Stark, Fortney Pete [D-CA-13]",
+    "isByRequest": "N",
+    "lastName": "STARK",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/S000810?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1454/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1454/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1454/text?format=json"
+  },
+  "title": "Contact Lens Prescription Release Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1454/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:16:03Z",
+  "updateDateIncludingText": "2025-08-21T20:16:03Z"
+ },
+ "request": {
+  "billNumber": "1454",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

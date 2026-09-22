@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3442/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3442/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 20,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3442/cosponsors?format=json"
+  },
+  "introducedDate": "1989-10-11",
+  "latestAction": {
+   "actionDate": "1989-10-17",
+   "text": "Referred to the Subcommittee on Fisheries and Wildlife Conservation and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/3442",
+  "number": "3442",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Animals"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3442/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000390",
+    "district": 7,
+    "firstName": "JIMMY",
+    "fullName": "Rep. Hayes, James A. [D-LA-7]",
+    "isByRequest": "N",
+    "lastName": "HAYES",
+    "party": "D",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/H000390?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3442/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3442/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3442/text?format=json"
+  },
+  "title": "To amend the Endangered Species Act of 1973 to ban the importation of shrimp into the United States from nations whose fishing practices or other activities adversely affect sea turtles.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3442/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2021-07-01T14:21:04Z",
+  "updateDateIncludingText": "2021-07-01T14:21:04Z"
+ },
+ "request": {
+  "billNumber": "3442",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

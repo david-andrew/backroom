@@ -1,0 +1,84 @@
+{
+ "bill": {
+  "actions": {
+   "count": 29,
+   "url": "https://api.congress.gov/v3/bill/104/s/2/actions?format=json"
+  },
+  "amendments": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/104/s/2/amendments?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/2/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 39,
+   "countIncludingWithdrawnCosponsors": 39,
+   "url": "https://api.congress.gov/v3/bill/104/s/2/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-04",
+  "latestAction": {
+   "actionDate": "1995-01-23",
+   "text": "Became Public Law No: 104-1."
+  },
+  "laws": [
+   {
+    "number": "104-1",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/2",
+  "number": "2",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Congress"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/2/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000386",
+    "firstName": "Charles",
+    "fullName": "Sen. Grassley, Chuck [R-IA]",
+    "isByRequest": "N",
+    "lastName": "Grassley",
+    "middleName": "E.",
+    "party": "R",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/G000386?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 86,
+   "url": "https://api.congress.gov/v3/bill/104/s/2/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/2/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/s/2/text?format=json"
+  },
+  "title": "Congressional Accountability Act of 1995",
+  "titles": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/104/s/2/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-07T15:29:07Z",
+  "updateDateIncludingText": "2025-04-07T15:29:07Z"
+ },
+ "request": {
+  "billNumber": "2",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

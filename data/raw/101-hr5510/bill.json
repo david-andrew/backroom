@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5510/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5510/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5510/cosponsors?format=json"
+  },
+  "introducedDate": "1990-08-03",
+  "latestAction": {
+   "actionDate": "1990-09-04",
+   "text": "Referred to the Subcommittee on Labor Standards."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/5510",
+  "number": "5510",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001088",
+    "district": 22,
+    "firstName": "AUSTIN",
+    "fullName": "Rep. Murphy, Austin J. [D-PA-22]",
+    "isByRequest": "N",
+    "lastName": "MURPHY",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/M001088?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5510/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5510/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5510/text?format=json"
+  },
+  "title": "Black Lung Benefits Restoration Act of 1990",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5510/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:28:06Z",
+  "updateDateIncludingText": "2025-08-26T17:28:06Z"
+ },
+ "request": {
+  "billNumber": "5510",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

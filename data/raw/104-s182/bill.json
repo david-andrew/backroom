@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/182/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/182/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/182/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-09",
+  "latestAction": {
+   "actionDate": "1995-01-09",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/182",
+  "number": "182",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000338",
+    "firstName": "ORRIN",
+    "fullName": "Sen. Hatch, Orrin G. [R-UT]",
+    "isByRequest": "N",
+    "lastName": "HATCH",
+    "middleName": "GRANT",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/H000338?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/104/s/182/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/182/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/182/text?format=json"
+  },
+  "title": "Capital Formation and Job Creation Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/182/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T20:14:40Z",
+  "updateDateIncludingText": "2025-08-21T20:14:40Z"
+ },
+ "request": {
+  "billNumber": "182",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

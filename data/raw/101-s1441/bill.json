@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1441/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1441/committees?format=json"
+  },
+  "congress": 101,
+  "introducedDate": "1989-07-31",
+  "latestAction": {
+   "actionDate": "1990-05-02",
+   "text": "Subcommittee on Consumer. Hearings held. Hearings printed: S.Hrg. 101-765."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1441",
+  "number": "1441",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000303",
+    "firstName": "JOHN",
+    "fullName": "Sen. McCain, John [R-AZ]",
+    "isByRequest": "N",
+    "lastName": "MCCAIN",
+    "middleName": "SIDNEY",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/M000303?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/101/s/1441/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1441/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1441/text?format=json"
+  },
+  "title": "Consumer Fraud Prevention Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1441/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:06:27Z"
+ },
+ "request": {
+  "billNumber": "1441",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

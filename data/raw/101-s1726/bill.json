@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/101/s/1726/actions?format=json"
+  },
+  "amendments": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/s/1726/amendments?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 32,
+   "countIncludingWithdrawnCosponsors": 32,
+   "url": "https://api.congress.gov/v3/bill/101/s/1726/cosponsors?format=json"
+  },
+  "introducedDate": "1989-10-04",
+  "latestAction": {
+   "actionDate": "1989-10-06",
+   "text": "Held at the desk. Pursuant to the order of October 5, 1989."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1726",
+  "number": "1726",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000303",
+    "firstName": "JOHN",
+    "fullName": "Sen. McCain, John [R-AZ]",
+    "isByRequest": "N",
+    "lastName": "MCCAIN",
+    "middleName": "SIDNEY",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/M000303?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/101/s/1726/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1726/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1726/text?format=json"
+  },
+  "title": "A bill to repeal medicare catastrophic coverage provisions effective in years after 1989 and the supplemental medicare premium, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1726/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2021-07-01T15:49:48Z",
+  "updateDateIncludingText": "2021-07-01T15:49:48Z"
+ },
+ "request": {
+  "billNumber": "1726",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "bill": {
+  "actions": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1323/actions?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "H. Rept. 104-110,Part 1",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/110?format=json"
+   },
+   {
+    "citation": "H. Rept. 104-110,Part 2",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/110?format=json"
+   }
+  ],
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1323/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1323/cosponsors?format=json"
+  },
+  "introducedDate": "1995-03-24",
+  "latestAction": {
+   "actionDate": "1995-06-01",
+   "text": "Placed on the Union Calendar, Calendar No. 58."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1323",
+  "number": "1323",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "relatedBills": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1323/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000394",
+    "district": 9,
+    "firstName": "BUD",
+    "fullName": "Rep. Shuster, Bud [R-PA-9]",
+    "isByRequest": "N",
+    "lastName": "SHUSTER",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/S000394?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 82,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1323/subjects?format=json"
+  },
+  "summaries": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1323/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1323/text?format=json"
+  },
+  "title": "Pipeline Safety Act of 1995",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1323/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T15:29:40Z",
+  "updateDateIncludingText": "2025-04-07T15:29:40Z"
+ },
+ "request": {
+  "billNumber": "1323",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

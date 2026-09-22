@@ -1,0 +1,86 @@
+{
+ "bill": {
+  "actions": {
+   "count": 35,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1227/actions?format=json"
+  },
+  "amendments": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1227/amendments?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "H. Rept. 104-585",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/585?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1227/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 21,
+   "countIncludingWithdrawnCosponsors": 21,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1227/cosponsors?format=json"
+  },
+  "introducedDate": "1995-03-14",
+  "latestAction": {
+   "actionDate": "1996-05-23",
+   "actionTime": "15:37:00",
+   "text": "Pursuant to the provisions of H. Res. 440, the House appended the text of H.R. 1227 as passed by the House to H.R. 3448. See H.R. 3448 for further action. (consideration: CR H5544)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1227",
+  "number": "1227",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1227/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000049",
+    "district": 13,
+    "firstName": "HARRIS",
+    "fullName": "Rep. Fawell, Harris W. [R-IL-13]",
+    "isByRequest": "N",
+    "lastName": "FAWELL",
+    "middleName": "W.",
+    "party": "R",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/F000049?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1227/subjects?format=json"
+  },
+  "summaries": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1227/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1227/text?format=json"
+  },
+  "title": "To amend the Portal-to-Portal Act of 1947 relating to the payment of wages to employees who use employer owned vehicles.",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1227/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "1227",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/3047/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/3047/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/3047/cosponsors?format=json"
+  },
+  "introducedDate": "1990-09-13",
+  "latestAction": {
+   "actionDate": "1990-10-23",
+   "text": "Referred to Subcommittee on Antitrust, Monopolies and Business."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/3047",
+  "number": "3047",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000185",
+    "firstName": "DENNIS",
+    "fullName": "Sen. DeConcini, Dennis [D-AZ]",
+    "isByRequest": "N",
+    "lastName": "DECONCINI",
+    "middleName": "WEBSTER",
+    "party": "D",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/D000185?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/101/s/3047/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/3047/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/3047/text?format=json"
+  },
+  "title": "Motor Fuel Consumer Protection Act of 1990",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/3047/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:54:30Z"
+ },
+ "request": {
+  "billNumber": "3047",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

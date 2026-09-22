@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/4234/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/4234/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/4234/cosponsors?format=json"
+  },
+  "introducedDate": "1996-09-27",
+  "latestAction": {
+   "actionDate": "1996-10-11",
+   "text": "Referred to the Subcommittee on Commerce, Trade, and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/4234",
+  "number": "4234",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000034",
+    "district": 6,
+    "firstName": "FRANK",
+    "fullName": "Rep. Pallone, Frank, Jr. [D-NJ-6]",
+    "isByRequest": "N",
+    "lastName": "PALLONE",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/P000034?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 47,
+   "url": "https://api.congress.gov/v3/bill/104/hr/4234/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/4234/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/4234/text?format=json"
+  },
+  "title": "Public Right-to-Know and Children's Environmental Health Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/4234/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "4234",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

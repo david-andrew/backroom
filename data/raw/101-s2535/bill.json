@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/2535/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2535/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/2535/cosponsors?format=json"
+  },
+  "introducedDate": "1990-04-27",
+  "latestAction": {
+   "actionDate": "1990-04-27",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/2535",
+  "number": "2535",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000355",
+    "firstName": "Mitch",
+    "fullName": "Sen. McConnell, Mitch [R-KY]",
+    "isByRequest": "N",
+    "lastName": "McConnell",
+    "party": "R",
+    "state": "KY",
+    "url": "https://api.congress.gov/v3/member/M000355?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 45,
+   "url": "https://api.congress.gov/v3/bill/101/s/2535/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2535/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2535/text?format=json"
+  },
+  "title": "Comprehensive American Health Care Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/2535/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:28:00Z",
+  "updateDateIncludingText": "2025-08-26T17:28:00Z"
+ },
+ "request": {
+  "billNumber": "2535",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

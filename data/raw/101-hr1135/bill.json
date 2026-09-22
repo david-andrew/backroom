@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1135/actions?format=json"
+  },
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1135/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1135/cosponsors?format=json"
+  },
+  "introducedDate": "1989-02-27",
+  "latestAction": {
+   "actionDate": "1989-03-17",
+   "text": "Referred to the Subcommittee on Water, Power and Offshore Energy Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/1135",
+  "number": "1135",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Foreign Trade and International Finance"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000188",
+    "district": 20,
+    "firstName": "WILLIAM",
+    "fullName": "Rep. Thomas, William M. [R-CA-20]",
+    "isByRequest": "N",
+    "lastName": "THOMAS",
+    "middleName": "MARSHALL",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/T000188?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1135/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1135/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1135/text?format=json"
+  },
+  "title": "To remove the restrictions on the export of Alaskan North Slope oil.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1135/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-06-06T14:17:56Z",
+  "updateDateIncludingText": "2025-06-06T14:19:40Z"
+ },
+ "request": {
+  "billNumber": "1135",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

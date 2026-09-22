@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/719/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/719/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/719/cosponsors?format=json"
+  },
+  "introducedDate": "1989-04-06",
+  "latestAction": {
+   "actionDate": "1989-04-18",
+   "text": "Committee on Judiciary. Hearings held. Hearings printed: S.Hrg. 101-486."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/719",
+  "number": "719",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000678",
+    "firstName": "HOWARD",
+    "fullName": "Sen. Metzenbaum, Howard M. [D-OH]",
+    "isByRequest": "N",
+    "lastName": "METZENBAUM",
+    "middleName": "MORTON",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/M000678?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/s/719/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/719/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/719/text?format=json"
+  },
+  "title": "Insurance Competition Improvement Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/719/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "719",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

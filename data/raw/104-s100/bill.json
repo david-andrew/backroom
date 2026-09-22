@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/100/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/100/committees?format=json"
+  },
+  "congress": 104,
+  "introducedDate": "1995-01-04",
+  "latestAction": {
+   "actionDate": "1995-01-04",
+   "text": "Read twice and referred to the Committee on Governmental Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/100",
+  "number": "100",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000236",
+    "firstName": "JOHN",
+    "fullName": "Sen. Glenn, John H., Jr. [D-OH]",
+    "isByRequest": "N",
+    "lastName": "GLENN",
+    "middleName": "HERSCHEL",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/G000236?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/104/s/100/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/100/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/100/text?format=json"
+  },
+  "title": "Regulatory Accountability Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/100/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T20:16:41Z",
+  "updateDateIncludingText": "2025-08-21T20:16:41Z"
+ },
+ "request": {
+  "billNumber": "100",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

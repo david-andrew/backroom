@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1286/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1286/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1286/cosponsors?format=json"
+  },
+  "introducedDate": "1989-07-11",
+  "latestAction": {
+   "actionDate": "1989-07-11",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1286",
+  "number": "1286",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000019",
+    "firstName": "ROBERT",
+    "fullName": "Sen. Kasten, Robert W., Jr. [R-WI]",
+    "isByRequest": "N",
+    "lastName": "KASTEN",
+    "middleName": "WALTER",
+    "party": "R",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/K000019?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/101/s/1286/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1286/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1286/text?format=json"
+  },
+  "title": "A bill to amend the Internal Revenue Code of 1986 to provide for a maximum long-term capital gains rate of 15 percent and indexing of certain capital assets.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1286/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T18:59:41Z",
+  "updateDateIncludingText": "2025-01-14T19:09:37Z"
+ },
+ "request": {
+  "billNumber": "1286",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

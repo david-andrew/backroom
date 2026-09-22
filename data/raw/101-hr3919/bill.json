@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3919/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3919/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3919/cosponsors?format=json"
+  },
+  "introducedDate": "1990-01-30",
+  "latestAction": {
+   "actionDate": "1990-02-12",
+   "text": "Referred to the Subcommittee on Energy and Power."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/3919",
+  "number": "3919",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000350",
+    "district": 17,
+    "firstName": "JAMES",
+    "fullName": "Rep. Traficant, James A., Jr. [D-OH-17]",
+    "isByRequest": "N",
+    "lastName": "TRAFICANT",
+    "middleName": "A.",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/T000350?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3919/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3919/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3919/text?format=json"
+  },
+  "title": "To establish the Federal Fuels Stabilization Board.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3919/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-15T18:51:50Z",
+  "updateDateIncludingText": "2025-01-15T18:51:50Z"
+ },
+ "request": {
+  "billNumber": "3919",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

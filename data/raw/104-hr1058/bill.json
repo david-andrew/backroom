@@ -1,0 +1,96 @@
+{
+ "bill": {
+  "actions": {
+   "count": 80,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1058/actions?format=json"
+  },
+  "amendments": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1058/amendments?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "H. Rept. 104-369",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/369?format=json"
+   }
+  ],
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1058/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1058/cosponsors?format=json"
+  },
+  "introducedDate": "1995-02-27",
+  "latestAction": {
+   "actionDate": "1995-12-22",
+   "text": "Became Public Law No: 104-67."
+  },
+  "laws": [
+   {
+    "number": "104-67",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1058",
+  "notes": [
+   {
+    "text": "Public Law enacted over veto."
+   }
+  ],
+  "number": "1058",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1058/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000556",
+    "district": 7,
+    "firstName": "THOMAS",
+    "fullName": "Rep. Bliley, Tom [R-VA-7]",
+    "isByRequest": "N",
+    "lastName": "BLILEY",
+    "middleName": "J.",
+    "party": "R",
+    "state": "VA",
+    "url": "https://api.congress.gov/v3/member/B000556?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 55,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1058/subjects?format=json"
+  },
+  "summaries": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1058/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1058/text?format=json"
+  },
+  "title": "Private Securities Litigation Reform Act of 1995",
+  "titles": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1058/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T15:30:17Z",
+  "updateDateIncludingText": "2025-04-07T15:30:17Z"
+ },
+ "request": {
+  "billNumber": "1058",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

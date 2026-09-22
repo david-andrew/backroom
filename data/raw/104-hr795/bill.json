@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/hr/795/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/795/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/104/hr/795/cosponsors?format=json"
+  },
+  "introducedDate": "1995-02-02",
+  "latestAction": {
+   "actionDate": "1995-02-21",
+   "text": "Referred to the Subcommittee Commerce, Trade, and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/795",
+  "number": "795",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000107",
+    "district": 12,
+    "firstName": "CHARLES",
+    "fullName": "Rep. Canady, Charles T. [R-FL-12]",
+    "isByRequest": "N",
+    "lastName": "CANADY",
+    "middleName": "T.",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/C000107?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/104/hr/795/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/795/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/795/text?format=json"
+  },
+  "title": "To impose a moratorium on enforcement of the Comprehensive Environmental Response, Compensation, and Liability Act of 1980 (Superfund) against certain persons and on the authority under that Act for contribution actions.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/795/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:02:17Z",
+  "updateDateIncludingText": "2024-02-07T16:05:05Z"
+ },
+ "request": {
+  "billNumber": "795",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

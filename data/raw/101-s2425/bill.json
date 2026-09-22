@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/2425/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2425/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 18,
+   "countIncludingWithdrawnCosponsors": 18,
+   "url": "https://api.congress.gov/v3/bill/101/s/2425/cosponsors?format=json"
+  },
+  "introducedDate": "1990-04-05",
+  "latestAction": {
+   "actionDate": "1990-04-05",
+   "text": "Read twice and referred to the Committee on Rules."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/2425",
+  "number": "2425",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000148",
+    "firstName": "JOHN",
+    "fullName": "Sen. Kerry, John F. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "KERRY",
+    "middleName": "FORBES",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/K000148?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/101/s/2425/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2425/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2425/text?format=json"
+  },
+  "title": "Senatorial Election Public Funding and Campaign Act of 1990",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/2425/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:25:04Z",
+  "updateDateIncludingText": "2025-08-26T17:25:04Z"
+ },
+ "request": {
+  "billNumber": "2425",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

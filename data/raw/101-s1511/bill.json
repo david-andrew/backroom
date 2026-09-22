@@ -1,0 +1,85 @@
+{
+ "bill": {
+  "actions": {
+   "count": 44,
+   "url": "https://api.congress.gov/v3/bill/101/s/1511/actions?format=json"
+  },
+  "amendments": {
+   "count": 36,
+   "url": "https://api.congress.gov/v3/bill/101/s/1511/amendments?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1511/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 45,
+   "countIncludingWithdrawnCosponsors": 45,
+   "url": "https://api.congress.gov/v3/bill/101/s/1511/cosponsors?format=json"
+  },
+  "introducedDate": "1989-08-03",
+  "latestAction": {
+   "actionDate": "1990-10-16",
+   "text": "Became Public Law No: 101-433."
+  },
+  "laws": [
+   {
+    "number": "101-433",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1511",
+  "number": "1511",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1511/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000556",
+    "district": 4,
+    "firstName": "DAVID",
+    "fullName": "Sen. Pryor, David H. [D-AR]",
+    "isByRequest": "N",
+    "lastName": "PRYOR",
+    "middleName": "HAMPTON",
+    "party": "D",
+    "state": "AR",
+    "url": "https://api.congress.gov/v3/member/P000556?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/101/s/1511/subjects?format=json"
+  },
+  "summaries": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1511/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/s/1511/text?format=json"
+  },
+  "title": "Older Workers Benefit Protection Act",
+  "titles": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/s/1511/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:24:17Z"
+ },
+ "request": {
+  "billNumber": "1511",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

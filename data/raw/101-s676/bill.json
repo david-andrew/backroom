@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/676/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/676/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/676/cosponsors?format=json"
+  },
+  "introducedDate": "1989-03-17",
+  "latestAction": {
+   "actionDate": "1989-05-19",
+   "text": "Subcommittee on Environmental Protection. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/676",
+  "number": "676",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000243",
+    "firstName": "MAX",
+    "fullName": "Sen. Baucus, Max [D-MT]",
+    "isByRequest": "N",
+    "lastName": "BAUCUS",
+    "middleName": "SIEBEN",
+    "party": "D",
+    "state": "MT",
+    "url": "https://api.congress.gov/v3/member/B000243?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 52,
+   "url": "https://api.congress.gov/v3/bill/101/s/676/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/676/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/676/text?format=json"
+  },
+  "title": "Global Environmental Protection Act of 1989",
+  "titles": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/101/s/676/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:58Z"
+ },
+ "request": {
+  "billNumber": "676",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

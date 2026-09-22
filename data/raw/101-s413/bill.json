@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/s/413/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/413/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/413/cosponsors?format=json"
+  },
+  "introducedDate": "1989-02-22",
+  "latestAction": {
+   "actionDate": "1989-03-17",
+   "text": "Committee on Banking. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/413",
+  "number": "413",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/413/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000249",
+    "firstName": "DONALD",
+    "fullName": "Sen. Riegle, Donald W., Jr. [D-MI]",
+    "isByRequest": "Y",
+    "lastName": "RIEGLE",
+    "middleName": "WAYNE",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/R000249?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 51,
+   "url": "https://api.congress.gov/v3/bill/101/s/413/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/413/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/413/text?format=json"
+  },
+  "title": "Financial Institutions Reform, Recovery and Enforcement Act of 1989",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/413/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:27:20Z",
+  "updateDateIncludingText": "2025-08-26T17:27:20Z"
+ },
+ "request": {
+  "billNumber": "413",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

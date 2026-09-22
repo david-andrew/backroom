@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/565/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/565/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 39,
+   "countIncludingWithdrawnCosponsors": 41,
+   "url": "https://api.congress.gov/v3/bill/101/s/565/cosponsors?format=json"
+  },
+  "introducedDate": "1989-03-15",
+  "latestAction": {
+   "actionDate": "1989-03-15",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/565",
+  "number": "565",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Housing and Community Development"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/565/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000877",
+    "firstName": "ALAN",
+    "fullName": "Sen. Cranston, Alan [D-CA]",
+    "isByRequest": "N",
+    "lastName": "CRANSTON",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/C000877?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/101/s/565/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/565/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/565/text?format=json"
+  },
+  "title": "National Affordable Housing Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/565/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:25:59Z",
+  "updateDateIncludingText": "2025-08-26T17:25:59Z"
+ },
+ "request": {
+  "billNumber": "565",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

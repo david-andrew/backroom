@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/hr/707/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/707/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 19,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/104/hr/707/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-26",
+  "latestAction": {
+   "actionDate": "1996-07-09",
+   "text": "Sponsor introductory remarks on measure. (CR H7117)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/707",
+  "number": "707",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000444",
+    "district": 5,
+    "firstName": "JOEL",
+    "fullName": "Rep. Hefley, Joel [R-CO-5]",
+    "isByRequest": "N",
+    "lastName": "HEFLEY",
+    "party": "R",
+    "state": "CO",
+    "url": "https://api.congress.gov/v3/member/H000444?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 35,
+   "url": "https://api.congress.gov/v3/bill/104/hr/707/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/707/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/707/text?format=json"
+  },
+  "title": "OSHA Reform Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/707/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "707",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

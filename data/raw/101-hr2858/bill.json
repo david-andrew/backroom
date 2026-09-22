@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2858/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2858/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2858/cosponsors?format=json"
+  },
+  "introducedDate": "1989-07-11",
+  "latestAction": {
+   "actionDate": "1989-07-31",
+   "text": "Referred to the Subcommittee on Health and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2858",
+  "number": "2858",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001057",
+    "district": 3,
+    "firstName": "ROBERT",
+    "fullName": "Rep. Mrazek, Robert J. [D-NY-3]",
+    "isByRequest": "N",
+    "lastName": "MRAZEK",
+    "middleName": "J.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/M001057?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2858/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2858/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2858/text?format=json"
+  },
+  "title": "Professional Medical Liability Reform Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2858/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2858",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

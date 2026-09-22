@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 35,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3143/actions?format=json"
+  },
+  "committees": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3143/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 38,
+   "countIncludingWithdrawnCosponsors": 38,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3143/cosponsors?format=json"
+  },
+  "introducedDate": "1989-08-04",
+  "latestAction": {
+   "actionDate": "1990-01-23",
+   "text": "Unfavorable Executive Comment Received from DOT."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/3143",
+  "number": "3143",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3143/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "A000337",
+    "district": 1,
+    "firstName": "LES",
+    "fullName": "Rep. AuCoin, Les [D-OR-1]",
+    "isByRequest": "N",
+    "lastName": "AUCOIN",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/A000337?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 139,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3143/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3143/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3143/text?format=json"
+  },
+  "title": "National Energy Policy Act of 1989",
+  "titles": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3143/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:26:32Z",
+  "updateDateIncludingText": "2025-08-26T17:26:32Z"
+ },
+ "request": {
+  "billNumber": "3143",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

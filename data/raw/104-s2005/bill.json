@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/2005/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/2005/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/2005/cosponsors?format=json"
+  },
+  "introducedDate": "1996-07-31",
+  "latestAction": {
+   "actionDate": "1996-07-31",
+   "text": "Read twice and referred to the Committee on Labor and Human Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/2005",
+  "number": "2005",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000779",
+    "firstName": "Ron",
+    "fullName": "Sen. Wyden, Ron [D-OR]",
+    "isByRequest": "N",
+    "lastName": "Wyden",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/W000779?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/104/s/2005/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/2005/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/2005/text?format=json"
+  },
+  "title": "Patient Communications Protection Act of 1996",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/2005/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T20:16:51Z",
+  "updateDateIncludingText": "2025-08-21T20:16:51Z"
+ },
+ "request": {
+  "billNumber": "2005",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "bill": {
+  "actions": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1380/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1380/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1380/cosponsors?format=json"
+  },
+  "introducedDate": "1995-04-03",
+  "latestAction": {
+   "actionDate": "1995-05-18",
+   "text": "Became Public Law No: 104-12."
+  },
+  "laws": [
+   {
+    "number": "104-12",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1380",
+  "number": "1380",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000350",
+    "district": 8,
+    "firstName": "BILL",
+    "fullName": "Rep. McCollum, Bill [R-FL-8]",
+    "isByRequest": "N",
+    "lastName": "MCCOLLUM",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/M000350?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1380/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1380/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1380/text?format=json"
+  },
+  "title": "Truth in Lending Class Action Relief Act of 1995",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1380/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T15:27:46Z",
+  "updateDateIncludingText": "2025-04-07T15:27:46Z"
+ },
+ "request": {
+  "billNumber": "1380",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

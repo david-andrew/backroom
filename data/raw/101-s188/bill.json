@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/188/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/188/committees?format=json"
+  },
+  "congress": 101,
+  "introducedDate": "1989-01-25",
+  "latestAction": {
+   "actionDate": "1989-01-25",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/188",
+  "number": "188",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001138",
+    "firstName": "STEVEN",
+    "fullName": "Sen. Symms, Steven D. [R-ID]",
+    "isByRequest": "N",
+    "lastName": "SYMMS",
+    "middleName": "DOUGLAS",
+    "party": "R",
+    "state": "ID",
+    "url": "https://api.congress.gov/v3/member/S001138?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/188/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/188/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/188/text?format=json"
+  },
+  "title": "A bill to amend title XVIII of the Social Security Act to eliminate mandated caps on physicians fees.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/188/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T18:59:41Z",
+  "updateDateIncludingText": "2025-01-14T19:09:24Z"
+ },
+ "request": {
+  "billNumber": "188",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

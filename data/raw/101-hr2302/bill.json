@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2302/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2302/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2302/cosponsors?format=json"
+  },
+  "introducedDate": "1989-05-10",
+  "latestAction": {
+   "actionDate": "1989-06-01",
+   "text": "Referred to the Subcommittee on Health and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2302",
+  "number": "2302",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000121",
+    "district": 17,
+    "firstName": "GEORGE",
+    "fullName": "Rep. Gekas, George W. [R-PA-17]",
+    "isByRequest": "N",
+    "lastName": "GEKAS",
+    "middleName": "W.",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/G000121?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2302/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2302/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2302/text?format=json"
+  },
+  "title": "To amend titles XVIII and XIX of the Social Security Act to repeal the requirement of nursing facilities to provide for training of nurse aides.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2302/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2302",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

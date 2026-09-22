@@ -1,0 +1,91 @@
+{
+ "bill": {
+  "actions": {
+   "count": 43,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1627/actions?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "H. Rept. 104-669,Part 1",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/669?format=json"
+   },
+   {
+    "citation": "H. Rept. 104-669,Part 2",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/669?format=json"
+   }
+  ],
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1627/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 243,
+   "countIncludingWithdrawnCosponsors": 243,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1627/cosponsors?format=json"
+  },
+  "introducedDate": "1995-05-12",
+  "latestAction": {
+   "actionDate": "1996-08-03",
+   "text": "Became Public Law No: 104-170."
+  },
+  "laws": [
+   {
+    "number": "104-170",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1627",
+  "number": "1627",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1627/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000556",
+    "district": 7,
+    "firstName": "THOMAS",
+    "fullName": "Rep. Bliley, Tom [R-VA-7]",
+    "isByRequest": "N",
+    "lastName": "BLILEY",
+    "middleName": "J.",
+    "party": "R",
+    "state": "VA",
+    "url": "https://api.congress.gov/v3/member/B000556?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 104,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1627/subjects?format=json"
+  },
+  "summaries": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1627/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1627/text?format=json"
+  },
+  "title": "Food Quality Protection Act of 1996",
+  "titles": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1627/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1627",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

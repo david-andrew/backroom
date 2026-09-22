@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/589/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/589/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/589/cosponsors?format=json"
+  },
+  "introducedDate": "1989-03-15",
+  "latestAction": {
+   "actionDate": "1989-03-15",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/589",
+  "number": "589",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000444",
+    "firstName": "JOSEPH",
+    "fullName": "Sen. Biden, Joseph R., Jr. [D-DE]",
+    "isByRequest": "N",
+    "lastName": "BIDEN",
+    "middleName": "ROBINETTE",
+    "party": "D",
+    "state": "DE",
+    "url": "https://api.congress.gov/v3/member/B000444?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/101/s/589/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/589/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/589/text?format=json"
+  },
+  "title": "Independent Nuclear Safety Board Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/589/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:57Z"
+ },
+ "request": {
+  "billNumber": "589",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/s/628/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/628/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/104/s/628/cosponsors?format=json"
+  },
+  "introducedDate": "1995-03-27",
+  "latestAction": {
+   "actionDate": "1995-06-07",
+   "text": "Committee on Finance. Hearings held. Hearings printed: S.Hrg. 104-89."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/628",
+  "number": "628",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/628/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000352",
+    "firstName": "Jon",
+    "fullName": "Sen. Kyl, Jon [R-AZ]",
+    "isByRequest": "N",
+    "lastName": "Kyl",
+    "middleName": "Llewellyn",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/K000352?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/s/628/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/628/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/628/text?format=json"
+  },
+  "title": "Family Heritage Preservation Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/628/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T20:17:00Z",
+  "updateDateIncludingText": "2025-08-21T20:17:00Z"
+ },
+ "request": {
+  "billNumber": "628",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

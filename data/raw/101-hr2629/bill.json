@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2629/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2629/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2629/cosponsors?format=json"
+  },
+  "introducedDate": "1989-06-14",
+  "latestAction": {
+   "actionDate": "1989-07-05",
+   "text": "Referred to the Subcommittee on Health and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2629",
+  "number": "2629",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000215",
+    "district": 24,
+    "firstName": "HENRY",
+    "fullName": "Rep. Waxman, Henry A. [D-CA-24]",
+    "isByRequest": "N",
+    "lastName": "WAXMAN",
+    "middleName": "A.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/W000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2629/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2629/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2629/text?format=json"
+  },
+  "title": "Medicare Physician Payment Reform Amendments of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2629/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2629",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

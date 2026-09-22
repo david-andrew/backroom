@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/101/s/994/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/994/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/101/s/994/cosponsors?format=json"
+  },
+  "introducedDate": "1989-05-16",
+  "latestAction": {
+   "actionDate": "1990-10-27",
+   "text": "Indefinitely postponed by Senate by Unanimous Consent."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/994",
+  "number": "994",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/994/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000678",
+    "firstName": "HOWARD",
+    "fullName": "Sen. Metzenbaum, Howard M. [D-OH]",
+    "isByRequest": "N",
+    "lastName": "METZENBAUM",
+    "middleName": "MORTON",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/M000678?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/s/994/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/994/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/994/text?format=json"
+  },
+  "title": "Interlocking Directorate Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/994/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:54:46Z"
+ },
+ "request": {
+  "billNumber": "994",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

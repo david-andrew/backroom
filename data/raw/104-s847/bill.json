@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/847/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/847/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 20,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/104/s/847/cosponsors?format=json"
+  },
+  "introducedDate": "1995-05-23",
+  "latestAction": {
+   "actionDate": "1995-05-23",
+   "text": "Read twice and referred to the Committee on Agriculture."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/847",
+  "number": "847",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/847/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000445",
+    "firstName": "Judd",
+    "fullName": "Sen. Gregg, Judd [R-NH]",
+    "isByRequest": "N",
+    "lastName": "Gregg",
+    "party": "R",
+    "state": "NH",
+    "url": "https://api.congress.gov/v3/member/G000445?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/s/847/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/847/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/847/text?format=json"
+  },
+  "title": "A bill to terminate the agricultural price support and production adjustment programs for sugar, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/847/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T16:41:20Z",
+  "updateDateIncludingText": "2025-01-14T16:42:03Z"
+ },
+ "request": {
+  "billNumber": "847",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

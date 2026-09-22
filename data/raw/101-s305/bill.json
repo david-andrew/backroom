@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/305/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/305/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/101/s/305/cosponsors?format=json"
+  },
+  "introducedDate": "1989-01-31",
+  "latestAction": {
+   "actionDate": "1989-01-31",
+   "text": "Read twice and referred to the Committee on Banking."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/305",
+  "number": "305",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000366",
+    "firstName": "ALAN",
+    "fullName": "Sen. Dixon, Alan J. [D-IL]",
+    "isByRequest": "N",
+    "lastName": "DIXON",
+    "middleName": "JOHN",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000366?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 64,
+   "url": "https://api.congress.gov/v3/bill/101/s/305/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/305/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/305/text?format=json"
+  },
+  "title": "Proxmire Financial Modernization Act of 1989",
+  "titles": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/s/305/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:26:00Z",
+  "updateDateIncludingText": "2025-08-26T17:26:00Z"
+ },
+ "request": {
+  "billNumber": "305",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

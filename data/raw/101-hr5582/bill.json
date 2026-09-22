@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5582/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5582/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 58,
+   "countIncludingWithdrawnCosponsors": 58,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5582/cosponsors?format=json"
+  },
+  "introducedDate": "1990-09-11",
+  "latestAction": {
+   "actionDate": "1990-10-02",
+   "text": "Referred to the Subcommittee on Criminal Justice."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/5582",
+  "number": "5582",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Economics and Public Finance"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5582/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000563",
+    "district": 20,
+    "firstName": "Richard",
+    "fullName": "Rep. Durbin, Richard J. [D-IL-20]",
+    "isByRequest": "N",
+    "lastName": "Durbin",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000563?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5582/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5582/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5582/text?format=json"
+  },
+  "title": "National Emergency Anti-Profiteering Act of 1990",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5582/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:24:42Z",
+  "updateDateIncludingText": "2025-08-26T17:24:42Z"
+ },
+ "request": {
+  "billNumber": "5582",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2566/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2566/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 44,
+   "countIncludingWithdrawnCosponsors": 44,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2566/cosponsors?format=json"
+  },
+  "introducedDate": "1995-10-31",
+  "latestAction": {
+   "actionDate": "1995-10-31",
+   "text": "Referred to the House Committee on House Oversight."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/2566",
+  "number": "2566",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000587",
+    "district": 3,
+    "firstName": "LINDA",
+    "fullName": "Rep. Smith, Linda [R-WA-3]",
+    "isByRequest": "N",
+    "lastName": "SMITH",
+    "party": "R",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/S000587?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 60,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2566/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2566/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2566/text?format=json"
+  },
+  "title": "Bipartisan Clean Congress Act of 1995",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2566/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:15:43Z",
+  "updateDateIncludingText": "2025-08-21T20:15:43Z"
+ },
+ "request": {
+  "billNumber": "2566",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

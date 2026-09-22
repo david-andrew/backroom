@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/105/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/105/committees?format=json"
+  },
+  "congress": 104,
+  "introducedDate": "1995-01-04",
+  "latestAction": {
+   "actionDate": "1995-01-04",
+   "text": "Referred to the House Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/105",
+  "number": "105",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000463",
+    "district": 9,
+    "firstName": "MICHAEL",
+    "fullName": "Rep. Bilirakis, Michael [R-FL-9]",
+    "isByRequest": "N",
+    "lastName": "BILIRAKIS",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/B000463?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/104/hr/105/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/105/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/105/text?format=json"
+  },
+  "title": "Baseball Antitrust Restoration Amendment of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/105/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:14:14Z",
+  "updateDateIncludingText": "2025-08-21T20:14:14Z"
+ },
+ "request": {
+  "billNumber": "105",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/104/s/141/actions?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "S. Rept. 104-80",
+    "url": "https://api.congress.gov/v3/committee-report/104/SRPT/80?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/141/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/104/s/141/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-04",
+  "latestAction": {
+   "actionDate": "1996-06-28",
+   "text": "Star Print ordered on Senate report 104-80."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/141",
+  "number": "141",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000017",
+    "firstName": "NANCY",
+    "fullName": "Sen. Kassebaum, Nancy Landon [R-KS]",
+    "isByRequest": "N",
+    "lastName": "KASSEBAUM",
+    "middleName": "LANDON",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/K000017?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/104/s/141/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/141/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/141/text?format=json"
+  },
+  "title": "Davis-Bacon Repeal Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/s/141/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:26:32Z"
+ },
+ "request": {
+  "billNumber": "141",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

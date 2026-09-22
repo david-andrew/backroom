@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3460/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3460/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3460/cosponsors?format=json"
+  },
+  "introducedDate": "1989-10-12",
+  "latestAction": {
+   "actionDate": "1989-11-11",
+   "text": "Field Hearings Held in Barstow, California"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/3460",
+  "number": "3460",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3460/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000274",
+    "district": 35,
+    "firstName": "JERRY",
+    "fullName": "Rep. Lewis, Jerry [R-CA-35]",
+    "isByRequest": "N",
+    "lastName": "LEWIS",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/L000274?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3460/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3460/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3460/text?format=json"
+  },
+  "title": "California Desert Conservation Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3460/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:24:55Z",
+  "updateDateIncludingText": "2025-08-26T17:24:55Z"
+ },
+ "request": {
+  "billNumber": "3460",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

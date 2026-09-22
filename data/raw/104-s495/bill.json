@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/495/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/495/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/104/s/495/cosponsors?format=json"
+  },
+  "introducedDate": "1995-03-03",
+  "latestAction": {
+   "actionDate": "1995-03-03",
+   "text": "Read twice and referred to the Committee on Labor and Human Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/495",
+  "number": "495",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Education"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000017",
+    "firstName": "NANCY",
+    "fullName": "Sen. Kassebaum, Nancy Landon [R-KS]",
+    "isByRequest": "N",
+    "lastName": "KASSEBAUM",
+    "middleName": "LANDON",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/K000017?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/104/s/495/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/495/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/495/text?format=json"
+  },
+  "title": "Student Loan Evaluation and Stabilization Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/495/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T20:16:21Z",
+  "updateDateIncludingText": "2025-08-21T20:16:21Z"
+ },
+ "request": {
+  "billNumber": "495",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

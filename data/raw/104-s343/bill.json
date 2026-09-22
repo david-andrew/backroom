@@ -1,0 +1,88 @@
+{
+ "bill": {
+  "actions": {
+   "count": 35,
+   "url": "https://api.congress.gov/v3/bill/104/s/343/actions?format=json"
+  },
+  "amendments": {
+   "count": 337,
+   "url": "https://api.congress.gov/v3/bill/104/s/343/amendments?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "S. Rept. 104-89",
+    "url": "https://api.congress.gov/v3/committee-report/104/SRPT/89?format=json"
+   },
+   {
+    "citation": "S. Rept. 104-90",
+    "url": "https://api.congress.gov/v3/committee-report/104/SRPT/90?format=json"
+   }
+  ],
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/343/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 29,
+   "countIncludingWithdrawnCosponsors": 29,
+   "url": "https://api.congress.gov/v3/bill/104/s/343/cosponsors?format=json"
+  },
+  "introducedDate": "1995-02-02",
+  "latestAction": {
+   "actionDate": "1995-07-20",
+   "text": "Third cloture on the substitute amendment (SP 1487) not invoked in Senate by Yea-Nay Vote. 58-40. Record Vote No: 315."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/343",
+  "number": "343",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/343/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000401",
+    "firstName": "ROBERT",
+    "fullName": "Sen. Dole, Robert J. [R-KS]",
+    "isByRequest": "N",
+    "lastName": "DOLE",
+    "middleName": "JOSEPH",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/D000401?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 44,
+   "url": "https://api.congress.gov/v3/bill/104/s/343/subjects?format=json"
+  },
+  "summaries": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/343/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/343/text?format=json"
+  },
+  "title": "Comprehensive Regulatory Reform Act of 1995",
+  "titles": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/s/343/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:58:12Z"
+ },
+ "request": {
+  "billNumber": "343",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

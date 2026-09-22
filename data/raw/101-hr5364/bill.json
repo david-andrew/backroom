@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5364/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5364/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5364/cosponsors?format=json"
+  },
+  "introducedDate": "1990-07-25",
+  "latestAction": {
+   "actionDate": "1990-07-25",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/5364",
+  "number": "5364",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5364/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000077",
+    "district": 5,
+    "firstName": "MICKEY",
+    "fullName": "Rep. Edwards, Mickey [R-OK-5]",
+    "isByRequest": "N",
+    "lastName": "EDWARDS",
+    "party": "R",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/E000077?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5364/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5364/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5364/text?format=json"
+  },
+  "title": "Economic Growth and Venture Capital Act of 1990",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5364/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:24:49Z",
+  "updateDateIncludingText": "2025-08-26T17:24:49Z"
+ },
+ "request": {
+  "billNumber": "5364",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

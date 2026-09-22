@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1707/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1707/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 21,
+   "countIncludingWithdrawnCosponsors": 21,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1707/cosponsors?format=json"
+  },
+  "introducedDate": "1995-05-24",
+  "latestAction": {
+   "actionDate": "1996-04-16",
+   "text": "Sponsor introductory remarks on measure. (CR E535-536)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1707",
+  "number": "1707",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000810",
+    "district": 13,
+    "firstName": "PETE",
+    "fullName": "Rep. Stark, Fortney Pete [D-CA-13]",
+    "isByRequest": "N",
+    "lastName": "STARK",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/S000810?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 50,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1707/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1707/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1707/text?format=json"
+  },
+  "title": "Medicare Beneficiary Protection Amendments of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1707/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1707",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/4910/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/4910/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/4910/cosponsors?format=json"
+  },
+  "introducedDate": "1990-05-23",
+  "latestAction": {
+   "actionDate": "1990-06-04",
+   "text": "Referred to the Subcommittee on Water Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/4910",
+  "number": "4910",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000779",
+    "district": 3,
+    "firstName": "Ron",
+    "fullName": "Rep. Wyden, Ron [D-OR-3]",
+    "isByRequest": "N",
+    "lastName": "Wyden",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/W000779?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/101/hr/4910/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/4910/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/4910/text?format=json"
+  },
+  "title": "Oil Spill Disaster Prevention Act of 1990",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/4910/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:29:18Z",
+  "updateDateIncludingText": "2025-08-26T17:29:18Z"
+ },
+ "request": {
+  "billNumber": "4910",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

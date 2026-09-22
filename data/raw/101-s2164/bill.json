@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/2164/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2164/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2164/cosponsors?format=json"
+  },
+  "introducedDate": "1990-02-22",
+  "latestAction": {
+   "actionDate": "1990-03-19",
+   "text": "Referred to Subcommittee on Employment and Productivity."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/2164",
+  "number": "2164",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2164/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000423",
+    "firstName": "PAUL",
+    "fullName": "Sen. Simon, Paul [D-IL]",
+    "isByRequest": "N",
+    "lastName": "SIMON",
+    "middleName": "MARTIN",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/S000423?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/101/s/2164/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2164/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2164/text?format=json"
+  },
+  "title": "Privacy for Consumers and Workers Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/2164/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:28:56Z",
+  "updateDateIncludingText": "2025-08-26T17:28:56Z"
+ },
+ "request": {
+  "billNumber": "2164",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

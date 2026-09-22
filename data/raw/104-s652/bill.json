@@ -1,0 +1,93 @@
+{
+ "bill": {
+  "actions": {
+   "count": 90,
+   "url": "https://api.congress.gov/v3/bill/104/s/652/actions?format=json"
+  },
+  "amendments": {
+   "count": 170,
+   "url": "https://api.congress.gov/v3/bill/104/s/652/amendments?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "S. Rept. 104-23",
+    "url": "https://api.congress.gov/v3/committee-report/104/SRPT/23?format=json"
+   },
+   {
+    "citation": "S. Rept. 104-230",
+    "url": "https://api.congress.gov/v3/committee-report/104/SRPT/230?format=json"
+   },
+   {
+    "citation": "H. Rept. 104-458",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/458?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/652/committees?format=json"
+  },
+  "congress": 104,
+  "introducedDate": "1995-03-30",
+  "latestAction": {
+   "actionDate": "1996-02-08",
+   "text": "Became Public Law No: 104-104."
+  },
+  "laws": [
+   {
+    "number": "104-104",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/652",
+  "number": "652",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/652/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000513",
+    "firstName": "LARRY",
+    "fullName": "Sen. Pressler, Larry [R-SD]",
+    "isByRequest": "N",
+    "lastName": "PRESSLER",
+    "middleName": "LEE",
+    "party": "R",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/P000513?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 237,
+   "url": "https://api.congress.gov/v3/bill/104/s/652/subjects?format=json"
+  },
+  "summaries": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/s/652/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/s/652/text?format=json"
+  },
+  "title": "Telecommunications Act of 1996",
+  "titles": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/104/s/652/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:06:14Z"
+ },
+ "request": {
+  "billNumber": "652",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

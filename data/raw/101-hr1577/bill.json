@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1577/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1577/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1577/cosponsors?format=json"
+  },
+  "introducedDate": "1989-03-22",
+  "latestAction": {
+   "actionDate": "1989-04-24",
+   "text": "Referred to the Subcommittee on Health and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/1577",
+  "number": "1577",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000316",
+    "district": 34,
+    "firstName": "ESTEBAN",
+    "fullName": "Rep. Torres, Esteban Edward [D-CA-34]",
+    "isByRequest": "N",
+    "lastName": "TORRES",
+    "middleName": "E.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/T000316?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1577/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1577/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1577/text?format=json"
+  },
+  "title": "To amend the Clean Air Act to require new stationary sources of air pollutants which are located in nonattainment areas to periodically reduce emissions.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1577/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1577",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

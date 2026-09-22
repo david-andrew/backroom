@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2617/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2617/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2617/cosponsors?format=json"
+  },
+  "introducedDate": "1989-06-13",
+  "latestAction": {
+   "actionDate": "1989-07-12",
+   "text": "Referred to the Subcommittee on Labor-Management Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2617",
+  "number": "2617",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000543",
+    "district": 3,
+    "firstName": "MARTIN",
+    "fullName": "Rep. Russo, Martin A. [D-IL-3]",
+    "isByRequest": "N",
+    "lastName": "RUSSO",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/R000543?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2617/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2617/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2617/text?format=json"
+  },
+  "title": "To amend the National Labor Relations Act to make it an unfair labor practice for an employer to fail to reinstate certain senior employees upon the conclusion of a strike.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2617/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "2617",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

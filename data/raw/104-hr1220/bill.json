@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1220/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1220/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1220/cosponsors?format=json"
+  },
+  "introducedDate": "1995-03-13",
+  "latestAction": {
+   "actionDate": "1995-10-03",
+   "text": "Unfavorable Executive Comment Received from USDA."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1220",
+  "number": "1220",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000111",
+    "district": 5,
+    "firstName": "TOM",
+    "fullName": "Rep. Latham, Tom [R-IA-5]",
+    "isByRequest": "N",
+    "lastName": "LATHAM",
+    "party": "R",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/L000111?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1220/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1220/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1220/text?format=json"
+  },
+  "title": "To establish a temporary moratorium on the delineation of new wetlands until enactment of a law that is the successor to the Food, Agriculture, Conservation, and Trade Act of 1990, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1220/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:02:17Z",
+  "updateDateIncludingText": "2024-02-07T16:05:04Z"
+ },
+ "request": {
+  "billNumber": "1220",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/101/hr/736/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/736/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 103,
+   "countIncludingWithdrawnCosponsors": 103,
+   "url": "https://api.congress.gov/v3/bill/101/hr/736/cosponsors?format=json"
+  },
+  "introducedDate": "1989-01-31",
+  "latestAction": {
+   "actionDate": "1990-10-27",
+   "text": "Read twice and referred to the Committee on Banking."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/736",
+  "number": "736",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000225",
+    "district": 18,
+    "firstName": "RICHARD",
+    "fullName": "Rep. Lehman, Richard H. [D-CA-18]",
+    "isByRequest": "N",
+    "lastName": "LEHMAN",
+    "middleName": "H.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/L000225?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/101/hr/736/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/736/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/736/text?format=json"
+  },
+  "title": "Truth in Savings Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/736/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-14T18:20:21Z",
+  "updateDateIncludingText": "2025-01-14T18:21:49Z"
+ },
+ "request": {
+  "billNumber": "736",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

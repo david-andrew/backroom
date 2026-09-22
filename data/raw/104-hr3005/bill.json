@@ -1,0 +1,85 @@
+{
+ "bill": {
+  "actions": {
+   "count": 50,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3005/actions?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "H. Rept. 104-622",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/622?format=json"
+   },
+   {
+    "citation": "H. Rept. 104-864",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/864?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3005/committees?format=json"
+  },
+  "congress": 104,
+  "introducedDate": "1996-03-05",
+  "latestAction": {
+   "actionDate": "1996-10-11",
+   "text": "Became Public Law No: 104-290."
+  },
+  "laws": [
+   {
+    "number": "104-290",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/3005",
+  "number": "3005",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3005/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000111",
+    "district": 8,
+    "firstName": "JACK",
+    "fullName": "Rep. Fields, Jack [R-TX-8]",
+    "isByRequest": "N",
+    "lastName": "FIELDS",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/F000111?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 97,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3005/subjects?format=json"
+  },
+  "summaries": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3005/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3005/text?format=json"
+  },
+  "title": "National Securities Markets Improvement Act of 1996",
+  "titles": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3005/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T15:30:43Z",
+  "updateDateIncludingText": "2025-04-07T15:30:43Z"
+ },
+ "request": {
+  "billNumber": "3005",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

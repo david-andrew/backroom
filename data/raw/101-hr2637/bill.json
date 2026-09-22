@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2637/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2637/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 51,
+   "countIncludingWithdrawnCosponsors": 51,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2637/cosponsors?format=json"
+  },
+  "introducedDate": "1989-06-14",
+  "latestAction": {
+   "actionDate": "1989-07-12",
+   "text": "Referred to the Subcommittee on Labor Standards."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2637",
+  "number": "2637",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000291",
+    "district": 19,
+    "firstName": "BILL",
+    "fullName": "Rep. Goodling, William F. [R-PA-19]",
+    "isByRequest": "N",
+    "lastName": "GOODLING",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/G000291?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2637/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2637/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2637/text?format=json"
+  },
+  "title": "Living Wage Act of 1990",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2637/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:24:54Z",
+  "updateDateIncludingText": "2025-08-26T17:24:54Z"
+ },
+ "request": {
+  "billNumber": "2637",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

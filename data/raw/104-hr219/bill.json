@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/219/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/219/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/104/hr/219/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-04",
+  "latestAction": {
+   "actionDate": "1995-01-17",
+   "text": "Executive Comment Requested from Interior."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/219",
+  "number": "219",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000994",
+    "district": 51,
+    "firstName": "RANDY",
+    "fullName": "Rep. Cunningham, Randy (Duke) [R-CA-51]",
+    "isByRequest": "N",
+    "lastName": "CUNNINGHAM",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/C000994?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/104/hr/219/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/219/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/219/text?format=json"
+  },
+  "title": "To require a temporary moratorium on leasing, exploration, and development on lands of the Outer Continental Shelf of the State of California, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/219/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T13:32:55Z",
+  "updateDateIncludingText": "2024-02-07T13:36:13Z"
+ },
+ "request": {
+  "billNumber": "219",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

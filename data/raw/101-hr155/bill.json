@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/155/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/155/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/155/cosponsors?format=json"
+  },
+  "introducedDate": "1989-01-03",
+  "latestAction": {
+   "actionDate": "1989-02-06",
+   "text": "Referred to the Subcommittee on Health and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/155",
+  "number": "155",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000416",
+    "district": 11,
+    "firstName": "BRIAN",
+    "fullName": "Rep. Donnelly, Brian J. [D-MA-11]",
+    "isByRequest": "N",
+    "lastName": "DONNELLY",
+    "middleName": "JOSEPH",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/D000416?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/155/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/155/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/155/text?format=json"
+  },
+  "title": "To amend title XVIII of the Social Security Act to require payments for physicians' services under the medicare program be made on an assignment-related basis.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/155/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "155",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

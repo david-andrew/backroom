@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/511/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/511/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/104/s/511/cosponsors?format=json"
+  },
+  "introducedDate": "1995-03-07",
+  "latestAction": {
+   "actionDate": "1995-03-07",
+   "text": "Read twice and referred to the Committee on Governmental Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/511",
+  "number": "511",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000407",
+    "firstName": "PETE",
+    "fullName": "Sen. Domenici, Pete V. [R-NM]",
+    "isByRequest": "N",
+    "lastName": "DOMENICI",
+    "middleName": "VICHI",
+    "party": "R",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/D000407?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/104/s/511/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/511/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/511/text?format=json"
+  },
+  "title": "Regulatory Sunset and Review Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/511/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T20:16:13Z",
+  "updateDateIncludingText": "2025-08-21T20:16:13Z"
+ },
+ "request": {
+  "billNumber": "511",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

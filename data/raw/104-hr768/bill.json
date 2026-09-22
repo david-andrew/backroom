@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/768/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/768/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/104/hr/768/cosponsors?format=json"
+  },
+  "introducedDate": "1995-02-01",
+  "latestAction": {
+   "actionDate": "1995-02-17",
+   "text": "Referred to the Subcommittee on Workforce Protections."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/768",
+  "number": "768",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000537",
+    "district": 6,
+    "firstName": "JAMES",
+    "fullName": "Rep. Clyburn, James E. [D-SC-6]",
+    "isByRequest": "N",
+    "lastName": "CLYBURN",
+    "middleName": "E.",
+    "party": "D",
+    "state": "SC",
+    "url": "https://api.congress.gov/v3/member/C000537?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/768/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/768/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/768/text?format=json"
+  },
+  "title": "Liveable Wage Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/768/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "768",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5560/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5560/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 43,
+   "countIncludingWithdrawnCosponsors": 44,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5560/cosponsors?format=json"
+  },
+  "introducedDate": "1990-09-10",
+  "latestAction": {
+   "actionDate": "1990-09-14",
+   "text": "Referred to the Subcommittee on Energy and Power."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/5560",
+  "number": "5560",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000711",
+    "district": 6,
+    "firstName": "BARBARA",
+    "fullName": "Rep. Boxer, Barbara [D-CA-6]",
+    "isByRequest": "N",
+    "lastName": "BOXER",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/B000711?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5560/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5560/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5560/text?format=json"
+  },
+  "title": "Motor Vehicle Fuel Efficiency Act of 1990",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5560/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:27:14Z",
+  "updateDateIncludingText": "2025-08-26T17:27:14Z"
+ },
+ "request": {
+  "billNumber": "5560",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

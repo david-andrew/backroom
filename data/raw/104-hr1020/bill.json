@@ -1,0 +1,76 @@
+{
+ "bill": {
+  "actions": {
+   "count": 34,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1020/actions?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "H. Rept. 104-254",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/254?format=json"
+   }
+  ],
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1020/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 186,
+   "countIncludingWithdrawnCosponsors": 186,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1020/cosponsors?format=json"
+  },
+  "introducedDate": "1995-02-23",
+  "latestAction": {
+   "actionDate": "1996-03-13",
+   "text": "Sponsor introductory remarks on measure. (CR E342-343)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1020",
+  "number": "1020",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "U000031",
+    "district": 6,
+    "firstName": "FRED",
+    "fullName": "Rep. Upton, Fred [R-MI-6]",
+    "isByRequest": "N",
+    "lastName": "UPTON",
+    "party": "R",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/U000031?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 103,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1020/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1020/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1020/text?format=json"
+  },
+  "title": "Nuclear Waste Policy Act of 1995",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1020/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-08T19:31:27Z",
+  "updateDateIncludingText": "2026-09-08T19:32:06Z"
+ },
+ "request": {
+  "billNumber": "1020",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/491/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/491/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/101/s/491/cosponsors?format=json"
+  },
+  "introducedDate": "1989-03-02",
+  "latestAction": {
+   "actionDate": "1989-05-19",
+   "text": "Subcommittee on Environmental Protection. Hearings held. Hearings printed: S.Hrg. 101-120."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/491",
+  "number": "491",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000269",
+    "firstName": "JOHN",
+    "fullName": "Sen. Chafee, John H. [R-RI]",
+    "isByRequest": "N",
+    "lastName": "CHAFEE",
+    "middleName": "HUBBARD",
+    "party": "R",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/C000269?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/101/s/491/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/491/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/491/text?format=json"
+  },
+  "title": "Stratospheric Ozone and Climate Protection Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/491/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:57Z"
+ },
+ "request": {
+  "billNumber": "491",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

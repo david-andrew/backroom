@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/872/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/872/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/101/hr/872/cosponsors?format=json"
+  },
+  "introducedDate": "1989-02-06",
+  "latestAction": {
+   "actionDate": "1989-02-27",
+   "text": "Referred to the Subcommittee on Transportation and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/872",
+  "number": "872",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000005",
+    "district": 5,
+    "firstName": "MARTIN",
+    "fullName": "Rep. Sabo, Martin Olav [D-MN-5]",
+    "isByRequest": "N",
+    "lastName": "SABO",
+    "middleName": "OLAV",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/S000005?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/101/hr/872/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/872/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/872/text?format=json"
+  },
+  "title": "Comprehensive Health Care Improvement Act of 1989",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/872/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "872",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

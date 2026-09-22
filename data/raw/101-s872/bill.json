@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/872/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/872/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/872/cosponsors?format=json"
+  },
+  "introducedDate": "1989-05-01",
+  "latestAction": {
+   "actionDate": "1989-05-01",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/872",
+  "number": "872",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000321",
+    "firstName": "ALBERT",
+    "fullName": "Sen. Gore, Albert, Jr. [D-TN]",
+    "isByRequest": "N",
+    "lastName": "GORE",
+    "middleName": "ARNOLD",
+    "party": "D",
+    "state": "TN",
+    "url": "https://api.congress.gov/v3/member/G000321?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/101/s/872/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/872/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/872/text?format=json"
+  },
+  "title": "Upper-Ozone Chemicals Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/872/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:51Z"
+ },
+ "request": {
+  "billNumber": "872",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

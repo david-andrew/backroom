@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1000/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1000/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 99,
+   "countIncludingWithdrawnCosponsors": 99,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1000/cosponsors?format=json"
+  },
+  "introducedDate": "1995-02-21",
+  "latestAction": {
+   "actionDate": "1995-03-16",
+   "text": "Executive Comment Requested from Interior."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1000",
+  "number": "1000",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000087",
+    "district": 4,
+    "firstName": "BRUCE",
+    "fullName": "Rep. Vento, Bruce F. [D-MN-4]",
+    "isByRequest": "N",
+    "lastName": "VENTO",
+    "middleName": "F.",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/V000087?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1000/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1000/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1000/text?format=json"
+  },
+  "title": "Morris K. Udall Wilderness Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1000/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:14:32Z",
+  "updateDateIncludingText": "2025-08-21T20:14:32Z"
+ },
+ "request": {
+  "billNumber": "1000",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

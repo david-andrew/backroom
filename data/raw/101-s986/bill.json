@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/986/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/986/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/986/cosponsors?format=json"
+  },
+  "introducedDate": "1989-05-12",
+  "latestAction": {
+   "actionDate": "1989-05-12",
+   "text": "Read twice and referred to the Committee on Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/986",
+  "number": "986",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/986/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000123",
+    "firstName": "FRANK",
+    "fullName": "Sen. Lautenberg, Frank R. [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "LAUTENBERG",
+    "middleName": "R.",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/L000123?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/s/986/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/986/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/986/text?format=json"
+  },
+  "title": "A bill to require Federal review and approval of oil discharge contingency plans, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/986/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:06:28Z"
+ },
+ "request": {
+  "billNumber": "986",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2051/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2051/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 49,
+   "countIncludingWithdrawnCosponsors": 49,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2051/cosponsors?format=json"
+  },
+  "introducedDate": "1989-04-18",
+  "latestAction": {
+   "actionDate": "1989-05-08",
+   "text": "Referred to the Subcommittee on Health and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2051",
+  "number": "2051",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000834",
+    "district": 9,
+    "firstName": "JOE",
+    "fullName": "Rep. Moakley, John Joseph [D-MA-9]",
+    "isByRequest": "N",
+    "lastName": "MOAKLEY",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/M000834?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2051/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2051/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2051/text?format=json"
+  },
+  "title": "Food Labeling and Heart Disease Reduction Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2051/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2051",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

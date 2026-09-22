@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/hr/122/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/122/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/104/hr/122/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-04",
+  "latestAction": {
+   "actionDate": "1995-01-25",
+   "text": "Referred to the Subcommittee on Commercial and Administrative Law."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/122",
+  "number": "122",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000312",
+    "district": 1,
+    "firstName": "JIM",
+    "fullName": "Rep. Chapman, Jim [D-TX-1]",
+    "isByRequest": "N",
+    "lastName": "CHAPMAN",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/C000312?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/104/hr/122/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/122/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/122/text?format=json"
+  },
+  "title": "Regulatory Sunset Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/122/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:14:38Z",
+  "updateDateIncludingText": "2025-08-21T20:14:38Z"
+ },
+ "request": {
+  "billNumber": "122",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

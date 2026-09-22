@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/hr/96/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/96/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 26,
+   "countIncludingWithdrawnCosponsors": 26,
+   "url": "https://api.congress.gov/v3/bill/104/hr/96/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-04",
+  "latestAction": {
+   "actionDate": "1995-02-01",
+   "text": "Referred to the Subcommittee on Employer-Employee Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/96",
+  "number": "96",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/96/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000118",
+    "district": 1,
+    "firstName": "BARBARA",
+    "fullName": "Rep. Kennelly, Barbara B. [D-CT-1]",
+    "isByRequest": "N",
+    "lastName": "KENNELLY",
+    "middleName": "B.",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/K000118?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/104/hr/96/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/96/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/96/text?format=json"
+  },
+  "title": "Equal Remedies Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/96/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "96",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

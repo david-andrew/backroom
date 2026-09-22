@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2259/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2259/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 110,
+   "countIncludingWithdrawnCosponsors": 110,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2259/cosponsors?format=json"
+  },
+  "introducedDate": "1989-05-04",
+  "latestAction": {
+   "actionDate": "1989-07-25",
+   "text": "Executive Comment Received from DOD."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2259",
+  "number": "2259",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000851",
+    "district": 17,
+    "firstName": "CHARLES",
+    "fullName": "Rep. Stenholm, Charles W. [D-TX-17]",
+    "isByRequest": "N",
+    "lastName": "STENHOLM",
+    "middleName": "W.",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/S000851?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2259/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2259/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2259/text?format=json"
+  },
+  "title": "Davis-Bacon Reform Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2259/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:27:57Z",
+  "updateDateIncludingText": "2025-08-26T17:27:57Z"
+ },
+ "request": {
+  "billNumber": "2259",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

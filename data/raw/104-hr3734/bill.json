@@ -1,0 +1,90 @@
+{
+ "bill": {
+  "actions": {
+   "count": 75,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3734/actions?format=json"
+  },
+  "amendments": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3734/amendments?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "H. Rept. 104-651",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/651?format=json"
+   },
+   {
+    "citation": "H. Rept. 104-725",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/725?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3734/committees?format=json"
+  },
+  "congress": 104,
+  "introducedDate": "1996-06-27",
+  "latestAction": {
+   "actionDate": "1996-08-22",
+   "text": "Became Public Law No: 104-193."
+  },
+  "laws": [
+   {
+    "number": "104-193",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/3734",
+  "number": "3734",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Social Welfare"
+  },
+  "relatedBills": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3734/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000016",
+    "district": 12,
+    "firstName": "JOHN",
+    "fullName": "Rep. Kasich, John R. [R-OH-12]",
+    "isByRequest": "N",
+    "lastName": "KASICH",
+    "middleName": "R.",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/K000016?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 393,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3734/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3734/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3734/text?format=json"
+  },
+  "title": "Personal Responsibility and Work Opportunity Reconciliation Act of 1996",
+  "titles": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3734/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-08T19:31:27Z",
+  "updateDateIncludingText": "2026-09-08T19:31:27Z"
+ },
+ "request": {
+  "billNumber": "3734",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

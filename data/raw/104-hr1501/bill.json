@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1501/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1501/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1501/cosponsors?format=json"
+  },
+  "introducedDate": "1995-04-07",
+  "latestAction": {
+   "actionDate": "1995-06-09",
+   "text": "Sponsor introductory remarks on measure. (CR E1211-1213)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1501",
+  "number": "1501",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Education"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1501/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "I000047",
+    "district": 5,
+    "firstName": "ERNEST",
+    "fullName": "Rep. Istook, Ernest J., Jr. [R-OK-5]",
+    "isByRequest": "N",
+    "lastName": "ISTOOK",
+    "middleName": "JIM",
+    "party": "R",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/I000047?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1501/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1501/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1501/text?format=json"
+  },
+  "title": "Student Loan Privatization Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1501/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:17:56Z",
+  "updateDateIncludingText": "2026-03-23T12:17:56Z"
+ },
+ "request": {
+  "billNumber": "1501",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

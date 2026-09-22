@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3463/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3463/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3463/cosponsors?format=json"
+  },
+  "introducedDate": "1996-05-15",
+  "latestAction": {
+   "actionDate": "1996-06-07",
+   "text": "Referred to the Subcommittee on Workforce Protections."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/3463",
+  "number": "3463",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000535",
+    "district": 4,
+    "firstName": "LUIS",
+    "fullName": "Rep. Gutierrez, Luis V. [D-IL-4]",
+    "isByRequest": "N",
+    "lastName": "GUTIERREZ",
+    "middleName": "V.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/G000535?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3463/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3463/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3463/text?format=json"
+  },
+  "title": "Federal Living Wage Responsibility Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3463/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "3463",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

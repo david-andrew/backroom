@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1052/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1052/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1052/cosponsors?format=json"
+  },
+  "introducedDate": "1995-02-24",
+  "latestAction": {
+   "actionDate": "1995-03-03",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1052",
+  "number": "1052",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000054",
+    "district": 1,
+    "firstName": "MARK",
+    "fullName": "Rep. Neumann, Mark W. [R-WI-1]",
+    "isByRequest": "N",
+    "lastName": "NEUMANN",
+    "middleName": "W.",
+    "party": "R",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/N000054?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1052/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1052/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1052/text?format=json"
+  },
+  "title": "To amend the Clean Air Act to repeal the reformulated gasoline provisions and the provisions relating to work-related vehicle trip reduction, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1052/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1052",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

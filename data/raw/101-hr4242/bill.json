@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/101/hr/4242/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/4242/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/4242/cosponsors?format=json"
+  },
+  "introducedDate": "1990-03-12",
+  "latestAction": {
+   "actionDate": "1990-06-07",
+   "text": "Joint Hearings Held by the Subcommittee on Commerce, Consumer Protection, and Competitiveness and by the Subcommittee on Health and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/4242",
+  "number": "4242",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000810",
+    "district": 9,
+    "firstName": "PETE",
+    "fullName": "Rep. Stark, Fortney Pete [D-CA-9]",
+    "isByRequest": "N",
+    "lastName": "STARK",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/S000810?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/hr/4242/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/4242/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/4242/text?format=json"
+  },
+  "title": "Medigap Reform Act of 1990",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/4242/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:41:57Z"
+ },
+ "request": {
+  "billNumber": "4242",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

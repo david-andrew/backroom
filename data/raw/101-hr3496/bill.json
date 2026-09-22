@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3496/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3496/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 32,
+   "countIncludingWithdrawnCosponsors": 32,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3496/cosponsors?format=json"
+  },
+  "introducedDate": "1989-10-19",
+  "latestAction": {
+   "actionDate": "1990-05-01",
+   "text": "Unfavorable Executive Comment Received from State."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/3496",
+  "number": "3496",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Foreign Trade and International Finance"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000191",
+    "district": 4,
+    "firstName": "PETER",
+    "fullName": "Rep. DeFazio, Peter A. [D-OR-4]",
+    "isByRequest": "N",
+    "lastName": "DEFAZIO",
+    "middleName": "A.",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/D000191?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3496/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3496/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3496/text?format=json"
+  },
+  "title": "To prohibit the importation into the United States of fish or marine animal products of Japan, Taiwan, or the Republic of Korea until those countries cease the practice of driftnet fishing.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3496/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:42:09Z"
+ },
+ "request": {
+  "billNumber": "3496",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

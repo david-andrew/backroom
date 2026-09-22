@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/503/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/503/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/503/cosponsors?format=json"
+  },
+  "introducedDate": "1989-03-02",
+  "latestAction": {
+   "actionDate": "1989-05-19",
+   "text": "Subcommittee on Environmental Protection. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/503",
+  "number": "503",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000243",
+    "firstName": "MAX",
+    "fullName": "Sen. Baucus, Max [D-MT]",
+    "isByRequest": "N",
+    "lastName": "BAUCUS",
+    "middleName": "SIEBEN",
+    "party": "D",
+    "state": "MT",
+    "url": "https://api.congress.gov/v3/member/B000243?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/101/s/503/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/503/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/503/text?format=json"
+  },
+  "title": "Chlorofluorocarbons and Halon Reduction Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/503/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:57Z"
+ },
+ "request": {
+  "billNumber": "503",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

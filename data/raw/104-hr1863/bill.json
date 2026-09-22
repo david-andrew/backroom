@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1863/actions?format=json"
+  },
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1863/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 142,
+   "countIncludingWithdrawnCosponsors": 142,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1863/cosponsors?format=json"
+  },
+  "introducedDate": "1995-06-15",
+  "latestAction": {
+   "actionDate": "1996-03-08",
+   "text": "Sponsor introductory remarks on measure. (CR E318)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1863",
+  "number": "1863",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001040",
+    "district": 10,
+    "firstName": "GERRY",
+    "fullName": "Rep. Studds, Gerry E. [D-MA-10]",
+    "isByRequest": "N",
+    "lastName": "STUDDS",
+    "middleName": "E.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/S001040?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 29,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1863/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1863/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1863/text?format=json"
+  },
+  "title": "Employment Non-Discrimination Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1863/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "1863",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2154/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2154/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2154/cosponsors?format=json"
+  },
+  "introducedDate": "1995-08-01",
+  "latestAction": {
+   "actionDate": "1995-08-14",
+   "text": "Referred to the Subcommittee on Coast Guard and Maritime Transportation."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/2154",
+  "number": "2154",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000342",
+    "district": 3,
+    "firstName": "WILLIAM",
+    "fullName": "Rep. Lipinski, William O. [D-IL-3]",
+    "isByRequest": "N",
+    "lastName": "LIPINSKI",
+    "middleName": "O.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/L000342?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2154/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2154/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2154/text?format=json"
+  },
+  "title": "To privatize environmental testing analysis, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2154/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2154",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

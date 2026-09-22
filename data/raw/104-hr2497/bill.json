@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2497/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2497/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 57,
+   "countIncludingWithdrawnCosponsors": 57,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2497/cosponsors?format=json"
+  },
+  "introducedDate": "1995-10-18",
+  "latestAction": {
+   "actionDate": "1996-02-07",
+   "text": "Committee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/2497",
+  "number": "2497",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000676",
+    "district": 2,
+    "firstName": "PETER",
+    "fullName": "Rep. Hoekstra, Peter [R-MI-2]",
+    "isByRequest": "N",
+    "lastName": "HOEKSTRA",
+    "party": "R",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/H000676?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2497/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2497/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2497/text?format=json"
+  },
+  "title": "To amend the National Labor Relations Act.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2497/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "2497",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

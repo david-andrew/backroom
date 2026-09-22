@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3601/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3601/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3601/cosponsors?format=json"
+  },
+  "introducedDate": "1996-06-06",
+  "latestAction": {
+   "actionDate": "1996-06-21",
+   "text": "Referred to the Subcommittee on Energy and Power."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/3601",
+  "number": "3601",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000058",
+    "district": 3,
+    "firstName": "W.",
+    "fullName": "Rep. Tauzin, W. J. (Billy) [R-LA-3]",
+    "isByRequest": "N",
+    "lastName": "TAUZIN",
+    "middleName": "J.",
+    "party": "R",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/T000058?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3601/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3601/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3601/text?format=json"
+  },
+  "title": "Public Utility Holding Company Act of 1996",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3601/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:15:01Z",
+  "updateDateIncludingText": "2025-08-21T20:15:01Z"
+ },
+ "request": {
+  "billNumber": "3601",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

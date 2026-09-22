@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/210/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/210/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/210/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-04",
+  "latestAction": {
+   "actionDate": "1995-01-15",
+   "text": "Referred to the Subcommittee on Postal Service."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/210",
+  "number": "210",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000873",
+    "district": 8,
+    "firstName": "PHILIP",
+    "fullName": "Rep. Crane, Philip M. [R-IL-8]",
+    "isByRequest": "N",
+    "lastName": "CRANE",
+    "middleName": "M.",
+    "party": "R",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/C000873?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/104/hr/210/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/210/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/210/text?format=json"
+  },
+  "title": "To provide for the privatization of the United States Postal Service.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/210/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T15:27:49Z",
+  "updateDateIncludingText": "2025-04-07T15:27:49Z"
+ },
+ "request": {
+  "billNumber": "210",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

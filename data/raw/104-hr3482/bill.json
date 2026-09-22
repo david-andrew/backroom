@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3482/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3482/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3482/cosponsors?format=json"
+  },
+  "introducedDate": "1996-05-16",
+  "latestAction": {
+   "actionDate": "1996-05-24",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/3482",
+  "number": "3482",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000404",
+    "district": 7,
+    "firstName": "JIM",
+    "fullName": "Rep. McDermott, Jim [D-WA-7]",
+    "isByRequest": "N",
+    "lastName": "MCDERMOTT",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/M000404?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 63,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3482/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3482/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3482/text?format=json"
+  },
+  "title": "Medical Privacy in the Age of New Technologies Act of 1996",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3482/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "3482",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/378/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/378/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 56,
+   "countIncludingWithdrawnCosponsors": 56,
+   "url": "https://api.congress.gov/v3/bill/101/s/378/cosponsors?format=json"
+  },
+  "introducedDate": "1989-02-08",
+  "latestAction": {
+   "actionDate": "1989-02-08",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/378",
+  "number": "378",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Foreign Trade and International Finance"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/378/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000361",
+    "firstName": "JAY",
+    "fullName": "Sen. Rockefeller, John D., IV [D-WV]",
+    "isByRequest": "N",
+    "lastName": "ROCKEFELLER",
+    "party": "D",
+    "state": "WV",
+    "url": "https://api.congress.gov/v3/member/R000361?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/378/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/378/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/378/text?format=json"
+  },
+  "title": "Steel Import Stabilization Extension Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/378/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:27:45Z",
+  "updateDateIncludingText": "2025-08-26T17:27:45Z"
+ },
+ "request": {
+  "billNumber": "378",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

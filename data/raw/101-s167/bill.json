@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/167/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/167/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/167/cosponsors?format=json"
+  },
+  "introducedDate": "1989-01-25",
+  "latestAction": {
+   "actionDate": "1989-02-14",
+   "text": "Committee on Labor and Human Resources requested executive comment from Department of Labor."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/167",
+  "number": "167",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000206",
+    "firstName": "THOMAS",
+    "fullName": "Sen. Harkin, Tom [D-IA]",
+    "isByRequest": "N",
+    "lastName": "HARKIN",
+    "middleName": "RICHARD",
+    "party": "D",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/H000206?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/167/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/167/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/167/text?format=json"
+  },
+  "title": "A bill to amend the Fair Labor Standards Act of 1938 to increase the tip credit, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/167/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:26:39Z"
+ },
+ "request": {
+  "billNumber": "167",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

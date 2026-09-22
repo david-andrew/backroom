@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1660/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1660/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1660/cosponsors?format=json"
+  },
+  "introducedDate": "1989-04-03",
+  "latestAction": {
+   "actionDate": "1989-04-06",
+   "text": "Referred to the Subcommittee on Crime."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/1660",
+  "number": "1660",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000444",
+    "district": 10,
+    "firstName": "JOHN",
+    "fullName": "Rep. Porter, John Edward [R-IL-10]",
+    "isByRequest": "N",
+    "lastName": "PORTER",
+    "middleName": "E.",
+    "party": "R",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/P000444?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1660/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1660/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1660/text?format=json"
+  },
+  "title": "Armed Felon Prohibition Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1660/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:27:37Z",
+  "updateDateIncludingText": "2025-08-26T17:27:37Z"
+ },
+ "request": {
+  "billNumber": "1660",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

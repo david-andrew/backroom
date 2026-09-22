@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1771/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1771/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1771/cosponsors?format=json"
+  },
+  "introducedDate": "1995-06-07",
+  "latestAction": {
+   "actionDate": "1995-06-19",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1771",
+  "number": "1771",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000215",
+    "district": 29,
+    "firstName": "HENRY",
+    "fullName": "Rep. Waxman, Henry A. [D-CA-29]",
+    "isByRequest": "N",
+    "lastName": "WAXMAN",
+    "middleName": "A.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/W000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1771/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1771/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1771/text?format=json"
+  },
+  "title": "Pesticide Safety and Right-to-Know Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1771/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1771",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

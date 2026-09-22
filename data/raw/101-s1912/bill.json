@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/1912/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1912/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 26,
+   "countIncludingWithdrawnCosponsors": 26,
+   "url": "https://api.congress.gov/v3/bill/101/s/1912/cosponsors?format=json"
+  },
+  "introducedDate": "1989-11-17",
+  "latestAction": {
+   "actionDate": "1990-05-23",
+   "text": "Committee on Labor and Human Resources. Hearings concluded. Hearings printed: S.Hrg. 101-876."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1912",
+  "number": "1912",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1912/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000877",
+    "firstName": "ALAN",
+    "fullName": "Sen. Cranston, Alan [D-CA]",
+    "isByRequest": "N",
+    "lastName": "CRANSTON",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/C000877?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1912/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1912/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1912/text?format=json"
+  },
+  "title": "Freedom of Choice Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1912/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:24:28Z",
+  "updateDateIncludingText": "2025-08-26T17:24:28Z"
+ },
+ "request": {
+  "billNumber": "1912",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

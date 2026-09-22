@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1311/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1311/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1311/cosponsors?format=json"
+  },
+  "introducedDate": "1989-07-13",
+  "latestAction": {
+   "actionDate": "1989-07-13",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1311",
+  "number": "1311",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "A000219",
+    "firstName": "WILLIAM",
+    "fullName": "Sen. Armstrong, William L. [R-CO]",
+    "isByRequest": "N",
+    "lastName": "ARMSTRONG",
+    "middleName": "LESTER",
+    "party": "R",
+    "state": "CO",
+    "url": "https://api.congress.gov/v3/member/A000219?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/101/s/1311/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1311/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1311/text?format=json"
+  },
+  "title": "A bill to amend the Internal Revenue Code of 1986 to provide a 15 percent maximum rate on capital gains for sales or exchanges after the date of enactment of this Act and before 1991, to provide indexing of the bases of capital assets sold or exchanged after 1990, to provide 20 percent maximum rate on capital gains from small businness stock, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1311/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T18:59:41Z",
+  "updateDateIncludingText": "2025-01-14T19:09:39Z"
+ },
+ "request": {
+  "billNumber": "1311",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

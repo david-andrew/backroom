@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3445/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3445/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3445/cosponsors?format=json"
+  },
+  "introducedDate": "1989-10-11",
+  "latestAction": {
+   "actionDate": "1989-11-13",
+   "text": "Referred to the Subcommittee on Labor-Management Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/3445",
+  "number": "3445",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000215",
+    "district": 1,
+    "firstName": "TIMOTHY",
+    "fullName": "Rep. Penny, Timothy J. [D-MN-1]",
+    "isByRequest": "N",
+    "lastName": "PENNY",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/P000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3445/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3445/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3445/text?format=json"
+  },
+  "title": "Maternity Leave Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3445/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "3445",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

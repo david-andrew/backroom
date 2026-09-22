@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1050/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1050/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1050/cosponsors?format=json"
+  },
+  "introducedDate": "1989-05-18",
+  "latestAction": {
+   "actionDate": "1989-05-18",
+   "text": "Read twice and referred to the Committee on Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1050",
+  "number": "1050",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000456",
+    "firstName": "HENRY",
+    "fullName": "Sen. Heinz, John [R-PA]",
+    "isByRequest": "N",
+    "lastName": "HEINZ",
+    "middleName": "JOHN",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/H000456?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/101/s/1050/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1050/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1050/text?format=json"
+  },
+  "title": "Federal Rail Safety Enforcement Improvement Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1050/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:06:30Z"
+ },
+ "request": {
+  "billNumber": "1050",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

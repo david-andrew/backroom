@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/2831/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2831/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/2831/cosponsors?format=json"
+  },
+  "introducedDate": "1990-07-10",
+  "latestAction": {
+   "actionDate": "1990-08-07",
+   "text": "Referred to Subcommittee on Labor."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/2831",
+  "number": "2831",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000338",
+    "firstName": "ORRIN",
+    "fullName": "Sen. Hatch, Orrin G. [R-UT]",
+    "isByRequest": "N",
+    "lastName": "HATCH",
+    "middleName": "GRANT",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/H000338?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/101/s/2831/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2831/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2831/text?format=json"
+  },
+  "title": "Employee Benefits Equity Act of 1990",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/2831/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:27:22Z",
+  "updateDateIncludingText": "2025-08-26T17:27:22Z"
+ },
+ "request": {
+  "billNumber": "2831",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

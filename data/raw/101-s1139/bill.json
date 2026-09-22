@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1139/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1139/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/101/s/1139/cosponsors?format=json"
+  },
+  "introducedDate": "1989-06-07",
+  "latestAction": {
+   "actionDate": "1989-06-07",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1139",
+  "number": "1139",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000460",
+    "firstName": "WILLIAM",
+    "fullName": "Sen. Roth Jr., William V. [R-DE]",
+    "isByRequest": "N",
+    "lastName": "ROTH",
+    "middleName": "VICTOR",
+    "party": "R",
+    "state": "DE",
+    "url": "https://api.congress.gov/v3/member/R000460?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/101/s/1139/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1139/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1139/text?format=json"
+  },
+  "title": "Domestic Corporation Taxation Equality Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1139/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:24:36Z",
+  "updateDateIncludingText": "2025-08-26T17:24:36Z"
+ },
+ "request": {
+  "billNumber": "1139",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3108/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3108/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3108/cosponsors?format=json"
+  },
+  "introducedDate": "1989-08-03",
+  "latestAction": {
+   "actionDate": "1989-10-06",
+   "text": "Referred to the Subcommittee on Health and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/3108",
+  "number": "3108",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3108/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000031",
+    "district": 11,
+    "firstName": "DENNIS",
+    "fullName": "Rep. Eckart, Dennis E. [D-OH-11]",
+    "isByRequest": "N",
+    "lastName": "ECKART",
+    "middleName": "E.",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/E000031?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3108/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3108/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3108/text?format=json"
+  },
+  "title": "Toxics Release Prevention Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3108/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "3108",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

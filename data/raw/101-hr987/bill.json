@@ -1,0 +1,85 @@
+{
+ "bill": {
+  "actions": {
+   "count": 94,
+   "url": "https://api.congress.gov/v3/bill/101/hr/987/actions?format=json"
+  },
+  "amendments": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/101/hr/987/amendments?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/987/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 154,
+   "countIncludingWithdrawnCosponsors": 154,
+   "url": "https://api.congress.gov/v3/bill/101/hr/987/cosponsors?format=json"
+  },
+  "introducedDate": "1989-02-09",
+  "latestAction": {
+   "actionDate": "1990-11-28",
+   "text": "Became Public Law No: 101-626."
+  },
+  "laws": [
+   {
+    "number": "101-626",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/987",
+  "number": "987",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "relatedBills": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/987/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001057",
+    "district": 3,
+    "firstName": "ROBERT",
+    "fullName": "Rep. Mrazek, Robert J. [D-NY-3]",
+    "isByRequest": "N",
+    "lastName": "MRAZEK",
+    "middleName": "J.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/M001057?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/101/hr/987/subjects?format=json"
+  },
+  "summaries": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/hr/987/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/hr/987/text?format=json"
+  },
+  "title": "Tongass Timber Reform Act",
+  "titles": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/101/hr/987/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:09:59Z"
+ },
+ "request": {
+  "billNumber": "987",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

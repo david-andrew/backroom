@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2171/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2171/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 12,
+   "countIncludingWithdrawnCosponsors": 12,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2171/cosponsors?format=json"
+  },
+  "introducedDate": "1989-05-02",
+  "latestAction": {
+   "actionDate": "1989-06-01",
+   "text": "Referred to the Subcommittee on Economic Stabilization."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2171",
+  "number": "2171",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Foreign Trade and International Finance"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000141",
+    "district": 3,
+    "firstName": "Ben",
+    "fullName": "Rep. Cardin, Benjamin L. [D-MD-3]",
+    "isByRequest": "N",
+    "lastName": "Cardin",
+    "party": "D",
+    "state": "MD",
+    "url": "https://api.congress.gov/v3/member/C000141?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2171/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2171/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2171/text?format=json"
+  },
+  "title": "Steel Revitalization Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2171/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:28:46Z",
+  "updateDateIncludingText": "2025-08-26T17:28:46Z"
+ },
+ "request": {
+  "billNumber": "2171",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

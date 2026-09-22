@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/764/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/764/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/104/hr/764/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-31",
+  "latestAction": {
+   "actionDate": "1995-02-17",
+   "text": "Referred to the Subcommittee on Workforce Protections."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/764",
+  "number": "764",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000784",
+    "district": 4,
+    "firstName": "ALBERT",
+    "fullName": "Rep. Wynn, Albert Russell [D-MD-4]",
+    "isByRequest": "N",
+    "lastName": "WYNN",
+    "middleName": "R.",
+    "party": "D",
+    "state": "MD",
+    "url": "https://api.congress.gov/v3/member/W000784?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/764/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/764/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/764/text?format=json"
+  },
+  "title": "Fair Labor Standards Amendments of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/764/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "764",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

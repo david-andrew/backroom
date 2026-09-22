@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2072/actions?format=json"
+  },
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2072/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 19,
+   "countIncludingWithdrawnCosponsors": 21,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2072/cosponsors?format=json"
+  },
+  "introducedDate": "1995-07-19",
+  "latestAction": {
+   "actionDate": "1995-09-05",
+   "text": "Referred to the Subcommittee on Rules and Organization of the House."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/2072",
+  "number": "2072",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000587",
+    "district": 3,
+    "firstName": "LINDA",
+    "fullName": "Rep. Smith, Linda [R-WA-3]",
+    "isByRequest": "N",
+    "lastName": "SMITH",
+    "party": "R",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/S000587?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2072/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2072/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2072/text?format=json"
+  },
+  "title": "Clean Congress Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2072/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:17:02Z",
+  "updateDateIncludingText": "2025-08-21T20:17:02Z"
+ },
+ "request": {
+  "billNumber": "2072",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

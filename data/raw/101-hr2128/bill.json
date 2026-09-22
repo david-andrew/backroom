@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2128/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2128/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2128/cosponsors?format=json"
+  },
+  "introducedDate": "1989-04-26",
+  "latestAction": {
+   "actionDate": "1990-05-16",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2128",
+  "number": "2128",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000152",
+    "district": 5,
+    "firstName": "L.",
+    "fullName": "Rep. Payne, Lewis F., Jr. [D-VA-5]",
+    "isByRequest": "N",
+    "lastName": "PAYNE",
+    "middleName": "F.",
+    "party": "D",
+    "state": "VA",
+    "url": "https://api.congress.gov/v3/member/P000152?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2128/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2128/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2128/text?format=json"
+  },
+  "title": "To amend the Communications Act of 1934 to require that substantial rate increases in rates charged by cable television operators be subject to approval by local regulatory authorities.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2128/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-05T14:30:09Z",
+  "updateDateIncludingText": "2024-02-05T14:36:51Z"
+ },
+ "request": {
+  "billNumber": "2128",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

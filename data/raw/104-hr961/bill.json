@@ -1,0 +1,84 @@
+{
+ "bill": {
+  "actions": {
+   "count": 63,
+   "url": "https://api.congress.gov/v3/bill/104/hr/961/actions?format=json"
+  },
+  "amendments": {
+   "count": 39,
+   "url": "https://api.congress.gov/v3/bill/104/hr/961/amendments?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "H. Rept. 104-112",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/112?format=json"
+   }
+  ],
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/961/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/104/hr/961/cosponsors?format=json"
+  },
+  "introducedDate": "1995-02-15",
+  "latestAction": {
+   "actionDate": "1995-05-18",
+   "text": "Received in the Senate and read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/961",
+  "number": "961",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/104/hr/961/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000394",
+    "district": 9,
+    "firstName": "BUD",
+    "fullName": "Rep. Shuster, Bud [R-PA-9]",
+    "isByRequest": "N",
+    "lastName": "SHUSTER",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/S000394?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 234,
+   "url": "https://api.congress.gov/v3/bill/104/hr/961/subjects?format=json"
+  },
+  "summaries": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/961/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/961/text?format=json"
+  },
+  "title": "Clean Water Amendments of 1995",
+  "titles": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/hr/961/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:11Z"
+ },
+ "request": {
+  "billNumber": "961",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

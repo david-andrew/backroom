@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/1701/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/1701/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/1701/cosponsors?format=json"
+  },
+  "introducedDate": "1996-04-24",
+  "latestAction": {
+   "actionDate": "1996-04-24",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/1701",
+  "number": "1701",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Animals"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000193",
+    "firstName": "CLAIBORNE",
+    "fullName": "Sen. Pell, Claiborne [D-RI]",
+    "isByRequest": "N",
+    "lastName": "PELL",
+    "middleName": "de Borda",
+    "party": "D",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/P000193?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/104/s/1701/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/1701/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/1701/text?format=json"
+  },
+  "title": "A bill to end the use of steel jaw leghold traps on animals in the United States, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/1701/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:33Z"
+ },
+ "request": {
+  "billNumber": "1701",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

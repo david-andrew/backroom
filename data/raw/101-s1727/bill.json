@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/1727/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1727/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1727/cosponsors?format=json"
+  },
+  "introducedDate": "1989-10-05",
+  "latestAction": {
+   "actionDate": "1990-03-01",
+   "text": "Committee on Rules. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1727",
+  "number": "1727",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Congress"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1727/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000401",
+    "firstName": "ROBERT",
+    "fullName": "Sen. Dole, Robert J. [R-KS]",
+    "isByRequest": "Y",
+    "lastName": "DOLE",
+    "middleName": "JOSEPH",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/D000401?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/101/s/1727/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1727/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1727/text?format=json"
+  },
+  "title": "Comprehensive Campaign Finance Reform Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1727/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:24:32Z",
+  "updateDateIncludingText": "2025-08-26T17:24:32Z"
+ },
+ "request": {
+  "billNumber": "1727",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/547/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/547/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/547/cosponsors?format=json"
+  },
+  "introducedDate": "1989-03-09",
+  "latestAction": {
+   "actionDate": "1989-03-13",
+   "text": "Referred to Subcommittee on Courts and Administrative Practice."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/547",
+  "number": "547",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000146",
+    "firstName": "HARRY",
+    "fullName": "Sen. Reid, Harry [D-NV]",
+    "isByRequest": "N",
+    "lastName": "REID",
+    "middleName": "M.",
+    "party": "D",
+    "state": "NV",
+    "url": "https://api.congress.gov/v3/member/R000146?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/101/s/547/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/547/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/547/text?format=json"
+  },
+  "title": "Radiation Victims Fair Treatment Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/547/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:54:57Z"
+ },
+ "request": {
+  "billNumber": "547",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

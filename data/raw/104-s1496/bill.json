@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/1496/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/1496/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/1496/cosponsors?format=json"
+  },
+  "introducedDate": "1995-12-21",
+  "latestAction": {
+   "actionDate": "1995-12-21",
+   "text": "Read twice and referred to the Committee on Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/1496",
+  "number": "1496",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000423",
+    "firstName": "PAUL",
+    "fullName": "Sen. Simon, Paul [D-IL]",
+    "isByRequest": "N",
+    "lastName": "SIMON",
+    "middleName": "MARTIN",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/S000423?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/104/s/1496/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/1496/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/1496/text?format=json"
+  },
+  "title": "A bill to grant certain patent rights for certain non-steroidal anti-inflammatory drugs for a two year period.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/1496/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:54:10Z"
+ },
+ "request": {
+  "billNumber": "1496",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

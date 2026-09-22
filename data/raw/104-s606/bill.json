@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/606/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/606/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/606/cosponsors?format=json"
+  },
+  "introducedDate": "1995-03-23",
+  "latestAction": {
+   "actionDate": "1995-03-23",
+   "text": "Read twice and referred to the Committee on Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/606",
+  "number": "606",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001225",
+    "firstName": "WILLIAM",
+    "fullName": "Sen. Bradley, Bill [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "BRADLEY",
+    "middleName": "WARREN",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/B001225?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 25,
+   "url": "https://api.congress.gov/v3/bill/104/s/606/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/606/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/606/text?format=json"
+  },
+  "title": "Pipeline Safety Enhancement Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/606/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:06:12Z"
+ },
+ "request": {
+  "billNumber": "606",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

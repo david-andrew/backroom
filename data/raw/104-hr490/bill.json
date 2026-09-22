@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/490/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/490/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 20,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/104/hr/490/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-11",
+  "latestAction": {
+   "actionDate": "1995-01-23",
+   "text": "Executive Comment Requested from Interior."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/490",
+  "number": "490",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/490/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000583",
+    "district": 21,
+    "firstName": "LAMAR",
+    "fullName": "Rep. Smith, Lamar [R-TX-21]",
+    "isByRequest": "N",
+    "lastName": "SMITH",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/S000583?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/104/hr/490/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/490/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/490/text?format=json"
+  },
+  "title": "Farm, Ranch, and Homestead Protection Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/490/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:15:14Z",
+  "updateDateIncludingText": "2025-08-21T20:15:14Z"
+ },
+ "request": {
+  "billNumber": "490",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/2408/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2408/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/2408/cosponsors?format=json"
+  },
+  "introducedDate": "1990-04-03",
+  "latestAction": {
+   "actionDate": "1990-04-03",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/2408",
+  "number": "2408",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000236",
+    "firstName": "JOHN",
+    "fullName": "Sen. Glenn, John H., Jr. [D-OH]",
+    "isByRequest": "N",
+    "lastName": "GLENN",
+    "middleName": "HERSCHEL",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/G000236?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/101/s/2408/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2408/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2408/text?format=json"
+  },
+  "title": "A bill to establish a system for labeling of plastic resin products, and to promote recycling of plastics and use of degradable plastics.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/2408/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:14:47Z"
+ },
+ "request": {
+  "billNumber": "2408",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

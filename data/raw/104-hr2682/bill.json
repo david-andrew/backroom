@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2682/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2682/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 28,
+   "countIncludingWithdrawnCosponsors": 28,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2682/cosponsors?format=json"
+  },
+  "introducedDate": "1995-11-28",
+  "latestAction": {
+   "actionDate": "1995-12-05",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/2682",
+  "number": "2682",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000675",
+    "district": 22,
+    "firstName": "GERALD",
+    "fullName": "Rep. Solomon, Gerald B. H. [R-NY-22]",
+    "isByRequest": "N",
+    "lastName": "SOLOMON",
+    "middleName": "B. H.",
+    "party": "R",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/S000675?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2682/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2682/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2682/text?format=json"
+  },
+  "title": "To amend the Clean Air Act to provide for additional reductions in emissions of sulfur dioxide and oxides of nitrogen in regions contributing to acid deposition in the Adirondacks.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2682/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2682",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

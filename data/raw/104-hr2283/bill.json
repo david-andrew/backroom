@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2283/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2283/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2283/cosponsors?format=json"
+  },
+  "introducedDate": "1995-09-07",
+  "latestAction": {
+   "actionDate": "1995-09-18",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/2283",
+  "number": "2283",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000152",
+    "district": 5,
+    "firstName": "L.",
+    "fullName": "Rep. Payne, Lewis F., Jr. [D-VA-5]",
+    "isByRequest": "N",
+    "lastName": "PAYNE",
+    "middleName": "F.",
+    "party": "D",
+    "state": "VA",
+    "url": "https://api.congress.gov/v3/member/P000152?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2283/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2283/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2283/text?format=json"
+  },
+  "title": "To prohibit the regulation of the sale or use of tobacco or tobacco products by the Secretary of Health and Human Services.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/2283/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2283",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1950/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1950/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 39,
+   "countIncludingWithdrawnCosponsors": 39,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1950/cosponsors?format=json"
+  },
+  "introducedDate": "1995-06-28",
+  "latestAction": {
+   "actionDate": "1995-07-10",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1950",
+  "number": "1950",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000034",
+    "district": 6,
+    "firstName": "FRANK",
+    "fullName": "Rep. Pallone, Frank, Jr. [D-NJ-6]",
+    "isByRequest": "N",
+    "lastName": "PALLONE",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/P000034?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1950/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1950/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1950/text?format=json"
+  },
+  "title": "Newborns' and Mothers' Health Protection Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1950/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1950",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3615/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3615/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 14,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3615/cosponsors?format=json"
+  },
+  "introducedDate": "1989-11-08",
+  "latestAction": {
+   "actionDate": "1989-11-20",
+   "text": "Referred to the Subcommittee on Transportation and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/3615",
+  "number": "3615",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000342",
+    "district": 5,
+    "firstName": "WILLIAM",
+    "fullName": "Rep. Lipinski, William O. [D-IL-5]",
+    "isByRequest": "N",
+    "lastName": "LIPINSKI",
+    "middleName": "O.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/L000342?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3615/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3615/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3615/text?format=json"
+  },
+  "title": "Medical Waste Treatment Amendments of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/3615/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:28:46Z",
+  "updateDateIncludingText": "2025-08-26T17:28:46Z"
+ },
+ "request": {
+  "billNumber": "3615",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

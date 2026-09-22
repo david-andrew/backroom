@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/hr/500/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/500/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 122,
+   "countIncludingWithdrawnCosponsors": 123,
+   "url": "https://api.congress.gov/v3/bill/104/hr/500/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-13",
+  "latestAction": {
+   "actionDate": "1995-03-02",
+   "text": "Forwarded by Subcommittee to Full Committee (Amended)."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/500",
+  "number": "500",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000104",
+    "district": 10,
+    "firstName": "CASS",
+    "fullName": "Rep. Ballenger, Cass [R-NC-10]",
+    "isByRequest": "N",
+    "lastName": "BALLENGER",
+    "party": "R",
+    "state": "NC",
+    "url": "https://api.congress.gov/v3/member/B000104?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/104/hr/500/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/500/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/500/text?format=json"
+  },
+  "title": "To repeal the Davis-Bacon Act.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/500/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "500",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

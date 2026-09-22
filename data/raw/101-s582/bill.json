@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/582/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/582/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 20,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/101/s/582/cosponsors?format=json"
+  },
+  "introducedDate": "1989-03-15",
+  "latestAction": {
+   "actionDate": "1989-05-12",
+   "text": "Committee on Labor and Human Resources requested executive comment from Departments of Health and Human Services and Labor."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/582",
+  "number": "582",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000678",
+    "firstName": "HOWARD",
+    "fullName": "Sen. Metzenbaum, Howard M. [D-OH]",
+    "isByRequest": "N",
+    "lastName": "METZENBAUM",
+    "middleName": "MORTON",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/M000678?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 32,
+   "url": "https://api.congress.gov/v3/bill/101/s/582/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/582/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/582/text?format=json"
+  },
+  "title": "High Risk Occupational Disease Notification and Prevention Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/582/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:25:04Z",
+  "updateDateIncludingText": "2025-08-26T17:25:04Z"
+ },
+ "request": {
+  "billNumber": "582",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

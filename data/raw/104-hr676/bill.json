@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/676/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/676/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 14,
+   "url": "https://api.congress.gov/v3/bill/104/hr/676/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-25",
+  "latestAction": {
+   "actionDate": "1995-01-31",
+   "text": "Executive Comment Requested from Interior, USDA."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/676",
+  "number": "676",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000002",
+    "district": 8,
+    "firstName": "JERROLD",
+    "fullName": "Rep. Nadler, Jerrold [D-NY-8]",
+    "isByRequest": "N",
+    "lastName": "NADLER",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/N000002?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/104/hr/676/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/676/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/676/text?format=json"
+  },
+  "title": "Free Market Grazing Fees Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/676/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:16:02Z",
+  "updateDateIncludingText": "2025-08-21T20:16:02Z"
+ },
+ "request": {
+  "billNumber": "676",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

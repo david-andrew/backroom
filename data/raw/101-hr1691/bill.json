@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1691/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1691/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 68,
+   "countIncludingWithdrawnCosponsors": 68,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1691/cosponsors?format=json"
+  },
+  "introducedDate": "1989-04-05",
+  "latestAction": {
+   "actionDate": "1989-04-05",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/1691",
+  "number": "1691",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000120",
+    "district": 2,
+    "firstName": "SAMUEL",
+    "fullName": "Rep. Gejdenson, Sam [D-CT-2]",
+    "isByRequest": "N",
+    "lastName": "GEJDENSON",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/G000120?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1691/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1691/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1691/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to impose a tax on the sale by the manufacturer, producer, or importer of paper and paper products that do not contain the minimum amount of recovered materials as set forth in guidelines issued by the Environmental Protection Agency.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1691/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:42:17Z"
+ },
+ "request": {
+  "billNumber": "1691",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

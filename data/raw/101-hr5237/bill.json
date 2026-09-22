@@ -1,0 +1,85 @@
+{
+ "bill": {
+  "actions": {
+   "count": 48,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5237/actions?format=json"
+  },
+  "amendments": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5237/amendments?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5237/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5237/cosponsors?format=json"
+  },
+  "introducedDate": "1990-07-10",
+  "latestAction": {
+   "actionDate": "1990-11-16",
+   "text": "Became Public Law No: 101-601."
+  },
+  "laws": [
+   {
+    "number": "101-601",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/5237",
+  "number": "5237",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Native Americans"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5237/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "U000001",
+    "district": 2,
+    "firstName": "MORRIS",
+    "fullName": "Rep. Udall, Morris K. [D-AZ-2]",
+    "isByRequest": "N",
+    "lastName": "UDALL",
+    "middleName": "K.",
+    "party": "D",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/U000001?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5237/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5237/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5237/text?format=json"
+  },
+  "title": "Native American Graves Protection and Repatriation Act",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/5237/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T13:32:55Z",
+  "updateDateIncludingText": "2024-02-07T13:37:47Z"
+ },
+ "request": {
+  "billNumber": "5237",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

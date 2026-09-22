@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1215/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1215/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1215/cosponsors?format=json"
+  },
+  "introducedDate": "1989-06-21",
+  "latestAction": {
+   "actionDate": "1989-07-12",
+   "text": "Subcommittee on Communications. Hearings held. Hearings printed: S.Hrg. 101-221."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1215",
+  "number": "1215",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000647",
+    "firstName": "TIMOTHY",
+    "fullName": "Sen. Wirth, Timothy [D-CO]",
+    "isByRequest": "N",
+    "lastName": "WIRTH",
+    "party": "D",
+    "state": "CO",
+    "url": "https://api.congress.gov/v3/member/W000647?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/101/s/1215/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1215/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1215/text?format=json"
+  },
+  "title": "Children's Television Education Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1215/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:06:29Z"
+ },
+ "request": {
+  "billNumber": "1215",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

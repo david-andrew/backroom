@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/47/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/47/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/101/s/47/cosponsors?format=json"
+  },
+  "introducedDate": "1989-01-25",
+  "latestAction": {
+   "actionDate": "1989-01-31",
+   "text": "Referred to Subcommittee on Constitution."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/47",
+  "number": "47",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000877",
+    "firstName": "ALAN",
+    "fullName": "Sen. Cranston, Alan [D-CA]",
+    "isByRequest": "N",
+    "lastName": "CRANSTON",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/C000877?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/47/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/47/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/47/text?format=json"
+  },
+  "title": "Civil Rights Amendments Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/47/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:54:37Z"
+ },
+ "request": {
+  "billNumber": "47",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

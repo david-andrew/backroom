@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1307/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1307/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 162,
+   "countIncludingWithdrawnCosponsors": 162,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1307/cosponsors?format=json"
+  },
+  "introducedDate": "1989-03-08",
+  "latestAction": {
+   "actionDate": "1989-08-04",
+   "text": "Reported by the Committee on Public Works + Transportation. H. Rept. 101-218, Part I."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/1307",
+  "number": "1307",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1307/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000240",
+    "district": 4,
+    "firstName": "DAN",
+    "fullName": "Rep. Glickman, Dan [D-KS-4]",
+    "isByRequest": "N",
+    "lastName": "GLICKMAN",
+    "party": "D",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/G000240?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1307/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1307/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1307/text?format=json"
+  },
+  "title": "General Aviation Standards Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/1307/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:24:31Z",
+  "updateDateIncludingText": "2025-08-26T17:24:31Z"
+ },
+ "request": {
+  "billNumber": "1307",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/56/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/56/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 71,
+   "countIncludingWithdrawnCosponsors": 82,
+   "url": "https://api.congress.gov/v3/bill/104/hr/56/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-04",
+  "latestAction": {
+   "actionDate": "1995-01-24",
+   "text": "Sponsor introductory remarks on measure. (CR E168)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/56",
+  "number": "56",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/56/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "A000215",
+    "district": 7,
+    "firstName": "BILL",
+    "fullName": "Rep. Archer, Bill [R-TX-7]",
+    "isByRequest": "N",
+    "lastName": "ARCHER",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/A000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/104/hr/56/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/56/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/56/text?format=json"
+  },
+  "title": "Capital Formation and Jobs Creation Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/56/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:16:21Z",
+  "updateDateIncludingText": "2025-08-21T20:16:21Z"
+ },
+ "request": {
+  "billNumber": "56",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

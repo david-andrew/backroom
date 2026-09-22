@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1061/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1061/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/101/s/1061/cosponsors?format=json"
+  },
+  "introducedDate": "1989-05-18",
+  "latestAction": {
+   "actionDate": "1989-05-18",
+   "text": "Read twice and referred to the Committee on Agriculture."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1061",
+  "number": "1061",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000154",
+    "firstName": "JOHN",
+    "fullName": "Sen. Warner, John [R-VA]",
+    "isByRequest": "N",
+    "lastName": "WARNER",
+    "middleName": "WILLIAM",
+    "party": "R",
+    "state": "VA",
+    "url": "https://api.congress.gov/v3/member/W000154?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/s/1061/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1061/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1061/text?format=json"
+  },
+  "title": "A bill to prohibit the distribution, sale, or use of daminozide for food use, to cancel the registration for daminozide for food use, to revoke the tolerance for daminozide in or on food, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1061/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T16:41:20Z",
+  "updateDateIncludingText": "2025-01-14T16:42:22Z"
+ },
+ "request": {
+  "billNumber": "1061",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

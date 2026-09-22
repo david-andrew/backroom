@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3691/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3691/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3691/cosponsors?format=json"
+  },
+  "introducedDate": "1996-06-20",
+  "latestAction": {
+   "actionDate": "1996-06-28",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/3691",
+  "number": "3691",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000177",
+    "firstName": "TIM",
+    "fullName": "Rep. Johnson, Tim [D-SD-At Large]",
+    "isByRequest": "N",
+    "lastName": "JOHNSON",
+    "party": "D",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/J000177?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 43,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3691/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3691/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3691/text?format=json"
+  },
+  "title": "Prescription Drug Consumer Protection Act of 1996",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3691/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "3691",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

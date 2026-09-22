@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1604/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1604/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1604/cosponsors?format=json"
+  },
+  "introducedDate": "1995-05-10",
+  "latestAction": {
+   "actionDate": "1995-05-18",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1604",
+  "number": "1604",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000163",
+    "district": 6,
+    "firstName": "NANCY",
+    "fullName": "Rep. Johnson, Nancy L. [R-CT-6]",
+    "isByRequest": "N",
+    "lastName": "JOHNSON",
+    "middleName": "L.",
+    "party": "R",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/J000163?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 34,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1604/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1604/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1604/text?format=json"
+  },
+  "title": "Working Families Health Access Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1604/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:16:50Z",
+  "updateDateIncludingText": "2025-08-21T20:16:50Z"
+ },
+ "request": {
+  "billNumber": "1604",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/hr/620/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/620/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/104/hr/620/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-20",
+  "latestAction": {
+   "actionDate": "1996-03-28",
+   "text": "Sponsor introductory remarks on measure. (CR E478-479)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/620",
+  "number": "620",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000005",
+    "district": 5,
+    "firstName": "MARTIN",
+    "fullName": "Rep. Sabo, Martin Olav [D-MN-5]",
+    "isByRequest": "N",
+    "lastName": "SABO",
+    "middleName": "OLAV",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/S000005?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/hr/620/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/620/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/620/text?format=json"
+  },
+  "title": "Income Equity Act of 1995",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/620/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "620",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

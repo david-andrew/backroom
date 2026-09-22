@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/104/hr/439/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/439/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/439/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-09",
+  "latestAction": {
+   "actionDate": "1995-02-21",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/439",
+  "number": "439",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000390",
+    "district": 7,
+    "firstName": "JIMMY",
+    "fullName": "Rep. Hayes, James A. [D-LA-7]",
+    "isByRequest": "N",
+    "lastName": "HAYES",
+    "party": "D",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/H000390?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/104/hr/439/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/439/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/439/text?format=json"
+  },
+  "title": "Health Insurance Equity Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/439/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "439",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

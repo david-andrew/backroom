@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/2075/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/2075/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/2075/cosponsors?format=json"
+  },
+  "introducedDate": "1996-09-16",
+  "latestAction": {
+   "actionDate": "1996-09-16",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/2075",
+  "number": "2075",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000269",
+    "firstName": "JOHN",
+    "fullName": "Sen. Chafee, John H. [R-RI]",
+    "isByRequest": "N",
+    "lastName": "CHAFEE",
+    "middleName": "HUBBARD",
+    "party": "R",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/C000269?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 31,
+   "url": "https://api.congress.gov/v3/bill/104/s/2075/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/2075/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/2075/text?format=json"
+  },
+  "title": "Medigap Portability Act of 1996",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/s/2075/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-21T20:14:23Z",
+  "updateDateIncludingText": "2025-08-21T20:14:23Z"
+ },
+ "request": {
+  "billNumber": "2075",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/174/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/174/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/174/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-04",
+  "latestAction": {
+   "actionDate": "1995-01-25",
+   "text": "Referred to the Subcommittee on Crime."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/174",
+  "number": "174",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000634",
+    "district": 7,
+    "firstName": "CARDISS",
+    "fullName": "Rep. Collins, Cardiss [D-IL-7]",
+    "isByRequest": "N",
+    "lastName": "COLLINS",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/C000634?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/104/hr/174/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/174/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/174/text?format=json"
+  },
+  "title": "Gun Violence Economic Equity Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/174/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:14:32Z",
+  "updateDateIncludingText": "2025-08-21T20:14:32Z"
+ },
+ "request": {
+  "billNumber": "174",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

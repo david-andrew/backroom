@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2969/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2969/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2969/cosponsors?format=json"
+  },
+  "introducedDate": "1989-07-21",
+  "latestAction": {
+   "actionDate": "1989-08-24",
+   "text": "Referred to the Subcommittee on Labor-Management Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2969",
+  "number": "2969",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000235",
+    "district": 1,
+    "firstName": "THOMAS",
+    "fullName": "Rep. Foglietta, Thomas M. [D-PA-1]",
+    "isByRequest": "N",
+    "lastName": "FOGLIETTA",
+    "middleName": "M.",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/F000235?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2969/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2969/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2969/text?format=json"
+  },
+  "title": "To amend the National Labor Relations Act to make it an unfair labor practice for an employer to hire, or threaten to hire, permanent replacement workers.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2969/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "2969",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/2810/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2810/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2810/cosponsors?format=json"
+  },
+  "introducedDate": "1990-06-28",
+  "latestAction": {
+   "actionDate": "1990-06-28",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/2810",
+  "number": "2810",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000019",
+    "firstName": "CONNIE",
+    "fullName": "Sen. Mack, Connie, III [R-FL]",
+    "isByRequest": "N",
+    "lastName": "MACK",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/M000019?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/101/s/2810/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2810/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/2810/text?format=json"
+  },
+  "title": "A bill to prohibit the Secretary of the Interior from issuing oil and gas leases on certain portions of the Outer Continental Shelf off the State of Florida.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/2810/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:14:36Z"
+ },
+ "request": {
+  "billNumber": "2810",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

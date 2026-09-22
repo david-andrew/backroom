@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/104/hr/914/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/914/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/914/cosponsors?format=json"
+  },
+  "introducedDate": "1995-02-13",
+  "latestAction": {
+   "actionDate": "1995-03-02",
+   "text": "Referred to the Subcommittee on Water Resources and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/914",
+  "number": "914",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000556",
+    "district": 29,
+    "firstName": "JOHN",
+    "fullName": "Rep. LaFalce, John J. [D-NY-29]",
+    "isByRequest": "N",
+    "lastName": "LAFALCE",
+    "middleName": "J.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/L000556?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/104/hr/914/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/914/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/914/text?format=json"
+  },
+  "title": "Environmental Lender and Fiduciaries Liability Amendments Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/914/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:15:20Z",
+  "updateDateIncludingText": "2025-08-21T20:15:20Z"
+ },
+ "request": {
+  "billNumber": "914",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "bill": {
+  "actions": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1975/actions?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "H. Rept. 104-667",
+    "url": "https://api.congress.gov/v3/committee-report/104/HRPT/667?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1975/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1975/cosponsors?format=json"
+  },
+  "introducedDate": "1995-06-30",
+  "latestAction": {
+   "actionDate": "1996-08-13",
+   "text": "Became Public Law No: 104-185."
+  },
+  "laws": [
+   {
+    "number": "104-185",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/1975",
+  "number": "1975",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1975/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000059",
+    "district": 43,
+    "firstName": "KEN",
+    "fullName": "Rep. Calvert, Ken [R-CA-43]",
+    "isByRequest": "N",
+    "lastName": "CALVERT",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/C000059?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 33,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1975/subjects?format=json"
+  },
+  "summaries": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1975/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1975/text?format=json"
+  },
+  "title": "Federal Oil and Gas Royalty Simplification and Fairness Act of 1996",
+  "titles": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/hr/1975/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T15:30:43Z",
+  "updateDateIncludingText": "2025-04-07T15:30:43Z"
+ },
+ "request": {
+  "billNumber": "1975",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

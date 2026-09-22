@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/1527/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1527/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1527/cosponsors?format=json"
+  },
+  "introducedDate": "1989-08-03",
+  "latestAction": {
+   "actionDate": "1989-08-03",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/1527",
+  "number": "1527",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Families"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000123",
+    "firstName": "FRANK",
+    "fullName": "Sen. Lautenberg, Frank R. [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "LAUTENBERG",
+    "middleName": "R.",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/L000123?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/101/s/1527/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1527/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/1527/text?format=json"
+  },
+  "title": "Adolescent Tobacco Prevention Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/1527/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:26:03Z",
+  "updateDateIncludingText": "2025-08-26T17:26:03Z"
+ },
+ "request": {
+  "billNumber": "1527",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3481/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3481/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3481/cosponsors?format=json"
+  },
+  "introducedDate": "1996-05-16",
+  "latestAction": {
+   "actionDate": "1996-06-07",
+   "text": "Referred to the Subcommittee on Workforce Protections."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/3481",
+  "number": "3481",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000305",
+    "district": 3,
+    "firstName": "JIM",
+    "fullName": "Rep. Lightfoot, Jim [R-IA-3]",
+    "isByRequest": "N",
+    "lastName": "LIGHTFOOT",
+    "middleName": "ROSS",
+    "party": "R",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/L000305?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3481/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3481/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3481/text?format=json"
+  },
+  "title": "To repeal the minimum wage requirement of the Fair Labor Standards Act of 1938, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3481/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "3481",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

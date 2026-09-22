@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/31/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/31/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/31/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-04",
+  "latestAction": {
+   "actionDate": "1995-01-05",
+   "text": "Sponsor introductory remarks on measure. (CR E35-36)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/31",
+  "number": "31",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000272",
+    "district": 20,
+    "firstName": "HENRY",
+    "fullName": "Rep. Gonzalez, Henry B. [D-TX-20]",
+    "isByRequest": "N",
+    "lastName": "GONZALEZ",
+    "middleName": "B.",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/G000272?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 44,
+   "url": "https://api.congress.gov/v3/bill/104/hr/31/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/31/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/31/text?format=json"
+  },
+  "title": "Derivatives Safety and Soundness Supervision Act of 1995",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/31/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:14:56Z",
+  "updateDateIncludingText": "2025-08-21T20:14:56Z"
+ },
+ "request": {
+  "billNumber": "31",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

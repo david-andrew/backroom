@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/104/hr/967/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/967/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/104/hr/967/cosponsors?format=json"
+  },
+  "introducedDate": "1995-02-15",
+  "latestAction": {
+   "actionDate": "1995-03-10",
+   "text": "Referred to the Subcommittee on Workforce Protections."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/967",
+  "number": "967",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000488",
+    "district": 1,
+    "firstName": "WILLIAM",
+    "fullName": "Rep. Clay, William (Bill) [D-MO-1]",
+    "isByRequest": "N",
+    "lastName": "CLAY",
+    "middleName": "L.",
+    "party": "D",
+    "state": "MO",
+    "url": "https://api.congress.gov/v3/member/C000488?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 33,
+   "url": "https://api.congress.gov/v3/bill/104/hr/967/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/967/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/967/text?format=json"
+  },
+  "title": "To amend the Act of March 3, 1931 (known as the Davis-Bacon Act), to revise the standard for coverage under that Act, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/hr/967/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "967",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

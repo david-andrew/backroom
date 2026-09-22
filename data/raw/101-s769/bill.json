@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/769/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/769/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/769/cosponsors?format=json"
+  },
+  "introducedDate": "1989-04-13",
+  "latestAction": {
+   "actionDate": "1989-04-13",
+   "text": "Read twice and referred to the Committee on Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/769",
+  "number": "769",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000468",
+    "firstName": "JESSE",
+    "fullName": "Sen. Bingaman, Jeff [D-NM]",
+    "isByRequest": "N",
+    "lastName": "BINGAMAN",
+    "middleName": "FRANCIS",
+    "party": "D",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/B000468?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/101/s/769/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/769/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/769/text?format=json"
+  },
+  "title": "Tobacco and Nicotine Health and Safety Act of 1989",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/769/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:06:39Z"
+ },
+ "request": {
+  "billNumber": "769",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

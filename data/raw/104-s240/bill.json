@@ -1,0 +1,84 @@
+{
+ "bill": {
+  "actions": {
+   "count": 25,
+   "url": "https://api.congress.gov/v3/bill/104/s/240/actions?format=json"
+  },
+  "amendments": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/104/s/240/amendments?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "S. Rept. 104-98",
+    "url": "https://api.congress.gov/v3/committee-report/104/SRPT/98?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/s/240/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 51,
+   "countIncludingWithdrawnCosponsors": 51,
+   "url": "https://api.congress.gov/v3/bill/104/s/240/cosponsors?format=json"
+  },
+  "introducedDate": "1995-01-18",
+  "latestAction": {
+   "actionDate": "1995-08-10",
+   "text": "Sponsor introductory remarks on measure. (CR S12201-12204)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/senate-bill/240",
+  "number": "240",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/240/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000407",
+    "firstName": "PETE",
+    "fullName": "Sen. Domenici, Pete V. [R-NM]",
+    "isByRequest": "N",
+    "lastName": "DOMENICI",
+    "middleName": "VICHI",
+    "party": "R",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/D000407?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 44,
+   "url": "https://api.congress.gov/v3/bill/104/s/240/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/240/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/104/s/240/text?format=json"
+  },
+  "title": "Private Securities Litigation Reform Act of 1995",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/s/240/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-07-02T21:30:13Z",
+  "updateDateIncludingText": "2025-07-02T21:30:13Z"
+ },
+ "request": {
+  "billNumber": "240",
+  "billType": "s",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

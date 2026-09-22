@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2489/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2489/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2489/cosponsors?format=json"
+  },
+  "introducedDate": "1989-05-24",
+  "latestAction": {
+   "actionDate": "1989-05-24",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/house-bill/2489",
+  "number": "2489",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000350",
+    "district": 17,
+    "firstName": "JAMES",
+    "fullName": "Rep. Traficant, James A., Jr. [D-OH-17]",
+    "isByRequest": "N",
+    "lastName": "TRAFICANT",
+    "middleName": "A.",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/T000350?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2489/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2489/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2489/text?format=json"
+  },
+  "title": "Foreign Subsidiary Tax Equity Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/hr/2489/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T17:26:50Z",
+  "updateDateIncludingText": "2025-08-26T17:26:50Z"
+ },
+ "request": {
+  "billNumber": "2489",
+  "billType": "hr",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/771/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/771/committees?format=json"
+  },
+  "congress": 101,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/101/s/771/cosponsors?format=json"
+  },
+  "introducedDate": "1989-04-13",
+  "latestAction": {
+   "actionDate": "1989-06-21",
+   "text": "Committee on Finance. Hearings held. Hearings printed: S.Hrg. 101-572."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/101th-congress/senate-bill/771",
+  "number": "771",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/101/s/771/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000146",
+    "firstName": "HARRY",
+    "fullName": "Sen. Reid, Harry [D-NV]",
+    "isByRequest": "N",
+    "lastName": "REID",
+    "middleName": "M.",
+    "party": "D",
+    "state": "NV",
+    "url": "https://api.congress.gov/v3/member/R000146?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/101/s/771/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/771/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/101/s/771/text?format=json"
+  },
+  "title": "Oilspill Bill",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/101/s/771/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T17:29:22Z",
+  "updateDateIncludingText": "2025-08-26T17:29:22Z"
+ },
+ "request": {
+  "billNumber": "771",
+  "billType": "s",
+  "congress": "101",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

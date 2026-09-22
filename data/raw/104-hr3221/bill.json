@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3221/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3221/committees?format=json"
+  },
+  "congress": 104,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3221/cosponsors?format=json"
+  },
+  "introducedDate": "1996-03-29",
+  "latestAction": {
+   "actionDate": "1996-04-04",
+   "text": "Referred to the Subcommittee on Financial Institutions and Consumer Credit."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/104th-congress/house-bill/3221",
+  "number": "3221",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000033",
+    "firstName": "Bernard",
+    "fullName": "Rep. Sanders, Bernard [I-VT-At Large]",
+    "isByRequest": "N",
+    "lastName": "Sanders",
+    "party": "I",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/S000033?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3221/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3221/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3221/text?format=json"
+  },
+  "title": "Electronic Fund Transfer Fees Act of 1996",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/104/hr/3221/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-21T20:15:55Z",
+  "updateDateIncludingText": "2025-08-21T20:15:55Z"
+ },
+ "request": {
+  "billNumber": "3221",
+  "billType": "hr",
+  "congress": "104",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
