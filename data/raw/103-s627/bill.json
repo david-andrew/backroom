@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/627/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/627/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/627/cosponsors?format=json"
+  },
+  "introducedDate": "1993-03-22",
+  "latestAction": {
+   "actionDate": "1993-03-22",
+   "text": "Read twice and referred to the Committee on Labor and Human Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/627",
+  "number": "627",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000105",
+    "firstName": "EDWARD",
+    "fullName": "Sen. Kennedy, Edward M. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "KENNEDY",
+    "middleName": "MOORE",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/K000105?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/103/s/627/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/627/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/627/text?format=json"
+  },
+  "title": "A bill to amend the Act of March 3, 1931 (known as the Davis-Bacon Act), to revise the standard for coverage under that Act, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/s/627/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:26:03Z"
+ },
+ "request": {
+  "billNumber": "627",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

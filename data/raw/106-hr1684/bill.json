@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1684/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1684/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1684/cosponsors?format=json"
+  },
+  "introducedDate": "1999-05-05",
+  "latestAction": {
+   "actionDate": "1999-05-28",
+   "text": "Referred to the Subcommittee on Financial Institutions and Consumer Credit."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1684",
+  "number": "1684",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000515",
+    "district": 1,
+    "firstName": "BOBBY",
+    "fullName": "Rep. Rush, Bobby L. [D-IL-1]",
+    "isByRequest": "N",
+    "lastName": "RUSH",
+    "middleName": "L.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/R000515?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1684/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1684/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1684/text?format=json"
+  },
+  "title": "Payday Borrower Protection Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1684/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:17:51Z",
+  "updateDateIncludingText": "2025-08-20T14:17:51Z"
+ },
+ "request": {
+  "billNumber": "1684",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

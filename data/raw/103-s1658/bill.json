@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/s/1658/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1658/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/103/s/1658/cosponsors?format=json"
+  },
+  "introducedDate": "1993-11-10",
+  "latestAction": {
+   "actionDate": "1994-08-15",
+   "text": "Sponsor introductory remarks on measure. (CR S11791-11792)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/1658",
+  "number": "1658",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000338",
+    "firstName": "ORRIN",
+    "fullName": "Sen. Hatch, Orrin G. [R-UT]",
+    "isByRequest": "N",
+    "lastName": "HATCH",
+    "middleName": "GRANT",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/H000338?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/103/s/1658/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1658/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1658/text?format=json"
+  },
+  "title": "Health Care Antitrust Improvements Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/1658/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:53:38Z"
+ },
+ "request": {
+  "billNumber": "1658",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/1841/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1841/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1841/cosponsors?format=json"
+  },
+  "introducedDate": "1994-02-09",
+  "latestAction": {
+   "actionDate": "1994-02-09",
+   "text": "Read twice and referred to the Committee on Labor and Human Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/1841",
+  "number": "1841",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000288",
+    "firstName": "PAUL",
+    "fullName": "Sen. Wellstone, Paul D. [D-MN]",
+    "isByRequest": "N",
+    "lastName": "WELLSTONE",
+    "middleName": "DAVID",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/W000288?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/103/s/1841/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1841/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1841/text?format=json"
+  },
+  "title": "Public Health Equity Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/1841/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T13:49:29Z",
+  "updateDateIncludingText": "2025-08-26T13:49:29Z"
+ },
+ "request": {
+  "billNumber": "1841",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

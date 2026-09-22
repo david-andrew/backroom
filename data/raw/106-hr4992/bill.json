@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4992/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4992/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4992/cosponsors?format=json"
+  },
+  "introducedDate": "2000-07-27",
+  "latestAction": {
+   "actionDate": "2000-08-31",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/4992",
+  "number": "4992",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001230",
+    "district": 2,
+    "firstName": "Tammy",
+    "fullName": "Rep. Baldwin, Tammy [D-WI-2]",
+    "isByRequest": "N",
+    "lastName": "Baldwin",
+    "party": "D",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/B001230?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 140,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4992/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4992/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4992/text?format=json"
+  },
+  "title": "Health Security for All Americans Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4992/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "4992",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/598/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/598/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/598/cosponsors?format=json"
+  },
+  "introducedDate": "1999-02-04",
+  "latestAction": {
+   "actionDate": "1999-02-24",
+   "text": "Referred to the Subcommittee on Telecommunications, Trade, and Consumer Protection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/598",
+  "number": "598",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000163",
+    "district": 4,
+    "firstName": "MICHAEL",
+    "fullName": "Rep. Oxley, Michael G. [R-OH-4]",
+    "isByRequest": "N",
+    "lastName": "OXLEY",
+    "middleName": "G.",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/O000163?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/106/hr/598/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/598/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/598/text?format=json"
+  },
+  "title": "To require the Federal Communications Commission to eliminate from its regulations the restrictions on the cross-ownership of broadcasting stations and newspapers.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/598/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T13:47:21Z",
+  "updateDateIncludingText": "2025-04-07T13:47:21Z"
+ },
+ "request": {
+  "billNumber": "598",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

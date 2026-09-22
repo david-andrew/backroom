@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/275/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/275/committees?format=json"
+  },
+  "congress": 103,
+  "introducedDate": "1993-01-05",
+  "latestAction": {
+   "actionDate": "1993-11-08",
+   "text": "Sponsor introductory remarks on measure. (CR H8877)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/275",
+  "number": "275",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000291",
+    "district": 3,
+    "firstName": "ROMANO",
+    "fullName": "Rep. Mazzoli, Romano L. [D-KY-3]",
+    "isByRequest": "N",
+    "lastName": "MAZZOLI",
+    "party": "D",
+    "state": "KY",
+    "url": "https://api.congress.gov/v3/member/M000291?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 36,
+   "url": "https://api.congress.gov/v3/bill/103/hr/275/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/275/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/275/text?format=json"
+  },
+  "title": "House of Representatives Campaign Spending Limit and Election Reform Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/275/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:51:19Z",
+  "updateDateIncludingText": "2025-08-26T13:51:19Z"
+ },
+ "request": {
+  "billNumber": "275",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

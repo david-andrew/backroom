@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1510/actions?format=json"
+  },
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1510/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1510/cosponsors?format=json"
+  },
+  "introducedDate": "1999-04-21",
+  "latestAction": {
+   "actionDate": "1999-05-06",
+   "text": "Referred to the Subcommittee on Finance and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1510",
+  "number": "1510",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000287",
+    "district": 5,
+    "firstName": "JOHN",
+    "fullName": "Rep. Lewis, John [D-GA-5]",
+    "isByRequest": "N",
+    "lastName": "LEWIS",
+    "party": "D",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/L000287?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 47,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1510/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1510/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1510/text?format=json"
+  },
+  "title": "Environmental Justice Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1510/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1510",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

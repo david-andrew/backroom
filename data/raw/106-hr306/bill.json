@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/106/hr/306/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/306/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 221,
+   "countIncludingWithdrawnCosponsors": 221,
+   "url": "https://api.congress.gov/v3/bill/106/hr/306/cosponsors?format=json"
+  },
+  "introducedDate": "1999-01-06",
+  "latestAction": {
+   "actionDate": "2000-05-25",
+   "text": "Sponsor introductory remarks on measure. (CR H3828-3829)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/306",
+  "number": "306",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000480",
+    "district": 28,
+    "firstName": "LOUISE",
+    "fullName": "Rep. Slaughter, Louise McIntosh [D-NY-28]",
+    "isByRequest": "N",
+    "lastName": "SLAUGHTER",
+    "middleName": "M.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/S000480?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 31,
+   "url": "https://api.congress.gov/v3/bill/106/hr/306/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/306/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/306/text?format=json"
+  },
+  "title": "Genetic Information Nondiscrimination in Health Insurance Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/306/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "306",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

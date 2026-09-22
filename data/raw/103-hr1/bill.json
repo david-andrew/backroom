@@ -1,0 +1,85 @@
+{
+ "bill": {
+  "actions": {
+   "count": 65,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1/actions?format=json"
+  },
+  "amendments": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1/amendments?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 170,
+   "countIncludingWithdrawnCosponsors": 170,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1/cosponsors?format=json"
+  },
+  "introducedDate": "1993-01-05",
+  "latestAction": {
+   "actionDate": "1993-02-05",
+   "text": "Became Public Law No: 103-3."
+  },
+  "laws": [
+   {
+    "number": "103-3",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/1",
+  "number": "1",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000270",
+    "district": 13,
+    "firstName": "WILLIAM",
+    "fullName": "Rep. Ford, William D. [D-MI-13]",
+    "isByRequest": "N",
+    "lastName": "FORD",
+    "middleName": "D.",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/F000270?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 39,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1/subjects?format=json"
+  },
+  "summaries": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1/text?format=json"
+  },
+  "title": "Family and Medical Leave Act of 1993",
+  "titles": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "1",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

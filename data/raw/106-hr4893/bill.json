@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4893/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4893/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 29,
+   "countIncludingWithdrawnCosponsors": 29,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4893/cosponsors?format=json"
+  },
+  "introducedDate": "2000-07-19",
+  "latestAction": {
+   "actionDate": "2000-08-16",
+   "text": "Referred to the Subcommittee on Financial Institutions and Consumer Credit."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/4893",
+  "number": "4893",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000177",
+    "district": 5,
+    "firstName": "THOMAS",
+    "fullName": "Rep. Barrett, Thomas M. [D-WI-5]",
+    "isByRequest": "N",
+    "lastName": "BARRETT",
+    "middleName": "M.",
+    "party": "D",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/B000177?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 97,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4893/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4893/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4893/text?format=json"
+  },
+  "title": "Community Reinvestment Modernization Act of 2000 ",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4893/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:18:38Z",
+  "updateDateIncludingText": "2025-08-20T14:18:38Z"
+ },
+ "request": {
+  "billNumber": "4893",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

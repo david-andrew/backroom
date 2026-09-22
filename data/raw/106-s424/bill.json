@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/424/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/424/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/106/s/424/cosponsors?format=json"
+  },
+  "introducedDate": "1999-02-11",
+  "latestAction": {
+   "actionDate": "1999-02-11",
+   "text": "Read twice and referred to the Committee on HELP."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/424",
+  "number": "424",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000813",
+    "firstName": "PAUL",
+    "fullName": "Sen. Coverdell, Paul [R-GA]",
+    "isByRequest": "N",
+    "lastName": "COVERDELL",
+    "middleName": "D.",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/C000813?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/106/s/424/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/424/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/424/text?format=json"
+  },
+  "title": "A bill to preserve and protect the free choice of individuals and employees to form, join, or assist labor organizations, or to refrain from such activities.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/s/424/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-04-21T12:24:17Z",
+  "updateDateIncludingText": "2025-04-21T12:25:51Z"
+ },
+ "request": {
+  "billNumber": "424",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

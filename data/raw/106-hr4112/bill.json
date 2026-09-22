@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4112/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4112/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 41,
+   "countIncludingWithdrawnCosponsors": 41,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4112/cosponsors?format=json"
+  },
+  "introducedDate": "2000-03-29",
+  "latestAction": {
+   "actionDate": "2000-03-29",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/4112",
+  "number": "4112",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000282",
+    "district": 15,
+    "firstName": "THOMAS",
+    "fullName": "Rep. Ewing, Thomas W. [R-IL-15]",
+    "isByRequest": "N",
+    "lastName": "EWING",
+    "middleName": "W.",
+    "party": "R",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/E000282?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4112/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4112/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4112/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to increase the unified credit against estate and gift taxes to an exclusion equivalent of $10,000,000 and to provide for an inflation adjustment of such amount.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4112/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T17:13:41Z",
+  "updateDateIncludingText": "2025-01-02T17:13:41Z"
+ },
+ "request": {
+  "billNumber": "4112",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

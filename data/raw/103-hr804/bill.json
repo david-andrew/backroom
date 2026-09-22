@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/804/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/804/committees?format=json"
+  },
+  "congress": 103,
+  "introducedDate": "1993-02-03",
+  "latestAction": {
+   "actionDate": "1993-02-03",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/804",
+  "number": "804",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000810",
+    "district": 13,
+    "firstName": "PETE",
+    "fullName": "Rep. Stark, Fortney Pete [D-CA-13]",
+    "isByRequest": "N",
+    "lastName": "STARK",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/S000810?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/103/hr/804/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/804/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/804/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to reduce emissions of carbon dioxide by imposing a tax on certain fuels based on their carbon content.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/804/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T17:23:10Z",
+  "updateDateIncludingText": "2025-01-02T17:23:10Z"
+ },
+ "request": {
+  "billNumber": "804",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/s/796/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/796/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 28,
+   "countIncludingWithdrawnCosponsors": 28,
+   "url": "https://api.congress.gov/v3/bill/106/s/796/cosponsors?format=json"
+  },
+  "introducedDate": "1999-04-14",
+  "latestAction": {
+   "actionDate": "2000-05-18",
+   "text": "Committee on Health, Education, Labor, and Pensions. Hearings held. Hearings printed: S.Hrg. 106-582."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/796",
+  "number": "796",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000407",
+    "firstName": "PETE",
+    "fullName": "Sen. Domenici, Pete V. [R-NM]",
+    "isByRequest": "N",
+    "lastName": "DOMENICI",
+    "middleName": "VICHI",
+    "party": "R",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/D000407?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/106/s/796/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/796/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/796/text?format=json"
+  },
+  "title": "Mental Health Equitable Treatment Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/796/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-20T14:17:51Z",
+  "updateDateIncludingText": "2025-08-20T14:17:51Z"
+ },
+ "request": {
+  "billNumber": "796",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

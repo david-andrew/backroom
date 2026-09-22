@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/281/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/281/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/103/hr/281/cosponsors?format=json"
+  },
+  "introducedDate": "1993-01-05",
+  "latestAction": {
+   "actionDate": "1993-02-02",
+   "text": "Referred to the Subcommittee on Labor Standards, Occupational Health and Safety."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/281",
+  "number": "281",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000725",
+    "district": 7,
+    "firstName": "GEORGE",
+    "fullName": "Rep. Miller, George [D-CA-7]",
+    "isByRequest": "N",
+    "lastName": "MILLER",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/M000725?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/281/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/281/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/281/text?format=json"
+  },
+  "title": "Fair Wage Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/281/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "281",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/hr/942/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/942/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/106/hr/942/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-02",
+  "latestAction": {
+   "actionDate": "1999-03-30",
+   "text": "Referred to the Subcommittee on Telecommunications, Trade, and Consumer Protection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/942",
+  "number": "942",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000822",
+    "district": 6,
+    "firstName": "CLIFF",
+    "fullName": "Rep. Stearns, Cliff [R-FL-6]",
+    "isByRequest": "N",
+    "lastName": "STEARNS",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/S000822?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/106/hr/942/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/942/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/942/text?format=json"
+  },
+  "title": "Broadcast Ownership for the 21st Century Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/942/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:19:19Z",
+  "updateDateIncludingText": "2025-08-20T14:19:19Z"
+ },
+ "request": {
+  "billNumber": "942",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

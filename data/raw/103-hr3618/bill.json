@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3618/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3618/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3618/cosponsors?format=json"
+  },
+  "introducedDate": "1993-11-22",
+  "latestAction": {
+   "actionDate": "1993-12-22",
+   "text": "Referred to the Subcommittee on Labor-Management Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/3618",
+  "number": "3618",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000779",
+    "district": 3,
+    "firstName": "Ron",
+    "fullName": "Rep. Wyden, Ron [D-OR-3]",
+    "isByRequest": "N",
+    "lastName": "Wyden",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/W000779?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3618/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3618/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3618/text?format=json"
+  },
+  "title": "Universal Health Care for Oregonians Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3618/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "3618",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

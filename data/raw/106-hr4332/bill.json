@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4332/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4332/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4332/cosponsors?format=json"
+  },
+  "introducedDate": "2000-04-13",
+  "latestAction": {
+   "actionDate": "2000-04-25",
+   "text": "Referred to the Subcommittee on Finance and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/4332",
+  "number": "4332",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001145",
+    "district": 9,
+    "firstName": "JANICE",
+    "fullName": "Rep. Schakowsky, Janice D. [D-IL-9]",
+    "isByRequest": "N",
+    "lastName": "SCHAKOWSKY",
+    "middleName": "D.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/S001145?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 60,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4332/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4332/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4332/text?format=json"
+  },
+  "title": "Financial Consumers' Bill of Rights Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4332/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:21:02Z",
+  "updateDateIncludingText": "2025-08-20T14:21:02Z"
+ },
+ "request": {
+  "billNumber": "4332",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

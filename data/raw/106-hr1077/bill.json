@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1077/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1077/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1077/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-11",
+  "latestAction": {
+   "actionDate": "1999-03-30",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1077",
+  "number": "1077",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000583",
+    "district": 14,
+    "firstName": "RON",
+    "fullName": "Rep. Paul, Ron [R-TX-14]",
+    "isByRequest": "N",
+    "lastName": "PAUL",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/P000583?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1077/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1077/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1077/text?format=json"
+  },
+  "title": "Consumer Health Free Speech Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1077/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1077",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/653/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/653/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/653/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-17",
+  "latestAction": {
+   "actionDate": "1999-03-17",
+   "text": "Read twice and referred to the Committee on HELP."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/653",
+  "number": "653",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000288",
+    "firstName": "PAUL",
+    "fullName": "Sen. Wellstone, Paul D. [D-MN]",
+    "isByRequest": "N",
+    "lastName": "WELLSTONE",
+    "middleName": "DAVID",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/W000288?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 34,
+   "url": "https://api.congress.gov/v3/bill/106/s/653/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/653/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/653/text?format=json"
+  },
+  "title": "Safer Workplaces Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/s/653/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-20T14:17:00Z",
+  "updateDateIncludingText": "2025-08-20T14:17:00Z"
+ },
+ "request": {
+  "billNumber": "653",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

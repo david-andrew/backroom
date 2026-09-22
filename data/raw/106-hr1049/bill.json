@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1049/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1049/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1049/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-10",
+  "latestAction": {
+   "actionDate": "1999-03-10",
+   "text": "Referred to the House Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1049",
+  "number": "1049",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000518",
+    "district": 5,
+    "firstName": "ROD",
+    "fullName": "Rep. Blagojevich, Rod R. [D-IL-5]",
+    "isByRequest": "N",
+    "lastName": "BLAGOJEVICH",
+    "middleName": "R.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/B000518?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1049/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1049/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1049/text?format=json"
+  },
+  "title": "Firearms Industry Responsibility Enforcement Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1049/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:18:31Z",
+  "updateDateIncludingText": "2025-08-20T14:18:31Z"
+ },
+ "request": {
+  "billNumber": "1049",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

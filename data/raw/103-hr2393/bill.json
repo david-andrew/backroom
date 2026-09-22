@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2393/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2393/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 64,
+   "countIncludingWithdrawnCosponsors": 64,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2393/cosponsors?format=json"
+  },
+  "introducedDate": "1993-06-10",
+  "latestAction": {
+   "actionDate": "1993-06-29",
+   "text": "Referred to the Subcommittee on Labor Standards, Occupational Health and Safety."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/2393",
+  "number": "2393",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000217",
+    "district": 22,
+    "firstName": "TOM",
+    "fullName": "Rep. DeLay, Tom [R-TX-22]",
+    "isByRequest": "N",
+    "lastName": "DELAY",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/D000217?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2393/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2393/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2393/text?format=json"
+  },
+  "title": "To repeal the Act of March 3, 1931 (known as the Davis-Bacon Act).",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2393/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "2393",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

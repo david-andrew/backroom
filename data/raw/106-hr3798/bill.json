@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3798/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3798/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3798/cosponsors?format=json"
+  },
+  "introducedDate": "2000-03-01",
+  "latestAction": {
+   "actionDate": "2000-03-13",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/3798",
+  "number": "3798",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000257",
+    "district": 1,
+    "firstName": "MICHAEL",
+    "fullName": "Rep. Forbes, Michael P. [D-NY-1]",
+    "isByRequest": "N",
+    "lastName": "FORBES",
+    "middleName": "P.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/F000257?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 43,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3798/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3798/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3798/text?format=json"
+  },
+  "title": "To amend section 211 of the Clean Air Act to prohibit the use of MTBE as a fuel additive, to amend the Solid Waste Disposal Act to accelerate the cleanup of MTBE released from leaking underground storage tanks, and to amend the Safe Drinking Water Act to assist communities with MTBE contamination in drinking water supplies, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3798/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "3798",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

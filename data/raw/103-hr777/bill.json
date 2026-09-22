@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/777/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/777/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 35,
+   "countIncludingWithdrawnCosponsors": 35,
+   "url": "https://api.congress.gov/v3/bill/103/hr/777/cosponsors?format=json"
+  },
+  "introducedDate": "1993-02-03",
+  "latestAction": {
+   "actionDate": "1993-02-03",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/777",
+  "number": "777",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000306",
+    "district": 5,
+    "firstName": "JIM",
+    "fullName": "Rep. Kolbe, Jim [R-AZ-5]",
+    "isByRequest": "N",
+    "lastName": "KOLBE",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/K000306?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/103/hr/777/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/777/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/777/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to provide for a maximum long-term capital gains rate of 15 percent and indexing the basis of certain capital assets.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/777/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T17:23:09Z",
+  "updateDateIncludingText": "2025-01-02T17:23:09Z"
+ },
+ "request": {
+  "billNumber": "777",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

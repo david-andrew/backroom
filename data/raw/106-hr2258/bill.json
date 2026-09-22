@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2258/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2258/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2258/cosponsors?format=json"
+  },
+  "introducedDate": "1999-06-17",
+  "latestAction": {
+   "actionDate": "1999-07-15",
+   "text": "Referred to the Subcommittee on Financial Institutions and Consumer Credit."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/2258",
+  "number": "2258",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000535",
+    "district": 4,
+    "firstName": "LUIS",
+    "fullName": "Rep. Gutierrez, Luis V. [D-IL-4]",
+    "isByRequest": "N",
+    "lastName": "GUTIERREZ",
+    "middleName": "V.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/G000535?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2258/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2258/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2258/text?format=json"
+  },
+  "title": "Consumer Fairness Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2258/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:21:30Z",
+  "updateDateIncludingText": "2025-08-20T14:21:30Z"
+ },
+ "request": {
+  "billNumber": "2258",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

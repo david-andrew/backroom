@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/2270/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/2270/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/2270/cosponsors?format=json"
+  },
+  "introducedDate": "2000-03-22",
+  "latestAction": {
+   "actionDate": "2000-03-22",
+   "text": "Read twice and referred to the Committee on the Judiciary. (text of measure as introduced: CR S1600-1601)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/2270",
+  "number": "2270",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000338",
+    "firstName": "ORRIN",
+    "fullName": "Sen. Hatch, Orrin G. [R-UT]",
+    "isByRequest": "N",
+    "lastName": "HATCH",
+    "middleName": "GRANT",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/H000338?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/106/s/2270/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/2270/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/2270/text?format=json"
+  },
+  "title": "Right to Bear Arms Protection and Privacy Act of 2000",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/2270/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:54:01Z"
+ },
+ "request": {
+  "billNumber": "2270",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

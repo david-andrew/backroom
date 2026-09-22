@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1657/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1657/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 147,
+   "countIncludingWithdrawnCosponsors": 147,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1657/cosponsors?format=json"
+  },
+  "introducedDate": "1999-05-03",
+  "latestAction": {
+   "actionDate": "1999-05-17",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1657",
+  "number": "1657",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000215",
+    "district": 29,
+    "firstName": "HENRY",
+    "fullName": "Rep. Waxman, Henry A. [D-CA-29]",
+    "isByRequest": "N",
+    "lastName": "WAXMAN",
+    "middleName": "A.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/W000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 52,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1657/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1657/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1657/text?format=json"
+  },
+  "title": "Children's Environmental Protection and Right to Know Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1657/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1657",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

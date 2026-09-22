@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2301/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2301/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 55,
+   "countIncludingWithdrawnCosponsors": 55,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2301/cosponsors?format=json"
+  },
+  "introducedDate": "1999-06-22",
+  "latestAction": {
+   "actionDate": "1999-06-28",
+   "text": "Referred to the Subcommittee on Commercial and Administrative Law."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/2301",
+  "number": "2301",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Congress"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000413",
+    "district": 6,
+    "firstName": "J.",
+    "fullName": "Rep. Hayworth, J. D. [R-AZ-6]",
+    "isByRequest": "N",
+    "lastName": "HAYWORTH",
+    "middleName": "D.",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/H000413?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2301/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2301/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2301/text?format=json"
+  },
+  "title": "Congressional Responsibility Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2301/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:18:38Z",
+  "updateDateIncludingText": "2025-08-20T14:18:38Z"
+ },
+ "request": {
+  "billNumber": "2301",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

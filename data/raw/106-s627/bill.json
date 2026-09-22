@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/s/627/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/627/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 20,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/106/s/627/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-16",
+  "latestAction": {
+   "actionDate": "1999-03-16",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/627",
+  "number": "627",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H001015",
+    "firstName": "TIM",
+    "fullName": "Sen. Hutchinson, Tim [R-AR]",
+    "isByRequest": "N",
+    "lastName": "HUTCHINSON",
+    "party": "R",
+    "state": "AR",
+    "url": "https://api.congress.gov/v3/member/H001015?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 25,
+   "url": "https://api.congress.gov/v3/bill/106/s/627/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/627/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/627/text?format=json"
+  },
+  "title": "Tax Code Termination Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/627/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-20T14:17:55Z",
+  "updateDateIncludingText": "2025-08-20T14:17:55Z"
+ },
+ "request": {
+  "billNumber": "627",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

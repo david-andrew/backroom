@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3132/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3132/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 14,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3132/cosponsors?format=json"
+  },
+  "introducedDate": "1993-09-23",
+  "latestAction": {
+   "actionDate": "1993-09-27",
+   "text": "Referred to the Subcommittee on Crime and Criminal Justice."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/3132",
+  "number": "3132",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000159",
+    "district": 11,
+    "firstName": "MAJOR",
+    "fullName": "Rep. Owens, Major R. [D-NY-11]",
+    "isByRequest": "N",
+    "lastName": "OWENS",
+    "middleName": "R.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/O000159?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3132/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3132/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3132/text?format=json"
+  },
+  "title": "Public Health and Safety Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3132/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:49:13Z",
+  "updateDateIncludingText": "2025-08-26T13:49:13Z"
+ },
+ "request": {
+  "billNumber": "3132",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

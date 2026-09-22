@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1109/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1109/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1109/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-15",
+  "latestAction": {
+   "actionDate": "1999-04-07",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1109",
+  "number": "1109",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000179",
+    "district": 17,
+    "firstName": "ELIOT",
+    "fullName": "Rep. Engel, Eliot L. [D-NY-17]",
+    "isByRequest": "N",
+    "lastName": "ENGEL",
+    "middleName": "L.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/E000179?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 53,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1109/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1109/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1109/text?format=json"
+  },
+  "title": "Medicare Outpatient Prescription Drug Coverage Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1109/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1109",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

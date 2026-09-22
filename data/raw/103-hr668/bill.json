@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/668/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/668/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/103/hr/668/cosponsors?format=json"
+  },
+  "introducedDate": "1993-01-27",
+  "latestAction": {
+   "actionDate": "1993-01-27",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/668",
+  "number": "668",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000435",
+    "district": 46,
+    "firstName": "ROBERT",
+    "fullName": "Rep. Dornan, Robert K. [R-CA-46]",
+    "isByRequest": "N",
+    "lastName": "DORNAN",
+    "middleName": "K.",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/D000435?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/103/hr/668/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/668/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/668/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to remove the limitation on the deductibility of capital losses.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/668/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T17:22:56Z",
+  "updateDateIncludingText": "2025-01-02T17:22:56Z"
+ },
+ "request": {
+  "billNumber": "668",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

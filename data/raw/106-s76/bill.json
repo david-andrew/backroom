@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/76/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/76/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/106/s/76/cosponsors?format=json"
+  },
+  "introducedDate": "1999-01-19",
+  "latestAction": {
+   "actionDate": "1999-01-19",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/76",
+  "number": "76",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000504",
+    "firstName": "RICHARD",
+    "fullName": "Sen. Lugar, Richard G. [R-IN]",
+    "isByRequest": "N",
+    "lastName": "LUGAR",
+    "middleName": "GREEN",
+    "party": "R",
+    "state": "IN",
+    "url": "https://api.congress.gov/v3/member/L000504?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/106/s/76/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/76/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/76/text?format=json"
+  },
+  "title": "Estate and Gift Tax Phase-Out Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/76/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-20T14:19:17Z",
+  "updateDateIncludingText": "2025-08-20T14:19:17Z"
+ },
+ "request": {
+  "billNumber": "76",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

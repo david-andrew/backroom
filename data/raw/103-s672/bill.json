@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/672/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/672/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/103/s/672/cosponsors?format=json"
+  },
+  "introducedDate": "1993-03-30",
+  "latestAction": {
+   "actionDate": "1993-03-30",
+   "text": "Read twice and referred to the Committee on Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/672",
+  "number": "672",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000468",
+    "firstName": "JESSE",
+    "fullName": "Sen. Bingaman, Jeff [D-NM]",
+    "isByRequest": "N",
+    "lastName": "BINGAMAN",
+    "middleName": "FRANCIS",
+    "party": "D",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/B000468?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/103/s/672/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/672/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/672/text?format=json"
+  },
+  "title": "Tobacco Health and Safety Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/672/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:05:40Z"
+ },
+ "request": {
+  "billNumber": "672",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3377/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3377/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 58,
+   "countIncludingWithdrawnCosponsors": 58,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3377/cosponsors?format=json"
+  },
+  "introducedDate": "1999-11-16",
+  "latestAction": {
+   "actionDate": "1999-11-30",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/3377",
+  "number": "3377",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000336",
+    "district": 10,
+    "firstName": "DENNIS",
+    "fullName": "Rep. Kucinich, Dennis J. [D-OH-10]",
+    "isByRequest": "N",
+    "lastName": "KUCINICH",
+    "middleName": "J.",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/K000336?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3377/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3377/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3377/text?format=json"
+  },
+  "title": "Genetically Engineered Food Right to Know Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3377/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "3377",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/103/hr/72/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/72/committees?format=json"
+  },
+  "congress": 103,
+  "introducedDate": "1993-01-05",
+  "latestAction": {
+   "actionDate": "1993-02-24",
+   "text": "Referred to the Subcommittee on Health and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/72",
+  "number": "72",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000652",
+    "district": 2,
+    "firstName": "PETER",
+    "fullName": "Rep. Hoagland, Peter [D-NE-2]",
+    "isByRequest": "N",
+    "lastName": "HOAGLAND",
+    "party": "D",
+    "state": "NE",
+    "url": "https://api.congress.gov/v3/member/H000652?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/72/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/72/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/72/text?format=json"
+  },
+  "title": "To amend title XVIII of the Social Security Act to extend coverage of home health services under the medicare program.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/72/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "72",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

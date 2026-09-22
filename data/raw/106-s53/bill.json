@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/53/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/53/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/106/s/53/cosponsors?format=json"
+  },
+  "introducedDate": "1999-01-19",
+  "latestAction": {
+   "actionDate": "1999-01-19",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/53",
+  "number": "53",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000352",
+    "firstName": "Jon",
+    "fullName": "Sen. Kyl, Jon [R-AZ]",
+    "isByRequest": "N",
+    "lastName": "Kyl",
+    "middleName": "Llewellyn",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/K000352?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/106/s/53/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/53/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/53/text?format=json"
+  },
+  "title": "Capital Gains and Dividend Income Reform Act of 1998",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/53/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-20T14:20:01Z",
+  "updateDateIncludingText": "2025-08-20T14:20:01Z"
+ },
+ "request": {
+  "billNumber": "53",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

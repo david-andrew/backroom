@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1899/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1899/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 187,
+   "countIncludingWithdrawnCosponsors": 187,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1899/cosponsors?format=json"
+  },
+  "introducedDate": "1999-05-20",
+  "latestAction": {
+   "actionDate": "1999-06-15",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1899",
+  "number": "1899",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1899/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000810",
+    "district": 13,
+    "firstName": "PETE",
+    "fullName": "Rep. Stark, Fortney Pete [D-CA-13]",
+    "isByRequest": "N",
+    "lastName": "STARK",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/S000810?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1899/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1899/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1899/text?format=json"
+  },
+  "title": "Health Care Worker Needlestick Prevention Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1899/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1899",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

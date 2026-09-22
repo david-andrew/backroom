@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1312/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1312/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1312/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-25",
+  "latestAction": {
+   "actionDate": "1999-04-12",
+   "text": "Referred to the Subcommittee on Telecommunications, Trade, and Consumer Protection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1312",
+  "number": "1312",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000191",
+    "district": 4,
+    "firstName": "PETER",
+    "fullName": "Rep. DeFazio, Peter A. [D-OR-4]",
+    "isByRequest": "N",
+    "lastName": "DEFAZIO",
+    "middleName": "A.",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/D000191?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1312/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1312/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1312/text?format=json"
+  },
+  "title": "Cable Rate Moratorium Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1312/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:20:12Z",
+  "updateDateIncludingText": "2025-08-20T14:20:12Z"
+ },
+ "request": {
+  "billNumber": "1312",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

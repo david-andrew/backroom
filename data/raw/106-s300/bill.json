@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/s/300/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/300/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 49,
+   "countIncludingWithdrawnCosponsors": 49,
+   "url": "https://api.congress.gov/v3/bill/106/s/300/cosponsors?format=json"
+  },
+  "introducedDate": "1999-01-22",
+  "latestAction": {
+   "actionDate": "1999-01-22",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/300",
+  "number": "300",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000447",
+    "firstName": "CHESTER",
+    "fullName": "Sen. Lott, Trent [R-MS]",
+    "isByRequest": "N",
+    "lastName": "LOTT",
+    "middleName": "TRENT",
+    "party": "R",
+    "state": "MS",
+    "url": "https://api.congress.gov/v3/member/L000447?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 79,
+   "url": "https://api.congress.gov/v3/bill/106/s/300/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/300/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/300/text?format=json"
+  },
+  "title": "Patients' Bill of Rights Act",
+  "titles": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/106/s/300/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-20T14:18:09Z",
+  "updateDateIncludingText": "2025-08-20T14:18:09Z"
+ },
+ "request": {
+  "billNumber": "300",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

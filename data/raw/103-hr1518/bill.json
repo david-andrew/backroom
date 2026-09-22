@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1518/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1518/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1518/cosponsors?format=json"
+  },
+  "introducedDate": "1993-03-30",
+  "latestAction": {
+   "actionDate": "1993-04-16",
+   "text": "Referred to the Subcommittee on Labor Standards, Occupational Health and Safety."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/1518",
+  "number": "1518",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000589",
+    "district": 8,
+    "firstName": "JOHN",
+    "fullName": "Rep. Boehner, John A. [R-OH-8]",
+    "isByRequest": "N",
+    "lastName": "BOEHNER",
+    "middleName": "A.",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/B000589?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1518/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1518/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1518/text?format=json"
+  },
+  "title": "To repeal the Service Contract Act of 1965.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1518/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "1518",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

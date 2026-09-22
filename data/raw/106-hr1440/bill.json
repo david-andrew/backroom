@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1440/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1440/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1440/cosponsors?format=json"
+  },
+  "introducedDate": "1999-04-15",
+  "latestAction": {
+   "actionDate": "1999-04-15",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1440",
+  "number": "1440",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000439",
+    "district": 8,
+    "firstName": "JAMES",
+    "fullName": "Rep. Greenwood, James C. [R-PA-8]",
+    "isByRequest": "N",
+    "lastName": "GREENWOOD",
+    "middleName": "C.",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/G000439?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1440/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1440/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1440/text?format=json"
+  },
+  "title": "Tax Rate Reduction Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1440/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:18:49Z",
+  "updateDateIncludingText": "2025-08-20T14:18:49Z"
+ },
+ "request": {
+  "billNumber": "1440",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

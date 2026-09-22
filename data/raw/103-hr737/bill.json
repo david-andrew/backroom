@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/103/hr/737/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/737/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/103/hr/737/cosponsors?format=json"
+  },
+  "introducedDate": "1993-02-02",
+  "latestAction": {
+   "actionDate": "1993-06-29",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/737",
+  "number": "737",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000178",
+    "district": 2,
+    "firstName": "MEL",
+    "fullName": "Rep. Reynolds, Mel [D-IL-2]",
+    "isByRequest": "N",
+    "lastName": "REYNOLDS",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/R000178?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/103/hr/737/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/737/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/737/text?format=json"
+  },
+  "title": "Strict Liability for Safer Streets Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/737/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:50:38Z",
+  "updateDateIncludingText": "2025-08-26T13:50:38Z"
+ },
+ "request": {
+  "billNumber": "737",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

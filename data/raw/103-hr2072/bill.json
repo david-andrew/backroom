@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2072/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2072/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2072/cosponsors?format=json"
+  },
+  "introducedDate": "1993-05-11",
+  "latestAction": {
+   "actionDate": "1993-12-10",
+   "text": "Executive Comment Requested from USDA."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/2072",
+  "number": "2072",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000215",
+    "district": 1,
+    "firstName": "TIMOTHY",
+    "fullName": "Rep. Penny, Timothy J. [D-MN-1]",
+    "isByRequest": "N",
+    "lastName": "PENNY",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/P000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2072/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2072/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2072/text?format=json"
+  },
+  "title": "Farm Program Payment Limitations Reform Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2072/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:52:15Z",
+  "updateDateIncludingText": "2025-08-26T13:52:15Z"
+ },
+ "request": {
+  "billNumber": "2072",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

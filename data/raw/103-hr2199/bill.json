@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2199/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2199/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2199/cosponsors?format=json"
+  },
+  "introducedDate": "1993-05-20",
+  "latestAction": {
+   "actionDate": "1994-03-15",
+   "text": "Committee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/2199",
+  "number": "2199",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2199/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001040",
+    "district": 10,
+    "firstName": "GERRY",
+    "fullName": "Rep. Studds, Gerry E. [D-MA-10]",
+    "isByRequest": "N",
+    "lastName": "STUDDS",
+    "middleName": "E.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/S001040?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2199/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2199/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2199/text?format=json"
+  },
+  "title": "Polluter Pays Clean Water Funding Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2199/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:52:25Z",
+  "updateDateIncludingText": "2025-08-26T13:52:25Z"
+ },
+ "request": {
+  "billNumber": "2199",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

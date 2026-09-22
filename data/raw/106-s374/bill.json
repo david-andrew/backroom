@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/374/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/374/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/106/s/374/cosponsors?format=json"
+  },
+  "introducedDate": "1999-02-04",
+  "latestAction": {
+   "actionDate": "1999-02-04",
+   "text": "Read twice and referred to the Committee on HELP."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/374",
+  "number": "374",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000269",
+    "firstName": "JOHN",
+    "fullName": "Sen. Chafee, John H. [R-RI]",
+    "isByRequest": "N",
+    "lastName": "CHAFEE",
+    "middleName": "HUBBARD",
+    "party": "R",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/C000269?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 56,
+   "url": "https://api.congress.gov/v3/bill/106/s/374/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/374/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/374/text?format=json"
+  },
+  "title": "Promoting Responsible Managed Care Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/374/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-20T14:18:24Z",
+  "updateDateIncludingText": "2025-08-20T14:18:24Z"
+ },
+ "request": {
+  "billNumber": "374",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

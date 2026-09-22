@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1414/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1414/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1414/cosponsors?format=json"
+  },
+  "introducedDate": "1993-03-18",
+  "latestAction": {
+   "actionDate": "1993-03-31",
+   "text": "Executive Comment Requested from Interior."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/1414",
+  "number": "1414",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000172",
+    "district": 1,
+    "firstName": "JAMES",
+    "fullName": "Rep. Hansen, James V. [R-UT-1]",
+    "isByRequest": "N",
+    "lastName": "HANSEN",
+    "middleName": "V.",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/H000172?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1414/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1414/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1414/text?format=json"
+  },
+  "title": "Human Protection Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1414/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:51:04Z",
+  "updateDateIncludingText": "2025-08-26T13:51:04Z"
+ },
+ "request": {
+  "billNumber": "1414",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

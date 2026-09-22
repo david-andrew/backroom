@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/106/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/106/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/106/hr/106/cosponsors?format=json"
+  },
+  "introducedDate": "1999-01-06",
+  "latestAction": {
+   "actionDate": "1999-01-07",
+   "text": "Sponsor introductory remarks on measure. (CR E17)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/106",
+  "number": "106",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000288",
+    "district": 11,
+    "firstName": "JOE",
+    "fullName": "Rep. Knollenberg, Joe [R-MI-11]",
+    "isByRequest": "N",
+    "lastName": "KNOLLENBERG",
+    "party": "R",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/K000288?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/hr/106/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/106/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/106/text?format=json"
+  },
+  "title": "Job Creation Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/106/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:19:23Z",
+  "updateDateIncludingText": "2025-08-20T14:19:23Z"
+ },
+ "request": {
+  "billNumber": "106",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

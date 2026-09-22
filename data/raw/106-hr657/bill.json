@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/657/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/657/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/106/hr/657/cosponsors?format=json"
+  },
+  "introducedDate": "1999-02-09",
+  "latestAction": {
+   "actionDate": "1999-03-01",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/657",
+  "number": "657",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001149",
+    "district": 22,
+    "firstName": "JOHN",
+    "fullName": "Rep. Sweeney, John E. [R-NY-22]",
+    "isByRequest": "N",
+    "lastName": "SWEENEY",
+    "middleName": "E.",
+    "party": "R",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/S001149?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 53,
+   "url": "https://api.congress.gov/v3/bill/106/hr/657/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/657/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/657/text?format=json"
+  },
+  "title": "Acid Deposition Control Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/657/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "657",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

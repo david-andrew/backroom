@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/5315/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/5315/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 99,
+   "countIncludingWithdrawnCosponsors": 99,
+   "url": "https://api.congress.gov/v3/bill/106/hr/5315/cosponsors?format=json"
+  },
+  "introducedDate": "2000-09-27",
+  "latestAction": {
+   "actionDate": "2000-09-27",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/5315",
+  "number": "5315",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000038",
+    "district": 8,
+    "firstName": "JOHN",
+    "fullName": "Rep. Tanner, John S. [D-TN-8]",
+    "isByRequest": "N",
+    "lastName": "TANNER",
+    "party": "D",
+    "state": "TN",
+    "url": "https://api.congress.gov/v3/member/T000038?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/106/hr/5315/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/5315/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/5315/text?format=json"
+  },
+  "title": "Death Tax Relief Now Act of 2000",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/5315/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:17:15Z",
+  "updateDateIncludingText": "2025-08-20T14:17:15Z"
+ },
+ "request": {
+  "billNumber": "5315",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

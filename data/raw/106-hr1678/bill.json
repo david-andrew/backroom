@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1678/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1678/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1678/cosponsors?format=json"
+  },
+  "introducedDate": "1999-05-04",
+  "latestAction": {
+   "actionDate": "1999-05-05",
+   "text": "Referred to the Subcommittee on Aviation."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1678",
+  "number": "1678",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001149",
+    "district": 22,
+    "firstName": "JOHN",
+    "fullName": "Rep. Sweeney, John E. [R-NY-22]",
+    "isByRequest": "N",
+    "lastName": "SWEENEY",
+    "middleName": "E.",
+    "party": "R",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/S001149?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1678/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1678/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1678/text?format=json"
+  },
+  "title": "Airline Competition and Fairness Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1678/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:20:51Z",
+  "updateDateIncludingText": "2025-08-20T14:20:51Z"
+ },
+ "request": {
+  "billNumber": "1678",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

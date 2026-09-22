@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4772/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4772/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4772/cosponsors?format=json"
+  },
+  "introducedDate": "2000-06-27",
+  "latestAction": {
+   "actionDate": "2000-07-19",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/4772",
+  "number": "4772",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000159",
+    "district": 11,
+    "firstName": "MAJOR",
+    "fullName": "Rep. Owens, Major R. [D-NY-11]",
+    "isByRequest": "N",
+    "lastName": "OWENS",
+    "middleName": "R.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/O000159?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4772/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4772/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4772/text?format=json"
+  },
+  "title": "Pharmaceutical Products Price Equity Act ",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4772/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "4772",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

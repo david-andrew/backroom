@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/s/2928/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/2928/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/2928/cosponsors?format=json"
+  },
+  "introducedDate": "2000-07-26",
+  "latestAction": {
+   "actionDate": "2000-10-03",
+   "text": "Committee on Commerce, Science, and Transportation. Hearings held. Hearings printed: S.Hrg. 106-1147."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/2928",
+  "number": "2928",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000303",
+    "firstName": "JOHN",
+    "fullName": "Sen. McCain, John [R-AZ]",
+    "isByRequest": "N",
+    "lastName": "MCCAIN",
+    "middleName": "SIDNEY",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/M000303?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 38,
+   "url": "https://api.congress.gov/v3/bill/106/s/2928/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/2928/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/2928/text?format=json"
+  },
+  "title": "Consumer Internet Privacy Enhancement Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/2928/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:03:40Z"
+ },
+ "request": {
+  "billNumber": "2928",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

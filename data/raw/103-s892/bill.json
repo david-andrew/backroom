@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/103/s/892/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/892/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/892/cosponsors?format=json"
+  },
+  "introducedDate": "1993-05-05",
+  "latestAction": {
+   "actionDate": "1994-02-07",
+   "text": "Sponsor introductory remarks on measure. (CR S1019-1020)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/892",
+  "number": "892",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000269",
+    "firstName": "JOHN",
+    "fullName": "Sen. Chafee, John H. [R-RI]",
+    "isByRequest": "N",
+    "lastName": "CHAFEE",
+    "middleName": "HUBBARD",
+    "party": "R",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/C000269?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/103/s/892/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/892/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/892/text?format=json"
+  },
+  "title": "Public Health and Safety Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/892/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:53:53Z"
+ },
+ "request": {
+  "billNumber": "892",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/103/hr/200/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/200/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/200/cosponsors?format=json"
+  },
+  "introducedDate": "1993-01-05",
+  "latestAction": {
+   "actionDate": "1994-02-07",
+   "text": "Sponsor introductory remarks on measure. (CR H294-295)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/200",
+  "number": "200",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000810",
+    "district": 13,
+    "firstName": "PETE",
+    "fullName": "Rep. Stark, Fortney Pete [D-CA-13]",
+    "isByRequest": "N",
+    "lastName": "STARK",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/S000810?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 85,
+   "url": "https://api.congress.gov/v3/bill/103/hr/200/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/200/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/200/text?format=json"
+  },
+  "title": "Health Care Cost Containment and Reform Act of 1993",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/200/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "200",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

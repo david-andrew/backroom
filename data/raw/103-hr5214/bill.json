@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/5214/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/5214/committees?format=json"
+  },
+  "congress": 103,
+  "introducedDate": "1994-10-06",
+  "latestAction": {
+   "actionDate": "1994-10-06",
+   "text": "Referred to the House Committee on Energy and Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/5214",
+  "number": "5214",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000217",
+    "district": 22,
+    "firstName": "TOM",
+    "fullName": "Rep. DeLay, Tom [R-TX-22]",
+    "isByRequest": "N",
+    "lastName": "DELAY",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/D000217?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/5214/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/5214/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/5214/text?format=json"
+  },
+  "title": "To repeal provisions of the Clean Air Act dealing with toxic air emissions.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/5214/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-05T14:30:09Z",
+  "updateDateIncludingText": "2024-02-05T14:34:48Z"
+ },
+ "request": {
+  "billNumber": "5214",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

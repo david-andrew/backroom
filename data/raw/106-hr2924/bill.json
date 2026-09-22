@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2924/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2924/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2924/cosponsors?format=json"
+  },
+  "introducedDate": "1999-09-23",
+  "latestAction": {
+   "actionDate": "2000-03-16",
+   "text": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/2924",
+  "number": "2924",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000072",
+    "district": 6,
+    "firstName": "RICHARD",
+    "fullName": "Rep. Baker, Richard H. [R-LA-6]",
+    "isByRequest": "N",
+    "lastName": "BAKER",
+    "middleName": "H.",
+    "party": "R",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/B000072?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2924/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2924/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2924/text?format=json"
+  },
+  "title": "Hedge Fund Disclosure Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2924/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:18:28Z",
+  "updateDateIncludingText": "2025-08-20T14:18:28Z"
+ },
+ "request": {
+  "billNumber": "2924",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

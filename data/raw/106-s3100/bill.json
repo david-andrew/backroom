@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/s/3100/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/3100/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/3100/cosponsors?format=json"
+  },
+  "introducedDate": "2000-09-25",
+  "latestAction": {
+   "actionDate": "2000-09-25",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (CR S9196-9197)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/3100",
+  "number": "3100",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000206",
+    "firstName": "THOMAS",
+    "fullName": "Sen. Harkin, Tom [D-IA]",
+    "isByRequest": "N",
+    "lastName": "HARKIN",
+    "middleName": "RICHARD",
+    "party": "D",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/H000206?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 35,
+   "url": "https://api.congress.gov/v3/bill/106/s/3100/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/3100/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/3100/text?format=json"
+  },
+  "title": "CARE Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/s/3100/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-20T14:17:37Z",
+  "updateDateIncludingText": "2025-08-20T14:17:37Z"
+ },
+ "request": {
+  "billNumber": "3100",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

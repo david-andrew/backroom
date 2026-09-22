@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/s/573/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/573/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/106/s/573/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-10",
+  "latestAction": {
+   "actionDate": "2000-12-14",
+   "text": "Sponsor introductory remarks on measure. (CR S11779)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/573",
+  "number": "573",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000174",
+    "firstName": "Patrick",
+    "fullName": "Sen. Leahy, Patrick J. [D-VT]",
+    "isByRequest": "N",
+    "lastName": "Leahy",
+    "party": "D",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/L000174?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 77,
+   "url": "https://api.congress.gov/v3/bill/106/s/573/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/573/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/573/text?format=json"
+  },
+  "title": "Medical Information Privacy and Security Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/573/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-20T14:18:07Z",
+  "updateDateIncludingText": "2025-08-20T14:18:07Z"
+ },
+ "request": {
+  "billNumber": "573",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1501/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1501/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1501/cosponsors?format=json"
+  },
+  "introducedDate": "1993-03-25",
+  "latestAction": {
+   "actionDate": "1993-04-05",
+   "text": "Referred to the Subcommittee on Crime and Criminal Justice."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/1501",
+  "number": "1501",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "Y000013",
+    "district": 9,
+    "firstName": "SIDNEY",
+    "fullName": "Rep. Yates, Sidney R. [D-IL-9]",
+    "isByRequest": "N",
+    "lastName": "YATES",
+    "middleName": "R.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/Y000013?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1501/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1501/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1501/text?format=json"
+  },
+  "title": "Handgun Control Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1501/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:50:49Z",
+  "updateDateIncludingText": "2025-08-26T13:50:49Z"
+ },
+ "request": {
+  "billNumber": "1501",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

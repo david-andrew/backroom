@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/106/hr/904/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/904/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 104,
+   "countIncludingWithdrawnCosponsors": 104,
+   "url": "https://api.congress.gov/v3/bill/106/hr/904/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-02",
+  "latestAction": {
+   "actionDate": "1999-03-26",
+   "text": "Referred to the Subcommittee on Employer-Employee Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/904",
+  "number": "904",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000141",
+    "district": 3,
+    "firstName": "Ben",
+    "fullName": "Rep. Cardin, Benjamin L. [D-MD-3]",
+    "isByRequest": "N",
+    "lastName": "Cardin",
+    "party": "D",
+    "state": "MD",
+    "url": "https://api.congress.gov/v3/member/C000141?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/106/hr/904/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/904/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/904/text?format=json"
+  },
+  "title": "Access to Emergency Medical Services Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/904/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "904",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

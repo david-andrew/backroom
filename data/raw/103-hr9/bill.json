@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/103/hr/9/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/9/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/9/cosponsors?format=json"
+  },
+  "introducedDate": "1993-01-05",
+  "latestAction": {
+   "actionDate": "1994-10-07",
+   "text": "Placed on the Union Calendar, Calendar No. 470."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/9",
+  "number": "9",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000880",
+    "district": 9,
+    "firstName": "JACK",
+    "fullName": "Rep. Brooks, Jack B. [D-TX-9]",
+    "isByRequest": "N",
+    "lastName": "BROOKS",
+    "middleName": "BASCOM",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/B000880?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/103/hr/9/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/9/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/9/text?format=json"
+  },
+  "title": "Insurance Competitive Pricing Act of 1994",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/9/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2021-06-02T19:19:19Z",
+  "updateDateIncludingText": "2021-06-02T19:19:19Z"
+ },
+ "request": {
+  "billNumber": "9",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

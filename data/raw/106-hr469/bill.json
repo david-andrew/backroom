@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/106/hr/469/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/469/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/106/hr/469/cosponsors?format=json"
+  },
+  "introducedDate": "1999-02-02",
+  "latestAction": {
+   "actionDate": "2000-10-04",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/469",
+  "number": "469",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000155",
+    "district": 2,
+    "firstName": "RICK",
+    "fullName": "Rep. Lazio, Rick [R-NY-2]",
+    "isByRequest": "N",
+    "lastName": "LAZIO",
+    "middleName": "A.",
+    "party": "R",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/L000155?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/106/hr/469/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/469/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/469/text?format=json"
+  },
+  "title": "Jeremy and Julia's Law",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/469/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:19:56Z",
+  "updateDateIncludingText": "2025-08-20T14:19:56Z"
+ },
+ "request": {
+  "billNumber": "469",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

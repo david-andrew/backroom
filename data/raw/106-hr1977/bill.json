@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1977/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1977/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 56,
+   "countIncludingWithdrawnCosponsors": 56,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1977/cosponsors?format=json"
+  },
+  "introducedDate": "1999-05-27",
+  "latestAction": {
+   "actionDate": "2000-03-15",
+   "text": "Sponsor introductory remarks on measure. (CR H1062-1063)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1977",
+  "number": "1977",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000033",
+    "district": 3,
+    "firstName": "JIM",
+    "fullName": "Rep. Ramstad, Jim [R-MN-3]",
+    "isByRequest": "N",
+    "lastName": "RAMSTAD",
+    "party": "R",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/R000033?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1977/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1977/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1977/text?format=json"
+  },
+  "title": "Harold Hughes-Bill Emerson Substance Abuse Treatment Parity Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1977/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1977",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

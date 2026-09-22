@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1941/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1941/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 69,
+   "countIncludingWithdrawnCosponsors": 69,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1941/cosponsors?format=json"
+  },
+  "introducedDate": "1999-05-25",
+  "latestAction": {
+   "actionDate": "2000-10-31",
+   "text": "Sponsor introductory remarks on measure. (CR E2037)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1941",
+  "number": "1941",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000670",
+    "district": 18,
+    "firstName": "GARY",
+    "fullName": "Rep. Condit, Gary A. [D-CA-18]",
+    "isByRequest": "N",
+    "lastName": "CONDIT",
+    "middleName": "A.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/C000670?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 56,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1941/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1941/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1941/text?format=json"
+  },
+  "title": "Health Information Privacy Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1941/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1941",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

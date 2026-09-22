@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1818/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1818/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 67,
+   "countIncludingWithdrawnCosponsors": 68,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1818/cosponsors?format=json"
+  },
+  "introducedDate": "1993-04-22",
+  "latestAction": {
+   "actionDate": "1993-04-30",
+   "text": "Referred to the Subcommittee on Transportation and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/1818",
+  "number": "1818",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000133",
+    "district": 7,
+    "firstName": "Edward",
+    "fullName": "Rep. Markey, Edward J. [D-MA-7]",
+    "isByRequest": "N",
+    "lastName": "Markey",
+    "middleName": "J.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/M000133?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1818/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1818/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1818/text?format=json"
+  },
+  "title": "National Beverage Container Reuse and Recycling Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1818/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:50:44Z",
+  "updateDateIncludingText": "2025-08-26T13:50:44Z"
+ },
+ "request": {
+  "billNumber": "1818",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

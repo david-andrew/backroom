@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1086/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1086/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1086/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-11",
+  "latestAction": {
+   "actionDate": "1999-03-11",
+   "text": "Referred to the House Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1086",
+  "number": "1086",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000262",
+    "district": 9,
+    "firstName": "HAROLD",
+    "fullName": "Rep. Ford, Harold E., Jr. [D-TN-9]",
+    "isByRequest": "N",
+    "lastName": "FORD",
+    "middleName": "E.",
+    "party": "D",
+    "state": "TN",
+    "url": "https://api.congress.gov/v3/member/F000262?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 41,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1086/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1086/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1086/text?format=json"
+  },
+  "title": "Gun Industry Responsibility Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1086/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:20:38Z",
+  "updateDateIncludingText": "2025-08-20T14:20:38Z"
+ },
+ "request": {
+  "billNumber": "1086",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

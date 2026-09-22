@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3091/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3091/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 202,
+   "countIncludingWithdrawnCosponsors": 202,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3091/cosponsors?format=json"
+  },
+  "introducedDate": "1999-10-18",
+  "latestAction": {
+   "actionDate": "1999-10-19",
+   "text": "Referred to the Subcommittee on Ground Transportation."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/3091",
+  "number": "3091",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000553",
+    "district": 19,
+    "firstName": "STEVEN",
+    "fullName": "Rep. LaTourette, Steven C. [R-OH-19]",
+    "isByRequest": "N",
+    "lastName": "LATOURETTE",
+    "middleName": "C.",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/L000553?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3091/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3091/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3091/text?format=json"
+  },
+  "title": "To provide for the protection of train employees.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3091/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T17:12:32Z",
+  "updateDateIncludingText": "2025-01-02T17:12:32Z"
+ },
+ "request": {
+  "billNumber": "3091",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

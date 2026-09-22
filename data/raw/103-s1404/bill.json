@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/s/1404/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1404/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1404/cosponsors?format=json"
+  },
+  "introducedDate": "1993-08-06",
+  "latestAction": {
+   "actionDate": "1994-04-20",
+   "text": "Subcommittee on Courts and Administrative Practice. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/1404",
+  "number": "1404",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000305",
+    "firstName": "HERBERT",
+    "fullName": "Sen. Kohl, Herb [D-WI]",
+    "isByRequest": "N",
+    "lastName": "KOHL",
+    "middleName": "H.",
+    "party": "D",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/K000305?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/s/1404/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1404/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1404/text?format=json"
+  },
+  "title": "Sunshine in Litigation Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/1404/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:53:38Z"
+ },
+ "request": {
+  "billNumber": "1404",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

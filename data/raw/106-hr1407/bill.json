@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1407/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1407/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1407/cosponsors?format=json"
+  },
+  "introducedDate": "1999-04-14",
+  "latestAction": {
+   "actionDate": "1999-04-14",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1407",
+  "number": "1407",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000846",
+    "district": 14,
+    "firstName": "WILLIAM",
+    "fullName": "Rep. Coyne, William J. [D-PA-14]",
+    "isByRequest": "N",
+    "lastName": "COYNE",
+    "middleName": "J.",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/C000846?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1407/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1407/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1407/text?format=json"
+  },
+  "title": "Capital Gains Tax Simplification Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1407/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:17:51Z",
+  "updateDateIncludingText": "2025-08-20T14:17:51Z"
+ },
+ "request": {
+  "billNumber": "1407",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

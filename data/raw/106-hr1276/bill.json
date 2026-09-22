@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1276/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1276/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1276/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-24",
+  "latestAction": {
+   "actionDate": "1999-04-16",
+   "text": "Referred to the Subcommittee on Financial Institutions and Consumer Credit."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1276",
+  "number": "1276",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000486",
+    "district": 33,
+    "firstName": "LUCILLE",
+    "fullName": "Rep. Roybal-Allard, Lucille [D-CA-33]",
+    "isByRequest": "N",
+    "lastName": "ROYBAL-ALLARD",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/R000486?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1276/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1276/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1276/text?format=json"
+  },
+  "title": "Credit Card Consumer Protection Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1276/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:20:04Z",
+  "updateDateIncludingText": "2025-08-20T14:20:04Z"
+ },
+ "request": {
+  "billNumber": "1276",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

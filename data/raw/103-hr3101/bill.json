@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3101/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3101/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3101/cosponsors?format=json"
+  },
+  "introducedDate": "1993-09-21",
+  "latestAction": {
+   "actionDate": "1993-10-20",
+   "text": "Sponsor introductory remarks on measure. (CR E2484)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/3101",
+  "number": "3101",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000352",
+    "district": 4,
+    "firstName": "Jon",
+    "fullName": "Rep. Kyl, Jon [R-AZ-4]",
+    "isByRequest": "N",
+    "lastName": "Kyl",
+    "middleName": "Llewellyn",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/K000352?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3101/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3101/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3101/text?format=json"
+  },
+  "title": "Window of Opportunity Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3101/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:52:18Z",
+  "updateDateIncludingText": "2025-08-26T13:52:18Z"
+ },
+ "request": {
+  "billNumber": "3101",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1809/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1809/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 44,
+   "countIncludingWithdrawnCosponsors": 44,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1809/cosponsors?format=json"
+  },
+  "introducedDate": "1993-04-22",
+  "latestAction": {
+   "actionDate": "1993-04-30",
+   "text": "Referred to the Subcommittee on Transportation and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/1809",
+  "number": "1809",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000316",
+    "district": 34,
+    "firstName": "ESTEBAN",
+    "fullName": "Rep. Torres, Esteban Edward [D-CA-34]",
+    "isByRequest": "N",
+    "lastName": "TORRES",
+    "middleName": "E.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/T000316?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1809/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1809/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1809/text?format=json"
+  },
+  "title": "Newsprint Recycling Incentives Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1809/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:49:37Z",
+  "updateDateIncludingText": "2025-08-26T13:49:37Z"
+ },
+ "request": {
+  "billNumber": "1809",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2898/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2898/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 56,
+   "countIncludingWithdrawnCosponsors": 56,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2898/cosponsors?format=json"
+  },
+  "introducedDate": "1993-08-05",
+  "latestAction": {
+   "actionDate": "1993-08-19",
+   "text": "Referred to the Subcommittee on Water Resources and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/2898",
+  "number": "2898",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000229",
+    "district": 3,
+    "firstName": "BILL",
+    "fullName": "Rep. Richardson, Bill [D-NM-3]",
+    "isByRequest": "N",
+    "lastName": "RICHARDSON",
+    "party": "D",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/R000229?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2898/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2898/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2898/text?format=json"
+  },
+  "title": "Chlorine Zero Discharge Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2898/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:52:31Z",
+  "updateDateIncludingText": "2025-08-26T13:52:31Z"
+ },
+ "request": {
+  "billNumber": "2898",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/s/1191/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1191/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/106/s/1191/cosponsors?format=json"
+  },
+  "introducedDate": "1999-06-09",
+  "latestAction": {
+   "actionDate": "2000-09-26",
+   "text": "Sponsor introductory remarks on measure. (CR S9258)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/1191",
+  "number": "1191",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000432",
+    "firstName": "BYRON",
+    "fullName": "Sen. Dorgan, Byron L. [D-ND]",
+    "isByRequest": "N",
+    "lastName": "DORGAN",
+    "middleName": "LESLIE",
+    "party": "D",
+    "state": "ND",
+    "url": "https://api.congress.gov/v3/member/D000432?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/106/s/1191/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1191/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1191/text?format=json"
+  },
+  "title": "International Prescription Drug Parity Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/1191/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-20T14:17:03Z",
+  "updateDateIncludingText": "2025-08-20T14:17:03Z"
+ },
+ "request": {
+  "billNumber": "1191",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

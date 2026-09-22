@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4207/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4207/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 97,
+   "countIncludingWithdrawnCosponsors": 97,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4207/cosponsors?format=json"
+  },
+  "introducedDate": "2000-04-06",
+  "latestAction": {
+   "actionDate": "2000-05-03",
+   "text": "Sponsor introductory remarks on measure. (CR H2503-2505)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/4207",
+  "number": "4207",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000041",
+    "district": 4,
+    "firstName": "GREG",
+    "fullName": "Rep. Ganske, Greg [R-IA-4]",
+    "isByRequest": "N",
+    "lastName": "GANSKE",
+    "party": "R",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/G000041?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4207/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4207/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4207/text?format=json"
+  },
+  "title": "FDA Tobacco Authority Amendments Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4207/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "4207",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

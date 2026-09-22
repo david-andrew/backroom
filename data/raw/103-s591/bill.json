@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/591/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/591/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/103/s/591/cosponsors?format=json"
+  },
+  "introducedDate": "1993-03-16",
+  "latestAction": {
+   "actionDate": "1993-03-16",
+   "text": "Read twice and referred to the Committee on Banking."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/591",
+  "number": "591",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000018",
+    "firstName": "ALFONSE",
+    "fullName": "Sen. D'Amato, Alfonse [R-NY]",
+    "isByRequest": "N",
+    "lastName": "D'AMATO",
+    "middleName": "MARCELLO",
+    "party": "R",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/D000018?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/103/s/591/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/591/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/591/text?format=json"
+  },
+  "title": "Presidential Credit Availability and Economic Recovery Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/591/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T13:48:54Z",
+  "updateDateIncludingText": "2025-08-26T13:48:54Z"
+ },
+ "request": {
+  "billNumber": "591",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

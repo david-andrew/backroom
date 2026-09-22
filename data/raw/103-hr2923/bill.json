@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2923/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2923/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2923/cosponsors?format=json"
+  },
+  "introducedDate": "1993-08-06",
+  "latestAction": {
+   "actionDate": "1993-11-19",
+   "text": "Sponsor introductory remarks on measure. (CR H10266)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/2923",
+  "number": "2923",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000634",
+    "district": 7,
+    "firstName": "CARDISS",
+    "fullName": "Rep. Collins, Cardiss [D-IL-7]",
+    "isByRequest": "N",
+    "lastName": "COLLINS",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/C000634?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2923/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2923/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2923/text?format=json"
+  },
+  "title": "Dietary Supplement Consumer Protection Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2923/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2923",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/792/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/792/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/792/cosponsors?format=json"
+  },
+  "introducedDate": "1993-02-03",
+  "latestAction": {
+   "actionDate": "1993-02-19",
+   "text": "Referred to the Subcommittee on Labor Standards, Occupational Health and Safety."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/792",
+  "number": "792",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000011",
+    "district": 3,
+    "firstName": "NICK",
+    "fullName": "Rep. Rahall, Nick J., II [D-WV-3]",
+    "isByRequest": "N",
+    "lastName": "RAHALL",
+    "middleName": "J.",
+    "party": "D",
+    "state": "WV",
+    "url": "https://api.congress.gov/v3/member/R000011?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/103/hr/792/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/792/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/792/text?format=json"
+  },
+  "title": "Black Lung Benefits Act Amendments of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/792/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "792",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

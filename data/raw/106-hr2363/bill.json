@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2363/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2363/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2363/cosponsors?format=json"
+  },
+  "introducedDate": "1999-06-25",
+  "latestAction": {
+   "actionDate": "1999-07-22",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/2363",
+  "number": "2363",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000058",
+    "district": 3,
+    "firstName": "W.",
+    "fullName": "Rep. Tauzin, W. J. (Billy) [R-LA-3]",
+    "isByRequest": "N",
+    "lastName": "TAUZIN",
+    "middleName": "J.",
+    "party": "R",
+    "state": "LA",
+    "url": "https://api.congress.gov/v3/member/T000058?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2363/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2363/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2363/text?format=json"
+  },
+  "title": "Public Utility Holding Company Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2363/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:17:17Z",
+  "updateDateIncludingText": "2025-08-20T14:17:17Z"
+ },
+ "request": {
+  "billNumber": "2363",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

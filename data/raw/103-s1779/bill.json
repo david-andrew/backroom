@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/s/1779/actions?format=json"
+  },
+  "amendments": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/s/1779/amendments?format=json"
+  },
+  "congress": 103,
+  "introducedDate": "1993-11-22",
+  "latestAction": {
+   "actionDate": "1994-08-04",
+   "text": "Sponsor introductory remarks on measure. (CR S10602-10603)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/1779",
+  "number": "1779",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000105",
+    "firstName": "EDWARD",
+    "fullName": "Sen. Kennedy, Edward M. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "KENNEDY",
+    "middleName": "MOORE",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/K000105?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 218,
+   "url": "https://api.congress.gov/v3/bill/103/s/1779/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1779/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1779/text?format=json"
+  },
+  "title": "Health Security Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/1779/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T13:48:58Z",
+  "updateDateIncludingText": "2025-08-26T13:48:58Z"
+ },
+ "request": {
+  "billNumber": "1779",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/103/hr/459/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/459/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/459/cosponsors?format=json"
+  },
+  "introducedDate": "1993-01-06",
+  "latestAction": {
+   "actionDate": "1993-07-29",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/459",
+  "number": "459",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000652",
+    "district": 2,
+    "firstName": "PETER",
+    "fullName": "Rep. Hoagland, Peter [D-NE-2]",
+    "isByRequest": "N",
+    "lastName": "HOAGLAND",
+    "party": "D",
+    "state": "NE",
+    "url": "https://api.congress.gov/v3/member/H000652?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/103/hr/459/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/459/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/459/text?format=json"
+  },
+  "title": "Nationwide Banking and Branching Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/459/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:48:59Z",
+  "updateDateIncludingText": "2025-08-26T13:48:59Z"
+ },
+ "request": {
+  "billNumber": "459",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

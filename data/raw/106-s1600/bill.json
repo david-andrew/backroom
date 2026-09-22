@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/s/1600/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1600/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/106/s/1600/cosponsors?format=json"
+  },
+  "introducedDate": "1999-09-16",
+  "latestAction": {
+   "actionDate": "1999-09-16",
+   "text": "Read twice and referred to the Committee on HELP."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/1600",
+  "number": "1600",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000206",
+    "firstName": "THOMAS",
+    "fullName": "Sen. Harkin, Tom [D-IA]",
+    "isByRequest": "N",
+    "lastName": "HARKIN",
+    "middleName": "RICHARD",
+    "party": "D",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/H000206?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/s/1600/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1600/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1600/text?format=json"
+  },
+  "title": "Older Workers Pension Protection Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/1600/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-20T14:19:06Z",
+  "updateDateIncludingText": "2025-08-20T14:19:06Z"
+ },
+ "request": {
+  "billNumber": "1600",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

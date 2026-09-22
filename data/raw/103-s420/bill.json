@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/s/420/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/420/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/103/s/420/cosponsors?format=json"
+  },
+  "introducedDate": "1993-02-24",
+  "latestAction": {
+   "actionDate": "1993-03-05",
+   "text": "Subcommittee on Oversight of Government Management. Hearings held. Hearings printed: S.Hrg. 103-63."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/420",
+  "number": "420",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000639",
+    "firstName": "DAVID",
+    "fullName": "Sen. Boren, David L. [D-OK]",
+    "isByRequest": "N",
+    "lastName": "BOREN",
+    "middleName": "LYLE",
+    "party": "D",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/B000639?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/103/s/420/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/420/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/420/text?format=json"
+  },
+  "title": "Ethics in Government Reform Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/420/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T13:51:39Z",
+  "updateDateIncludingText": "2025-08-26T13:51:39Z"
+ },
+ "request": {
+  "billNumber": "420",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

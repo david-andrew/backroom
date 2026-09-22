@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/877/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/877/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/106/s/877/cosponsors?format=json"
+  },
+  "introducedDate": "1999-04-26",
+  "latestAction": {
+   "actionDate": "1999-04-26",
+   "text": "Read twice and referred to the Committee on Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/877",
+  "number": "877",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000953",
+    "firstName": "SAM",
+    "fullName": "Sen. Brownback, Sam [R-KS]",
+    "isByRequest": "N",
+    "lastName": "BROWNBACK",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/B000953?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/106/s/877/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/877/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/877/text?format=json"
+  },
+  "title": "Broadband Internet Regulatory Relief Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/877/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:05:22Z"
+ },
+ "request": {
+  "billNumber": "877",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

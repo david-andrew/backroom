@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/888/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/888/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 50,
+   "countIncludingWithdrawnCosponsors": 50,
+   "url": "https://api.congress.gov/v3/bill/106/hr/888/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-01",
+  "latestAction": {
+   "actionDate": "1999-03-11",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/888",
+  "number": "888",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/888/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000172",
+    "district": 9,
+    "firstName": "DALE",
+    "fullName": "Rep. Kildee, Dale E. [D-MI-9]",
+    "isByRequest": "N",
+    "lastName": "KILDEE",
+    "middleName": "E.",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/K000172?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/106/hr/888/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/888/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/888/text?format=json"
+  },
+  "title": "Clean Gasoline Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/888/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "888",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/hr/506/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/506/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 210,
+   "countIncludingWithdrawnCosponsors": 210,
+   "url": "https://api.congress.gov/v3/bill/106/hr/506/cosponsors?format=json"
+  },
+  "introducedDate": "1999-02-02",
+  "latestAction": {
+   "actionDate": "1999-02-09",
+   "text": "Referred to the Subcommittee on Trade."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/506",
+  "number": "506",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Foreign Trade and International Finance"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000108",
+    "district": 1,
+    "firstName": "PETER",
+    "fullName": "Rep. Visclosky, Peter J. [D-IN-1]",
+    "isByRequest": "N",
+    "lastName": "VISCLOSKY",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IN",
+    "url": "https://api.congress.gov/v3/member/V000108?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/106/hr/506/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/506/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/506/text?format=json"
+  },
+  "title": "To ensure that the volume of steel imports does not exceed the average monthly volume of such imports during the 36-month period preceding July 1997.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/506/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T13:45:06Z",
+  "updateDateIncludingText": "2025-04-07T13:45:06Z"
+ },
+ "request": {
+  "billNumber": "506",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

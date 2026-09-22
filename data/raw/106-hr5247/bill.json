@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/5247/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/5247/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/106/hr/5247/cosponsors?format=json"
+  },
+  "introducedDate": "2000-09-21",
+  "latestAction": {
+   "actionDate": "2000-10-20",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/5247",
+  "number": "5247",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/5247/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000081",
+    "district": 2,
+    "firstName": "JOHN",
+    "fullName": "Rep. Baldacci, John Elias [D-ME-2]",
+    "isByRequest": "N",
+    "lastName": "BALDACCI",
+    "middleName": "ELIAS",
+    "party": "D",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/B000081?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/106/hr/5247/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/5247/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/5247/text?format=json"
+  },
+  "title": "GAAP Act of 2000",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/5247/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "5247",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

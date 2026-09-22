@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1851/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1851/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1851/cosponsors?format=json"
+  },
+  "introducedDate": "1999-05-18",
+  "latestAction": {
+   "actionDate": "1999-06-08",
+   "text": "Sponsor introductory remarks on measure. (CR H3831-3833)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1851",
+  "number": "1851",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000159",
+    "district": 11,
+    "firstName": "MAJOR",
+    "fullName": "Rep. Owens, Major R. [D-NY-11]",
+    "isByRequest": "N",
+    "lastName": "OWENS",
+    "middleName": "R.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/O000159?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1851/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1851/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1851/text?format=json"
+  },
+  "title": "Hazard Reporting Protection Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1851/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "1851",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

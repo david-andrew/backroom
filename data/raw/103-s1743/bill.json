@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/s/1743/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1743/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/103/s/1743/cosponsors?format=json"
+  },
+  "introducedDate": "1993-11-20",
+  "latestAction": {
+   "actionDate": "1994-06-16",
+   "text": "Star Print ordered on S.1743."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/1743",
+  "number": "1743",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000102",
+    "firstName": "DONALD",
+    "fullName": "Sen. Nickles, Don [R-OK]",
+    "isByRequest": "N",
+    "lastName": "NICKLES",
+    "middleName": "LEE",
+    "party": "R",
+    "state": "OK",
+    "url": "https://api.congress.gov/v3/member/N000102?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 111,
+   "url": "https://api.congress.gov/v3/bill/103/s/1743/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1743/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1743/text?format=json"
+  },
+  "title": "Consumer Choice Health Security Act of 1994",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/s/1743/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T13:51:49Z",
+  "updateDateIncludingText": "2025-08-26T13:51:49Z"
+ },
+ "request": {
+  "billNumber": "1743",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

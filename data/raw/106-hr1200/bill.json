@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1200/actions?format=json"
+  },
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1200/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 21,
+   "countIncludingWithdrawnCosponsors": 21,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1200/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-18",
+  "latestAction": {
+   "actionDate": "1999-04-12",
+   "text": "Referred to the Subcommittee on Health and Environment, for a period to be subsequently determined by the Chairman."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1200",
+  "number": "1200",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000404",
+    "district": 7,
+    "firstName": "JIM",
+    "fullName": "Rep. McDermott, Jim [D-WA-7]",
+    "isByRequest": "N",
+    "lastName": "MCDERMOTT",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/M000404?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 193,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1200/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1200/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1200/text?format=json"
+  },
+  "title": "American Health Security Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1200/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1200",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/472/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/472/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/472/cosponsors?format=json"
+  },
+  "introducedDate": "1993-01-06",
+  "latestAction": {
+   "actionDate": "1993-01-19",
+   "text": "Referred to the Subcommittee on Aviation."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/472",
+  "number": "472",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000006",
+    "district": 8,
+    "firstName": "JAMES",
+    "fullName": "Rep. Oberstar, James L. [D-MN-8]",
+    "isByRequest": "N",
+    "lastName": "OBERSTAR",
+    "middleName": "L.",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/O000006?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/103/hr/472/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/472/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/472/text?format=json"
+  },
+  "title": "Airline Competition Enhancement and Passenger Protection Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/472/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:49:59Z",
+  "updateDateIncludingText": "2025-08-26T13:49:59Z"
+ },
+ "request": {
+  "billNumber": "472",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

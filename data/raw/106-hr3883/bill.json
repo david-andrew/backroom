@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3883/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3883/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 12,
+   "countIncludingWithdrawnCosponsors": 12,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3883/cosponsors?format=json"
+  },
+  "introducedDate": "2000-03-09",
+  "latestAction": {
+   "actionDate": "2000-03-21",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/3883",
+  "number": "3883",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000336",
+    "district": 10,
+    "firstName": "DENNIS",
+    "fullName": "Rep. Kucinich, Dennis J. [D-OH-10]",
+    "isByRequest": "N",
+    "lastName": "KUCINICH",
+    "middleName": "J.",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/K000336?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 42,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3883/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3883/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3883/text?format=json"
+  },
+  "title": "Genetically Engineered Food Safety Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3883/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "3883",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/892/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/892/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/106/s/892/cosponsors?format=json"
+  },
+  "introducedDate": "1999-04-27",
+  "latestAction": {
+   "actionDate": "1999-04-27",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/892",
+  "number": "892",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000338",
+    "firstName": "ORRIN",
+    "fullName": "Sen. Hatch, Orrin G. [R-UT]",
+    "isByRequest": "N",
+    "lastName": "HATCH",
+    "middleName": "GRANT",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/H000338?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/106/s/892/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/892/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/892/text?format=json"
+  },
+  "title": "A bill to amend the Internal Revenue Code of 1986 to permanently extend the subpart F exemption for active financing income.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/s/892/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T18:59:41Z",
+  "updateDateIncludingText": "2025-01-14T19:06:28Z"
+ },
+ "request": {
+  "billNumber": "892",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3609/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3609/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3609/cosponsors?format=json"
+  },
+  "introducedDate": "2000-02-09",
+  "latestAction": {
+   "actionDate": "2000-02-10",
+   "text": "Referred to the Subcommittee on Water Resources and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/3609",
+  "number": "3609",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000044",
+    "district": 1,
+    "firstName": "MAX",
+    "fullName": "Rep. Sandlin, Max [D-TX-1]",
+    "isByRequest": "N",
+    "lastName": "SANDLIN",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/S000044?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3609/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3609/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3609/text?format=json"
+  },
+  "title": "To amend the Federal Water Pollution Control Act to exempt certain silviculture activities from permits under the national pollutant discharge elimination system.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3609/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T17:13:10Z",
+  "updateDateIncludingText": "2025-01-02T17:13:10Z"
+ },
+ "request": {
+  "billNumber": "3609",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

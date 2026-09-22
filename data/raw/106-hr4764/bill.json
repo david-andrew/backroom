@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4764/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4764/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4764/cosponsors?format=json"
+  },
+  "introducedDate": "2000-06-27",
+  "latestAction": {
+   "actionDate": "2000-06-27",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/4764",
+  "number": "4764",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Foreign Trade and International Finance"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000282",
+    "district": 15,
+    "firstName": "THOMAS",
+    "fullName": "Rep. Ewing, Thomas W. [R-IL-15]",
+    "isByRequest": "N",
+    "lastName": "EWING",
+    "middleName": "W.",
+    "party": "R",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/E000282?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 25,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4764/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4764/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4764/text?format=json"
+  },
+  "title": "To require the United States Trade Representative to enter into negotiations to eliminate price controls imposed by certain foreign countries on prescription drugs.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4764/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T17:14:31Z",
+  "updateDateIncludingText": "2025-01-02T17:14:31Z"
+ },
+ "request": {
+  "billNumber": "4764",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

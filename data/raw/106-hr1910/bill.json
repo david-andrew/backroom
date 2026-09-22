@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1910/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1910/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1910/cosponsors?format=json"
+  },
+  "introducedDate": "1999-05-24",
+  "latestAction": {
+   "actionDate": "1999-11-03",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1910",
+  "number": "1910",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000410",
+    "district": 29,
+    "firstName": "GENE",
+    "fullName": "Rep. Green, Gene [D-TX-29]",
+    "isByRequest": "N",
+    "lastName": "GREEN",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/G000410?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1910/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1910/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1910/text?format=json"
+  },
+  "title": "E-Mail User Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1910/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:20:20Z",
+  "updateDateIncludingText": "2025-08-20T14:20:20Z"
+ },
+ "request": {
+  "billNumber": "1910",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/106/hr/881/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/881/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 26,
+   "countIncludingWithdrawnCosponsors": 26,
+   "url": "https://api.congress.gov/v3/bill/106/hr/881/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-01",
+  "latestAction": {
+   "actionDate": "1999-09-29",
+   "text": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/881",
+  "number": "881",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000121",
+    "district": 17,
+    "firstName": "GEORGE",
+    "fullName": "Rep. Gekas, George W. [R-PA-17]",
+    "isByRequest": "N",
+    "lastName": "GEKAS",
+    "middleName": "W.",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/G000121?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/106/hr/881/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/881/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/881/text?format=json"
+  },
+  "title": "Regulatory Fair Warning Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/881/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:17:39Z",
+  "updateDateIncludingText": "2025-08-20T14:17:39Z"
+ },
+ "request": {
+  "billNumber": "881",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

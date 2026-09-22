@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/s/578/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/578/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/578/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-10",
+  "latestAction": {
+   "actionDate": "1999-04-27",
+   "text": "Committee on Health, Education, Labor, and Pensions. Hearings held. Hearings printed: S.Hrg. 106-64."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/578",
+  "number": "578",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000072",
+    "firstName": "JAMES",
+    "fullName": "Sen. Jeffords, James M. [R-VT]",
+    "isByRequest": "N",
+    "lastName": "JEFFORDS",
+    "middleName": "MERRILL",
+    "party": "R",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/J000072?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 92,
+   "url": "https://api.congress.gov/v3/bill/106/s/578/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/578/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/578/text?format=json"
+  },
+  "title": "Health Care PIN Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/s/578/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-20T14:19:39Z",
+  "updateDateIncludingText": "2025-08-20T14:19:39Z"
+ },
+ "request": {
+  "billNumber": "578",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

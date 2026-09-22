@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/s/1478/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1478/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 21,
+   "countIncludingWithdrawnCosponsors": 21,
+   "url": "https://api.congress.gov/v3/bill/103/s/1478/cosponsors?format=json"
+  },
+  "introducedDate": "1993-09-21",
+  "latestAction": {
+   "actionDate": "1994-07-28",
+   "text": "Subcommittee on Agricultural Research. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/1478",
+  "number": "1478",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000556",
+    "district": 4,
+    "firstName": "DAVID",
+    "fullName": "Sen. Pryor, David H. [D-AR]",
+    "isByRequest": "N",
+    "lastName": "PRYOR",
+    "middleName": "HAMPTON",
+    "party": "D",
+    "state": "AR",
+    "url": "https://api.congress.gov/v3/member/P000556?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 38,
+   "url": "https://api.congress.gov/v3/bill/103/s/1478/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1478/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1478/text?format=json"
+  },
+  "title": "Food Quality Protection Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/1478/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T13:50:42Z",
+  "updateDateIncludingText": "2025-08-26T13:50:42Z"
+ },
+ "request": {
+  "billNumber": "1478",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/1172/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1172/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/106/s/1172/cosponsors?format=json"
+  },
+  "introducedDate": "1999-05-27",
+  "latestAction": {
+   "actionDate": "1999-08-04",
+   "text": "Committee on the Judiciary. Hearings held. Hearings printed: S.Hrg. 106-772."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/1172",
+  "number": "1172",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000317",
+    "firstName": "ROBERT",
+    "fullName": "Sen. Torricelli, Robert G. [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "TORRICELLI",
+    "middleName": "G.",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/T000317?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/106/s/1172/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1172/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1172/text?format=json"
+  },
+  "title": "Drug Patent Term Restoration Review Procedure Act of 1999",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/s/1172/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "1172",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

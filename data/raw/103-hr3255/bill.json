@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3255/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3255/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 12,
+   "countIncludingWithdrawnCosponsors": 12,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3255/cosponsors?format=json"
+  },
+  "introducedDate": "1993-10-12",
+  "latestAction": {
+   "actionDate": "1993-11-01",
+   "text": "Referred to the Subcommittee on Telecommunications and Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/3255",
+  "number": "3255",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000213",
+    "district": 6,
+    "firstName": "JOE",
+    "fullName": "Rep. Barton, Joe [R-TX-6]",
+    "isByRequest": "N",
+    "lastName": "BARTON",
+    "middleName": "L.",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/B000213?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3255/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3255/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3255/text?format=json"
+  },
+  "title": "Cable Consumer Protection and Competition Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3255/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:48:50Z",
+  "updateDateIncludingText": "2025-08-26T13:48:50Z"
+ },
+ "request": {
+  "billNumber": "3255",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

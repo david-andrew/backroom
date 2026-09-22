@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/2239/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/2239/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/2239/cosponsors?format=json"
+  },
+  "introducedDate": "1994-06-24",
+  "latestAction": {
+   "actionDate": "1994-06-24",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/2239",
+  "number": "2239",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000556",
+    "district": 4,
+    "firstName": "DAVID",
+    "fullName": "Sen. Pryor, David H. [D-AR]",
+    "isByRequest": "N",
+    "lastName": "PRYOR",
+    "middleName": "HAMPTON",
+    "party": "D",
+    "state": "AR",
+    "url": "https://api.congress.gov/v3/member/P000556?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 36,
+   "url": "https://api.congress.gov/v3/bill/103/s/2239/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/2239/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/2239/text?format=json"
+  },
+  "title": "Pharmaceutical Marketplace Reform Act of 1994",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/2239/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T13:50:10Z",
+  "updateDateIncludingText": "2025-08-26T13:50:10Z"
+ },
+ "request": {
+  "billNumber": "2239",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

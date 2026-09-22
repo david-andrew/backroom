@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4353/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4353/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 94,
+   "countIncludingWithdrawnCosponsors": 94,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4353/cosponsors?format=json"
+  },
+  "introducedDate": "2000-05-02",
+  "latestAction": {
+   "actionDate": "2000-06-28",
+   "text": "Referred to the Subcommittee on Workforce Protections."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/4353",
+  "number": "4353",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000535",
+    "district": 4,
+    "firstName": "LUIS",
+    "fullName": "Rep. Gutierrez, Luis V. [D-IL-4]",
+    "isByRequest": "N",
+    "lastName": "GUTIERREZ",
+    "middleName": "V.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/G000535?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4353/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4353/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4353/text?format=json"
+  },
+  "title": "Federal Living Wage Responsibility Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4353/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "4353",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

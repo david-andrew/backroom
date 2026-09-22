@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2105/actions?format=json"
+  },
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2105/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 44,
+   "countIncludingWithdrawnCosponsors": 44,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2105/cosponsors?format=json"
+  },
+  "introducedDate": "1993-05-12",
+  "latestAction": {
+   "actionDate": "1993-11-18",
+   "text": "Subcommittee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/2105",
+  "number": "2105",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000287",
+    "district": 5,
+    "firstName": "JOHN",
+    "fullName": "Rep. Lewis, John [D-GA-5]",
+    "isByRequest": "N",
+    "lastName": "LEWIS",
+    "party": "D",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/L000287?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 31,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2105/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2105/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2105/text?format=json"
+  },
+  "title": "Environmental Justice Act of 1992",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2105/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2105",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

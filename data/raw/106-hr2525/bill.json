@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2525/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2525/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2525/cosponsors?format=json"
+  },
+  "introducedDate": "1999-07-14",
+  "latestAction": {
+   "actionDate": "1999-07-14",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/2525",
+  "number": "2525",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000321",
+    "district": 11,
+    "firstName": "JOHN",
+    "fullName": "Rep. Linder, John [R-GA-11]",
+    "isByRequest": "N",
+    "lastName": "LINDER",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/L000321?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 137,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2525/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2525/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2525/text?format=json"
+  },
+  "title": "Fair Tax Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2525/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:19:33Z",
+  "updateDateIncludingText": "2025-08-20T14:19:33Z"
+ },
+ "request": {
+  "billNumber": "2525",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

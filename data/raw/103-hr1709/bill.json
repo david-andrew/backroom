@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1709/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1709/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 261,
+   "countIncludingWithdrawnCosponsors": 261,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1709/cosponsors?format=json"
+  },
+  "introducedDate": "1993-04-07",
+  "latestAction": {
+   "actionDate": "1994-04-19",
+   "text": "Sponsor introductory remarks on measure. (CR H2400-2401)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/1709",
+  "number": "1709",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000229",
+    "district": 3,
+    "firstName": "BILL",
+    "fullName": "Rep. Richardson, Bill [D-NM-3]",
+    "isByRequest": "N",
+    "lastName": "RICHARDSON",
+    "party": "D",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/R000229?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1709/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1709/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1709/text?format=json"
+  },
+  "title": "Dietary Supplement Health and Education Act of 1993",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1709/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:34:03Z"
+ },
+ "request": {
+  "billNumber": "1709",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

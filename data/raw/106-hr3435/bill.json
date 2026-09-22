@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3435/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3435/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3435/cosponsors?format=json"
+  },
+  "introducedDate": "1999-11-17",
+  "latestAction": {
+   "actionDate": "1999-12-02",
+   "text": "Referred to the Subcommittee on Financial Institutions and Consumer Credit."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/3435",
+  "number": "3435",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000669",
+    "district": 2,
+    "firstName": "JACK",
+    "fullName": "Rep. Metcalf, Jack [R-WA-2]",
+    "isByRequest": "N",
+    "lastName": "METCALF",
+    "party": "R",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/M000669?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 25,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3435/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3435/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3435/text?format=json"
+  },
+  "title": "Credit Cost Reduction Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3435/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:19:13Z",
+  "updateDateIncludingText": "2025-08-20T14:19:13Z"
+ },
+ "request": {
+  "billNumber": "3435",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

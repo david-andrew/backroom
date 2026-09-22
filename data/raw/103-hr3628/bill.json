@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3628/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3628/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3628/cosponsors?format=json"
+  },
+  "introducedDate": "1993-11-22",
+  "latestAction": {
+   "actionDate": "1993-12-08",
+   "text": "Referred to the Subcommittee on Administrative Law and Governmental Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/3628",
+  "number": "3628",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000312",
+    "district": 1,
+    "firstName": "JIM",
+    "fullName": "Rep. Chapman, Jim [D-TX-1]",
+    "isByRequest": "N",
+    "lastName": "CHAPMAN",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/C000312?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3628/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3628/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3628/text?format=json"
+  },
+  "title": "Regulatory Sunset Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3628/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:49:15Z",
+  "updateDateIncludingText": "2025-08-26T13:49:15Z"
+ },
+ "request": {
+  "billNumber": "3628",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

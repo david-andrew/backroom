@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4596/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4596/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 32,
+   "countIncludingWithdrawnCosponsors": 32,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4596/cosponsors?format=json"
+  },
+  "introducedDate": "2000-06-07",
+  "latestAction": {
+   "actionDate": "2000-07-17",
+   "text": "Referred to the Subcommittee on International Operations and Human Rights."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/4596",
+  "number": "4596",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "International Affairs"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000523",
+    "district": 4,
+    "firstName": "CYNTHIA",
+    "fullName": "Rep. McKinney, Cynthia A. [D-GA-4]",
+    "isByRequest": "N",
+    "lastName": "MCKINNEY",
+    "middleName": "A.",
+    "party": "D",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/M000523?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 101,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4596/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4596/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4596/text?format=json"
+  },
+  "title": "Corporate Code of Conduct Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4596/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:17:56Z",
+  "updateDateIncludingText": "2026-03-23T12:17:56Z"
+ },
+ "request": {
+  "billNumber": "4596",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

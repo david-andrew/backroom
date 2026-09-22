@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2980/actions?format=json"
+  },
+  "committees": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2980/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 31,
+   "countIncludingWithdrawnCosponsors": 31,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2980/cosponsors?format=json"
+  },
+  "introducedDate": "1999-09-30",
+  "latestAction": {
+   "actionDate": "2000-10-04",
+   "text": "Sponsor introductory remarks on measure. (CR H8776)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/2980",
+  "number": "2980",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2980/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "A000357",
+    "district": 1,
+    "firstName": "THOMAS",
+    "fullName": "Rep. Allen, Thomas H. [D-ME-1]",
+    "isByRequest": "N",
+    "lastName": "ALLEN",
+    "middleName": "H.",
+    "party": "D",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/A000357?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 57,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2980/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2980/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2980/text?format=json"
+  },
+  "title": "Clean Power Plant Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2980/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2980",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

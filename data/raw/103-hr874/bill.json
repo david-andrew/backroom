@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/103/hr/874/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/874/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/874/cosponsors?format=json"
+  },
+  "introducedDate": "1993-02-04",
+  "latestAction": {
+   "actionDate": "1993-02-24",
+   "text": "Referred to the Subcommittee on Telecommunications and Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/874",
+  "number": "874",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000141",
+    "district": 3,
+    "firstName": "Ben",
+    "fullName": "Rep. Cardin, Benjamin L. [D-MD-3]",
+    "isByRequest": "N",
+    "lastName": "Cardin",
+    "party": "D",
+    "state": "MD",
+    "url": "https://api.congress.gov/v3/member/C000141?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 72,
+   "url": "https://api.congress.gov/v3/bill/103/hr/874/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/874/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/874/text?format=json"
+  },
+  "title": "Congressional Campaign Reform Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/874/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:52:25Z",
+  "updateDateIncludingText": "2025-08-26T13:52:25Z"
+ },
+ "request": {
+  "billNumber": "874",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

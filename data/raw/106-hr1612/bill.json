@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1612/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1612/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 17,
+   "countIncludingWithdrawnCosponsors": 17,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1612/cosponsors?format=json"
+  },
+  "introducedDate": "1999-04-28",
+  "latestAction": {
+   "actionDate": "1999-05-17",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1612",
+  "number": "1612",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000034",
+    "district": 6,
+    "firstName": "FRANK",
+    "fullName": "Rep. Pallone, Frank, Jr. [D-NJ-6]",
+    "isByRequest": "N",
+    "lastName": "PALLONE",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/P000034?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 61,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1612/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1612/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1612/text?format=json"
+  },
+  "title": "Consumer Food Safety Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1612/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1612",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "bill": {
+  "actions": {
+   "count": 50,
+   "url": "https://api.congress.gov/v3/bill/103/hr/322/actions?format=json"
+  },
+  "amendments": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/103/hr/322/amendments?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/322/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 47,
+   "countIncludingWithdrawnCosponsors": 47,
+   "url": "https://api.congress.gov/v3/bill/103/hr/322/cosponsors?format=json"
+  },
+  "introducedDate": "1993-01-05",
+  "latestAction": {
+   "actionDate": "1994-06-29",
+   "text": "Conference held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/322",
+  "number": "322",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "relatedBills": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/322/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000011",
+    "district": 3,
+    "firstName": "NICK",
+    "fullName": "Rep. Rahall, Nick J., II [D-WV-3]",
+    "isByRequest": "N",
+    "lastName": "RAHALL",
+    "middleName": "J.",
+    "party": "D",
+    "state": "WV",
+    "url": "https://api.congress.gov/v3/member/R000011?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 89,
+   "url": "https://api.congress.gov/v3/bill/103/hr/322/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/322/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/322/text?format=json"
+  },
+  "title": "Hardrock Mining Reform Act of 1993",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/322/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T13:32:55Z",
+  "updateDateIncludingText": "2024-02-07T13:32:55Z"
+ },
+ "request": {
+  "billNumber": "322",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/451/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/451/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/451/cosponsors?format=json"
+  },
+  "introducedDate": "1993-01-06",
+  "latestAction": {
+   "actionDate": "1993-01-06",
+   "text": "Referred to the House Committee on House Administration."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/451",
+  "number": "451",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000794",
+    "district": 12,
+    "firstName": "JERRY",
+    "fullName": "Rep. Costello, Jerry F. [D-IL-12]",
+    "isByRequest": "N",
+    "lastName": "COSTELLO",
+    "middleName": "F.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/C000794?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/103/hr/451/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/451/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/451/text?format=json"
+  },
+  "title": "Campaign Finance System Reform Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/451/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:49:14Z",
+  "updateDateIncludingText": "2025-08-26T13:49:14Z"
+ },
+ "request": {
+  "billNumber": "451",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

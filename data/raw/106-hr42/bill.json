@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/42/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/42/committees?format=json"
+  },
+  "congress": 106,
+  "introducedDate": "1999-01-06",
+  "latestAction": {
+   "actionDate": "1999-01-06",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/42",
+  "number": "42",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/42/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001044",
+    "district": 3,
+    "firstName": "BOB",
+    "fullName": "Rep. Stump, Bob [R-AZ-3]",
+    "isByRequest": "N",
+    "lastName": "STUMP",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/S001044?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/42/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/42/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/42/text?format=json"
+  },
+  "title": "To repeal the Federal estate and gift taxes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/42/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:39:00Z"
+ },
+ "request": {
+  "billNumber": "42",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

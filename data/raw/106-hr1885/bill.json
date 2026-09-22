@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1885/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1885/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 95,
+   "countIncludingWithdrawnCosponsors": 95,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1885/cosponsors?format=json"
+  },
+  "introducedDate": "1999-05-20",
+  "latestAction": {
+   "actionDate": "2000-04-12",
+   "text": "Sponsor introductory remarks on measure. (CR H2186-2187)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1885",
+  "number": "1885",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000420",
+    "district": 1,
+    "firstName": "MARION",
+    "fullName": "Rep. Berry, Marion [D-AR-1]",
+    "isByRequest": "N",
+    "lastName": "BERRY",
+    "party": "D",
+    "state": "AR",
+    "url": "https://api.congress.gov/v3/member/B000420?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1885/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1885/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1885/text?format=json"
+  },
+  "title": "International Prescription Drug Parity Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1885/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1885",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

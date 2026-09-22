@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/166/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/166/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/166/cosponsors?format=json"
+  },
+  "introducedDate": "1999-01-06",
+  "latestAction": {
+   "actionDate": "1999-01-06",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/166",
+  "number": "166",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/166/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000270",
+    "district": 4,
+    "firstName": "RON",
+    "fullName": "Rep. Klink, Ron [D-PA-4]",
+    "isByRequest": "N",
+    "lastName": "KLINK",
+    "party": "D",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/K000270?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/166/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/166/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/166/text?format=json"
+  },
+  "title": "To repeal the Federal estate and gift taxes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/166/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T17:08:55Z",
+  "updateDateIncludingText": "2025-01-02T17:08:55Z"
+ },
+ "request": {
+  "billNumber": "166",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

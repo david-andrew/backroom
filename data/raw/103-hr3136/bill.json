@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3136/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3136/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 14,
+   "countIncludingWithdrawnCosponsors": 14,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3136/cosponsors?format=json"
+  },
+  "introducedDate": "1993-09-27",
+  "latestAction": {
+   "actionDate": "1993-10-18",
+   "text": "Referred to the Subcommittee on Consumer Credit and Insurance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/3136",
+  "number": "3136",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000272",
+    "district": 20,
+    "firstName": "HENRY",
+    "fullName": "Rep. Gonzalez, Henry B. [D-TX-20]",
+    "isByRequest": "N",
+    "lastName": "GONZALEZ",
+    "middleName": "B.",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/G000272?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3136/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3136/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3136/text?format=json"
+  },
+  "title": "Rent-To-Own Reform Act of 1993",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3136/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:51:28Z",
+  "updateDateIncludingText": "2025-08-26T13:51:28Z"
+ },
+ "request": {
+  "billNumber": "3136",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

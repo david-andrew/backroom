@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/s/2160/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/2160/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/2160/cosponsors?format=json"
+  },
+  "introducedDate": "1994-06-07",
+  "latestAction": {
+   "actionDate": "1994-06-08",
+   "text": "Sponsor introductory remarks on measure. (CR S6552-6561)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/2160",
+  "number": "2160",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000030",
+    "firstName": "JOHN",
+    "fullName": "Sen. Danforth, John C. [R-MO]",
+    "isByRequest": "N",
+    "lastName": "DANFORTH",
+    "middleName": "CLAGGETT",
+    "party": "R",
+    "state": "MO",
+    "url": "https://api.congress.gov/v3/member/D000030?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 30,
+   "url": "https://api.congress.gov/v3/bill/103/s/2160/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/2160/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/2160/text?format=json"
+  },
+  "title": "Comprehensive Tax Restructuring and Simplification Act of 1994",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/2160/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T13:49:40Z",
+  "updateDateIncludingText": "2025-08-26T13:49:40Z"
+ },
+ "request": {
+  "billNumber": "2160",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

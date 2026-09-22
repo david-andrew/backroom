@@ -1,0 +1,79 @@
+{
+ "bill": {
+  "actions": {
+   "count": 32,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3/actions?format=json"
+  },
+  "amendments": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3/amendments?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 45,
+   "countIncludingWithdrawnCosponsors": 45,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3/cosponsors?format=json"
+  },
+  "introducedDate": "1993-01-05",
+  "latestAction": {
+   "actionDate": "1993-11-22",
+   "actionTime": "13:37:28",
+   "text": "Laid on the table. See S. 3 for further action."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/3",
+  "number": "3",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000120",
+    "district": 2,
+    "firstName": "SAMUEL",
+    "fullName": "Rep. Gejdenson, Sam [D-CT-2]",
+    "isByRequest": "N",
+    "lastName": "GEJDENSON",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/G000120?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 95,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3/text?format=json"
+  },
+  "title": "House of Representatives Campaign Spending Limit and Election Reform Act of 1993",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T17:22:05Z",
+  "updateDateIncludingText": "2025-01-02T17:22:05Z"
+ },
+ "request": {
+  "billNumber": "3",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

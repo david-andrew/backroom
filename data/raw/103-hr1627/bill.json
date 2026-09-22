@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1627/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1627/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 225,
+   "countIncludingWithdrawnCosponsors": 226,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1627/cosponsors?format=json"
+  },
+  "introducedDate": "1993-04-01",
+  "latestAction": {
+   "actionDate": "1994-07-27",
+   "text": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/1627",
+  "number": "1627",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000225",
+    "district": 19,
+    "firstName": "RICHARD",
+    "fullName": "Rep. Lehman, Richard H. [D-CA-19]",
+    "isByRequest": "N",
+    "lastName": "LEHMAN",
+    "middleName": "H.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/L000225?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1627/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1627/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1627/text?format=json"
+  },
+  "title": "Food Quality Protection Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/1627/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "1627",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/103/hr/727/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/727/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 27,
+   "countIncludingWithdrawnCosponsors": 27,
+   "url": "https://api.congress.gov/v3/bill/103/hr/727/cosponsors?format=json"
+  },
+  "introducedDate": "1993-02-02",
+  "latestAction": {
+   "actionDate": "1993-02-24",
+   "text": "Referred to the Subcommittee on Health and the Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/727",
+  "number": "727",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/727/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000249",
+    "district": 5,
+    "firstName": "ROBERT",
+    "fullName": "Rep. Matsui, Robert T. [D-CA-5]",
+    "isByRequest": "N",
+    "lastName": "MATSUI",
+    "middleName": "T.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/M000249?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 56,
+   "url": "https://api.congress.gov/v3/bill/103/hr/727/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/727/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/727/text?format=json"
+  },
+  "title": "Children and Pregnant Women Health Insurance Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/727/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "727",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

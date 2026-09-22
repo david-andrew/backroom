@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/30/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/30/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/106/hr/30/cosponsors?format=json"
+  },
+  "introducedDate": "1999-01-06",
+  "latestAction": {
+   "actionDate": "1999-01-06",
+   "text": "Referred to the House Committee on Banking and Financial Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/30",
+  "number": "30",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000169",
+    "district": 1,
+    "firstName": "JIM",
+    "fullName": "Rep. Leach, James A. [R-IA-1]",
+    "isByRequest": "N",
+    "lastName": "LEACH",
+    "party": "R",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/L000169?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 32,
+   "url": "https://api.congress.gov/v3/bill/106/hr/30/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/30/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/30/text?format=json"
+  },
+  "title": "Financial Information Privacy Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/30/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:17:23Z",
+  "updateDateIncludingText": "2025-08-20T14:17:23Z"
+ },
+ "request": {
+  "billNumber": "30",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/2117/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/2117/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/2117/cosponsors?format=json"
+  },
+  "introducedDate": "2000-02-29",
+  "latestAction": {
+   "actionDate": "2000-02-29",
+   "text": "Read twice and referred to the Committee on the Judiciary. (text of measure as introduced:  CR S935)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/2117",
+  "number": "2117",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000061",
+    "firstName": "RUSSELL",
+    "fullName": "Sen. Feingold, Russell D. [D-WI]",
+    "isByRequest": "N",
+    "lastName": "FEINGOLD",
+    "middleName": "D.",
+    "party": "D",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/F000061?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/106/s/2117/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/2117/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/2117/text?format=json"
+  },
+  "title": "Consumer Credit Fair Dispute Resolution Act of 2000",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/2117/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:54:01Z"
+ },
+ "request": {
+  "billNumber": "2117",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

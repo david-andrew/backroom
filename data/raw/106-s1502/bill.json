@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/s/1502/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1502/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1502/cosponsors?format=json"
+  },
+  "introducedDate": "1999-08-05",
+  "latestAction": {
+   "actionDate": "2000-05-17",
+   "text": "Committee on Rules and Administration. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/1502",
+  "number": "1502",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000122",
+    "firstName": "John",
+    "fullName": "Sen. Reed, Jack [D-RI]",
+    "isByRequest": "N",
+    "lastName": "Reed",
+    "middleName": "F.",
+    "party": "D",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/R000122?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 35,
+   "url": "https://api.congress.gov/v3/bill/106/s/1502/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1502/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1502/text?format=json"
+  },
+  "title": "Campaign Spending Control Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/1502/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-20T14:20:38Z",
+  "updateDateIncludingText": "2025-08-20T14:20:38Z"
+ },
+ "request": {
+  "billNumber": "1502",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

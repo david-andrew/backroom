@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3206/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3206/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3206/cosponsors?format=json"
+  },
+  "introducedDate": "1999-11-03",
+  "latestAction": {
+   "actionDate": "2000-06-26",
+   "text": "Sponsor introductory remarks on measure. (CR H5088-5089)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/3206",
+  "number": "3206",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Social Welfare"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000597",
+    "district": 7,
+    "firstName": "NICK",
+    "fullName": "Rep. Smith, Nick [R-MI-7]",
+    "isByRequest": "N",
+    "lastName": "SMITH",
+    "party": "R",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/S000597?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 67,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3206/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3206/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3206/text?format=json"
+  },
+  "title": "Social Security Solvency Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3206/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-08T19:31:27Z",
+  "updateDateIncludingText": "2026-09-08T19:31:56Z"
+ },
+ "request": {
+  "billNumber": "3206",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4607/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4607/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 17,
+   "countIncludingWithdrawnCosponsors": 17,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4607/cosponsors?format=json"
+  },
+  "introducedDate": "2000-06-08",
+  "latestAction": {
+   "actionDate": "2000-06-19",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/4607",
+  "number": "4607",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000215",
+    "district": 14,
+    "firstName": "ANNA",
+    "fullName": "Rep. Eshoo, Anna G. [D-CA-14]",
+    "isByRequest": "N",
+    "lastName": "ESHOO",
+    "middleName": "G.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/E000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 42,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4607/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4607/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4607/text?format=json"
+  },
+  "title": "Medicare Prescription Drug Act of 2000",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/4607/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "4607",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

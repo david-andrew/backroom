@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1036/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1036/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 32,
+   "countIncludingWithdrawnCosponsors": 32,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1036/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-09",
+  "latestAction": {
+   "actionDate": "1999-03-16",
+   "text": "Executive Comment Requested from Interior."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1036",
+  "number": "1036",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001036",
+    "district": 22,
+    "firstName": "LOIS",
+    "fullName": "Rep. Capps, Lois [D-CA-22]",
+    "isByRequest": "N",
+    "lastName": "CAPPS",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/C001036?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1036/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1036/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1036/text?format=json"
+  },
+  "title": "Coastal States Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1036/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:18:10Z",
+  "updateDateIncludingText": "2025-08-20T14:18:10Z"
+ },
+ "request": {
+  "billNumber": "1036",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

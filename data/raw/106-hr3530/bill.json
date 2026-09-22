@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3530/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3530/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 42,
+   "countIncludingWithdrawnCosponsors": 42,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3530/cosponsors?format=json"
+  },
+  "introducedDate": "2000-01-24",
+  "latestAction": {
+   "actionDate": "2000-02-14",
+   "text": "Referred to the Subcommittee on Workforce Protections."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/3530",
+  "number": "3530",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000303",
+    "district": 22,
+    "firstName": "E.",
+    "fullName": "Rep. Shaw, E. Clay, Jr. [R-FL-22]",
+    "isByRequest": "N",
+    "lastName": "SHAW",
+    "middleName": "CLAY",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/S000303?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3530/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3530/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3530/text?format=json"
+  },
+  "title": "Home Workplace Preservation Act of 2000",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/3530/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "3530",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

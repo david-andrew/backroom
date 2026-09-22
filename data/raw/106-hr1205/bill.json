@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1205/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1205/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 18,
+   "countIncludingWithdrawnCosponsors": 18,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1205/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-18",
+  "latestAction": {
+   "actionDate": "1999-03-24",
+   "text": "Referred to the Subcommittee on Energy and Mineral Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1205",
+  "number": "1205",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001045",
+    "district": 1,
+    "firstName": "BART",
+    "fullName": "Rep. Stupak, Bart [D-MI-1]",
+    "isByRequest": "N",
+    "lastName": "STUPAK",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/S001045?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1205/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1205/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1205/text?format=json"
+  },
+  "title": "To prohibit oil and gas drilling in the Great Lakes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1205/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T17:10:09Z",
+  "updateDateIncludingText": "2025-01-02T17:10:09Z"
+ },
+ "request": {
+  "billNumber": "1205",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

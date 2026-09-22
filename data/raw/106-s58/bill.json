@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/58/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/58/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/106/s/58/cosponsors?format=json"
+  },
+  "introducedDate": "1999-01-19",
+  "latestAction": {
+   "actionDate": "1999-01-19",
+   "text": "Read twice and referred to the Committee on Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/58",
+  "number": "58",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001035",
+    "firstName": "Susan",
+    "fullName": "Sen. Collins, Susan M. [R-ME]",
+    "isByRequest": "N",
+    "lastName": "Collins",
+    "middleName": "M.",
+    "party": "R",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/C001035?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/106/s/58/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/58/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/58/text?format=json"
+  },
+  "title": "Telephone Services Fraud Prevention and Enforcement Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/58/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:05:16Z"
+ },
+ "request": {
+  "billNumber": "58",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

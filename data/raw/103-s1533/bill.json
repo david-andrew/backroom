@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/s/1533/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1533/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/103/s/1533/cosponsors?format=json"
+  },
+  "introducedDate": "1993-10-07",
+  "latestAction": {
+   "actionDate": "1994-08-16",
+   "text": "Sponsor introductory remarks on measure. (CR S11904-11905)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/1533",
+  "number": "1533",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1533/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000447",
+    "firstName": "CHESTER",
+    "fullName": "Sen. Lott, Trent [R-MS]",
+    "isByRequest": "N",
+    "lastName": "LOTT",
+    "middleName": "TRENT",
+    "party": "R",
+    "state": "MS",
+    "url": "https://api.congress.gov/v3/member/L000447?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 180,
+   "url": "https://api.congress.gov/v3/bill/103/s/1533/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1533/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1533/text?format=json"
+  },
+  "title": "Affordable Health Care Now Act of 1993",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/s/1533/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T13:50:56Z",
+  "updateDateIncludingText": "2025-08-26T13:50:56Z"
+ },
+ "request": {
+  "billNumber": "1533",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

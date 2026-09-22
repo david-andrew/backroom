@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2900/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2900/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 121,
+   "countIncludingWithdrawnCosponsors": 121,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2900/cosponsors?format=json"
+  },
+  "introducedDate": "1999-09-21",
+  "latestAction": {
+   "actionDate": "1999-10-08",
+   "text": "Referred to the Subcommittee on Health and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/2900",
+  "number": "2900",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000215",
+    "district": 29,
+    "firstName": "HENRY",
+    "fullName": "Rep. Waxman, Henry A. [D-CA-29]",
+    "isByRequest": "N",
+    "lastName": "WAXMAN",
+    "middleName": "A.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/W000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2900/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2900/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2900/text?format=json"
+  },
+  "title": "Clean Smokestacks Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2900/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-06-03T16:29:19Z",
+  "updateDateIncludingText": "2026-06-03T16:29:19Z"
+ },
+ "request": {
+  "billNumber": "2900",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

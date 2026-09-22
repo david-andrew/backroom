@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/s/7/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/7/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/103/s/7/cosponsors?format=json"
+  },
+  "introducedDate": "1993-01-21",
+  "latestAction": {
+   "actionDate": "1993-03-03",
+   "text": "Committee on Rules. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/7",
+  "number": "7",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000401",
+    "firstName": "ROBERT",
+    "fullName": "Sen. Dole, Robert J. [R-KS]",
+    "isByRequest": "N",
+    "lastName": "DOLE",
+    "middleName": "JOSEPH",
+    "party": "R",
+    "state": "KS",
+    "url": "https://api.congress.gov/v3/member/D000401?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 38,
+   "url": "https://api.congress.gov/v3/bill/103/s/7/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/7/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/7/text?format=json"
+  },
+  "title": "Comprehensive Campaign Finance Reform Act of 1993",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/7/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T13:50:07Z",
+  "updateDateIncludingText": "2025-08-26T13:50:07Z"
+ },
+ "request": {
+  "billNumber": "7",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3196/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3196/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 20,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3196/cosponsors?format=json"
+  },
+  "introducedDate": "1993-09-30",
+  "latestAction": {
+   "actionDate": "1993-09-30",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/3196",
+  "number": "3196",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000328",
+    "district": 4,
+    "firstName": "TILLIE",
+    "fullName": "Rep. Fowler, Tillie [R-FL-4]",
+    "isByRequest": "N",
+    "lastName": "FOWLER",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/F000328?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 31,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3196/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3196/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3196/text?format=json"
+  },
+  "title": "To amend the Federal Election Campaign Act of 1971, the Internal Revenue Code of 1986, and title 39, United States Code, to provide for an open, fair, and responsive electoral process, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/3196/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:39:12Z"
+ },
+ "request": {
+  "billNumber": "3196",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

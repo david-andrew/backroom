@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1233/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1233/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1233/cosponsors?format=json"
+  },
+  "introducedDate": "1999-03-23",
+  "latestAction": {
+   "actionDate": "1999-03-23",
+   "text": "Referred to the House Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/1233",
+  "number": "1233",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000480",
+    "district": 18,
+    "firstName": "NITA",
+    "fullName": "Rep. Lowey, Nita M. [D-NY-18]",
+    "isByRequest": "N",
+    "lastName": "LOWEY",
+    "middleName": "M.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/L000480?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1233/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1233/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1233/text?format=json"
+  },
+  "title": "Firearms Rights, Responsibilities, and Remedies Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/1233/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:20:38Z",
+  "updateDateIncludingText": "2025-08-20T14:20:38Z"
+ },
+ "request": {
+  "billNumber": "1233",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

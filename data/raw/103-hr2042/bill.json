@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2042/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2042/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2042/cosponsors?format=json"
+  },
+  "introducedDate": "1993-05-06",
+  "latestAction": {
+   "actionDate": "1993-05-27",
+   "text": "Referred to the Subcommittee on Labor Standards, Occupational Health and Safety."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/2042",
+  "number": "2042",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2042/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000851",
+    "district": 17,
+    "firstName": "CHARLES",
+    "fullName": "Rep. Stenholm, Charles W. [D-TX-17]",
+    "isByRequest": "N",
+    "lastName": "STENHOLM",
+    "middleName": "W.",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/S000851?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2042/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2042/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2042/text?format=json"
+  },
+  "title": "Davis-Bacon Reform Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/hr/2042/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "2042",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

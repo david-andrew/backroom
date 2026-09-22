@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/337/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/337/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/337/cosponsors?format=json"
+  },
+  "introducedDate": "1993-02-04",
+  "latestAction": {
+   "actionDate": "1993-02-04",
+   "text": "Read twice and referred to the Committee on Labor and Human Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/337",
+  "number": "337",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000468",
+    "firstName": "JESSE",
+    "fullName": "Sen. Bingaman, Jeff [D-NM]",
+    "isByRequest": "N",
+    "lastName": "BINGAMAN",
+    "middleName": "FRANCIS",
+    "party": "D",
+    "state": "NM",
+    "url": "https://api.congress.gov/v3/member/B000468?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/103/s/337/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/337/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/337/text?format=json"
+  },
+  "title": "Ethics in Referrals and Billing Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/s/337/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T13:51:00Z",
+  "updateDateIncludingText": "2025-08-26T13:51:00Z"
+ },
+ "request": {
+  "billNumber": "337",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

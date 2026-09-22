@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/103/hr/4560/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/4560/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/103/hr/4560/cosponsors?format=json"
+  },
+  "introducedDate": "1994-06-09",
+  "latestAction": {
+   "actionDate": "1994-10-04",
+   "text": "Forwarded by Subcommittee to Full Committee Without Recommendation (Amended) by the Yeas and Nays: 5 - 5."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/4560",
+  "number": "4560",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000085",
+    "district": 1,
+    "firstName": "JOHN",
+    "fullName": "Rep. Olver, John W. [D-MA-1]",
+    "isByRequest": "N",
+    "lastName": "OLVER",
+    "middleName": "W.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/O000085?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/103/hr/4560/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/4560/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/4560/text?format=json"
+  },
+  "title": "To provide the consent of Congress to the Northeast Interstate Dairy Compact.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/4560/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2021-06-02T20:03:56Z",
+  "updateDateIncludingText": "2021-06-02T20:03:56Z"
+ },
+ "request": {
+  "billNumber": "4560",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

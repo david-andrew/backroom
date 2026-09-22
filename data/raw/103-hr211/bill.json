@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/211/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/211/committees?format=json"
+  },
+  "congress": 103,
+  "introducedDate": "1993-01-05",
+  "latestAction": {
+   "actionDate": "1993-02-10",
+   "text": "Referred to the Subcommittee on Crime and Criminal Justice."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/211",
+  "number": "211",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000033",
+    "district": 10,
+    "firstName": "ANDREW",
+    "fullName": "Rep. Jacobs, Andrew, Jr. [D-IN-10]",
+    "isByRequest": "N",
+    "lastName": "JACOBS",
+    "party": "D",
+    "state": "IN",
+    "url": "https://api.congress.gov/v3/member/J000033?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/103/hr/211/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/211/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/211/text?format=json"
+  },
+  "title": "To categorize payments from lobbyists to, or on behalf of, Members of Congress as bribery under Federal criminal law.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/211/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T17:22:19Z",
+  "updateDateIncludingText": "2025-01-02T17:22:19Z"
+ },
+ "request": {
+  "billNumber": "211",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

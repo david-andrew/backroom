@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2486/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2486/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 36,
+   "countIncludingWithdrawnCosponsors": 36,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2486/cosponsors?format=json"
+  },
+  "introducedDate": "1999-07-12",
+  "latestAction": {
+   "actionDate": "1999-07-21",
+   "text": "Referred to the Subcommittee on Telecommunications, Trade, and Consumer Protection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/house-bill/2486",
+  "number": "2486",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000057",
+    "district": 10,
+    "firstName": "ELLEN",
+    "fullName": "Rep. Tauscher, Ellen O. [D-CA-10]",
+    "isByRequest": "N",
+    "lastName": "TAUSCHER",
+    "middleName": "O.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/T000057?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2486/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2486/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2486/text?format=json"
+  },
+  "title": "Infant Crib Safety Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/hr/2486/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-20T14:21:41Z",
+  "updateDateIncludingText": "2025-08-20T14:21:41Z"
+ },
+ "request": {
+  "billNumber": "2486",
+  "billType": "hr",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

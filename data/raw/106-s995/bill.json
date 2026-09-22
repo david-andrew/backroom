@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/106/s/995/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/995/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/106/s/995/cosponsors?format=json"
+  },
+  "introducedDate": "1999-05-11",
+  "latestAction": {
+   "actionDate": "1999-05-11",
+   "text": "Read twice and referred to the Committee on Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/995",
+  "number": "995",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000148",
+    "firstName": "Charles",
+    "fullName": "Sen. Schumer, Charles E. [D-NY]",
+    "isByRequest": "N",
+    "lastName": "Schumer",
+    "middleName": "E.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/S000148?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 95,
+   "url": "https://api.congress.gov/v3/bill/106/s/995/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/995/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/995/text?format=json"
+  },
+  "title": "Youth Gun Crime Enforcement Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/995/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:53:39Z"
+ },
+ "request": {
+  "billNumber": "995",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

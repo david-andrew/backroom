@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/1994/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1994/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/103/s/1994/cosponsors?format=json"
+  },
+  "introducedDate": "1994-03-25",
+  "latestAction": {
+   "actionDate": "1994-03-25",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/senate-bill/1994",
+  "number": "1994",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1994/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000606",
+    "firstName": "ROBERT",
+    "fullName": "Sen. Smith, Bob [R-NH]",
+    "isByRequest": "N",
+    "lastName": "SMITH",
+    "middleName": "C.",
+    "party": "R",
+    "state": "NH",
+    "url": "https://api.congress.gov/v3/member/S000606?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 54,
+   "url": "https://api.congress.gov/v3/bill/103/s/1994/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1994/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/s/1994/text?format=json"
+  },
+  "title": "Comprehensive Superfund Improvement Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/103/s/1994/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-26T13:49:08Z",
+  "updateDateIncludingText": "2025-08-26T13:49:08Z"
+ },
+ "request": {
+  "billNumber": "1994",
+  "billType": "s",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

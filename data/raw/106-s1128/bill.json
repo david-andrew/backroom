@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/106/s/1128/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1128/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/106/s/1128/cosponsors?format=json"
+  },
+  "introducedDate": "1999-05-26",
+  "latestAction": {
+   "actionDate": "2000-09-05",
+   "text": "Sponsor introductory remarks on measure. (CR S7998)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/1128",
+  "number": "1128",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000352",
+    "firstName": "Jon",
+    "fullName": "Sen. Kyl, Jon [R-AZ]",
+    "isByRequest": "N",
+    "lastName": "Kyl",
+    "middleName": "Llewellyn",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/K000352?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/106/s/1128/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1128/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/1128/text?format=json"
+  },
+  "title": "Estate Tax Elimination Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/1128/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-20T14:18:03Z",
+  "updateDateIncludingText": "2025-08-20T14:18:03Z"
+ },
+ "request": {
+  "billNumber": "1128",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

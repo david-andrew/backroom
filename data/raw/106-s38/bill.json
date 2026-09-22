@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/38/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/38/committees?format=json"
+  },
+  "congress": 106,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/106/s/38/cosponsors?format=json"
+  },
+  "introducedDate": "1999-01-19",
+  "latestAction": {
+   "actionDate": "1999-01-19",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/106th-congress/senate-bill/38",
+  "number": "38",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000077",
+    "firstName": "BEN",
+    "fullName": "Sen. Campbell, Ben Nighthorse [R-CO]",
+    "isByRequest": "N",
+    "lastName": "CAMPBELL",
+    "middleName": "NIGHTHORSE",
+    "party": "R",
+    "state": "CO",
+    "url": "https://api.congress.gov/v3/member/C000077?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/106/s/38/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/38/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/106/s/38/text?format=json"
+  },
+  "title": "Estate and Gift Tax Rate Reduction Act of 1999",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/106/s/38/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-20T14:19:28Z",
+  "updateDateIncludingText": "2025-08-20T14:19:28Z"
+ },
+ "request": {
+  "billNumber": "38",
+  "billType": "s",
+  "congress": "106",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

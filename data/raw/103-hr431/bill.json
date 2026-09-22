@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/103/hr/431/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/103/hr/431/committees?format=json"
+  },
+  "congress": 103,
+  "cosponsors": {
+   "count": 76,
+   "countIncludingWithdrawnCosponsors": 76,
+   "url": "https://api.congress.gov/v3/bill/103/hr/431/cosponsors?format=json"
+  },
+  "introducedDate": "1993-01-05",
+  "latestAction": {
+   "actionDate": "1994-04-12",
+   "text": "Sponsor introductory remarks on measure. (CR E621)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/103th-congress/house-bill/431",
+  "number": "431",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Civil Rights and Liberties, Minority Issues"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000215",
+    "district": 29,
+    "firstName": "HENRY",
+    "fullName": "Rep. Waxman, Henry A. [D-CA-29]",
+    "isByRequest": "N",
+    "lastName": "WAXMAN",
+    "middleName": "A.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/W000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/103/hr/431/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/431/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/103/hr/431/text?format=json"
+  },
+  "title": "Civil Rights Act of 1993",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/103/hr/431/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-26T13:51:52Z",
+  "updateDateIncludingText": "2025-08-26T13:51:52Z"
+ },
+ "request": {
+  "billNumber": "431",
+  "billType": "hr",
+  "congress": "103",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
