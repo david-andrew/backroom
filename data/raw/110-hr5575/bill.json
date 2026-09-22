@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5575/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5575/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5575/cosponsors?format=json"
+  },
+  "introducedDate": "2008-03-11",
+  "latestAction": {
+   "actionDate": "2008-03-11",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/5575",
+  "number": "5575",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000215",
+    "district": 30,
+    "firstName": "HENRY",
+    "fullName": "Rep. Waxman, Henry A. [D-CA-30]",
+    "isByRequest": "N",
+    "lastName": "WAXMAN",
+    "middleName": "A.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/W000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5575/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5575/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5575/text?format=json"
+  },
+  "title": "Moratorium on Uncontrolled Power Plants Act of 2008",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5575/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:10:21Z",
+  "updateDateIncludingText": "2025-08-14T18:10:21Z"
+ },
+ "request": {
+  "billNumber": "5575",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

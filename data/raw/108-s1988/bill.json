@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/s/1988/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1988/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1988/cosponsors?format=json"
+  },
+  "introducedDate": "2003-12-09",
+  "latestAction": {
+   "actionDate": "2003-12-09",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/1988",
+  "number": "1988",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/s/1988/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000286",
+    "firstName": "JOHN",
+    "fullName": "Sen. Edwards, John [D-NC]",
+    "isByRequest": "N",
+    "lastName": "EDWARDS",
+    "party": "D",
+    "state": "NC",
+    "url": "https://api.congress.gov/v3/member/E000286?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/108/s/1988/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1988/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1988/text?format=json"
+  },
+  "title": "Nursing Home Staffing Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/1988/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-02-10T13:36:32Z",
+  "updateDateIncludingText": "2026-02-10T13:36:32Z"
+ },
+ "request": {
+  "billNumber": "1988",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/1323/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1323/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/110/s/1323/cosponsors?format=json"
+  },
+  "introducedDate": "2007-05-07",
+  "latestAction": {
+   "actionDate": "2007-05-11",
+   "text": "Sponsor introductory remarks on measure. (CR S6011-6012)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/1323",
+  "number": "1323",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Law"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1323/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000355",
+    "firstName": "Mitch",
+    "fullName": "Sen. McConnell, Mitch [R-KY]",
+    "isByRequest": "N",
+    "lastName": "McConnell",
+    "party": "R",
+    "state": "KY",
+    "url": "https://api.congress.gov/v3/member/M000355?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/110/s/1323/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1323/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1323/text?format=json"
+  },
+  "title": "Commonsense Consumption Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/1323/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:53:23Z"
+ },
+ "request": {
+  "billNumber": "1323",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

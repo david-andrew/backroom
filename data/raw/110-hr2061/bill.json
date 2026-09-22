@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2061/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2061/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2061/cosponsors?format=json"
+  },
+  "introducedDate": "2007-04-26",
+  "latestAction": {
+   "actionDate": "2007-09-18",
+   "text": "Sponsor introductory remarks on measure. (CR H10456)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/2061",
+  "number": "2061",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000284",
+    "district": 11,
+    "firstName": "STEPHANIE",
+    "fullName": "Rep. Jones, Stephanie Tubbs [D-OH-11]",
+    "isByRequest": "N",
+    "lastName": "JONES",
+    "middleName": "TUBBS",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/J000284?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 46,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2061/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2061/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2061/text?format=json"
+  },
+  "title": "Predatory Mortgage Lending Practices Reduction Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2061/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:08:50Z",
+  "updateDateIncludingText": "2025-08-14T18:08:50Z"
+ },
+ "request": {
+  "billNumber": "2061",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

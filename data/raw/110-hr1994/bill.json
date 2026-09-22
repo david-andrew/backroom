@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1994/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1994/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1994/cosponsors?format=json"
+  },
+  "introducedDate": "2007-04-23",
+  "latestAction": {
+   "actionDate": "2007-07-09",
+   "text": "Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1994",
+  "number": "1994",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Education"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000508",
+    "district": 25,
+    "firstName": "HOWARD",
+    "fullName": "Rep. McKeon, Howard P. \"Buck\" [R-CA-25]",
+    "isByRequest": "N",
+    "lastName": "MCKEON",
+    "middleName": "P.",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/M000508?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 29,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1994/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1994/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1994/text?format=json"
+  },
+  "title": "Financial Aid Accountability and Transparency Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1994/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:44:53Z",
+  "updateDateIncludingText": "2026-03-23T12:44:53Z"
+ },
+ "request": {
+  "billNumber": "1994",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

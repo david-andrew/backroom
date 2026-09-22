@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/s/542/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/542/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/108/s/542/cosponsors?format=json"
+  },
+  "introducedDate": "2003-03-05",
+  "latestAction": {
+   "actionDate": "2003-03-05",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/542",
+  "number": "542",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000770",
+    "firstName": "Debbie",
+    "fullName": "Sen. Stabenow, Debbie [D-MI]",
+    "isByRequest": "N",
+    "lastName": "Stabenow",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/S000770?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/108/s/542/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/542/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/542/text?format=json"
+  },
+  "title": "Rx Flexibility for States Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/542/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-18T18:59:48Z",
+  "updateDateIncludingText": "2025-08-18T18:59:48Z"
+ },
+ "request": {
+  "billNumber": "542",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

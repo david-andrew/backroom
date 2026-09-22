@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/555/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/555/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/110/hr/555/cosponsors?format=json"
+  },
+  "introducedDate": "2007-01-18",
+  "latestAction": {
+   "actionDate": "2007-02-02",
+   "text": "Referred to the Subcommittee on Telecommunications and the Internet."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/555",
+  "number": "555",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000515",
+    "district": 1,
+    "firstName": "BOBBY",
+    "fullName": "Rep. Rush, Bobby L. [D-IL-1]",
+    "isByRequest": "N",
+    "lastName": "RUSH",
+    "middleName": "L.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/R000515?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/110/hr/555/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/555/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/555/text?format=json"
+  },
+  "title": "Family Telephone Connection Protection Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/555/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:08:02Z",
+  "updateDateIncludingText": "2025-08-14T18:08:02Z"
+ },
+ "request": {
+  "billNumber": "555",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

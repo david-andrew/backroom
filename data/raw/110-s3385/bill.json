@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/3385/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/3385/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/110/s/3385/cosponsors?format=json"
+  },
+  "introducedDate": "2008-07-31",
+  "latestAction": {
+   "actionDate": "2008-07-31",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text of measure as introduced: CR S7934-7941)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/3385",
+  "number": "3385",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000563",
+    "firstName": "Richard",
+    "fullName": "Sen. Durbin, Richard J. [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Durbin",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000563?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 51,
+   "url": "https://api.congress.gov/v3/bill/110/s/3385/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/3385/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/3385/text?format=json"
+  },
+  "title": "FDA Food Safety Modernization Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/3385/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T18:13:46Z",
+  "updateDateIncludingText": "2025-08-14T18:13:46Z"
+ },
+ "request": {
+  "billNumber": "3385",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

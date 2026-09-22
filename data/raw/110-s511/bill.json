@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/511/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/511/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/110/s/511/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-07",
+  "latestAction": {
+   "actionDate": "2007-02-07",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/511",
+  "number": "511",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Education"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001041",
+    "firstName": "HILLARY",
+    "fullName": "Sen. Clinton, Hillary Rodham [D-NY]",
+    "isByRequest": "N",
+    "lastName": "CLINTON",
+    "middleName": "R",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/C001041?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 21,
+   "url": "https://api.congress.gov/v3/bill/110/s/511/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/511/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/511/text?format=json"
+  },
+  "title": "Student Borrower Bill of Rights Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/511/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T18:11:51Z",
+  "updateDateIncludingText": "2025-08-14T18:11:51Z"
+ },
+ "request": {
+  "billNumber": "511",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1708/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1708/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1708/cosponsors?format=json"
+  },
+  "introducedDate": "2001-05-03",
+  "latestAction": {
+   "actionDate": "2001-05-15",
+   "text": "Referred to the Subcommittee on Health, for a period to be subsequently determined by the Chairman."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/1708",
+  "number": "1708",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000944",
+    "district": 13,
+    "firstName": "Sherrod",
+    "fullName": "Rep. Brown, Sherrod [D-OH-13]",
+    "isByRequest": "N",
+    "lastName": "Brown",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/B000944?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 40,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1708/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1708/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1708/text?format=json"
+  },
+  "title": "Affordable Prescription Drugs and Medical Inventions Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1708/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:31:07Z",
+  "updateDateIncludingText": "2025-08-19T17:31:07Z"
+ },
+ "request": {
+  "billNumber": "1708",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

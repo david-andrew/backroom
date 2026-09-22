@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1174/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1174/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 51,
+   "countIncludingWithdrawnCosponsors": 51,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1174/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-16",
+  "latestAction": {
+   "actionDate": "2007-07-19",
+   "text": "Sponsor introductory remarks on measure. (CR H8124)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1174",
+  "number": "1174",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001151",
+    "district": 18,
+    "firstName": "Tim",
+    "fullName": "Rep. Murphy, Tim [R-PA-18]",
+    "isByRequest": "N",
+    "lastName": "Murphy",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/M001151?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1174/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1174/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1174/text?format=json"
+  },
+  "title": "Healthy Hospitals Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1174/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:08:29Z",
+  "updateDateIncludingText": "2025-08-14T18:08:29Z"
+ },
+ "request": {
+  "billNumber": "1174",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

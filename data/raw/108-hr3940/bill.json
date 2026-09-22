@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3940/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3940/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3940/cosponsors?format=json"
+  },
+  "introducedDate": "2004-03-11",
+  "latestAction": {
+   "actionDate": "2004-03-30",
+   "text": "Referred to the Subcommittee on Environment and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/3940",
+  "number": "3940",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000355",
+    "district": 15,
+    "firstName": "JOHN",
+    "fullName": "Rep. Dingell, John D. [D-MI-15]",
+    "isByRequest": "N",
+    "lastName": "DINGELL",
+    "middleName": "D.",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/D000355?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3940/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3940/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3940/text?format=json"
+  },
+  "title": "To amend the Solid Waste Disposal Act to provide for secondary containment to prevent MTBE and petroleum contamination.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3940/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:26:50Z",
+  "updateDateIncludingText": "2025-01-02T16:26:50Z"
+ },
+ "request": {
+  "billNumber": "3940",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

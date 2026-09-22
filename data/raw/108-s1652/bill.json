@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/s/1652/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1652/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/108/s/1652/cosponsors?format=json"
+  },
+  "introducedDate": "2003-09-24",
+  "latestAction": {
+   "actionDate": "2003-09-24",
+   "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/1652",
+  "number": "1652",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000062",
+    "firstName": "Dianne",
+    "fullName": "Sen. Feinstein, Dianne [D-CA]",
+    "isByRequest": "N",
+    "lastName": "Feinstein",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/F000062?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/108/s/1652/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1652/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1652/text?format=json"
+  },
+  "title": "A bill to ratify the do-not-call registry provision of the Telemarketing Sales Rule, as amended by the Federal Trade Commission, effective March 31, 2003.",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/1652/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:04:49Z"
+ },
+ "request": {
+  "billNumber": "1652",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

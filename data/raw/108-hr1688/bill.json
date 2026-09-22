@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1688/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1688/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 116,
+   "countIncludingWithdrawnCosponsors": 116,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1688/cosponsors?format=json"
+  },
+  "introducedDate": "2003-04-09",
+  "latestAction": {
+   "actionDate": "2003-05-02",
+   "text": "Referred to the Subcommittee on Workforce Protections."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/1688",
+  "number": "1688",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000216",
+    "district": 3,
+    "firstName": "ROSA",
+    "fullName": "Rep. DeLauro, Rosa L. [D-CT-3]",
+    "isByRequest": "N",
+    "lastName": "DELAURO",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/D000216?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 39,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1688/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1688/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1688/text?format=json"
+  },
+  "title": "Paycheck Fairness Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1688/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "1688",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

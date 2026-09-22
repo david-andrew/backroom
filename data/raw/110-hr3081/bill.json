@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3081/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3081/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 26,
+   "countIncludingWithdrawnCosponsors": 26,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3081/cosponsors?format=json"
+  },
+  "introducedDate": "2007-07-18",
+  "latestAction": {
+   "actionDate": "2007-07-18",
+   "text": "Referred to the House Committee on Financial Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/3081",
+  "number": "3081",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Housing and Community Development"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000288",
+    "district": 5,
+    "firstName": "Keith",
+    "fullName": "Rep. Ellison, Keith [D-MN-5]",
+    "isByRequest": "N",
+    "lastName": "Ellison",
+    "party": "D",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/E000288?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3081/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3081/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3081/text?format=json"
+  },
+  "title": "Fairness for Homeowners Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3081/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:09:15Z",
+  "updateDateIncludingText": "2025-08-14T18:09:15Z"
+ },
+ "request": {
+  "billNumber": "3081",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

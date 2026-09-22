@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/2132/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2132/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/110/s/2132/cosponsors?format=json"
+  },
+  "introducedDate": "2007-10-03",
+  "latestAction": {
+   "actionDate": "2007-10-04",
+   "text": "Star Print ordered on on the bill."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/2132",
+  "number": "2132",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2132/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000167",
+    "firstName": "Barack",
+    "fullName": "Sen. Obama, Barack [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Obama",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/O000167?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/110/s/2132/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2132/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2132/text?format=json"
+  },
+  "title": "A bill to prohibit the introduction or delivery for introduction into interstate commerce of children's products that contain lead, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/2132/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:05:08Z"
+ },
+ "request": {
+  "billNumber": "2132",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

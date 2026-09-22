@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/108/s/11/actions?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/108/s/11/cosponsors?format=json"
+  },
+  "introducedDate": "2003-06-26",
+  "latestAction": {
+   "actionDate": "2003-07-09",
+   "text": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 49 - 48. Record Vote Number: 264. (consideration: CR S9083)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/11",
+  "number": "11",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000194",
+    "firstName": "JOHN",
+    "fullName": "Sen. Ensign, John [R-NV]",
+    "isByRequest": "N",
+    "lastName": "ENSIGN",
+    "party": "R",
+    "state": "NV",
+    "url": "https://api.congress.gov/v3/member/E000194?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 46,
+   "url": "https://api.congress.gov/v3/bill/108/s/11/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/11/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/11/text?format=json"
+  },
+  "title": "Patients First Act of 2003",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/s/11/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-18T19:00:33Z",
+  "updateDateIncludingText": "2025-08-18T19:00:33Z"
+ },
+ "request": {
+  "billNumber": "11",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

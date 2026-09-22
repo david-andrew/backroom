@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1861/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1861/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1861/cosponsors?format=json"
+  },
+  "introducedDate": "2003-04-29",
+  "latestAction": {
+   "actionDate": "2003-05-20",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/1861",
+  "number": "1861",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000034",
+    "district": 6,
+    "firstName": "FRANK",
+    "fullName": "Rep. Pallone, Frank, Jr. [D-NJ-6]",
+    "isByRequest": "N",
+    "lastName": "PALLONE",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/P000034?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 58,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1861/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1861/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1861/text?format=json"
+  },
+  "title": "Chemical Security Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1861/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:02:16Z",
+  "updateDateIncludingText": "2025-08-18T19:02:16Z"
+ },
+ "request": {
+  "billNumber": "1861",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

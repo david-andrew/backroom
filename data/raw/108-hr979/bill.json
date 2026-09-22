@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/108/hr/979/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/979/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 124,
+   "countIncludingWithdrawnCosponsors": 124,
+   "url": "https://api.congress.gov/v3/bill/108/hr/979/cosponsors?format=json"
+  },
+  "introducedDate": "2003-02-27",
+  "latestAction": {
+   "actionDate": "2003-03-10",
+   "text": "Executive Comment Requested from USDA."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/979",
+  "number": "979",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Public Lands and Natural Resources"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000216",
+    "district": 3,
+    "firstName": "ROSA",
+    "fullName": "Rep. DeLauro, Rosa L. [D-CT-3]",
+    "isByRequest": "N",
+    "lastName": "DELAURO",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/D000216?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 25,
+   "url": "https://api.congress.gov/v3/bill/108/hr/979/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/979/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/979/text?format=json"
+  },
+  "title": "Alaska Rainforest Conservation Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/979/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:01:11Z",
+  "updateDateIncludingText": "2025-08-18T19:01:11Z"
+ },
+ "request": {
+  "billNumber": "979",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

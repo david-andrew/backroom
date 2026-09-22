@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3093/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3093/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3093/cosponsors?format=json"
+  },
+  "introducedDate": "2003-09-16",
+  "latestAction": {
+   "actionDate": "2003-10-06",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/3093",
+  "number": "3093",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000220",
+    "district": 2,
+    "firstName": "CHARLES",
+    "fullName": "Rep. Bass, Charles F. [R-NH-2]",
+    "isByRequest": "N",
+    "lastName": "BASS",
+    "middleName": "F.",
+    "party": "R",
+    "state": "NH",
+    "url": "https://api.congress.gov/v3/member/B000220?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 66,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3093/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3093/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3093/text?format=json"
+  },
+  "title": "Clean Air Planning Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3093/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:04:52Z",
+  "updateDateIncludingText": "2025-08-18T19:04:52Z"
+ },
+ "request": {
+  "billNumber": "3093",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

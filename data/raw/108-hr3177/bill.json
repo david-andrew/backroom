@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3177/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3177/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3177/cosponsors?format=json"
+  },
+  "introducedDate": "2003-09-25",
+  "latestAction": {
+   "actionDate": "2003-10-08",
+   "text": "Referred to the Subcommittee on Social Security."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/3177",
+  "number": "3177",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Social Welfare"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000595",
+    "district": 4,
+    "firstName": "Jim",
+    "fullName": "Rep. DeMint, Jim [R-SC-4]",
+    "isByRequest": "N",
+    "lastName": "DeMint",
+    "party": "R",
+    "state": "SC",
+    "url": "https://api.congress.gov/v3/member/D000595?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 56,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3177/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3177/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3177/text?format=json"
+  },
+  "title": "Social Security Savings Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3177/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:02:42Z",
+  "updateDateIncludingText": "2025-08-18T19:02:42Z"
+ },
+ "request": {
+  "billNumber": "3177",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

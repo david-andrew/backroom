@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/110/hr/977/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/977/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/110/hr/977/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-09",
+  "latestAction": {
+   "actionDate": "2007-03-01",
+   "text": "Referred to the Subcommittee on Courts, the Internet, and Intellectual Property."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/977",
+  "number": "977",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000287",
+    "district": 31,
+    "firstName": "XAVIER",
+    "fullName": "Rep. Becerra, Xavier [D-CA-31]",
+    "isByRequest": "N",
+    "lastName": "BECERRA",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/B000287?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/110/hr/977/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/977/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/977/text?format=json"
+  },
+  "title": "Genomic Research and Accessibility Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/977/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:08:24Z",
+  "updateDateIncludingText": "2025-08-14T18:08:24Z"
+ },
+ "request": {
+  "billNumber": "977",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

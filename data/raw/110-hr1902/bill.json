@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1902/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1902/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 13,
+   "countIncludingWithdrawnCosponsors": 13,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1902/cosponsors?format=json"
+  },
+  "introducedDate": "2007-04-17",
+  "latestAction": {
+   "actionDate": "2007-05-04",
+   "text": "Referred to the Subcommittee on Courts, the Internet, and Intellectual Property."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1902",
+  "number": "1902",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000515",
+    "district": 1,
+    "firstName": "BOBBY",
+    "fullName": "Rep. Rush, Bobby L. [D-IL-1]",
+    "isByRequest": "N",
+    "lastName": "RUSH",
+    "middleName": "L.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/R000515?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1902/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1902/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1902/text?format=json"
+  },
+  "title": "Protecting Consumer Access to Generic Drugs Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1902/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:08:45Z",
+  "updateDateIncludingText": "2025-08-14T18:08:45Z"
+ },
+ "request": {
+  "billNumber": "1902",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

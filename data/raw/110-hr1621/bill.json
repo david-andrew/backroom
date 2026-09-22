@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1621/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1621/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 125,
+   "countIncludingWithdrawnCosponsors": 125,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1621/cosponsors?format=json"
+  },
+  "introducedDate": "2007-03-21",
+  "latestAction": {
+   "actionDate": "2007-03-22",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1621",
+  "number": "1621",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1621/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000096",
+    "district": 7,
+    "firstName": "DANNY",
+    "fullName": "Rep. Davis, Danny K. [D-IL-7]",
+    "isByRequest": "N",
+    "lastName": "DAVIS",
+    "middleName": "K.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000096?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 33,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1621/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1621/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1621/text?format=json"
+  },
+  "title": "Community Choice Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1621/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T19:48:10Z",
+  "updateDateIncludingText": "2025-12-05T19:48:10Z"
+ },
+ "request": {
+  "billNumber": "1621",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

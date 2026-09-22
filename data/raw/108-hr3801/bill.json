@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3801/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3801/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 75,
+   "countIncludingWithdrawnCosponsors": 75,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3801/cosponsors?format=json"
+  },
+  "introducedDate": "2004-02-11",
+  "latestAction": {
+   "actionDate": "2004-02-11",
+   "text": "Referred to the House Committee on House Administration."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/3801",
+  "number": "3801",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3801/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000208",
+    "district": 6,
+    "firstName": "ROSCOE",
+    "fullName": "Rep. Bartlett, Roscoe G. [R-MD-6]",
+    "isByRequest": "N",
+    "lastName": "BARTLETT",
+    "middleName": "G.",
+    "party": "R",
+    "state": "MD",
+    "url": "https://api.congress.gov/v3/member/B000208?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3801/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3801/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3801/text?format=json"
+  },
+  "title": "First Amendment Restoration Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3801/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:00:12Z",
+  "updateDateIncludingText": "2025-08-18T19:00:12Z"
+ },
+ "request": {
+  "billNumber": "3801",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

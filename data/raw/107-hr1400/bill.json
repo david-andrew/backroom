@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1400/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1400/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 127,
+   "countIncludingWithdrawnCosponsors": 127,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1400/cosponsors?format=json"
+  },
+  "introducedDate": "2001-04-04",
+  "latestAction": {
+   "actionDate": "2001-04-25",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/1400",
+  "number": "1400",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "A000357",
+    "district": 1,
+    "firstName": "THOMAS",
+    "fullName": "Rep. Allen, Thomas H. [D-ME-1]",
+    "isByRequest": "N",
+    "lastName": "ALLEN",
+    "middleName": "H.",
+    "party": "D",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/A000357?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 25,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1400/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1400/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1400/text?format=json"
+  },
+  "title": "Prescription Drug Fairness for Seniors Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1400/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:29:11Z",
+  "updateDateIncludingText": "2025-08-19T17:29:11Z"
+ },
+ "request": {
+  "billNumber": "1400",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

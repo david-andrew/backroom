@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/210/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/210/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/108/hr/210/cosponsors?format=json"
+  },
+  "introducedDate": "2003-01-07",
+  "latestAction": {
+   "actionDate": "2003-01-07",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/210",
+  "number": "210",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000462",
+    "district": 12,
+    "firstName": "PATRICK",
+    "fullName": "Rep. Tiberi, Patrick J. [R-OH-12]",
+    "isByRequest": "N",
+    "lastName": "TIBERI",
+    "middleName": "J.",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/T000462?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/108/hr/210/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/210/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/210/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to accelerate the individual income tax rate cuts made by the Economic Growth and Tax Relief Reconciliation Act of 2001 and to make permanent all tax cuts made by that Act.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/hr/210/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T13:28:17Z",
+  "updateDateIncludingText": "2025-04-07T13:28:17Z"
+ },
+ "request": {
+  "billNumber": "210",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

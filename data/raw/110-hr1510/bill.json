@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1510/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1510/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1510/cosponsors?format=json"
+  },
+  "introducedDate": "2007-03-13",
+  "latestAction": {
+   "actionDate": "2007-03-13",
+   "text": "Referred to the House Committee on Financial Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1510",
+  "number": "1510",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000523",
+    "district": 4,
+    "firstName": "DAVID",
+    "fullName": "Rep. Price, David E. [D-NC-4]",
+    "isByRequest": "N",
+    "lastName": "PRICE",
+    "middleName": "E.",
+    "party": "D",
+    "state": "NC",
+    "url": "https://api.congress.gov/v3/member/P000523?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1510/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1510/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1510/text?format=json"
+  },
+  "title": "Credit Card Repayment Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1510/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:08:33Z",
+  "updateDateIncludingText": "2025-08-14T18:08:33Z"
+ },
+ "request": {
+  "billNumber": "1510",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

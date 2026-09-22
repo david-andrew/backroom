@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3010/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3010/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 103,
+   "countIncludingWithdrawnCosponsors": 103,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3010/cosponsors?format=json"
+  },
+  "introducedDate": "2007-07-12",
+  "latestAction": {
+   "actionDate": "2008-07-15",
+   "text": "Forwarded by Subcommittee to Full Committee by Voice Vote ."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/3010",
+  "number": "3010",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Law"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3010/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000288",
+    "district": 4,
+    "firstName": "Henry",
+    "fullName": "Rep. Johnson, Henry C. \"Hank,\" Jr. [D-GA-4]",
+    "isByRequest": "N",
+    "lastName": "Johnson",
+    "middleName": "C. \"Hank\"",
+    "party": "D",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/J000288?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3010/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3010/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3010/text?format=json"
+  },
+  "title": "Arbitration Fairness Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3010/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T14:47:27Z",
+  "updateDateIncludingText": "2025-12-05T14:47:27Z"
+ },
+ "request": {
+  "billNumber": "3010",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

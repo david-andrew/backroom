@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/1876/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1876/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/1876/cosponsors?format=json"
+  },
+  "introducedDate": "2007-07-25",
+  "latestAction": {
+   "actionDate": "2007-07-25",
+   "text": "Read twice and referred to the Committee on the Judiciary. (text of measure as introduced: CR S9923-9926)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/1876",
+  "number": "1876",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000444",
+    "firstName": "JOSEPH",
+    "fullName": "Sen. Biden, Joseph R., Jr. [D-DE]",
+    "isByRequest": "N",
+    "lastName": "BIDEN",
+    "middleName": "ROBINETTE",
+    "party": "D",
+    "state": "DE",
+    "url": "https://api.congress.gov/v3/member/B000444?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/110/s/1876/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1876/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1876/text?format=json"
+  },
+  "title": "National Security with Justice Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/1876/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:53:28Z"
+ },
+ "request": {
+  "billNumber": "1876",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

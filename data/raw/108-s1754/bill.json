@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/1754/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1754/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/108/s/1754/cosponsors?format=json"
+  },
+  "introducedDate": "2003-10-17",
+  "latestAction": {
+   "actionDate": "2003-10-17",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources. (text of measure as introduced: CR S12840-12845)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/1754",
+  "number": "1754",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000072",
+    "firstName": "JAMES",
+    "fullName": "Sen. Jeffords, James M. [I-VT]",
+    "isByRequest": "N",
+    "lastName": "JEFFORDS",
+    "middleName": "MERRILL",
+    "party": "I",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/J000072?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/108/s/1754/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1754/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1754/text?format=json"
+  },
+  "title": "Electric Reliability Security Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/1754/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:11:58Z"
+ },
+ "request": {
+  "billNumber": "1754",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

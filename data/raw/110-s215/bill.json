@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/215/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/215/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/110/s/215/cosponsors?format=json"
+  },
+  "introducedDate": "2007-01-09",
+  "latestAction": {
+   "actionDate": "2007-01-09",
+   "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation. (text of measure as introduced: CR S287-288)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/215",
+  "number": "215",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000432",
+    "firstName": "BYRON",
+    "fullName": "Sen. Dorgan, Byron L. [D-ND]",
+    "isByRequest": "N",
+    "lastName": "DORGAN",
+    "middleName": "LESLIE",
+    "party": "D",
+    "state": "ND",
+    "url": "https://api.congress.gov/v3/member/D000432?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/110/s/215/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/215/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/215/text?format=json"
+  },
+  "title": "Internet Freedom Preservation Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/215/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:05:00Z"
+ },
+ "request": {
+  "billNumber": "215",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

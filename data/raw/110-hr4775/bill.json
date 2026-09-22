@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4775/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4775/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 35,
+   "countIncludingWithdrawnCosponsors": 35,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4775/cosponsors?format=json"
+  },
+  "introducedDate": "2007-12-18",
+  "latestAction": {
+   "actionDate": "2008-04-25",
+   "text": "Referred to the Subcommittee on Horticulture and Organic Agriculture."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/4775",
+  "number": "4775",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000191",
+    "district": 4,
+    "firstName": "PETER",
+    "fullName": "Rep. DeFazio, Peter A. [D-OR-4]",
+    "isByRequest": "N",
+    "lastName": "DEFAZIO",
+    "middleName": "A.",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/D000191?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4775/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4775/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4775/text?format=json"
+  },
+  "title": "Compound 1080 and M-44 Elimination Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4775/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:10:02Z",
+  "updateDateIncludingText": "2025-08-14T18:10:02Z"
+ },
+ "request": {
+  "billNumber": "4775",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

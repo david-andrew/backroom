@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/1025/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1025/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/110/s/1025/cosponsors?format=json"
+  },
+  "introducedDate": "2007-03-29",
+  "latestAction": {
+   "actionDate": "2007-03-29",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/1025",
+  "number": "1025",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1025/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000286",
+    "firstName": "SAXBY",
+    "fullName": "Sen. Chambliss, Saxby [R-GA]",
+    "isByRequest": "N",
+    "lastName": "CHAMBLISS",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/C000286?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 64,
+   "url": "https://api.congress.gov/v3/bill/110/s/1025/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1025/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1025/text?format=json"
+  },
+  "title": "Fair Tax Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/1025/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-02-10T13:34:31Z",
+  "updateDateIncludingText": "2026-02-10T13:34:31Z"
+ },
+ "request": {
+  "billNumber": "1025",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1022/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1022/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 67,
+   "countIncludingWithdrawnCosponsors": 67,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1022/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-13",
+  "latestAction": {
+   "actionDate": "2007-03-19",
+   "text": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1022",
+  "number": "1022",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000309",
+    "district": 4,
+    "firstName": "CAROLYN",
+    "fullName": "Rep. McCarthy, Carolyn [D-NY-4]",
+    "isByRequest": "N",
+    "lastName": "MCCARTHY",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/M000309?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1022/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1022/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1022/text?format=json"
+  },
+  "title": "Assault Weapons Ban and Law Enforcement Protection Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1022/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:08:18Z",
+  "updateDateIncludingText": "2025-08-14T18:08:18Z"
+ },
+ "request": {
+  "billNumber": "1022",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

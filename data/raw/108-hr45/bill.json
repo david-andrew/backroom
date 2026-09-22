@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/45/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/45/committees?format=json"
+  },
+  "congress": 108,
+  "introducedDate": "2003-01-07",
+  "latestAction": {
+   "actionDate": "2003-01-07",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/45",
+  "number": "45",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000640",
+    "district": 8,
+    "firstName": "MAC",
+    "fullName": "Rep. Collins, Mac [R-GA-8]",
+    "isByRequest": "N",
+    "lastName": "COLLINS",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/C000640?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/108/hr/45/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/45/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/45/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to repeal the double taxation of corporate profits.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/hr/45/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-04-07T13:35:44Z",
+  "updateDateIncludingText": "2025-04-07T13:35:44Z"
+ },
+ "request": {
+  "billNumber": "45",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

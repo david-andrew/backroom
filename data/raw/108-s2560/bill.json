@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/2560/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/2560/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/108/s/2560/cosponsors?format=json"
+  },
+  "introducedDate": "2004-06-22",
+  "latestAction": {
+   "actionDate": "2004-06-22",
+   "text": "Read twice and referred to the Committee on the Judiciary. (text of measure as introduced: CR S7192)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/2560",
+  "number": "2560",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000338",
+    "firstName": "ORRIN",
+    "fullName": "Sen. Hatch, Orrin G. [R-UT]",
+    "isByRequest": "N",
+    "lastName": "HATCH",
+    "middleName": "GRANT",
+    "party": "R",
+    "state": "UT",
+    "url": "https://api.congress.gov/v3/member/H000338?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/108/s/2560/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/2560/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/2560/text?format=json"
+  },
+  "title": "Inducing Infringement of Copyrights Act of 2004",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/2560/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:53:17Z"
+ },
+ "request": {
+  "billNumber": "2560",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4183/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4183/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4183/cosponsors?format=json"
+  },
+  "introducedDate": "2004-04-21",
+  "latestAction": {
+   "actionDate": "2004-04-21",
+   "text": "Referred to the House Committee on Appropriations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/4183",
+  "number": "4183",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Armed Forces and National Security"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000754",
+    "district": 5,
+    "firstName": "JAMES",
+    "fullName": "Rep. Cooper, Jim [D-TN-5]",
+    "isByRequest": "N",
+    "lastName": "COOPER",
+    "middleName": "H.",
+    "party": "D",
+    "state": "TN",
+    "url": "https://api.congress.gov/v3/member/C000754?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 55,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4183/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4183/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4183/text?format=json"
+  },
+  "title": "Emergency Supplemental Appropriations Act for Military Operations in Iraq and Afghanistan, 2004",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4183/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:00:37Z",
+  "updateDateIncludingText": "2025-08-18T19:00:37Z"
+ },
+ "request": {
+  "billNumber": "4183",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

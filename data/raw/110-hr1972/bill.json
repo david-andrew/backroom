@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1972/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1972/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1972/cosponsors?format=json"
+  },
+  "introducedDate": "2007-04-19",
+  "latestAction": {
+   "actionDate": "2007-04-20",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1972",
+  "number": "1972",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "V000081",
+    "district": 12,
+    "firstName": "NYDIA",
+    "fullName": "Rep. Velazquez, Nydia M. [D-NY-12]",
+    "isByRequest": "N",
+    "lastName": "VELAZQUEZ",
+    "middleName": "M.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/V000081?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 33,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1972/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1972/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1972/text?format=json"
+  },
+  "title": "Community Environmental Equity Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1972/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-02-10T13:34:31Z",
+  "updateDateIncludingText": "2026-02-10T13:34:31Z"
+ },
+ "request": {
+  "billNumber": "1972",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

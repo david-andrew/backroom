@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5988/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5988/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5988/cosponsors?format=json"
+  },
+  "introducedDate": "2008-05-07",
+  "latestAction": {
+   "actionDate": "2008-05-07",
+   "text": "Referred to the House Committee on Financial Services."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/5988",
+  "number": "5988",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000627",
+    "district": 22,
+    "firstName": "MAURICE",
+    "fullName": "Rep. Hinchey, Maurice D. [D-NY-22]",
+    "isByRequest": "N",
+    "lastName": "HINCHEY",
+    "middleName": "D.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/H000627?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5988/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5988/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5988/text?format=json"
+  },
+  "title": "Fair and Justifiable Credit Card Interest Rate Act of 2008",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5988/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:10:40Z",
+  "updateDateIncludingText": "2025-08-14T18:10:40Z"
+ },
+ "request": {
+  "billNumber": "5988",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

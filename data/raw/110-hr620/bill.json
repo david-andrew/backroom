@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/110/hr/620/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/620/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 136,
+   "countIncludingWithdrawnCosponsors": 136,
+   "url": "https://api.congress.gov/v3/bill/110/hr/620/cosponsors?format=json"
+  },
+  "introducedDate": "2007-01-22",
+  "latestAction": {
+   "actionDate": "2007-02-07",
+   "text": "Referred to the Subcommittee on Fisheries, Wildlife, and Oceans."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/620",
+  "number": "620",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/110/hr/620/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "O000085",
+    "district": 1,
+    "firstName": "JOHN",
+    "fullName": "Rep. Olver, John W. [D-MA-1]",
+    "isByRequest": "N",
+    "lastName": "OLVER",
+    "middleName": "W.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/O000085?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 89,
+   "url": "https://api.congress.gov/v3/bill/110/hr/620/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/620/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/620/text?format=json"
+  },
+  "title": "Climate Stewardship Act of 2007",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/620/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:08:03Z",
+  "updateDateIncludingText": "2025-08-14T18:08:03Z"
+ },
+ "request": {
+  "billNumber": "620",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1111/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1111/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 144,
+   "countIncludingWithdrawnCosponsors": 144,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1111/cosponsors?format=json"
+  },
+  "introducedDate": "2001-03-20",
+  "latestAction": {
+   "actionDate": "2001-05-30",
+   "text": "Referred to the Subcommittee on Employer-Employee Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/1111",
+  "number": "1111",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1111/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000439",
+    "district": 8,
+    "firstName": "JAMES",
+    "fullName": "Rep. Greenwood, James C. [R-PA-8]",
+    "isByRequest": "N",
+    "lastName": "GREENWOOD",
+    "middleName": "C.",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/G000439?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1111/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1111/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1111/text?format=json"
+  },
+  "title": "Equity in Prescription Insurance and Contraceptive Coverage Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1111/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "1111",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

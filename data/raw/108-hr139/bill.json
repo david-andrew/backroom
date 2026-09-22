@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/139/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/139/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/139/cosponsors?format=json"
+  },
+  "introducedDate": "2003-01-07",
+  "latestAction": {
+   "actionDate": "2003-01-07",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/139",
+  "number": "139",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000477",
+    "district": 3,
+    "firstName": "SCOTT",
+    "fullName": "Rep. McInnis, Scott [R-CO-3]",
+    "isByRequest": "N",
+    "lastName": "MCINNIS",
+    "party": "R",
+    "state": "CO",
+    "url": "https://api.congress.gov/v3/member/M000477?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/108/hr/139/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/139/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/139/text?format=json"
+  },
+  "title": "Permanent Death Tax Repeal Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/139/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:00:37Z",
+  "updateDateIncludingText": "2025-08-18T19:00:37Z"
+ },
+ "request": {
+  "billNumber": "139",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

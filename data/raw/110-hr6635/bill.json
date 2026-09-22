@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6635/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6635/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 6,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6635/cosponsors?format=json"
+  },
+  "introducedDate": "2008-07-29",
+  "latestAction": {
+   "actionDate": "2008-10-03",
+   "text": "Referred to the Subcommittee on Specialty Crops, Rural Development, and Foreign Agriculture."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/6635",
+  "number": "6635",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000336",
+    "district": 10,
+    "firstName": "DENNIS",
+    "fullName": "Rep. Kucinich, Dennis J. [D-OH-10]",
+    "isByRequest": "N",
+    "lastName": "KUCINICH",
+    "middleName": "J.",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/K000336?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6635/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6635/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6635/text?format=json"
+  },
+  "title": "Genetically Engineered Safety Act",
+  "titles": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6635/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:10:51Z",
+  "updateDateIncludingText": "2025-08-14T18:10:51Z"
+ },
+ "request": {
+  "billNumber": "6635",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

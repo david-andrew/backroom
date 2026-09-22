@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/2522/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2522/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/2522/cosponsors?format=json"
+  },
+  "introducedDate": "2007-12-19",
+  "latestAction": {
+   "actionDate": "2007-12-19",
+   "text": "Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S16011-16014)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/2522",
+  "number": "2522",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2522/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000361",
+    "firstName": "JAY",
+    "fullName": "Sen. Rockefeller, John D., IV [D-WV]",
+    "isByRequest": "N",
+    "lastName": "ROCKEFELLER",
+    "party": "D",
+    "state": "WV",
+    "url": "https://api.congress.gov/v3/member/R000361?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/110/s/2522/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2522/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2522/text?format=json"
+  },
+  "title": "MediKids Health Insurance Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/2522/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-21T19:18:08Z",
+  "updateDateIncludingText": "2026-01-21T19:18:08Z"
+ },
+ "request": {
+  "billNumber": "2522",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

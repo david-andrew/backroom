@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/96/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/96/committees?format=json"
+  },
+  "congress": 110,
+  "introducedDate": "2007-01-04",
+  "latestAction": {
+   "actionDate": "2007-01-04",
+   "text": "Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S100-104)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/96",
+  "number": "96",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000148",
+    "firstName": "JOHN",
+    "fullName": "Sen. Kerry, John F. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "KERRY",
+    "middleName": "FORBES",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/K000148?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/110/s/96/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/96/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/96/text?format=json"
+  },
+  "title": "Export Products Not Jobs Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/96/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T18:11:49Z",
+  "updateDateIncludingText": "2025-08-14T18:11:49Z"
+ },
+ "request": {
+  "billNumber": "96",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

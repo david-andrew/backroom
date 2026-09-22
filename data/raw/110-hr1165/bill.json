@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1165/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1165/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1165/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-16",
+  "latestAction": {
+   "actionDate": "2007-02-27",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1165",
+  "number": "1165",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000133",
+    "district": 7,
+    "firstName": "Edward",
+    "fullName": "Rep. Markey, Edward J. [D-MA-7]",
+    "isByRequest": "N",
+    "lastName": "Markey",
+    "middleName": "J.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/M000133?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 47,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1165/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1165/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1165/text?format=json"
+  },
+  "title": "SAFE Drug Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1165/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:08:27Z",
+  "updateDateIncludingText": "2025-08-14T18:08:27Z"
+ },
+ "request": {
+  "billNumber": "1165",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

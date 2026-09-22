@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4736/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4736/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 17,
+   "countIncludingWithdrawnCosponsors": 17,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4736/cosponsors?format=json"
+  },
+  "introducedDate": "2007-12-17",
+  "latestAction": {
+   "actionDate": "2007-12-20",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/4736",
+  "number": "4736",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000447",
+    "district": 24,
+    "firstName": "Tom",
+    "fullName": "Rep. Feeney, Tom [R-FL-24]",
+    "isByRequest": "N",
+    "lastName": "Feeney",
+    "party": "R",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/F000447?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4736/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4736/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4736/text?format=json"
+  },
+  "title": "To amend part B of title XVIII of the Social Security Act to repeal limiting charges under the Medicare Program for non-participating physicians and to preempt State laws that prohibit balance billing.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4736/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-03T07:20:45Z",
+  "updateDateIncludingText": "2025-01-03T07:20:45Z"
+ },
+ "request": {
+  "billNumber": "4736",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

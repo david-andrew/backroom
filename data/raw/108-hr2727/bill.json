@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2727/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2727/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 116,
+   "countIncludingWithdrawnCosponsors": 116,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2727/cosponsors?format=json"
+  },
+  "introducedDate": "2003-07-15",
+  "latestAction": {
+   "actionDate": "2003-08-13",
+   "text": "Referred to the Subcommittee on Employer-Employee Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/2727",
+  "number": "2727",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000439",
+    "district": 8,
+    "firstName": "JAMES",
+    "fullName": "Rep. Greenwood, James C. [R-PA-8]",
+    "isByRequest": "N",
+    "lastName": "GREENWOOD",
+    "middleName": "C.",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/G000439?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2727/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2727/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2727/text?format=json"
+  },
+  "title": "Equity in Prescription Insurance and Contraceptive Coverage Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2727/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "2727",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

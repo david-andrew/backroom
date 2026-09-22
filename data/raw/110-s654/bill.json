@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/654/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/654/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/654/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-15",
+  "latestAction": {
+   "actionDate": "2007-02-15",
+   "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry. (text of measure as introduced: CR S2101-2111)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/654",
+  "number": "654",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/654/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000563",
+    "firstName": "Richard",
+    "fullName": "Sen. Durbin, Richard J. [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Durbin",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000563?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 96,
+   "url": "https://api.congress.gov/v3/bill/110/s/654/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/654/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/654/text?format=json"
+  },
+  "title": "Safe Food Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/654/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-14T13:28:50Z",
+  "updateDateIncludingText": "2026-01-14T13:28:50Z"
+ },
+ "request": {
+  "billNumber": "654",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

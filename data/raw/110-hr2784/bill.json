@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2784/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2784/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 171,
+   "countIncludingWithdrawnCosponsors": 171,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2784/cosponsors?format=json"
+  },
+  "introducedDate": "2007-06-20",
+  "latestAction": {
+   "actionDate": "2007-11-13",
+   "text": "Sponsor introductory remarks on measure. (CR H13841-13846)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/2784",
+  "number": "2784",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2784/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000263",
+    "district": 5,
+    "firstName": "JOHN",
+    "fullName": "Rep. Peterson, John E. [R-PA-5]",
+    "isByRequest": "N",
+    "lastName": "PETERSON",
+    "middleName": "E.",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/P000263?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 19,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2784/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2784/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2784/text?format=json"
+  },
+  "title": "National Environment and Energy Development Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2784/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-08T19:31:27Z",
+  "updateDateIncludingText": "2026-09-08T19:31:51Z"
+ },
+ "request": {
+  "billNumber": "2784",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

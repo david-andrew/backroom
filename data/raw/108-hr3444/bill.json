@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3444/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3444/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3444/cosponsors?format=json"
+  },
+  "introducedDate": "2003-11-05",
+  "latestAction": {
+   "actionDate": "2004-03-10",
+   "text": "Sponsor introductory remarks on measure. (CR H936)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/3444",
+  "number": "3444",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000216",
+    "district": 3,
+    "firstName": "ROSA",
+    "fullName": "Rep. DeLauro, Rosa L. [D-CT-3]",
+    "isByRequest": "N",
+    "lastName": "DELAURO",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/D000216?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3444/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3444/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3444/text?format=json"
+  },
+  "title": "Menu Education and Labeling Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3444/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:01:26Z",
+  "updateDateIncludingText": "2025-08-18T19:01:26Z"
+ },
+ "request": {
+  "billNumber": "3444",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

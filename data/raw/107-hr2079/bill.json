@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2079/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2079/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2079/cosponsors?format=json"
+  },
+  "introducedDate": "2001-06-06",
+  "latestAction": {
+   "actionDate": "2001-06-06",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/2079",
+  "number": "2079",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000404",
+    "district": 7,
+    "firstName": "JIM",
+    "fullName": "Rep. McDermott, Jim [D-WA-7]",
+    "isByRequest": "N",
+    "lastName": "MCDERMOTT",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/M000404?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2079/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2079/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2079/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to impose a windfall profits tax on electric generating facilities having excess profits.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2079/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-02-10T13:37:26Z",
+  "updateDateIncludingText": "2026-02-10T13:37:26Z"
+ },
+ "request": {
+  "billNumber": "2079",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

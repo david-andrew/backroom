@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/21/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/21/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 34,
+   "countIncludingWithdrawnCosponsors": 34,
+   "url": "https://api.congress.gov/v3/bill/110/s/21/cosponsors?format=json"
+  },
+  "introducedDate": "2007-01-04",
+  "latestAction": {
+   "actionDate": "2007-01-09",
+   "text": "Star Print ordered on the bill."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/21",
+  "number": "21",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/21/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000146",
+    "firstName": "HARRY",
+    "fullName": "Sen. Reid, Harry [D-NV]",
+    "isByRequest": "N",
+    "lastName": "REID",
+    "middleName": "M.",
+    "party": "D",
+    "state": "NV",
+    "url": "https://api.congress.gov/v3/member/R000146?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 89,
+   "url": "https://api.congress.gov/v3/bill/110/s/21/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/21/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/21/text?format=json"
+  },
+  "title": "Prevention First Act",
+  "titles": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/110/s/21/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-21T14:31:12Z",
+  "updateDateIncludingText": "2026-01-21T14:31:12Z"
+ },
+ "request": {
+  "billNumber": "21",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

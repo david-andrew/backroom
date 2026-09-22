@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1199/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1199/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 132,
+   "countIncludingWithdrawnCosponsors": 132,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1199/cosponsors?format=json"
+  },
+  "introducedDate": "2003-03-11",
+  "latestAction": {
+   "actionDate": "2003-03-24",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/1199",
+  "number": "1199",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000053",
+    "district": 15,
+    "firstName": "CHARLES",
+    "fullName": "Rep. Rangel, Charles B. [D-NY-15]",
+    "isByRequest": "N",
+    "lastName": "RANGEL",
+    "middleName": "B.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/R000053?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 89,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1199/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1199/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1199/text?format=json"
+  },
+  "title": "Medicare Rx Drug Benefit and Discount Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1199/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T18:59:56Z",
+  "updateDateIncludingText": "2025-08-18T18:59:56Z"
+ },
+ "request": {
+  "billNumber": "1199",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

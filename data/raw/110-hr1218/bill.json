@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1218/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1218/committees?format=json"
+  },
+  "congress": 110,
+  "introducedDate": "2007-02-27",
+  "latestAction": {
+   "actionDate": "2007-03-07",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1218",
+  "number": "1218",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000793",
+    "district": 1,
+    "firstName": "DAVID",
+    "fullName": "Rep. Wu, David [D-OR-1]",
+    "isByRequest": "N",
+    "lastName": "WU",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/W000793?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 36,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1218/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1218/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1218/text?format=json"
+  },
+  "title": "Medicare Prescription Drug Improvement Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1218/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:08:37Z",
+  "updateDateIncludingText": "2025-08-14T18:08:37Z"
+ },
+ "request": {
+  "billNumber": "1218",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

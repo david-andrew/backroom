@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/s/1945/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1945/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/108/s/1945/cosponsors?format=json"
+  },
+  "introducedDate": "2003-11-24",
+  "latestAction": {
+   "actionDate": "2003-11-24",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/1945",
+  "number": "1945",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1945/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000303",
+    "firstName": "JOHN",
+    "fullName": "Sen. McCain, John [R-AZ]",
+    "isByRequest": "N",
+    "lastName": "MCCAIN",
+    "middleName": "SIDNEY",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/M000303?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 40,
+   "url": "https://api.congress.gov/v3/bill/108/s/1945/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1945/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1945/text?format=json"
+  },
+  "title": "Bipartisan Patient Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/1945/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-18T19:04:04Z",
+  "updateDateIncludingText": "2025-08-18T19:04:04Z"
+ },
+ "request": {
+  "billNumber": "1945",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

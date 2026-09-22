@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/107/s/699/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/699/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/699/cosponsors?format=json"
+  },
+  "introducedDate": "2001-04-04",
+  "latestAction": {
+   "actionDate": "2001-07-30",
+   "text": "Sponsor introductory remarks on measure. (CR S8394-8395)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/699",
+  "number": "699",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "J000177",
+    "firstName": "TIM",
+    "fullName": "Sen. Johnson, Tim [D-SD]",
+    "isByRequest": "N",
+    "lastName": "JOHNSON",
+    "party": "D",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/J000177?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/107/s/699/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/699/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/699/text?format=json"
+  },
+  "title": "Prescription Drug Fairness for Seniors Act of 2001",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/107/s/699/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-19T17:30:54Z",
+  "updateDateIncludingText": "2025-08-19T17:30:54Z"
+ },
+ "request": {
+  "billNumber": "699",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/780/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/780/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/108/hr/780/cosponsors?format=json"
+  },
+  "introducedDate": "2003-02-13",
+  "latestAction": {
+   "actionDate": "2003-02-26",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/780",
+  "number": "780",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000420",
+    "district": 1,
+    "firstName": "MARION",
+    "fullName": "Rep. Berry, Marion [D-AR-1]",
+    "isByRequest": "N",
+    "lastName": "BERRY",
+    "party": "D",
+    "state": "AR",
+    "url": "https://api.congress.gov/v3/member/B000420?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/108/hr/780/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/780/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/780/text?format=json"
+  },
+  "title": "Prescription Drug Price Reduction Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/780/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:00:29Z",
+  "updateDateIncludingText": "2025-08-18T19:00:29Z"
+ },
+ "request": {
+  "billNumber": "780",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

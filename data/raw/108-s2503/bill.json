@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/2503/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/2503/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/2503/cosponsors?format=json"
+  },
+  "introducedDate": "2004-06-03",
+  "latestAction": {
+   "actionDate": "2004-06-03",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/2503",
+  "number": "2503",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/2503/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000352",
+    "firstName": "Jon",
+    "fullName": "Sen. Kyl, Jon [R-AZ]",
+    "isByRequest": "N",
+    "lastName": "Kyl",
+    "middleName": "Llewellyn",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/K000352?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/108/s/2503/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/2503/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/2503/text?format=json"
+  },
+  "title": "A bill to make permanent the reduction in taxes on dividends and capital gains.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/s/2503/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-02T16:37:10Z",
+  "updateDateIncludingText": "2025-01-02T16:37:10Z"
+ },
+ "request": {
+  "billNumber": "2503",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

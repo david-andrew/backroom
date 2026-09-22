@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1379/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1379/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1379/cosponsors?format=json"
+  },
+  "introducedDate": "2003-03-20",
+  "latestAction": {
+   "actionDate": "2003-04-10",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/1379",
+  "number": "1379",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000116",
+    "district": 51,
+    "firstName": "BOB",
+    "fullName": "Rep. Filner, Bob [D-CA-51]",
+    "isByRequest": "N",
+    "lastName": "FILNER",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/F000116?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1379/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1379/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1379/text?format=json"
+  },
+  "title": "To freeze the price of gasoline pending analysis by the Secretary of Energy of fluctuations in such price.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1379/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-15T18:51:50Z",
+  "updateDateIncludingText": "2025-01-15T18:51:50Z"
+ },
+ "request": {
+  "billNumber": "1379",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

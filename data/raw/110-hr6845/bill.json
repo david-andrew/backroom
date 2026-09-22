@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6845/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6845/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6845/cosponsors?format=json"
+  },
+  "introducedDate": "2008-09-09",
+  "latestAction": {
+   "actionDate": "2008-09-10",
+   "text": "Sponsor introductory remarks on measure. (CR E1753)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/6845",
+  "number": "6845",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000714",
+    "district": 14,
+    "firstName": "JOHN",
+    "fullName": "Rep. Conyers, John, Jr. [D-MI-14]",
+    "isByRequest": "N",
+    "lastName": "CONYERS",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/C000714?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6845/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6845/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6845/text?format=json"
+  },
+  "title": "Fair Copyright in Research Works Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6845/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:10:57Z",
+  "updateDateIncludingText": "2025-08-14T18:10:57Z"
+ },
+ "request": {
+  "billNumber": "6845",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

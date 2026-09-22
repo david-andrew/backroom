@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/656/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/656/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 18,
+   "countIncludingWithdrawnCosponsors": 18,
+   "url": "https://api.congress.gov/v3/bill/110/hr/656/cosponsors?format=json"
+  },
+  "introducedDate": "2007-01-24",
+  "latestAction": {
+   "actionDate": "2007-02-02",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/656",
+  "number": "656",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000578",
+    "district": 8,
+    "firstName": "David",
+    "fullName": "Rep. Reichert, David G. [R-WA-8]",
+    "isByRequest": "N",
+    "lastName": "Reichert",
+    "middleName": "G.",
+    "party": "R",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/R000578?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/110/hr/656/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/656/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/656/text?format=json"
+  },
+  "title": "To require higher standards of automobile fuel efficiency with the goal of reducing the amount of oil used for fuel by automobiles in the United States by 10 percent beginning in 2017, and for other purposes.",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/656/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-15T18:51:50Z",
+  "updateDateIncludingText": "2025-01-15T18:51:50Z"
+ },
+ "request": {
+  "billNumber": "656",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

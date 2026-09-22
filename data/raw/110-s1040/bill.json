@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/1040/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1040/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/1040/cosponsors?format=json"
+  },
+  "introducedDate": "2007-03-29",
+  "latestAction": {
+   "actionDate": "2007-03-29",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/1040",
+  "number": "1040",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000320",
+    "firstName": "Richard",
+    "fullName": "Sen. Shelby, Richard C. [R-AL]",
+    "isByRequest": "N",
+    "lastName": "Shelby",
+    "middleName": "C.",
+    "party": "R",
+    "state": "AL",
+    "url": "https://api.congress.gov/v3/member/S000320?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 41,
+   "url": "https://api.congress.gov/v3/bill/110/s/1040/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1040/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1040/text?format=json"
+  },
+  "title": "Tax Simplification Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/1040/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T18:12:08Z",
+  "updateDateIncludingText": "2025-08-14T18:12:08Z"
+ },
+ "request": {
+  "billNumber": "1040",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

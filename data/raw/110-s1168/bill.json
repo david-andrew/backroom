@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/1168/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1168/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1168/cosponsors?format=json"
+  },
+  "introducedDate": "2007-04-19",
+  "latestAction": {
+   "actionDate": "2007-04-19",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/1168",
+  "number": "1168",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "A000360",
+    "firstName": "Lamar",
+    "fullName": "Sen. Alexander, Lamar [R-TN]",
+    "isByRequest": "N",
+    "lastName": "Alexander",
+    "party": "R",
+    "state": "TN",
+    "url": "https://api.congress.gov/v3/member/A000360?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 35,
+   "url": "https://api.congress.gov/v3/bill/110/s/1168/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1168/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1168/text?format=json"
+  },
+  "title": "Clean Air/Climate Change Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/1168/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:13:34Z"
+ },
+ "request": {
+  "billNumber": "1168",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

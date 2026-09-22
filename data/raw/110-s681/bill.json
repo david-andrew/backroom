@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/681/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/681/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/110/s/681/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-17",
+  "latestAction": {
+   "actionDate": "2007-02-17",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/681",
+  "number": "681",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/681/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000261",
+    "firstName": "CARL",
+    "fullName": "Sen. Levin, Carl [D-MI]",
+    "isByRequest": "N",
+    "lastName": "LEVIN",
+    "middleName": "MILTON",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/L000261?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/110/s/681/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/681/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/681/text?format=json"
+  },
+  "title": "Stop Tax Haven Abuse Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/681/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-10T04:29:24Z",
+  "updateDateIncludingText": "2026-01-10T04:29:24Z"
+ },
+ "request": {
+  "billNumber": "681",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

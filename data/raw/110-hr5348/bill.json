@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5348/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5348/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5348/cosponsors?format=json"
+  },
+  "introducedDate": "2008-02-12",
+  "latestAction": {
+   "actionDate": "2008-02-18",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/5348",
+  "number": "5348",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000559",
+    "district": 2,
+    "firstName": "JAMES",
+    "fullName": "Rep. Langevin, James R. [D-RI-2]",
+    "isByRequest": "N",
+    "lastName": "LANGEVIN",
+    "middleName": "R.",
+    "party": "D",
+    "state": "RI",
+    "url": "https://api.congress.gov/v3/member/L000559?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 31,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5348/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5348/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5348/text?format=json"
+  },
+  "title": "American Health Benefits Program Act of 2008",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5348/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:10:21Z",
+  "updateDateIncludingText": "2025-08-14T18:10:21Z"
+ },
+ "request": {
+  "billNumber": "5348",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

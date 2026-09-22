@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6666/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6666/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 25,
+   "countIncludingWithdrawnCosponsors": 25,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6666/cosponsors?format=json"
+  },
+  "introducedDate": "2008-07-30",
+  "latestAction": {
+   "actionDate": "2008-07-30",
+   "text": "Referred to the House Committee on Energy and Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/6666",
+  "number": "6666",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001243",
+    "district": 7,
+    "firstName": "Marsha",
+    "fullName": "Rep. Blackburn, Marsha [R-TN-7]",
+    "isByRequest": "N",
+    "lastName": "Blackburn",
+    "party": "R",
+    "state": "TN",
+    "url": "https://api.congress.gov/v3/member/B001243?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6666/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6666/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6666/text?format=json"
+  },
+  "title": "To amend the Clean Air Act to provide that greenhouse gases are not subject to the Act, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6666/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-15T18:51:50Z",
+  "updateDateIncludingText": "2025-01-15T18:51:50Z"
+ },
+ "request": {
+  "billNumber": "6666",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

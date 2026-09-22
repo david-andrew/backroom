@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/107/s/2625/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/2625/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 30,
+   "countIncludingWithdrawnCosponsors": 30,
+   "url": "https://api.congress.gov/v3/bill/107/s/2625/cosponsors?format=json"
+  },
+  "introducedDate": "2002-06-14",
+  "latestAction": {
+   "actionDate": "2002-06-20",
+   "text": "Sponsor introductory remarks on measure. (CR S5792)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/2625",
+  "number": "2625",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000352",
+    "firstName": "DANIEL",
+    "fullName": "Sen. Graham, Bob [D-FL]",
+    "isByRequest": "N",
+    "lastName": "GRAHAM",
+    "middleName": "ROBERT",
+    "party": "D",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/G000352?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 97,
+   "url": "https://api.congress.gov/v3/bill/107/s/2625/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/2625/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/2625/text?format=json"
+  },
+  "title": "Medicare Outpatient Prescription Drug Act of 2002",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/107/s/2625/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-19T17:28:30Z",
+  "updateDateIncludingText": "2025-08-19T17:28:30Z"
+ },
+ "request": {
+  "billNumber": "2625",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

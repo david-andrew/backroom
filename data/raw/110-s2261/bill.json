@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/2261/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2261/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/2261/cosponsors?format=json"
+  },
+  "introducedDate": "2007-10-30",
+  "latestAction": {
+   "actionDate": "2007-10-30",
+   "text": "Read twice and referred to the Committee on the Judiciary. (text of measure as introduced: CR S13583-13584)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/2261",
+  "number": "2261",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000305",
+    "firstName": "HERBERT",
+    "fullName": "Sen. Kohl, Herb [D-WI]",
+    "isByRequest": "N",
+    "lastName": "KOHL",
+    "middleName": "H.",
+    "party": "D",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/K000305?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/110/s/2261/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2261/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2261/text?format=json"
+  },
+  "title": "Discount Pricing Consumer Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/2261/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:53:27Z"
+ },
+ "request": {
+  "billNumber": "2261",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

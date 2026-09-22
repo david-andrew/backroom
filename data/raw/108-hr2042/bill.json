@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2042/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2042/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 100,
+   "countIncludingWithdrawnCosponsors": 100,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2042/cosponsors?format=json"
+  },
+  "introducedDate": "2003-05-08",
+  "latestAction": {
+   "actionDate": "2003-05-20",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/2042",
+  "number": "2042",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000215",
+    "district": 30,
+    "firstName": "HENRY",
+    "fullName": "Rep. Waxman, Henry A. [D-CA-30]",
+    "isByRequest": "N",
+    "lastName": "WAXMAN",
+    "middleName": "A.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/W000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2042/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2042/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2042/text?format=json"
+  },
+  "title": "Clean Smokestacks Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2042/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:02:31Z",
+  "updateDateIncludingText": "2025-08-18T19:02:31Z"
+ },
+ "request": {
+  "billNumber": "2042",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

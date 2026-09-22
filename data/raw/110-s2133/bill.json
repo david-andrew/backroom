@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/s/2133/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2133/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/2133/cosponsors?format=json"
+  },
+  "introducedDate": "2007-10-03",
+  "latestAction": {
+   "actionDate": "2007-10-04",
+   "text": "Sponsor introductory remarks on measure. (CR S12763-12764)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/2133",
+  "number": "2133",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Housing and Community Development"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2133/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000709",
+    "firstName": "ARLEN",
+    "fullName": "Sen. Specter, Arlen [R-PA]",
+    "isByRequest": "N",
+    "lastName": "SPECTER",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/S000709?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/110/s/2133/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2133/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2133/text?format=json"
+  },
+  "title": "HOMES Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/s/2133/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:53:27Z"
+ },
+ "request": {
+  "billNumber": "2133",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

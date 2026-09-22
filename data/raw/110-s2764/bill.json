@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/110/s/2764/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/2764/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2764/cosponsors?format=json"
+  },
+  "introducedDate": "2008-03-13",
+  "latestAction": {
+   "actionDate": "2008-04-03",
+   "text": "Referred to the Committee on Veterans' Affairs."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/2764",
+  "number": "2764",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Armed Forces and National Security"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000148",
+    "firstName": "JOHN",
+    "fullName": "Sen. Kerry, John F. [D-MA]",
+    "isByRequest": "N",
+    "lastName": "KERRY",
+    "middleName": "FORBES",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/K000148?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/110/s/2764/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2764/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/2764/text?format=json"
+  },
+  "title": "A bill to amend the Servicemembers Civil Relief Act to enhance protections for servicemembers relating to mortgages and mortgage foreclosures, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/2764/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T17:07:58Z",
+  "updateDateIncludingText": "2025-01-14T17:08:37Z"
+ },
+ "request": {
+  "billNumber": "2764",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

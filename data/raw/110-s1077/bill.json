@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/1077/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1077/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/110/s/1077/cosponsors?format=json"
+  },
+  "introducedDate": "2007-04-10",
+  "latestAction": {
+   "actionDate": "2007-04-10",
+   "text": "Read twice and referred to the Committee on Foreign Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/1077",
+  "number": "1077",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "International Affairs"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/1077/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000061",
+    "firstName": "RUSSELL",
+    "fullName": "Sen. Feingold, Russell D. [D-WI]",
+    "isByRequest": "N",
+    "lastName": "FEINGOLD",
+    "middleName": "D.",
+    "party": "D",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/F000061?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/110/s/1077/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1077/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1077/text?format=json"
+  },
+  "title": "A bill to safely redeploy United States troops from Iraq.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/1077/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T19:00:46Z",
+  "updateDateIncludingText": "2025-01-14T19:02:00Z"
+ },
+ "request": {
+  "billNumber": "1077",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/255/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/255/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 18,
+   "countIncludingWithdrawnCosponsors": 18,
+   "url": "https://api.congress.gov/v3/bill/108/s/255/cosponsors?format=json"
+  },
+  "introducedDate": "2003-01-30",
+  "latestAction": {
+   "actionDate": "2003-01-30",
+   "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/255",
+  "number": "255",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/255/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000062",
+    "firstName": "Dianne",
+    "fullName": "Sen. Feinstein, Dianne [D-CA]",
+    "isByRequest": "N",
+    "lastName": "Feinstein",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/F000062?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/108/s/255/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/255/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/255/text?format=json"
+  },
+  "title": "Automobile Fuel Economy Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/255/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:04:41Z"
+ },
+ "request": {
+  "billNumber": "255",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

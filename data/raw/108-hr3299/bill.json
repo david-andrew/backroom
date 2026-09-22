@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3299/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3299/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 19,
+   "countIncludingWithdrawnCosponsors": 19,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3299/cosponsors?format=json"
+  },
+  "introducedDate": "2003-10-15",
+  "latestAction": {
+   "actionDate": "2003-10-27",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/3299",
+  "number": "3299",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000557",
+    "district": 1,
+    "firstName": "JOHN",
+    "fullName": "Rep. Larson, John B. [D-CT-1]",
+    "isByRequest": "N",
+    "lastName": "LARSON",
+    "middleName": "B.",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/L000557?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 25,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3299/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3299/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3299/text?format=json"
+  },
+  "title": "Medicare Prescription Drug Price Negotiation Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3299/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:04:01Z",
+  "updateDateIncludingText": "2025-08-18T19:04:01Z"
+ },
+ "request": {
+  "billNumber": "3299",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

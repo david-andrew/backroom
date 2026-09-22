@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/3252/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/3252/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/110/s/3252/cosponsors?format=json"
+  },
+  "introducedDate": "2008-07-10",
+  "latestAction": {
+   "actionDate": "2008-07-10",
+   "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs. (text of measure as introduced: CR S6574-6579)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/3252",
+  "number": "3252",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000388",
+    "firstName": "CHRISTOPHER",
+    "fullName": "Sen. Dodd, Christopher J. [D-CT]",
+    "isByRequest": "N",
+    "lastName": "DODD",
+    "middleName": "JOHN",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/D000388?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/110/s/3252/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/3252/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/3252/text?format=json"
+  },
+  "title": "Credit CARD Act of 2008",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/s/3252/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T18:13:35Z",
+  "updateDateIncludingText": "2025-08-14T18:13:35Z"
+ },
+ "request": {
+  "billNumber": "3252",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

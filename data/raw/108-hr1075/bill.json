@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1075/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1075/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1075/cosponsors?format=json"
+  },
+  "introducedDate": "2003-03-04",
+  "latestAction": {
+   "actionDate": "2003-03-17",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/1075",
+  "number": "1075",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001149",
+    "district": 20,
+    "firstName": "JOHN",
+    "fullName": "Rep. Sweeney, John E. [R-NY-20]",
+    "isByRequest": "N",
+    "lastName": "SWEENEY",
+    "middleName": "E.",
+    "party": "R",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/S001149?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1075/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1075/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1075/text?format=json"
+  },
+  "title": "Ephedra Public Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1075/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:01:52Z",
+  "updateDateIncludingText": "2025-08-18T19:01:52Z"
+ },
+ "request": {
+  "billNumber": "1075",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

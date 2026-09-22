@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1252/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1252/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 125,
+   "countIncludingWithdrawnCosponsors": 125,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1252/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-28",
+  "latestAction": {
+   "actionDate": "2007-06-05",
+   "text": "Referred to the Subcommittee on Healthy Families and Communities."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1252",
+  "number": "1252",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1252/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001045",
+    "district": 1,
+    "firstName": "BART",
+    "fullName": "Rep. Stupak, Bart [D-MI-1]",
+    "isByRequest": "N",
+    "lastName": "STUPAK",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/S001045?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 32,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1252/subjects?format=json"
+  },
+  "summaries": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1252/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1252/text?format=json"
+  },
+  "title": "Federal Price Gouging Prevention Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1252/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:05:07Z"
+ },
+ "request": {
+  "billNumber": "1252",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

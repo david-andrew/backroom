@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3360/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3360/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 28,
+   "countIncludingWithdrawnCosponsors": 28,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3360/cosponsors?format=json"
+  },
+  "introducedDate": "2007-08-03",
+  "latestAction": {
+   "actionDate": "2007-08-04",
+   "text": "Referred to the Subcommittee on Water Resources and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/3360",
+  "number": "3360",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001145",
+    "district": 9,
+    "firstName": "JANICE",
+    "fullName": "Rep. Schakowsky, Janice D. [D-IL-9]",
+    "isByRequest": "N",
+    "lastName": "SCHAKOWSKY",
+    "middleName": "D.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/S001145?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3360/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3360/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3360/text?format=json"
+  },
+  "title": "Great Lakes Pollution Prevention Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3360/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:09:20Z",
+  "updateDateIncludingText": "2025-08-14T18:09:20Z"
+ },
+ "request": {
+  "billNumber": "3360",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

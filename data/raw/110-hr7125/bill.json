@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/7125/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/7125/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 34,
+   "countIncludingWithdrawnCosponsors": 34,
+   "url": "https://api.congress.gov/v3/bill/110/hr/7125/cosponsors?format=json"
+  },
+  "introducedDate": "2008-09-26",
+  "latestAction": {
+   "actionDate": "2008-09-26",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/7125",
+  "number": "7125",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000191",
+    "district": 4,
+    "firstName": "PETER",
+    "fullName": "Rep. DeFazio, Peter A. [D-OR-4]",
+    "isByRequest": "N",
+    "lastName": "DEFAZIO",
+    "middleName": "A.",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/D000191?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/110/hr/7125/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/7125/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/7125/text?format=json"
+  },
+  "title": "Let Wall Street Pay for Wall Street's Illiquid Assets Act of 2008",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/7125/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:11:09Z",
+  "updateDateIncludingText": "2025-08-14T18:11:09Z"
+ },
+ "request": {
+  "billNumber": "7125",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

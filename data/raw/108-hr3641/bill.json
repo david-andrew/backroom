@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3641/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3641/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 35,
+   "countIncludingWithdrawnCosponsors": 35,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3641/cosponsors?format=json"
+  },
+  "introducedDate": "2003-11-21",
+  "latestAction": {
+   "actionDate": "2003-12-04",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/3641",
+  "number": "3641",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000266",
+    "district": 6,
+    "firstName": "JOHN",
+    "fullName": "Rep. Tierney, John F. [D-MA-6]",
+    "isByRequest": "N",
+    "lastName": "TIERNEY",
+    "middleName": "F.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/T000266?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 43,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3641/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3641/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3641/text?format=json"
+  },
+  "title": "Clean Money, Clean Elections Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3641/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:03:12Z",
+  "updateDateIncludingText": "2025-08-18T19:03:12Z"
+ },
+ "request": {
+  "billNumber": "3641",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2979/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2979/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 44,
+   "countIncludingWithdrawnCosponsors": 44,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2979/cosponsors?format=json"
+  },
+  "introducedDate": "2003-07-25",
+  "latestAction": {
+   "actionDate": "2003-08-08",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/2979",
+  "number": "2979",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000266",
+    "district": 6,
+    "firstName": "JOHN",
+    "fullName": "Rep. Tierney, John F. [D-MA-6]",
+    "isByRequest": "N",
+    "lastName": "TIERNEY",
+    "middleName": "F.",
+    "party": "D",
+    "state": "MA",
+    "url": "https://api.congress.gov/v3/member/T000266?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 36,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2979/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2979/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2979/text?format=json"
+  },
+  "title": "States' Right To Innovate in Health Care Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/2979/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:03:46Z",
+  "updateDateIncludingText": "2025-08-18T19:03:46Z"
+ },
+ "request": {
+  "billNumber": "2979",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

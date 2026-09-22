@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2215/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2215/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 22,
+   "countIncludingWithdrawnCosponsors": 22,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2215/cosponsors?format=json"
+  },
+  "introducedDate": "2007-05-08",
+  "latestAction": {
+   "actionDate": "2007-05-08",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/2215",
+  "number": "2215",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "I000026",
+    "district": 1,
+    "firstName": "JAY",
+    "fullName": "Rep. Inslee, Jay [D-WA-1]",
+    "isByRequest": "N",
+    "lastName": "INSLEE",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/I000026?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 34,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2215/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2215/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2215/text?format=json"
+  },
+  "title": "To provide a reduction in the aggregate greenhouse gas emissions per unit of energy consumed by vehicles and aircraft, and for other purposes.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2215/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-15T18:51:50Z",
+  "updateDateIncludingText": "2025-01-15T18:51:50Z"
+ },
+ "request": {
+  "billNumber": "2215",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

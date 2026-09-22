@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1590/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1590/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 155,
+   "countIncludingWithdrawnCosponsors": 155,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1590/cosponsors?format=json"
+  },
+  "introducedDate": "2007-03-20",
+  "latestAction": {
+   "actionDate": "2007-03-21",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1590",
+  "number": "1590",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000215",
+    "district": 30,
+    "firstName": "HENRY",
+    "fullName": "Rep. Waxman, Henry A. [D-CA-30]",
+    "isByRequest": "N",
+    "lastName": "WAXMAN",
+    "middleName": "A.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/W000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 33,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1590/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1590/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1590/text?format=json"
+  },
+  "title": "Safe Climate Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1590/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:08:34Z",
+  "updateDateIncludingText": "2025-08-14T18:08:34Z"
+ },
+ "request": {
+  "billNumber": "1590",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

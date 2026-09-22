@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/183/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/183/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/183/cosponsors?format=json"
+  },
+  "introducedDate": "2007-01-04",
+  "latestAction": {
+   "actionDate": "2007-01-04",
+   "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation. (text of measure as introduced: CR S169-171)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/183",
+  "number": "183",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000888",
+    "firstName": "THEODORE",
+    "fullName": "Sen. Stevens, Ted [R-AK]",
+    "isByRequest": "N",
+    "lastName": "STEVENS",
+    "middleName": "F.",
+    "party": "R",
+    "state": "AK",
+    "url": "https://api.congress.gov/v3/member/S000888?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/110/s/183/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/183/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/183/text?format=json"
+  },
+  "title": "Improved Passenger Automobile Fuel Economy Act of 2007",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/s/183/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:05:02Z"
+ },
+ "request": {
+  "billNumber": "183",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1051/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1051/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 34,
+   "countIncludingWithdrawnCosponsors": 35,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1051/cosponsors?format=json"
+  },
+  "introducedDate": "2001-03-15",
+  "latestAction": {
+   "actionDate": "2002-05-23",
+   "text": "Sponsor introductory remarks on measure. (CR E897)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/1051",
+  "number": "1051",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000556",
+    "district": 29,
+    "firstName": "JOHN",
+    "fullName": "Rep. LaFalce, John J. [D-NY-29]",
+    "isByRequest": "N",
+    "lastName": "LAFALCE",
+    "middleName": "J.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/L000556?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 37,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1051/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1051/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1051/text?format=json"
+  },
+  "title": "Predatory Lending Consumer Protection Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1051/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:30:10Z",
+  "updateDateIncludingText": "2025-08-19T17:30:10Z"
+ },
+ "request": {
+  "billNumber": "1051",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

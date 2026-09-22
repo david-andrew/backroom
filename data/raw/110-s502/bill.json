@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/502/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/502/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 43,
+   "countIncludingWithdrawnCosponsors": 43,
+   "url": "https://api.congress.gov/v3/bill/110/s/502/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-06",
+  "latestAction": {
+   "actionDate": "2007-02-06",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/502",
+  "number": "502",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/502/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000880",
+    "firstName": "Mike",
+    "fullName": "Sen. Crapo, Mike [R-ID]",
+    "isByRequest": "N",
+    "lastName": "Crapo",
+    "party": "R",
+    "state": "ID",
+    "url": "https://api.congress.gov/v3/member/C000880?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/110/s/502/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/502/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/502/text?format=json"
+  },
+  "title": "A bill to repeal the sunset on the reduction of capital gains rates for individuals and on the taxation of dividends of individuals at capital gains rates.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/502/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T18:59:41Z",
+  "updateDateIncludingText": "2025-01-14T19:05:38Z"
+ },
+ "request": {
+  "billNumber": "502",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

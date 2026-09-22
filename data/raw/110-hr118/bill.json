@@ -1,0 +1,65 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/110/hr/118/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/118/committees?format=json"
+  },
+  "congress": 110,
+  "introducedDate": "2007-01-04",
+  "latestAction": {
+   "actionDate": "2007-02-02",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/118",
+  "number": "118",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000597",
+    "district": 1,
+    "firstName": "JO ANN",
+    "fullName": "Rep. Davis, Jo Ann [R-VA-1]",
+    "isByRequest": "N",
+    "lastName": "DAVIS",
+    "party": "R",
+    "state": "VA",
+    "url": "https://api.congress.gov/v3/member/D000597?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/110/hr/118/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/118/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/118/text?format=json"
+  },
+  "title": "To amend part D of title XVIII of the Social Security Act to authorize the Secretary of Health and Human Services to negotiate prices for part D covered drugs for Medicare beneficiaries.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/118/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:38:01Z"
+ },
+ "request": {
+  "billNumber": "118",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

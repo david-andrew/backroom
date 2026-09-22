@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/27/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/27/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 6,
+   "url": "https://api.congress.gov/v3/bill/108/s/27/cosponsors?format=json"
+  },
+  "introducedDate": "2003-01-07",
+  "latestAction": {
+   "actionDate": "2003-01-07",
+   "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry. (text of measure as introduced: CR S42)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/27",
+  "number": "27",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000386",
+    "firstName": "Charles",
+    "fullName": "Sen. Grassley, Chuck [R-IA]",
+    "isByRequest": "N",
+    "lastName": "Grassley",
+    "middleName": "E.",
+    "party": "R",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/G000386?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/108/s/27/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/27/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/27/text?format=json"
+  },
+  "title": "A bill to amend the Packers and Stockyards Act, 1921, to make it unlawful for a packer to own, feed, or control livestock intended for slaughter.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/s/27/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T16:41:20Z",
+  "updateDateIncludingText": "2025-01-14T16:41:44Z"
+ },
+ "request": {
+  "billNumber": "27",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

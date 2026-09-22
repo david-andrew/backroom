@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/622/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/622/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/110/s/622/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-15",
+  "latestAction": {
+   "actionDate": "2007-02-15",
+   "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/622",
+  "number": "622",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/622/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000206",
+    "firstName": "THOMAS",
+    "fullName": "Sen. Harkin, Tom [D-IA]",
+    "isByRequest": "N",
+    "lastName": "HARKIN",
+    "middleName": "RICHARD",
+    "party": "D",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/H000206?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 26,
+   "url": "https://api.congress.gov/v3/bill/110/s/622/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/622/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/622/text?format=json"
+  },
+  "title": "Competitive and Fair Agricultural Markets Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/622/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-01-15T19:47:26Z",
+  "updateDateIncludingText": "2026-01-15T19:47:26Z"
+ },
+ "request": {
+  "billNumber": "622",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

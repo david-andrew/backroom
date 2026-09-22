@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/866/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/866/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 71,
+   "countIncludingWithdrawnCosponsors": 72,
+   "url": "https://api.congress.gov/v3/bill/110/hr/866/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-07",
+  "latestAction": {
+   "actionDate": "2007-05-18",
+   "text": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/866",
+  "number": "866",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/866/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000159",
+    "district": 10,
+    "firstName": "CHARLES",
+    "fullName": "Rep. Norwood, Charles W. [R-GA-10]",
+    "isByRequest": "N",
+    "lastName": "NORWOOD",
+    "middleName": "W.",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/N000159?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/110/hr/866/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/866/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/866/text?format=json"
+  },
+  "title": "Secret Ballot Protection Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/866/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "866",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

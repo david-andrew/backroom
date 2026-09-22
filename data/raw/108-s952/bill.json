@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/952/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/952/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/108/s/952/cosponsors?format=json"
+  },
+  "introducedDate": "2003-04-30",
+  "latestAction": {
+   "actionDate": "2003-04-30",
+   "text": "Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S5599-5600)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/952",
+  "number": "952",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001042",
+    "firstName": "JON",
+    "fullName": "Sen. Corzine, Jon S. [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "CORZINE",
+    "middleName": "S.",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/C001042?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 35,
+   "url": "https://api.congress.gov/v3/bill/108/s/952/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/952/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/952/text?format=json"
+  },
+  "title": "Patient and Physician Safety and Protection Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/952/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-18T19:00:09Z",
+  "updateDateIncludingText": "2025-08-18T19:00:09Z"
+ },
+ "request": {
+  "billNumber": "952",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

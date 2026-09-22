@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1612/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1612/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 88,
+   "countIncludingWithdrawnCosponsors": 88,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1612/cosponsors?format=json"
+  },
+  "introducedDate": "2003-04-03",
+  "latestAction": {
+   "actionDate": "2003-04-03",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/1612",
+  "number": "1612",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000948",
+    "district": 9,
+    "firstName": "KENNY",
+    "fullName": "Rep. Hulshof, Kenny C. [R-MO-9]",
+    "isByRequest": "N",
+    "lastName": "HULSHOF",
+    "middleName": "C.",
+    "party": "R",
+    "state": "MO",
+    "url": "https://api.congress.gov/v3/member/H000948?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1612/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1612/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1612/text?format=json"
+  },
+  "title": "To make permanent the tax benefits enacted by the Economic Growth and Tax Relief Reconciliation Act of 2001.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1612/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:23:10Z",
+  "updateDateIncludingText": "2025-01-02T16:23:10Z"
+ },
+ "request": {
+  "billNumber": "1612",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

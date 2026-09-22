@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5908/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5908/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 33,
+   "countIncludingWithdrawnCosponsors": 33,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5908/cosponsors?format=json"
+  },
+  "introducedDate": "2008-04-24",
+  "latestAction": {
+   "actionDate": "2008-04-24",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/5908",
+  "number": "5908",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000528",
+    "district": 2,
+    "firstName": "WALLY",
+    "fullName": "Rep. Herger, Wally [R-CA-2]",
+    "isByRequest": "N",
+    "lastName": "HERGER",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/H000528?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5908/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5908/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5908/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to provide a permanent zero percent capital gains rate for individuals and corporations.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5908/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2024-02-07T16:32:33Z",
+  "updateDateIncludingText": "2024-02-07T16:38:48Z"
+ },
+ "request": {
+  "billNumber": "5908",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/766/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/766/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 24,
+   "countIncludingWithdrawnCosponsors": 24,
+   "url": "https://api.congress.gov/v3/bill/110/s/766/cosponsors?format=json"
+  },
+  "introducedDate": "2007-03-06",
+  "latestAction": {
+   "actionDate": "2007-03-06",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/766",
+  "number": "766",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/766/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001041",
+    "firstName": "HILLARY",
+    "fullName": "Sen. Clinton, Hillary Rodham [D-NY]",
+    "isByRequest": "N",
+    "lastName": "CLINTON",
+    "middleName": "R",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/C001041?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 54,
+   "url": "https://api.congress.gov/v3/bill/110/s/766/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/766/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/766/text?format=json"
+  },
+  "title": "Paycheck Fairness Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/766/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T14:10:40Z",
+  "updateDateIncludingText": "2025-12-05T14:10:40Z"
+ },
+ "request": {
+  "billNumber": "766",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

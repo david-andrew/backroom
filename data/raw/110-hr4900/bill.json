@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4900/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4900/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 224,
+   "countIncludingWithdrawnCosponsors": 224,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4900/cosponsors?format=json"
+  },
+  "introducedDate": "2007-12-19",
+  "latestAction": {
+   "actionDate": "2008-01-14",
+   "text": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/4900",
+  "number": "4900",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Crime and Law Enforcement"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000362",
+    "district": 5,
+    "firstName": "Steve",
+    "fullName": "Rep. King, Steve [R-IA-5]",
+    "isByRequest": "N",
+    "lastName": "King",
+    "party": "R",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/K000362?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 37,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4900/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4900/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4900/text?format=json"
+  },
+  "title": "Bureau of Alcohol, Tobacco, Firearms, and Explosives Reform and Firearms Modernization Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4900/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:10:00Z",
+  "updateDateIncludingText": "2025-08-14T18:10:00Z"
+ },
+ "request": {
+  "billNumber": "4900",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

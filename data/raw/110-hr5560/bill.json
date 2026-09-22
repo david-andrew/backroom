@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5560/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5560/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 78,
+   "countIncludingWithdrawnCosponsors": 78,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5560/cosponsors?format=json"
+  },
+  "introducedDate": "2008-03-06",
+  "latestAction": {
+   "actionDate": "2008-03-06",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/5560",
+  "number": "5560",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5560/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000800",
+    "firstName": "Peter",
+    "fullName": "Rep. Welch, Peter [D-VT-At Large]",
+    "isByRequest": "N",
+    "lastName": "Welch",
+    "party": "D",
+    "state": "VT",
+    "url": "https://api.congress.gov/v3/member/W000800?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5560/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5560/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5560/text?format=json"
+  },
+  "title": "Right to Clean Vehicles Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5560/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:10:19Z",
+  "updateDateIncludingText": "2025-08-14T18:10:19Z"
+ },
+ "request": {
+  "billNumber": "5560",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

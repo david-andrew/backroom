@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/110/hr/697/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/697/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 88,
+   "countIncludingWithdrawnCosponsors": 88,
+   "url": "https://api.congress.gov/v3/bill/110/hr/697/cosponsors?format=json"
+  },
+  "introducedDate": "2007-01-24",
+  "latestAction": {
+   "actionDate": "2007-05-18",
+   "text": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/697",
+  "number": "697",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/697/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000795",
+    "district": 2,
+    "firstName": "Joe",
+    "fullName": "Rep. Wilson, Joe [R-SC-2]",
+    "isByRequest": "N",
+    "lastName": "Wilson",
+    "party": "R",
+    "state": "SC",
+    "url": "https://api.congress.gov/v3/member/W000795?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/110/hr/697/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/697/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/697/text?format=json"
+  },
+  "title": "National Right-to-Work Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/697/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "697",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

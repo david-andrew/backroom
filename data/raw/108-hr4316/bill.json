@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4316/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4316/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 31,
+   "countIncludingWithdrawnCosponsors": 31,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4316/cosponsors?format=json"
+  },
+  "introducedDate": "2004-05-06",
+  "latestAction": {
+   "actionDate": "2004-05-21",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/4316",
+  "number": "4316",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001145",
+    "district": 9,
+    "firstName": "JANICE",
+    "fullName": "Rep. Schakowsky, Janice D. [D-IL-9]",
+    "isByRequest": "N",
+    "lastName": "SCHAKOWSKY",
+    "middleName": "D.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/S001145?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 52,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4316/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4316/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4316/text?format=json"
+  },
+  "title": "Nurse Staffing Standards for Patient Safety and Quality Care Act of 2004\r",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4316/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:01:43Z",
+  "updateDateIncludingText": "2025-08-18T19:01:43Z"
+ },
+ "request": {
+  "billNumber": "4316",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

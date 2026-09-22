@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4181/actions?format=json"
+  },
+  "committees": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4181/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4181/cosponsors?format=json"
+  },
+  "introducedDate": "2007-11-14",
+  "latestAction": {
+   "actionDate": "2008-02-05",
+   "text": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/4181",
+  "number": "4181",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Social Welfare"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000444",
+    "district": 6,
+    "firstName": "JEFF",
+    "fullName": "Rep. Flake, Jeff [R-AZ-6]",
+    "isByRequest": "N",
+    "lastName": "FLAKE",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/F000444?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4181/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4181/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4181/text?format=json"
+  },
+  "title": "SMART Act of 2007",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/4181/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-08T19:31:27Z",
+  "updateDateIncludingText": "2026-09-08T19:31:51Z"
+ },
+ "request": {
+  "billNumber": "4181",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6170/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6170/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6170/cosponsors?format=json"
+  },
+  "introducedDate": "2008-06-03",
+  "latestAction": {
+   "actionDate": "2008-06-03",
+   "text": "Referred to the House Committee on Energy and Commerce."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/6170",
+  "number": "6170",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001047",
+    "district": 2,
+    "firstName": "Shelley",
+    "fullName": "Rep. Capito, Shelley Moore [R-WV-2]",
+    "isByRequest": "N",
+    "lastName": "Capito",
+    "middleName": "Moore",
+    "party": "R",
+    "state": "WV",
+    "url": "https://api.congress.gov/v3/member/C001047?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6170/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6170/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6170/text?format=json"
+  },
+  "title": "Clean Coal-Derived Fuels for Energy Security Act of 2008",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6170/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:10:33Z",
+  "updateDateIncludingText": "2025-08-14T18:10:33Z"
+ },
+ "request": {
+  "billNumber": "6170",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

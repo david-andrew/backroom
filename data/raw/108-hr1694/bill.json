@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1694/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1694/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 39,
+   "countIncludingWithdrawnCosponsors": 39,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1694/cosponsors?format=json"
+  },
+  "introducedDate": "2003-04-09",
+  "latestAction": {
+   "actionDate": "2003-04-24",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/1694",
+  "number": "1694",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001149",
+    "district": 2,
+    "firstName": "Michael",
+    "fullName": "Rep. Michaud, Michael H. [D-ME-2]",
+    "isByRequest": "N",
+    "lastName": "Michaud",
+    "middleName": "H.",
+    "party": "D",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/M001149?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1694/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1694/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1694/text?format=json"
+  },
+  "title": "America Rx Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1694/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:02:24Z",
+  "updateDateIncludingText": "2025-08-18T19:02:24Z"
+ },
+ "request": {
+  "billNumber": "1694",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

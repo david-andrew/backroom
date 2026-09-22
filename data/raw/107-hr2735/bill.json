@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2735/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2735/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 53,
+   "countIncludingWithdrawnCosponsors": 53,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2735/cosponsors?format=json"
+  },
+  "introducedDate": "2001-08-02",
+  "latestAction": {
+   "actionDate": "2001-10-03",
+   "text": "Sponsor introductory remarks on measure. (CR E1789-1790)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/2735",
+  "number": "2735",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000213",
+    "district": 6,
+    "firstName": "JOE",
+    "fullName": "Rep. Barton, Joe [R-TX-6]",
+    "isByRequest": "N",
+    "lastName": "BARTON",
+    "middleName": "L.",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/B000213?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 22,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2735/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2735/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2735/text?format=json"
+  },
+  "title": "Motor Vehicle Owners' Right to Repair Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2735/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:29:54Z",
+  "updateDateIncludingText": "2025-08-19T17:29:54Z"
+ },
+ "request": {
+  "billNumber": "2735",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

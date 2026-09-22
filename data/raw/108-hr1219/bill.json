@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1219/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1219/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1219/cosponsors?format=json"
+  },
+  "introducedDate": "2003-03-12",
+  "latestAction": {
+   "actionDate": "2003-03-24",
+   "text": "Referred to the Subcommittee on Health, for a period to be subsequently determined by the Chairman."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/1219",
+  "number": "1219",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000714",
+    "district": 14,
+    "firstName": "JOHN",
+    "fullName": "Rep. Conyers, John, Jr. [D-MI-14]",
+    "isByRequest": "N",
+    "lastName": "CONYERS",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/C000714?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 59,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1219/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1219/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1219/text?format=json"
+  },
+  "title": "Medical Malpractice and Insurance Reform Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1219/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:03:01Z",
+  "updateDateIncludingText": "2025-08-18T19:03:01Z"
+ },
+ "request": {
+  "billNumber": "1219",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

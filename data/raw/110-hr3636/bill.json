@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3636/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3636/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 16,
+   "countIncludingWithdrawnCosponsors": 16,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3636/cosponsors?format=json"
+  },
+  "introducedDate": "2007-09-24",
+  "latestAction": {
+   "actionDate": "2007-09-24",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/3636",
+  "number": "3636",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3636/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000574",
+    "district": 3,
+    "firstName": "EARL",
+    "fullName": "Rep. Blumenauer, Earl [D-OR-3]",
+    "isByRequest": "N",
+    "lastName": "BLUMENAUER",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/B000574?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3636/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3636/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3636/text?format=json"
+  },
+  "title": "Superfund Reinvestment Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3636/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T15:03:47Z",
+  "updateDateIncludingText": "2025-12-05T15:03:47Z"
+ },
+ "request": {
+  "billNumber": "3636",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

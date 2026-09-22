@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6100/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6100/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 11,
+   "countIncludingWithdrawnCosponsors": 11,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6100/cosponsors?format=json"
+  },
+  "introducedDate": "2008-05-20",
+  "latestAction": {
+   "actionDate": "2008-05-21",
+   "text": "Referred to the Subcommittee on Environment and Hazardous Materials."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/6100",
+  "number": "6100",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6100/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001153",
+    "district": 32,
+    "firstName": "HILDA",
+    "fullName": "Rep. Solis, Hilda L. [D-CA-32]",
+    "isByRequest": "N",
+    "lastName": "SOLIS",
+    "middleName": "L.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/S001153?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 31,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6100/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6100/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6100/text?format=json"
+  },
+  "title": "Kid-Safe Chemicals Act of 2008",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6100/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T20:46:14Z",
+  "updateDateIncludingText": "2025-12-05T20:46:14Z"
+ },
+ "request": {
+  "billNumber": "6100",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

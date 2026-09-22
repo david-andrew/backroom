@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1500/actions?format=json"
+  },
+  "committees": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1500/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1500/cosponsors?format=json"
+  },
+  "introducedDate": "2007-03-13",
+  "latestAction": {
+   "actionDate": "2007-03-19",
+   "text": "Referred to the Subcommittee on Energy and Mineral Resources."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1500",
+  "number": "1500",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000191",
+    "district": 4,
+    "firstName": "PETER",
+    "fullName": "Rep. DeFazio, Peter A. [D-OR-4]",
+    "isByRequest": "N",
+    "lastName": "DEFAZIO",
+    "middleName": "A.",
+    "party": "D",
+    "state": "OR",
+    "url": "https://api.congress.gov/v3/member/D000191?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 49,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1500/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1500/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1500/text?format=json"
+  },
+  "title": "Gasoline Price Stabilization Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1500/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:08:34Z",
+  "updateDateIncludingText": "2025-08-14T18:08:34Z"
+ },
+ "request": {
+  "billNumber": "1500",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

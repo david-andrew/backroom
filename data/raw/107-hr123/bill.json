@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/123/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/123/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 62,
+   "countIncludingWithdrawnCosponsors": 62,
+   "url": "https://api.congress.gov/v3/bill/107/hr/123/cosponsors?format=json"
+  },
+  "introducedDate": "2001-01-03",
+  "latestAction": {
+   "actionDate": "2001-01-03",
+   "text": "Referred to the House Committee on the Judiciary."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/123",
+  "number": "123",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Law"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000169",
+    "district": 7,
+    "firstName": "BOB",
+    "fullName": "Rep. Barr, Bob [R-GA-7]",
+    "isByRequest": "N",
+    "lastName": "BARR",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/B000169?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/107/hr/123/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/123/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/123/text?format=json"
+  },
+  "title": "Firearms Heritage  Protection Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/123/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:29:02Z",
+  "updateDateIncludingText": "2025-08-19T17:29:02Z"
+ },
+ "request": {
+  "billNumber": "123",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

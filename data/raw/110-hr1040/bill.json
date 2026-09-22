@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1040/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1040/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1040/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-14",
+  "latestAction": {
+   "actionDate": "2007-03-05",
+   "text": "Sponsor introductory remarks on measure. (CR H2160-2162)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1040",
+  "number": "1040",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1040/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001248",
+    "district": 26,
+    "firstName": "Michael",
+    "fullName": "Rep. Burgess, Michael C. [R-TX-26]",
+    "isByRequest": "N",
+    "lastName": "Burgess",
+    "middleName": "C.",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/B001248?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1040/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1040/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1040/text?format=json"
+  },
+  "title": "Freedom Flat Tax Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1040/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-10T14:59:39Z",
+  "updateDateIncludingText": "2025-12-10T14:59:39Z"
+ },
+ "request": {
+  "billNumber": "1040",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

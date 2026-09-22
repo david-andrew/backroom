@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/305/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/305/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/110/s/305/cosponsors?format=json"
+  },
+  "introducedDate": "2007-01-16",
+  "latestAction": {
+   "actionDate": "2007-01-16",
+   "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry. (text of measure as introduced: CR S601)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/305",
+  "number": "305",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Agriculture and Food"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000386",
+    "firstName": "Charles",
+    "fullName": "Sen. Grassley, Chuck [R-IA]",
+    "isByRequest": "N",
+    "lastName": "Grassley",
+    "middleName": "E.",
+    "party": "R",
+    "state": "IA",
+    "url": "https://api.congress.gov/v3/member/G000386?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/110/s/305/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/305/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/305/text?format=json"
+  },
+  "title": "A bill to amend the Packers and Stockyards Act, 1921, to make it unlawful for a packer to own, feed, or control livestock intended for slaughter.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/305/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-02-10T13:34:31Z",
+  "updateDateIncludingText": "2026-02-10T13:34:31Z"
+ },
+ "request": {
+  "billNumber": "305",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

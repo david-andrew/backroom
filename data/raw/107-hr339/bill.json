@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/107/hr/339/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/339/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/107/hr/339/cosponsors?format=json"
+  },
+  "introducedDate": "2001-01-31",
+  "latestAction": {
+   "actionDate": "2001-03-14",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/339",
+  "number": "339",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "E000179",
+    "district": 17,
+    "firstName": "ELIOT",
+    "fullName": "Rep. Engel, Eliot L. [D-NY-17]",
+    "isByRequest": "N",
+    "lastName": "ENGEL",
+    "middleName": "L.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/E000179?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 56,
+   "url": "https://api.congress.gov/v3/bill/107/hr/339/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/339/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/339/text?format=json"
+  },
+  "title": "Medicare Outpatient Prescription Drug Coverage Act of 2001",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/107/hr/339/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:28:26Z",
+  "updateDateIncludingText": "2025-08-19T17:28:26Z"
+ },
+ "request": {
+  "billNumber": "339",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

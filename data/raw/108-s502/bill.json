@@ -1,0 +1,64 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/502/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/502/committees?format=json"
+  },
+  "congress": 108,
+  "introducedDate": "2003-03-03",
+  "latestAction": {
+   "actionDate": "2003-03-03",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/502",
+  "number": "502",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000711",
+    "firstName": "BARBARA",
+    "fullName": "Sen. Boxer, Barbara [D-CA]",
+    "isByRequest": "N",
+    "lastName": "BOXER",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/B000711?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/108/s/502/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/502/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/502/text?format=json"
+  },
+  "title": "A bill to amend the Safe Drinking Water Act to designate perchlorate as a contaminant and to establish a maximum contaminant level for perchlorate.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/s/502/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:13:18Z"
+ },
+ "request": {
+  "billNumber": "502",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

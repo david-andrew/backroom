@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1606/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1606/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 17,
+   "countIncludingWithdrawnCosponsors": 17,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1606/cosponsors?format=json"
+  },
+  "introducedDate": "2003-04-03",
+  "latestAction": {
+   "actionDate": "2003-05-05",
+   "text": "Referred to the Subcommittee on Immigration, Border Security, and Claims."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/1606",
+  "number": "1606",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Immigration"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "G000280",
+    "district": 5,
+    "firstName": "VIRGIL",
+    "fullName": "Rep. Goode, Virgil H., Jr. [R-VA-5]",
+    "isByRequest": "N",
+    "lastName": "GOODE",
+    "middleName": "H.",
+    "party": "R",
+    "state": "VA",
+    "url": "https://api.congress.gov/v3/member/G000280?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1606/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1606/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1606/text?format=json"
+  },
+  "title": "Wage Equity Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1606/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-02-10T13:36:32Z",
+  "updateDateIncludingText": "2026-02-10T13:36:32Z"
+ },
+ "request": {
+  "billNumber": "1606",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

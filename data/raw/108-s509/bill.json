@@ -1,0 +1,69 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/509/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/509/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 8,
+   "countIncludingWithdrawnCosponsors": 8,
+   "url": "https://api.congress.gov/v3/bill/108/s/509/cosponsors?format=json"
+  },
+  "introducedDate": "2003-03-04",
+  "latestAction": {
+   "actionDate": "2003-03-04",
+   "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/509",
+  "number": "509",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "F000062",
+    "firstName": "Dianne",
+    "fullName": "Sen. Feinstein, Dianne [D-CA]",
+    "isByRequest": "N",
+    "lastName": "Feinstein",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/F000062?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 25,
+   "url": "https://api.congress.gov/v3/bill/108/s/509/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/509/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/509/text?format=json"
+  },
+  "title": "Energy Market Oversight Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/509/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-02-10T13:36:32Z",
+  "updateDateIncludingText": "2026-02-10T13:36:32Z"
+ },
+ "request": {
+  "billNumber": "509",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

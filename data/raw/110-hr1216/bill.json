@@ -1,0 +1,81 @@
+{
+ "bill": {
+  "actions": {
+   "count": 26,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1216/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1216/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 43,
+   "countIncludingWithdrawnCosponsors": 43,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1216/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-27",
+  "latestAction": {
+   "actionDate": "2008-02-28",
+   "text": "Became Public Law No: 110-189."
+  },
+  "laws": [
+   {
+    "number": "110-189",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1216",
+  "number": "1216",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Transportation and Public Works"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1216/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S001145",
+    "district": 9,
+    "firstName": "JANICE",
+    "fullName": "Rep. Schakowsky, Janice D. [D-IL-9]",
+    "isByRequest": "N",
+    "lastName": "SCHAKOWSKY",
+    "middleName": "D.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/S001145?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1216/subjects?format=json"
+  },
+  "summaries": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1216/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1216/text?format=json"
+  },
+  "title": "K.T. Safety Act of 2007",
+  "titles": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1216/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-08T18:03:40Z",
+  "updateDateIncludingText": "2026-09-08T18:05:12Z"
+ },
+ "request": {
+  "billNumber": "1216",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

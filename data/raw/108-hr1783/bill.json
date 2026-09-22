@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1783/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1783/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 23,
+   "countIncludingWithdrawnCosponsors": 23,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1783/cosponsors?format=json"
+  },
+  "introducedDate": "2003-04-11",
+  "latestAction": {
+   "actionDate": "2004-04-20",
+   "text": "Sponsor introductory remarks on measure. (CR H2166-2167)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/1783",
+  "number": "1783",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001248",
+    "district": 26,
+    "firstName": "Michael",
+    "fullName": "Rep. Burgess, Michael C. [R-TX-26]",
+    "isByRequest": "N",
+    "lastName": "Burgess",
+    "middleName": "C.",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/B001248?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 18,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1783/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1783/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1783/text?format=json"
+  },
+  "title": "Freedom Flat Tax Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1783/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:00:34Z",
+  "updateDateIncludingText": "2025-08-18T19:00:34Z"
+ },
+ "request": {
+  "billNumber": "1783",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

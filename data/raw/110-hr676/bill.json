@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/110/hr/676/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/676/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 93,
+   "countIncludingWithdrawnCosponsors": 93,
+   "url": "https://api.congress.gov/v3/bill/110/hr/676/cosponsors?format=json"
+  },
+  "introducedDate": "2007-01-24",
+  "latestAction": {
+   "actionDate": "2007-02-02",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/676",
+  "number": "676",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000714",
+    "district": 14,
+    "firstName": "JOHN",
+    "fullName": "Rep. Conyers, John, Jr. [D-MI-14]",
+    "isByRequest": "N",
+    "lastName": "CONYERS",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/C000714?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 120,
+   "url": "https://api.congress.gov/v3/bill/110/hr/676/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/676/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/676/text?format=json"
+  },
+  "title": "United States National Health Insurance Act (or the Expanded and Improved Medicare for All Act)",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/676/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:08:22Z",
+  "updateDateIncludingText": "2025-08-14T18:08:22Z"
+ },
+ "request": {
+  "billNumber": "676",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1496/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1496/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 4,
+   "countIncludingWithdrawnCosponsors": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1496/cosponsors?format=json"
+  },
+  "introducedDate": "2007-03-13",
+  "latestAction": {
+   "actionDate": "2007-04-20",
+   "text": "Referred to the Subcommittee on Courts, the Internet, and Intellectual Property."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1496",
+  "number": "1496",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001229",
+    "district": 3,
+    "firstName": "BRIAN",
+    "fullName": "Rep. Baird, Brian [D-WA-3]",
+    "isByRequest": "N",
+    "lastName": "BAIRD",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/B001229?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 35,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1496/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1496/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1496/text?format=json"
+  },
+  "title": "Beating Infections through Research and Development Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1496/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:08:44Z",
+  "updateDateIncludingText": "2025-08-14T18:08:44Z"
+ },
+ "request": {
+  "billNumber": "1496",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

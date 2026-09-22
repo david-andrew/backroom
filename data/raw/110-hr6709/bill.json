@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6709/actions?format=json"
+  },
+  "committees": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6709/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 141,
+   "countIncludingWithdrawnCosponsors": 141,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6709/cosponsors?format=json"
+  },
+  "introducedDate": "2008-07-31",
+  "latestAction": {
+   "actionDate": "2008-09-17",
+   "text": "Referred to the Subcommittee on Energy and Environment."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/6709",
+  "number": "6709",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "P000263",
+    "district": 5,
+    "firstName": "JOHN",
+    "fullName": "Rep. Peterson, John E. [R-PA-5]",
+    "isByRequest": "N",
+    "lastName": "PETERSON",
+    "middleName": "E.",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/P000263?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 55,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6709/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6709/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6709/text?format=json"
+  },
+  "title": "National Conservation, Environment, and Energy Independence Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6709/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-09-08T19:31:27Z",
+  "updateDateIncludingText": "2026-09-08T19:31:52Z"
+ },
+ "request": {
+  "billNumber": "6709",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

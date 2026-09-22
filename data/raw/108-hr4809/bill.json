@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4809/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4809/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4809/cosponsors?format=json"
+  },
+  "introducedDate": "2004-07-09",
+  "latestAction": {
+   "actionDate": "2004-07-09",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/4809",
+  "number": "4809",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4809/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "R000570",
+    "district": 1,
+    "firstName": "PAUL",
+    "fullName": "Rep. Ryan, Paul [R-WI-1]",
+    "isByRequest": "N",
+    "lastName": "RYAN",
+    "party": "R",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/R000570?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4809/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4809/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4809/text?format=json"
+  },
+  "title": "Investment Tax Increase Prevention Act of 2004",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4809/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:04:31Z",
+  "updateDateIncludingText": "2025-08-18T19:04:31Z"
+ },
+ "request": {
+  "billNumber": "4809",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

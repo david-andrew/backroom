@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/999/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/999/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/999/cosponsors?format=json"
+  },
+  "introducedDate": "2003-02-27",
+  "latestAction": {
+   "actionDate": "2003-03-17",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/999",
+  "number": "999",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/999/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000213",
+    "district": 6,
+    "firstName": "JOE",
+    "fullName": "Rep. Barton, Joe [R-TX-6]",
+    "isByRequest": "Y",
+    "lastName": "BARTON",
+    "middleName": "L.",
+    "party": "R",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/B000213?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 59,
+   "url": "https://api.congress.gov/v3/bill/108/hr/999/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/999/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/999/text?format=json"
+  },
+  "title": "Clear Skies Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/999/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:01:46Z",
+  "updateDateIncludingText": "2025-08-18T19:01:46Z"
+ },
+ "request": {
+  "billNumber": "999",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

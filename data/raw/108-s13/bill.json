@@ -1,0 +1,66 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/13/actions?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 17,
+   "countIncludingWithdrawnCosponsors": 17,
+   "url": "https://api.congress.gov/v3/bill/108/s/13/cosponsors?format=json"
+  },
+  "introducedDate": "2003-02-14",
+  "latestAction": {
+   "actionDate": "2003-02-24",
+   "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 20."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/13",
+  "number": "13",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000352",
+    "firstName": "Jon",
+    "fullName": "Sen. Kyl, Jon [R-AZ]",
+    "isByRequest": "N",
+    "lastName": "Kyl",
+    "middleName": "Llewellyn",
+    "party": "R",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/K000352?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/108/s/13/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/13/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/s/13/text?format=json"
+  },
+  "title": "Death Tax Fairness Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/13/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-18T19:01:47Z",
+  "updateDateIncludingText": "2025-08-18T19:01:47Z"
+ },
+ "request": {
+  "billNumber": "13",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/s/76/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/76/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 20,
+   "countIncludingWithdrawnCosponsors": 20,
+   "url": "https://api.congress.gov/v3/bill/108/s/76/cosponsors?format=json"
+  },
+  "introducedDate": "2003-01-07",
+  "latestAction": {
+   "actionDate": "2003-01-07",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/76",
+  "number": "76",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000064",
+    "firstName": "THOMAS",
+    "fullName": "Sen. Daschle, Thomas A. [D-SD]",
+    "isByRequest": "N",
+    "lastName": "DASCHLE",
+    "middleName": "ANDREW",
+    "party": "D",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/D000064?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 36,
+   "url": "https://api.congress.gov/v3/bill/108/s/76/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/76/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/76/text?format=json"
+  },
+  "title": "Paycheck Fairness Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/76/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-18T19:01:42Z",
+  "updateDateIncludingText": "2025-08-18T19:01:42Z"
+ },
+ "request": {
+  "billNumber": "76",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

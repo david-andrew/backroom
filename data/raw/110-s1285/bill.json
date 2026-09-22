@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/1285/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1285/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/110/s/1285/cosponsors?format=json"
+  },
+  "introducedDate": "2007-05-03",
+  "latestAction": {
+   "actionDate": "2007-06-20",
+   "text": "Committee on Rules and Administration. Hearings held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/1285",
+  "number": "1285",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Government Operations and Politics"
+  },
+  "relatedBills": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/1285/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000563",
+    "firstName": "Richard",
+    "fullName": "Sen. Durbin, Richard J. [D-IL]",
+    "isByRequest": "N",
+    "lastName": "Durbin",
+    "middleName": "J.",
+    "party": "D",
+    "state": "IL",
+    "url": "https://api.congress.gov/v3/member/D000563?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 42,
+   "url": "https://api.congress.gov/v3/bill/110/s/1285/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1285/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1285/text?format=json"
+  },
+  "title": "Fair Elections Now Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/1285/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-12-05T13:58:12Z",
+  "updateDateIncludingText": "2025-12-05T13:58:12Z"
+ },
+ "request": {
+  "billNumber": "1285",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

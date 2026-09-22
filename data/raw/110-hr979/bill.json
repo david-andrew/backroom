@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 9,
+   "url": "https://api.congress.gov/v3/bill/110/hr/979/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/979/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/979/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-12",
+  "latestAction": {
+   "actionDate": "2007-06-05",
+   "text": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/979",
+  "number": "979",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000159",
+    "district": 10,
+    "firstName": "CHARLES",
+    "fullName": "Rep. Norwood, Charles W. [R-GA-10]",
+    "isByRequest": "N",
+    "lastName": "NORWOOD",
+    "middleName": "W.",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/N000159?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 39,
+   "url": "https://api.congress.gov/v3/bill/110/hr/979/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/979/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/979/text?format=json"
+  },
+  "title": "Bipartisan Consensus Managed Care Improvement Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/979/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "979",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

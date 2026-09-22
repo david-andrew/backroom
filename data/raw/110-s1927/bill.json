@@ -1,0 +1,83 @@
+{
+ "bill": {
+  "actions": {
+   "count": 24,
+   "url": "https://api.congress.gov/v3/bill/110/s/1927/actions?format=json"
+  },
+  "amendments": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1927/amendments?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1927/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1927/cosponsors?format=json"
+  },
+  "introducedDate": "2007-08-01",
+  "latestAction": {
+   "actionDate": "2007-09-25",
+   "text": "Committee on the Judiciary. Hearings held."
+  },
+  "laws": [
+   {
+    "number": "110-55",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/1927",
+  "number": "1927",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Armed Forces and National Security"
+  },
+  "relatedBills": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/1927/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000355",
+    "firstName": "Mitch",
+    "fullName": "Sen. McConnell, Mitch [R-KY]",
+    "isByRequest": "N",
+    "lastName": "McConnell",
+    "party": "R",
+    "state": "KY",
+    "url": "https://api.congress.gov/v3/member/M000355?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/110/s/1927/subjects?format=json"
+  },
+  "summaries": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/s/1927/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/s/1927/text?format=json"
+  },
+  "title": "Protect America Act of 2007",
+  "titles": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/110/s/1927/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z"
+ },
+ "request": {
+  "billNumber": "1927",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

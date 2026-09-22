@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5269/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5269/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5269/cosponsors?format=json"
+  },
+  "introducedDate": "2002-07-26",
+  "latestAction": {
+   "actionDate": "2002-07-29",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/5269",
+  "number": "5269",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001230",
+    "district": 2,
+    "firstName": "Tammy",
+    "fullName": "Rep. Baldwin, Tammy [D-WI-2]",
+    "isByRequest": "N",
+    "lastName": "Baldwin",
+    "party": "D",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/B001230?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 177,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5269/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5269/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5269/text?format=json"
+  },
+  "title": "Health Security for All Americans Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/5269/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:31:36Z",
+  "updateDateIncludingText": "2025-08-19T17:31:36Z"
+ },
+ "request": {
+  "billNumber": "5269",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

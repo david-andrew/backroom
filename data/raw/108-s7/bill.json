@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/7/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/7/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 21,
+   "countIncludingWithdrawnCosponsors": 21,
+   "url": "https://api.congress.gov/v3/bill/108/s/7/cosponsors?format=json"
+  },
+  "introducedDate": "2003-01-07",
+  "latestAction": {
+   "actionDate": "2003-01-07",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/7",
+  "number": "7",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000064",
+    "firstName": "THOMAS",
+    "fullName": "Sen. Daschle, Thomas A. [D-SD]",
+    "isByRequest": "N",
+    "lastName": "DASCHLE",
+    "middleName": "ANDREW",
+    "party": "D",
+    "state": "SD",
+    "url": "https://api.congress.gov/v3/member/D000064?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 103,
+   "url": "https://api.congress.gov/v3/bill/108/s/7/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/7/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/7/text?format=json"
+  },
+  "title": "Prescription Drug Benefit and Cost Containment Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/7/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-18T19:01:55Z",
+  "updateDateIncludingText": "2025-08-18T19:01:55Z"
+ },
+ "request": {
+  "billNumber": "7",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

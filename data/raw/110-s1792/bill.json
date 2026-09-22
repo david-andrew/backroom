@@ -1,0 +1,73 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/1792/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1792/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/110/s/1792/cosponsors?format=json"
+  },
+  "introducedDate": "2007-07-16",
+  "latestAction": {
+   "actionDate": "2007-09-26",
+   "text": "Sponsor introductory remarks on measure. (CR S12134-12135)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/1792",
+  "number": "1792",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1792/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000944",
+    "firstName": "Sherrod",
+    "fullName": "Sen. Brown, Sherrod [D-OH]",
+    "isByRequest": "N",
+    "lastName": "Brown",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/B000944?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/110/s/1792/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1792/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/1792/text?format=json"
+  },
+  "title": "FOREWARN Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/1792/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T18:12:36Z",
+  "updateDateIncludingText": "2025-08-14T18:12:36Z"
+ },
+ "request": {
+  "billNumber": "1792",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

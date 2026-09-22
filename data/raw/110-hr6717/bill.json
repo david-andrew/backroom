@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6717/actions?format=json"
+  },
+  "committees": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6717/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6717/cosponsors?format=json"
+  },
+  "introducedDate": "2008-07-31",
+  "latestAction": {
+   "actionDate": "2008-10-03",
+   "text": "Referred to the Subcommittee on Department Operations, Oversight, Nutrition and Forestry."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/6717",
+  "number": "6717",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6717/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001256",
+    "district": 6,
+    "firstName": "Michele",
+    "fullName": "Rep. Bachmann, Michele [R-MN-6]",
+    "isByRequest": "N",
+    "lastName": "Bachmann",
+    "party": "R",
+    "state": "MN",
+    "url": "https://api.congress.gov/v3/member/B001256?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6717/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6717/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6717/text?format=json"
+  },
+  "title": "Emergency Energy Cut the Red Tape Now Act of 2008",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/6717/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-04T10:08:57Z",
+  "updateDateIncludingText": "2025-12-04T10:08:57Z"
+ },
+ "request": {
+  "billNumber": "6717",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

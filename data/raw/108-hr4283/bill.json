@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4283/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4283/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4283/cosponsors?format=json"
+  },
+  "introducedDate": "2004-05-05",
+  "latestAction": {
+   "actionDate": "2004-07-13",
+   "text": "Committee Hearings Held."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/4283",
+  "number": "4283",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Education"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B000589",
+    "district": 8,
+    "firstName": "JOHN",
+    "fullName": "Rep. Boehner, John A. [R-OH-8]",
+    "isByRequest": "N",
+    "lastName": "BOEHNER",
+    "middleName": "A.",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/B000589?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 140,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4283/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4283/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4283/text?format=json"
+  },
+  "title": "College Access and Opportunity Act of 2004",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4283/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:44:53Z",
+  "updateDateIncludingText": "2026-03-23T12:49:09Z"
+ },
+ "request": {
+  "billNumber": "4283",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

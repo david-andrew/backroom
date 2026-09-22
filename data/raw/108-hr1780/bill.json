@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1780/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1780/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1780/cosponsors?format=json"
+  },
+  "introducedDate": "2003-04-11",
+  "latestAction": {
+   "actionDate": "2003-04-11",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/1780",
+  "number": "1780",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001240",
+    "district": 7,
+    "firstName": "Bob",
+    "fullName": "Rep. Beauprez, Bob [R-CO-7]",
+    "isByRequest": "N",
+    "lastName": "Beauprez",
+    "party": "R",
+    "state": "CO",
+    "url": "https://api.congress.gov/v3/member/B001240?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1780/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1780/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1780/text?format=json"
+  },
+  "title": "To amend the Internal Revenue Code of 1986 to eliminate the tax on the net capital gain of taxpayers other than corporations, to exclude interest and dividends from gross income, and to repeal the 1993 income tax increase on Social Security benefits.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1780/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-02T16:23:11Z",
+  "updateDateIncludingText": "2025-01-02T16:23:11Z"
+ },
+ "request": {
+  "billNumber": "1780",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

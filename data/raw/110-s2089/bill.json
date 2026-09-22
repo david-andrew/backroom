@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/2089/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2089/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/110/s/2089/cosponsors?format=json"
+  },
+  "introducedDate": "2007-09-25",
+  "latestAction": {
+   "actionDate": "2007-09-25",
+   "text": "Read twice and referred to the Committee on Finance."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/2089",
+  "number": "2089",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000032",
+    "firstName": "CLARENCE",
+    "fullName": "Sen. Nelson, Bill [D-FL]",
+    "isByRequest": "N",
+    "lastName": "NELSON",
+    "middleName": "WILLIAM",
+    "party": "D",
+    "state": "FL",
+    "url": "https://api.congress.gov/v3/member/N000032?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/110/s/2089/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2089/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/2089/text?format=json"
+  },
+  "title": "Medicare Prescription Drug Gap Reduction Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/2089/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-08-14T18:12:52Z",
+  "updateDateIncludingText": "2025-08-14T18:12:52Z"
+ },
+ "request": {
+  "billNumber": "2089",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

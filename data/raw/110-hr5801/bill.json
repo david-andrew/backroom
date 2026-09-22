@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5801/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5801/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5801/cosponsors?format=json"
+  },
+  "introducedDate": "2008-04-15",
+  "latestAction": {
+   "actionDate": "2008-04-15",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/5801",
+  "number": "5801",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5801/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000043",
+    "district": 22,
+    "firstName": "NICK",
+    "fullName": "Rep. Lampson, Nick [D-TX-22]",
+    "isByRequest": "N",
+    "lastName": "LAMPSON",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/L000043?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 14,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5801/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5801/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5801/text?format=json"
+  },
+  "title": "Free Internet Filing Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/5801/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-12-05T20:44:34Z",
+  "updateDateIncludingText": "2025-12-05T20:44:34Z"
+ },
+ "request": {
+  "billNumber": "5801",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3025/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3025/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 50,
+   "countIncludingWithdrawnCosponsors": 50,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3025/cosponsors?format=json"
+  },
+  "introducedDate": "2007-07-12",
+  "latestAction": {
+   "actionDate": "2007-07-20",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/3025",
+  "number": "3025",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000399",
+    "district": 25,
+    "firstName": "LLOYD",
+    "fullName": "Rep. Doggett, Lloyd [D-TX-25]",
+    "isByRequest": "N",
+    "lastName": "DOGGETT",
+    "party": "D",
+    "state": "TX",
+    "url": "https://api.congress.gov/v3/member/D000399?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 32,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3025/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3025/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3025/text?format=json"
+  },
+  "title": "Medicare Prescription Drug Savings for Our Seniors (Medicare Prescription Drug SOS) Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3025/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:09:14Z",
+  "updateDateIncludingText": "2025-08-14T18:09:14Z"
+ },
+ "request": {
+  "billNumber": "3025",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

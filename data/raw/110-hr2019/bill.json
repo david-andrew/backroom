@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2019/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2019/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2019/cosponsors?format=json"
+  },
+  "introducedDate": "2007-04-24",
+  "latestAction": {
+   "actionDate": "2007-07-09",
+   "text": "Referred to the Subcommittee on Workforce Protections."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/2019",
+  "number": "2019",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2019/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "N000147",
+    "firstName": "ELEANOR",
+    "fullName": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+    "isByRequest": "N",
+    "lastName": "NORTON",
+    "middleName": "HOLMES",
+    "party": "D",
+    "state": "DC",
+    "url": "https://api.congress.gov/v3/member/N000147?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 48,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2019/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2019/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2019/text?format=json"
+  },
+  "title": "Fair Pay Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2019/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:47:58Z",
+  "updateDateIncludingText": "2026-03-23T12:47:58Z"
+ },
+ "request": {
+  "billNumber": "2019",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

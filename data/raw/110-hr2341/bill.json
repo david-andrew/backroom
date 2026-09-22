@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 10,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2341/actions?format=json"
+  },
+  "committees": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2341/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 10,
+   "countIncludingWithdrawnCosponsors": 10,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2341/cosponsors?format=json"
+  },
+  "introducedDate": "2007-05-16",
+  "latestAction": {
+   "actionDate": "2007-06-26",
+   "text": "Referred to the Subcommittee on General Farm Commodities and Risk Management."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/2341",
+  "number": "2341",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Congress"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001229",
+    "district": 3,
+    "firstName": "BRIAN",
+    "fullName": "Rep. Baird, Brian [D-WA-3]",
+    "isByRequest": "N",
+    "lastName": "BAIRD",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/B001229?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2341/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2341/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2341/text?format=json"
+  },
+  "title": "Stop Trading on Congressional Knowledge Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/2341/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-02-10T13:34:31Z",
+  "updateDateIncludingText": "2026-02-10T13:34:31Z"
+ },
+ "request": {
+  "billNumber": "2341",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

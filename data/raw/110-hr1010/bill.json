@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1010/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1010/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 34,
+   "countIncludingWithdrawnCosponsors": 34,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1010/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-13",
+  "latestAction": {
+   "actionDate": "2007-06-05",
+   "text": "Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1010",
+  "number": "1010",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Education"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1010/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000725",
+    "district": 7,
+    "firstName": "GEORGE",
+    "fullName": "Rep. Miller, George [D-CA-7]",
+    "isByRequest": "N",
+    "lastName": "MILLER",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/M000725?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 15,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1010/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1010/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1010/text?format=json"
+  },
+  "title": "Student Aid Reward Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1010/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:44:53Z",
+  "updateDateIncludingText": "2026-03-23T12:44:53Z"
+ },
+ "request": {
+  "billNumber": "1010",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

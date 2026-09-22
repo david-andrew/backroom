@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3170/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3170/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3170/cosponsors?format=json"
+  },
+  "introducedDate": "2007-07-24",
+  "latestAction": {
+   "actionDate": "2007-07-25",
+   "text": "Sponsor introductory remarks on measure. (CR E1618)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/3170",
+  "number": "3170",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M001167",
+    "district": 5,
+    "firstName": "Harry",
+    "fullName": "Rep. Mitchell, Harry E. [D-AZ-5]",
+    "isByRequest": "N",
+    "lastName": "Mitchell",
+    "middleName": "E.",
+    "party": "D",
+    "state": "AZ",
+    "url": "https://api.congress.gov/v3/member/M001167?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 13,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3170/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3170/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3170/text?format=json"
+  },
+  "title": "Capital Gains and Estate Tax Relief Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3170/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:09:15Z",
+  "updateDateIncludingText": "2025-08-14T18:09:15Z"
+ },
+ "request": {
+  "billNumber": "3170",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

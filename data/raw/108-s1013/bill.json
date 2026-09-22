@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/s/1013/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1013/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1013/cosponsors?format=json"
+  },
+  "introducedDate": "2003-05-07",
+  "latestAction": {
+   "actionDate": "2003-05-07",
+   "text": "Read twice and referred to the Committee on Energy and Natural Resources. (text of measure as introduced: CR S5872)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/senate-bill/1013",
+  "number": "1013",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C001042",
+    "firstName": "JON",
+    "fullName": "Sen. Corzine, Jon S. [D-NJ]",
+    "isByRequest": "N",
+    "lastName": "CORZINE",
+    "middleName": "S.",
+    "party": "D",
+    "state": "NJ",
+    "url": "https://api.congress.gov/v3/member/C001042?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/108/s/1013/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1013/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/s/1013/text?format=json"
+  },
+  "title": "COAST Anti-Drilling Act",
+  "titles": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/s/1013/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:11:51Z"
+ },
+ "request": {
+  "billNumber": "1013",
+  "billType": "s",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

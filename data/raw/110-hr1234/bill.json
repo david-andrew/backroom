@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 17,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1234/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1234/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1234/cosponsors?format=json"
+  },
+  "introducedDate": "2007-02-28",
+  "latestAction": {
+   "actionDate": "2007-05-23",
+   "text": "Sponsor introductory remarks on measure. (CR H5638-5644, H5684)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1234",
+  "number": "1234",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Armed Forces and National Security"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000336",
+    "district": 10,
+    "firstName": "DENNIS",
+    "fullName": "Rep. Kucinich, Dennis J. [D-OH-10]",
+    "isByRequest": "N",
+    "lastName": "KUCINICH",
+    "middleName": "J.",
+    "party": "D",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/K000336?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 46,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1234/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1234/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1234/text?format=json"
+  },
+  "title": "To end the United States occupation of Iraq immediately.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1234/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-06-06T14:17:56Z",
+  "updateDateIncludingText": "2025-06-06T14:18:51Z"
+ },
+ "request": {
+  "billNumber": "1234",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

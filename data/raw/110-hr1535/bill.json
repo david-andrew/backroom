@@ -1,0 +1,75 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1535/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1535/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 43,
+   "countIncludingWithdrawnCosponsors": 43,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1535/cosponsors?format=json"
+  },
+  "introducedDate": "2007-03-15",
+  "latestAction": {
+   "actionDate": "2007-03-16",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/1535",
+  "number": "1535",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1535/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000355",
+    "district": 15,
+    "firstName": "JOHN",
+    "fullName": "Rep. Dingell, John D. [D-MI-15]",
+    "isByRequest": "N",
+    "lastName": "DINGELL",
+    "middleName": "D.",
+    "party": "D",
+    "state": "MI",
+    "url": "https://api.congress.gov/v3/member/D000355?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 32,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1535/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1535/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1535/text?format=json"
+  },
+  "title": "Children's Health First Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/1535/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-01-10T04:34:11Z",
+  "updateDateIncludingText": "2026-01-10T04:34:11Z"
+ },
+ "request": {
+  "billNumber": "1535",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

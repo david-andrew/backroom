@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2525/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2525/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2525/cosponsors?format=json"
+  },
+  "introducedDate": "2001-07-17",
+  "latestAction": {
+   "actionDate": "2001-07-17",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/2525",
+  "number": "2525",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000321",
+    "district": 11,
+    "firstName": "JOHN",
+    "fullName": "Rep. Linder, John [R-GA-11]",
+    "isByRequest": "N",
+    "lastName": "LINDER",
+    "party": "R",
+    "state": "GA",
+    "url": "https://api.congress.gov/v3/member/L000321?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 137,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2525/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2525/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2525/text?format=json"
+  },
+  "title": "Fair Tax Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/2525/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:28:15Z",
+  "updateDateIncludingText": "2025-08-19T17:28:15Z"
+ },
+ "request": {
+  "billNumber": "2525",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

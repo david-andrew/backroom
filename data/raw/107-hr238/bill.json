@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/107/hr/238/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/238/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 32,
+   "countIncludingWithdrawnCosponsors": 32,
+   "url": "https://api.congress.gov/v3/bill/107/hr/238/cosponsors?format=json"
+  },
+  "introducedDate": "2001-01-20",
+  "latestAction": {
+   "actionDate": "2001-02-07",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/238",
+  "number": "238",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Energy"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/238/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000981",
+    "district": 52,
+    "firstName": "DUNCAN",
+    "fullName": "Rep. Hunter, Duncan [R-CA-52]",
+    "isByRequest": "N",
+    "lastName": "HUNTER",
+    "party": "R",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/H000981?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/107/hr/238/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/238/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/238/text?format=json"
+  },
+  "title": "To amend the Department of Energy Authorization Act to authorize the Secretary of Energy to impose interim limitations on the cost of electric energy to protect consumers from unjust and unreasonable prices in the electric energy market.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/238/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-01-15T18:51:50Z",
+  "updateDateIncludingText": "2025-01-15T18:51:50Z"
+ },
+ "request": {
+  "billNumber": "238",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

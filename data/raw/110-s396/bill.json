@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/110/s/396/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/396/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 5,
+   "countIncludingWithdrawnCosponsors": 5,
+   "url": "https://api.congress.gov/v3/bill/110/s/396/cosponsors?format=json"
+  },
+  "introducedDate": "2007-01-25",
+  "latestAction": {
+   "actionDate": "2007-01-29",
+   "text": "Sponsor introductory remarks on measure. (CR S1265)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/396",
+  "number": "396",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000432",
+    "firstName": "BYRON",
+    "fullName": "Sen. Dorgan, Byron L. [D-ND]",
+    "isByRequest": "N",
+    "lastName": "DORGAN",
+    "middleName": "LESLIE",
+    "party": "D",
+    "state": "ND",
+    "url": "https://api.congress.gov/v3/member/D000432?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 8,
+   "url": "https://api.congress.gov/v3/bill/110/s/396/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/396/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/396/text?format=json"
+  },
+  "title": "A bill to amend the Internal Revenue Code of 1986 to treat controlled foreign corporations in tax havens as domestic corporations.",
+  "titles": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/396/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2025-01-14T18:59:41Z",
+  "updateDateIncludingText": "2025-01-14T19:05:39Z"
+ },
+ "request": {
+  "billNumber": "396",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

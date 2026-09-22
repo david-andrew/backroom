@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1256/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1256/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 134,
+   "countIncludingWithdrawnCosponsors": 134,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1256/cosponsors?format=json"
+  },
+  "introducedDate": "2001-03-27",
+  "latestAction": {
+   "actionDate": "2001-04-16",
+   "text": "Referred to the Subcommittee on Energy and Air Quality."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/1256",
+  "number": "1256",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "W000215",
+    "district": 29,
+    "firstName": "HENRY",
+    "fullName": "Rep. Waxman, Henry A. [D-CA-29]",
+    "isByRequest": "N",
+    "lastName": "WAXMAN",
+    "middleName": "A.",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/W000215?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 23,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1256/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1256/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1256/text?format=json"
+  },
+  "title": "Clean Smokestacks Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/1256/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:31:34Z",
+  "updateDateIncludingText": "2025-08-19T17:31:34Z"
+ },
+ "request": {
+  "billNumber": "1256",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

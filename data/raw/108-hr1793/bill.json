@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1793/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1793/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 45,
+   "countIncludingWithdrawnCosponsors": 46,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1793/cosponsors?format=json"
+  },
+  "introducedDate": "2003-04-11",
+  "latestAction": {
+   "actionDate": "2003-07-21",
+   "text": "Referred to the Subcommittee on Employer-Employee Relations."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/1793",
+  "number": "1793",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Labor and Employment"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000595",
+    "district": 4,
+    "firstName": "Jim",
+    "fullName": "Rep. DeMint, Jim [R-SC-4]",
+    "isByRequest": "N",
+    "lastName": "DeMint",
+    "party": "R",
+    "state": "SC",
+    "url": "https://api.congress.gov/v3/member/D000595?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1793/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1793/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1793/text?format=json"
+  },
+  "title": "Truth in Employment Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1793/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2026-03-23T12:41:21Z",
+  "updateDateIncludingText": "2026-03-23T12:41:21Z"
+ },
+ "request": {
+  "billNumber": "1793",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

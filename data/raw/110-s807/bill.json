@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/807/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/807/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 29,
+   "countIncludingWithdrawnCosponsors": 29,
+   "url": "https://api.congress.gov/v3/bill/110/s/807/cosponsors?format=json"
+  },
+  "introducedDate": "2007-03-08",
+  "latestAction": {
+   "actionDate": "2007-03-08",
+   "text": "Read twice and referred to the Committee on Environment and Public Works."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/807",
+  "number": "807",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/807/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000035",
+    "firstName": "BLANCHE",
+    "fullName": "Sen. Lincoln, Blanche L. [D-AR]",
+    "isByRequest": "N",
+    "lastName": "LINCOLN",
+    "middleName": "LAMBERT",
+    "party": "D",
+    "state": "AR",
+    "url": "https://api.congress.gov/v3/member/L000035?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/110/s/807/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/807/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/807/text?format=json"
+  },
+  "title": "Agricultural Protection and Prosperity Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/807/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:13:34Z"
+ },
+ "request": {
+  "billNumber": "807",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

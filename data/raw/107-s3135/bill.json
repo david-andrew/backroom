@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/3135/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/3135/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 3,
+   "countIncludingWithdrawnCosponsors": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/3135/cosponsors?format=json"
+  },
+  "introducedDate": "2002-10-17",
+  "latestAction": {
+   "actionDate": "2002-10-17",
+   "text": "Read twice and referred to the Committee on Environment and Public Works. (text of measure as introduced: CR S10699-10705)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/senate-bill/3135",
+  "number": "3135",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Environmental Protection"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "C000174",
+    "firstName": "Thomas",
+    "fullName": "Sen. Carper, Thomas R. [D-DE]",
+    "isByRequest": "N",
+    "lastName": "Carper",
+    "middleName": "R.",
+    "party": "D",
+    "state": "DE",
+    "url": "https://api.congress.gov/v3/member/C000174?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 45,
+   "url": "https://api.congress.gov/v3/bill/107/s/3135/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/3135/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/s/3135/text?format=json"
+  },
+  "title": "Clean Air  Planning Act of 2002",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/s/3135/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-09-08T18:12:22Z",
+  "updateDateIncludingText": "2026-09-08T18:13:11Z"
+ },
+ "request": {
+  "billNumber": "3135",
+  "billType": "s",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

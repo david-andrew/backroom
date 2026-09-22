@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4325/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4325/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 15,
+   "countIncludingWithdrawnCosponsors": 15,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4325/cosponsors?format=json"
+  },
+  "introducedDate": "2004-05-11",
+  "latestAction": {
+   "actionDate": "2004-05-21",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/4325",
+  "number": "4325",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "B001230",
+    "district": 2,
+    "firstName": "Tammy",
+    "fullName": "Rep. Baldwin, Tammy [D-WI-2]",
+    "isByRequest": "N",
+    "lastName": "Baldwin",
+    "party": "D",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/B001230?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 172,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4325/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4325/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4325/text?format=json"
+  },
+  "title": "Health Security for All Americans Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4325/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:03:17Z",
+  "updateDateIncludingText": "2025-08-18T19:03:17Z"
+ },
+ "request": {
+  "billNumber": "4325",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

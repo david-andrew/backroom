@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3662/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3662/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 18,
+   "countIncludingWithdrawnCosponsors": 18,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3662/cosponsors?format=json"
+  },
+  "introducedDate": "2003-12-08",
+  "latestAction": {
+   "actionDate": "2003-12-17",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/3662",
+  "number": "3662",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "A000357",
+    "district": 1,
+    "firstName": "THOMAS",
+    "fullName": "Rep. Allen, Thomas H. [D-ME-1]",
+    "isByRequest": "N",
+    "lastName": "ALLEN",
+    "middleName": "H.",
+    "party": "D",
+    "state": "ME",
+    "url": "https://api.congress.gov/v3/member/A000357?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 34,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3662/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3662/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3662/text?format=json"
+  },
+  "title": "State and Local Access to Fair Prescription Drug Prices Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/3662/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:04:07Z",
+  "updateDateIncludingText": "2025-08-18T19:04:07Z"
+ },
+ "request": {
+  "billNumber": "3662",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

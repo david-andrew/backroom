@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/878/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/878/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/110/s/878/cosponsors?format=json"
+  },
+  "introducedDate": "2007-03-14",
+  "latestAction": {
+   "actionDate": "2007-03-14",
+   "text": "Read twice and referred to the Committee on the Judiciary. (text of measure as introduced: CR S3134)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/senate-bill/878",
+  "number": "878",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Commerce"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "K000305",
+    "firstName": "HERBERT",
+    "fullName": "Sen. Kohl, Herb [D-WI]",
+    "isByRequest": "N",
+    "lastName": "KOHL",
+    "middleName": "H.",
+    "party": "D",
+    "state": "WI",
+    "url": "https://api.congress.gov/v3/member/K000305?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 20,
+   "url": "https://api.congress.gov/v3/bill/110/s/878/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/878/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/s/878/text?format=json"
+  },
+  "title": "Oil Industry Merger Antitrust Enforcement Act",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/s/878/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:53:25Z"
+ },
+ "request": {
+  "billNumber": "878",
+  "billType": "s",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

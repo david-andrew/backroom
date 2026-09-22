@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1766/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1766/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 7,
+   "countIncludingWithdrawnCosponsors": 7,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1766/cosponsors?format=json"
+  },
+  "introducedDate": "2003-04-11",
+  "latestAction": {
+   "actionDate": "2003-04-29",
+   "text": "Referred to the Subcommittee on Financial Institutions and Consumer Credit."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/1766",
+  "number": "1766",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Finance and Financial Sector"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000462",
+    "district": 12,
+    "firstName": "PATRICK",
+    "fullName": "Rep. Tiberi, Patrick J. [R-OH-12]",
+    "isByRequest": "N",
+    "lastName": "TIBERI",
+    "middleName": "J.",
+    "party": "R",
+    "state": "OH",
+    "url": "https://api.congress.gov/v3/member/T000462?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 12,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1766/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1766/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1766/text?format=json"
+  },
+  "title": "National Uniform Privacy Standards Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1766/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:01:20Z",
+  "updateDateIncludingText": "2025-08-18T19:01:20Z"
+ },
+ "request": {
+  "billNumber": "1766",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

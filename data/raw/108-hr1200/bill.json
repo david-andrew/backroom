@@ -1,0 +1,70 @@
+{
+ "bill": {
+  "actions": {
+   "count": 11,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1200/actions?format=json"
+  },
+  "committees": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1200/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 44,
+   "countIncludingWithdrawnCosponsors": 44,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1200/cosponsors?format=json"
+  },
+  "introducedDate": "2003-03-11",
+  "latestAction": {
+   "actionDate": "2004-03-04",
+   "text": "Sponsor introductory remarks on measure. (CR H853-854)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/1200",
+  "number": "1200",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "M000404",
+    "district": 7,
+    "firstName": "JIM",
+    "fullName": "Rep. McDermott, Jim [D-WA-7]",
+    "isByRequest": "N",
+    "lastName": "MCDERMOTT",
+    "party": "D",
+    "state": "WA",
+    "url": "https://api.congress.gov/v3/member/M000404?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 189,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1200/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1200/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1200/text?format=json"
+  },
+  "title": "American Health Security Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/1200/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:01:37Z",
+  "updateDateIncludingText": "2025-08-18T19:01:37Z"
+ },
+ "request": {
+  "billNumber": "1200",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

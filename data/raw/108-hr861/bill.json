@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/861/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/861/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 2,
+   "countIncludingWithdrawnCosponsors": 2,
+   "url": "https://api.congress.gov/v3/bill/108/hr/861/cosponsors?format=json"
+  },
+  "introducedDate": "2003-02-13",
+  "latestAction": {
+   "actionDate": "2003-02-13",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/861",
+  "number": "861",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "T000461",
+    "district": 15,
+    "firstName": "PATRICK",
+    "fullName": "Rep. Toomey, Patrick J. [R-PA-15]",
+    "isByRequest": "N",
+    "lastName": "TOOMEY",
+    "middleName": "J.",
+    "party": "R",
+    "state": "PA",
+    "url": "https://api.congress.gov/v3/member/T000461?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/861/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/861/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/861/text?format=json"
+  },
+  "title": "Permanent Income Tax Rate Reduction Act of 2003",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/861/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:01:22Z",
+  "updateDateIncludingText": "2025-08-18T19:01:22Z"
+ },
+ "request": {
+  "billNumber": "861",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

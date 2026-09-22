@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3416/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3416/committees?format=json"
+  },
+  "congress": 110,
+  "cosponsors": {
+   "count": 12,
+   "countIncludingWithdrawnCosponsors": 12,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3416/cosponsors?format=json"
+  },
+  "introducedDate": "2007-08-03",
+  "latestAction": {
+   "actionDate": "2007-08-03",
+   "text": "Referred to the House Committee on Ways and Means."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/110th-congress/house-bill/3416",
+  "number": "3416",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Taxation"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "L000557",
+    "district": 1,
+    "firstName": "JOHN",
+    "fullName": "Rep. Larson, John B. [D-CT-1]",
+    "isByRequest": "N",
+    "lastName": "LARSON",
+    "middleName": "B.",
+    "party": "D",
+    "state": "CT",
+    "url": "https://api.congress.gov/v3/member/L000557?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 28,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3416/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3416/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3416/text?format=json"
+  },
+  "title": "America's Energy Security Trust Fund Act of 2007",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/110/hr/3416/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-14T18:09:36Z",
+  "updateDateIncludingText": "2025-08-14T18:09:36Z"
+ },
+ "request": {
+  "billNumber": "3416",
+  "billType": "hr",
+  "congress": "110",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

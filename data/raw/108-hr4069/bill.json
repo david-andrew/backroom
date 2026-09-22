@@ -1,0 +1,71 @@
+{
+ "bill": {
+  "actions": {
+   "count": 4,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4069/actions?format=json"
+  },
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4069/committees?format=json"
+  },
+  "congress": 108,
+  "cosponsors": {
+   "count": 9,
+   "countIncludingWithdrawnCosponsors": 9,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4069/cosponsors?format=json"
+  },
+  "introducedDate": "2004-03-30",
+  "latestAction": {
+   "actionDate": "2004-04-08",
+   "text": "Referred to the Subcommittee on Telecommunications and the Internet."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/108th-congress/house-bill/4069",
+  "number": "4069",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "H000627",
+    "district": 22,
+    "firstName": "MAURICE",
+    "fullName": "Rep. Hinchey, Maurice D. [D-NY-22]",
+    "isByRequest": "N",
+    "lastName": "HINCHEY",
+    "middleName": "D.",
+    "party": "D",
+    "state": "NY",
+    "url": "https://api.congress.gov/v3/member/H000627?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 41,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4069/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4069/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4069/text?format=json"
+  },
+  "title": "Media Ownership Reform Act of 2004",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/108/hr/4069/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-18T19:00:23Z",
+  "updateDateIncludingText": "2025-08-18T19:00:23Z"
+ },
+ "request": {
+  "billNumber": "4069",
+  "billType": "hr",
+  "congress": "108",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}

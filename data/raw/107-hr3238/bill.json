@@ -1,0 +1,74 @@
+{
+ "bill": {
+  "actions": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/107/hr/3238/actions?format=json"
+  },
+  "committees": {
+   "count": 2,
+   "url": "https://api.congress.gov/v3/bill/107/hr/3238/committees?format=json"
+  },
+  "congress": 107,
+  "cosponsors": {
+   "count": 100,
+   "countIncludingWithdrawnCosponsors": 100,
+   "url": "https://api.congress.gov/v3/bill/107/hr/3238/cosponsors?format=json"
+  },
+  "introducedDate": "2001-11-06",
+  "latestAction": {
+   "actionDate": "2001-11-14",
+   "text": "Referred to the Subcommittee on Health."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/107th-congress/house-bill/3238",
+  "number": "3238",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "policyArea": {
+   "name": "Health"
+  },
+  "relatedBills": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/3238/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "S000810",
+    "district": 13,
+    "firstName": "PETE",
+    "fullName": "Rep. Stark, Fortney Pete [D-CA-13]",
+    "isByRequest": "N",
+    "lastName": "STARK",
+    "party": "D",
+    "state": "CA",
+    "url": "https://api.congress.gov/v3/member/S000810?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 16,
+   "url": "https://api.congress.gov/v3/bill/107/hr/3238/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/3238/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/107/hr/3238/text?format=json"
+  },
+  "title": "Safe Nursing and Patient Care Act of 2001",
+  "titles": {
+   "count": 3,
+   "url": "https://api.congress.gov/v3/bill/107/hr/3238/titles?format=json"
+  },
+  "type": "HR",
+  "updateDate": "2025-08-19T17:31:08Z",
+  "updateDateIncludingText": "2025-08-19T17:31:08Z"
+ },
+ "request": {
+  "billNumber": "3238",
+  "billType": "hr",
+  "congress": "107",
+  "contentType": "application/json",
+  "format": "json"
+ }
+}
