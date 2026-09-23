@@ -1,11 +1,13 @@
 import { useEffect } from 'preact/hooks'
 import { signal, computed } from '@preact/signals'
-import { index, indexError, loadIndex, ordinal, congressYears } from '../data'
+import { index, indexError, loadIndex, cards, loadCards, ordinal, congressYears } from '../data'
 import { href } from '../router'
 import { CATEGORY_LABEL, DEAD, PENDING } from '../types'
-import type { IndexBill } from '../types'
+import type { CoreBill } from '../types'
 import { CategoryChips, DirectionBadge, IndustryChips, PartyBar, PartyLineBadge, StatusBadge } from '../components/ui'
 import { GilensPageChart } from '../components/Chart'
+
+const PAGE = 50
 
 const q = signal('')
 const cat = signal<string>('')
@@ -14,50 +16,59 @@ const dir = signal<'' | 'for_working_people' | 'for_concentrated_interests'>('')
 const congress = signal<number | ''>('')
 const sort = signal<'rank' | 'corruption' | 'newest' | 'oldest' | 'support'>('rank')
 const showAll = signal(false)
+const shown = signal(PAGE)
 
-const filtered = computed<IndexBill[]>(() => {
-  const all = index.value?.bills ?? []
+// Any filter change starts the list over at the top.
+const resetPage = () => { shown.value = PAGE }
+
+const filtered = computed<CoreBill[]>(() => {
+  const idx = index.value
+  if (!idx) return []
+  const catIx = cat.value ? idx.categories.indexOf(cat.value) : -1
   const needle = q.value.trim().toLowerCase()
-  let out = all.filter(b => {
-    if (!showAll.value && b.primary === false) return false
-    if (cat.value && !b.categories.includes(cat.value)) return false
-    if (fate.value === 'dead' && !DEAD.includes(b.status)) return false
-    if (fate.value === 'pending' && !PENDING.includes(b.status)) return false
-    if (fate.value === 'enacted' && b.status !== 'became_law') return false
-    if (dir.value && b.direction !== dir.value) return false
-    if (congress.value !== '' && b.congress !== congress.value) return false
-    if (needle) {
-      const hay = `${b.display} ${b.title} ${b.one_liner} ${b.headline} ${b.sponsors.join(' ')}`.toLowerCase()
-      if (!hay.includes(needle)) return false
-    }
+  let out = idx.bills.filter(b => {
+    if (!showAll.value && b.p === 0) return false
+    if (catIx >= 0 && !b.ct.includes(catIx)) return false
+    if (fate.value === 'dead' && !DEAD.includes(b.st)) return false
+    if (fate.value === 'pending' && !PENDING.includes(b.st)) return false
+    if (fate.value === 'enacted' && b.st !== 'became_law') return false
+    if (dir.value && b.d !== dir.value) return false
+    if (congress.value !== '' && b.c !== congress.value) return false
+    if (needle && !`${b.dp} ${b.t} ${b.sp}`.toLowerCase().includes(needle)) return false
     return true
   })
   switch (sort.value) {
-    case 'corruption': out = [...out].sort((a, b) => b.scores.corruption_relevance - a.scores.corruption_relevance || b.rank_score - a.rank_score); break
-    case 'newest': out = [...out].sort((a, b) => (b.introduced ?? '').localeCompare(a.introduced ?? '')); break
-    case 'oldest': out = [...out].sort((a, b) => (a.introduced ?? '').localeCompare(b.introduced ?? '')); break
-    case 'support': out = [...out].sort((a, b) => b.cosponsor_count - a.cosponsor_count); break
-    default: out = [...out].sort((a, b) => b.rank_score - a.rank_score)
+    case 'corruption': out = [...out].sort((a, b) => b.cr - a.cr || b.r - a.r); break
+    case 'newest': out = [...out].sort((a, b) => (b.dt ?? '').localeCompare(a.dt ?? '')); break
+    case 'oldest': out = [...out].sort((a, b) => (a.dt ?? '').localeCompare(b.dt ?? '')); break
+    case 'support': out = [...out].sort((a, b) => b.cc - a.cc); break
+    default: break   // the index already arrives in rank order
   }
   return out
 })
 
-function displayOf(bills: IndexBill[], id: string): string {
-  const b = bills.find(x => x.id === id)
-  return b ? `${b.display} (${b.origin_chamber ?? ''})` : id
-}
+const visible = computed<CoreBill[]>(() => filtered.value.slice(0, shown.value))
 
 export function Explorer() {
   useEffect(() => { loadIndex() }, [])
   const idx = index.value
+  // Fetch card text for the rows on screen: one file for the top of the ranking, otherwise per bill.
+  useEffect(() => {
+    const top = idx?.top ?? 500
+    const rows = visible.value
+    if (!rows.length) return
+    const inTop = rows.some(b => (b._i ?? 0) < top)
+    loadCards(rows.filter(b => (b._i ?? 0) >= top).map(b => b.id), inTop)
+  }, [idx, visible.value])
+
   if (indexError.value) return <p class="error">Could not load data: {indexError.value}. Run <code>backroom build</code> first.</p>
   if (!idx) return <p class="muted">Loading…</p>
 
-  const congresses = [...new Set(idx.bills.map(b => b.congress))].sort((a, b) => b - a)
-  const cats = [...new Set(idx.bills.flatMap(b => b.categories))].sort()
-  const dead = idx.bills.filter(b => DEAD.includes(b.status)).length
-  const law = idx.bills.filter(b => b.status === 'became_law').length
+  const congresses = [...new Set(idx.bills.map(b => b.c))].sort((a, b) => b - a)
+  const dead = idx.bills.filter(b => DEAD.includes(b.st)).length
+  const law = idx.bills.filter(b => b.st === 'became_law').length
   const sel = (e: Event) => (e.target as HTMLSelectElement).value
+  const total = filtered.value.length
 
   return (
     <>
@@ -74,66 +85,83 @@ export function Explorer() {
       </section>
 
       <section class="filters" aria-label="Filters">
-        <input type="search" placeholder="Search title, number, sponsor…" value={q.value} onInput={e => (q.value = (e.target as HTMLInputElement).value)} />
-        <select value={dir.value} onChange={e => (dir.value = sel(e) as typeof dir.value)}>
+        <input type="search" placeholder="Search title, number, sponsor…" value={q.value} onInput={e => { q.value = (e.target as HTMLInputElement).value; resetPage() }} />
+        <select value={dir.value} onChange={e => { dir.value = sel(e) as typeof dir.value; resetPage() }}>
           <option value="">Serves anyone</option>
           <option value="for_working_people">Serves working people</option>
           <option value="for_concentrated_interests">Serves concentrated interests</option>
         </select>
-        <select value={cat.value} onChange={e => (cat.value = sel(e))}>
+        <select value={cat.value} onChange={e => { cat.value = sel(e); resetPage() }}>
           <option value="">All categories</option>
-          {cats.map(c => <option value={c} key={c}>{CATEGORY_LABEL[c] ?? c}</option>)}
+          {idx.categories.map(c => <option value={c} key={c}>{CATEGORY_LABEL[c] ?? c}</option>)}
         </select>
-        <select value={fate.value} onChange={e => (fate.value = sel(e) as typeof fate.value)}>
+        <select value={fate.value} onChange={e => { fate.value = sel(e) as typeof fate.value; resetPage() }}>
           <option value="">Any outcome</option>
           <option value="dead">Died</option>
           <option value="pending">Still pending</option>
           <option value="enacted">Became law</option>
         </select>
-        <select value={String(congress.value)} onChange={e => { const v = sel(e); congress.value = v ? Number(v) : '' }}>
+        <select value={String(congress.value)} onChange={e => { const v = sel(e); congress.value = v ? Number(v) : ''; resetPage() }}>
           <option value="">Any Congress</option>
           {congresses.map(c => <option value={c} key={c}>{ordinal(c)} ({congressYears(c)})</option>)}
         </select>
-        <select value={sort.value} onChange={e => (sort.value = sel(e) as typeof sort.value)}>
+        <select value={sort.value} onChange={e => { sort.value = sel(e) as typeof sort.value; resetPage() }}>
           <option value="rank">Sort: overall</option>
           <option value="corruption">Sort: corruption relevance</option>
           <option value="newest">Sort: newest</option>
           <option value="oldest">Sort: oldest</option>
           <option value="support">Sort: most cosponsors</option>
         </select>
-        <label class="check"><input type="checkbox" checked={showAll.value} onChange={e => (showAll.value = (e.target as HTMLInputElement).checked)} /> show House and Senate versions separately</label>
+        <label class="check"><input type="checkbox" checked={showAll.value} onChange={e => { showAll.value = (e.target as HTMLInputElement).checked; resetPage() }} /> show House and Senate versions separately</label>
       </section>
 
+      <p class="muted small count">{total.toLocaleString()} bill{total === 1 ? '' : 's'} match{total === 1 ? 'es' : ''}.</p>
+
       <ol class="bill-list">
-        {filtered.value.map((b, i) => (
-          <li key={b.id} class={`bill-card dir-${b.direction}`}>
-            <a href={href.bill(b.id)} class="bill-card-link">
-              <div class="bill-card-head">
-                <span class="rank">#{i + 1}</span>
-                <span class="bill-number">{b.display} · {ordinal(b.congress)} Congress</span>
-                <DirectionBadge direction={b.direction} />
-              </div>
-              <h2>{b.title}</h2>
-              <p class="one-liner">{b.one_liner}</p>
-              <p class="headline"><StatusBadge status={b.status} /> {b.headline}</p>
-              {b.companions.length > 0 && <p class="companions muted small">Also introduced as {b.companions.map(c => displayOf(idx.bills, c)).join(', ')}</p>}
-              <dl class="card-facts">
-                <div><dt>{b.direction === 'for_concentrated_interests' ? 'Serves' : 'Would help'}</dt><dd>{b.who_benefits_short}</dd></div>
-                <div><dt>Would cost</dt><dd>{b.who_pays_short}</dd></div>
-                <div><dt>Came out ahead</dt><dd>{b.who_came_out_ahead_short}</dd></div>
-              </dl>
-              <IndustryChips items={b.industries ?? []} />
-              <div class="bill-card-foot">
-                <PartyLineBadge value={b.party_line} />
-                <CategoryChips categories={b.categories} />
-                <span class="muted">{b.sponsors[0]}{b.sponsors.length > 1 ? ` +${b.sponsors.length - 1}` : ''} · {b.cosponsor_count} cosponsors <PartyBar counts={b.cosponsor_party_counts} /></span>
-              </div>
-            </a>
-          </li>
-        ))}
+        {visible.value.map((b, i) => <BillCard b={b} n={i + 1} key={b.id} />)}
       </ol>
-      {filtered.value.length === 0 && <p class="muted">Nothing matches those filters.</p>}
+      {total === 0 && <p class="muted">Nothing matches those filters.</p>}
+      {shown.value < total && (
+        <p class="more"><button class="btn" onClick={() => (shown.value += PAGE)}>Show {Math.min(PAGE, total - shown.value)} more</button></p>
+      )}
       <p class="muted small">Data generated {new Date(idx.generated_at).toLocaleString()}.</p>
     </>
+  )
+}
+
+function BillCard({ b, n }: { b: CoreBill; n: number }) {
+  const c = cards.value.get(b.id)
+  const cats = (index.value?.categories ?? [])
+  return (
+    <li class={`bill-card dir-${b.d}`}>
+      <a href={href.bill(b.id)} class="bill-card-link">
+        <div class="bill-card-head">
+          <span class="rank">#{n}</span>
+          <span class="bill-number">{b.dp} · {ordinal(b.c)} Congress</span>
+          <DirectionBadge direction={b.d} />
+        </div>
+        <h2>{b.t}</h2>
+        {c ? (
+          <>
+            <p class="one-liner">{c.ol}</p>
+            <p class="headline"><StatusBadge status={b.st} /> {c.hl}</p>
+            {c.comp.length > 0 && <p class="companions muted small">Also introduced as {c.comp.join(', ')}</p>}
+            <dl class="card-facts">
+              <div><dt>{b.d === 'for_concentrated_interests' ? 'Serves' : 'Would help'}</dt><dd>{c.wb}</dd></div>
+              <div><dt>Would cost</dt><dd>{c.wp}</dd></div>
+              <div><dt>Came out ahead</dt><dd>{c.wa}</dd></div>
+            </dl>
+            <IndustryChips items={c.ind.map(([industry, effect, stance]) => ({ industry, effect, stance }))} />
+          </>
+        ) : (
+          <p class="headline"><StatusBadge status={b.st} /> <span class="skeleton" aria-hidden="true" /></p>
+        )}
+        <div class="bill-card-foot">
+          <PartyLineBadge value={b.pl} />
+          <CategoryChips categories={b.ct.map(i => cats[i]).filter(Boolean)} />
+          <span class="muted">{b.sp} · {b.cc} cosponsors {c && <PartyBar counts={c.cpc} />}</span>
+        </div>
+      </a>
+    </li>
   )
 }

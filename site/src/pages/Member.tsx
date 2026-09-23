@@ -1,31 +1,35 @@
-import { useEffect } from 'preact/hooks'
-import { members, membersError, loadMembers, memberById } from '../members'
+import { useEffect, useState } from 'preact/hooks'
+import { members, membersError, loadMembers, memberById, loadInvolvement } from '../members'
 import type { Involvement } from '../members'
 import { href } from '../router'
-import { fmtDate } from '../data'
+import { fmtDate, index, loadIndex } from '../data'
 import { DirectionBadge, PartyDot, StatusBadge } from '../components/ui'
 import type { Direction, Status } from '../types'
 
 const DECISIVE = /passage|cloture|concur|agree to the senate amendment|agreeing to the senate amendment|suspend the rules and pass|final/i
 
 export function MemberPage({ id }: { id: string }) {
-  useEffect(() => { loadMembers() }, [])
+  const [inv, setInv] = useState<Involvement[] | null>(null)
+  useEffect(() => { loadMembers(); loadIndex(); loadInvolvement(id).then(setInv) }, [id])
   if (membersError.value) return <p class="error">{membersError.value}</p>
-  if (!members.value) return <p class="muted">Loading…</p>
+  if (!members.value || !index.value || !inv) return <p class="muted">Loading…</p>
   const m = memberById(id)
   if (!m) return <p class="error">No current member with id {id}. <a href={href.members}>Back to lookup.</a></p>
-  const inv = members.value.involvement[id] ?? []
 
   // Group by bill, one row per bill with everything they did on it.
   const byBill = new Map<string, Involvement[]>()
   for (const i of inv) byBill.set(i.bill, [...(byBill.get(i.bill) ?? []), i])
-  const rows = [...byBill.entries()].sort((a, b) => a[1][0].display.localeCompare(b[1][0].display))
+  // Bill title, status and direction live in the index, which every page already has.
+  const meta = new Map(index.value.bills.map(b => [b.id, b]))
+  const rows = [...byBill.entries()]
+    .filter(([bill]) => meta.has(bill))
+    .sort((a, b) => (meta.get(a[0])!.dp).localeCompare(meta.get(b[0])!.dp))
 
   const votes = inv.filter(i => i.role === 'vote')
   // Headline tally counts only the votes that decided the bill's fate, not the dozens of procedural motions around them.
   const decisive = votes.filter(v => DECISIVE.test(v.question ?? ''))
-  const forPeople = decisive.filter(v => v.direction === 'for_working_people')
-  const forElite = decisive.filter(v => v.direction === 'for_concentrated_interests')
+  const forPeople = decisive.filter(v => meta.get(v.bill)?.d === 'for_working_people')
+  const forElite = decisive.filter(v => meta.get(v.bill)?.d === 'for_concentrated_interests')
   const tally = (vs: Involvement[]) => `${vs.filter(v => v.cast === 'yea').length} yea, ${vs.filter(v => v.cast === 'nay').length} nay`
 
   return (
@@ -51,14 +55,14 @@ export function MemberPage({ id }: { id: string }) {
       {rows.length === 0 && <p class="muted">Nothing recorded on the bills tracked so far. Most bills here never reached a vote, so silence is common.</p>}
       <ul class="inv-list">
         {rows.map(([bill, items]) => {
-          const b = items[0]
+          const b = meta.get(bill)!
           const cast = items.filter(i => i.role === 'vote')
           const roles = items.filter(i => i.role !== 'vote')
           return (
-            <li key={bill} class={`inv dir-${b.direction}`}>
+            <li key={bill} class={`inv dir-${b.d}`}>
               <div class="inv-head">
-                <a href={href.bill(bill)}><b>{b.display}</b> · {b.title}</a>
-                <DirectionBadge direction={b.direction as Direction} /> <StatusBadge status={b.status as Status} />
+                <a href={href.bill(bill)}><b>{b.dp}</b> · {b.t}</a>
+                <DirectionBadge direction={b.d as Direction} /> <StatusBadge status={b.st as Status} />
               </div>
               <ul class="inv-items">
                 {roles.map((r, i) => (

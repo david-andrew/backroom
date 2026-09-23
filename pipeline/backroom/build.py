@@ -11,6 +11,8 @@ from .analyze import bloc_with_denominator
 from .schema import AnalysisFile, BillRecord
 
 # Deterministic ranking so the ordering can be re-tuned without re-running models.
+TOP = 500  # bills whose cards ship in one file for the default ranked view
+
 WEIGHTS = {"public_stakes": 0.3, "concentrated_stakes": 0.3, "outcome_against_public": 0.2, "support_mismatch": 0.1, "corruption_relevance": 0.1}
 
 
@@ -135,17 +137,49 @@ def run() -> None:
     index.sort(key=lambda b: -b["rank_score"])
     # One primary per companion set: the version that got furthest, then the higher-ranked one (list is rank-sorted).
     STAGE = {"became_law": 5, "vetoed": 4, "passed_one_chamber_then_stalled": 3, "voted_down": 2, "blocked_from_a_vote": 2, "weakened": 3}
+    by_id = {b["id"]: b for b in index}
     seen: set[str] = set()
     for b in index:
         if b["id"] in seen:
-            b["primary"] = False; continue
-        members = [b["id"], *b["companions"]]
-        best = max((x for x in index if x["id"] in members), key=lambda x: (STAGE.get(x["status"], 0), x["rank_score"]))
-        for x in index:
-            if x["id"] in members:
-                x["primary"] = x["id"] == best["id"]; seen.add(x["id"])
+            continue
+        group = [by_id[i] for i in (b["id"], *b["companions"]) if i in by_id]
+        best = max(group, key=lambda x: (STAGE.get(x["status"], 0), x["rank_score"]))
+        for x in group:
+            x["primary"] = x["id"] is best["id"] or x["id"] == best["id"]
+            seen.add(x["id"])
+
+    # The browser downloads the index before it can show anything, so it carries only what filtering,
+    # sorting and searching need. Card text rides in rank-ordered chunks, fetched for the rows on screen.
+    cat_list = sorted({c for b in index for c in b["categories"]})
+    cat_ix = {c: i for i, c in enumerate(cat_list)}
+    core, chunks = [], []
+    for b in index:
+        core.append({
+            "id": b["id"], "c": b["congress"], "dp": b["display"], "t": b["title"],
+            "st": b["status"], "d": b["direction"], "ct": [cat_ix[c] for c in b["categories"]],
+            "pl": b["party_line"], "r": b["rank_score"], "cr": b["scores"]["corruption_relevance"],
+            "cc": b["cosponsor_count"], "dt": b["introduced"], "sp": (b["sponsors"] or [""])[0],
+            **({} if b.get("primary", True) else {"p": 0}),
+        })
+        chunks.append((b["id"], {
+            "ol": b["one_liner"], "hl": b["headline"], "wb": b["who_benefits_short"],
+            "wp": b["who_pays_short"], "wa": b["who_came_out_ahead_short"],
+            "ind": [[i["industry"], i["effect"], i["stance"]] for i in b["industries"]],
+            "cpc": b["cosponsor_party_counts"], "oc": b["origin_chamber"],
+            "comp": [f'{by_id[c]["display"]} ({by_id[c]["origin_chamber"]})' for c in b["companions"] if c in by_id],
+        }))
+    out_cards = config.SITE_DATA_DIR / "cards"
+    if out_cards.exists():
+        for f in out_cards.glob("*.json"):
+            f.unlink()
+    out_cards.mkdir(parents=True, exist_ok=True)
+    # The landing view is the top of the ranking, so ship that as one file. Everything else is per-bill,
+    # because any other sort scatters across the ranking and whole chunks would be mostly waste.
+    (out_cards / "top.json").write_text(json.dumps(dict(chunks[:TOP])))
+    for bill_id, card in chunks[TOP:]:
+        (out_cards / f"{bill_id}.json").write_text(json.dumps(card))
     (config.SITE_DATA_DIR / "index.json").write_text(json.dumps({
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "weights": WEIGHTS, "caucus": sizes, "bills": index,
+        "weights": WEIGHTS, "caucus": sizes, "categories": cat_list, "top": TOP, "bills": core,
     }))
     print(f"  wrote {len(index)} bills to {config.SITE_DATA_DIR}")

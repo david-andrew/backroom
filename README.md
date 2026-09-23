@@ -94,6 +94,21 @@ Custom domain DNS: an `A`/`AAAA` set pointing the apex at GitHub Pages' IPs (or 
 
 Link-preview image: "United States Capitol west front edit2" via Wikimedia Commons, public domain (U.S. government work by the Architect of the Capitol).
 
+## Site data layout
+
+The browser downloads `index.json` before it can show anything, so it carries only what filtering, sorting and searching need (about 500 KB gzipped for ~10,000 bills, with short keys and category indices). Everything else is fetched on demand:
+
+| File | When | Size |
+|---|---|---|
+| `data/index.json` | always | ~510 KB gz |
+| `data/cards/top.json` | default ranked view | ~81 KB gz |
+| `data/cards/<bill>.json` | one per row outside the top 500 | <1 KB each |
+| `data/bills/<bill>.json` | opening a bill | 5-50 KB |
+| `data/members.json` | representatives pages | ~20 KB gz |
+| `data/members/<bioguide>.json` | opening a member | ~35 KB |
+
+The explorer shows 50 rows at a time. Keep it that way: rendering all ~8,500 primary cards at once is slow regardless of payload.
+
 ## Layout
 
 ```

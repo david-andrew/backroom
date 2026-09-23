@@ -3,14 +3,15 @@ import { signal } from '@preact/signals'
 export interface Member {
   id: string; name: string; party: string; state: string; state_name: string
   district: number | null; chamber: 'Senate' | 'House'; image: string | null
+  n: number   // how many actions this member has on tracked bills
 }
 export interface Involvement {
-  bill: string; display: string; title: string; direction: string; status: string
+  bill: string
   role: 'sponsor' | 'cosponsor' | 'vote' | 'named_for' | 'named_against'
   cast?: 'yea' | 'nay' | 'present' | 'not_voting'; chamber?: string; roll?: number; date?: string; question?: string | null; url?: string
   what?: string; evidence?: string
 }
-export interface MembersData { generated_at: string; roster: Member[]; involvement: Record<string, Involvement[]> }
+export interface MembersData { generated_at: string; roster: Member[] }
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '')
 export const members = signal<MembersData | null>(null)
@@ -96,3 +97,15 @@ export async function districtForPoint(lon: number, lat: number): Promise<{ stat
 }
 
 const FIPS: Record<string, string> = { '01':'AL','02':'AK','04':'AZ','05':'AR','06':'CA','08':'CO','09':'CT','10':'DE','11':'DC','12':'FL','13':'GA','15':'HI','16':'ID','17':'IL','18':'IN','19':'IA','20':'KS','21':'KY','22':'LA','23':'ME','24':'MD','25':'MA','26':'MI','27':'MN','28':'MS','29':'MO','30':'MT','31':'NE','32':'NV','33':'NH','34':'NJ','35':'NM','36':'NY','37':'NC','38':'ND','39':'OH','40':'OK','41':'OR','42':'PA','44':'RI','45':'SC','46':'SD','47':'TN','48':'TX','49':'UT','50':'VT','51':'VA','53':'WA','54':'WV','55':'WI','56':'WY','72':'PR','66':'GU','60':'AS','78':'VI','69':'MP' }
+
+/** One member's history, fetched only when their page opens. */
+const histories = new Map<string, Promise<Involvement[]>>()
+
+export function loadInvolvement(id: string): Promise<Involvement[]> {
+  let p = histories.get(id)
+  if (!p) {
+    p = fetch(`${base}/data/members/${id}.json`).then(r => (r.ok ? r.json() : []), () => [])
+    histories.set(id, p)
+  }
+  return p
+}

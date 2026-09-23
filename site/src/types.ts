@@ -14,38 +14,44 @@ export interface Scores {
 export type Direction = 'for_working_people' | 'for_concentrated_interests' | 'mixed'
 export type PartyLine = 'party_line' | 'mostly_party_line' | 'bipartisan' | 'unclear'
 
-export interface IndexBill {
+/** One row of the compact index: everything filtering, sorting and searching need, and nothing else. */
+export interface CoreBill {
   id: string
-  display: string
-  congress: number
-  title: string
-  introduced: string | null
-  origin_chamber: string | null
-  sponsors: string[]
-  cosponsor_count: number
-  cosponsor_party_counts: Record<string, number>
-  one_liner: string
-  headline: string
-  direction: Direction
-  who_benefits_short: string
-  who_pays_short: string
-  who_came_out_ahead_short: string
-  party_line: PartyLine
-  industries: IndustryBrief[]
-  status: Status
-  categories: string[]
-  scores: Scores
-  rank_score: number
-  congress_ended: boolean
-  companions: string[]
-  lineage: string[]
-  primary: boolean
+  c: number            // congress
+  dp: string           // display, e.g. "S. 413"
+  t: string            // title
+  st: Status
+  d: Direction
+  ct: number[]         // indices into Index.categories
+  pl: PartyLine
+  r: number            // rank score
+  cr: number           // corruption relevance
+  cc: number           // cosponsor count
+  dt: string | null    // introduced
+  sp: string           // first sponsor
+  p?: 0                // present and 0 when this is not the primary of its companion set
+  _i?: number          // position in rank order, set on load; picks the card chunk
+}
+
+/** Card text for one bill, fetched in rank-ordered chunks. */
+export interface Card {
+  ol: string           // one-liner
+  hl: string           // headline
+  wb: string           // who benefits, short
+  wp: string           // who pays, short
+  wa: string           // who came out ahead, short
+  ind: [string, IndustryEffectKind, Stance][]
+  cpc: Record<string, number>
+  oc: string | null
+  comp: string[]       // companion bills, already formatted
 }
 
 export interface Index {
   generated_at: string
   weights: Record<string, number>
-  bills: IndexBill[]
+  categories: string[]
+  top: number
+  bills: CoreBill[]
 }
 
 export interface Claim { text: string; sources: string[] }

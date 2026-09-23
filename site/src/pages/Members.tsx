@@ -113,7 +113,7 @@ export function Members() {
       </div>
 
       <ul class="member-list">
-        {shown.value.map(m => <MemberCard m={m} key={m.id} n={data.involvement[m.id]?.length ?? 0} />)}
+        {shown.value.map(m => <MemberCard m={m} key={m.id} n={m.n} />)}
       </ul>
       {!shown.value.length && (state.value || query.value) && <p class="muted">No current members match.</p>}
       <p class="muted small">Roster from Congress.gov, {new Date(data.generated_at).toLocaleDateString()}. Address suggestions come from Photon (OpenStreetMap data) and the district match from the U.S. Census Bureau; what you type is sent to those two services and not stored here.</p>

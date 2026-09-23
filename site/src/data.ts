@@ -1,5 +1,5 @@
 import { signal } from '@preact/signals'
-import type { BillPage, Index } from './types'
+import type { BillPage, Card, Index } from './types'
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '')
 
@@ -8,14 +8,54 @@ export const indexError = signal<string | null>(null)
 const pages = new Map<string, Promise<BillPage>>()
 
 export async function loadIndex(): Promise<void> {
-  if (index.value) return
+  if (index.value || loadingIndex) return
+  loadingIndex = true
   try {
     const r = await fetch(`${base}/data/index.json`)
     if (!r.ok) throw new Error(`${r.status} loading index.json`)
-    index.value = await r.json()
+    const d: Index = await r.json()
+    d.bills.forEach((b, i) => { b._i = i })   // rank order decides which chunk holds the card
+    index.value = d
   } catch (e) {
     indexError.value = String(e)
+  } finally {
+    loadingIndex = false
   }
+}
+let loadingIndex = false
+
+/** Card text: the top of the ranking arrives in one file, anything else one bill at a time. */
+export const cards = signal<Map<string, Card>>(new Map())
+const asked = new Set<string>()
+let topLoaded: Promise<void> | null = null
+
+function loadTop(): Promise<void> {
+  if (!topLoaded) {
+    topLoaded = fetch(`${base}/data/cards/top.json`)
+      .then(r => (r.ok ? r.json() : {}), () => ({}))
+      .then((part: Record<string, Card>) => {
+        const next = new Map(cards.value)
+        for (const [id, c] of Object.entries(part)) { next.set(id, c); asked.add(id) }
+        cards.value = next
+      })
+  }
+  return topLoaded
+}
+
+export async function loadCards(ids: string[], anyBelowTop: boolean): Promise<void> {
+  if (anyBelowTop) await loadTop()
+  const todo = ids.filter(id => !asked.has(id))
+  if (!todo.length) return
+  todo.forEach(id => asked.add(id))
+  const got = await Promise.all(todo.map(async id => {
+    try {
+      const r = await fetch(`${base}/data/cards/${id}.json`)
+      return r.ok ? [id, (await r.json()) as Card] as const : null
+    } catch { asked.delete(id); return null }
+  }))
+  const next = new Map(cards.value)
+  for (const g of got) if (g) next.set(g[0], g[1])
+  cards.value = next
 }
 
 export function loadBill(id: string): Promise<BillPage> {

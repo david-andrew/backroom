@@ -94,8 +94,10 @@ def build_index(members: list[dict]) -> dict:
                 if len(cands) == 1:
                     add(cands[0]["id"], {**base, "role": f"named_{side}", "what": k.what_they_did, "evidence": k.evidence})
 
-    # Only ship members with any involvement, plus a slim roster for lookup.
+    # The roster is what every page needs; one member's history is fetched only when their page opens.
     roster = [{k: m[k] for k in ("id", "name", "party", "state", "state_name", "district", "chamber", "image")} for m in members]
+    for m in roster:
+        m["n"] = len(inv.get(m["id"], []))
     return {"generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "roster": roster, "involvement": {k: v for k, v in inv.items() if v}}
 
@@ -104,6 +106,16 @@ def run(force: bool = False) -> None:
     members = fetch_current(force)
     idx = build_index(members)
     config.SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
-    (config.SITE_DATA_DIR / "members.json").write_text(json.dumps(idx))
+    (config.SITE_DATA_DIR / "members.json").write_text(json.dumps(
+        {"generated_at": idx["generated_at"], "roster": idx["roster"]}))
+    out = config.SITE_DATA_DIR / "members"
+    for f in out.glob("*.json"):
+        f.unlink()
+    out.mkdir(parents=True, exist_ok=True)
+    # Bill title, status and direction come from the index the page already has; don't repeat them per member.
+    slim_keys = ("bill", "role", "cast", "chamber", "roll", "date", "question", "url", "what", "evidence")
+    for mid, items in idx["involvement"].items():
+        (out / f"{mid}.json").write_text(json.dumps(
+            [{k: v for k, v in i.items() if k in slim_keys and v is not None} for i in items]))
     n = sum(len(v) for v in idx["involvement"].values())
     print(f"  members index: {len(idx['involvement'])} members with {n} involvements")
